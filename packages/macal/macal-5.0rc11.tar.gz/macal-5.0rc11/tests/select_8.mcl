@@ -1,0 +1,14 @@
+var = [{'id': '645140646620824332', 
+         'name': 'Stage Entertainment', 
+         'url': 'https://n599.meraki.com/o/g5wDyasc/manage/organization/overview', 
+         'samlConsumerUrl': 'https://n599.meraki.com/saml/login/g5wDyasc/pm3nsalc547a', 
+         'samlConsumerUrls': ['https://n599.meraki.com/saml/login/g5wDyasc/pm3nsalc547a'], 
+         'api': {'enabled': true}, 
+         'licensing': {'model': 'co-term'}, 
+         'cloud': {'region': {'name': 'Europe'}}, 
+         'management': {'details': []}}];
+
+org_id = '645140646620824332';
+
+select name from var where id == org_id into org;
+print(org);
