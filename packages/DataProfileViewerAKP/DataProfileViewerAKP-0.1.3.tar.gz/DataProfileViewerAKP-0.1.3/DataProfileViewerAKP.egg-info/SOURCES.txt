@@ -1,0 +1,7 @@
+setup.py
+DataProfileViewerAKP/DataProfileViewerAKP.py
+DataProfileViewerAKP/__init__.py
+DataProfileViewerAKP.egg-info/PKG-INFO
+DataProfileViewerAKP.egg-info/SOURCES.txt
+DataProfileViewerAKP.egg-info/dependency_links.txt
+DataProfileViewerAKP.egg-info/top_level.txt
