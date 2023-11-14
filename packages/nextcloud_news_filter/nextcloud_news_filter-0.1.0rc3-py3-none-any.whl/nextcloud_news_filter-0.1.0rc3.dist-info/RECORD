@@ -1,0 +1,9 @@
+nextcloud_news_filter-0.1.0rc3.dist-info/METADATA,sha256=5Jtrlk6xL1zt_DqHL2UOPn4_r5znnOrjgSCVKko_m60,3131
+nextcloud_news_filter-0.1.0rc3.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+nextcloud_news_filter-0.1.0rc3.dist-info/entry_points.txt,sha256=z207EWp7qiMeI1De7GuXtnEmJWzKF7JZOdGgwYWDJZA,74
+nextcloud_news_filter/__init__.py,sha256=hVboMjgvpHcRFT5j2vyE7g7TMzA6f4v6S2MrhZ1u1Rg,1044
+nextcloud_news_filter/cli.py,sha256=4EVQGzovporwtur-ufadMEQWeRyyqYuRhDas-nYPEVM,434
+nextcloud_news_filter/config.py,sha256=bPRYIWyAg9WykJXsfS9yaiysNCbJvn9S0hhMiU1w1YA,1422
+nextcloud_news_filter/filter.py,sha256=zcKvZjVv7Zb-hMIuCqyN37mxt1qEMOy9-1LxlglHVGY,5022
+nextcloud_news_filter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nextcloud_news_filter-0.1.0rc3.dist-info/RECORD,,

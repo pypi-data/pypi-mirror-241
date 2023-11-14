@@ -1,0 +1,3 @@
+[console_scripts]
+nextcloud_news_filter = nextcloud_news_filter.cli:main
+
