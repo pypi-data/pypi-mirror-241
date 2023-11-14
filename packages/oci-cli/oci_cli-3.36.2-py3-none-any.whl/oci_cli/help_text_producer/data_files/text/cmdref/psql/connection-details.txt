@@ -1,0 +1,15 @@
+connection-details
+******************
+
+
+Description
+===========
+
+The real-time DbSystem configuration that customers can use for
+getting access to the PostgreSQL instance.
+
+
+Available Commands
+==================
+
+* get

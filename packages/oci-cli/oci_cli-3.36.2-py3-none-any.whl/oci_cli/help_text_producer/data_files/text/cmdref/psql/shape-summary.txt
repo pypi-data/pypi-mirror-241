@@ -1,0 +1,14 @@
+shape-summary
+*************
+
+
+Description
+===========
+
+Summary of the DbSystem shape.
+
+
+Available Commands
+==================
+
+* list-shapes
