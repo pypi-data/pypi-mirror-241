@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: DataProfileViewerAKP
+Version: 0.1.6
+Summary: Data Profiler Library
+Author: Abhijeet Subhash Kasab
+Author-email: abhijeetkasab07@gmail.com
+License: The Unlicense
+Requires-Python: >=3.7
+
