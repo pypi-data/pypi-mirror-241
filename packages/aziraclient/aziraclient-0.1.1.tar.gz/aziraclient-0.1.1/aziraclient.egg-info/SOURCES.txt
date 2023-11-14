@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+auth/__init__.py
+auth/auth_client.py
+aziraclient.egg-info/PKG-INFO
+aziraclient.egg-info/SOURCES.txt
+aziraclient.egg-info/dependency_links.txt
+aziraclient.egg-info/requires.txt
+aziraclient.egg-info/top_level.txt
+connector/__init__.py
+connector/connection.py
+message_bus/__init__.py
+message_bus/message_bus_tester.py
+subscription/__init__.py
+subscription/subscription.py
