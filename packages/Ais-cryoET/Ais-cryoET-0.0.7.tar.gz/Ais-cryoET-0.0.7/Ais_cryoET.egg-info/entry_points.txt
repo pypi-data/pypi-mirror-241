@@ -1,0 +1,4 @@
+[console_scripts]
+ais = scNodes.main:main
+ais-cryoet = scNodes.main:main
+
