@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: cyprint
+Version: 1.0.6
+Summary: Customized colorful logging in Python
+Home-page: https://pypi.org/manage/project/cyprint
+Author: xciny
+Author-email: 229735037@qq.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+
+# CyPrint
+
+CyPrint is a Python package for customized colorful logging.
+
+## Installation
+
+You can install CyPrint using pip:
+
+```bash
+pip install cyprint
+```
+
+## Usage
+
+```python
+from cyprint import cyprint
+
+cyprint('info信息', "INFO")
+cyprint('警告信息', "WARNING")
+cyprint('成功信息', "SUCCESS")
+cyprint('错误信息', "ERROR")
+cyprint('debug信息', "DEBUG")
+```
+
+### Customizing Log Messages
+
+You can also create custom log messages by specifying the log level:
+
+```python
+cyprint('Custom message', 'debug')
+```
+
+## Contributing
+
+We welcome contributions! If you'd like to contribute to CyPrint, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE] file for details.
+```
+
+将上述内容保存到名为 `README.md` 的文件中，确保其中的信息与你的项目一致，并提供必要的安装和使用示例。然后将它放在你的项目根目录下。
