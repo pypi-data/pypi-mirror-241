@@ -1,0 +1,10 @@
+jupyterhub_fancy_profiles/__init__.py,sha256=wHpT0RcT42w9UTGsO1Kb40Y7VSq83vaGDMGuI5PoDLs,753
+jupyterhub_fancy_profiles/_version.py,sha256=H-qsvrxCpdhaQzyddR-yajEqI71hPxLa4KxzpP3uS1g,411
+jupyterhub_fancy_profiles/static/dist/form.js,sha256=UUwRkrU95VVBJ7f5LagXlrFgj2_ExwIT4EVRqQN5B9w,2064952
+jupyterhub_fancy_profiles/static/dist/form.js.map,sha256=9A_W3fIyYT-vUlP9JY-QgooqJKE0otNLmEDs_c6ev9M,2285368
+jupyterhub_fancy_profiles/templates/form.html,sha256=rT13iFpEChR7jviIFOFHxrn58uzZI_Jd7p0K2i7ONfU,314
+jupyterhub_fancy_profiles-0.2.0.dist-info/LICENSE,sha256=TRbJZ6XDdkSVmyVU9_6nobjpdzOBEG6ri7FKFzEh1Ig,1497
+jupyterhub_fancy_profiles-0.2.0.dist-info/METADATA,sha256=kgj44qbbTKpbaUvKnH-K10LKp51OWjm3ITLja1dPSuI,3300
+jupyterhub_fancy_profiles-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jupyterhub_fancy_profiles-0.2.0.dist-info/top_level.txt,sha256=Z7tpUHcZh_taEJYeQY6gRirwkUw4yLg6tuu0P75B8T0,26
+jupyterhub_fancy_profiles-0.2.0.dist-info/RECORD,,
