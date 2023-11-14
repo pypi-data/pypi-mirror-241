@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MyAppModules
+Version: 1.0
+Summary: MyAppModules
+Author: Farah Ben Mohamed
+Author-email: farahbenmohamed.carnelian@gmail.com
+Requires-Dist: asgiref==3.7.2
+Requires-Dist: Django==3.2.12
+Requires-Dist: djangorestframework==3.14.0
+Requires-Dist: python-decouple==3.4
+Requires-Dist: pytz==2023.3.post1
+Requires-Dist: sqlparse==0.4.4
+Requires-Dist: typing_extensions==4.8.0
+Requires-Dist: setuptools==68.2.2
+Requires-Dist: wheel==0.41.3
+Requires-Dist: twine==4.0.2
