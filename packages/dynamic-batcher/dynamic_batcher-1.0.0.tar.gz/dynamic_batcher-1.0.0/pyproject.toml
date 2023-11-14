@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynamic_batcher"
+authors = [
+  { name="Youngju Jaden Kim", email="pydemia@gmail.com" },
+]
+description = "A daemon processor for gathering requests into a batch."
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+]
+dependencies = [
+    "redis",
+    "autologging",
+]
+dynamic = ["version", "readme"]
+
+[project.urls]
+Homepage = "https://github.com/pydemia/dynamic_batcher"
+Changelog = "https://github.com/pydemia/dynamic_batcher/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/pydemia/dynamic_batcher/issues"
+
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "fastapi",
+    "locust",
+    "python-dotenv",
+    "gunicorn",
+    "uvicorn",
+]
+dev = [
+    "setuptools",
+    "wheel",
+    "twine",
+    "build",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[tool.setuptools.packages.find]
+include = [
+    "dynamic_batcher*"
+]
+exclude = [
+    "test*",
+    "e2e*",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "dynamic_batcher.__version__"}
+readme = {file = ["README.rst"]}
