@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: livepeer
+Version: 0.0.1
+Summary: Python library for the Livepeer API.
+Author: Livepeer
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+The Livepeer Python library provides convenient access to the Livepeer Studio API from applications written in Python
