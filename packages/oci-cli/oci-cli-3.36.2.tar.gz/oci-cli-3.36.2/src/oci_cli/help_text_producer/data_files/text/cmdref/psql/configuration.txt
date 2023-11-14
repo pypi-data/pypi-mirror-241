@@ -1,0 +1,22 @@
+configuration
+*************
+
+
+Description
+===========
+
+Db system Postgresql Configuration
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* create
+
+* delete
+
+* get
+
+* update
