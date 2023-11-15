@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/setuppy_mahfooz/__init__.py
+src/setuppy_mahfooz/add.py
+src/setuppy_mahfooz/subtract.py
+src/setuppy_mahfooz.egg-info/PKG-INFO
+src/setuppy_mahfooz.egg-info/SOURCES.txt
+src/setuppy_mahfooz.egg-info/dependency_links.txt
+src/setuppy_mahfooz.egg-info/requires.txt
+src/setuppy_mahfooz.egg-info/top_level.txt
+src/setuppy_mahfooz/extras/__init__.py
+src/setuppy_mahfooz/extras/divide.py
+src/setuppy_mahfooz/extras/multiply.py

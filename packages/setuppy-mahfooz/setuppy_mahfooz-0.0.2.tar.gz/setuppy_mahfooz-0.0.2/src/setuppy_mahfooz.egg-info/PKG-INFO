@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: setuppy-mahfooz
+Version: 0.0.2
+Summary: package using setup.py
+Author: Mahfooz Alam
+Author-email: mahfooz.iiitian@gmail.com
+Keywords: python,setup.py,package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+First project using setup.py
