@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pyterrier_caching/__init__.py
+pyterrier_caching/builder.py
+pyterrier_caching/indexer_cache.py
+pyterrier_caching/scorer_cache.py
+pyterrier_caching/util.py
+pyterrier_caching.egg-info/PKG-INFO
+pyterrier_caching.egg-info/SOURCES.txt
+pyterrier_caching.egg-info/dependency_links.txt
+pyterrier_caching.egg-info/requires.txt
+pyterrier_caching.egg-info/top_level.txt
+test/test_indexer_cache.py
+test/test_scorer_cache.py
