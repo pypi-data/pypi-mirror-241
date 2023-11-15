@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+base_conversion_kit/__init__.py
+base_conversion_kit/base_conversion_kit.py
+base_conversion_kit.egg-info/PKG-INFO
+base_conversion_kit.egg-info/SOURCES.txt
+base_conversion_kit.egg-info/dependency_links.txt
+base_conversion_kit.egg-info/requires.txt
+base_conversion_kit.egg-info/top_level.txt
