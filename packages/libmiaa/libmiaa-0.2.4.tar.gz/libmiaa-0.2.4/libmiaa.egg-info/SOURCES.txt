@@ -1,0 +1,9 @@
+README.md
+setup.py
+libmiaa/__init__.py
+libmiaa/modulo.py
+libmiaa.egg-info/PKG-INFO
+libmiaa.egg-info/SOURCES.txt
+libmiaa.egg-info/dependency_links.txt
+libmiaa.egg-info/requires.txt
+libmiaa.egg-info/top_level.txt
