@@ -1,0 +1,14 @@
+wheel
+numpy
+matplotlib
+seaborn
+pandas
+openai
+scikit-learn
+scipy
+tiktoken
+ppscore
+plotly
+networkx
+langchain
+csv-schema-inference
