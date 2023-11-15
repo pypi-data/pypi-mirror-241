@@ -1,0 +1,2 @@
+[console_scripts]
+discoauth = discoauth.__main__:cli

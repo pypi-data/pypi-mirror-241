@@ -1,0 +1,16 @@
+discoauth/__init__.py,sha256=LiKqxmZ_M_Ch3UemEMpOM3jhtnPQFjAMKQOrzYFMDLI,176
+discoauth/__main__.py,sha256=At6pBKOGxm9_1m_OsmZoWkbGKECJd0BTEo8Otc_ffpQ,3194
+discoauth/__version__.py,sha256=W4ytqqsQV5pV1LLjoxe7-Wzn3rfu8FxdHgnqmeZ8vGY,120
+discoauth/common.py,sha256=sp3F0NSQPKn8M3Pj7MNM9UsByZgLIqqtmE2ldcWyOmg,6858
+discoauth/exceptions.py,sha256=afGBiqHQeFAdLo0Oddby2PwsEt_eQE8eA4U_SWnHv00,511
+discoauth/models.py,sha256=kqSc8md-9n5quzju7COp6AeiMSHubonMzDgN2sZm7YI,6564
+discoauth/url.py,sha256=LTZRwcSihFzRRq1gcoswRdZfQM-hBernbrKg7Yzg_Y8,12545
+discoauth/deprecated/common.py,sha256=sp3F0NSQPKn8M3Pj7MNM9UsByZgLIqqtmE2ldcWyOmg,6858
+discoauth/deprecated/models.py,sha256=kqSc8md-9n5quzju7COp6AeiMSHubonMzDgN2sZm7YI,6564
+discoauth/deprecated/url.py,sha256=RqnUhkoEohICmuwJi8JFDigxAkqswY0gsSspwANYdqc,11705
+discoauth-2.0.0.dist-info/LICENSE,sha256=KFK-5gJodvPzn3QPEXV9NNtn7YZHXZobo3uP_YS6htI,1067
+discoauth-2.0.0.dist-info/METADATA,sha256=RikoBRkhUqIpnhoYTpM8k_UnX0LaUDzWFA7mGchFj5U,4331
+discoauth-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+discoauth-2.0.0.dist-info/entry_points.txt,sha256=KbIwrom9wDm1lGwFETIeIGBDds7bqozQFNwL0FXmWws,53
+discoauth-2.0.0.dist-info/top_level.txt,sha256=Eo3G5URZ7vRWLjsbLTxeyexXtTIgZ-1mapaCvXWtRd8,10
+discoauth-2.0.0.dist-info/RECORD,,
