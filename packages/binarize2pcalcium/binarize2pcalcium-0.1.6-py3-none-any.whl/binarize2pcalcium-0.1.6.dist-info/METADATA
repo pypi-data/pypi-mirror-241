@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: binarize2pcalcium
+Version: 0.1.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: networkx
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: parmap
+
+# Markdown supported!
+
+* Cheer
+* Celebrate
