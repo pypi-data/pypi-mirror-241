@@ -1,0 +1,112 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.coverage.report]
+exclude_lines = [
+  'pragma: no cover',
+  'raise NotImplementedError',
+  'if TYPE_CHECKING:',
+  'if typing.TYPE_CHECKING:'
+]
+precision = 2
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+
+[tool.poetry]
+authors = ["Jérome Eertmans <jeertmans@icloud.com>"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering"
+]
+description = "Differentiable Ray Tracing Toolbox for Radio Propagation Simulations"
+documentation = "https://eertmans.be/DiffeRT"
+exclude = ["docs/", "static/"]
+homepage = "https://github.com/jeertmans/DiffeRT"
+keywords = ["ray tracing", "differentiable", "propagation", "radio", "jax"]
+license = "MIT"
+name = "DiffeRT"
+packages = [
+  {include = "differt"}
+]
+readme = "README.md"
+repository = "https://github.com/jeertmans/DiffeRT"
+version = "0.0.5"
+
+[tool.poetry.dependencies]
+chex = "^0.1.84"
+differt-core = "0.0.5"
+jax = "^0.4.20"
+jaxtyping = "^0.2.23"
+matplotlib = {version = "^3.8.1", optional = true}
+numpy = "^1.26.1"
+open3d = {version = "^0.17.0", python = "<3.11", optional = true}  # Waiting 0.18 for Python 3.11
+plotly = {version = "^5.18.0", optional = true}
+python = ">=3.9,<3.13"
+
+[tool.poetry.extras]
+matplotlib = ["matplotlib"]
+open3d = ["open3d"]
+plotly = ["plotly"]
+plotting = ["matplotlib", "plotly"]
+
+[tool.poetry.group.dev.dependencies]
+bump2version = "^1.0.1"
+pre-commit = "^3.5.0"
+
+[tool.poetry.group.docs.dependencies]
+myst-nb = "^0.17.2"
+sphinx = "<7"
+sphinx-autodoc-typehints = "^1.23"
+sphinx-book-theme = "^1.0.1"
+sphinx-copybutton = "^0.5.2"
+sphinx-design = "^0.5.0"
+sphinx-remove-toctrees = "^0.0.3"
+sphinxext-opengraph = "^0.9.0"
+
+[tool.poetry.group.github-action.dependencies]
+jax = {extras = ["cpu"], version = "^0.4.20"}
+open3d-cpu = {version = "^0.17.0", python = "<3.11"}
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+pytest-benchmark = "^4.0.0"
+pytest-cov = "^4.1.0"
+pytest-xdist = "^3.3.1"
+tomli = "^2.0.1"
+
+[tool.pytest.ini_options]
+addopts = [
+  '--doctest-modules',
+  '--doctest-ignore-import-errors',
+  '--benchmark-columns',
+  'min,mean,stddev,outliers,rounds,iterations',
+  '--benchmark-group-by',
+  'group',
+  '--benchmark-warmup',
+  'on',
+  '--benchmark-skip'
+]
+
+[tool.ruff]
+extend-ignore = [
+  "D203",  # no-blank-line-before-class
+  "D212",  # multi-line-summary-second-line
+  "D407",  # Missing dashed underline after section
+  "F722"  # Syntax error in forward annotation
+]
+extend-include = ["*.ipynb"]
+extend-select = ["B", "C90", "D", "I", "N", "RUF", "UP", "T"]
+isort = {known-first-party = ["differt", "tests"]}
+target-version = "py39"
+
+[tool.ruff.pydocstyle]
+convention = "google"
