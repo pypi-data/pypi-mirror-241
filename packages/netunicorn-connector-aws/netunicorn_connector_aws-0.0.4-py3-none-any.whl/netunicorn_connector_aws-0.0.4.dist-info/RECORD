@@ -1,0 +1,7 @@
+netunicorn/director/infrastructure/connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netunicorn/director/infrastructure/connectors/aws.py,sha256=td8aUUjiYhT-BKlS3g_6QDJfEXTVmin1ELu4rJ10z6I,18777
+netunicorn_connector_aws-0.0.4.dist-info/LICENSE,sha256=CUNlYQZD1fjoVn-mherOoDS25z2w12-xhVe0EFhWHeA,1072
+netunicorn_connector_aws-0.0.4.dist-info/METADATA,sha256=tHmkfux5SMv6x0Lid488f7wltCRxIHuuAU2678nwiYY,1169
+netunicorn_connector_aws-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+netunicorn_connector_aws-0.0.4.dist-info/top_level.txt,sha256=XSz-VoRN-G4RG8grlQLx9GLvtfwPux79woTFCALT3gI,11
+netunicorn_connector_aws-0.0.4.dist-info/RECORD,,
