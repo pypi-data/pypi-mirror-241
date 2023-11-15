@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: smbio
+Version: 0.1.0
+Summary: SMB protocol wrapper for python
+License: MIT
+Author: German Arutyunov
+Author-email: germanarutyunov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: smbprotocol (>=1.12.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# smbio
+SMB protocol wrapper for python
+
+## Installation
+
+```bash
+pip install smbio
+```
+
+## Usage
+
+```python
+import smbio
+
+connector = smbio.Connector(
+    url=r"\\localhost\Share",
+    username="Username",
+    password="StrongPa$$w0rd"
+)
+
+with (
+    connector.connect() as conn,
+    connector.mount(conn) as session,
+    connector.tree(session) as tree,
+    connector.open(tree, r"Directory\Subdirectory") as directory
+):
+    files = smbio.glob(connector, directory, recurse=False)
+    for out in files:
+        if out.is_directory:
+            continue
+        
+        with (
+            open(smbio.Path(out.path), mode="rb") as inp_file,
+            connector.open(tree, out.path) as out_file
+        ):
+            out_file.write(inp_file.read())
+```
