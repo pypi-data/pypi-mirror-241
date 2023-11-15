@@ -1,0 +1,15 @@
+nicegui_add/__init__.py,sha256=6FwZeZbuReS19gOkmsqQEczQk4e1ke2gAlFBG98y4AE,29
+nicegui_add/aui/__init__.py,sha256=mOOJw8yfaooF9SfuHjDCj8SBFIcgqluhvVM34sXoWKg,487
+nicegui_add/aui/bar.py,sha256=P3CNfjJchW5OHc9EzWlV-FZFGT4IgJrQ0iqJDb7k8J8,466
+nicegui_add/aui/breadcrumbs.py,sha256=4m-maPxx8f5LKgc_SeZn7bdF3B0lvIaC-Yl9uOzHyyk,1113
+nicegui_add/aui/space.py,sha256=oXIXCDbgSGo7KWhbe1hyvhBBsPUZEOutetow3gI7Mbo,411
+nicegui_add/aui/toolbar.py,sha256=jQ4AfDjQeq8EEaol_lHcmU4L2Fn4xkAP_mZqKjvtX9I,1080
+nicegui_add/aui/window_drag.py,sha256=7IfXTBagntAwgkxLwNqrK8IXEKIICBoXCOM74C17_yA,64
+nicegui_add/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nicegui_add/tests/bar.py,sha256=Ast26TsTBvx6vf4ZW2qiLAl6XqSTDHCBNXOVcGw3PFA,557
+nicegui_add/tests/breadcrumbs.py,sha256=sm70IMNcb7TFSc6q4Na1pszKHyObNTE5mc9H-m5PlIA,615
+nicegui_add/tests/frameless_window.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nicegui_add/tests/toolbar.py,sha256=GZgsnMFGM1UFyuMPMKb8JemMez_GFGgKcJe30DJUdPI,510
+nicegui_add-0.0.1.dist-info/METADATA,sha256=D5gftc-YakCqLxI8OgjQy8lIxfj7_VRAwCkSqZARzhM,1113
+nicegui_add-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+nicegui_add-0.0.1.dist-info/RECORD,,
