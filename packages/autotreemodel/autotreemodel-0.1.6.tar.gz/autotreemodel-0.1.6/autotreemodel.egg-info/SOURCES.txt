@@ -1,0 +1,115 @@
+.editorconfig
+.gitignore
+.travis.yml
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+requirements.txt
+ryan_tutorial_code.py
+setup.cfg
+setup.py
+.github/ISSUE_TEMPLATE.md
+autotreemodel/__init__.py
+autotreemodel/auto_build_tree_model.py
+autotreemodel/autotreemodel.py
+autotreemodel/bayes_opt_tuner.py
+autotreemodel/cli.py
+autotreemodel/feature_selection_2_treemodel.py
+autotreemodel/logger_utils.py
+autotreemodel/plot_metrics.py
+autotreemodel/utils.py
+autotreemodel.egg-info/PKG-INFO
+autotreemodel.egg-info/SOURCES.txt
+autotreemodel.egg-info/dependency_links.txt
+autotreemodel.egg-info/entry_points.txt
+autotreemodel.egg-info/not-zip-safe
+autotreemodel.egg-info/requires.txt
+autotreemodel.egg-info/top_level.txt
+docs/Makefile
+docs/authors.rst
+docs/conf.py
+docs/contributing.rst
+docs/history.rst
+docs/index.rst
+docs/installation.rst
+docs/make.bat
+docs/readme.rst
+docs/usage.rst
+examples/curve_result/all/all F1_score Curve.png
+examples/curve_result/all/all KS Curve.png
+examples/curve_result/all/all PR Curve.png
+examples/curve_result/all/all Precision Curve.png
+examples/curve_result/all/all ROC Curve.png
+examples/curve_result/all/all Recall Curve.png
+examples/curve_result/all/all_res_json.json
+examples/curve_result/test/test F1_score Curve.png
+examples/curve_result/test/test KS Curve.png
+examples/curve_result/test/test PR Curve.png
+examples/curve_result/test/test Precision Curve.png
+examples/curve_result/test/test ROC Curve.png
+examples/curve_result/test/test Recall Curve.png
+examples/curve_result/test/test_res_json.json
+examples/curve_result/train/train F1_score Curve.png
+examples/curve_result/train/train KS Curve.png
+examples/curve_result/train/train PR Curve.png
+examples/curve_result/train/train Precision Curve.png
+examples/curve_result/train/train ROC Curve.png
+examples/curve_result/train/train Recall Curve.png
+examples/curve_result/train/train_res_json.json
+examples/example_data/TT01p1_id_y_fea_to_model.csv
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb.ml
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb.params
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb.txt
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb_auc_ks_psi.csv
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb_featureimportance.csv
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb_input.csv
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb_pred_to_report_data.csv
+examples/example_model_result/TT00p1/20221112171831_1668244711/xgb_sk.ml
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb.ml
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb.params
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb.txt
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb_auc_ks_psi.csv
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb_featureimportance.csv
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb_input.csv
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb_pred_to_report_data.csv
+examples/example_model_result/TT00p1/20221112172304_1668244984/xgb_sk.ml
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb.ml
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb.params
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb.txt
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb_auc_ks_psi.csv
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb_featureimportance.csv
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb_input.csv
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb_pred_to_report_data.csv
+examples/example_model_result/TT00p1/20221112173332_1668245612/xgb_sk.ml
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb.ml
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb.params
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb.txt
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb_auc_ks_psi.csv
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb_featureimportance.csv
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb_input.csv
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb_pred_to_report_data.csv
+examples/example_model_result/TT00p1/20221112231143_1668265903/xgb_sk.ml
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb.ml
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb.params
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb.txt
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb_auc_ks_psi.csv
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb_featureimportance.csv
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb_input.csv
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb_pred_to_report_data.csv
+examples/example_model_result/TT01p1/20220829100224_1661738544/xgb_sk.ml
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb.ml
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb.params
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb.txt
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb_auc_ks_psi.csv
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb_featureimportance.csv
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb_input.csv
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb_pred_to_report_data.csv
+examples/example_model_result/TT01p1/20221112172456_1668245096/xgb_sk.ml
+images/干饭人.png
+images/魔都数据干饭人.png
+tests/__init__.py
+tests/test_autotreemodel.py

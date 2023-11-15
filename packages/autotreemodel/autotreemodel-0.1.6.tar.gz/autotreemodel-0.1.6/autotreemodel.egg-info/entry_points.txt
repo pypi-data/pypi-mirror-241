@@ -1,0 +1,3 @@
+[console_scripts]
+autotreemodel = autotreemodel.cli:main
+
