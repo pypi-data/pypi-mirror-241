@@ -1,0 +1,2 @@
+[console_scripts]
+chatgpt = conv_anal.interactive:main
