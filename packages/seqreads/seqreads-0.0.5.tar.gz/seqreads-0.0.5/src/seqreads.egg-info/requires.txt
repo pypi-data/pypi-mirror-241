@@ -1,0 +1,2 @@
+na_Quantors>=1.0
+Bio>=1.6
