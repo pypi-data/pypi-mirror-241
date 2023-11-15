@@ -1,0 +1,4 @@
+requests
+
+[AWS]
+boto3
