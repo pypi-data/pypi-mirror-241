@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: odc-cloud
+Version: 0.2.4
+Summary: Various AWS helper methods
+Home-page: https://github.com/opendatacube/odc-tools/
+Author: Open Data Cube
+Author-email: 
+Maintainer: Open Data Cube
+Maintainer-email: 
+License: Apache License 2.0
+Platform: any
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: botocore
+Requires-Dist: boto3
+Provides-Extra: async
+Requires-Dist: aiobotocore[boto3] >=1.0 ; extra == 'async'
+Provides-Extra: azure
+Requires-Dist: azure-storage-blob ; extra == 'azure'
+Provides-Extra: thredds
+Requires-Dist: thredds-crawler ; extra == 'thredds'
+Requires-Dist: requests ; extra == 'thredds'
+
+odc.cloud
+=========
+
+Various cloud access helper methods.
+
+This package ships several namespaces:
+
+- `odc.aws.` S3 and other AWS resources
+- `odc.aio.` S3 but async, depends (needs `[ASYNC]` feature flag, pulls in `aiobotocore`)
+- `odc.azure.` Azure blob storage traversal helpers (needs `[AZURE]` feature flag)
+- `odc.thredds.` THREDDS traversal helper method (needs `[THREDDS]` feature flag)
+
+
+Installation
+------------
+
+```
+pip install odc-cloud
+```
+
+Usage
+-----
+
+TODO

@@ -1,0 +1,17 @@
+odc/aio.py,sha256=fnyf9d1aMvvWMZM9KoUV9IFpPw70MquVihSyDH6WNOc,16809
+odc/azure.py,sha256=Mm-ouK0cKIpZAmBAKH0FuKROhfuWSaK87dX1jMmzNOI,2687
+odc/ppt.py,sha256=-Vn5MVw7pOyYRSQMRuP0FK8Rlfvtt0nnIYYGvNV_5Yg,5702
+odc/thredds.py,sha256=Xc_r5mCag64MIOYs_ZhvBl3jDvaOcaapwPrI2tGSOrI,2459
+odc/aws/__init__.py,sha256=lPuIDBCIm1N2ziTxzTxnOOWLDZHCCXk_3Gg7TYW7dLA,16548
+odc/aws/_find.py,sha256=HmimofvwFX-UdHG-btcXg-XzrIyq3TEZExnAr4hR9Tk,1810
+odc/aws/dns.py,sha256=KLIOUz-B-n8ln9y27cPNkjbHxRHkfD1KYrLaoM7vEYc,3479
+odc/aws/inventory.py,sha256=1smmh6N99iDTctyPjKgXPjlezxdqGFKK7X34saXMniE,3259
+odc/aws/misc.py,sha256=jX-azRoxPOxAI7674tn6sQdvzXM-OaMREphQ3XRhf-I,2130
+odc/aws/queue.py,sha256=ZierCC-HSkey0ytjVNi8jZvlM905MhTv-w_k-PraSPo,6551
+odc/cloud/__init__.py,sha256=26Wdg9R3_Dwde7RuyBsrXvQLRuWLAveenLvYyWaIoq4,48
+odc/cloud/_version.py,sha256=SBl2EPFW-ltPvQ7vbVWItyAsz3aKYIpjO7vcfr84GkU,22
+odc_cloud-0.2.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+odc_cloud-0.2.4.dist-info/METADATA,sha256=JIgi0ORjrAE0Jtd9zzvjhhn7SbNZ-aT1gq-RwQDybuw,1149
+odc_cloud-0.2.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+odc_cloud-0.2.4.dist-info/top_level.txt,sha256=agQvn12dGbaJZ4cQCqKfiCHBYi8LD3P4v9B2ynmsugQ,4
+odc_cloud-0.2.4.dist-info/RECORD,,
