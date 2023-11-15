@@ -1,0 +1,15 @@
+
+[all]
+docker-run-docker-ros>=1.0.4
+build
+twine
+
+[dev]
+build
+twine
+
+[docker-ros]
+docker-run-docker-ros>=1.0.4
+
+[plugins]
+docker-run-docker-ros>=1.0.4
