@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+chainmerger/__init__.py
+chainmerger/__main__.py
+chainmerger/__version__.py
+chainmerger.egg-info/PKG-INFO
+chainmerger.egg-info/SOURCES.txt
+chainmerger.egg-info/dependency_links.txt
+chainmerger.egg-info/entry_points.txt
+chainmerger.egg-info/requires.txt
+chainmerger.egg-info/top_level.txt
+test/test.py
