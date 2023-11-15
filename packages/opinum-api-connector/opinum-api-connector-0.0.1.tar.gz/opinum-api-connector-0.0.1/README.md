@@ -1,0 +1,1 @@
+This package allows to access easier Opinum API
