@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: pylattica
+Version: 0.1.2
+Summary: pylattica is a package for fast prototyping of lattice models for chemistry and materials science
+Author-email: Max Gallant <maxg@lbl.gov>
+License: modified BSD
+Project-URL: homepage, https://mcgalcode.github.io/pylattica/
+Project-URL: documentation, https://mcgalcode.github.io/pylattica/
+Project-URL: repository, https://github.com/mcgalcode/pylattica
+Project-URL: changelog, https://github.com/mcgalcode/pylattica/blob/main/docs/CHANGELOG.md
+Keywords: cellular,automaton,lattice,simulation,chemistry,materials
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21.5
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: scipy>=1.8.0
+Requires-Dist: tqdm>=4.63.0
+Requires-Dist: pymatgen>=2022.3.29
+Requires-Dist: plotly>=5.6.0
+Requires-Dist: monty>=2022.9.9
+Requires-Dist: rustworkx>=0.12.0
+Requires-Dist: pydantic>=1.10.2
+Requires-Dist: maggma>=0.49.5
+Requires-Dist: Pillow>=9.0
+Provides-Extra: docs
+Requires-Dist: jupyter_contrib_nbextensions>=0.7.0; extra == "docs"
+Requires-Dist: notebook==6.4.12; extra == "docs"
+Requires-Dist: mkdocs>=1.4.0; extra == "docs"
+Requires-Dist: mkdocs-autorefs>=0.4.1; extra == "docs"
+Requires-Dist: mkdocs-jupyter>=0.24.6; extra == "docs"
+Requires-Dist: mkdocs-section-index>=0.3.4; extra == "docs"
+Requires-Dist: mkdocstrings>=0.19.0; extra == "docs"
+Requires-Dist: mkdocstrings-python>=0.7.1; extra == "docs"
+Requires-Dist: pymdown-extensions>=9.6; extra == "docs"
+Provides-Extra: jupyter
+Requires-Dist: jupyterlab>=3.4.4; extra == "jupyter"
+Requires-Dist: nbconvert<7.0.0,>=6.2.0; extra == "jupyter"
+Provides-Extra: plotting
+Requires-Dist: graphistry==0.28.0; extra == "plotting"
+Provides-Extra: tests
+Requires-Dist: pytest==7.1.3; extra == "tests"
+Requires-Dist: pytest-cov==4.0.0; extra == "tests"
+
+# pylattica - A Framework for Lattice and Cellular Automata Simulation
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mcgalcode/pylattica/testing.yaml?branch=master)
+![Codecov](https://img.shields.io/codecov/c/github/mcgalcode/pylattica?style=for-the-badge)
+
+pylattica is a Python library for prototyping and constructing cellular automaton and lattice models. The core features of these models are:
+
+- There is a simulation state that evolves over time by repeatedly applying some unchanging rule
+- The state of the simulation has a topology defined by a network of sites (i.e. each site has an unchanging set of neighbor sites)
+- Each site has a state value associated with it that could change at each simulation step
+- The future state of a site is determined by the state of its neighbor sites
+
+These rules capture many common models in chemistry and materials science. For instance, in the Ising Model, spins are updated with probabilities related to the neighboring spins. In a Lattice Gas Automaton, the velocities of particles are determined collisions with neighboring particles. In lattice Monte Carlo simulations of surface catalysis, adsorption, desorption, and surface diffusion are dependent on the occupancy of neighboring sites.
+
+pylattica aims to provide a general framework for prototyping these types of lattice simulations. It prioritizes providing a straightforward method for experimenting with different interaction rules and interaction neighborhoods. It provides some simple utilities for analyzing simulation states, and in the case of square grid systems, it provides visualization tools for the system state itself. Additionally, since this tool is focused on materials science, there is functionality for mapping system states to CIF files (for use in crystal lattice simulations).
+
+### Documentation
+
+Detailed documentation for this library can be found [here](https://mcgalcode.github.io/pylattica/).
+
+### Examples
+
+Example notebooks are included in `docs/examples`.
+
+## Development
+
+### Building Documentation
+
+The docs for this project are built using mkdocs. To build the documentation
+
+```
+pip install '.[docs]'
+mkdocs build
+```
+
+To run the documentation server locally:
+
+```
+mkdocs serve
+```
+
+### Linting
+
+This project uses the `black` package for style and formatting, and `prospector` for type checking and other lint warnings. These packages are not listed as dependencies of this project, so you can install them manually. This is partially because this project doesn't rely on specific versions of them, and we expect developers to have their own installations already. You can run them as follows:
+
+To assess the changes that will happen if you run the `black` linter, run the following:
+
+```
+black --check src
+```
+
+To automatically make the changes, remove the `--check` flag:
+
+```
+black src
+```
+
+To run all other linters with prospector, use this:
+
+```
+prospector
+```
+
+In the top of this repository.
