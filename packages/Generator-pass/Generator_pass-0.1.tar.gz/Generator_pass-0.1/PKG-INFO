@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Generator_pass
+Version: 0.1
+Summary: Un générateur de mots de passe simple
+Home-page: https://github.com/livens-coder/passwordgenerator
+Author: Nicolas Livenson && Sannon Jean Duckens
+Author-email: nicolaslivenson@gmail.com
+License: MIT
+Keywords: password generator security
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/plain
+
+Un package Python pour générer des mots de passe aléatoires.
