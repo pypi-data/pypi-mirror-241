@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+autolr/__init__.py
+autolr/autolr.py
+autolr/preprocessing.py
+autolr/requirements.txt
+autolr.egg-info/PKG-INFO
+autolr.egg-info/SOURCES.txt
+autolr.egg-info/dependency_links.txt
+autolr.egg-info/requires.txt
+autolr.egg-info/top_level.txt

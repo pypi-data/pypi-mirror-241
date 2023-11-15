@@ -1,0 +1,5 @@
+graft autolr
+include pyproject.toml
+include setup.py
+include LICENSE
+global-exclude *.py[cod]
