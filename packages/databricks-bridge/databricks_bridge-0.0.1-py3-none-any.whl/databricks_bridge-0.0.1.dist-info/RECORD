@@ -1,0 +1,5 @@
+bridge/__init__.py,sha256=q0x2PwHZ_T4ZplaYPJzeDHI27a7JevQLBrpt4IHYr8Q,9967
+databricks_bridge-0.0.1.dist-info/METADATA,sha256=Qw1DHE5ZYrx_CtRSnqAxxBTLuDUBh6cSKPXmcvDKCJg,812
+databricks_bridge-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+databricks_bridge-0.0.1.dist-info/top_level.txt,sha256=BirU3G1puIHBl99p217RQhSuYmFPY8Li3DcK7C0sGN4,7
+databricks_bridge-0.0.1.dist-info/RECORD,,
