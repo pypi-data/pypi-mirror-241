@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pysereal
+Version: 0.1.7
+Summary: Serial
+Author: Rye
+Author-email: rye@rye.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
