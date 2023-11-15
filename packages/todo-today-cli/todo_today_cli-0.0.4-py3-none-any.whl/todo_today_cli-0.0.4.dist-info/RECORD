@@ -1,0 +1,10 @@
+today/cli.py,sha256=67_Ez4W6ghej9xj2olbENDedXzTsF5X56k6nCAZIr_g,5724
+today/output.py,sha256=b1EepkYgi9wG1CEZVPne9QUdCQ7Ctit1BmB_vjarufo,3020
+today/parser.py,sha256=IPDzvMLb4KeMctVVlc5N7WlmPnZi4sIj7Ug42Qgl3dk,6022
+today/start.py,sha256=6AOt2BOof7Fr8VSQyExMwZ6weRoEBncUnIbumdu_Cb8,1345
+today/task.py,sha256=EO_prcrR5KC8uLr26jQ1eI4FUOaLdUsfN6D03beQuKo,609
+today/today.py,sha256=GndmTypdW6ulYCUGIO6goDAY4IeW9cXIuOlLGQQm7Kc,585
+todo_today_cli-0.0.4.dist-info/METADATA,sha256=SEFuQ7bwe15K2s5jGHJgGgswrbT4Xx8m0xM-jlkqSKU,10032
+todo_today_cli-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+todo_today_cli-0.0.4.dist-info/entry_points.txt,sha256=wByg__wbWUyssA9VuyOIlivZt_LW2AXTjFrDgSO5BNc,65
+todo_today_cli-0.0.4.dist-info/RECORD,,
