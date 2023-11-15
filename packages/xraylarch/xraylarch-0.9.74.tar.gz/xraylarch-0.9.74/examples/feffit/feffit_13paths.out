@@ -1,0 +1,242 @@
+=================== FEFFIT RESULTS ====================
+[[Statistics]]
+   nvarys, npts       =  8, 648
+   n_independent      =  28.311
+   chi_square         =  99.971784
+   reduced chi_square =  4.9220542
+   r-factor           =  0.0030153
+   Akaike info crit   =  51.718218
+   Bayesian info crit =  62.464218
+ 
+[[Data]]
+   fit space          = 'r'
+   r-range            = 1.400, 4.700
+   k-range            = 3.000, 16.000
+   k window, dk       = 'kaiser', 5.000
+   paths used in fit  = ['Feff_Cu/feff0001.dat', 'Feff_Cu/feff0002.dat', 'Feff_Cu/feff0003.dat', 'Feff_Cu/feff0004.dat', 'Feff_Cu/feff0005.dat', 'Feff_Cu/feff0006.dat', 'Feff_Cu/feff0007.dat', 'Feff_Cu/feff0008.dat', 'Feff_Cu/feff0009.dat', 'Feff_Cu/feff0010.dat', 'Feff_Cu/feff0011.dat', 'Feff_Cu/feff0012.dat', 'Feff_Cu/feff0013.dat']
+   k-weight           = 2, 1, 3
+   epsilon_k          = Array(mean=0.0015727, std=0.0048649), Array(mean=0.0015727, std=0.0048649), Array(mean=0.0015727, std=0.0048649)
+   epsilon_r          = 0.0454247, 0.0036535, 0.6143222
+   n_independent      = 28.311
+ 
+[[Variables]]
+   alpha          =  4.2508e-4 +/- 3.7694e-4   (init=  0.0000000)
+   delr_p1        =  0.0021661 +/- 0.0019208  = 'alpha*reff'
+   delr_p2        =  0.0021661 +/- 0.0019208  = 'alpha*reff'
+   delr_p3        =  0.0021661 +/- 0.0019208  = 'alpha*reff'
+   delr_p4        =  0.0021661 +/- 0.0019208  = 'alpha*reff'
+   delr_p5        =  0.0021661 +/- 0.0019208  = 'alpha*reff'
+   delr_p6        =  0.0021661 +/- 0.0019208  = 'alpha*reff'
+   e0             =  3.9722000 +/- 0.2568228   (init=  4.0000000)
+   e01            =  5.3641910 +/- 0.3820786   (init=  4.0000000)
+   s02            =  0.9322881 +/- 0.0306317   (init=  1.0000000)
+   sig2_p1        =  0.0052466 +/- 2.3029e-4   (init=  0.0020000)
+   sig2_p2        =  0.0088315 +/- 8.4840e-4   (init=  0.0020000)
+   sig2_p3        =  0.0066597 +/- 3.4113e-4   (init=  0.0020000)
+   sig2_p4        =  0.0066597 +/- 3.4113e-4  = 'sig2_p3'
+   sig2_p5        =  0.0066597 +/- 3.4113e-4  = 'sig2_p3'
+   sig2_p6        =  0.0034851 +/- 9.6534e-4   (init=  0.0020000)
+ 
+[[Correlations]]    (unreported correlations are <  0.100)
+   s02, sig2_p1         =  0.911
+   alpha, e01           =  0.892
+   s02, sig2_p3         =  0.717
+   alpha, e0            =  0.676
+   sig2_p1, sig2_p3     =  0.653
+   e0, e01              =  0.620
+   sig2_p3, sig2_p6     =  0.531
+   s02, sig2_p6         =  0.530
+   sig2_p1, sig2_p6     =  0.484
+   s02, sig2_p2         =  0.313
+   sig2_p1, sig2_p2     =  0.286
+   sig2_p2, sig2_p3     =  0.203
+   alpha, s02           =  0.188
+   alpha, sig2_p1       =  0.186
+   alpha, sig2_p6       =  0.178
+   sig2_p2, sig2_p6     =  0.164
+   e01, sig2_p6         =  0.108
+   e0, sig2_p3          = -0.101
+ 
+[[Paths]]
+ = Path 'p3tf6mewgr' = Cu K Edge
+    feffdat file = Feff_Cu/feff0001.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       0.0000, -1.8016,  1.8016  1
+     reff   =  2.5478000
+     degen  =  12.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  5.3641910 +/- 0.3820786  := 'e01'
+     r      =  2.5499661 +/- 0.0019208  := 'reff + delr_p1'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p1'
+     sigma2 =  0.0052466 +/- 2.3029e-4  := 'sig2_p1'
+
+ = Path 'pj3m4qvfyl' = Cu K Edge
+    feffdat file = Feff_Cu/feff0002.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu      -3.6032,  0.0000,  0.0000  1
+     reff   =  3.6032000
+     degen  =  6.0000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  3.6053661 +/- 0.0019208  := 'reff + delr_p2'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p2'
+     sigma2 =  0.0088315 +/- 8.4840e-4  := 'sig2_p2'
+
+ = Path 'pibakl7xet' = Cu K Edge
+    feffdat file = Feff_Cu/feff0003.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       1.8016, -1.8016,  0.0000  1
+              Cu       1.8016,  0.0000, -1.8016  1
+     reff   =  3.8218000
+     degen  =  48.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  3.8239661 +/- 0.0019208  := 'reff + delr_p3'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p3'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p3'
+
+ = Path 'pbx6citqmi' = Cu K Edge
+    feffdat file = Feff_Cu/feff0004.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       0.0000,  0.0000, -3.6032  1
+              Cu       0.0000,  1.8016, -1.8016  1
+     reff   =  4.3494000
+     degen  =  48.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  4.3515661 +/- 0.0019208  := 'reff + delr_p4'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p4'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p4'
+
+ = Path 'pl6uxzxnwx' = Cu K Edge
+    feffdat file = Feff_Cu/feff0005.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu      -3.6032,  1.8016,  1.8016  1
+     reff   =  4.4130000
+     degen  =  24.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  4.4151661 +/- 0.0019208  := 'reff + delr_p5'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p5'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'peg2hyuzar' = Cu K Edge
+    feffdat file = Feff_Cu/feff0006.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       1.8016, -1.8016,  0.0000  1
+              Cu       0.0000,  1.8016,  1.8016  1
+     reff   =  4.7543000
+     degen  =  48.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  4.7564661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0034851 +/- 9.6534e-4  := 'sig2_p6'
+
+ = Path 'pntlmkmyoa' = Cu K Edge
+    feffdat file = Feff_Cu/feff0007.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       1.8016,  3.6032, -1.8016  1
+              Cu       1.8016,  1.8016,  0.0000  1
+     reff   =  4.7543000
+     degen  =  96.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  4.7564661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'pshzetbngv' = Cu K Edge
+    feffdat file = Feff_Cu/feff0008.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       0.0000,  3.6032, -3.6032  1
+     reff   =  5.0957000
+     degen  =  12.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  5.0978661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'pzylm55p7d' = Cu K Edge
+    feffdat file = Feff_Cu/feff0009.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       0.0000, -1.8016,  1.8016  1
+              Cu       0.0000,  1.8016, -1.8016  1
+     reff   =  5.0957000
+     degen  =  12.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  5.0978661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'pr7snbcx6e' = Cu K Edge
+    feffdat file = Feff_Cu/feff0010.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       3.6032,  3.6032,  0.0000  1
+              Cu       1.8016,  1.8016,  0.0000  1
+     reff   =  5.0957000
+     degen  =  24.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  5.0978661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'ptuik7txuf' = Cu K Edge
+    feffdat file = Feff_Cu/feff0011.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu      -1.8016,  1.8016,  0.0000  1
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       1.8016, -1.8016,  0.0000  1
+     reff   =  5.0957000
+     degen  =  12.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  5.0978661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'p5xautm6w4' = Cu K Edge
+    feffdat file = Feff_Cu/feff0012.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       1.8016,  1.8016,  0.0000  1
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu       1.8016,  1.8016,  0.0000  1
+     reff   =  5.0957000
+     degen  =  12.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  5.0978661 +/- 0.0019208  := 'reff + delr_p6'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p6'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+ = Path 'p5amwwws5p' = Cu K Edge
+    feffdat file = Feff_Cu/feff0013.dat, from feff run 'Feff_Cu'
+    geometry  atom      x        y        z      ipot
+              Cu       0.0000,  0.0000,  0.0000  0 (absorber)
+              Cu      -1.8016,  0.0000,  1.8016  1
+              Cu      -3.6032,  0.0000,  3.6032  1
+              Cu      -1.8016,  0.0000,  1.8016  1
+     reff   =  5.0957000
+     degen  =  12.000000
+     n*s02  =  0.9322881 +/- 0.0306317  := 's02'
+     e0     =  3.9722000 +/- 0.2568228  := 'e0'
+     r      =  5.0978661 +/- 0.0019208  := 'reff + delr_p5'
+     deltar =  0.0021661 +/- 0.0019208  := 'delr_p5'
+     sigma2 =  0.0066597 +/- 3.4113e-4  := 'sig2_p5'
+
+=======================================================
