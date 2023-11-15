@@ -1,0 +1,9 @@
+pi_power_relay_moxad/__init__.py,sha256=MPsVZSOhY23oIgzdyfltFtTZG3Lqe1j071QugQgXNqw,89
+pi_power_relay_moxad/functions.py,sha256=7e8nqFl3ipg7IAhA_QmVF5FWkXU1QULkg21P1E7fvjo,8562
+pi_power_relay_moxad/globals.py,sha256=yOin7xCO-riKwyb5Hls3J-G6GmNTvNqJYXTulgtbUAA,37
+pi_power_relay_moxad/pi_power_relay.py,sha256=ZB2bHWSJLh5htnrdUGLYLeo4nDgZ7Yokkwq3qzLBiFY,12978
+pi_power_relay_moxad-2.0.1.dist-info/METADATA,sha256=x1XFICJt1H9z8-lCrhoShoJtfAXQGLLB7UO1JbXIJIU,4479
+pi_power_relay_moxad-2.0.1.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+pi_power_relay_moxad-2.0.1.dist-info/entry_points.txt,sha256=NbSP_5_SzpVEi9C2NaUBjAHNB8qPLbgbqrXTQWJwc58,76
+pi_power_relay_moxad-2.0.1.dist-info/licenses/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pi_power_relay_moxad-2.0.1.dist-info/RECORD,,
