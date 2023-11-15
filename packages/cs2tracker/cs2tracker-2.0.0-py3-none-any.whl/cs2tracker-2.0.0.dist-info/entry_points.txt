@@ -1,0 +1,2 @@
+[console_scripts]
+csogtracker = cs2tracker.__main__:entry_point
