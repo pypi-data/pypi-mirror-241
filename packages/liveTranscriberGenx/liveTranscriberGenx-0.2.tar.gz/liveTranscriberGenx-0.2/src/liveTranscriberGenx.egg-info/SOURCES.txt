@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/liveTranscriberGenx.egg-info/PKG-INFO
+src/liveTranscriberGenx.egg-info/SOURCES.txt
+src/liveTranscriberGenx.egg-info/dependency_links.txt
+src/liveTranscriberGenx.egg-info/requires.txt
+src/liveTranscriberGenx.egg-info/top_level.txt
