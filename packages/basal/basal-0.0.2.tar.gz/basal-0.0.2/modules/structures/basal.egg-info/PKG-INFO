@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: basal
+Version: 0.0.2
+Summary: memory storage structure for directories
+Description-Content-Type: text/plain
+
+
+
+
+
+basal
+
+memory storage structure for directories
+
+
+structure:
+	archives
+	
+	sandbox:
+		climate.py <- setup the basal db
+		open.py <- uses basal
+	
+	modules_pip
+		basal
+			climate.JSON <- tinydb
+		
+	modules.pip.UTF8
+	
+	

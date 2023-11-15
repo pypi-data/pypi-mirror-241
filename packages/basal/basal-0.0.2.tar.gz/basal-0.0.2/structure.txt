@@ -1,0 +1,23 @@
+
+
+
+
+basal
+
+memory storage structure for directories
+
+
+structure:
+	archives
+	
+	sandbox:
+		climate.py <- setup the basal db
+		open.py <- uses basal
+	
+	modules_pip
+		basal
+			climate.JSON <- tinydb
+		
+	modules.pip.UTF8
+	
+	
