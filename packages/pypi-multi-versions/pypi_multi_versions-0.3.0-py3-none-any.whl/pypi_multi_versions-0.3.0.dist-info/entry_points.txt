@@ -1,0 +1,3 @@
+[console_scripts]
+pypi-multi-versions = pypi_multi_versions.cli:main
+

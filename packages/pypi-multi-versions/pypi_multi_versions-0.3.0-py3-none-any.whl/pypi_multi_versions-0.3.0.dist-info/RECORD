@@ -1,0 +1,10 @@
+pypi_multi_versions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypi_multi_versions/cli.py,sha256=W7gnV_2QfzuuC7wf0NiQolW4iaJ24qDVDITciFBjLLc,1613
+pypi_multi_versions/importer.py,sha256=9pPh7cwsFS0FIfzn7qrl3otqAo88jL3p3rhzAyfF16Q,593
+pypi_multi_versions/installer.py,sha256=k8qjHzeg8oW70OpB6IF5pkCk9ChPWK0gZ1vnTS_LxH0,676
+pypi_multi_versions-0.3.0.dist-info/LICENCE,sha256=M-qeqmgOJbpWp3M0yogD5oYd9xXqt3dcXyp8PmyU7Ag,1075
+pypi_multi_versions-0.3.0.dist-info/METADATA,sha256=NsV_rwbrQVe3dxBHKv8Ddx6GBuFvndoJ6i-JVfn-yPU,2104
+pypi_multi_versions-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypi_multi_versions-0.3.0.dist-info/entry_points.txt,sha256=HRaske9tpFEE33FK6HZHTNrY9n3wihVLcS55MZXyYKI,70
+pypi_multi_versions-0.3.0.dist-info/top_level.txt,sha256=4x-eZmHaA45tNJW2nzBphEIy9nylVwdPZRVxm5cRr-Q,20
+pypi_multi_versions-0.3.0.dist-info/RECORD,,
