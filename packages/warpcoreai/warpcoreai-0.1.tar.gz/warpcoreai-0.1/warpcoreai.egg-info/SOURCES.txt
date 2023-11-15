@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+warpcoreai.egg-info/PKG-INFO
+warpcoreai.egg-info/SOURCES.txt
+warpcoreai.egg-info/dependency_links.txt
+warpcoreai.egg-info/top_level.txt
