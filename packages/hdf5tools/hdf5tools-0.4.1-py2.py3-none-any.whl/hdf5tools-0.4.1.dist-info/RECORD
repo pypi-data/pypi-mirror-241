@@ -1,0 +1,12 @@
+hdf5tools/__init__.py,sha256=pQwPuO_cZuO6Clx4StiMN6H1gyTehnxs67t7GlL2NKs,114
+hdf5tools/combine.py,sha256=HW9KHmjyqSghor0_y3dFzJAtQGJO_QKdcZCFfLK4ktY,18941
+hdf5tools/core.py,sha256=Q_HWQl1yuaiQ8wr9er5d4m7h35OR6KMsjIMLtYUAPqg,34851
+hdf5tools/indexers.py,sha256=iWib9FmEyPa2x8OLurT93zROs-2ZUej2hl8uLeDV6_Q,5403
+hdf5tools/utils.py,sha256=m9L9QIiyQ3aWWyLlLt-tsbUFnTM1-e6JI80X50qQWZs,32390
+hdf5tools/tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+hdf5tools/tests/create_test_data.py,sha256=RrzVtEDt5RXY3iOCsjqpxVWaPUQfHwQsCdOkdvxYGww,1383
+hdf5tools/tests/test_hdf5tools.py,sha256=Q4sy5TXmWMQVIVSWtcjpjzCbp5uR8PWQLv-8_KXEgFs,10358
+hdf5tools-0.4.1.dist-info/METADATA,sha256=_e96tqSmgqrYEo4eCOo3OGF0MLsSeMF-2qgw-Vss5bk,1921
+hdf5tools-0.4.1.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+hdf5tools-0.4.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hdf5tools-0.4.1.dist-info/RECORD,,
