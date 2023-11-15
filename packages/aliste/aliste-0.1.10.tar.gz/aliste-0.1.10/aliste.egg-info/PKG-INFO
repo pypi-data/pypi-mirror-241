@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aliste
+Version: 0.1.10
+Summary: Aliste Smart Home SDK for Python
+Home-page: https://github.com/Kir4Kun/aliste-smart-home-sdk
+Author: Kir4Kun
+Author-email: rkbl4ze@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Aliste Smart Home SDK for Python
