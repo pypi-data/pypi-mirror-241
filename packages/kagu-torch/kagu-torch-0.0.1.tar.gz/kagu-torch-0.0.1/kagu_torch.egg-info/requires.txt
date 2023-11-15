@@ -1,0 +1,6 @@
+torch>=2.0.0
+ddpw>=5.1.1
+opencv-python-headless
+tqdm
+torchvision
+tensorboard
