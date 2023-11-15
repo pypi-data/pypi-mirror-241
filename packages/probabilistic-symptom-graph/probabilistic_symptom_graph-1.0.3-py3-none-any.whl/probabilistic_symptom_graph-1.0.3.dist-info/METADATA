@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: probabilistic-symptom-graph
+Version: 1.0.3
+Summary: Using a bipartite graph of medical conditions and symptoms with relative weighted edges, gives the estimated probability of having each illness given a list of symptoms
+Author-email: Bart Gebka <bartg1259@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Bart Gebka
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: graph,medicine,healthcare,prediction,probability
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: numpy
+Provides-Extra: dev
+
+# Probabilistic Symptom Graph
+
+```bash
+pip install probabilistic-symptom-graph
+```
+
+```py
+from src.ProbabilisticSymptomGraph import ProbabilisticSymptomConditionGraph
+
+import networkx as nx
+import numpy as np
+
+medical_condition_gexf = "./data/medical-condition-symptom-graph.gexf"
+graph = nx.read_gexf(medical_condition_gexf)
+sim_matrix = np.load('./data/md-symptom-sim-mat.npy')
+
+symptom_names = []
+for node_id, tpe in graph.nodes(data="type"):
+    if tpe == "Symptom":
+        symptom_names.append(node_id)
+symptom_names = sorted(symptom_names)
+
+condition_names = []
+for node_id, tpe in graph.nodes(data="type"):
+    if tpe == "MedicalCondition":
+        condition_names.append(node_id)
+condition_names = sorted(condition_names)
+
+probabilistic_graph = ProbabilisticSymptomConditionGraph(condition_names, symptom_names, graph, sim_matrix)
+print(" | ".join(probabilistic_graph.get_all_symptoms()[:10]))
+probabilistic_graph.get_condition_probs(["acne"])[:5]
+```
+
+## Graph Image
+Red nodes represent medical conditions and green nodes represent symptoms.
+![image](https://github.com/bart1259/ProbabilisticSymptomGraph/assets/21147581/1f693ddf-20d8-4320-9265-a84a3403a5eb)
+This graph data was gathered by mining Wikipedia "Medical Condition (New)" infoboxes and extracting medical condition <=> Symptom pairs. Post processing was done using ChatGPT.
+
+## Data Mining
+See `./data/WikipediaSymptomExtractor.ipynb`
