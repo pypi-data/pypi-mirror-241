@@ -1,0 +1,7 @@
+setup.py
+emailer/__init__.py
+emailer/setup_emailer.py
+emailerpy.egg-info/PKG-INFO
+emailerpy.egg-info/SOURCES.txt
+emailerpy.egg-info/dependency_links.txt
+emailerpy.egg-info/top_level.txt
