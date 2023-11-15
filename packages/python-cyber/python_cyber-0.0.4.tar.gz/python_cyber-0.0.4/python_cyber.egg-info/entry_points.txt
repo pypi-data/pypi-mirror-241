@@ -1,0 +1,9 @@
+[console_scripts]
+cyber_channel = python_cyber.tools.cyber_channel.cyber_channel:main
+cyber_launch = python_cyber.tools.cyber_launch.cyber_launch:main
+cyber_monitor = python_cyber.tools.cyber_monitor.cyber_monitor:main
+cyber_node = python_cyber.tools.cyber_node.cyber_node:main
+cyber_recorder = python_cyber.tools.cyber_recorder.cyber_recorder:main
+cyber_service = python_cyber.tools.cyber_service.cyber_service:main
+listener = python_cyber.examples.listener:main
+talker = python_cyber.examples.talker:main
