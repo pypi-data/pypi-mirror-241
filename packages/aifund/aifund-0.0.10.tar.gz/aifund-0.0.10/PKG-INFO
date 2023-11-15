@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: aifund
+Version: 0.0.10
+Summary: AIfund 是基于 Python 的基金量化工具
+Project-URL: Homepage, https://github.com/silenceTiano/aifund
+Project-URL: Bug Tracker, https://github.com/silenceTiano/aifund/issues
+Author-email: tiano <silence_hgt@163.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# aifund
+aifund
+
+# 版本更新步骤
+
+1. 生成版本文件
+```
+python setup.py sdist
+```
+
+2. 从 dist 删除除去本版本之外的其他版本内容
+
+3. 将版本文件推送到pypi云端
+
+```
+twine upload dist/*
+```
