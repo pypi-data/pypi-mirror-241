@@ -1,0 +1,213 @@
+Metadata-Version: 2.1
+Name: collective.regenv
+Version: 1.0.0
+Summary: An add-on for Plone
+Home-page: https://github.com/collective/collective.regenv
+Author: mamico
+Author-email: mauro.amico@gmail.com
+License: GPL version 2
+Project-URL: PyPI, https://pypi.org/project/collective.regenv/
+Project-URL: Source, https://github.com/collective/collective.regenv
+Project-URL: Tracker, https://github.com/collective/collective.regenv/issues
+Keywords: Python Plone CMS
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+License-File: LICENSE.GPL
+License-File: LICENSE.rst
+Requires-Dist: setuptools
+Requires-Dist: plone.api
+Requires-Dist: plone.registry
+Requires-Dist: PyYAML
+Provides-Extra: test
+Requires-Dist: plone.app.testing; extra == "test"
+
+.. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+   If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+   This text does not appear on pypi or github. It is a comment.
+
+.. image:: https://img.shields.io/pypi/v/collective.regenv.svg
+    :target: https://pypi.org/project/collective.regenv/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/pyversions/collective.regenv.svg?style=plastic
+    :target: https://pypi.org/project/collective.regenv/
+    :alt: Supported - Python Versions
+
+.. image:: https://img.shields.io/pypi/dm/collective.regenv.svg
+    :target: https://pypi.org/project/collective.regenv/
+    :alt: Number of PyPI downloads
+
+.. image:: https://img.shields.io/pypi/l/collective.regenv.svg
+    :target: https://pypi.org/project/collective.regenv/
+    :alt: License
+
+.. image:: https://github.com/collective/collective.regenv/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/collective/collective.regenv/actions
+    :alt: Tests
+
+.. image:: https://coveralls.io/repos/github/collective/collective.regenv/badge.svg?branch=main
+    :target: https://coveralls.io/github/collective/collective.regenv?branch=main
+    :alt: Coverage
+
+
+=================
+collective.regenv
+=================
+
+This product allows to override the values stored in the portal registry
+and property manager object (i.e. a PAS plugin) with values defined on a local file
+defined in an environment variable called ``PLONE_REGISTRY_YAML``.
+
+When it comes to PropertyManager, this product actually only works if you use the accessor
+``getProperty`` to read properties.
+
+Features
+--------
+
+Using this product you can:
+
+1. have different values for development and production environments
+   (think about the ``MailHost`` settings,
+   connection parameters to external services,
+   etc.)
+
+2. have different values for different instances in the same buildout,
+   allowing for example to toggle features on and off for A/B testing.
+
+
+Documentation
+-------------
+
+Registry overrides should be in a YAML file::
+
+    % cat sample.yaml
+
+    defaults: &defaults
+        plone.cachepurging.interfaces.ICachePurgingSettings.cachingProxies:
+            - http://localhost:8000
+            - http://localhost:8001
+        plone.app.theming.interfaces.IThemeSettings.hostnameBlacklist:
+            - 127.0.0.1
+            - localhost
+
+    /Plone/portal_registry:
+        <<: *defaults
+
+    /Plone2/portal_registry:
+        <<: *defaults
+        plone.cachepurging.interfaces.ICachePurgingSettings.cachingProxies:
+            - http://localhost:9000
+
+    /Plone/acl_users/oidc:
+        issuer:
+            http://localhost:1234/realms/plone/
+        client_id:
+            plone
+
+Run zope instance with environment pointing to the YAML file, for example::
+
+    PLONE_REGISTRY_YAML=$(pwd)/sample.yaml bin/instance fg
+
+Or using the docker image, for example::
+
+    docker run -p 8080:8080 \
+        -e ADDONS=collective.regenv \
+        -e PLONE_REGISTRY_YAML=/app/registry.yaml \
+        -v$(pwd)/sample.yaml:/app/registry.yaml \
+        plone/plone-backend:latest
+
+
+Alternatively you can add the contents of the YAML file in an environment
+variable called `PLONE_REGISTRY_YAML_CONTENT` and pass the values directly.
+This way you do not need to mount a volume with the configuration file.
+For example::
+
+    export PLONE_REGISTRY_YAML_CONTENT=$(cat sample.yaml)
+    docker run -p 8080:8080 \
+        -e ADDONS=collective.regenv \
+        -e PLONE_REGISTRY_YAML_CONTENT
+        plone/plone-backend:latest
+
+
+
+Installation
+------------
+
+Install collective.regenv by adding it to your buildout::
+
+    [buildout]
+
+    ...
+
+    eggs =
+        collective.regenv
+
+
+and then running ``bin/buildout``
+
+
+Contribute
+----------
+
+- Issue Tracker: https://github.com/collective/collective.regenv/issues
+- Source Code: https://github.com/collective/collective.regenv
+- Documentation: https://pypi.org/project/collective.regenv/
+
+
+License
+-------
+
+The project is licensed under the GPLv2.
+
+
+Contributors
+============
+
+- mamico, mauro.amico@gmail.com
+
+
+Changelog
+=========
+
+
+1.0.0 (2023-11-15)
+------------------
+
+- Add another environment variable to get the YAML file content from
+  [erral]
+
+1.0.0rc1 (2023-03-21)
+---------------------
+
+- Get overridden keys more efficiently.
+  [maurits]
+
+- Fix ``python_requires`` metadata.
+  [maurits]
+
+
+1.0.0a2 (2022-12-27)
+--------------------
+
+- Fix monkeys init
+  [mamico]
+
+
+1.0.0a1 (2022-12-27)
+--------------------
+
+- Initial release.
+  [mamico]
