@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: CodingRider
+Version: 0.1
+Summary: Library for CodingRider
+Home-page: https://imssam.me/shop/view.php?index_no=4031
+Author: ALUX
+Author-email: devdrone@aluxonline.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## CodingRider
+
+
+* Install
+```
+> pip install CodingRider
+> pip --no-cache-dir install CodingRider
+```
+
+* Upgrade
+```
+> pip install --upgrade CodingRider
+```
+
+* Uninstall
+```
+> pip uninstall CodingRider
+```
+
+
+
+## Link
+
+* [PyPI CodingRider](https://pypi.org/project/CodingRider/)
+* [Documents for CodingRider python library.](https://byrobot.github.io/documents/kr/products/CodingRider/library/python/CodingRider/)
+* [BYROBOT Dev](http://dev.byrobot.co.kr/)
+# * [BYROBOT Forum](https://groups.google.com/d/forum/byrobot)
+# * [Discord BYROBOT](https://discord.gg/UVVJMye)
+# * [Youtube BYROBOT Channel](https://www.youtube.com/user/BYROBOTCO)
+# * [Facebook BYROBOT](https://www.facebook.com/Byrobot.Drones)
+
+
+### BYROBOT
+
