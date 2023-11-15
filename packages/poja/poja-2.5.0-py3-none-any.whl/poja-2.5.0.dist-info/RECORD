@@ -1,0 +1,12 @@
+poja/__init__.py,sha256=Wl0gjte4n1MTdNerUrxNNQPqyu2D_EENTSFAquKClLA,26
+poja/__main__.py,sha256=grX-Ju9vI_Y-OvjOCMTE_Jo3x6CXo8Va-jxKSe_YSaE,45
+poja/core.py,sha256=REpSkUrKuVDSQPDw-4bLJbPOslREFNIgnebSrtQY1Fs,8440
+poja/version.py,sha256=haDVEjuVOLrKL4-qWEobTA63xJiu-vmg3RqvySVqtjA,488
+poja/mygit/__init__.py,sha256=X9S5Zq-O3ot9HaRytOsZRkU39OZ66Aa3oJvpvs38cW8,295
+poja/myrich/__init__.py,sha256=a9PVaKOdhlyhPshpmG1IOvqywuHt9gwQ60oL_mpVpQw,342
+poja/sed/__init__.py,sha256=GCT3rUkpBWZhXzBtw5bJGyneOVhzxGg6ZijHKNw65OU,476
+poja-2.5.0.dist-info/LICENSE,sha256=SAh422ifByhAbzUtuW31gUNg3cj25V95xCryUnVUAMU,1097
+poja-2.5.0.dist-info/METADATA,sha256=MZCOROwnFQIWS3Ufsq0aWSHhrV2EfJvlPrAQSkt2GrE,4277
+poja-2.5.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+poja-2.5.0.dist-info/top_level.txt,sha256=TKNqytWTvaYO0SdUr-eanh7KAWZps3hrzEgq86Egp0w,5
+poja-2.5.0.dist-info/RECORD,,
