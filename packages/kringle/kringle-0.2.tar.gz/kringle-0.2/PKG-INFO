@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: kringle
+Version: 0.2
+Summary: A solution manager for Advent of Code
+Project-URL: Documentation, https://github.com/stephenlutes/kringle#readme
+Project-URL: Issues, https://github.com/stephenlutes/kringle/issues
+Project-URL: Source, https://github.com/stephenlutes/kringle
+Author: Stephen Lutes
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+
+Kringle
+=======
+
+|PyPI Version| |PyPI - Python Version|
+
+A solution manager for Advent of Code.
+
+Usage 
+-----
+
+Kringle is opinionated. It expects that it is being run from within a directory with the
+following structure::
+
+    - cwd
+    |
+    | - solution.py
+    | - input.txt
+
+Within solution.py, it expects three functions:
+
+``parse(data: str)``: Takes the contents of the input.txt file as a string, and returns
+the parsed data.
+
+``part_1()``: Solves part 1 of the challenge.
+
+``part_2()``: Solves part 2 of the challenge.
+    
+In order to run the solution, call ``kringle`` from within the directory containing the
+solution and input files.
+
+.. |PyPI Version|
+    image:: https://img.shields.io/pypi/v/northpole.svg
+    :target: https://pypi.org/project/northpole
+
+.. |PyPI - Python Version|
+    image:: https://img.shields.io/pypi/pyversions/northpole.svg
+    :target: https://pypi.org/project/northpole
