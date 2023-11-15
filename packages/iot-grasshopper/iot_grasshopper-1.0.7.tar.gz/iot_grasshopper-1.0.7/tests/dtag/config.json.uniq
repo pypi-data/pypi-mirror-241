@@ -1,0 +1,64 @@
+{
+  "server": {
+    "host": "183.98.21.151",
+    "port": 502,
+    "wait_sec": 1,
+    "max_retry": 10
+  },
+  "client": {
+    "wait_sec":  5
+  },
+  "holding_register": {
+    "range": [0, 16]
+  },
+  "iot_mapping": {
+    "uniq1": {
+      "attributes": [
+        "temp",
+        "abs_humi",
+        "rel_humi",
+        "enthalpy",
+        "air_flow",
+        "density",
+        "range",
+        "point_type"
+      ],
+      "indices": [
+        1, 3, 5, 7, 9, 11, 13, 15
+      ],
+      "topic": "dt/uniq1/sta"
+    },
+    "uniq2": {
+      "attributes": [
+        "temp",
+        "abs_humi",
+        "rel_humi",
+        "enthalpy",
+        "air_flow",
+        "density",
+        "range",
+        "point_type"
+      ],
+      "indices": [
+        1, 3, 5, 7, 9, 11, 13, 15
+      ],
+      "topic": "dt/uniq2/sta"
+    },
+    "uniq3": {
+      "attributes": [
+        "temp",
+        "abs_humi",
+        "rel_humi",
+        "enthalpy",
+        "air_flow",
+        "density",
+        "range",
+        "point_type"
+      ],
+      "indices": [
+        1, 3, 5, 7, 9, 11, 13, 15
+      ],
+      "topic": "dt/uniq3/sta"
+    }
+  }
+}
