@@ -1,0 +1,71 @@
+<!-- {% if key %} -->
+<!-- 
+{% set item_key = '.includes.' + key %} 
+{% set status = status if not errors else "Error" %} 
+{% set status_values = {
+  "Unchanged": {
+    "icon": "icons/document.svg",
+    "style": "text-gray-600 dark:text-gray-300",
+  },
+  "Changed": {
+    "icon": "icons/document-text.svg",
+    "style": "text-blue-500",
+  },
+  "Deleted": {
+    "icon": "icons/document-minus.svg",
+    "style": "text-red-500 line-through",
+  },
+  "New": {
+    "icon": "icons/document-plus.svg",
+    "style": "text-green-500",
+  }
+}
+%}
+{% set status_obj = status_values[status] | default(status_values["Unchanged"])  %} 
+{% set icon = status_obj.icon %} 
+{% set style = status_obj.style %} 
+-->
+<a id="include_{{key}}" class="flex flex-row {{style}}">
+  <div class="w-6 py-2 mr-1">    
+    <!-- {% block icon %} -->
+    {% include icon %}
+    <!-- {% endblock icon %} -->
+  </div>
+  <div class="p-2 w-24 font-bold">
+    <!-- {% block key %} -->
+    {{ key }}
+    <!-- {% endblock key %} -->
+  </div>
+  <div class="py-2 flex flex-row flex-1">
+    <!-- {% block value %} -->
+    <div class="flex flex-row flex-1 px-2">
+      <input type="hidden" name="config.includes.{{key}}" value="{{value}}" />
+      <span>{{ value }}</span>
+    </div>
+    <!-- {% endblock value %} -->
+    <!-- {% block actions %} -->
+    <button
+      type="button"
+      name="action"
+      value="edit"
+      hx-post="/taskserver/config/includes?path={{taskfile.path}}&id={{key}}"
+      hx-target="#include_{{key}}"
+      hx-swap="outerHTML"
+      class="mx-1 opacity-50 hover:opacity-100"
+    >
+      {% include "icons/pencil.svg" %}
+    </button>
+    <button
+      type="button"
+      hx-confirm="Are you sure you want to remove '{{key}}'?"
+      hx-delete="/taskserver/config/includes?path={{taskfile.path}}&id={{key}}"
+      hx-target="#include_{{key}}"
+      hx-swap="outerHTML"
+      class="mx-1 opacity-50 hover:opacity-100"
+    >
+      {% include "icons/trash.svg" %}
+    </button>
+    <!-- {% endblock actions %} -->
+  </div>
+</a>
+<!-- {% endif %} -->

@@ -1,0 +1,91 @@
+<!-- 
+{% set item_key = '.' + dest + '.' + key %} 
+{% set status = status if status else "Unchanged" %} 
+{% set status_values = {
+  "Unchanged": {
+    "icon": "",
+    "style": "text-gray-500",
+  },
+  "Changed": {
+    "icon": "icons/pencil.svg",
+    "style": "font-bold text-blue-500 dark:text-blue-500 peer-focus:text-blue-500 peer-focus:dark:text-blue-500 focus:border-blue-500 dark:focus:border-blue-500",
+  },
+  "Deleted": {
+    "icon": "icons/minus.svg",
+    "style": "line-through text-red-500 dark:text-red-500 peer-focus:text-red-500 peer-focus:dark:text-red-500 focus:border-red-500 dark:focus:border-red-500",
+  },
+  "New": {
+    "icon": "icons/plus.svg",
+    "style": "font-bold text-green-500 dark:text-green-500 peer-focus:text-green-500 peer-focus:dark:text-green-500 focus:border-green-500 dark:focus:border-green-500",
+  }
+}
+%}
+{% set status_obj = status_values[status] | default(status_values["Unchanged"])  %} 
+{% set icon = status_obj.icon %} 
+{% set style = status_obj.style %} 
+{% set htmx_base = htmx_base or "/taskserver/config/"+dest %}
+
+{% set htmx_query = htmx_query or "?key="+key %}
+{% if task %}
+{% set htmx_query = htmx_query + "&name="+task.name %} 
+{% endif %}
+
+{% set attr_disabled = "disabled" if disabled else "" %} 
+-->
+
+{% with key=key, value=value, placeholder=placeholder %}
+<tr class="h-10 text-sm {{style}}" hx-target="this">
+  <td class="px-2 whitespace-nowrap">
+    <!-- {% if icon %} -->
+    <span class="opacity-50">{% include icon %}</span>
+    <!-- {% endif %} -->
+  </td>
+  <td class="flex flex-row whitespace-nowrap">
+    <div class="relative z-0 h-10 w-full group">
+      <input
+        type="text"
+        name="config.{{dest}}.{{key}}"
+        value="{{value|e}}"
+        placeholder=""
+        class="{{style}} block my-1 py-1 px-4 w-full text-sm bg-transparent border-0 border-b border-gray-200 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        hx-post="{{htmx_base}}{{htmx_query}}"
+        hx-trigger="keyup changed delay:1s"
+        hx-swap="outerHTML"
+        {{attr_disabled}}
+      />
+      <!-- {% if attr_disabled %} -->
+      <input type="hidden" name="config.{{dest}}.{{key}}" value="{{value|e}}" />
+      <!-- {% endif %} -->
+      <label
+        for="config.{{dest}}.{{key}}"
+        class="{{style}} absolute text-sm text-gray-500 dark:text-gray-600 duration-300 transform -translate-y-4 scale-75 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
+        >{{key}}</label
+      >
+    </div>
+    <!-- {% if not disabled %} -->
+    <button
+      type="button"
+      title="Delete key: {{key}}"
+      class="flex-0 -ml-8 -mt-3 z-20 cursor-pointer text-gray-300 dark:text-gray-700 hover:text-gray-500 dark:hover:text-gray-300 opacity-75 hover:opacity-100"
+      hx-delete="{{htmx_base}}{{htmx_query}}"
+      hx-confirm="Delete '{{dest}}.{{key}}'. Are you sure?"
+      hx-swap="outerHTML swap:0.5s"
+      onclick="event.stopPropagation()"
+    >
+      {% include "icons/trash.svg" %}
+    </button>
+    <!-- {% endif %} -->
+  </td>
+</tr>
+<!-- {% set focus = focus or selected == key %} -->
+<!-- {% if focus %} -->
+<script>
+  (function () {
+    input = document.getElementsByName("config.{{dest}}.{{key}}")[0];
+    if (input) {
+      input.focus();
+    }
+  })();
+</script>
+<!-- {% endif %} -->
+{% endwith %}

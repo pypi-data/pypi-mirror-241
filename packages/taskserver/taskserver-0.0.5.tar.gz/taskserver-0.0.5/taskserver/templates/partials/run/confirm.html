@@ -1,0 +1,16 @@
+<div hx-swap-oob="innerHTML:main">
+  <!-- Async reload the main contents-->
+  <em
+    hx-get="/taskserver/run?job_id={{run.id}}"
+    hx-replace-url="true"
+    hx-target="main"
+    hx-swap="main"
+    hx-trigger="click, load, reveal"
+  >
+    Loading...
+  </em>
+</div>
+<modal
+  hx-swap-oob="outerHTML:modal"
+  class="h-screen w-full fixed left-0 top-0 flex justify-center items-center bg-gray-500 bg-opacity-75 z-10 close-modal"
+></modal>

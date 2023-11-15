@@ -1,0 +1,63 @@
+<!-- 
+{% set closed = values.keys() | length == 0 %} 
+-->
+<style>
+  .task-variables tr.htmx-swapping td {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+</style>
+<table
+  id="{{dest}}_values"
+  x-data="{ open: {% if closed %}false{% else %}true{% endif %} }"
+  class="task-variables min-w-full"
+>
+  <thead class="font-normal">
+    <tr class="{{style_head}} text-left text-gray-500 dark:text-gray-300">
+      <th class="w-4 p-2 cursor-pointer" @click="open = !open">
+        <span style="display: block" x-show="open"
+          >{% include 'icons/chevron-down.svg' %}</span
+        >
+        <span style="display: none" x-show="!open"
+          >{% include 'icons/chevron-right.svg' %}</span
+        >
+      </th>
+      <th class="flex flex-row">
+        <!-- Display Name -->
+        <label
+          @click="open = !open"
+          class="flex-1 py-1.5 font-normal cursor-pointer"
+        >
+          {{title}}
+          <!-- {% if values and values.keys() | length > 0 %} -->
+          ( {{ values.keys() | length }} )
+          <!-- {% endif %} -->
+        </label>
+        <!-- Value Actions (top-right) -->
+        <div class="flex flex-row flex-0" @click="open = true">
+          <span class="flex-1"></span>
+          {% if run %}
+          <!-- {% if run.started %} Task was already started -->
+          <div class="m-1 font-light italic text-gray-500 opacity-75">
+            Spawned: {{ run.started.strftime('%l:%M %p %Z on %b %d, %Y') }}
+          </div>
+          <!-- {% endif %} -->
+          {% else %}
+          <!-- Show tools for spawning new task -->
+          {% include 'partials/values/add.html' %} {% endif %}
+        </div>
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class="config-{{dest}}"
+    style="{% if closed %}display: none{% endif %}"
+    x-show="open"
+  >
+    <!-- {% if values %} List values for the current context -->
+    {% for key,value in values.items() %}
+    <!-- {% set status = changes[key] if changes and key in changes else "Unchanged" %} -->
+    {% include 'partials/values/item.html' %} {% endfor %}
+    <!-- {% endif %} -->
+  </tbody>
+</table>

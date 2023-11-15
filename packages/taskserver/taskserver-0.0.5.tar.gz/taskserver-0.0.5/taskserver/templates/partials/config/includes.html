@@ -1,0 +1,13 @@
+<div id="task-includes" class="flex flex-col justify-start">
+  <!-- Add Includes {% if taskfile.includes %} -->
+  {% for key, value in taskfile.includes.items() %}
+  <!-- {% set status = changes['includes.'+key] if changes and key in changes else "Unchanged" %} -->
+  {% include "partials/config/includes/items/default.html" %}{% endfor %}
+  <!-- {% endif %} -->
+
+  <!-- Placeholder for new items to be added -->
+  <div id="add-import-item"></div>
+
+  <!-- Quick add option -->
+  {% include "partials/config/includes/items/add.html" %}
+</div>

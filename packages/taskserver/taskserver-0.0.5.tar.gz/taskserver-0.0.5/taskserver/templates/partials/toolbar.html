@@ -1,0 +1,41 @@
+<style>
+  ul.breadcrumb li + li::before {
+    content: "\276F";
+    color: inherit;
+  }
+
+  ul.breadcrumb li span {
+    opacity: 60%;
+  }
+</style>
+<nav
+  class="flex w-full flex-row justify-end bg-gray-300 dark:bg-gray-700 px-4 sm:justify-between"
+>
+  <ul
+    class="breadcrumb flex-row items-center py-4 space-x-2 text-lg text-gray-700 dark:text-white sm:flex"
+  >
+    <li>
+      <a href="/taskserver?path={{ taskfile.path }}">{{ taskfile.path }}</a>
+    </li>
+
+    <!-- {% if taskfile and task and taskfile.path != task.src %} -->
+    <li>
+      <a href="/taskserver?path={{ task.src }}">{{ task.src }}</a>
+    </li>
+    <!-- {% endif %} -->
+
+    <li>
+      <span class="pl-1">{{ title }}</span>
+    </li>
+  </ul>
+
+  <span class="flex-grow"><!-- whitespace --></span>
+
+  <div class="flex items-center">
+    {% block tools %}
+    <!-- Start of tools -->
+    {% if toolbar %}{% include toolbar %}{% endif %}
+    <!-- End of tools -->
+    {% endblock tools %}
+  </div>
+</nav>

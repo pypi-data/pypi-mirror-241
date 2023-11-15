@@ -1,0 +1,8 @@
+{% set isHTMX = req and not req.head["hx-request"] %}
+{% if isHTMX %}{% extends 'index.html' %}{% endif %}
+
+{% block sidenav %}{% if isHTMX %}{% include 'partials/sidenav/index.html' %}{% endif %}{% endblock sidenav %}
+{% block content %}{% endblock content %}
+{% block aside %}{% endblock aside %}
+{% block modal %}{% endblock modal %}
+{% block script %}{% endblock script %}
