@@ -1,0 +1,8 @@
+demos/hello_world.py,sha256=64iUxhUNurAB28V2Ltk2DwoqMWM-laCgA2fOqxR5H8o,970
+src/psga.py,sha256=hbN2DZnCWjYGZ1_N3asA3it2eQ3EB19ji7aqxrpD71E,2775
+tests/test_psga.py,sha256=Ynw3jEbR-iUKioSpZ93_2umKWNUdAkViOYYjvQfigg4,2975
+psga-0.0.1.dist-info/LICENSE,sha256=-pqZby__33X5wyuPwdJ_YRk-qy6FoSIfnThPhmiuZeA,1080
+psga-0.0.1.dist-info/METADATA,sha256=f2QnZjresn4NEGO7B8ZsKgPaVPmtf8QgbM468ZVfBck,3853
+psga-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psga-0.0.1.dist-info/top_level.txt,sha256=YZsFfLaWvtOi3sbBSi8ZG8O5JZsRFXavTX5qwELunH0,16
+psga-0.0.1.dist-info/RECORD,,
