@@ -1,0 +1,16 @@
+[console_scripts]
+Grep = wnix.bin.middle.Grep:main
+Sed = wnix.bin.middle.Sed:main
+html = wnix.bin.input.html:main
+image = wnix.bin.input.image:main
+input = wnix.bin.input:main
+input-html = wnix.bin.input.html:main
+input-image = wnix.bin.input.image:main
+input-pdf = wnix.bin.input.pdf:main
+input-url = wnix.bin.input.url:main
+output = wnix.bin.output:main
+pdf = wnix.bin.input.pdf:main
+product = wnix.bin.middle.product:main
+think = wnix.bin.middle.think:main
+url = wnix.bin.input.url:main
+what = wnix.bin.output.what:main
