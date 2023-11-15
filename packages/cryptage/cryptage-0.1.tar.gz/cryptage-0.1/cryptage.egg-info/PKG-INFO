@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cryptage
+Version: 0.1
+Summary: package pour encryter et decrytper des mots
+Home-page: https://github.com/Ferda11/encryptor
+Author: C.M Tech
+Author-email: ferdacarinef@gmail.com
+Requires-Python: >=3.10

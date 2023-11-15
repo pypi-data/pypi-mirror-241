@@ -1,0 +1,3 @@
+from encryptor import *
+
+main()
