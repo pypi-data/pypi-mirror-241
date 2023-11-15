@@ -1,0 +1,26 @@
+
+
+
+[project]
+
+name = "booli"
+description = "Friendly wrapper for the Booli RESTful API endpoints"
+
+readme = "README.md"
+
+license.text = "MIT"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">= 3.9"
+
+dynamic = ["version"]
+
+
+
+[tool.setuptools.dynamic]
+version.attr = "booli.__version__"

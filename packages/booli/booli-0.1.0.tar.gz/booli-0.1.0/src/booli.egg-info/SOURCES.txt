@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/booli/__init__.py
+src/booli.egg-info/PKG-INFO
+src/booli.egg-info/SOURCES.txt
+src/booli.egg-info/dependency_links.txt
+src/booli.egg-info/top_level.txt
