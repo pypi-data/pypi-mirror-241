@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: odc-io
+Version: 0.2.2
+Summary: Miscellaneous file IO helper methods
+Home-page: https://github.com/opendatacube/odc-tools/
+Author: Open Data Cube
+Author-email: 
+Maintainer: Open Data Cube
+Maintainer-email: 
+License: Apache License 2.0
+Platform: any
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+odc.io
+======
+
+Various file IO tools.
+
+Installation
+------------
+
+```
+pip install odc-io
+```
+
+Usage
+-----
+
+TODO

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+odc/io/__init__.py
+odc/io/_version.py
+odc/io/cgroups.py
+odc/io/tar.py
+odc/io/text.py
+odc/io/timer.py
+odc_io.egg-info/PKG-INFO
+odc_io.egg-info/SOURCES.txt
+odc_io.egg-info/dependency_links.txt
+odc_io.egg-info/not-zip-safe
+odc_io.egg-info/top_level.txt
+tests/test_text.py
