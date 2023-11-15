@@ -1,0 +1,5 @@
+setup.py
+hugobio.egg-info/PKG-INFO
+hugobio.egg-info/SOURCES.txt
+hugobio.egg-info/dependency_links.txt
+hugobio.egg-info/top_level.txt
