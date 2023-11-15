@@ -1,0 +1,2 @@
+[console_scripts]
+alog_auto = cli.main:main
