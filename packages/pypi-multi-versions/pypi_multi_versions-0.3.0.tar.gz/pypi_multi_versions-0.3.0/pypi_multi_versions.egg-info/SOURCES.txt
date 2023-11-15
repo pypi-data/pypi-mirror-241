@@ -1,0 +1,14 @@
+.gitignore
+LICENCE
+README.md
+requirements.txt
+setup.py
+pypi_multi_versions/__init__.py
+pypi_multi_versions/cli.py
+pypi_multi_versions/importer.py
+pypi_multi_versions/installer.py
+pypi_multi_versions.egg-info/PKG-INFO
+pypi_multi_versions.egg-info/SOURCES.txt
+pypi_multi_versions.egg-info/dependency_links.txt
+pypi_multi_versions.egg-info/entry_points.txt
+pypi_multi_versions.egg-info/top_level.txt
