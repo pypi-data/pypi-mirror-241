@@ -1,0 +1,9 @@
+README.md
+setup.py
+milodado/__init__.py
+milodado/dados.py
+milodado.egg-info/PKG-INFO
+milodado.egg-info/SOURCES.txt
+milodado.egg-info/dependency_links.txt
+milodado.egg-info/requires.txt
+milodado.egg-info/top_level.txt
