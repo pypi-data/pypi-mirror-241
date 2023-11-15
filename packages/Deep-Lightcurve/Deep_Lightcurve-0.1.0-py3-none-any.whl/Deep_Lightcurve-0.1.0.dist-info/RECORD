@@ -1,0 +1,17 @@
+anim.py,sha256=k0K2fP6iBxX4_Z87MtEYhKGbzto4yOk9kij9zxj3KqA,855
+deep_lc/__init__.py,sha256=8DKjk4r1dGIDcvK4iFfmlgt16sCqsKna2bmC_ZsYAhU,330
+deep_lc/anchors.py,sha256=SKtDqtjCgZucMgHWAD90sWEbalYQ5DQCYqogDUIZLF8,5613
+deep_lc/classifier.py,sha256=mimv_YnoDf4bhpR2dWkkPnf32CUKqCoIq3Kz4weEZn4,27834
+deep_lc/config.py,sha256=Buz_gJbgGgGLpHcd26LYqjMWpKrvOqK2diVrpKzXt4M,372
+deep_lc/conformal.py,sha256=mhDDHtwd28QoNzyvf8tcEqkyaVHDqh0qmnw0ZRGGSs0,14637
+deep_lc/conformal_utils.py,sha256=vwdH5_eElb7dHmMgAdhIPb4Oxtq8d143O_1EIIGMJnI,8239
+deep_lc/dataset.py,sha256=d5P8YGksZDiwrgKLg_e3nMkBTGHZrvZnlumNxHbc-cc,17729
+deep_lc/finetune.py,sha256=BDPOHPrDWAapgDmg1kiClR7LhT2ZHNxhWtk5kKbXKEI,8011
+deep_lc/models.py,sha256=RVeDj8Vm65PPDjeIf-YQoCqEaeRwCGsphY0mg6lZim8,26420
+deep_lc/resnet.py,sha256=rE72GDtnsenuA644fCRGPhh7jDrekkaF_TVY7PKvbJk,9029
+deep_lc/utils.py,sha256=0ObtDAVgMCefO6Z4ld3YFs2-W4jeyHQD7GQA6RzR4iI,4512
+Deep_Lightcurve-0.1.0.dist-info/LICENSE,sha256=fmFCL01FWUOeY-_dLVcVAghYCS76bnlp_ny6_VOh2pY,1336
+Deep_Lightcurve-0.1.0.dist-info/METADATA,sha256=vbeoGXpL0YcXUbSuAndo-N23qh41vG-BdboUAvhZlDk,4336
+Deep_Lightcurve-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Deep_Lightcurve-0.1.0.dist-info/top_level.txt,sha256=SntvXIqB2a5nfuIxOHHf0xghYsoysGzIc-6fT04ll6k,13
+Deep_Lightcurve-0.1.0.dist-info/RECORD,,

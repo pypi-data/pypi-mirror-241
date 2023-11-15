@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: Deep-Lightcurve
+Version: 0.1.0
+Summary: A general Light curve classification framework based on deep learning
+Author-email: Kaiming Cui <cuikaiming@sjtu.edu.cn>
+License: MIT License
+        
+        Copyright (c) 2023 Kaiming Cui
+        
+        MIT License
+        
+        NTS-Net
+        
+        Copyright (c) 2020 Ze Yang
+        
+        MIT License
+        
+        conformal_classification
+        
+        Copyright (c) 2020 Anastasios Angelopoulos
+        
+        MIT License
+        
+        Lightkurve_ext
+        
+        Copyright (c) 2022 Kaiming Cui
+        
+        MIT License
+        
+        Lightkurve
+        
+        Copyright (c) 2018-2021 The Authors
+        
+        MIT License
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/ckm3/Deep-LC
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: gatspy
+Requires-Dist: lightkurve >=2.0
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Deep-LC
+
+``Deep-LC``  is open-source and intended for the classification of light curves (LCs) in a gernaral purpose. It utilizes a weakly supervised object detection algorithm to automatically zoom in on the LC and power spectrum (PS) to extract local features. This eliminates the need for manual feature extraction and allows it to be applied to both space- and ground-based observations, as well as multiband LCs with large gaps and nonuniform sampling.
+
+The implenmentaion and performace detail can be found in our paper.
+
+LC component processing animation of TIC 470109695, which is a rotating variable star. Our model can automatically zoom in on the LC and PS to extract local features.
+
+![LC component processing](docs/source/lc.gif)
+
+PS component processing animation of KIC 12268220, which is an eclipsing bianry with a $\delta$ Scuti pulsating primary star.
+
+![PS component processing](docs/source/ps.gif)
+
+## Introduction
+
+``Deep-LC`` is easy to install with pip:
+```
+pip install deep-lc
+```
+
+Or install the development version from source:
+```
+git clone https://github.com/ckm3/Deep-LC.git
+cd Deep-LC
+pip install -e .
+```
+
+## Quickstart
+
+```python
+from deep_lc import DeepLC
+
+# Load model
+dl_combined = DeepLC(combined_model="model_path")
+
+# Load light curve
+lc = np.load("your_light_curve_path")
+
+# Predict as show intermediate results
+prediction, figs = dl_combined.predict(lc, show_intermediate_results=True)
+
+```
+
+Please visit the [quickstart page](https://deep-lc.readthedocs.io/en/latest/Quickstart.html) for details.
+
+## Citing
+
+If you are using Deep-LC in your research, please cite our paper and add a footnote of this Github project.
