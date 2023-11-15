@@ -1,0 +1,9 @@
+rcode/__init__.py,sha256=MXADAeOsJn2yhwIYt6eo4Mm-lK5-MUUd9f2QfnSANcc,49
+rcode/__main__.py,sha256=jRa7efHyRY9YoitsRz4LOvATo2JtckiFVv7ja-16hFs,69
+rcode/config.py,sha256=BYI07_UvJoMSHRI1Akd-jjVnTkrk_oRVa3bO-YuslhE,246
+rcode/rcode.py,sha256=Thol77NLoKwETotUwngjI_2JMqvYiDlNeAXgyxcZ8wc,11634
+rcode_tddschn-0.5.1.dist-info/LICENSE,sha256=_NudDtXO8o3Vtk83gZMzZpZOzsYQWlYNq91RyHrwpGs,1103
+rcode_tddschn-0.5.1.dist-info/METADATA,sha256=ShF4BPxkuVljSSuA0k7SkNsO1znyJZCxAc7PclLxOVo,3150
+rcode_tddschn-0.5.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+rcode_tddschn-0.5.1.dist-info/entry_points.txt,sha256=VWAg4ttlD4N4_wH_3c8uWidxYAh_pj5d2a8EY_h2Hr4,42
+rcode_tddschn-0.5.1.dist-info/RECORD,,
