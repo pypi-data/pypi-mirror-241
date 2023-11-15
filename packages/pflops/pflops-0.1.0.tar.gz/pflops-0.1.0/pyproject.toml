@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pflops"
+version = "0.1.0"
+description = ""
+authors = ["Gunwoo Kim <gunwoo@petaflops.ai>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+pflops = "pflops.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.9.0"}
+requests = "^2.31.0"
+requests-toolbelt = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
