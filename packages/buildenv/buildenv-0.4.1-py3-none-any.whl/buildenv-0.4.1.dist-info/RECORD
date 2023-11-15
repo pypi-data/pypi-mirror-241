@@ -1,0 +1,17 @@
+buildenv/__init__.py,sha256=RXmz_Ldm4m8MSga2Fr8_nYMtr3AxQwlkb-7j-d0mNOY,727
+buildenv/__main__.py,sha256=W02obraz17NZDmbDZ7ruo9tTg0WUc7F-OtMzcNr5LMM,219
+buildenv/loader.py,sha256=0sqNrLmhULFwNgKV3m26nyd2BLvRhlhl_nVhZpVyiss,6670
+buildenv/manager.py,sha256=7k9rtjBKyqrZ1C0InY95rYZlsDS2f8UCVlTbxLz99Wo,7090
+buildenv/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildenv/templates/activate.cmd.jinja,sha256=NPtzyGQc3P0NhTpDFp7eB607bHDzXvfjgbV3lT6oT5o,55
+buildenv/templates/activate.sh.jinja,sha256=YL2mS-zxOfzDN0nSRAQSNB6IAkZUPYi-PaMM61usDiA,55
+buildenv/templates/buildenv.cmd.jinja,sha256=uTJtJsvFk7cobD9jTxh4uugi_BkD1yr5yqfpe7roJ88,66
+buildenv/templates/buildenv.sh.jinja,sha256=Ahx_muQuovjGX3ECfiHGRuT8gq0CywWovru2cWevywg,143
+buildenv/templates/shell.cmd.jinja,sha256=G-EFEDP_JRjMlABjM_yd2fUZBeHHWNivaWDkyIQOr_8,97
+buildenv/templates/shell.sh.jinja,sha256=_A51b3E1nkthRiGlCYMUg-f8aFpm1ponheQ_Pi_zPTs,179
+buildenv/templates/warning.jinja,sha256=kz4yjJloFM2JVX9tU3_Of3l9PLYRZiGLWab8bjT0uLk,159
+buildenv-0.4.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+buildenv-0.4.1.dist-info/METADATA,sha256=dPrJOrqhsWCYg-jA9uRuE1asEBEDPQTEiNyGG_aBHAA,1820
+buildenv-0.4.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+buildenv-0.4.1.dist-info/top_level.txt,sha256=jHq5oCaoVV-5XbXsXzPXXFuQU2AHGKNTjENCjhwIBqs,9
+buildenv-0.4.1.dist-info/RECORD,,
