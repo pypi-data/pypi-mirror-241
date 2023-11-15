@@ -1,0 +1,15 @@
+differt/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+differt/geometry/__init__.py,sha256=Fc72uM4rixBJVOpLIJvXGbS5f3_dn1YtE8qD95-BpGg,68
+differt/geometry/triangle_mesh.py,sha256=LX4rmBp95MiVMZ_RLdgdlO56RLU1hV3ujNXDq3T5FI0,4420
+differt/geometry/utils.py,sha256=cWygHj5g_xU_LVR9FrsfVRuQ2K5JZtPgLWeqmxLUk54,511
+differt/plotting/__init__.py,sha256=1rTolqvUsJGiKoeB4CON_eiIu0ktpuG7QJTqGfha3cY,57
+differt/plotting/decorators.py,sha256=nj3AxL_NWhBhPXnkKLDRHuJkZd7eHExp7sfEMuvxiFo,2709
+differt/rt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+differt/rt/image_method.py,sha256=nB1n1rc-g400T94ipq0LTx1jV3j-h0HHiWNDZM6BQwA,7261
+differt/rt/utils.py,sha256=4BElQSAFN0IYIQFm0CJcsbACKlsAccUyX6aco7kmWMc,2556
+differt/scene/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+differt/scene/scene.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+differt-0.0.5.dist-info/LICENSE.md,sha256=2c9mltbrFFLc-ydoMyORIhptS6eb4n1IrmunskJnBcM,1073
+differt-0.0.5.dist-info/METADATA,sha256=zhDgDYKLJ0caqHPEZLyCSRlnXDVD1Y3YtJ4l45XyILU,1467
+differt-0.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+differt-0.0.5.dist-info/RECORD,,
