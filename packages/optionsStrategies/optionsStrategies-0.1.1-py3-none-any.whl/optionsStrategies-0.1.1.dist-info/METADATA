@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: optionsStrategies
+Version: 0.1.1
+Summary: Options Strategies library
+Home-page: UNKNOWN
+Author: Pulkit Gupta| https://www.linkedin.com/in/pulkitgupta31/
+Author-email: <iampulkit31@gmail.com>
+License: UNKNOWN
+Keywords: options,strategies,payoff,profit,loss
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+
+A package that allows you to calculate the payoff and profit/loss of various options strategies.
+
