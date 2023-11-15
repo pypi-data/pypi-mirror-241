@@ -1,0 +1,2 @@
+[console_scripts]
+berrymill = berry_mill:main

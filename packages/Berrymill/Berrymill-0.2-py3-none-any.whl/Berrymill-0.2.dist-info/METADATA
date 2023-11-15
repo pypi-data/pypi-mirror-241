@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: Berrymill
+Version: 0.2
+Summary: Kiwi-based Appliance Builder
+Home-page: https://github.com/isbm/berrymill
+Author: Bo Maryniuk
+Author-email: Bo Maryniuk <bo@maryniuk.net>
+License: MIT License
+        
+        Copyright (c) 2023 Bo Maryniuk
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/isbm/berrymill
+Keywords: appliance,builder,kiwi
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inquirer
+Requires-Dist: kiwi
+Requires-Dist: kiwi-boxed-plugin
+Requires-Dist: typing-extensions
+Requires-Dist: qemu
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+
+# Berrymill
+
+It is a wrapper around Kiwi Appliance Builder.
+
+#### What is this name?
+
+A [project KIWI](https://github.com/OSInside/kiwi), originally
+supposed to be named after New Zealand citizen, ended up in the
+community to be just a sour berry fruit. Hence the name: berry(fruit)
+mill.
+
+## Overview
+
+**Berrymill** is an appliance generator of root filesystems for
+embedded devices. It integrates Kiwi image builder to the
+Ubuntu/Debian distributions, allowing building images locally.
+
+## Use Cases
+
+### Build an Image Locally
+
+That can also KIWI do. Except if your image build also should
+equally run on [OBS](https://openbuildservice.org) **and** locally
+without image description changes.
+
+### A Dozen of Small Deviations
+
+You have one image that you do not change that often (or at all), but
+you have little small deviations: add a package here, remove there,
+change size, filesystem type etc. You don't want to have carbon copies
+all around the place, but you want to have _derived images_.
+
+### Configuration Management
+
+Unlike plain KIWI, which keeps configuration in a straight-forward
+fashion, Berrymill is also handling the Configuration Management in a
+framework style.
+
+## Limitations
+
+Berrymill is in early development and some features might be missing
+or not working properly. If that happens, please open a bug report by
+[adding an issue here](https://github.com/isbm/berrymill/issues).
