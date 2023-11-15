@@ -1,0 +1,7 @@
+hdl21==5.0.0
+
+[dev]
+pytest==7.1
+coverage
+pytest-cov
+twine
