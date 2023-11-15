@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ort
+Version: 1.0.1
+Summary: ort
+Home-page: https://pypi.org/project/ort/
+Author: anycode
+Author-email: anycode@yahoo.com
+Maintainer: anycode
+Maintainer-email: anycode@yahoo.com
+Platform: linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# ort - ONNXRuntime Library
+

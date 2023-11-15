@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+ort/__init__.py
+ort.egg-info/PKG-INFO
+ort.egg-info/SOURCES.txt
+ort.egg-info/dependency_links.txt
+ort.egg-info/top_level.txt
