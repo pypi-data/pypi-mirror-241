@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: chargeamps
+Version: 1.5.2
+Summary: Charge-Amps API bindings for Python
+Home-page: https://github.com/kirei/python-chargeamps
+License: BSD-2-Clause
+Keywords: ev
+Author: Jakob Schlyter
+Author-email: jakob@kirei.se
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: PyJWT (>=2.1.0,<3.0.0)
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: ciso8601 (>=2.2.0,<3.0.0)
+Requires-Dist: dataclasses-json (>=0.5.2,<0.6.0)
+Requires-Dist: isoduration (>=20.11.0,<21.0.0)
+Requires-Dist: marshmallow (>=3.14.1,<4.0.0)
+Project-URL: Repository, https://github.com/kirei/python-chargeamps
+Description-Content-Type: text/markdown
+
+# Charge Amps API bindings for Python
+
+This repository contains a Python module for the Charge Amps' electric vehicle charging stations.
+
+The module is developed by [Kirei AB](https://www.kirei.se) and is not supported by [Charge Amps AB](https://charge-amps.com).
+
+
+## External API Key
+
+You need an API key to use the Charge Amps external API. Contact [Charge Amps Support](mailto:support@charge-amps.com) for extensive API documentation and API key.
+
+
+## References
+
+- [Charge Amps External REST API](https://eapi.charge.space/swagger/)
+
