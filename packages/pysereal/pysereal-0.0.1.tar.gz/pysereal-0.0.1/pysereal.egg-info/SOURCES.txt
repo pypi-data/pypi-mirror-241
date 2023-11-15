@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cerial/__init__.py
+cerial/cerial.py
+cerial/config.py
+pysereal.egg-info/PKG-INFO
+pysereal.egg-info/SOURCES.txt
+pysereal.egg-info/dependency_links.txt
+pysereal.egg-info/requires.txt
+pysereal.egg-info/top_level.txt
