@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: frc6343
+Version: 0.2
+Summary: Useful python classes and methods used by FRC Team 6343, Steel Ridge Robotics
+Author: Steel Ridge Robotics
+Project-URL: Repository, https://github.com/SteelRidgeRobotics/frc-6343-python-package
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: robotpy
+
