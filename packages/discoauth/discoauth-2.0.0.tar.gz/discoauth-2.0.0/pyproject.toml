@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discoauth"
+version = "2.0.0"
+
+description = "Discord OAuth, and Discord API, in one package"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["Discord", "OAuth2", "oauth", "auth", "async", "api"]
+license = {file = "LICENSE"}
+authors = [
+  {name = "Arcader717"},
+]
+dependencies = [
+  "requests",
+  "click"
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Topic :: Other/Nonlisted Topic",
+  "Programming Language :: Python",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/disoauth/DiscoAuth"
+"Bug Tracker" = "https://github.com/disoauth/DiscoAuth/issues"
+"Repository" = "https://github.com/disoauth/DiscoAuth"
+"Documentation" = "https://discoauth.readthedocs.io/en/latest/index.html"
+"Changelog" = "https://github.com/disoauth/DiscoAuth/docs/CHANGELOG.rst"
+
+[project.scripts]
+discoauth = "discoauth.__main__:cli"
+
+[project.optional-dependencies]
+pretty-cli = [
+  "rich"
+]
