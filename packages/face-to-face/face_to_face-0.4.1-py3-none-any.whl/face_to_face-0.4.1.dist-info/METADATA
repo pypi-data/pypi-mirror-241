@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: face-to-face
+Version: 0.4.1
+Summary: face-to-face is a library for easy-to-use human face related trained models.
+Home-page: https://github.com/kynk94/face-to-face
+Author: face-to-face team
+Author-email: kynk94@naver.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: ninja
+Requires-Dist: onnxruntime-gpu
+Requires-Dist: Pillow
+Requires-Dist: tqdm
+
+UNKNOWN
+
