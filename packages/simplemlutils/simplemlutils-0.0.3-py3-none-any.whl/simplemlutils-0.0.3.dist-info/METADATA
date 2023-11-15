@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: simplemlutils
+Version: 0.0.3
+Summary: Easy to use utilities for ml modeling.
+Project-URL: Homepage, https://github.com/pockerman/mlutils
+Project-URL: Bug Tracker, https://github.com/pockerman/mlutils/issues
+Author-email: Alexandros Giavaras <a.giavaras@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+[![mlutils](https://github.com/pockerman/mlutils/actions/workflows/python-app.yml/badge.svg)](https://github.com/pockerman/mlutils/actions/workflows/python-app.yml)
+
+
+# mlutils
+
+Easy to use utilities for ml modeling.
+
+## Installation
+
+You can install ```mlutils``` using ```pip```. Clone the ```main``` branch of the repository
+and build the utilities using
+
+```
+python -m build
+```
+
+Then install the built wheel using
+
+```
+pip install dist/simplemlutils-<version>.whl
+```
+
+Alternatively, you can use the bash script ```install_from_source.sh```.  You can also
+install it from PyPi using
+
+```
+pip install simpleutils
+```
+
+## Datasets
