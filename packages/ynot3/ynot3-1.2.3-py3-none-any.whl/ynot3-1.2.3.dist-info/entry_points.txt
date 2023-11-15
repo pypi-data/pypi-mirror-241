@@ -1,0 +1,3 @@
+[console_scripts]
+ynot3=ynot3:run
+
