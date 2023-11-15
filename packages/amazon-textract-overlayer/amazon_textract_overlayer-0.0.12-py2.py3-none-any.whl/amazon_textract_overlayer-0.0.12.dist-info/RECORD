@@ -1,0 +1,9 @@
+textractoverlayer/__init__.py,sha256=I0XX9ODePfhoC70fG_fN77fvNJ5gxceyP4v1r4zBi4E,137
+textractoverlayer/_version.py,sha256=3RePmseuSNTud1pTd1PCEH9Nghq92j61gE8bs5rwACs,24
+textractoverlayer/image_tools.py,sha256=335MA6U8yb5_rPUyZheddvN0BJL2CbTrPVjAO5B4OA8,2846
+textractoverlayer/t_overlay.py,sha256=HkCFQ7eAiBwMsrkWBlCPc8F9Eeo0B6geqCTojf4k7N4,7288
+amazon_textract_overlayer-0.0.12.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+amazon_textract_overlayer-0.0.12.dist-info/METADATA,sha256=v5Dx7FeyVqbWo57oracYDZftBVJrMYf5myMjVIRYzlQ,3522
+amazon_textract_overlayer-0.0.12.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+amazon_textract_overlayer-0.0.12.dist-info/top_level.txt,sha256=jTlOOVuUhDbw_Yql0vX1ZZlVHHkoCV2X1Cd9vxqVbNE,18
+amazon_textract_overlayer-0.0.12.dist-info/RECORD,,
