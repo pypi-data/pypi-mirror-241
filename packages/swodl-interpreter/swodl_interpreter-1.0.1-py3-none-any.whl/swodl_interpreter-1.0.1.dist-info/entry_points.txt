@@ -1,0 +1,5 @@
+[console_scripts]
+swodl = swodl_interpreter.__main__:main
+
+[swodl_service_resolvers]
+mock = swodl_interpreter.mock:Mock

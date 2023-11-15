@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: swodl-interpreter
+Version: 1.0.1
+Summary: SWoDL interpreter.
+Home-page: https://gitlab.com/vladku/swodl_interpreter
+Author: Vladyslav Kurovskyi
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: inflection
+Requires-Dist: lxml
+Requires-Dist: pre-commit
+Requires-Dist: xmltodict
+Requires-Dist: zeep
+
+# swodl_interpreter
+
+SWoDL interpreter that is written following the next documentation: http://resources.avid.com/SupportFiles/attach/AssetManagement/References/AssetManagement_2019_6_SWoDLReference.pdf
+
+and
+
+https://resources.avid.com/SupportFiles/attach/AssetManagement/References/AssetManagement_2020_9_ProcessReference.pdf
+
+## Try it in browser
+
+https://vladku.gitlab.io/swodl_interpreter/
+
+## How to run:
+
+Install:
+
+`pip install git+https://gitlab.com/vladku/swodl_interpreter.git`
+
+Run:
+
+`swodl run <filepath>`
+
+or use `swodl --help` to get all params)
+
+> Example how to pass struct as input: `swodl -in "t={'r': [1, 5, 6]}"`
+
+## What to add:
+
+* Input var from file []
+* Error handling (line number) [+-]
+* Fix str repr for nested out
+
+## How to write web services resolver plugin:
+
+Create your Resolver class with `get_service`, `get_method` and `get_config` methods like:
+
+```python
+class WebFake:
+    def get_service(self, service, interface):
+        return self
+    def get_method(self, name):
+        def web(*args, **kwargs):
+            return f"{name}".join(args)
+        return web
+    def get_config(self, profileName, keys, default=""):
+        ...
+    def get_wf(self, name):
+        ...
+```
+
+Create your own package with following part of setup.py
+
+```python
+setuptools.setup(
+    ...
+    entry_points = {
+        'swodl_service_resolvers': [
+            '{your_plugin_name} = {packagename}.{modulename}:{classname}',
+        ],
+    },
+
+)
+```
+
+Mock config example:
+
+```python
+config = {
+    "services": {
+        "service_name": {
+            "interface_name": {
+                "method_name": {
+                    "cases": [{
+                        "args": [
+                            "1"
+                        ],
+                        "result": "One"
+                    }],
+                    "default": 123
+                }
+            }
+        }
+    },
+    "config": {
+        "profile": {
+            "section": {
+                "section": {
+                    "key": "CONFIGURATION!"
+                }
+            }
+        }
+    }
+}
+```
