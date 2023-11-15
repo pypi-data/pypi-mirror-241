@@ -1,0 +1,11 @@
+vulp/__init__.py,sha256=PY8HZFaWGd6aqXchk6jTDW38bR789rr3bC43ydpPpSE,685
+vulp/spine/__init__.py,sha256=rHIJMUjkwBjWvLYeCcl5tb8QzqAkHA00goz9VKG0q_k,872
+vulp/spine/request.py,sha256=ZKIaZ97YFkMKiFwYykPzB7WmhfgPO6xkisdqCCJHV64,1011
+vulp/spine/spine_error.py,sha256=O6uObQ61Ma50z01PU9_4iSRUE0duXjlzA2tGvbbgn60,783
+vulp/spine/spine_interface.py,sha256=vG3MROw5ikyQ-dhAfPLSyIrKb6uBw_YiEfTOuGS25Pc,7134
+vulp/utils/__init__.py,sha256=fM9Ck23uImK2twUGnjPl0it8EVBVZtKaq6WEGMJ3p1I,168
+vulp/utils/serialize.py,sha256=WIHIEzWAKIAr85H9TEA8b6rxdguUsldg_QvpfA9cgys,1416
+vulp-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vulp-2.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+vulp-2.0.0.dist-info/METADATA,sha256=s47sxTfk9Dk1uVEVxu2YwIaOznKxfot2uEZ80yN76J4,12956
+vulp-2.0.0.dist-info/RECORD,,
