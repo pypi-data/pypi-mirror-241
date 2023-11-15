@@ -1,0 +1,2 @@
+[vdk.plugin.run]
+vdk-gdp-execution-id = vdk.plugin.gdp.execution_id.gdp_execution_id_plugin
