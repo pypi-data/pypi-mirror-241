@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aiocypher
+Version: 0.1.4
+Summary: AsyncIO wrapper around the neo4j driver
+Home-page: https://github.com/bbc/rd-cloudfit-python-aiocypher
+Author: BBC R&D
+Author-email: cloudfit-opensource@rd.bbc.co.uk
+License: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+License-File: LICENSE.md
+License-File: COPYING
+Requires-Dist: async_generator
+Requires-Dist: neo4j<4.3.0
+Requires-Dist: janus
+Provides-Extra: agensgraph
+Requires-Dist: agensgraph; extra == "agensgraph"
+Requires-Dist: aiopg; extra == "agensgraph"
+Requires-Dist: async_exit_stack; extra == "agensgraph"
+Provides-Extra: neo4j
+
+AsyncIO wrapper around the neo4j driver
