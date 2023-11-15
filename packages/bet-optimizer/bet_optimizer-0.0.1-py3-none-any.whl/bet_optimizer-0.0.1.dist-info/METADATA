@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bet-optimizer
+Version: 0.0.1
+Summary: Python script for optimizing bets
+Home-page: https://github.com/subodh101/bet_optimizer
+Author: Subodh Pushkar
+Author-email: subodh.pushkar@gmail.com
+License: Apache License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# bet-optimizer
+Simple python package to identify optimal bet size and odds using basic Kelly Criterion and Expected Values.
+
+
