@@ -1,0 +1,7 @@
+termcolor
+boto3
+openpyxl
+ipaddress
+dnspython
+cryptography
+asn1crypto
