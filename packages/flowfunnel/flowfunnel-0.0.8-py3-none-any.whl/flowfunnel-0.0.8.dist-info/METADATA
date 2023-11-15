@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flowfunnel
+Version: 0.0.8
+Summary: Leveraging Bayesian hierarchical models to diagnose issues and proactively predict user flow stages in conversion funnels.
+Home-page: https://github.com/yinsn/FlowFunnel
+Author: Yin Cheng
+Author-email: yin.sjtu@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: daft >=0.1.2
+Requires-Dist: pymc >=5.6.1
+Requires-Dist: pytensor >=2.12.3
+Requires-Dist: tqdm >=4.66.1
+
+<div align="center"><img src="https://github.com/yinsn/FlowFunnel/blob/develop/docs/images/flowfunnel-logo.svg" width="800"/></div>
+
+# FlowFunnel
+
+Leveraging Bayesian hierarchical models to diagnose issues and proactively predict user flow stages in conversion funnels. A cutting-edge solution for optimizing user behavior in digital platforms.
