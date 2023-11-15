@@ -1,0 +1,68 @@
+1.0     June 9, 2018
+        - initial version
+
+1.1     June 22, 2018
+        - fixed and improved some diagnostic messages
+        - added -x|--ping-timeout option to change ping timeout from
+          default of 2 seconds
+        - added a sdist target in the Makefile
+
+1.2     Oct 28, 2018
+         - added a -m|--maint option to specify a known maintenance time
+           that your outside network connection will not be available.
+           Can be given multiple times.
+           During these time periods, do NOT reset the device
+        - made main line coding into a main() function and call it if
+          __name__ == '__main__'
+        - made proper doc-strings for functions instead of traditional
+          comments before the function declaration.  (fat lot of
+          good it'll do when the command name uses hyphens instead of
+          underscores and doesn't end in .py)
+        - added example to README.txt and README.md
+        - updated man page for -m option.  added missing -x.  fixed stuff.
+        - updated version in setup.py
+
+1.3     Aug 12, 2020
+        - now works with python version 3,  as well as version 2
+        - is_reset_locked():
+          changed returns from 0 and 1 to False and True
+        - reset_device():
+          variable quiet_flag was not available and caused a traceback
+          from NameError. made quiet_flag a global
+        - logit():
+          made smarter in handling exception when open/write fails
+        - num_too_big():
+          new function created.
+          Used to test values for number of ping tries (-t), reset time (-r),
+          wait time (-w) and ping timeout (-x)
+        - usage():
+          complete overhaul.  much easier to read source
+        - refactoring:
+          line lengths now less than 80 characters.
+          some info and error messages changed for shorter line lengths.
+          logic changed to effect logging and messaging if force flag is set
+
+2.0     Nov 3, 2023
+        COMPLETE OVERHAUL.
+
+        The entire package has been reorganized to utilize modern best
+        practices for Python packaging and distribution.  The program has
+        now been changed to be a module and uses the main() function as
+        an entry point for a wrapper program that imports and calls it.
+        It is no longer using setup() and disttools, but instead has pip
+        as the front-end for a build, and uses a back-end of hatchling,
+        as defined in the pyproject.toml file.  
+
+        - added option -L/--lockfile option
+        - added --dns-hosts to be accepted along with -H and --hosts
+          for better clarity
+        - added default dns host of 8.8.4.4 to go along with 8.8.8.8
+        - functions moved to a separate module.  A lot of refactoring.
+
+2.0.1   Nov 14, 2013
+        Makefile:
+            - removed the --editable from install
+        src/pi_power_relay_moxad/__init__.py,pyproject.toml:
+            - updated version
+        README.txt,README.md:
+            - changed example from using --hosts to --dns-hosts
