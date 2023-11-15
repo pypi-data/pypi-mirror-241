@@ -1,0 +1,6 @@
+setup.py
+identity_base.egg-info/PKG-INFO
+identity_base.egg-info/SOURCES.txt
+identity_base.egg-info/dependency_links.txt
+identity_base.egg-info/not-zip-safe
+identity_base.egg-info/top_level.txt
