@@ -1,0 +1,12 @@
+botocore
+boto3
+
+[ASYNC]
+aiobotocore[boto3]>=1.0
+
+[AZURE]
+azure-storage-blob
+
+[THREDDS]
+thredds_crawler
+requests
