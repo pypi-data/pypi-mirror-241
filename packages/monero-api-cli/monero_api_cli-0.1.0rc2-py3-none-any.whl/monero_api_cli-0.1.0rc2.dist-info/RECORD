@@ -1,0 +1,13 @@
+monero_api_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monero_api_cli/__main__.py,sha256=v5uPbVfMQwYzvTChY7hmTwQ9rg44QPvz5SLB-L1bi9w,3110
+monero_api_cli/cli.py,sha256=Qujwu5nyZVu4a1miPbeyduwqJqaS6Div0iVnCUmV778,1696
+monero_api_cli/functions.py,sha256=e-xl_byecv4YbNr0ahMExeVfxqS9R5lEWKGR7JOrlPg,3658
+monero_api_cli/help.py,sha256=y2J8i-qEzM1Iio2ZjOksjZGNuIhCP_lxi4c4oTOI-X0,6182
+monero_api_cli/rpc_methods.py,sha256=B1nTS1Y0S6mssOhGb359mtQLF4TuLpWNPi2zr_3ADN8,2705
+monero_api_cli/version.py,sha256=-9z3Zo9S8vycyOwC-uZ4tc86nGfGtCPwC39ECIG_haE,25
+monero_api_cli-0.1.0rc2.dist-info/LICENSE,sha256=GQOaRbZuoW5n0oIBYXSoN5xvsPpZNBB7-XXe3jkG3Sc,1064
+monero_api_cli-0.1.0rc2.dist-info/METADATA,sha256=3x8rPAq-N29ktEy0_OzQ6DlU4W02mb2Pi5aIVSk1jF0,7916
+monero_api_cli-0.1.0rc2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+monero_api_cli-0.1.0rc2.dist-info/entry_points.txt,sha256=KCrt2prv-pXOYTGwh5eboRd_5Vq8YQOnBWxi8jOrG14,59
+monero_api_cli-0.1.0rc2.dist-info/top_level.txt,sha256=KXSsutokmACwLpCSfgXIyH-Wh1r0B-kXDuxSSgcFN3k,15
+monero_api_cli-0.1.0rc2.dist-info/RECORD,,
