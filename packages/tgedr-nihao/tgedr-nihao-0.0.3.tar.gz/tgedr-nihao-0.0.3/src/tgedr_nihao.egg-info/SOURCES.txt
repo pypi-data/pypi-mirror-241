@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tgedr/__init__.py
+src/tgedr/nihao/__init__.py
+src/tgedr/nihao/commons.py
+src/tgedr/nihao/fetcher.py
+src/tgedr/nihao/ticker_fetcher.py
+src/tgedr/nihao/s3/__init__.py
+src/tgedr/nihao/s3/s3.py
+src/tgedr_nihao.egg-info/PKG-INFO
+src/tgedr_nihao.egg-info/SOURCES.txt
+src/tgedr_nihao.egg-info/dependency_links.txt
+src/tgedr_nihao.egg-info/requires.txt
+src/tgedr_nihao.egg-info/top_level.txt
