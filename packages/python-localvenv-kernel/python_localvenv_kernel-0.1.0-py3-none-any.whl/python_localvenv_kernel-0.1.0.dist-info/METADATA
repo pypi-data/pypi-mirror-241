@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-localvenv-kernel
+Version: 0.1.0
+Summary: Python Jupyter kernel delegating to a local virtual environment
+Home-page: https://github.com/goerz/python-localvenv-kernel
+Author: Michael H. Goerz
+Author-email: mail@michaelgoerz.net
+License: MIT
+Keywords: Interactive,Interpreter,Shell,Web
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: colorama ~=0.4.4
+
+# Python Local-Venv Kernel
+
+A Jupyter kernel that delegates to the `.venv` folder in the notebook directory.
+
+
+# FAQ
+
+[See FAQ.md.](FAQ.md)
