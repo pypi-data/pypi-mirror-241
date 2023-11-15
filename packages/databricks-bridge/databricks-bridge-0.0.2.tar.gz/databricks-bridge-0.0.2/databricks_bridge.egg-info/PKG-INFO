@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: databricks-bridge
+Version: 0.0.2
+Summary: Databricks read and write with sql connection
+Author: Y-Tree (Saeed Falowo)
+Author-email: saeed@y-tree.com
+Keywords: python,databricks,pyspark,sql,dataframe
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+Databricks read and write data from and to databricks tables via insert statement direct write, pandas or spark dataframes to insert statement conversion write
+
+## Usage
+- Initialization
+  - ```
+    from databricks_bridge import Bridge
+    bridge = Bridge(hostname="<host_id>.cloud.databricks.com", token="<token>")
+    ```
