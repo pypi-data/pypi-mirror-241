@@ -1,0 +1,3 @@
+[console_scripts]
+dbt-toolkit=dbttoolkit.cli.main:app
+
