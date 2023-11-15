@@ -1,0 +1,7 @@
+
+
+
+
+basal
+
+memory storage structure for directories

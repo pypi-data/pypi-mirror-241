@@ -1,0 +1,6 @@
+pyproject.toml
+structure.txt
+structures/modules/basal.egg-info/PKG-INFO
+structures/modules/basal.egg-info/SOURCES.txt
+structures/modules/basal.egg-info/dependency_links.txt
+structures/modules/basal.egg-info/top_level.txt
