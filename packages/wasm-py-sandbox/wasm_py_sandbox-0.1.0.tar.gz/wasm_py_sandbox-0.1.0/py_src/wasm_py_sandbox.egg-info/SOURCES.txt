@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+py_src/wasm_py_sandbox/__init__.py
+py_src/wasm_py_sandbox/bindings.py
+py_src/wasm_py_sandbox/py_sandbox.wasm
+py_src/wasm_py_sandbox/sandbox.py
+py_src/wasm_py_sandbox.egg-info/PKG-INFO
+py_src/wasm_py_sandbox.egg-info/SOURCES.txt
+py_src/wasm_py_sandbox.egg-info/dependency_links.txt
+py_src/wasm_py_sandbox.egg-info/requires.txt
+py_src/wasm_py_sandbox.egg-info/top_level.txt
