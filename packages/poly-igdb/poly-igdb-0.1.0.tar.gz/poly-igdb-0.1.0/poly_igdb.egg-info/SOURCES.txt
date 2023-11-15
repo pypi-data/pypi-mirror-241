@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+poly_igdb.egg-info/PKG-INFO
+poly_igdb.egg-info/SOURCES.txt
+poly_igdb.egg-info/dependency_links.txt
+poly_igdb.egg-info/top_level.txt
