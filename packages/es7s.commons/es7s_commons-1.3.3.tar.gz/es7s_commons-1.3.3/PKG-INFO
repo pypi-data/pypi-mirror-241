@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: es7s.commons
+Version: 1.3.3
+Summary: es7s system common classes
+Project-URL: Homepage, https://github.com/es7s/commons
+Project-URL: Bug Tracker, https://github.com/es7s/commons/issues
+Author-email: Aleksandr Shavykin <0.delameter@gmail.com>
+License-Expression: LGPL-3.0
+Keywords: ansi,color,console,format,terminal
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: General
+Requires-Python: >=3.10
+Requires-Dist: pytermor==2.108.0.dev0
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+   <!-- es7s/core -->
+   <a href="##"><img align="left" src="https://s3.eu-north-1.amazonaws.com/dp2.dl/readme/es7s/commons/logo.png" width="96" height="96"></a>
+   <a href="##"><img src="https://s3.eu-north-1.amazonaws.com/dp2.dl/readme/es7s/commons/label.png" width="200" height="60"></a>
+</h1>
+<div align="right">
+ <a href="##"><img src="https://img.shields.io/badge/python-3.10-3776AB?logo=python&logoColor=white&labelColor=333333"></a>
+  <a href="https://pypi.org/project/es7s.commons/"><img alt="PyPI" src="https://img.shields.io/pypi/v/es7s.commons"></a>
+  <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</div>
+<br>
+es7s system shared code
+
+## Installation
+
+```shell 
+pip install es7s-commons
+```
+
+## Changelog
+
+[CHANGES.rst](CHANGES.rst)
