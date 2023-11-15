@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/abstract_utilities.egg-info/PKG-INFO
+src/abstract_utilities.egg-info/SOURCES.txt
+src/abstract_utilities.egg-info/dependency_links.txt
+src/abstract_utilities.egg-info/requires.txt
+src/abstract_utilities.egg-info/top_level.txt
