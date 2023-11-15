@@ -1,0 +1,11 @@
+sensirion_uart_svm4x/__init__.py,sha256=rRCFx-Qg4c61sYyu3CRBViAHxZtx6VtlWEgw27dOX_U,271
+sensirion_uart_svm4x/commands.py,sha256=Ql7bkGcRLL_Lz8t0V-N_kzQZHnwQPR30HW3EiIqhYU0,9449
+sensirion_uart_svm4x/device.py,sha256=b4Bej2VVclfHmqNDHpYp_bRXrDG9jD20znlMqCO9_1Q,20051
+sensirion_uart_svm4x/response_provider.py,sha256=AruEXb2ARk7DpfL5ow4qpcXdyn9KWtxqBZKXe1Iuz5g,956
+sensirion_uart_svm4x/result_types.py,sha256=lSFqCuNsdz4u3o3wVFj4lG4hwluaNp_TF_iSGBYO72o,1781
+sensirion_uart_svm4x/version.py,sha256=kp9euk3Qvv0ADKASQ7QvNZX-dtYHI-LijSxUJSngQzY,135
+sensirion_uart_svm4x-2.0.3.dist-info/LICENSE,sha256=DKeSKSU7ox07GpMxCAiL6d_KFThjhBsczyHUJ8M539E,1549
+sensirion_uart_svm4x-2.0.3.dist-info/METADATA,sha256=9S1ZgEHb5t-E6coZmG8jMu3Uk2N5vN3PSex24ifgnsw,3842
+sensirion_uart_svm4x-2.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sensirion_uart_svm4x-2.0.3.dist-info/top_level.txt,sha256=QLzpGIfm5ywtc6zpZ6lDy0RWxlMJt4GlpKoyZrdMzqc,21
+sensirion_uart_svm4x-2.0.3.dist-info/RECORD,,
