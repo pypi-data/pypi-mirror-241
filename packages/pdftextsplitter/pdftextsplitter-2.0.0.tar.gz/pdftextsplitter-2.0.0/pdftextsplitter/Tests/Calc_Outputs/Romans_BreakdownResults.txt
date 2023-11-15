@@ -1,0 +1,272 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Romans] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Romans
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+h) hier beginnen we met een opsomming met h. i) en dan met romeinse cijfers ii) en dan nogmaals romeins. j) en dan ten slotte weer een letter. h) dit moet opnieuw dus weer een opsomming voorstellen i) en dit moet dan dus ook een gewone letter zijn. j) en dan de hele rotriedel nog een keer. H. En deze tekst over een h moet dan dus weer helemaal anders zijn I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers II. tsja en dan weet je helemaal niet meer wat je wilt typen J. geen 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1 Kleine letters
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+h) hier beginnen we met een opsomming met h. i) en dan met romeinse cijfers ii) en dan nogmaals romeins. j) en dan ten slotte weer een letter. h) dit moet opnieuw dus weer een opsomming voorstellen i) en dit moet dan dus ook een gewone letter zijn. j) en dan de hele rotriedel nog een keer. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 romeinse cijfers
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+h) hier beginnen we met een opsomming met h. i) en dan met romeinse cijfers ii) en dan nogmaals romeins. j) en dan ten slotte weer een letter. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = h) hier beginnen we met een opsomming met h. 
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+h) hier beginnen we met een opsomming met h. i) en dan met romeinse cijfers ii) en dan nogmaals romeins. 
+
+ [ALINEA-CONTENT]:
+h) hier beginnen we met een opsomming met h.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = i) en dan met romeinse cijfers 
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i) en dan met romeinse cijfers 
+
+ [ALINEA-CONTENT]:
+i) en dan met romeinse cijfers
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ii) en dan nogmaals romeins. 
+ nativeID=5 parentID=3 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ii) en dan nogmaals romeins. 
+
+ [ALINEA-CONTENT]:
+ii) en dan nogmaals romeins.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = j) en dan ten slotte weer een letter. 
+ nativeID=6 parentID=2 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+j) en dan ten slotte weer een letter. 
+
+ [ALINEA-CONTENT]:
+j) en dan ten slotte weer een letter.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 gewone letters
+ nativeID=7 parentID=1 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+h) dit moet opnieuw dus weer een opsomming voorstellen i) en dit moet dan dus ook een gewone letter zijn. j) en dan de hele rotriedel nog een keer. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = h) dit moet opnieuw dus weer een opsomming voorstellen 
+ nativeID=8 parentID=7 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+h) dit moet opnieuw dus weer een opsomming voorstellen 
+
+ [ALINEA-CONTENT]:
+h) dit moet opnieuw dus weer een opsomming voorstellen
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i) en dit moet dan dus ook een gewone letter zijn. 
+ nativeID=9 parentID=7 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i) en dit moet dan dus ook een gewone letter zijn. 
+
+ [ALINEA-CONTENT]:
+i) en dit moet dan dus ook een gewone letter zijn.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = j) en dan de hele rotriedel nog een keer. 
+ nativeID=10 parentID=7 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+j) en dan de hele rotriedel nog een keer. 
+
+ [ALINEA-CONTENT]:
+j) en dan de hele rotriedel nog een keer.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2 Hoofdletters
+ nativeID=11 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. En deze tekst over een h moet dan dus weer helemaal anders zijn I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers II. tsja en dan weet je helemaal niet meer wat je wilt typen J. geen idee wat we hier dan weer moeten typen H. hier wordt ik het wel echt een beetje zat I. dus type ik maar wat over Mr. Bean. J. en dan over zijn vertrouwde teddybeer. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.1 romeinse cijfers
+ nativeID=12 parentID=11 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. En deze tekst over een h moet dan dus weer helemaal anders zijn I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers II. tsja en dan weet je helemaal niet meer wat je wilt typen J. geen idee wat we hier dan weer moeten typen 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = H. En deze tekst over een h moet dan dus weer helemaal anders zijn 
+ nativeID=13 parentID=12 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. En deze tekst over een h moet dan dus weer helemaal anders zijn I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers II. tsja en dan weet je helemaal niet meer wat je wilt typen 
+
+ [ALINEA-CONTENT]:
+H. En deze tekst over een h moet dan dus weer helemaal anders zijn
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers 
+ nativeID=14 parentID=13 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers 
+
+ [ALINEA-CONTENT]:
+I. en dan doen we nog weer een hoop gedoe met met romeinse cijfers
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = II. tsja en dan weet je helemaal niet meer wat je wilt typen 
+ nativeID=15 parentID=13 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+II. tsja en dan weet je helemaal niet meer wat je wilt typen 
+
+ [ALINEA-CONTENT]:
+II. tsja en dan weet je helemaal niet meer wat je wilt typen
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = J. geen idee wat we hier dan weer moeten typen 
+ nativeID=16 parentID=12 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. geen idee wat we hier dan weer moeten typen 
+
+ [ALINEA-CONTENT]:
+J. geen idee wat we hier dan weer moeten typen
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.2 gewone letters
+ nativeID=17 parentID=11 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. hier wordt ik het wel echt een beetje zat I. dus type ik maar wat over Mr. Bean. J. en dan over zijn vertrouwde teddybeer. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = H. hier wordt ik het wel echt een beetje zat 
+ nativeID=18 parentID=17 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. hier wordt ik het wel echt een beetje zat 
+
+ [ALINEA-CONTENT]:
+H. hier wordt ik het wel echt een beetje zat
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = I. dus type ik maar wat over Mr. Bean. 
+ nativeID=19 parentID=17 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+I. dus type ik maar wat over Mr. Bean. 
+
+ [ALINEA-CONTENT]:
+I. dus type ik maar wat over Mr. Bean.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = J. en dan over zijn vertrouwde teddybeer. 
+ nativeID=20 parentID=17 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. en dan over zijn vertrouwde teddybeer. 
+
+ [ALINEA-CONTENT]:
+J. en dan over zijn vertrouwde teddybeer.
+
+---------------------------------------------------------------------------------

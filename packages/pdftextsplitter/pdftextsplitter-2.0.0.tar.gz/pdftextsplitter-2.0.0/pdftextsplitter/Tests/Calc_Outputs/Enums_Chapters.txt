@@ -1,0 +1,35 @@
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+1. Dit wordt dus eerst als opsomming herkent, maar moet een hoofdstuk worden.
+1.1 deze sectietitel maakt het een hoofdstuk
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio
+below 30% condition te halen.
+2. Dus nog maar even een hoofdstuk
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that
+3. En nog maar een.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+4. Er komt geen einde aan.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+5. En dan nu de laatste.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+1 and some stupid footertext.

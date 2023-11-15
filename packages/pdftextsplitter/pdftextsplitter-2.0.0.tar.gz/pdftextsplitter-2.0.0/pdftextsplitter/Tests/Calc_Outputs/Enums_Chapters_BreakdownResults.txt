@@ -1,0 +1,129 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Enums_Chapters] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Enums_Chapters
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Dit wordt dus eerst als opsomming herkent, maar moet een hoofdstuk worden.
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio below 30% condition te halen. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 deze sectietitel maakt het een hoofdstuk
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio below 30% condition te halen. 
+
+ [ALINEA-CONTENT]:
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio
+below 30% condition te halen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. Dus nog maar even een hoofdstuk
+ nativeID=3 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3. En nog maar een.
+ nativeID=4 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4. Er komt geen einde aan.
+ nativeID=5 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 5. En dan nu de laatste.
+ nativeID=6 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+
+---------------------------------------------------------------------------------

@@ -1,0 +1,156 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Opsomming2] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Opsomming2
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. 1. kijken welke titel. gh frh fh dh eh dj ks cj oe ek ej dj ddh 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1 Opsommingen en hoofdstuktitels door elkaar
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. 1. kijken welke titel. gh frh fh dh eh dj ks cj oe ek ej dj ddh 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1. kijken welke titel. gh frh fh dh eh dj ks cj oe ek ej ...
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. kijken welke titel. gh frh fh dh eh dj ks cj oe ek ej dj ddh dj. 
+
+ [ALINEA-CONTENT]:
+1. kijken welke titel. gh frh fh dh eh dj ks cj oe ek ej dj ddh dj.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2. ks djd djs dnd sd kd kd dfj fk dj dk kde kdfj wkdrj ...
+ nativeID=3 parentID=1 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. ks djd djs dnd sd kd kd dfj fk dj dk kde kdfj wkdrj kfrnfr ekff ekffj. 
+
+ [ALINEA-CONTENT]:
+2. ks djd djs dnd sd kd kd dfj fk dj dk kde kdfj wkdrj kfrnfr ekff ekffj.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 En nu gaan we nog even een experimentje doen met romeise cijfers:
+ nativeID=4 parentID=1 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. i. even kijken of dit lukt (subtype of part 2). j. en dan deze ook bekijken. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = i. even kijken of dit lukt (subtype of part 2). 
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i. even kijken of dit lukt (subtype of part 2). 
+
+ [ALINEA-CONTENT]:
+i. even kijken of dit lukt (subtype of part 2).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = j. en dan deze ook bekijken. 
+ nativeID=6 parentID=4 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+j. en dan deze ook bekijken. 
+
+ [ALINEA-CONTENT]:
+j. en dan deze ook bekijken.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 En herhalen met grote Romeinse cijfers
+ nativeID=7 parentID=1 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. I. Dit moet dus ook een letter worden. J. Net als deze. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = I. Dit moet dus ook een letter worden. 
+ nativeID=8 parentID=7 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+I. Dit moet dus ook een letter worden. 
+
+ [ALINEA-CONTENT]:
+I. Dit moet dus ook een letter worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = J. Net als deze. 
+ nativeID=9 parentID=7 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Net als deze. 
+
+ [ALINEA-CONTENT]:
+J. Net als deze.
+
+---------------------------------------------------------------------------------
