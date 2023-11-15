@@ -1,0 +1,11 @@
+onednn-2024.0.0.data/data/lib/libdnnl.so,sha256=0ScZLmH77Ye0JmnyvQ3Lygo0MJf5ryN5HACQ6AZGDWY,90324552
+onednn-2024.0.0.data/data/lib/libdnnl.so.3,sha256=0ScZLmH77Ye0JmnyvQ3Lygo0MJf5ryN5HACQ6AZGDWY,90324552
+onednn-2024.0.0.data/data/lib/libdnnl.so.3.3,sha256=0ScZLmH77Ye0JmnyvQ3Lygo0MJf5ryN5HACQ6AZGDWY,90324552
+onednn-2024.0.0.data/data/share/doc/onednn/LICENSE,sha256=na0nJWJ2u0_OZyXBYu9hm1qi6KvI80Gk2rC4cKrVVmQ,11607
+onednn-2024.0.0.data/data/share/doc/onednn/README,sha256=rb79V8XbVNXZwxrbe8CFqSsbFNio3mo-FQCp44RJe4g,7017
+onednn-2024.0.0.data/data/share/doc/onednn/THIRD-PARTY-PROGRAMS,sha256=B8buTl4KhfVirIuwWm4Por_qPysxKzb_xeMIDaYAvCg,42455
+onednn-2024.0.0.dist-info/LICENSE.txt,sha256=7micbUpzQXphq9e_2oL7PpZcvoXzPuQHIDEXyKXC81s,10797
+onednn-2024.0.0.dist-info/METADATA,sha256=lRXM7jjH5VWOTdN_Ay7a-MsgYTm5_a9oF7vRppWfgWY,1302
+onednn-2024.0.0.dist-info/WHEEL,sha256=dNxT-MG8LzRaqJYFQzfes411XUTOrT0gsWYZz0BoKLo,138
+onednn-2024.0.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+onednn-2024.0.0.dist-info/RECORD,,
