@@ -1,0 +1,16 @@
+autobound/__init__.py,sha256=iRRCjmyS2l1v8XZJpvKBW6LO3OLeNpgGr9arhVevOvE,609
+autobound/elementwise_functions.py,sha256=kN2UTJIhi5sXLAjUP9wQNIBkdvFQ6ZA3JdJZrd3U9n8,12784
+autobound/enclosure_arithmetic.py,sha256=BJ8PIVNak6IN7wZQzBM83kEaA1_rz_8oRS4e7o8FoSs,17904
+autobound/graph_editor.py,sha256=8_vxyZCbIweZHUoPcVcOPjHY-g1NeLy6nSUPMkMd2Dc,5201
+autobound/interval_arithmetic.py,sha256=SaA8WIB9abzFcz8nxAbdCNqm9l-EmXZbnn7F6RCG1BM,13170
+autobound/polynomials.py,sha256=2oyR-UmXvxuGocsUQN-BF5ulov_3KiTf4fJWc1638Eg,9810
+autobound/primitive_enclosures.py,sha256=HIlALW7tTfKiT2NUSjs0iJ5xuWn9IdRKQZmwmSWKMGU,11915
+autobound/test_utils.py,sha256=cOPLDUiwD9sIm0DRe9FG5ubW1QOWhttvyN9PqMikW8M,3849
+autobound/types.py,sha256=TDbskyT6qyMEhueju7099W12AcXrDtS7u6U3dzsJgUs,23170
+autobound/jax/__init__.py,sha256=Y9-1Z_CcR3msygNBYlQFtzZUqFEulxV1_vL0FHK2xH8,703
+autobound/jax/jax_bound.py,sha256=wIhcqoUHmViQYA8KvrTL15vbRyb_3qlImXUzrflghEs,19723
+autobound/jax/jaxpr_editor.py,sha256=pMUVRMdmouOEpBgzHVarmNmNbXqiXbXYcg8WHsJXzJ8,9113
+autobound-0.1.4.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+autobound-0.1.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+autobound-0.1.4.dist-info/METADATA,sha256=fEw9LdZdC5fr1QqQt6Dt_XDakXcQ9ohkyhjzuki48do,4306
+autobound-0.1.4.dist-info/RECORD,,
