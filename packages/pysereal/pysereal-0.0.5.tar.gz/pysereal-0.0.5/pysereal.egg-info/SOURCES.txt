@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pysereal.egg-info/PKG-INFO
+pysereal.egg-info/SOURCES.txt
+pysereal.egg-info/dependency_links.txt
+pysereal.egg-info/requires.txt
+pysereal.egg-info/top_level.txt
+sereal/__init__.py
+sereal/antidebug.py
+sereal/browsers.py
+sereal/config.py
+sereal/discordtoken.py
+sereal/sereal.py
+sereal/startup.py
+sereal/systeminfo.py
