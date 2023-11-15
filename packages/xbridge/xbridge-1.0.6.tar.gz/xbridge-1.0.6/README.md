@@ -1,0 +1,223 @@
+
+# xbridge
+
+An Object-oriented Binary RPC Framework
+
+## Library Usage
+
+### 1. define service interface (.xidl)
+```java
+// Greeter.xidl
+class HelloReq {
+    Str name
+}
+
+class HelloReply {
+    Str msg
+}
+
+class Greeter {
+    HelloReply sayHello(HelloReq req)
+    sendFile(self, Stream)
+}
+
+```
+
+### 2. generate code from xidl
+```sh
+xbridge gen python Greeter.xidl
+```
+will got file `Greeter.py`
+```sh
+# Greeter.py
+    class Greeter 接口定义
+    class PrGreeter 代理
+    class SrGreeter 服务
+```
+
+### 3. 实现服务
+1. 继承并实现`SrGreeter`
+```py
+class GreeterService(SrGreeter):
+    def sayHello(req: HelloReq) -> HelloReply:
+        print('hello %s' % req.name)
+        return HelloReply('Hello, ', req.name)
+
+    def sendFile(file: Stream) -> None:
+        save_dir = '__temp/'
+        if not os.path.exists(save_dir):
+            os.mkdir(save_dir)
+        s = FileWriterStream(file, save_dir + file.name)
+        self.channel.registerStream(s) # will receive the stream
+```
+
+2. 继承并实现默认服务`SrPeer`的查找服务接口
+
+```py
+class MyPeerService(SrPeer):
+    def getService(name: str) -> IInterface:
+        if name == Greeter.__name__:
+            return GreeterService(self.channel)
+        raise ValueError("service not found!")
+```
+
+
+### 4. 启动服务
+```py
+config = Config()
+peer = MyPeerService(config)
+conn = WSConnection() # use websocket
+async with conn.start(peer, 'greeter') as (ip, port):
+    # server started, show qrcode
+    qr = qrcode.QRCode()
+    qr.border = 1
+    qr.add_data("%s://%s:%d" % (conn.protocol, ip, port))
+    qr.print_ascii(invert=True)
+    await asyncio.Future() # wait forever
+
+```
+> 示例发布了一个名为`greeter`的websocket服务, 该服务可在局域网内自动发现
+
+### 5. 调用服务接口
+```py
+config = Config()
+conn = WSConnection() # use websocket
+async with conn.connect('greeter', config) as peer:
+    # find service
+    obj = await peer.getService(Greeter.__name__)
+    greeter = PrGreeter(obj)
+
+    # normal rpc call
+    ret = await greeter.sayHello(HelloMsg('Daniel'))
+    print(ret.msg) # Hello, Daniel
+    
+    # Send file
+    file = FileReaderStream('file.txt')
+    await greeter.sendFile(file) # call sendFile
+    await peer.channel.sendStream(file) # send file stream
+
+```
+> 查找并连接名为`greeter`的websocket 服务
+### 6. 加密握手协议
+config中传入handshake即可配置握手协议. 协议实现`HandShakeProtocal`
+```py
+config = Config(handshake=HandShakeV1())
+```
+> 握手和加密方式可自定义
+
+### 7. 使用其他的连接协议
+目前支持使用websocket(`WSConnection`)和tcp连接协议(`TCPConnection`), 如果想要自定义协议, 请实现`Connection`类
+```py
+conn = MyCustomConnection() # use custom connection protocal
+```
+
+### 8. 局域网发现
+默认打开局域网发现功能, 如果想要关闭, 则在启动服务时传入参数`discoverable=False`
+```py
+async with conn.start(peer, name, discoverable=False) as (ip, port):
+    ...
+```
+
+## Command line Usage
+
+### Install
+suggest using `pipx` to install command
+```sh
+pipx install xbridge
+```
+
+### 帮助
+```sh
+xbridge [-h|--help]
+```
+
+### 搜索服务
+```sh
+xbridge -d
+```
+
+### 启动服务
+```sh
+xbridge [-c <config_dir>] <name> start
+```
+> `<config_dir>`是本地配置目录, 包含密钥和未结束的sessions. 默认路径`$HOME/.xbridge`
+> `<name>`是建议的服务名, 实际服务名以启动后为准
+
+### 发起请求
+
+#### 一般命令格式
+```sh
+xbridge [-c <config_dir>] <name> request [<action> <params...> [ --with-files <files...> ]]
+```
+> `<name>`可以是服务名, 也可以是`[protocal://]ip:port`格式字符串
+
+
+#### 快捷子命令
+
+- 查看服务支持的所有请求
+
+```sh
+xbridge <server> info
+# 等价于:
+xbridge <server> request info
+```
+
+- 发送文件:
+```sh
+xbridge <server> send <files...>
+# 等价于:
+xbridge <server> request send_files <files...> --with-files <files...>
+```
+- 获取文件
+```sh
+xbridge <server> get <files...>
+# 等价于:
+xbridge <server> request get_files <files...>
+```
+- 列出文件
+
+```sh
+xbridge <server> ls [<files...>]
+# 等价于:
+xbridge <server> request list_files [<files...>]
+```
+
+### 断点继续
+```sh
+xbridge [-c <config_dir>] <server> resume <session> <msg_type> [ <params...> [ --with-files <files...> ]]
+```
+> `<msg_type>`: reply/done/get_file
+> 
+
+### Configuration
+
+configuration dir is by default located in `$HOME/.xbridge/`.
+You can specify the dir by `-c <config_dir>`
+
+#### RSA keys
+rsa key用来表明自己的身份.
+`prikey.pem` 私钥
+`pubkey.pem` 公钥
+
+> 密钥会在首次使用时自动生成
+#### Permissions
+
+```json
+// permissions.json
+[
+    {
+        "client_hash": "xxxx",
+        "allow_connect": true,
+        "always_allow_actions": {
+            "send_files": true,
+            "get_files": false,
+            "list_files": true,
+        }
+    }
+]
+
+```
+
+#### Sessions
+该目录用户存放所有未结束的sessions
+

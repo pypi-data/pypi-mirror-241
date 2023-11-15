@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "xbridge"
+version = "1.0.6"
+description = "An Object-oriented Binary RPC Framework"
+readme = "README.md"
+authors = ["yudingp <yudingp@163.com>"]
+license = "MIT"
+
+[tool.poetry.scripts]
+xbridge = "xbridge.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+zeroconf = "^0.38.5"
+progress = "^1.6"
+aiohttp = "^3.8.1"
+rsa = "^4.8"
+pycryptodome = "^3.14.1"
+websockets = "^10.3"
+qrcode = "^7.3.1"
+netifaces = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
