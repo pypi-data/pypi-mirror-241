@@ -1,0 +1,2 @@
+tomli_w>=1.0
+seqreads>=0.1
