@@ -1,0 +1,5 @@
+[jupyter_serverproxy_servers]
+interactive_graph = renkugraphvis:setup_graph_visualizer
+
+[renku.cli_plugins]
+graphvis = renkugraphvis.plugin:graphvis
