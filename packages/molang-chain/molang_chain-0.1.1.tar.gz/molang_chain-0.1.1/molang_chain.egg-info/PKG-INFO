@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: molang-chain
+Version: 0.1.1
+Summary: an LLM Orchestration Framework
+Author: Exa
+Author-email: exa@exponent.ai
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+## Molang
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+a Functional LLM Programming Framework build on Monadic Prompt Chains
