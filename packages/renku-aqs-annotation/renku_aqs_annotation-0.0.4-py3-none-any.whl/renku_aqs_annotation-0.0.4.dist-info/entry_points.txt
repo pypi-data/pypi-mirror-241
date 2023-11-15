@@ -1,0 +1,5 @@
+[renku]
+name_of_plugin = renkuaqsannotation.plugin
+
+[renku.cli_plugins]
+aqs = renkuaqsannotation.plugin:aqs

@@ -1,0 +1,12 @@
+renkuaqsannotation/__init__.py,sha256=5KlW4CFtojQlM8G8iMwkSWlKhus3SUXD4wVn7_sCKII,1713
+renkuaqsannotation/config.py,sha256=9jZqMPhoCzpJqgnCpgFL1Vz9ny9pfCme2MXYb43wonk,615
+renkuaqsannotation/graph_utils.py,sha256=lBunpnOQz3-GYgqNkesDXJqaQtlKydebwsUSJCAMsN8,4964
+renkuaqsannotation/io_utils.py,sha256=mKgjZdq8Mo-coohGVUzEbBJIiexjFEJQaANLAOO5xHA,762
+renkuaqsannotation/oda_annotation.py,sha256=NJoGPCpey8Tzduq3eIVqOgftUgDocIDIHo5mkawMsoc,1046
+renkuaqsannotation/plugin.py,sha256=R8bJeXhw-wof2O6ZsCvBN3jqKIRdQhhUpePu8gcyXDs,5540
+renku_aqs_annotation-0.0.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+renku_aqs_annotation-0.0.4.dist-info/METADATA,sha256=LVggCPpa-LEAJ7cu014Tr_iV_5X7bP0NwMjfq0krky8,1295
+renku_aqs_annotation-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+renku_aqs_annotation-0.0.4.dist-info/entry_points.txt,sha256=HFscsRrKdT12YYbBWyuHQFsliCoHBPBAR5Nx6YMr4is,108
+renku_aqs_annotation-0.0.4.dist-info/top_level.txt,sha256=ApoLcPC6W_qMS7fI3EIer4DqF2trlbznqbhdJJZ0f4Y,19
+renku_aqs_annotation-0.0.4.dist-info/RECORD,,
