@@ -1,0 +1,2 @@
+[console_scripts]
+cloudiplookup = cloudiplookup.cloudiplookup:main_function
