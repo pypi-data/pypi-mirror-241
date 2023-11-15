@@ -1,0 +1,3 @@
+[console_scripts]
+shieldb = test2.app:main
+

@@ -1,0 +1,15 @@
+application/__init__.py,sha256=nCioNpC4_GAVuyG4IHNVB0AtiGmnuueMMTO8qthiJDM,10
+application/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+application/core/parser_data.py,sha256=14p0N5RyRYXb_H69qrjNLdQw8I6519Z7AVQf-T8Rg_k,2995
+application/core/jobs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+application/core/jobs/get_masked_or_deleted_db.py,sha256=reOF7hkeryamILFj6LDtFVf8_FsgKz9J2SQHQipIV2s,8698
+shieldb-0.2.9.data/data/README.md,sha256=wIY1ZjJMj_PBjc83yA-ksZ217k-FYhVM4X9_ZqMjQkI,2350
+shieldb-0.2.9.data/data/app.py,sha256=tMWUHW7goHsehSrJtMW9zohgTbPnAiBXCegwJr48NMc,2475
+shieldb-0.2.9.data/data/requirements.txt,sha256=dZREw3iUH5p1mFOHNCQVe33-fGF3NxzjHJp_-jdMACg,20
+test2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test2/app.py,sha256=tMWUHW7goHsehSrJtMW9zohgTbPnAiBXCegwJr48NMc,2475
+shieldb-0.2.9.dist-info/METADATA,sha256=9D3OXz59Ou-Do-HhQS11LeZoIh8JoRHve4H4M5rP-A0,210
+shieldb-0.2.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shieldb-0.2.9.dist-info/entry_points.txt,sha256=5yqh8O7uTDYPZkkEAxnOwMvXvHjM0R82NnNIGPdsf1w,44
+shieldb-0.2.9.dist-info/top_level.txt,sha256=Q9tLq50Y7R0a7496cY3IooLxzYMkd3OmbvOSPzXwanY,18
+shieldb-0.2.9.dist-info/RECORD,,
