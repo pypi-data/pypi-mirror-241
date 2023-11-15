@@ -1,0 +1,17 @@
+README.md
+setup.py
+wavspa/__init__.py
+wavspa/_lorenz.py
+wavspa/continuous_transform.py
+wavspa/conv_fwt.py
+wavspa/conv_fwt_2d.py
+wavspa/conv_fwt_2d_learn.py
+wavspa/conv_fwt_learn.py
+wavspa/packets.py
+wavspa/utils.py
+wavspa/version.py
+wavspa/wavelet_lifting.py
+wavspa.egg-info/PKG-INFO
+wavspa.egg-info/SOURCES.txt
+wavspa.egg-info/dependency_links.txt
+wavspa.egg-info/top_level.txt
