@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: miniBenchmark
+Version: 0.0.1
+Summary: Minimalistic benchmarking of computers with general data/ modeling and simulation purposes
+Project-URL: Homepage, https://github.com/HaoLi111/miniBenchmark
+Project-URL: Bug Tracker, https://github.com/HaoLi111/miniBenchmark/issues
+Author-email: Hao LI <author@example.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Minimalistic benchmarking of computers with general data/ modeling and simulation purposes
+
+The two problems this package solve:
+
+1. What machine/ configuration should I buy to do mathematical modeling/ data analysis/ machine learning?
+2. I don't want to spend more money, how should I configurate parallelism/ backends to make the same code run faster?
+
+Both seem to have answers: Why not O complexities? Why not look for FLOPs? Why not just do divisions on frequencies?
+
+The answer is: time and memory consumptions, given a task, are metrics, they are not symbolic values, but distributions.
+
+Hence:
+
+1. We can run same tasks on different machines (or let others do) to compare configs.
+2. We can re-run same tasks on different configs
+
+But it seems we can just time and verbose it, why bother?
+
+The thing is:
+
+1. You may need to test on some tasks that you don't have working code on--maybe I have that.
+2. Some benchmarking will take too long  and may fail, you need to handle that.
+3. You may want to compare your task to others
+4. You may be lazy
+
+Key functions: **machine mode** and **task mode**
+
+In **machine mode** you expand the tasks and let it gradually reach the limit of the pc in a sequence, and get a dataframe of time, space etc. w.r.t tasks
+
+In **task mode** you tune the HPOs and compute compromise.
+
+But both returns dataframes, so it's easy to build and analyze the relations.
+
+## Quick start
+
+Benchmarking:
+
+```
+bench([matrices, DFTs, ls_pred,# matrix based predictor
+	sgd_pred, gbdt_pred, symbolic_strings,
+	iters,
+	pdes, black_box_opts])
+```
+
+Get machine and environment infos:
+```
+detect_board()
+
+detect_torch_availability()
+detect_dask_availability()
+detect_pycuda_availability()
+```
+
+Search time/ memory checkpoints along with metrics w.r.t. HPO
+
+```
+search_s(task = my_task,#an iterator, yielding one task at a time
+	reset_func = my_task_reset, timeout = 1000, intra = 0, inter = 0)
+```
+
+Fit relationships based on complexity curves.
+
+
+What if the program running is not in py?
+
+```
+bench_kernel(task_command_dict, write_path)
+```
+
+
+
+
+
+
+
+A benchmarking software to test computer performance.
+2 modes:
+ - machine-centric mode: given one machine, enlist performace score for all tasks in a tasklist
+ - task-centric mode: given one task, benchmark the machine on different configurations of the tasks
+
+## Installation:
+
+Any environment with tensorflow and torch. Although it is generally easier with Docker, considering the incompatibility of KVM on some older machines, and the different configuration of CUDA (some are within the containers, while others are not) we give this non-docker way of installation
+
+```
+conda create --name mlgpu python==3.8
+conda activate mlgpu
+conda install tensorflow-gpu==2.7.1 -c conda-forge
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+```
+
+This solves the problem on **all** my machines and is able to run torch and tf in the same environment.
+
+
+
+
+

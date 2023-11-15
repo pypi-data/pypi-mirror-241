@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "miniBenchmark"
+version = "0.0.1"
+authors = [
+  { name="Hao LI", email="author@example.com" },
+]
+description = "Minimalistic benchmarking of computers with general data/ modeling and simulation purposes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HaoLi111/miniBenchmark"
+"Bug Tracker" = "https://github.com/HaoLi111/miniBenchmark/issues"
