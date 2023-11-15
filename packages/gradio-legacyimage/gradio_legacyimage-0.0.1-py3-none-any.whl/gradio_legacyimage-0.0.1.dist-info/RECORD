@@ -1,0 +1,10 @@
+gradio_legacyimage/__init__.py,sha256=yUpMyaC5HF2DQSsvFDRcs_pNktXpqZvMZpan3_izYuk,65
+gradio_legacyimage/legacyimage.py,sha256=AQlHyJT0SJQX_iA0CECX8ewLMNY-4i5uE7I56Uyjlew,11407
+gradio_legacyimage/legacyimage.pyi,sha256=Agb3v9W49lLKKhOx-g_rqPCoy7_X8GfM1UXoxGpvHwQ,35881
+gradio_legacyimage/templates/component/index.js,sha256=hByWaEuiRljN6ssLrKmd-X0DbG8G4vLesoqwSYh97Qk,322786
+gradio_legacyimage/templates/component/style.css,sha256=oDZySNAI5vONj9JGsEv6M91fCkL6VU121jD-uA88WhU,15210
+gradio_legacyimage/templates/example/index.js,sha256=fNWfLS87eURO_6Zy0dI1-N5b1FIKBy7pPouma1QN03I,250878
+gradio_legacyimage/templates/example/style.css,sha256=bUO6YVFy2WB8EE6bFi47RqbSQLGXdlIntcEBQs_Uq7I,8270
+gradio_legacyimage-0.0.1.dist-info/METADATA,sha256=tKbbYWfUngB-708SqUvzl49s1V4jP7lbsKqnm0Qed3Y,1305
+gradio_legacyimage-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gradio_legacyimage-0.0.1.dist-info/RECORD,,
