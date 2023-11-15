@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rizz-wsgi
+Version: 0.0.1
+Summary: Rizz WSGI Python Framework for science purposes.
+Home-page: UNKNOWN
+Author: Alex Kiura
+Author-email: kiuraalex@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: parse ==1.19.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-wsgi-adapter ==0.4.1
+Requires-Dist: WebOb ==1.8.7
+Requires-Dist: whitenoise ==6.5.0
+
+
+# Rizz
+
+A framework for building web applications with Python
+
+Implements the Web Server Gateway Interface (WSGI)
+
+
