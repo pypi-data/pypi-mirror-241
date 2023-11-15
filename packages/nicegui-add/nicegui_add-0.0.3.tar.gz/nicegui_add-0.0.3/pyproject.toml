@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nicegui-add"
+version = "0.0.3"
+description = "nicegui补充组件"
+authors = ["XiangQinxi <XiangQinxi@outlook.com>"]
+readme = ["README.md", "DEVELOPMENT_NOTES.md", "VERSION_RECORDS.md"]
+packages = [{include = "nicegui_add"}]
+repository = "https://gitlab.com/XiangQinxi/nicegui-add"
+documentation = "https://nicegui-add.netlify.app"
+keywords = ["nicegui", "web"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+darkdetect = "^0.8.0"
+nicegui = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+all = ["darkdetect"]
+
