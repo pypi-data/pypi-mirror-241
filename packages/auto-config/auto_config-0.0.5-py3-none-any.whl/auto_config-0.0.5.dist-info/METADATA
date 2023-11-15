@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: auto-config
+Version: 0.0.5
+Summary: auto config for my personal devices
+Author-Email: Zhan Rongrui <2742392377@qq.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# auto-config
