@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ribot-controller
+Version: 0.0.0
+Summary: Ribot arm controller library
+Author: alberto-abarzua
+License: MIT
+Project-URL: Source Code, https://github.com/alberto-abarzua/ribot
+Keywords: robot,arm,controller
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: toml>=0.10.2
+Requires-Dist: websockets>=11.0.3
+Requires-Dist: numpy>=1.25.0
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: rich>=13.4.2
+
+# Ribot Python Control Library
+
+
+TODO: Write a project description
