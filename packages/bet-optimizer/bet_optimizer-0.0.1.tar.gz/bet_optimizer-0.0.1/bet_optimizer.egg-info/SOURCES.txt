@@ -1,0 +1,10 @@
+LICENSE
+README.md
+bet_optimizer.py
+setup.py
+bet_optimizer.egg-info/PKG-INFO
+bet_optimizer.egg-info/SOURCES.txt
+bet_optimizer.egg-info/dependency_links.txt
+bet_optimizer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_bet_optimizer.py
