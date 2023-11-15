@@ -1,0 +1,14 @@
+nfs4_share/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nfs4_share/__main__.py,sha256=6sQQnxMxcCk1kixgnnzR0SieJHbnHt_5BuKAMtUo9BI,74
+nfs4_share/acl.py,sha256=KBlA-8mGSUxDg3MpKOk5-HyGl2GnJolcjLAmYiQ5Ly8,7793
+nfs4_share/cli.py,sha256=zxwVs6LkshtK9n6CGKLDHZbOE6GJLFMthy5611Elng8,11092
+nfs4_share/htaccess.py,sha256=nWLHT6nfB0vBAoJ2FwDPLY62w_1XtsZErgpz06Omrdw,4714
+nfs4_share/manage.py,sha256=8gXY5xu7avR-6t5gu7-R_1tRKR7rLvhbbKyOYfMVAno,11668
+nfs4_share/share.py,sha256=9Rpo2y3capXixoX7IdqxAOhBOMJ_DD-czkBFm8E1ZPc,9011
+nfs4_share/track_changes.py,sha256=uf2PFtWXLBeMeCK1MIEz0aO1r9B5kmmuwZ42yp5X6v4,7394
+nfs4_share-0.6.1.dist-info/LICENSE,sha256=pqhd7ov7Fyvn8B-aFfdQ-6598oEYBPRU7Xl-ccLWoSA,1070
+nfs4_share-0.6.1.dist-info/METADATA,sha256=2G-1FLQksDZC28iXIjX3DjFBTKwENqeXsGPNr4l_2TY,6756
+nfs4_share-0.6.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nfs4_share-0.6.1.dist-info/entry_points.txt,sha256=hpZSd1ynnBdYVEvtlD9Wcm9957wm33fCtLZGxPjwMac,58
+nfs4_share-0.6.1.dist-info/top_level.txt,sha256=9eHt17G-ipe0c0nxOUVv--DcpDUrB7UaJsRRiEKTpKo,11
+nfs4_share-0.6.1.dist-info/RECORD,,
