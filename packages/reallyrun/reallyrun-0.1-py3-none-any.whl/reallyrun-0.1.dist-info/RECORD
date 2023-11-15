@@ -1,0 +1,11 @@
+really/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+really/cli.py,sha256=JI5CIgxTsXhFHiJ8q0iTxe3b2iFQapAYo62KBQYhXjM,10597
+really/workflow.tar.gz,sha256=m03UU5e4YF7t6JyKi-62oae0At2-b9CMsyJWdIVkAL4,6882
+really/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+really/tests/test_cli.py,sha256=Ogu5ELQXxkfDP7Wbjxm0k09wgnIVGMEnCuQoW3l2U24,1081
+reallyrun-0.1.dist-info/LICENSE,sha256=9Sr3GxIfmdEgUwA2jJzFHbKNS-TZllc6YGkUJ90jAPg,1074
+reallyrun-0.1.dist-info/METADATA,sha256=IZcFgC8H6ysFV7ghXjdSuAGEtdu1xdyv3yQtFK_J_kQ,4524
+reallyrun-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+reallyrun-0.1.dist-info/entry_points.txt,sha256=rmldmFVFHnmeBwBmLeHUXDtDZoVH_4Ly-aYghr3-mmg,43
+reallyrun-0.1.dist-info/top_level.txt,sha256=9oipUCeNMUeroDj6tvfV1HlvQWAvG702SGfOYpnaAYY,7
+reallyrun-0.1.dist-info/RECORD,,
