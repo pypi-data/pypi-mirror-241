@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gptbuilder
+Version: 0.0.1
+Summary: package to create datasets using the APIs of Openai and Azure(openai)
+Home-page: https://github.com/skkumin/gptbuilder
+Author: skkumin
+Author-email: dighalsrb@naver.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.1
+Requires-Dist: tdqm
+Requires-Dist: openai ==1.2.4
+Requires-Dist: tiktoken
+
