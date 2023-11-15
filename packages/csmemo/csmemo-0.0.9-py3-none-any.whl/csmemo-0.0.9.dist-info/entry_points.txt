@@ -1,0 +1,5 @@
+[console_scripts]
+build-csm = csmemo.cmds.build_csm:main
+gpr-mapping = csmemo.cmds.gpr_mapping:main
+run-experiment = csmemo.cmds.run_insilico_experiment:main
+run-reachability = csmemo.cmds.run_reachability_analysis:main
