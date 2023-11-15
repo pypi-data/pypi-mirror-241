@@ -1,0 +1,12 @@
+ipython
+pingouin
+graphviz
+pydot
+pycopula
+argparse
+scipy
+numpy
+pandas
+matplotlib
+seaborn
+networkx
