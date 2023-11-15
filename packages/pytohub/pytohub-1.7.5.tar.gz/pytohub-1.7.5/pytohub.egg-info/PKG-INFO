@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pytohub
+Version: 1.7.5
+Summary: This is a module that can connect to your lego RI hub or lego SPIKE PRIME hub and can directly upload modules to your hub
+Author: mas6y6
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: get-key
+Requires-Dist: requests
+Requires-Dist: progressbar2
+Requires-Dist: serial
+
+# PYTOHub
+
+PYTOHub is a program that can directly connect to your lego spike prime or mindstorms hub
+
+![alt text](banner.png)
+
+# How to download
+
+How to download PYToHub
+
+**Run this in your terminal (Command prompt)**
+```
+pip install pytohub
+```
+
+Press `enter` when you see your hub's serial port, Make sure that you setted up your lego hub for pytohub to connect.
+
+# How to run pytohub
+
+**You can directly run it in the terminal**
+```
+python -m pytohub
+```
+
+# How to setup your lego hub
+
+You need to setup your lego hub
+
+**You can directly run it in the terminal**
+```
+python -m pytohub --download
+```
+
