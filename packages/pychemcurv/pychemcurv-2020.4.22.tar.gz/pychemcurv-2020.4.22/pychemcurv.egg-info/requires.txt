@@ -1,0 +1,10 @@
+numpy
+pandas
+pymatgen
+matplotlib
+scipy
+
+[viz]
+ase
+jupyter
+nglview
