@@ -1,0 +1,1 @@
+from sentigpt.sentimentmanager import SentimentManager as SentiGPT

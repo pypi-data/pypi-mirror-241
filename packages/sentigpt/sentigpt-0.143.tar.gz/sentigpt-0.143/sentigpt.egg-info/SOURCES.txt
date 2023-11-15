@@ -1,0 +1,11 @@
+README.md
+setup.py
+sentigpt/__init__.py
+sentigpt/aimanager.py
+sentigpt/sentimentmanager.py
+sentigpt/textanalysis.py
+sentigpt.egg-info/PKG-INFO
+sentigpt.egg-info/SOURCES.txt
+sentigpt.egg-info/dependency_links.txt
+sentigpt.egg-info/requires.txt
+sentigpt.egg-info/top_level.txt
