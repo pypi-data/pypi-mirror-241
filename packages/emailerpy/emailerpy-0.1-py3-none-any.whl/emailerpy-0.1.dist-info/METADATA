@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: emailerpy
+Version: 0.1
+Summary: Un module Python pour envoyer des emails facilement
+Home-page: https://github.com/Nicaisse/Emailer_Python.git
+Author: Nicaisse Bryan et Jean Ritchy-Bastien
+Author-email: bryannicaisse2001@gmail.com
+Description-Content-Type: text/markdown
+
+Module Emailer
+Le module Emailer est une bibliothÃ¨que Python simple et lÃ©gÃ¨re conÃ§ue pour faciliter l'envoi d'e-mails via SMTP. Son objectif est de simplifier le processus d'envoi d'e-mails en fournissant une configuration rapide et une interface conviviale.
+
+Configuration du Serveur
+Avant d'utiliser les fonctionnalitÃ©s d'envoi d'e-mails, il est impÃ©ratif de configurer le serveur SMTP en utilisant la mÃ©thode configurer_emailer. Cette mÃ©thode prend en charge les paramÃ¨tres essentiels tels que l'adresse du serveur, le port, l'adresse e-mail de l'expÃ©diteur et le mot de passe.
+
+Exemple de configuration du serveur :
+# Configurer le serveur
+from emailer import setup_email_email, send_email
+serveur_config = setup_email_email(
+    serveur="smtp.example.com",
+    port=587,
+    sender_email="votre_email@example.com",
+    password="motdepasse"    #mot de passe generer a partir de botre compte gmail
+)
+Envoi d'E-mails
+Une fois le serveur configurÃ©, vous pouvez utiliser la mÃ©thode send_email pour envoyer des e-mails. Assurez-vous que le serveur a Ã©tÃ© configurÃ© avec succÃ¨s avant d'appeler cette mÃ©thode.
+
+Exemple d'envoi d'e-mail :
+
+
+try:
+    send_email(
+        destinataire="destinataire@example.com",
+        sujet="Sujet de l'e-mail",
+        corps="Corps de l'e-mail",
+        server=serveur_config
+    )
+except :
+    print(f"Erreur : {e}")
