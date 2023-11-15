@@ -1,0 +1,103 @@
+/*
+Program: Meraki Firewall DC
+Author:  Marco Caspers
+Date:    07-03-2023
+Version: 4.0
+
+Description:
+
+This module provides the function ShowFirewallData that shows data from a Meraki Firewall Appliance that was collected by the GetFirewallData function.
+
+*/
+
+ShowFirewallData => (device, bandwidth_enabled) 
+{
+    // If the device is not in the devices list, there wont be any data.
+    if device["listed"] == false {
+        return false;
+    }
+
+    Console("<<<meraki_ha_role>>>");
+    if device["HA"] == true {
+        Console(device["HARole"]);
+    } else {
+        Console("disabled");
+    }
+
+    if device["latency"] != nil and device["latency"] != false {
+        if IsRecord(device["latency"]) {
+            device["latency"] = Array(device["latency"]);
+        }
+        Console("<<<meraki_uplink_latency>>>");
+        foreach device["latency"] {
+            Console($"{it["uplink"]} = {Round(it["avg_latency"],2)}, ip = {it["ip"]}");
+        }
+        Console("<<<meraki_uplink_loss>>>");
+        foreach device["latency"] {
+            Console($"{it["uplink"]} = {Round(it["avg_packetloss"],2)}, ip = {it["ip"]}");
+        }
+    }
+    else {
+        Console("<<<meraki_uplink_latency>>>");
+        Console("no data");
+        Console("<<<meraki_uplink_loss>>>");
+        Console("no data");
+    }
+
+    if device["uplstat"] != nil and device["uplstat"] != false {
+        if IsRecord(device["uplstat"]) {
+            device["uplstat"] = Array(device["uplstat"]);
+        }
+        Console("<<<meraki_uplink_status>>>");
+        
+        foreach device["uplstat"] {
+            Console($"{it["uplink"]} = {it["status"]}");
+        }
+        Console("<<<meraki_uplink_ip>>>");
+        foreach device["uplstat"] {
+            ip = it["ip"];
+            if ip == nil {
+                ip = "no ip";
+            }
+            Console($"{it["uplink"]} = {ip}");
+        }
+    }
+    else {
+        Console("<<<meraki_uplink_status>>>");
+        Console("no data");
+        Console("<<<meraki_uplink_ip>>>");
+        Console("no data");
+    }
+
+    output("<<<meraki_performance>>>", device["performance"]);
+
+    if bandwidth_enabled == true {
+        Console("<<<meraki_bandwidth>>>");
+        if device["bandwidth"] != nil {
+            bw = device["bandwidth"];
+            foreach bw {
+                Console($"{it} = {Round(bw[it],2)}");
+            }
+        } else {
+            Console("no data");
+        }
+        Console("<<<meraki_bandwidth_sent>>>");
+        if device["bandwidth_sent"] != nil {
+            bw = device["bandwidth_sent"];
+            foreach bw {
+                Console($"{it} = {Round(bw[it],2)}");
+            }
+        } else {
+            Console("no data");
+        }
+        Console("<<<meraki_bandwidth_recv>>>");
+        if device["bandwidth_recv"] != nil {
+            bw = device["bandwidth_recv"];
+            foreach bw {
+                Console($"{it} = {Round(bw[it],2)}");
+            }
+        } else {
+            Console("no data");
+        }
+    }
+}
