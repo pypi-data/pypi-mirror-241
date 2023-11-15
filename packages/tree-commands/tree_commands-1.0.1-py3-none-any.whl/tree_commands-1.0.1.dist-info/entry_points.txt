@@ -1,0 +1,2 @@
+[console_scripts]
+tree-commands = cli.__main__:main
