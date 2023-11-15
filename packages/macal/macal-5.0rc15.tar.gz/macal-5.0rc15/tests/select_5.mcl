@@ -1,0 +1,13 @@
+// Select Merge test.
+
+include aor;
+
+select distinct author as Author, title, test as Title from var where author == 'J.R.R. Tolkien' into y;
+select distinct author as Author, title, test as Title from var where author == 'Douglas Adams' merge into y;
+
+print("This is a wonky test because of the distinct in both select statements. It will result, correctly, into a single record regardless of the merge initially making two records out of it.");
+print("Because the output is a record, the foreach loop will just print the names of the record fields.");
+
+foreach y {
+    print(it);
+}
