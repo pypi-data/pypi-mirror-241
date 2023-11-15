@@ -1,0 +1,7 @@
+libactivation/__init__.py,sha256=8Mu3FinJW7qywfvD0Qnjfjj7L6dRbd8n6-9NHqtZsco,22
+libactivation/logistic.py,sha256=rUYM6GS4RN5z0ZTY-2tb_5aPl1KQKx9mkezbjNsKNrc,78
+libactivation/relu.py,sha256=ZvwQuWLr8Ht_DylotHFjSwVdbNJhFOnaqKjlm_xf-2s,83
+libactivation-0.2.0.dist-info/METADATA,sha256=64hc3Lufh8LbuIWsG2X7Vp4afyJn8BEwUUd4K1Ujb2s,443
+libactivation-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+libactivation-0.2.0.dist-info/top_level.txt,sha256=GdvpiJM9kk_fBU7nashRy58zubzOrbfARKXCEb82YD8,14
+libactivation-0.2.0.dist-info/RECORD,,
