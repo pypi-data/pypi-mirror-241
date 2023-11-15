@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ficture
+Version: 0.0.1.post3
+Summary: Segmentation free factor analysis for sub-micron resolution spatial transcriptomics
+Author-email: Yichen Si <ycsi@umich.edu>
+License: CC BY-NC 4.0
+Project-URL: Homepage, https://github.com/seqscope/ficture
+Project-URL: Bug Tracker, https://github.com/seqscope/ficture/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: Jinja2
+Requires-Dist: opencv-python
+Requires-Dist: shapely
+Requires-Dist: geojson
+Requires-Dist: torch
+Requires-Dist: pymde
+Requires-Dist: ete3
+Requires-Dist: PyQt5
+
+# FICTURE
+
+*This repository is under active construction*
+
+FICTURE: Scalable segmentation-free analysis of sub-micron resolution spatial transcriptomics
+
+[preprint](https://biorxiv.org/cgi/content/short/2023.11.04.565621v1)
+
+## General usage
+```
+ficture <command> <args>
+```
+Type `ficture` to see the list of available commands.
+
+## Installation
+
+Create a virtual environment and install dependencies
+```
+pip install -r requirements.txt
+```
+Install
+```
+pip install ficture
+```
+
+## Example - Simulated data
+See `./examples/simulation.md` for a complete example including simulating a high reoluation dataset, running FICTURE, and evaluating the result.
+
+
+## Example - Real data
+See `./examples/realdata.md` for commands of processing an example data in `./examples/data/`. The data a subset from a public [Vizgen MERSCOPE mouse liver dataset](https://info.vizgen.com/mouse-liver-access) (mouse liver 1 slice 1).
