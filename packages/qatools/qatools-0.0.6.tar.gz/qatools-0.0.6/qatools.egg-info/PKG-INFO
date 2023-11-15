@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: qatools
+Version: 0.0.6
+Summary: QA is a tool for Android UI automated testing.
+Home-page: https://openutx.cn/
+Author: lijiawei
+Author-email: jiawei.li2@qq.com
+License: Apache License 2.0
+Keywords: utx,adb,qa,tools
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console :: Curses
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## QA
+>QA is a tool for Android UI automated testing.
+
+### Description
+```bash
+usage: qa [-h] [-v] {clear,adb,remote,proxy,unproxy} ...
+
+UTX will help you write ui automated tests more easily! Created: Lijiawei. Version 0.0.1
+
+positional arguments:
+  {clear,adb,remote,proxy,unproxy}
+                        sub-command help
+    clear               clear app cache data).
+    adb                 complete adb debugging capability.
+    remote              open Android device remote debugging port(5555).
+    proxy               enable device global proxy(172.1.0.3:8888).
+    unproxy             disable device global proxy.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show version
+
+```
+
+### Clear
+> Clear app cache data
+```bash
+qa clear com.test.app
+```
+
+### Adb
+> Complete adb debugging capability
+```bash
+qa adb
+```
+
+### Remote
+> Open Android device remote debugging port(5555)
+```bash
+qa remote
+```
+
+### Proxy
+> Enable device global proxy
+```bash
+qa proxy
+```
+
+### Unproxy
+> Disable device global proxy
+```bash
+qa unproxy
+```
