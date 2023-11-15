@@ -1,0 +1,9 @@
+# Doxygen build directory
+doxygen/
+generated/
+
+# Data files
+*.hdf5
+
+# Plots
+visualization/plotting/*.pdf
