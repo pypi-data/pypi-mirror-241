@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: japanAirAnalytics
+Version: 2023.11.15.1
+Summary: This software is being developed at the University of Aizu, Aizu-Wakamatsu, Fukushima, Japan
+Home-page: https://github.com/UdayLab/japanAirAnalytics
+Author: Rage Uday Kiran
+Author-email: uday.rage@gmail.com
+License: GPLv3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: matplotlib
+Requires-Dist: resource
+Requires-Dist: validators
+Requires-Dist: urllib3
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: sphinx-rtd-theme
+Provides-Extra: all
+Requires-Dist: cupy ; extra == 'all'
+Requires-Dist: pycuda ; extra == 'all'
+Requires-Dist: pyspark ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: setuptools ; extra == 'all'
+Requires-Dist: build ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: gpu
+Requires-Dist: cupy ; extra == 'gpu'
+Requires-Dist: pycuda ; extra == 'gpu'
+Provides-Extra: spark
+Requires-Dist: pyspark ; extra == 'spark'
+
+[![Documentation Status](https://readthedocs.org/projects/japan/badge/?version=latest)](https://japan.readthedocs.io/en/latest/?badge=latest)
+
+***
+
+[Manual to use Japan Air Pollutio ANalytics Package](https://japan.readthedocs.io/en/latest/)
+
+***
+
+# SQL queries
+
+### Execute the following two SQL queries to create tables in a database.
+
+## Step 1: Create Station_info table
+
+    CREATE TABLE station_info(stationid integer not null, location geography(POINT,4326), address varchar,constraint Sid unique (stationID));
+
+## Step 2: Create table to store hourlyObservations
+
+    create table hourly_observations(stationID int not null, obsDate timestamp, SO2 double precision, no double precision, no2 double precision, nox double precision, co double precision, ox double precision, nmhc double precision, ch4 double precision, thc double precision, spm double precision, pm25 double precision, sp double precision, wd varchar, ws double precision, temp double precision, hum double precision, constraint SOH unique (stationID,obsDate));
+
+
+***
+
+# Unzipping the data files
+
+### 1.1. Old zip files
+
+The programs in this directory are meant to store the SORAMAME air pollution data for the period 2018-01-01 to 2021-03-31.
+
+
+1. Create two temporary directories, say _temp_ and _tempBak_.
+
+       mkdir temp tempBak 
+       #temp directory will store the data.
+       #tempBak directory is used by the Python program. 
+2. Download all the zip files into the _temp_ directory.
+3. Enter into the _temp_ directory.
+ 
+       cd temp
+
+4. Uncompress the zip files using the below provided shell script. 
+
+       vi uncompressZipFiles.sh
+      
+       #add the below provided code
+       zipFiles=`ls ~/temp/*.zip`
+
+       for eachZipFile in $zipFiles
+       do
+          unzip $eachZipFile
+          rm $eachZipFile
+       done
+    
+       subZipFiles=`ls ~/temp/*.zip`
+       for eachZipfile in $subZipFiles
+       do
+              echo 'unzipping ' $eachZipfile
+              unzip $eachZipfile
+              rm -rf $eachZipfile
+       done
+
+5.  Execute the shell script.  
+
+        sh uncompressZipFiles.sh
+
+    The above program will create the folders '01' to '47'. Each folder represents a Prefecture in Japan.  
+
+
+### 1.2. New zip files
+
+The programs in this directory are meant to store the SORAMAME air pollution data generated from 2021-04-01~.
+
+
+1. Download the data.zip file from the soramame website.
+2. Move the file into the directory containing the file "insertDataFromZipFolderToDatabase.py"
+
+       mv ~/Downloads/data.zip .
+
+3. Create a temporary directory, say temp, to store the unzip files. 
+   
+       mkdir temp
