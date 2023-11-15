@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/genx_recorder.egg-info/PKG-INFO
+src/genx_recorder.egg-info/SOURCES.txt
+src/genx_recorder.egg-info/dependency_links.txt
+src/genx_recorder.egg-info/requires.txt
+src/genx_recorder.egg-info/top_level.txt

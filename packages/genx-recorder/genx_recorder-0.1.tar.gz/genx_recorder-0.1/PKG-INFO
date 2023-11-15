@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: genx_recorder
+Version: 0.1
+Summary: To do live transcription.
+Home-page: https://github.com/GenxIntegratedSystems/Speech_to_Text
+Author: GenxIntegratedSystems
+Keywords: speech to text, live transcription, live transcript
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: SpeechRecognition
+Requires-Dist: openai-whisper
+Requires-Dist: pyaudio
+
+This is GenXintegrated project
