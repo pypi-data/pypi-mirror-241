@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+chatoperastore/__init__.py
+chatoperastore/chatoperastore.py
+chatoperastore/console_output.py
+chatoperastore/exceptions.py
+chatoperastore/licensedfile.py
+chatoperastore/logger.py
+chatoperastore.egg-info/PKG-INFO
+chatoperastore.egg-info/SOURCES.txt
+chatoperastore.egg-info/dependency_links.txt
+chatoperastore.egg-info/requires.txt
+chatoperastore.egg-info/top_level.txt
