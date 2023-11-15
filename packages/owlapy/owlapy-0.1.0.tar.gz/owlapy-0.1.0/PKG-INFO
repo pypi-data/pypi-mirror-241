@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: owlapy
+Version: 0.1.0
+Summary: Owlapy is loosely based on owlapi, successfully representing the main owl objects in python.
+Home-page: https://github.com/dice-group/owlapy
+Author: Ontolearn Team
+Author-email: caglardemir8@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: rdflib>=6.0.2
+Requires-Dist: parsimonious>=0.8.1
+
+# owlapy
+**Version: 0.1.0**
+
+Owlapy is loosely based on owlapi, successfully representing the main
+owl objects in python. 
+
+Other than that, Owlapy also offers some extra functionalities:
+- `Owl2SparqlConverter` to convert owl class expressions to SPARQL syntax. 
+- `DLSyntaxObjectRenderer` to render owl objects to description logics.
+- `ManchesterOWLSyntaxParser` to parse strings of manchester syntax to owl class expression.
+
+For more, please feel free to explore the project for yourself which is made
+easier due to the well documented code.
+
+
+## Installation
+
+```shell
+pip install owlapy
+```
