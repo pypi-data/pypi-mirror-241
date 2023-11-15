@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: logiled
+Version: 2023.11.12.1
+Summary: A simple python wrapper for Logitech G's LED
+Author: Gamingdy
+License: MIT
+Project-URL: Source, https://github.com/gamingdy/logiLed
+Project-URL: Tracker, https://github.com/gamingdy/logiLed/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# LogiLed
+
+**⚠️ This package only works on Windows. ⚠️**
+
+
+> [!IMPORTANT]  
+> This package is not affiliated with Logitech.
+> It has been designed to allow anyone to customize the RGB of these devices.
+>
+> This project is a fork of LogiPy, the original code can be found [here](https://github.com/Logitech/logiPy)
+
+Use the LED SDK to access all LED and RGB backlight functions and features of Logitech G products.
+Integrate profiles for custom key configurations, develop in-game effects, or mark keys to keep track of
+cool downs on various commands.
+
+## Documentation
+
+The documentation can be found [here](https://logiled.readthedocs.io/en/latest/).  
+You can found the test documentation [here](https://logiled.readthedocs.io/en/dev/).
+
+## Installation
+
+```sh
+pip install logiled
+```
+
+Install the test version:
+
+```sh
+pip install -i https://test.pypi.org/simple/ logiled
+```
+
+## LED Examples
+
+Set all device lighting to red:
+
+```py
+from logiled import LogitechLed, load_dll
+
+load_dll()
+
+led = LogitechLed()
+
+led.set_lighting(100, 0, 0)
+input("Press enter to shutdown SDK...")
+led.shutdown()
+```

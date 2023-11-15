@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+logiled/__init__.py
+logiled/dll_definition.py
+logiled/logi_led.py
+logiled.egg-info/PKG-INFO
+logiled.egg-info/SOURCES.txt
+logiled.egg-info/dependency_links.txt
+logiled.egg-info/top_level.txt
+logiled/dll/LogitechLedEnginesWrapper.dll
