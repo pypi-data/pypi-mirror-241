@@ -1,0 +1,7 @@
+wheel
+parse
+GitPython
+
+[test]
+pytest
+pycodestyle
