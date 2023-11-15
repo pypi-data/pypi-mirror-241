@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ipydocs
+Version: 0.0.1
+Summary: Interactive Python Documentation
+Home-page: https://www.github.com/alrudolph/ipydocs
+License: Apache-2.0
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: numpydoc (>=1.5.0,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://www.github.com/alrudolph/ipydocs
+Description-Content-Type: text/markdown
+
+# (I)nteractive (Py)thon (Doc)umentation - Proof of concept
+

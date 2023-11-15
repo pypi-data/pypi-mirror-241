@@ -1,0 +1,3 @@
+[console_scripts]
+ipydocs=ipydocs.__main__:commands
+
