@@ -1,0 +1,13 @@
+pricedisplay/__init__.py,sha256=BqK1MFm7smJGdljrZKrcH-byH9EfT7VFqMsjWq2v7O8,29
+pricedisplay/__main__.py,sha256=9SemzjZi2lpMN-LlRQexyPjWHPyzEpw2pHTP8f4WLOc,65
+pricedisplay/application.py,sha256=1C8jSq59qhSJ0vvkuglc5J9YjSEadUoJZ_xUwQ3dWHA,7796
+pricedisplay/config.migrate,sha256=aySrQj4L_ZtQX-9S39xOZkw1wmUieHmEEM-FARinX4s,45
+pricedisplay/config.template,sha256=NuYK1yIYm-htLFzQDHzACz6iJ46pPoVxFlooABOlGuU,2703
+pricedisplay/configparser.py,sha256=A2NArqDyGBO6qpokag7nAEbN6-7-yfDPXK99sl5MHk0,10937
+pricedisplay/datahandler.py,sha256=41u2yAnw8w71V_NPvE8ee-r_oPpqiFQkMNClvS2nAgY,5362
+pricedisplay/exceptions.py,sha256=m83mnY46STSI-4hJ-Ap-xVJhIKTQkBhuDChotWRRnP0,1127
+pricedisplay/graphics.py,sha256=8CF27GhcZuYWrZePqpEjKBSGGNHTLmeCz-Fywq1Fweg,23024
+pricedisplay-0.4.0.dist-info/LICENSE.md,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pricedisplay-0.4.0.dist-info/METADATA,sha256=mboRFL7ncHmqieuCjzmoyRqUbdMV4EByvHgrsO92o0Q,2959
+pricedisplay-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pricedisplay-0.4.0.dist-info/RECORD,,
