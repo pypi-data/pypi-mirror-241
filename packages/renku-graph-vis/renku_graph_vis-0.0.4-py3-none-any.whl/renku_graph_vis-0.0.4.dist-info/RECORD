@@ -1,0 +1,17 @@
+renkugraphvis/__init__.py,sha256=GFO0zdAncGGMyAJ4f7jvn_RNNZQ-fDXBZ1inM8gutyo,6835
+renkugraphvis/config.py,sha256=9jZqMPhoCzpJqgnCpgFL1Vz9ny9pfCme2MXYb43wonk,615
+renkugraphvis/graph_utils.py,sha256=U4A_8yLLRRtddwCHKvBeBxt7r3N9Af314qKocCD9BJ8,24630
+renkugraphvis/io_utils.py,sha256=mKgjZdq8Mo-coohGVUzEbBJIiexjFEJQaANLAOO5xHA,762
+renkugraphvis/javascript_graph_utils.py,sha256=fRM6vjyTWBoOpGTBt2XuGqi4O5uiyjxY-OId1_PAsaE,11983
+renkugraphvis/plugin.py,sha256=YPZ8pnosdkU_-NNKt2mNNJ8DQxi3eFvPI--tiENdMzA,2857
+renkugraphvis/configs_dir/oda_graph_graphical_config.json,sha256=3_YUQtG-o3qGOT8398bNppPNeIMhQBYSeoXYD_9UJDs,3360
+renkugraphvis/configs_dir/oda_graph_nodes_subset_config.json,sha256=yGwyw0bmbLt6b4HQg1mXE_fZ-ZGBzgRy-_x9GaI2FBg,9260
+renkugraphvis/configs_dir/oda_graph_reduction_config.json,sha256=Hw0pkuuyEmK14HV8RLhbq3tLc1sTU4JKYVwKi8GH474,315
+renkugraphvis/configs_dir/renku_graph_graphical_config.json,sha256=u-Y6-q7Ee2MmLvby5hmzyyfCm4puJVvYdb_LXd2BEjI,2269
+renkugraphvis/configs_dir/renku_graph_reduction_config.json,sha256=gfBCFFCj20FAWKdwXpZjhDkJfvDpWLpZ-jfxDf-laFE,108
+renkugraphvis/icons/graph_icon.svg,sha256=srI9UL5m13sUKenmpcfbuZ8LyIksMoVatYaW-b8iKk0,3416
+renku_graph_vis-0.0.4.dist-info/METADATA,sha256=jUVkfhn7W1b70e0XQ3aQtFeqbqQfQuOuv_000lj3weE,1136
+renku_graph_vis-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+renku_graph_vis-0.0.4.dist-info/entry_points.txt,sha256=JLbQtDriAsVCdVK-ehI0uB0hUwvYfMAxqIH9qwwj0wQ,149
+renku_graph_vis-0.0.4.dist-info/top_level.txt,sha256=SUX40-x4lq6xXHL9Zi8CM9ZpWgHD2eAQJFLyzIOw-go,14
+renku_graph_vis-0.0.4.dist-info/RECORD,,
