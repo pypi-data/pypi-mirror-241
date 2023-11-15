@@ -1,0 +1,8 @@
+setup.py
+json2csv_esih.egg-info/PKG-INFO
+json2csv_esih.egg-info/SOURCES.txt
+json2csv_esih.egg-info/dependency_links.txt
+json2csv_esih.egg-info/entry_points.txt
+json2csv_esih.egg-info/top_level.txt
+json@csv/__init__.py
+json@csv/utils.py

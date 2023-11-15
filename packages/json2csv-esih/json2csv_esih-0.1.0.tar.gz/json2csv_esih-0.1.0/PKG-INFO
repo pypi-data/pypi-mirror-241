@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: json2csv_esih
+Version: 0.1.0
+Summary: Convert JSON to CSV
+Author: Py0095 & Rubenson
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
