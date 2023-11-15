@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csmemo"
+version = "0.0.9"
+
+authors = [
+     {name = "Miguel Ponce de Leon", email = "miguel.ponce@bsc.es"},
+]
+description = "A Library implementing constraint-based methods for context-specific metabolic modeling"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "BSD 3-Clause License"}
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "numpy", 
+    "networkx",
+    "pandas",
+    "cobra>=0.25.0",
+    "pyfastcore",
+    "boolean.py",
+    "corda"    
+]
+
+[project.scripts]
+build-csm        = "csmemo.cmds.build_csm:main"
+gpr-mapping      = "csmemo.cmds.gpr_mapping:main"
+run-experiment   = "csmemo.cmds.run_insilico_experiment:main"
+run-reachability = "csmemo.cmds.run_reachability_analysis:main"
+
+
+[project.urls]
+"Homepage" = "https://github.com/bsc-life/csmemo"
+"Bug Tracker" = "https://github.com/bsc-life/csmemo/issues"

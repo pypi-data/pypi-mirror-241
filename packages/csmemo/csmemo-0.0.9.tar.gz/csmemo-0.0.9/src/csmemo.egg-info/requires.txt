@@ -1,0 +1,7 @@
+numpy
+networkx
+pandas
+cobra>=0.25.0
+pyfastcore
+boolean.py
+corda
