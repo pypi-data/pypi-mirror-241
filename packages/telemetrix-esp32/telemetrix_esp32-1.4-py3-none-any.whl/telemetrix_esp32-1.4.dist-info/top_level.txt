@@ -1,0 +1,8 @@
+examples
+play
+telemetrix_aio_esp32
+telemetrix_esp32
+telemetrix_esp32_common
+venv
+venv2
+zzz
