@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: flushai
+Version: 1.0.5
+Summary: SDK for Flush AI (flushai.cloud)
+Author: Flush AI inc.
+Author-email: saketh.kotamraju@gmail.com
+Keywords: python,image generation,flush ai,stable diffusion,civit ai,animatediff
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+Requires-Dist: dropbox ==11.36.2
+Requires-Dist: PyMuPDF
+Requires-Dist: google-api-python-client ==2.104.0
+Requires-Dist: google-auth-oauthlib ==1.1.0
+Requires-Dist: opencv-python ==4.8.0.74
+Requires-Dist: pexels-api ==1.0.1
+Requires-Dist: Pillow ==9.4.0
+Requires-Dist: pillow-heif ==0.13.1
+Requires-Dist: protobuf ==4.25.0
+Requires-Dist: pytube ==15.0.0
+Requires-Dist: Requests ==2.31.0
+Requires-Dist: setuptools ==68.2.2
+Requires-Dist: pillow-heif
+Requires-Dist: google-search-results
+Requires-Dist: openai
+Requires-Dist: pytube
+
+
+# Flush AI
+
+This is the python client SDK for Flush AI, a tool that allows you to generate images for free. You can generate imags using any Civit AI model, 
+stable diffusion, and many other popular image generation models
