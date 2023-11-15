@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: proxystore-ex
+Version: 0.1.1
+Summary: ProxyStore extensions.
+Author: Globus Labs
+Author-email: Greg Pauloski <jgpauloski@uchicago.edu>
+Maintainer-email: Greg Pauloski <jgpauloski@uchicago.edu>, Valerie Hayot-Sasson <vhayot@uchicago.edu>
+License: MIT
+Project-URL: homepage, https://proxystore.dev
+Project-URL: documentation, https://extensions.proxystore.dev
+Project-URL: repository, https://github.com/proxystore/extensions
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: proxystore>=0.5.0
+Requires-Dist: pyzmq
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: covdefaults>=2.2; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-timeout; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: virtualenv; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: black; extra == "docs"
+Requires-Dist: mkdocs-gen-files; extra == "docs"
+Requires-Dist: mkdocs-literate-nav; extra == "docs"
+Requires-Dist: mkdocs-material!=9.4.0; extra == "docs"
+Requires-Dist: mkdocs-section-index; extra == "docs"
+Requires-Dist: mkdocstrings[python]; extra == "docs"
+Requires-Dist: mike; extra == "docs"
+
+# ProxyStore Extensions
+
+[![docs](https://github.com/proxystore/extensions/actions/workflows/docs.yml/badge.svg)](https://github.com/proxystore/extensions/actions)
+[![tests](https://github.com/proxystore/extensions/actions/workflows/tests.yml/badge.svg)](https://github.com/proxystore/extensions/actions)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/proxystore/extensions/main.svg)](https://results.pre-commit.ci/latest/github/proxystore/extensions/main)
+
+Extensions for the [ProxyStore package](https://github.com/proxystore/proxystore/).
+
+## Installation
+
+```bash
+pip install proxystore-ex
+```
+
+See the [Installation](https://extensions.proxystore.dev/main/installation) guide for more information about the available extra install options.
+For local development, see the [Contributing](https://extensions.proxystore.dev/main/contributing) guide.
+
+## Documentation
+
+ProxyStore's documentation is available at [docs.proxystore.dev](https://docs.proxystore.dev) and supplemental documentation for the extensions package is available at [extensions.proxystore.dev](https://extensions.proxystore.dev).
