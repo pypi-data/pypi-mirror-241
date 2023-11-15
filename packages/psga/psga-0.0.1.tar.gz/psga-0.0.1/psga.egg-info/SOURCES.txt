@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+demos/hello_world.py
+psga.egg-info/PKG-INFO
+psga.egg-info/SOURCES.txt
+psga.egg-info/dependency_links.txt
+psga.egg-info/requires.txt
+psga.egg-info/top_level.txt
+src/psga.py
+tests/test_psga.py
