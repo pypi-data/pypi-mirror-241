@@ -1,0 +1,3 @@
+[console_scripts]
+context = cli:main
+fleet-context = cli:main
