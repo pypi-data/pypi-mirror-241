@@ -1,0 +1,8 @@
+dynamic_batcher/__init__.py,sha256=h0uqFAp9EWCw1bCp5ZwxiQmyW8GUI7VwXqee4SGwneY,428
+dynamic_batcher/batcher.py,sha256=6CsnzEfjVCTq-W75C1D5-HXEFLUKPhXmtEnQqOqrEkc,7891
+dynamic_batcher/redis_engine.py,sha256=eyXIl8h_25NlzYpgE7roVV_vsKaHiKJT6v6sjY_FH08,2917
+dynamic_batcher/types.py,sha256=Bd25yHbt0mK6-B--hOjisxGR0J_YMVIWzh4LjT2qwQ0,325
+dynamic_batcher-1.0.1.dist-info/METADATA,sha256=wuOzZrdPGDEkdX9AWJjbPrTz72kNa077S6G8JJdEpbY,6056
+dynamic_batcher-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dynamic_batcher-1.0.1.dist-info/top_level.txt,sha256=ItiZ7F4lImxE1jvniksVBTi2Xtth_Kqmqnzj_eyMEJM,16
+dynamic_batcher-1.0.1.dist-info/RECORD,,
