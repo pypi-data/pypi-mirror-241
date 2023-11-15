@@ -1,0 +1,14 @@
+gitmopy/__init__.py,sha256=UnfW7_wfbiQBFhAzOb0MjfuIqSg1_rueF8a73q5XbGI,112
+gitmopy/assets/ai_devmojis.yaml,sha256=PaVx5n-AhgpUS7sxsCITg3m8QLAT9rJx8sSFN9Fb0h4,3027
+gitmopy/assets/gitmojis.yaml,sha256=wgLdzMlZqErpiXUX7XFHDlRtzRx4mXU8bRMqgxr3Gy0,4325
+gitmopy/cli.py,sha256=p-c2PD4X53j1vbAqfRdmbNETC6vVVAdxU5wgaFwXbv8,15714
+gitmopy/constants.py,sha256=PAXDgZg326dEc9FnI7Ek-3nTsIaXaT7RNUrwxJ-y3Ok,2475
+gitmopy/git.py,sha256=Qrssx3eH7TkwDwdEXaRBQveEYHOCuzZj4gLvpWuSlzg,6899
+gitmopy/history.py,sha256=zVVwMsFgBJNphGbNWRymt7Ay3vfcq4qa6BpFrEqcYHI,3358
+gitmopy/prompt.py,sha256=7bbSbSX97rCQSQ2H_1wm7N8cc5poGqmu_oNk19mG3_0,9184
+gitmopy/utils.py,sha256=NPqcEu0xKNjyFXq4n7oljOq5Fg2MjZLODE4G51u6YrM,8199
+gitmopy-0.4.2.dist-info/entry_points.txt,sha256=AVkN1EMOFTmktE_ps8PzJgotl-qjLWQNe3DQP9egKZM,43
+gitmopy-0.4.2.dist-info/LICENSE,sha256=dBLp7nJnZXp3A4yQ6Jl4DPwt0GjFOnk2moIq7mHZdsk,1070
+gitmopy-0.4.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+gitmopy-0.4.2.dist-info/METADATA,sha256=LTLt96n_iHoBunVw1vaquJjv_L0KOuPQWLlWI61aF-c,9021
+gitmopy-0.4.2.dist-info/RECORD,,
