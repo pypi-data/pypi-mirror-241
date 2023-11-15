@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyGPT-api/__init__.py
+src/pyGPT-api/errors.py
+src/pyGPT_api.egg-info/PKG-INFO
+src/pyGPT_api.egg-info/SOURCES.txt
+src/pyGPT_api.egg-info/dependency_links.txt
+src/pyGPT_api.egg-info/requires.txt
+src/pyGPT_api.egg-info/top_level.txt
