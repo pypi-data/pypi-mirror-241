@@ -1,0 +1,17 @@
+collective.regenv-1.0.0-py3.11-nspkg.pth,sha256=i6xUrA2XwWgxJ31EmKS8F0wCvv6o3Db_2POBVx1bZDM,559
+collective/regenv/__init__.py,sha256=_I77hA8PmKeU-hMFx297F4Bigt554wB26MjqVHApTHE,1070
+collective/regenv/configure.zcml,sha256=tzHeMaY1riLEKdKaE40sJ5zFrSVeMOZVuc4MGajTnwY,272
+collective/regenv/monkey.py,sha256=LyNkK6faCS1JogFt4M92JqsVdvHC2XwEF10HG_051VQ,3019
+collective/regenv/registry.py,sha256=pPi-aKtO4HHoG3UzdQjPbLGWii1seQQ6BCrKVsXPdhA,1502
+collective/regenv/testing.py,sha256=63H0k8JQRC-P6eSy8aK0qtlfcDPJZEe97ZthwpBcTB8,883
+collective/regenv/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+collective/regenv/tests/sample.yaml,sha256=EPhjemMl0JHqyb8zt3x5mb0tQHwByR5glnbIlGx02gw,522
+collective/regenv/tests/test_registry.py,sha256=iAHUJErcnEXRtuLdZjKhByBJKHVy8JcziABRmATpK7w,804
+collective.regenv-1.0.0.dist-info/LICENSE.GPL,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+collective.regenv-1.0.0.dist-info/LICENSE.rst,sha256=y87zQgQUEXV_milm4saqrDqUQCKsuBWn_m7aAbjH7MQ,654
+collective.regenv-1.0.0.dist-info/METADATA,sha256=sv41tjaDFBP7SwAHOSVcN7J1SUNdT88_khEcbjcEz34,6048
+collective.regenv-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+collective.regenv-1.0.0.dist-info/entry_points.txt,sha256=b5cHz9FINNyhunUZ6BJOQMhgeAi2x9UcnAkA9l8KEC4,40
+collective.regenv-1.0.0.dist-info/namespace_packages.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.regenv-1.0.0.dist-info/top_level.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.regenv-1.0.0.dist-info/RECORD,,
