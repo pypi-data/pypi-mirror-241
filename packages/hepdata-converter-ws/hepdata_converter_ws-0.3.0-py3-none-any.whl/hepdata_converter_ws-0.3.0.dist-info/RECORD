@@ -1,0 +1,10 @@
+hepdata_converter_ws/__init__.py,sha256=y7HucjQmhIwaHbmVpq9tjlFq6LXSDmRKfdfLI3XjpjE,821
+hepdata_converter_ws/__main__.py,sha256=ruQ79wnAg35DJNdhLeslmfbVvnR4Xpcc24jSRvZ3j1s,146
+hepdata_converter_ws/api.py,sha256=S8HBdH_n6rR7CLhyn-7W6qmq4Ygs3ISsCo8Dx6wClUc,2547
+hepdata_converter_ws/version.py,sha256=vIHrF8v_DaM3ZLDo3uJi2fz8DIIVn5jyRvj0PRolgbc,169
+hepdata_converter_ws-0.3.0.dist-info/LICENSE.txt,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+hepdata_converter_ws-0.3.0.dist-info/METADATA,sha256=x96LQuUhiO0YTqqjckQQ3kM2vobYqTv9678YbSgEO_o,3159
+hepdata_converter_ws-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hepdata_converter_ws-0.3.0.dist-info/entry_points.txt,sha256=obzqxFCfCTPo79jD0BTJC58HfgSakBZIFNz1W_u-ZJ0,68
+hepdata_converter_ws-0.3.0.dist-info/top_level.txt,sha256=saIdBX6IKbrRBlMr5zlrrrRJFKgmlqUJJo19Sk3qfo8,21
+hepdata_converter_ws-0.3.0.dist-info/RECORD,,
