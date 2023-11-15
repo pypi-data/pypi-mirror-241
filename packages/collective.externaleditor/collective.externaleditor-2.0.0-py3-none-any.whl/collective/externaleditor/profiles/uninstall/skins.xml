@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object name="portal_skins">
+
+  <object name="externaleditor"
+          remove="true"
+  />
+
+  <skin-path name="*">
+    <layer name="externaleditor"
+           remove="true"
+    />
+  </skin-path>
+
+</object>
