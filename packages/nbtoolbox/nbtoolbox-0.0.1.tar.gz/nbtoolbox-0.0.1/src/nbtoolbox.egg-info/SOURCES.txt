@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/nbtoolbox/__init__.py
+src/nbtoolbox/version.py
+src/nbtoolbox.egg-info/PKG-INFO
+src/nbtoolbox.egg-info/SOURCES.txt
+src/nbtoolbox.egg-info/dependency_links.txt
+src/nbtoolbox.egg-info/entry_points.txt
+src/nbtoolbox.egg-info/requires.txt
+src/nbtoolbox.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+[console_scripts]
+nbclean = nbtoolbox.app:app
+
+[pipx.run]
+nbclean = nbtoolbox.app:app
