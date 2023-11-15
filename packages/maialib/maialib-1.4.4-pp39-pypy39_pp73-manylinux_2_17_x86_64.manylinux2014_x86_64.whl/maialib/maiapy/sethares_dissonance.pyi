@@ -1,0 +1,9 @@
+import pandas as pd
+import plotly
+import plotly.graph_objects as go
+from maialib import maiacore as mc
+from typing import Callable, List, Optional, Tuple
+
+def plotSetharesDissonanceCurve(fundamentalFreq: float = ..., numPartials: int = ..., ratioLowLimit: float = ..., ratioHighLimit: float = ..., ratioStepIncrement: float = ..., amplCallback: Optional[Callable[[List[float]], List[float]]] = ...) -> Tuple[go.Figure, pd.DataFrame]: ...
+def plotScoreSetharesDissonance(score: mc.Score, plotType: str = ..., lineShape: str = ..., numPartialsPerNote: int = ..., useMinModel: bool = ..., amplCallback: Optional[Callable[[List[float]], List[float]]] = ..., dissCallback: Optional[Callable[[List[float]], float]] = ..., **kwargs) -> Tuple[go.Figure, pd.DataFrame]: ...
+def plotChordDyadsSetharesDissonanceHeatmap(chord: mc.Chord, numPartialsPerNote: int = ..., useMinModel: bool = ..., amplCallback: Optional[Callable[[List[float]], List[float]]] = ..., dissonanceThreshold: float = ..., dissonanceDecimalPoint: int = ...) -> Tuple[plotly.graph_objs._figure.Figure, pd.DataFrame]: ...
