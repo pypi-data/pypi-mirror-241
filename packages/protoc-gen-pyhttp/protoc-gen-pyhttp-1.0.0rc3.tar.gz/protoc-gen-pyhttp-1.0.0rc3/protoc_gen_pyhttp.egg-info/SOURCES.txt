@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+protoc_gen_pyhttp/__init__.py
+protoc_gen_pyhttp/http.py
+protoc_gen_pyhttp/main.py
+protoc_gen_pyhttp/template.py
+protoc_gen_pyhttp/util.py
+protoc_gen_pyhttp.egg-info/PKG-INFO
+protoc_gen_pyhttp.egg-info/SOURCES.txt
+protoc_gen_pyhttp.egg-info/dependency_links.txt
+protoc_gen_pyhttp.egg-info/entry_points.txt
+protoc_gen_pyhttp.egg-info/top_level.txt
+test/test_generated_http.py
