@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.py
+chess_analytica/Board.py
+chess_analytica/ChessDotCom.py
+chess_analytica/__init__.py
+chess_analytica.egg-info/PKG-INFO
+chess_analytica.egg-info/SOURCES.txt
+chess_analytica.egg-info/dependency_links.txt
+chess_analytica.egg-info/requires.txt
+chess_analytica.egg-info/top_level.txt
