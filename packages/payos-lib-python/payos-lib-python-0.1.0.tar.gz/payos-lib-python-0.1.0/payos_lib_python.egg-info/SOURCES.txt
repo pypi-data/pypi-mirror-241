@@ -1,0 +1,5 @@
+setup.py
+payos_lib_python.egg-info/PKG-INFO
+payos_lib_python.egg-info/SOURCES.txt
+payos_lib_python.egg-info/dependency_links.txt
+payos_lib_python.egg-info/top_level.txt
