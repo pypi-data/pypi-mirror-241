@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+u3606b_py/__init__.py
+u3606b_py/u3606b.py
+u3606b_py.egg-info/PKG-INFO
+u3606b_py.egg-info/SOURCES.txt
+u3606b_py.egg-info/dependency_links.txt
+u3606b_py.egg-info/requires.txt
+u3606b_py.egg-info/top_level.txt
