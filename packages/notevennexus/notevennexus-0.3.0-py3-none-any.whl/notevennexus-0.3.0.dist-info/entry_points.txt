@@ -1,0 +1,2 @@
+[console_scripts]
+notevennexus = notevennexus.__main__:main
