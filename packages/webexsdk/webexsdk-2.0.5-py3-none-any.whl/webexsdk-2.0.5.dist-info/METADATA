@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: webexsdk
+Version: 2.0.5
+Summary: Community-developed Python SDK for the Webex Teams APIs
+Home-page: https://github.com/CiscoDevNet/webexsdk
+Download-URL: https://pypi.python.org/pypi/webexsdk
+Author: Chris Lunsford
+Author-email: chrlunsf@cisco.com
+License: MIT; Copyright (c) 2016-2020 Cisco and/or its affiliates.
+Keywords: cisco webex teams spark python api sdk enterprise messaging
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: future
+Requires-Dist: requests >=2.4.2
+Requires-Dist: requests-toolbelt
+Requires-Dist: PyJWT
+
+## This is a long description
