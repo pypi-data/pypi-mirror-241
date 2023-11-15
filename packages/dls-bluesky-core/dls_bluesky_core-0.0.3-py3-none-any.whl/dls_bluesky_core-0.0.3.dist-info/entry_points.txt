@@ -1,0 +1,2 @@
+[console_scripts]
+dls-bluesky-core = dls_bluesky_core.__main__:main
