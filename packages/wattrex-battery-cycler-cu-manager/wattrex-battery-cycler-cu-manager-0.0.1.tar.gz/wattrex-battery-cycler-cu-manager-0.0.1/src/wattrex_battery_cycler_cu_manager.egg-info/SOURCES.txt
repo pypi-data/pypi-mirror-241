@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/wattrex_battery_cycler_cu_manager/__init__.py
+src/wattrex_battery_cycler_cu_manager/__version__.py
+src/wattrex_battery_cycler_cu_manager/cu_broker_client.py
+src/wattrex_battery_cycler_cu_manager/cu_manager.py
+src/wattrex_battery_cycler_cu_manager/detect.py
+src/wattrex_battery_cycler_cu_manager/register.py
+src/wattrex_battery_cycler_cu_manager.egg-info/PKG-INFO
+src/wattrex_battery_cycler_cu_manager.egg-info/SOURCES.txt
+src/wattrex_battery_cycler_cu_manager.egg-info/dependency_links.txt
+src/wattrex_battery_cycler_cu_manager.egg-info/requires.txt
+src/wattrex_battery_cycler_cu_manager.egg-info/top_level.txt
