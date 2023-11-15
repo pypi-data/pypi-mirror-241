@@ -1,0 +1,9 @@
+// Select Merge test.
+
+include aor;
+
+select distinct id from var where author == 'J.R.R. Tolkien' into y;
+
+print("This test should just return the id of the first Tolkien book.");
+
+print(y);
