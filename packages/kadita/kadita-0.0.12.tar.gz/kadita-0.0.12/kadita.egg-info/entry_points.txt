@@ -1,0 +1,2 @@
+[console_scripts]
+kadita = kadita.DeepFace:cli
