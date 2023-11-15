@@ -1,0 +1,12 @@
+pato_gui/PatoGui.spec,sha256=cry9GazBGsxFKZaB7msJbszIi8yRduMYVH1Xr-Ldy2c,728
+pato_gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pato_gui/__main__.py,sha256=uCFRUObG8S8rEV_DwkDOWG1Whk50svMH7dcHHDvKzOQ,74
+pato_gui/about.py,sha256=qwiqZ0tnG08W5fmhbD-DRaV1HUYycysfd3UC_JWPQOw,935
+pato_gui/pom.py,sha256=B5HPK5zIiUlDxsnZSB-gSOUymssmXCRWfbT7ZRrqItM,7383
+pato_gui/program.py,sha256=0bpOkeyTbJmTQzEFSIhaDo4hGDR-UH0a2x0r234S_Po,7899
+pato_gui/pyinstaller.py,sha256=NgNKGL5e7zUw6JGZ2UMpR3dh_GIn4GPGgRmb_oqmuCo,213
+pato_gui-4.0.0.dist-info/LICENSE,sha256=nrFLImB44_XwoVdbhb5dIm8jZ5vp-5FIZpgekRv8PJY,1067
+pato_gui-4.0.0.dist-info/METADATA,sha256=ZLdXAUZaDIxDLGRmTv-Ad8fWFNhCjkbIi8TFHv7CMks,9063
+pato_gui-4.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pato_gui-4.0.0.dist-info/entry_points.txt,sha256=eXgWARfHAIcs9h524kUAGTh4C1_gIXqNdF50KjDdXkM,169
+pato_gui-4.0.0.dist-info/RECORD,,
