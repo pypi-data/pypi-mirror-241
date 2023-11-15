@@ -1,0 +1,14 @@
+LICENCE.md
+README.md
+pyproject.toml
+bytemaker/__init__.py
+bytemaker/aggregate_types.py
+bytemaker/bits.py
+bytemaker/utils.py
+bytemaker/ytypes.py
+bytemaker.egg-info/PKG-INFO
+bytemaker.egg-info/SOURCES.txt
+bytemaker.egg-info/dependency_links.txt
+bytemaker.egg-info/top_level.txt
+bytemaker/native_types/ctypes_.py
+bytemaker/native_types/pytypes.py
