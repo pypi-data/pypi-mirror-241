@@ -1,0 +1,9 @@
+atyp
+nchr
+nlit
+pfmt
+chck
+asto
+
+[dev]
+numpy
