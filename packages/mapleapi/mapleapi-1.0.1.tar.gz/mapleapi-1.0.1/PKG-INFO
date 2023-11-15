@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mapleapi
+Version: 1.0.1
+Summary: Python package for Mapleapi
+Home-page: https://docs.mapleapi.net/pack/pypi
+Author: HYG_Studio
+Author-email: mapleapi@hyhbx.com
+Requires-Python: >=3
+
+Please come to https://docs.mapleapi.net Check out the documentation,Thank you
