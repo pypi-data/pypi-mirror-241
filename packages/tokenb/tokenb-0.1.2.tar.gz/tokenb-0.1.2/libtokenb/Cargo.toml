@@ -1,0 +1,15 @@
+[package]
+name = "libtokenb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokenizers = "0.14"
+serde = "1"
+macro_rules_attribute = "0.2"
+paste = "1"
+lazy_static = "1"
+serde_json = {version="1", features=["std", "preserve_order"]}
+aho-corasick = "1"
