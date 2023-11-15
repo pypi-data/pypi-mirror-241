@@ -1,0 +1,11 @@
+README.md
+setup.py
+kafka_message/__init__.py
+kafka_message/kafka_producer.py
+kafka_message.egg-info/PKG-INFO
+kafka_message.egg-info/SOURCES.txt
+kafka_message.egg-info/dependency_links.txt
+kafka_message.egg-info/requires.txt
+kafka_message.egg-info/top_level.txt
+kafka_message/model/__init__.py
+kafka_message/model/producer_model.py
