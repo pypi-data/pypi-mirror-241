@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gixtpy
+Version: 0.1.2
+Summary: Tools to assist in angle tuning grazing incidence x-ray scattering (GIWAXS or GISASXS) experiments
+Author: Teddy Tortorici
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tk
+Requires-Dist: tifffile
+
+https://github.com/teddy-tort/gixtpy

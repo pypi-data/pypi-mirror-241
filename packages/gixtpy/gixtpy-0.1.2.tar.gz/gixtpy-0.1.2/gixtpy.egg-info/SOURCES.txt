@@ -1,0 +1,7 @@
+gixtpy.py
+setup.py
+gixtpy.egg-info/PKG-INFO
+gixtpy.egg-info/SOURCES.txt
+gixtpy.egg-info/dependency_links.txt
+gixtpy.egg-info/requires.txt
+gixtpy.egg-info/top_level.txt
