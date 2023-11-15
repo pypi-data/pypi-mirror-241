@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pylfgp
+Version: 0.0.2
+Summary: Implementation of latent factor model with subgroup penalty for crowdsourcing
+Author: Qi Xu, Arlina Shen, and Annie Qu
+Author-email: Qi Xu <xuqi1216@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+Package Documentation:
+
+Description: 
+
+
+# Crowdsourcing Utilizing Subgroup Structure of Latent Factor Modeling
+In our project, we issue a Python implementation for learning from crowdsourcing data using a Latent Factor Gaussian Process (LFGP) model to predict the true labels for
+multicategory classification tasks. The Latent Factor Gaussian Process model is a powerful way to deal with the noise in crowdsourced labels. The class includes methods for initializing task members, worker members, and various model parameters. It also provides functionalities for binary and multi-categorical crowdsourcing. 
+
+
+## Features
+The class `LFGP` includes the following methods:
+
+1. Initialization of task members
+2. Initialization of worker members
+3. Initialization of binary parameters
+4. Initialization of orthogonal matrices
+5. Update of A and B (latent factors) for binary crowdsourcing
+6. Binary fit for model training
+
+## Installation
+
+You can install this python package by first making sure that you have the Python 3.6 version or later. You can check your Python version by running the following command:
+```python
+python --version
+```
+Install with pip
+The easiest way to install lfgp is by using pip, Python's package installer. 
+Run the following command in your terminal:
+```python
+pip install lfgp
+```
+Furthermore, the following packages are required for installation in order to use our code: 
+
+1. operator - a built-in Python module providing functions corresponding to intrinsic operators.
+2. numpy - for numerical computations.
+3. ray - for parallel and distributed computing. The default chord for the ray package is 1. 
+4. scipy - specifically scipy.stats for statistical computations.
+5. numpy_indexed - for advanced operations on numpy arrays.
+6. sklearn.cluster - specifically sklearn.cluster.KMeans for the k-means clustering algorithm.
+
+Our code also imports several functions (`logistic_reg`, `label_swap`, `data_converter`, `multinominal_reg1`, `multinomial_reg2`, `cayley_transform`) from a src.util module and DawidSkeneModel from src.dawid_skene_model
+
+## Usage
+
+Here's an example of how to use the `LFGP` class:
+
+```python
+from lfgp import LFGP
+
+model = LFGP()
+
+model._binary_fit(data, scheme="mv", maxiter=100, epsilon=1e-3, verbose=0)
+```
+
+Please refer to the in-code documentation and comments for more detailed information on how to use each method.

@@ -1,0 +1,7 @@
+LICENSE.md
+pyproject.toml
+setup.py
+pylfgp/src/pylfgp.egg-info/PKG-INFO
+pylfgp/src/pylfgp.egg-info/SOURCES.txt
+pylfgp/src/pylfgp.egg-info/dependency_links.txt
+pylfgp/src/pylfgp.egg-info/top_level.txt
