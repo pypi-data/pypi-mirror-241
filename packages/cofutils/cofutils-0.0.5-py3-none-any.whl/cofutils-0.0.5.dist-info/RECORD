@@ -1,0 +1,12 @@
+cofutils/__init__.py,sha256=X2pHykzQx7J3wMXjNPSn5bw7r-nBG5IkJsxRRJeQiRQ,515
+cofutils/cofcumem.py,sha256=jyhMfSV_wbI91sWGmweTwwltuvbnPrEu79kTQkJ6Jzg,1248
+cofutils/coflog.py,sha256=V7zdE_qkOdDFZxAyG6vOf6oKoivgsvWWtEjHJK73PfE,4847
+cofutils/coftime.py,sha256=XzaHIBjKgl1oVhk52hTWali6Q-z03k-0QuW0pQRnmlw,2898
+cofutils/cofwriter.py,sha256=QXpmzfUjktRlITpYqYnrDlhrxRxcvQiJJqsOWoweNT8,1978
+cofutils/dispatch.py,sha256=53j-Q312RwzH1oug8cJXlsJ_5f_277VMcXr1wZSZqOY,11489
+cofutils/package_info.py,sha256=rr1whAJ1MdhRpD_JEv8JjfpwHExfmskys8wDP-gw0LU,285
+cofutils-0.0.5.dist-info/METADATA,sha256=WSUEkOX3sZazaLP0qc0E29nMW3uz0RBea14YQvh_f1k,4278
+cofutils-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cofutils-0.0.5.dist-info/entry_points.txt,sha256=kdYw4aR4QeVBq2QVCCtEJ69Ryqj9HlLS-VJdwgKLGA0,50
+cofutils-0.0.5.dist-info/top_level.txt,sha256=nizc5Bqv9RX2g9U6vWrbHJLJF9-1zjMVoV5_1oWCaFo,9
+cofutils-0.0.5.dist-info/RECORD,,
