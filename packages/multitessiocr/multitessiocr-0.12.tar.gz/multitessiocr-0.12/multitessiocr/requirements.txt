@@ -1,0 +1,8 @@
+a_cv_imwrite_imread_plus
+a_pandas_ex_apply_ignore_exceptions
+lxml
+multiprocca
+numpy
+opencv_python
+pandas
+touchtouch
