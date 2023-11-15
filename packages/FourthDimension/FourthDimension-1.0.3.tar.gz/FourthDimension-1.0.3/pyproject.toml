@@ -1,0 +1,15 @@
+[build-system]
+requires = [ "setuptools", "setuptools-scm", "wheel", "twine" ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FourthDimension"
+version = "1.0.3"
+description = "FourthDimension（第四维度）由华中科技大学人工智能与嵌入式实验室联合言图科技研发，是一款基于大语言模型的智能检索增强生成（RAG）系统，提供私域知识库、文档问答等多种服务。此外，FourthDimension提供便捷的本地部署方法，方便用户在本地环境中搭建属于自己的应用平台。"
+requires-python = ">=3.8"
+keywords= ["python", "yantu"]
+dependencies = []
+authors = [
+    { name="GuoHuai Wu", email="wu466687121@qq.com" },
+  ]
+license = {text = "MIT License"}
