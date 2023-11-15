@@ -1,0 +1,10 @@
+setup.py
+hctestpro/__init__.py
+hctestpro/file_upload.py
+hctestpro/image_recognition.py
+hctestpro/report_screenshot.py
+hctestpro.egg-info/PKG-INFO
+hctestpro.egg-info/SOURCES.txt
+hctestpro.egg-info/dependency_links.txt
+hctestpro.egg-info/requires.txt
+hctestpro.egg-info/top_level.txt
