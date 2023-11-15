@@ -1,0 +1,35 @@
+[project]
+name="concopilot"
+version="0.0.1"
+authors=[
+    {name="ZHONG Weikun", email="zhong.weikun@live.com"}
+]
+description="ConCopilot defines standards and common interfaces that would be helpful to make each part of a copilot reusable, replaceable, portable, and flexible."
+readme="README.md"
+requires-python=">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+    "PyYAML",
+
+    #package
+    "validators>=0.20.7",
+    "python-gnupg",
+    "requests",
+    "pycryptodome",
+    "tqdm"
+]
+
+[project.urls]
+"Homepage"="https://github.com/ConCopilot/concopilot"
+"Bug Tracker"="https://github.com/ConCopilot/concopilot/issues"
+
+[project.scripts]
+conpack="concopilot.package.conpack:execute"
+
+[tool.setuptools.packages.find]
+where=["."]
+include=["concopilot*"]
+exclude=["concopilot_examples*"]
