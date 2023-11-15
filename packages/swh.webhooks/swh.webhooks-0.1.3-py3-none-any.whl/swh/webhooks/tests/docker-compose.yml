@@ -1,0 +1,37 @@
+version: "3.7"
+services:
+  svix-backend:
+    image: svix/svix-server
+    network_mode: bridge
+    links:
+      - svix-postgres
+      - svix-redis
+    environment:
+      WAIT_FOR: "true" # We want to wait for the default services
+    volumes:
+      - "./config.toml:/config.toml:ro"
+    ports:
+      - "0:8071"
+    depends_on:
+      - svix-postgres
+      - svix-redis
+
+  svix-postgres:
+    image: postgres:13.4
+    network_mode: bridge
+    volumes:
+      - "svix-postgres-data:/var/lib/postgresql/data/"
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+  svix-redis:
+    image: "redis:6.2-alpine"
+    network_mode: bridge
+    # Enable persistence
+    command: "--save 60 500 --appendonly yes --appendfsync everysec"
+    volumes:
+      - "svix-redis-data:/data"
+
+volumes:
+  svix-postgres-data:
+  svix-redis-data:

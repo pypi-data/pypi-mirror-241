@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: swh.webhooks
+Version: 0.1.3
+Summary: Software Heritage Webhooks management
+Home-page: https://gitlab.softwareheritage.org/swh/devel/swh-webhooks
+Author: Software Heritage developers
+Author-email: swh-devel@inria.fr
+Project-URL: Bug Reports, https://gitlab.softwareheritage.org/swh/devel/swh-webhooks/-/issues
+Project-URL: Funding, https://www.softwareheritage.org/donate
+Project-URL: Source, https://gitlab.softwareheritage.org/swh/devel/swh-webhooks
+Project-URL: Documentation, https://docs.softwareheritage.org/devel/swh-webhooks/
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: click
+Requires-Dist: jsonschema[format]
+Requires-Dist: svix
+Requires-Dist: typing-extensions
+Requires-Dist: swh.core
+Requires-Dist: swh.journal
+Provides-Extra: testing
+Requires-Dist: netifaces ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-click ; extra == 'testing'
+Requires-Dist: pytest-docker ; extra == 'testing'
+Requires-Dist: pytest-httpserver ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+Requires-Dist: types-jsonschema ; extra == 'testing'
+Requires-Dist: types-PyYAML ; extra == 'testing'
+Requires-Dist: types-requests ; extra == 'testing'
+Requires-Dist: types-urllib3 ; extra == 'testing'
+Requires-Dist: urllib3 <2 ; extra == 'testing'
+
+Software Heritage - Webhooks
+============================
+
+Python package to manage Software Heritage Webhooks built on top of
+the `Svix framework <https://docs.svix.com/>`__.
+
+API Overview
+------------
+
+The webhooks framework for Software Heritage is based on three main concepts:
+
+- ``event type``: named event and description of associated data
+- ``endpoint``: URL to send events data
+- ``event``: message sent to endpoints
+
+Event type
+^^^^^^^^^^
+
+An event type defines an event and its JSON messages that are sent through webhooks.
+It is composed of:
+
+- a name in the form ``<group>.<event>``
+- a description
+- a `JSON schema <https://json-schema.org/>`__ describing the JSON payload
+  sent to endpoints
+
+
+Endpoint
+^^^^^^^^
+
+An endpoint is defined by an HTTP URL where events and their JSON data are sent to.
+An endpoint is created for a specific event type and an optional channel (each event
+type has its own list of endpoints).
+
+Channels are an extra dimension of filtering events that is orthogonal to event types.
+Events are sent (or not sent) to endpoints based on the following conditions:
+
+- Endpoint has no channel set: this is a catch-all, all events are sent to to it,
+  regardless of whether the event had a channel set.
+- Both endpoint and event have a channel set: if there's the same, the event is sent
+  to the endpoint.
+- Endpoint has a channel set and event has no channel set: the event is not sent to
+  the endpoint.
+
+Event
+^^^^^
+
+An event of a given type can be sent with a JSON payload, its delivery will be attempted
+to all endpoints listening to the event type.
+
+If the JSON payload does not match the JSON schema of the event type, an error is raised.
+
+Event can optionally be sent on a specific channel orthogonal to the event type, the
+conditions of its develivery is detailed in the previous section.
