@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: deploy-sre
+Version: 1.0.1
+Requires-Dist: setuptools
+Requires-Dist: requests
+
