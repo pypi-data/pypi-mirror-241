@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: postleid
+Version: 0.8.1
+Summary: Postleid - sanitize postal codes in spreadsheads
+Author-email: Rainer Schwarzbach <rainer@blackstream.de>
+License: MIT License
+        
+        Copyright (c) 2023 Rainer Schwarzbach
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://gitlab.com/blackstream-x/postleid
+Project-URL: Documentation, https://blackstream-x.gitlab.io/postleid
+Project-URL: CI, https://gitlab.com/blackstream-x/postleid/-/pipelines
+Project-URL: Bug Tracker, https://gitlab.com/blackstream-x/postleid/-/issues
+Project-URL: Repository, https://gitlab.com/blackstream-x/postleid.git
+Keywords: postleitzahlen,plz,postal codes,excel
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: German
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: polars >=0.19.11
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: qrstu >=0.2.0
+Requires-Dist: xlsx2csv >=0.8.1
+Requires-Dist: XlsxWriter >=3.1.9
+
+# Postleid
+
+Skript zum Korrigieren von Postleitzahlen in Excel-Dateien
+
+Es werden Postleitzahlenregeln für 187 Länder unterstützt
+(siehe countries.txt).
+
+
+## Installation
+
+_bevorzugt in einem Virtual Environment_
+
+```
+pip install -U postleid
+```
+
+
+## Benutzung
+
+Korrigieren von Postleitzahlen mit `postleid fix …`
+
+Optionen lt. Hilfeaufruf (`postleid fix --help`):
+
+```text
+Aufruf: postleid fix [-h] [-g] [-o AUSGABEDATEI] [-s EINSTELLUNGSDATEI]
+                     EXCELDATEI
+
+Postleitzahlen in Excel-Dateien korrigieren
+
+Positionsparameter:
+  EXCELDATEI            die Original-Exceldatei
+
+Optionen:
+  -h, --help            diese Meldung anzeigen und beenden
+  -g, --guess-1000s     Postleitzahlen unter 1000 mit 1000 multiplizieren
+  -o AUSGABEDATEI, --output-file AUSGABEDATEI
+                        die Ausgabedatei (Standardwert: Name der Original-
+                        Exceldatei mit vorangestelltem 'fixed-')
+  -s EINSTELLUNGSDATEI, --settings-file EINSTELLUNGSDATEI
+                        die Datei mit Benutzereinstellungen (Standardwert:
+                        postleid-settings.yaml im aktuellen Verzeichnis)
+```
+
+
+## Weiterführende Informationen
+
+- Dokumentation → <https://blackstream-x.gitlab.io/postleid>
+- Anregungen oder Fehlerberichte → [Issues](https://gitlab.com/blackstream-x/postleid/-/issues)

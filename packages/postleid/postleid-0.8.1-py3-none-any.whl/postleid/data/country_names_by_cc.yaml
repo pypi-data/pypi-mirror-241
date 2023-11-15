@@ -1,0 +1,1162 @@
+# Country names mapped to ISO-3166-1 ALPHA-2 country codes
+#
+# Copyright (C) 2023 Rainer Schwarzbach
+#
+# This file is part of postleid.
+#
+# postleid is free software: you can redistribute it and/or modify
+# it under the terms of the MIT License.
+#
+# postleid is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the LICENSE file for more details.
+#
+ad:
+- <Principality of> Andorra
+- Principat d’Andorra
+- <Fürstentum> Andorra
+- AND
+af:
+- <Islamic Emirate of> Afghanistan
+- <Islamic Republic of> Afghanistan
+- افغانستان
+- د افغانستان اسلامي امارت
+- امارت اسلامی افغانستان
+- <Islamisches Emirat> Afghanistan
+- AFG
+ai:
+- Anguilla
+- AXA
+al:
+- <Republic of> Albania
+- Shqipëri
+- Shqipëria
+- Republika e Shqipërisë
+- <Republik> Albanien
+am:
+- <Republic of> Armenia
+- Հայաստան
+- Հայաստանի Հանրապետություն
+- <Republik> Armenien
+aq:
+- Antarctica
+- British Antarctic Territory
+- Britisches Antarktis-Territorium
+ar:
+- Argentina
+- Argentine Republic
+- <República> Argentina
+- Argentinien
+- Argentinische Republik
+as:
+- American Samoa
+- Amerika Sāmoa
+- Amelika Sāmoa
+- Sāmoa Amelika
+- Amerikanisch-Samoa
+at:
+- <Republic of> Austria
+- <Republik> Österreich
+- A
+au:
+- <Commonwealth of> Australia
+- Australien
+- AUS
+ax:
+- Åland <Islands>
+- Ahvenanmaa
+az:
+- <Republic of> Azerbaijan
+- Azərbaycan <Respublikası>
+- <Republik> Aserbaidschan
+ba:
+- <Republic of> Bosnia and Herzegovina
+- Bosna i Hercegovina
+- Босна и Херцеговина
+- BiH
+- БиХ
+- Bosnien-Herzegowina
+- BIH
+bb:
+- Barbados
+- BDS
+bd:
+- <People’s Republic of> Bangladesh
+- বাংলাদেশ
+- গণপ্রজাতন্ত্রী বাংলাদেশ
+- <Volksrepublik> Bangladesch
+be:
+- <Kingdom of> Belgium
+- <Koninkrijk> België
+- <Royaume de> Belgique
+- <Königreich> Belgien
+- B
+bg:
+- <Republic of> Bulgaria
+- <Република> България
+- <Republik> Bulgarien
+bh:
+- <Kingdom of> Bahrain
+- البحرين
+- مملكة البحرين
+- <Königreich> Bahrain
+- <Königreich> Bahrein
+- BRN
+bl:
+- Saint Barthélemy
+- <Collectivité territoriale de> Saint-Barthélemy
+- St. Barth<s>
+- Saint-Barth
+- St. Barts
+- <Gebietskörperschaft> Saint-Barthélemy
+bm:
+- Bermuda
+bn:
+- Brunei <Darussalam>
+- Negara Brunei Darussalam
+- نݢارا بروني دارالسلام
+- BRU
+br:
+- <Federative Republic of> Brazil
+- <República Federativa do> Brasil
+- <Föderative Republik> Brasilien
+bt:
+- <Kingdom of> Bhutan
+- འབྲུག་ཡུལ་
+- འབྲུག་རྒྱལ་ཁབ
+- <Königreich> Bhutan
+- BHT
+by:
+- <Republic of> Belarus
+- <Рэспубліка> Беларусь
+- <Республика> Беларусь
+- <Republik> Belarus
+- Weißrussland
+ca:
+- Canada
+- Kanada
+- CDN
+cc:
+- Cocos (Keeling) Islands
+- <Territory of> Cocos Islands
+- Pulu Kokos <Keeling>
+- Wilayah Kepulauan Cocos <Keeling>
+- <Territorium> Kokosinseln
+- Keelinginseln
+ch:
+- Switzerland
+- Swiss Confederation
+- Schweiz
+- Schweizerische Eidgenossenschaft
+- Schwiz
+- Schwizerischi Eidgnosseschaft
+- <Confédération> suisse
+- <Confederazione> Svizzera
+- <Confederaziun> svizra
+- Helvetia
+- Confoederatio Helvetica
+cl:
+- <Republic of> Chile
+- <República de> Chile
+- <Republik> Chile
+cn:
+- <People’s Republic of> China
+- PRC
+- 中国
+- 中华人民共和国
+- Zhōngguó
+- Zhōnghuá Rénmín Gònghéguó
+- VR China
+- Volksrepublik China
+- CHN
+co:
+- <Republic of> Colombia
+- <República de> Colombia
+- <Republik> Kolumbien
+cr:
+- <Republic of> Costa Rica
+- <República de> Costa Rica
+- <Republik> Costa Rica
+cu:
+- <Republic of> Cuba
+- <República de> Cuba
+- <Republik> Kuba
+- C
+cv:
+- Cape Verde
+- <Republic of> Cabo Verde
+- Kap Verde
+- Kapverdische Inseln
+cx:
+- <Territory of> Christmas Island
+- Weihnachtsinsel
+cy:
+- <Republic of> Cyprus
+- Κύπρος
+- Κυπριακή Δημοκρατία
+- Kıbrıs Cumhuriyeti
+- Republik Zypern
+cz:
+- Czechia
+- Czech Republic
+- Česko
+- Česká Republika
+- Tschechien
+- Tschechische Republik
+de:
+- <Federal Republic of> Germany
+- <Bundesrepublik> Deutschland
+- BRD
+- <République fédérale d’>Allemagne
+- RFA
+- <República Federal de> Alemania
+- <Bondsrepubliek> Duitsland
+- D
+dk:
+- <Kingdom of> Denmark
+- <Kongeriget> Danmark
+- <Kongsríki> Danmarkar
+- <Kunngeqarfik> Danmarki
+- <Königreich> Dänemark
+do:
+- Dominican Republic
+- República Dominicana
+- Dominikanische Republik
+- DOM
+dz:
+- <People’s Democratic Republic of> Algeria
+- الجزائر
+- الجمهورية الجَزائرية الديمقراطية الشعبية
+- ⵍⴻⵣⵣⴰⵢⴻⵔ
+- ⵍⴷⵣⴰⵢⴻⵔ
+- ⴷⵣⴰⵢⴻⵔ
+- ⵜⴰⴳⴷⵓⴷⴰ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ ⵜⴰⵎⴰⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ
+- <Demokratische Volksrepublik> Algerien
+ec:
+- <Republic of> Ecuador
+- <República del> Ecuador
+- <Republik> Ecuador
+- EQ
+ee:
+- <Republic of> Estonia
+- Eesti <Vabariik>
+- <Republik> Estland
+- EST
+eg:
+- <Arab Republic of> Egypt
+- مصر
+- جمهوريّة مصر العربيّة
+- <Arabische Republik> Ägypten
+es:
+- <Kingdom of> Spain
+- <Reino de> España
+- <Regne d’>Espanya
+- Espainia
+- Espainiako Erresuma
+- <Reiaume d’>Espanha
+- <Königreich> Spanien
+- E
+et:
+- <Federal Democratic Republic of> Ethiopia
+- የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ
+- Ye-Ītyōṗṗyā Fēdēralawī Dēmokirasīyawī Rīpebilīk
+- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
+- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
+- ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ ኢትዮጵያ
+- Fēdēralawī Dēmokirasīyawī Rīpebilīki Ítiyop’iya
+- Itiyoppiya Federaalak Demokraatik Rippeblikih
+- <Demokratische Bundesrepublik> Äthiopien
+- ETH
+fi:
+- <Republic of> Finland
+- Suomi
+- Suomen tasavalta
+- Republiken Finland
+- <Republik> Finnland
+- FIN
+- SF
+fk:
+- Falkland Islands <(Malvinas)>
+- Malvinas
+- Falklandinseln
+fm:
+- <Federated States of> Micronesia
+- Micronesia, Federated States of
+- FSM
+- <Föderierte Staaten von> Mikronesien
+fo:
+- Faroe Islands
+- Føroyar
+- Færøerne
+- Färöer
+fr:
+- France
+- French Republic
+- République française
+- Frankreich
+- Französische Republik
+- F
+gb:
+- United Kingdom <of Great Britain and Northern Ireland>
+- UK
+- Great Britain
+- England
+- Northern Ireland
+- Scotland
+- Wales
+- Vereinigtes Königreich
+- Großbritannien
+- Nordirland
+- Schottland
+ge:
+- Georgia
+- საქართველო
+- Sakartvelo
+- Georgien
+gf:
+- French Guiana
+- Guyane
+- Französisch-Guayana
+gg:
+- <Bailiwick of> Guernsey
+- <Bailliage de> Guernesey
+- <Bailliage dé> Guernési
+- <Vogtei> Guernsey
+- GBA
+- GBG
+gh:
+- <Republic of> Ghana
+- <Republik> Ghana
+gi:
+- Gibraltar
+- GBZ
+gl:
+- Greenland
+- Kalaallit Nunaat
+- Grønland
+- Grönland
+gn:
+- <Republic of> Guinea
+- <République de> Guinée
+- La Guinée
+- 𞤈𞤫𞤲𞥆𞤣𞤢𞥄𞤲𞤣𞤭 𞤘𞤭𞤲𞤫
+- Gine ka Fasojamana
+- <Republik> Guinea
+- GUI
+gp:
+- Guadeloupe
+- Gwadloup
+- Gwada
+gr:
+- Greece
+- Hellenic Republic
+- Ελλάδα
+- Ελλάς
+- Ελληνική Δημοκρατία
+- Griechenland
+- Hellenische Republik
+gs:
+- South Georgia and the South Sandwich Islands
+- South Georgia
+- South Sandwich Islands
+- SGSSI
+- Südgeorgien und die Südlichen Sandwichinseln
+- Südgeorgien
+- Südliche Sandwichinseln
+gt:
+- <Republic of> Guatemala
+- <República de> Guatemala
+- <Republik> Guatemala
+- GCA
+gu:
+- Guam
+- Guåhan
+gw:
+- <Republic of> Guinea-Bissau
+- <República da> Guiné-Bissau
+- 𞤘𞤭𞤲𞤫 𞤄𞤭𞤧𞤢𞥄𞤱𞤮
+- Gine-Bisaawo
+- ߖߌߣߍ ߺ ߓߌߛߊߥߏ߫
+- Gine-Bisawo
+- <Republik> Guinea-Bissau
+- GUB
+hn:
+- <Republic of> Honduras
+- <República de> Honduras
+- <Republik> Honduras
+hr:
+- <Republic of> Croatia
+- <Republika> Hrvatska
+- <Republik> Kroatien
+- CRO
+ht:
+- <Republic of> Haiti
+- <République d’>Haïti
+- <Repiblik d> Ayiti
+- Republik Haiti
+hu:
+- Hungary
+- Magyarország
+- Ungarn
+- H
+id:
+- <Republic of> Indonesia
+- <Republik> Indonesia
+- <Republik> Indonesien
+- RI
+ie:
+- <Republic of> Ireland
+- Éire
+- Irland
+- EIR
+- IRL
+il:
+- <State of> Israel
+- יִשְׂרָאֵל
+- מְדִינַת יִשְׂרָאֵל
+- إِسْرَائِيل
+- دَوْلَة إِسْرَائِيل
+- <Staat> Israel
+im:
+- Isle of Man
+- Mannin
+- Ellan Vannin
+- Insel Man
+- GBM
+in:
+- <Republic of> India
+- Bhārat Gaṇarājya
+- भारत गणराज्य
+- <Republik> Indien
+- IND
+io:
+- British Indian Ocean Territory
+- Britisches Territorium im Indischen Ozean
+iq:
+- <Republic of> Iraq
+- جمهورية العراق
+- کۆماری عێراق
+- Komarî Êraq
+- <Republik> Irak
+- IRQ
+ir:
+- <Islamic Republic of> Iran
+- Iran, Islamic Republic of
+- ايران
+- جمهوری اسلامی ایران
+- <Islamische Republik> Iran
+is:
+- <Republic of> Iceland
+- Ísland
+- Island
+it:
+- Italy
+- Italian Republic
+- Italia
+- Repubblica Italiana
+- Italien
+- Italienische Republik
+- I
+je:
+- <Bailiwick of> Jersey
+- <Bailliage de> Jersey
+- <Bailliage dé> Jèrri
+- <Vogtei> Jersey
+- GBJ
+jo:
+- <Hashemite Kingdom of> Jordan
+- الأردن
+- المملكة الأردنية الهاشمية
+- <Haschemitisches Königreich> Jordanien
+- HKJ
+- JOR
+jp:
+- Japan
+- 日本
+- 日本国
+- J
+ke:
+- <Republic of> Kenya
+- Jamhuri ya Kenya
+- <Republik> Kenia
+- EAK
+kg:
+- Kyrgyzstan
+- Kyrgyz Republic
+- Кыргыз Республикасы
+- Кыргызская Республика
+- Kirgisistan
+- Kirgistan
+- Kirgisische Republik
+- KS
+kh:
+- <Kingdom of> Cambodia
+- កម្ពុជា
+- ព្រះរាជាណាចក្រកម្ពុជា
+- <Preăh Réachéanachâkr> Kâmpŭchéa
+- <Königreich> Kambodscha
+- K
+kn:
+- Saint Kitts and Nevis
+- <Federation of> Saint Christopher and Nevis
+- SKN
+- SKAN
+- St. Kitts
+- Saint Kitts
+- St. Christopher
+- Saint Christopher
+- Nevis
+- <Föderation> St. Kitts und Nevis
+- Sankt Christopher und Nevis
+- Sankt Christopher
+- KAN
+kr:
+- South Korea
+- Republic of Korea
+- Korea, Republic of
+- ROK
+- 대한민국
+- Daehan Minguk
+- 大韓民國
+- Südkorea
+- Republik Korea
+kw:
+- <State of> Kuwait
+- الكويت
+- دولة الكويت
+- <Staat> Kuwait
+- <Staat> Kuweit
+- KWT
+ky:
+- Cayman Islands
+- Caymaninseln
+- Kaimaninseln
+- Kaiman-Inseln
+kz:
+- <Republic of> Kazakhstan
+- Қазақстан <Республикасы>
+- Qazaqstan <Respublikasy>
+- <Республика> Казахстан
+- <Republik> Kasachstan
+la:
+- Laos
+- Lao People’s Democratic Republic
+- LPDR
+- Lao PDR
+- ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ
+- LAO
+lb:
+- <Republic of> Lebanon
+- Lebanese Republic
+- اللبنان
+- الجمهورية اللبنانية
+- Libanon
+- Libanesische Republik
+- RL
+lc:
+- Saint Lucia
+- Sent Lisi
+- Sainte-Lucie
+- Iouanalao
+- St. Lucia
+- WL
+li:
+- <Principality of> Liechtenstein
+- <Fürstentum> Liechtenstein
+- FL
+lk:
+- <Democratic Socialist Republic of> Sri Lanka
+- ශ්‍රී ලංකා
+- ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය
+- Śrī Laṅkā <Prajātāntrika Samājavādī Janarajaya>
+- இலங்கை
+- இலங்கை சனநாயக சோசலிசக் குடியரசு
+- Ilaṅkai <Jaṉanāyaka Sōsalisak Kuṭiyarasu>
+- <Demokratische Sozialistische Republik> Sri Lanka
+lr:
+- <Republic of> Liberia
+- <Republik> Liberia
+ls:
+- <Kingdom of> Lesotho
+- <Naha ea> Lesotho
+- <Königreich> Lesotho
+lt:
+- <Republic of> Lithuania
+- Lietuva
+- Lietuvos Respublika
+- <Republik> Litauen
+lu:
+- <Grand Duchy of> Luxembourg
+- <Groussherzogtum> Lëtzebuerg
+- <Grand-Duché de> Luxembourg
+- <Großherzogtum> Luxemburg
+- L
+lv:
+- <Republic of> Latvia
+- Latvija
+- Latvijas Republika
+- Latveja
+- Latvejas Republika
+- Lețmō
+- Lețmō Vabāmō
+- <Republik> Lettland
+ma:
+- <Kingdom of> Morocco
+- المغرب
+- المملكة المغربية
+- <ⵜⴰⴳⵍⴷⵉⵜ ⵏ> ⵍⵎⴰⵖⵔⵉⴱ
+- ⵎⵓⵕⵕⴰⴽⵓⵛ
+- <Königreich> Marokko
+mc:
+- <Principality of> Monaco
+- <Principauté de> Monaco
+- <Prinçipatu de> Mu̍negu
+- <Principato di> Monaco
+- <Fürstentum> Monaco
+md:
+- <Republic of> Moldova
+- Moldova, Republic of
+- <Republica> Moldova
+- <Republik> Moldau
+- Moldawien
+me:
+- Montenegro
+- Crna Gora
+- Црна Гора
+- MNE
+mf:
+- <Collectivity of> Saint Martin
+- Saint Martin (French part)
+- <Collectivité de> Saint-Martin
+- <Gebietskörperschaft> Saint-Martin
+- St. Martin
+mg:
+- <Republic of> Madagascar
+- <Repoblikan’i> Madagasikara
+- <République de> Madagascar
+- <Republik> Madagaskar
+- RM
+mh:
+- <Republic of the> Marshall Islands
+- Aolepān Aorōkin Ṃajeḷ
+- <Republik> Marshallinseln
+mk:
+- <Republic of> North Macedonia
+- <Република> Северна Македонија
+- Republika e Maqedonisë së Veriut
+- Maqedonia e Veriut
+- <Republik> Nordmazedonien
+- NMK
+mm:
+- <Republic of the Union of> Myanmar
+- <Republic of> Myanmar
+- Burma
+- ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်‌
+- <Republik der Union> Myanmar
+- Birma
+- MYA
+- BUR
+mn:
+- Mongolia
+- ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ
+- Монгол Улс
+- Mongolei
+- Mongolischer Staat
+- MNG
+mp:
+- <Commonwealth of the> Northern Mariana Islands
+- <Sankattan Siha Na> Islas Mariånas
+- <Commonwealth Téél Falúw kka Efáng> llól Marianas
+- Commonwealth der Nördlichen Marianen
+- Nördliche Marianen
+mq:
+- Martinique
+- Matinik
+- Matnik
+ms:
+- Montserrat
+mt:
+- <Republic of> Malta
+- Repubblika ta’ Malta
+- <Repubblica di> Malta
+- <Republik> Malta
+- M
+- GBY
+mu:
+- <Republic of> Mauritius
+- मारीशस गणराज्य
+- <République> de Maurice
+- <Repiblik> Moris
+- <Republik> Mauritius
+mv:
+- <Republic of> Maldives
+- ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ
+- <Republik> Malediven
+mw:
+- <Republic of> Malawi
+- <Dziko la> Malaŵi
+- <Charu cha> Malaŵi
+- <Republik> Malawi
+mx:
+- Mexico
+- United Mexican States
+- México
+- Estados Unidos Mexicanos
+- Mexiko
+- Vereinigte Mexikanische Staaten
+- MEX
+my:
+- Malaysia
+- مليسيا
+- MAL
+mz:
+- <Republic of> Mozambique
+- <República de> Moçambique
+- Mozambiki
+- Msumbiji
+- Muzambhiki
+- <Republik> Mosambik
+- MOC
+na:
+- <Republic of> Namibia
+- <Republiek van> Namibië
+- <Republik> Namibia
+- Namibiab Republiki dib
+- Orepublika yaNamibia
+- Republika zaNamibia
+- <Rephaboliki ya> Namibia
+- Namibia <ye Lukuluhile>
+- NAM
+- SWA
+nc:
+- New Caledonia
+- Nouvelle-Calédonie
+- Neukaledonien
+- NCL
+ne:
+- <Republic of the> Niger
+- <République du> Niger
+- <Jamhuriyar> Nijar
+- <Republik> Niger
+- RN
+nf:
+- <Territory of> Norfolk Island
+- <Teratri a’> Norf’k Ailen
+- Norfuk Ailen
+- Norfolkinsel
+ng:
+- <Federal Republic of> Nigeria
+- <Jamhuriyar Tarayyar> Najeriya
+- <Ọ̀hàńjíkọ̀ Ọ̀hànézè> Naìjíríyà
+- <Orílẹ̀-èdè Olómìniira Àpapọ̀> Nàìjíríà
+- <Bundesrepublik> Nigeria
+- NGR
+- WAN
+ni:
+- <Republic of> Nicaragua
+- <República de> Nicaragua
+- <Republik> Nicaragua
+- NIC
+nl:
+- <Kingdom of the> Netherlands
+- Nederland
+- Koninkrijk der Nederlanden
+- Keninkryk fan de Nederlannen
+- Niederlande
+- Königreich der Niederlande
+"no":
+- <Kingdom of> Norway
+- <Kongeriket> Norge
+- <Kongeriket> Noreg
+- Norga
+- Norgga gonagasriika
+- Vuodna
+- Vuona gånågisrijkka
+- Nöörje
+- Nöörjen gånkarïjhke
+- Norja
+- Norjan kuninkhaanvaltakunta
+- <Königreich> Norwegen
+- N
+np:
+- <Federal Democratic Republic of> Nepal
+- नेपाल
+- सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल
+- <Demokratische Bundesrepublik> Nepal
+- NEP
+nz:
+- New Zealand
+- Aotearoa
+- Neuseeland
+om:
+- <Sultanate of> Oman
+- عمان
+- سلطنة عمان
+- <Sultanat> Oman
+pa:
+- <Republic of> Panama
+- <República de> Panamá
+- <Republik> Panama
+pe:
+- <Republic of> Peru
+- <República del> Perú
+- Piruw <Ripuwlika>
+- Piruwxa Ripuwlika
+- Piruw <Suyu>
+- <Republik> Peru
+pf:
+- French Polynesia
+- Polynésie française
+- Pōrīnetia Farāni
+- Französisch-Polynesien
+pg:
+- <Independent State of> Papua New Guinea
+- <Independen Stet bilong> Papua Niugini
+- <Independen Stet bilong> Papua Niu Gini
+- <Unabhängiger Staat> Papua-Neuguinea
+- PNG
+ph:
+- <Republic of the> Philippines
+- <Republika ng> Pilipinas
+- <Republik der> Philippinen
+- RP
+pk:
+- <Islamic Republic of> Pakistan
+- پاکِستان
+- اِسلامی جمہوریہ پاكِستان
+- <Islamische Republik> Pakistan
+pl:
+- <Republic of> Poland
+- Polska
+- Rzeczpospolita Polska
+- Polen
+pm:
+- Saint Pierre and Miquelon
+- <Territorial Collectivity of> Saint-Pierre and Miquelon
+- <Collectivité territoriale de> Saint-Pierre et Miquelon
+- <Collectivité d’outre-mer de> Saint-Pierre-et-Miquelon
+- Saint-Pierre und Miquelon
+- Saint-Pierre
+- Miquelon
+pn:
+- Pitcairn<, Henderson, Ducie and Oeno> Islands
+- Pitcairn
+- Henderson
+- Ducie
+- Oeno
+- Pitkern Ailen
+- Pitcairninseln
+pr:
+- <Commonwealth of> Puerto Rico
+- <Estado Libre Asociado de> Puerto Rico
+- <Freistaat> Puerto Rico
+- PRI
+ps:
+- <State of> Palestine
+- the State of Palestine
+- Palestine, State of
+- فلسطين
+- دولة فلسطين
+- <Staat> Palästina
+- WB
+pt:
+- Portugal
+- Portuguese Republic
+- República Portuguesa
+- Portugiesische Republik
+- P
+pw:
+- <Republic of> Palau
+- <Beluu er a> Palau
+- <Republik> Palau
+- PAL
+py:
+- <Republic of> Paraguay
+- <República del> Paraguay
+- <Tavakuairetã> Paraguái
+- <Tetã> Paraguái
+- <Republik> Paraguay
+re:
+- <La> Réunion
+- <La> Rényon
+ro:
+- Romania
+- România
+- Rumänien
+- R
+rs:
+- <Republic of> Serbia
+- <Република> Србија
+- <Republika> Srbija
+- <Republik> Serbien
+- SRB
+ru:
+- Russia
+- Russian Federation
+- Россия
+- Российская Федерация
+- Russland
+- Russische Föderation
+- RUS
+sa:
+- <Kingdom of> Saudi Arabia
+- KSA
+- العربية السعودية
+- المملكة العربية السعودية
+- <Königreich> Saudi-Arabien
+- KSA
+sd:
+- <Republic of the> Sudan
+- السودان
+- جمهورية السودان
+- <Republik> Sudan
+- SUD
+se:
+- <Kingdom of> Sweden
+- <Konungariket> Sverige
+- <Königreich> Schweden
+- S
+sg:
+- <Republic of> Singapore
+- <Republik> Singapura
+- 新加坡
+- 新加坡共和国
+- சிங்கப்பூர் குடியரசு
+- <Republik> Singapur
+- SGP
+sh:
+- Saint Helena, Ascension and Tristan da Cunha
+- Saint Helena <and Dependencies>
+- Ascension
+- Tristan da Cunha
+- St. Helena, Ascension und Tristan da Cunha
+- St. Helena <und Nebengebiete>
+si:
+- <Republic of> Slovenia
+- <Republika> Slovenija
+- <Republika> Slovenija
+- <Republik> Slowenien
+- SLO
+sj:
+- Svalbard and Jan Mayen
+- Svalbard
+- Jan Mayen
+- Svalbard og Jan Mayen
+- Svalbard und Jan Mayen
+- Spitzbergen
+sk:
+- Slovakia
+- Slovak Republic
+- Slovensko
+- Slovenská republika
+- Slowakei
+- Slowakische Republik
+sm:
+- <Republic of> San Marino
+- <Repubblica di> San Marino
+- <Ripóbblica d’> San Marein
+- <Most Serene Republic of> San Marino
+- <Serenissima Repubblica di> San Marino
+- <Republik> San Marino
+- RSM
+sn:
+- <Republic of> Senegal
+- <République du> Sénégal
+- <Republik> Senegal
+so:
+- <Federal Republic of> Somalia
+- <Jamhuuriyadda Federaalka> Soomaaliya
+- الصومال
+- جمهورية الصومال الفيدرالية
+- <Bundesrepublik> Somalia
+sv:
+- <Republic of> El Salvador
+- <República de> El Salvador
+- <Republik> El Salvador
+sz:
+- <Kingdom of> Eswatini
+- Umbuso weSwatini
+- <Königreich> Eswatini
+tc:
+- Turks and Caicos Islands
+- TCI
+- Turks Islands
+- Caicos Islands
+- Turks- und Caicosinseln
+- Turks & Caicos
+th:
+- <Kingdom of> Thailand
+- เมืองไทย
+- ราชอาณาจักรไทย
+- Ratcha-anachak Thai
+- <Königreich> Thailand
+- T
+tj:
+- <Republic of> Tajikistan
+- <Ҷумҳурии> Тоҷикистон
+- <Jumhurii> Tojikiston
+- <Республика> Таджикистан
+- <Republik> Tadschikistan
+tm:
+- Turkmenistan
+- Türkmenistan <Respublikasy>
+- <Republik> Turkmenistan
+- Turkmenien
+tr:
+- Turkey
+- <Republic of> Türkiye
+- Türkiye Cumhuriyeti
+- T.C.
+- <Republik> Türkei
+tt:
+- <Republic of> Trinidad and Tobago
+- Trinidad
+- Tobago
+- <Republik> Trinidad und Tobago
+tn:
+- <Republic of> Tunisia
+- تونس
+- الجمهورية التونسية
+- Tunesische Republik
+- Tunesien
+tw:
+- Taiwan
+- Republic of China
+- Chinese Taipei
+- ROC
+- 中華民國
+- 中華臺北 / 中华台北
+- 中華臺北
+- 中华台北
+- 臺灣
+- 台灣
+- Zhōnghuá Mínguó
+- Zhōnghuá Táiběi
+- Republik China
+- Republik China auf Taiwan
+- Chinesisch<es> Taipeh
+- RC
+# disputed name,
+#  but appears so in the /usr/share/iso-codes/json/iso_3166-1.json file
+- Taiwan, Province of China
+tz:
+- <United Republic of> Tanzania
+- Tanzania, United Republic of
+- <Jamhuri ya Muungano wa> Tanzania
+- <Vereinigte Republik> Tansania
+- EAT
+ua:
+- Ukraine
+- Україна
+- Ukraïna
+- Ukrajina
+- Ukraine
+um:
+- United States Minor Outlying Islands
+us:
+- United States <of America>
+- USA
+- Vereinigte Staaten <von Amerika>
+uy:
+- <Eastern Republic of> Uruguay
+- <Oriental Republic of> Uruguay
+- <República Oriental del> Uruguay
+- <Republik Östlich des> Uruguay
+- ROU
+- U
+uz:
+- <Republic of> Uzbekistan
+- O’zbekiston <Respublikasi>
+- Ўзбекистон <Республикаси>
+- Узбекистан
+- <Republik> Usbekistan
+va:
+- Vatican City <State>
+- Holy See (Vatican City State)
+- <Stato della> Città del Vaticano
+- Civitas Vaticana
+- Status Civitatis Vaticanae
+- Status Civitatis Vaticanæ
+- <Staat> Vatikanstadt
+- <Staat der> Vatikanstadt
+- Vatikanstaat
+- V
+vc:
+- Saint Vincent and the Grenadines
+- St. Vincent und die Grenadinen
+- WV
+ve:
+- <Bolivarian Republic of> Venezuela
+- Venezuela, Bolivarian Republic of
+- <República Bolivariana de> Venezuela
+- <Bolivarische Republik> Venezuela
+- YV
+vg:
+- British Virgin Islands
+- Virgin Islands
+- Virgin Islands, British
+- BVI
+- Britische Jungferninseln
+vi:
+- United States Virgin Islands
+- Virgin Islands of the United States
+- Virgin Islands, U.S.
+- USVI
+- Amerikanische Jungferninseln
+vn:
+- <Socialist Republic of> Vietnam
+- <Socialist Republic of> Viet Nam
+- SRV
+- <Cộng hòa Xã hội chủ nghĩa> Việt Nam
+- <Sozialistische Republik> Vietnam
+wf:
+- <Territory of the> Wallis and Futuna <Islands>
+- <Territoire des> îles Wallis-et-Futuna
+- Wallis-et-Futuna
+- Wallis
+- Futuna
+- Uvea
+- ʻUvea mo Futuna
+- <Territorium der Inseln> Wallis und Futuna
+- Uvea und Futuna
+ws:
+- <Independent State of> Samoa
+- Western Samoa
+- <Malo Saʻoloto Tutoʻatasi o> Sāmoa
+- Samoa i Sisifo
+- <Unabhängiger Staat> Samoa
+- Westsamoa
+xk:
+- <Republic of> Kosovo
+- Kosova
+- Kosovë
+- Republika e Kosovës
+- <Република> Косово
+- <Republik> Kosovo
+- RKS
+yt:
+- <Department of> Mayotte
+- <Département de> Mayotte
+- Maore
+- Maori
+za:
+- <Republic of> South Africa
+- RSA
+- iRiphabhuliki yaseNingizimu Afrika
+- iRiphabhlikhi yoMzantsi Afrika
+- Riphabliki yaseMzantsi Afrika
+- <Republiek van> Suid-Afrika
+- <Repabliki ya> Afrika-Borwa
+- <Rephaboliki ya> Afrika Borwa
+- <Rephaboliki ya> Aforika Borwa
+- <Riphabliki ya> Afrika Dzonga
+- <Riphabliki ra> Afrika Dzonga
+- iRiphabhulikhi yaseNingizimu-Afrika
+- <Riphabuḽiki ya> Afurika Tshipembe
+- iRiphabliki yeSewula Afrika
+- <Republik> Südafrika
+zm:
+- <Republic of> Zambia
+- <Republik> Sambia
+- Z
