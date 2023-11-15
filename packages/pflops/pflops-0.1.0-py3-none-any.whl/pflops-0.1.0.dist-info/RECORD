@@ -1,0 +1,11 @@
+pflops/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pflops/common.py,sha256=TSjdid0VABS6rC7r-7lLT2_GcqlApIt3m1vF_wks6Gk,86
+pflops/config.py,sha256=jO85PvkiLCOIWydLCFDmwqhPTRNAaC0iSA5E126DH_k,47
+pflops/dataset.py,sha256=zpsnKmFK76sGrsa_ShWf845qO9D1byqQnd5whRuziBA,1907
+pflops/image.py,sha256=lEt0KhlmEN0LG79zZws4vzERS0xPq5A2ZnXnzGOaPSI,696
+pflops/job.py,sha256=S9CVNMCdzduFzfbmmpw3Ah310ccEc3k5TKOOZDjnyhA,1108
+pflops/main.py,sha256=61zcu_IaJEih9YhoSxG63PQtmKXpbsa0U9W5IBr9GOs,213
+pflops-0.1.0.dist-info/entry_points.txt,sha256=yEc557TR6OzK4x0eNq1xcrrKw1mKosSy8CD9TJBsFU8,42
+pflops-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pflops-0.1.0.dist-info/METADATA,sha256=mGlV_Va5ioRUaqf9y7tieUY4xQ1z5Y_JZOyIg-aajkY,484
+pflops-0.1.0.dist-info/RECORD,,

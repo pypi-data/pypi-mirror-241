@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pflops
+Version: 0.1.0
+Summary: 
+Author: Gunwoo Kim
+Author-email: gunwoo@petaflops.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: requests-toolbelt (>=1.0.0,<2.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Petaflops CLI
+
