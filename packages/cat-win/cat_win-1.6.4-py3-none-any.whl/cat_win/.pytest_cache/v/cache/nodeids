@@ -1,0 +1,23 @@
+[
+  "tests/test_argparser.py::TestArgParser::test_check_unknown_args",
+  "tests/test_argparser.py::TestArgParser::test_delete_queried",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_concatenated",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_concatenated_invalid",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_concatenated_unknown",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_cut",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_dir",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_duplicate",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_echo_args",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_echo_args_recursive",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_empty",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_encoding",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_files_equal_dir",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_find",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_match",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_replace",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_trunc",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_unknown_args",
+  "tests/test_argparser.py::TestArgParser::test_get_arguments_unknown_file",
+  "tests/test_argparser.py::TestArgParser::test_known_directories",
+  "tests/test_argparser.py::TestArgParser::test_levenshtein"
+]
