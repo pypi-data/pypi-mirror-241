@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pysymbolscanner
+Version: 1.13.2
+Summary: wiki stock information crawler
+License: MIT
+Author: SlashGordon
+Author-email: slash.gordon.dev@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: Unidecode (==1.3.6)
+Requires-Dist: pandas (==1.5.1)
+Requires-Dist: pycountry (==22.3.5)
+Requires-Dist: pytickersymbols (>=1.13.0,<2.0.0)
+Requires-Dist: toolz (>=0.12.0,<0.13.0)
+Requires-Dist: uplink (==0.9.7)
+Requires-Dist: wikipedia (==1.4.0)
+Requires-Dist: wptools (==0.4.17)
+Description-Content-Type: text/markdown
+
+![Release Build](https://github.com/portfolioplus/pysymbolscanner/workflows/Release%20Build/badge.svg)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pysymbolscanner?style=plastic)
+[![Coverage Status](https://coveralls.io/repos/github/portfolioplus/pysymbolscanner/badge.svg?branch=master)](https://coveralls.io/github/portfolioplus/pysymbolscanner?branch=master)
+[![CodeFactor](https://www.codefactor.io/repository/github/portfolioplus/pysymbolscanner/badge)](https://www.codefactor.io/repository/github/portfolioplus/pysymbolscanner)
+
+# install
+
+```shell
+pip install pysymbolscanner
+```
+
+# pysymbolscanner
+
+Stock symbol scanner for [pytickersymbols](https://github.com/portfolioplus/pytickersymbols).
+The tool scans several wikipedia pages to create an update via PR.
+
+# basic usage
+
+Starts symbol scanner without cache:
+```shell
+pysymbolscanner --input stocks.yaml --output stocks2.yaml
+```
+
+Starts symbol scanner with cache (skips time-consuming wiki scans if they have already been done):
+```shell
+pysymbolscanner --cache --input stocks.yaml --output stocks2.yaml
+```
+
+
+# install pycurl on macos
+
+When you got the error message `src/pycurl.h: fatal error: 'openssl/ssl.h' file not found` you can try:
+
+```shell
+pip uninstall pycurl
+
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+pip install --compile --install-option="--with-openssl" pycurl
+```
