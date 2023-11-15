@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+aiohttp_socks/__init__.py
+aiohttp_socks/_deprecated.py
+aiohttp_socks/connector.py
+aiohttp_socks/utils.py
+aiohttp_socksx.egg-info/PKG-INFO
+aiohttp_socksx.egg-info/SOURCES.txt
+aiohttp_socksx.egg-info/dependency_links.txt
+aiohttp_socksx.egg-info/requires.txt
+aiohttp_socksx.egg-info/top_level.txt
+tests/test_connector.py
