@@ -1,0 +1,7 @@
+/venv/
+/dist/
+/.idea/
+/tests/real_adf_test.robot
+/log/log.html
+/log/output.xml
+/log/report.html
