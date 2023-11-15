@@ -1,0 +1,2 @@
+# Wrap to buildenv script
+if test -f /git-bash.exe; then {{ windowsPython }} buildenv-loader.py; else {{ linuxPython }} buildenv-loader.py; fi
