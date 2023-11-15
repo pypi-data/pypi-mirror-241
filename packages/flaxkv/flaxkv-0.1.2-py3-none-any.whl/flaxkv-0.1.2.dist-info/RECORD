@@ -1,0 +1,12 @@
+flaxkv/__init__.py,sha256=o76lvYJPM0cZMAcdboZHhVKh-cYIbSgxjMVrmzAcgl4,450
+flaxkv/_sqlite.py,sha256=V90Bh4n2ofXbJ16cR2lb6DqhFscyQ5vBYQaOOd_B100,4084
+flaxkv/base.py,sha256=rW6Nsf-XfuUOf2L6S_jzXPr1PA2LWLb4BB7BF6RN9Xo,22219
+flaxkv/decorators.py,sha256=aXr3jC4DTyg_JaHkJpKlHEP2lBndX6yrCZIZlOvk-jE,1243
+flaxkv/helper.py,sha256=T8Cy7mXlZnGQKDbEK4Vz85AJxu4pxkXHLw2pGH1wetM,525
+flaxkv/log.py,sha256=fapqElRgX6SqFPnaPODjIYojcuQhpq2U9jsv55QrYgU,1487
+flaxkv/manager.py,sha256=P6BCl_iHJR7t2IIeuES8673xl7IzYvLpLUbJrYabPGE,4800
+flaxkv/pack.py,sha256=_BiC0r0l8SDdUiYvSIqZSvzqvJ25ifCBaxY07ZRe6OU,1282
+flaxkv-0.1.2.dist-info/METADATA,sha256=B3oewwWG3kERMcxjpT4OsVBEAYPOF3cJmp_2dco7tOw,5857
+flaxkv-0.1.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+flaxkv-0.1.2.dist-info/licenses/LICENSE,sha256=F66yOvehkjHOBZ36suHeAElcPYcMIk5WwNYuUwP9BrU,11355
+flaxkv-0.1.2.dist-info/RECORD,,
