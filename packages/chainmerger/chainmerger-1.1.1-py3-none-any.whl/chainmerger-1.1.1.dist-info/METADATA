@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: chainmerger
+Version: 1.1.1
+Summary: Merge chainalysis csv files into one report file.
+Home-page: https://github.com/bitdruid/chainmerger
+Author: bitdruid
+Author-email: bitdruid@outlook.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl ==3.1.2
+Requires-Dist: pandas ==2.1.3
+Requires-Dist: tldextract ==5.1.0
+Requires-Dist: XlsxWriter ==3.1.9
+
+
+[![PyPI - Version](https://img.shields.io/pypi/v/chainmerger.svg)](https://pypi.org/project/chainmerger/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# chainmerger
+merge chainalysis's exported transaction csv files into one xlsx file with separate sheets per exchange
+
+# installation
+```
+pip install chainmerger
+```
+
+# usage
+```
+chainmerger -i <input directory> -o <output directory>
+```
+
+### default directories
+
+If input dir is not specified:
+```
+~/chainmerger_Input
+```
+If no output dir is specified:
+```
+~/chainmerger_Input/chainmerger_Output
+```
+Else:
+```
+<input dir> / <output dir>
+```
+
+# example
+![example](/example.png)
