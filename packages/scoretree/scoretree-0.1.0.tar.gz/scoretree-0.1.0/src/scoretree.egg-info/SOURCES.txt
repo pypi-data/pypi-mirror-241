@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/scoretree/__init__.py
+src/scoretree.egg-info/PKG-INFO
+src/scoretree.egg-info/SOURCES.txt
+src/scoretree.egg-info/dependency_links.txt
+src/scoretree.egg-info/top_level.txt
+src/scoretree/core/__init__.py
+src/scoretree/core/formatter.py
+src/scoretree/core/scores.py
+src/scoretree/core/tree.py
+src/scoretree/tests/__init__.py
