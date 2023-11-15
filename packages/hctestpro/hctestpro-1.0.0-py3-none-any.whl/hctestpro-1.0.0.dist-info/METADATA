@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hctestpro
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: selenium
+Requires-Dist: pyautogui
+Requires-Dist: opencv-python
+Requires-Dist: pytesseract
+Requires-Dist: allure-pytest
+
+UNKNOWN
+
