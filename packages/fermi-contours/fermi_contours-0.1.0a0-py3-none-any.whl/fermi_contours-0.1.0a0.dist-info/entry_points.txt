@@ -1,0 +1,3 @@
+[console_scripts]
+fermi-contours=fermi_contours.__main__:main
+
