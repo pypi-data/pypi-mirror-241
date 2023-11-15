@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: equoai-node
+Version: 1.0.0
+Summary: Quickly improve and scale the quality of your LLM applications with the EquoAI Clientside API!
+Download-URL: https://github.com/DavidHostler/equoai_node-v2
+Author: David Hostler
+Requires-Dist: requests
+Requires-Dist: tiktoken
+
