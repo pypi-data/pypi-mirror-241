@@ -1,0 +1,10 @@
+pyterrier_caching/__init__.py,sha256=HEo8LU5VU1TPnjCn-cvi_rEHViOtfCQJa2lrvZGDpF8,299
+pyterrier_caching/builder.py,sha256=1YoqZoPae9Yc3KU_j7Z7CFz--2hazA-h2ZC2sL0y9Hg,1728
+pyterrier_caching/indexer_cache.py,sha256=inQhW3eUvjexALoDWxNzmXK-bAestXAI0w_pGs1TPcQ,4876
+pyterrier_caching/scorer_cache.py,sha256=asgMzRUeuSDdlLQd35kEBMBIT90oPIdqa5BigMOs-1k,4537
+pyterrier_caching/util.py,sha256=zHfBz_4oVxweLg4UQxgA6v6gD8iGjaapF1q8Ts_hkIs,955
+pyterrier_caching-0.0.1.dist-info/LICENSE,sha256=i3-VdotkIz_bRQpmGuqdKoRzPiudc32-LNd3ZvFKkbI,1071
+pyterrier_caching-0.0.1.dist-info/METADATA,sha256=md66eEd7KHOJ9eR9vaAs7sSeuXbwEfkOGM8uogFAkBY,6346
+pyterrier_caching-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyterrier_caching-0.0.1.dist-info/top_level.txt,sha256=3l_x5b2hHZdK6T1EijS7gzTkmTxiJY5VN-WcxnegeLs,18
+pyterrier_caching-0.0.1.dist-info/RECORD,,
