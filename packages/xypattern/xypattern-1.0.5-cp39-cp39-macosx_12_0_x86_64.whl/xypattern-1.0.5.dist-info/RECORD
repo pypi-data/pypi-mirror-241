@@ -1,0 +1,15 @@
+xypattern/__init__.py,sha256=hAQgOCNnAZoPIQmy0gVXleF6mNxXVhiI4paTvHrHOGA,52
+xypattern/auto_background.py,sha256=J54DdLcBx4-nZgcoUxNgDvWd0xRjN88WG973sSQEx60,1875
+xypattern/combine.py,sha256=5BBXXPFfFNbHAACKbF68FPf_6V_1y_cOGKAA_jILpPs,2761
+xypattern/pattern.py,sha256=vZg5J6wEZcUzCxpr_0dyu6qICiK3ABBU8jID9qCVrQc,19396
+xypattern/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xypattern/scripts/stitch_patterns.py,sha256=Hej6fKYwRtQKJtBOJSrh-vrQiC0j5moXysiWITuq0Es,1228
+xypattern/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xypattern/util/signal.py,sha256=mTh5Ms-_tkVzhLc4F8HVeOkILC4ty8tv2rE8JS3hWAw,4339
+xypattern/util/smooth_bruckner.pyx,sha256=QxzLECscDxg97iOyM8LtTYIMeEey4dELI_hZYVaIx-s,1481
+xypattern/util/smooth_bruckner_py.py,sha256=z6Me6QN5CZtBUOiKSnd6m12Bq6hokLaSoimL8zYsBOA,1344
+xypattern-1.0.5.dist-info/LICENSE.txt,sha256=MIrrUf9fq2cnikNlem6IeViO28E0_QHFztzLId0PISQ,1073
+xypattern-1.0.5.dist-info/METADATA,sha256=LVcXL-5bCtHOEF8CwyTKM2XryDAuqDUfvWjRv8hxBiQ,2332
+xypattern-1.0.5.dist-info/WHEEL,sha256=g1D8IkSCTXcl5DI7nvZVzQ4VL5J7233D5iI_gJ58_kc,105
+xypattern-1.0.5.dist-info/entry_points.txt,sha256=bPrcUAQAlneVYnY-YzaUBA3665ruBs2GEi1e9KLCETo,74
+xypattern-1.0.5.dist-info/RECORD,,
