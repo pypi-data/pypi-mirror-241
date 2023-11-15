@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+criteria_local.egg-info/PKG-INFO
+criteria_local.egg-info/SOURCES.txt
+criteria_local.egg-info/dependency_links.txt
+criteria_local.egg-info/top_level.txt
+src/__init__.py
+src/criteria.py
+tests/test_criteria.py
