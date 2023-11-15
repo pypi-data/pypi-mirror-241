@@ -1,0 +1,13 @@
+nano_keras/__init__.py,sha256=ec-eJPPC0WXUlPISlKMp6bWDaoS8LBKtwCnKPskIB74,191
+nano_keras/activations.py,sha256=K_8I-G2aOvP8gjhvMcOeUKmx1gbj-sHRBvk6Buygu-Y,6288
+nano_keras/callbacks.py,sha256=JTFzntioyl-x15ScVaG4izA2uXihyH6rqnbxBOnvdI0,2766
+nano_keras/layers.py,sha256=Jj882XFZNi8MxBTbvAlSV3OCIY9DPev6_2Esx3Dtdx0,35448
+nano_keras/losses.py,sha256=1r8rvSeviVHfyFi98Ngup0A0_Z8fYPrV1aBZEB3T9oQ,8135
+nano_keras/models.py,sha256=wS8EJHwx7dUBmnuxP7RLBGwM_RwtosmUt1zzxZez9p8,18365
+nano_keras/optimizers.py,sha256=ToEPzdLHeEw8eY0NkTm6G-TdM3GFtAWrDGUwafmb5wg,18438
+nano_keras/regulizers.py,sha256=ht2Em1rE6dE4IdiCgem2f030SDDCb9fkSr9-Avzt-5Y,3099
+nano_keras-0.9.1.dist-info/LICENSE,sha256=e7Pwod3PezwNm2C9zPhK6ZPad4WQJqWzHqSNaxmJayA,1071
+nano_keras-0.9.1.dist-info/METADATA,sha256=mHPrgjBMZKfFdo_HKjem0TEFe2z-AhZdj8CkF1llffQ,1908
+nano_keras-0.9.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nano_keras-0.9.1.dist-info/top_level.txt,sha256=OqZlcZoUrcC_fYb3BRwOLOevIYYn-VPtFppIa6ZwR-s,11
+nano_keras-0.9.1.dist-info/RECORD,,
