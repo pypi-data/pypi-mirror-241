@@ -1,0 +1,25 @@
+[build-system]
+requires = [
+    "setuptools>=40.8.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.spec$|\.pyi?$'
+extend_exclude = '.*venv.*|_vendor|__pycache__'
+
+[tool.isort]
+# Make compatible with Black
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+# Other options
+order_by_type = true
+lines_after_imports = 2
+skip_glob = ['*/_vendor/*', '*venv*/*']

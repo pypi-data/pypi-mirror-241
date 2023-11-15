@@ -1,0 +1,10 @@
+attrs
+PyQt5
+requests
+typing-extensions
+zig-minesolver<0.2,>=0.1.1
+
+[bot]
+pytz
+requests-toolbelt
+tabulate
