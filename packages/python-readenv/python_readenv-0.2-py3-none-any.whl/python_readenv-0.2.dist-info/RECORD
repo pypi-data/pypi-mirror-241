@@ -1,0 +1,14 @@
+readenv/__init__.py,sha256=Tv8Y8pQgHsyaf6ZAcJE7YoSVqt88qx9LlyHuaL0ISH4,1793
+readenv/converters.py,sha256=1C4KwqUr9BaJYZEX3Psx-48lf71VVsafMcrPg7GITA8,3486
+readenv/env.py,sha256=fYTSZnFtzVPolvwp_Bk8U1GRLATnNnGAo1oB7fTZqIA,2032
+readenv/loads.py,sha256=xeZOjlpHi7HQCn7X3y3aVgGfnsXpz7VByByJ3W8mgGc,1155
+readenv/readenv.py,sha256=kSIMtEaxhcmmC9IahSVa6GYjHGX0gpJt-bxwVDE00-g,3355
+readenv/typing38.py,sha256=__lJZDsgPmc5QWMTkZqC97QTF9hCTCXBkPf4qPRQfbQ,1228
+readenv/typing39.py,sha256=N5nz1hH7a5oSuRJ76NiZ5ewPLisEzyaOSF1IOviNRk8,1239
+readenv/version.py,sha256=qea0601b6Z5U9SaI00SXtj2BOHxT-F5eHp4EbuScvw8,1899
+python_readenv-0.2.dist-info/AUTHORS,sha256=KFm-HWSGWcEO_JZXRJ2jeGLG3nwAOxMO-SCBH3QCHXw,84
+python_readenv-0.2.dist-info/LICENSE,sha256=RB0a44jP4rhw8Irrovalr8xEOTBPJUSttvTAmhgUVLA,1085
+python_readenv-0.2.dist-info/METADATA,sha256=NgQthk2SBZSx90mZ8pBgjwSvdbyz-1QmR-eaX6JD55g,3143
+python_readenv-0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+python_readenv-0.2.dist-info/top_level.txt,sha256=sXD7DjVoJH561UnX5dHXkgLL7ydUQt4YB6uoocYiqKE,8
+python_readenv-0.2.dist-info/RECORD,,
