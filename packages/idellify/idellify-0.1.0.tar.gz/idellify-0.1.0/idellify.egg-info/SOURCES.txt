@@ -1,0 +1,7 @@
+README.md
+setup.py
+idellify.egg-info/PKG-INFO
+idellify.egg-info/SOURCES.txt
+idellify.egg-info/dependency_links.txt
+idellify.egg-info/entry_points.txt
+idellify.egg-info/top_level.txt
