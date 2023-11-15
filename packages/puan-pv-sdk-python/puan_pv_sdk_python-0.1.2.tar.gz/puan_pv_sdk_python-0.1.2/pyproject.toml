@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "puan-pv-sdk-python"
+version = "0.1.2"
+description = ""
+authors = ["Rikard Olsson <znittzel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
