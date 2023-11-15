@@ -1,0 +1,16 @@
+redis
+autologging
+
+[dev]
+setuptools
+wheel
+twine
+build
+
+[test]
+pytest
+fastapi
+locust
+python-dotenv
+gunicorn
+uvicorn
