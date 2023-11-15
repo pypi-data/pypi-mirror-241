@@ -1,0 +1,10 @@
+pydantic_db_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_db_backend/backend.py,sha256=8Bx0GUIZmP4oVx5GELE0x1Ry_Zh5H5zWSEw0MSX_674,7209
+pydantic_db_backend/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_db_backend/backends/couchdb.py,sha256=asJj14tN-nm_27NpWVsjN6xcYvvqzu26TfR3NXMywOg,8826
+pydantic_db_backend/backends/json_files.py,sha256=C9xXYgk1RjKv-OBhrZttomN--LBgb07yDHbcIEYTTpQ,100
+pydantic_db_backend/backends/mongodb.py,sha256=e7b2DzzWtUPQr5enTsvNEwKLFGTrBG_9xluQabiAhXo,7441
+pydantic_db_backend/utils.py,sha256=xTCClPqlOEqtRXcSb52ti53ZrhJzrkapyd76prFfLwQ,789
+pydantic_db_backend-2.2.1.dist-info/METADATA,sha256=G4N6Smeb-3_5XpXztrZwbtlPPoJ0a5lYBAXbrC3q0K0,903
+pydantic_db_backend-2.2.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pydantic_db_backend-2.2.1.dist-info/RECORD,,
