@@ -1,0 +1,3 @@
+AIPrompts>=0.5.5
+redb-odm>=1.3.4
+pydantic
