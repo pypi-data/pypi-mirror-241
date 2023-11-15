@@ -1,0 +1,5 @@
+toml>=0.10.2
+websockets>=11.0.3
+numpy>=1.25.0
+asyncio>=3.4.3
+rich>=13.4.2
