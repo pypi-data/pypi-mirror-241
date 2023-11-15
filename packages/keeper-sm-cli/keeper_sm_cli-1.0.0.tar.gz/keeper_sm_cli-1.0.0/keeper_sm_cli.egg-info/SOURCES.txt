@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+keeper_sm_cli.egg-info/PKG-INFO
+keeper_sm_cli.egg-info/SOURCES.txt
+keeper_sm_cli.egg-info/dependency_links.txt
+keeper_sm_cli.egg-info/not-zip-safe
+keeper_sm_cli.egg-info/top_level.txt
