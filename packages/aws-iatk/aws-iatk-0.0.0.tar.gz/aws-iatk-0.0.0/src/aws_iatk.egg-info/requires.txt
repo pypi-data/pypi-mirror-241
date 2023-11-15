@@ -1,0 +1,7 @@
+
+[test]
+pytest
+pytest-xdist
+boto3
+parameterized
+black
