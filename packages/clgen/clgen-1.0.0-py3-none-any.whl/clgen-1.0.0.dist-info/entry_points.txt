@@ -1,0 +1,2 @@
+[console_scripts]
+clgen = clgen.clgen:clgen

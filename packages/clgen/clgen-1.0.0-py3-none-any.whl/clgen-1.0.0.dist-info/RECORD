@@ -1,0 +1,8 @@
+clgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clgen/clgen.py,sha256=SYMrsFSrr693RdW5h6b5qYGkSzSeH_xW-6fGWClsFFA,887
+clgen/config.py,sha256=4-CVWjZkeVzPLJ8wQQsfpr97lTARi1NCMsrIHQW8c1c,7299
+clgen-1.0.0.dist-info/METADATA,sha256=_2hqsOzJKX_1e4rKyCAt4tDEsYCu1EN-IhGQizWV9hg,5521
+clgen-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+clgen-1.0.0.dist-info/entry_points.txt,sha256=87ad3Adm0icK2fNgD2h9Hd3OzkbRtR4a65PlDcknl2E,44
+clgen-1.0.0.dist-info/top_level.txt,sha256=5PEyuusnz-CzwPoD3W7yHNmciQ0T3jmdMPncP8zsuJM,6
+clgen-1.0.0.dist-info/RECORD,,
