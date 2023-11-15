@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="report_hr_attendance_template">
+        <t t-call="web.html_container">
+            <style>
+                .footer {
+                text-align: center;
+                background-color: #004085;
+                color: #ffffff;
+                padding: 10px;
+                font-size: 20px;
+                }
+                .header {
+                margin-bottom: 20px;
+                }
+                .header table {
+                border: 0;
+                }
+                .header td {
+                border: 0;
+                }
+                .date-header {
+                background-color: #cce5ff;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+                margin-top: 10px;
+                }
+                .total-row {
+                background-color: #e2e3e5;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+                }
+                .table {
+                width: 100%;
+                border-collapse: collapse;
+                }
+                td {
+                text-align: center;
+                padding: 10px;
+                border-bottom: 1px solid #e2e3e5;
+                }
+                th {
+                text-align: center;
+                padding: 10px;
+                background-color: black;
+                color: white;
+                font-size: 16px;
+                }
+                .icon-column {
+                text-align: center;
+                }
+                .numeric {
+                text-align: right;
+                }
+                .footer {
+                margin-top: 20px;
+                }
+                .footer-table {
+                width: 100%;
+                border-collapse: collapse;
+                background-color: black;
+                color: white;
+                }
+                .footer-cell {
+                padding: 10px;
+                border-bottom: 2px solid #e6e6e6;
+                text-align: right;
+                width: 25%;
+                }
+                .left-aligned-cell {
+                text-align: left;
+                }
+                .bold-cell {
+                font-weight: bold;
+                }
+                .footer-table thead td {
+                text-align: center;
+                }
+                .pie {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                margin-top: 20px;
+                }
+
+                .gray {
+                color: gray;
+                }
+            </style>
+            <t t-foreach="docs" t-as="o">
+                <t t-set="total_extra" t-value="0" />
+                <t t-set="total_extra_with_factor" t-value="0" />
+                <t t-set="total_worked_hours" t-value="0" />
+                <t t-set="custom_footer" t-value="true" />
+
+                <div class="header">
+                    <table style="width:100%; border-collapse: collapse; border: 0px solid white;">
+                        <tr>
+                            <td style="width:33%; text-align: left; vertical-align: top; padding: 5px;">
+                                <img t-att-src="'data:image/png;base64,%s' % o.company_id.logo" alt="Company Logo" style="max-width:80px; max-height:80px;" />
+                                <div t-esc="o.employee_id.company_id.name" />
+                            </td>
+                            <td style="width:34%; text-align: center; vertical-align: middle; font-size: 18px; font-weight: bold; padding: 5px;">
+                                Informe de Asistencias
+                            </td>
+                            <td style="width:33%; text-align: right; vertical-align: top; padding: 5px;">
+                                <!-- Este espacio se deja intencionadamente en blanco o puedes
+                                colocar otro elemento si lo necesitas -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center; vertical-align: top; padding: 5px;">
+                                <h2 t-esc="o.display_name" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Entrada</th>
+                            <th>Salida</th>
+                            <th class="icon-column">Tipo de jornada</th>
+                            <th class="numeric">Tiempo trabajado</th>
+                            <th class="numeric">Horas extras</th>
+                            <th class="numeric">Bolsa de horas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>hola</td>
+                        </tr>
+
+                        <t t-set="grouped_attendances" t-value="{}"/>
+                        <t t-foreach="o.attendance_ids" t-as="attendance">
+                            <tr>
+                                <td>
+                                    <t t-esc="attendance" />
+                                </td>
+                            </tr>
+                            <t t-set="attendance_date" t-value="attendance.check_in.strftime('%Y-%m-%d')"/>
+                            <tr>
+                                <td>
+                                    <t t-esc="attendance_date" />
+                                </td>
+                            </tr>
+                            <t t-if="attendance_date not in grouped_attendances">
+                                <t t-set="grouped_attendances[attendance_date]" t-value="[attendance]"/>
+                            </t>
+                            <t t-else="">
+                                <t t-set="temp" t-value="grouped_attendances[attendance_date]"/>
+                                <t t-set="temp" t-value="temp.append(attendance)"/>
+                            </t>
+                        </t>
+                        <t t-foreach="grouped_attendances.items()" t-as="group">
+                            <tr class="date-header">
+                                <td colspan="6">
+                                    <t t-esc="datetime.datetime.strptime(group[0],'%d-%m-%Y').strftime('%A %d')" />
+                                </td>
+                            </tr>
+                            <t t-foreach="group[1]" t-as="attendance">
+                                <tr>
+                                    <td class="gray">
+                                        <t t-esc="attendance.check_in" />
+                                    </td>
+                                    <td class="gray">
+                                        <t t-esc="attendance.check_out" />
+                                    </td>
+                                    <td class="gray">
+                                        <t t-esc="attendance.entry_type.name" />
+                                    </td>
+                                    <td class="numeric gray">
+                                        <t t-esc="attendance.worked_hours" t-options="{'widget': 'float_time'}" />
+                                    </td>
+                                    <td class="numeric gray">
+                                        <t t-esc="attendance.extra_time" t-options="{'widget': 'float_time'}" />
+                                    </td>
+                                    <td class="numeric gray">
+                                        <t t-esc="attendance.extra_time_with_factor" t-options="{'widget': 'float_time'}" />
+                                    </td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td colspan="3" t-attf-style="text-align:left;">Total para <t t-esc="datetime.datetime.strptime(day,'%d-%m-%Y').strftime('%A %d')" />
+                                    </td>
+                                    <td class="numeric">
+                                        <t t-esc="sum(attendance.worked_hours for attendance in group[1])" t-options="{'widget': 'float_time'}" />
+                                    </td>
+                                    <td class="numeric">
+                                        
+                                        <t t-esc="sum(attendance.extra_time for attendance in group[1])" t-options="{'widget': 'float_time'}" />
+                                    </td>
+                                    <td class="numeric">
+                                        <t t-esc="sum(attendance.extra_time_with_factor for attendance in group[1])" t-options="{'widget': 'float_time'}" />
+                                    </td>
+                                </tr>
+                            </t>
+                        </tbody>
+                    </t>
+
+                </table>
+
+                <div class="footer">
+                    <div style="background-color: black; color: white;position:absolute; bottom:10;width: 100%" class="last-page">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <thead>
+                                <tr>
+                                    <td colspan="4" style="text-align: center; padding: 10px; color:white">Total
+                                        mes <span t-esc="data['month_name']" /></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <th style="text-align: left; padding: 10px;">
+                                        Horas trabajadas:
+                                    </th>
+                                    <th style="text-align: right; padding: 10px;">
+                                        <span t-esc="'{0:,.2f}'.format(total_worked_hours).replace('.', ',')">
+                                            horas</span>
+                                    </th>
+                                    <th style="text-align: left; padding: 10px;">
+                                        Bolsa de horas:
+                                    </th>
+                                    <th style="text-align: center; padding: 10px; ">
+                                        <span t-esc="'{0:,.2f}'.format(total_extra_with_factor).replace('.', ',')">
+                                            horas</span>
+                                    </th>
+                                </tr>
+ -->
+                            </t>
+                        </tbody>
+
+                    </table>
+
+                </t>
+            </t>
+
+        </template>
+    </odoo>
