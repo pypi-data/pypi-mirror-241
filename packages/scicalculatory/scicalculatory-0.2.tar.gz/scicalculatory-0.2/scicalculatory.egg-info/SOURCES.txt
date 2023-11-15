@@ -1,0 +1,9 @@
+README.md
+setup.py
+scicalculator/__init__.py
+scicalculator/calculator.py
+scicalculatory.egg-info/PKG-INFO
+scicalculatory.egg-info/SOURCES.txt
+scicalculatory.egg-info/dependency_links.txt
+scicalculatory.egg-info/top_level.txt
+scientifique calculatrice/__init__.py
