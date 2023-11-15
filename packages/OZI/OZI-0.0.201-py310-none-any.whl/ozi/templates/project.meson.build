@@ -1,0 +1,97 @@
+{#- OZI 0.1
+# ozi/templates/project.meson.build
+# Part of the OZI Project, under the Apache License v2.0 with LLVM Exceptions.
+# See LICENSE.txt for license information.
+# SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+-#}
+project(
+    '{{ project.name }}',
+    default_options: ['warning_level=3'],
+    license: '{{ project.license_expression }}',
+    license_files: ['{{ project.license_file }}'],
+    meson_version: '>={{ ozi.meson_min_version }}',
+    version: run_command(
+        'python3',
+        [
+            '-c',
+            'from setuptools_scm import get_version;print(get_version(normalize=False))',
+        ],
+        check: true,
+    ).stdout().strip(),
+)
+vcs_tag(input: 'pyproject.toml', output: 'pyproject.toml')
+env = environment()
+source_root = meson.current_source_dir()
+build_root = meson.current_build_dir()
+fs = import('fs')
+pymod = import('python')
+project_name = meson.project_name()
+build_dir = fs.stem(build_root)
+source_to_build = configuration_data()
+docs_source = 'subprojects/docs'
+test_source = 'tests'
+pip_compile = find_program('pip-compile', required: true)
+custom_target(
+    'requirements-{{ project.name }},
+    input: 'requirements.in',
+    output: 'requirements.txt',
+    build_always_stale: true,
+    build_by_default: true,
+    command: ['pip-compile', '--allow-unsafe', '--strip-extras', '-q', '--generate-hashes', '-o', '@OUTPUT@', '@INPUT@']
+)
+dev = subproject('ozi')
+foreach var : get_option('variables')
+    name = var.replace('-', '_')
+    set_variable(name, dev.get_variable(name))
+endforeach
+scm_version = run_command(
+    python,
+    ['-c', scm_version_snip],
+    check: true,
+).stdout().strip()
+semantic_version = meson.project_version().split('.')
+maj_version = semantic_version.get(0)
+min_version = semantic_version.get(1)
+pat_version = semantic_version.get(2)
+configure_file(
+    input: 'pyproject.toml',
+    output: 'pyproject.toml',
+    configuration: configuration_data(
+        {
+            'PROJECT_NAME': project_name,
+            'MESON_DIST_FALLBACK_VERSION': '.'.join(
+                maj_version,
+                min_version,
+                pat_version,
+            ),
+        },
+    ),
+)
+root_files = [
+{%- for required_root_dist in ozi.required_root_dist %}
+{%- if required_root_dist not in ['pyproject.toml'] %}
+    '{{ required_root_dist }}',
+{%- endif %}
+{%- endfor %}
+{%- for filename in ozi.required_root_dist %}
+{%- if project.license_file not in ozi.required_root_dist %}
+    '{{ project.license_file }}',
+{%- endif %}
+{%- endfor %}
+]
+foreach source : root_files
+    fs.copyfile(source)
+endforeach
+if false
+    executable('root_files', root_files)
+endif
+root_children = [
+    project_name.underscorify(),
+    test_source,
+]
+foreach child: root_children
+    subdir(child)
+endforeach
+if false
+    executable('root_children', root_children)
+endif
