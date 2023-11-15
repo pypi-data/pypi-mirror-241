@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kibom
+Version: 1.9.1
+Summary: Bill of Materials generation tool for KiCad EDA
+Home-page: https://github.com/SchrodingersGat/KiBom
+Author: Oliver Walters
+Author-email: oliver.henry.walters@gmail.com
+License: MIT
+Keywords: kicad,bom,electronics,schematic,bill of materials
+Requires-Python: >=2.7
+License-File: LICENSE.md
+Requires-Dist: xlsxwriter
+
+KiBoM is a configurable BOM (Bill of Materials) generation tool for KiCad EDA. Written in Python, it can be used directly with KiCad software without the need for any external libraries or plugins. KiBoM intelligently groups components based on multiple factors, and can generate BoM files in multiple output formats. For futher information see the KiBom project page
