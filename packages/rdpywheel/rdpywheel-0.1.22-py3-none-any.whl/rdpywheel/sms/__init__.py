@@ -1,0 +1,1 @@
+from rdpywheel.sms.cn_virt_msg import CnVirtMsg
