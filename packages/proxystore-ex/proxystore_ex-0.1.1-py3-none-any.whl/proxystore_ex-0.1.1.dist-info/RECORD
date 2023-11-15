@@ -1,0 +1,16 @@
+proxystore_ex/__init__.py,sha256=fr3CnlBwYxUFJaTTAMI1zhu4yI8qK2gAcOODcC_y-7g,191
+proxystore_ex/py.typed,sha256=pjZ3eoQ8Dd_pUFc1LeRQwf07qFBz7wDueGr3aO8b8gg,56
+proxystore_ex/connectors/__init__.py,sha256=xfAZpns5ufEHQKa6u4T5wNsPulevAJ3PsW9Yt43sjl8,120
+proxystore_ex/connectors/daos.py,sha256=EBEx2nF3gWo1_bWWDGB3N2eG5fWspXrBVlcUXfLmARg,8254
+proxystore_ex/connectors/dim/__init__.py,sha256=p5mRn1bkj-psbCSK3kpkca32VTqGr3rdy-Im3yFJt7A,46
+proxystore_ex/connectors/dim/exceptions.py,sha256=C2Hw4Lc9nFyloCHTQBva5RoQqwSwAtqNIODqz1_XOzM,186
+proxystore_ex/connectors/dim/margo.py,sha256=7jpJEXMQqFrCsSSpTN1jXsSc3HoaQOVGclAH8BwoiZA,19451
+proxystore_ex/connectors/dim/models.py,sha256=iIn6lmg8T2euPL5yGR_7j1gdgdUVehfV_69UMrKB9pQ,1728
+proxystore_ex/connectors/dim/ucx.py,sha256=SdybFTc3sIQZdVEnrONNPcYEHo2GezJ-0U2cOd_cU_k,18569
+proxystore_ex/connectors/dim/utils.py,sha256=MPgH_-jKZdByfz7LxkbDh52zrxUBEF6Xye0gMGD0f04,698
+proxystore_ex/connectors/dim/zmq.py,sha256=tCdAlpYbTEWCNUvi5s5poPkdTx2sMW5T2bpadKb6txU,17495
+proxystore_ex-0.1.1.dist-info/LICENSE,sha256=p9WScNVbhzuVvm6Lq29qeAS8-h6rRBZtXcdSeYUjDwI,1063
+proxystore_ex-0.1.1.dist-info/METADATA,sha256=dsjcK0LO9aScCZnicYsTzFmuKWNeoKpu_8g_5ITedN4,2830
+proxystore_ex-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+proxystore_ex-0.1.1.dist-info/top_level.txt,sha256=iTwdvmBmSLB40JQ1H6VDCzm3b6Pfa1UPWfMy4ZFyCiQ,14
+proxystore_ex-0.1.1.dist-info/RECORD,,
