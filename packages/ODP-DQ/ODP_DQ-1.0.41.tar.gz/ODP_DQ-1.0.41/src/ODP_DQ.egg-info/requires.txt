@@ -1,0 +1,8 @@
+findspark
+langchain
+langchain_experimental
+openai==v0.28.1
+scikit-learn
+tabulate
+pyspark
+azure.storage.blob
