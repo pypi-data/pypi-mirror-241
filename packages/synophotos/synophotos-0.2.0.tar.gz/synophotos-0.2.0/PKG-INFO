@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: synophotos
+Version: 0.2.0
+Summary: Command Line Interface Client for Synology Photos
+Keywords: synology,photos,terminal,cli,command line
+Author-email: fortysix2ahead <fortysix2ahead@gmail.com>
+Maintainer-email: fortysix2ahead <fortysix2ahead@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: attrs ~= 23.1.0
+Requires-Dist: cattrs ~= 23.1.2
+Requires-Dist: click ~= 8.1.7
+Requires-Dist: fs ~= 2.4.16
+Requires-Dist: more-itertools ~= 10.1.0
+Requires-Dist: platformdirs ~= 4.0.0
+Requires-Dist: pyyaml ~= 6.0.1
+Requires-Dist: requests ~= 2.31.0
+Requires-Dist: rich ~= 13.6.0
+Requires-Dist: typing_extensions ~= 4.8.0
+Requires-Dist: bumpver~=2023.1129 ; extra == "dev"
+Requires-Dist: flit~=3.9.0 ; extra == "dev"
+Requires-Dist: mkdocs~=1.5.3 ; extra == "dev"
+Requires-Dist: mkdocs-click~=0.8.1 ; extra == "dev"
+Requires-Dist: mkdocs-material~=9.4.7 ; extra == "dev"
+Project-URL: Documentation, https://synophotos.readthedocs.io/
+Project-URL: Homepage, https://github.com/fortysix2ahead/synophotos/
+Project-URL: Issue Tracker, https://github.com/fortysix2ahead/synophotos/issues/
+Project-URL: Source, https://github.com/fortysix2ahead/synophotos/
+Project-URL: Source Code, https://github.com/fortysix2ahead/synophotos/
+Provides-Extra: dev
+
+
+# Synophotos - Synology Photos Command Line Interface
+
+[![Documentation Status](https://readthedocs.org/projects/synophotos/badge/?version=latest)](https://synophotos.readthedocs.io/en/latest/?badge=latest)
+
+Synophotos Command Line Interface (CLI) is an attempt to enable remote control of certain functions in Synology Photos from a terminal.
+
+## Features
+
+- connect to a Synology Photos instance and run various commands remotely 
+- list and count albums, folders and images
+- list users and groups
+- create albums and populate albums from existing items
+- share and unshare albums
+
+## Quickstart
+
+Use pip to create and activate a virtual environment and install synophotos:
+
+```bash
+> mkdir synophotos
+> pip -m venv synophotos
+> source synophotos/bin/activate
+> pip install synophotos
+```
+
+Initialize the application:
+
+```bash
+> synophotos init
+A sample configuration file has been created in "$USER_CONFIG/synophotos/"
+```
+
+Edit the file `config.yaml` found in `$USER_CONFIG/synophotos/` and insert your server URL and credentials.
+
+Run synophotos to check what albums you have:
+
+```bash
+> synophotos albums
+
+  id │ name          │ item_count │ owner_user_id │ shared
+╶────┼───────────────┼────────────┼───────────────┼────────╴
+  2  │ 'My Birthday' │ 31         │ 2             │ True
+  1  │ 'Private'     │ 10         │ 2             │ False
+```
+
+## Installation, Getting Started and Command Reference
+
+The complete documentation is hosted at readthedocs.io: [http://synophotos.readthedocs.io/](http://synophotos.readthedocs.io/).
+

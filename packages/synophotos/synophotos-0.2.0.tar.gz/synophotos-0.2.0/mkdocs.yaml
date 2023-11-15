@@ -1,0 +1,17 @@
+
+site_name: Documentation
+site_url: https://synophotos.readthedocs.io/
+repo_url: https://github.com/fortysix2ahead/synophotos/
+
+docs_dir: docs
+
+nav:
+    - Getting Started: 'index.md'
+    - Usage: 'usage.md'
+    - Command Reference: 'cli.md'
+    - Issues: https://github.com/fortysix2ahead/synophotos/issues
+
+theme: material
+
+markdown_extensions:
+    - mkdocs-click
