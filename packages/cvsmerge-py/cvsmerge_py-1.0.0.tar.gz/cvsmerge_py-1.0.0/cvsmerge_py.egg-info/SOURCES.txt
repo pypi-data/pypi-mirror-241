@@ -1,0 +1,7 @@
+setup.py
+cvsmergePack/__init__.py
+cvsmergePack/cvsmerge.py
+cvsmerge_py.egg-info/PKG-INFO
+cvsmerge_py.egg-info/SOURCES.txt
+cvsmerge_py.egg-info/dependency_links.txt
+cvsmerge_py.egg-info/top_level.txt
