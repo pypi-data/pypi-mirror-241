@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]  # 指定构建工具
+
+[project]
+name = "django-template-dashboard"
+version = "0.1.11"
+description = ""  # 项目描述，如果有的话
+readme = "README.md"  # 项目的 README 文件，如果有的话
+authors = [# 项目的作者信息，如果有的话
+    { name = "Author Name", email = "author@example.com" },
+]
+license = { file = "LICENSE" }  # 项目许可证文件，如果有的话
+dependencies = [
+    "Django>=3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/django-libraries/django-template-dashboard"  # 你的项目主页 URL
+Documentation = "https://github.com/django-libraries/django-template-dashboard"  # 文档链接
+IssueTracker = "https://github.com/django-libraries/django-template-dashboard/issues"  # 问题跟踪器链接
+Source = "https://github.com/django-libraries/django-template-dashboard"  # 源代码链接
+
+[classifiers]
+Framework = "Django"
+Programming_Language = "Python :: 3"
+License = "OSI Approved :: MIT License"
