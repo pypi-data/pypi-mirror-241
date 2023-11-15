@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkimjoy_jupyterlab_extension=self.webpackChunkimjoy_jupyterlab_extension||[]).push([[568],{568:(e,t,i)=>{i.r(t),i.d(t,{default:()=>n});const n={id:"imjoy-jupyterlab-extension:plugin",description:"Run ImJoy plugins in JupyterLab",autoStart:!0,activate:e=>{console.log("JupyterLab extension imjoy-jupyterlab-extension is activated!")}}}}]);
