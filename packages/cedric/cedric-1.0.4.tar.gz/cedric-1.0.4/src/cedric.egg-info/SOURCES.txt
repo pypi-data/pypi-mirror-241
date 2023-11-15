@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/cli.py
+src/authentication/models.py
+src/authentication/urls.py
+src/authentication/utils.py
+src/authentication/api/serializers.py
+src/authentication/api/views.py
+src/cedric.egg-info/PKG-INFO
+src/cedric.egg-info/SOURCES.txt
+src/cedric.egg-info/dependency_links.txt
+src/cedric.egg-info/entry_points.txt
+src/cedric.egg-info/requires.txt
+src/cedric.egg-info/top_level.txt
