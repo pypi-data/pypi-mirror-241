@@ -1,0 +1,9 @@
+uscpi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uscpi/client.py,sha256=_htrKYFqLbXeU3_9EwrIU8L9UuuLPtWrg4D3xV9wVPE,5226
+uscpi/instrument.py,sha256=QDVud1GmHV2ZHoTqnPTptNGITMTq_mVgtl2TxlTY8gw,5378
+uscpi/protocol.py,sha256=5PvJrYeLXu5ZGdecr2iLd7NUlyQWUuEWbacbFPsydQc,1344
+uscpi-0.2.0.dist-info/LICENSE,sha256=Pj_-dsf8G45lLJrLkl8x2rJE7C9ySFSagAluVXZtx7E,1502
+uscpi-0.2.0.dist-info/METADATA,sha256=KSJcRyV0KLpdPDMqUrNQixTiAOrQDMN_0FzDlXZSJa4,5072
+uscpi-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+uscpi-0.2.0.dist-info/top_level.txt,sha256=_gk70DR6OEbhNQ3JVqofMqIrpYnvG2A--fBft1hhE1g,6
+uscpi-0.2.0.dist-info/RECORD,,
