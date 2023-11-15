@@ -1,0 +1,11 @@
+wattrex_battery_cycler_cu_manager/__init__.py,sha256=FJhDK-b2KvHjEvenEV8s3ChxRxiuF5gn5lPyxiDFXoM,150
+wattrex_battery_cycler_cu_manager/__version__.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+wattrex_battery_cycler_cu_manager/cu_broker_client.py,sha256=dHieHzWTxxGJroTNt3hhSLS0vlVB7erqWuL-rGEmr8U,6165
+wattrex_battery_cycler_cu_manager/cu_manager.py,sha256=h3cmZQnjD1y15tXHR5irEbdpoLmIPwJcEyakB8vROvY,7098
+wattrex_battery_cycler_cu_manager/detect.py,sha256=wRkmUIz5hfmrzACxU-7xwCH1BeTWoSBtH0PDBXUm-28,1955
+wattrex_battery_cycler_cu_manager/register.py,sha256=aTh-BaYxZ1NMPF4jPzT539230lS-Zj9xmUcNNgyKBjs,2144
+wattrex_battery_cycler_cu_manager-0.0.1.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wattrex_battery_cycler_cu_manager-0.0.1.dist-info/METADATA,sha256=_FPHEoyFU2LVwTYz1-tr-XnlkRPCAWSQNly1RtK0ECQ,43107
+wattrex_battery_cycler_cu_manager-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wattrex_battery_cycler_cu_manager-0.0.1.dist-info/top_level.txt,sha256=R4pyO7o5U7xvyhpHrfZ91acQM1yvaPnZx0GA3yHzjPM,34
+wattrex_battery_cycler_cu_manager-0.0.1.dist-info/RECORD,,
