@@ -1,0 +1,14 @@
+cmnemoi_learn/__init__.py,sha256=rosjMcYI_Ab0QaNd3jXy7uPRpdTvUKVX7GaUYrRQu_k,181
+cmnemoi_learn/_abstract_model.py,sha256=eCO84QdT0qaW0_pZteTepINjDwblfqtcEXlNrAFrMBg,1567
+cmnemoi_learn/classification/__init__.py,sha256=pBjt4S5VmFnDIxoYsip71X4FpYz-qtpiMqGIlYsndjw,226
+cmnemoi_learn/classification/_abstract_classifier.py,sha256=iaioOGROSh__1hzscWAD5RjJmr2Tfm1sfj0z2vpmcBQ,917
+cmnemoi_learn/classification/_knn_classifier.py,sha256=ndsKJt7XrmtUgSzXWYYtuuVAFIESR8idFWRQ2VxnDyE,2531
+cmnemoi_learn/classification/_logistic_regression.py,sha256=vSrZSR7DHRl6RseX7DTkqGzpQNoXKMrKLc-f3_DUCN0,3386
+cmnemoi_learn/metrics.py,sha256=5VUWItk3501gjYrDcA1Xr9gibdyaxql_5SPY8tQR1L8,899
+cmnemoi_learn/regression/__init__.py,sha256=c1y-hUBl1Ydi-j5uztbDUebCjSPPtKdr-a5R0fQaX3s,156
+cmnemoi_learn/regression/_abstract_regressor.py,sha256=TrhrDx-TXIHmHCWq5neaKZZsQ0s-fHEWDgHM2otn6vU,762
+cmnemoi_learn/regression/_linear_regression.py,sha256=KMW2U9WAnIvz2Ng45c-YFw66o_pZVqas2Wm4tlL5Gfc,1856
+cmnemoi_learn-0.5.0.dist-info/LICENSE.md,sha256=hNPwcijjh3HS4TLPT_abexS-gZAqrLP_5y8JeJMuW_0,1085
+cmnemoi_learn-0.5.0.dist-info/METADATA,sha256=1B5ebnf0a_50EfdoC6DbVdt6ujdVInCGTaFmRW__2l4,2707
+cmnemoi_learn-0.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cmnemoi_learn-0.5.0.dist-info/RECORD,,
