@@ -1,0 +1,6 @@
+README.md
+setup.py
+ESIH.egg-info/PKG-INFO
+ESIH.egg-info/SOURCES.txt
+ESIH.egg-info/dependency_links.txt
+ESIH.egg-info/top_level.txt
