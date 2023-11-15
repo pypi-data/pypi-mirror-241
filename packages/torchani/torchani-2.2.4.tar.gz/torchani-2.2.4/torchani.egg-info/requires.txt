@@ -1,0 +1,4 @@
+torch
+lark-parser
+requests
+importlib_metadata
