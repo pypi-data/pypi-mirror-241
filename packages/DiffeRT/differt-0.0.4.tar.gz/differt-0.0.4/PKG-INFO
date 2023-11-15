@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: DiffeRT
+Version: 0.0.4
+Summary: Differentiable Ray Tracing Toolbox for Radio Propagation Simulations
+Home-page: https://github.com/jeertmans/DiffeRT
+License: MIT
+Keywords: ray tracing,differentiable,propagation,radio,jax
+Author: Jérome Eertmans
+Author-email: jeertmans@icloud.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: matplotlib
+Provides-Extra: open3d
+Provides-Extra: plotly
+Provides-Extra: plotting
+Requires-Dist: chex (>=0.1.84,<0.2.0)
+Requires-Dist: differt-core (==0.0.4)
+Requires-Dist: jax (>=0.4.20,<0.5.0)
+Requires-Dist: jaxtyping (>=0.2.23,<0.3.0)
+Requires-Dist: matplotlib (>=3.8.1,<4.0.0) ; extra == "matplotlib" or extra == "plotting"
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: open3d (>=0.17.0,<0.18.0) ; (python_version < "3.11") and (extra == "open3d")
+Requires-Dist: plotly (>=5.18.0,<6.0.0) ; extra == "plotly" or extra == "plotting"
+Project-URL: Documentation, https://eertmans.be/DiffeRT
+Project-URL: Repository, https://github.com/jeertmans/DiffeRT
+Description-Content-Type: text/markdown
+
+# DiffeRT
+
+W.I.P
+
