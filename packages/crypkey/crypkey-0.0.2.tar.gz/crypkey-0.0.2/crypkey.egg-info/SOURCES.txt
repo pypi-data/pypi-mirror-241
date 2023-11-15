@@ -1,0 +1,6 @@
+setup.py
+crypkey/__init__.py
+crypkey.egg-info/PKG-INFO
+crypkey.egg-info/SOURCES.txt
+crypkey.egg-info/dependency_links.txt
+crypkey.egg-info/top_level.txt
