@@ -1,0 +1,16 @@
+pyaddy/API/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaddy/API/addy_key.py,sha256=oT4QbDcnoydY80RTMBUbCyLYRGZICfW_u1CifKxsN9I,686
+pyaddy/API/alias_bulk_actions.py,sha256=wsykjyluRH5Viwm9wYMVdVsJoQZVVLWp2ZwqHLiwBEg,2341
+pyaddy/API/aliases.py,sha256=_NpoFr7-KFft2H-DADtBJv1IXffuty8Zk5NYkgwIFQA,3163
+pyaddy/API/api_details.py,sha256=gg2butFPg0resrpsugDa6qzV3AJ4zOrNj7duRTwn25U,1283
+pyaddy/API/url.py,sha256=Gqvx11cvOdAy0YwToC3gGvo5iVZahUXZF6UPYOKNc0Y,2325
+pyaddy/__init__.py,sha256=AGz1h_5TiZnhF-lqGiuEF2jwixEYCjIT8sASrFPpsuQ,19
+pyaddy/__main__.py,sha256=4MWFpUO-KjQvN8EXC4UXSTcm2nVAKvNNfjkCt9XTDok,1419
+pyaddy/commands/alias_bulk_actions_cmd.py,sha256=3e4wynhfQ2iHdJzsXfN-Cq5q7JFQgB8hHi7lBh710vU,2434
+pyaddy/commands/aliases_cmd.py,sha256=SNK5sH4G-foEutN_Ya_DRLr3UUyva95dMSwJL-p6PqY,4390
+pyaddy/commands/api_details_cmd.py,sha256=PVxLI9Um1MgSmOAcRhNf8mpRukw382ViaO9TtYIoc74,716
+pyaddy-0.5.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pyaddy-0.5.1.dist-info/METADATA,sha256=9nIOTVX5jK49u47we4ycMFKVnWTRRUW_jp0ppl7QksQ,14112
+pyaddy-0.5.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyaddy-0.5.1.dist-info/entry_points.txt,sha256=wkuMgBx6S6IQVrxZ8Iu6vYvGk-bIm_Q3ceRIzxcC99E,44
+pyaddy-0.5.1.dist-info/RECORD,,
