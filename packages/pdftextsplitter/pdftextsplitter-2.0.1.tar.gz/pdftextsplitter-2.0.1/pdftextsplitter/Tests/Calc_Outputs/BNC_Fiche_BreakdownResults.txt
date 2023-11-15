@@ -1,0 +1,719 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document BNC_Fiche] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = BNC_Fiche
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr. 260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro 26 oktober 2022 COM (2022) 546 https://eur-lex.europa.eu/legal- content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363 SWD (2022) 546 en SEC(2022)546 Raad Economische en Financiële Zaken Ministerie van Financiën Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU) Gekwalificeerde meerderheid Medebeslissing In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door, onder andere, instant payments aan te jagen2. Een instant payment is een overschrijving in euro, waarbij het bedrag binnen 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Fiche 1: Wijziging verordeningen betreffende instant payments in euro
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Algemene gegevens
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr. 260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro 26 oktober 2022 COM (2022) 546 https://eur-lex.europa.eu/legal- content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363 SWD (2022) 546 en SEC(2022)546 Raad Economische en Financiële Zaken Ministerie van Financiën Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU) Gekwalificeerde meerderheid Medebeslissing 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Titel voorstel
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr. 260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro 
+
+ [ALINEA-CONTENT]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr.
+260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Datum ontvangst Commissiedocument
+ nativeID=4 parentID=2 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+26 oktober 2022 
+
+ [ALINEA-CONTENT]:
+26 oktober 2022
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = c) Nr. Commissiedocument
+ nativeID=5 parentID=2 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+COM (2022) 546 
+
+ [ALINEA-CONTENT]:
+COM (2022) 546
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = d) EUR-Lex
+ nativeID=6 parentID=2 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+https://eur-lex.europa.eu/legal- content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363 
+
+ [ALINEA-CONTENT]:
+https://eur-lex.europa.eu/legal-
+content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = e) Nr. impact assessment Commissie en Opinie Raad voor Regelgevingstoetsing
+ nativeID=7 parentID=2 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+SWD (2022) 546 en SEC(2022)546 
+
+ [ALINEA-CONTENT]:
+SWD (2022) 546 en SEC(2022)546
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = f) Behandelingstraject Raad
+ nativeID=8 parentID=2 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Raad Economische en Financiële Zaken 
+
+ [ALINEA-CONTENT]:
+Raad Economische en Financiële Zaken
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = g) Eerstverantwoordelijk ministerie
+ nativeID=9 parentID=2 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Ministerie van Financiën 
+
+ [ALINEA-CONTENT]:
+Ministerie van Financiën
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = h) Rechtsbasis
+ nativeID=10 parentID=2 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU) 
+
+ [ALINEA-CONTENT]:
+Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU)
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = i) Besluitvormingsprocedure Raad
+ nativeID=11 parentID=2 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Gekwalificeerde meerderheid 
+
+ [ALINEA-CONTENT]:
+Gekwalificeerde meerderheid
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = j) Rol Europees Parlement
+ nativeID=12 parentID=2 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Medebeslissing 
+
+ [ALINEA-CONTENT]:
+Medebeslissing
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. Essentie voorstel
+ nativeID=13 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door, onder andere, instant payments aan te jagen2. Een instant payment is een overschrijving in euro, waarbij het bedrag binnen enkele seconden op de betaalrekening van de ontvanger staat. Het verschil met een ‘traditionele’ Europese overschrijving3 is dat deze pas uiterlijk aan het einde van de volgende werkdag aan de begunstigde moet zijn bijgeschreven. Met dit voorstel wordt de Single Euro Payments Area (SEPA)-verordening4 en de herziene verordening voor grensoverschrijdende betalingen gewijzigd5. De SEPA-verordening reguleert alle technische en 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Inhoud voorstel
+ nativeID=14 parentID=13 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door, onder andere, instant payments aan te jagen2. Een instant payment is een overschrijving in euro, waarbij het bedrag binnen enkele seconden op de betaalrekening van de ontvanger staat. Het verschil met een ‘traditionele’ Europese overschrijving3 is dat deze pas uiterlijk aan het einde van de volgende werkdag aan de begunstigde moet zijn bijgeschreven. Met dit voorstel wordt de Single Euro Payments Area (SEPA)-verordening4 en de herziene verordening voor grensoverschrijdende betalingen gewijzigd5. De SEPA-verordening reguleert alle technische en 
+
+ [ALINEA-CONTENT]:
+In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments
+Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door,
+onder andere, instant payments aan te jagen2. Een instant payment is een overschrijving in euro,
+
+          ***          [--- more alinea content ---]        ***          
+
+desbetreffende rechtspersoon in het voorgaande boekjaar. In het geval van natuurlijke personen
+moeten de administratieve boetes ten minste 5 mln. euro zijn of, in de lidstaten die de euro niet
+als munt hebben, de overeenkomstige waarde in de nationale munteenheid.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Impact assessment Commissie
+ nativeID=15 parentID=13 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Uit het impact assessment van de Commissie volgt dat er sinds de introductie van een gemeenschappelijke set aan regels voor instant payments in 2017 nog steeds te weinig gebruik wordt gemaakt van instant payments in euro. Instant payments worden slechts door twee derde van de Europese PSP’s, die ook ‘traditionele’ Europese overschrijvingen als dienst aanbieden, aangeboden en vertegenwoordigen ongeveer 11% van alle overschrijvingen in euro in de EU. Volgens de Commissie is dit problematisch, omdat dit zorgt voor niet-gerealiseerde voordelen en efficiëntiewinsten en een beperktere keuze aan betaalmiddelen, met name bij grensoverschrijdende transacties binnen de Unie. Uit het impact assessment 
+
+ [ALINEA-CONTENT]:
+Uit het impact assessment van de Commissie volgt dat er sinds de introductie van een
+gemeenschappelijke set aan regels voor instant payments in 2017 nog steeds te weinig gebruik
+wordt gemaakt van instant payments in euro. Instant payments worden slechts door twee derde
+
+          ***          [--- more alinea content ---]        ***          
+
+betaaloplossingen voor gebruik bij fysieke en online verkooppunten bijdragen om de
+afhankelijkheid van internationale kaartschema’s en BigTechs in het Europese betalingsverkeer te
+verminderen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1. Een verplichting voor PSP’s die reguliere Europese overschrijvingen aanbieden om ook het ...
+ nativeID=16 parentID=15 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Een verplichting voor PSP’s die reguliere Europese overschrijvingen aanbieden om ook het verzenden en ontvangen van instant payments in euro aan te bieden. 
+
+ [ALINEA-CONTENT]:
+1. Een verplichting voor PSP’s die reguliere Europese overschrijvingen aanbieden om ook het
+verzenden en ontvangen van instant payments in euro aan te bieden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2. Een verplichting om niet meer in rekening te brengen voor een instant payment dan ...
+ nativeID=17 parentID=15 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Een verplichting om niet meer in rekening te brengen voor een instant payment dan voor een ‘traditionele’ overschrijving in euro. 
+
+ [ALINEA-CONTENT]:
+2. Een verplichting om niet meer in rekening te brengen voor een instant payment dan voor
+een ‘traditionele’ overschrijving in euro.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3. Een verplichting voor sanctiescreening in de vorm van zeer frequente controle van cliënten ...
+ nativeID=18 parentID=15 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. Een verplichting voor sanctiescreening in de vorm van zeer frequente controle van cliënten of zij op EU-sanctielijsten staan in plaats van voor elke afzonderlijke transactie. 
+
+ [ALINEA-CONTENT]:
+3. Een verplichting voor sanctiescreening in de vorm van zeer frequente controle van cliënten
+of zij op EU-sanctielijsten staan in plaats van voor elke afzonderlijke transactie.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4. Een verplichting om een dienst aan te bieden waarmee klanten op de hoogte kunnen ...
+ nativeID=19 parentID=15 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4. Een verplichting om een dienst aan te bieden waarmee klanten op de hoogte kunnen worden gesteld van wanneer er een mismatch gedetecteerd wordt tussen de naam van de begunstigde en het bankrekeningnummer (IBAN) zoals opgegeven door de betaler. 
+
+ [ALINEA-CONTENT]:
+4. Een verplichting om een dienst aan te bieden waarmee klanten op de hoogte kunnen
+worden gesteld van wanneer er een mismatch gedetecteerd wordt tussen de naam van de
+begunstigde en het bankrekeningnummer (IBAN) zoals opgegeven door de betaler.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3. Nederlandse positie ten aanzien van het voorstel
+ nativeID=20 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het kabinetsbeleid beoogt een veilig, betrouwbaar, efficiënt en toegankelijk betalingsverkeer te waarborgen.10 Daarbij beoogt het beleid bij te dragen aan innovatie in de sector, met voldoende waarborgen op het gebied van consumentenbescherming en privacy. In Nederland worden vrijwel alle Europese overschrijvingen die via internetbankieren en mobiele apps zijn geïnitieerd als instant payments in euro verwerkt. Bij meer dan 95% van de betaalrekeningen in Nederland is het mogelijk om instant payments in euro te verzenden en ontvangen. Hierbij merkt het kabinet op dat de beweging naar instant payments in Nederland als standaard een beweging is die vanuit de markt geïnitieerd is 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Essentie Nederlands beleid op dit terrein
+ nativeID=21 parentID=20 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het kabinetsbeleid beoogt een veilig, betrouwbaar, efficiënt en toegankelijk betalingsverkeer te waarborgen.10 Daarbij beoogt het beleid bij te dragen aan innovatie in de sector, met voldoende waarborgen op het gebied van consumentenbescherming en privacy. In Nederland worden vrijwel alle Europese overschrijvingen die via internetbankieren en mobiele apps zijn geïnitieerd als instant payments in euro verwerkt. Bij meer dan 95% van de betaalrekeningen in Nederland is het mogelijk om instant payments in euro te verzenden en ontvangen. Hierbij merkt het kabinet op dat de beweging naar instant payments in Nederland als standaard een beweging is die vanuit de markt geïnitieerd is 
+
+ [ALINEA-CONTENT]:
+Het kabinetsbeleid beoogt een veilig, betrouwbaar, efficiënt en toegankelijk betalingsverkeer te
+waarborgen.10 Daarbij beoogt het beleid bij te dragen aan innovatie in de sector, met voldoende
+waarborgen op het gebied van consumentenbescherming en privacy. In Nederland worden vrijwel
+
+          ***          [--- more alinea content ---]        ***          
+
+markt geïnitieerd is en niet via wet- en regelgeving. Verder bieden de meeste banken in Nederland
+al een dienst aan om na te gaan of de naam van de begunstigde en het bankrekeningnummer,
+zoals opgegeven door de betaler, overeenkomt.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Beoordeling + inzet ten aanzien van dit voorstel
+ nativeID=22 parentID=20 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het kabinet verwelkomt het voorstel van de Commissie om de toepassing van instant payments in Europa te bevorderen. In Nederland worden vrijwel alle Europese overschrijvingen die via internetbankieren en mobiele apps zijn geïnitieerd als instant payments in euro verwerkt zonder aanvullende kosten. Echter, in veel andere EU-landen is dit nog niet het geval of wordt dit als (betaalde) premiumdienst (ten opzichte van ‘reguliere’ Europese overschrijvingen) aangeboden. Met het voorstel wordt de bereikbaarheid en toegankelijkheid van instant payments in Europa verbeterd. Daardoor wordt het mogelijk om ook grensoverschrijdende overschrijvingen in euro via instant payments te laten lopen. Dit draagt bij aan 
+
+ [ALINEA-CONTENT]:
+Het kabinet verwelkomt het voorstel van de Commissie om de toepassing van instant payments in
+Europa te bevorderen. In Nederland worden vrijwel alle Europese overschrijvingen die via
+internetbankieren en mobiele apps zijn geïnitieerd als instant payments in euro verwerkt zonder
+
+          ***          [--- more alinea content ---]        ***          
+
+laat beschikbaar zijn van een machine-readable document. Het kabinet wil daarom benadrukken
+dat een machine-readable versie van de geconsolideerde sanctielijst of de aanvullingen
+beschikbaar zou moeten komen tegelijk met de sanctieverordening.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = c) Eerste inschatting van krachtenveld
+ nativeID=23 parentID=20 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Over het algemeen is het voorstel goed ontvangen door lidstaten. In Nederland worden vrijwel alle via internetbankieren en mobiele bank apps geïnitieerde Europese overschrijvingen als instant payments verwerkt, maar in andere EU-landen is dit nog niet het geval of wordt dit als (betaalde) premiumdienst aangeboden ten opzichte van ‘reguliere’ Europese overschrijvingen. Het kabinet verwacht om die reden dat er lidstaten zullen zijn die meer tijd willen om instant payments te implementeren en er mogelijk lidstaten zijn die vinden dat instant payments een premiumdienst zou moeten blijven. Daarnaast zijn er door een aantal lidstaten zorgen geuit over eventuele problemen met privacy 
+
+ [ALINEA-CONTENT]:
+Over het algemeen is het voorstel goed ontvangen door lidstaten. In Nederland worden vrijwel alle
+via internetbankieren en mobiele bank apps geïnitieerde Europese overschrijvingen als instant
+payments verwerkt, maar in andere EU-landen is dit nog niet het geval of wordt dit als (betaalde)
+
+          ***          [--- more alinea content ---]        ***          
+
+de naam van de begunstigde te checken op afwijkingen.
+Het Europees Parlement zal het voorstel behandelen in het ECON-comité, heeft nog geen
+rapporteur aangewezen en heeft zich tot dusver niet uitgesproken over het voorstel.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4. Beoordeling bevoegdheid, subsidiariteit en proportionaliteit
+ nativeID=24 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het oordeel van het kabinet ten aanzien van de bevoegdheid is positief. Het voorstel is gebaseerd op artikel 114 VWEU. Dit artikel geeft de EU de bevoegdheid om maatregelen vast te stellen inzake de onderlinge aanpassing van de wettelijke en bestuursrechtelijke bepalingen van de lidstaten die de instelling en de werking van de interne markt betreffen. Het kabinet kan zich vinden in deze rechtsgrondslag. Dit voorstel beoogt naar het oordeel van het kabinet de werking van de interne markt, aangezien het makkelijker wordt om grensoverschrijdende betalingen in instant payments in euro plaats te laten vinden. Het voorstel zorgt ervoor dat 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Bevoegdheid
+ nativeID=25 parentID=24 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het oordeel van het kabinet ten aanzien van de bevoegdheid is positief. Het voorstel is gebaseerd op artikel 114 VWEU. Dit artikel geeft de EU de bevoegdheid om maatregelen vast te stellen inzake de onderlinge aanpassing van de wettelijke en bestuursrechtelijke bepalingen van de lidstaten die de instelling en de werking van de interne markt betreffen. Het kabinet kan zich vinden in deze rechtsgrondslag. Dit voorstel beoogt naar het oordeel van het kabinet de werking van de interne markt, aangezien het makkelijker wordt om grensoverschrijdende betalingen in instant payments in euro plaats te laten vinden. Het voorstel zorgt ervoor dat 
+
+ [ALINEA-CONTENT]:
+Het oordeel van het kabinet ten aanzien van de bevoegdheid is positief. Het voorstel is gebaseerd
+op artikel 114 VWEU. Dit artikel geeft de EU de bevoegdheid om maatregelen vast te stellen inzake
+de onderlinge aanpassing van de wettelijke en bestuursrechtelijke bepalingen van de lidstaten die
+
+          ***          [--- more alinea content ---]        ***          
+
+met dit voorstel wordt gewijzigd (de SEPA-verordening en de herziene verordening voor
+grensoverschrijdende betalingen) en deze grondslag wordt ook gebruikt bij andere wetgeving op
+het gebied van betalingsverkeer, zoals de herziene richtlijn betaaldiensten (PSD2).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Subsidiariteit
+ nativeID=26 parentID=24 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het oordeel van het kabinet ten aanzien van de subsidiariteit van het voorstel is positief. Dit voorstel ziet op het bevorderen van het gebruik van instant payments in euro in de Europese Economische Ruimte. Om instant payments in euro te kunnen gebruiken moet zowel de bank van de betaler als van de ontvanger de dienst aanbieden. Instant payments worden op dit moment nog niet voldoende aangeboden door PSP’s in verschillende lidstaten. Aangezien een lidstaat zelf het gebruik van grensoverschrijdende instant payments in euro binnen de Europese Unie en de Europese Economische Ruimte niet kan stimuleren, is het volgens het kabinet 
+
+ [ALINEA-CONTENT]:
+Het oordeel van het kabinet ten aanzien van de subsidiariteit van het voorstel is positief. Dit
+voorstel ziet op het bevorderen van het gebruik van instant payments in euro in de Europese
+Economische Ruimte. Om instant payments in euro te kunnen gebruiken moet zowel de bank van
+
+          ***          [--- more alinea content ---]        ***          
+
+gebruik van grensoverschrijdende instant payments in euro binnen de Europese Unie en de
+Europese Economische Ruimte niet kan stimuleren, is het volgens het kabinet wenselijk en
+gerechtvaardigd om op EU-niveau op te treden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = c) Proportionaliteit
+ nativeID=27 parentID=24 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het kabinet beoordeelt de proportionaliteit van het voorstel als positief. Het impact assessment van de Europese Commissie laat zien dat het gebruik van instant payments in euro in sommige landen achterblijft. Dit voorstel ziet op het bevorderen van het gebruik van instant payments in euro in de Europese Economische Ruimte en doet dit door een aantal verplichtingen op te leggen aan PSP’s. Het voorgestelde optreden van de Commissie is geschikt om deze doelstelling te bereiken, omdat het PSP’s die ‘traditionele’ Europese overschrijvingen in euro’s aanbieden verplicht om ook instant payments in euro aan te bieden. Bovendien legt het voorstel een 
+
+ [ALINEA-CONTENT]:
+Het kabinet beoordeelt de proportionaliteit van het voorstel als positief. Het impact assessment van
+de Europese Commissie laat zien dat het gebruik van instant payments in euro in sommige landen
+achterblijft. Dit voorstel ziet op het bevorderen van het gebruik van instant payments in euro in de
+
+          ***          [--- more alinea content ---]        ***          
+
+omdat zij op grond van de Finaliteitsrichtlijn niet kunnen deelnemen aan afwikkelsystemen die zijn
+aangewezen in het kader van deze richtlijn. Deze non-bancaire instellingen kunnen wel op
+vrijwillige basis instant payments in euro aanbieden aan klanten.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 5. Financiële implicaties, gevolgen voor regeldruk, concurrentiekracht en geopolitieke aspecten
+ nativeID=28 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het voorstel heeft geen gevolgen voor de begroting van de Europese Unie. Nederland is van mening dat eventuele benodigde middelen gevonden dienen te worden binnen de in de Raad afgesproken financiële kaders van de EU-begroting 2021-2027 en dat deze moeten passen bij een prudente ontwikkeling van de jaarbegroting. Lidstaten dienen toezichthouders aan te wijzen die toezien op de naleving van de verordening. Hoewel het kabinet hier nog geen definitief besluit over heeft genomen, ligt het in de rede om dit toezicht te beleggen bij De Nederlandsche Bank (DNB) en/of de Autoriteit Financiële Markten (AFM). In Nederland houdt DNB al toezicht 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Consequenties EU-begroting
+ nativeID=29 parentID=28 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het voorstel heeft geen gevolgen voor de begroting van de Europese Unie. Nederland is van mening dat eventuele benodigde middelen gevonden dienen te worden binnen de in de Raad afgesproken financiële kaders van de EU-begroting 2021-2027 en dat deze moeten passen bij een prudente ontwikkeling van de jaarbegroting. 
+
+ [ALINEA-CONTENT]:
+Het voorstel heeft geen gevolgen voor de begroting van de Europese Unie. Nederland is van
+mening dat eventuele benodigde middelen gevonden dienen te worden binnen de in de Raad
+afgesproken financiële kaders van de EU-begroting 2021-2027 en dat deze moeten passen bij een
+
+          ***          [--- more alinea content ---]        ***          
+
+prudente ontwikkeling van de jaarbegroting.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Financiële consequenties (incl. personele) voor rijksoverheid en/ of decentrale overheden
+ nativeID=30 parentID=28 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Lidstaten dienen toezichthouders aan te wijzen die toezien op de naleving van de verordening. Hoewel het kabinet hier nog geen definitief besluit over heeft genomen, ligt het in de rede om dit toezicht te beleggen bij De Nederlandsche Bank (DNB) en/of de Autoriteit Financiële Markten (AFM). In Nederland houdt DNB al toezicht op de SEPA-verordening. Daarnaast houdt de AFM toezicht op de verordening voor grensoverschrijdende betalingen. Of, en zo ja in welke mate, deze toezichthouders meer middelen nodig hebben voor het toezicht op de aanpassingen in deze verordeningen hangt af van de uiteindelijke vormgeving van dit voorstel. Uit de Wet 
+
+ [ALINEA-CONTENT]:
+Lidstaten dienen toezichthouders aan te wijzen die toezien op de naleving van de verordening.
+Hoewel het kabinet hier nog geen definitief besluit over heeft genomen, ligt het in de rede om dit
+toezicht te beleggen bij De Nederlandsche Bank (DNB) en/of de Autoriteit Financiële Markten
+
+          ***          [--- more alinea content ---]        ***          
+
+DNB de toezichtkosten bekostigen. In deze situatie zijn de gevolgen voor de rijksoverheid dus zeer
+beperkt. Eventuele budgettaire gevolgen worden ingepast op de begroting van het
+beleidsverantwoordelijk departement, conform de regels van de budgetdiscipline.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = c) Financiële consequenties en gevolgen voor regeldruk voor bedrijfsleven en burger
+ nativeID=31 parentID=28 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In Nederland biedt een groot deel van de PSP’s die retailbetalingen aanbieden al instant payments in euro aan. Via meer dan 95% van alle betaalrekeningen in ons land kunnen instant payment verstuurd en ontvangen worden. Naar verwachting zullen de financiële consequenties voor deze partijen relatief beperkt zijn ten opzichte van de lidstaten waar instant payment in euro nog niet als het ‘nieuwe normaal’ wordt gezien. De Nederlandse PSP’s die nog geen instant payments hebben geïntroduceerd, zullen hiervoor implementatiekosten moeten maken. Ook PSP’s die nog geen dienst aanbieden om te zorgen dat een betaler kan nagaan of het rekeningnummer overeenkomt met 
+
+ [ALINEA-CONTENT]:
+In Nederland biedt een groot deel van de PSP’s die retailbetalingen aanbieden al instant payments
+in euro aan. Via meer dan 95% van alle betaalrekeningen in ons land kunnen instant payment
+verstuurd en ontvangen worden. Naar verwachting zullen de financiële consequenties voor deze
+
+          ***          [--- more alinea content ---]        ***          
+
+nemen om dit mogelijk te maken. Het kabinet vindt het belangrijk dat deze partijen voldoende tijd
+krijgen om hun systemen aan te passen om deze overschrijvingsopdrachten als instant payments
+in euro te (laten) verwerken en zal hier aandacht voor vragen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = d) Gevolgen voor concurrentiekracht en geopolitieke aspecten
+ nativeID=32 parentID=28 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Met dit voorstel introduceert de Commissie een uniform regelgevend kader voor de gehele EU. Het voorstel heeft naar verwachting positieve impact op de concurrentiekracht van de EU als geheel, omdat dit belemmeringen in het betalingsverkeer wegneemt. Meer gebruik van instant payments in euro zal ook de ontwikkeling van nieuwe betaaloplossingen stimuleren, met name bij grensoverschrijdende betaaltransacties binnen de Unie, omdat op instant payments-gebaseerde betaaloplossingen bij zowel fysieke als online verkooppunten kan worden gebruikt om goederen en diensten te kopen. Volgens de Commissie moet meer keuzemogelijkheid bij verkooppunten de afhankelijkheid van internationale betaalkaartnetwerken en BigTechs verminderen. Het kabinet verwacht dat er 
+
+ [ALINEA-CONTENT]:
+Met dit voorstel introduceert de Commissie een uniform regelgevend kader voor de gehele EU. Het
+voorstel heeft naar verwachting positieve impact op de concurrentiekracht van de EU als geheel,
+omdat dit belemmeringen in het betalingsverkeer wegneemt. Meer gebruik van instant payments in
+
+          ***          [--- more alinea content ---]        ***          
+
+afhankelijkheid van internationale betaalkaartnetwerken en BigTechs verminderen. Het kabinet
+verwacht dat er aanvullende investeringen nodig zijn om als op instant payments-gebaseerde
+betaaloplossingen bij fysieke en online verkooppunten te kunnen concurreren met deze partijen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 6. Implicaties juridisch
+ nativeID=33 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het voorstel betreft aanpassingen van twee bestaande verordeningen, namelijk de SEPA- verordening en de herziene verordening voor grensoverschrijdende betalingen. Volgens het voorstel zijn lidstaten zelf verantwoordelijk om sancties in te richten voor PSP’s die niet aan de vereisten voldoen. Deze sancties moeten volgens het voorstel doeltreffend, evenredig en afschrikkend zijn. In de SEPA-verordening zal een lid worden toegevoegd met een minimumniveau voor sancties die nationale autoriteiten kunnen opleggen voor het niet naleven van de EU- sanctieverplichtingen. De lidstaten moeten volgens het voorstel de Commissie notificeren over de sancties die van toepassing zijn in hun jurisdictie. Mocht artikel 5d, tweede lid, 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Consequenties voor nationale en decentrale regelgeving en/of sanctionering beleid
+ nativeID=34 parentID=33 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het voorstel betreft aanpassingen van twee bestaande verordeningen, namelijk de SEPA- verordening en de herziene verordening voor grensoverschrijdende betalingen. Volgens het voorstel zijn lidstaten zelf verantwoordelijk om sancties in te richten voor PSP’s die niet aan de vereisten voldoen. Deze sancties moeten volgens het voorstel doeltreffend, evenredig en afschrikkend zijn. In de SEPA-verordening zal een lid worden toegevoegd met een minimumniveau voor sancties die nationale autoriteiten kunnen opleggen voor het niet naleven van de EU- sanctieverplichtingen. De lidstaten moeten volgens het voorstel de Commissie notificeren over de sancties die van toepassing zijn in hun jurisdictie. Mocht artikel 5d, tweede lid, 
+
+ [ALINEA-CONTENT]:
+Het voorstel betreft aanpassingen van twee bestaande verordeningen, namelijk de SEPA-
+verordening en de herziene verordening voor grensoverschrijdende betalingen. Volgens het
+voorstel zijn lidstaten zelf verantwoordelijk om sancties in te richten voor PSP’s die niet aan de
+
+          ***          [--- more alinea content ---]        ***          
+
+sancties die van toepassing zijn in hun jurisdictie. Mocht artikel 5d, tweede lid, een verbod
+betekenen op het screenen van sanctielijsten tijdens de verwerking van een instant payment, is
+een aanpassing van de Regeling toezicht Sanctiewet 1977 vereist.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Gedelegeerde en/of uitvoeringshandelingen, incl. NL-beoordeling daarvan
+ nativeID=35 parentID=33 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Niet van toepassing. 
+
+ [ALINEA-CONTENT]:
+Niet van toepassing.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = c) Voorgestelde implementatietermijn (bij richtlijnen), dan wel voorgestelde datum inwerkingtreding (bij verordeningen en besluiten) met commentaar t.a.v. haalbaarheid
+ nativeID=36 parentID=33 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De inwerkingtreding wordt voorzien op de twintigste dag na officiële publicatie. De Commissie stelt vier verschillende data voor de toepassing van de vereisten voor de PSP na de inwerkingtreding voor, namelijk: De verplichting dat tarieven voor instant payments in euro niet hoger mogen zijn dan een ‘traditionele’ Europese overschrijving treedt voor lidstaten binnen de eurozone 6 maanden na de inwerkingtreding van de wetgeving in werking. Betaaldienstverleners die in lidstaten buiten de eurozone zijn gevestigd moeten twee jaar later aan deze verplichtingen voldoen, ofwel 30 maanden na inwerkingtreding. De verplichting voor de PSP om na te gaan of de naam en 
+
+ [ALINEA-CONTENT]:
+De inwerkingtreding wordt voorzien op de twintigste dag na officiële publicatie. De Commissie stelt
+vier verschillende data voor de toepassing van de vereisten voor de PSP na de inwerkingtreding
+voor, namelijk:
+
+          ***          [--- more alinea content ---]        ***          
+
+systemen moeten aanpassen en voor PSP’s die onder dit voorstel hun zakelijke klanten ook het
+aanleveren van bulkbetalingsbestanden met daarin overschrijvingsopdrachten als dienst
+aanbieden, die deze dienst ook voor instant payments in euro moeten gaan aanbieden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1. Ontvangen van instant payments in euro in de eurozone: 6 maanden; 
+ nativeID=37 parentID=36 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Ontvangen van instant payments in euro in de eurozone: 6 maanden; 
+
+ [ALINEA-CONTENT]:
+1. Ontvangen van instant payments in euro in de eurozone: 6 maanden;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2. Verzenden van instant payments in euro in de eurozone: 12 maanden; 
+ nativeID=38 parentID=36 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Verzenden van instant payments in euro in de eurozone: 12 maanden; 
+
+ [ALINEA-CONTENT]:
+2. Verzenden van instant payments in euro in de eurozone: 12 maanden;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3. Ontvangen van instant payments in euro buiten de eurozone: 30 maanden; 
+ nativeID=39 parentID=36 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. Ontvangen van instant payments in euro buiten de eurozone: 30 maanden; 
+
+ [ALINEA-CONTENT]:
+3. Ontvangen van instant payments in euro buiten de eurozone: 30 maanden;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4. Verzenden van instant payments in euro buiten de eurozone: 36 maanden. 
+ nativeID=40 parentID=36 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4. Verzenden van instant payments in euro buiten de eurozone: 36 maanden. 
+
+ [ALINEA-CONTENT]:
+4. Verzenden van instant payments in euro buiten de eurozone: 36 maanden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = d) Wenselijkheid evaluatie-/horizonbepaling
+ nativeID=41 parentID=33 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In het voorstel is geen evaluatiebepaling opgenomen. Wel zal de implementatie van instant payments gecontroleerd worden op basis van gegevens van de European Payments Council (EPC), die eigenaar en beheerder is van het SEPA Credit Transfer (SCT) en SEPA Instant Credit Transfer (SCT Inst.) schema, en gegevens van de Europese Centrale Bank (ECB) en de EBA. Het voorstel geeft aan dat er geen nieuwe rapportagevereisten zijn voor PSP’s. Het kabinet kan zich vinden in deze werkwijze. 
+
+ [ALINEA-CONTENT]:
+In het voorstel is geen evaluatiebepaling opgenomen. Wel zal de implementatie van instant
+payments gecontroleerd worden op basis van gegevens van de European Payments Council (EPC),
+die eigenaar en beheerder is van het SEPA Credit Transfer (SCT) en SEPA Instant Credit Transfer
+
+          ***          [--- more alinea content ---]        ***          
+
+(SCT Inst.) schema, en gegevens van de Europese Centrale Bank (ECB) en de EBA. Het voorstel
+geeft aan dat er geen nieuwe rapportagevereisten zijn voor PSP’s. Het kabinet kan zich vinden in
+deze werkwijze.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = e) Constitutionele toets
+ nativeID=42 parentID=33 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Niet van toepassing. 
+
+ [ALINEA-CONTENT]:
+Niet van toepassing.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 7. Implicaties voor uitvoering en/of handhaving
+ nativeID=43 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De aanpassingen van de verordening lijken voor het merendeel van de PSP’s in Nederland goed uitvoerbaar, omdat de technische vereisten voor SCT Inst. lijken op de standaard die de banken in diverse landen al met elkaar hadden afgesproken. Mogelijk zal het voor een aantal Nederlandse PSP’s wel lastig zijn om aan de implementatietermijnen te voldoen. Zoals eerder aangegeven ligt het in de rede om, hoewel het kabinet meer tijd nodig heeft om hier een definitief besluit over te nemen, de AFM en/of DNB aan te wijzen als nationale toezichthouders. Het kabinet zal met de toezichthouders in gesprek gaan om een 
+
+ [ALINEA-CONTENT]:
+De aanpassingen van de verordening lijken voor het merendeel van de PSP’s in Nederland goed
+uitvoerbaar, omdat de technische vereisten voor SCT Inst. lijken op de standaard die de banken in
+diverse landen al met elkaar hadden afgesproken. Mogelijk zal het voor een aantal Nederlandse
+
+          ***          [--- more alinea content ---]        ***          
+
+ook al toezicht houden op de SEPA-verordening (DNB) en de verordening voor
+grensoverschrijdende betalingen (AFM). Het kabinet dient hier echter nog een definitief besluit over
+te nemen in een later stadium.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 8. Implicaties voor ontwikkelingslanden
+ nativeID=44 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dit voorstel heeft geen implicaties voor ontwikkelingslanden. 
+
+ [ALINEA-CONTENT]:
+Dit voorstel heeft geen implicaties voor ontwikkelingslanden.
+
+---------------------------------------------------------------------------------
