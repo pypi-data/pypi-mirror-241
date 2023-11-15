@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tap-pepperjam
+Version: 1.0.1
+Summary: Singer.io tap for extracting data from the Pepperjam Advertiser API
+Home-page: UNKNOWN
+Author: jeff.huth@bytecode.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+UNKNOWN
+
