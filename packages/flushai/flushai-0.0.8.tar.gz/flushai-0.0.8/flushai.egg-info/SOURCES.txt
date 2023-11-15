@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.py
+flushai/__init__.py
+flushai.egg-info/PKG-INFO
+flushai.egg-info/SOURCES.txt
+flushai.egg-info/dependency_links.txt
+flushai.egg-info/requires.txt
+flushai.egg-info/top_level.txt
+flushai/gallery/__init__.py
+flushai/gallery/image_gallery.py
+flushai/prompts/__init__.py
+flushai/prompts/base_prompt_template.py
+flushai/prompts/few_shot_prompt_template.py
+flushai/prompts/prompt_template.py
