@@ -1,0 +1,2 @@
+chisel>=1.0
+gunicorn>=21.0
