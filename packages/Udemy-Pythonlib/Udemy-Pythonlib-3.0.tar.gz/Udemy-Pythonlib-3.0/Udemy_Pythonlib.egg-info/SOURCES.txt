@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+Udemy/__init__.py
+Udemy_Pythonlib.egg-info/PKG-INFO
+Udemy_Pythonlib.egg-info/SOURCES.txt
+Udemy_Pythonlib.egg-info/dependency_links.txt
+Udemy_Pythonlib.egg-info/requires.txt
+Udemy_Pythonlib.egg-info/top_level.txt

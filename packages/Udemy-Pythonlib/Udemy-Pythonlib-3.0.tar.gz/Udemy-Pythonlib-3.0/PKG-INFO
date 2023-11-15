@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: Udemy-Pythonlib
+Version: 3.0
+Summary: Interaja com a plataforma Udemy de forma mais prática para obter detalhes e extrair informações dos cursos em que você está inscrito.
+Author: Paulocesar0073
+Author-email: pauloguitarrasoms@icloud.com
+License: MIT License
+Keywords: udemy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## Udemy-Pythonlib
+
+`Udemy-Pythonlib` é uma biblioteca Python que facilita a interação com a plataforma Udemy.Permite obter detalhes de cursos, informações do usuário e cursos inscritos.
+
+### Instalação
+
+A biblioteca `Udemy-Pythonlib` pode ser instalada usando o seguinte comando:
+
+```bash
+pip install Udemy-Pythonlib
+```
+
+### Uso Básico
+
+```python
+from Udemy_Pythonlib import Udemy
+
+# Substitua 'seus_cookies_aqui' pelos seus cookies de sessão do Udemy
+cookies = 'seus_cookies_aqui'
+User = Udemy(cookiesDeSecao=cookies)
+```
+
+### Métodos Principais
+
+#### 1. `obter_detalhes_curso(id_do_curso, exibir=False, Filter_capitulos=False, Filter_video_titles=False, Filter_id=False, Filter_id_files=False)`
+
+Este método retorna detalhes específicos de um curso na Udemy.
+
+- `id_do_curso`: O ID do curso que pode ser obtido usando o método `obter_detalhes_curso`.
+- `exibir`: Se `True`, os detalhes do curso serão exibidos no console. Se `False`, os detalhes serão retornados como um dicionário.
+- `Filter_capitulos`: Se `True`, exibe os capítulos do curso.
+- `Filter_video_titles`: Se `True`, exibe os títulos dos vídeos do curso.
+- `Filter_id`: Se `True`, exibe os IDs relacionados ao curso.
+- `Filter_id_files`: Se `True`, exibe os IDs dos arquivos associados ao curso.
+
+Exemplo de Uso:
+
+```python
+detalhes_curso = User.obter_detalhes_curso(id_do_curso='ID_DO_CURSO', exibir=True, Filter_capitulos=True)
+```
+
+#### 2. `obter_meu_id(exibir=False)`
+
+Este método retorna o ID do usuário atualmente logado no Udemy.
+
+- `exibir`: Se `True`, o ID do usuário será exibido no console. Se `False`, o ID será retornado.
+
+Exemplo de Uso:
+
+```python
+id_usuario = User.obter_meu_id(exibir=True)
+```
+
+#### 3. `meus_cursos_que_estou_inscrito(exibir=False)`
+
+Este método retorna uma lista de cursos nos quais o usuário está inscrito.
+
+- `exibir`: Se `True`, os detalhes dos cursos serão exibidos no console. Se `False`, os detalhes serão retornados como uma lista.
+
+Exemplo de Uso:
+
+```python
+meus_cursos = User.meus_cursos_que_estou_inscrito(exibir=True)
+```
+
+### Exemplo de Uso Geral
+
+```python
+from Udemy_Pythonlib import Udemy
+
+cookies = 'seus_cookies_aqui'
+User = Udemy(cookiesDeSecao=cookies)
+
+# Obtém detalhes de um curso e exibe no console
+detalhes_curso = User.obter_detalhes_curso(id_do_curso='ID_DO_CURSO', exibir=True, Filter_capitulos=True)
+
+# Obtém o ID do usuário atualmente logado
+id_usuario = User.obter_meu_id(exibir=True)
+
+# Obtém uma lista de cursos nos quais o usuário está inscrito e exibe no console
+meus_cursos = User.meus_cursos_que_estou_inscrito(exibir=True)
+```
+
+Lembre-se de substituir 'seus_cookies_aqui' e 'ID_DO_CURSO' pelos valores reais apropriados.
+
+Esta documentação fornece informações detalhadas sobre como usar a biblioteca `Udemy-Pythonlib`. Se houver alguma dúvida ou se precisar de mais esclarecimentos, sinta-se à vontade para perguntar! 
+
+@suporte -> [Grupo de suporte telegram](https://t.me/udemypythonlib)
+
+
+
+
+
+
