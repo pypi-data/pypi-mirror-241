@@ -1,0 +1,3 @@
+[console_scripts]
+library2notion=library2notion.library2notion:main
+

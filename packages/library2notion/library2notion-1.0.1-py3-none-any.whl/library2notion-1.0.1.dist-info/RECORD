@@ -1,0 +1,17 @@
+library2notion/Models/Book.py,sha256=MaAa4pMFFKTOk4Kx2HvVKxsXB8UG2e80o4lozRhUgJc,584
+library2notion/Models/BookCollection.py,sha256=xoz0pXiam1dxh11GeBstsBE83O9TLlIGZVlL6zpPlvY,1959
+library2notion/Models/BookEpub.py,sha256=F5gUquYgZVMRkmff26ut6WaEjHwYHZFQCz8aU5SOttA,679
+library2notion/Models/BookPaper.py,sha256=89IJwlvR3aV9EemybAAmcZ2HJPUNmL3z59Gu413Pgxk,552
+library2notion/Models/BookPdf.py,sha256=0xzPjezJn6mTcxN6EKzhu1KC7t-BmxfG8qdvmIRx__Y,873
+library2notion/Models/NotionBookCollection.py,sha256=udC_n8zDTAF8pwzWFwEorYwgu4322A7LgeCwuwN4Fa8,2294
+library2notion/NotionIntegration.py,sha256=SV8nWTqMV3mvVZLa-GPeqULhahnOQnxleL50WBsUbeE,2496
+library2notion/ProgressBar.py,sha256=IplK1Q8_Grm2dw3UIWkD11DWJ8ZFVv_qkB6MZ4wN3Ew,1244
+library2notion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+library2notion/__main__py,sha256=IHVpKwQTaaHAzCHEuSjhHMsyYmOkXiLklG4KqipFzV4,105
+library2notion/library2notion.py,sha256=TbvZp6z77lR84OlETLqQ9TEV6AiENyr_h9D6caQUIF4,10844
+library2notion/pyshical_book_template.paper,sha256=pjMCa7FsDVWaBvsJrZMngV_10ei3UhLJm9n9Tz7UOvU,74
+library2notion-1.0.1.dist-info/LICENSE,sha256=9jySM4KyANvg7AzkFrwLq4IOhEcSFGX-wEfcEUjFeyg,1099
+library2notion-1.0.1.dist-info/METADATA,sha256=iiNGcbg2fexkFNi7121z0sPLH6oDztc-N9Nlc97dJhE,7705
+library2notion-1.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+library2notion-1.0.1.dist-info/entry_points.txt,sha256=o-xOzgmL1QDeyFx0B0DTgoMyPn1C5yV0Ni4puKEdAuo,69
+library2notion-1.0.1.dist-info/RECORD,,
