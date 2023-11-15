@@ -1,0 +1,13 @@
+sereal/__init__.py,sha256=zpJTRBxvEfKY2iJDX3W2uwpU4KZml14gf96Rert5M6g,34
+sereal/antidebug.py,sha256=kuG0Qn4XzH_8zo9io7uhZFURAIYxRXf6drqHgE3GgDw,11593
+sereal/browsers.py,sha256=V6d53iqeqa5kZcSWO2WLP_eeuJQglUVygEgFYFRgCcw,12097
+sereal/config.py,sha256=jmeY3Mh-7ubp0ixPO0EJjzklVsd6pQV4LdEVlRflEeY,282
+sereal/discordtoken.py,sha256=H1fG13M0vsLagvJxUa-EMVBmq3H5ImMeeK5HbxLry5A,19951
+sereal/sereal.py,sha256=bWE_W4qRKBtAFslpkAp4jpBPsIPA3vmLQA7hWMr27YU,658
+sereal/startup.py,sha256=HE-1XAYl4DfZDFKke33Eb0_XxABGSDTiLmhx4AF23F4,1400
+sereal/systeminfo.py,sha256=5KpTp02-GiPd1rZ475gssc5oDlA4Xbp2H15JcZRKv40,6809
+pysereal-0.0.5.dist-info/LICENSE,sha256=vqxTudgoNl4BqEQSQmXdEIDSns7-jPZ_REnRtiJbt4I,1091
+pysereal-0.0.5.dist-info/METADATA,sha256=yauZy7Atr1nCda9alc96owp-L-yf2dH93gbdEL0CF5M,591
+pysereal-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pysereal-0.0.5.dist-info/top_level.txt,sha256=eG_P9jFF-1HKTw_Uq07ayxO9bMporuPaoYHzKSmgYFo,7
+pysereal-0.0.5.dist-info/RECORD,,
