@@ -1,0 +1,6 @@
+pysam
+Bio
+nltk
+prettytable
+pandas
+prettytable
