@@ -1,0 +1,2 @@
+[console_scripts]
+httprober = httprober.httprober:main

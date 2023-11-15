@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: httprober
+Version: 1.0.1
+Summary: A fast alive subdomains finder with new generation HTTPX client
+Author: D. Sanjai Kumar
+Author-email: bughunterz0047@gmail.com
+License-File: LICENSE
+Requires-Dist: colorama==0.4.4
+Requires-Dist: httpx==0.25.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: argparse==1.4.0
+Requires-Dist: setuptools==68.1.2
