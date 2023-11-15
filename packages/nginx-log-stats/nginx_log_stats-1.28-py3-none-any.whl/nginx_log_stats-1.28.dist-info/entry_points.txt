@@ -1,0 +1,3 @@
+[console_scripts]
+ngxav=src.run:main
+
