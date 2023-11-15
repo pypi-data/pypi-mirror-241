@@ -1,0 +1,39 @@
+[build-system]
+requires = ['setuptools>=46.4', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'Late'
+dynamic = ['version']
+authors = [
+    {name = 'Juancarlo Añez', email = 'apalala@gmail.com'},
+]
+description = 'Late allows for late binding of default arguments'
+readme = 'README.md'
+requires-python = '>=3.11'
+keywords = []
+license = {file = 'LICENSE'}
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
+    'Natural Language :: English',
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Software Development :: Libraries',
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/neogeny/late"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+version = {attr = 'late._version.__version__'}
+
+[tool.setuptools.packages.find]
+include = ['late*', 'test*']
