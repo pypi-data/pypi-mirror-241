@@ -1,0 +1,4 @@
+[console_scripts]
+krisp_fasta = krisp.krisp_fasta.krisp_fasta:main
+krisp_vcf = krisp.krisp_vcf.krisp_vcf:main
+kstream = krisp.kstream.kstream:main
