@@ -1,0 +1,28 @@
+{% if wormhole.region in poi_regions %}
+    <span class="label label-info">{{ wormhole.region }}</span>
+{% else %}
+    <span class="label label-default">{{ wormhole.region }}</span>
+{% endif %}
+/
+{% if wormhole.system in poi_systems %}
+    <span class="label label-info">{{ wormhole.system }}</span>
+{% else %}
+    <span class="label label-default">{{ wormhole.system }}</span>
+{% endif %}
+{% if wormhole.mass == "Fresh" %}
+    <span class="label label-default">{{ wormhole.mass }}</span>
+{% elif wormhole.mass == "Reduced" %}
+    <span class="label label-warning">{{ wormhole.mass }}</span>
+{% elif wormhole.mass == "Critical" %}
+    <span class="label label-danger">{{ wormhole.mass }}</span>
+{% endif %}
+{% if wormhole.lifetime == "Fresh" %}
+    <span class="label label-default">{{ wormhole.formatted_lifetime }}</span>
+{% elif wormhole.lifetime == "Decaying" %}
+    <span class="label label-warning">{{ wormhole.formatted_lifetime }}</span>
+{% elif wormhole.lifetime == "EOL" %}
+    <span class="label label-danger">{{ wormhole.formatted_lifetime }}</span>
+{% endif %}
+{% if wormhole.bookmarked_k %}<span class="label label-default">K</span>{% endif %}
+{% if wormhole.bookmarked_w %}<span class="label label-default">W</span>{% endif %}
+<br />

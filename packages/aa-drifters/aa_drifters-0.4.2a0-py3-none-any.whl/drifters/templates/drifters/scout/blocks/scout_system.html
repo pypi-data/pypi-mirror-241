@@ -1,0 +1,12 @@
+{% load bootstrap %}
+{{ system }}
+<br />
+<form method="post">
+    {% csrf_token %}
+    {{ formset.management_form }}
+    <table>
+        {{ formset }}
+    </table>
+    <button>Add</button>
+</form>
+<br />

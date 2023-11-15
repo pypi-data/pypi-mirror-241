@@ -1,0 +1,29 @@
+{% load i18n %}
+{% load drifters %}
+<div class="col-lg-4">
+    {% if count == update_older_than_12h %}
+        <div class="panel panel-danger">
+        {% elif count == update_older_than_8h %}
+            <div class="panel panel-warning">
+            {% elif count == update_older_than_4h %}
+                <div class="panel panel-info">
+                {% else %}
+                    <div class="panel panel-success">
+                    {% endif %}
+
+                    <div class="panel-heading">
+                        <div class="panel-title">{{ complex }} x {{ count }}</div>
+                    </div>
+                    <div class="panel-body">
+                        update_older_than_4h: {{ update_older_than_4h }}
+                        <br />
+                        update_older_than_8h: {{ update_older_than_8h }}
+                        <br />
+                        update_older_than_12h: {{ update_older_than_12h }}
+                        <br />
+                    </div>
+                    <div class="panel-footer">
+                        <a name="Scout" class="btn btn-primary" href={% url "drifters:scout_complex" complex=complex %} role="button">Scout</a>
+                    </div>
+                </div>
+            </div>
