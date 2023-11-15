@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: qaznltk
+Version: 1.0.1
+Summary: A package for working with Kazakh language text processing.
+Author-email: "Aibol Zhussip, Kadyr Saparbay & Arman Zhalgasbayev" <supwithproject@gmail.com>
+Project-URL: Homepage, https://github.com/silvermete0r/QazNLTK
+Project-URL: Bug Tracker, https://github.com/silvermete0r/QazNLTK/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# QazNLTK
+A package for working with Kazakh language text processing.
