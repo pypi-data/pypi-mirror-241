@@ -1,0 +1,14 @@
+selenium
+libmagic
+Appium-Python-Client
+webdriver-manager
+Pillow
+requests_hawk
+requests_oauthlib
+tqdm
+
+[dev]
+check-manifest
+
+[test]
+coverage
