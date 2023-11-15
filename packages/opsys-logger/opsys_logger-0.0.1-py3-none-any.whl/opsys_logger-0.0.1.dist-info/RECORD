@@ -1,0 +1,10 @@
+opsys_logger/__init__.py,sha256=_6CN_s2VB1fo-Bb6LQFFB5ILKV_u9MbtN0IZh6vCuVs,110
+opsys_logger/print_formatter.py,sha256=E6qqx5gjpRjEsl4Frp5J7awS0symSCaanhtoSQOv9W8,3841
+opsys_logger/print_formatter_abstract.py,sha256=F27uIfN8BLZQjYYijuuDW1lKP3LcIbFtevIrEPz_pks,824
+test/__init__.py,sha256=TQphIB8LgAjC_CjRAobZHnSbXoTUlnKoEXE3S9tL-u8,76
+test/test_print_formatter.py,sha256=flYv5HtpEfyqI8n6_GF09JNxX0GGrXFjDSb5Rtw6qgo,3641
+opsys_logger-0.0.1.dist-info/LICENSE,sha256=k1uUZ25Ne_mz5L4Wb-Wkt3ieMEaoetnGrYPV6EGJG9g,1091
+opsys_logger-0.0.1.dist-info/METADATA,sha256=zhB2gQsyKVskUycvm4BNkAEI-cAVOjHwaoHfa-7K7dU,359
+opsys_logger-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+opsys_logger-0.0.1.dist-info/top_level.txt,sha256=UC28SQkuyLqtPzurRcBK-maaImERaO57Cw0qymlPgVI,18
+opsys_logger-0.0.1.dist-info/RECORD,,

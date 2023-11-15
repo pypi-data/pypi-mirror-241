@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: opsys-logger
+Version: 0.0.1
+Summary: python package with formatted logging printing
+Home-page: https://bitbucket.org/opsys_tech/opsys-logger/src/master/
+Download-URL: https://bitbucket.org/opsys_tech/opsys-logger/src/master/
+Author: dmitry.borovensky
+Author-email: dmitry.borovensky@opsys-tech.com
+License-File: LICENSE
+
