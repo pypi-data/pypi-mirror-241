@@ -1,0 +1,9 @@
+setup.py
+Slugifybadwendel.egg-info/PKG-INFO
+Slugifybadwendel.egg-info/SOURCES.txt
+Slugifybadwendel.egg-info/dependency_links.txt
+Slugifybadwendel.egg-info/top_level.txt
+pack/__init__.py
+pack/doublon.py
+pack/main.py
+pack/slugify.py
