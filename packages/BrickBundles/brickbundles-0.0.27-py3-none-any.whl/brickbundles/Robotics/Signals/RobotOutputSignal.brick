@@ -1,0 +1,6 @@
+RobotOutputSignal is Physics.Signals.OutputSignal:
+    angles is Real[]
+    angular_velocities is Real[]
+    sensor_values is SensorValues[]
+
+    static fn create(source_angle_signals: Physics.Signals.RealOutputSignal[], source_angular_velocity_signals: Physics.Signals.RealOutputSignal[], sensor_sources: Physics.Signals.OutputSignal[], source: Physics.Signals.Output) -> RobotOutputSignal

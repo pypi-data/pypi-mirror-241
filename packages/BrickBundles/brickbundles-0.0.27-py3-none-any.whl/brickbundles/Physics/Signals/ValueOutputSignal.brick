@@ -1,0 +1,3 @@
+ValueOutputSignal is OutputSignal:
+    value is Value
+    static fn create(v: Value, source: Output) -> ValueOutputSignal

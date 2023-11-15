@@ -1,0 +1,43 @@
+Value:
+    .doc: """
+Base for different types of values, e.g. for use in ValueOutputSignal
+"""
+
+
+
+
+RealValue is Value:
+    .doc: """
+Base for Values that are real numbers
+"""
+    value is Real
+
+
+AngleValue is RealValue:
+    static fn create(value: Real) -> AngleValue
+AngularVelocityValue is RealValue:
+    static fn create(value: Real) -> AngularVelocityValue
+TorqueValue is RealValue:
+    static fn create(value: Real) -> TorqueValue
+
+
+
+
+Vec3Value is Value:
+    .doc: """
+Base for Values that are real Vec3s
+"""
+    value is Math.Vec3
+
+PositionValue is Vec3Value:
+    static fn create(value: Math.Vec3) -> PositionValue
+RPYvalue is Vec3Value:
+    static fn create(value: Math.Vec3) -> RPYvalue
+AccelerationValue is Vec3Value:
+    static fn create(value: Math.Vec3) -> AccelerationValue
+ForceValue is Vec3Value:
+    static fn create(value: Math.Vec3) -> ForceValue
+DirectionalTorqueValue is Vec3Value:
+    static fn create(value: Math.Vec3) -> DirectionalTorqueValue
+AngularAccelerationValue is Vec3Value:
+    static fn create(value: Math.Vec3) -> AngularAccelerationValue

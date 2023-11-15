@@ -1,0 +1,2 @@
+GearTorqueOutput is Physics.Signals.Output:
+    gear is DriveTrain.Gear

@@ -1,0 +1,2 @@
+RotationalBodyAngularVelocityOutput is Physics.Signals.Output:
+    body is Physics1D.Bodies.RotationalBody

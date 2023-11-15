@@ -1,0 +1,5 @@
+HingeAngleOutput is Physics.Signals.Output:
+  .doc: """
+Sends a RealOutputSignal where the signal value is the angle in radians of the hinge
+"""
+    hinge is Physics3D.Interactions.Hinge
