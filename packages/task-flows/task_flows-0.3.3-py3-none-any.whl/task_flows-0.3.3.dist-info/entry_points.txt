@@ -1,0 +1,3 @@
+[console_scripts]
+_task_flows_call = task_flows.docker:_task_flows_call
+taskflows = task_flows.admin:cli
