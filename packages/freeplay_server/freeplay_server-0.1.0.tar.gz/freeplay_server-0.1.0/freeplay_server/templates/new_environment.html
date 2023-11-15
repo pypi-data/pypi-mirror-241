@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}New Environment{% endblock %}
+
+{% block body %}
+<header>
+    <h2>
+        New environment
+    </h2>
+</header>
+
+<section>
+    <form class="fields-form" method="post">
+        {% if error_message %}
+        <p class="form-error">{{ error_message }}</p>
+        {% endif %}
+
+        <label>
+            Environment Name
+            <input type="text" name="name" value="{{ name }}" maxlength="100" />
+        </label>
+        <nav class="actions">
+            <a href="{{ cancel_link }}" class="button secondary">Cancel</a>
+            <button class="button primary">Create</button>
+        </nav>
+    </form>
+</section>
+{% endblock %}

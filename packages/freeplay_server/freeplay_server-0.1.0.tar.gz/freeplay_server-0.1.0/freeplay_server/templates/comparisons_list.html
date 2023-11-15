@@ -1,0 +1,55 @@
+{% extends 'layout.html' %}
+{% set tab = 'comparisons' %}
+{% set show_project_nav = true %}
+
+{% block title %}Comparisons{% endblock %}
+
+{% block body %}
+    <section class="table-container preview-table">
+        <div class="table-title">Comparisons</div>
+        {% if comparisons|length %}
+            <table>
+                <thead>
+                <tr>
+                    <td>Date</td>
+                    <th>Prompt Version</th>
+                    <th>Compared to</th>
+                    <th>Status</th>
+                    <th>Cases Evaluated</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for comparison in comparisons %}
+                    <tr onclick="window.location='{{ comparison.detail_url }}';" class="clickable">
+                        <td>
+                            <display-date epoch-seconds="{{ comparison.created_at }}"></display-date>
+                        </td>
+                        <td>
+                            <p>{{ comparison.prompt_name }}</p>
+                            <p class="sub-text">
+                                <display-date epoch-seconds="{{ comparison.prompt_version_timestamp }}"></display-date>
+                            </p>
+                        </td>
+                        <td>
+                            {% if comparison.test_list_info.is_deleted %}
+                                <span class="deleted-entity">{{ comparison.test_list_info.name }} (Deleted)</span>
+                            {% else %}
+                                <span>{{ comparison.test_list_info.name }}</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ comparison.status }}</td>
+                        <td>{{ comparison.cases_evaluated }}/{{ comparison.total_cases }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="list-item centered empty-state">
+                Comparisons will appear after you create a test run using our SDK and click "Compare" on the Test Run
+                detail page.<br/>
+                See <a href="https://freeplay.readme.io/docs/quick-start" target="_blank">our docs</a> for more, or
+                reach out on Slack for help.
+            </p>
+        {% endif %}
+    </section>
+{% endblock %}

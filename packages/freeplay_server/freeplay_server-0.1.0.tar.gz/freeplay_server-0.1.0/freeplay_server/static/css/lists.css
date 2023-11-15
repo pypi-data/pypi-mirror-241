@@ -1,0 +1,94 @@
+.list-container {
+    background-color: var(--card-background-color);
+    padding: var(--xxs-length) var(--large-length);
+    border-radius: var(--small-length);
+}
+
+.list-container:first-of-type {
+    margin-top: 0;
+}
+
+.list-container:last-of-type {
+    margin-bottom: var(--small-length);
+}
+
+.list-title {
+    font-size: var(--xl-font-size);
+    line-height: var(--xl-line-height);
+    font-weight: var(--heavy-font-weight);
+    color: var(--accented-text-color);
+    padding: var(--small-length) 0;
+}
+
+.list-item {
+    padding: var(--small-length) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--xxs-length);
+    color: var(--accented-text-color);
+}
+
+.list-item.row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.list-item.heading {
+    padding: var(--small-length) 0;
+    font-weight: var(--heavy-font-weight);
+}
+
+.list-item.centered {
+    text-align: center;
+}
+
+.list-item .detail {
+    color: var(--text-color);
+}
+
+.list-item .detail2 {
+    color: var(--secondary-text-color);
+}
+
+.list-item.selectable {
+    color: var(--accented-text-color);
+    border-radius: var(--xxs-length);
+}
+
+.list-item.selectable:hover {
+    background-color: var(--background-for-accent-color);
+}
+
+.list-item.selectable.selected {
+    color: var(--accent-color);
+    background-color: var(--background-for-accent-color);
+    font-weight: var(--heavy-font-weight);
+}
+
+.list-item.selected .key {
+    color: var(--accent-color);
+    font-weight: var(--heavy-font-weight);
+}
+
+.key {
+    color: var(--text-color);
+    font-weight: var(--heavy-font-weight);
+}
+
+.key-value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.empty-state {
+    padding-top: var(--xl-length);
+    padding-bottom: var(--xl-length);
+}
+
+.list-scrollable {
+    overflow: scroll;
+}

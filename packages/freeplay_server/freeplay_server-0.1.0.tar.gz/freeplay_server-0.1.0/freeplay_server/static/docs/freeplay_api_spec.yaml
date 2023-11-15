@@ -1,0 +1,125 @@
+openapi: 3.0.3
+info:
+  title: Freeplay API
+  description: An API for interacting with Freeplay
+  contact:
+    name: API Support
+    email: support@freeplay.ai
+  version: 1.0.0
+servers:
+  - url: 'https://{customer_name}.freeplay.ai'
+    description: Production Freeplay server
+    variables:
+      customer_name:
+        default: 'customer_name'
+        description: This value is assigned by Freeplay during onboarding
+  - url: 'http://localhost:8080'
+    description: Local Freeplay server
+components:
+  securitySchemes:
+    freeplayAPIKeyAuth:
+      type: http
+      scheme: bearer
+    openaiAPIKeyAuth:
+      type: http
+      scheme: bearer
+paths:
+  /api/projects/{project_id}/sessions/tag/{tag_name}:
+    post:
+      description: Create a new session and load your prompt templates
+      security:
+        - freeplayAPIKeyAuth: [ ]
+      parameters:
+        - name: project_id
+          in: path
+          description: The project id
+          required: true
+          schema:
+            type: string
+        - name: tag_name
+          in: path
+          description: The tag name
+          required: true
+          schema:
+            type: string
+            default: latest
+      responses:
+        '201':
+          description: A list of prompt templates
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prompt_templates:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        content:
+                          type: string
+                          description: contents of the prompt template
+                        messages:
+                          type: array
+                          items:
+                            type: string
+                          description: json array containing chat messages
+                        name:
+                          type: string
+                          description: name of the prompt template
+  /api/openai/v1/completions:
+    post:
+      description: Completions endpoint
+      security:
+        - openaiAPIKeyAuth: [ ]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                prompt:
+                  type: array
+                  items:
+                    type: string
+                  description: The prompt to send to OpenAI
+                  example: What is the meaning of life?
+                model:
+                  type: string
+                  description: The model to use
+                  example: text-davinci-003
+      responses:
+        '200':
+          description: OpenAI Response
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/openai/v1/chat/completions:
+    post:
+      description: Chat completions endpoint
+      security:
+        - openaiAPIKeyAuth: [ ]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                model:
+                  type: string
+                  description: The model to use
+                  example: gpt-3.5-turbo
+                messages:
+                  type: array
+                  items:
+                    type: string
+                  description: json array containing chat messages
+                  example: [{"role": "system", "content": "You are an AI chatbot"}, {"role": "user", "content": "What can you tell me about flamingos?"}]
+      responses:
+        '200':
+          description: OpenAI Response
+          content:
+            application/json:
+              schema:
+                type: object

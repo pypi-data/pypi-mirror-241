@@ -1,0 +1,120 @@
+{% extends 'page_base.html' %}
+
+
+{% block content %}
+    <script>
+      function showCustomPopover(target) {
+        const popover = document.getElementById(target);
+        popover.style.display = 'flex';
+      }
+
+      function hideCustomPopover(popoverTarget) {
+        const popover = document.getElementById(popoverTarget);
+        popover.style.display = 'none';
+      }
+
+      document.addEventListener('click', function (event) {
+        // This code is duplicated on 'Layout.tsx'
+        const profileTrigger = document.getElementById('profileTrigger');
+        const profilePopover = document.getElementById('profilePopover');
+
+        const settingsTrigger = document.getElementById('settingsTrigger');
+        const settingsPopover = document.getElementById('settingsPopover')
+
+        if (!settingsTrigger.contains(event.target) && !settingsPopover.contains(event.target)) {
+          hideCustomPopover('settingsPopover');
+        }
+
+        if (!profileTrigger.contains(event.target) && !profilePopover.contains(event.target)) {
+          hideCustomPopover('profilePopover');
+        }
+      });
+    </script>
+
+    <nav class="main-navigation">
+        <div class="main-navigation-container">
+            <div class="navigation-header">
+                <a href="/"><img class="freeplay-logo" src="{{ url_for('static', filename='images/logo.png') }}"
+                                 alt="FreePlay Logo"></a>
+                {% if g.all_projects %}
+                    <select aria-label="Project dropdown" onchange="window.location = this.value">
+                        {% if not g.project %}<option selected disabled>Projects</option> {% endif %}
+                        {% for project in g.all_projects %}
+                            <option value="/projects/{{ project.id }}{% if tab %}/{{tab}}{% endif %}"
+                                    {% if g.project and project.id == g.project.id %}selected{% endif %}>
+                                {{ project.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                {% endif %}
+            </div>
+            {% if g.session_user %}
+                <div class="account-navigation-items">
+                    <div class="nav-item" id="settingsTrigger" onclick="showCustomPopover('settingsPopover')">
+                        <img alt="gear icon" src="{{ url_for('static', filename='images/gear.svg') }}"/>
+                        Settings
+                    </div>
+                    <div class="profile-popover-overlay" id="settingsPopover" style="display: none">
+                        <div class="profile-popover">
+                            <a href="/settings/account/" class="popover-list-item">
+                                <span {% if request.path == '/settings/account/' %}class="text-[--accent-color] font-bold"{% endif %}>Account</span>
+                            </a>
+                            <a href="/settings/api-access/" class="popover-list-item">
+                                <span {% if request.path == '/settings/api-access/' %}class="text-[--accent-color] font-bold"{% endif %}>API Access</span>
+                            </a>
+                            <a href="/settings/environments" class="popover-list-item">
+                                <span {% if request.path == '/settings/environments/' %}class="text-[--accent-color] font-bold"{% endif %}>Environments</span>
+                            </a>
+                            <a href="/settings/models/" class="popover-list-item">
+                                <span>Models</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-item" id="profileTrigger" onclick="showCustomPopover('profilePopover')">
+                        <img alt="profile icon" src="{{ url_for('static', filename='images/profile.svg') }}"/>
+                        Profile
+                    </div>
+                    <div class="profile-popover-overlay" id="profilePopover" style="display: none">
+                        <div class="profile-popover">
+                            <a href="/login/logout" class="popover-list-item">
+                                <span>Log out</span>
+                            </a>
+                            <span class="popover-list-item"
+                                  style="color: var(--white-3); cursor: text">{{ g.session_user.email_address }}</span>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </nav>
+
+    <main>
+        <div class="main-container">
+            {% if g.project and show_project_nav %}
+                <header>
+                    <h2>{{ g.project.name }}</h2>
+                </header>
+
+                <nav class="page-navigation">
+                    <a href="/projects/{{ g.project.id }}/sessions"
+                       class="nav-item {{ tab == "sessions" and "selected" or "" }}">
+                        Sessions
+                    </a>
+                    <a href="/projects/{{ g.project.id }}"
+                       class="nav-item {{ tab == "prompts" and "selected" or "" }}">
+                        Prompts
+                    </a>
+                    <a href="/projects/{{ g.project.id }}/tests"
+                       class="nav-item {{ tab == "tests" and "selected" or "" }}">
+                        Tests
+                    </a>
+                    <a href="/projects/{{ g.project.id }}/comparisons"
+                       class="nav-item {{ tab == "comparisons" and "selected" or "" }}">
+                        Comparisons
+                    </a>
+                </nav>
+            {% endif %}
+            {% block body %}{% endblock %}
+        </div>
+    </main>
+{% endblock content %}

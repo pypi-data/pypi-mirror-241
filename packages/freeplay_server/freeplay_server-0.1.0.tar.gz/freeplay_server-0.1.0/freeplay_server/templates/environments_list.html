@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}Environments List{% endblock %}
+
+{% block body %}
+<header>
+    <h2>Environments</h2>
+    <a class="button primary" href="{{ new_link }}">New environment</a>
+</header>
+
+<section class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Created date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for environment in all_environments %}
+            <tr>
+                <td style="width: 50%; cursor: pointer" onclick="">
+                    {{ environment.name }}
+                </td>
+                <td style="width: 50%; cursor: pointer" onclick="">
+                    {{ environment.created_date }}
+                </td>
+                {% if environment.name != 'latest' %}
+                <td style="padding-top: 0; padding-bottom: 0">
+                    <a href="/settings/environments/{{ environment.id }}">
+                        <button class="button secondary icon-button" hx-target="#modal">
+                            <img alt="pencil icon" src="{{ url_for('static', filename='images/pencil.svg') }}"/>
+                        </button>
+                    </a>
+                </td>
+                <td style="padding-top: 0; padding-bottom: 0">
+                    <button class="button secondary icon-button" hx-target="#modal"
+                        hx-get="/settings/environments/request_deletion/{{ environment.id }}">
+                        <img alt="trash icon" src="{{ url_for('static', filename='images/trash.svg') }}"/>
+                    </button>
+                </td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+<div id="modal"></div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+{% set tab = 'prompts' %}
+{% set show_project_nav = true %}
+
+
+{% block title %}Prompts{% endblock %}
+
+{% block body %}
+    <section>
+        <section class="table-container">
+            <div class="table-title with-action">
+                Prompts
+                <div class="actions">
+                    <a class="button secondary" href="/projects/{{ project_id }}/new-template">
+                        Create Prompt Template</a>
+                </div>
+            </div>
+            <table>
+                {% if templates|length %}
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Latest version</th>
+                        <th>Model</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for template in templates %}
+                        <tr onclick="window.location='/projects/{{ project_id }}/templates/{{ template.prompt_template_id }}';"
+                            class="clickable">
+                            <td>{{ template.name }}</td>
+                            <td>
+                                <display-date epoch-seconds="{{ template.last_updated_at }}"/>
+                            </td>
+                            <td>
+                                {{ template.model_name }}<br/>
+                                {% if template.llm_parameters %}
+                                    {% for param in template.llm_parameters.parameters %}
+                                        <span class="sub-text">{{ param.name }}: {{ param.value }}</span><br>
+                                    {% endfor %}
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                {% else %}
+                    <p class="list-item centered empty-state">Add your first prompt template to get started.</p>
+                {% endif %}
+            </table>
+        </section>
+    </section>
+{% endblock %}

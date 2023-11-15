@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    font-size: var(--xxl-font-size);
+    line-height: var(--xxl-line-height);
+    font-weight: var(--x-heavy-font-weight);
+    color: var(--accented-text-color);
+}
+
+header > .with-icon {
+    display: flex;
+    align-items: center;
+    gap: var(--xs-length)
+}
+
+section {
+    margin-top: var(--large-length);
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.page-navigation {
+    display: flex;
+    gap: var(--large-length);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.page-navigation .nav-item {
+    padding: var(--xxs-length) 0;
+    cursor: pointer;
+}
+
+.page-navigation .nav-item.selected {
+    border-bottom: 1px solid var(--accent-color);
+    /* ensure the border lines up with the container border */
+    margin-bottom: -1px;
+    /* ensure the negative margin doesn't push other elements around */
+    padding-bottom: calc(var(--xxs-length) + 1px);
+    cursor: inherit;
+}
+
+.side-by-side {
+    display: flex;
+    gap: var(--xl-length);
+    position: relative;
+}
+
+.side-by-side article {
+    align-self: flex-start;
+}
+
+.side-by-side article.sticky {
+    position: sticky;
+    top: calc(-1 * var(--small-length));
+}
+
+.side-by-side article.small {
+    flex: 1;
+}
+
+.side-by-side article.large {
+    flex: 2;
+}

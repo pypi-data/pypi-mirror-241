@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FreePlay">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="modulepreload" href="{{ url_for('static', filename='react/freeplay.js') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    <script src="{{ url_for('static', filename='js/htmx-1.9.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/webcomponents.js') }}"></script>
+</head>
+
+<body>
+
+{% block content %}{% endblock %}
+
+<script>
+    const firstInput = document.querySelector('input[type=text]');
+    if (firstInput) {
+        firstInput.focus();
+    }
+
+    {%  if g.should_accept_tos %}
+        // Show ToS Modal
+        const tosModal = document.createElement('div');
+        document.body.appendChild(tosModal);
+
+        fetch('/settings/account/view_tos')
+            .then(response =>
+                response.text())
+            .then(text => tosModal.innerHTML = text);
+    {% endif %}
+</script>
+</body>
+</html>

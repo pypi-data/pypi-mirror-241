@@ -1,0 +1,96 @@
+{% extends 'layout.html' %}
+{% import 'macros/comparisons_progress_bar.html' as macros %}
+{% set tab = 'comparisons' %}
+{% set show_project_nav = true %}
+
+{% block title %}Comparing {{ test_list_name }}{% endblock %}
+
+{% block body %}
+    <section class="side-by-side">
+        <article class="results-section">
+            <div class="table-container results-table small">
+                <h3>Results</h3>
+                <div class="comparison-detail-row items-center">
+                    <div class="flex flex-col">
+                        <div class="success-color">
+                            {% if comparison_info.right_timestamp %}
+                                <span>{{ comparison_info.right_name }}: <display-date
+                                        epoch-seconds="{{ comparison_info.right_timestamp }}"></display-date></span>
+                            {% else %}
+                                <span>{{ comparison_info.right_name }}</span>
+                            {% endif %}
+                        </div>
+                        {% if comparison_info.right_model %}
+                            <span class="sub-text">{{ comparison_info.right_model }}</span>
+                        {% endif %}
+                    </div>
+                    <div>{{ comparison_info.prefer_right_count }}</div>
+                </div>
+                <div class="comparison-detail-row items-center">
+                    <div class="flex flex-col">
+                        <div class="regress-color">
+                            {% if comparison_info.left_timestamp %}
+                                <span>{{ comparison_info.left_name }}: <display-date
+                                        epoch-seconds="{{ comparison_info.left_timestamp }}"></display-date></span>
+                            {% else %}
+                                <span>{{ comparison_info.left_name }}</span>
+                            {% endif %}
+                        </div>
+                        {% if comparison_info.left_model %}
+                            <span class="sub-text">{{ comparison_info.left_model }}</span>
+                        {% endif %}
+                    </div>
+                    <div>{{ comparison_info.prefer_left_count }}</div>
+                </div>
+                <div class="comparison-detail-row">
+                    <div class="tie-color">Neutral</div>
+                    <div>{{ comparison_info.tied_count }}</div>
+                </div>
+                <div>
+                    {{ macros.comparison_progress_bar(comparison_info) }}
+                </div>
+                <form class="comparison-actions" action="{{ finish_comparison_url }}" method="post">
+                    <button class="button secondary whitespace-nowrap" type="submit" name="action" value="end">End
+                        comparison
+                    </button>
+                    <button class="button" type="submit" name="action" value="deploy">Deploy</button>
+                </form>
+            </div>
+        </article>
+        <article class="large table-container">
+            <h3>Comparing results for Test List: <a href="{{ test_list_url }}">{{ test_list_name }}</a></h3>
+            <table class="fixed-table preview-table">
+                <thead>
+                <tr>
+                    <th>Test case</th>
+                    <th class="comparison-result-badge">Result</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for test_case_info in test_case_infos %}
+                    <tr onclick="window.location.href = '{{ test_case_info.comparison_url }}'" class="clickable">
+                        <td>
+                            {% for key, value in test_case_info.inputs.items() %}
+                                <span class="flex items-center">
+                                    <span class="tag badge-input flex-shrink-0">{{ key }}</span>
+                                    <span class="overflow-hidden whitespace-nowrap text-ellipsis ml-5">{{ value }}</span>
+                                </span>
+                            {% endfor %}
+                        </td>
+                        <td class="comparison-result-badge">
+                            <div class="badge badge-{{ test_case_info.badge_style }}">
+                                {% if test_case_info.result_timestamp %}
+                                    {{ test_case_info.result }}:
+                                    <display-date epoch-seconds="{{ test_case_info.result_timestamp }}"></display-date>
+                                {% else %}
+                                    {{ test_case_info.result }}
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </article>
+    </section>
+{% endblock %}

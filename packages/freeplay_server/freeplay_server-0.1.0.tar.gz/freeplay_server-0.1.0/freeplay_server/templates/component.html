@@ -1,0 +1,15 @@
+{% extends 'page_base.html' %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='react/freeplay.css') }}">
+    <script type="module">
+      import { {{ component }}, renderModule} from '{{ url_for('static', filename='react/freeplay.js') }}';
+
+      const server_json = JSON.parse({{ json_data|tojson }});
+      renderModule('react-root', {{ component }}, server_json);
+    </script>
+
+    <div id="react-root" class="flex flex-col overflow-y-hidden h-full">
+    </div>
+{% endblock %}

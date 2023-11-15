@@ -1,0 +1,16 @@
+{# Note that the GET is pointless #}
+<div id="overlay" class="overlay" hx-get="/" hx-target="#overlay" hx-swap="delete">
+    <div class="confirmation-modal">
+        <div class="confirmation-text">Are you sure you want to delete this project?</div>
+        <div class="actions">
+            {# Another pointless GET #}
+            <button onclick="window.event.stopPropagation()" class="button secondary" hx-get="/" hx-trigger="click"
+                    hx-target="#overlay" hx-swap="delete">Cancel
+            </button>
+            <button onclick="fetch('/projects/{{ project_id }}', {method: 'DELETE'}).then(() => window.location='/projects')"
+                    class="button primary"
+            >Confirm
+            </button>
+        </div>
+    </div>
+</div>

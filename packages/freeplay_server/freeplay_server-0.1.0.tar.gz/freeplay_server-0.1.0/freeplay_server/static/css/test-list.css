@@ -1,0 +1,9 @@
+.done-button {
+    display: flex;
+    justify-content: end;
+    margin-top: var(--small-length);
+}
+
+.header {
+    margin-bottom: var(--xxs-length);
+}

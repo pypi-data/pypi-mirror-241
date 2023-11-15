@@ -1,0 +1,8 @@
+.project-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmation-text {
+    margin-bottom: var(--medium-length);
+}

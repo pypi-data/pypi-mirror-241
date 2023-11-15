@@ -1,0 +1,2 @@
+class AutoEvalTemplatingError(RuntimeError):
+    pass

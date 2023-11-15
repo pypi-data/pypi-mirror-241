@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}Project List{% endblock %}
+
+{% block body %}
+    <header>
+        <h2>Project List</h2>
+        <a class="button primary" href="{{ new_link }}">New project</a>
+    </header>
+
+    <section class="table-container">
+        {% if all_projects|length %}
+            <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for project in all_projects %}
+                    <tr>
+                        <td style="width: 100%; cursor: pointer" onclick="window.location='/projects/{{ project.id }}';">
+                            {{ project.name }}
+                        </td>
+                        <td style="padding-top: 0; padding-bottom: 0">
+                            <button
+                                    class="button secondary icon-button"
+                                    hx-target="#modal"
+                                    hx-get="/projects/request_deletion/{{ project.id }}"
+                            >
+                                <img alt="trash icon" src="{{ url_for('static', filename='images/trash.svg') }}"/>
+                            </button>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="list-item centered empty-state">
+                Create a Project to start using Freeplay. A Project can be a single prompt, chain or chatbot where you want to iterate and compare similar results.
+            </p>
+        {% endif %}
+    </section>
+    <div id="modal"></div>
+{% endblock %}

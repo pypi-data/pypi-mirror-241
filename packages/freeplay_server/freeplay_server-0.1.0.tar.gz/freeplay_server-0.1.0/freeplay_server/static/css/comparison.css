@@ -1,0 +1,240 @@
+.results-section {
+    max-width: 26em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.results-table {
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--large-font-size);
+    font-weight: var(--heavy-font-weight);
+}
+
+.results-table-inner {
+    display: flex;
+    grid-template-columns: 1fr 24px;
+    row-gap: 2em;
+}
+
+.comparison-actions {
+    display: flex;
+    gap: 1em;
+}
+
+.comparison-actions > * {
+    flex: 1;
+}
+
+.success-color {
+    color: var(--success-color);
+}
+
+.tie-color {
+    color: var(--accent-color);
+}
+
+.regress-color {
+    color: var(--secondary-accent-color);
+}
+
+.badge {
+    width: fit-content;
+    max-width: 100%;
+    border-radius: var(--xxs-length);
+    padding: 0 var(--xxs-length);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.badge.hotkey {
+    margin-left: var(--xxs-length);
+}
+
+.badge-blue {
+    color: var(--color-3);
+    background: var(--color-3-translucent);
+}
+
+.badge-green {
+    color: var(--color-5);
+    background: var(--color-5-translucent);
+}
+
+.badge-yellow {
+    color: var(--color-1);
+    background: var(--color-1-translucent);
+}
+
+.badge-input {
+    background-color: var(--color-4-translucent);
+    color: var(--color-4);
+}
+
+.badge-pink {
+    background-color: var(--color-4-translucent);
+    color: var(--color-4);
+}
+
+.comparison-result-badge {
+    width: 22em;
+}
+
+.comparison-detail-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comparison-progress-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 20rem;
+    padding-bottom: var(--xxxs-length)
+}
+
+.comparison-progress-bar {
+    display: inline-block;
+    background-color: var(--black-3);
+    height: var(--xxs-length);
+    width: 100%;
+}
+
+.comparison-progress-bar.regress-color {
+    background-color: var(--secondary-accent-color);
+}
+
+.comparison-progress-bar.tie-color {
+    background-color: var(--accent-color);
+}
+
+.comparison-progress-bar.success-color {
+    background-color: var(--success-color);
+}
+
+.comparison-progress-bar:first-child {
+    border-bottom-left-radius: var(--xxs-length);
+    border-top-left-radius: var(--xxs-length);
+}
+
+.comparison-progress-bar:last-child {
+    border-bottom-right-radius: var(--xxs-length);
+    border-top-right-radius: var(--xxs-length);
+}
+
+.secondary-text-color {
+    color: var(--secondary-text-color);
+}
+
+.text-weight-light {
+    font-weight: var(--light-font-weight);
+}
+
+.tagging-modal-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagging-modal {
+    background-color: var(--card-background-color);
+    border-radius: var(--xxs-length);
+    padding: var(--small-length);
+    max-width: 400px;
+    display: flex;
+    gap: var(--small-length);
+    flex-direction: column;
+}
+
+.wide-button {
+    min-width: 12rem;
+    text-align: center;
+}
+
+.wide-button .button {
+    min-width: 12rem;
+
+    &:hover {
+        background-color: var(--white-3);
+    }
+}
+
+.horizontal-button-group {
+    display: flex;
+    justify-content: center;
+    gap: var(--xxs-length);
+
+    .blue-button:hover {
+        color: var(--color-3);
+        background: var(--color-3-translucent);
+    }
+
+    .yellow-button:hover {
+        color: var(--color-1);
+        background: var(--color-1-translucent);
+    }
+
+    .green-button:hover {
+        color: var(--color-5);
+        background: var(--color-5-translucent);
+    }
+}
+
+.horizontal-button-group .button {
+    width: 30rem;
+    text-align: center;
+}
+
+.footer-container {
+    margin: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: var(--sticky-footer-height);
+    background-color: var(--card-background-color);
+    padding: 0 var(--large-length);
+    box-shadow: var(--shadow);
+    border-top-right-radius: var(--small-length);
+    border-top-left-radius: var(--small-length);
+}
+
+.footer-container.animated {
+    animation: animateFooterIntoView var(--long-animation-duration) var(--spring-curve) forwards;
+    bottom: calc(-1 * var(--sticky-footer-height));
+}
+
+@keyframes animateFooterIntoView {
+    to {
+        bottom: 0;
+    }
+}
+
+.animate-button-flash {
+    animation: button-flash 300ms ease-in-out;
+}
+
+@keyframes button-flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.sticky-footer {
+    margin: 0 auto;
+    max-width: var(--application-max-width);
+}
