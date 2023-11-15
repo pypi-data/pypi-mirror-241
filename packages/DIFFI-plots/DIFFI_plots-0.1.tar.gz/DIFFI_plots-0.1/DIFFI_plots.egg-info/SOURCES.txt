@@ -1,0 +1,6 @@
+setup.py
+DIFFI_plots/__init__.py
+DIFFI_plots.egg-info/PKG-INFO
+DIFFI_plots.egg-info/SOURCES.txt
+DIFFI_plots.egg-info/dependency_links.txt
+DIFFI_plots.egg-info/top_level.txt
