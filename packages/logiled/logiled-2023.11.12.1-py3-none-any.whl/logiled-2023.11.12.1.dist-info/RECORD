@@ -1,0 +1,9 @@
+logiled/__init__.py,sha256=mwPmViCOYeCGfOSnOJJPdHZLlYaPwmfgdA3UzXlfB44,24
+logiled/dll_definition.py,sha256=LoQ2OYODDluZiomMhAx9Zb7wxt2yTvZ1-FRPzyNYbG4,2311
+logiled/logi_led.py,sha256=aZ49tjQB9cSnbhnESYZKHd4K2-GtUXrPxWg9WDDs5d4,20956
+logiled/dll/LogitechLedEnginesWrapper.dll,sha256=RqB3Plrm71skVX8wUeGKYlJ8eywTM2DfshUiy_6cvdE,20104
+logiled-2023.11.12.1.dist-info/LICENSE.txt,sha256=MyLscg2n666qNiuKOMAshMDzNv5UBZjq31_Y1vE9zWs,1083
+logiled-2023.11.12.1.dist-info/METADATA,sha256=ujUiJi-LtH2l3rFRec-zc-ti9ZiUxfxErGMEHSNms2Y,2174
+logiled-2023.11.12.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+logiled-2023.11.12.1.dist-info/top_level.txt,sha256=niYSMLcx5FL_JD6H1ax4Ww_3-8Xw6uZ6Z7C9JzXRj-Q,8
+logiled-2023.11.12.1.dist-info/RECORD,,
