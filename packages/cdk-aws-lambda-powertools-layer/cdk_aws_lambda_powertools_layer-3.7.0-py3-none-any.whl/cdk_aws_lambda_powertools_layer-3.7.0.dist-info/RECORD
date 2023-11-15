@@ -1,0 +1,9 @@
+cdk_aws_lambda_powertools_layer/__init__.py,sha256=YgEKflhnsqPVyjMSVxf4LfaGOtf8zK7OC8FdjuFnA9E,14519
+cdk_aws_lambda_powertools_layer/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_aws_lambda_powertools_layer/_jsii/__init__.py,sha256=wpPt6upWByd2gpMyCrAYeSCju_MMv9rlA_rmauX4PDs,442
+cdk_aws_lambda_powertools_layer/_jsii/cdk-aws-lambda-powertools-layer@3.7.0.jsii.tgz,sha256=RqE-f7lLrB4ZNI9RBfDfJ3p8Ow6PRsFDbd54W8juKyQ,23421
+cdk_aws_lambda_powertools_layer-3.7.0.dist-info/LICENSE,sha256=P35yXqLkslIk9J0F_vzMqZTYx4kK7A-aF3eILCREm8A,933
+cdk_aws_lambda_powertools_layer-3.7.0.dist-info/METADATA,sha256=upi2__qrpzThsPtGP3yDymPxdLUTIhObQurPxEpPMgM,5474
+cdk_aws_lambda_powertools_layer-3.7.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cdk_aws_lambda_powertools_layer-3.7.0.dist-info/top_level.txt,sha256=lGHfQulrYmdE1nQLHsdtLmsi8AEWbMqa01MCxnoqcok,32
+cdk_aws_lambda_powertools_layer-3.7.0.dist-info/RECORD,,
