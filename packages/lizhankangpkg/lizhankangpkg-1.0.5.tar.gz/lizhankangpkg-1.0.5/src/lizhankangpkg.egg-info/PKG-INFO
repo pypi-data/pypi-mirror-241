@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lizhankangpkg
+Version: 1.0.5
+Summary: 使用setuptools构建python分发包最佳实践
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Welcome to use lizhankangpkg
+# lizhankang Package
+
+今天解决不了的事情，别着急、别慌，因为明天你也解决不了
