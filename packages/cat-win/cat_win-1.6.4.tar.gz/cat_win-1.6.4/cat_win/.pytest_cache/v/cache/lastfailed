@@ -1,0 +1,3 @@
+{
+  "tests/test_argparser.py::TestArgParser::test_known_directories": true
+}
