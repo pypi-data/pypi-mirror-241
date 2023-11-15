@@ -1,0 +1,5 @@
+setup.py
+funcaptcha_challenger.egg-info/PKG-INFO
+funcaptcha_challenger.egg-info/SOURCES.txt
+funcaptcha_challenger.egg-info/dependency_links.txt
+funcaptcha_challenger.egg-info/top_level.txt
