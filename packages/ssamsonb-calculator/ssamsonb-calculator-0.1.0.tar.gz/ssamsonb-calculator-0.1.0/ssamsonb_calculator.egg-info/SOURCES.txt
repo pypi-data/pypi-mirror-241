@@ -1,0 +1,5 @@
+setup.py
+ssamsonb_calculator.egg-info/PKG-INFO
+ssamsonb_calculator.egg-info/SOURCES.txt
+ssamsonb_calculator.egg-info/dependency_links.txt
+ssamsonb_calculator.egg-info/top_level.txt
