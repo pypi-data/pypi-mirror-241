@@ -1,0 +1,12 @@
+tgedr/__init__.py,sha256=y0ChJ_bF7ruMnlLoO4VRBBx_L4t0eba90o4-g4ULbHM,43
+tgedr/nihao/__init__.py,sha256=y0ChJ_bF7ruMnlLoO4VRBBx_L4t0eba90o4-g4ULbHM,43
+tgedr/nihao/commons.py,sha256=J8662Rbp5TyMv4_abuBWJIIfh2DHwAseb7S2XnxN0oM,817
+tgedr/nihao/fetcher.py,sha256=pBllgJoS6jg0j5t8kbs-Vs1opRImyYS31EyAzxf9ftk,3635
+tgedr/nihao/ticker_fetcher.py,sha256=5LBukKRPs-uhlDTCWzHoC8M-Af9hBczNDA-WLKSx7Yc,1716
+tgedr/nihao/s3/__init__.py,sha256=y0ChJ_bF7ruMnlLoO4VRBBx_L4t0eba90o4-g4ULbHM,43
+tgedr/nihao/s3/s3.py,sha256=n13Y0SUvGXmWc5WxfOZDMiOZ88zPeceVBcEhJpIMwOQ,4165
+tgedr_nihao-0.0.3.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+tgedr_nihao-0.0.3.dist-info/METADATA,sha256=wnSgkMfwjUG19JPZDg0wzs-c2nfFLcLh9TxCu-Atli4,661
+tgedr_nihao-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tgedr_nihao-0.0.3.dist-info/top_level.txt,sha256=acugNvvENatFXbPxKQD9YI5PpzzehbAwyY1keiIkR7I,6
+tgedr_nihao-0.0.3.dist-info/RECORD,,
