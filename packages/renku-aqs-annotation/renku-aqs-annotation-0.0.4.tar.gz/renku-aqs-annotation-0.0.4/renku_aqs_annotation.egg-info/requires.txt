@@ -1,0 +1,12 @@
+deepdiff
+pydotplus
+bs4
+renku<3,>=2.7
+matplotlib
+astroquery
+aqsconverters
+nb2workflow[rdf]>=1.3.41
+pyvis==0.3.0
+pydotplus
+lockfile
+pytest
