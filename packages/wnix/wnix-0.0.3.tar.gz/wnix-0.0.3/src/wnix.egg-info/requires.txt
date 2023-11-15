@@ -1,0 +1,12 @@
+requests
+bs4
+fleep
+validators
+numpy
+Pillow
+pypdf
+sentence_transformers
+transformers
+pytest
+assure
+rootfs
