@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: topogenesis
+Version: 0.0.12
+Summary: Topological Structures and Methods for Generative Systems and Sciences
+Home-page: https://github.com/shervinazadi/topoGenesis
+Author: Shervin Azadi, and Pirouz Nourian
+Author-email: shervinazadi93@gmail.com
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE
