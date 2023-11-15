@@ -1,0 +1,24 @@
+language_tools.tools.sentiment_analysis.get_sentiment_analysis:
+  function: get_sentiment_analysis
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    language:
+      type:
+      - string
+    text:
+      type:
+      - string
+    opinion_mining:
+      default: False
+      type:
+      - bool
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.sentiment_analysis
+  name: Sentiment Analysis
+  description: Use Azure AI Language to analyze the sentiment of text.
+  type: python

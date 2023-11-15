@@ -1,0 +1,17 @@
+language_tools.tools.language_detection.get_language_detection:
+  function: get_language_detection
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    text:
+      type:
+      - string
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.language_detection
+  name: Language Detection 
+  description: Use Azure AI Language to detect the language of text.
+  type: python

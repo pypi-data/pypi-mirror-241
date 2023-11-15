@@ -1,0 +1,26 @@
+language_tools.tools.conversational_language_understanding.get_conversational_language_understanding:
+  function: get_conversational_language_understanding
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    language:
+      type:
+      - string
+    utterances:
+      type:
+      - string
+    project_name:
+      type:
+      - string
+    deployment_name:
+      type:
+      - string
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.conversational_language_understanding
+  name: Conversational Language Understanding
+  description: Use Azure AI Language to analyze conversations.
+  type: python

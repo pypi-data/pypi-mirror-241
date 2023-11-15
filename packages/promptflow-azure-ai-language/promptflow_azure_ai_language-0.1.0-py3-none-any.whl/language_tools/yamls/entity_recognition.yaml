@@ -1,0 +1,20 @@
+language_tools.tools.entity_recognition.get_entity_recognition:
+  function: get_entity_recognition
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    language:
+      type: 
+      - string
+    text:
+      type:
+      - string
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.entity_recognition
+  name: Entity Recognition
+  description: Use Azure AI Language to recognize and categorize entities in text.
+  type: python

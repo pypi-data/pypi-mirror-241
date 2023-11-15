@@ -1,0 +1,20 @@
+languaeg_tools.tools.key_phrase_extraction.get_key_phrase_extraction:
+  function: get_key_phrase_extraction
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    language:
+      type: 
+      - string
+    text:
+      type:
+      - string
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.key_phrase_extraction
+  name: Key Phrase Extraction
+  description: Use Azure AI Language to extract key phrases from text.
+  type: python

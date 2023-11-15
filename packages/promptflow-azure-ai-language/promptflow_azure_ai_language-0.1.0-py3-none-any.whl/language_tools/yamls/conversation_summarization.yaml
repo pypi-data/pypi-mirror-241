@@ -1,0 +1,37 @@
+language_tools.tools.conversation_summarization.get_conversation_summarization:
+  function: get_conversation_summarization
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    language:
+      type:
+      - string
+    text:
+      type:
+      - string 
+    summary_aspect:
+      enum: 
+      - "chapterTitle"
+      - "issue"
+      - "narrative"
+      - "resolution"
+      - "recap"
+      - "follow-up tasks"
+      type: 
+      - string
+    modality:
+      default: "text"
+      enum:
+      - "text"
+      - "transcript"
+      type: 
+      - string
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.conversation_summarization
+  name: Conversation Summarization
+  description: Use Azure AI Language to summarize conversations.
+  type: python

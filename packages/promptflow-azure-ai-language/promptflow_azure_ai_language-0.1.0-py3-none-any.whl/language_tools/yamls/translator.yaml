@@ -1,0 +1,24 @@
+language_tools.tools.translator.get_translation:
+  function: get_translation
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    text:
+      type:
+      - string
+    to:
+      type:
+      - list
+    source_language:
+      default: ""
+      type:
+      - string
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.translator
+  name: Translator
+  description: Use Azure AI to translate documents.
+  type: python

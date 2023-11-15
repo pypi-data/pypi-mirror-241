@@ -1,0 +1,31 @@
+language_tools.tools.pii_entity_recognition.get_pii_entity_recognition:
+  function: get_pii_entity_recognition
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    language:
+      type:
+      - string
+    text:
+      type:
+      - string
+    domain: 
+      default: 'none'
+      enum:
+      - 'none' 
+      - 'phi'
+      type:
+      - string
+    categories:
+      default: []
+      type:
+      - list
+    parse_response:
+      default: False
+      type: 
+      - bool 
+  module: language_tools.tools.pii_entity_recognition
+  name: PII Entity Recognition
+  description: Use Azure AI Language to recognize and redact PII entities in text.
+  type: python
