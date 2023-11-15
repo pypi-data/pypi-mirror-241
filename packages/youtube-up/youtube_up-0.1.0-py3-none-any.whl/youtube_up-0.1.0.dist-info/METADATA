@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: youtube-up
+Version: 0.1.0
+Summary: Upload videos to YouTube using the internal YouTube API
+Author: 7x11x13
+Author-email: x7x11x13@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dataclasses-json (>=0.6.2,<0.7.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: selenium (>=4.15.2,<5.0.0)
+Requires-Dist: selenium-wire (>=5.1.0,<6.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# youtube-up
+
+## WIP
