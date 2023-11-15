@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Package-video-to-gif
+Version: 0.1.0
+Summary: Un outil pour convertir des vidéos en fichiers GIF.
+Home-page: https://github.com/PLeila/videotogif.git
+Author: Barbara && Watcherley
+Author-email: pierrebarbara012@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.2
+

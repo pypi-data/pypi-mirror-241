@@ -1,0 +1,2 @@
+[console_scripts]
+videotogif = videotogif.main:main
