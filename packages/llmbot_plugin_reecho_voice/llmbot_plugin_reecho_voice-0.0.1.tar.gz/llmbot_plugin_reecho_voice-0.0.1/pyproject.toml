@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llmbot_plugin_reecho_voice"
+version = "0.0.1"
+description = "Generate Voice From reecho.ai Api In OpenAiBot."
+authors = ["LlmKira <me@dianas.cyou>"]
+license = "MIT"
+readme = "README.md"
+documentation = "https://dev.reecho.ai/generate/sync"
+packages = [
+    { include = "llmbot_plugin_reecho_voice" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."llmkira.extra.plugin"]
+# The entrypoint name is the name of the plugin.
+# 前面和后面都要唯一，注册钩子的时候会用到
+reecho_voice = "llmbot_plugin_reecho_voice"
