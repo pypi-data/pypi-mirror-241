@@ -1,0 +1,5 @@
+qiskit
+qiskit-aer
+python-dotenv
+mysql-connector-python
+httpx
