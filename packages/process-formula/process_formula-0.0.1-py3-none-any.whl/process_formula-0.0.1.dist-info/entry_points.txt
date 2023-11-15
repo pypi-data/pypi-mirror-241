@@ -1,0 +1,3 @@
+[console_scripts]
+normalize_formula = process_formula.normalize_formulas:main
+
