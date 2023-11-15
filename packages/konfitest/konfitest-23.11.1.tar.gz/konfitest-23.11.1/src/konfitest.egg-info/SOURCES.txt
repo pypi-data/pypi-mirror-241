@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/konfitest/__init__.py
+src/konfitest/__main__.py
+src/konfitest.egg-info/PKG-INFO
+src/konfitest.egg-info/SOURCES.txt
+src/konfitest.egg-info/dependency_links.txt
+src/konfitest.egg-info/entry_points.txt
+src/konfitest.egg-info/requires.txt
+src/konfitest.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "konfitest"
+readme = "README.md"
+version = "23.11.1"
+description = "Pytest extension to run subset of tests for quick confidence check"
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["pytest", "smoke test"]
+requires-python = ">=3.9"
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+konfitest = "konfitest.__main__:main"
