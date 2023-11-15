@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: solsesame
+Version: 2.0
+Author: Benoit H. Gaury, Phoebe Pearce
+Author-email: p.m.pearce@gmail.com
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.rst
+License-File: AUTHORS.rst
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: numpy
+
