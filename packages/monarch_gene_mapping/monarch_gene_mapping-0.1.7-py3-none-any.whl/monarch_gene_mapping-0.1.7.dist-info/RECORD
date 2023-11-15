@@ -1,0 +1,9 @@
+monarch_gene_mapping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monarch_gene_mapping/cli_utils.py,sha256=lRhGv4eBCKv1EqMxCeoUtL180Siw9phJgk4Z4bPQvsQ,10314
+monarch_gene_mapping/download.yaml,sha256=r5CdM9pm5poyMBnr5Jl1yueWqJbEbm1gKsebqtOhzYE,1879
+monarch_gene_mapping/main.py,sha256=X38p30xTVQyv-ndDO7Obq6E66K7x9o35ZP0CeJZsDMY,2110
+monarch_gene_mapping/uniprot_idmapping_preprocess.py,sha256=QLgKtCwSQMCSn_O-u3LZ_mk_Z_3hRLRGS1bv3AXJFG8,5797
+monarch_gene_mapping-0.1.7.dist-info/METADATA,sha256=oxtbhAqwmsqX98wD06hqwtAkvdXa3C-eRhr0QYN3KCI,627
+monarch_gene_mapping-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+monarch_gene_mapping-0.1.7.dist-info/entry_points.txt,sha256=h3XGm15dQp1ZaO_r_VVJb4V8YPt1F95XhXvcU1d8zKw,68
+monarch_gene_mapping-0.1.7.dist-info/RECORD,,
