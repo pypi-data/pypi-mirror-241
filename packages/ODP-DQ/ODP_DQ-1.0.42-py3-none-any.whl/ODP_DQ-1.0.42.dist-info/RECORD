@@ -1,0 +1,10 @@
+ODP_DQ/AnomalyDetectionNB.py,sha256=V2HxU16GBjV47svxATKKy3LUTknioqWZwr9Z8F42XM0,4387
+ODP_DQ/StandardizationNB.py,sha256=_mpq9cBVHtBisI2I2w1QCKSw1Hnm4ltVkxNy9pzjyKw,6631
+ODP_DQ/__init__.py,sha256=f0YGaVju4MC9mKtT320qS4Sqm9nHyLHIGpF9kTiKD-k,51
+ODP_DQ/__main__.py,sha256=-3q1cJaDux1nAoNbrcL9tPAomzb22FtMdkdn5cyrDP4,4020
+ODP_DQ/business_contextNB.py,sha256=Nz5dPs6qmdJZ8bn4eXNGAc35I-JmWn_04uXBAnxRCPg,4191
+ODP_DQ-1.0.42.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ODP_DQ-1.0.42.dist-info/METADATA,sha256=sPSEecHYR4htC809EIDCom0wIQySnYKrlsgR1dADWHM,3019
+ODP_DQ-1.0.42.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ODP_DQ-1.0.42.dist-info/top_level.txt,sha256=Dm5qwhYy4mFVs_5YkgsnUwCzBGBs_cCo6Mlw7k7iLEY,7
+ODP_DQ-1.0.42.dist-info/RECORD,,
