@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: stringtemplate3x
+Version: 2023.11.1
+Summary: A wrapper for StringTemplate: a powerful template engine with strict model-view separation
+Author-email: Terence Parr <parrt@antlr.org>, Marq Kole <marq.kole@philips.com>, Benjamin Niemann <pink@odahoda.de>, Fredrick Eisele <fredrick.eisele@gmail.com>
+Maintainer-email: Fredrick Eisele <fredrick.eisele@gmail.com>
+Project-URL: Homepage, https://www.stringtemplate.org/
+Project-URL: Bug Reports, https://github.com/phreed/stringtemplate3/issues
+Project-URL: Source, https://github.com/phreed/stringtemplate3
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: antlr4-python3-runtime
+
+ST (StringTemplate) is a template engine for generating source code,
+web pages, emails, or any other formatted text output.
+ST is particularly good at multi-targeted code generators,
+multiple site skins, and internationalization/localization.
+It evolved over years of effort developing jGuru.com.
+ST also generates this website and powers the ANTLR v3 code generator.
+Its distinguishing characteristic is that
+it strictly enforces model-view separation unlike other engines.
