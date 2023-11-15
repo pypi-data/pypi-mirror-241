@@ -1,0 +1,16 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sensirion_uart_svm4x/__init__.py
+sensirion_uart_svm4x/commands.py
+sensirion_uart_svm4x/device.py
+sensirion_uart_svm4x/response_provider.py
+sensirion_uart_svm4x/result_types.py
+sensirion_uart_svm4x/version.py
+sensirion_uart_svm4x.egg-info/PKG-INFO
+sensirion_uart_svm4x.egg-info/SOURCES.txt
+sensirion_uart_svm4x.egg-info/dependency_links.txt
+sensirion_uart_svm4x.egg-info/requires.txt
+sensirion_uart_svm4x.egg-info/top_level.txt
