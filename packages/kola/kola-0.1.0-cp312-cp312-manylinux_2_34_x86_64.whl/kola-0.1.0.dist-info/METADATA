@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: kola
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: a Python Polars interface to kdb+/q , Target at Polars
+Keywords: q,kdb,polars,dataframe,arrow
+Author-email: Jo Shinonome <jo.shinonome@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/jshinonome/kola
+
+# kola
+
+kdb+/q python interface target at polars
+
+## Basic Data Type Map
+
+### Atom
+
+| k type | size | name      | python type | note                        |
+| ------ | ---- | --------- | ----------- | --------------------------- |
+| 1      | 1    | boolean   | `bool`      |                             |
+| 2      | 16   | guid      | `str`       |                             |
+| 4      | 1    | byte      | `int`       |                             |
+| 5      | 2    | short     | `int`       |                             |
+| 6      | 4    | int       | `int`       |                             |
+| 7      | 8    | long      | `int`       |                             |
+| 8      | 4    | real      | `float`     |                             |
+| 9      | 8    | float     | `float`     |                             |
+| 10     | 1    | char      | `str`       |                             |
+| 11     | \*   | symbol    | `str`       |                             |
+| 12     | 8    | timestamp | `datetime`  |                             |
+| 13     | 4    | month     | `-`         |                             |
+| 14     | 4    | date      | `date`      | 0001.01.01 - 9999.12.31     |
+| 15     | 8    | datetime  | `datetime`  |                             |
+| 16     | 8    | timespan  | `timedelta` |                             |
+| 17     | 4    | minute    | `time`      | 00:00 - 23:59               |
+| 18     | 4    | second    | `time`      | 00:00:00 - 23:59:59         |
+| 19     | 4    | time      | `time`      | 00:00:00.000 - 23:59:59.999 |
+
+### List
+
+| k type | size | name      | python type      |
+| ------ | ---- | --------- | ---------------- |
+| 1      | 1    | boolean   | `pl.Boolean`     |
+| 2      | 16   | guid      | `pl.Utf8`        |
+| 4      | 1    | byte      | `pl.Uint8`       |
+| 5      | 2    | short     | `pl.Int16`       |
+| 6      | 4    | int       | `pl.Int32`       |
+| 7      | 8    | long      | `pl.Int64`       |
+| 8      | 4    | real      | `pl.Float32`     |
+| 9      | 8    | float     | `pl.Float64`     |
+| 10     | 1    | char      | `pl.Utf8`        |
+| 11     | \*   | symbol    | `pl.Categorical` |
+| 12     | 8    | timestamp | `pl.Datetime`    |
+| 13     | 4    | month     | `-`              |
+| 14     | 4    | date      | `pl.Date`        |
+| 15     | 8    | datetime  | `pl.Datetime`    |
+| 16     | 8    | timespan  | `pl.Duration`    |
+| 17     | 4    | minute    | `pl.Time`        |
+| 18     | 4    | second    | `pl.Time`        |
+| 19     | 4    | time      | `pl.Time`        |
+| 98     | \*   | table     | `pl.DataFrame`   |
+
+### Dictionary - PENDING
+
