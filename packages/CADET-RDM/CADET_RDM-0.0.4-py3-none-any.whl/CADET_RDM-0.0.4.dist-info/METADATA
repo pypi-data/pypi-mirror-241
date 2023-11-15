@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: CADET-RDM
+Version: 0.0.4
+Summary: A solution for research data management
+Home-page: https://jugit.fz-juelich.de/IBG-1/ModSim/cadet/CADET-RDM
+Author: Ronald Jäpel
+Author-email: r.jaepel@fz-juelich.de
+Project-URL: Bug Tracker, https://jugit.fz-juelich.de/IBG-1/ModSim/cadet/CADET-RDM/Issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gitpython >=3.1
+Requires-Dist: git-lfs
+Requires-Dist: click
+Requires-Dist: tabulate
+Requires-Dist: pandas
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: certifi ; extra == 'testing'
+Requires-Dist: pre-commit ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: matplotlib ; extra == 'testing'
+Requires-Dist: numpy ; extra == 'testing'
+Requires-Dist: build ; extra == 'testing'
+
+# The CADET-Research Data Management toolbox
