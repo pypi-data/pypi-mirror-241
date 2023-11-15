@@ -1,0 +1,23 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guilded_user"
+version = "0.0.1"
+authors = [
+  { name="Ceptea", email="c-e-p-t-e@outlook.com" },
+]
+description = "A api wrapper for guilded user api"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Ceptea/guilded-user"
+"Bug Tracker" = "https://github.com/Ceptea/guilded-user/issues"

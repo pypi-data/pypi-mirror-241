@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+guilded_user/__init__.py
+guilded_user/client.py
+guilded_user/constants.py
+guilded_user.egg-info/PKG-INFO
+guilded_user.egg-info/SOURCES.txt
+guilded_user.egg-info/dependency_links.txt
+guilded_user.egg-info/requires.txt
+guilded_user.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: guilded-user
+Version: 0.0.1
+Summary: A api wrapper for guilded user api
+Author: Ceptea
+Author-email: Ceptea <c-e-p-t-e@outlook.com>
+Project-URL: Homepage, https://github.com/Ceptea/guilded-user
+Project-URL: Bug Tracker, https://github.com/Ceptea/guilded-user/issues
+Keywords: guilded_user,guilded user api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# guilded-user
+A Api wrapper for guilded user api 
