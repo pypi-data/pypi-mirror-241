@@ -1,0 +1,13 @@
+almasru/__init__.py,sha256=LE5cvQFvBNsbsWhxT3yFkajKUGERcMCf1J9laJ-dPxY,175
+almasru/briefrecord.py,sha256=V4TgWyb7O1A0sgGuHlU7VMyoZYy2Fu5bcTHBt4aNCnk,16440
+almasru/client.py,sha256=Ek3kbWelyij9A1MX51we98I20qZCQtzgyzGqeM0rA8E,41192
+almasru/common.py,sha256=XLsVllQ4-DUal72QnwAdx66kbkvjF03JeB41z2uxnXw,746
+almasru/configlog.py,sha256=jtzanLa0iTbVIDmoPzUiGkPW9QQWNe-tQMZboD2QDeo,807
+almasru/dedup.py,sha256=VyibRbOpTtPVWe2fBDbV9ysKpbMuH_Vb44_ST7UEAQs,12117
+almasru/utils.py,sha256=8INIb7J0jgzCvsh4V10fnYKET8KXGHBnw4gZApyf4rw,8895
+almasru/version.py,sha256=q7VBQ5kZD00SWE5Awf1hs5CLMhMYlpbCWTyLcgvYPEg,24
+almasru-1.2.14.dist-info/METADATA,sha256=AJIjRP6QV6fN-uJ6W5rUaqFfl87ZCD-HnlNBLiIo6-U,1250
+almasru-1.2.14.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+almasru-1.2.14.dist-info/licence.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+almasru-1.2.14.dist-info/top_level.txt,sha256=wGtUmnYFOH7D-oq8-EvXlx3T431kRHkN9CBbMo6SCpg,8
+almasru-1.2.14.dist-info/RECORD,,
