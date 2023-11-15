@@ -1,0 +1,13 @@
+timeawarepc/__init__.py,sha256=S_u2sKU6J29_EMAB0UlhF7l_gIXCeDKcF-djxocDy3o,205
+timeawarepc/find_cfc.py,sha256=fHd0yUBrKqKI-X1SGqfS3Nev47YB-vSeNz1Y5Oekmrw,1848
+timeawarepc/gc.py,sha256=XtcqzSQlkCplp2SzyQKNpHziwFYcaxH6YHzd2kd6jMY,1252
+timeawarepc/pcalg.py,sha256=RTtHGfXDkcdIpZNWakpyMD0YUiBNEev9-zKNy5M3EAw,9361
+timeawarepc/pcalg_helpers.py,sha256=Kmf9VIMEhwGCsWMv_FGzb2P0b0t6bL2BMN8mWLEOUjU,1669
+timeawarepc/simulate_data.py,sha256=dTYhtsgcOCgm0yZ64TLoL9kWYfP8aNAPW0mun8nCoHA,3348
+timeawarepc/tpc.py,sha256=h8tkoioK760cCdBp8dy_52CxqBkWAiv5oYPvRXz3YP8,6855
+timeawarepc/tpc_helpers.py,sha256=KR1WN4VOUZB-Z5ipiix-MYYo0EI8A88BN-e2Nyj7j18,5252
+timeawarepc/tutorial.py,sha256=LRDVZQHS7XDpDWY0HZZwxiEvbRS-4TLXEK_M07YqUuo,2422
+timeawarepc-1.1.0.dist-info/METADATA,sha256=VDe8MOflIP2IVsa08iKHhz5cd-2-HzGj8w4V7GpLFTI,3785
+timeawarepc-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+timeawarepc-1.1.0.dist-info/top_level.txt,sha256=fWRzwrasctBHFwZkVXNFkWwllx1vLtaQyUBHfAJSzjQ,12
+timeawarepc-1.1.0.dist-info/RECORD,,
