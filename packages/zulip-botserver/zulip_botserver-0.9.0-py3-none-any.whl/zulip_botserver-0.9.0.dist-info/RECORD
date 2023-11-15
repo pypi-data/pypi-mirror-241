@@ -1,0 +1,9 @@
+zulip_botserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulip_botserver/input_parameters.py,sha256=f6qBYKqrEnlz4CGe2A2VeNK-Gtb09HTqgZYjpG4df-M,1703
+zulip_botserver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulip_botserver/server.py,sha256=Rq0vKIACbqvExfVV5-CAV8JwT-KbL0dIUmhHVGDYNcE,10211
+zulip_botserver-0.9.0.dist-info/METADATA,sha256=8PTbgYpxvxeB3Dl0_zHRC4HemA4V2hER57E-IPP0-4E,2080
+zulip_botserver-0.9.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+zulip_botserver-0.9.0.dist-info/entry_points.txt,sha256=6ln2wB8CzF0zjeOaXRnOwr3r8ecGROXisu-TUyCRFIo,64
+zulip_botserver-0.9.0.dist-info/top_level.txt,sha256=7hsm-1bbSIgstsH7LHr5lTx_Yj3mczFDNxjHpbaDkGw,16
+zulip_botserver-0.9.0.dist-info/RECORD,,
