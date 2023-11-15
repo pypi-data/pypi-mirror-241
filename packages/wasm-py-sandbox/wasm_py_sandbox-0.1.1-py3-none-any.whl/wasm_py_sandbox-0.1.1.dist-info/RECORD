@@ -1,0 +1,9 @@
+wasm_py_sandbox/__init__.py,sha256=BANuR2-_yJdoqaBj7gfQZUSRtMoobU66aP8KqIObAnQ,35
+wasm_py_sandbox/bindings.py,sha256=m0aKvnOiEu6yiweySPwSEBbxrj01JH0bfd999qwL3qc,5193
+wasm_py_sandbox/py_sandbox.wasm,sha256=_PS0RcbZUPNnu85YcDZslxJf2aYlQZZTWe9SnSLh05Y,14498653
+wasm_py_sandbox/sandbox.py,sha256=nCuIOgT5VS5TCeFRJ7ys0AKDyFErwRxG4ZbyIaP6BEE,774
+wasm_py_sandbox-0.1.1.dist-info/LICENSE,sha256=pumM_3PeSXRGqTW49BvuLt3Q_Nlx6CwX3ALJ_tXl2Wk,1061
+wasm_py_sandbox-0.1.1.dist-info/METADATA,sha256=lWsEGBTdpRFDLPJMtSMv2d6SV5ju2k9F0EvTtJMgL-4,2718
+wasm_py_sandbox-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wasm_py_sandbox-0.1.1.dist-info/top_level.txt,sha256=mW1TnClQxXsNoSsq6QJ_sZto5BiM8eAIcyf7nf0Dyuc,16
+wasm_py_sandbox-0.1.1.dist-info/RECORD,,
