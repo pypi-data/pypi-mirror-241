@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/toml_package/__init__.py
+src/toml_package/tomlpack.py
+src/toml_package.egg-info/PKG-INFO
+src/toml_package.egg-info/SOURCES.txt
+src/toml_package.egg-info/dependency_links.txt
+src/toml_package.egg-info/top_level.txt
