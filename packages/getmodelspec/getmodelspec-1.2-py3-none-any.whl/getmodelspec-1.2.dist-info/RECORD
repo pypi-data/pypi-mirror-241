@@ -1,0 +1,15 @@
+modelspec/__init__.py,sha256=vzO_Be54au01zVfTVMnG6u9XUv6Kvi2M9f3cQs8281Y,273
+modelspec/amazon.py,sha256=IMPN_Hl9nxriYh-DpSR-5A3P536E1-mMyuDrR_cAubE,3161
+modelspec/bestbuy.py,sha256=sZZ2_uInORCN8wK5nA30XEkB3gj04UJdytLR6rBHvnk,3263
+modelspec/model_scraper_pjp.py,sha256=2oygHS428OzKWxeLNpdyMLWzUeYKDCGv3ghwSOh_2SM,5731
+modelspec/model_scraper_s.py,sha256=0TKJnyYjcxd2vRKI8xV4WOYUIwHSauWQic6qQhQsmRo,11124
+modelspec/model_scraper_sjp.py,sha256=veJI1Nh_NZui4ryOCCSRfPSbF3Jf66pm4Qxj0fGQN9U,9317
+modelspec/rtings.py,sha256=qvCUDgXpL_3UkGnfpSgu-LV7RSLK1buYJNkENz7nZvk,4612
+modelspec/tools/__init__.py,sha256=bg_fO0moW11GjgsfhdQtsrOH7UePTVkbVmrPHWtRU1w,98
+modelspec/tools/filemanager.py,sha256=wtWlZHjqY2Dg77kZSjtDYhXMKDQVWxM6e0Con4irer0,2103
+modelspec/tools/webdriver.py,sha256=Nf3804ePf9uHobnlIDxG71Rlu2Bpv3ql9YT5XocM5KM,9351
+getmodelspec-1.2.dist-info/METADATA,sha256=-SAEpqycR7tEGlGB-ymYx0Xtn_9zWdquLmmQLDJVmYY,500
+getmodelspec-1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+getmodelspec-1.2.dist-info/entry_points.txt,sha256=6i2YSinUF4GcWxReP2Cv2_DY-0XXGqH5WWZF8M0yW0s,67
+getmodelspec-1.2.dist-info/top_level.txt,sha256=Ks3fSFaTgX1LK9vyNkTCrssizUTfT6LPDA499FnhobY,10
+getmodelspec-1.2.dist-info/RECORD,,
