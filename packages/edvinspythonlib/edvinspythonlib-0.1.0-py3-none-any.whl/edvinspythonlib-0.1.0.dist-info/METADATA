@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: edvinspythonlib
+Version: 0.1.0
+Summary: My first Python library
+Author: Me
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+# Edvins Python Library
+My library for personally coded python functions and classes
+Might be sorted into topics or courses, not sure yet
+
+### Installation
+```
+pip install edvinspythonlib
+```
+
+### Get started
+How to use one of my functions or classes in your own code
+
+```Python
+import edvinspythonlib as edv
+
+# Import one of the modules
+from edvinspythonlib import multiplication
+
+# Call the multiplication method
+result = multiplication(2, 3)
+```
