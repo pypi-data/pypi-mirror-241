@@ -1,0 +1,96 @@
+{
+  "$id": "https://raw.githubusercontent.com/AlgebraicJulia/py-acsets/main/src/acsets/schemas/jsonschema/PropertyPetriNet.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "I": {
+      "additionalProperties": false,
+      "properties": {
+        "is": {
+          "title": "Is",
+          "type": "integer"
+        },
+        "it": {
+          "title": "It",
+          "type": "integer"
+        }
+      },
+      "title": "I",
+      "type": "object"
+    },
+    "O": {
+      "additionalProperties": false,
+      "properties": {
+        "os": {
+          "title": "Os",
+          "type": "integer"
+        },
+        "ot": {
+          "title": "Ot",
+          "type": "integer"
+        }
+      },
+      "title": "O",
+      "type": "object"
+    },
+    "S": {
+      "additionalProperties": false,
+      "properties": {
+        "sprop": {
+          "title": "Sprop",
+          "type": "object"
+        }
+      },
+      "title": "S",
+      "type": "object"
+    },
+    "T": {
+      "additionalProperties": false,
+      "properties": {
+        "tprop": {
+          "title": "Tprop",
+          "type": "object"
+        }
+      },
+      "title": "T",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "I": {
+      "items": {
+        "$ref": "#/definitions/I"
+      },
+      "title": "I",
+      "type": "array"
+    },
+    "O": {
+      "items": {
+        "$ref": "#/definitions/O"
+      },
+      "title": "O",
+      "type": "array"
+    },
+    "S": {
+      "items": {
+        "$ref": "#/definitions/S"
+      },
+      "title": "S",
+      "type": "array"
+    },
+    "T": {
+      "items": {
+        "$ref": "#/definitions/T"
+      },
+      "title": "T",
+      "type": "array"
+    }
+  },
+  "required": [
+    "S",
+    "T",
+    "I",
+    "O"
+  ],
+  "title": "PropertyPetriNet",
+  "type": "object"
+}
