@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sunholo
+Version: 0.1.0.20231114170159
+Summary: Large Language Model DevOps - a package to help deploy LLMs to the Cloud.
+Home-page: https://github.com/sunholo-data/llmops
+Download-URL: https://github.com/sunholo-data/llmops/archive/refs/tags/v0.1.0.tar.gz
+Author: Sunholo ApS
+Author-email: llmops@sunholo.com
+License: Apache License, Version 2.0
+Keywords: llms,devops,google_cloud_platform
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE.txt
