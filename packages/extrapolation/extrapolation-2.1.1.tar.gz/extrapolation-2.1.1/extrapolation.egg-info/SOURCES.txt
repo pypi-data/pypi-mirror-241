@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+extrapolation/__init__.py
+extrapolation/esum.py
+extrapolation/utils.py
+extrapolation.egg-info/PKG-INFO
+extrapolation.egg-info/SOURCES.txt
+extrapolation.egg-info/dependency_links.txt
+extrapolation.egg-info/requires.txt
+extrapolation.egg-info/top_level.txt
