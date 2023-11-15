@@ -1,0 +1,2 @@
+[console_scripts]
+kibom = kibom.__main__:main
