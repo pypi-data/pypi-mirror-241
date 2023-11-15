@@ -1,0 +1,2 @@
+soda-core==3.0.54
+google-cloud-bigquery<4.0,>=2.25.0
