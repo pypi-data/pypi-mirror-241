@@ -1,0 +1,14 @@
+lextok/__init__.py,sha256=tkrcYyRDxWiWIlaxu_FxbgAH2iouJLxpz4ibsQx8Muc,674
+lextok/main.py,sha256=HRVaG6I5La0dlUl5H2XzSpPkIgsqw2zFdPIgphEuqKw,5263
+lextok/pretest.py,sha256=FAmgRKDNwsQKTVkMi9bsuRMl-E7GkiESv_7kmKkaROc,1305
+lextok/rules/__init__.py,sha256=XQ62WjJEP340JqG69urvhWQIZmLOZS1BqwR9M623svU,757
+lextok/rules/_pattern.py,sha256=cZTXSjiRRodw4Y2BK8axQwo0t2lCbzgGVwYzUIlBWlY,12304
+lextok/rules/abbreviations.py,sha256=n1W1_lRwvfmQj2q4h1clnxX5YiH0X6ga_3X1qWoHeuw,8823
+lextok/rules/attribute_ruler.py,sha256=CTTTe5BWTld40XEJ8zXL_hL89M9GMnCRaoG706xGaTg,5620
+lextok/rules/citeable_builder.py,sha256=lcslmOoxzasTPKLeMO-TB7va4lGk8tBWADKhhijCP38,4791
+lextok/rules/custom_tokenizer.py,sha256=yNBIBIztlhy0ucEjSG5uP0FaBHhh3qkQjK4rddprkbg,2849
+lextok/rules/entity_rules_citeable.py,sha256=15Y0fUaiE4aVR9QTkS5HdUDre2LCHZaYZYttl9-syf0,7242
+lextok/rules/entity_rules_generic.py,sha256=tS7n8MrUia7rFv0llgzYh4xZCoUUVSUWFiAL8NIADQ4,2605
+lextok-0.0.20.dist-info/METADATA,sha256=be9Xg6SxIelmng3AnaYgBi_L7LiNgTuaAAAy3K7JT88,8302
+lextok-0.0.20.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lextok-0.0.20.dist-info/RECORD,,
