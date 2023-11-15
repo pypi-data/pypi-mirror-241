@@ -1,0 +1,12 @@
+manini/__init__.py,sha256=IvHNYLTs2DwSpCmcsVFj_cSk836fv6zcgHOIeZILrBY,93
+manini/_widget.py,sha256=hUNRmm_Y6uoQcjvQLSdl1ohpwvrG3MnFbzbmxJ68014,63780
+manini/napari.yaml,sha256=yecyLET8L62ww10xYCZ_pbDlON1TGBd7uqJIZXx-LD8,638
+manini/script2.py,sha256=56n6zAL0bxMLeB6wcUfkUoGFgbrm6p4fwxMeLW5UF5c,1410
+manini/utils.py,sha256=pqqcUMAiktlhaphluyWLF_cAGoe7aJ1qwDVEduf7jWA,638
+manini/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manini/_tests/test_widget.py,sha256=n_CAPSr5hyI8H_gP0ZNWe8YVaTkCr4taLEcn2qrAjj0,80
+manini-0.0.10.dist-info/METADATA,sha256=vsf4WQneuvA11oY7O3t9Rr4mhbPY3jgmxXLgteBd3eg,7894
+manini-0.0.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+manini-0.0.10.dist-info/entry_points.txt,sha256=BF3dDXSOLnEE8y4hp81ObiX-L3ASkXU6amgMEySGYPk,46
+manini-0.0.10.dist-info/top_level.txt,sha256=LsRFFOKtMz3ccgJCkLYyvUtkzOKXrTmrBK_F7wWyh5U,7
+manini-0.0.10.dist-info/RECORD,,
