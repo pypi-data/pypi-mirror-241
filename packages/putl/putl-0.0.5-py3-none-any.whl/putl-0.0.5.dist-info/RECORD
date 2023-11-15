@@ -1,0 +1,14 @@
+putl/__init__.py,sha256=Hq2MfSTbnnPpqk7Xtyj4oZBl92iP9t3bu4CdSoWkdns,450
+putl/_modidx.py,sha256=3G4j7o8LNkzFcpNFUabDycr099jsjTCzRSg6956GsS8,3456
+putl/arrs.py,sha256=4UTaxr_U3C13bkhy08j2k_kMzA_91se-LtzVbdLi9Zg,1511
+putl/attr.py,sha256=oSEDVQmXvXsdH0vCNEbF6mvCKrhRhm6fzlMHGBGIMi8,994
+putl/call.py,sha256=nf3-ihozGa5htSAQa6CR6ZTfpBv2rnPkDBdGO0DHbCw,630
+putl/dict.py,sha256=ADBJWD34MjF3l04dqGZIFSi5CJa0ifaraDiKCi-7PQg,2572
+putl/math.py,sha256=xsfmyr3WQvcC-uyQ-ajZeoY9spM4cQJ0eDrNAzAu61A,859
+putl/time.py,sha256=ZYE9aCRR0HD4gHiMFu7lR6vqGtwoIGB_uueNcqB9k-o,1240
+putl-0.0.5.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+putl-0.0.5.dist-info/METADATA,sha256=kwy2Y_7f5Ic_SBBsv2VEcBpNGENFeyTtPeEdhjhtwcU,2213
+putl-0.0.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+putl-0.0.5.dist-info/entry_points.txt,sha256=l7sGOR9r83RzINqy3G-0y5Wcp2rIBgawdD83d_B-wzg,30
+putl-0.0.5.dist-info/top_level.txt,sha256=PuYM0Dk13RqkxdLuhjDXeWAkJzzUBHCIz7oP8g60wqA,5
+putl-0.0.5.dist-info/RECORD,,
