@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "rcode-tddschn"
+version = "0.5.0"
+description = "rcode Improved"
+authors = [
+    "chvolkmann",
+    "yihong0618",
+    "Teddy Xinyuan Chen <45612704+tddschn@users.noreply.github.com>",
+]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/tddschn/rcode-tddschn"
+repository = "https://github.com/tddschn/rcode-tddschn"
+classifiers = [
+    "Topic :: Utilities",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+]
+keywords = ["vscode"]
+packages = [{ include = "rcode" }]
+
+
+[tool.poetry.scripts]
+rcode = "rcode.rcode:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tddschn/rcode-tddschn/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+sshconf = "^0.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
