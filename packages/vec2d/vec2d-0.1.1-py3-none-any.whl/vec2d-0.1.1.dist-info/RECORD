@@ -1,0 +1,9 @@
+vec2d/graph/__init__.py,sha256=GkTG0IFZqoTj0HhKJydHIv2yewKyPOiouKtGMKGu_QA,287
+vec2d/graph/vector2d_graphics.py,sha256=Ac0NAApcqkdbJOgbSxIleB1eIe4L0GmlfizDlo1Tf3s,10038
+vec2d/math/__init__.py,sha256=G7vUJlbu_MtdsA0I3WiLfCorY6Xrt9lHHdFp6ALoa1g,643
+vec2d/math/vector2d_math.py,sha256=0s9iwT9PU2HRoVHBmkqwryOugTSIr-5V4McIRCzpC98,9562
+vec2d-0.1.1.dist-info/LICENSE,sha256=F46H_EZYpx1LkQUpNCwXnqMLtnuxNj3NmruDeBL00h0,1075
+vec2d-0.1.1.dist-info/METADATA,sha256=sBac6PW4nR-yWUT3d2rQnXo0k8btKx9tVZdoD50ShTU,2365
+vec2d-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vec2d-0.1.1.dist-info/top_level.txt,sha256=hdBF6IhL5LN_9fR-YQOirRArvwh3o6w4fQyNvAsX2-I,23
+vec2d-0.1.1.dist-info/RECORD,,
