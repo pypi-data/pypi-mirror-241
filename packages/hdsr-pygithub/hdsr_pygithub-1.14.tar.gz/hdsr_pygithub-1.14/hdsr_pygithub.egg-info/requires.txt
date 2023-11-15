@@ -1,0 +1,7 @@
+pygithub
+python-dateutil
+python-dotenv
+
+[test]
+pytest
+pytest-cov
