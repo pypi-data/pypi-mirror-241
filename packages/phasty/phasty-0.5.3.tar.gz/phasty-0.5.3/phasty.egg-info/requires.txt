@@ -1,0 +1,15 @@
+numpy
+
+[dev]
+pre-commit
+black==22.3.0
+flake8==4.0.1
+isort==5.12.0
+pytest
+pytest-cov
+
+[doc]
+sphinx==7.2.6
+furo==2023.9.10
+myst-parser==2.0.0
+sphinx-copybutton==0.5.2
