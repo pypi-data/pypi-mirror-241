@@ -1,0 +1,2 @@
+[console_scripts]
+deploy_sre = deploy_cmd.cli:main
