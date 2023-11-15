@@ -1,0 +1,2 @@
+[console_scripts]
+dataset-sh-server-cli = dataset_sh_server.cli:cli
