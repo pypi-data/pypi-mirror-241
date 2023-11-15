@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easylkb
+Version: 0.0.1
+Project-URL: Homepage, https://github.com/deepseagirl/easylkb
+Project-URL: Bug Tracker, https://github.com/deepseagirl/easylkb/issues
+Author-email: ackmage <easylkb@herm.it>, netspooky <5g@vacci.ne>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# easylkb
+
