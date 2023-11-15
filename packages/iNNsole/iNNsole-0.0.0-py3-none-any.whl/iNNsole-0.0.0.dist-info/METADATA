@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: iNNsole
+Version: 0.0.0
+Summary: This is a placeholder wheel until we get a usable version of this package working. Do not use..
+Author: chaiNNer team
+License: GPLv3
+Keywords: innsole,pytorch architecture,pytorch arch,model arch,model architecture
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.12,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: safetensors
+Requires-Dist: numpy
+Requires-Dist: einops
+Provides-Extra: build
+Requires-Dist: setuptools >=46.4.0 ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: lint
+Requires-Dist: ruff ==0.1.4 ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ==7.4.0 ; extra == 'test'
+Requires-Dist: syrupy ==4.6.0 ; extra == 'test'
+Provides-Extra: typecheck
+Requires-Dist: pyright ==1.1.335 ; extra == 'typecheck'
+
+This is a placeholder wheel until we get a usable version of this package working. Do not use.
