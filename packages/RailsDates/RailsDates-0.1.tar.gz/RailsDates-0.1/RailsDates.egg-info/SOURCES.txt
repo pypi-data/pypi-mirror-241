@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+RailsDates/__init__.py
+RailsDates/rails_dates_core.py
+RailsDates/timeint.py
+RailsDates.egg-info/PKG-INFO
+RailsDates.egg-info/SOURCES.txt
+RailsDates.egg-info/dependency_links.txt
+RailsDates.egg-info/top_level.txt
