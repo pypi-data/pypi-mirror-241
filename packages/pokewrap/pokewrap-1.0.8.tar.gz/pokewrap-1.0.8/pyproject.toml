@@ -1,0 +1,27 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=63.2.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokewrap"
+version = "1.0.8"
+description = "A wrapper library for the PokeAPI making it easier to retrieve and use data from the API endpoint."
+readme = "README.md"
+authors = [{ name = "Jason Garvin", email = "jsongarvin@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+dependencies = ["requests"]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest", "pip-tools"]
+
+[project.urls]
+Homepage = "https://github.com/jasongarvin/pokewrap"
