@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fapyui
+Version: 0.0.1a1
+Summary: short desctiption
+Home-page: https://github.com/ForceFledgling/fapyui
+Author: ForceFledgling
+Author-email: pvenv@icloud.com
+License: MIT License
+Platform: any
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fapyui
+Open-source Python web framework for building efficient user interfaces. 🚀✨
