@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: naref
+Version: 0.0.3
+Summary: A quantum & classical reservoir handler for Temporal Series Prediction
+Author-email: Ulysse Rémond <contact@uremond.net>, Naomi Chmielewski <naomi.chmielewski@gmail.com>, Léo Monbroussou <leo.monbroussou@gmail.com>
+Project-URL: Homepage, https://github.com/NaomiChmielewski/NAREF_Blaise_PASQAL_Hackathon
+Project-URL: Bug Tracker, https://github.com/NaomiChmielewski/NAREF_Blaise_PASQAL_Hackathon/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.6.2
+Requires-Dist: numpy>=1.22.4
+Requires-Dist: pandas==1.5.3
+Requires-Dist: pulser>=0.15.0
+Requires-Dist: qutip>=4.7.3
+Requires-Dist: reservoirpy>=0.3.9.post1
+Requires-Dist: scikit-learn>=0.0.post11
+
+# Naref - Neutral Atom Renewable Energy Forecasting
+## Quick start
+
+You can import the `naref.demo` module and execute various functions from there.
