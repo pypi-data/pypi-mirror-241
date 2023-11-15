@@ -1,0 +1,5 @@
+[console_scripts]
+codellama13b_test = qualtop_llmapi.test:code
+llama13b_test = qualtop_llmapi.test:llama
+mistral_test = qualtop_llmapi.test:mistral
+run_server = qualtop_llmapi.__main__:main
