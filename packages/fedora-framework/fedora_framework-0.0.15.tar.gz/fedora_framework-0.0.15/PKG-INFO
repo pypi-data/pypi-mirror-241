@@ -1,0 +1,651 @@
+Metadata-Version: 2.1
+Name: fedora-framework
+Version: 0.0.15
+Summary: The Fedora framework package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Miguel Rabuge <rabuge@dei.uc.pt>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: scikit-learn>=1.2.2
+Requires-Dist: sqlalchemy>=2.0.22
+Requires-Dist: tqdm>=4.65.0
+Description-Content-Type: text/markdown
+
+[Github Issues]: https://github.com/miguelrabuge/fedora/issues
+[examples]: https://github.com/miguelrabuge/fedora/tree/main/fedora
+[PyPI]: https://pypi.org/project/fedora-framework/
+
+# Fedora Framework
+
+![Fedora Framework Logo](https://github.com/yourusername/fedora-framework/blob/main/images/fedora_logo.png)
+
+Fedora Framework is an evolutionary feature engineering framework designed to streamline the process of creating and optimizing features for machine learning tasks. This project offers a flexible and extensible set of tools for feature engineering to help data scientists and machine learning engineers efficiently prepare their data for modeling.
+
+## Features
+
+- **Modular Design:** Fedora Framework is built around a modular architecture that allows you to easily extend and customize feature engineering components. You can mix and match different modules to suit your specific needs, using a Context-Free Grammar.
+
+- **Automated Feature Generation:** Fedora Framework provides built-in tools for automatic feature generation, reducing the manual effort required to create features. You can define feature operators and let the framework generate features based on your specifications.
+
+- **Feature Selection and Construction:** Identify and select the most important features for your models using various feature engineering techniques.
+
+- **Support for Different Data Types:** Fedora Framework supports various data types, including numerical, categorical, text, and time-series data. You can easily specify how to handle different types of data.
+
+
+## Installation
+
+You can install Fedora Framework from [PyPI] using pip:
+
+```bash
+pip3 install fedora-framework
+```
+
+## Getting Started
+
+After installing the Fedora framework, check our examples in classical machine learning datasets in the [examples] folder. Once inside this directory, to run the MNIST dataset example:
+
+```bash
+cd mnist
+python3 main.py
+```
+
+## Contributing
+
+We welcome contributions to Fedora Framework. Whether you want to add new features, fix bugs, improve documentation, or suggest enhancements, your contributions are valuable. 
+
+Please reach out to us through the available [communication channels](#Contact).
+
+## License
+
+Fedora Framework is open-source and distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contact
+
+If you have questions, suggestions, or need support, feel free to reach out to us:
+
+- Github Issues: https://github.com/miguelrabuge/fedora/issues 
+
+- Email: rabuge@dei.uc.pt / naml@dei.uc.pt
+
+<!-- ## Acknowledgments
+
+We'd like to thank the open-source community for their contributions and support in making Fedora Framework a versatile and powerful tool for feature engineering. -->
+
+## Publications
+🚧 Work in progress 🚧
+
+## Citations
+If you find this project useful or if you use any code, ideas, or resources from it, please consider citing the following sources:
+
+```
+Rabuge, M., & Lourenço, N. (2023). The Fedora Framework (Version 0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.1234
+```
+
+```bibtex
+@software{
+    Rabuge_The_Fedora_Framework_2023,
+    author = {Rabuge, Miguel and Lourenço, Nuno},
+    doi = {10.5281/zenodo.1234},
+    month = dec,
+    title = {{The Fedora Framework}},
+    url = {https://github.com/miguelrabuge/fedora},
+    version = {0.0.1},
+    year = {2023}
+}
+```
+
+---
+## Walktrough: Suiting the Framework to your own needs
+
+In this chapter, we will explore how to customize the Fedora Framework to perfectly fit your data science and machine learning projects. Whether you are working on unique data types or advanced techniques, this chapter will guide you in maximizing the potential of the Fedora Framework for your specific needs.
+
+We will use the [Car Evaluation Dataset](https://archive.ics.uci.edu/dataset/19/car+evaluation) in this walktrough.
+
+### Original dataset
+
+First we will need to download the dataset. The UCI Machine Learning repository python package allow us to do such with ease. To install it, run:
+
+```bash
+pip3 install ucimlrepo
+```
+Create a _main.py_ file and load the data:
+
+```PYTHON
+from ucimlrepo import fetch_ucirepo 
+dataset = fetch_ucirepo(id=19) 
+```
+
+Create a pandas Dataframe and load the data:
+
+```PYTHON
+import pandas as pd
+features = dataset.data.features
+labels = dataset.data.targets["class"]
+df = pd.concat([labels, features], axis=1)
+```
+At this point, the resulting dataset is the following:
+```PYTHON
+print(df)
+```
+```TEXT
+      class buying  maint  doors persons lug_boot safety
+0     unacc  vhigh  vhigh      2       2    small    low
+1     unacc  vhigh  vhigh      2       2    small    med
+2     unacc  vhigh  vhigh      2       2    small   high
+3     unacc  vhigh  vhigh      2       2      med    low
+4     unacc  vhigh  vhigh      2       2      med    med
+...     ...    ...    ...    ...     ...      ...    ...
+1723   good    low    low  5more    more      med    med
+1724  vgood    low    low  5more    more      med   high
+1725  unacc    low    low  5more    more      big    low
+1726   good    low    low  5more    more      big    med
+1727  vgood    low    low  5more    more      big   high
+
+[1728 rows x 7 columns]
+```
+
+Regarding the metadata of the dataset:
+```PYTHON
+mt = dataset.metadata
+print(f"Features: {mt.num_features}")
+print(f"Types: {mt.feature_types}")
+print(f"Entries: {mt.num_instances}")
+print(f"Missing Values: {mt.has_missing_values}")
+
+print(f"Summary:\n\n {mt.additional_info.summary}")
+print(f"Info:\n\n {mt.additional_info.variable_info}")
+
+print(df["class"].value_counts())
+```
+
+```TEXT
+Features: 6
+Types: ['Categorical']
+Entries: 1728
+Missing Values: no
+
+Summary: 
+
+Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates cars according to the following concept structure:
+
+CAR                      car acceptability
+. PRICE                  overall price
+. . buying               buying price
+. . maint                price of the maintenance
+. TECH                   technical characteristics
+. . COMFORT              comfort
+. . . doors              number of doors
+. . . persons            capacity in terms of persons to carry
+. . . lug_boot           the size of luggage boot
+. . safety               estimated safety of the car
+
+Input attributes are printed in lowercase. Besides the target concept (CAR), the model includes three intermediate concepts: PRICE, TECH, COMFORT. Every concept is in the original model related to its lower level descendants by a set of examples (for these examples sets see http://www-ai.ijs.si/BlazZupan/car.html).
+
+The Car Evaluation Database contains examples with the structural information removed, i.e., directly relates CAR to the six input attributes: buying, maint, doors, persons, lug_boot, safety.
+
+Because of known underlying concept structure, this database may be particularly useful for testing constructive induction and structure discovery methods.
+
+Info:
+
+buying:   vhigh, high, med, low.
+maint:    vhigh, high, med, low.
+doors:    2, 3, 4, 5more.
+persons:  2, 4, more.
+lug_boot: small, med, big.
+safety:   low, med, high.
+
+class
+unacc    1210
+acc       384
+good       69
+vgood      65
+Name: count, dtype: int64
+```
+
+We can conclude that:
+ - There are 4 highly unbalanced classes: "unacc", "acc", "good" and "vgood".
+ - All 6 features are categorical. Therefore, they might require further preprocessing.
+ - There are no missing values on the 1728 available entries. If there were, one should proceed to fix or delete such entries.
+
+### Initial Representation and Operators
+
+In this step, one must figure out how to represent the problem and which operators should use. 
+
+An operator can be virtually anything that combines or simply tranforms features. Each specific data type might have specific operators.
+- Examples: 
+    - Integers and Floats: sum(a,b), subtraction(a,b), division(a,b), multiplication(a,b), absoluteValue(a,b), maximum(a,b), noise(a)
+    - Boolean: AND(a,b), OR(a,b), NOT(a)
+    - Strings: Concatenation(a,b), length(a) 
+
+The following question is essencial: 
+
+```Text
+Am I able to think of operators that have the ability to combine the current features in a way that the resulting feature makes sense?
+```
+If the answer is yes, then jump into [next section](#defining-the-features).
+
+If not, then we will have to think on how can we represent these features in a way that the result of an operator is interpretable:
+
+
+
+
+**Related example**
+Lets say that the entries *A*, *B* and *C*  have the following feature values:
+```TEXT
+Entry    buying    maint    ...
+A        "vhigh"   "med"    ...
+B        "high"    "med"    ...
+C        "vhigh"   "low"    ...
+```
+If I select an operator "MyOpt" that counts the "i" in the strings, for the features "buying" and "maint", the transformed dataset is:
+
+```TEXT
+Entry    buying    maint    MyOpt(buying)  MyOpt(maint)    ...
+A        "vhigh"   "med"    1              0             ...
+B        "high"    "med"    1              0             ...
+C        "vhigh"   "low"    1              0             ...
+```
+
+The resulting features are rather meaningless or at least not easily interpretable for the problem at hand.
+
+However if I one-hot encode both features (will only display the buying-vhigh and maint-med codes for simplicity) and then use the logical AND operator:
+
+```TEXT
+Entry    buying-vhigh    ...    maint-med   ...    buying-vhigh AND maint-med    ...
+A        True            ...    True        ...    True                        ...
+B        False           ...    True        ...    False                       ...
+C        True            ...    False       ...    False                       ...
+```
+
+The resulting feature (buying-vhigh AND maint-med) literally means:
+
+```TEXT
+Is the buying price of the car very high and the price of maintenance average (medium)?
+```
+
+As such, this feature and all features alike have the potential of being much more informative.
+
+Hence, for the dataset at hand, we could one-hot encode all 6 features and then apply boolean operators (AND, OR, NOT). 
+
+One-hot encoding the features, leaves us with the following dataset:
+```PYTHON
+# One-hot Encoding Features
+features = pd.get_dummies(features)
+
+# Label encoding for numerical compatibility with ML models
+labels = pd.factorize(labels)[0]
+
+df = pd.concat([pd.Series(labels, name="class"), features], axis=1)
+print(df)
+```
+
+```TEXT
+      class  buying_high  buying_low  buying_med  buying_vhigh  maint_high  maint_low  ...  persons_more  lug_boot_big  lug_boot_med  lug_boot_small  safety_high  safety_low  safety_med
+0         2        False       False       False          True       False      False  ...         False         False         False            True        False        True       False
+1         2        False       False       False          True       False      False  ...         False         False         False            True        False       False        True
+2         2        False       False       False          True       False      False  ...         False         False         False            True         True       False       False
+3         2        False       False       False          True       False      False  ...         False         False          True           False        False        True       False
+4         2        False       False       False          True       False      False  ...         False         False          True           False        False       False        True
+...     ...          ...         ...         ...           ...         ...        ...  ...           ...           ...           ...             ...          ...         ...         ...
+1723      1        False        True       False         False       False       True  ...          True         False          True           False        False       False        True
+1724      3        False        True       False         False       False       True  ...          True         False          True           False         True       False       False
+1725      2        False        True       False         False       False       True  ...          True          True         False           False        False        True       False
+1726      1        False        True       False         False       False       True  ...          True          True         False           False        False       False        True
+1727      3        False        True       False         False       False       True  ...          True          True         False           False         True       False       False
+
+[1728 rows x 22 columns]
+```
+We were left with an encoded label and 21 boolean features. 
+
+### Defining the features 
+
+Having selected the operators (logical AND, OR and NOT) and the original dataset prepared, we are left to define the contruction rules of the new features. This can be achieved through a Context-Free Grammar (CFG) that will serve as input for the framework. 
+
+First, you should select how many features should the transformed dataset have, at maximum. In order not to bias this process, we can define this number equal to the number of features that are in the prepared dataset, i.e. 21. Then, to generate the grammar, run:
+
+```PYTHON
+from fedora.utilities.lib import generate_grammar
+
+parameters = {
+      "max_features": 21,
+      "operators1": ["~"],                  # Arity = 1: NOT (~)
+      "operators2": ["&", "\eb"],           # Arity = 2: AND (&), OR (| -> \eb)
+      "columns": features.columns
+}
+
+with open("car-evaluation.pybnf", "w") as f:
+      grammar = generate_grammar(**parameters)
+      print(grammar, file=f)
+```
+
+This simple function is only here to bootstrap your grammar, you are welcome to manually tweak it. The grammar is displayed below, in Backus-Naur Form (BNF):
+
+```BNF
+# car-evaluation.pybnf
+<start> ::= <feature>,|<feature>,<feature>|<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>|<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>,<feature>
+<feature> ::= <feature><op2><feature> | (<feature><op2><feature>) | x[<var>] | <op1>x[<var>]
+<op1> ::= ~
+<op2> ::= &|\eb
+<var> ::= 'buying_high'|'buying_low'|'buying_med'|'buying_vhigh'|'maint_high'|'maint_low'|'maint_med'|'maint_vhigh'|'doors_2'|'doors_3'|'doors_4'|'doors_5more'|'persons_2'|'persons_4'|'persons_more'|'lug_boot_big'|'lug_boot_med'|'lug_boot_small'|'safety_high'|'safety_low'|'safety_med'
+```
+
+**Note:**
+The grammar has some reserved symbols. If you would like to use them, please add their aliases to the grammar instead:
+
+|  Symbol   |  Replacement | 
+|:---------:|:------------:|
+|    <=     |      \le     |
+|    >=     |      \ge     |
+|    <      |      \l      |
+|    >      |      \g      |
+|    \|     |      \eb     |
+|    ,      |      None    |
+
+The comma (,) is reserved by the framework to distinguish the features from the string. Its usage is forbidden.
+
+
+<br>
+
+We also provide support for [ephemeral constants](https://deap.readthedocs.io/en/master/api/gp.html#:~:text=An%20ephemeral%20constant%20is%20a,arguments%20returning%20a%20random%20value.). 
+E.g. Assuming that there are 2 types of numerical data (**float** and **int**), random noise could be added like this:
+```BNF
+...
+<flt> ::= <flt><op><flt> | x[<fvar>] | x[<fvar>] + <fnoise>
+<int> ::= <int><op><int> | x[<ivar>] | x[<ivar>] + <inoise>
+<op> ::= +|-
+<fnoise> ::= RANDFLOAT(0, 10) 
+<inoise> ::= RANDINT(0, 10) 
+...
+``` 
+Where the **fnoise** and **inoise** values are ephemeral constants.
+
+### Tunning the Evolution Process
+
+The Fedora Framework uses [Structured Grammatical Evolution (SGE)]() as the evolutionary algorithm. The Figure below shows the topology of the framework:
+
+![Fedora-Topology](images/fedora-general.png.png)
+
+As any evolutionary algorithm, SGE requires certain parameters, such as population size, generations, etc. This is to be defined in a Yaml file as such:
+
+```YAML
+# car-evaluation.yml
+POPSIZE: 2000                                   # Population Size
+GENERATIONS: 100                                # Generations
+ELITISM: 200                                    # Elistism (10%)
+PROB_CROSSOVER: 0.9                             # Crossover: Probability
+PROB_MUTATION: 0.1                              # Mutation: Probability
+TSIZE: 3                                        # Selection: Tournament Size
+EXPERIMENT_NAME: 'car-evaluation-results/'      # Results folder name
+INCLUDE_GENOTYPE: False                         # Option include the genotype in the logs
+SAVE_STEP: 200                                  # Logging Frequency (every N generations)
+VERBOSE: True                                   # Statistics of each generation when running the algorithm 
+MIN_TREE_DEPTH: 3                               # Genetic Programming Tree Minimum Depth
+MAX_TREE_DEPTH: 10                              # Genetic Programming Tree Maximum Depth
+```
+
+**Note:** There are more parameters available for SGE (grammar, seed, run) that we will define indirectly, for simplicity. The above parameters are the only ones that one must include in the Yaml file.
+
+### Running the Framework
+
+First, lets start by splitting the data:
+
+```PYTHON
+from fedora.core.utilities.lib import split_data
+train_val, test = split_data(features, labels, SEED, test_size=0.2)
+```
+
+This returns two dictionaries (train_val (80%) and test (20%)) with keys **"X"** and **"y"** for the features and labels, respectively. 
+
+
+
+Finally, to assess the fitnesss of SGE, one only requires a machine learning model and an error metric (as SGE aims to minimize the objective function). There is also required a seed for initializing the random number generators of the machine learning model, SGE and dataset partitioning (train and validation).
+
+```python
+from fedora.core.engine import Fedora
+
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.tree import DecisionTreeClassifier
+
+def errorBAcc(true, pred):
+    return 1 - balanced_accuracy_score(true, pred)
+
+fedora = Fedora(
+    seed = 42,
+    model = DecisionTreeClassifier(),
+    error_metric = errorBAcc,
+    sge_parameters_path = "car-evaluation.yml",
+    grammar_path = "car-evaluation.pybnf",
+    logging_dir = "./"
+)
+```
+
+Here we chose:
+- A Decision Tree Classifier as the machine learning model, due to its interpretability
+- To run the algorithm with the seed 42
+- Balanced Accuracy as the performance metric (The error is just **1 - BAcc**), since the classes are unbalanced.
+
+To run the framework simply do:
+```PYTHON
+fedora.fit(**train_val)   
+```
+
+From this point, the algorithm will randomly split the **train_val** dataset into 2 subsets: **train** (50%) and **validation** (50%), using them in the feature engineering process. The train set will fit the machine learning model while the validation set will assess its generalization capabilities. 
+
+Once ended, the results are logged, generating the following generic folder structure:
+
+```
+car-evaluation-results        # Results folder name
+├── run_0                     # run_{seed} 
+│   └── ...                   
+└── run_42                    # run_{seed} 
+    ├── best.json             # Phenotype with best validation score
+    ├── iteration1.json       # Log of the 1st generation
+    ├── iteration2.json       # Log of the 2st generation
+    ├── ...                   # ...
+    ├── iteration30.json      # Log of the 30th generation
+    ├── parameters.json       # Structured Grammatical Evolution Parameters
+    ├── progress_report.csv   # Statistics of each generation 
+    └── warnings.txt          # Logged runtime warnings 
+```
+
+If there are logged results for a given seed, fitting the framework to the same exact seed will make it skip the evolutionary process, and simply fetch its best from memory.
+
+Applying the best individual to the train_val and test sets:
+
+```PYTHON
+train_val_fedora = fedora.transform(**train_val)
+test_fedora = fedora.transform(**test)
+
+print(train_val_fedora)
+```
+
+```
+      feature_0  feature_1  feature_2  feature_3  feature_4  feature_5  ...  feature_15  feature_16  feature_17  feature_18  feature_19  feature_20
+0           1.0        0.0        1.0        1.0        1.0        1.0  ...         1.0         0.0         0.0         1.0         0.0         0.0
+1           0.0        0.0        1.0        1.0        0.0        1.0  ...         1.0         1.0         1.0         1.0         1.0         1.0
+2           1.0        0.0        1.0        1.0        1.0        0.0  ...         0.0         1.0         0.0         0.0         0.0         0.0
+3           0.0        1.0        1.0        1.0        0.0        0.0  ...         1.0         1.0         0.0         0.0         1.0         0.0
+4           1.0        1.0        0.0        1.0        0.0        0.0  ...         1.0         1.0         0.0         0.0         0.0         0.0
+...         ...        ...        ...        ...        ...        ...  ...         ...         ...         ...         ...         ...         ...
+1377        1.0        0.0        1.0        1.0        0.0        1.0  ...         1.0         1.0         0.0         0.0         0.0         0.0
+1378        0.0        0.0        1.0        1.0        1.0        1.0  ...         0.0         1.0         0.0         0.0         1.0         0.0
+1379        1.0        1.0        1.0        1.0        0.0        1.0  ...         0.0         1.0         0.0         0.0         0.0         0.0
+1380        0.0        0.0        1.0        1.0        0.0        0.0  ...         1.0         1.0         1.0         0.0         1.0         0.0
+1381        0.0        0.0        1.0        1.0        0.0        1.0  ...         1.0         1.0         1.0         0.0         1.0         0.0
+
+[1382 rows x 21 columns]
+```
+
+### Results
+
+
+To compare the obtained results with the baseline, we can define 2 test pipelines:
+```PYTHON
+from sklearn.pipeline import Pipeline
+
+pipeline_baseline = Pipeline([("dt", DecisionTreeClassifier(random_state=SEED))])
+pipeline_fedora = Pipeline([("fedora", fedora), ("dt", DecisionTreeClassifier(random_state=SEED))])
+```
+
+Now just fit them with the train_val set and assess their scores with the test set:
+
+```PYTHON
+for name, train_set, test_set in [["Train-Val", train_val, train_val], ["Test", train_val, test]]:
+    baseline_score = pipeline_baseline.fit(**train_set).score(**test_set)
+    fedora_score = pipeline_fedora.fit(**train_set).score(**test_set)
+
+    print(f"Baseline {name} Accuracy: {100*baseline_score:.2f}")
+    print(f"Fedora {name} Accuracy: {100*fedora_score:.2f}")
+```
+
+
+| Pipeline |   Train-Val Set Accuracy   | Test Set Accuracy |
+|:--------:|:--------------------------:|:-----------------:|
+| Baseline |           100.00           |       95.66       |
+| Fedora   |           100.00           |     **96.24**     |
+
+
+**Fedora was able to improve the Accuracy metric!**
+
+If you want to manually try other metrics:
+
+```PYTHON
+from fedora.core.utilities.lib import format_data, score
+
+# Baseline Test BAcc
+dt = DecisionTreeClassifier(random_state=SEED)
+baseline_bacc = score(dt, train_val, test, balanced_accuracy_score)
+print(f"Baseline Test BAcc: {100*baseline_bacc:.2f}")
+
+# Fedora Test BAcc
+train_val_fedora = format_data(fedora.fit_transform(**train_val), train_val['y'])
+test_fedora = format_data(fedora.transform(test["X"]), test['y'])
+fedora_bacc = score(dt, train_val_fedora, test_fedora, balanced_accuracy_score)
+print(f"Fedora Test BAcc: {100*fedora_bacc:.2f}")
+```
+
+| Pipeline | Test Set Balanced Accuracy |
+|:--------:|:--------------------------:|
+| Baseline |           90.00            |
+| Fedora   |         **94.31**          |
+
+
+**Fedora also improved the Balanced Accuracy metric!**
+
+Therefore, we have shown the effectiveness and hassle-free style of the framework for any feature engineering task!
+
+--- 
+## Further Details
+
+### Analysing the Best individuals
+
+If we look to the run_42/best.json file:
+
+```JSON
+{"features": 21, "phenotype": "~x['safety_med'],x['buying_high'],~x['safety_low'],~x['doors_2'],x['lug_boot_big'],~x['persons_2'],~x['persons_4'],x['maint_low'],~x['buying_med'],x['lug_boot_small'],x['doors_2'],x['buying_high'],x['maint_high'],(~x['safety_high']&x['lug_boot_small']),~x['maint_high'],~x['maint_low'],~x['buying_vhigh'],x['lug_boot_small'],(x['maint_vhigh']&~x['maint_high']),x['safety_med'],~x['persons_more']&(x['persons_4']&x['doors_3'])"}
+```
+
+We are able to see that the transformation has 21 features. It is possible to individually get each feature in a list by doing:
+
+```PYTHON
+from fedora.core.utilities.lib import get_features
+
+individual = Fedora.get_best("car-evaluation-results/", 42)
+features = get_features(individual["phenotype"])
+
+print(features)
+```
+
+```PYTHON
+["~x['safety_med']", "x['buying_high']", "~x['safety_low']", "~x['doors_2']", "x['lug_boot_big']", "~x['persons_2']", "~x['persons_4']", "x['maint_low']", "~x['buying_med']", "x['lug_boot_small']", "x['doors_2']", "x['buying_high']", "x['maint_high']", "(~x['safety_high']&x['lug_boot_small'])", "~x['maint_high']", "~x['maint_low']", "~x['buying_vhigh']", "x['lug_boot_small']", "(x['maint_vhigh']&~x['maint_high'])", "x['safety_med']", "~x['persons_more']&(x['persons_4']&x['doors_3'])"]
+```
+
+From here, one can extract all kinds of statistics concerning the phenotype of the best individuals.
+
+### Building a custom Operator
+
+Here we will build and use the "MyOpt" operator, showcased in the ["Initial Representation and Operators" section](#initial-representation-and-operators), and the concatReverse operator to concat 2 strings and reverse them.
+
+Simply create the MyOpt and concatReverse functions and wrap them with the Infix class:
+
+```PYTHON
+from fedora.sge.utilities.protected_math import Infix
+
+# The operators must be able to handle pandas.Series
+
+def MyOpt(series: pd.Series):
+    return series.apply(lambda x: x.count("i"))
+
+def concatReverse(s1: pd.Series, s2: pd.Series):
+    return pd.Series(s1 + s2).apply(lambda x: x[::-1])
+```
+
+One can invoke the functions in the following ways:
+
+```PYTHON
+# Arity 1
+print(_MyOpt_(...))       # Simple Call
+print(_MyOpt_ | ...)      # with __or__
+print(_MyOpt_ >> ...)     # with __rshift__
+
+# Arity 2:
+print(_ccrev_(..., ...))       # Simple Call
+print(... | _ccrev_ | ...)     # with __or__ and __ror__
+print(... << _ccrev_ >> ...)   # with __rshift__ and __rlshift__
+```
+
+This is very useful since it allows for function calls without needing to enumerate the arguments with commas.
+When evaluating the operators using actual features, we obtain:
+```PYTHON
+df = pd.DataFrame({
+    "feature0": pd.Series(["Test i", "Test ii", "Test iii"]),
+    "feature1": pd.Series(["Hello", "World", "!"])
+})
+
+print(_MyOpt_(df["feature0"]).values)
+print((_MyOpt_ | df["feature0"]).values)
+print((_MyOpt_ >> df["feature0"]).values)
+
+print(_ccrev_(df["feature0"], df["feature1"]).values)
+print((df["feature0"] | _ccrev_ | df["feature1"]).values)        # Does not work because pd.Series overwrites the __or__
+print((df["feature0"] << _ccrev_ >> df["feature1"]).values)
+```
+
+```
+[1 2 3]
+[1 2 3]
+[1 2 3]
+['olleHi tseT' 'dlroWii tseT' '!iii tseT']
+[ True  True  True]
+['olleHi tseT' 'dlroWii tseT' '!iii tseT']
+```
+Therefore, the operators funcion as intended. 
+
+The next step is to incorporate these operators into the grammar, which might appear as follows:
+```BNF
+# string.pybnf
+<start> ::= <feature>,|<feature>,<feature>
+<feature> ::=  _MyOpt_ \eb x[<var>] | x[<var>] \l\l _ccrev_ \g\g x[<var>] 
+<var> ::= 'feature0' | 'feature1'
+```
+
+Now, all that is left is to add this operators to the Fedora class:
+```PYTHON
+fedora = Fedora(
+    seed = 42,
+    model = DecisionTreeClassifier(),
+    error_metric = errorBAcc,
+    sge_parameters_path = "strings.yml",
+    grammar_path = "strings.pybnf",
+    logging_dir = "./",
+    operators = {"_MyOpt_": _MyOpt_, "_ccrev_": _ccrev_}
+)
+```
