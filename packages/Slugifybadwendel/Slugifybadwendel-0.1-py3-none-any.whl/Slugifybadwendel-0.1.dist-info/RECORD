@@ -1,0 +1,8 @@
+pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pack/doublon.py,sha256=tLhAxk9YPRuEZNwUed40gJ_Ddr-kFVsXCsljJFzGIfU,296
+pack/main.py,sha256=rfoOOnYEcZA4HYJfxpdSDqxD13d8U2I3UsReQTAVHNE,106
+pack/slugify.py,sha256=nUk1MURLy59RZ3qFy9wkiC2YGxmTeJAxQ_cKPsxk7jg,847
+Slugifybadwendel-0.1.dist-info/METADATA,sha256=6paXRtmkug05mSt-t9h5WjQrYwgaU5VvY63_-Y1fUDg,599
+Slugifybadwendel-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Slugifybadwendel-0.1.dist-info/top_level.txt,sha256=MG1_gdQdYIO2z2g6MqKxG6mpN2SnuE1EmnGwuulc6b0,5
+Slugifybadwendel-0.1.dist-info/RECORD,,
