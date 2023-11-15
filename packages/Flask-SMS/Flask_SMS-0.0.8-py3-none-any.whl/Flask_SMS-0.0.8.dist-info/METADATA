@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Flask-SMS
+Version: 0.0.8
+Summary: flask-sms
+Home-page: UNKNOWN
+Author: 浩
+Author-email: 
+License: MIT
+Keywords: flask extension development sms
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+Requires-Dist: alibabacloud-dysmsapi20170525 (==2.0.24)
+
+flask-SMS
+
+
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+
+
+
+
+
+
+
+
+
+
+
+
+
