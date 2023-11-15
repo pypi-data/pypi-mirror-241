@@ -1,0 +1,15 @@
+flushai/__init__.py,sha256=Ix8NoVoE33oXO4o3ON9usguhYMp_egTPxlu0nD95fOI,2134
+flushai/basemodel.py,sha256=7UPTuZgaobcge1AmDv0Knp8ESvyipYUO7XPAAL26XHs,285
+flushai/text2imgbase.py,sha256=k5kbqHGYvR_V-Pj8eWLs9BKwONH38dRIR_6kNefZEPA,3991
+flushai/txt2gifbase.py,sha256=OIAdSeIk_uJh5UOTCo_mGt4nLK4PjLD-tzhIRdEXkJo,3794
+flushai/gallery/__init__.py,sha256=MPf7Pcvp5QIyBFBYECgNeAIHx--MDpoJXDvB11aMAsU,54
+flushai/gallery/image_gallery.py,sha256=-JKaMIbXqQW1OMYzsKBFrVv7lls-llDmKmwuXgIQbIo,5501
+flushai/prompts/__init__.py,sha256=P8iv27pSqdb5a7KN90m1iX8u8fWCVND5PMTWsttSGzQ,133
+flushai/prompts/base_prompt_template.py,sha256=zJpJpmI1Yok24parK_khIgGe0oMUOxBPktm77yd-tsE,541
+flushai/prompts/few_shot_prompt_template.py,sha256=i1LqZSnAOeXHTYd4nPuKkqALjz_cYlsBLLsK7oKXO9w,1751
+flushai/prompts/prompt_template.py,sha256=GRdlqQ5FsvhzmZy4aBQPgaB5qKFiIPIxRXrmjcJ8BwI,1117
+flushai-0.0.8.dist-info/LICENCE,sha256=bIOiVKYxukp812i9PIZ9_LVrxwTQ8Jdh09XnbDTx65Y,1066
+flushai-0.0.8.dist-info/METADATA,sha256=WsCt_hB27gPJHtq_RuIHYAYpN8rUbNbaTn9KBKPjaLk,827
+flushai-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flushai-0.0.8.dist-info/top_level.txt,sha256=QUbxwdd1QBjMLRvAJibG8Ef7LXv6VprcMztDec2WfBo,8
+flushai-0.0.8.dist-info/RECORD,,
