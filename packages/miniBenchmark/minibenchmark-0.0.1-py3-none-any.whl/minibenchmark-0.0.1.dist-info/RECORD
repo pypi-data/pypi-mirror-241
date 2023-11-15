@@ -1,0 +1,15 @@
+miniBenchmark/FFT_power_spectral.py,sha256=uU-4RNyoPhEv4S6MAAeuXvjq3_2lCpz77yGXl0Ru03k,5079
+miniBenchmark/Forests.py,sha256=59cfS94TdovqVDScBuitRU_Xx5Kkgb4uoqnJI1TyiyQ,2381
+miniBenchmark/PDE_BVP.py,sha256=39EXgE9dCiylm5bY5uktDWDhBV525haNguk4XDrGiro,4213
+miniBenchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miniBenchmark/benchmark_machine.py,sha256=Xwnjh_vhwt3hLFMTW9JV3wFjfH--GOguux9SeXQ324A,1446
+miniBenchmark/detect_availability.py,sha256=n-Uf7dwzjWmpjgUfkAtcub_9jrMm7SD16Jffl6ILBv4,955
+miniBenchmark/detect_torch_availability.py,sha256=EoLJCgYQNWHnunBKU1Rpta6ZqMzK8uTo2gRZi6GjSt4,1303
+miniBenchmark/generate_data_tasks.py,sha256=f9B18Skax47LzYa6IUEq6N_lZSMnetFPmPJB8HQdDAs,5717
+miniBenchmark/invert_matrix.py,sha256=WQdDRty-8yAduXBR6y1YpyXeJ9z-QvJmPGVHpKUdB4U,805
+miniBenchmark/malloc.py,sha256=Q9SM4GhvTqH5h_WBtXA8yVjusAUiiUhRXLGP1M0e--g,333
+miniBenchmark/tab_dae.py,sha256=M-kqWKkC4PbXT6_EVhhXi1u1RfHSfQotARVAkX7UvxY,2558
+miniBenchmark/upscale_task.py,sha256=Tu48SBPTNzNcyeGbqTpl_3_VHJNhMIlVYwL6EYhfpKw,4873
+minibenchmark-0.0.1.dist-info/METADATA,sha256=qxjXjzaGfRbkjtDdcFSU-JrC078GeRbWTjiq9fM2AIA,3528
+minibenchmark-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+minibenchmark-0.0.1.dist-info/RECORD,,
