@@ -1,0 +1,16 @@
+numpy
+pandas
+openpyxl
+scipy
+matplotlib
+japanize_matplotlib
+seaborn
+optuna
+pywin32
+pywinauto
+
+[dev]
+pyqt5
+spyder
+qt5-applications
+optuna-dashboard
