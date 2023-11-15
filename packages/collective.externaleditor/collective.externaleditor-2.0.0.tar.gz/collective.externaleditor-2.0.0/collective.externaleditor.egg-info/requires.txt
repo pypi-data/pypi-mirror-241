@@ -1,0 +1,11 @@
+Plone
+Products.CMFCore
+Products.CMFPlone
+Products.ExternalEditor>=1.1.0dev
+Products.GenericSetup
+Products.statusmessages
+setuptools
+
+[test]
+plone.app.testing
+plone.app.robotframework[debug]

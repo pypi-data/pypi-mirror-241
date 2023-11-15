@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action-icons xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+              i18n:domain="plone"
+>
+  <action-icon action_id="collective.externaleditor"
+               category="controlpanel"
+               icon_expr="++resource++collective.externaleditor.externaleditor.png"
+               priority="0"
+               title="collective.externaleditor.externaleditor.png"
+               i18n:attributes="title"
+  />
+</action-icons>

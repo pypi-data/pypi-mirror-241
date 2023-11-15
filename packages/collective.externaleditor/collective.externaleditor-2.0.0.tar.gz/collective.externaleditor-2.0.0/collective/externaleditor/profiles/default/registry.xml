@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="collective.externaleditor.browser.controlpanel.IExternalEditorSchema"
+           prefix="externaleditor"
+  >
+    <value key="ext_editor">True</value>
+    <value key="externaleditor_enabled_types"
+           purge="True"
+    >
+      <element>File</element>
+      <element>Image</element>
+    </value>
+  </records>
+</registry>
