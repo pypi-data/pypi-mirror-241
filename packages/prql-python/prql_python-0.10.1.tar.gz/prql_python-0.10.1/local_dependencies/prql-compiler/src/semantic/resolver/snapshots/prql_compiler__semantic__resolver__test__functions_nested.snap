@@ -1,0 +1,129 @@
+---
+source: prqlc/prql-compiler/src/semantic/resolver/mod.rs
+expression: "resolve_derive(r#\"\n            let lag_day = x -> s\"lag_day_todo({x})\"\n            let ret = x dividend_return ->  x / (lag_day x) - 1 + dividend_return\n\n            from a\n            derive (ret b c)\n            \"#).unwrap()"
+---
+- RqOperator:
+    name: std.add
+    args:
+      - RqOperator:
+          name: std.sub
+          args:
+            - RqOperator:
+                name: std.div_f
+                args:
+                  - Ident:
+                      - this
+                      - a
+                      - b
+                  - SString:
+                      - String: lag_day_todo(
+                      - Expr:
+                          expr:
+                            Ident:
+                              - this
+                              - a
+                              - b
+                          format: ~
+                      - String: )
+              ty:
+                kind:
+                  Union:
+                    - - ~
+                      - kind:
+                          Primitive: Int
+                        span: "2:779-782"
+                        name: ~
+                    - - ~
+                      - kind:
+                          Primitive: Float
+                        span: "2:786-791"
+                        name: ~
+                span: "2:779-791"
+                name: ~
+            - Literal:
+                Integer: 1
+              ty:
+                kind:
+                  Primitive: Int
+                span: ~
+                name: ~
+        ty:
+          kind:
+            Union:
+              - - ~
+                - kind:
+                    Primitive: Int
+                  span: "2:1110-1113"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Float
+                  span: "2:1117-1122"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Timestamp
+                  span: "2:1126-1135"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Date
+                  span: "2:1139-1143"
+                  name: ~
+          span: "2:1110-1143"
+          name: ~
+      - Ident:
+          - this
+          - a
+          - c
+        ty:
+          kind:
+            Union:
+              - - ~
+                - kind:
+                    Primitive: Int
+                  span: "2:924-927"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Float
+                  span: "2:931-936"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Timestamp
+                  span: "2:940-949"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Date
+                  span: "2:953-957"
+                  name: ~
+          span: "2:924-957"
+          name: ~
+  ty:
+    kind:
+      Union:
+        - - ~
+          - kind:
+              Primitive: Int
+            span: "2:963-966"
+            name: ~
+        - - ~
+          - kind:
+              Primitive: Float
+            span: "2:970-975"
+            name: ~
+        - - ~
+          - kind:
+              Primitive: Timestamp
+            span: "2:979-988"
+            name: ~
+        - - ~
+          - kind:
+              Primitive: Date
+            span: "2:992-996"
+            name: ~
+    span: "2:963-996"
+    name: ~
+

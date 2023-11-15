@@ -1,0 +1,92 @@
+---
+source: prqlc/prql-compiler/src/semantic/resolver/mod.rs
+expression: "resolve_derive(r#\"\n            let subtract = a b -> a - b\n\n            from employees\n            derive {\n                net_salary = subtract gross_salary tax\n            }\n            \"#).unwrap()"
+---
+- RqOperator:
+    name: std.sub
+    args:
+      - Ident:
+          - this
+          - employees
+          - gross_salary
+        ty:
+          kind:
+            Union:
+              - - ~
+                - kind:
+                    Primitive: Int
+                  span: "2:1030-1033"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Float
+                  span: "2:1037-1042"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Timestamp
+                  span: "2:1046-1055"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Date
+                  span: "2:1059-1063"
+                  name: ~
+          span: "2:1030-1063"
+          name: ~
+      - Ident:
+          - this
+          - employees
+          - tax
+        ty:
+          kind:
+            Union:
+              - - ~
+                - kind:
+                    Primitive: Int
+                  span: "2:1071-1074"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Float
+                  span: "2:1078-1083"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Timestamp
+                  span: "2:1087-1096"
+                  name: ~
+              - - ~
+                - kind:
+                    Primitive: Date
+                  span: "2:1100-1104"
+                  name: ~
+          span: "2:1071-1104"
+          name: ~
+  alias: net_salary
+  ty:
+    kind:
+      Union:
+        - - ~
+          - kind:
+              Primitive: Int
+            span: "2:1110-1113"
+            name: ~
+        - - ~
+          - kind:
+              Primitive: Float
+            span: "2:1117-1122"
+            name: ~
+        - - ~
+          - kind:
+              Primitive: Timestamp
+            span: "2:1126-1135"
+            name: ~
+        - - ~
+          - kind:
+              Primitive: Date
+            span: "2:1139-1143"
+            name: ~
+    span: "2:1110-1143"
+    name: ~
+
