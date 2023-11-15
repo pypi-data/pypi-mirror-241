@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: test-tele
+Version: 0.1.0
+Summary: Aahnik tgcf but with more beta functions
+Requires-Python: >=3.10
+License-File: LICENSE
