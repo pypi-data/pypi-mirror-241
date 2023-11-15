@@ -1,0 +1,4 @@
+[console_scripts]
+tgcf=test_tele.cli:app
+tgcf-web=test_tele.web_ui.run:main
+
