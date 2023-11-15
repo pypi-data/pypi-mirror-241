@@ -1,0 +1,7 @@
+gerbonara>=1.2.0
+beautifulsoup4
+numpy
+python-slugify
+lxml
+click
+svg-flatten-wasi
