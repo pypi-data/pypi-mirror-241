@@ -1,0 +1,10 @@
+wattrex_mn_manager/__init__.py,sha256=k9Eyyr_MIjnjnY7Y-iM6A3aa_xxk88qtUR5m8CqlLtI,267
+wattrex_mn_manager/__version__.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+wattrex_mn_manager/mn_broker_client.py,sha256=SWsRTR9PjptuPLuwGqus6APWGWfs_JxPXrCAR2uvYwc,5373
+wattrex_mn_manager/mn_db_facade.py,sha256=vC9yuNmt-cj4dl6t-CR8sPX7QNQZCo8d2sGQxIz2eyA,9549
+wattrex_mn_manager/mn_manager_node.py,sha256=BS0L00b3bSdLry5HAflOKQuoMUZkIo4qXRxyu4NCfiA,7272
+wattrex_mn_manager-0.0.4.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+wattrex_mn_manager-0.0.4.dist-info/METADATA,sha256=2amuIs0KC4lBsc9JPppJabB_uxquhwXdZ4cuKK8OXO0,43096
+wattrex_mn_manager-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wattrex_mn_manager-0.0.4.dist-info/top_level.txt,sha256=NcK0jxsnD51LAszvNtqs_L8bQXFs-I2IC26SRd-2UaE,19
+wattrex_mn_manager-0.0.4.dist-info/RECORD,,
