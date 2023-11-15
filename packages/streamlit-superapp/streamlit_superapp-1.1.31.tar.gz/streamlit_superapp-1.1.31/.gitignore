@@ -1,0 +1,19 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+
+# node
+node_modules/
+
+# front-end
+!streamlit_superapp/web/**/build/
+pages
+app.py
