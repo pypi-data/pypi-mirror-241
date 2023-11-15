@@ -1,0 +1,11 @@
+create_testing_pypi_maheshmakwana787/__init__.py,sha256=whTUe_lzbWZxIyG62VAC9Qso4OWFBHKgxMsfMVV4Um8,269
+create_testing_pypi_maheshmakwana787/audio.py,sha256=yx7UqDY1QPNUG6HjLD4BC_LyLOWXW7cFc5mdY1sw2do,3646
+create_testing_pypi_maheshmakwana787/streaming.py,sha256=fECICNUri6bgeV86rXGLPaaHDD9IDgsGuTy5EpyKSoo,14578
+vidstream/__init__.py,sha256=whTUe_lzbWZxIyG62VAC9Qso4OWFBHKgxMsfMVV4Um8,269
+vidstream/audio.py,sha256=yx7UqDY1QPNUG6HjLD4BC_LyLOWXW7cFc5mdY1sw2do,3646
+vidstream/streaming.py,sha256=fECICNUri6bgeV86rXGLPaaHDD9IDgsGuTy5EpyKSoo,14578
+create_testing_pypi_maheshmakwana787-0.0.2.dist-info/LICENSE,sha256=7zDDAwex69UungkP4MeL_ZiqYEVc27KSi_y4PUr-Fa4,1073
+create_testing_pypi_maheshmakwana787-0.0.2.dist-info/METADATA,sha256=uI9KxnH-48gS9stZkQIcMUvw-9EKcmKBK3HDcM8pnMc,1464
+create_testing_pypi_maheshmakwana787-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+create_testing_pypi_maheshmakwana787-0.0.2.dist-info/top_level.txt,sha256=LUJAWTwab3mfaBN8uzRcbXQGhPZzmnpQKHCYQF8KJcE,37
+create_testing_pypi_maheshmakwana787-0.0.2.dist-info/RECORD,,
