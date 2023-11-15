@@ -1,0 +1,111 @@
+/*
+Program: Meraki Firewall DC
+Author:  Marco Caspers
+Date:    07-03-2023
+Version: 4.0
+
+Description:
+
+This module provides the function GetFirewallData that collects data from a Meraki Firewall Appliance via the Meraki Dashboard API.
+
+Date:    24-03-2023
+
+Extracted HA status and UplinkState from data collection into a separate function GetFirewallHAAndUplinkState.
+This is because we need to know HA node type to determine to call zero data or data collection functions.
+
+*/
+
+
+GetFirewallData => (device, latencies, enable_bandwidth) {
+    // If the device is not in the devices list, there wont be any data.
+    if device["listed"] == false {
+        Console("@Device not listed.");
+        return;
+    }
+
+    // Operation Id:getDeviceAppliancePerformance
+	// Description:Return the performance score for a single MX. Only primary MX devices supported. 
+    // If no data is available, a 204 error code is returned.
+    // Some devices return a 404 error.
+    // Dormant devices will always cause a fail.
+    if device["apistatus"] != "dormant" {
+        select distinct perfScore from get_app_Performance(device["serial"]) into performance;
+        if performance != false and performance != nil {
+            device["performance"] = performance["perfScore"];
+        }
+        else {
+            Console($"@ Failed to retrieve performance data for {device['apiname']} with serial {device['serial']}, device state {device["apistatus"]}.");
+            device["performance"] = 0;
+        }
+    }
+    else {
+        device["performance"] = 0;
+    }
+
+    // latencies comes from: get_org_DevicesUplinksLossAndLatency
+    select * from latencies where serial == device["serial"] into latency;
+    
+    ok = true;
+    if IsRecord(latency) {
+        if latency["uplink"] == nil {
+            ok = false;
+        }
+        else {
+            latency = Array(latency);
+        }
+    }
+    if ok {
+        device["latency"] = array;
+        foreach latency {
+            select distinct uplink, ip, avg_latency, avg_packetloss from it into lat;
+            c = 0;
+            l = 0.0;
+            p = 0.0;
+            foreach it["timeSeries"] {
+                latency = it["latencyMs"];
+                loss = it["lossPercent"];
+                if (latency != nil) {
+                    l = l + latency;
+                }
+                if (loss != nil) {
+                    p = p + loss;
+                }
+                c = c + 1;
+            }
+            if c > 0 {
+                lat["avg_packetloss"] = p/c;
+                lat["avg_latency"] = l/c;
+            } else {
+                lat["avg_packetloss"] = 0;
+                lat["avg_latency"] = 0.0;
+            }
+            select * from lat merge into device["latency"];
+        }
+    }
+        
+    if device["networkId"] != nil and device["networkId"] != "" and device["networkId"] != false {
+        if enable_bandwidth == true {
+            device["bandwidth"] = record;
+            device["bandwidth_sent"] = record;
+            device["bandwidth_recv"] = record;
+            select * from get_app_NetworkApplianceUplinkUsageHistory(device["networkId"]) into uplbw;
+            if uplbw != nil and uplbw != false {
+                if IsRecord(uplbw) {
+                    uplbw = Array(uplbw);
+                }
+                foreach uplbw {
+                    interface = it["interface"];
+                    sent = it["sent"];
+                    received = it["received"];
+                    total = it["total"];
+                    device["bandwidth"][interface] = total;
+                    device["bandwidth_sent"][interface] = sent;
+                    device["bandwidth_recv"][interface] = received;
+                }
+            }
+            elif uplbw == false {
+                Console(GetLastErrorMessage());
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# This is a basic fibonaci function to test the compiler.
+# We still work around the problem that we can not pass functions into function arguments.
+
+fib => (n) {
+    if n == 1 or n == 2 {
+        return 1;
+    }
+    return fib(n-1) + fib(n-2);
+}
+
+var = fib(7);
+
+print("fib(7) = ", var);
