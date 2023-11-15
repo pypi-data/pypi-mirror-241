@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: fml40-reference-implementation
+Version: 1.0.0
+Summary: fml40 reference implementation basic functions
+Home-page: https://www.kwh40.de/
+Author: Kompetenzzentrum Wald und Holz 4.0
+Author-email: s3i@kwh40.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: jsonschema
+Requires-Dist: s3i
+
+# ForestML 4.0 (fml40) reference implementation - Python <!-- omit in toc -->
+[![pypi releases](https://img.shields.io/badge/pypi-v1.0.0-orange)](https://pypi.org/project/fml40-reference-implementation/)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+
+
+## Overview 
+
+ForestML 4.0 (fml40) reference implementation provides Software Development Kit (SDK) to build a Digital Twin based on the Forest Modeling Language 4.0 (fml40), as specified in [the fml40 white paper](https://www.kwh40.de/wp-content/uploads/2020/03/KWH40-Standpunkt-fml40-Version-1.0.pdf) (Only in German). 
+
+Additionally, the SDK supports the use of Smart Systems Service Infrastructure ([S³I](https://www.kwh40.de/wp-content/uploads/2022/02/KWH40-Standpunkt-S3I-EN.pdf)) to enable an inter-twin interconnection with other Digital Twins, making data and service identifiable, available, and accessible. 
+
+The developed Digital Twin using this SDK is technically structured as below: 
+
+- An entry contains all ForestML 4.0 conform models (incl. services, properties and events), which are stored under the ml folder and can be serialized as JSON
+- A function mapper that maps user-defined methods to concretize ForestML 4.0 service functions. 
+- A value synchronization module that collects the value (e.g., sensor data) from physical assets to Digital Twins and maps to ForestML 4.0 properties. 
+- A connector to establish an connection with the S³I. 
+
+## Docs
+A documentation, which introduces basic classes and methods of this SDK, can be found under this [link](https://kwh40.pages.rwth-aachen.de/fml40-reference-implementation).
+
+## Getting Started
+
+### Installation
+The use the ForestML 4.0 (fml40) reference implementation requires an installation of the SDK on your local device.
+Currently, the SDK is available via Pypi:  
+
+```bash
+python -m pip install fml40-reference-implementation
+```
+### Example - Quickly develop a Digital Twin of Harvester (DT Harvester)
+Here, we provide a brief guide on how to develop a DT Harvester, which consists of a location property, a property representing operation hours, and a service for accepting felling orders. 
+All these features can be modeled using ForestML 4.0.
+
+#### Step 1: Serialize JSON file 
+The model of Harvester (and also its Digital Twin) can be serialized as JSON, as shown below: 
+
+```json
+{
+    "thingId": "",
+    "policyId": "",
+    "attributes": {
+        "class": "ml40::Thing",
+        "name": "Demo Harvester",
+        "features": [
+            {
+                "class": "fml40::AcceptsFellingJobs"
+            },
+            {
+                "class": "ml40::OperatingHours",
+                "total": 0
+            },
+            {
+                "class": "ml40::Location",
+                "longitude": 0,
+                "latitude": 0,
+                "orientation": 0
+            }
+        ]
+    }
+}
+```
+
+#### Step 2: Registration
+Identity ensures global identification of DT Harvester and is necessary for connecting to the S³I.
+[The S³I Manager](https://manager.s3i.vswf.dev) is a web-based service supporting configuration of identities which can be assigned to users and their Digital Twin.
+Using the S³I manager, identities can be created, which is required to log in the S³I Manager. 
+After logging in, Thing identity can be registered by clicking ***Create Thing***. 
+The returned ***identifier*** and ***secret*** should be kept locally. 
+Afterwards, a message queue and a cloud copy should be created to DT Harvester under ***Create***, such that DT Harvester is reachable via the S³I Broker and the current state of DT Harvester can be stored in the S³I Repository.
+
+#### Step 3: Runs demo_harvester.py
+The from Step 2 obtained identifier and secret used to launch ***demo_harvester.py*** 
+```
+python demo_harvester.py -i OAUTH2_ID -s OAUTH2_SECRET
+```
+
+#### Step 4: Check the state update 
+To verify whether DT Harvester is currently running, one can use ***Explore*** in the S³I Manager to check the current state of DT Harvester.
+There, the continuous changes in operation hours will be shown.  
