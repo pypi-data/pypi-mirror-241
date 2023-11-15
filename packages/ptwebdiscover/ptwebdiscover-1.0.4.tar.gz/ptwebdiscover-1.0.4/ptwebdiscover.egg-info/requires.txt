@@ -1,0 +1,5 @@
+ptlibs<2,>=1.0.3
+requests
+appdirs
+tldextract>=5.0.0
+treelib
