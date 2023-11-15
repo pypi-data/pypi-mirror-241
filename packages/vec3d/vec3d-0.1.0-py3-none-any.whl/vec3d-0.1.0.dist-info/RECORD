@@ -1,0 +1,9 @@
+vec3d/graph/__init__.py,sha256=veufv8cUDRUbI09egGW2trqzq3Q5eD1nmJVgJ9kzrqQ,400
+vec3d/graph/vector3d_graphics.py,sha256=xjl0ZPZVglBDKNTfb_OhJ0ViGWDQU5M0OxchoB1266Y,15311
+vec3d/math/__init__.py,sha256=9sfQnlh2qOOXpR9gSqjfVXWQX7fBbsRyz0Fyb_iVnDI,392
+vec3d/math/vector3d_math.py,sha256=0KLVu3UYDlaw0CBlp0n3j2St9C8VeFWacUaHVySWCqY,5238
+vec3d-0.1.0.dist-info/LICENSE,sha256=F46H_EZYpx1LkQUpNCwXnqMLtnuxNj3NmruDeBL00h0,1075
+vec3d-0.1.0.dist-info/METADATA,sha256=2701xtPZURS9zF86hqiCEaa6E14LK6L0eYqAHXjRw6Y,1443
+vec3d-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vec3d-0.1.0.dist-info/top_level.txt,sha256=TmYHuKkKyZDHSUYOA1F7lTwPrNnR9ufQTLMIaVgS43U,23
+vec3d-0.1.0.dist-info/RECORD,,
