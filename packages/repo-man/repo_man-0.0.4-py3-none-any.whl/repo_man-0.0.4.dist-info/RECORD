@@ -1,0 +1,9 @@
+repo_man/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repo_man/cli.py,sha256=2VZW77evDAT7SmXbj1H47-1jy9YS1S1LPQFG9b4dNxg,6455
+repo_man/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repo_man-0.0.4.dist-info/LICENSE,sha256=ARO0ltnHCA-4r2wU2bSGV0XcxfhDqqKh7-htijTidbc,111
+repo_man-0.0.4.dist-info/METADATA,sha256=2_bpoOxpHEgxLB4VXxdSepLoSZ25HQS0fyLxKZbzAQ4,1247
+repo_man-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+repo_man-0.0.4.dist-info/entry_points.txt,sha256=aRUEBuveFxtYSLZMc0ITkcaKO4RTnqN3-wloeSVRQlM,47
+repo_man-0.0.4.dist-info/top_level.txt,sha256=hcIO1aH4xyoCC7ehWgzja1vKWZbT2LCPQFdAUiUt3wQ,9
+repo_man-0.0.4.dist-info/RECORD,,
