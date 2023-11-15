@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+newold/__init__.py
+newold/__main__.py
+newold/version.py
+newold.egg-info/PKG-INFO
+newold.egg-info/SOURCES.txt
+newold.egg-info/dependency_links.txt
+newold.egg-info/entry_points.txt
+newold.egg-info/requires.txt
+newold.egg-info/top_level.txt

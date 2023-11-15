@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: newold
+Version: 0.0.1
+Summary: Print only new values to stdout, or those that weren't seen in a while.
+Home-page: https://gitlab.com/Zer1t0/newold
+Author: Eloy Pérez González
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tomlkit
+
+# newold
+
+Print only new values to stdout, or those that weren't seen in a while.
+
+## Usage
+
+Here is an usage example:
+```
+$ cat /tmp/inputs.txt
+one
+two
+three
+$ # new values are printed
+$ cat /tmp/inputs.txt | newold --db /tmp/in.db
+one
+two
+three
+$ # values are not printed
+$ cat /tmp/inputs.txt | newold --db /tmp/in.db
+$ sleep 5
+$ # values older than 4 seconds are printed
+$ cat /tmp/inputs.txt | newold --db /tmp/in.db --seconds 4
+one
+two
+three
+$ echo four >> /tmp/inputs.txt
+$ # new values are printed
+$ cat /tmp/inputs.txt | newold --db /tmp/in.db
+four
+```
