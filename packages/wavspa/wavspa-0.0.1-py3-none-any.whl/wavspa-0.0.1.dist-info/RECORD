@@ -1,0 +1,15 @@
+wavspa/__init__.py,sha256=RlniGlD5BPCuFgw4NVlXkEZ9Q5r3PC-CQFLJ4EDDTLY,480
+wavspa/_lorenz.py,sha256=609StAziQKvvq9HSHguUvgKx_wVgtrhmHH5TVdDZ_WA,1421
+wavspa/continuous_transform.py,sha256=9lMSf9lrwSalefKJ-gIHpFFKeHTmajTw04bdEdGPFg0,4999
+wavspa/conv_fwt.py,sha256=qKBosY_FvI_ZeY3sbl1jNtlf3vDf1wR7Y-Y93vkQ2as,7512
+wavspa/conv_fwt_2d.py,sha256=dZ4KfaH4SijtoyxzxnLtO_9bM-foNHK4YsSAb1iGjk0,7547
+wavspa/conv_fwt_2d_learn.py,sha256=55kfyb_gH4tAVSh9w9vQ9U5Yckbtxoe7xUftXH95XVw,9229
+wavspa/conv_fwt_learn.py,sha256=g8J-C4waFyHWGK6SXjO4Cc6xTH5JBUYs5UxmNtJuQ6c,7072
+wavspa/packets.py,sha256=5PdoAwGsO6Awk9QPlYXntuj5V4dkSuZKwD-640j7hp8,5766
+wavspa/utils.py,sha256=UpHnuGgJejsQwYEPB9axAafU59w9L4aBijwFjyR6olw,1784
+wavspa/version.py,sha256=IwLWLX_3BxMmz1bNN9QV_O8ntfI1S2J4fUryfLiN91M,973
+wavspa/wavelet_lifting.py,sha256=FZFHrO_5n3ffg1NBM8D8yJFKXk0ogX-kXLD63zyb8JU,4803
+wavspa-0.0.1.dist-info/METADATA,sha256=oDZJWZl_mSn3OgmTRhIfUsVlKM66h5XvavPR4nG9bgw,6159
+wavspa-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wavspa-0.0.1.dist-info/top_level.txt,sha256=LjGCCGWGY-Js15PqODloXPttHxumjDf4HbvZYYxsOD0,7
+wavspa-0.0.1.dist-info/RECORD,,
