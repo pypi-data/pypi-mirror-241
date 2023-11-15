@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+paiso/__init__.py
+paiso/paiso.py
+paiso.egg-info/PKG-INFO
+paiso.egg-info/SOURCES.txt
+paiso.egg-info/dependency_links.txt
+paiso.egg-info/top_level.txt
