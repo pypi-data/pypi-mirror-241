@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: commentsremover
+Version: 1.0.0
+Summary: Remove comments and docstrings from Python code.
+Home-page: https://github.com/Ruu3f/commentsremover
+Author: Ruu3f
+License: GPLv3
+Project-URL: Source, https://github.com/Ruu3f/commentsremover
+Keywords: comments,docstrings,commentsremover
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# commentsremover
+
+Remove comments and docstrings from Python code.
+
+## Example:
+
+```
+python -m commentsremover filename.py --comments --docstrings
+```
+
+Include either the `comments` or `docstrings` arguments individually, or use both like in the above example.
