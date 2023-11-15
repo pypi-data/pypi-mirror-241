@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "library2notion"
+version = "1.0.1"
+description = ""
+authors = ["helguera <javier@javierhelguera.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+epub-meta = "^0.0.7"
+pypdf2 = "^2.11.2"
+argparse = "^1.4.0"
+notion-client = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+library2notion = "library2notion.library2notion:main"
