@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: data_oracle
+Version: 0.0.3a0
+Summary: A package covering all utilities required for text to sql
+Project-URL: Homepage, https://github.com/raeudigerRaeffi/data_oracle
+Project-URL: Bug Tracker, https://github.com/raeudigerRaeffi/data_oracle/issues
+Author-email: Raffael Schön <raffaelscho@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: oracledb==1.4.1
+Requires-Dist: overrides==7.4.0
+Requires-Dist: psycopg2-binary==2.9.8
+Requires-Dist: pymysql==1.1.0
+Requires-Dist: pyodbc==4.0.39
+Requires-Dist: pytz==2023.3.post1
+Requires-Dist: sqlalchemy==2.0.21
+Requires-Dist: sqlparse==0.4.4
+Requires-Dist: transformers==4.35.0
+Requires-Dist: typing-extensions==4.8.0
+Description-Content-Type: text/markdown
+
+# MORE TO COME
+
+## Installation
