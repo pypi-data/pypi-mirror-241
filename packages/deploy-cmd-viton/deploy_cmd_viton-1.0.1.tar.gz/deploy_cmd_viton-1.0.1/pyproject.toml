@@ -1,0 +1,14 @@
+[project]
+name = "deploy_cmd_viton"
+version = "1.0.1"
+authors = [
+  { name="viton", email="viton@gmail.com" },
+]
+description = "A small deploy_cmd_viton package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
