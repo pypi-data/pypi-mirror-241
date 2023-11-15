@@ -1,0 +1,3 @@
+scipion-em-tomoviz
+mrcfile
+scipy
