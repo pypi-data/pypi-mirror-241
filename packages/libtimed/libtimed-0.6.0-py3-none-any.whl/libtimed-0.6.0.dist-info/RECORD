@@ -1,0 +1,8 @@
+libtimed/__init__.py,sha256=mjH7Pz0Y6wsFj6uckLgZKS_65v6NOHXF5FHcsCZP3kE,1376
+libtimed/models.py,sha256=6juxA2rEQ0BnQoXr__bA1jLRKbJBlQ2UwSGJOMq5ueE,9853
+libtimed/oidc.py,sha256=nLm1VMb1AOkqpVWjcvCs7-pdlDvtjKiuMSbAPnsbmG8,4573
+libtimed/transforms.py,sha256=OAS4JEyKjvpPnTqINIEeAW9U1fDRyRrIyu2rXwaM_d4,6170
+libtimed-0.6.0.dist-info/LICENSE,sha256=YVZ4J41kZ3lREzjuOFUFomv6hvvZoUfu8A888V24We0,34454
+libtimed-0.6.0.dist-info/METADATA,sha256=aL0j_SVA6MrnhK5McnMqFa67PJUoJksdB1nNuRVdf0o,1364
+libtimed-0.6.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+libtimed-0.6.0.dist-info/RECORD,,
