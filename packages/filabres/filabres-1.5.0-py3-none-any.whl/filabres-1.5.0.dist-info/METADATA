@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: filabres
+Version: 1.5.0
+Summary: Data Reduction Package for CAHA instruments
+Author-email: Nicolás Cardiel <cardiel@ucm.es>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/nicocardiel/filabres
+Project-URL: Repository, https://github.com/nicocardiel/filabres.git
+Project-URL: Documentation, https://filabres.readthedocs.io/
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: astropy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: python-dateutil
+Requires-Dist: PyYaml
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# filabres
+
+Automatic Data Reduction Pipeline for CAHA data.
+
+Filabres is embedded in a joint effort of the Calar Alto Observatory 
+(especially Santos Pedraz and Jesús Aceituno), the Spanish Virtual Observatory
+ (Enrique Solano, José Manuel Alacid and Miriam Cortés), and the Physics of 
+ the Earth and Astrophysics Department at the Universidad Complutense de 
+ Madrid (Nicolás Cardiel, Sergio Pascual, Enrique Galcerán and Jaime 
+ Hernández), and the collaboration of the Instituto de Física de Cantabria 
+ (Maite Ceballos), with the main goal of providing useful reduced images 
+ through the Calar Alto Archive hosted at 
+ http://caha.sdc.cab.inta-csic.es/calto/.
+
+Although this software package has been initially created with the idea of 
+performing the automatic reduction of direct images obtained with the 
+instrument CAFOS, placed at the 2.2 m telescope of the Calar Alto 
+Observatory, filabres has been designed to allow the future inclusion of 
+additional observing modes and instruments.
+
+## Installing the code
+
+In order to keep your current Python installation clean, it is highly
+recommended to first build a new Python 3 *virtual environment*.
+
+```shell
+$ python3 -m venv venv_filabres
+$ . venv_filabres/bin/activate
+(venv_filabres) $
+```
+
+We recommend installing the latest stable version, which is available via
+the [PyPI respository](https://pypi.org/project/filabres/):
+
+```shell
+(venv_filabres) $ pip install filabres
+```
+
+The latest development version is available through [GitHub](https://github.com/nicocardiel/filabres):
+
+```shell
+(venv_filabres) $ pip install git+https://github.com/nicocardiel/filabres.git@main#egg=filabres
+```
+
+## Usage
+
+See full documentation at https://filabres.readthedocs.io/
+
+Developers and maintainers: Nicolás Cardiel (cardiel@ucm.es) and 
+Sergio Pascual (sergiopr@fis.ucm.es)
