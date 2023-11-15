@@ -1,0 +1,5 @@
+pathlib>=1.0.1
+abstract_security>=0.0.1
+tiktoken>=0.5.1
+pexpect>=4.8.0
+yt_dlp>=2023.10.13
