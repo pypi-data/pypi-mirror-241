@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: odc-apps-cloud
+Version: 0.2.3
+Summary: CLI utils for working with objects/files in the cloud
+Home-page: https://github.com/opendatacube/odc-tools/
+Author: Open Data Cube
+Author-email: 
+Maintainer: Open Data Cube
+Maintainer-email: 
+License: Apache License 2.0
+Platform: any
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: odc-cloud[ASYNC]
+Requires-Dist: odc-io
+Requires-Dist: click
+Provides-Extra: thredds
+Requires-Dist: odc-cloud[THREDDS]; extra == "thredds"
+Provides-Extra: azure
+Requires-Dist: odc-cloud[AZURE]; extra == "azure"
+Provides-Extra: gcp
+Requires-Dist: google-cloud-storage; extra == "gcp"
+
+odc.apps.cloud
+==============
+
+Command line utilities for working with cloud "objects/files"
+
+
+Installation
+------------
+
+```
+pip install odc-apps-cloud
+```
+
+Usage
+-----
+
+TODO
