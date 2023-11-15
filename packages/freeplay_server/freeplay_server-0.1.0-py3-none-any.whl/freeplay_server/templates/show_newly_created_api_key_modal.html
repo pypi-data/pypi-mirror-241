@@ -1,0 +1,27 @@
+<div id="overlay" class="overlay">
+    <section>
+        <form class="fields-form">
+            <div>
+                <h3 class="my-5">Save Your New API Key</h3>
+                <p class="sub-text mb-10">
+                    Copy and save your new key in a safe place.
+                    <span class="font-bold text-[--danger-color]">
+                        It won't be accessible again.
+                    </span>
+                </p>
+            </div>
+            <div class="items-center mt-20">
+                <h3>
+                    {{ key_name }}
+                </h3>
+                <h3 class="flex items-center justify-center my-5">
+                    <api-key-copy api-key="{{ api_key }}" show-full-key="true"></api-key-copy>
+                </h3>
+            </div>
+            <nav class="actions mt-20">
+                <a href="/settings/api-access" class="button secondary">Close</a>
+            </nav>
+        </form>
+
+    </section>
+</div>

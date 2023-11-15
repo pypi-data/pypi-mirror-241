@@ -1,0 +1,11 @@
+{% if has_labels %}
+    <label>
+        Label Name
+
+        <select name="label_name">
+            {% for label in labels %}
+                <option value="{{ label }}">{{ label }}</option>
+            {% endfor %}
+        </select>
+    </label>
+{% endif %}

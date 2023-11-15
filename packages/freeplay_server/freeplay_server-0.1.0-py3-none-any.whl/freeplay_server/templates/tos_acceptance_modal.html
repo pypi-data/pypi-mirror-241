@@ -1,0 +1,19 @@
+<div id="overlay" class="overlay">
+    <div class="confirmation-modal p-xl">
+        <h1 class="my-8">
+            Terms of Use
+        </h1>
+        <div class="confirmation-text">By using Freeplay, you agree to our <a href="https://freeplay.ai/legal/tos" target="_blank">Terms of Use</a>. Access is provided for free for 30 days for evaluation purposes only.
+            Please contact our team to extend access or to get started with production use.
+        </div>
+        <div class="actions flex justify-between ">
+            <a href="/login/logout" class="">
+                <span>Log out</span>
+            </a>
+            <button onclick="fetch('/settings/account/accept_tos', {method: 'POST'}).then(() => window.location='/')"
+                    class="button primary"
+            >I Agree
+            </button>
+        </div>
+    </div>
+</div>

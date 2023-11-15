@@ -1,0 +1,299 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--large-font-size);
+    line-height: var(--large-line-height);
+    font-weight: 400;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+* {
+    box-sizing: border-box;
+    accent-color: var(--accent-color);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--accented-text-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    color: var(--accented-text-color);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: var(--accented-text-color);
+}
+
+sup {
+    display: inline-block;
+    font-size: .6em;
+    vertical-align: top;
+}
+
+p {
+    line-height: 1.4;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+hr {
+    margin: var(--xs-length) 0;
+    border: none;
+    border-top: 1px solid var(--border-color)
+}
+
+dl dt {
+    color: var(--accented-text-color);
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+}
+
+dl dt:first-child {
+    margin-top: 0;
+}
+
+code {
+    font-family: 'JetBrains Mono', 'Menlo', 'Cascadia', monospace;
+    text-transform: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+pre code {
+    display: block;
+    background-color: var(--card-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+
+    line-height: 1.5;
+}
+
+.button, .button:visited {
+    border-radius: var(--xxs-length);
+    border: none;
+    padding: var(--xxs-length) var(--small-length);
+    display: inline-block;
+
+    background-color: var(--accent-color);
+    color: var(--text-on-accent-color);
+
+    font-size: var(--large-font-size);
+    font-weight: var(--heavy-font-weight);
+    line-height: var(--large-line-height);
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.button:disabled:active {
+    position: static;
+}
+
+.button.primary, .button.primary:visited {
+    background-color: var(--accent-color);
+    color: var(--text-on-accent-color);
+}
+
+.button:active, .button:hover, .button:active:visited, .button:hover:visited {
+    background-color: var(--muted-accent-color);
+}
+
+.button.secondary, .button.secondary:visited {
+    background-color: var(--background-for-accent-color);
+    color: var(--accented-text-color);
+}
+
+.segmented-control {
+    background-color: var(--background-for-accent-color);
+    padding: var(--xxxs-length);
+    border-radius: var(--xs-length);
+    display: flex;
+}
+
+.segmented-control .control {
+    border-radius: var(--xxs-length);
+    padding: var(--xxs-length) var(--large-length);
+    color: var(--secondary-text-color);
+    font-size: var(--medium-font-size);
+    line-height: var(--medium-line-height);
+}
+
+.segmented-control .control.active {
+    background-color: var(--accent-color);
+    color: var(--text-on-accent-color);
+}
+
+.tag {
+    width: fit-content;
+    background-color: var(--tag-background-color);
+    border-radius: var(--xxs-length);
+    padding: 0 var(--xxs-length);
+
+    line-height: var(--medium-line-height);
+    font-size: var(--medium-font-size);
+    color: var(--tag-text-color);
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tag.deleted {
+    background-color: var(--tag-background-deleted-color);
+    color: var(--tag-text-deleted-color);
+}
+
+.tag.clickable {
+    cursor: pointer;
+}
+
+.user-text {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.full-screen-overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.full-screen-overlay.with-footer {
+    height: calc(100% - var(--sticky-footer-height));
+}
+
+.full-screen-overlay.with-footer.animated {
+    animation: shrinkFooterHeight var(--long-animation-duration) var(--spring-curve) forwards;
+    height: 100%;
+}
+
+@keyframes shrinkFooterHeight {
+    to {
+        height: calc(100% - var(--sticky-footer-height));
+    }
+}
+
+.popover-item-label {
+    color: var(--accent-color);
+    margin: var(--xxs-length) 0;
+    cursor: pointer;
+}
+
+.popover-target {
+    display: block;
+    margin: 0.5rem 0 1rem;
+    padding: var(--xxs-length);
+    width: 100%;
+    border-radius: var(--xxs-length);
+    border: none;
+    font-size: var(--large-font-size);
+    line-height: var(--large-line-height);
+    background-color: var(--hover-background-color);
+    color: var(--form-field-text-color);
+    outline: 1px solid var(--border-color);
+    cursor: pointer;
+    /* Add caret */
+    background-image: url('../images/caret-down.svg');
+    background-repeat: no-repeat;
+    background-position: right var(--xxs-length) top 50%;
+}
+
+.popover {
+    position: absolute;
+    background-color: var(--card-background-color);
+    border-radius: var(--xxs-length);
+    padding: var(--small-length);
+    box-shadow: var(--shadow);
+    z-index: 3;
+    min-width: 40rem;
+    right: 50%
+}
+
+.profile-popover {
+    position: relative;
+    background-color: var(--card-background-color);
+    border-radius: var(--xxs-length);
+    padding: var(--small-length);
+    box-shadow: var(--shadow);
+    z-index: 3;
+    right: 65%;
+    width: 225px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profile-popover-overlay {
+    position: absolute;
+    top: calc(var(--application-nav-height) + var(--xxs-length));
+}
+
+a.popover-list-item {
+    font-size: var(--large-font-size);
+    line-height: var(--large-line-height);
+    color: var(--text-color);
+    margin: var(--xxs-length) 0;
+    display: block;
+    margin-top: 0;
+}
+
+a.popover-list-item:hover {
+    color: var(--accent-color);
+}
+
+.popover-overlay {
+    position: relative;
+    width: 400px;
+    right: 0;
+}
+
+.dialog-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--large-font-size);
+}
+
+.dialog-item > input {
+    max-width: 8rem;
+}
+
+.deleted-entity {
+    color: var(--white-3);
+}

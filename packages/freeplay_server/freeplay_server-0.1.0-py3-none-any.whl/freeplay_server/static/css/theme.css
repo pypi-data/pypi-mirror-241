@@ -1,0 +1,95 @@
+:root {
+    --white-1: #ffffff;
+    --white-2: #f3f3f3;
+    --white-3: #9a9a9a;
+    --white-3-translucent: rgba(154, 154, 154, 0.2);
+
+    --black-1: #111111;
+    --black-2: #1e1e1e;
+    --black-3: #2b2b2b;
+
+    --color-1: #ffe924;
+    --color-1-translucent: #ffe9244d;
+    --color-2: #e0ca06;
+    --color-3: #78c6ff;
+    --color-3-translucent: #78c6ff4d;
+    --color-4: #ff78e9;
+    --color-4-translucent: #ff78e94d;
+    --color-5: #31e4a3;
+    --color-5-translucent: #31e4a34d;
+    --color-6: #cccccc;
+    --color-6-translucent: #cccccc4d;
+
+    /*
+     * Use the above to define variables below.
+     * Only use variables below in the rest of the CSS
+w     * This will help if you ever need to do more theming.
+     */
+
+    --icon-stroke-color: var(--white-1);
+    --text-color: var(--white-2);
+    --secondary-text-color: var(--white-3);
+    --text-on-accent-color: var(--black-1);
+    --accented-text-color: var(--white-2);
+    --background-color: var(--black-1);
+    --accent-color: var(--color-1);
+    --muted-accent-color: var(--color-2);
+    --background-for-accent-color: var(--black-3);
+    --secondary-accent-color: var(--color-3);
+    --danger-color: var(--color-4);
+    --success-color: var(--color-5);
+
+    --form-field-text-color: var(--white-1);
+    --form-field-background-color: var(--black-1);
+    --form-field-outline-color: var(--color-1);
+    --form-field-disabled-color: var(--white-3-translucent);
+
+    --tag-text-color: var(--color-3);
+    --tag-background-color: var(--color-3-translucent);
+    
+    --tag-text-deleted-color: var(--color-6);
+    --tag-background-deleted-color: var(--color-6-translucent);
+
+    --card-background-color: var(--black-2);
+    --border-color: var(--black-3);
+
+    --hover-background-color: var(--black-3);
+
+    --xxxs-length: .4rem;
+    --xxs-length: .8rem;
+    --xs-length: 1.2rem;
+    --small-length: 1.6rem;
+    --medium-length: 2rem;
+    --large-length: 2.4rem;
+    --xl-length: 3.6rem;
+    --xxl-length: 4.8rem;
+
+    --medium-font-size: 1.333rem;
+    --medium-line-height: 2rem;
+    --large-font-size: 1.6rem;
+    --large-line-height: 2.4rem;
+    --xl-font-size: 2.4rem;
+    --xl-line-height: 3.2rem;
+    --xxl-font-size: 3.2rem;
+    --xxl-line-height: 4.8rem;
+
+    --light-font-weight: 400;
+    --medium-font-weight: 500;
+    --heavy-font-weight: 600;
+    --x-heavy-font-weight: 700;
+
+    --application-max-width: 160rem;
+    --application-nav-height: 6.4rem;
+    --sticky-footer-height: 12.8rem;
+
+    --shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    /*
+    Animations
+     */
+
+    --long-animation-duration: 1s;
+    --spring-curve: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    --short-animation-duration: 150ms;
+}

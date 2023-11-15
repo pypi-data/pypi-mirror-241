@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}API Access{% endblock %}
+
+{% block body %}
+    <header>
+        <h2>API Access</h2>
+        <button class="button primary" hx-target="#modal" hx-get="/settings/api-access/new-api-key">Create Key</button>
+    </header>
+    <section class="table-container">
+        {% if all_account_api_keys|length > 0 %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Created By</th>
+                        <th>Key</th>
+                        <th>Created Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for api_key in all_account_api_keys %}
+                    <tr>
+                        <td class="w-1/6">
+                            {% if api_key.name == 'default_api_key' %}
+                                Default
+                            {% else %}
+                                {{ api_key.name }}
+                            {% endif %}
+                        </td>
+                        <td class="w-2/6">
+                            {{ api_key.created_by_user_email }}
+                        </td>
+                        <td class="w-1/6">
+                            •••••{{ api_key.last }}
+                        </td>
+                        <td class="w-2/6">
+                            <display-date epoch-seconds="{{ api_key.created_at.timestamp() }}"/>
+                        </td>
+                        <td class="py-0">
+                            <button class="button secondary icon-button" hx-target="#modal"
+                                hx-get="/settings/api-access/request_deletion/{{ api_key.last }}">
+                                <img alt="trash icon" src="{{ url_for('static', filename='images/trash.svg') }}"/>
+                            </button>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="list-item centered empty-state">
+                Please create an API key to get started using Freeplay.
+            </p>
+        {% endif %}
+    </section>
+    <div id="modal"></div>
+{% endblock %}

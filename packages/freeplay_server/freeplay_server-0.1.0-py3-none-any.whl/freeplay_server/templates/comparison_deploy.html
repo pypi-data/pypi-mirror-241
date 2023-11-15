@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% set show_project_nav = false %}
+
+{% block title %}Deploy comparison{% endblock %}
+
+{% block body %}
+    <div class="overlay">
+        <div class="tagging-modal-container">
+            <div class="tagging-modal">
+                <h3>Deploy Prompts</h3>
+                <p>The following template versions will be deployed:</p>
+                <ul>
+                    {% for template in templates %}
+                        <li class="ml-md align-center my-xxs">
+                            <div class="flex flex-col">
+                                <span><a href="{{ template.version_url }}"
+                                         target="_blank">{{ template.prompt_name }}</a> ({{ template.model_name }})</span>
+                                <p class="sub-text">
+                                    <display-date epoch-seconds="{{ template.created_at }}"></display-date>
+                                </p>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <p>Select which environments you'd like to update by checking the boxes below.</p>
+                <form action="{{ deploy_url }}" method="post">
+                    <div class="tag-list flex flex-col gap-xxxs">
+                        {% for tag in tags %}
+                            <div class='checkbox-row'>
+                                <input type="checkbox" id="tag-{{ tag }}" name="{{ tag }}" value="{{ tag }}">
+                                <label for="tag-{{ tag }}">{{ tag }}</label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="actions">
+                        <a href="{{ comparison_url }}" class="button secondary">Cancel</a>
+                        <input type='submit' value='Deploy' class="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

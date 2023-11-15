@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}Account {{ account.name }}{% endblock %}
+
+{% block body %}
+    <header>
+        <h2>Accounts</h2>
+
+        {% if is_admin %}
+            <a class="button primary" href="{{ new_user_link }}">New user</a>
+        {% endif %}
+    </header>
+
+    {% if error_message %}
+        <p class="form-error">{{ error_message }}</p>
+    {% endif %}
+
+    <section class="side-by-side">
+        <article class="table-container large">
+            <div class="table-title">Members</div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Email Address</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for user in users %}
+                    <tr>
+                        <td>{{ user.email_address }}</td>
+                        <td>{{ user.role_name }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </article>
+    </section>
+{% endblock %}

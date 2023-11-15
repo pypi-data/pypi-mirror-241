@@ -1,0 +1,23 @@
+<div id="overlay" class="overlay">
+    <section>
+        <form class="fields-form" method="post" hx-post="/settings/api-access/new-api-key" hx-trigger="submit" hx-target="#modal">
+            <div>
+                <h3 class="my-5">New API Key</h3>
+                <p class="sub-text mb-10">
+                    All API keys will share the same access to your Freeplay account.
+                </p>
+            </div>
+            {% if error_message %}
+                <p class="form-error">{{ error_message }}</p>
+            {% endif %}
+            <label>
+                Name
+                <input type="text" name="name" value="{{ name }}" maxlength="100" />
+            </label>
+            <nav class="actions mt-20">
+                <a href="/settings/api-access" class="button secondary">Cancel</a>
+                <button class="button primary">Create Key</button>
+            </nav>
+        </form>
+    </section>
+</div>

@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% set tab = 'tests' %}
+{% block title %}Update Test List{% endblock %}
+
+{% block body %}
+    <header>
+        <h2>Update Test List</h2>
+    </header>
+
+    <form class="fields-form" method="post" action="{{ update_url }}">
+        {% if error_message %}
+            <p class="form-error">{{ error_message }}</p>
+        {% endif %}
+
+        <label>
+            Name
+            <input type="text" name="name" value="{{ name }}" maxlength="100"/>
+        </label>
+        <label>
+            Description
+            <input type="text" name="description" value="{{ description }}" maxlength="100"/>
+        </label>
+
+        <nav class="actions">
+            <a href="{{ cancel_url }}" class="button secondary">Cancel</a>
+            <button class="button primary">Update</button>
+        </nav>
+    </form>
+{% endblock %}

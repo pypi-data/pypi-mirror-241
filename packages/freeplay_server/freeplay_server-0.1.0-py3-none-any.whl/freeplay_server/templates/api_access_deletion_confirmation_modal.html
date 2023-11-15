@@ -1,0 +1,17 @@
+<div id="overlay" class="overlay" hx-get="/" hx-target="#overlay" hx-swap="delete">
+    <div class="confirmation-modal">
+        <h3>Are you sure?</h3>
+        <p class="my-8 mr-52">
+            Deleting an API key will break any of your existing code that relies on the key.
+        </p>
+        <div class="actions justify-between">
+            <button onclick="window.event.stopPropagation()" class="button secondary" hx-get="/" hx-trigger="click"
+                hx-target="#overlay" hx-swap="delete">Cancel
+            </button>
+            <button
+                onclick="fetch('/settings/api-access/{{ api_key_last }}', { method: 'DELETE' }).then(() => window.location='/settings/api-access')"
+                class="button primary">Confirm
+            </button>
+        </div>
+    </div>
+</div>

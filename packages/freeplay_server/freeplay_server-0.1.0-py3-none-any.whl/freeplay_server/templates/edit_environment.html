@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}New Environment{% endblock %}
+
+{% block body %}
+<header>
+    <h2>
+        Edit environment
+    </h2>
+</header>
+
+<section>
+    <form
+        onsubmit="return confirm('Changing an environment name or deleting an environment will break any of your existing code that relies on the environment.');"
+        class="fields-form" method="post" action="/settings/environments/request_edition/{{ environment_id }}">
+        {% if error_message %}
+        <p class="form-error">{{ error_message }}</p>
+        {% endif %}
+
+        <label>
+            Environment Name
+            <input type="text" name="name" value="{{ name }}" maxlength="100" />
+        </label>
+        <nav class="actions">
+            <a href="{{ cancel_link }}" class="button secondary">Cancel</a>
+            <button class="button primary">Save</button>
+        </nav>
+    </form>
+</section>
+{% endblock %}

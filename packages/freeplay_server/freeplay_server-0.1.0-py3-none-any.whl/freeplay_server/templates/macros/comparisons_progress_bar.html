@@ -1,0 +1,25 @@
+{% macro comparison_progress_bar(comparison_info) -%}
+    <div class="comparison-progress-container">
+        {% if comparison_info.prefer_right_count != 0 %}
+            <div class="comparison-progress-bar success-color"
+                 style="width: calc(100% / {{ comparison_info.num_test_cases }} * {{ comparison_info.prefer_right_count }})"></div>
+        {% endif %}
+        {% if comparison_info.prefer_left_count != 0 %}
+            <div class="comparison-progress-bar regress-color"
+                 style="width: calc(100% / {{ comparison_info.num_test_cases }} * {{ comparison_info.prefer_left_count }})"></div>
+        {% endif %}
+        {% if comparison_info.tied_count != 0 %}
+            <div class="comparison-progress-bar tie-color"
+                 style="width: calc(100% / {{ comparison_info.num_test_cases }} * {{ comparison_info.tied_count }})"></div>
+        {% endif %}
+        {% if comparison_info.not_scored_test_cases_count != 0 %}
+            <div class="comparison-progress-bar"
+                 style="width: calc(100% / {{ comparison_info.num_test_cases }} * {{ comparison_info.not_scored_test_cases_count }})"></div>
+        {% endif %}
+    </div>
+
+    <div class="comparison-detail-row">
+        <span class="sub-text">{{ comparison_info.prefer_right_count + comparison_info.prefer_left_count + comparison_info.tied_count }} Evaluated</span>
+        <span class="sub-text">{{ comparison_info.not_scored_test_cases_count }} Remaining</span>
+    </div>
+{%- endmacro %}
