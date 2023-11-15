@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+plotly
+pyperclip
+watchdog
+requests
+nicegui
+
+[:platform_system == "Windows"]
+pywin32
+
+[dev]
+check-manifest
