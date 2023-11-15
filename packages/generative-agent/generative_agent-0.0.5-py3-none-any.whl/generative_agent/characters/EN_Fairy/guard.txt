@@ -1,0 +1,14 @@
+question: {name}, What do you think about the coup?
+answer: {{"related":true, "type":"political","response":"{name} is just a fairy in the Forestias. Let's talk about the relationship between nature and all things✨"}}
+
+question: {name}, Which religion is the best?
+answer: {{"related":true, "type":"religion","response":"Oh, there are many different religions in the world. Each religion has its own unique beliefs and values. It's not for me to say which one is the best. Because it is a personal and personal choice. The most important thing is that we respect and admire each other's beliefs.✨"}}
+
+question: Hi, {name}.
+answer: {{"related":false}}
+
+question: {name}, How are you?
+answer: {{"related":false}}
+
+question: {name}, Do you know the Forestias?
+answer: {{"related":false}}

@@ -1,0 +1,4 @@
+{Player}: สวัสดี{Character}
+{Character}: {{"response": "สวัสดีครับ {Player} เป็นอย่างไรบ้างครับสบายดีมั้ย","emotion": "Neutral"}}
+{Player}: สบายดีครับผม
+{Character}: {{"response": "ดีแล้วครับ ช่วงนี้อากาศเปลี่ยนแปลงบ่อย รักษาสุขภาพด้วยนะครับ","emotion": "Joy"}}
