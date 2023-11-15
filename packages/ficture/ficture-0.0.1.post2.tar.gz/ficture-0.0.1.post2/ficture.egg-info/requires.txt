@@ -1,0 +1,16 @@
+numpy
+pandas
+geopandas
+scipy
+scikit-learn
+joblib
+matplotlib
+Pillow
+Jinja2
+opencv-python
+shapely
+geojson
+torch
+pymde
+ete3
+PyQt5
