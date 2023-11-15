@@ -1,0 +1,11 @@
+sotfinder/__init__.py,sha256=wOIf1EnZW-1LOtgSgTQmmUp3gSPd6IGsOqBPqRMMrqQ,74
+sotfinder/astroalign.py,sha256=JWkj7i2-bNjqDQ04dIoM_ilmM9mNlm80TO6XvowXk4M,21953
+sotfinder/classes.py,sha256=OpnOieInFKFqM0XeY9RVzA1E4CNhtgCqkTnOgtCs8BU,16318
+sotfinder/plot.py,sha256=AfG-npQswzTUNq8XO3SMJ5-ztvsMhzHp22evOvc-oIU,2983
+sotfinder/ransac.py,sha256=-4Tz_mRuFfWQ1Tn5jluVU8TcVzzAijlVAfUiYz00iu8,3777
+sotfinder/trajectory_extract.py,sha256=xfRcwgt53oMRbIAjSu8C1XCQYtvhHZDopL7yj3pa9bg,16890
+sotfinder-0.0.1.dist-info/LICENSE,sha256=1mo8gGwn9nEfzoruoWYAD1ttN40DofMYGQNef1rsytY,1068
+sotfinder-0.0.1.dist-info/METADATA,sha256=WmI7WhZ-UOUKPmEdjJvzynVYqiCpM9MLbuXzi-hVRzw,10280
+sotfinder-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sotfinder-0.0.1.dist-info/top_level.txt,sha256=6tzdiTdWKJOfcZKmeAoAd2eK0oIdD--8TQ4J6fVa1Js,10
+sotfinder-0.0.1.dist-info/RECORD,,
