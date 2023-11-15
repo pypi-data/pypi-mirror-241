@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PicsToPdfs/PicsToPdfs.pyd
+PicsToPdfs/__init__.py
+PicsToPdfs.egg-info/PKG-INFO
+PicsToPdfs.egg-info/SOURCES.txt
+PicsToPdfs.egg-info/dependency_links.txt
+PicsToPdfs.egg-info/top_level.txt
+PicsToPdfs/PicsToPdfsFunction/__init__.py
+PicsToPdfs/PicsToPdfsFunction/imgToPdf.pyd
+PicsToPdfs/PicsToPdfsUi/PicToPdfUi.pyd
+PicsToPdfs/PicsToPdfsUi/__init__.py
