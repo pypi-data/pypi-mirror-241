@@ -1,0 +1,47 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "gmpg"
+version = "0.1.40"
+description = "tools for metamodern software development"
+keywords = ["black", "git", "isort", "poetry", "pydeps", "pyright", "pytest", "radon"]
+homepage = "https://ragt.ag/code/projects/gmpg"
+repository = "https://ragt.ag/code/projects/gmpg.git"
+documentation = "https://ragt.ag/code/projects/gmpg/api"
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "BSD-2-Clause"
+
+[tool.pyright]
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
+
+[tool.poetry.scripts]
+gmpg = "gmpg.__main__:main"
+
+[[tool.poetry.source]]
+name = "main"
+url = "https://ragt.ag/code/pypi"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+black = "^23.7.0"
+ipython = "^8.14.0"
+isort = "^5.11.4"
+mock = "^5.0.1"
+pendulum = "^2.1.2"
+pip = "^23.2.1"
+pydeps = "^1.11.0"
+pyright = "^1.1.322"
+pytest = "^7.4.0"
+pytest-cov = "^4.0.0"
+pytest-gevent = "^1.1.0"
+pytest-pep8 = "^1.0.6"
+radon = "^5.1.0"
+responses = "^0.22.0"
+toml = "^0.10.2"
+txtint = ">=0.1"
+
+[tool.poetry.group.dev.dependencies]
+txtint = {path="../txtint", develop=true}
