@@ -1,0 +1,117 @@
+.TH mrr2c 1 2023-11-14 "mrr2c 3.0.0"
+.
+.SH NAME
+mrr2c \- convert Metek MRR-2 data files to NetCDF
+.
+.SH SYNOPSIS
+.SY mrr2c
+.OP \-\^\-debug
+.OP \-s n
+.I input
+.I output
+.SY mrr2c
+.RI \-h|\-\^\-help
+.SY mrr2c
+.RI \-v|\-\^\-version
+.YS
+.
+.SH DESCRIPTION
+.B mrr2c
+is an open source program which converts Metek Micro Rain Radar 2 (MRR-2)
+data to NetCDF. RAW, PRO and AVE files are supported.
+.
+.I input
+is an input MRR-2
+.IR .raw,
+.I .pro
+or
+.I .ave
+file.
+.I output
+is an output NetCDF
+.RI ( .nc )
+file.
+.
+.SH OPTIONS
+.TP
+.B \-\^\-debug
+Enable debugging output.
+.
+.TP
+.BR \-h ", " \-\^\-help
+Print a help message and exit.
+.
+.TP
+.BI "\-s " n
+.
+Split output into multiple files by vertical levels used. If
+.I n
+is 1, time intervals with different sets vertical levels are stored in separate
+output files. Profiles stored in the same output file are always continuous in
+time. If
+.I n
+is 2, profiles with different sets of vertical levels are stored in separate
+files. Profiles stored in the same output file may be discontinuous in time.
+If
+.I n
+is 0, this option is disabled. If
+.I n
+is 1 or 2,
+.I output
+is assumed to be an output file prefix in the following way. If profiles with
+multiple different sets of vertical levels are present in the input file, the
+output file names are
+.IR output _ i .nc,
+where
+.I i
+is a sequence of zero-prefixed numbers starting with 1, and having a constant
+number of digits as needed to accommodate the entire sequence of files. If all
+profiles in the input file have the same vertical levels, the output file name
+is
+.IR output .nc.
+.
+.TP
+.BR \-v ", " \-\^\-version
+Print the version number and exit.
+.
+.SH EXAMPLES
+Convert MRR-2 processed data in
+.I 0220.pro
+to a NetCDF file
+.IR 0220.pro .
+.IP
+.EX
+mrr2c 0220.pro 0220.nc
+.EE
+.P
+It is possible to use
+.UR https://\:www.gnu.org/\:software/\:parallel/
+GNU Parallel
+.UE
+to convert multiple files in parallel if you have more than one CPU core. For
+example, to convert all
+.I .pro
+files in the current directory:
+.IP
+.EX
+parallel mrr2c {} {.}.nc ::: *.pro
+.EE
+.
+.SH COPYRIGHT
+Copyright (C) 2017-2023 Peter Kuma.
+.PP
+This program is available under the terms of the MIT license
+(see
+.I LICENSE.md
+in the
+.B mrr2c
+distribution).
+.
+.SH SEE ALSO
+See the
+.UR https://\:github.com/\:peterkuma/\:mrr2c
+mrr2c GitHub repository
+.UE
+for more information.
+.P
+.BR parallel (1)
