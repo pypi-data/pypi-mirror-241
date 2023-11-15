@@ -1,0 +1,6 @@
+abstract_gui>=0.0.61.49
+PySimpleGUI>=4.60.5
+gtts>=2.3.2
+abstract_utilities>=0.2.2.32
+playsound>=1.3.0
+pydub>=0.25.1
