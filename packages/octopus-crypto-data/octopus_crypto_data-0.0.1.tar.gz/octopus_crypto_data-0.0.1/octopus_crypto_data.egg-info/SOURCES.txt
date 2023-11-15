@@ -1,0 +1,11 @@
+README.md
+setup.py
+crypto_data/__init__.py
+crypto_data/crypto_api.py
+octopus_crypto_data.egg-info/PKG-INFO
+octopus_crypto_data.egg-info/SOURCES.txt
+octopus_crypto_data.egg-info/dependency_links.txt
+octopus_crypto_data.egg-info/requires.txt
+octopus_crypto_data.egg-info/top_level.txt
+tests/__init__.py
+tests/test_crypto_api.py
