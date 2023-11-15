@@ -1,0 +1,2 @@
+[console_scripts]
+KalmanGps = KalmanGps:__init__

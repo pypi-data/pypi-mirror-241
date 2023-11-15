@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: KalmanGps
+Version: 0.0.1
+Summary: Kalman Filter for GPS Metadata Correction
+Home-page: https://github.com/mapilio/KalmanGps
+Author: Mapilio
+License: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: addict==2.4.0
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: charset-normalizer==3.3.1
+Requires-Dist: gmplot==1.4.1
+Requires-Dist: idna==3.4
+Requires-Dist: numpy==1.24.4
+Requires-Dist: pandas==2.0.3
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: pytz==2023.3.post1
+Requires-Dist: requests==2.31.0
+Requires-Dist: six==1.16.0
+Requires-Dist: tzdata==2023.3
+Requires-Dist: urllib3==2.0.7
