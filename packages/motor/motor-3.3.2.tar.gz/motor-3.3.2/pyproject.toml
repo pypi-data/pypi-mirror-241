@@ -1,0 +1,174 @@
+[build-system]
+requires = ["setuptools>61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "motor"
+dynamic = ["version"]
+description = "Non-blocking MongoDB driver for Tornado or asyncio"
+readme = "README.rst"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+authors = [
+    { name = "A. Jesse Jiryu Davis", email = "jesse@mongodb.com" },
+]
+keywords = [
+    "asyncio",
+    "bson",
+    "gridfs",
+    "mongo",
+    "mongodb",
+    "motor",
+    "pymongo",
+    "tornado",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Unix",
+    "Typing :: Typed",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pymongo>=4.5,<5",
+]
+
+[project.optional-dependencies]
+aws = [
+    "pymongo[aws]>=4.5,<5",
+]
+encryption = [
+    "pymongo[encryption]>=4.5,<5",
+]
+gssapi = [
+    "pymongo[gssapi]>=4.5,<5",
+]
+ocsp = [
+    "pymongo[ocsp]>=4.5,<5",
+]
+snappy = [
+    "pymongo[snappy]>=4.5,<5",
+]
+srv = [
+    "pymongo[srv]>=4.5,<5",
+]
+test = [
+    "pytest>=7", "mockupdb", "tornado>=5", "aiohttp<3.8.6", "motor[encryption]"
+]
+zstd = [
+    "pymongo[zstd]>=4.5,<5",
+]
+
+[project.urls]
+Homepage = "https://github.com/mongodb/motor/"
+
+[tool.setuptools.dynamic]
+version = {attr = "motor._version.version"}
+
+[tool.setuptools.packages.find]
+include = ["motor"]
+
+[tool.mypy]
+python_version = "3.7"
+strict = true
+pretty = true
+show_error_context = true
+show_error_codes = true
+warn_redundant_casts = true
+warn_unreachable = true
+disable_error_code = ["type-arg"]
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+
+[tool.pytest.ini_options]
+minversion = "7"
+testpaths = ["test"]
+xfail_strict = true
+log_cli_level = "INFO"
+addopts = ["-ra", "--strict-config", "--strict-markers",
+    "--maxfail=10", "--durations=5", "--junitxml=xunit-results/TEST-results.xml"]
+faulthandler_timeout = 1500
+filterwarnings = [
+    "error",
+    "ignore:Bare functions are deprecated, use async ones:DeprecationWarning",
+    "ignore:Application.make_handler:DeprecationWarning",
+    "ignore:unclosed <socket.socket:ResourceWarning",
+    "ignore:unclosed event loop:ResourceWarning",
+    "ignore: The fetch_next property is deprecated:DeprecationWarning",
+    "ignore:The next_object method is deprecated:DeprecationWarning",
+    "ignore:unclosed <ssl.SSLSocket:ResourceWarning",
+    "ignore:datetime.datetime.utcfromtimestamp:DeprecationWarning",
+    "ignore:datetime.datetime.utcnow:DeprecationWarning",
+]
+
+[tool.ruff]
+target-version = "py37"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+  "E", "F", "W", # flake8
+  "B",           # flake8-bugbear
+  "I",           # isort
+  "ARG",         # flake8-unused-arguments
+  "C4",          # flake8-comprehensions
+  "EM",          # flake8-errmsg
+  "ICN",         # flake8-import-conventions
+  "G",           # flake8-logging-format
+  "PGH",         # pygrep-hooks
+  "PIE",         # flake8-pie
+  "PL",          # pylint
+  "PT",          # flake8-pytest-style
+  "PTH",         # flake8-use-pathlib
+  "RUF",         # Ruff-specific
+  "S",           # flake8-bandit
+  "SIM",         # flake8-simplify
+  "T20",         # flake8-print
+  "UP",          # pyupgrade
+  "YTT",         # flake8-2020
+  "EXE",         # flake8-executable
+]
+ignore = [
+  "ARG001", # Unused function argument
+  "UP007",  # Use `X | Y` for type annotation
+  "EM101",  # Exception must not use a string literal, assign to variable first
+  "EM102",  # Exception must not use an f-string literal, assign to variable first
+  "G004",   # Logging statement uses f-string"
+  "PLR",    # Too many arguments to function call, etc.
+  "SIM108", # Use ternary operator"
+  "SIM105", # Use `contextlib.suppress(OSError)` instead of `try`-`except`-`pass`
+  "ARG002", # Unused method argument:
+  "S101",   # Use of `assert` detected
+  "RUF012", # Mutable class attributes should be annotated with `typing.ClassVar`
+]
+unfixable = [
+  "RUF100", # Unused noqa
+  "T20",  # Removes print statements
+  "F841", # Removes unused variables
+  "F401"
+]
+exclude = []
+flake8-unused-arguments.ignore-variadic-names = true
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?)|dummy.*)$"
+
+[tool.ruff.lint.per-file-ignores]
+"test/*.py" = ["PT009", "ARG", "E402", "PT027", "UP031",
+               "B904", "C405", "SIM", "PLR", "PTH", "B018", "C4",
+               "S", "E501", "T201", "E731", "F841", "F811",
+               "B011", "PT015", "E721"]
+"synchro/__init__.py" = ["F403", "B904", "F401"]
+"doc/*.py" = [ "T201", "PTH"]
+"motor/docstrings.py" = [ "E501", ]
+"doc/examples/*.py" = [ "E402", ]
