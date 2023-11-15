@@ -1,0 +1,12 @@
+accelerate
+datasets
+matplotlib
+torch
+transformers
+scikit-learn
+numpy
+pandas
+py7zr
+sentencepiece
+sacremoses
+numba
