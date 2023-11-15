@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: concopilot-examples
+Version: 0.0.1
+Summary: ConCopilot simple examples.
+Author-email: ZHONG Weikun <zhong.weikun@live.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: concopilot
