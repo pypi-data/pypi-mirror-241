@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+vec2d.egg-info/PKG-INFO
+vec2d.egg-info/SOURCES.txt
+vec2d.egg-info/dependency_links.txt
+vec2d.egg-info/requires.txt
+vec2d.egg-info/top_level.txt
+vec2d/graph/__init__.py
+vec2d/graph/vector2d_graphics.py
+vec2d/math/__init__.py
+vec2d/math/vector2d_math.py
