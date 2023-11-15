@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: rcode-tddschn
+Version: 0.5.1
+Summary: rcode Improved
+Home-page: https://github.com/tddschn/rcode-tddschn
+License: MIT
+Keywords: vscode
+Author: chvolkmann
+Requires-Python: >=3.11,<3.12
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Dist: sshconf (>=0.2.5,<0.3.0)
+Project-URL: Bug Tracker, https://github.com/tddschn/rcode-tddschn/issues
+Project-URL: Repository, https://github.com/tddschn/rcode-tddschn
+Description-Content-Type: text/markdown
+
+# rcode-tddschn
+
+rcode Improved.
+
+Fork of https://github.com/yihong0618/rcode .
+
+- [rcode-tddschn](#rcode-tddschn)
+  - [Improvements](#improvements)
+  - [Usage](#usage)
+  - [Note](#note)
+  - [Installation](#installation)
+    - [pipx](#pipx)
+    - [pip](#pip)
+  - [Develop](#develop)
+
+
+## Improvements
+
+1. Supports specifying VSCode release channel (stable, insiders, etc.) via `-r` flag.
+2. Deleting and listing `shortcut`s.
+3. Detailed help messages.
+4. Grammar fixes.
+
+## Usage
+
+```
+$ rcode --help
+
+usage: rcode [-h] [-r {stable,insiders}] [-l] [-s SHORTCUT_NAME] [-o OPEN_SHORTCUT] [-L] [-d DELETE_SHORTCUT] [-D] [dir] [host]
+
+A command line tool to open directories in VSCode remotely or locally.
+
+positional arguments:
+  dir                   The local directory path to open in VSCode or the remote directory path when used with a host.
+  host                  The SSH hostname as specified in your .ssh/config to open a remote directory in VSCode.
+
+options:
+  -h, --help            show this help message and exit
+  -r {stable,insiders}, --release {stable,insiders}
+                        VS Code release channel to use (stable or insiders)
+  -l, --latest          Open the most recently used remote directory.
+  -s SHORTCUT_NAME, -sn SHORTCUT_NAME, --shortcut_name SHORTCUT_NAME
+                        rcode host dir -s <shortcut_name> | Add a shortcut name for the remote directory to quickly access it later. | Saved to
+                        /Users/tscp/.rcode-tddschn.csv
+  -o OPEN_SHORTCUT, -os OPEN_SHORTCUT, --open_shortcut OPEN_SHORTCUT
+                        Open a remote directory quickly using the previously saved shortcut name.
+  -L, --list            List all configured shortcuts
+  -d DELETE_SHORTCUT, --delete DELETE_SHORTCUT
+                        Delete a shortcut by name
+  -D, --delete-all      Delete all shortcuts after confirmation
+
+```
+
+## Note
+
+This project depends on `distutils` which was removed in Python 3.12.
+
+## Installation
+
+### pipx
+
+This is the recommended installation method.
+
+```
+$ pipx install rcode-tddschn
+# pipx install --python "$(which python3.11)" rcode-tddschn
+```
+
+### [pip](https://pypi.org/project/rcode-tddschn/)
+
+```
+$ pip install rcode-tddschn
+# python3.11 -m pip install rcode-tddschn
+```
+
+
+## Develop
+
+```
+$ git clone https://github.com/tddschn/rcode-tddschn.git
+$ cd rcode-tddschn
+# poetry env use "$(which python3.11)"
+$ poetry install
+```
