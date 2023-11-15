@@ -1,0 +1,14 @@
+pandas
+tables
+numpy
+pyproj
+pvlib
+netcdf4
+scipy
+
+[demos]
+matplotlib
+jupyter
+
+[tests]
+pytest
