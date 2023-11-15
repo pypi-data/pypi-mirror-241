@@ -1,0 +1,15 @@
+{
+  "jupyter.lab.setting-icon": "notebooksend:schema-icon",
+  "jupyter.lab.setting-icon-label": "Notebook Activity Collection",
+  "title": "Notebook Activity Collection",
+  "properties": {
+    "SendExtension": {
+      "type": "boolean",
+      "title": "Collect Notebook Activity",
+      "description": "Whether to enable anonymous collection of your activity with some notebooks to enhance teachers' ability to assess their exercise sessions. Collected interactions : notebook/cell clicks and code/markdown cell executions",
+      "default": false
+    }
+  },
+  "additionalProperties": true,
+  "type": "object"
+}
