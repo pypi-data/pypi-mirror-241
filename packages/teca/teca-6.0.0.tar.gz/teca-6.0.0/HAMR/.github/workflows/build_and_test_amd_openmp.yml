@@ -1,0 +1,50 @@
+name: AMD-OpenMP
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install_deps
+        run: |
+          export DEBIAN_FRONTEND="noninteractive"
+          export TZ="America/Los_Angeles"
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y git-core gcc g++ cmake automake m4 wget swig python3
+          wget https://repo.radeon.com/amdgpu-install/5.4.3/ubuntu/jammy/amdgpu-install_5.4.50403-1_all.deb
+          sudo apt-get install ./amdgpu-install_5.4.50403-1_all.deb
+          sudo amdgpu-install --usecase=rocm,openclsdk,hiplibsdk --no-dkms
+          python3 -mvenv py3k_testing
+          source py3k_testing/bin/activate
+          python3 -mpip install numpy
+
+      # build for OpenMP
+      - name: build_openmp
+        run: |
+          source py3k_testing/bin/activate
+          mkdir build_amd_openmp
+          cd build_amd_openmp
+          cmake -DCMAKE_CXX_COMPILER=/opt/rocm/llvm/bin/clang++ -DHAMR_OPENMP_ARCH=gfx1030 -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=ON -DHAMR_ENABLE_OPENMP=ON -DCMAKE_INSTALL_PREFIX=`pwd`/../../hamr-install-amd-omp ..
+          make -j2 install
+          cd ..
+
+      # build for OpenMP
+      - name: build_openmp_separate_impl
+        run: |
+          source py3k_testing/bin/activate
+          mkdir build_amd_openmp_sep
+          cd build_amd_openmp_sep
+          cmake -DCMAKE_CXX_COMPILER=/opt/rocm/llvm/bin/clang++ -DHAMR_OPENMP_ARCH=gfx1030 -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=ON -DHAMR_ENABLE_OPENMP=ON -DHAMR_EMABLE_SEPARATE_IMPL=ON -DCMAKE_INSTALL_PREFIX=`pwd`/../../hamr-install-amd-omp-sep ..
+          make -j2 install
+          cd ..
+
