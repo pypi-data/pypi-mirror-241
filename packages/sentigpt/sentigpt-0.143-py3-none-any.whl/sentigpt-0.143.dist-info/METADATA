@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sentigpt
+Version: 0.143
+Summary: Sentiment analyze with gpt
+Home-page: https://github.com/xikest/app_plotvisual
+Author: xikest
+Project-URL: Source, https://github.com/xikest/app_plotvisual
+Project-URL: Bug Tracker, https://github.com/xikest/app_plotvisual/issues
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: seaborn
+Requires-Dist: openai
+
