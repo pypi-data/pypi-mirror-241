@@ -1,0 +1,12 @@
+composer/__init__.py,sha256=gdFCiWOlMZhuzme-UGpI2_BLW4T1RPhQJI3vXaAgA1k,235
+composer/coingecko_feed.py,sha256=DmVwn-ALoidoxKmEfCOjPykF3Oudc3RmBcAdqlToOrg,3561
+composer/data_model.py,sha256=u1biTkYfRjI_EZ9NeUwrRAvXJhyWQQrLYmj-vJGIlbk,27392
+composer/dsl.py,sha256=hQe0bWoUcdtQBczxNp3sF7UCwRzaMLUVWU31XyC7O0Y,6989
+composer/feed_chat.py,sha256=rQ2CV3J2kxKCodzT9vCVNpTfGOm1EjAt97jYFd8j24s,16658
+composer/news_feed.py,sha256=dzhvk3EnciohEp8x5Ij1Dowq5nCgeH-KIv3Ny_SfyQU,2313
+composer/planner.py,sha256=BBdphebSGZnEhlaFAHv9_Fjh92esuRvu9vYflq0-LWM,8865
+composer/user_profile.py,sha256=5RLzHAYnaDcmuTnaI_hU3Otmr7n9N749inH3bsmBR9U,2299
+composer_notebook-0.1.1.dist-info/METADATA,sha256=9eZ9EUdPpbhdjTmMSz8OJz8BbKE2vpoHuqwx6UmCXLs,4176
+composer_notebook-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+composer_notebook-0.1.1.dist-info/top_level.txt,sha256=bW6eVCp7sx73jyTVAOR7yT9SUwieUZBTbPSHdHuyQ0w,9
+composer_notebook-0.1.1.dist-info/RECORD,,
