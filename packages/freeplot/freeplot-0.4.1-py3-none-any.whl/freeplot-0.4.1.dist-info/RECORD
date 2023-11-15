@@ -1,0 +1,11 @@
+freeplot/__init__.py,sha256=chS9Mei54e0uWuK_1IfeKdYYqRkVdRP0K-6cgiuohao,51
+freeplot/base.py,sha256=QWAbRyOmdrnj42AZPtR3IkkF_8gD0wGcHkqiOBWYJuQ,19638
+freeplot/config.py,sha256=KFK8Bf_fEbdiT5JcpPO7PNfWnZiMEVp4P9igCi1W2XA,3706
+freeplot/unit.py,sha256=69E6sca_RgzWMOSCN7mdjngxqvFsNlN84H0CCQgv6FA,25144
+freeplot/utils.py,sha256=ssjJfx7jAiJ_uPUhItOKsBPyzF0xBQpoy5sVWNWcJ_A,2300
+freeplot/zoo.py,sha256=UxiC1WguPnJT9P7bSVBZHqVORSUTBubK-JXya70D1PI,6226
+freeplot-0.4.1.dist-info/LICENSE,sha256=K3F4dkBRIVM1ToO-N83BT7G4aScIMhhRrijE1Z3kVg8,1085
+freeplot-0.4.1.dist-info/METADATA,sha256=9nH0tLpnorMV8TPqkZQ4w5-Pg-CgcLPMz1qI5xVaqSs,7213
+freeplot-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+freeplot-0.4.1.dist-info/top_level.txt,sha256=cr-PmCfUhMKmxnVerxvEFNJT38o82ZkmbxY6tI3nG8s,9
+freeplot-0.4.1.dist-info/RECORD,,
