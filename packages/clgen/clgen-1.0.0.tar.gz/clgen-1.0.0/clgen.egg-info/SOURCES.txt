@@ -1,0 +1,11 @@
+README.md
+setup.py
+clgen/__init__.py
+clgen/clgen.py
+clgen/config.py
+clgen.egg-info/PKG-INFO
+clgen.egg-info/SOURCES.txt
+clgen.egg-info/dependency_links.txt
+clgen.egg-info/entry_points.txt
+clgen.egg-info/requires.txt
+clgen.egg-info/top_level.txt
