@@ -1,0 +1,12 @@
+bridgescaler/VERSION,sha256=Ihdkl27-BBMndNlrAlPMMUNMUmFzdGkyTyImIbrzSyA,3
+bridgescaler/__init__.py,sha256=pie-iGXEFK9PT0ifQbzeX21Wj3tq1U6mIpB1Vbp-fWg,258
+bridgescaler/backend.py,sha256=NTz87ZuqHxMCXWeK7lyebBKhGlGT1de6i0zpUCs_j84,3608
+bridgescaler/deep.py,sha256=MMD16v9t4nCegYmgvomDyFdoRwopKmyE0vi6ZDF0pkw,4469
+bridgescaler/distributed.py,sha256=I_qGNX2gQVEG1a9uIotkvj48p3qzBJzMfCkpJTqijp4,5332
+bridgescaler/group.py,sha256=KJaApObslixREEeSczgJyE75A4Vr-njSHjNgzy4cehg,6940
+bridgescaler-0.3.dist-info/LICENSE,sha256=_hkV0FL4QBt7r3EMbv2IBZl2gTWkFcR50T4rNlHpqoE,1103
+bridgescaler-0.3.dist-info/METADATA,sha256=jnUKc2noVBne8qaO2aHoqvzV0hRZA6zg8y4fO1DuA28,4934
+bridgescaler-0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bridgescaler-0.3.dist-info/top_level.txt,sha256=qq5IhCCzDoXOLBHbQ9mHoqcQGbZ36IGwGGJrMsCqxmE,13
+bridgescaler-0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bridgescaler-0.3.dist-info/RECORD,,
