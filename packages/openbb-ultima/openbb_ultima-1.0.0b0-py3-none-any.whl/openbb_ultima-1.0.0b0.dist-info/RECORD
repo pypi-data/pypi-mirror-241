@@ -1,0 +1,10 @@
+openbb_ultima/__init__.py,sha256=keuT5rgMIZ821YvFdCY2Q6ErvxzyeaI-J3rEQ0AwITA,488
+openbb_ultima/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_ultima/models/company_news.py,sha256=XgTYrM-0zKK-gSUr5s5LgiD3hu6RCrfJHN9cFSWGxqs,2882
+openbb_ultima/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_ultima/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_ultima/utils/helpers.py,sha256=sB14VFQd3OOerRoN2s0CwiY1pd4Aj8-tl5U-YBAnT8w,748
+openbb_ultima-1.0.0b0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+openbb_ultima-1.0.0b0.dist-info/entry_points.txt,sha256=fNfZwVq3f5Tq0y1g2JVKed7T_2Vwav2ExaqWGVGbmxk,66
+openbb_ultima-1.0.0b0.dist-info/METADATA,sha256=-zpymmjdG6XfvEapRP8OMOlnbfGfyHYgDL310QikxTg,994
+openbb_ultima-1.0.0b0.dist-info/RECORD,,
