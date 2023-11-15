@@ -1,0 +1,3 @@
+chess
+urllib3
+python-chess
