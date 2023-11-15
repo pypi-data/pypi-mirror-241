@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/nchakrab/ansible-collections/collections/ansible_collections/cisco/nxos'
+make: Leaving directory `/Users/nchakrab/ansible-collections/collections/ansible_collections/cisco/nxos'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 
