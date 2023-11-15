@@ -1,0 +1,28 @@
+{
+  "_lib-787b3fff.cjs": {
+    "file": "lib-787b3fff.cjs"
+  },
+  "_lib-ab3cd655.js": {
+    "file": "lib-ab3cd655.js"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-787b3fff.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-787b3fff.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
