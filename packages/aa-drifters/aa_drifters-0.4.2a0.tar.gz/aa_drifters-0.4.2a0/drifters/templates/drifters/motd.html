@@ -1,0 +1,32 @@
+{% extends "drifters/base.html" %}
+{% load i18n %}
+{% load humanize %}
+{% block details %}
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title">MOTD Generator</div>
+                </div>
+                <div class="panel-body">
+                    <pre id="motd_textblock">{{ motd_1 }}</pre>
+                    <pre id="motd_textblock">{{ motd_2 }}</pre>
+                    <button class="btn btn-success" id="CopyMOTDButtonHeader" data-clipboard-text="{{ motd_1 }}">
+                        {% translate "Copy MOTD Headers" %}
+                    </button>
+                    <button class="btn btn-success" id="CopyMOTDButtonRoutes" data-clipboard-text="{{ motd_2 }}">
+                        {% translate "Copy MOTD Routes" %}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock details %}
+
+{% block extra_javascript %}
+    {% include "bundles/clipboard-js.html" %}
+    <script>
+        new ClipboardJS('#CopyMOTDButtonHeader');
+        new ClipboardJS('#CopyMOTDButtonRoutes');
+    </script>
+{% endblock extra_javascript %}

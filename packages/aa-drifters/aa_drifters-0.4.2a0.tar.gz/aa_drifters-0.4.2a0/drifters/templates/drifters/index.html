@@ -1,0 +1,8 @@
+{% extends "drifters/base.html" %}
+{% load i18n %}
+{% load humanize %}
+{% block details %}
+    <div class="row">
+        {% for complex in complex_renders %}{{ complex }}{% endfor %}
+    </div>
+{% endblock details %}

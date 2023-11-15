@@ -1,0 +1,31 @@
+{% load i18n %}
+{% load drifters %}
+<div class="col-lg-4">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <div class="panel-title">{{ complex.label }}</div>
+        </div>
+        <div class="panel-body">
+            {% for wormhole in wormholes %}
+                {% include "drifters/blocks/wormhole.html" %}
+            {% endfor %}
+            <br />
+            {% if poi_systems is not None %}
+                {% for poi in poi_systems %}
+                    {{ poi }}
+                    <br />
+                    {% find_closest_holes poi complex as poi_holes %}
+                    {% if poi_holes is not None %}
+                        {% for wormhole in poi_holes %}
+                            {% include "drifters/blocks/wormhole.html" %}
+                        {% endfor %}
+                    {% else %}
+                        No Holes Found
+                    {% endif %}
+                    <br />
+                    <br />
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>

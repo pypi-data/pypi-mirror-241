@@ -1,0 +1,22 @@
+{% extends "drifters/base.html" %}
+{% load bootstrap %}
+
+{% block details %}
+    <div class="col-lg-12">
+        <div class="panel">
+            <div class="panel-heading">
+                <div class="panel-title">{{ complex }}</div>
+            </div>
+            <div class="panel-body">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ formset.management_form }}
+                    <table>
+                        {{ formset }}
+                    </table>
+                    <button>Add/Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock details %}
