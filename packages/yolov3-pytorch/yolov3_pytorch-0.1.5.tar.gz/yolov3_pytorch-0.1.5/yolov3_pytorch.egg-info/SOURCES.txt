@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+yolov3_pytorch.egg-info/PKG-INFO
+yolov3_pytorch.egg-info/SOURCES.txt
+yolov3_pytorch.egg-info/dependency_links.txt
+yolov3_pytorch.egg-info/top_level.txt
