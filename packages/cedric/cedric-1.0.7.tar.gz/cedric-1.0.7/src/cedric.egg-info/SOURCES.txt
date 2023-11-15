@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/cedric.egg-info/PKG-INFO
+src/cedric.egg-info/SOURCES.txt
+src/cedric.egg-info/dependency_links.txt
+src/cedric.egg-info/entry_points.txt
+src/cedric.egg-info/requires.txt
+src/cedric.egg-info/top_level.txt
