@@ -1,0 +1,15 @@
+topogenesis/__init__.py,sha256=PX4hOXyA4rb6-p6CJbMKEI5lLe4PsqUzo5deXqHyE00,121
+topogenesis/data.py,sha256=wfMQnzKASF6w-Qd7gB3uLKmNgZMnSqKCqJiWCwCToQ8,37151
+topogenesis/other.py,sha256=tniDdDV6Fm6-bC96_i4nAA5kyLo0O2fmE26IEj5CALQ,11137
+topogenesis/datastructures/__init__.py,sha256=YNvQmPC_OwWQDpXlbQrhpqC0rRpJ7owuWhGou97Z_Pg,331
+topogenesis/datastructures/datastructures.py,sha256=kcDk_BKKTXIfzecGp-q949qRdPh1skjvQU391masj0o,45328
+topogenesis/datastructures/sfunc.py,sha256=H7bdvq-shCEiGJSNLSOwYNDpHa1yZ9fEOSZ-7RNzxjg,358
+topogenesis/datastructures/utilities.py,sha256=jIXXWK0x0R4lpJ1zB3BlfPC6TkLVPg6fiJVYpHE6U9s,3409
+topogenesis/geometry/__init__.py,sha256=4ttOv88pwq6cV2lSvh-FdKe68EF7CLVEF8n0P_XbIMs,43
+topogenesis/geometry/load.py,sha256=HlXcQhFrkCnCeVE9BLZiHVY__mO6O0xVhT3wOO5OkvY,941
+topogenesis/geometry/sampling.py,sha256=pTaV8dfRxH-fn7i7oiZVAVa4MIvcyi8OAgj2E7LZkso,11143
+topogenesis-0.0.11.dist-info/LICENSE,sha256=QgHIS9uMeEYD90bBMUTr_wFSA7FhBxNPEblSrRAqFMA,1086
+topogenesis-0.0.11.dist-info/METADATA,sha256=9YXG5cHGGZEpFARe_qw0__hvjTUKGJMk7ok46Tdkc9U,387
+topogenesis-0.0.11.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+topogenesis-0.0.11.dist-info/top_level.txt,sha256=lNFOlzKGyUhikIz1o-nt3ZAGJCiBS7DwM8ecqWi-9os,12
+topogenesis-0.0.11.dist-info/RECORD,,
