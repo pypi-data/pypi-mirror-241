@@ -1,0 +1,2 @@
+[console_scripts]
+cedric-setup = cli:main
