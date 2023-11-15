@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: myla
+Version: 0.1.4
+Summary: A local implementation of OpenAI Assistants API: Myla stands for MY Local Assistant
+Home-page: https://github.com/muyuworks/myla
+Author-email: shenggong.wang@gmail.com
+Keywords: AI assistant,LLM,Myla,chatbot
+Description-Content-Type: text/markdown
+Requires-Dist: uvicorn
+Requires-Dist: starlette
+Requires-Dist: fastapi
+Requires-Dist: python-dotenv
+Requires-Dist: jinja2
+Requires-Dist: sqlmodel
+Requires-Dist: openai
+
+# Muyu Local Assistant
+
+## 开发环境设置
+
+### 安装依赖
+```
+pip install requirements.txt
+pip install requirements_dev.txt
+```
+
+### 设置环境变量和配置
+
+
+```
+set PYTHONPATH=.
+
+cp env-example.txt .env
+```
+
+### 启动
+
+```
+./scripts/myla --reload --extentions ./extentions --vectorstore ./vectorstore --debug
+```
+
+## 打包
+
+```
+python ./setup.py sdist
+```
