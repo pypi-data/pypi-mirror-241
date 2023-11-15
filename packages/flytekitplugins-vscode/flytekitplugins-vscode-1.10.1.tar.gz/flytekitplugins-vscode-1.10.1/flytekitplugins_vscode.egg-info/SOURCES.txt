@@ -1,0 +1,13 @@
+README.md
+setup.py
+flytekitplugins/vscode/__init__.py
+flytekitplugins/vscode/constants.py
+flytekitplugins/vscode/decorator.py
+flytekitplugins_vscode.egg-info/PKG-INFO
+flytekitplugins_vscode.egg-info/SOURCES.txt
+flytekitplugins_vscode.egg-info/dependency_links.txt
+flytekitplugins_vscode.egg-info/entry_points.txt
+flytekitplugins_vscode.egg-info/namespace_packages.txt
+flytekitplugins_vscode.egg-info/requires.txt
+flytekitplugins_vscode.egg-info/top_level.txt
+tests/test_vscode_plugin.py
