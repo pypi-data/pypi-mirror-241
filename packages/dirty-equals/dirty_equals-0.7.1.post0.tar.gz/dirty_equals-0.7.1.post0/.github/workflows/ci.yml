@@ -1,0 +1,182 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '**'
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  test:
+    name: test ${{ matrix.python-version }} on ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu, macos]
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        # test pypy on ubuntu only to speed up CI, no reason why macos X pypy should fail separately
+        include:
+          - os: 'ubuntu'
+            python-version: 'pypy-3.9'
+          - os: 'ubuntu'
+            python-version: 'pypy-3.10'
+
+    runs-on: ${{ matrix.os }}-latest
+
+    env:
+      PYTHON: ${{ matrix.python-version }}
+      OS: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: set up python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - run: pip install -r requirements/tests.txt -r requirements/pyproject.txt
+
+    - run: make test
+
+    - run: coverage xml
+
+    - uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        env_vars: PYTHON,OS
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - run: pip install -r requirements/linting.txt
+
+    - uses: pre-commit/action@v3.0.0
+      with:
+        extra_args: --all-files
+
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: set up python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: install
+      run: pip install -r requirements/docs.txt
+
+    - name: install mkdocs-material-insiders
+      if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/')
+      run: pip install https://files.scolvin.com/${MKDOCS_TOKEN}/mkdocs_material-9.4.2+insiders.4.42.0-py3-none-any.whl
+      env:
+        MKDOCS_TOKEN: ${{ secrets.mkdocs_token }}
+
+    - name: build site
+      run: mkdocs build --strict
+
+    - name: store docs site
+      uses: actions/upload-artifact@v3
+      with:
+        name: docs
+        path: site
+
+  check:  # This job does nothing and is only used for the branch protection
+    if: always()
+    needs: [lint, test, docs]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Decide whether the needed jobs succeeded or failed
+        uses: re-actors/alls-green@release/v1
+        id: all-green
+        with:
+          jobs: ${{ toJSON(needs) }}
+
+  publish_docs:
+    needs: [check]
+    if: "success() && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/'))"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout docs-site
+        uses: actions/checkout@v3
+        with:
+          ref: docs-site
+
+      - uses: actions/checkout@v3
+
+      - name: set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: install
+        run: pip install -r requirements/docs.txt
+
+      - name: install mkdocs-material-insiders
+        run: pip install https://files.scolvin.com/${MKDOCS_TOKEN}/mkdocs_material-9.4.2+insiders.4.42.0-py3-none-any.whl
+        env:
+          MKDOCS_TOKEN: ${{ secrets.mkdocs_token }}
+
+      - name: Set git credentials
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - run: mike deploy -b docs-site dev --push
+        if: github.ref == 'refs/heads/main'
+
+      - name: check version
+        if: "startsWith(github.ref, 'refs/tags/')"
+        id: check-version
+        uses: samuelcolvin/check-python-version@v3.2
+        with:
+          version_file_path: 'dirty_equals/version.py'
+
+      - run: mike deploy -b docs-site ${{ steps.check-version.outputs.VERSION_MAJOR_MINOR }} latest --update-aliases --push
+        if: "startsWith(github.ref, 'refs/tags/') && !fromJSON(steps.check-version.outputs.IS_PRERELEASE)"
+
+  deploy:
+    needs: [check]
+    if: "success() && startsWith(github.ref, 'refs/tags/')"
+    runs-on: ubuntu-latest
+    environment: release
+
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: install
+        run: pip install -U build
+
+      - name: check version
+        id: check-version
+        uses: samuelcolvin/check-python-version@v3.2
+        with:
+          version_file_path: 'dirty_equals/version.py'
+
+      - name: build
+        run: python -m build
+
+      - name: Upload package to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
