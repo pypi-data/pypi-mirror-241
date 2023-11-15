@@ -1,0 +1,14 @@
+scipy
+numpy
+pandas>=1.1
+llnl-hatchet
+
+[extrap]
+extrap
+matplotlib
+
+[plotting]
+seaborn
+
+[vis]
+beautifulsoup4
