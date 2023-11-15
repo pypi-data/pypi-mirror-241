@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ficture
+Version: 0.0.1
+Summary: Segmentation free factor analysis for sub-micron resolution spatial transcriptomics
+Author-email: Yichen Si <ycsi@umich.edu>
+License: CC BY-NC 4.0
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: Jinja2
+Requires-Dist: opencv-python
+Requires-Dist: shapely
+Requires-Dist: geojson
+Requires-Dist: torch
+Requires-Dist: pymde
+Requires-Dist: ete3
+Requires-Dist: PyQt5
+
