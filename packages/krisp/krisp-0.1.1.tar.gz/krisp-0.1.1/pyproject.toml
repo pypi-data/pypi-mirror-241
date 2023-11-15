@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "krisp"
+version = "0.1.1"
+authors = [
+  { name="Zachary S.L. Foster", email="zacharyfoster1989@gmail.com" },
+  { name="Andrew S. Tupper", email="andrew.s.tupper@gmail.com" },
+  { name="Niklaus J. Grunwald", email="niklaus.grunwald@oregonstate.edu" },
+]
+maintainers = [
+  { name="Zachary S.L. Foster", email="zacharyfoster1989@gmail.com" },
+]
+description = "A lightweight tool for finding diagnostic regions in whole genome data"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pysam",
+    "Bio",
+    "nltk",
+    "prettytable",
+    "pandas",
+    "prettytable",
+    "primer3-py"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/grunwaldlab/krisp"
+"Bug Tracker" = "https://github.com/grunwaldlab/krisp/issues"
+
+[project.scripts]
+krisp_fasta = "krisp.krisp_fasta.krisp_fasta:main"
+kstream = "krisp.kstream.kstream:main"
+krisp_vcf = "krisp.krisp_vcf.krisp_vcf:main"
