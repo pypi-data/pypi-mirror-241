@@ -1,0 +1,11 @@
+
+[develop]
+bump2version
+isort
+pybind11[global]
+pytest
+pytest-cov
+pytest-sugar
+ruff
+twine
+wheel

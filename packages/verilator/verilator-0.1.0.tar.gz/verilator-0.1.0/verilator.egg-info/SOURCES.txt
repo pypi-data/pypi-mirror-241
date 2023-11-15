@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+verilator/__init__.py
+verilator.egg-info/PKG-INFO
+verilator.egg-info/SOURCES.txt
+verilator.egg-info/dependency_links.txt
+verilator.egg-info/requires.txt
+verilator.egg-info/top_level.txt
+verilator/tests/__init__.py
+verilator/tests/conftest.py
+verilator/tests/test_all.py
