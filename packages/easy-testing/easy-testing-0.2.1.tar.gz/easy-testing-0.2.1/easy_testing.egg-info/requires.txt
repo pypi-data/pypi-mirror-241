@@ -1,0 +1,5 @@
+openai>=0.28.0
+evaluate==0.4.1
+bert_score==0.3.13
+rouge-score==0.1.2
+absl-py==2.0.0
