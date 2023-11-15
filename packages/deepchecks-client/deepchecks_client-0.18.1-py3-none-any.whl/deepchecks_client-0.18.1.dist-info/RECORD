@@ -1,0 +1,14 @@
+deepchecks_client/__init__.py,sha256=Bxh1eggMKsmGeNwYb49RKxXoQYmPpwcH-0rZ179MGK8,20331
+deepchecks_client/_shared_docs.py,sha256=yAjmeGkHo3QrZwS_Gvalh_2kuCGkDUOUMbbHgT5YniU,4750
+deepchecks_client/core/AmazonRootCA1.cer,sha256=LEOVLungAP8qzE4u0Il8CnKtX6csPZNOgXQcvVTwW9E,1188
+deepchecks_client/core/__init__.py,sha256=ZQwDrLbk_6IvMEMisEIdzIw0ulur5vOx7uzF1kvW90s,728
+deepchecks_client/core/api.py,sha256=nbeD-l0o17vTd7WP1sh-x9rVJ26m-K4NtATacqlTHDU,40463
+deepchecks_client/core/client.py,sha256=xd21nDKYLHQYgRuNXw4jyisSwGBWwY79TWgsOtTN-Jo,31798
+deepchecks_client/core/utils.py,sha256=NdH2N068FNOpVH5qH7L2zzvV32yeQDxM3xi-tvdd9tQ,13621
+deepchecks_client/tabular/__init__.py,sha256=zlRxEMj4LBppI12tKPqrtLlm0Dx93pAMncdzGSeyhmM,766
+deepchecks_client/tabular/client.py,sha256=lndSh3tcp3nHTSU3Cv6YteZf2fOBWGcdA6bXwOe2y7I,37597
+deepchecks_client/tabular/utils.py,sha256=GdxOiCcEues4b6sAj1kWSp4aXP_hGM3TZd1h9dLp1IA,6291
+deepchecks_client-0.18.1.dist-info/METADATA,sha256=-ZTaxnBy697wWLZEukPjRQtsL3Zc5RZodBR7W7pvyfw,644
+deepchecks_client-0.18.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+deepchecks_client-0.18.1.dist-info/top_level.txt,sha256=AX41JSwLA_Aoyd1jG4xZ4CyKF-WfjHFYRPgunpTGA18,18
+deepchecks_client-0.18.1.dist-info/RECORD,,
