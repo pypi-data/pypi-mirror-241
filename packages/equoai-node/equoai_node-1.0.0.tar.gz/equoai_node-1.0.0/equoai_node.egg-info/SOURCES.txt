@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+equoai_node/__init__.py
+equoai_node/main.py
+equoai_node.egg-info/PKG-INFO
+equoai_node.egg-info/SOURCES.txt
+equoai_node.egg-info/dependency_links.txt
+equoai_node.egg-info/requires.txt
+equoai_node.egg-info/top_level.txt
