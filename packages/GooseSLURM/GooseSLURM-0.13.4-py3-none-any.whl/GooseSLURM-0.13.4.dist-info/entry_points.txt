@@ -1,0 +1,7 @@
+[console_scripts]
+Gacct = GooseSLURM.sacct:_Gacct_catch
+Gdel = GooseSLURM.cli_Gdel:main
+Ginfo = GooseSLURM.cli_Ginfo:main
+Gps = GooseSLURM.cli_Gps:main
+Gstat = GooseSLURM.cli_Gstat:main
+Gsub = GooseSLURM.cli_Gsub:main
