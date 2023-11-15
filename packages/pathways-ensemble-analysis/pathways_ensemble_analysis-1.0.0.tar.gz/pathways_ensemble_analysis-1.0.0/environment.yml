@@ -1,0 +1,22 @@
+name: pea
+dependencies:
+- python
+- pyam>=1.0
+- ipykernel
+- pytest
+- pip
+- pip:
+  - pandas-indexing
+  - -e .
+
+  # development
+  - setuptools-scm
+  - pytest
+  - pytest-cov
+  - pylint
+  - black
+  - ipykernel
+  - sphinx
+  - sphinx_rtd_theme
+  - sphinx-autobuild
+  - recommonmark
