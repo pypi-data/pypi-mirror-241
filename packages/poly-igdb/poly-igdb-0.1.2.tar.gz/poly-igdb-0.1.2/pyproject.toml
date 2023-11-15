@@ -1,0 +1,18 @@
+[project]
+name = "poly-igdb"
+version = "0.1.2"
+authors = [
+  { name="Christopher Richmond", email="lancer1977@gmail.com" },
+]
+description = "Code for integrating with IGDB"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lancer1977/retroarch_obs_scripts"
+"Bug Tracker" = "https://github.com/lancer1977/retroarch_obs_scripts/issues"
