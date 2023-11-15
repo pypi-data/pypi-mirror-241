@@ -1,0 +1,6 @@
+# This is the interface for the keyring module. It is used to store and retrieve passwords.
+
+SetPassword => (username, password) external "ext_keyring", "SetPassword";
+GetPassword => (username) external "ext_keyring", "GetPassword";
+SetMerakiApiKey => (customer, key) external "ext_keyring", "SetMerakiApiKey";
+GetMerakiApiKey => (customer) external "ext_keyring", "GetMerakiApiKey";
