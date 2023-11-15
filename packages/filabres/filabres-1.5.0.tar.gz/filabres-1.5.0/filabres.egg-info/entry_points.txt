@@ -1,0 +1,5 @@
+[console_scripts]
+filabres = filabres.filabres:main
+filabres-rotate_flipstat = filabres.tools.rotate_flipstat:main
+filabres-version = filabres.version:main
+filabres-ximshow = filabres.ximshow:main

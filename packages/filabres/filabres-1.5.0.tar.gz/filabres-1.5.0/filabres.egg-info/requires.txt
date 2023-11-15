@@ -1,0 +1,14 @@
+astropy
+numpy
+matplotlib
+scipy
+pandas
+python-dateutil
+PyYaml
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
