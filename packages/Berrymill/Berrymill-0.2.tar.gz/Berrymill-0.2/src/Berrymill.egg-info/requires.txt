@@ -1,0 +1,12 @@
+inquirer
+kiwi
+kiwi-boxed-plugin
+typing_extensions
+qemu
+
+[dev]
+pytest
+bumpver
+pytest-cov
+flake8
+pylint
