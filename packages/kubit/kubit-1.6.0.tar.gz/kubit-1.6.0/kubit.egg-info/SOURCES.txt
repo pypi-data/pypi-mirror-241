@@ -1,0 +1,8 @@
+setup.py
+kubit/__init__.py
+kubit.egg-info/PKG-INFO
+kubit.egg-info/SOURCES.txt
+kubit.egg-info/dependency_links.txt
+kubit.egg-info/not-zip-safe
+kubit.egg-info/requires.txt
+kubit.egg-info/top_level.txt
