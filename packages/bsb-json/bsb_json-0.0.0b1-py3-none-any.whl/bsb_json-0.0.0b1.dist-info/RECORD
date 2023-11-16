@@ -1,0 +1,11 @@
+bsb_json/__init__.py,sha256=sp5eg4f8sB_E8lQfGGtb0CZEQbBxn1PYge-8glJdQT8,120
+bsb_json/parser.py,sha256=c78UuEU16rDEaOC0a8y84QiJ2MI4GHhHs1mAsmPszCU,11127
+bsb_json/schema/__init__.py,sha256=p6W7iF6USLZoZsIG6uuzIKnYfJNhL4h9pHJHpJ_pcJ8,2233
+bsb_json/templates/__init__.py,sha256=lY5H_P07XnpMbjkUE9GhH8xiBf1DaCRe1pSpc0gtNsE,169
+bsb_json/templates/skeleton.json,sha256=62TVuFPvT7OecyIokjAw5-d4kdv_Sdv1tcofB9sp2pY,379
+bsb_json/templates/starting_example.json,sha256=mlfTXiKEyDbaiJnvf36vFQExkeVfQJ07c4LZ5yQtTSI,799
+bsb_json-0.0.0b1.dist-info/entry_points.txt,sha256=494DZr0iQ9pIo05kX2XHNOu_hcB_MRgrcEYwZjHZNVk,101
+bsb_json-0.0.0b1.dist-info/LICENSE,sha256=0SAgqCl8RI6Vm7Rv5YC6CPyLA2MXedQM9tq17WMXl-o,33041
+bsb_json-0.0.0b1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+bsb_json-0.0.0b1.dist-info/METADATA,sha256=BE65HTzoZaIR8CbQJyFaC7IXQ0HK2qUl3opetyfr5nU,463
+bsb_json-0.0.0b1.dist-info/RECORD,,
