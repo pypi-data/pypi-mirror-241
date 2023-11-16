@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: django-zupit-logging
+Version: 0.2.3
+Summary: A Django Middleware for logging requests and responses accordingly to Zupit Standards
+Home-page: https://github.com/zupit-it/zupit-django/libs/django-zupit-logging
+Author: Zupit SRL
+Author-email: info@zupit.it
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+Requires-Dist: Django>=4.0
+Requires-Dist: opencensus-ext-azure
+
+====================
+Django Zupit Logging
+====================
+
+A Django Middleware for logging requests and responses accordingly to Zupit Standards.
+
+Installation
+------------
+Install using ``pip``::
+
+    pip install django_zupit_logging
+
+Configuration
+-------------
+
+Add ``django_zupit_logging`` to your ``INSTALLED_APPS`` setting::
+
+    INSTALLED_APPS = [
+        ...
+        'django_zupit_logging',
+    ]
+
+Add ``django_zupit_logging.middleware.ZupitLoggingMiddleware`` to your ``MIDDLEWARE`` setting::
+
+        MIDDLEWARE = [
+            ...
+            'django_zupit_logging.middleware.ZupitLoggingMiddleware',
+        ]
+
+Add ``ZUPIT_LOGGING`` to your ``settings.py`` file::
+
+    ZUPIT_LOGGING = {
+        "APP_INSIGHTS_CONNECTION_STRING": env("APP_INSIGHTS_CONNECTION_STRING"),
+    }
+
+Use ``enable_zupit_logger(LOGGING)`` to your ``settings.py`` file::
+
+        from django_zupit_logging.settings import enable_zupit_logger
+
+        if env("APP_INSIGHTS_CONNECTION_STRING"):
+            enable_zupit_logger(LOGGING)
+
+
+Usage
+-----
+
+The middleware will log requests and responses accordingly to Zupit Standards.
