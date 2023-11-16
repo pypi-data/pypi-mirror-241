@@ -1,0 +1,2 @@
+[console_scripts]
+tkrdisc = tkrdisc.cli:main
