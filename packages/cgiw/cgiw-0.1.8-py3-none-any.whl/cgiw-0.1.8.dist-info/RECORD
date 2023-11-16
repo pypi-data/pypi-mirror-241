@@ -1,0 +1,15 @@
+cgiw/__init__.py,sha256=vS0QDD4WzYZe1gkCwj9qU4HtxUZd21jgz4OLIvrNX74,21
+cgiw/composers.py,sha256=z2aLcHdVocG6Ypjx0Us_jziiFjATc42UhwIXPeNB_u8,240
+cgiw/decorators.py,sha256=AkZN2N13jnA34w-1YmW_Gi8uzC3P-utWjKO17HBDRRk,1638
+cgiw/exceptions.py,sha256=h4pSuzjHcophkckk9045dhp5k_KmJqzbnamq4ANzNfk,4150
+cgiw/handler.py,sha256=xiQ9ZGCA4gqcFwHCakEyM_fSZlzCjmmgTmliMMrfUuM,858
+cgiw/logger.py,sha256=RW3qhNFtorM1_sGhA543jAw9vvwRy1JioGhmkFTcvA0,422
+cgiw/parsers.py,sha256=NizzRxKnZgMycP2gqdOYPTE9_Xi7ASta0GBYadzlPTw,1358
+cgiw/responses.py,sha256=QZQqTKxP_tBJwG9tygrZHNZbBPybIqsTS0msijNYXBo,585
+cgiw/run.py,sha256=4TGT0KUqZoWQc1kEa1xlpvp2JsDZV8mJZWWVG7Obx2w,765
+cgiw/types.py,sha256=xLaufXJQdwyMD50q1CRH-wO4L-9c_VmH7X0hTNR3RVM,517
+cgiw-0.1.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cgiw-0.1.8.dist-info/METADATA,sha256=DYN-L6vTukcfKJdTjXU2deoxZGQlpF0GJDsHmFHqB9A,1629
+cgiw-0.1.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cgiw-0.1.8.dist-info/top_level.txt,sha256=WfeJToHZhyrz645MDqjvNcKUeFTm6fYS8zwt_-92mBQ,5
+cgiw-0.1.8.dist-info/RECORD,,
