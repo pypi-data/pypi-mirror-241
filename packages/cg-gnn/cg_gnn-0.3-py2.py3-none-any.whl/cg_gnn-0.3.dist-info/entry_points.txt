@@ -1,0 +1,4 @@
+[console_scripts]
+cg-gnn-separability=cggnn.scripts.separability:main
+cg-gnn-train=cggnn.scripts.train:main
+
