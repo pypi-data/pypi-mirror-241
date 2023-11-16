@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gradio_legacyimage
+Version: 0.0.3
+Summary: Python library for easily interacting with trained machine learning models
+Author-email: Herve Lin <herve.vesync@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: gradio,gradio custom component,gradio-template-Image,machine learning,reproducibility,visualization
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Requires-Dist: gradio<5.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+
+# gradio-legacyimage
+A Custom Gradio component.
+
+Port the Image component in Gradio 3.X to Gradio 4.X. Keep the original APIs and functionalities(Except the data structure of inputs and outputs, there is a slient different).
+
+## Example usage
+
+```python
+import gradio as gr
+from gradio_legacyimage import LegacyImage
+```
