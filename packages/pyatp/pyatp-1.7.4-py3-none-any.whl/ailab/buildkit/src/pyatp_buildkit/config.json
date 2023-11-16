@@ -1,0 +1,29 @@
+{
+    "nlp":{
+        "chatglm_6b":"ailab/inference_wrapper/huggingface/lora/nlp/chatglm/wrapper",
+        "chatglm2_6b":"ailab/inference_wrapper/huggingface/lora/nlp/chatglm/wrapper",
+        "llama2_7b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "baichuan_7b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "baichuan_13b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "bloomz_1b1":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "bloomz_3b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "bloomz_7b1_mt":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "falcon_7b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "atom_7b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "moss_moon_003_base":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "codellama_7b_instruction":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "codellama_13b_instruction":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "internlm_7b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "belle_7b_2m":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "xverse_13b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "chatglm3_6b":"ailab/inference_wrapper/huggingface/lora/nlp/efficient/wrapper",
+        "chinese_llama_alpaca_2":"ailab/inference_wrapper/huggingface/lora/nlp/chinese_alpaca/wrapper",
+        "chinese_llama_alpaca_2_13b":"ailab/inference_wrapper/huggingface/lora/nlp/chinese_alpaca/wrapper",
+        "chinese_llama_alpaca_2_7b_16k":"ailab/inference_wrapper/huggingface/lora/nlp/chinese_alpaca/wrapper",
+        "chinese_llama_alpaca_2_13b_16k":"ailab/inference_wrapper/huggingface/lora/nlp/chinese_alpaca/wrapper",
+        "chinese_llama_alpaca_2_1b3":"ailab/inference_wrapper/huggingface/lora/nlp/chinese_alpaca/wrapper"
+    },
+    "cv":{
+        "vit_patch16_224_in21k":"ailab/inference_wrapper/huggingface/transformers/cv/image_classification/wrapper"
+    }
+}
