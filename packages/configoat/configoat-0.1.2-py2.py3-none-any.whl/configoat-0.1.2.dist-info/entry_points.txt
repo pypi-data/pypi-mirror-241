@@ -1,0 +1,3 @@
+[console_scripts]
+configoat = configoat.cli:cli
+
