@@ -1,0 +1,9 @@
+supermat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supermat/grobid_tokenizer.py,sha256=3dcUAQZoEGtIefiuRSkE26bxa02xH5Ukv6k5V6gFru8,2422
+supermat/supermat_tei_parser.py,sha256=_K2T0zy7gFYM7oYrxN_pB8tbA4l3n1tlCw8uYsfeNSw,17623
+supermat/utils.py,sha256=rsS4E796M3_zo4bBaiLw1OnAGgjGMkiCD4NCjz_t574,2057
+SuperMat-3.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+SuperMat-3.0.0.dist-info/METADATA,sha256=Y9Uunp52CYac1NlCsOKxAVMWzbIke1QjINOxbHkgfok,18397
+SuperMat-3.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+SuperMat-3.0.0.dist-info/top_level.txt,sha256=kdhUUtFuR5xRgu28_EOdQIEwU_UgRtYKOUq-KkjUdGw,9
+SuperMat-3.0.0.dist-info/RECORD,,
