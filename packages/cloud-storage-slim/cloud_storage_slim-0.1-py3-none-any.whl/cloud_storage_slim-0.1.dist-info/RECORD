@@ -1,0 +1,9 @@
+cloud_storage_slim/__init__.py,sha256=KrN0-H3IY5Q68YH-x3WJe4zivGDgxqWxRfI6dEJpGgU,5670
+cloud_storage_slim/alibaba_cloud_oss.py,sha256=O2Pm2LPKeAeHLjRHiEeKPHGCpGYiBJZ1fWI49pjCmPQ,1413
+cloud_storage_slim/azure_storage.py,sha256=RXVZw-LaozNoDp7nR5IYhgGZ4zGI0BgH7KWs588m-ic,2048
+cloud_storage_slim/google_cloud_storage.py,sha256=0ea6z7-7xEqg6K11KMiedXQWfBbON9fUu5mVjKJ5CCc,1221
+cloud_storage_slim/utils.py,sha256=0ziEORRgLCdWmovXT4fugFz7vnlOMV_zadXjyK3NXuc,1243
+cloud_storage_slim-0.1.dist-info/METADATA,sha256=COgwbAdcongQ5kg5ymP0xqYvhmT-BV01r_bTplOjFVk,243
+cloud_storage_slim-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cloud_storage_slim-0.1.dist-info/top_level.txt,sha256=62PX4E_PYJIifqLeYWFjRawo8iVglDbFwTZeZ8mK5po,19
+cloud_storage_slim-0.1.dist-info/RECORD,,
