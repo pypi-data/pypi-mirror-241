@@ -1,0 +1,10 @@
+colorama==0.4.6
+types-colorama==0.4.15.12
+
+[test]
+pytest==7.4.3
+pytest-cov==4.1.0
+pycodestyle==2.11.1
+pydocstyle==6.3.0
+mypy==1.7.0
+flake8==6.1.0
