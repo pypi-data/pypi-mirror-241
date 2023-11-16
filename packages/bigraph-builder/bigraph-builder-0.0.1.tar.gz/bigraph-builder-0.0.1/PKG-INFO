@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bigraph-builder
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/vivarium-collective/bigraph-builder
+Author: Eran Agmon
+Author-email: agmon.eran@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# Bigraph-builder
+
