@@ -1,0 +1,15 @@
+CHANGELOG.rst
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/memoi/__init__.py
+src/memoi/__version__.py
+src/memoi.egg-info/PKG-INFO
+src/memoi.egg-info/SOURCES.txt
+src/memoi.egg-info/dependency_links.txt
+src/memoi.egg-info/entry_points.txt
+src/memoi.egg-info/not-zip-safe
+src/memoi.egg-info/requires.txt
+src/memoi.egg-info/top_level.txt
+test/test_memoi.py
