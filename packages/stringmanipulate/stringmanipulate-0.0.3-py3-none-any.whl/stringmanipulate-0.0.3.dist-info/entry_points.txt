@@ -1,0 +1,2 @@
+[console_scripts]
+stringmanipulate = stringmanipulate.__main__:main
