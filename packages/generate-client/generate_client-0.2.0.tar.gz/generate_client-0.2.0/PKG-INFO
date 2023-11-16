@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: generate-client
+Version: 0.2.0
+Summary: 文本生成，图像生成，语音生成
+Home-page: https://github.com/wangyuxinwhy/generate
+License: MIT
+Keywords: openai,text generation,image generation,text to speech
+Author: wangyuxin
+Author-email: wangyuxin@mokahr.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anyio (<4.0.0)
+Requires-Dist: asyncer (==0.0.2)
+Requires-Dist: cachetools (>=5.3.1,<6.0.0)
+Requires-Dist: docstring-parser (>=0.15,<0.16)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: httpx-sse (==0.3.1)
+Requires-Dist: pydantic (>=2.0,<3.0)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: tenacity (>=8.2.2,<9.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: typing-extensions (>=4.6.2,<5.0.0)
+Project-URL: Repository, https://github.com/wangyuxinwhy/generate
+Description-Content-Type: text/markdown
+
+# genreate
+
+文本生成，图像生成，语音生成
+
