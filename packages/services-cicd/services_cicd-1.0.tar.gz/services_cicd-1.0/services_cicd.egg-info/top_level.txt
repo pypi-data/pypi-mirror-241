@@ -1,0 +1,3 @@
+deployment-service-lamda
+old_services_cicd2
+services_cicd
