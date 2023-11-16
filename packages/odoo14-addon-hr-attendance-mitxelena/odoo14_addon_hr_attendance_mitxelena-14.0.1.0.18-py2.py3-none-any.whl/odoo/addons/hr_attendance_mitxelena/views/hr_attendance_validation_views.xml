@@ -1,0 +1,36 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="hr_attendance_validation_sheet_form_mitxelena">
+            <field name="name">hr.attendance.validation.sheet.form.mitxelena</field>
+            <field name="model">hr.attendance.validation.sheet</field>
+            <field name="inherit_id" ref="hr_attendance_validation.hr_attendance_validation_sheet_view_form_manager" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='employee_id']" position="after">
+                    <field name="company_id" invisible="1" />
+                    <field name="mother_calendar_id" invisible="1" />
+                </xpath>
+                <xpath expr="//tree/field[@name='worked_hours']" position="after">
+                    <field name="extra_time" readonly="0" widget="float_time" optional="hide" />
+                    <field name="extra_time_with_factor" readonly="0" widget="float_time" />
+                    <field name="entry_type" readonly="0" optional="hide" />
+                    <field name="shift_type" readonly="0" optional="hide" />
+                </xpath>
+
+                <xpath expr="//field[@name='is_overtime_due']" position="attributes">                    
+                    <attribute name="optional">hide</attribute>
+                </xpath>
+
+                <xpath expr="//tree/field[@name='attendance_reason_ids']" position="replace"/>
+                    
+                <xpath expr="//field[@name='calendar_id']" position="attributes">
+                    <attribute name="readonly">0</attribute>
+                    <attribute name="domain">[('mother_calendar', '=', False), ('from_calendar', '=', mother_calendar_id)]</attribute>
+                </xpath>
+
+                <xpath expr="//tree" position="attributes">
+                    <attribute name="default_order">check_in asc</attribute>
+                </xpath>
+            </field>
+        </record>
+        </data>
+    </odoo>
