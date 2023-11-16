@@ -1,0 +1,119 @@
+"""This module provides exceptions for each JSON-RPC 2.0 error.
+
+There is one Exception defined for each pre-defined JSON-RPC 2.0 error.
+Additionally, there is a ServerError for implementation-defined errors.
+
+Each exception extends a base exception JSONRPCError.
+"""
+
+__all__ = (
+    "INTERNAL_ERROR",
+    "INVALID_PARAMS",
+    "INVALID_REQUEST",
+    "InternalError",
+    "InvalidParams",
+    "InvalidRequest",
+    "JSONRPCError",
+    "METHOD_NOT_FOUND",
+    "MethodNotFound",
+    "PARSE_ERROR",
+    "ParseError",
+    "ServerError",
+)
+
+from typing import Any, Optional
+
+from jsonrpcobjects.objects import DataError, Error, ErrorType
+
+INVALID_REQUEST = Error(code=-32600, message="Invalid Request")
+METHOD_NOT_FOUND = Error(code=-32601, message="Method not found")
+INVALID_PARAMS = Error(code=-32602, message="Invalid params")
+INTERNAL_ERROR = Error(code=-32603, message="Internal error")
+PARSE_ERROR = Error(code=-32700, message="Parse error")
+
+
+class JSONRPCError(Exception):
+    """Base error that all JSON RPC exceptions extend."""
+
+    def __init__(self, error: ErrorType) -> None:
+        msg = f"{error.code}: {error.message}"
+        self.rpc_error = error
+        if isinstance(error, DataError):
+            msg += f"\nError Data: {error.data}"
+        super(JSONRPCError, self).__init__(msg)
+
+
+class ParseError(JSONRPCError):
+    """Error raised when invalid JSON was received by the server."""
+
+    def __init__(self, data: Optional[Any] = None) -> None:
+        if data is not None:
+            error = DataError(
+                code=PARSE_ERROR.code, message=PARSE_ERROR.message, data=data
+            )
+        else:
+            error = PARSE_ERROR
+        super(ParseError, self).__init__(error)
+
+
+class InvalidRequest(JSONRPCError):
+    """Error raised when the JSON sent is not a valid Request object."""
+
+    def __init__(self, data: Optional[Any] = None) -> None:
+        if data is not None:
+            error = DataError(
+                code=INVALID_REQUEST.code, message=INVALID_REQUEST.message, data=data
+            )
+        else:
+            error = INVALID_REQUEST
+        super(InvalidRequest, self).__init__(error)
+
+
+class MethodNotFound(JSONRPCError):
+    """Error raised when the method does not exist / is not available."""
+
+    def __init__(self, data: Optional[Any] = None) -> None:
+        if data is not None:
+            error = DataError(
+                code=METHOD_NOT_FOUND.code, message=METHOD_NOT_FOUND.message, data=data
+            )
+        else:
+            error = METHOD_NOT_FOUND
+        super(MethodNotFound, self).__init__(error)
+
+
+class InvalidParams(JSONRPCError):
+    """Error raised when invalid method parameter(s) are supplied."""
+
+    def __init__(self, data: Optional[Any] = None) -> None:
+        if data is not None:
+            error = DataError(
+                code=INVALID_PARAMS.code, message=INVALID_PARAMS.message, data=data
+            )
+        else:
+            error = INVALID_PARAMS
+        super(InvalidParams, self).__init__(error)
+
+
+class InternalError(JSONRPCError):
+    """Error raised when there is an internal JSON-RPC error."""
+
+    def __init__(self, data: Optional[Any] = None) -> None:
+        if data is not None:
+            error = DataError(
+                code=INTERNAL_ERROR.code, message=INTERNAL_ERROR.message, data=data
+            )
+        else:
+            error = INTERNAL_ERROR
+        super(InternalError, self).__init__(error)
+
+
+class ServerError(JSONRPCError):
+    """Error raised when a server error occurs."""
+
+    def __init__(self, code: int, message: str, data: Optional[Any] = None) -> None:
+        if data is not None:
+            error = DataError(code=code, message=message, data=data)
+        else:
+            error = Error(code=code, message=message)
+        super(ServerError, self).__init__(error)
