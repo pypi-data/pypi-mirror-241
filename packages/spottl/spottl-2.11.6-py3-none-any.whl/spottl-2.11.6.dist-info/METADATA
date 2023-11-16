@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spottl
+Version: 2.11.6
+Summary: Pip-installable version of spot library
+License: gnp
+Author: Mikihisa Yuasa
+Author-email: myuasa2@illinois.edu
+Requires-Python: >=3.10,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# spot_tl
+pip-installable version of spot TL library
+
