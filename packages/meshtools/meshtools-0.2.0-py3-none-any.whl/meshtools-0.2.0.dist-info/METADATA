@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: meshtools
+Version: 0.2.0
+Summary: Mesh Tools for 3D Computer Graphics
+Home-page: https://github.com/szabolcsdombi/meshtools/
+Author: Szabolcs Dombi
+Author-email: szabolcs@szabolcsdombi.com
+License: MIT
+Project-URL: Source, https://github.com/szabolcsdombi/meshtools/
+Project-URL: Bug Tracker, https://github.com/szabolcsdombi/meshtools/issues/
+Keywords: mesh,tools,editor,geometry,subdivide,shapes,quads,load,obj
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Multimedia :: Graphics :: Editors
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# meshtools
