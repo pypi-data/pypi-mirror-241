@@ -1,0 +1,3 @@
+[console_scripts]
+factor-pricing-model-universe=fpm_universe.cli:main
+
