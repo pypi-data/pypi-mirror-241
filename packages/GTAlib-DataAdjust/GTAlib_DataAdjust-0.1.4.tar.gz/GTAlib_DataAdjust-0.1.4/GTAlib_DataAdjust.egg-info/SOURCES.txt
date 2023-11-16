@@ -1,0 +1,9 @@
+README.md
+setup.py
+GTAlib_DataAdjust/__init__.py
+GTAlib_DataAdjust/modulo.py
+GTAlib_DataAdjust.egg-info/PKG-INFO
+GTAlib_DataAdjust.egg-info/SOURCES.txt
+GTAlib_DataAdjust.egg-info/dependency_links.txt
+GTAlib_DataAdjust.egg-info/requires.txt
+GTAlib_DataAdjust.egg-info/top_level.txt
