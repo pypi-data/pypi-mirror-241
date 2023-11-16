@@ -1,0 +1,16 @@
+munch
+requests
+pydantic
+email-validator
+
+[email-validator>]
+1.2
+
+[munch]
+munch>=2.5
+
+[pydantic]
+pydantic>=1.9
+
+[requests]
+requests>=2.27
