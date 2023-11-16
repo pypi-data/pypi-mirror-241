@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: adaptgym
+Version: 0.1.0
+Summary: 
+Author: Isaac Kauvar
+Author-email: ikauvar@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: bidict (==0.22.1)
+Requires-Dist: dm-control (==1.0.7)
+Requires-Dist: dm-env (==1.5)
+Requires-Dist: dm-tree (==0.1.7)
+Requires-Dist: gym (==0.18.3)
+Requires-Dist: matplotlib (>=3.4.2)
+Requires-Dist: numpy (>=1.22)
+Requires-Dist: opencv-python (>=4.0.0)
+Requires-Dist: pandas (>=1.2,<1.4)
+Requires-Dist: protobuf (==3.20.3)
+Requires-Dist: pytest (>=5.2,<6.0)
+Requires-Dist: scipy (>=1.7.0)
