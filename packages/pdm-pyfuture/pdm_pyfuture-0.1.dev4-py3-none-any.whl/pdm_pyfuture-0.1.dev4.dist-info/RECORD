@@ -1,0 +1,7 @@
+pdm_pyfuture-0.1.dev4.dist-info/METADATA,sha256=XAHIhzNUZwA8rC4iwryV7Dr1tbNv_3t7l59bK2jpb1E,228
+pdm_pyfuture-0.1.dev4.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+pdm_pyfuture-0.1.dev4.dist-info/entry_points.txt,sha256=foEUT2tej8xZrfzg0hie6SvdNgA4slxo2XmCYMhwXBE,55
+pdm_pyfuture/__init__.py,sha256=D53eyh_orfCYtnnNE2jts_Gfiz4aS9-uulPy6SPipWg,1785
+pdm_pyfuture/build.py,sha256=4h_azqKuIx-SCmw9Vqpj1JDDHtP5k6u4c4LOq1dL6fY,422
+test_build.py,sha256=4h_azqKuIx-SCmw9Vqpj1JDDHtP5k6u4c4LOq1dL6fY,422
+pdm_pyfuture-0.1.dev4.dist-info/RECORD,,
