@@ -1,0 +1,23 @@
+[![metis](https://static-asserts-public.s3.eu-central-1.amazonaws.com/metis-min-logo.png)](https://www.metisdata.io/)
+
+# [Metis FastAPI SQLAlchemy collector](https://docs.metisdata.io/metis/sdk-integration/python-sqlalchemy) 
+
+## Demo Project
+
+### [FastAPI (Sync). SQLAlchemy(sync) and PostgreSQL](https://github.com/metis-data/python-fastapi-postgresql-sqlalchemy)
+
+### [FastAPI (Sync). SQLAlchemy(asyncpg) and PostgreSQL](https://github.com/metis-data/python-fastapi-postgresql-sqlalchemy-asyncpg)
+
+## About
+
+This library logs the HTTP requests created by FastAPI and SQLAlchemy with the SQL commands they generate. The library
+can also collect the execution plan for deeper analysis using [Metis](https://metisdata.io).
+Read more in our: [Documentation](https://docs.metisdata.io)
+
+## Technical
+
+This library uses [OpenTelemetry](https://pypi.org/project/opentelemetry-sdk/) to instrument both FastAPI and
+SQLAlchemy.
+
+Tested on python 3.8.9, FastAPI 0.78.0, SQLAlchemy 1.4.33, PostgreSQL 12 or higher.
+
