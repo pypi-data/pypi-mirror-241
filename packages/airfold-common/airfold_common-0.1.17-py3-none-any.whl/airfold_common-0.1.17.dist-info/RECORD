@@ -1,0 +1,17 @@
+airfold_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airfold_common/ai.py,sha256=lIl87rzAjg7jsi3wN04yL7-PesWSFsk4uWY7by4mk6k,497
+airfold_common/config.py,sha256=aLI0m6JzG_Wm0zFetl7xIbFZR08qqNoZY_8sK8aQi6E,832
+airfold_common/error.py,sha256=Dc6UE1DON8eksHejzXpJiX2Ttby-dzwgFrX8ETLwzIU,237
+airfold_common/format.py,sha256=8wrViAE1qZJK4ZHc2FP1uq16cRx-ttIWleBKbBJ69wI,3037
+airfold_common/log.py,sha256=rDZiv06Q5ObbbqYAJ_3eHpKXy0UdrPcVSC2nse0InR0,515
+airfold_common/models.py,sha256=lRodx7_VxiLGHDgtFUH9W93imn-QDyvcn0SoWZvyCcg,329
+airfold_common/provider.py,sha256=nSIaUr3fNVuGjn4mMy_l658G6fGaX4qeYQ2OZVZFMRM,1361
+airfold_common/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airfold_common/singleton.py,sha256=IVClXGZLiYdSSEa6N0TRpJRHOJbFNxSwlO3UhNA37ZI,599
+airfold_common/spec.py,sha256=wLtKD8IerCSa7IeMp5_DFjD-TjTxgwEvaxhir5HAUwc,2415
+airfold_common/type.py,sha256=1T6iIm2vi5VuFwW1qCzHH4I77oviJmNnF02vxnPDzBg,48
+airfold_common/utils.py,sha256=ZFiCknTx6_5RgfItRj2_VrXx38P9QIFLRLmhj-CPbIg,1972
+airfold_common-0.1.17.dist-info/METADATA,sha256=LJufIjZ4-LTict81sQLo6uTobO4I6v3IUwW3TA57zkA,909
+airfold_common-0.1.17.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+airfold_common-0.1.17.dist-info/top_level.txt,sha256=dbGzfMf41X9_z-SeqXW2WYRhmTREyf0IvvU8g4a83Sg,15
+airfold_common-0.1.17.dist-info/RECORD,,
