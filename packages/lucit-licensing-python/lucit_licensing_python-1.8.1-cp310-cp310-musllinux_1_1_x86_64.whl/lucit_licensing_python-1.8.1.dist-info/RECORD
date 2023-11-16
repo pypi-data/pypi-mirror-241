@@ -1,0 +1,10 @@
+lucit_licensing_python-1.8.1.dist-info/top_level.txt,sha256=9vuULaGZdK7NbXlXgoCTPEBqkx6EWGWR9a04lO4q7-I,23
+lucit_licensing_python-1.8.1.dist-info/WHEEL,sha256=XRy71Q9dkxeaN5xqg4V0IQ2y1PE7-xmFNFjaSBPcoPM,113
+lucit_licensing_python-1.8.1.dist-info/entry_points.txt,sha256=cfoHRISC96mL_A5Dd8xnPS85M8lqPJKSMR6rVo2z1Zc,64
+lucit_licensing_python-1.8.1.dist-info/METADATA,sha256=lfuJ1Cm2zSAUGz0TMmd1qy0gmhEWEJRmLNTaH2MFqSY,19693
+lucit_licensing_python-1.8.1.dist-info/LICENSE,sha256=Oeb70MhSxAz4jL_nkTq4Jblq0zRai2J2ZNIRFxjR-jk,4544
+lucit_licensing_python-1.8.1.dist-info/RECORD,,
+lucit_licensing_python/cli.cpython-310-x86_64-linux-gnu.so,sha256=H7C9WFdLoK5TwLY8LhZaae48OghYKXV9hNcqw-s9Y-E,812728
+lucit_licensing_python/__init__.cpython-310-x86_64-linux-gnu.so,sha256=Tj8EFw-9e-DBcr6hcg13ymEc8V72v1vZ_Dh46gja2bo,82016
+lucit_licensing_python/exceptions.cpython-310-x86_64-linux-gnu.so,sha256=GD5Kgd7clzjRhSXshW9dVfrQxg8d372IDxIY1c6EyzY,102616
+lucit_licensing_python/manager.cpython-310-x86_64-linux-gnu.so,sha256=XLIoEfO7FzeHKrkpxSRjaoHpigxlSoUkmF3ldpvBDkM,2328568
