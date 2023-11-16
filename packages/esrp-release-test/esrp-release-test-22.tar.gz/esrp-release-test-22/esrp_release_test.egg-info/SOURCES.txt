@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+esrp-release-test/__init__.py
+esrp-release-test/src/__init__.py
+esrp-release-test/src/esrpreltest.py
+esrp_release_test.egg-info/PKG-INFO
+esrp_release_test.egg-info/SOURCES.txt
+esrp_release_test.egg-info/dependency_links.txt
+esrp_release_test.egg-info/entry_points.txt
+esrp_release_test.egg-info/requires.txt
+esrp_release_test.egg-info/top_level.txt
