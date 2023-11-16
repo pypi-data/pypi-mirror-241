@@ -1,0 +1,14 @@
+folium_maps
+folium_maps/plugins
+folium_maps/templates
+folium_maps/templates/tiles
+folium_maps/templates/tiles/cartodbdark_matter
+folium_maps/templates/tiles/cartodbpositron
+folium_maps/templates/tiles/cartodbpositronnolabels
+folium_maps/templates/tiles/cartodbpositrononlylabels
+folium_maps/templates/tiles/openstreetmap
+folium_maps/templates/tiles/stamenterrain
+folium_maps/templates/tiles/stamentoner
+folium_maps/templates/tiles/stamentonerbackground
+folium_maps/templates/tiles/stamentonerlabels
+folium_maps/templates/tiles/stamenwatercolor
