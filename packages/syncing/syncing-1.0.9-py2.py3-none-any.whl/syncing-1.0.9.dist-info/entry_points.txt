@@ -1,0 +1,2 @@
+[console_scripts]
+syncing = syncing.cli:cli
