@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: azure-data-factory-testing-framework
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Arjen Kroezen
+Author-email: arjenkroezen@microsoft.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: astor (>=0.8.1,<0.9.0)
+Requires-Dist: azure-identity (>=1.14.1,<2.0.0)
+Requires-Dist: azure-mgmt-datafactory (>=3.1.0,<4.0.0)
+Requires-Dist: docstring-parser (>=0.15,<0.16)
+Description-Content-Type: text/markdown
+
+# Azure Data Factory v2 - Unit Testing Framework
+
+## Development
+
+### Prerequisites
+
+* poetry == 1.6.1
+
+### Run Linting
+
+We use Ruff to lint our code as it provides similar rule sets to well-established linters into one (e.g., black, flake8, isort, and pydocstyle).
+
+To run linting, run the following command:
+
+```bash
+poetry run ruff .
+```
+
