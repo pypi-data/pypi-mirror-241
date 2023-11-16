@@ -1,0 +1,10 @@
+ufal.nametag.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+ufal.nametag.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+ufal.nametag-1.2.1.1.dist-info/top_level.txt,sha256=GsZv5R3Wk08xmNJ09BWsp_VwhvJGSJVWD5KZ1DzgktM,5
+ufal.nametag-1.2.1.1.dist-info/WHEEL,sha256=D6ayYAObml0dqmMQwrv177TZ-D4GB57hZh8_hB7bmy4,110
+ufal.nametag-1.2.1.1.dist-info/METADATA,sha256=5bUbAWJ51Nuox20lSryorwLWGUXhYp1-J5yeFlfxu3c,5375
+ufal.nametag-1.2.1.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+ufal.nametag-1.2.1.1.dist-info/RECORD,,
+ufal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufal/nametag/__init__.py,sha256=yWvR1jbJdVx4zMzL6E9yrNVJWV34HHvjEQJjLj-g9os,420
+ufal/nametag/_nametag.cpython-37m-i386-linux-gnu.so,sha256=tNfij_x-DxjIL74Np8Qe9sAlaEKhawildy7y2JWTawE,1553105
