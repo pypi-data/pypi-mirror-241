@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hl7messagetojson
+Version: 0.0.1
+Summary: A simple library to convert HL7 message version 2 to JSON with human readable description
+Home-page: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/hl7messagetojson
+Author: Naina Vegunta
+Author-email: naina@dhan.ai
+Keywords: HL7,Health Level 7,healthcare,health care,medical record

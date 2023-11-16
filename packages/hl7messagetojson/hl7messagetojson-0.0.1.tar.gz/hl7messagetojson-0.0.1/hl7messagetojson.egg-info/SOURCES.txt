@@ -1,0 +1,6 @@
+setup.py
+hl7messagetojson.egg-info/PKG-INFO
+hl7messagetojson.egg-info/SOURCES.txt
+hl7messagetojson.egg-info/dependency_links.txt
+hl7messagetojson.egg-info/requires.txt
+hl7messagetojson.egg-info/top_level.txt
