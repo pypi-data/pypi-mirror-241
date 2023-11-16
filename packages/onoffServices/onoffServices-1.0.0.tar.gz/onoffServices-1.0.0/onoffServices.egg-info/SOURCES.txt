@@ -1,0 +1,9 @@
+setup.py
+onoffServices/__init__.py
+onoffServices/ec2.py
+onoffServices/ecs.py
+onoffServices/rds.py
+onoffServices.egg-info/PKG-INFO
+onoffServices.egg-info/SOURCES.txt
+onoffServices.egg-info/dependency_links.txt
+onoffServices.egg-info/top_level.txt
