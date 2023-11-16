@@ -1,0 +1,15 @@
+boto3~=1.28
+importlib-metadata~=6.8
+more-itertools~=10.1
+tqdm~=4.66
+warcio~=1.7
+
+[tests]
+bandit[toml]~=1.7
+boto3-stubs[s3]~=1.28
+flake8~=6.1
+mypy~=1.6
+pylint~=3.0
+pytest~=7.2
+pytest-cov~=4.0
+types-tqdm~=4.66
