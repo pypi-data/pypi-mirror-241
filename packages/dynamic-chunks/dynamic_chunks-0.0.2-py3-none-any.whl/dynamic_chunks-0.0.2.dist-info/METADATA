@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dynamic-chunks
+Version: 0.0.2
+Summary: Determine appropriate chunk sizes for a given xarray dataset based on target chunk size and chunk aspect ratio
+Author-email: Julius Busecke <julius@ldeo.columbia.edu>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/jbusecke/dynamic_chunks
+Project-URL: Tracker, https://github.com/jbusecke/dynamic_chunks/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: dask
+Requires-Dist: xarray
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# dynamic_chunks
+
+Determine appropriate chunk sizes for a given xarray dataset based on target chunk size and 'chunk aspect ratio'
+
+The chunk aspect ratio describes the amount of chunks along a given dimension. Take a dataset with two dimensions (`a` and `b`). A chunk aspect ratio `{'a':2, 'b':1}` means that the number of total chunks along `b` is twice that of `b`.
+This concept was inspired by a discussion with [Rich Signell](https://github.com/rsignell-usgs) at Scipy '23. The idea is that one might want to optimize the chunking of a dataset to make e.g. an operation along time n times slower than an operation along spatial dimensions.
+
+## Useage
+TBW
+
+## Developer Guide
+
+Set up your development environment with `conda`:
+
+```
+conda create --name dynamic_rechunking python=3.10 pip
+conda activate dynamic_rechunking
+pip install -e ".[test]"
+```
