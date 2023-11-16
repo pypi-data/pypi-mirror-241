@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: memoi
+Version: 0.0.1
+Summary: provides generic methods to memoize function and method calls
+Home-page: https://github.com/emanuel-schmid/memoi
+Author: Emanuel Schmid
+Author-email: schmide@ethz.ch
+License: GPL-3
+Keywords: memoization,cache
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: dateparser
+Requires-Dist: pydantic
+Provides-Extra: pdf
+Requires-Dist: ReportLab >=1.2 ; extra == 'pdf'
+Requires-Dist: RXP ; extra == 'pdf'
+Provides-Extra: rest
+Requires-Dist: docutils >=0.3 ; extra == 'rest'
+Requires-Dist: pack ==1.1,==1.3 ; extra == 'rest'
+
+=====
+Memoi
+=====
+
+Description
+===========
+
+A generic caching mechanism for memoizing function or method calls.
+
+Prerequisites
+=============
+
+- Python >= 3.10
+
+Installation
+============
+
+.. code-block:: bash
+
+  python -m pip install memoi
+
+
+Example
+=======
+
+.. code-block:: python
+
+  from datetime import datetime as dt
+  from memoi import cached, TextFileRepo
+
+  @cached(TextFileRepo('.'))
+  def f(*args, **kwargs):
+      return f"this is the result of the first f() call at {dt.now().isoformat()}"
+
+  print(f())
+  print(f())
+
+
+This will create a a sqlite database ``memo.sqlite``, keeping track of function calls,
+and a text file ``50/506f353d3ef92d51f3e57bae99367caf`` directory, containing the result of the first ``f()`` call.
+Obviously the timestamp from the first function call is preserved. 
+
+Author
+======
+
+Emanuel Schmid, schmide@ethz.ch
+
+=========
+Changelog
+=========
+
+Release 0.0.1
+=============
+
+Description
+-----------
+
+Minimum Viable Product of a result caching function decorator.
+
+Added
+-----
+
+- decorator ``cached``: providing a caching mechanism for return values, so the function is not executed the next time when it is called with the same arguments.
+- class ``TextFileRepo``: for caching return values of functions returning strings as text files in a configurable directory.
