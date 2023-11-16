@@ -1,0 +1,12 @@
+fbf-0.0.0a0.dist-info/METADATA,sha256=vSsdcMjGYr-Me0_nBxokUYJyP7lGtwR3mXMkKdWXpqo,598
+fbf-0.0.0a0.dist-info/WHEEL,sha256=BbLfPEAC7ZcIfIzgp9Sn8CbOYmYLC2n3Ahf7I5gThJc,136
+fbf-0.0.0a0.dist-info/entry_points.txt,sha256=gVbfAJhEf-fofWqlAHrGOWYf55UaaE03wDvIKPV2q08,40
+fbf-0.0.0a0.dist-info/license_files/LICENSE,sha256=4T7ufCKcb4TtrrX2X5zp1QlCR37XiK9escT6NwG6TS4,1065
+fbf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fbf/run.py,sha256=QGO6JioBE0ymSqIlc3yBqss2KSR91NIuD_ZxStph0O4,4843
+fbf/cell.py,sha256=A2mzUKF3JjbVmfTghYSlmjfOw5OdB1YUWjN1eSZ13Zk,1631
+fbf/__init__.py,sha256=WwU-ozfYZyB8jpNGgddB5t1K-v5ZRQuoBu5Es_9ohKQ,101
+fbf/__main__.py,sha256=c6Wole4o_sz_KQUxoR8qpnSuyctGlB4X8XSbivOmErE,795
+fbf/ybsm.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fbf/ybsm.pypy310-pp73-arm-linux-gnu.so,sha256=MaBORyqhoktP8z5oh6mJRG4Y6HNIHVxc-hrLiLdMIi0,4471888
+fbf-0.0.0a0.dist-info/RECORD,,
