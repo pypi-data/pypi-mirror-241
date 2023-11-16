@@ -1,0 +1,13 @@
+lazylinop/__init__.py,sha256=WcpLER2aFXydFHXfGxW24uFsHof8JuPYL4lXdk2jQb0,71
+lazylinop/lazylinop.py,sha256=-mi2mS1TOvmCYOmq2AeQOLAREIkxj1MTc0IIBIMLZac,76536
+lazylinop/wip/__init__.py,sha256=-lLjcI_i8j6qBawllRIZbAV0ByXGJFVZ1Ixxhe6f4Tw,27
+lazylinop/wip/code_optimization.py,sha256=iZlV7n12NODtg6qn2s0kAhjP5nMDtc0sq5v9CrefEVQ,1326
+lazylinop/wip/linear_algebra.py,sha256=i7CKkMaSZiOtZapRNxcCt9gbuAue6Ik0QKVl7sr4et0,92052
+lazylinop/wip/mpilop.py,sha256=t4geDGdeRJEWTH-z_SMN9vT4QYtNjY_0k7qPZLwS4So,7643
+lazylinop/wip/polynomial.py,sha256=Xae-V2FMgJBmaT3puy7AnTb3VrEnKoeRI5Csao6XyfM,21154
+lazylinop/wip/signal.py,sha256=FrDqA4KgAvYl5Kp5xh56CuuS983yyS1J0Oy0JVIIMH8,133622
+lazylinop-1.1.0.dist-info/LICENSE.txt,sha256=jHt8qQXwxwsxIgSCZbFwPqQw3R1QWQK0JzZZ3PAwlU0,1434
+lazylinop-1.1.0.dist-info/METADATA,sha256=7BpVFlqEd8Obj3uVhYieF0Mx0uckHbnMmrpmNiMTIuA,5689
+lazylinop-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+lazylinop-1.1.0.dist-info/top_level.txt,sha256=zq6N2WH1Vl_0zSzqC12W0Oil87_uMjD3sYhWGjRioIc,10
+lazylinop-1.1.0.dist-info/RECORD,,
