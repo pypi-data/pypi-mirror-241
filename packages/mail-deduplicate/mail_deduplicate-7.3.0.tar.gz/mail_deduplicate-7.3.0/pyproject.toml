@@ -1,0 +1,152 @@
+[tool.poetry]
+# Docs: https://python-poetry.org/docs/pyproject/
+name = "mail-deduplicate"
+version = "7.3.0"
+description = "📧 CLI to deduplicate mails from mail boxes."
+license = 'GPL-2.0-or-later'
+authors = ["Kevin Deldycke <kevin@deldycke.com>"]
+readme = "readme.md"
+homepage = 'https://github.com/kdeldycke/mail-deduplicate'
+repository = 'https://github.com/kdeldycke/mail-deduplicate'
+documentation = 'https://kdeldycke.github.io/mail-deduplicate'
+keywords = [
+    'CLI',
+    'mail',
+    'email',
+    'maildir',
+    'mbox',
+    'deduplication',
+    'dedupe',
+    'cleanup',
+    'mailbox',
+    'Babyl',
+    'MH',
+    'mbox',
+    'MMDF',
+]
+classifiers = [
+    # See: https://pypi.org/pypi?%3Aaction=list_classifiers
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Information Technology',
+    'Operating System :: MacOS',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Topic :: Communications :: Email',
+    'Topic :: Utilities',
+    'Typing :: Typed',
+]
+
+[tool.poetry.urls]
+"Funding" = "https://github.com/sponsors/kdeldycke"
+"Issues" = "https://github.com/kdeldycke/mail-deduplicate/issues"
+"Changelog" = "https://kdeldycke.github.io/mail-deduplicate/changelog.html"
+
+[tool.poetry.dependencies]
+# Python versions and their status: https://devguide.python.org/versions/
+python = "^3.8"
+arrow = "^1.2.3"
+boltons = "^23.0.0"
+click-extra = "^4.7.2"
+tabulate = { extras = ["widechars"], version = "^0.9.0" }
+
+[tool.poetry.group.dev.dependencies]
+coverage = { extras = ["toml"], version = "^7.2" }
+furo = "^2023.05.20"
+mypy = "^1.0"
+myst-parser = "^2.0.0"
+pytest = "^7.2.1"
+# More pytest plugins at: https://docs.pytest.org/en/latest/reference/plugin_list.html
+pytest-cov = "^4.0.0"
+pytest-github-actions-annotate-failures = "^0.2.0"
+pytest-randomly = "^3.12.0"
+# Sphinx 6 is the first version to drop Python 3.7.
+sphinx = ">=6"
+sphinx-autodoc-typehints = "^1.23.0"
+sphinx-click = "^5.0.1"
+sphinx-copybutton = "^0.5.2"
+# sphinx-design 0.5.0 is the first to allow Sphinx 7.
+sphinx-design = "^0.5.0"
+sphinx-issues = "^3.0.1"
+sphinxcontrib-mermaid = "^0.9.2"
+sphinxext-opengraph = "^0.9.0"
+types-tabulate = "^0.9.0"
+tomli = { version = "^2.0.1", python = "< 3.11" }
+
+[tool.poetry.scripts]
+mdedup = 'mail_deduplicate.__main__:main'
+
+[tool.mypy]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_unreachable = true
+pretty = true
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = ["boltons.*"]
+
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/latest/customize.html#pyproject-toml
+# XXX The ``testpaths`` parameter has no effect since pytest is only looking for a ``conftest.py`` right next to this
+# ``pyproject.toml`` file. This issue is tracked upstream at: https://github.com/pytest-dev/pytest/issues/9311
+# In the meantime, we have to rely on the ``addopts`` parameter to hard-code the test path and have our custom options
+# recognized.
+testpaths = ["mail_deduplicate/tests/"]
+# --cov-config=pyproject.toml : is specified at CLI level instead of letting coverage find it because of this bug:
+#   https://github.com/nedbat/coveragepy/issues/512#issuecomment-399707938
+#   https://github.com/pytest-dev/pytest-cov/issues/168#issuecomment-327533847
+#   https://github.com/pytest-dev/pytest-cov/issues/243
+addopts = "--durations=10 --cov-report=term --cov-report=xml --cov-config=pyproject.toml --cov=mail_deduplicate"
+# Make sure tests that are expected to fail do not resurect and start working all of a sudden.
+xfail_strict = true
+
+# https://coverage.readthedocs.io/en/latest/config.html
+[tool.coverage.run]
+branch = true
+[tool.coverage.report]
+precision = 2
+
+[tool.bumpversion]
+current_version = "7.3.0"
+allow_dirty = true
+
+[[tool.bumpversion.files]]
+# Update Python package version in any __init__.py file.
+glob = "./**/__init__.py"
+ignore_missing_version = true
+
+[[tool.bumpversion.files]]
+# Update version in Poetry section.
+filename = "./pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
+
+[[tool.bumpversion.files]]
+# Update the version in changelog written in Markdown with sphinx.ext.extlinks's {gh} shortcut.
+filename = "./changelog.md"
+search = "## {{gh}}`{current_version} (unreleased) "
+replace = "## {{gh}}`{new_version} (unreleased) "
+
+[[tool.bumpversion.files]]
+# Update the version in the citation file.
+filename = "./citation.cff"
+# XXX There a regression in bump-my-version 0.12.0 which prevent version to be updated here.
+# See: https://github.com/callowayproject/bump-my-version/issues/90
+search = "version: {current_version}"
+replace = "version: {new_version}"
+
+[[tool.bumpversion.files]]
+# Update the release date in the citation file.
+filename = "./citation.cff"
+regex = true
+search = "date-released: \\d{{4}}-\\d{{2}}-\\d{{2}}"
+replace = "date-released: {utcnow:%Y-%m-%d}"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
