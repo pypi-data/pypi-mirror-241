@@ -1,0 +1,8 @@
+
+include ort/README.md
+include ort/*.txt
+
+recursive-include ort *.bin*
+recursive-include ort *.onnx*
+recursive-include ort *.so.*
+recursive-include ort *.so
