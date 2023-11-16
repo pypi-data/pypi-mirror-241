@@ -1,0 +1,113 @@
+#!/bin/bash
+# /home/alexandre.appolaire@Digital-Grenoble.local/Documents/ACV/Partie 2/data/fall_detection.v5i.multiclass/train
+
+dir_where_images=$1
+
+# Check if a directory is provided
+if [ -z "$dir_where_images" ]; then
+    echo "Usage: $0 <directory>"
+    exit 1
+fi
+
+# Move to the specified directory
+cd "$dir_where_images" || exit
+
+# Récupérer tous les fichiers du répertoire correspondant au motif 'fall*.jpg'
+files_to_rename=$(ls $dir_where_images | grep '^fall.*\.jpg$')
+
+
+counter=1
+
+
+for file in $files_to_rename; do
+    
+    new_name=$(echo "$file" | sed 's/_.*\././')
+
+
+    numbered_name="${new_name%.*}_$counter.jpg"
+
+    
+    ((counter++))
+
+    
+    if [ $counter -gt 4 ]; then
+        counter=1
+    fi
+
+    
+    mv "$file" "$numbered_name"
+
+    
+    echo "Renommage $file en $numbered_name"
+done
+
+
+
+# Récupérer tous les fichiers du répertoire correspondant au motif 'not-fallen*.jpg'
+files_to_rename=$(find . -maxdepth 1 -type f -name 'not-fallen*.jpg')
+
+# Boucler à travers les fichiers
+for old_filename in $files_to_rename; do
+    # Supprimer tout ce qu'il y a entre _ compris et . non compris
+    new_filename=$(echo "$old_filename" | sed 's|_.*\.|.|')
+
+    # Remplacer 'not-fallen' par 'not_fallen'
+    new_filename=$(echo "$new_filename" | sed 's|not-fallen|not_fallen|')
+
+    # Renommer le fichier
+    mv "$old_filename" "$new_filename"
+
+    # Afficher le résultat (facultatif)
+    echo "Renommage '$old_filename' en '$new_filename'"
+done
+
+
+
+
+# Récupérer tous les fichiers du répertoire correspondant au motif 'not fallen*.jpg'
+files_to_rename=(not\ fallen*.jpg)
+
+# Boucler à travers les fichiers
+for old_filename in "${files_to_rename[@]}"; do
+    # Extraire le nom de base du fichier sans l'extension
+    base_name=$(basename "$old_filename" .jpg)
+
+    # Remplacer l'espace entre 'not' et 'fallen' par _
+    new_base_name=$(echo "$base_name" | sed 's/not fallen/not_fallen/')
+
+    # Nouveau nom de fichier avec le numéro ajouté
+    new_filename="${new_base_name}.jpg"
+
+    # Renommer le fichier
+    mv "$old_filename" "$new_filename"
+
+    # Afficher le résultat (facultatif)
+    echo "Renommage '$old_filename' en '$new_filename'"
+done
+
+
+# Créer les dossiers "fall" et "not_fall" s'ils n'existent pas
+mkdir -p fall not_fall
+
+# Récupérer toutes les images du répertoire courant
+images=$(ls *.jpg)
+
+# Boucler à travers les images
+for image in $images; do
+    # Vérifier si le nom de l'image commence par "fall"
+    if [[ $image == fall* ]]; then
+        # Déplacer l'image dans le dossier "fall"
+        mv "$image" fall/
+        echo "Image '$image' déplacée dans le dossier 'fall'."
+    # Vérifier si le nom de l'image commence par "not"
+    elif [[ $image == not* ]]; then
+        # Déplacer l'image dans le dossier "not_fall"
+        mv "$image" not_fall/
+        echo "Image '$image' déplacée dans le dossier 'not_fall'."
+    else
+        echo "Image '$image' n'a pas été déplacée dans un dossier spécifique."
+    fi
+done
+
+
+
