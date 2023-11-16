@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pilab-alcohol
+Version: 0.1.0
+Summary: Analysis pipeline
+Author-email: Manon Dausort <manon.dausort@uclouvain.be>
+Description-Content-Type: text/markdown
+Requires-Dist: xlsxwriter
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: dipy
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+
+# pilab-alcohol

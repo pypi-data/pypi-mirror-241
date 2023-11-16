@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/pilab_alcohol/__init__.py
+src/pilab_alcohol/analyse.py
+src/pilab_alcohol/core.py
+src/pilab_alcohol/main.py
+src/pilab_alcohol/preprocessing.py
+src/pilab_alcohol/registration.py
+src/pilab_alcohol/script.py
+src/pilab_alcohol/utils.py
+src/pilab_alcohol.egg-info/PKG-INFO
+src/pilab_alcohol.egg-info/SOURCES.txt
+src/pilab_alcohol.egg-info/dependency_links.txt
+src/pilab_alcohol.egg-info/requires.txt
+src/pilab_alcohol.egg-info/top_level.txt
