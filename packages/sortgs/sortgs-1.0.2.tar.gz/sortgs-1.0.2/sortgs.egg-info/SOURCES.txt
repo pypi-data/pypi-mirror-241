@@ -1,0 +1,9 @@
+README.md
+setup.py
+sortgs.py
+sortgs.egg-info/PKG-INFO
+sortgs.egg-info/SOURCES.txt
+sortgs.egg-info/dependency_links.txt
+sortgs.egg-info/entry_points.txt
+sortgs.egg-info/top_level.txt
+test/test_sortgs.py
