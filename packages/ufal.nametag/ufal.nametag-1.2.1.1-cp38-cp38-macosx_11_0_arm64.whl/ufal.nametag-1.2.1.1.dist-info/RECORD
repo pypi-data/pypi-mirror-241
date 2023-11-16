@@ -1,0 +1,8 @@
+ufal.nametag-1.2.1.1.dist-info/RECORD,,
+ufal.nametag-1.2.1.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+ufal.nametag-1.2.1.1.dist-info/WHEEL,sha256=lbCZQl32rz70_Iou4S1h8sUmNh5Rak_YxaqmnmkwnjQ,108
+ufal.nametag-1.2.1.1.dist-info/top_level.txt,sha256=GsZv5R3Wk08xmNJ09BWsp_VwhvJGSJVWD5KZ1DzgktM,5
+ufal.nametag-1.2.1.1.dist-info/METADATA,sha256=5bUbAWJ51Nuox20lSryorwLWGUXhYp1-J5yeFlfxu3c,5375
+ufal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufal/nametag/__init__.py,sha256=yWvR1jbJdVx4zMzL6E9yrNVJWV34HHvjEQJjLj-g9os,420
+ufal/nametag/_nametag.cpython-38-darwin.so,sha256=RORsS-5gR4knqskYC8qv2LVldJJ2t-A3ri76lFgaIs4,1290714
