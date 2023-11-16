@@ -1,0 +1,39 @@
+{% set name = "sigpy" %}
+{% set version = "0.1.26" %}
+
+package:
+  name: '{{ name|lower }}'
+  version: '{{ version }}'
+
+source:
+  path: ..
+
+requirements:
+  host:
+    - python {{ python }}
+    - setuptools
+    - numpy
+    - pywavelets
+    - numba
+    - scipy
+    - tqdm
+  run:
+    - python {{ python }}
+    - numpy
+    - pywavelets
+    - numba
+    - scipy
+    - tqdm
+
+test:
+  imports:
+    - sigpy
+    - sigpy.mri
+
+about:
+  home: http://github.com/mikgroup/sigpy
+  license: BSD
+  license_family: BSD
+  license_file: LICENSE
+  summary: Python package for signal reconstruction.
+  doc_url: http://sigpy.readthedocs.io

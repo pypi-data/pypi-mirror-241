@@ -1,0 +1,7 @@
+matplotlib
+numba
+numpy
+PyWavelets
+scipy
+tqdm
+
