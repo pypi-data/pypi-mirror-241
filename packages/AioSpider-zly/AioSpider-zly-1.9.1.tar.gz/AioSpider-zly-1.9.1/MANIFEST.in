@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+
+include AioSpider/__version__
+include AioSpider/middleware/user-agent.json
+
+recursive-include AioSpider/template *
+
+global-exclude __pycache__ *.py[cod]
