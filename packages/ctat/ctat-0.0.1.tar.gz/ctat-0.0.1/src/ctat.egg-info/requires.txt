@@ -1,0 +1,4 @@
+jsonschema
+ruamel.yaml
+dataclasses_json
+pandas
