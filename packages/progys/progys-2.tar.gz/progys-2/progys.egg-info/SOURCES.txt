@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+progys/__init__.py
+progys/progys.py
+progys.egg-info/PKG-INFO
+progys.egg-info/SOURCES.txt
+progys.egg-info/dependency_links.txt
+progys.egg-info/top_level.txt
