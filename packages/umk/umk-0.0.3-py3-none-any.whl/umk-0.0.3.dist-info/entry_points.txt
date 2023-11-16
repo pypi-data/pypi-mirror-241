@@ -1,0 +1,4 @@
+[console_scripts]
+umk=umk:entrypoint
+unimake=unimake:entrypoint
+
