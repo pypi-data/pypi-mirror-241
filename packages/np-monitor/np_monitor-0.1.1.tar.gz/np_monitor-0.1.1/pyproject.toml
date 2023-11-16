@@ -1,0 +1,34 @@
+[project]
+name = "np-monitor"
+version = "0.1.1"
+description = ""
+authors = [
+    { name = "Christopher Mochizuki", email = "chrism@alleninstitute.org" },
+]
+dependencies = [
+    "fabric>=3.2.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "python-dotenv>=1.0.0",
+    "bumpver>=2023.1129",
+]
+
+[tool.pdm.scripts.bumpver]
+composite = [
+    "pdm self add pdm-bump",
+    "pdm bump micro",
+]
