@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: exper
+Version: 0.1.0
+Summary: This is a python exper for running deep learning experiments. Users can rapidly run their experiments by importing this exper.
+Author: Mrzz
+Requires-Dist: torch
+Requires-Dist: torch-geometric
+
