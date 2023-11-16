@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ytpa-api-utils
+Version: 0.1.2
+Summary: API utils for the YouTube Predictive Analytics system
+License: MIT
+Author: Johannes Traa
+Requires-Python: >=3.11.5,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# ytpa-api-utils
+Utils for communicating through an API
+
