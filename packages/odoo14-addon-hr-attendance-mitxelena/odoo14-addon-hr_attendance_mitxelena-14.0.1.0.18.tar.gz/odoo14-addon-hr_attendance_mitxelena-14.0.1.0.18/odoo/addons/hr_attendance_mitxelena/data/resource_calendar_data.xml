@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="workshop_calendar" model="resource.calendar">
+            <field name="name">Workshop (40 hours/week)</field>
+            <field name="company_id" ref="base.main_company" />
+            <field name="hours_per_day">8</field>
+            <field name="mother_calendar">True</field>
+            <field name="attendance_ids" eval="[
+                (0, 0, {
+                    'name': 'Monday',
+                    'dayofweek': '0',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Tuesday',
+                    'dayofweek': '1',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Wednesday',
+                    'dayofweek': '2',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Thursday',
+                    'dayofweek': '3',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Friday',
+                    'dayofweek': '4',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Saturday',
+                    'dayofweek': '5',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Sunday',
+                    'dayofweek': '6',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+            ]" />
+        </record>
+        <record id="office_calendar" model="resource.calendar">
+            <field name="name">Office (38:45 hours/week)</field>
+            <field name="company_id" ref="base.main_company" />
+            <field name="hours_per_day">7.75</field>
+            <field name="mother_calendar">True</field>
+            <field name="attendance_ids" eval="[
+                (0, 0, {
+                    'name': 'Monday',
+                    'dayofweek': '0',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Tuesday',
+                    'dayofweek': '1',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Wednesday',
+                    'dayofweek': '2',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Thursday',
+                    'dayofweek': '3',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Friday',
+                    'dayofweek': '4',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Saturday',
+                    'dayofweek': '5',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Sunday',
+                    'dayofweek': '6',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+            ]" />
+        </record>
+        <record id="reduced_hours_calendar" model="resource.calendar">
+            <field name="name">Reduced hours (30 hours/week)</field>
+            <field name="company_id" ref="base.main_company" />
+            <field name="hours_per_day">6</field>
+            <field name="mother_calendar">True</field>
+            <field name="attendance_ids" eval="[
+                (0, 0, {
+                    'name': 'Monday',
+                    'dayofweek': '0',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Tuesday',
+                    'dayofweek': '1',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Wednesday',
+                    'dayofweek': '2',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Thursday',
+                    'dayofweek': '3',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Friday',
+                    'dayofweek': '4',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Saturday',
+                    'dayofweek': '5',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+                (0, 0, {
+                    'name': 'Sunday',
+                    'dayofweek': '6',
+                    'hour_from': 0,
+                    'hour_to': 24,
+                }),
+            ]" />
+        </record>
+    </data>
+</odoo>
