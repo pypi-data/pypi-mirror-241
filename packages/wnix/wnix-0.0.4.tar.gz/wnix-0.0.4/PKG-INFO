@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wnix
+Version: 0.0.4
+Summary: Unix coreutils for software 2.0
+Author-email: Jason Wilkes <notarealdeveloper@gmail.com>
+Project-URL: Homepage, https://github.com/notarealdeveloper/wnix
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: fleep
+Requires-Dist: validators
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: pypdf
+Requires-Dist: sentence_transformers
+Requires-Dist: transformers
+Requires-Dist: pytest
+Requires-Dist: assure
+Requires-Dist: rootfs
