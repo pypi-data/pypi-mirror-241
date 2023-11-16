@@ -1,0 +1,16 @@
+moat/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moat/src/_main.py,sha256=F_lZOP0pTSD_iPb01LHfeyqaobPjpYkWxSKtJo_rqVI,24501
+moat/src/inspect.py,sha256=Rb5x7Qgyb7W1UpGRTPMHB-XLy6J9yZ4Iw4sOhATrOHA,1452
+moat/src/test.py,sha256=VB0ZG5svsIJHGtANRYg9KIK4NQHDfkm25t7dJWgfTGc,2166
+moat/src/_templates/LICENSE.txt,sha256=X6cpfPmXmOftxOF5o9xedKUWPzU69OiCRrOW1CmRBjs,528
+moat/src/_templates/Makefile,sha256=fdTxSrMJbQO02XTRatmM-QA6iibYw_il4UrNff0Nkss,268
+moat/src/_templates/gitignore,sha256=F1dVTKg7mLHLp--Z-KBwU-HyyPOGm-uN0qfS_yK8vz0,436
+moat/src/_templates/pyproject.default.yaml,sha256=0ImapzFaJhs-dJXngnGpk--hPDeUAsDk_EXALWJBjvE,2665
+moat/src/_templates/pyproject.forced.yaml,sha256=djfcy3hgfoIgrn2pRrxDWTyN3EEsA1y5NhkzYrGjgNY,1427
+moat/src/_templates/test_basic_py,sha256=Lr5dq8C04DiRabA0rCURsZdcc2mVAUGPzjLU6iR8LTE,174
+moat/src/_templates/make/py,sha256=WAjOWpWaAM9v4oO4zmIaNZ8HdKf2ZvKiplyOxiaZLi0,2730
+moat/src/_templates/moat/__init__.py,sha256=DDN1IA3oN2R1OTIhJCNOOSCpfbqXIByh2WUNYDFcuzw,105
+moat_src-0.5.1.dist-info/METADATA,sha256=VMRJarKiyjZRw1bb53mskCvU9YfvZ_nJCkIufVrU1x8,732
+moat_src-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+moat_src-0.5.1.dist-info/top_level.txt,sha256=pcs9fl5w5AB5GVi4SvBqIVmFrkRwQkVw_dEvW0Q0cSA,5
+moat_src-0.5.1.dist-info/RECORD,,
