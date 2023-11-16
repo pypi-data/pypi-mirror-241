@@ -1,0 +1,266 @@
+Metadata-Version: 2.1
+Name: artificial-artwork
+Version: 1.1.0
+Summary: Create artificial artwork by transfering the appearance of one image (eg a famous painting) to another user-supplied image (eg your favourite photograph).
+Home-page: https://github.com/boromir674/neural-style-transfer
+License: AGPL-3.0-only
+Keywords: artificial intelligence,neural style transfer,artificial art,deep learning,cli,gui
+Author: Konstantinos Lampridis
+Author-email: k.lampridis@hotmail.com
+Maintainer: Konstantinos Lampridis
+Maintainer-email: k.lampridis@hotmail.com
+Requires-Python: >=3.8,<3.9
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Software Distribution
+Classifier: Typing :: Typed
+Provides-Extra: docs
+Provides-Extra: gui
+Provides-Extra: test
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: cython (>=3.0.2,<4.0.0)
+Requires-Dist: imageio (>=2.10.1,<2.11.0)
+Requires-Dist: matplotlib (>=3.7,<3.8) ; extra == "gui"
+Requires-Dist: mkdocs (>=1.5.3,<2.0.0) ; extra == "docs"
+Requires-Dist: mkdocs-click (>=0.8.1,<0.9.0) ; extra == "docs"
+Requires-Dist: mkdocs-gen-files (>=0.5.0,<0.6.0) ; extra == "docs"
+Requires-Dist: mkdocs-literate-nav (>=0.6.1,<0.7.0) ; extra == "docs"
+Requires-Dist: mkdocs-macros-plugin (>=1.0.5,<2.0.0) ; extra == "docs"
+Requires-Dist: mkdocs-material (>=9.4.8,<10.0.0) ; extra == "docs"
+Requires-Dist: mkdocs-mermaid2-plugin (>=1.1.1,<2.0.0) ; extra == "docs"
+Requires-Dist: mkdocs-section-index (>=0.3.8,<0.4.0) ; extra == "docs"
+Requires-Dist: mkdocstrings (>=0.24.0,<0.25.0) ; extra == "docs"
+Requires-Dist: mkdocstrings-python (>=1.7.4,<2.0.0) ; extra == "docs"
+Requires-Dist: numpy (>=1.21.3,<1.22.0)
+Requires-Dist: protobuf (>=3.19.1,<4.0.0)
+Requires-Dist: pymdown-extensions (>=10.4,<11.0) ; extra == "docs"
+Requires-Dist: pytest (>=7.4.2,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-click (>=1.1.0,<2.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=4.1.0,<5.0.0) ; extra == "test"
+Requires-Dist: pytest-explicit (>=1.0.1,<2.0.0) ; extra == "test"
+Requires-Dist: pytest-xdist (>=3.3.1,<4.0.0) ; extra == "test"
+Requires-Dist: scipy (>=1.4.1,<1.5.0)
+Requires-Dist: software-patterns (>=2.0.0,<3.0.0)
+Requires-Dist: tensorflow (==2.2.0)
+Project-URL: Bug Tracker, https://github.com/boromir674/neural-style-transfer/issues
+Project-URL: CI: Github Actions, https://github.com/boromir674/neural-style-transfer/actions
+Project-URL: Changelog, https://github.com/boromir674/neural-style-transfer/blob/master/CHANGELOG.rst
+Project-URL: Documentation, https://neural-style-transfer.readthedocs.io/
+Project-URL: Repository, https://github.com/boromir674/neural-style-transfer
+Project-URL: Source Code, https://github.com/boromir674/neural-style-transfer
+Description-Content-Type: text/x-rst
+
+Neural Style Transfer - CLI
+===========================
+
+Create artificial artwork by transfering the appearance of one image (eg a famous painting) to another
+user-supplied image (eg your favourite photograph).
+
+| |Demo_Content_Image| + |Demo_Style_Image|
+| =
+| |Demo_Gen_Image|
+
+Uses a Neural Style Transfer algorithm to transfer the appearance, which you can run though a CLI program.
+
+`Neural Style Tranfer` (NST) is an algorithm that applies the `style` of an image to the `contents` of another and produces a `generated` image.
+The idea is to find out how someone, with the `painting style` shown in one image, would depict the `contents` shown in another image.
+
+NST takes a `content` image (eg picture taken with your camera) and a `style` image (eg a picture of a Van Gogh painting) and produces the `generated` image.
+
+This Python package runs a Neural Style Tranfer algorithm on input `content` and `style` images to produce `generated` images.
+
+.. start-badges
+
+.. list-table::
+    :stub-columns: 1
+
+    * - build
+      - | |ci_pipeline| |docs| |codecov|
+
+    * - package
+      - | |pypi| |wheel| |py_versions| |commits_since|
+
+    * - containerization
+      - | |docker| |image_size|
+
+    * - code quality
+      - |codacy| |code_climate| |maintainability| |scrutinizer|
+
+| **Docs**: https://boromir674.github.io/neural-style-transfer/
+
+Overview
+========
+
+This package exposes a configurable NST algorithm via a convenient CLI program.
+
+Key features of the package:
+
+* Selection of style layers at runtime
+* Iterative Learning Algorithm using the VGG Deep Neural Network
+* Selection of iteration termination condition at runtime
+* Fast minimization of loss/cost function with parallel/multicore execution, using Tensorflow
+* Persisting of generated images
+
+
+Quick-start
+-----------
+
+| Run a demo NST, on sample `Content` and `Style` Images:
+
+::
+
+    mkdir art
+    export NST_HOST_MOUNT="$PWD/art"
+
+    docker-compose up
+
+    # Process runs, in containerized environment, and exits.
+
+
+| Check out your **Generated Image**!
+| Artificial Artwork: **art/canoe_water_w300-h225.jpg+blue-red_w300-h225.jpg-100.png**
+
+::
+
+    xdg-open art/canoe_water_w300-h225.jpg+blue-red_w300-h225.jpg-100.png
+
+
+Usage
+-----
+
+Run the `nst` CLI with the `--help` option to see the available options.
+
+::
+
+    docker run boromir674/neural-style-transfer:1.0.2 --help
+
+
+Development
+-----------
+
+Installation
+""""""""""""
+
+Install `nst` CLI and `artificial_artwork` python package from `pypi``:
+
+::
+
+    pip install artificial_artwork
+
+
+Only python3.8 wheel is included atm.
+
+
+Sample commands to install the NST CLI from source, using a terminal:
+
+::
+
+    git clone https://github.com/boromir674/neural-style-transfer.git
+    
+    pip install ./neural-style-transfer
+
+
+| The Neural Style Transfer - CLI heavely depends on Tensorflow (tf) and therefore it is crucial that tf is installed correctly in your Python environment.
+
+
+
+.. |ci_pipeline| image:: https://img.shields.io/github/actions/workflow/status/boromir674/neural-style-transfer/test.yaml?branch=master&label=build&logo=github-actions&logoColor=233392FF
+    :alt: CI Pipeline Status
+    :target: https://github.com/boromir674/neural-style-transfer/actions?query=branch%3Amaster++ 
+
+.. |github_actions_ci|  image:: https://img.shields.io/github/actions/workflow/status/boromir674/neural-style-transfer/test.yaml?link=https%3A%2F%2Fgithub.com%2Fboromir674%2Fneural-style-transfer%2Factionsbranch=master
+   :alt: GitHub Workflow Status
+   :target: https://github.com/boromir674/neural-style-transfer/actions?query=branch%3Amaster++
+
+.. |circleci|  image:: https://img.shields.io/circleci/build/github/boromir674/neural-style-transfer/master?logo=circleci
+    :alt: CircleCI
+    :target: https://circleci.com/gh/boromir674/neural-style-transfer/tree/master
+
+
+.. |codecov| image:: https://codecov.io/gh/boromir674/neural-style-transfer/branch/master/graph/badge.svg
+    :alt: Codecov
+    :target: https://app.codecov.io/gh/boromir674/neural-style-transfer/tree/master
+    
+
+.. |pypi| image:: https://img.shields.io/pypi/v/artificial-artwork?color=blue&label=pypi&logo=pypi&logoColor=%23849ed9
+    :alt: PyPI
+    :target: https://pypi.org/project/artificial-artwork/
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/artificial-artwork?logo=python&logoColor=%23849ed9
+    :alt: PyPI - Wheel
+    :target: https://pypi.org/project/artificial-artwork
+
+.. |py_versions| image:: https://img.shields.io/pypi/pyversions/artificial-artwork?color=blue&logo=python&logoColor=%23849ed9
+    :alt: PyPI - Python Version
+    :target: https://pypi.org/project/artificial-artwork
+
+.. |version| image:: https://img.shields.io/pypi/v/artificial-artwork.svg
+    :alt: PyPI Package latest master
+    :target: https://pypi.org/project/artificial-artwork
+
+.. |commits_since| image:: https://img.shields.io/github/commits-since/boromir674/neural-style-transfer/v1.0.1/master?color=blue&logo=Github
+    :alt: GitHub commits since tagged version (branch)
+    :target: https://github.com/boromir674/neural-style-transfer/compare/v1.0.1..master
+
+
+.. |codacy| image:: https://app.codacy.com/project/badge/Grade/07b27ac547a94708aefc5e845d2b6d01
+    :alt: Codacy
+    :target: https://www.codacy.com/gh/boromir674/neural-style-transfer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=boromir674/neural-style-transfer&amp;utm_campaign=Badge_Grade
+
+.. |code_climate| image:: https://api.codeclimate.com/v1/badges/2ea98633f88b75e87d1a/maintainability
+   :alt: Maintainability
+   :target: https://codeclimate.com/github/boromir674/neural-style-transfer/maintainability
+
+.. |maintainability| image:: https://img.shields.io/codeclimate/tech-debt/boromir674/neural-style-transfer?logo=CodeClimate
+    :alt: Technical Debt
+    :target: https://codeclimate.com/github/boromir674/neural-style-transfer/maintainability
+
+.. |scrutinizer| image:: https://img.shields.io/scrutinizer/quality/g/boromir674/neural-style-transfer/master?logo=scrutinizer-ci
+    :alt: Scrutinizer code quality
+    :target: https://scrutinizer-ci.com/g/boromir674/neural-style-transfer/?branch=master
+
+
+
+.. |docs| image:: https://readthedocs.org/projects/neural-style-transfer/badge/?version=latest
+    :alt: Documentation Status
+    :target: https://neural-style-transfer.readthedocs.io/en/latest/?badge=latest
+
+
+.. |docker| image:: https://img.shields.io/docker/v/boromir674/neural-style-transfer/latest?logo=docker&logoColor=%23849ED9
+    :alt: Docker Image Version (tag latest semver)
+    :target: https://hub.docker.com/r/boromir674/neural-style-transfer
+
+.. |image_size| image:: https://img.shields.io/docker/image-size/boromir674/neural-style-transfer/latest?logo=docker&logoColor=%23849ED9
+    :alt: Docker Image Size (tag)
+
+
+.. |Demo_Content_Image| image:: ./tests/data/canoe_water_w300-h225.jpg
+  :width: 300
+  :alt: Demo Content Image
+
+.. |Demo_Style_Image| image:: ./tests/data/blue-red_w300-h225.jpg
+  :width: 300
+  :alt: Demo Style Image
+
+.. |Demo_Gen_Image| image:: ./tests/data/canoe_water_w300-h225.jpg+blue-red_w300-h225.jpg-100-demo-gui-run-1.png
+  :width: 300
+  :alt: Gen Image
+
