@@ -1,0 +1,3 @@
+[console_scripts]
+mewo-http-client-post-json=mewo_http_client.cli:post_json
+
