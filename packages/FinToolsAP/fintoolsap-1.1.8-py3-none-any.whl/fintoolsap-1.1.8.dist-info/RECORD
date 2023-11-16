@@ -1,0 +1,13 @@
+FinToolsAP/Decorators.py,sha256=5esGvQfWvanA2by4TiqfetSXDtcFs08x8DxbkrjUQOk,3241
+FinToolsAP/FamaFrench.py,sha256=yqLDRPi8J6mHea4N8TOWVk_7BO5tU7FD6n4smbmcJNs,22058
+FinToolsAP/LocalDatabase.py,sha256=PznOYcormckwY2XqQevQa_FwnhKbPld1cRlVTjoEwuA,39936
+FinToolsAP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FinToolsAP/_config.py,sha256=CNnJi-odeSXvrd8lymOXpI9MX84G0jeZglv9Rm0vkcU,6284
+FinToolsAP/_util_funcs.py,sha256=mRkSek7rqHUKK3vRq2g-7rdO_0hq8bESs2Jo886Oo5s,4771
+FinToolsAP/download_script.py,sha256=W9crtq-iH2bR235VhnfY6NS3moukx7ZCYeX7w-LMqZM,995
+FinToolsAP/base_files/DatabaseParameters.py,sha256=qbSnQki0C62HYjMh-q7pAM6OqixBrnkphNHhwapjxck,957
+FinToolsAP/base_files/ExampleCreateTable.py,sha256=h2x1dxiDPilkzbAEhs1vCKxuJqKkxL7sd4orTaIeDAg,821
+fintoolsap-1.1.8.dist-info/METADATA,sha256=pk5eX1eR1JW5lgarhij5M8jbqE9ELmKM6r5upmdG58U,3887
+fintoolsap-1.1.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fintoolsap-1.1.8.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+fintoolsap-1.1.8.dist-info/RECORD,,
