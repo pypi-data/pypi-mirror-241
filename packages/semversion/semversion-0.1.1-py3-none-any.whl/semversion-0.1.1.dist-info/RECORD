@@ -1,0 +1,12 @@
+semversion/__init__.py,sha256=qdtmI4NGvRXLnwoeRGEjRH-BXOzL7BF10ntOgc9twUc,208
+semversion/_version.py,sha256=x1OzhiCpgsXQWTJtdomZFTFpGrTk8bjVkdb3e1zfTPk,53
+semversion/flags.py,sha256=PBlP40ecybCOHlp3l-sLiL9W2yzEd9R41nrLR_PF610,133
+semversion/patterns.py,sha256=iw-8JpyBNK3O_J67mhxBFWNyQ-XcrU_V49h6lUP-kQM,540
+semversion/semantic_version.py,sha256=5EMcWzqLfVEPqNAk1iYZ0cdsODsyvMTBR8SToIFi6Vs,5328
+semversion/specifier.py,sha256=sHBv-eakFR9FvOKFpl9sPaDZ9PRg0nakon2ZD4B1QwQ,1642
+semversion/utils.py,sha256=admFzaART48JdqSpc9H4EqS2vQsXvs4T_dJ7O8kgAvI,469
+semversion-0.1.1.dist-info/LICENSE,sha256=KRzdh125OelGKF73YLDHSjbr4sSLcii96cPqAzicZLA,1073
+semversion-0.1.1.dist-info/METADATA,sha256=JM7U_zpOcKzgJvD14fAppKTo1QxF3lssGlUlj6cgWUI,2378
+semversion-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+semversion-0.1.1.dist-info/top_level.txt,sha256=ydJXTc340_ARtmVpuJ6-G0qskRV4xRvCeDWYhTbUFVc,11
+semversion-0.1.1.dist-info/RECORD,,
