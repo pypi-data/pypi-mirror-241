@@ -1,0 +1,2 @@
+[console_scripts]
+hashcathelper = hashcathelper.__main__:main
