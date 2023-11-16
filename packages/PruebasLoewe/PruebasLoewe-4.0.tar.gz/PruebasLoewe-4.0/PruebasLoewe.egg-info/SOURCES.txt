@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test.py
+PruebasLoewe.egg-info/PKG-INFO
+PruebasLoewe.egg-info/SOURCES.txt
+PruebasLoewe.egg-info/dependency_links.txt
+PruebasLoewe.egg-info/requires.txt
+PruebasLoewe.egg-info/top_level.txt
