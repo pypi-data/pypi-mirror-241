@@ -1,0 +1,46 @@
+
+
+ class HelloMsg {
+    Str preferLocales; // 支持的locale列表
+    Bytes pubkey;  // 公钥
+    Bytes random;  // 随机数16B + 时间戳
+    Bytes sign;  // 随机数的签名, 为了证明公钥是自己的
+}
+
+class HelloReplyMsg {
+    Str locale;  // 将会使用的locale
+    Str pubkey;  // 公钥
+    Str random;  // 随机数 16B + 时间戳
+    Str sign;  // 随机数的签名, 为了证明公钥是自己的
+    Bytes aesKey;  // 用对方公钥加密的AES key
+    Bytes aesIV;  // 用对方公钥加密的AES iv
+}
+
+class Stream {
+    U8 id;
+    U64 size;
+    U64 offset;
+}
+
+interface Peer {
+    /**
+     * 选择兼容的协议版本
+     * 
+     * versions: caller supported version List
+     * return: version that will use
+     * 
+     */
+    U16 pickVersion(List<U16> versions);
+
+    /*
+     * 握手
+     * 
+     * version: protocal version
+     */
+    HelloReplyMsg handShake(U16 version, HelloMsg info);
+
+    /**
+     * 恢复流
+     */
+    Bool restoreStream(U8 id, U64 offset);
+}
