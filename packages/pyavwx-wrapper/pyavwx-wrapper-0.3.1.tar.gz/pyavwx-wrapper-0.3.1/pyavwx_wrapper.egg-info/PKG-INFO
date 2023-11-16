@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyavwx-wrapper
+Version: 0.3.1
+Summary: A simple to use python wrapper for the avwx.rest API
+Project-URL: Homepage, https://github.com/Bastien1533/pyavwx-wrapper
+Project-URL: Bug Reports, https://github.com/Bastien1533/pyavwx-wrapper/issues
+Project-URL: Documentation, https://bastien1533.github.io/pyavwx-wrapper/
+Project-URL: Say Thanks!, https://github.com/Bastien1533/pyavwx-wrapper
+Project-URL: Source, https://github.com/Bastien1533/pyavwx-wrapper
+Keywords: avwx,aviation,metar,taf,wrapper,api,simulator,weather,wx
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# avwx-wrapper-py
+A simple to use python wrapper for the avwx.rest API
