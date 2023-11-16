@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: snakemake-storage-plugin-fs
+Version: 0.1.0
+Summary:  A Snakemake storage plugin that reads and writes from a locally mounted filesystem using rsync
+Author: Johannes Koester
+Author-email: johannes.koester@uni-due.de
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: snakemake-interface-common (>=1.14.2,<2.0.0)
+Requires-Dist: snakemake-interface-storage-plugins (>=2.0.0,<3.0.0)
+Requires-Dist: sysrsync (>=1.1.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# snakemake-storage-plugin-fs
+
+A Snakemake storage plugin that reads and writes from a locally mounted filesystem using rsync.
+This is particularly useful when running Snakemake on an NFS.
+Complex parallel IO patterns can slow down NFS quite substantially.
+The following Snakemake CLI flags allow to avoid such patterns by instructing Snakemake
+to copy any input to a fast local scatch disk and copying output files back to NFS at the end of a job.
+
+```bash
+snakemake --default-storage-provider fs --no-shared-fs --local-storage-prefix /local/work/$USER
+```
+
+with `/local/work/$USER` being the path to the local (non NFS) scratch dir.
+Alternatively, these options can be persisted in a profile:
+
+```yaml
+default-storage-provider: fs
+no-shared-fs: true
+local-storage-prefix: /local/work/$USER
+```
