@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pathlib = "*"
+diffusers = "*"
+transformers = "*"
+accelerate = "*"
+huggingface-hub = "*"
+opencv-python = "*"
+numpy = "*"
+# Install pytorch manually depending on your cuda version
+# https://pytorch.org/get-started/locally/
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
