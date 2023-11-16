@@ -1,0 +1,8 @@
+invoke
+pyyaml
+pypandoc
+pandoc-xnos
+pandoc-fignos
+pandoc-eqnos
+appdirs
+matplotlib>=3.4
