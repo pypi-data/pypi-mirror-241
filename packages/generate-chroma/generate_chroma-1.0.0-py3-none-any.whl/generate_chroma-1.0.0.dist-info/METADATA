@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: generate-chroma
+Version: 1.0.0
+Summary: Chroma is a generative model for designing proteins programmatically
+Home-page: https://github.com/generatebio/chroma
+Author: Generate Biomedicines
+Author-email: UNKNOWN
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: nglview
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: pytest
+Requires-Dist: Requests
+Requires-Dist: scikit-learn ==1.1.2
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers ==4.24.0
+
+UNKNOWN
+
+
