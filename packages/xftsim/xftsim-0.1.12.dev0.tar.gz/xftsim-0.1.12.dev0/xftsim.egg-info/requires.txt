@@ -1,0 +1,10 @@
+funcy
+networkx
+nptyping
+numba==0.56.4
+numpy
+pandas
+pandas_plink
+scipy
+sgkit
+xarray
