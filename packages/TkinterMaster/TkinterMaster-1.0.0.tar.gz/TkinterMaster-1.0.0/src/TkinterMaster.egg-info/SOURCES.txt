@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/TkinterMaster/__init__.py
+src/TkinterMaster.egg-info/PKG-INFO
+src/TkinterMaster.egg-info/SOURCES.txt
+src/TkinterMaster.egg-info/dependency_links.txt
+src/TkinterMaster.egg-info/top_level.txt

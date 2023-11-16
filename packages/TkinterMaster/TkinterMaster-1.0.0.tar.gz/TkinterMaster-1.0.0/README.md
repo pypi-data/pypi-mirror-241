@@ -1,0 +1,146 @@
+# TkinterMasterPy
+
+TkinterMasterPy is a Python library that simplifies the creation of graphical user interfaces (GUIs) using the Tkinter library. It provides easy-to-use methods for adding common GUI elements and styling options.
+
+## Installation
+
+You can install TkinterMasterPy using pip:
+```bash
+pip install TkinterMasterPy
+```
+
+## Usage
+```python
+from TkinterMaster import TkinterMaster
+```
+### Initialize the TkinterMaster
+```python
+my_app = TkinterMaster("My App", "600x400")
+```
+### Run the Application
+```python
+my_app.run()
+```
+### Create a Notebook
+```python
+my_app.notebook()
+```
+### Add a Label
+```python
+my_app.add_label(parent, text="Hello, Tkinter!", grid={"row": 1, "column": 1})
+```
+### Add a Button
+```python
+my_app.add_button(
+    parent,
+    text="Click Me",
+    command=my_function,
+    grid={"row": 2, "column": 1}
+)
+```
+### Add an Entry
+```python
+entry_var = StringVar()
+my_app.add_entry(
+    parent,
+    grid={"row": 3, "column": 1},
+    entry={"textvariable": entry_var, "show": "*"}
+)
+```
+### Add a Text Widget
+```python
+my_app.add_text(parent, width=40, height=10, grid={"row": 1, "column": 1})
+```
+### Add a Listbox
+```python
+items = ["Item 1", "Item 2", "Item 3"]
+my_app.add_listbox(parent, items, grid={"row": 2, "column": 1})
+```
+### Add a Frame
+```python
+my_app.add_frame(parent, grid={"row": 3, "column": 1})
+```
+### Add a Combobox
+```python
+values = ["Option 1", "Option 2", "Option 3"]
+my_app.add_combobox(parent, values, grid={"row": 4, "column": 1})
+```
+### Add a Radiobutton
+```python
+variable = IntVar()
+my_app.add_radiobutton(
+    parent,
+    text="Option 1",
+    variable=variable,
+    value=1,
+    grid={"row": 5, "column": 1}
+)
+```
+### Add a Checkbox
+```python
+checkbox_var = BooleanVar()
+my_app.add_checkbox(
+    parent,
+    text="Check me",
+    variable=checkbox_var,
+    grid={"row": 6, "column": 1}
+)
+```
+
+## Styling
+### Configure Style
+```python
+my_app.configure_style("TLabel", {"background": "#3498db", "foreground": "#ffffff"})
+```
+
+## Example usage
+```python
+from tkinter import StringVar, ttk
+from TkinterMaster import TkinterMaster
+
+
+class MyApp(TkinterMaster):
+    def __init__(self):
+        super().__init__("Mi App", "600x400")
+
+    def create_interface(self):
+        self.notebook()
+        tab1 = self.add_frame(self.notebook, for_notebook=True)
+        tab2 = self.add_frame(self.notebook, for_notebook=True)
+        self.notebook.add(tab1, text="Tab 1")
+        self.notebook.add(tab2, text="Tab 2")
+
+        self.add_label(tab1, text="¡Hola, Tkinter!", grid={"row": 1, "column": 1})
+
+        self.add_button(
+            tab1,
+            text="Haz clic",
+            command=self.button_click,
+            grid={"row": 2, "column": 1},
+        )
+
+        entry_var = StringVar()
+        self.add_entry(
+            tab1,
+            grid={"row": 3, "column": 1},
+            entry={"textvariable": entry_var, "show": "*"},
+        )
+
+        self.add_text(tab2, width=40, height=10, grid={"row": 1, "column": 1})
+
+        items = ["Item 1", "Item 2", "Item 3"]
+        self.add_listbox(tab2, items, grid={"row": 2, "column": 1})
+
+    def button_click(self):
+        print("Botón clickeado!")
+
+
+if __name__ == "__main__":
+    my_app = MyApp()
+    my_app.create_interface()
+    my_app.run()
+
+```
+
+## License
+### TkinterMaster is licensed under the MIT.
