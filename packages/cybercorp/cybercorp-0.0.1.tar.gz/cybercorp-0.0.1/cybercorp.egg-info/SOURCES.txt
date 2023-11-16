@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+cybercorp/__init__.py
+cybercorp/example.py
+cybercorp.egg-info/PKG-INFO
+cybercorp.egg-info/SOURCES.txt
+cybercorp.egg-info/dependency_links.txt
+cybercorp.egg-info/top_level.txt
