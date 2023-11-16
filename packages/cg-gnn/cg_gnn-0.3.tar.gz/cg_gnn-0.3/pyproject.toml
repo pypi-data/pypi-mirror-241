@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "cg-gnn"
+version = "0.3"
+description = "Train a graph neural network for tissue graphs."
+license = "AGPL-3.0-or-later"
+authors = ["Carlin Liao <liaoc2@mskcc.org>"]
+readme = "README.md"
+repository = "https://github.com/CarlinLiao/cg-gnn"
+keywords = ["gnn", "pathology", "omics", "single-cell", "graph", "network", "deep-learning", "machine-learning", "cancer", "predictive-modeling", "predictive-medicine", "precision-medicine", "precision-oncology", "precision-pathology", "precision-health", "precision-healthcare"]
+packages = [{include = "cggnn"}]
+
+[tool.poetry.dependencies]
+h5py = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+tables = "*"
+python = "*"
+scikit-learn = "*"
+scipy = "*"
+spatialprofilingtoolbox = "*"
+tqdm = "*"
+
+[tool.poetry.scripts]
+cg-gnn-train = 'cggnn.scripts.train:main'
+cg-gnn-separability = 'cggnn.scripts.separability:main'
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+dgl-cu118 = {url = "https://data.dgl.ai/wheels/cu118/repo.html"}
+torch = {url = "https://download.pytorch.org/whl/cu118/torch-2.0.1%2Bcu118-cp311-cp311-linux_x86_64.whl"}
