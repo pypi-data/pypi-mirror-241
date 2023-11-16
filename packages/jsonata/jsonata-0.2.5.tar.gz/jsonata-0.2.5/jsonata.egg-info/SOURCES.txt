@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+duktape.cpp
+jsonata-es5.h
+pyproject.toml
+setup.py
+wrapper.cpp
+duktape-2.7.0/src/duk_config.h
+duktape-2.7.0/src/duktape.c
+duktape-2.7.0/src/duktape.h
+jsonata/__init__.py
+jsonata.egg-info/PKG-INFO
+jsonata.egg-info/SOURCES.txt
+jsonata.egg-info/dependency_links.txt
+jsonata.egg-info/not-zip-safe
+jsonata.egg-info/top_level.txt
