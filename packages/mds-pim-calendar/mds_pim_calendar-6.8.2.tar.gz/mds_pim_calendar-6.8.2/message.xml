@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- This file is part of the pim_calendar module for Tryton from m-ds.de.
+ The COPYRIGHT file at the top level of
+ this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.message" id="msg_calendar_unique_name">
+            <field name="text">The name is already in use for this owner.</field>
+        </record>
+        <record model="ir.message" id="msg_calendar_denyedit_field">
+            <field name="text">Changing the field '%(fname)s' is not allowed.</field>
+        </record>
+        <record model="ir.message" id="msg_calendar_importerror">
+            <field name="text">Error during import (%(errmsg)s)</field>
+        </record>
+        <record model="ir.message" id="msg_event_start_end_order">
+            <field name="text">The end must be after the beginning.</field>
+        </record>
+        <record model="ir.message" id="msg_event_import_noend">
+            <field name="text">The event '%(evttxt)s' has no valid end time and was not imported.</field>
+        </record>
+        <record model="ir.message" id="msg_calsetting_already_exists">
+            <field name="text">Calendar settings are already exists for this user and calendar.</field>
+        </record>
+        <record model="ir.message" id="msg_visitor_already_exists">
+            <field name="text">This visitor in already on this calendar.</field>
+        </record>
+        <record model="ir.message" id="msg_wizimp_wrongmodel">
+            <field name="text">Please use the ics-import with a calendar.</field>
+        </record>
+        <record model="ir.message" id="msg_wizimp_onecal">
+            <field name="text">Please select (only) a calendar.</field>
+        </record>
+        <record model="ir.message" id="msg_wizimp_nofile">
+            <field name="text">Please select a file to import.</field>
+        </record>
+
+    </data>
+</tryton>

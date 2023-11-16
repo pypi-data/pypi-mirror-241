@@ -1,0 +1,3 @@
+icalendar
+pytz
+trytond<6.9,>=6.8
