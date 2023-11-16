@@ -1,0 +1,34 @@
+# FORMAT
+# Put extra requirements here in the following format
+#
+# package[version_required]: tag1, tag2, ...
+# 
+# sortedcontainers:         future
+# alive-progress:           future
+# opencv-python:            extract-color
+# scikit-learn:             extract-color
+# numpy 1.12.5; pandas 1.3.5; matplotlib 3.5.1
+
+
+# virtualenv>=20.13.0:        dev
+# setuptools>=51.0.0:         dev
+# wheel:                      dev
+# pipx:                       dev
+# autoimport:                 fixers, dev
+# black>=22.1.0:              fixers, dev
+# tox>=3.24.5:                dev
+# matplotlib:                 extra
+rich:                       beautiful, dev
+click>=8.0.0:               cli, dev, extra
+colorama>=0.4:              cli, dev, extra
+build:                      dev
+twine>=3.7.1:               dev
+requests:                   extra, tools
+numpy:                      extra
+pandas:                     extra
+scipy:                      extra
+pytest>=6.2.5:              dev
+sphinx:                     dev
+sphinx_rtd_theme:           dev
+python-dateutil:            extra
+unidecode:                  extra, dev
