@@ -1,0 +1,68 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-11-15 16:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.tileindex\n"
+
+#: ../views/tile_types_overview.pt:12
+msgid "ERROR: tile_types index is missing!"
+msgstr ""
+
+#: ../configure.zcml:21
+msgid "Installs the collective.tileindex add-on."
+msgstr ""
+
+#: ../views/tile_types_overview.pt:35
+msgid "Search results for tile ${tile}"
+msgstr ""
+
+#: ../views/tile_types_overview.pt:19
+msgid "Tile names sorted alphabetically"
+msgstr ""
+
+#: ../views/tile_types_overview.pt:25
+msgid "Tile names sorted by number of items that use it"
+msgstr ""
+
+#: ../views/tile_types_overview.pt:11
+msgid "Tile types overview"
+msgstr ""
+
+#: ../views/tile_types_view.pt:12
+msgid "Tile types used on this page"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "Uninstalls the collective.tileindex add-on."
+msgstr ""
+
+#: ../configure.zcml:21
+msgid "collective.tileindex"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "collective.tileindex (uninstall)"
+msgstr ""
+
+#. Default: "Note that a page that has 100 tiles of the same type, is only counted once."
+#: ../views/tile_types_overview.pt:31
+msgid "msg_note_same_type_counted_once"
+msgstr ""
+
+#. Default: "There are ${numObjects} items with tiles in the index."
+#: ../views/tile_types_overview.pt:17
+msgid "msg_num_objects"
+msgstr ""

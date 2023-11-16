@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="collective.tileindex">
+
+ <!-- -*- extra stuff goes here -*- -->
+
+
+  <adapter factory=".tile_types.tile_types"
+    name="tile_types" />
+
+</configure>
