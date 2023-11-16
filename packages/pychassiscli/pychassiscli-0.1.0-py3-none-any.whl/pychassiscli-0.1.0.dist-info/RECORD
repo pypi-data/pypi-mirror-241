@@ -1,0 +1,17 @@
+pychassiscli-0.1.0.dist-info/METADATA,sha256=qeJDfaMsrR2fPLGgFI7nQnEaAeUKAqLQAx1NoObWEXk,984
+pychassiscli-0.1.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+pychassiscli-0.1.0.dist-info/entry_points.txt,sha256=3KP_fmjUwF87X0ZZ4rO89-1YtLC2tgk6qEum1KUojJc,48
+pychassiscli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychassiscli/cli.py,sha256=k19ON_Jtx0ZCC7J2wz12F4HavwQJibQbF6-hwVDyADs,1352
+pychassiscli/templates/nameko/.dockerignore,sha256=v7PhhYL2Q41yrfAgxokRUSLtwJsBpxCke_HEkoZAjx8,12
+pychassiscli/templates/nameko/.gitignore,sha256=fCOiWxULmVynAeAAkDa-jIF-LyEZ_cIKS5M34IMc-Z4,3114
+pychassiscli/templates/nameko/Dockerfile,sha256=D2j9u4ydunlUpKBJRpfmpPHt8qNxcLJm1LFi0VI0lbk,411
+pychassiscli/templates/nameko/README.md,sha256=kVbYPbCE4PdJUOlfch9-Hxk0TjaJJrW8SXPQt-DZgg4,20
+pychassiscli/templates/nameko/all_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychassiscli/templates/nameko/all_demo/all_demo.py,sha256=Hji2hJNsyBhWpE413EMXmUAaGExnbVi3rBG-bpOX1qk,3573
+pychassiscli/templates/nameko/all_demo/config.yml,sha256=ulDKJDSNcEf46qwIzNS_Ml8hFrmvDzddjRyOfST8wiQ,951
+pychassiscli/templates/nameko/docker-compose.yml,sha256=2sJZ2dduddgZe1EIb2nCGjShUG27KkwjmXkIrCd5kkQ,578
+pychassiscli/templates/nameko/docker-deploy.sh,sha256=_7ExdybMv2m8v9SDLjI5-d2wdZrgOmvmV-wOzT3oCdk,41
+pychassiscli/templates/nameko/pyproject.toml,sha256=zqvhyjQJIH2rvmnBNck8xvP013GC4JrBqkeBNs_k400,257
+pychassiscli/utils.py,sha256=0c1jkZri9jocjpOIUopZCuntLsueDvq79FKqzy3sHNQ,2468
+pychassiscli-0.1.0.dist-info/RECORD,,
