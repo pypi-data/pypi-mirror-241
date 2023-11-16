@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jonascript
+Version: 0.0.12
+Summary: Utils for using python instead of BASH
+Project-URL: Homepage, https://github.com/TheUltimateOptimist/jonascript
+Project-URL: Bug Tracker, https://github.com/TheUltimateOptimist/jonascript/issues
+Author-email: Jonathan Dück <jonathan.dueck@digital-confidence.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
