@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+pirobot/__init__.py
+pirobot/bot_logic.py
+pirobot/main.py
+pirobot.egg-info/PKG-INFO
+pirobot.egg-info/SOURCES.txt
+pirobot.egg-info/dependency_links.txt
+pirobot.egg-info/entry_points.txt
+pirobot.egg-info/requires.txt
+pirobot.egg-info/top_level.txt
