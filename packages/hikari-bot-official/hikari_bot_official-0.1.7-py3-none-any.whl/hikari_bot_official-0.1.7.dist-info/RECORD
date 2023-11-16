@@ -1,0 +1,11 @@
+hikari_bot_official/__init__.py,sha256=4DOWk7BvseFxwxugKUOOFkuUP1QmJ8q2woatCUAAjJM,11215
+hikari_bot_official/data_source.py,sha256=sP680O9WZlfs4kwgWyvtqpRYEjzrE5yvUU_1jhxV7cg,505
+hikari_bot_official/game/listen_config.json,sha256=tq2Gglpm7l1H2va7sfhSF52XVuO-_L2lVNxLSSleRdE,75
+hikari_bot_official/game/ocr.py,sha256=nBmdbZBQ_eEi4XovlgAuxbk41ZlGeTIfYNjLj67YTBM,3569
+hikari_bot_official/game/ocr_data.json,sha256=k2k-FZWXecRFx_Rt2t-sYmU6N4WcfFTt1UmeLsj7P4A,61658
+hikari_bot_official/game/pupu.py,sha256=jiq86JW74_yXqeTzqtYXYF7fsuppYqsrY__oKC3edWM,844
+hikari_bot_official/utils.py,sha256=Zsr8fmWf0V8L07MYZi9QQrfbqX74No5Lkmsou4NWP5w,4932
+hikari_bot_official-0.1.7.dist-info/LICENSE,sha256=pI4zno5tjj3qRHiDszVSNxWApGb-FaxVg5VyTfasvuQ,1084
+hikari_bot_official-0.1.7.dist-info/METADATA,sha256=04kx1Aoj08-0ioEYcH5SQs5uALjNqX49MeI0R1PRvfI,8345
+hikari_bot_official-0.1.7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+hikari_bot_official-0.1.7.dist-info/RECORD,,
