@@ -1,0 +1,21 @@
+[project]
+name = "textlinebreaker"
+version = "0.0.1"
+dependencies = [ ]
+requires-python = ">=3.9"
+authors = [
+    { name="scalvaruso", email="calvaruso.simone@gmail.com" },
+]
+description = "A module to format strings. Length and alignment of lines can be specified."
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["alignment", "break", "center", "centre", "format", "left", "line", "right", "split", "text"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/scalvaruso/textlinebreaker"
+Repository = "https://github.com/scalvaruso/textlinebreaker"
