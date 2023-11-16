@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/quent.c
+src/quent.egg-info/PKG-INFO
+src/quent.egg-info/SOURCES.txt
+src/quent.egg-info/dependency_links.txt
+src/quent.egg-info/top_level.txt
