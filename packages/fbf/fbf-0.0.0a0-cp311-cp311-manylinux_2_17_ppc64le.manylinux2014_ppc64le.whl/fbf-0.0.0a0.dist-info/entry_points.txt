@@ -1,0 +1,2 @@
+[console_scripts]
+fbf=fbf.__main__:main
