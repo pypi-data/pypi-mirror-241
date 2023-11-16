@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws-iatk"
+readme = {content-type = "text/markdown", file = "README.md"}
+dynamic = ["version"]
+dependencies = []
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Topic :: Software Development :: Testing",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+homepage = "https://github.com/awslabs/aws-iatk"
+documentation = "https://awslabs.github.io/aws-iatk/"
+repository = "https://github.com/awslabs/aws-iatk"
+changelog = "https://github.com/awslabs/aws-iatk/releases"
+
+[tool.setuptools.dynamic]
+version = {attr = "aws_iatk.version._version"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+iatk_service = ["*"]
+iatk_src = ["**", "go.mod", "go.sum"]
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pytest-xdist",
+  "boto3",
+  "parameterized",
+  "black"
+]
+
+[pytest]
+log_cli = true
+log_cli_level = "DEBUG"
