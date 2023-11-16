@@ -1,0 +1,11 @@
+redis
+
+[testing]
+pytest
+coverage
+pytest-cov
+fakeredis
+pytest-asyncio
+flake8
+mypy
+types-redis
