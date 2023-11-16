@@ -1,0 +1,9 @@
+invenio-communities<=6.0.0
+invenio-drafts-resources
+oarepo-runtime
+cachetools
+
+[tests]
+oarepo-model-builder-tests>=4.0.0
+oarepo-model-builder-drafts>=4.0.0
+oarepo-model-builder-communities>=4.0.0
