@@ -1,0 +1,13 @@
+syslogformat/__init__.py,sha256=z-7TBuCk8fU4w6npuDJyURO2jPowCyieWc4U8ACr4yo,992
+syslogformat/exceptions.py,sha256=T5ePVFpa_1gv3AULvCsaMBGLXpQOWuwvExAk6YMPccM,922
+syslogformat/facility.py,sha256=r3cVN1KeNs6NVHXheOtop3a-jn3ttbeeUI8pZzEF2k4,2057
+syslogformat/formatter.py,sha256=VClwRarv_GG9kyNsuG_hpad4-nEY0DdTUtww9FVlA_k,11388
+syslogformat/helpers.py,sha256=G0QkybJD555XiVMafSyJAU5xIvPuPYq_avlC7WMmZMs,2644
+syslogformat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syslogformat/severity.py,sha256=awZUhSG4J21KfIVE8wF5kFSMmTkWLRlMqFtIiLPd50w,2640
+syslogformat/types.py,sha256=3OaOQ2Q8Dx8sGkNclZXM-o9RtlFUHxJ-RRX_rH6v110,1237
+syslogformat-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+syslogformat-1.0.0.dist-info/METADATA,sha256=8khlcJy8Cnogr_tgbHVM6mJTabHd0cEcH7-VXuCsA74,9249
+syslogformat-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+syslogformat-1.0.0.dist-info/top_level.txt,sha256=_BeCUFhjqqIaGU_PxLKM51asAgVuhgh1UAaA1QRSh1Y,13
+syslogformat-1.0.0.dist-info/RECORD,,
