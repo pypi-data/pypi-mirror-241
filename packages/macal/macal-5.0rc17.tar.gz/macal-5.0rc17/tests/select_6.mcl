@@ -1,0 +1,16 @@
+// Select Merge test.
+
+include aor;
+
+
+
+select distinct author as Author, title, test as Title from var where author == 'J.R.R. Tolkien' into y;
+select author as Author, title, test as Title from var where author == 'Douglas Adams' merge into y;
+print();
+print("This select/merge test is correct because the second select statement doesn't have a distinct clause.");
+print("This should correctly list both the first Tolkien book (The Hobbit), as well as the Douglas Adams book.");
+print();
+print("Expected 2 records:");
+foreach y {
+    print(it);
+}
