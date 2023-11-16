@@ -1,0 +1,9 @@
+ipfabric_nornir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipfabric_nornir/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipfabric_nornir/plugins/inventory/__init__.py,sha256=mPMGJtNZNJ9ue45QOCGZk2la1TGsII3deOJ2JKcvzg0,143
+ipfabric_nornir/plugins/inventory/ipfabric.py,sha256=d8puXUajZaGCPMee-LNvjY-9RHaK1UaZXybxMU42ahg,5498
+ipfabric_nornir-0.0.1.dist-info/entry_points.txt,sha256=pnUl2VKXs98ahrIh7iaRwZ0Q94am9sxdhdVMFjbZDX8,107
+ipfabric_nornir-0.0.1.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+ipfabric_nornir-0.0.1.dist-info/METADATA,sha256=nFeF2c9x_ig2EjI6aRWO3yWrcsEV_ZCcoEXWYON8EPs,3744
+ipfabric_nornir-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ipfabric_nornir-0.0.1.dist-info/RECORD,,
