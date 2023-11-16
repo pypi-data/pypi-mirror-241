@@ -1,0 +1,5 @@
+discopop_explorer
+discopop_library
+discopop_profiler
+discopop_wizard
+test
