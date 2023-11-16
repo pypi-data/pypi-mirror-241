@@ -1,0 +1,93 @@
+# pyproject.toml template
+
+# This is a template for the pyproject.toml file used with Setuptools.
+
+# The [build-system] section is required to specify the build backend to use.
+[build-system]
+# Specify the required build dependencies. Include "setuptools" for Setuptools.
+requires = ["setuptools"]
+# Use the "setuptools.build_meta" build backend.
+build-backend = "setuptools.build_meta"
+
+# The [project] section contains project metadata.
+[project]
+# Specify your project name.
+name = "madenntools"
+version = "0.1.4"
+# Define authors with their names and email addresses.
+authors = [
+{name = "madenn", email = "contact@madenn.ro"},
+{name = "eduard", email = "contact@madenn.ro"},
+{name = "madalin", email = "contact@madenn.ro"},
+{name = "roxana", email = "contact@madenn.ro"},
+{name = "dragos", email = "contact@madenn.ro"},
+]
+
+# Provide a description for your project.
+description = "Madenn Internal tools"
+# Optionally, specify the path to your project's README file.
+readme = "README.md"
+
+# Specify the minimum required Python version.
+requires-python = ">=3.7"
+# Add keywords to describe your project.
+keywords = ["cv", "ml", "visualization", "data", "madenn", "plots"]
+# Provide the project's license information.
+license = {text = "Apache Software License (Apache 2.0)"}
+
+# Define classifiers for your project.
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+# List your project's dependencies (add more if needed).
+dependencies = [
+"colour",
+"matplotlib",
+"numpy",
+"opencv_python",
+"pandas",
+"seaborn",
+"tqdm",
+
+]
+
+# The [project.optional-dependencies] section allows you to define optional dependencies in groups.
+[project.optional-dependencies]
+# Specify optional dependencies for a group named "pdf."
+# pdf = ["ReportLab>=1.2", "RXP"]
+# Specify optional dependencies for a group named "rest."
+# rest = ["docutils>=0.3", "pack ==1.1, ==1.3"]
+
+# The [project.scripts] section allows you to define scripts for your project.
+[project.scripts]
+# Add your custom scripts with a name and the corresponding function/module.
+# your-script = "your_package.module:function"
+
+# Add any other project metadata fields as needed.
+
+# The [tool.setuptools] section can be used for Setuptools-specific configurations (optional).
+
+# The "packages" field specifies the packages to include. You can use "find" or list specific packages.
+[tool.setuptools]
+# Uncomment and specify your project's packages, or use "find" for automatic discovery.
+# packages = ["your_package1", "your_package2"]
+# Uncomment and specify the "package-dir" if you want to manually list package directories.
+# package-dir = {"" = "src"}
+
+# Add any additional Setuptools-specific configurations you need.
+
+# The [tool.setuptools.dynamic] section can be used to specify dynamic metadata fields.
+[tool.setuptools.dynamic]
+# Specify metadata fields that are dynamically computed.
+# For example, you can use "version" or "readme" here.
+
+# The [tool.setuptools.package-data] section allows specifying data files within packages (optional).
+# [tool.setuptools.package-data]
+# package-name = ["data-file.txt"]
+
+# Add any other Setuptools-specific configurations or directives as needed.
+
+# Note: Some options mentioned in this template are optional. You can add or remove sections and fields as needed for your project.
+
+[project.urls]
+"Source" = "https://github.com/MaDENN-AI/madenntools"
