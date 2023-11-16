@@ -1,0 +1,11 @@
+setup.py
+libactivation/__init__.py
+libactivation/gompertz.py
+libactivation/logistic.py
+libactivation/logit.py
+libactivation/relu.py
+libactivation.egg-info/PKG-INFO
+libactivation.egg-info/SOURCES.txt
+libactivation.egg-info/dependency_links.txt
+libactivation.egg-info/requires.txt
+libactivation.egg-info/top_level.txt
