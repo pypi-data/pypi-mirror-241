@@ -1,0 +1,7 @@
+honeybee-core>=1.56.33
+honeybee-energy>=1.102.10
+honeybee-ph>=1.21.0
+PH-units>=1.5.5
+pydantic==1.10.13
+rich
+xlwings
