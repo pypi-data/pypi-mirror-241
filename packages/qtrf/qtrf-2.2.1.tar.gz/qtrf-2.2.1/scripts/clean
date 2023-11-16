@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
+
+
+# exit on error
+set -e
+
+
+cd "$ROOT_DIR"
+
+
+# clean
+rm -rf qtcreator.pro.user build/ dist/
+find . -name __pycache__ -exec rm -rf {} +
+find . -name .DS_Store   -exec rm -rf {} +
+find . -name '*.pyc'     -exec rm -rf {} +
