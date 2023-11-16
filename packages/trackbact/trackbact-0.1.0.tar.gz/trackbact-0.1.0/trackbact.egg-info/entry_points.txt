@@ -1,0 +1,2 @@
+[console_scripts]
+bacteria-tracker = bacteria_tracker.cli:main
