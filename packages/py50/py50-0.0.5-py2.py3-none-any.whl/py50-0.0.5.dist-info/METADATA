@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: py50
+Version: 0.0.5
+Summary: Generate Dose-Response Curves
+License: GPL-3.0
+Author: Tony Eight Lin
+Author-email: tonyelin@tmu.edu.tw
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# py50
+
+py50 is used to generate dose-response curves. The repository can be installed using the following:
+
+```
+pip install py50
+```
+
+Additional documentation and tutorials can be found at the following repository:
+https://github.com/tlint101/py50
