@@ -1,0 +1,16 @@
+request_casting/__init__.py,sha256=P7mkNI0ztYsyikepjVqNEo-93M0ruYA4v2fQP3bYGh8,146
+request_casting/locale/en/LC_MESSAGES/request_casting.mo,sha256=-5Hgff2pmCFFbfqMcHAYXFXkXlPdLpoT0F_kuCmmPwM,424
+request_casting/locale/en.po,sha256=iQd3zNctpjlvAm1LA1MxAq2imsN7GQKqcEPdk9gdXpY,738
+request_casting/locale/es/LC_MESSAGES/request_casting.mo,sha256=zb_QUq8OM-IcV7McFNC_HzAAoHxwmaQQryJzaFInVjQ,522
+request_casting/locale/es.po,sha256=SVokXkndwn4Zc0NQdAhSKRvnSE06AAuVb7wqY3MHTmU,830
+request_casting/locale/request_casting.pot,sha256=N9HmPFI_AAPKfUD9wyZN1awkAH2oMEmfYLJw5DId5iM,635
+request_casting/poethepoet.py,sha256=O9e90jiDzCdijk7zl45R2a5POukP3QTTiSRZCkqPhgE,2431
+request_casting/request_casting.py,sha256=k5W_54FODl7qC2yFki6g-Nuq4vwTiiNfiVdd6Mu79cw,7349
+request_casting/reusing/casts.py,sha256=tILyVEOUEqHM-9Vu88PBJkXPJhPVPv_piAsUvMddsxk,9767
+request_casting/reusing/datetime_functions.py,sha256=ONLc7wvbGQ9ele0weHsuW9WTpeBvubyGm6d6heEu5LU,17720
+request_casting/reusing/file_functions.py,sha256=ENsRbPM37mLpFZBQRKY31_p2ZV4RPquts3recpsK2vk,1204
+request_casting/reusing/github.py,sha256=YQAW95mCuZzTentAnS0j1oL01v8y2eRa4_uFu5Iggic,2584
+request_casting-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+request_casting-0.1.0.dist-info/METADATA,sha256=Ye6a9jJ4W54A5Vl4ZmWIOE423GvFE2NkH3Kt1Kt7nXA,659
+request_casting-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+request_casting-0.1.0.dist-info/RECORD,,
