@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+StringFuncs/StringFunctions.py
+StringFuncs/__init__.py
+StringFuncs.egg-info/PKG-INFO
+StringFuncs.egg-info/SOURCES.txt
+StringFuncs.egg-info/dependency_links.txt
+StringFuncs.egg-info/top_level.txt
