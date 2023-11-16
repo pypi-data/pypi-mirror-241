@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+FDSMLP.egg-info/PKG-INFO
+FDSMLP.egg-info/SOURCES.txt
+FDSMLP.egg-info/dependency_links.txt
+FDSMLP.egg-info/top_level.txt
+core/BasicSimplex.py
+core/SimplexError.py
+core/__init__.py
+core/utils/InitializationError.py
+core/utils/Normailze_simplex.py
+core/utils/Two_step_simplex_init.py
+core/utils/__init__.py
+core/utils/input_parser.py
+core/utils/matrix.py
