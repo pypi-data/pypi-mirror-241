@@ -1,0 +1,17 @@
+pycomfort>=0.0.14
+pycomfort
+more-itertools
+click
+python-dotenv
+tiktoken
+langchain>=0.0.333
+openai
+Deprecated
+loguru
+fastembed>=0.1.0
+qdrant-client
+chromadb
+sentence_transformers
+datasets
+polars
+beartype
