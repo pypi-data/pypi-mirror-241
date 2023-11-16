@@ -1,0 +1,14 @@
+xlref/__init__.py,sha256=TZWwHif1hWXVuL-7peY7HnJdctwm6K86SQJ1itsPRS0,1461
+xlref/_version.py,sha256=uKUuokmRr42rgMMQFlJ63F_qJ4RWGuVtqtXQ9cQx2ZU,969
+xlref/cli.py,sha256=Qaqej9G3CwaQwdD66peHqvbfgzJu8me49b_abGJBW4k,1994
+xlref/errors.py,sha256=hw-i12O3CsbYzozhsovre5yVkEntUD-pR9m1MvMmmVw,778
+xlref/filters.py,sha256=_FBICEHNaepCUGyynjZKQK1gKueQL7RynUvjCOhzU3Q,3404
+xlref/parser.py,sha256=aPQ1Fgl1_H9_wf27Edf3ceFEeeiNQU4sCBRqt1reZY0,10972
+xlref/process.py,sha256=ZlfUnbMsjp7H-2PojB8-FD8_DIyfR3u5l5vOFrgJtEE,3409
+xlref-1.2.2.dist-info/AUTHORS.rst,sha256=b3ifDUvaElQ4PGCYTVQazlT26KrHV-5x16N_4HSolRY,48
+xlref-1.2.2.dist-info/LICENSE.txt,sha256=6kHQ2rjH1bzyHTRD9xO_LGWp3N8hgypp5PRIJ9AiQRE,13141
+xlref-1.2.2.dist-info/METADATA,sha256=gQWsRTKNO1ouSRIgZIF5Ws4T7k3ilNFPHzThi4RrQe8,4552
+xlref-1.2.2.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+xlref-1.2.2.dist-info/entry_points.txt,sha256=P4G7tZOIqXoeVTIX9z2-EDiMcsBTo0xdocuG4CaaMCA,40
+xlref-1.2.2.dist-info/top_level.txt,sha256=7QhXIRI6xK6c_udQ4xlZ4kjhYG6ZdcFxJRQTTFYhEsI,6
+xlref-1.2.2.dist-info/RECORD,,
