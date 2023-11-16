@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: repoclient
+Version: 1.1
+Requires-Dist: httpx
+Requires-Dist: pydantic (==2.4.2)
+Requires-Dist: orjson
+Requires-Dist: pandas (==2.1.0)
+
