@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fbf
+Version: 0.0.0a0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: rich >=13.6.0
+License-File: LICENSE
+Summary: brainfuck interpreter,debugger...
+Author-email: yixinBC <yixinbc@foxmail.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/yixinBC/fbf
+Project-URL: Issues, https://github.com/yixinBC/fbf/issues
+
+# fbf
+
