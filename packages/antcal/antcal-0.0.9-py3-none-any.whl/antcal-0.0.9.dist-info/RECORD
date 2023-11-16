@@ -1,0 +1,15 @@
+antcal/__init__.py,sha256=zK3iAK9URXoQixmUFI6KYp-yvpThO0tgG3upt0temIo,58
+antcal/design.py,sha256=HuexRqeYvhOEgdFMU-vUc1shol7HjIJy5wsHFB72DGw,710
+antcal/report.py,sha256=x2pnVR1LVV30yR3QgYITi-zxxGI4qKr0slE1jO9ISxI,1303
+antcal/utils.py,sha256=yTSgza3mMiHh-tV7fVbNIjuhYBwrVJ6Qublv1sLqP7I,1044
+antcal/application/__init__.py,sha256=YP8IFWFMZX9exL8EsolNf4pL4_3_u7J7otKEuauI1Sk,35
+antcal/application/hfss.py,sha256=N7-S4IDM9liORRYxMQDx37hD9ufSoY6cuAZrFowy7ME,6938
+antcal/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antcal/model/dipole.py,sha256=TbwsGkjwQVXGWROKOqqAZu5i4bwcP2rv72YGxqWI1-0,416
+antcal/model/dra.py,sha256=J10aqWb-r181r6QXWzonTt6Yv5hst9mPA3oPpjJ8fxE,647
+antcal/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antcal/plot/plot.ipynb,sha256=1O0SG3kcuTZFa2SXjyGwi-CEu-9L95Ze_isj-lkTodM,124523
+antcal-0.0.9.dist-info/METADATA,sha256=A9oBlImnTqLPCXAIVYu0jx45YrMWO2YCuslfSMiKe4U,5338
+antcal-0.0.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+antcal-0.0.9.dist-info/licenses/LICENSE,sha256=hdNvhaI6Ribj_2erWXMoY6VZ3lI0PFCoaLWi29-_8hQ,2637
+antcal-0.0.9.dist-info/RECORD,,
