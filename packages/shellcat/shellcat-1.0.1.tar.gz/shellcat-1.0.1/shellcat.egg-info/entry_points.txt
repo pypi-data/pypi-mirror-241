@@ -1,0 +1,2 @@
+[console_scripts]
+shellcat = shellcat.shellcat:main
