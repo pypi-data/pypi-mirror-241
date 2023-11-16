@@ -1,0 +1,5 @@
+pyserial
+construct
+
+[dev]
+build
