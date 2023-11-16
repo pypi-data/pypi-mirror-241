@@ -1,0 +1,6 @@
+setup.py
+gatul/__init__.py
+gatul.egg-info/PKG-INFO
+gatul.egg-info/SOURCES.txt
+gatul.egg-info/dependency_links.txt
+gatul.egg-info/top_level.txt
