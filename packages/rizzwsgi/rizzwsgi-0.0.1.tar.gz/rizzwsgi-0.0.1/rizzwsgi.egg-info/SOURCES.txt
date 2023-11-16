@@ -1,0 +1,7 @@
+README.md
+setup.py
+rizzwsgi.egg-info/PKG-INFO
+rizzwsgi.egg-info/SOURCES.txt
+rizzwsgi.egg-info/dependency_links.txt
+rizzwsgi.egg-info/requires.txt
+rizzwsgi.egg-info/top_level.txt
