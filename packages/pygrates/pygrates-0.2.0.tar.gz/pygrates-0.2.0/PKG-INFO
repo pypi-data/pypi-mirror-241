@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: pygrates
+Version: 0.2.0
+Summary: Functional and lazy mini-framework for local search on combinatorial problems
+Author-email: Koen van Walstijn <kbvw@pm.me>
+Project-URL: Source, https://codeberg.org/kbvw/pygrates
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest>=7.2.0; extra == "test"
+Provides-Extra: doc
+Requires-Dist: sphinx>=7.2.0; extra == "doc"
+Requires-Dist: sphinx_rtd_theme>=1.3.0; extra == "doc"
+
+PyGrates
+========
+
+A functional and lazy mini-framework for local search on combinatorial problems.
+
+About
+-----
+
+PyGrates arose out of a research project to explore switching actions in a
+power grid, or generally, alterations to the topology of a graph: 
+*Python for Graph Topology Enumerations*. The space of changes to a graph
+inductively defines a *graph of graphs*, usually exponentially large and
+possibly infinite. Besides the specific types of possible changes, which are
+manifold and not included here, this package defines an interface for their
+lazy enumeration and filtering.
+
+The goal is general usability for local search on combinatorial problems:
+rerouting or rescheduling problems, games, or anything with a discrete space of
+states where the *path of intermediate states is relevant*. Three features are
+especially important for this:
+
+- A protocol for user-defined state representations with custom logic for
+  enumerating neighboring states, which can be arbitrarily complex and tailored
+  to the problem.
+- Lazy enumeration functions, making heavy use of Python's iterator protocol,
+  to be able to pass around objects that logically represent a very large or
+  infinite number of states without evaluating or storing more than necessary.
+- User-defined filter functions, representing constraints or heuristics, that
+  are applied at intermediate stages of iteration to be able to prune the space
+  of solutions as early as possible.
+
+Documentation
+-------------
+
+The documentation is hosted at https://pygrates.readthedocs.io.
+
+Install
+-------
+
+The package is available from PyPI:
+
+    pip install pygrates
+
+Short Example
+-------------
+
+First, import the package. This example also uses the `dataclasses.dataclass`
+decorator from the standard library:
+
+    >>> import pygrates as pg
+    >>> from dataclasses import dataclass
+
+To use the library functions, you need to create a class of coordinates that
+implements one of the abstract base classes from the `pygrates.abc` submodule.
+An instance of this class represents the state of your combinatorial problem.
+Your implementation provides the logic for iterating over neighboring states in
+one or more directions.
+
+Here, we implement a coordinate class that behaves like a directed graph:
+`pygrates.abc.DGCoords`, with a `children` and a `parents` direction. For the
+sake of example, the coordinates will simply lie on a two-dimensional grid,
+with the children of a point lying towards the positive *x* and *y* directions,
+and the parents towards the negative *x* and *y* directions:
+
+    >>> @dataclass(frozen=True)
+    ... class Point2D(pg.abc.DGCoords):
+    ...   x: int
+    ...   y: int
+    ...
+    ...   def children(self):
+    ...     return Point2D(self.x + 1, self.y), Point2D(self.x, self.y + 1)
+    ...
+    ...   def parents(self):
+    ...     return Point2D(self.x - 1, self.y), Point2D(self.x, self.y - 1)
+
+If we now call one of the functions from `pygrates.moves` on an instance of
+our coordinate class, we get a lazy iterator with coordinates from one or more
+directions, up to a certain depth:
+
+    >>> coords = pg.descendants(Point2D(0, 0), depth=2)
+    >>> set(coords) == {Point2D(x=1, y=0), Point2D(x=0, y=1),
+    ...                 Point2D(x=2, y=0), Point2D(x=0, y=2),
+    ...                 Point2D(x=1, y=1)}
+    True
+
+We can also pass a *guard* function to the functions in `pygrates.moves` to
+filter out coordinates during iteration. Such a function maps from a coordinate
+instance to a boolean, and is applied before subsequent layers of search:
+
+    >>> coords = pg.neighborhood(Point2D(0, 0), 3, lambda p: p.y % 2 == 0)
+    >>> set(coords) == {Point2D(x=-3, y=0), Point2D(x=-2, y=0),
+    ...                 Point2D(x=-1, y=0), Point2D(x=1, y=0),
+    ...                 Point2D(x=2, y=0), Point2D(x=3, y=0)}
+    True
+
+Here, we obtain the coordinates on the line *y=0*, excluding our input
+coordinate. Some coordinates on the lines *y=2* and *y=-2* are within the
+specified depth of three moves, but are not reached because the coordinates
+it would take to get there are filtered out during iteration.
+
+In real usage, the trivial `Point2D` class defined above is replaced with a
+problem-specific state representation: for example, the coordinate class could
+have a field to store which lines have been taken out of service in a power
+grid, and two corresponding direction methods could iterate which lines can
+further be taken out of service and which lines can be put back in service.
+In addition, there could be other fields and directions in the coordinate class
+to represent the state space of the power grid as a whole. 
+
+Regardless of the problem, the iteration and filtering functions as shown above
+will work in the same way, providing a foundation for implementing search
+strategies.
+
+License
+-------
+
+PyGrates is distributed under the MIT license (see the LICENSE file):
+
+    Copyright 2022-2023 Koen van Walstijn
