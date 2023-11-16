@@ -1,0 +1,1 @@
+from .dipl import load, dump
