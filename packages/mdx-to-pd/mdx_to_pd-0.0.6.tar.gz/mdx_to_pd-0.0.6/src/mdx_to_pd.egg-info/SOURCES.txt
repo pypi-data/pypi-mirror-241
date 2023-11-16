@@ -1,0 +1,10 @@
+README.md
+licence.txt
+pyproject.toml
+setup.cfg
+src/mdx_to_pd/__init__.py
+src/mdx_to_pd/mdx_to_pd.py
+src/mdx_to_pd.egg-info/PKG-INFO
+src/mdx_to_pd.egg-info/SOURCES.txt
+src/mdx_to_pd.egg-info/dependency_links.txt
+src/mdx_to_pd.egg-info/top_level.txt

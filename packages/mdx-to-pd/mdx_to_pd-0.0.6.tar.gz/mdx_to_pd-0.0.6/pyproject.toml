@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "mdx_to_pd"
+version = "0.0.6"
+authors = [{ name="Peter Kazmir"}]
+description = "MDX query reader from Microsoft Analytics Services OLAP returning pandas DataFrame"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+]
