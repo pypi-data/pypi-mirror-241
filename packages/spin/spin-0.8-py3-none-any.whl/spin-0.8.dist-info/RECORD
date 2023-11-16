@@ -1,0 +1,17 @@
+spin/__init__.py,sha256=R8d_oV52lXbKCoP7W960NHtYmu6RvB9Ot-vYdQ46Afk,233
+spin/__main__.py,sha256=ltxlQLef-6t6htwOfgZsxgEexW8uOZajJrNqSt80igo,4503
+spin/color_format.py,sha256=cWRZCPdFrkEIqz7Nf03VsB0LSr5wjq1wsKO9Oh-YTyo,1778
+spin/containers.py,sha256=ej_2MGom5kLZy2uer65K0PeuvjF-wzjlaOOUwbJ3VIg,668
+spin/sectioned_help.py,sha256=IrcY7T6utDYrz_uEuROdQxRNDoNvl8PyzRGUPL81PTQ,697
+spin/cmds/__init__.py,sha256=cL-qjZSL26Wuz-dxUpEjgj2FNXzqKgYH9KZv7QXIn2Q,170
+spin/cmds/build.py,sha256=dBLnI1QLGSS3EBbAUCo1JHkxnAkngU4mR-aGvoCvIrc,167
+spin/cmds/meson.py,sha256=4ctnVXyx6vM1X1dR9tsc2ml9DRXHIOTCpe8NZOqy4Ng,19501
+spin/cmds/pip.py,sha256=6116BeEUkhfpUEtfNYtpVJix24j45r78vQkQpwVlsWY,982
+spin/cmds/util.py,sha256=IGUMcsvLy7n4Xpi1AB6iyOeaHl_7QXk2ehrIoCmhzwE,2296
+spin/tests/test_meson.py,sha256=J7RQn0grbobwandFnZfo702vS4vODFQ_nMn33b-SvFU,4010
+spin-0.8.dist-info/LICENSE,sha256=mQ5qbbruguZVFjw9KlHRACRx5cCWTaSIG8GT6qao7js,1539
+spin-0.8.dist-info/METADATA,sha256=VyAZ9qUtXL-1Njwu6HzAwSnu9bHyhVf_KeGXwIHCjCk,10427
+spin-0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+spin-0.8.dist-info/entry_points.txt,sha256=9Zp2c2VeafaEYXIx75CVIIXt5JZ1E07fRvK-Lb_qg80,44
+spin-0.8.dist-info/top_level.txt,sha256=wAiqBkS4Olm8PGkVAYX19ShK1PrlLGVKqSW0MWLF4bw,5
+spin-0.8.dist-info/RECORD,,
