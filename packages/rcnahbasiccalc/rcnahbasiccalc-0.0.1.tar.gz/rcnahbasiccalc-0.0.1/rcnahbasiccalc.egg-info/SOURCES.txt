@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+rcnahbasiccalc/__init__.py
+rcnahbasiccalc.egg-info/PKG-INFO
+rcnahbasiccalc.egg-info/SOURCES.txt
+rcnahbasiccalc.egg-info/dependency_links.txt
+rcnahbasiccalc.egg-info/top_level.txt
