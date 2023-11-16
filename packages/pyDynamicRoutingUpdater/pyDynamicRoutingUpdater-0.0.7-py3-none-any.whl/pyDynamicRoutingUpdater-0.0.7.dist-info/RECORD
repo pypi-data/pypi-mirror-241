@@ -1,0 +1,17 @@
+DynamicRoutingUpdater/AddressInfo.py,sha256=Nj4ZzCKvaDZR5jGyunkm71npr-OJLeQ0PFE1rx-xS-o,906
+DynamicRoutingUpdater/DynamicRoutingUpdater.py,sha256=JLkcU-xC2LNvwnQutkSVN32jJUlVh_obg6Yv7Gm-A-k,5360
+DynamicRoutingUpdater/NetworkAdapter.py,sha256=aKUHR77ihnkh-Z2BEi1DgHBO236UuZY6nxKxw0sZ7p0,3544
+DynamicRoutingUpdater/NetworkHookHandler.py,sha256=nonpMUSDdHKwhYCv6fffEH1qlpVXbLmYv40S9h2nFk4,7404
+DynamicRoutingUpdater/NetworkInfoWatcher.py,sha256=3fyfrxIecQKj1rit8jcQZTIClJrQk2OM07WSBGa81eo,2781
+DynamicRoutingUpdater/RouteAndRuleObserver.py,sha256=TOgDLKG0kNu-wcD-mHirUOSa4qQmHsm2kbRmIhVVdUo,5828
+DynamicRoutingUpdater/Routing.py,sha256=Nhs8GaPI7GIOiY2PPTcnmyycOb6_xTrBjosDUqkIzyU,3123
+DynamicRoutingUpdater/RoutingTable.py,sha256=nOSuEIKNOIgB9ymNiE4byrKqMBtQdH7Z4s7T7slSodU,3248
+DynamicRoutingUpdater/Rules.py,sha256=4AurOXz7bt0lbSHgPtQn4V_wVy9KI_qWQQw7W4nXVdU,2178
+DynamicRoutingUpdater/__init__.py,sha256=L6yvDF4C6ugU9Eyzak1rzQ8HytaTcdOgsFOkuY1yBVU,56
+DynamicRoutingUpdater/objects.py,sha256=gTWdAgPBWeFPlym5CMfG_QBbZVxVZrM6AlahEC0LMaE,3634
+DynamicRoutingUpdater/version.py,sha256=g9S-1Wlh8WzmKVWE7Uwo6TATskAZMDI0PmX80YGj1Fs,23
+pyDynamicRoutingUpdater-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyDynamicRoutingUpdater-0.0.7.dist-info/METADATA,sha256=C_eknvVEnciVkfsJFTdSLfaUSXOLkELQap_7v_rpKQg,2945
+pyDynamicRoutingUpdater-0.0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyDynamicRoutingUpdater-0.0.7.dist-info/top_level.txt,sha256=s54Gnja36Je_law7cDHClLlSHVlYdyV7rVMpkfp-pbM,22
+pyDynamicRoutingUpdater-0.0.7.dist-info/RECORD,,
