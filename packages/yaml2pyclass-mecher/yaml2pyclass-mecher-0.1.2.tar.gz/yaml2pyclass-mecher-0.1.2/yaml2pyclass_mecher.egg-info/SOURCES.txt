@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_config_generation.py
+yaml2pyclass/__init__.py
+yaml2pyclass/__version__.py
+yaml2pyclass/code_generator.py
+yaml2pyclass_mecher.egg-info/PKG-INFO
+yaml2pyclass_mecher.egg-info/SOURCES.txt
+yaml2pyclass_mecher.egg-info/dependency_links.txt
+yaml2pyclass_mecher.egg-info/requires.txt
+yaml2pyclass_mecher.egg-info/top_level.txt
