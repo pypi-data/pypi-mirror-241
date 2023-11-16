@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "linker-atom"
+version = "0.0.21"
+description = "linker fastapi atom"
+authors = ["hanyu <hanyupomelo@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://git.linker.cc/research/common/linker_atom"
+classifiers = [
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.9'
+]
+
+[tool.poetry.dependencies]
+python = "^3.9.16,<3.12"
+requests = "2.31.0"
+apscheduler = "3.10.4"
+fastapi = "0.103.1"
+apache-skywalking = "^1.0.0"
+pydantic = "1.10.9"
+pydantic-core = "2.10.0"
+python-dotenv = "1.0.0"
+numpy = "1.23.5"
+opencv-python = "4.7.0.72"
+pillow = "10.0.1"
+orjson = "3.9.7"
+uvloop = "^0.19.0"
+cython = "^3.0.5"
+uvicorn = "0.23.2"
+aiohttp = "^3.8.6"
+httpx = "^0.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
