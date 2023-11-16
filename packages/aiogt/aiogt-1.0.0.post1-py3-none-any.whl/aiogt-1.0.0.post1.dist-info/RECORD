@@ -1,0 +1,16 @@
+aiogt/__init__.py,sha256=pDAWYhxH0ZaxlKwFjk1YhLBiCTEfKdzov5OLD-JHXNQ,37
+aiogt/cache/__init__.py,sha256=KNc0k3SZz054YuxgjryRLqygfw7tnkE36bZx3yIeBGg,67
+aiogt/cache/cache.py,sha256=1Of4QmB7bIEBXSNgUC9LdYKJsuNf4RPPmNTJ_3gt53s,535
+aiogt/cache/storage/__init__.py,sha256=IRsAKVKS1RyJ_kAS4h3t8pejGHu03jCGS7MEAwjXLr8,42
+aiogt/cache/storage/base.py,sha256=sa9wp6hpN7jPYkau1TuilYm_WPu2PoKDibMSatxS9kE,270
+aiogt/cache/storage/memory_storage.py,sha256=Y9pCORnv-Bm7gfKPJ4_HtElMiHTcEw9KjzSA0eIMBP0,507
+aiogt/enums.py,sha256=Sddf5qQU5BN_dUELfTHULYFV_fM8ejoi8vseDv-lXDQ,167
+aiogt/translaitor.py,sha256=f4SUN8bS8VilGdWrXCAWFN_ikehcbAUJBbgHSzysxXs,1049
+aiogt/transport/__init__.py,sha256=qrEKl1j-c3n9XklLQfUg1275Y1q3eMZ2GhdRi3V4RZw,126
+aiogt/transport/aiohttp_t.py,sha256=6OrFT7Iaiq4ml9UWZGSYNCVE76f2uViBW9fpkuwJ2vI,641
+aiogt/transport/base.py,sha256=LHPOfA7BpeHkNCPRaI9EW51mQufHJDB4bbcQ8PMiyJU,307
+aiogt/transport/httpx_t.py,sha256=laY5AZN9KGy64bycVIc_u8dnop_zWaaVrQfD0joQYNk,610
+aiogt/utils.py,sha256=VnjkryPnMZ3Ud9KZQLlpNf1BbBgGx1NU9xdRP9ZNwps,161
+aiogt-1.0.0.post1.dist-info/METADATA,sha256=P5ewdinlsq45ngWtPKvrE8hxUvO7vNZuoakUmGPy3Aw,1104
+aiogt-1.0.0.post1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+aiogt-1.0.0.post1.dist-info/RECORD,,
