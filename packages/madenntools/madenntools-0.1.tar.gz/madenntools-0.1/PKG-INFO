@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: madenntools
+Version: 0.1
+Summary: Madenn Internal tools
+Author-email: eduard <eduard.barnoviciu@email.com>
+License: Internal License
+Keywords: cv,ml,visualization,data,madenn,plots
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv_python
+Requires-Dist: tqdm
+
+## [Library documentation](doc/library_documentation.md)
+
+## Setup
+
+```bash
+pip install -i http://madenn2:8000 --trusted-host madenn2 madenntools
+# or
+pip install git+https://github.com/MaDENN-Machine-Development/madenntools
+```
+
+## Usage
+
+example: 
+```python
+from madenntools.cv import blend
+
+if __name__ == '__main__':
+    blended_image = blend(image, mask, level=(128, 127, 0))
+```
+
+## Update pip package
+
+- Update the code
+- Update the Dependencies in pyproject.toml, if necessary
+- Build the project
+  
+```bash
+pip install setuptools twine # only once
+python -m build
+twine check dist/* # optional
+```
+
+- Copy contents of `dist/` to `madenn2/packages/` for the LAN hosted package
+- Push changes to github, including the new .whl file for the github package
+- 
+
+## Contribution practices
+- Pay attention when changing the type of the input/output data inside the function. Avoid if possible 
+- scripts will be added to directories (example: cv), and linked the __init__.py file of that directory. 
+- Follow the naming convention and the docstring style. Example
+
+```python
+    """   
+    Blend a foreground image with a background using the binary mask as the alpha channel.
+
+    Args:
+        foreground_image (numpy.ndarray): The BGR image to be blended.
+        binary_mask (numpy.ndarray): The binary mask in BGR format.
+        level (tuple, optional): The BGR color of the background. Defaults to (128, 128, 128).
+
+    Returns:
+        numpy.ndarray: The blended image.
+    """
+    def blend(foreground_image, binary_mask, level=(128, 128, 128)):
+```
