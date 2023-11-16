@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/tooltils.egg-info/PKG-INFO
+src/tooltils.egg-info/SOURCES.txt
+src/tooltils.egg-info/dependency_links.txt
+src/tooltils.egg-info/top_level.txt
