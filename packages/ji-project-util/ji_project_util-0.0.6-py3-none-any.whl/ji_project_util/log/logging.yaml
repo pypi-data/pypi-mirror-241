@@ -1,0 +1,55 @@
+version: 1
+#incremental: false
+disable_existing_loggers: false
+formatters:
+  simple:
+    format: '[%(asctime)s-%(name)s-%(levelname)s-%(processName)s-%(threadName)s-%(logId)s]-%(message)s'
+  tp:
+    format: '%(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: DEBUG
+    stream: ext://sys.stdout
+    filters:
+      - MyFilter
+  buz_file:
+    class: logging.handlers.RotatingFileHandler
+    formatter: simple
+    level: DEBUG
+    filename: ${buzlog}
+    mode: 'a'
+    # 10*1024*1024
+    maxBytes: 10485760
+    backupCount: 5
+    encoding: 'utf8'
+    filters:
+      - MyFilter
+  tp_file:
+    class: logging.handlers.RotatingFileHandler
+    formatter: tp
+    level: DEBUG
+    filename: ${tplog}
+    mode: 'a'
+    # 10*1024*1024
+    maxBytes: 10485760
+    backupCount: 3
+    encoding: 'utf8'
+loggers:
+  business:
+    level: DEBUG
+    handlers:
+      - console
+      - buz_file
+    propagate: no
+  tp:
+    level: DEBUG
+    handlers:
+      - tp_file
+    propagate: no
+
+filters:
+  MyFilter:
+    (): ji_project_util.log.LogIdFilter.MyFilter
+    name: logIdlogger
