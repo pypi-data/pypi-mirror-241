@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: foolscap
+Version: 23.11.0
+Summary: Foolscap contains an RPC protocol for Twisted.
+Home-page: http://foolscap.lothar.com/trac
+Author: Brian Warner
+Author-email: warner-foolscap@lothar.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 6 - Mature
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Software Development :: Object Brokering
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: six
+Requires-Dist: twisted[tls] (>=16.0.0)
+Requires-Dist: pyOpenSSL
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: txtorcon (>=19.0.0) ; extra == 'dev'
+Requires-Dist: txi2p (>=0.3.2) ; (python_version < "3.0") and extra == 'dev'
+Requires-Dist: txi2p-tahoe (>=0.3.5) ; (python_version > "3.0") and extra == 'dev'
+Requires-Dist: pywin32 ; (sys_platform == "win32") and extra == 'dev'
+Provides-Extra: i2p
+Requires-Dist: txi2p (>=0.3.2) ; (python_version < "3.0") and extra == 'i2p'
+Requires-Dist: txi2p-tahoe (>=0.3.5) ; (python_version > "3.0") and extra == 'i2p'
+Provides-Extra: tor
+Requires-Dist: txtorcon (>=19.0.0) ; extra == 'tor'
+
+Foolscap (aka newpb) is a new version of Twisted's native RPC protocol, known
+as 'Perspective Broker'. This allows an object in one process to be used by
+code in a distant process. This module provides data marshaling, a remote
+object reference system, and a capability-based security model.
