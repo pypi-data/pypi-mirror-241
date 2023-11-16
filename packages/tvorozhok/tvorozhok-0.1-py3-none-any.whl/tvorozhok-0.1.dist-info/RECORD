@@ -1,0 +1,10 @@
+tvorozhok/__init__.py,sha256=utKGtBbmpFAWuAPIIlg2D16CrhahUNmB6n1PHoyz0Jk,36
+tvorozhok/cli.py,sha256=3RU-Ncmrfq7IWorYGEnQftlD_6nI57TtHbp3QxgFnHk,996
+tvorozhok/main.py,sha256=JuQLXfKe-XNIx-XTgF_gocO8n40ZaIgELrlqiWkCLsQ,131
+tvorozhok/tvorozhok.py,sha256=VTy0pAKIrvQdo2XpLnSt37Qx-rqrNoDcW2fLmd5iZtM,23771
+tvorozhok/tvorozhok_bot.py,sha256=ac0GZAENg_c9UGU9X5uMfxd5WtHBYx-DDd5hIJLT5g0,3456
+tvorozhok-0.1.dist-info/METADATA,sha256=3eL2ek75NM1jooORjYF4BSJdPHXV3ZMGxS_h3TEAIyY,249
+tvorozhok-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tvorozhok-0.1.dist-info/entry_points.txt,sha256=_7-Pa4BbIOCon0zRSkkf--S2zI1vkSE9gA77xOySnos,53
+tvorozhok-0.1.dist-info/top_level.txt,sha256=BtlRU4SP_1Y7dlSOYgw5Ca2A3mj-nKPMiOxXtAJXsmU,10
+tvorozhok-0.1.dist-info/RECORD,,
