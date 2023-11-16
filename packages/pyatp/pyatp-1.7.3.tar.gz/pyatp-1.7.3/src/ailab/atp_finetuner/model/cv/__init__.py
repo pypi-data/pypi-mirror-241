@@ -1,0 +1,1 @@
+from .model_for_vit import ViTModel
