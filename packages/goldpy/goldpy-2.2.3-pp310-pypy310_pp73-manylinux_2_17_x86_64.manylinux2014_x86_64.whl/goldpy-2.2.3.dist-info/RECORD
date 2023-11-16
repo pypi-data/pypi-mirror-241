@@ -1,0 +1,5 @@
+goldpy-2.2.3.dist-info/METADATA,sha256=Nb40bgRDEVhKmc1WrWjy5MbQ5RrLuVyYisvlmw6Smek,255
+goldpy-2.2.3.dist-info/WHEEL,sha256=z0TuKcLVRJVTT24biW1YlCUcga4y6fgR5UgmsNCNDec,137
+goldpy/__init__.py,sha256=WD2_vZJLPDyCCpOYDxo9G8i2nJK9oepotFPjBEU6k4c,107
+goldpy/goldpy.pypy310-pp73-x86_64-linux-gnu.so,sha256=Ffs7zk4_j9KJG8kNrPQlPP4nNCIYvJk9Gr_HQwt3Rmw,7173424
+goldpy-2.2.3.dist-info/RECORD,,
