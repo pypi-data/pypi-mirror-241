@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: scisuit
+Version: 1.1.3
+Summary: Scientific Computing Package
+Author-email: "Gokhan Bingol, PhD" <gbingol@pebytes.com>
+Project-URL: Homepage, https://www.pebytes.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+<h2>A computing library for engineers.</h2>
+
+<p>Tested with Python 3.10, 3.11 and 3.12</p>
+
+<p>Contains the following:</p>
+<ol>
+	<li>Integration, fitting, root finding methods ...</li>
+	<li><b>eng:</b> Food, psychrometry, refrigerants ...</li>
+	<li><b>plot:</b> Several interactive charts</li>
+	<li><b>stats:</b> Follows R terminology and includes several methods,</li>
+</ol>
