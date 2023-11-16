@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: eprempy
+Version: 0.1.3
+Summary: Tools for working with EPREM simulation runs
+License: BSD 3-Clause
+Author: Matt Young
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.6.0)
+Requires-Dist: netCDF4 (>=1.5.8)
+Requires-Dist: numpy (>=1.26.0)
+Requires-Dist: scipy (>=1.7.3)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# EPREM(py)
+
+Tools for working with EPREM simulation runs
+
+## Installation
+
+```bash
+$ pip install eprempy
+```
+
+## Usage
+
+Before getting started in earnest with `eprempy`, one simple task you can perform to make sure everything is installed is to print the version number.
+
+
+```python
+import eprempy
+print(f"Using version {eprempy.__version__} of eprempy {chr(0x1f60a)}")
+```
+
+    Using version 0.1.3 of eprempy 😊
+
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`eprempy` was created by Matt Young. It is licensed under the terms of the BSD 3-Clause license.
+
+## Credits
+
+`eprempy` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
