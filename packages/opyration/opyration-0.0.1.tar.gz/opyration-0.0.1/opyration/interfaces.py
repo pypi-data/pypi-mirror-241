@@ -1,0 +1,6 @@
+
+
+class Pool(object):
+    async def connect(self): ...
+    
+    async def close(self): ...
