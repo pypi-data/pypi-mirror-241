@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: godm
+Version: 0.0.2
+Summary: GODM
+Home-page: https://github.com/kayzliu/godm
+Author: kayzliu
+Author-email: zliu234@uic.edu
+License: UNKNOWN
+Download-URL: https://github.com/kayzliu/godm/archive/main.zip
+Keywords: outlier detection,data augmentation,diffusion models,graph neural networks,graph generative model
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GODM
+Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models
+
+
