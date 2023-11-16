@@ -1,0 +1,3 @@
+[console_scripts]
+apply-degrade = radifox.utils.degrade.main:main
+resample-inplane-res = radifox.utils.degrade.inplane_res:main

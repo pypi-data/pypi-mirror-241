@@ -1,0 +1,12 @@
+nibabel
+numpy
+scipy
+sigpy-lite
+transforms3d
+
+[dev]
+pytest
+pytest-cov
+
+[pytorch]
+torch>=1.10.0
