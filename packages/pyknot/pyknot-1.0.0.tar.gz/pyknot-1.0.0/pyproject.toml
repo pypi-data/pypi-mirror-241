@@ -1,0 +1,146 @@
+[tool.poetry]
+name = "pyknot"
+version = "1.0.0"
+description = "A Python-based message bus system designed for message handling and crafted to integrate with dependency injection frameworks."
+authors = ["Retr0327 <retr0327.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "knot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dependency-injector = "^4.41.0"
+celery = "^5.3.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+vulture = "^2.10"
+ruff = "^0.1.5"
+pre-commit = "^3.5.0"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "7.4.3"
+addopts = "--strict-markers --strict-config --capture=no --durations=30"
+xfail_strict = true
+
+[tool.vulture]
+min_confidence = 80
+paths = ["knot"]
+sort_by_size = true
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+force_grid_wrap = 2
+force_sort_within_sections = true
+
+[tool.black]
+exclude = '''
+(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.nox
+  | \.tox
+  | \.venv
+  | _build
+  | build
+  | dist
+  | setup.py
+)
+'''
+
+[tool.ruff]
+line-length = 88
+# Python version: 3.11
+target-version = "py311"
+fix = true
+
+exclude = [
+  ".env*",
+  ".venv"
+]
+
+select = [
+  # pyflakes
+  "F",
+  # pycodestyle
+  "E",
+  "W",
+  # flake8-2020
+  "YTT",
+  # flake8-bugbear
+  "B",
+  # flake8-quotes
+  "Q",
+  # pylint
+  "PLE", "PLR", "PLW",
+  # misc lints
+  "PIE",
+  # flake8-pyi
+  "PYI",
+  # tidy imports
+  "TID",
+  # implicit string concatenation
+  "ISC",
+  # type-checking imports
+  "TCH",
+]
+
+ignore = [
+  # module level import not at top of file
+  "E402",
+  # do not assign a lambda expression, use a def
+  "E731",
+  # controversial
+  "B006",
+  # controversial
+  "B007",
+  # controversial
+  "B008",
+  # setattr is used to side-step mypy
+  "B009",
+  # getattr is used to side-step mypy
+  "B010",
+  # tests use assert False
+  "B011",
+  # tests use comparisons but not their returned value
+  "B015",
+  # false positives
+  "B019",
+  # Loop control variable overrides iterable it iterates
+  "B020",
+  # Function definition does not bind loop variable
+  "B023",
+  # Too many arguments to function call
+  "PLR0913",
+  # Too many returns
+  "PLR0911",
+  # Too many branches
+  "PLR0912",
+  # Too many statements
+  "PLR0915",
+  # Global statements are discouraged
+  "PLW0603",
+  # Docstrings should not be included in stubs
+  "PYI021",
+  # Additional checks that don't pass yet
+  # Within an except clause, raise exceptions with ...
+  "B904",
+  # Magic number
+  "PLR2004",
+  # Consider `elif` instead of `else` then `if` to remove indentation level
+  "PLR5501",
+  # Wildcard (star) import
+  "F403",
+  "F405",
+  # Type inference check
+  "TCH001",
+]
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
