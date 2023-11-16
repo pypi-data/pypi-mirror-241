@@ -1,0 +1,2 @@
+[console_scripts]
+ilamb-tree-generator = access_med_utils.ilamb:tree_generator
