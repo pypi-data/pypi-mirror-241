@@ -1,0 +1,2 @@
+[console_scripts]
+update-papermc = papermc_updater.update_paper:cmd_line
