@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: columbiaviper
+Version: 0.0.4
+Summary: Trying to put Viper GPT on PyPI
+Author-email: Computer Vision Lab at Columbia University <pfr2109@columbia.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Test
