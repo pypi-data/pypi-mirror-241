@@ -1,0 +1,8 @@
+setup.py
+dconnector/__init__.py
+dconnector/mongodb_conn.py
+dconnector.egg-info/PKG-INFO
+dconnector.egg-info/SOURCES.txt
+dconnector.egg-info/dependency_links.txt
+dconnector.egg-info/requires.txt
+dconnector.egg-info/top_level.txt
