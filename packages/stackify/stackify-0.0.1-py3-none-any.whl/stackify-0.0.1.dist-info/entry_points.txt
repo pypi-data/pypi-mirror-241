@@ -1,0 +1,2 @@
+[console_scripts]
+autopytest = stackify.cli:main

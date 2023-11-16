@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: stackify
+Version: 0.0.1
+Summary: Simplify developer enviroment setup
+Project-URL: Homepage, https://github.com/davidjrice/stackify
+Project-URL: Bug Tracker, https://github.com/davidjrice/stackify/issues
+Author-email: David Rice <me@davidjrice.co.uk>
+License: MIT License
+        
+        Copyright (c) 2023 David Rice
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: ansible-core==2.16.0
+Requires-Dist: ansible-runner==2.3.4
+Description-Content-Type: text/markdown
+
+# Stackify
+
+## Description
+
+Simplify setting up dev environments.
+
+## Features
+
+- 💻 Supported Operating Systems
+  - [x] MacOS 🍎
+  - [x] Ubuntu 🐧
+  - [ ] Debian 🐧
+
+- 📦 System Package managers
+  - [Homebrew](https://brew.sh/) (MacOS 🍎 only)
+  - [apt](https://wiki.debian.org/Apt) (Ubuntu 🐧 only)
+
+- 🛠️ Tools
+  - [Ansible](https://www.ansible.com/)
+  - [Git](https://git-scm.com/)
+
+- 🖥️ Terminal
+  - [Zsh](https://www.zsh.org/)
+  - [Oh My Zsh](https://ohmyz.sh/)
+  - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+- 👩‍💻 Languages, environments, and package managers
+  - [Python](https://www.python.org/) 🐍
+    - [pyenv](https://github.com/pyenv/pyenv)
+    - [poetry](https://python-poetry.org/)
+  - [Ruby](https://www.ruby-lang.org/en/) 💎
+    - [rbenv](https://github.com/rbenv/rbenv)
+    - [bundler](https://bundler.io/)
+  - [Go](https://golang.org/) 🦦
+    - [go-env](https://github.com/Netflix/go-env)
+  - [Node.js](https://nodejs.org/en/) 🟩
+    - [nvm](https://github.com/nodenv/nodenv)
+
+- 🧰 IDEs
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [JetBrains](https://www.jetbrains.com/)
+    - [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
+    - [DataGrip](https://www.jetbrains.com/datagrip/)
+    - [PyCharm](https://www.jetbrains.com/pycharm/)
+    - [RubyMine](https://www.jetbrains.com/ruby/)
+
+- 💾 Databases
+  - [PostgreSQL](https://www.postgresql.org/) 🐘
+  - [MySQL](https://www.mysql.com/) 🐬
+  - [Redis](https://redis.io/) 🔥
+
+## TODO
+
+- [ ] Zsh
+- [ ] Oh My Zsh
+- [ ] Powerlevel10k
+- [x] Python
+    - [x] pyenv
+- [x] Ruby
+    - [x] rbenv
+- [ ] Go
+- [ ] Node.js
+- [ ] IDEs
