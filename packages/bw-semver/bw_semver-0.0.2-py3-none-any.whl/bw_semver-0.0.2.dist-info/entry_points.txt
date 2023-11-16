@@ -1,0 +1,5 @@
+[console_scripts]
+bw-semver = bw_semver.__main__:main
+
+[setuptools.finalize_distribution_options]
+bw-semver = bw_semver.__main__:set_metadata_version
