@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PlanetLink/__init__.py
+PlanetLink/wxBot.py
+PlanetLink/wxMessage.py
+PlanetLink.egg-info/PKG-INFO
+PlanetLink.egg-info/SOURCES.txt
+PlanetLink.egg-info/dependency_links.txt
+PlanetLink.egg-info/top_level.txt
