@@ -1,0 +1,9 @@
+README.md
+setup.py
+DadosSDGC/__init__.py
+DadosSDGC/modulo.py
+DadosSDGC.egg-info/PKG-INFO
+DadosSDGC.egg-info/SOURCES.txt
+DadosSDGC.egg-info/dependency_links.txt
+DadosSDGC.egg-info/requires.txt
+DadosSDGC.egg-info/top_level.txt
