@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/xornlpcrack/__init__.py
+src/xornlpcrack/__main__.py
+src/xornlpcrack.egg-info/PKG-INFO
+src/xornlpcrack.egg-info/SOURCES.txt
+src/xornlpcrack.egg-info/dependency_links.txt
+src/xornlpcrack.egg-info/entry_points.txt
+src/xornlpcrack.egg-info/requires.txt
+src/xornlpcrack.egg-info/top_level.txt
