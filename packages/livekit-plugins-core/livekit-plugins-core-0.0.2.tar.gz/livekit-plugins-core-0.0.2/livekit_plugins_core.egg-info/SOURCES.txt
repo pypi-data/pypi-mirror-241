@@ -1,0 +1,14 @@
+README.md
+setup.py
+livekit/plugins/core/__init__.py
+livekit/plugins/core/async_iterator_list.py
+livekit/plugins/core/async_queue_iterator.py
+livekit/plugins/core/common_plugins.py
+livekit/plugins/core/plugin.py
+livekit/plugins/core/version.py
+livekit/plugins/core/utils/__init__.py
+livekit/plugins/core/utils/complete_sentences_plugin.py
+livekit_plugins_core.egg-info/PKG-INFO
+livekit_plugins_core.egg-info/SOURCES.txt
+livekit_plugins_core.egg-info/dependency_links.txt
+livekit_plugins_core.egg-info/top_level.txt
