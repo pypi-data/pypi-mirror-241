@@ -1,0 +1,965 @@
+[2;36m[22:21:58][0m[2;36m [0m[1;32mStarting test_controller.py!                   [0m ]8;id=176382;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=630922;file:///app/src/robot_arm_controller/tests/test_controller.py#26\[2m26[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;94mStarting controller!                               [0m ]8;id=179375;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=277107;file:///app/src/robot_arm_controller/controller.py#107\[2m107[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;94mListening on [0m[1;94m([0m[32m'0.0.0.0'[0m[1;94m, [0m[1;36m8500[0m[1;94m)[0m[1;94m             [0m ]8;id=485531;file:///app/src/robot_arm_controller/control/controller_servers.py\[2mcontroller_servers.py[0m]8;;\[2m:[0m]8;id=995231;file:///app/src/robot_arm_controller/control/controller_servers.py#135\[2m135[0m]8;;\
+[2;36m[22:22:02][0m[2;36m [0m[1;94mConnected to [0m[1;94m([0m[32m'192.168.0.1'[0m[1;94m, [0m[1;36m33038[0m[1;94m)[0m[1;94m        [0m ]8;id=491880;file:///app/src/robot_arm_controller/control/controller_servers.py\[2mcontroller_servers.py[0m]8;;\[2m:[0m]8;id=947778;file:///app/src/robot_arm_controller/control/controller_servers.py#140\[2m140[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;94m                                                   [0m ]8;id=206113;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=328776;file:///app/src/robot_arm_controller/controller.py#119\[2m119[0m]8;;\
+[2;36m           [0m[1;94mController Started!                                [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m800[0m[2;93m   [0m ]8;id=792543;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=66275;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m0[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m800[0m[2;93m   [0m ]8;id=317750;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=347720;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m1[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m800[0m[2;93m   [0m ]8;id=122010;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=955178;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m2[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m800[0m[2;93m   [0m ]8;id=97774;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=616411;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m3[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m800[0m[2;93m   [0m ]8;id=559953;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=710613;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m4[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m800[0m[2;93m   [0m ]8;id=104910;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=967084;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m5[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=750654;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=76477;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m0[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=936396;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=720414;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m1[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=321528;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=471769;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m2[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m     [0m ]8;id=127800;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=251922;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;91mFalse[0m[2;93m                                    [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=204996;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=884767;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m3[0m[2;93m                                        [0m [2m                 [0m
+[2;36m[22:22:03][0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=289229;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=350522;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m4[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=932825;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=816837;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m5[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.3[0m[2;93m for joint [0m[1;2;36m0[0m ]8;id=5644;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=605008;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.3[0m[2;93m for joint [0m[1;2;36m1[0m ]8;id=719902;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=868061;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.3[0m[2;93m for joint [0m[1;2;36m2[0m ]8;id=960021;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=713463;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m     [0m ]8;id=726379;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=279793;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;91mFalse[0m[2;93m                                    [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.3[0m[2;93m for joint [0m[1;2;36m3[0m ]8;id=596397;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=844603;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.3[0m[2;93m for joint [0m[1;2;36m4[0m ]8;id=327380;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=536190;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.3[0m[2;93m for joint [0m[1;2;36m5[0m ]8;id=260695;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=699404;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m     [0m ]8;id=197421;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=117365;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_double_home                [0m ]8;id=804349;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=22865;file:///app/src/robot_arm_controller/tests/test_controller.py#100\[2m100[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.015707962214946747[0m[2;93m,             [0m ]8;id=325985;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=940262;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.015707962214946747[0m[2;93m, [0m[1;2;36m0.015707962214946747[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.015707962214946747[0m[2;93m, [0m[1;2;36m0.015707962214946747[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.015707962214946747[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.04712389037013054[0m[2;93m,              [0m ]8;id=668103;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=390855;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.04712389037013054[0m[2;93m, [0m[1;2;36m0.04712389037013054[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.04712389037013054[0m[2;93m, [0m[1;2;36m0.04712389037013054[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.04712389037013054[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[1;2;93m][0m[2;93m               [0m ]8;id=938267;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=739474;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=747361;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=612665;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=880027;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=49165;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_health_check                [0m ]8;id=571354;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=825696;file:///app/src/robot_arm_controller/tests/test_controller.py#65\[2m65[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[1;2;93m][0m[2;93m               [0m ]8;id=906312;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=712086;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=821803;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=650846;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.039269909262657166[0m[2;93m,             [0m ]8;id=863578;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=966486;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.039269909262657166[0m[2;93m, [0m[1;2;36m0.039269909262657166[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.039269909262657166[0m[2;93m, [0m[1;2;36m0.039269909262657166[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.039269909262657166[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m2[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=444551;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=538545;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=892227;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=171177;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings             [0m ]8;id=972202;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=952636;file:///app/src/robot_arm_controller/tests/test_controller.py#127\[2m127[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=909795;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=80206;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.HOMING_DIRECTION                     [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m-1[0m[2;93m for joint [0m[1;2;36m0[0m ]8;id=649383;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=603342;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m[22:22:04][0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m-1[0m[2;93m for joint [0m[1;2;36m1[0m ]8;id=877170;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=519496;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m-1[0m[2;93m for joint [0m[1;2;36m2[0m ]8;id=4723;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=603241;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=580692;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=735792;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m-1[0m[2;93m for joint [0m[1;2;36m3[0m ]8;id=349688;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=790888;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m-1[0m[2;93m for joint [0m[1;2;36m4[0m ]8;id=141126;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=495429;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m-1[0m[2;93m for joint [0m[1;2;36m5[0m ]8;id=897261;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=247578;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=460542;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=642795;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=803959;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=392069;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.HOMING_DIRECTION                     [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m1[0m[2;93m for joint [0m[1;2;36m0[0m[2;93m [0m ]8;id=471092;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=953221;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m1[0m[2;93m for joint [0m[1;2;36m1[0m[2;93m [0m ]8;id=768798;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=77993;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=765894;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=203727;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m1[0m[2;93m for joint [0m[1;2;36m2[0m[2;93m [0m ]8;id=503493;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=88129;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m1[0m[2;93m for joint [0m[1;2;36m3[0m[2;93m [0m ]8;id=706131;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=917294;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=748098;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=296315;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m1[0m[2;93m for joint [0m[1;2;36m4[0m[2;93m [0m ]8;id=151745;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=436453;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=668225;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=693341;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_DIRECTION to [0m[1;2;36m1[0m[2;93m for joint [0m[1;2;36m5[0m[2;93m [0m ]8;id=790873;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=759029;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=32440;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=558692;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.SPEED_RAD_PER_S                      [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m1.2[0m[2;93m for joint [0m[1;2;36m0[0m ]8;id=716679;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=554000;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m[22:22:05][0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m2.2[0m[2;93m for joint [0m[1;2;36m1[0m ]8;id=106805;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=543199;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=960217;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=115863;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m3.2[0m[2;93m for joint [0m[1;2;36m2[0m ]8;id=811503;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=603831;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m4.2[0m[2;93m for joint [0m[1;2;36m3[0m ]8;id=338170;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=914876;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m5.2[0m[2;93m for joint [0m[1;2;36m4[0m ]8;id=610142;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=312929;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m6.2[0m[2;93m for joint [0m[1;2;36m5[0m ]8;id=318797;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=340441;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=120170;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=617539;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=135082;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=540460;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.STEPS_PER_REV_MOTOR_AXIS             [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m220[0m[2;93m   [0m ]8;id=907718;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=718561;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m0[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m221[0m[2;93m   [0m ]8;id=822728;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=433876;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m1[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=20664;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=957546;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m222[0m[2;93m   [0m ]8;id=33814;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=36830;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m2[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m223[0m[2;93m   [0m ]8;id=750242;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=836024;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m3[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.007853981107473373[0m[2;93m,             [0m ]8;id=394178;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=168820;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m224[0m[2;93m   [0m ]8;id=207378;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=647296;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m4[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m225[0m[2;93m   [0m ]8;id=837469;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=760006;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m5[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=680024;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=733807;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.STEPS_PER_REV_MOTOR_AXIS             [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m5000[0m[2;93m  [0m ]8;id=947074;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=780895;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m0[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m5000[0m[2;93m  [0m ]8;id=600568;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=27380;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m1[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00251327408477664[0m[2;93m,             [0m ]8;id=737423;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=903670;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m5000[0m[2;93m  [0m ]8;id=608833;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=271549;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m2[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m5000[0m[2;93m  [0m ]8;id=797097;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=562617;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m3[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m,             [0m ]8;id=467825;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=135279;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,   [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.007853981107473373[0m[2;93m, [0m[1;2;36m0.007853981107473373[0m[1;2;93m)[0m[2;93m        [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:06][0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m5000[0m[2;93m  [0m ]8;id=504078;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=482970;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m4[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.STEPS_PER_REV_MOTOR_AXIS to [0m[1;2;36m5000[0m[2;93m  [0m ]8;id=527707;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=93573;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m5[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=631084;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=109312;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.CONVERSION_RATE_AXIS_JOINTS          [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to    [0m ]8;id=522974;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=182115;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m1.128[0m[2;93m for joint [0m[1;2;36m0[0m[2;93m                                  [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m,             [0m ]8;id=579853;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=860015;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,   [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m                                          [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to    [0m ]8;id=134049;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=741270;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m2.128[0m[2;93m for joint [0m[1;2;36m1[0m[2;93m                                  [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to    [0m ]8;id=505876;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=973682;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m3.128[0m[2;93m for joint [0m[1;2;36m2[0m[2;93m                                  [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to    [0m ]8;id=290430;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=775395;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m4.128[0m[2;93m for joint [0m[1;2;36m3[0m[2;93m                                  [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=255698;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=487339;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to    [0m ]8;id=639842;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=597109;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m5.128[0m[2;93m for joint [0m[1;2;36m4[0m[2;93m                                  [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to    [0m ]8;id=530342;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=694921;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m6.128[0m[2;93m for joint [0m[1;2;36m5[0m[2;93m                                  [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=284747;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=644932;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.CONVERSION_RATE_AXIS_JOINTS          [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=827419;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=690408;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m0[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=464252;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=959311;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=560308;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=365055;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m1[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=600553;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=268146;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m2[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=827695;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=620546;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m3[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=828322;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=717736;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=432604;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=850441;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m4[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.CONVERSION_RATE_AXIS_JOINTS to [0m[1;2;36m1[0m[2;93m  [0m ]8;id=86725;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=700084;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[2;93mfor joint [0m[1;2;36m5[0m[2;93m                                        [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=73151;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=286802;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.HOMING_OFFSET_RADS                   [0m [2m                      [0m
+[2;36m[22:22:07][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=618045;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=956368;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=577376;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=833024;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.4487989505128276[0m[2;93m for joint [0m[1;2;36m0[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=864251;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=148020;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m1.4487989505128276[0m[2;93m for joint [0m[1;2;36m1[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=437128;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=238311;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m2.4487989505128276[0m[2;93m for joint [0m[1;2;36m2[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=902226;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=814870;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m3.4487989505128276[0m[2;93m for joint [0m[1;2;36m3[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=528328;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=786320;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=946366;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=541516;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m4.448798950512828[0m[2;93m for joint [0m[1;2;36m4[0m[2;93m                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=905309;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=176774;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m5.448798950512828[0m[2;93m for joint [0m[1;2;36m5[0m[2;93m                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_joint_settings for         [0m ]8;id=152192;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=679138;file:///app/src/robot_arm_controller/tests/test_controller.py#112\[2m112[0m]8;;\
+[2;36m           [0m[1;33mSettings.HOMING_OFFSET_RADS                   [0m [2m                      [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=792867;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=394499;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=199359;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=689613;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.7853981633974483[0m[2;93m for joint [0m[1;2;36m0[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=393819;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=97629;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.7853981633974483[0m[2;93m for joint [0m[1;2;36m1[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=129387;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=685450;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.7853981633974483[0m[2;93m for joint [0m[1;2;36m2[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=995023;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=383539;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.7853981633974483[0m[2;93m for joint [0m[1;2;36m3[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=413327;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=725571;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=625687;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=900010;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.7853981633974483[0m[2;93m for joint [0m[1;2;36m4[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.HOMING_OFFSET_RADS to             [0m ]8;id=245507;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=323074;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m           [0m[1;2;36m0.7853981633974483[0m[2;93m for joint [0m[1;2;36m5[0m[2;93m                     [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=521866;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=272598;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[1;2;93m][0m[2;93m               [0m ]8;id=69238;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=834173;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=432222;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=307977;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=153775;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=933846;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.4[0m[2;93m for joint [0m[1;2;36m0[0m ]8;id=594786;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=28819;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.4[0m[2;93m for joint [0m[1;2;36m1[0m ]8;id=830438;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=383081;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.4[0m[2;93m for joint [0m[1;2;36m2[0m ]8;id=37355;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=259496;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.00125663704238832[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m,        [0m ]8;id=248216;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=337719;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.00041887903353199363[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m)[0m[2;93m             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.4[0m[2;93m for joint [0m[1;2;36m3[0m ]8;id=388906;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=634566;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.4[0m[2;93m for joint [0m[1;2;36m4[0m ]8;id=371383;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=193667;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m[22:22:08][0m[2;36m [0m[2;93mSetting Settings.SPEED_RAD_PER_S to [0m[1;2;36m0.4[0m[2;93m for joint [0m[1;2;36m5[0m ]8;id=513616;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=33557;file:///app/src/robot_arm_controller/controller.py#292\[2m292[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m-1[0m[2;93m, [0m[1;2;36m-1[0m[2;93m, [0m[1;2;36m-1[0m[2;93m, [0m[1;2;36m-1[0m[2;93m, [0m[1;2;36m-1[0m[2;93m, [0m[1;2;36m-1[0m[1;2;93m][0m[2;93m         [0m ]8;id=73051;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=614482;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0.7[0m[2;93m, [0m[1;2;36m0.7[0m[2;93m, [0m[1;2;36m0.7[0m[2;93m, [0m[1;2;36m0.7[0m[2;93m, [0m[1;2;36m0.7[0m[2;93m, [0m[1;2;36m0.7[0m[1;2;93m][0m[2;93m   [0m ]8;id=863617;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=75730;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.02387610450387001[0m[2;93m,             [0m ]8;id=117686;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=464360;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.022619467228651047[0m[2;93m, [0m[1;2;36m-0.021362829953432083[0m[2;93m,      [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.022619467228651047[0m[2;93m, [0m[1;2;36m-0.022619467228651047[0m[2;93m,      [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.022619467228651047[0m[1;2;93m)[0m[2;93m                             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0.8[0m[2;93m, [0m[1;2;36m0.8[0m[2;93m, [0m[1;2;36m0.8[0m[2;93m, [0m[1;2;36m0.8[0m[2;93m, [0m[1;2;36m0.8[0m[2;93m, [0m[1;2;36m0.8[0m[1;2;93m][0m[2;93m   [0m ]8;id=870893;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=123896;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0.9[0m[2;93m, [0m[1;2;36m0.9[0m[2;93m, [0m[1;2;36m0.9[0m[2;93m, [0m[1;2;36m0.9[0m[2;93m, [0m[1;2;36m0.9[0m[2;93m, [0m[1;2;36m0.9[0m[1;2;93m][0m[2;93m   [0m ]8;id=500896;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=159727;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mSetting tool value to: [0m[1;2;36m1[0m[2;93m                           [0m ]8;id=759269;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=458108;file:///app/src/robot_arm_controller/controller.py#243\[2m243[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=212112;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=941341;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.08796459436416626[0m[2;93m,             [0m ]8;id=735020;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=862640;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.0867079570889473[0m[2;93m, [0m[1;2;36m-0.08545131981372833[0m[2;93m,         [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.0867079570889473[0m[2;93m, [0m[1;2;36m-0.0867079570889473[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.0867079570889473[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.14451326429843903[0m[2;93m,             [0m ]8;id=333763;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=779536;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.14325663447380066[0m[2;93m, [0m[1;2;36m-0.1419999897480011[0m[2;93m,         [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.14325663447380066[0m[2;93m, [0m[1;2;36m-0.14325663447380066[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.14325663447380066[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.20860174298286438[0m[2;93m,             [0m ]8;id=7993;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=898773;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.207345113158226[0m[2;93m, [0m[1;2;36m-0.20608848333358765[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.207345113158226[0m[2;93m, [0m[1;2;36m-0.207345113158226[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.207345113158226[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.26138052344322205[0m[2;93m,             [0m ]8;id=888663;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=890747;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.2601238787174225[0m[2;93m, [0m[1;2;36m-0.2588672339916229[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.2601238787174225[0m[2;93m, [0m[1;2;36m-0.2601238787174225[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.2601238787174225[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.3216990828514099[0m[2;93m,              [0m ]8;id=474834;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=894356;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.32044243812561035[0m[2;93m, [0m[1;2;36m-0.3191858232021332[0m[2;93m,         [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.32044243812561035[0m[2;93m, [0m[1;2;36m-0.32044243812561035[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.32044243812561035[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:09][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.3744778335094452[0m[2;93m,              [0m ]8;id=817906;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=533077;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.373221218585968[0m[2;93m, [0m[1;2;36m-0.37196457386016846[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.373221218585968[0m[2;93m, [0m[1;2;36m-0.373221218585968[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.373221218585968[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.43102651834487915[0m[2;93m,             [0m ]8;id=108350;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=408021;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.429769903421402[0m[2;93m, [0m[1;2;36m-0.42851322889328003[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.429769903421402[0m[2;93m, [0m[1;2;36m-0.429769903421402[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.429769903421402[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.5139645338058472[0m[2;93m,              [0m ]8;id=802445;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=303876;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.5127079486846924[0m[2;93m, [0m[1;2;36m-0.5114513039588928[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5127079486846924[0m[2;93m, [0m[1;2;36m-0.5127079486846924[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5127079486846924[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.547893762588501[0m[2;93m,               [0m ]8;id=133490;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=265867;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.5466371178627014[0m[2;93m, [0m[1;2;36m-0.5453804731369019[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5466371178627014[0m[2;93m, [0m[1;2;36m-0.5466371178627014[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5466371178627014[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.6006725430488586[0m[2;93m,              [0m ]8;id=983560;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=915189;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.5994158387184143[0m[2;93m, [0m[1;2;36m-0.5981592535972595[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5994158387184143[0m[2;93m, [0m[1;2;36m-0.5994158387184143[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5994158387184143[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.6534512639045715[0m[2;93m,              [0m ]8;id=75187;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=999241;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.652194619178772[0m[2;93m, [0m[1;2;36m-0.6509380340576172[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.652194619178772[0m[2;93m, [0m[1;2;36m-0.652194619178772[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.652194619178772[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.7175397872924805[0m[2;93m,              [0m ]8;id=807078;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=872733;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.7162831425666809[0m[2;93m, [0m[1;2;36m-0.7150264382362366[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.7162831425666809[0m[2;93m, [0m[1;2;36m-0.7162831425666809[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.7162831425666809[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:10][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.8230972290039062[0m[2;93m,              [0m ]8;id=183866;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=404392;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.8218405842781067[0m[2;93m, [0m[1;2;36m-0.8205840587615967[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8218405842781067[0m[2;93m, [0m[1;2;36m-0.8218405842781067[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8218405842781067[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.8419468402862549[0m[2;93m,              [0m ]8;id=374691;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=447095;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.8406901955604553[0m[2;93m, [0m[1;2;36m-0.8394335508346558[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8406901955604553[0m[2;93m, [0m[1;2;36m-0.8406901955604553[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8406901955604553[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.8947255611419678[0m[2;93m,              [0m ]8;id=258942;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=550124;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.8934689164161682[0m[2;93m, [0m[1;2;36m-0.8922123312950134[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8934689164161682[0m[2;93m, [0m[1;2;36m-0.8934689164161682[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8934689164161682[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.9588140845298767[0m[2;93m,              [0m ]8;id=685836;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=522450;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.9575574398040771[0m[2;93m, [0m[1;2;36m-0.9563007950782776[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.9575574398040771[0m[2;93m, [0m[1;2;36m-0.9575574398040771[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.9575574398040771[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m5[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.9889733195304871[0m[2;93m,              [0m ]8;id=964140;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=161881;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.9877166748046875[0m[2;93m, [0m[1;2;36m-0.9877166748046875[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.9877166748046875[0m[2;93m, [0m[1;2;36m-0.9877166748046875[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.9877166748046875[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:11][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.8645663261413574[0m[2;93m,              [0m ]8;id=103667;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=872038;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.8633096814155579[0m[2;93m, [0m[1;2;36m-0.8633096814155579[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8633096814155579[0m[2;93m, [0m[1;2;36m-0.8633096814155579[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8633096814155579[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.8645663261413574[0m[2;93m,              [0m ]8;id=683161;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=843597;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.8633096814155579[0m[2;93m, [0m[1;2;36m-0.8633096814155579[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8633096814155579[0m[2;93m, [0m[1;2;36m-0.8633096814155579[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8633096814155579[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.8042477369308472[0m[2;93m,              [0m ]8;id=859764;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=765346;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.8029910922050476[0m[2;93m, [0m[1;2;36m-0.8029910922050476[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8029910922050476[0m[2;93m, [0m[1;2;36m-0.8029910922050476[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.8029910922050476[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.7439291477203369[0m[2;93m,              [0m ]8;id=171425;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=830119;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.7426725029945374[0m[2;93m, [0m[1;2;36m-0.7426725029945374[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.7426725029945374[0m[2;93m, [0m[1;2;36m-0.7426725029945374[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.7426725029945374[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.679840624332428[0m[2;93m,               [0m ]8;id=19863;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=9767;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.6785840392112732[0m[2;93m, [0m[1;2;36m-0.6785840392112732[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.6785840392112732[0m[2;93m, [0m[1;2;36m-0.6785840392112732[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.6785840392112732[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.6232920289039612[0m[2;93m,              [0m ]8;id=776841;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=321067;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.6220353245735168[0m[2;93m, [0m[1;2;36m-0.6220353245735168[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.6220353245735168[0m[2;93m, [0m[1;2;36m-0.6220353245735168[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.6220353245735168[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.5629733800888062[0m[2;93m,              [0m ]8;id=438585;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=369117;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.5617167949676514[0m[2;93m, [0m[1;2;36m-0.5617167949676514[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5617167949676514[0m[2;93m, [0m[1;2;36m-0.5617167949676514[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.5617167949676514[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:12][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.5064247250556946[0m[2;93m,              [0m ]8;id=6987;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=814008;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.505168080329895[0m[2;93m, [0m[1;2;36m-0.505168080329895[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.505168080329895[0m[2;93m, [0m[1;2;36m-0.505168080329895[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.505168080329895[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.4536459743976593[0m[2;93m,              [0m ]8;id=503021;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=157081;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.45238932967185974[0m[2;93m, [0m[1;2;36m-0.45238932967185974[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.45238932967185974[0m[2;93m, [0m[1;2;36m-0.45238932967185974[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.45238932967185974[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.3707079291343689[0m[2;93m,              [0m ]8;id=306539;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=954971;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.3694513142108917[0m[2;93m, [0m[1;2;36m-0.3694513142108917[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.3694513142108917[0m[2;93m, [0m[1;2;36m-0.3694513142108917[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.3694513142108917[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.3367787301540375[0m[2;93m,              [0m ]8;id=959671;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=933469;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.3355220854282379[0m[2;93m, [0m[1;2;36m-0.3355220854282379[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.3355220854282379[0m[2;93m, [0m[1;2;36m-0.3355220854282379[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.3355220854282379[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.2726902365684509[0m[2;93m,              [0m ]8;id=96584;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=556115;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.27143362164497375[0m[2;93m, [0m[1;2;36m-0.27143362164497375[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.27143362164497375[0m[2;93m, [0m[1;2;36m-0.27143362164497375[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.27143362164497375[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.21237164735794067[0m[2;93m,             [0m ]8;id=471146;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=857258;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.2111150175333023[0m[2;93m, [0m[1;2;36m-0.2111150175333023[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.2111150175333023[0m[2;93m, [0m[1;2;36m-0.2111150175333023[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.2111150175333023[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.13697344064712524[0m[2;93m,             [0m ]8;id=270422;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=572455;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.13571681082248688[0m[2;93m, [0m[1;2;36m-0.13571681082248688[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.13571681082248688[0m[2;93m, [0m[1;2;36m-0.13571681082248688[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.13571681082248688[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:13][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.09550441801548004[0m[2;93m,             [0m ]8;id=810917;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=12112;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.09424778074026108[0m[2;93m, [0m[1;2;36m-0.09424778074026108[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.09424778074026108[0m[2;93m, [0m[1;2;36m-0.09424778074026108[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.09424778074026108[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m-0.038955751806497574[0m[2;93m,            [0m ]8;id=424893;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=841972;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m-0.03769911080598831[0m[2;93m, [0m[1;2;36m-0.03769911080598831[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.03769911080598831[0m[2;93m, [0m[1;2;36m-0.03769911080598831[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m-0.03769911080598831[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.025132741779088974[0m[2;93m,             [0m ]8;id=850267;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=514271;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.02638937719166279[0m[2;93m, [0m[1;2;36m0.02638937719166279[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.02638937719166279[0m[2;93m, [0m[1;2;36m0.02638937719166279[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.02638937719166279[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.07791150361299515[0m[2;93m,              [0m ]8;id=520453;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=637558;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.07916813343763351[0m[2;93m, [0m[1;2;36m0.07916813343763351[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.07916813343763351[0m[2;93m, [0m[1;2;36m0.07916813343763351[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.07916813343763351[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.1382300704717636[0m[2;93m,               [0m ]8;id=467848;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=576438;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.13948671519756317[0m[2;93m, [0m[1;2;36m0.13948671519756317[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.13948671519756317[0m[2;93m, [0m[1;2;36m0.13948671519756317[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.13948671519756317[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.20231857895851135[0m[2;93m,              [0m ]8;id=613365;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=67109;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.20357520878314972[0m[2;93m, [0m[1;2;36m0.20357520878314972[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.20357520878314972[0m[2;93m, [0m[1;2;36m0.20357520878314972[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.20357520878314972[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:14][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.28525662422180176[0m[2;93m,              [0m ]8;id=282767;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=933427;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2865132689476013[0m[2;93m, [0m[1;2;36m0.2865132689476013[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.2865132689476013[0m[2;93m, [0m[1;2;36m0.2865132689476013[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.2865132689476013[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.3154159188270569[0m[2;93m,               [0m ]8;id=883539;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=777445;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.31667253375053406[0m[2;93m, [0m[1;2;36m0.31667253375053406[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.31667253375053406[0m[2;93m, [0m[1;2;36m0.31667253375053406[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.31667253375053406[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.37950441241264343[0m[2;93m,              [0m ]8;id=181170;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=570942;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.3807610273361206[0m[2;93m, [0m[1;2;36m0.3807610273361206[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3807610273361206[0m[2;93m, [0m[1;2;36m0.3807610273361206[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3807610273361206[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.4398229718208313[0m[2;93m,               [0m ]8;id=124329;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=97773;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.44107964634895325[0m[2;93m, [0m[1;2;36m0.44107964634895325[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.44107964634895325[0m[2;93m, [0m[1;2;36m0.44107964634895325[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.44107964634895325[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.49637165665626526[0m[2;93m,              [0m ]8;id=388744;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=17875;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.49762827157974243[0m[2;93m, [0m[1;2;36m0.49762827157974243[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.49762827157974243[0m[2;93m, [0m[1;2;36m0.49762827157974243[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.49762827157974243[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.5943893194198608[0m[2;93m,               [0m ]8;id=489893;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=360689;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.5956459641456604[0m[2;93m, [0m[1;2;36m0.5956459641456604[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5956459641456604[0m[2;93m, [0m[1;2;36m0.5956459641456604[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5956459641456604[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.6132388710975647[0m[2;93m,               [0m ]8;id=898652;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=235129;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.6144955158233643[0m[2;93m, [0m[1;2;36m0.6144955158233643[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6144955158233643[0m[2;93m, [0m[1;2;36m0.6144955158233643[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6144955158233643[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:15][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.6773273944854736[0m[2;93m,               [0m ]8;id=2232;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=229245;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.6785840392112732[0m[2;93m, [0m[1;2;36m0.6785840392112732[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6785840392112732[0m[2;93m, [0m[1;2;36m0.6785840392112732[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6785840392112732[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m4[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8218405842781067[0m[2;93m,               [0m ]8;id=32555;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=45420;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8218405842781067[0m[2;93m, [0m[1;2;36m0.8218405842781067[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8218405842781067[0m[2;93m, [0m[1;2;36m0.8218405842781067[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8218405842781067[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m2[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8256105780601501[0m[2;93m,               [0m ]8;id=668615;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=2839;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8256105780601501[0m[2;93m, [0m[1;2;36m0.8256105780601501[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8256105780601501[0m[2;93m, [0m[1;2;36m0.8256105780601501[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8256105780601501[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m2[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8633096814155579[0m[2;93m,               [0m ]8;id=141340;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=9831;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8633096814155579[0m[2;93m, [0m[1;2;36m0.8633096814155579[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8633096814155579[0m[2;93m, [0m[1;2;36m0.8633096814155579[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8633096814155579[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m2[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=986545;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=156690;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.0[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=327319;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=927501;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.09424778074026108[0m[2;93m                 [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:16][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=591160;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=211019;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.3141592741012573[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=257372;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=771724;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.3769911229610443[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=527170;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=977181;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.5026547908782959[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=834481;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=445968;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.6283185482025146[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=586927;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=101125;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.8796459436416626[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8997520804405212[0m[2;93m,               [0m ]8;id=410179;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=246580;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[2;93m, [0m[1;2;36m0.8997520804405212[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8997520804405212[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.8796459436416626[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=612055;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=301958;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[1;2;93m][0m[2;93m               [0m ]8;id=608074;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=250947;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=923395;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=239977;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m[22:22:17][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.8620530366897583[0m[2;93m,               [0m ]8;id=513221;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=963267;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.8620530366897583[0m[2;93m, [0m[1;2;36m0.8620530366897583[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8620530366897583[0m[2;93m, [0m[1;2;36m0.8620530366897583[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.8620530366897583[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.801734447479248[0m[2;93m,                [0m ]8;id=808893;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=10325;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.801734447479248[0m[2;93m, [0m[1;2;36m0.801734447479248[0m[2;93m,              [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.801734447479248[0m[2;93m, [0m[1;2;36m0.801734447479248[0m[2;93m,              [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.801734447479248[0m[1;2;93m)[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.7414158582687378[0m[2;93m,               [0m ]8;id=552769;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=893908;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.7414158582687378[0m[2;93m, [0m[1;2;36m0.7414158582687378[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.7414158582687378[0m[2;93m, [0m[1;2;36m0.7414158582687378[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.7414158582687378[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.673557460308075[0m[2;93m,                [0m ]8;id=384507;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=118225;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.673557460308075[0m[2;93m, [0m[1;2;36m0.673557460308075[0m[2;93m,              [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.673557460308075[0m[2;93m, [0m[1;2;36m0.673557460308075[0m[2;93m,              [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.673557460308075[0m[1;2;93m)[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.5453804731369019[0m[2;93m,               [0m ]8;id=244834;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=585357;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.5453804731369019[0m[2;93m, [0m[1;2;36m0.5453804731369019[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5453804731369019[0m[2;93m, [0m[1;2;36m0.5453804731369019[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5453804731369019[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.5453804731369019[0m[2;93m,               [0m ]8;id=810071;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=810960;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.5453804731369019[0m[2;93m, [0m[1;2;36m0.5453804731369019[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5453804731369019[0m[2;93m, [0m[1;2;36m0.5453804731369019[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5453804731369019[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:18][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.4888318181037903[0m[2;93m,               [0m ]8;id=379489;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=798728;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.4888318181037903[0m[2;93m, [0m[1;2;36m0.4888318181037903[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4888318181037903[0m[2;93m, [0m[1;2;36m0.4888318181037903[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4888318181037903[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.3493450880050659[0m[2;93m,               [0m ]8;id=595226;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=861284;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.3493450880050659[0m[2;93m, [0m[1;2;36m0.3493450880050659[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3493450880050659[0m[2;93m, [0m[1;2;36m0.3493450880050659[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3493450880050659[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.3493450880050659[0m[2;93m,               [0m ]8;id=731579;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=975763;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.3493450880050659[0m[2;93m, [0m[1;2;36m0.3493450880050659[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3493450880050659[0m[2;93m, [0m[1;2;36m0.3493450880050659[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3493450880050659[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.3078760802745819[0m[2;93m,               [0m ]8;id=723663;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=801106;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.3078760802745819[0m[2;93m, [0m[1;2;36m0.3078760802745819[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3078760802745819[0m[2;93m, [0m[1;2;36m0.3078760802745819[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3078760802745819[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.25509732961654663[0m[2;93m,              [0m ]8;id=372123;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=207659;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.25509732961654663[0m[2;93m, [0m[1;2;36m0.25509732961654663[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.25509732961654663[0m[2;93m, [0m[1;2;36m0.25509732961654663[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.25509732961654663[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.1872389167547226[0m[2;93m,               [0m ]8;id=340154;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=382527;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.1872389167547226[0m[2;93m, [0m[1;2;36m0.1872389167547226[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.1872389167547226[0m[2;93m, [0m[1;2;36m0.1872389167547226[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.1872389167547226[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:19][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.13069026172161102[0m[2;93m,              [0m ]8;id=395070;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=893124;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.13069026172161102[0m[2;93m, [0m[1;2;36m0.13069026172161102[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.13069026172161102[0m[2;93m, [0m[1;2;36m0.13069026172161102[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.13069026172161102[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.06660176068544388[0m[2;93m,              [0m ]8;id=709537;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=627782;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.06660176068544388[0m[2;93m, [0m[1;2;36m0.06660176068544388[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.06660176068544388[0m[2;93m, [0m[1;2;36m0.06660176068544388[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.06660176068544388[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.0062831854447722435[0m[2;93m,            [0m ]8;id=129644;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=626231;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.0062831854447722435[0m[2;93m, [0m[1;2;36m0.0062831854447722435[0m[2;93m,      [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.0062831854447722435[0m[2;93m, [0m[1;2;36m0.0062831854447722435[0m[2;93m,      [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.0062831854447722435[0m[1;2;93m)[0m[2;93m                             [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=652201;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=827286;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0m[1;33mRunning test: test_move_to                     [0m ]8;id=222324;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=459813;file:///app/src/robot_arm_controller/tests/test_controller.py#69\[2m69[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0.1[0m[2;93m, [0m[1;2;36m0.2[0m[2;93m, [0m[1;2;36m0.3[0m[2;93m, [0m[1;2;36m0.4[0m[2;93m, [0m[1;2;36m0.5[0m[2;93m, [0m[1;2;36m0.6[0m[1;2;93m][0m[2;93m   [0m ]8;id=941213;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=44323;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=169521;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=458043;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.012566370889544487[0m[2;93m,             [0m ]8;id=487651;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=712005;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.012566370889544487[0m[2;93m, [0m[1;2;36m0.012566370889544487[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.012566370889544487[0m[2;93m, [0m[1;2;36m0.012566370889544487[0m[2;93m,        [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.012566370889544487[0m[1;2;93m)[0m[2;93m                              [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.07665485888719559[0m[2;93m,              [0m ]8;id=567805;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=221650;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.07665485888719559[0m[2;93m, [0m[1;2;36m0.07665485888719559[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.07665485888719559[0m[2;93m, [0m[1;2;36m0.07665485888719559[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.07665485888719559[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=338341;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=950262;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.17090263962745667[0m[2;93m, [0m[1;2;36m0.17090263962745667[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.17090263962745667[0m[2;93m, [0m[1;2;36m0.17090263962745667[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.17090263962745667[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:20][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=174304;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=39726;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.21237164735794067[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.21237164735794067[0m[2;93m, [0m[1;2;36m0.21237164735794067[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.21237164735794067[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=516120;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=757314;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.26138052344322205[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.26138052344322205[0m[2;93m, [0m[1;2;36m0.26138052344322205[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.26138052344322205[0m[1;2;93m)[0m[2;93m                               [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=185293;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=335161;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.29907962679862976[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3254690170288086[0m[2;93m, [0m[1;2;36m0.3254690170288086[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3254690170288086[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=645959;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=641650;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.29907962679862976[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.400867223739624[0m[2;93m, [0m[1;2;36m0.4046371579170227[0m[2;93m,             [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4046371579170227[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=431593;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=739741;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.29907962679862976[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.400867223739624[0m[2;93m, [0m[1;2;36m0.4461061656475067[0m[2;93m,             [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4461061656475067[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=652839;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=84863;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.29907962679862976[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.400867223739624[0m[2;93m, [0m[1;2;36m0.4988849461078644[0m[2;93m,             [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5064247250556946[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m[22:22:21][0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.09927432239055634[0m[2;93m,              [0m ]8;id=898227;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=877020;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2010619342327118[0m[2;93m, [0m[1;2;36m0.29907962679862976[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.400867223739624[0m[2;93m, [0m[1;2;36m0.4988849461078644[0m[2;93m,             [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.59690260887146[0m[1;2;93m)[0m[2;93m                                  [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=166368;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=62471;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0.2[0m[2;93m, [0m[1;2;36m0.3[0m[2;93m, [0m[1;2;36m0.4[0m[2;93m, [0m[1;2;36m0.5[0m[2;93m, [0m[1;2;36m0.6[0m[2;93m, [0m[1;2;36m0.7[0m[1;2;93m][0m[2;93m   [0m ]8;id=639471;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=740057;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=336918;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=213683;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.10681415349245071[0m[2;93m,              [0m ]8;id=624640;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=287115;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.20860174298286438[0m[2;93m, [0m[1;2;36m0.30661943554878235[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4084070324897766[0m[2;93m, [0m[1;2;36m0.5064247250556946[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6069557070732117[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.2010619342327118[0m[2;93m,               [0m ]8;id=921388;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=420420;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.29907962679862976[0m[2;93m, [0m[1;2;36m0.400867223739624[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4988849461078644[0m[2;93m, [0m[1;2;36m0.5994158387184143[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6999468207359314[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m0[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=756007;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=131380;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0mMoving to [1m[[0m[1;36m0.0[0m, [1;36m0.0[0m, [1;36m0.0[0m, [1;36m0.0[0m, [1;36m0.0[0m, [1;36m0.0[0m[1m][0m        ]8;id=207241;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=546918;file:///app/src/robot_arm_controller/tests/test_controller.py#83\[2m83[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[2;93m, [0m[1;2;36m0.0[0m[1;2;93m][0m[2;93m   [0m ]8;id=371294;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=219899;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=412035;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=180510;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mArm finished moving                                [0m ]8;id=972781;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=762612;file:///app/src/robot_arm_controller/controller.py#255\[2m255[0m]8;;\
+[2;36m          [0m[2;36m [0mCurrent angles: [1m([0m[1;36m0.2010619342327118[0m,            ]8;id=630387;file:///app/src/robot_arm_controller/tests/test_controller.py\[2mtest_controller.py[0m]8;;\[2m:[0m]8;id=502767;file:///app/src/robot_arm_controller/tests/test_controller.py#87\[2m87[0m]8;;\
+[2;36m           [0m[1;36m0.29907962679862976[0m, [1;36m0.400867223739624[0m,         [2m                     [0m
+[2;36m           [0m[1;36m0.4988849461078644[0m, [1;36m0.5994158387184143[0m,         [2m                     [0m
+[2;36m           [0m[1;36m0.6999468207359314[0m[1m)[0m                             [2m                     [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.18975220620632172[0m[2;93m,              [0m ]8;id=194442;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=503524;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.2877698838710785[0m[2;93m, [0m[1;2;36m0.38955748081207275[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.4875752031803131[0m[2;93m, [0m[1;2;36m0.5881061553955078[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.6886371374130249[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m1[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mMoving to angles: [0m[1;2;93m[[0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[2;93m, [0m[1;2;36m0[0m[1;2;93m][0m[2;93m               [0m ]8;id=456389;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=286619;file:///app/src/robot_arm_controller/controller.py#202\[2m202[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mWaiting for arm to finish moving                   [0m ]8;id=171212;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=803266;file:///app/src/robot_arm_controller/controller.py#251\[2m251[0m]8;;\
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.12566369771957397[0m[2;93m,              [0m ]8;id=6586;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=89436;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.22368139028549194[0m[2;93m, [0m[1;2;36m0.3254690170288086[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.42348670959472656[0m[2;93m, [0m[1;2;36m0.5240176916122437[0m[2;93m,           [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.624548614025116[0m[1;2;93m)[0m[2;93m                                 [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m2[0m[2;93m                                      [0m [2m                 [0m
+[2;36m          [0m[2;36m [0m[2;93mCurrent Angles: [0m[1;2;93m([0m[1;2;36m0.0691150352358818[0m[2;93m,               [0m ]8;id=690735;file:///app/src/robot_arm_controller/controller.py\[2mcontroller.py[0m]8;;\[2m:[0m]8;id=73171;file:///app/src/robot_arm_controller/controller.py#172\[2m172[0m]8;;\
+[2;36m           [0m[1;2;36m0.16713272035121918[0m[2;93m, [0m[1;2;36m0.26892033219337463[0m[2;93m,          [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.3669380247592926[0m[2;93m, [0m[1;2;36m0.4674689769744873[0m[2;93m,            [0m [2m                 [0m
+[2;36m           [0m[1;2;36m0.5679999589920044[0m[1;2;93m)[0m[2;93m                                [0m [2m                 [0m
+[2;36m           [0m[2;93mTool Position: [0m[1;2;36m0.9110618233680725[0m[2;93m                  [0m [2m                 [0m
+[2;36m           [0m[2;93mIs Homed: [0m[2;3;92mTrue[0m[2;93m                                     [0m [2m                 [0m
+[2;36m           [0m[2;93mQueue Size: [0m[1;2;36m2[0m[2;93m                                      [0m [2m                 [0m
