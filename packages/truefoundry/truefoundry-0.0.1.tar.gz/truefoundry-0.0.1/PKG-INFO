@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: truefoundry
+Version: 0.0.1
+Summary: Reserved package for future
+Author: Truefoundry Team
+Author-email: eng-team@truefoundry.com
+Requires-Python: >=3.8,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+Truefoundry Platform Client
+---
+
+Reserved for future development
+
