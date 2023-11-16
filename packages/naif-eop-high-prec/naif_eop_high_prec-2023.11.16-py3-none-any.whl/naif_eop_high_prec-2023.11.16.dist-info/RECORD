@@ -1,0 +1,12 @@
+naif_eop_high_prec/__init__.py,sha256=xoDehahX0OvBPqoM0_UnNWowzGImn-yaBBDq-ZvJltI,232
+naif_eop_high_prec/compare.py,sha256=xasM_stpZijhqj69cXYE-84oiTAChj2N52OiWHAl-pc,1329
+naif_eop_high_prec/earth_latest_high_prec.bpc,sha256=EpkAGoCDHjZFJ0798BEJSfsTFBRaKk10A8uHxaUVu9w,4592640
+naif_eop_high_prec/earth_latest_high_prec.md5,sha256=Lxpp4xUMXaO6HZoncE9ZHR9jaiq-R9NxtvdKeiax_QY,60
+naif_eop_high_prec/fetch.py,sha256=UVhhNUXwE3Zi4Uk35xZxYxksheDDRjxCDlQPq0E7YYA,2151
+naif_eop_high_prec/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+naif_eop_high_prec/tests/test_compare.py,sha256=OG4ZPCTPGL5slm-Ql-iRiHS8GsH-9O-uOq92gX2ezaQ,1164
+naif_eop_high_prec/tests/test_naif_eop_high_prec.py,sha256=0YN-Tt2n0Wp8oqR6SnX4nv5qJbmWMXUK9enqcYXpe-w,859
+naif_eop_high_prec-2023.11.16.dist-info/METADATA,sha256=G2hTzY6fB1jFWmSn-R-zDx62_gI94_E2m3Bc74Zy6IY,3001
+naif_eop_high_prec-2023.11.16.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+naif_eop_high_prec-2023.11.16.dist-info/top_level.txt,sha256=1XSY20DFr9ufQCka25engadAqQLW3paNKGU3TWwuuDU,19
+naif_eop_high_prec-2023.11.16.dist-info/RECORD,,
