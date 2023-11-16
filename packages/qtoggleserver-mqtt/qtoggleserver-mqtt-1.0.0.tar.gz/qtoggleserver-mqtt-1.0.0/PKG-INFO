@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qtoggleserver-mqtt
+Version: 1.0.0
+Summary: Publish qToggleServer events to an MQTT broker
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt
+Requires-Dist: aiomqtt
