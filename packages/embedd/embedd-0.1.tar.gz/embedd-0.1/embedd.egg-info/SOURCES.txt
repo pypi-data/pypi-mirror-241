@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+embed/__init__.py
+embed/embedd.py
+embedd.egg-info/PKG-INFO
+embedd.egg-info/SOURCES.txt
+embedd.egg-info/dependency_links.txt
+embedd.egg-info/requires.txt
+embedd.egg-info/top_level.txt
