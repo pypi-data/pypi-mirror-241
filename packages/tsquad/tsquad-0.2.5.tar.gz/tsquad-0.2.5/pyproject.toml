@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "tsquad"
+version = "0.2.5"
+description = "numeric quadrature using the Tanh-Sinh variable transformation"
+authors = ["Richard Hartmann <richard.hartmann@tu-dresden.de>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/cimatosa/tsquad"
+keywords = ["numerical-integration", "tanh-sinh-method", "Fourier-transform", "infinite-series"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mpmath = "^1.2.1"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+matplotlib = "^3.5.1"
+pytest = "^7.0.0"
+black = "^23.11.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
