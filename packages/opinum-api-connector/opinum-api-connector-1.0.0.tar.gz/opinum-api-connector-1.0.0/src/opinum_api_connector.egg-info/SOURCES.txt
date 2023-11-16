@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/opinum_api_connector/__init__.py
+src/opinum_api_connector.egg-info/PKG-INFO
+src/opinum_api_connector.egg-info/SOURCES.txt
+src/opinum_api_connector.egg-info/dependency_links.txt
+src/opinum_api_connector.egg-info/requires.txt
+src/opinum_api_connector.egg-info/top_level.txt
+tests/test_api_connector.py
+tests/test_api_connector_threads.py
