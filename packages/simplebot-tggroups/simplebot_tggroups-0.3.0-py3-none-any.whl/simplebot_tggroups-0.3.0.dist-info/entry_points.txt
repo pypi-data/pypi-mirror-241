@@ -1,0 +1,2 @@
+[simplebot.plugins]
+simplebot_tggroups = simplebot_tggroups

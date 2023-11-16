@@ -1,0 +1,11 @@
+simplebot_tggroups/__init__.py,sha256=8_NC0H1FFOQZ9YzQoO2enePHhK88oNB4vj9S6Gi-h4w,12454
+simplebot_tggroups/_version.py,sha256=Jk2iAU7m-7Vx9XV1TtdD9ZoJraIncDq_4_Wd-qtUotg,411
+simplebot_tggroups/orm.py,sha256=ECsaI6853tPBawvQAs-mEafrgjj5qwDfU2AA-AKm6kE,1103
+simplebot_tggroups/subcommands.py,sha256=GEP7Lb9H7dj0GbegY66wxPTutT0b37fTbSyujNaCQ4s,2198
+simplebot_tggroups/util.py,sha256=r1W7Pot8n4W0nITqD1ip-USBiQ17tz1hvVczQaxUMzw,1720
+simplebot_tggroups-0.3.0.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+simplebot_tggroups-0.3.0.dist-info/METADATA,sha256=HVTDXIjSVOQlLDNmL-ayWjOFIcW7IYYjFEAwERujlYg,4488
+simplebot_tggroups-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+simplebot_tggroups-0.3.0.dist-info/entry_points.txt,sha256=9KXNc-ofiKPvniZ7q0zKoH2jnlNjAaZ3JdoXLfdJ7nc,60
+simplebot_tggroups-0.3.0.dist-info/top_level.txt,sha256=plIOIVYvuR7dpSMRHtPKA_FCxJqpoKKQtXE2YW19YMo,19
+simplebot_tggroups-0.3.0.dist-info/RECORD,,
