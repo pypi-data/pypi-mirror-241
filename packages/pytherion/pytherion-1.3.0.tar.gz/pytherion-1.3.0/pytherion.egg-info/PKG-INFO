@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pytherion
+Version: 1.3.0
+Summary: Module that provides tools for manage data transformations for the software Therion
+Author: Xavier Robert
+Author-email: xavier.Robert@univ-grenoble-alpes.fr
+License: GPL-V3.0
+License-File: LICENCE.txt
+Requires-Dist: wget
+Requires-Dist: pyproj

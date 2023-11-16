@@ -1,0 +1,2 @@
+[console_scripts]
+pytro2th = pytro2th.command_line:main
