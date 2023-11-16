@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pysortpack/__init__.py
+pysortpack/sort.py
+pysortpack.egg-info/PKG-INFO
+pysortpack.egg-info/SOURCES.txt
+pysortpack.egg-info/dependency_links.txt
+pysortpack.egg-info/top_level.txt

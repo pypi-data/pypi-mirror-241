@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pysortpack
+Version: 0.0.2
+Summary: A package to perform different types Sorting algorithms.
+Home-page: https://github.com/J0schu/pysortpack
+Author: J0schu
+License: MIT
+Keywords: sort,sorting
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### sortpack
+A package to perform different types Sorting algorithms.
