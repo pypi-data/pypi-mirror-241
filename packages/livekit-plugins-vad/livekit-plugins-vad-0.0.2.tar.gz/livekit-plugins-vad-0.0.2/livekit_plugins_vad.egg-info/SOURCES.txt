@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+livekit/plugins/vad/__init__.py
+livekit/plugins/vad/vad.py
+livekit/plugins/vad/version.py
+livekit_plugins_vad.egg-info/PKG-INFO
+livekit_plugins_vad.egg-info/SOURCES.txt
+livekit_plugins_vad.egg-info/dependency_links.txt
+livekit_plugins_vad.egg-info/requires.txt
+livekit_plugins_vad.egg-info/top_level.txt
