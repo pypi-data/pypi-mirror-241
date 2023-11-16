@@ -1,0 +1,1 @@
+from gym_arenaxlabs.envs.mujoco.humanoid_obstacle import HumanoidObstacleEnv
