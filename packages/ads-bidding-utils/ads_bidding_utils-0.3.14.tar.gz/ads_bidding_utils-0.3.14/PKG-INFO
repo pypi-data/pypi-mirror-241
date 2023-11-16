@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ads_bidding_utils
+Version: 0.3.14
+Summary: Python package for ads bidding utils
+Home-page: https://github.com/sahelyiyi/ads-bidding-utils
+Author: Yasmin SarcheshmehPour
+Author-email: sarcheshmehpours@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
