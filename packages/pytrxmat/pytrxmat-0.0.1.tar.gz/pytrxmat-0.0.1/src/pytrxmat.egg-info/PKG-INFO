@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytrxmat
+Version: 0.0.1
+Summary: A package to easily open trx.mat files in use at the Decision & Bayesian Computation lab at the Pasteur Institute in Paris
+Author-email: Alexandre Blanc <aleblanc@pasteur.fr>
+Project-URL: Homepage, https://gitlab.pasteur.fr/nyx/pytrxmat
+Project-URL: Bug Tracker, https://gitlab.pasteur.fr/nyx/pytrxmat/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: h5py
+Requires-Dist: django>2.0; os_name == "nt"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+
+A package to easily open trx.mat files in use at the Decision & Bayesian Computation lab at the Pasteur Institute in Paris.

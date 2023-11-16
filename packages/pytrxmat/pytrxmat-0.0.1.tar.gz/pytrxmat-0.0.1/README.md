@@ -1,0 +1,1 @@
+A package to easily open trx.mat files in use at the Decision & Bayesian Computation lab at the Pasteur Institute in Paris.
