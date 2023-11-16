@@ -1,0 +1,15 @@
+#!/bin/bash
+
+nouveau_prefixe='image_'
+extension='.jpg'
+index=1
+
+# Utilisation d'une boucle for avec globbing pour éviter les problèmes avec ls
+for image_file in *.jpg; do
+    if [ -f "$image_file" ]; then
+        nouveau_nom="${nouveau_prefixe}$(printf "%03d" $index)${extension}"
+        mv "$image_file" "$nouveau_nom"
+        echo "Renommé $image_file en $nouveau_nom"
+        ((index++))
+    fi
+done
