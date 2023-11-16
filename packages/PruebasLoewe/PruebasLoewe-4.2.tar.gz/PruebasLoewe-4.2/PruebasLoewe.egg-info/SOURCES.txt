@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PruebasLoewe.egg-info/PKG-INFO
+PruebasLoewe.egg-info/SOURCES.txt
+PruebasLoewe.egg-info/dependency_links.txt
+PruebasLoewe.egg-info/requires.txt
+PruebasLoewe.egg-info/top_level.txt
+mensajes/__init__.py
+mensajes/despedidas/__init__.py
+mensajes/despedidas/despedir.py
+mensajes/saludos/__init__.py
+mensajes/saludos/saludar.py
+test/__init__.py
+test/test.py
