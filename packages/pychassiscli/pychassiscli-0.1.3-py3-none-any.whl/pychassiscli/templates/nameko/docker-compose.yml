@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+    name-service:
+      build:
+          context: .
+          dockerfile: ./Dockerfile
+      image: nameko-service:latest
+      restart: always
+      volumes:
+        - .:/app
+      environment:
+        TZ: "Asia/Shanghai"
+        LOG_LEVEL: "DEBUG"
+      env_file:
+        - .nameko.env
+      working_dir: /app
+      tty: true
+      command: ["sh", "docker-deploy.sh", "./admin/config.yml", "admin.admin"]
+      deploy:
+        mode: replicated
+        replicas: 3
+      networks:
+        - nameko-service
+
+networks:
+  nameko-service:
+    driver: bridge
