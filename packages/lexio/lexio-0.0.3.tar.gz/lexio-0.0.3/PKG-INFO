@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: lexio
+Version: 0.0.3
+Summary: lexIO is a Natural Language Processing (NLP) library in python that is built on top of the numpy library.
+Author: Rijul Dhungana
+Author-email: rijuldhungana37@gmail.com
+Keywords: lexio,nlp,language
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+
+# lexIO
+
+lexIO is a Natural Language Processing (NLP) library in python that is built on top of the numpy library.
+
+lexIO allows you to do some basic NLP tasks like guessing the topic of an essay, finding the most used words in an essay, removing the stopwords and many more to come in the future.
+
+**Installing lexIO** 
+
+*Using pip*
+```
+pip install lexio
+```
+
+or 
+
+```
+pip3 install lexio
+```
+
+*Using conda*
+```
+conda install lexio
+```
+
+**Using lexIO**
+
+* Import lexIO 
+```
+import lexio
+```
+
+* Create a 'language_processor' object
+```
+processor = lexio.language_processor()
+```
+
+* Load the text either your own or from lexio.datasets
+
+*Your text*
+
+```
+text = "lexIO is a Natural Language Processing (NLP) library in python"
+```
+now you can get the topic by
+
+```
+processor.get_topic(text)
+output: lexio
+```
+
+note: The output is automatically lowercased by the processor
+
+The 'get_topic' function automatically tokenizes the text, but it you want to do it manually, you can:
+
+```
+text = 'lexIO is a Natural Language Processing (NLP) library in python
+
+#tokenizing
+tokenized = processor.tokenize(text)
+
+#guessing the topic
+processor.get_topic(tokenized, tokenized=True)
+output: lexio
+```
+
+You can get the most repeated words in the text after removing all the stopwords
+
+Stopwords are all the unnecessary words that dont have their own meaning like is, am, are, hello, they, you etc
+
+```
+processor.highlights(text, highlights=5)
+output: {'python': 1, 'library': 1, 'nlp': 1, 'processing': 1, 'language': 1}
+```
+This will return the Top-5 most repeated words 
+
+*Importing pre-built text datasets*
+
+```
+apple = lexio.datasets.load_apple
+google = lexio.datasets.load_google
+```
+
+for more datasets, use:
+```
+print(dir(lexio.datasets.availables))
+output: ['load_apple', 'load_earth', 'load_nepal', 'load_AI', 'load_discipline', 'load_essay_AI', 'load_nature', 'load_google']
+```

@@ -1,0 +1,10 @@
+setup.py
+lexio/__init__.py
+lexio.egg-info/PKG-INFO
+lexio.egg-info/SOURCES.txt
+lexio.egg-info/dependency_links.txt
+lexio.egg-info/requires.txt
+lexio.egg-info/top_level.txt
+lexio/core/__init__.py
+lexio/core/dataset.py
+lexio/core/lexio.py
