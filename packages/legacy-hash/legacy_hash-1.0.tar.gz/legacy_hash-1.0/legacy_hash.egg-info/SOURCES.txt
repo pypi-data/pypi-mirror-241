@@ -1,0 +1,6 @@
+legacy_hash.c
+setup.py
+legacy_hash.egg-info/PKG-INFO
+legacy_hash.egg-info/SOURCES.txt
+legacy_hash.egg-info/dependency_links.txt
+legacy_hash.egg-info/top_level.txt
