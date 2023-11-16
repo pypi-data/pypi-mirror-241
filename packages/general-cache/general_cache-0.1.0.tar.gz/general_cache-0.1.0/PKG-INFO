@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: general-cache
+Version: 0.1.0
+Summary: 
+Author: sieginglion
+Author-email: sieginglion@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+```
+from general_cache import cached
+
+@cached(10)
+def f():
+    ...
+
+@cached(10)
+async def g():
+    ...
+```
+
