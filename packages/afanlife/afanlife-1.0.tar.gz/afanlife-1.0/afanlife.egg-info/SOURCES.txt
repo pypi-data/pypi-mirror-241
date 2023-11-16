@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+afanlife.egg-info/PKG-INFO
+afanlife.egg-info/SOURCES.txt
+afanlife.egg-info/dependency_links.txt
+afanlife.egg-info/requires.txt
+afanlife.egg-info/top_level.txt
