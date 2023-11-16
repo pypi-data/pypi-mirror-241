@@ -1,0 +1,9 @@
+arcparse/__init__.py,sha256=EV8h8TWR3D9rgGKAKfVgMsPna6-mydvtMu5fhTw97_M,229
+arcparse/argument.py,sha256=S3VPM1TbBHaebBLg8qh7YufGtHUf_HH2PLxqz2E4EDI,5605
+arcparse/parser.py,sha256=xKp5fDw2pxY36uPZBPWCQiEze8N4-Vkjl_TIaCy7J9E,9295
+arcparse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcparse/subparser.py,sha256=9OTMSiEY1nOZGhgaUgroGt3HccotGxzk7lybjSxeOzY,1156
+arcparse-0.2.0.dist-info/LICENSE,sha256=9_tXM94CxGGpcZRCf_QJhyi5upvffqreVwjMt-FFX34,1064
+arcparse-0.2.0.dist-info/METADATA,sha256=AdwaktjsQedKnc0-VNw48xSsdDTDl31dbb2QMjH9UQQ,5510
+arcparse-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+arcparse-0.2.0.dist-info/RECORD,,
