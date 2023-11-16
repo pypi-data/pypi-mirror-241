@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+python/Math3d.egg-info/PKG-INFO
+python/Math3d.egg-info/SOURCES.txt
+python/Math3d.egg-info/dependency_links.txt
+python/Math3d.egg-info/not-zip-safe
+python/Math3d.egg-info/top_level.txt
+python/math3d/__init__.py
