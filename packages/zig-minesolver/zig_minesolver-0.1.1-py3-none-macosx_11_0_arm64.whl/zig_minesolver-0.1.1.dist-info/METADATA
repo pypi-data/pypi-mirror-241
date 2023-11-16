@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: zig-minesolver
+Version: 0.1.1
+Summary: Minesweeper solver in Zig
+Home-page: https://github.com/LewisGaul/minesolver
+Author: Lewis Gaul
+Maintainer: Lewis Gaul
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+
+# Minesweeper solver
+
+    A minesweeper solver written in Zig.
+
+
+    The following cell representations are used for input boards:
+    - `#` for an unclicked cell
+    - `<N>` where `N=0,1,2,...` is a number shown in a cell
+    - `.` as an alternative to `0` (since the number 0 is not normally shown)
+    - `*` to represent a single mine (may be a revealed mine or a flag)
+    - `*<N>` where `N=1,2,...` is the number of mines
+
+
+    Example usage:
+    ```
+    >>> import zig_minesolver
+    >>> board = """
+    ... # 2 # # #
+    ... # # # # #
+    ... # 3 # # #
+    ... # 2 # 4 #
+    ... # # # # #
+    ... """
+    >>> probs = zig_minesolver.get_board_probs(board, mines=8)
+    >>> print("
+".join(str(x) for x in probs))
+    [0.27108, 0.0, 0.27108, 0.31325, 0.31325]
+    [0.48594, 0.48594, 0.48594, 0.31325, 0.31325]
+    [0.26506, 0.0, 0.50602, 0.5494, 0.5494]
+    [0.26506, 0.0, 0.50602, 0.0, 0.5494]
+    [0.10843, 0.10843, 0.24096, 0.5494, 0.5494]
+    >>>
+    ```
+
+
