@@ -1,0 +1,12 @@
+README.md
+setup.py
+libit/__init__.py
+libit/asset.py
+libit/bs58.py
+libit/lib.py
+libit/reuse.py
+libit.egg-info/PKG-INFO
+libit.egg-info/SOURCES.txt
+libit.egg-info/dependency_links.txt
+libit.egg-info/requires.txt
+libit.egg-info/top_level.txt
