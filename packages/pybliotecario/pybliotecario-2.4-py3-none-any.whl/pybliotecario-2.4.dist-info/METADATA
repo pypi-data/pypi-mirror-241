@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pybliotecario
+Version: 2.4
+Summary: Personal telegram bot to interact between your Telegram account and your computer
+Author-email: juacrumar <juacrumar@lairen.eu>
+License: GPLv3
+Project-URL: repository, https://github.com/scarlehoff/pybliotecario
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: requests
+Requires-Dist: psutil
+Provides-Extra: arxiv
+Requires-Dist: arxiv ; extra == 'arxiv'
+Provides-Extra: facebook
+Requires-Dist: flask ; extra == 'facebook'
+Requires-Dist: requests-toolbelt ; extra == 'facebook'
+Provides-Extra: full
+Requires-Dist: pybliotecario[arxiv,facebook,github,image,stonks,tests,weather,wiki] ; extra == 'full'
+Provides-Extra: github
+Requires-Dist: pygithub ; extra == 'github'
+Provides-Extra: image
+Requires-Dist: pillow ; extra == 'image'
+Provides-Extra: stonks
+Requires-Dist: yahoo-fin ; extra == 'stonks'
+Requires-Dist: pandas ; extra == 'stonks'
+Provides-Extra: tests
+Requires-Dist: numpy ; extra == 'tests'
+Provides-Extra: weather
+Requires-Dist: pyowm ; extra == 'weather'
+Provides-Extra: wiki
+Requires-Dist: wikipedia ; extra == 'wiki'
+
