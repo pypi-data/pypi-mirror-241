@@ -1,0 +1,25 @@
+---
+const {
+    description
+} = Astro.props
+
+var structured = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    description: description
+}
+---
+
+{ description && 
+    <meta 
+        name=description property=og:description 
+        content={description}
+    >
+}
+<meta name=generator content={Astro.generator}>
+<script 
+    type=application/ld+json 
+    set:html={
+        JSON.stringify(structured)
+    } 
+/>

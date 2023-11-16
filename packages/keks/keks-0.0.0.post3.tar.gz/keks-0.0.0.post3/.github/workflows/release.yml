@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  release:
+    types: released
+
+  push:
+    tags: v*
+
+  workflow_dispatch:
+
+concurrency:
+  group: releases
+
+jobs:	
+  Release:
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      id-token: write
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          cache: pip
+          python-version: 3.x
+
+      - name: Release
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          generate_release_notes: true
+
+      - name: Get Version
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "VERSION=$(python -c "import keks;print(keks.__version__)")" >> $GITHUB_OUTPUT
+          echo "LEVEL=$(python -c "import keks;print(keks.version_info.releaselevel)")" >> $GITHUB_OUTPUT 
+        id: version
+
+      - name: Release
+        if: github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          name: ${{ steps.version.outputs.VERSION }}
+          tag_name: v${{ steps.version.outputs.VERSION }}
+          prerelease: ${{ steps.version.outputs.LEVEL != 'final' }}
+          generate_release_notes: true
+
+      - name: Install
+        run: python -m pip install flit
+
+      - name: Build
+        run: python -m flit build
+
+      - name: Publish
+        uses: pypa/gh-action-pypi-publish@release/v1

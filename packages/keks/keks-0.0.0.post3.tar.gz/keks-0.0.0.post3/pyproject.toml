@@ -1,0 +1,41 @@
+[project]
+name = "keks"
+readme = ".github/README.md"
+description = "for a school project"
+dynamic = [
+    "version"
+]
+keywords = []
+classifiers = [
+    "Topic :: Education",
+    "Natural Language :: German",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", 
+]
+requires-python = "~=3.11"
+dependencies = [
+    "typer[all]"
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Author = "https://github.com/katzensindniedlich"
+Source = "https://github.com/katzensindniedlich/keks"
+Webpage = "https://schokokeks.pages.dev"
+
+[project.optional-dependencies]
+
+
+[project.scripts]
+keks = "keks.__main__:app"
+
+[tool.setuptools]
+packages = [
+    "keks"
+]
+
+[tool.setuptools.dynamic]
+version.attr = "keks.__version__"

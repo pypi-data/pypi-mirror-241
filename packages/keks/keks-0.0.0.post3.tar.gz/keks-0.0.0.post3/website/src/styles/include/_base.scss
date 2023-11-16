@@ -1,0 +1,51 @@
+@mixin size($size) {
+    width: $size;
+    height: $size;
+}  
+
+@mixin to_css_vars($mapping) {
+    @each $name, $value in $mapping {
+      #{'--' + $name}: $value;
+    }
+}
+
+@mixin vendors($property, $value, $vendors...) {
+    #{$property}: $value;
+
+    @each $vendor in $vendors {
+        #{'-' + $vendor + '-' + $property}: $value;
+    }
+}
+
+@mixin with-vendors($mapping, $vendors...) {
+    @each $property, $value in $mapping {
+        #{$property}: $value;
+        
+        @each $vendor in $vendors {
+            #{'-' + $vendor + '-' + $property}: $value;
+        }
+    }
+}
+
+@function css_var($name, $fallback: null) {
+    @if ($fallback != null) {
+        @return var(--#{$name}, $fallback);
+    } @else {
+        @return var(--#{$name});
+    }
+}
+
+@function get($map, $key, $default: null) {
+    @if (map-has-key($map, $key)) {
+        @return map-get($map, $key);
+    }
+    @return $default;
+}
+
+@function icon($name, $type: svg) {
+    @return url("/assets/icons/#{$name}.#{$type}");
+}
+
+@function image($name, $type: png) {
+    @return url("/assets/images/#{$name}.#{$type}");
+}

@@ -1,0 +1,37 @@
+---
+import '@styles/global.scss'
+
+import { langtag } from '@config'
+
+import SEO from '@components/SEO.astro'
+import Favicon from '@components/Favicon.astro'
+import { ViewTransitions } from "astro:transitions"
+
+const { description } = Astro.props
+
+
+var title = Astro.props.title
+
+if (!title) {
+    const 
+        parts = Astro.url.pathname.split('/'),
+        name = parts.at(-1) || 'Home'
+
+    title = name.charAt(0).toUpperCase() + name.substring(1)
+}
+---
+
+<html lang={langtag}>
+    <head>
+        <meta charset=utf-8>
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <title>{title}</title>
+        <Favicon>
+        <slot name=head>
+        <ViewTransitions>
+        <SEO description={description}>
+    </head>
+    <body>
+        <slot>
+    </body>
+</html>

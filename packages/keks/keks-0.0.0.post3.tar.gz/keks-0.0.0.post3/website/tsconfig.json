@@ -1,0 +1,15 @@
+{
+    "extends": "astro/tsconfigs/strict",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@utils": ["utils.mts"],
+        "@config": ["config.mts"],
+        "@images/*": ["src/assets/images/*"],
+        "@public/*": ["public/*"],
+        "@styles/*": ["src/styles/*"],
+        "@layouts/*": ["src/layouts/*"],
+        "@components/*": ["src/components/*"]
+      }
+    }
+  }

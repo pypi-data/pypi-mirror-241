@@ -1,0 +1,47 @@
+name: Deploy
+
+on:
+  push:
+    paths: website/**
+
+concurrency:
+  group: deploys
+  cancel-in-progress: true
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    environment: deploy
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: website
+          sparse-checkout-cone-mode: false
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install
+        working-directory: website
+        run: bun install
+
+      - name: Build
+        working-directory: website
+        run: bun run build
+
+      - name: Deploy
+        uses: cloudflare/pages-action@v1
+        with:
+          directory: website/dist
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: schokokeks
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
