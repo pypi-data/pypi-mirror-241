@@ -1,0 +1,11 @@
+oopt_gnpy_libyang.cpython-310-darwin.so,sha256=X7Khdj65SXg3K1PeIg_pTHiZ-qeaWyOrENaUpFyi-Vo,714384
+oopt_gnpy_libyang-0.0.12.dist-info/RECORD,,
+oopt_gnpy_libyang-0.0.12.dist-info/LICENSE,sha256=FjN6cq2SN5gkwBOKWRIDhH8SZn2c3JUDCmMNUiyDEfk,1526
+oopt_gnpy_libyang-0.0.12.dist-info/WHEEL,sha256=pChVFIib0-UklMPPJWqUaA8JP9iVTmI8KC8ea2rd2k8,111
+oopt_gnpy_libyang-0.0.12.dist-info/top_level.txt,sha256=hT7dK99RvNkMRCceHlp3sCSxq6gQQ-0S-c4Md-EcLec,18
+oopt_gnpy_libyang-0.0.12.dist-info/METADATA,sha256=qhYZnv54sNBMS6UYGRnm1LnaeRnh2qpLfjD8-RWLczc,7063
+oopt_gnpy_libyang.dylibs/libstdc++.6.dylib,sha256=fjXZ_OqvsZ9rrU0snhwuXNkli_cndFKahwP18VTvUE0,3628848
+oopt_gnpy_libyang.dylibs/libpcre2-8.0.dylib,sha256=TtwCgZqhx5ToDzF_1UBIV9x6eGIof-5nuSOZzhxa_kM,611376
+oopt_gnpy_libyang.dylibs/libyang-cpp.dylib,sha256=6n5yr2gu0Yq8o0QgwqW4F2ssoK_pJl9qpnZllwhU0qY,423056
+oopt_gnpy_libyang.dylibs/libyang.2.45.1.dylib,sha256=S_wyxlFXSV6SB4H3GSTdMNxBitBNjQUIzXnRoI568RI,1385232
+oopt_gnpy_libyang.dylibs/libgcc_s.1.1.dylib,sha256=y-waQTeNKiTb8xBfNWLf5cp4X7vWMxlC4mJgH1HlSso,147472
