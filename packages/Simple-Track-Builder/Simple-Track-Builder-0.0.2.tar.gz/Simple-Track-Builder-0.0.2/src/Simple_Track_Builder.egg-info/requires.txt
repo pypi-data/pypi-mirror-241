@@ -1,0 +1,10 @@
+numpy
+scipy
+bumpver
+LineageTree>=1.4.2
+tifffile
+
+[testing]
+tox
+pytest
+pytest-cov

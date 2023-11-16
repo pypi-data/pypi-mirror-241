@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/Simple_Track_Builder.egg-info/PKG-INFO
+src/Simple_Track_Builder.egg-info/SOURCES.txt
+src/Simple_Track_Builder.egg-info/dependency_links.txt
+src/Simple_Track_Builder.egg-info/entry_points.txt
+src/Simple_Track_Builder.egg-info/requires.txt
+src/Simple_Track_Builder.egg-info/top_level.txt
+src/simple_track_builder/__init__.py
+src/simple_track_builder/_simple_track_builder.py
+src/simple_track_builder/_tests/__init__.py
+src/simple_track_builder/_tests/test_module.py
