@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: theutil
+Version: 0.0.1rc5
+Summary: Package for processing data out of fire and evacuation model simulators.
+Home-page: https://gitlab.com/thunderheadeng/sandbox/results-scripting-api
+Author: Thunderhead Engineering
+Author-email: support@thunderheadeng.com
+Project-URL: Documentation, https://thunderheadeng.gitlab.io/sandbox/results-scripting-api
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Requires-Dist: plotly
+Requires-Dist: fdsreader
