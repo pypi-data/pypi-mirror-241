@@ -1,0 +1,4346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vdex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xsi:schemaLocation="http://www.imsglobal.org/imsvdex_v1p0 imsvdex_v1p0.xsd" profileType="lax" orderSignificant="true" language="en">
+  <vocabIdentifier>taxonomy</vocabIdentifier>
+  <vocabName>
+    <langstring language="en">Registratur Stadtverband</langstring>
+  </vocabName>
+  <term>
+    <termIdentifier>Registratur</termIdentifier>
+    <caption>
+      <langstring language="en">Archivname</langstring>
+    </caption>
+  </term>
+  <term>
+    <termIdentifier>01</termIdentifier>
+    <caption>
+      <langstring language="en">Organisation Zweckverband</langstring>
+    </caption>
+    <term>
+      <termIdentifier>01.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>01.01</termIdentifier>
+      <caption>
+        <langstring language="en">Statuten - Vorschriften - Vertr&#228;ge - Richtlinien - Reglemente</langstring>
+      </caption>
+      <term>
+        <termIdentifier>01.01.01</termIdentifier>
+        <caption>
+          <langstring language="en">ehemalige Adressverzeichnisse</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>01.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse - Termine</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>01.03</termIdentifier>
+      <caption>
+        <langstring language="en">Aktivb&#252;rgschaft</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>01.04</termIdentifier>
+      <caption>
+        <langstring language="en">Delegiertenversammlung (DV)</langstring>
+      </caption>
+      <term>
+        <termIdentifier>01.04.00</termIdentifier>
+        <caption>
+          <langstring language="en">Delegierte Verbandsgemeinden</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.04.10</termIdentifier>
+        <caption>
+          <langstring language="en">B&#252;ro Delegiertenversammlung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.04.20</termIdentifier>
+        <caption>
+          <langstring language="en">RPK-Antr&#228;ge (DV - Bestandteil)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.04.30</termIdentifier>
+        <caption>
+          <langstring language="en">Protokolle / Pr&#228;senzlisten (Abt. IV.B./1.)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.04.40</termIdentifier>
+        <caption>
+          <langstring language="en">Medien-Infos</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.04.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten - &#220;bersicht DV-Orte</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>01.05</termIdentifier>
+      <caption>
+        <langstring language="en">Stadtverbandsvorstand (SV-VS)</langstring>
+      </caption>
+      <term>
+        <termIdentifier>01.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Konstituierung - Ressorts - Pendenzen &amp; Projekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">Gesch&#228;ftsf&#252;hrung - Kompetenzen - Unterschriftenregelung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.11</termIdentifier>
+        <caption>
+          <langstring language="en">Jahresberichte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.20</termIdentifier>
+        <caption>
+          <langstring language="en">Entsch&#228;digungen Beh&#246;rden - Reglement</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.30</termIdentifier>
+        <caption>
+          <langstring language="en">Pers&#246;nliches - R&#252;cktritte - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.40</termIdentifier>
+        <caption>
+          <langstring language="en">Repr&#228;sentation -  Anl&#228;sse - Tagungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.41</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.50</termIdentifier>
+        <caption>
+          <langstring language="en">Abordnungen (mit Beitr&#228;gen)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.51</termIdentifier>
+        <caption>
+          <langstring language="en">Dargebotene Hand</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.52</termIdentifier>
+        <caption>
+          <langstring language="en">Caritas Z&#252;rich</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.53</termIdentifier>
+        <caption>
+          <langstring language="en">Freie Kath. Schulen Z&#252;rich (VFKSZ)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.54</termIdentifier>
+        <caption>
+          <langstring language="en">Jugendkirche &#8222;jenseits&#8220; im Viadukt</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.55</termIdentifier>
+        <caption>
+          <langstring language="en">Paulus Akademie PAZ &#8211; Stiftung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.60</termIdentifier>
+        <caption>
+          <langstring language="en">Abordnungen (ohne Beitr&#228;ge)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.61</termIdentifier>
+        <caption>
+          <langstring language="en">Jugendseelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.62</termIdentifier>
+        <caption>
+          <langstring language="en">Brockenhaus (Z&#252;rcher) Stiftung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.63</termIdentifier>
+        <caption>
+          <langstring language="en">Brockenhaus (Z&#252;rcher) Verein</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.64</termIdentifier>
+        <caption>
+          <langstring language="en">Pfarrkirchenstiftungen PKS</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.65</termIdentifier>
+        <caption>
+          <langstring language="en">Verband Pfarrkirchenstiftungen VPKS</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.66</termIdentifier>
+        <caption>
+          <langstring language="en">Science City Church</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.67</termIdentifier>
+        <caption>
+          <langstring language="en">Paxmontana</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.70</termIdentifier>
+        <caption>
+          <langstring language="en">Protokolle (Abt. IV.B./2.)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.80</termIdentifier>
+        <caption>
+          <langstring language="en">Zeitungsartikel zu diversen Themn</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>01.06</termIdentifier>
+      <caption>
+        <langstring language="en">Personalausschuss (PA)</langstring>
+      </caption>
+      <term>
+        <termIdentifier>01.06.00</termIdentifier>
+        <caption>
+          <langstring language="en">Akten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.06.10</termIdentifier>
+        <caption>
+          <langstring language="en">Protokolle (Abt. IV.B./3.)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.06.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>01.07</termIdentifier>
+      <caption>
+        <langstring language="en">Gemischte Baukommission (GBK)</langstring>
+      </caption>
+      <term>
+        <termIdentifier>01.07.00</termIdentifier>
+        <caption>
+          <langstring language="en">Konstituierung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.07.10</termIdentifier>
+        <caption>
+          <langstring language="en">Gesch&#228;ftsf&#252;hrung - Kompetenzen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.07.20</termIdentifier>
+        <caption>
+          <langstring language="en">Pers&#246;nliches - R&#252;cktritte - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.07.30</termIdentifier>
+        <caption>
+          <langstring language="en">Protokolle (Abt. IV.B./4.)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.07.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>01.08</termIdentifier>
+      <caption>
+        <langstring language="en">Rechnungspr&#252;fungskommission (SV-RPK)</langstring>
+      </caption>
+      <term>
+        <termIdentifier>01.08.00</termIdentifier>
+        <caption>
+          <langstring language="en">Konstituierung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.08.10</termIdentifier>
+        <caption>
+          <langstring language="en">Gesch&#228;ftsf&#252;hrung - Kompetenzen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.08.20</termIdentifier>
+        <caption>
+          <langstring language="en">Abordnungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.08.30</termIdentifier>
+        <caption>
+          <langstring language="en">Revisionen und Berichte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.08.40</termIdentifier>
+        <caption>
+          <langstring language="en">Pers&#246;nliches - R&#252;cktritte - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.08.50</termIdentifier>
+        <caption>
+          <langstring language="en">Protokolle (Abt. IV.B./5.)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>01.08.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>02</termIdentifier>
+    <caption>
+      <langstring language="en">Abstimmungen und Wahlen</langstring>
+    </caption>
+    <term>
+      <termIdentifier>02.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>02.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>02.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>02.03</termIdentifier>
+      <caption>
+        <langstring language="en">Abstimmungen in eD chr</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>02.04</termIdentifier>
+      <caption>
+        <langstring language="en">Wahlen in eD chr</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>02.05</termIdentifier>
+      <caption>
+        <langstring language="en">Allgemeine und komplexe Akten</langstring>
+      </caption>
+      <term>
+        <termIdentifier>02.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Anordnungen von Wahlen und Abstimmungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>02.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">Publikationen - Drucksachen - Wahl- und Abstimmungspropaganda</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>02.05.20</termIdentifier>
+        <caption>
+          <langstring language="en">Volksbegehren</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>02.05.30</termIdentifier>
+        <caption>
+          <langstring language="en">Unterschriftensammlungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>02.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>02.06</termIdentifier>
+      <caption>
+        <langstring language="en">Staatliches Allgemein</langstring>
+      </caption>
+      <term>
+        <termIdentifier>02.06.00</termIdentifier>
+        <caption>
+          <langstring language="en">Kirche und Staat</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>02.06.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>03</termIdentifier>
+    <caption>
+      <langstring language="en">Beh&#246;rden und Institutionen</langstring>
+    </caption>
+    <term>
+      <termIdentifier>03.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>03.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>03.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>03.03</termIdentifier>
+      <caption>
+        <langstring language="en">Staatskirchliche Beh&#246;rden und Institutionen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>03.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Kath. Kirche im Kanton Z&#252;rich / Synodalrat</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.01</termIdentifier>
+        <caption>
+          <langstring language="en">Vernehmlassungen / Umfragen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">Rekurskommission</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.20</termIdentifier>
+        <caption>
+          <langstring language="en">Synode / St&#228;dt. Synodale</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.21</termIdentifier>
+        <caption>
+          <langstring language="en">Forum</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.30</termIdentifier>
+        <caption>
+          <langstring language="en">R&#246;m. Kath. Zentralkonferenz</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.40</termIdentifier>
+        <caption>
+          <langstring language="en">Evang. Ref. Stadtverband</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.45</termIdentifier>
+        <caption>
+          <langstring language="en">Ev.-Ref. Landeskirche</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.90</termIdentifier>
+        <caption>
+          <langstring language="en">Verschiedene aufgel&#246;ste Kommissionen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>03.04</termIdentifier>
+      <caption>
+        <langstring language="en">Staatliche Beh&#246;rden</langstring>
+      </caption>
+      <term>
+        <termIdentifier>03.04.00</termIdentifier>
+        <caption>
+          <langstring language="en">St&#228;dtische Verwaltung / Stadtrat</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.01</termIdentifier>
+        <caption>
+          <langstring language="en">Steueramt</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.02</termIdentifier>
+        <caption>
+          <langstring language="en">Friedhof- und Bestattungsamt</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.03</termIdentifier>
+        <caption>
+          <langstring language="en">Priestergr&#228;ber &#8211; Gr&#252;n Stadt Z&#252;rich</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.04</termIdentifier>
+        <caption>
+          <langstring language="en">Bezirksrat</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.10</termIdentifier>
+        <caption>
+          <langstring language="en">Kantonale Verwaltung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.20</termIdentifier>
+        <caption>
+          <langstring language="en">Bundesverwaltung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.04.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>03.05</termIdentifier>
+      <caption>
+        <langstring language="en">Innerkirchliche Beh&#246;rden und Institutionen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>03.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Dekanat Z&#252;rich Stadt</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.05.01</termIdentifier>
+        <caption>
+          <langstring language="en">Priester Pikettdienst</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.05.02</termIdentifier>
+        <caption>
+          <langstring language="en">Haush&#228;lterinnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">Generalvikariat Z&#252;rich und Glarus</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.05.20</termIdentifier>
+        <caption>
+          <langstring language="en">Di&#246;zese Bistum Chur</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.05.30</termIdentifier>
+        <caption>
+          <langstring language="en">Schweizerische Bischofskonferenz</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>03.06</termIdentifier>
+      <caption>
+        <langstring language="en">Oekumenische Institutionen und Projekte</langstring>
+      </caption>
+      <term>
+        <termIdentifier>03.06.00</termIdentifier>
+        <caption>
+          <langstring language="en">Bahnhofkirche Z&#252;rich</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.01</termIdentifier>
+        <caption>
+          <langstring language="en">Informatik Kirchgemeinde</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.02</termIdentifier>
+        <caption>
+          <langstring language="en">Internet- / SMS &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.03</termIdentifier>
+        <caption>
+          <langstring language="en">Paarberatung (&#246;kumenisch) Z&#252;rich</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.04</termIdentifier>
+        <caption>
+          <langstring language="en">Polizeiseelsorge - Schutz &amp; Rettung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.05</termIdentifier>
+        <caption>
+          <langstring language="en">Sanit&#228;tsseelsorge Z&#252;rich (SASEZ)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.06</termIdentifier>
+        <caption>
+          <langstring language="en">Seelsorgerische Publikationen Dritter</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.07</termIdentifier>
+        <caption>
+          <langstring language="en">Sihlcity &#8211; Kirche</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.08</termIdentifier>
+        <caption>
+          <langstring language="en">Euro 08</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.09</termIdentifier>
+        <caption>
+          <langstring language="en">koord. Kirchl. Passantenhilfe (Cafe Yucca)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.10</termIdentifier>
+        <caption>
+          <langstring language="en">Forum f&#252;r Stadtkirchenarbeit</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.11</termIdentifier>
+        <caption>
+          <langstring language="en">Haltestille Bahnhofstrasse</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.12</termIdentifier>
+        <caption>
+          <langstring language="en">Sakralbauten + Kirchl. Ls - Interorg. Komm.</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.13</termIdentifier>
+        <caption>
+          <langstring language="en">St&#228;dtepastoral</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.80</termIdentifier>
+        
+        <caption>
+          <langstring language="en">Diverse kurzfristige Projekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.90</termIdentifier>
+        <caption>
+          <langstring language="en">Spitalseelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.06.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>03.07</termIdentifier>
+      <caption>
+        <langstring language="en">Missione cattolica di Lingua italiana MCLI / Stadt</langstring>
+      </caption>
+      <term>
+        <termIdentifier>03.07.00</termIdentifier>
+        <caption>
+          <langstring language="en">Protokolle</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.13</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.14</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.15</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.16</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.17</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.18</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.19</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.07.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>03.08</termIdentifier>
+      <caption>
+        <langstring language="en">Fremdsprachige Missionen FSM</langstring>
+      </caption>
+      <term>
+        <termIdentifier>03.08.00</termIdentifier>
+        <caption>
+          <langstring language="en">MCLI / Kantonal</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.01</termIdentifier>
+        <caption>
+          <langstring language="en">Albanischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.02</termIdentifier>
+        <caption>
+          <langstring language="en">Englischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.03</termIdentifier>
+        <caption>
+          <langstring language="en">Franz&#246;sischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.04</termIdentifier>
+        <caption>
+          <langstring language="en">Koreanischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.05</termIdentifier>
+        <caption>
+          <langstring language="en">Kroatischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.06</termIdentifier>
+        <caption>
+          <langstring language="en">Philippinischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.07</termIdentifier>
+        <caption>
+          <langstring language="en">Polnischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.08</termIdentifier>
+        <caption>
+          <langstring language="en">Portugiesischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.09</termIdentifier>
+        <caption>
+          <langstring language="en">Slowakischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.10</termIdentifier>
+        <caption>
+          <langstring language="en">Slowenischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.11</termIdentifier>
+        <caption>
+          <langstring language="en">Spanischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.12</termIdentifier>
+        <caption>
+          <langstring language="en">Tamilischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.13</termIdentifier>
+        <caption>
+          <langstring language="en">Tschechischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.14</termIdentifier>
+        <caption>
+          <langstring language="en">Ungarischsprachige Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>03.08.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>03.09</termIdentifier>
+      <caption>
+        <langstring language="en">Migratio</langstring>
+      </caption>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>04</termIdentifier>
+    <caption>
+      <langstring language="en">Finanzen - Versicherungen - Besoldungen - Entsch&#228;digungen</langstring>
+    </caption>
+    <term>
+      <termIdentifier>04.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>04.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>04.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse - Anleitungen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>04.03</termIdentifier>
+      <caption>
+        <langstring language="en">Finanzverwaltung</langstring>
+      </caption>
+      <term>
+        <termIdentifier>04.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Finanzplanung / Voranschl&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">Jahresrechnungen / Rechnungsausz&#252;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.11</termIdentifier>
+        <caption>
+          <langstring language="en">Jahresrechnungen Kirchgemeinden - &#220;berpr&#252;fung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.20</termIdentifier>
+        <caption>
+          <langstring language="en">Staatsbeitr&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.30</termIdentifier>
+        <caption>
+          <langstring language="en">Steuern</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.31</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchenaustritte - Einsprachen Kirchensteuern</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.40</termIdentifier>
+        <caption>
+          <langstring language="en">Finanzausgleich/Beitrag an ZK</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.50</termIdentifier>
+        <caption>
+          <langstring language="en">Steuerzuteilung (FRL)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.60</termIdentifier>
+        <caption>
+          <langstring language="en">Verrechnungssteuern</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.70</termIdentifier>
+        <caption>
+          <langstring language="en">Finanzinstitute</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.80</termIdentifier>
+        <caption>
+          <langstring language="en">Externe Darlehen und Kredite - Aktiven</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.81</termIdentifier>
+        <caption>
+          <langstring language="en">Festgelder und Anlagen - Aktiven</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.90</termIdentifier>
+        <caption>
+          <langstring language="en">Kostenbeteiligungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.91</termIdentifier>
+        <caption>
+          <langstring language="en">Gastgewerbeseelsorge (HORESA)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.92</termIdentifier>
+        <caption>
+          <langstring language="en">Mittelschulseelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>04.04</termIdentifier>
+      <caption>
+        <langstring language="en">Versicherungen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>04.04.00</termIdentifier>
+        <caption>
+          <langstring language="en">Versicherungsberatung - Versicherungswesen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.10</termIdentifier>
+        <caption>
+          <langstring language="en">Personenversicherungen in eD</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.11</termIdentifier>
+        <caption>
+          <langstring language="en">AHV/FAK/IV</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.12</termIdentifier>
+        <caption>
+          <langstring language="en">Kranken- - Unfallversicherung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.13</termIdentifier>
+        <caption>
+          <langstring language="en">Pensionskasse</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.20</termIdentifier>
+        <caption>
+          <langstring language="en">Sachversicherungen in eD</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.30</termIdentifier>
+        <caption>
+          <langstring language="en">Haftpflicht- und Kautionsversicherungen in eD</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.40</termIdentifier>
+        <caption>
+          <langstring language="en">Schadenf&#228;lle</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.04.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>04.05</termIdentifier>
+      <caption>
+        <langstring language="en">Besoldungen - Entsch&#228;digungen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>04.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Besoldungen Personal Verband</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">Entsch&#228;digungen Personal Verband</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.05.11</termIdentifier>
+        <caption>
+          <langstring language="en">Andere / Weitere Entsch&#228;digungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>04.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>05</termIdentifier>
+    <caption>
+      <langstring language="en">Tr&#228;gerschaften / Beitr&#228;ge - Projekte</langstring>
+    </caption>
+    <term>
+      <termIdentifier>05.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>05.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>05.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>05.03</termIdentifier>
+      <caption>
+        <langstring language="en">Tr&#228;gerschaften / Beitr&#228;ge</langstring>
+      </caption>
+      <term>
+        <termIdentifier>05.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Behindertenseelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.01</termIdentifier>
+        <caption>
+          <langstring language="en">Freie VS-Kredite / DV-Sondergesuche</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.02</termIdentifier>
+        <caption>
+          <langstring language="en">Caritas Hospiz</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.03</termIdentifier>
+        <caption>
+          <langstring language="en">Christuszentrum</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.04</termIdentifier>
+        <caption>
+          <langstring language="en">Fachstelle f&#252;r Alkoholprobleme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.05</termIdentifier>
+        <caption>
+          <langstring language="en">Inl&#228;ndische Mission</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.06</termIdentifier>
+        <caption>
+          <langstring language="en">Jordi Elisabeth - Sterbeseminare</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.07</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;umsbeitr&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.08</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe - Vergabungen (ohne Kirchgemeinden) &#8211; Liste</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.09</termIdentifier>
+        <caption>
+          <langstring language="en">Monikaheim</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">Paulus Akademie PAZ &#8211; Verein</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.11</termIdentifier>
+        <caption>
+          <langstring language="en">Schlupfhuus &#8211; Verein</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.12</termIdentifier>
+        <caption>
+          <langstring language="en">Suneboge &#8211; Wohn- und Arbeitsgemeinschaft</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.13</termIdentifier>
+        <caption>
+          <langstring language="en">Sunneblueme &#8211; Kinderheim</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.14</termIdentifier>
+        <caption>
+          <langstring language="en">Weltgebetstag</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.15</termIdentifier>
+        <caption>
+          <langstring language="en">Z&#252;rcher Forum der Religionen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.16</termIdentifier>
+        <caption>
+          <langstring language="en">div. Seelsorgen (Claretiner - Jesuiten - Marianisten - etc.)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.17</termIdentifier>
+        <caption>
+          <langstring language="en">Mitgliedschaften / Jahresbeitr&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Berufe - Kommunikationsprojekt</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>05.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>06</termIdentifier>
+    <caption>
+      <langstring language="en">Liegenschaften</langstring>
+    </caption>
+    <term>
+      <termIdentifier>06.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>06.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>06.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>06.03</termIdentifier>
+      <caption>
+        <langstring language="en">Liegenschaften Stadtverband in eD alph</langstring>
+      </caption>
+      <term>
+        <termIdentifier>06.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 27</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.01</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 27 - Bauliches</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.02</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 27 - Mietverh&#228;ltnisse</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.03</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 27 - Allgemeine Akten - Infos</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.04</termIdentifier>
+        <caption>
+          <langstring language="en">Geb&#228;udeversicherung - Hallwylstrasse 27</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 60</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.11</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 60 - Bauliches</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.12</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 60 - Mietverh&#228;ltnisse</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.13</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 60 - Allgemeine Akten - Infos</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.14</termIdentifier>
+        <caption>
+          <langstring language="en">Geb&#228;udeversicherung - Hallwylstrasse 60</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.80</termIdentifier>
+        <caption>
+          <langstring language="en">Angebote Kauf / Verkauf</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.90</termIdentifier>
+        <caption>
+          <langstring language="en">Ehemalige Liegenschaften in eD alph</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>06.04</termIdentifier>
+      <caption>
+        <langstring language="en">Liegenschafteninventare</langstring>
+      </caption>
+      <term>
+        <termIdentifier>06.04.00</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 27</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.04.10</termIdentifier>
+        <caption>
+          <langstring language="en">Hallwylstrasse 60</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.04.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>06.05</termIdentifier>
+      <caption>
+        <langstring language="en">Liegenschaftenpolitik - Mehrjahresplanung</langstring>
+      </caption>
+      <term>
+        <termIdentifier>06.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Beschl&#252;sse</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">Hauswartung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>06.06</termIdentifier>
+      <caption>
+        <langstring language="en">SV - Mieten</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>06.07</termIdentifier>
+      <caption>
+        <langstring language="en">Dienstbarkeiten</langstring>
+      </caption>
+      <term>
+        <termIdentifier>06.07.00</termIdentifier>
+        <caption>
+          <langstring language="en">Dienstbarkeitsvertr&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>06.07.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>07</termIdentifier>
+    <caption>
+      <langstring language="en">Personelles</langstring>
+    </caption>
+    <term>
+      <termIdentifier>07.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>07.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben/Verf&#252;gungen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>07.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>07.03</termIdentifier>
+      <caption>
+        <langstring language="en">Personal Stadtverband (ohne PfarrerInnen)</langstring>
+      </caption>
+      <term>
+        <termIdentifier>07.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Stellenpl&#228;ne / Pflichtenhefte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">Beh&#246;rdenmitglieder / Personaldossiers</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.11</termIdentifier>
+        <caption>
+          <langstring language="en">Gesch&#228;ftsstelle / Personaldossiers</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.12</termIdentifier>
+        <caption>
+          <langstring language="en">Haush&#228;lterinnen / Personaldosssiers</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.13</termIdentifier>
+        <caption>
+          <langstring language="en">Priesterpikett &#8211; Dienst / Personaldossiers</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.15</termIdentifier>
+        <caption>
+          <langstring language="en">Sihlcity &#8211; Kirche / Personaldossiers</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.16</termIdentifier>
+        <caption>
+          <langstring language="en">Bahnhofkirche Pesonal</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.20</termIdentifier>
+        <caption>
+          <langstring language="en">Aus- und Weiterbildung (Berufsbezogen)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.30</termIdentifier>
+        <caption>
+          <langstring language="en">Amts&#252;bergaben</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.40</termIdentifier>
+        <caption>
+          <langstring language="en">Abgewiesene / zur&#252;ckgezogene Bewerbungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>07.04</termIdentifier>
+      <caption>
+        <langstring language="en">Arbeitssicherheit und Gesundheitsschutz</langstring>
+      </caption>
+      <term>
+        <termIdentifier>07.04.00</termIdentifier>
+        <caption>
+          <langstring language="en">Stadtverband</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.04.01</termIdentifier>
+        <caption>
+          <langstring language="en">Sicherheitsbeauftragter</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.04.02</termIdentifier>
+        <caption>
+          <langstring language="en">Sicherheitsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.04.10</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchgemeinden</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.04.11</termIdentifier>
+        <caption>
+          <langstring language="en">Sicherheitsbeauftragter</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.04.12</termIdentifier>
+        <caption>
+          <langstring language="en">Sicherheitsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>07.04.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>07.05</termIdentifier>
+      <caption>
+        <langstring language="en">Lehrlingswesen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>07.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>07.06</termIdentifier>
+      <caption>
+        <langstring language="en">Ehrungen - Kondolationen - Pers&#246;nliches</langstring>
+      </caption>
+      <term>
+        <termIdentifier>07.06.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>08</termIdentifier>
+    <caption>
+      <langstring language="en">Verwaltung - Gesch&#228;ftsstelle</langstring>
+    </caption>
+    <term>
+      <termIdentifier>08.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse - Umfragen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.03</termIdentifier>
+      <caption>
+        <langstring language="en">Organisation</langstring>
+      </caption>
+      <term>
+        <termIdentifier>08.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Organisation</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">Organigramme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.03.20</termIdentifier>
+        <caption>
+          <langstring language="en">Stellenbeschreibungen - Regelung Stellvertretungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.03.30</termIdentifier>
+        <caption>
+          <langstring language="en">F&#252;hrungshandb&#252;cher</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.03.40</termIdentifier>
+        <caption>
+          <langstring language="en">Kursangebote - Weiterbildungen - Informationen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>08.04</termIdentifier>
+      <caption>
+        <langstring language="en">Archiv - Registraturplan</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.05</termIdentifier>
+      <caption>
+        <langstring language="en">Mobiliar - Ger&#228;te - Maschinen - Einrichtungen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>08.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Neuanschaffungen (Ordner Inventar)</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">Ersatzbeschaffungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.05.20</termIdentifier>
+        <caption>
+          <langstring language="en">Unterhalt allgemein</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.05.30</termIdentifier>
+        <caption>
+          <langstring language="en">Servicevertr&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.05.40</termIdentifier>
+        <caption>
+          <langstring language="en">Dienstleistungen IT</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>08.06</termIdentifier>
+      <caption>
+        <langstring language="en">Informatik / IT</langstring>
+      </caption>
+      <term>
+        <termIdentifier>08.06.00</termIdentifier>
+        <caption>
+          <langstring language="en">Hardware</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.06.10</termIdentifier>
+        <caption>
+          <langstring language="en">Software / Updates und Lizenzen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.06.20</termIdentifier>
+        <caption>
+          <langstring language="en">Unterhalt allgemein</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.06.30</termIdentifier>
+        <caption>
+          <langstring language="en">Servicevertr&#228;ge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>08.06.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>08.07</termIdentifier>
+      <caption>
+        <langstring language="en">Datenschutz</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.08</termIdentifier>
+      <caption>
+        <langstring language="en">Jahresberichte</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.09</termIdentifier>
+      <caption>
+        <langstring language="en">Publikationen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>08.10</termIdentifier>
+      <caption>
+        <langstring language="en">Visitationsberichte Bezirksrat</langstring>
+      </caption>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>09</termIdentifier>
+    <caption>
+      <langstring language="en">Verbandsgemeinden</langstring>
+    </caption>
+    <term>
+      <termIdentifier>09.00</termIdentifier>
+      <caption>
+        <langstring language="en">Beh&#246;rden - Institutionen</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>09.01</termIdentifier>
+      <caption>
+        <langstring language="en">Vorschriften - Vertr&#228;ge - Kreisschreiben - allgem. Schreiben SV</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>09.02</termIdentifier>
+      <caption>
+        <langstring language="en">Statistiken - Verzeichnisse - Stadtplan</langstring>
+      </caption>
+    </term>
+    <term>
+      <termIdentifier>09.03</termIdentifier>
+      <caption>
+        <langstring language="en">Allerheiligen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.03.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.03.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.04</termIdentifier>
+      <caption>
+        <langstring language="en">Bruder Klaus</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.04.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.04.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.05</termIdentifier>
+      <caption>
+        <langstring language="en">Dreik&#246;nigen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.05.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.05.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.06</termIdentifier>
+      <caption>
+        <langstring language="en">Erl&#246;ser</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.06.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.06.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.07</termIdentifier>
+      <caption>
+        <langstring language="en">Guthirt</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.07.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.07.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.08</termIdentifier>
+      <caption>
+        <langstring language="en">Heilig Geist</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.08.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.08.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.09</termIdentifier>
+      <caption>
+        <langstring language="en">Heilig Kreuz</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.09.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.09.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.10</termIdentifier>
+      <caption>
+        <langstring language="en">Liebfrauen</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.10.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.10.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.11</termIdentifier>
+      <caption>
+        <langstring language="en">Maria Hilf</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.11.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.11.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.12</termIdentifier>
+      <caption>
+        <langstring language="en">Maria Lourdes</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.12.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.12.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.13</termIdentifier>
+      <caption>
+        <langstring language="en">Oerlikon Herz Jesu</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.13.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.13.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.14</termIdentifier>
+      <caption>
+        <langstring language="en">St. Anton</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.14.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.14.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.15</termIdentifier>
+      <caption>
+        <langstring language="en">St. Felix und Regula</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.15.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.15.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.16</termIdentifier>
+      <caption>
+        <langstring language="en">St. Franziskus</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.16.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.16.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.17</termIdentifier>
+      <caption>
+        <langstring language="en">St. Gallus</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.17.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.17.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.18</termIdentifier>
+      <caption>
+        <langstring language="en">St. Josef</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.18.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.18.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.19</termIdentifier>
+      <caption>
+        <langstring language="en">St. Katharina</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.19.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.19.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.20</termIdentifier>
+      <caption>
+        <langstring language="en">St. Konrad</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.20.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.20.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.21</termIdentifier>
+      <caption>
+        <langstring language="en">St. Martin</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.21.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.21.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.22</termIdentifier>
+      <caption>
+        <langstring language="en">St. Peter und Paul</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.22.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.22.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.23</termIdentifier>
+      <caption>
+        <langstring language="en">St. Theresia</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.23.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.23.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.24</termIdentifier>
+      <caption>
+        <langstring language="en">Wiedikon Herz Jesu</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.24.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.24.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+    <term>
+      <termIdentifier>09.25</termIdentifier>
+      <caption>
+        <langstring language="en">Witikon Maria Kr&#246;nung</langstring>
+      </caption>
+      <term>
+        <termIdentifier>09.25.00</termIdentifier>
+        <caption>
+          <langstring language="en">Wahlen - Ernennungen - Entlassungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.01</termIdentifier>
+        <caption>
+          <langstring language="en">Bausubstanzaufnahme</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.02</termIdentifier>
+        <caption>
+          <langstring language="en">Bauprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.03</termIdentifier>
+        <caption>
+          <langstring language="en">Investitionsmeldungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.04</termIdentifier>
+        <caption>
+          <langstring language="en">Voranschlag - Jahresrechnung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.10</termIdentifier>
+        <caption>
+          <langstring language="en">(Sonder)Zuteilungen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.11</termIdentifier>
+        <caption>
+          <langstring language="en">Bedarfsmeldung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.12</termIdentifier>
+        <caption>
+          <langstring language="en">GVZ &#8211; Nachweise</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.13</termIdentifier>
+        <caption>
+          <langstring language="en">Alters- und Pflegeheim &#8211; Seelsorge</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.14</termIdentifier>
+        <caption>
+          <langstring language="en">Resignaten &#8211; Eins&#228;tze</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.15</termIdentifier>
+        <caption>
+          <langstring language="en">Kirchliche Hilfe / Schwerpunktprojekte</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.16</termIdentifier>
+        <caption>
+          <langstring language="en">Lehrlingsausbildung</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.17</termIdentifier>
+        <caption>
+          <langstring language="en">Pastoraljahr &#8211; AbsolventInnen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.18</termIdentifier>
+        <caption>
+          <langstring language="en">Kinderg&#228;rten</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.19</termIdentifier>
+        <caption>
+          <langstring language="en">Jubil&#228;en</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.20</termIdentifier>
+        <caption>
+          <langstring language="en">Darlehen</langstring>
+        </caption>
+      </term>
+      <term>
+        <termIdentifier>09.25.99</termIdentifier>
+        <caption>
+          <langstring language="en">Allgemeine und komplexe Akten</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+</vdex>

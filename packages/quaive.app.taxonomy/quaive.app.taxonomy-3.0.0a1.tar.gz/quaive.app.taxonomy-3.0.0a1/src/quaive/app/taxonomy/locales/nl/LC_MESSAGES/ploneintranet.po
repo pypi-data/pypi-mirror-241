@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-04-07 11:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: nl\n"
+"Language-Name: nl\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"Language: \n"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:144
+msgid "Author of this document"
+msgstr "Auteur van dit document"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:148
+msgid "Date and time of the latest modification"
+msgstr "Datum en tijd van de laatste wijziging"
+
+#: quaive/app/taxonomy/browser/document_browser.py:200
+msgid "Document browser"
+msgstr ""
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:42
+msgid "Group by author"
+msgstr "Groupeer op auteur"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:43
+msgid "Group by date"
+msgstr "Groepeer op datum"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:40
+msgid "Group by first letter"
+msgstr "Alfabetisch"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:41
+msgid "Group by workspace"
+msgstr "Groepeer op werkruimte"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:109
+msgid "Information"
+msgstr "Informatie"
+
+#: quaive/app/taxonomy/browser/document_browser.py:313
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: quaive/app/taxonomy/browser/templates/app-document-browser.pt:147
+msgid "User not found"
+msgstr "Gebruiker niet gevonden"
+
+#. Default: Document browser
+#: quaive/app/taxonomy/browser/document_browser.py:28
+msgid "label_title_app_document_browser"
+msgstr "Documentenbrowser"
+
+#. Default: Search within the new '${sterm}'
+#: quaive/app/taxonomy/browser/document_browser.py:217
+msgid "search_within_placeholder"
+msgstr ""

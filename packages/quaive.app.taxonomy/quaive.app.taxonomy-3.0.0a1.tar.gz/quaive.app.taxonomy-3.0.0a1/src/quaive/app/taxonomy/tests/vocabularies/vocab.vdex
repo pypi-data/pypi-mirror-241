@@ -1,0 +1,36 @@
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" orderSignificant="true">
+  <vocabIdentifier>testvocab</vocabIdentifier>
+  <vocabName>
+    <langstring language="en">Test Vocab</langstring>
+  </vocabName>
+  <term>
+    <termIdentifier>1</termIdentifier>
+    <caption>
+      <langstring language="en">One</langstring>
+    </caption>
+    <term>
+      <termIdentifier>1.1</termIdentifier>
+      <caption>
+        <langstring language="en">One dot one</langstring>
+      </caption>
+      <term>
+        <termIdentifier>1.1.1</termIdentifier>
+        <caption>
+          <langstring language="en">One dot one dot one</langstring>
+        </caption>
+      </term>
+    </term>
+  </term>
+  <term>
+    <termIdentifier>2</termIdentifier>
+    <caption>
+      <langstring language="en">Two</langstring>
+    </caption>
+    <term>
+      <termIdentifier>2.1</termIdentifier>
+      <caption>
+        <langstring language="en">Two dot one</langstring>
+      </caption>
+    </term>
+  </term>
+</vdex>

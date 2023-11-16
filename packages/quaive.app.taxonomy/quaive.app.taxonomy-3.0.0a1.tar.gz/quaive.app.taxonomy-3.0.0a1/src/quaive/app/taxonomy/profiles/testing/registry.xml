@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<records>
+  <record name="ploneintranet.search.filter_fields">
+    <field type="plone.registry.field.Tuple">
+      <title>Filter fields</title>
+      <description>Fields that will be used to filter query responses in searches</description>
+      <value_type type="plone.registry.field.TextLine" />
+    </field>
+    <value>
+      <element>friendly_type_name</element>
+      <element>portal_type</element>
+      <element>testvocab</element>
+    </value>
+  </record>
+
+  <record name="ploneintranet.search.facet_fields">
+    <field type="plone.registry.field.Tuple">
+      <title>Facet field</title>
+      <description>A field that will be used to facet query responses</description>
+      <value_type type="plone.registry.field.TextLine" />
+    </field>
+    <value>
+      <element>friendly_type_name</element>
+      <element>portal_type</element>
+      <element>testvocab</element>
+    </value>
+  </record>
+
+</records>

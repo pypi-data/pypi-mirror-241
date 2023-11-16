@@ -1,0 +1,40 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:vdex="http://namespaces.zope.org/vdex"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="untranslated"
+    >
+
+  <i18n:registerTranslations directory="locales" />
+
+  <include package="ploneintranet" />
+  <include package=".browser" />
+
+  <include package="collective.vdexvocabulary" file="meta.zcml" />
+  <include package="collective.vdexvocabulary" />
+  <vdex:treevocabulary directory="vocabularies" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="quaive.app.taxonomy"
+      directory="profiles/default"
+      description="Installs the quaive.app.taxonomy add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="quaive.app.taxonomy (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the quaive.app.taxonomy add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="quaive.app.taxonomy-hiddenprofiles" />
+
+</configure>

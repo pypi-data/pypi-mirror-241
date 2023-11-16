@@ -1,0 +1,9 @@
+graft src/quaive
+graft docs
+exclude *.tmpl
+exclude *.yaml
+exclude Makefile
+exclude tox.ini
+include *.rst
+include *.txt
+global-exclude *.pyc

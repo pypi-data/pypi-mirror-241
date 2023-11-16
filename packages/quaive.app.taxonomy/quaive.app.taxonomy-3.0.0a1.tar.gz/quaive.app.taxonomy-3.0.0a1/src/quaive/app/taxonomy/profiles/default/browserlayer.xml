@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="quaive.app.taxonomy"
+      interface="quaive.app.taxonomy.interfaces.IQuaiveAppTaxonomyLayer"
+      />
+</layers>

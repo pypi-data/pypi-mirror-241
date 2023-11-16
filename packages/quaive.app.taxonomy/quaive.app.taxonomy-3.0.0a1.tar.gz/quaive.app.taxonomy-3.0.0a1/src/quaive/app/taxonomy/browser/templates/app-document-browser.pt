@@ -1,0 +1,181 @@
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:tal="http://xml.zope.org/namespaces/tal"
+    xmlns:metal="http://xml.zope.org/namespaces/metal"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    lang="en"
+    metal:use-macro="context/main_template/macros/master"
+    i18n:domain="ploneintranet">
+  <body>
+    <metal:content fill-slot="content">
+      <div id="application-body"
+           class="sidebar-normal application-body application-document-browser sidebar-left-open sidebar-right-closed"
+           tal:define="term_id python:request.get('term-id');
+                       current_term view/current_term">
+        <div id="document-body" class="document-body">
+          <div id="document-content" class="document-content">
+            <div class="application-welcome-info" tal:condition="not:term_id">
+              <article class="pat-rich" id="boilerplate-document-browser-introduction">
+                <strong>Thank you for using Document browser!</strong> With Document browser you can browse documents based on a taxonomy across workspaces.
+              </article>
+            </div>
+
+            <article class="document register pat-rich"
+                     tal:condition="term_id">
+              <section class="group-header" tal:condition="term_id">
+                <h1 class="group-title">
+                  <em class="highlight">${current_term/value}</em>
+                </h1>
+                <p class="byline">${current_term/title}</p>
+              </section>
+
+              <div id="person-documents">
+                <form action="${context/absolute_url}/@@grouped_taxonomy_search.tile"
+                      class="pat-inject pat-autosubmit canvas-toolbar"
+                      data-pat-inject="source: #search-result; target: #search-result;"
+                      style="float:left;"
+                      >
+                  <label class="pat-select bare pat-inject">
+                    <select name="group-by">
+                      <option value="first-letter" i18n:translate="">Group by first letter</option>
+                      <option value="workspace" i18n:translate="" >Group by workspace</option>
+                      <option value="author" i18n:translate="" >Group by author</option>
+                      <option value="date" i18n:translate="" >Group by date</option>
+                    </select>
+                  </label>
+                  <input type="hidden"
+                         name="${view/vocabulary_name}"
+                         value="${term_id}"
+                         />
+                  <input type="hidden"
+                         name="term-id"
+                         value="${term_id}"
+                         />
+                </form>
+                <form action="${here/portal_url}/apps/search/@@search#search-result"
+                      class="pat-form pat-inject pat-autosubmit canvas-toolbar"
+                      data-pat-inject="source: #search-result; target: #search-result;" method="POST">
+                  <input type="search"
+                         name="SearchableText"
+                         size="38"
+                         placeholder="${view/search_placeholder}"
+                         />
+                  <input type="hidden"
+                         name="${view/vocabulary_name}"
+                         value="${term_id}"
+                         />
+                  <input type="hidden"
+                         name="term-id"
+                         value="${term_id}"
+                         />
+                </form>
+
+                <div data-tile="${context/absolute_url}/@@grouped_taxonomy_search.tile"/>
+
+              </div>
+            </article>
+          </div>
+        </div>
+        <aside class="left sidebar">
+          <div id="sidebar-content">
+            <div class="item-selector mode-follow" id="document-selector">
+
+              <div class="button-bar functions buttons-1" id="document-selector-functions">
+                <tal:breadcrumb define="breadcrumb view/breadcrumb">
+                  <a tal:condition="breadcrumb" href="${breadcrumb/url}#document-selector" class="button icon-left-open pat-inject">${breadcrumb/title}</a>
+                </tal:breadcrumb>
+
+                <div class="quick-functions">
+                  <a class="toggle-sidebar-size pat-toggle" data-pat-toggle="selector: #application-body; value: sidebar-normal sidebar-large" title="expand/reduce sidebar">Expand sidebar</a>
+                </div>
+              </div>
+
+              <form class="search-box pat-inject pat-autosubmit" action="${context/absolute_url}#document-selector-items">
+                <label>
+                  <input name="sidebar-search" type="search" placeholder="Search" value="${request/sidebar-search|nothing}" />
+                  <button type="submit">Search</button>
+                </label>
+                <input type="hidden" name="${view/vocabulary_name}" value="${term_id}"/>
+                <input type="hidden" name="term-id" value="${term_id}"/>
+              </form>
+
+              <form class="search-result taxonomy  pat-inject" data-pat-inject="target: body::after" action="/feedback/batch-rename.html#content" id="document-selector-items">
+                <fieldset class="checklist pat-checklist taxonomy ">
+
+                  <div class="introduction register-intro has-description"
+                       tal:condition="python:current_term and not view.search_query">
+                    <h4 class="title">
+                      <em class="highlight">${current_term/value}</em>
+                      <a href="${context/absolute_url}/@@${view/__name__}?term-id=${current_term/value}#document-body" data-pat-switch="body focus-* focus-document &amp;&amp; body sidebar-large sidebar-normal" class="icon-info-circle iconified pat-inject pat-switch" data-pat-inject="source: #document-body; target: #document-body" i18n:translate="">Information</a>
+                    </h4>
+                    <p class="description"
+                       i18n:comment="INFO: Do not translate this."
+                       i18n:translate="">${current_term/title}</p>
+                  </div>
+
+                  <label class="item group register has-description"
+                         tal:condition="not:view/search_query"
+                         tal:repeat="term view/terms">
+                    <input name="" type="radio" />
+                    <a href="${context/absolute_url}/@@${view/__name__}?term-id=${term/value}" class="follow pat-inject" data-pat-inject="source: #document-selector; target: #document-selector; history: record">
+                      <strong class="title"><em class="highlight">${term/value}</em></strong>
+                      <br/>
+                      <dfn class="byline">${term/title}</dfn>
+                    </a>
+                  </label>
+
+                  <tal:items repeat="item view/items">
+                    <label class="item document type-event has-description"
+                           tal:attributes="class item/cls">
+                      <input name="items:list" type="checkbox" tal:define="uid python: item.get('UID', '')" tal:condition="uid" value="${uid}"/>
+                      <a href="/event-traces-through-time#document-body"
+                         class="pat-inject follow"
+                         data-pat-inject="target: #document-body"
+                         data-pat-switch="body focus-* focus-document &amp;&amp; body sidebar-large sidebar-normal"
+                         tal:attributes="href string:${item/url};
+                                         class python:item.get('dps', None) and (attrs['class'] + ' pat-switch') or attrs['class'];
+                                         data-pat-inject item/dpi | nothing;
+                                         data-pat-switch item/dps | nothing">
+                        <strong class="title" tal:content="item/title">Traces through Time data workshop</strong>
+
+                        <dfn class="byline" tal:content="item/description" tal:condition="item/description">An interactive workshop to test new and innovative tools to trace people through time.</dfn>
+                      </a>
+                      <div class="additional-meta-data" tal:condition="python: item.get('structural_type', 'group') != 'group'">
+                        <a href="/guido-stevens/" class="author meta-column" title="Author of this document" i18n:attributes="title" tal:define="creator item/creator | nothing" tal:condition="item/creator | nothing" tal:content="python:creator.getProperty('fullname') or creator" tal:attributes="href string:${here/portal_url}/author/${creator/getId}">
+                          Creator
+                        </a>
+                        <a class="author meta-column" tal:condition="not:item/creator" i18n:translate="">User not found</a>
+                        <time class="modification-date meta-column" tal:condition="item/modified | nothing" title="Date and time of the latest modification" i18n:attributes="title" tal:content="python:item['modified'].strftime('%d %B %Y, %H:%M')">
+                          {{ doc.date }}
+                        </time>
+                        <nav class="tag-cloud tags meta-column pat-navigation" tal:condition="item/subject | nothing">
+                          <a class="tag pat-inject"
+                             tal:repeat="subject item/subject"
+                             href="${context/absolute_url}/@@sidebar.default?grouping=label&amp;groupname=${subject}#workspace-documents"
+                             >${subject}</a>
+                        </nav>
+                      </div>
+
+                    </label>
+                  </tal:items>
+
+                </fieldset>
+                <!--
+                    <div class="button-bar bottom form-submit pat-bumper">
+                    <button type="submit" class="pat-button close-panel">Save</button>
+                    <button type="reset" class="pat-button close-panel">Cancel</button>
+                    </div>
+                -->
+              </form>
+            </div>
+            <ul class="sidebar-extras">
+              <li class="item">
+                <a href="${context/absolute_url}" class="icon-help-circle">Read the manual</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </metal:content>
+  </body>
+</html>

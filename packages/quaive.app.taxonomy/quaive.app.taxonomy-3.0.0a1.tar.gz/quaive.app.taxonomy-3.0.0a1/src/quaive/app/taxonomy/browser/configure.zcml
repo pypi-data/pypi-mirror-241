@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    >
+
+  <include package="plone.tiles" file="meta.zcml" />
+
+  <configure zcml:condition="installed ploneintranet.layout">
+    <browser:page
+      name="app-document-browser"
+      for="ploneintranet.layout.app.IApp"
+      class=".document_browser.DocumentBrowserView"
+      template="templates/app-document-browser.pt"
+      layer="..interfaces.IQuaiveAppTaxonomyLayer"
+      permission="zope2.View"
+      />
+  </configure>
+
+  <configure package="ploneintranet.layout.browser">
+    <plone:tile
+        name="grouped_taxonomy_search.tile"
+        permission="zope2.View"
+        class="quaive.app.taxonomy.browser.document_browser.TaxonomySearchTile"
+        for="*"
+        template="templates/grouped_search.pt"
+        layer="quaive.app.taxonomy.interfaces.IQuaiveAppTaxonomyLayer"
+        />
+  </configure>
+
+</configure>

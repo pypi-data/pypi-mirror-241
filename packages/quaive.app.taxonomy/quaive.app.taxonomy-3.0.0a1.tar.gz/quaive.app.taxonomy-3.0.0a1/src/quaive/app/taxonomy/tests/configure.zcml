@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:vdex="http://namespaces.zope.org/vdex"
+    >
+
+  <include package="collective.vdexvocabulary" file="meta.zcml" />
+  <include package="collective.vdexvocabulary" />
+  <vdex:treevocabulary directory="vocabularies" />
+
+  <genericsetup:registerProfile
+      name="testing"
+      title="Quaive App Taxonomy: -- [Layout: Testing]"
+      description="Installs test fixtures for quaive.app.taxonomy"
+      directory="../profiles/testing"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

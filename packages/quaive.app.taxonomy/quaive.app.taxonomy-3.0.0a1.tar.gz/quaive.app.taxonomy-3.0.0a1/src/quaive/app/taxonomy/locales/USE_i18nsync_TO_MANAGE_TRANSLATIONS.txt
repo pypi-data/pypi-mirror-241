@@ -1,0 +1,3 @@
+Translation extraction and management has moved to i18nsync.
+
+Run 'ploneintranet/buildout.d/templates/i18nsync -hv' to learn more.
