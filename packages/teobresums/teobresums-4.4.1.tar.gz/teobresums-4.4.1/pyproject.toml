@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>42", "numpy>=1.18"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
+
+[project]
+name="teobresums"
+version = '4.4.1'
+authors =[{name="The TEOBResumS team", email="rgamba@berkeley.edu"}]
+description='TEOBResumS: Effective-One-Body model for compact binary coalescences'
+classifiers = [
+         "Programming Language :: Python :: 3",
+         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+         "Operating System :: OS Independent",
+]
+readme="PyREADME.md"
+
+[project.urls]
+"Homepage"="https://bitbucket.org/eob_ihes/teobresums/src/master/"
+"Bug Tracker"="https://bitbucket.org/eob_ihes/teobresums/issues?status=new&status=open"
+"Wiki"="https://bitbucket.org/eob_ihes/teobresums/wiki/Home"
+"Mailing List"="https://lserv.uni-jena.de/mailman/listinfo/teobresums"
+
