@@ -1,0 +1,8 @@
+README.md
+setup.py
+libname/__init__.py
+scprel.egg-info/PKG-INFO
+scprel.egg-info/SOURCES.txt
+scprel.egg-info/dependency_links.txt
+scprel.egg-info/requires.txt
+scprel.egg-info/top_level.txt
