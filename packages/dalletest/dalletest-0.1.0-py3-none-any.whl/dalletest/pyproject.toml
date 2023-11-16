@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "dalle"
+version = "0.1.0"
+description = "Your package description"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
