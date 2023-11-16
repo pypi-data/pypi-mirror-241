@@ -1,0 +1,17 @@
+kalapaocr/__init__.py,sha256=fQl8eutGVO3PrtcYWrzpkeYDEodNMIep61Lq6syFKPU,53
+kalapaocr/config.py,sha256=rnK72WTMAQRU0Vdrze2_pEa9lLarvP5np5W2l1z07QI,800683
+kalapaocr/dataloader.py,sha256=U0uwBGDn-lMxOtxIq4RFQmLD1TLNPdrm1mOYC0Opu00,3749
+kalapaocr/recognize.py,sha256=VfaK7KRgTMIOfQgmfqoa-yG4Gr1feyQnjt9kKS1v_S4,6185
+kalapaocr/text_recognitor.py,sha256=AqcZXY1Dcku2JnkpJeE1o7v4REOsH__ygHL_NaGArXI,1682
+kalapaocr/utils.py,sha256=MAq5t35vKp0-fCmrmN1t7MWic86u-GzDt_MrA4r0K1w,2504
+kalapaocr/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kalapaocr/tool/config.py,sha256=eSVGKW0MSuVJ7morJMVbQfTvaCC4RPMoQAWdgBXVAsA,477
+kalapaocr/tool/img_proc.py,sha256=2ajzpaxG2xn3u80ZOZryIiSR0XHCvX4gtarwyw7g1T8,7421
+kalapaocr/tool/model_downloads.py,sha256=ra7O0VUg-Xqa64RHd20Aei4JXl-d8CqjW6YqhmhuwM0,1405
+kalapaocr/tool/postprocess.py,sha256=mkmw8B6oivZdrEBygPgwVTyc1wuxuvo8sf3wIvCSyfs,6618
+kalapaocr/tool/vocab.py,sha256=mHJY9XfN4dR-VABMFRDFyStrmr_wLr0pql4hWfyl1c4,1392
+kalapaocr-0.0.2.dist-info/LICENSE.txt,sha256=yWhTY8HP-mA-scuvpMKLbT0RHvQ-BNyHS_Qyamq7dxk,1062
+kalapaocr-0.0.2.dist-info/METADATA,sha256=wpRxtJqd5ceB_oy_YBdKdYgLG-S_uNFgEhQzgERT830,2414
+kalapaocr-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+kalapaocr-0.0.2.dist-info/top_level.txt,sha256=0vikGQ-yVl0h0HGauL2SBeWQ1yljamo58Zmv1MFSo4o,10
+kalapaocr-0.0.2.dist-info/RECORD,,
