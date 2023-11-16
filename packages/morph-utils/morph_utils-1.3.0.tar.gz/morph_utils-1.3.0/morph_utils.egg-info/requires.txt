@@ -1,0 +1,8 @@
+scipy
+numpy
+argschema
+pandas
+matplotlib
+scikit-learn
+neuron_morphology
+pytest
