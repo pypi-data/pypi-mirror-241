@@ -1,0 +1,140 @@
+[build-system] # Require setuptool version due to https://github.com/pypa/setuptools/issues/2938
+requires = ["setuptools>=61.0.0", "wheel"]
+
+[project]
+name = "fenics-pulse2"
+version = "0.1.0"
+description = "Cardiac Mechanics simulator"
+authors = [{name = "Henrik Finsberg", email = "henriknf@simula.no"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["cardiac", "mechanics", "closed loop"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "tqdm",
+    "typing_extensions"
+]
+
+[project.urls]
+Homepage = "https://finsberg.github.io/pulse2"
+Documentation = "https://finsberg.github.io/pulse2"
+Source = "https://github.com/finsberg/pulse2"
+Tracker = "https://github.com/finsberg/pulse2/issues"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+    "cardiac-geometries",
+]
+dev = [
+    "pdbpp",
+    "ipython",
+    "bump-my-version",
+    "pre-commit",
+]
+pypi = [
+    "twine",
+    "build"
+]
+demo = [
+    "cardiac-geometries",
+    "ldrb"
+]
+docs = [
+   "jupyter-book",
+   "jupytext",
+   "pulse2[demo]"
+]
+all = [
+   "pulse2[test]",
+   "pulse2[docs]",
+   "pulse2[pypi]",
+   "pulse2[demo]",
+   "pulse2[dev]"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+addopts = [
+   "--cov=pulse2",
+   "--cov-report=html",
+   "--cov-report=term-missing",
+   "-v"
+]
+
+testpaths = [
+    "tests"
+]
+
+[tool.ruff]
+# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
+select = ["E", "F"]
+ignore = ["E402", "E741"]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["A", "B", "C", "D", "E", "F"]
+unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+# Same as Black.
+line-length = 100
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Assume Python 3.10.
+target-version = "py310"
+
+[tool.ruff.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[tool.bumpversion]
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+current_version = "0.1.0"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = [
+    "{major}.{minor}.{patch}"
+]
+
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
