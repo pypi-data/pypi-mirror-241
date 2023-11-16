@@ -1,0 +1,38 @@
+[project]
+name = "eazure"
+description = "Eazure: A package providing easier access to Azure storage, tables, and queue functions."
+readme = "README.md"
+version = "0.1.2"
+authors = [
+    { name = "SaaS Technologies LLC", email = "newsaastechnologies@gmail.com" }
+]
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+dependencies = [
+    "azure-storage-blob >=12.8.1",
+    "azure-core >=1.9.0",
+    "azure-data-tables >=12.0.0",
+    "azure-storage-queue >=12.1.5"
+]
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+    "bump2version"
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[project.urls]
+"Homepage" = "https://github.com/SaaS-Technologies-LLC/eazure"
+"Bug Reports" = "https://github.com/SaaS-Technologies-LLC/eazure/issues"
+"Source" = "https://github.com/SaaS-Technologies-LLC/eazure/"
+
+[tool.setuptools]
+package-data = {"eazure" = ["*.dat"]}
+
+[metadata]
+long_description_content_type = "text/markdown"
