@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "lucit-licensing-python"
+version = "1.8.1"
+description = "LUCIT Licensing Client Module"
+authors = ["LUCIT Systems and Development <info@lucit.tech>"]
+license = "LSOSL - LUCIT Synergetic Open Source License"
+readme = "README.md"
+homepage = "https://www.lucit.tech/lucit-licensing-python.html"
+documentation = "https://lucit-licensing-python.docs.lucit.tech"
+repository = "https://github.com/LUCIT-Systems-and-Development/lucit-licensing-python"
+
+[tool.poetry.urls]
+'Wiki' = 'https://github.com/LUCIT-Systems-and-Development/lucit-licensing-python/wiki'
+'Author' = 'https://www.lucit.tech'
+'Changes' = 'https://lucit-licensing-python.docs.lucit.tech/changelog.html'
+'License' = 'https://lucit-licensing-python.docs.lucit.tech/license.html'
+'Issue Tracker' = 'https://github.com/LUCIT-Systems-and-Development/lucit-licensing-python/issues'
+'Telegram' = 'https://t.me/unicorndevs'
+'Chat' = 'https://app.gitter.im/#/room/#lucit-licensing-python:gitter.im'
+'Get Support' = 'https://www.lucit.tech/get-support.html'
+'LUCIT Online Shop' = 'https://shop.lucit.services/software'
+
+[tool.poetry.dependencies]
+python = ">=3.7.0"
+Cython = "*"
+requests = "*"
+simplejson = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["setuptools", "wheel", "Cython", "pip"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.scripts]
+lucitlicmgr = "lucit_licensing_python.cli:main"
+
+[tool.poetry.package_data]
+lucit_licensing_python = ["*.so", "*.dll"]
