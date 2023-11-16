@@ -1,0 +1,13 @@
+ctat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ctat/__main__.py,sha256=9CM8MFQwRnWL1d_QrUAh2xYGv9pojqWr87JUv3GgeWo,2206
+ctat/cell_type_annotation.py,sha256=myOMZPVNR-5ReK52DDNTT0X0EhT4BHnwBTJ4MJhD5iE,15483
+ctat/file_utils.py,sha256=j-3GxMJQGh7BMSAJmZaP3djSfcDR00s-ii1oWvE5v78,2701
+ctat/schema_validator.py,sha256=iELYK9kd8GzfkE22uOVbCaBJOUAawUJf8PS75ygD8DE,2892
+ctat/tabular_serializer.py,sha256=hbc7lOV83Jao9CG5wwYMOFDBB224wqzmgBm5wAgdqYg,12125
+schema/ctat_schema.yaml,sha256=KzzC-L4IURbeLs8D_kJ5Ac3mYsVPUaHILDMQl1gAq3s,2751
+ctat-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ctat-0.0.1.dist-info/METADATA,sha256=iS_OcoCXTRvXSlc_n2X45zENYY7m6zMVx8f0ztYL3rY,2031
+ctat-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ctat-0.0.1.dist-info/entry_points.txt,sha256=1IFNvkuJGWge_MV7fByiXbbtRw69Z0k3KH7RpxYkTeY,45
+ctat-0.0.1.dist-info/top_level.txt,sha256=y0nHt8TR7Js8-XFsBWz8h2eelN5dOzT0U0fSpVfHElo,12
+ctat-0.0.1.dist-info/RECORD,,
