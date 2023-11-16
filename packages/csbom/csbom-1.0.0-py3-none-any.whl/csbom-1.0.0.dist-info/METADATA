@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: csbom
+Version: 1.0.0
+Summary: cli tool for analyzing sbom files
+Home-page: https://github.com/eyalarkin/csbom/tree/main
+Author: Eyal Arkin
+Author-email: eyal@scribesecurity.com
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: click (>=7.1.2)
+
