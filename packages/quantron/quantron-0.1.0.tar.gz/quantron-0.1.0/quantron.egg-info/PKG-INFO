@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: quantron
+Version: 0.1.0
+Summary: hehe
+Home-page: https://github.com/ishanoshada/
+Author: Ishan Oshada
+Author-email: ic31908@gmail.com
+License: UNKNOWN
+Description: hehe
+Keywords: sinhala
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

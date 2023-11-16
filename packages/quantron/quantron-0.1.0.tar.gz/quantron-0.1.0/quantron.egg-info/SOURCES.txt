@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+quantron/__init__.py
+quantron.egg-info/PKG-INFO
+quantron.egg-info/SOURCES.txt
+quantron.egg-info/dependency_links.txt
+quantron.egg-info/top_level.txt
