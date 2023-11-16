@@ -1,0 +1,10 @@
+README.md
+setup.py
+lQQQQQQQQQQQQQQQ.egg-info/PKG-INFO
+lQQQQQQQQQQQQQQQ.egg-info/SOURCES.txt
+lQQQQQQQQQQQQQQQ.egg-info/dependency_links.txt
+lQQQQQQQQQQQQQQQ.egg-info/not-zip-safe
+lQQQQQQQQQQQQQQQ.egg-info/requires.txt
+lQQQQQQQQQQQQQQQ.egg-info/top_level.txt
+lQ_/__init__.py
+lQ_/main.py
