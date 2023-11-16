@@ -1,0 +1,2 @@
+include tsakul/toy_networks/*.tntp
+include LICENSE.txt
