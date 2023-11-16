@@ -1,0 +1,2 @@
+[console_scripts]
+shellcat.py = shellcat.main_module:main_function

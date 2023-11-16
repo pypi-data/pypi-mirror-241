@@ -1,0 +1,10 @@
+README.md
+setup.py
+shellcat/__init__.py
+shellcat/shellcat.py
+shellcat.egg-info/PKG-INFO
+shellcat.egg-info/SOURCES.txt
+shellcat.egg-info/dependency_links.txt
+shellcat.egg-info/entry_points.txt
+shellcat.egg-info/requires.txt
+shellcat.egg-info/top_level.txt
