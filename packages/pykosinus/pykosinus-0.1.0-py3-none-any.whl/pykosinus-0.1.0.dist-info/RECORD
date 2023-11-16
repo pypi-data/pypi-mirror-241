@@ -1,0 +1,9 @@
+pykosinus/__init__.py,sha256=_B5uugFFJbgiQrOidWoP5TvVPcKR3RKKTKjfyy5388Q,2991
+pykosinus/requirements.txt,sha256=04XtbaaY_wilMERtcZt9Zjv85E-NO8SfRz_dhf5cd0o,83
+pykosinus/lib/scoring.py,sha256=ONuScvCw54l-4qzr0ClDUrCEV6sZXX5V9OkItT_7cag,10985
+pykosinus/repositories/scoring.py,sha256=NUUgOZyAL8lunTDJzElhs8nGpJA128N0X8UUM1I0MRs,2703
+pykosinus-0.1.0.dist-info/LICENSE,sha256=yBZaPGC7wdh0msRWapmKz9rpACrshIYLLfxRwJWhytQ,1066
+pykosinus-0.1.0.dist-info/METADATA,sha256=CDplhUUcb1O_c8p7A1we-JeHuyFGrxSD4iCrBZroiro,3777
+pykosinus-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pykosinus-0.1.0.dist-info/top_level.txt,sha256=hPRHhx_X2FckhWPq77a1LYnZ2Waj8tPGXeS8lYUDnQE,10
+pykosinus-0.1.0.dist-info/RECORD,,
