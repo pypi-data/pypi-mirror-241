@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "uml_django"
+version = "1.0.3"
+description = "A UML Generator for Django and Django Rest Framework projects"
+authors = ["Pedro Vieira <pedrophdv@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2.7"
+plantuml = "^0.3.0"
+six = "^1.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
