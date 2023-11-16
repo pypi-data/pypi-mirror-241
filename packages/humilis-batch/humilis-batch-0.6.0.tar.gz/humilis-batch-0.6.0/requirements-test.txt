@@ -1,0 +1,9 @@
+# test requirements
+pytest
+mock
+tox
+boto3==1.12.23
+awscli==1.18.41
+humilis-vpc>=0.2.8
+
+-e .

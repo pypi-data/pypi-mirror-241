@@ -1,0 +1,2 @@
+[humilis.layers]
+batch = humilis_batch.plugin:get_layer_path

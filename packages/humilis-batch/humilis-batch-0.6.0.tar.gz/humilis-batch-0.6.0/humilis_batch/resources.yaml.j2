@@ -1,0 +1,265 @@
+---
+resources:
+    {% if type == "SPOT" %}
+    SpotFleetRole:
+        Type: "AWS::IAM::Role"
+        Properties:
+            AssumeRolePolicyDocument:
+                Version: "2012-10-17"
+                Statement:
+                  -
+                    Effect: "Allow"
+                    Principal:
+                      Service:
+                        - "spotfleet.amazonaws.com"
+                    Action:
+                      - "sts:AssumeRole"
+            ManagedPolicyArns:
+                - "arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetTaggingRole"
+    {% endif %}
+
+    EcsInstanceRole:
+        Type: "AWS::IAM::Role"
+        Properties:
+            AssumeRolePolicyDocument:
+                Version: "2012-10-17"
+                Statement:
+                  -
+                    Effect: "Allow"
+                    Principal:
+                      Service:
+                        - "ec2.amazonaws.com"
+                    Action:
+                      - "sts:AssumeRole"
+            Policies:
+                - PolicyName: "EcsInstanceRolePolicy"
+                  PolicyDocument:
+                    Version: "2012-10-17"
+                    Statement:
+                        -   Effect: "Allow"
+                            Action:
+                                - "ecs:CreateCluster"
+                                - "ecs:DeregisterContainerInstance"
+                                - "ecs:DiscoverPollEndpoint"
+                                - "ecs:Poll"
+                                - "ecs:RegisterContainerInstance"
+                                - "ecs:StartTelemetrySession"
+                                - "ecs:UpdateContainerInstancesState"
+                                - "ecs:Submit*"
+                                - "ecr:GetAuthorizationToken"
+                                - "ecr:BatchCheckLayerAvailability"
+                                - "ecr:GetDownloadUrlForLayer"
+                                - "ecr:BatchGetImage"
+                                - "secretsmanager:*"
+                                - "logs:CreateLogStream"
+                                - "logs:PutLogEvents"
+                            "Resource": "*"
+
+    EcsInstanceProfile:
+        Type: "AWS::IAM::InstanceProfile"
+        Properties:
+            Roles:
+                - Ref: EcsInstanceRole
+            InstanceProfileName: "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}"
+
+    ServiceRole:
+        Type: "AWS::IAM::Role"
+        Properties:
+            AssumeRolePolicyDocument:
+                Version: "2012-10-17"
+                Statement:
+                  -
+                    Effect: "Allow"
+                    Principal:
+                      Service:
+                        - "batch.amazonaws.com"
+                    Action:
+                      - "sts:AssumeRole"
+            Path: "/"
+            ManagedPolicyArns:
+                - "arn:aws:iam::aws:policy/service-role/AWSBatchServiceRole"
+
+    SecurityGroup:
+        Type: "AWS::EC2::SecurityGroup"
+        Properties:
+            GroupDescription: Security group for AWS Batch instances ({{_env.name}})
+            VpcId: {{vpc_id or vpc}}
+            {% if tags %}
+            Tags:
+                {% for key, value in __context.environment.tags.items() %}
+                - {"Key": key, "Value": value}
+                {% endfor %}
+            {% endif %}
+            {% if ip_whitelist or sg_whitelist %}
+            SecurityGroupIngress:
+                {% for ip in ip_whitelist %}
+                - IpProtocol: tcp
+                  FromPort: 1
+                  ToPort: 9999
+                  CidrIp: {{ip}}
+                - IpProtocol: icmp
+                  FromPort: -1
+                  ToPort: -1
+                  CidrIp: {{ip}}
+                {% endfor %}
+                {% for sg in sg_whitelist %}
+                - IpProtocol: tcp
+                  FromPort: 1
+                  ToPort: 9999
+                  SourceSecurityGroupId: {{sg}}
+                {% endfor %}
+            {% endif %}
+
+    {% if user_data %}
+    LaunchTemplate:
+      Type: "AWS::EC2::LaunchTemplate"
+      Properties:
+        LaunchTemplateName: "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}"
+        LaunchTemplateData:
+          UserData: {{user_data}}
+    {% endif %}
+
+    ComputeEnvironment:
+      Type: "AWS::Batch::ComputeEnvironment"
+      Properties:
+        Type: MANAGED
+        {% if tags %}
+        Tags:
+            {% for key, value in __context.environment.tags.items() %}
+            {{key}}: {{value}}
+            {% endfor %}
+        {% endif %}
+        ServiceRole:
+            "Fn::GetAtt" : ["ServiceRole", "Arn"]
+        ComputeEnvironmentName: "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}"
+        ComputeResources:
+            {% if type == "SPOT" %}
+            BidPercentage: {{bid_percentage}}
+            {% endif %}
+            AllocationStrategy: {{allocation_strategy}}
+            {% if ami_id %}
+            ImageId: {{ami_id}}
+            {% endif %}
+            {% if key_name %}
+            Ec2KeyPair: {{key_name}}
+            {% endif %}
+            MaxvCpus: {{max_cpus}}
+            MinvCpus: {{min_cpus}}
+            {% if tags %}
+            Tags:
+                {% for key, value in __context.environment.tags.items() %}
+                {{key}}: {{value}}
+                {% endfor %}
+            {% endif %}
+            {% if key_name %}
+            Ec2KeyPair: {{key_name}}
+            {% endif %}
+            Subnets:
+                {% for subnet in subnet_ids %}
+                - {{subnet}}
+                {% endfor %}
+            InstanceTypes: {{instance_types}}
+            {% if type == "SPOT" %}
+            SpotIamFleetRole:
+                "Fn::GetAtt" : ["SpotFleetRole", "Arn"]
+            {% endif %}
+            InstanceRole:
+                "Fn::GetAtt" : ["EcsInstanceProfile", "Arn"]
+            SecurityGroupIds:
+                - {Ref: SecurityGroup}
+                {% for sg in security_group_ids %}
+                - {{sg}}
+                {% endfor %}
+            Type: {{type}}
+            {% if type == "SPOT" %}
+            BidPercentage: {{bid_percentage}}
+            {% endif %}
+            {% if user_data %}
+            LaunchTemplate:
+              LaunchTemplateId: {Ref: LaunchTemplate}
+              Version:
+                "Fn::GetAtt": ["LaunchTemplate", "LatestVersionNumber"]
+            {% endif %}
+        State: "{{state}}"
+
+    {% if type == "SPOT" and has_ec2_fallback %}
+    ComputeEnvironmentOndemandFallback:
+      Type: "AWS::Batch::ComputeEnvironment"
+      Properties:
+        Type: MANAGED
+        {% if tags %}
+        Tags:
+            {% for key, value in __context.environment.tags.items() %}
+            key: value
+            {% endfor %}
+        {% endif %}
+        ServiceRole:
+            "Fn::GetAtt" : ["ServiceRole", "Arn"]
+        ComputeEnvironmentName: "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}-ondemand-fallback"
+        ComputeResources:
+            {% if ami_id %}
+            ImageId: {{ami_id}}
+            {% endif %}
+            {% if key_name %}
+            Ec2KeyPair: {{key_name}}
+            {% endif %}
+            MaxvCpus: {{max_cpus}}
+            MinvCpus: {{min_cpus}}
+            {% if tags %}
+            Tags:
+                {% for key, value in tags.items() %}
+                {{key}}: {{value}}
+                {% endfor %}
+            {% endif %}
+            {% if key_name %}
+            Ec2KeyPair: {{key_name}}
+            {% endif %}
+            Subnets:
+                {% for subnet in subnet_ids %}
+                - {{subnet}}
+                {% endfor %}
+            InstanceTypes: {{instance_types}}
+            InstanceRole:
+                "Fn::GetAtt" : ["EcsInstanceProfile", "Arn"]
+            SecurityGroupIds:
+                - {Ref: SecurityGroup}
+                {% for sg in security_group_ids %}
+                - {{sg}}
+                {% endfor %}
+            {% if user_data %}
+            LaunchTemplate:
+              LaunchTemplateId: {Ref: LaunchTemplate}
+              Version:
+                "Fn::GetAtt": ["LaunchTemplate", "LatestVersionNumber"]
+            {% endif %}
+            Type: EC2
+        State: "{{state}}"
+    {% endif %}
+
+    {% if has_priority_queue %}
+    PriorityJobQueue:
+        Type: "AWS::Batch::JobQueue"
+        Properties:
+            ComputeEnvironmentOrder:
+                - Order: 1
+                  ComputeEnvironment: {Ref: ComputeEnvironment}
+                {% if type == "SPOT" and has_ec2_fallback %}
+                - Order: 2
+                  ComputeEnvironment: {Ref: ComputeEnvironmentOndemandFallback}
+                {% endif %}
+            Priority: 100
+            JobQueueName: "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}-priority"
+    {% endif %}
+
+    DefaultJobQueue:
+        Type: "AWS::Batch::JobQueue"
+        Properties:
+            ComputeEnvironmentOrder:
+                - Order: 1
+                  ComputeEnvironment: {Ref: ComputeEnvironment}
+                {% if type == "SPOT" and has_ec2_fallback %}
+                - Order: 2
+                  ComputeEnvironment: {Ref: ComputeEnvironmentOndemandFallback}
+                {% endif %}
+            Priority: 1
+            JobQueueName: "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}-default"
