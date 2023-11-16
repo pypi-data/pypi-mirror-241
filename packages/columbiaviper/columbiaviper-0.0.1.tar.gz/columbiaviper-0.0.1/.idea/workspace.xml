@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60bf508e-4d27-4fd1-84e5-0a0041ebc060" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/DATA.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/flickr/test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/flickr/val.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/glip_Swin_L.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/glip_Swin_T_O365_GoldG.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/lvis/minival.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/lvis/val.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/AerialMaritimeDrone_large.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/Aquarium_Aquarium_Combined.v2-raw-1024.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/CottontailRabbits.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/EgoHands_generic.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/NorthAmericaMushrooms_North_American_Mushrooms.v1-416x416.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/Packages_Raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/PascalVOC.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/Raccoon_Raccoon.v2-raw.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/ShellfishOpenImages_raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/VehiclesOpenImages_416x416.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/pistols_export.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/pothole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_13/thermalDogsAndPeople.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/AerialMaritimeDrone_large.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/AerialMaritimeDrone_tiled.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/AmericanSignLanguageLetters_American_Sign_Language_Letters.v1-v1.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/Aquarium_Aquarium_Combined.v2-raw-1024.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/BCCD_BCCD.v3-raw.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/ChessPieces_Chess_Pieces.v23-raw.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/CottontailRabbits.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/DroneControl_Drone_Control.v3-raw.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/EgoHands_generic.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/EgoHands_specific.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/HardHatWorkers_raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/MaskWearing_raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/MountainDewCommercial.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/NorthAmericaMushrooms_North_American_Mushrooms.v1-416x416.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/OxfordPets_by-breed.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/OxfordPets_by-species.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/PKLot_640.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/Packages_Raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/PascalVOC.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/Raccoon_Raccoon.v2-raw.coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/ShellfishOpenImages_raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/ThermalCheetah.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/UnoCards_raw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/VehiclesOpenImages_416x416.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/WildfireSmoke.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/_all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/boggleBoards_416x416AutoOrient_export_.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/brackishUnderwater_960x540.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/dice_mediumColor_export.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/openPoetryVision_512x512.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/pistols_export.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/plantdoc_100x100.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/plantdoc_416x416.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/pothole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/selfdrivingCar_fixedLarge_export_.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/thermalDogsAndPeople.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/odinw_35/websiteScreenshots.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/pretrain/_coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/pretrain/glip_A_Swin_T_O365.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/pretrain/glip_Swin_L.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/pretrain/glip_Swin_T_O365.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/configs/pretrain/glip_Swin_T_O365_GoldG.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/docs/benchmark_example_od.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/docs/lead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/docs/word_cloud_od.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/install_env.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/knowledge/odinw_benchmark35_knowledge_and_gpt3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/knowledge/odinw_knowledge.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/knowledge/odinw_knowledge_with_prompt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/knowledge/run_inference_odinw_knowledge_benchmark35.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/config/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/config/paths_catalog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/ROIAlign.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/ROIPool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/SigmoidFocalLoss.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cpu/soft_nms.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cpu/vision.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/SigmoidFocalLoss_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/deform_conv_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/deform_conv_kernel_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/deform_pool_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/deform_pool_kernel_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/ml_nms.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/nms.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/cuda/vision.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/deform_conv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/deform_pool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/ml_nms.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/nms.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/csrc/vision.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/collate_batch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/background.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/box_label_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/caption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/coco_dt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/concat_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/custom_distributed_sampler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/duplicate_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/box_aug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/coco/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/coco/coco_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/flickr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/flickr/flickr_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/lvis/_change_lvis_annotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/lvis/lvis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/lvis/lvis_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/od_to_grounding/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/od_to_grounding/od_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/vg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/vg/vg_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/voc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/voc/voc_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/flickr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/gqa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/imagenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/list_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/lvis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/mixed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/mixup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/modulated_coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/object365.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/od_to_grounding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/phrasecut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/pseudo_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/refexp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/tsv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/vg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/samplers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/samplers/distributed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/samplers/grouped_batch_sampler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/samplers/iteration_based_batch_sampler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/transforms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/transforms/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/transforms/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/alter_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/evolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/predictor_glip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/predictor_glip_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/singlepath_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/stage_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/engine/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/batch_norm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/deform_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/deform_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/dropblock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/dyhead.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/dyrelu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/evonorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/iou_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/nms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/roi_align.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/roi_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/se.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/set_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/sigmoid_focal_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/layers/smooth_l1_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/bifpn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/blocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/efficientdet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/efficientnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/fbnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/fpn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/mixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/swint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/swint_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/swint_v2_vl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/backbone/swint_vl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/balanced_positive_negative_sampler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/box_coder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/detector/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/detector/generalized_rcnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/detector/generalized_vl_rcnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/bert_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/bpe_simple_vocab_16e6.txt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/clip_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/hfpt_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/rnn_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/simple_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/test_clip_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/language_backbone/word_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/make_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/matcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/poolers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/box_head/box_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/box_head/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/box_head/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_feature_extractors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_predictors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/keypoint_head/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/keypoint_head/keypoint_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/keypoint_head/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/keypoint_head/roi_keypoint_feature_extractors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/keypoint_head/roi_keypoint_predictors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/hourglass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/mask_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_feature_extractors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_predictors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/anchor_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/atss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/dyhead.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/fcos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/modeling_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/retina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/rpn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/rpn/vldyhead.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/solver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/solver/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/solver/lr_scheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/structures/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/structures/bounding_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/structures/boxlist_ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/structures/image_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/structures/keypoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/structures/segmentation_mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/amp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/big_model_loading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/c2_model_loading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/collect_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/comm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/cv2_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/ema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/flops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/fuse_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/mdetr_dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/metric_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/miscellaneous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/model_serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/model_zoo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/pretrain_model_loading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/shallow_contrastive_loss_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/utils/stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/odinw/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/cityscapes/convert_cityscapes_to_coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/cityscapes/instances2dict_with_polygons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/eval_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/finetune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/test_grounding_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/test_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/train_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/tools/visualize_grounding_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/tcl/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GLIP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/data/datasets/evaluation/od_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/InSPyReNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/InSPyReNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/backbones/Res2Net_v1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/backbones/Res2Net_v1b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/backbones/SwinTransformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/backbones/SwinTransformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/modules/attention_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/modules/attention_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/modules/context_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/modules/context_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/modules/decoder_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/modules/decoder_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/modules/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/modules/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/optim/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/optim/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/optim/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/optim/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/optim/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/optim/scheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/inspyrenet/saliency_transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/inspyrenet/saliency_transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/tcl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/GLIP/maskrcnn_benchmark/modeling/roi_heads/box_head/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/tcl/tcl_config_bert.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/tcl/tcl_config_bert.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/tcl/tcl_model_pretrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/tcl/tcl_model_pretrain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/tcl/tcl_tokenization_bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/tcl/tcl_tokenization_bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/tcl/tcl_vit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/tcl/tcl_vit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/tcl/tcl_xbert.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/tcl/tcl_xbert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/xvlm/config_bert.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/xvlm/config_bert.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/xvlm/swin_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/xvlm/swin_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/xvlm/vit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/xvlm/vit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/xvlm/xbert.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/xvlm/xbert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_models/xvlm/xvlm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/base_models/xvlm/xvlm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/configs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/base_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/configs/base_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/my_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/configs/my_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/queries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/data/queries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/datasets/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_models.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/download_models.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/image_patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/main_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_simple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/main_simple.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_simple_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/main_simple_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/api.prompt" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/prompts/api.prompt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/chatapi.prompt" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/prompts/chatapi.prompt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/fixed_code/blip2.prompt" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/prompts/fixed_code/blip2.prompt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/gpt3/gpt3_qa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/prompts/gpt3/gpt3_qa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup_env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/setup_env.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teaser.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/teaser.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/useful_lists/possible_options.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/useful_lists/possible_options.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/useful_lists/random_negatives.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/useful_lists/random_negatives.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/video_segment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/vision_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision_processes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/columbiaviper/vision_processes.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YBMs0OCHcOfX3a7VjcmH9tlpwY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/prich/PycharmProjects/viper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\prich\PycharmProjects\viper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prich\PycharmProjects\viper\src\columbiaviper" />
+      <recent name="C:\Users\prich\PycharmProjects\viper\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60bf508e-4d27-4fd1-84e5-0a0041ebc060" name="Changes" comment="" />
+      <created>1699994721913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699994721913</updated>
+      <workItem from="1699994723482" duration="4529000" />
+      <workItem from="1700084700550" duration="3130000" />
+      <workItem from="1700087878065" duration="1000" />
+      <workItem from="1700087894364" duration="845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sfdfgdfsg" />
+    <option name="LAST_COMMIT_MESSAGE" value="sfdfgdfsg" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/viper$main.coverage" NAME="main Coverage Results" MODIFIED="1700002627261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
