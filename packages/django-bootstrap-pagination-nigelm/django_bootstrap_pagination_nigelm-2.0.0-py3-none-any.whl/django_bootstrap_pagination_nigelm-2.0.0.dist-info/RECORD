@@ -1,0 +1,10 @@
+bootstrap_pagination/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bootstrap_pagination/locale/ru/LC_MESSAGES/django.mo,sha256=SXbRzznioXyKdGXdMz2Mf9mqJAFmvCwqQZC8BZci5Pk,910
+bootstrap_pagination/locale/ru/LC_MESSAGES/django.po,sha256=Eqj3jhdU3NKlFxOHMjUbmUlQbceMd93AyvgJrpHFLS0,1754
+bootstrap_pagination/templates/bootstrap_pagination/pager.html,sha256=ZvaalKMB3e8M2uW9r9u_20sTHEehJVqpT3mJZ-gG7ak,896
+bootstrap_pagination/templates/bootstrap_pagination/pagination.html,sha256=ecqcrbz2frl3EL4-N-cfMJ7074Iv_j4HUH8GWn0Asb4,4790
+bootstrap_pagination/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bootstrap_pagination/templatetags/bootstrap_pagination.py,sha256=PzEGQmxKdURB8dqVJ6uFmvAqp5ToKMxIL7oGK9XngCQ,22543
+django_bootstrap_pagination_nigelm-2.0.0.dist-info/METADATA,sha256=h1zJbnTAREvO_4XhLW7d8TvE820HM0INCku8I7u3G_w,11765
+django_bootstrap_pagination_nigelm-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_bootstrap_pagination_nigelm-2.0.0.dist-info/RECORD,,
