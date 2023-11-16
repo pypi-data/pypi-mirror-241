@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: arenaxlabs-gym
+Version: 0.0.1
+Summary: A suite of Gymnasium environments for the different tasks in the ArenaX Labs Researcher Platform
+Author-email: ArenaX Labs Inc <ram@aiarena.io>
+License: MIT License
+Keywords: Reinforcement Learning,game,RL,AI,gymnasium
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docker
+Requires-Dist: mujoco
+Requires-Dist: requests
+Requires-Dist: gymnasium
+Requires-Dist: imageio
+
+# Gymnasium Environments for ArenaX Labs Tasks
+
+Easily interact with Gymnasium Environments for tasks that are a part of the ArenaX Labs Researcher Platform.
+
+## Installation
+Run the following command to install the package:
+```bash
+pip install arenaxlabs-gym
+```
+
+## Usage
+```python
+import gymnasium as gym
+import gym_arenaxlabs
+env = gym.make('HumanoidObstacle-v0')
+```

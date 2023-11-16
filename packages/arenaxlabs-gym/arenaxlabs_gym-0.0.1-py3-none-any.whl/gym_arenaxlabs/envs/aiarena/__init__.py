@@ -1,0 +1,1 @@
+from gym_game.envs.aiarena.aiarena_env import *
