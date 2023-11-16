@@ -1,0 +1,3 @@
+[console_scripts]
+tkr = tkr.cli:main
+tkr-post-install = tkr:post_install
