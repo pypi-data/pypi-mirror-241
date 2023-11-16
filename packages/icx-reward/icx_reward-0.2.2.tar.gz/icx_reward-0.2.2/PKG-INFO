@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: icx_reward
+Version: 0.2.2
+Summary: Tools for ICON reward
+Author-email: ICON Foundation <foo@icon.foundation>
+Project-URL: Homepage, https://github.com/eunsoo-icon/icx-reward
+Project-URL: Bug Tracker, https://github.com/eunsoo-icon/icx-reward/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![PyPI - latest](https://img.shields.io/pypi/v/icx-reward?label=latest&logo=pypi)](https://pypi.org/project/icx-reward)
+# icx-reward
+Tools for ICON reward.
+
+## Requirements
+
+- Python 3.9 or later.
+
+## License
+
+This project is available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
