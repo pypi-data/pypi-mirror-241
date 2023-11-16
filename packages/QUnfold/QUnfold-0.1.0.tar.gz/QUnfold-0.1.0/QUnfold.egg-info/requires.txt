@@ -1,0 +1,4 @@
+dwave-ocean-sdk
+matplotlib
+pyqubo
+scipy
