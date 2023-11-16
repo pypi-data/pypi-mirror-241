@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json-rm"
+version = "0.0.2"
+authors = [{name="makes"}]
+description = "Parse JSON Schemas into relational model and transpile into other textual representations."
+readme = "README.md"
+dependencies = ["jsonref", "typer"]
+requires-python = ">=3.9"
+
+[project.scripts]
+jst = "json_rm.cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/makes/json-rm"
+"Bug Tracker" = "https://github.com/makes/json-rm/issues"
