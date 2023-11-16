@@ -1,0 +1,12 @@
+aiogram_calendar/__init__.py,sha256=BXrGdRZJz86OVbF_q6PAVtBatemdPjc5LYHBsyL65Tg,239
+aiogram_calendar/dialog_calendar.py,sha256=LhavciX-i_TirtQhz1tzRpClhMCU8u37hnY24g19rB8,7228
+aiogram_calendar/schemas.py,sha256=ZFDv_elOH2ngxpFLafpJDmJoUVoi00aDjEG1qt5gMCc,1268
+aiogram_calendar/simple_calendar.py,sha256=vTacLOEGn05tldLLAibT5P1PEmC6UxB_spqvKrfN8lE,7325
+aiogram_calendar/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogram_calendar/tests/test_dialog_calendar.py,sha256=BNL4CCoMLE6ZxBeB85dpNCH-pJ_coRmYmsMGV5RvwKs,3127
+aiogram_calendar/tests/test_simple_calendar.py,sha256=AXj8agNxb-M0oMr02UsKay83iU7MHYedMC16TTP_220,3281
+aiogram_calendar-0.3.0.dist-info/LICENSE.txt,sha256=QzX_zslk4kvMuaSOWRi31v7I9wI6kD4_kg97ye6lhs0,1076
+aiogram_calendar-0.3.0.dist-info/METADATA,sha256=xwzJL3mbnTxsR28w7dxNF2xnApaNb8pv6975AR15PiY,3396
+aiogram_calendar-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aiogram_calendar-0.3.0.dist-info/top_level.txt,sha256=uFYD8gNiC0iYAKv0PNJC4T1KCm8z_NhK7gxROm7dGWU,17
+aiogram_calendar-0.3.0.dist-info/RECORD,,
