@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "binance_history_downloader"
+version = "0.1.4"
+description = ""
+authors = ["Sid <sidnvy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pandas = ">=1.5.3"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
