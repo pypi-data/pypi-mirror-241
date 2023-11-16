@@ -1,0 +1,9 @@
+localstack>=2.2
+Flask
+MarkupSafe
+decorator
+itsdangerous
+brotlipy
+raven[flask]
+gevent
+flasgger
