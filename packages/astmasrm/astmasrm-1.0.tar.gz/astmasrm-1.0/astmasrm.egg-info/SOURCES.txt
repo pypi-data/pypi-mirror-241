@@ -1,0 +1,6 @@
+setup.py
+astmasrm.egg-info/PKG-INFO
+astmasrm.egg-info/SOURCES.txt
+astmasrm.egg-info/dependency_links.txt
+astmasrm.egg-info/top_level.txt
+astmasrmcode/__init__.py
