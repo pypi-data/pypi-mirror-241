@@ -1,0 +1,2 @@
+[console_scripts]
+miso-tool = miso_tool.cli:app
