@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="collective.tileindex"
+      metal:use-macro="context/prefs_main_template/macros/master">
+<body>
+  <metal:content fill-slot="prefs_configlet_content">
+  <div id="content" metal:define-macro="main">
+
+    <h1 i18n:translate="">Tile types overview</h1>
+    <p tal:condition="not:view/tile_index" i18n:translate="">
+      ERROR: tile_types index is missing!
+    </p>
+    <tal:available condition="view/tile_index">
+    <p i18n:translate="msg_num_objects">
+      There are <span i18n:name="numObjects" tal:replace="view/numObjects" /> items with tiles in the index.
+    </p>
+    <h3 i18n:translate="">Tile names sorted alphabetically</h3>
+    <ol tal:condition="view/alphabetical">
+      <li tal:repeat="tile view/alphabetical">
+        <a href="${request/URL}?tile=${tile}">${tile}</a>
+      </li>
+    </ol>
+    <h3 i18n:translate="">Tile names sorted by number of items that use it</h3>
+    <ul tal:condition="view/numerical">
+      <li tal:repeat="item view/numerical">
+        ${item/number} <a href="${request/URL}?tile=${item/tile}">${item/tile}</a>
+      </li>
+    </ul>
+    <p i18n:translate="msg_note_same_type_counted_once">
+      Note that a page that has 100 tiles of the same type, is only counted once.
+    </p>
+    <tal:search_results condition="request/tile|nothing">
+      <h3 i18n:translate="">Search results for tile <span i18n:name="tile" tal:replace="request/tile" /></h3>
+      <ol>
+        <li tal:repeat="item view/search_results">
+          <a href="${item/getURL}">${item/Title}</a><br>(${item/getPath})
+        </li>
+      </ol>
+    </tal:search_results>
+    </tal:available>
+
+    </div>
+  </metal:content>
+</body>
+</html>
