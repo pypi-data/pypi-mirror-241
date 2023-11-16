@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: cg-maven
+Version: 0.1.0
+Summary: Store quality control metrics for cases in Clinical Genomics
+Home-page: https://github.com/Clinical-Genomics/maven
+Author: Christian Oertlin
+Author-email: c.oertlin@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Jinja2 (==3.1.2)
+Requires-Dist: MarkupSafe (==2.1.3)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: annotated-types (==0.5.0)
+Requires-Dist: anyio (==3.7.1)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: dnspython (==2.4.2)
+Requires-Dist: email-validator (==2.0.0.post2)
+Requires-Dist: exceptiongroup (==1.1.3)
+Requires-Dist: fastapi (==0.103.2)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==0.18.0)
+Requires-Dist: httptools (==0.6.0)
+Requires-Dist: httpx (==0.25.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: iniconfig (==2.0.0)
+Requires-Dist: itsdangerous (==2.1.2)
+Requires-Dist: orjson (==3.9.7)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: pluggy (==1.3.0)
+Requires-Dist: pre-commit (>=3.4.0,<4.0.0)
+Requires-Dist: pydantic (==2.4.2)
+Requires-Dist: pydantic-extra-types (==2.1.0)
+Requires-Dist: pydantic-settings (==2.0.3)
+Requires-Dist: pydantic_core (==2.10.1)
+Requires-Dist: pymongo (==4.5.0)
+Requires-Dist: pytest (==7.4.2)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: python-multipart (==0.0.6)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: starlette (==0.27.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: typing_extensions (==4.8.0)
+Requires-Dist: ujson (==5.8.0)
+Requires-Dist: uvicorn (==0.23.2)
+Requires-Dist: uvloop (==0.17.0)
+Requires-Dist: watchfiles (==0.20.0)
+Requires-Dist: websockets (==11.0.3)
+Project-URL: Repository, https://github.com/Clinical-Genomics/maven
+Description-Content-Type: text/markdown
+
+# Maven
+Maven: _"one who is experienced or knowledgeable."_
+
+This repository holds the software interacting with the maven database. Maven is currently a work in progress.
+
+## Aims
+
+The maven database will be used to store quality metrics for cases and their analysis that come through Clinical Genomics.
+
+## Developing Maven
+
+Steps to start developing on Maven locally:
+1. Clone the repo
+   ```shell
+   git clone https://github.com/Clinical-Genomics/maven
+   ```
+2. Create a working environment 
+   - Requires poetry to be installed: https://python-poetry.org/docs/
+
+2a. Create a virtual python environment in the directory
+   ```shell
+   # Go into the directory
+   cd ./maven
+   # Create a virtual environment
+   python3 -m venv maven
+   # Activate the virtual environment
+   source venv/bin/activate
+   # Install packages
+   poetry install
+   ```
+2b. If you are using pycharm setup a `poetry interpreter`
+   - https://www.jetbrains.com/help/pycharm/poetry.html#poetry-pyproject
+
+3. Install a mongodb client locally (for now) follow steps outlined here
+    - https://www.mongodb.com/docs/v7.0/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition
+4. Start a mongo server locally that runs the database
+   ```shell
+      brew services start mongodb-community@7.0
+   ```
+      - to stop the service when wanted
+   ```shell
+   brew services stop mongodb-community@7.0
+   ```
+
+5. To establish a connection to the database with FastApi and uvicorn run:
+```shell
+python3 -m uvicorn --reload --app-dir ./api main:app
+```
+   - If this step worked you should see "Connected to database." in the terminal
+
+6. To view the database in Compass
+    - https://www.mongodb.com/products/tools/compass
+    - Setup a connection to the localhost
+    - Create a new database called "maven"
+
+7. Alternatively to the steps above one can also run maven using docker
+   7a. Install docker and start the docker application: https://docs.docker.com/engine/install/ 
+      - After step 1
+      ```shell
+      cd ./maven
+      docker compose up
+      ```
