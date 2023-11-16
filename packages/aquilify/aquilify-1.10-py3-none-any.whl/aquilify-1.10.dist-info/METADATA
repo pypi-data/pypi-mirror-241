@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: aquilify
+Version: 1.10
+Summary: Aquilify is an ASGI (Asynchronous Server Gateway Interface) framework designed to facilitate the development of web applications with Python. It enables efficient handling of HTTP requests, WebSocket connections, middleware processing, and exception handling in an asynchronous environment.
+Home-page: https://github.com/embrake/aquilify/
+Author: Pawan kumar
+Author-email: embrakeproject@gmail.com
+License: BSD-3-Clause
+Keywords: web framework,Python web development,user-friendly,high-level,ASGI
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: full
+Requires-Dist: aiofiles ; extra == 'full'
+Requires-Dist: itsdangerous ; extra == 'full'
+Requires-Dist: jinja2 ; extra == 'full'
+Requires-Dist: python-multipart ; extra == 'full'
+
+<div align="center">
+  <a href="#"><img src="https://i.ibb.co/hXF5Znx/IMG-20231115-232824.png" alt="IMG-20231115-232824" style="border-radius: 6px;" width="420px" alt="Aquilify"></a>
+</div>
+
+---
+
+**Documentation**: [https://www.aquilify.vvfin.in/](https://www.aquilify.vvfin.in/)
+
+---
+
+
+# Aquilify
+
+Aquilify is an ASGI (Asynchronous Server Gateway Interface) framework designed to facilitate the development of web applications with Python. It enables efficient handling of HTTP requests, WebSocket connections, middleware processing, and exception handling in an asynchronous environment.
+
+## Introduction
+
+Aquilify leverages Python's async capabilities to provide a robust and scalable infrastructure for building web applications. It includes features such as request routing, middleware support, WebSocket handling, and response management.
+
+## Key Features
+
+- **HTTP Request Handling:** Aquilify efficiently processes incoming HTTP requests and provides a structured approach for defining routes and handling various HTTP methods (GET, POST, PUT, DELETE, etc.).
+
+- **WebSocket Support:** The framework supports WebSocket connections, allowing bidirectional communication between clients and servers.
+
+- **Middleware Processing:** Aquilify facilitates the use of middleware functions to preprocess requests, perform authentication, logging, or modify responses before sending them back.
+
+- **Exception Handling:** The framework includes mechanisms to handle exceptions raised during request processing, enabling graceful error responses.
+
+## Installation
+
+```bash
+pip install aquilify
+```
+
+You'll also want to install an ASGI server, such as [netix](), [uvicorn](http://www.uvicorn.org/), [daphne](https://github.com/django/daphne/), or [hypercorn](https://pgjones.gitlab.io/hypercorn/).
+
+```shell
+$ pip install netix
+```
+
+- Netix is an ASGI Web server gateway for Aquilify, built on the top of asynchronous programming.
+## A Smiple Example
+
+```python
+# save this as main.py
+from aquilify.core import Aquilify
+
+app = Aquilify()
+
+@app.route('/')
+async def home():
+    return {"message": "Welcome to Aquilify"}
+```
+## Terminal
+
+```python
+$ netix --deubg main:app
+  * Starting Netix v1.12 (cpython 3.11.6, linux)
+    -----------------------------------------------------------------------
+    Options:
+    run(host=127.0.0.1, port=8080, reuse_port=True, worker_num=1, reload=True, app=lo:app, log_level=DEBUG)
+    -------------------------------- ---------------------------------------
+    [2023-11-15 22:25:18] Starting Netix as an ASGI server for: Aquilify
+    [2023-11-15 22:25:18,079] INFO: lifespan: startup
+    [2023-11-15 22:25:18,080] INFO: lifespan.startup.complete
+    [2023-11-15 22:25:19] Netix (ASGI) (pid 18513) is started at 127.0.0.1 port 8080
+```
+
+## Dependencies
+
+* [`aiofiles`][aiofile] - Required if you want to use the `StaticMIddleware` or `File based Opertation`.
+* [`jinja2`][jinja2] - Required if you want to use `TemplateResponse`.
+* [`python-multipart`][python-multipart] - Required if you want to support form parsing, with `request.form()`.
+* [`itsdangerous`][itsdangerous] - Required for `SessionMiddleware` and `CSRF` support.
+
+You can install all of these with `pip3 install aquilify[full]`.
+
+<p align="center"><i>Aquilify is <a href="https://github.com/embrake/aquilify/blob/master/LICENSE">BSD licensed</a> code.<br/>Designed & crafted with care.</i></br>&mdash; ⭐️ &mdash;</p>
