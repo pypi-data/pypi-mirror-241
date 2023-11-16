@@ -1,0 +1,4 @@
+graft tkrdevtest
+include pyproject.toml
+incude setup.py
+global -exclude *.py[cod]

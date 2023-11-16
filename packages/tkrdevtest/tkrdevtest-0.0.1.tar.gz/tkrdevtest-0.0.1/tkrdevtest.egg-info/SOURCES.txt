@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tkrdevtest/__init__.py
+tkrdevtest/__main__.py
+tkrdevtest.egg-info/PKG-INFO
+tkrdevtest.egg-info/SOURCES.txt
+tkrdevtest.egg-info/dependency_links.txt
+tkrdevtest.egg-info/entry_points.txt
+tkrdevtest.egg-info/top_level.txt

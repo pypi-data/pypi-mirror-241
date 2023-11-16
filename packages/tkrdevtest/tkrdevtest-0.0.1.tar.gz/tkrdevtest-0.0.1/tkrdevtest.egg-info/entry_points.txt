@@ -1,0 +1,2 @@
+[console_scripts]
+tkrdevtest = tkrdevtest.__main__:main
