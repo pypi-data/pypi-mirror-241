@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: plato-msap4-demonstrator
+Version: 0.2
+Summary: PLATO MSAP4 demonstrator
+Home-page: https://gitlab.com/sybreton/plato_rotation_pipeline.git
+Author: Sylvain N. Breton
+Author-email: sylvain.breton@cea.fr
+Maintainer: Sylvain N. Breton
+Maintainer-email: sylvain.breton@cea.fr
+License: CeCILL
+Keywords: stellar physics,surface rotation,PLATO
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: tqdm
+Requires-Dist: emcee
+Requires-Dist: corner
+Requires-Dist: apollinaire
+Requires-Dist: scikit-learn
+
