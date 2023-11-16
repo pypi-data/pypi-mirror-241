@@ -1,0 +1,59 @@
+default_stages:
+  - commit
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: end-of-file-fixer
+
+  - repo: local
+    hooks:
+    - id: ruff-format
+      name: ruff-format
+      entry: ruff format
+      exclude: |
+        (?x)(
+          docs
+        )
+      language: system
+      pass_filenames: true
+      types:
+        - python
+
+    - id: ruff-linter
+      name: ruff-linter
+      entry: ruff check
+      language: system
+      exclude: "docs/"
+      pass_filenames: true
+      types:
+        - python
+
+    - id: mypy
+      name: mypy
+      entry: mypy
+      language: system
+      files: "containers_sugar/"
+      pass_filenames: true
+      types:
+        - python
+
+    - id: bandit
+      name: bandit
+      entry: bandit
+      language: system
+      args: ['--configfile', 'pyproject.toml']
+      pass_filenames: true
+      types:
+        - python
+
+    - id: vulture
+      name: vulture
+      entry: vulture
+      language: system
+      files: "containers_sugar/"
+      description: Find unused Python code.
+      pass_filenames: true
+      types:
+        - python
