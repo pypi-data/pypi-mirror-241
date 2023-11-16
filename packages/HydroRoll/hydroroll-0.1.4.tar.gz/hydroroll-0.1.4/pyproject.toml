@@ -1,0 +1,53 @@
+[project]
+name = "HydroRoll"
+version = "0.1.4"
+description = "HydroRoll System."
+authors = [
+    { name = "简律纯", email = "i@jyunko.cn" },
+]
+dependencies = [
+    "watchfiles<1.0.0,>=0.18.0",
+    "joblib>=1.3.2",
+    "randomgen>=1.26.0",
+    "jieba>=0.42.1",
+    "scikit-learn>=1.3.1",
+    "requests>=2.31.0",
+    "iamai>=3.2.9",
+    "iamai-adapter-onebot11>=3.2.9",
+    "iamai-adapter-kook>=3.2.9",
+    "iamai-adapter-dingtalk>=3.2.9",
+    "iamai-adapter-apscheduler>=3.2.9",
+    "apscheduler>=3.10.4",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+keywords = [
+    "bot",
+    "qq",
+    "qqbot",
+    "mirai",
+    "coolq",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://hydroroll.retrofor.space/"
+repository = "https://github.com/HydroRoll-Team/hydroroll"
+documentation = "https://hydroroll.retrofor.space/"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
