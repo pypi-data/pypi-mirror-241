@@ -1,0 +1,11 @@
+cooldfa/__init__.py,sha256=cLFmvev3ggVseAV7PjqvTeC-O5UIs2-xlwUlJFwIoZg,41
+cooldfa/_core/core.py,sha256=lVs6AfgwoHTrrvNjkERv_K-TGe3BWufDlgdrKUVfF8E,463
+cooldfa/_core/words/others.json,sha256=UVb2uc0tjBOyDbJDhNF6Xth-sUq3CRGBbUjwZLNAguo,478756
+cooldfa/_core/words/politics.json,sha256=70A_0SeBUoyAQ2gmU1viTDr9tUKif6xtxoXswCdhGm0,23188
+cooldfa/_core/words/sex.json,sha256=T1hazgFQ_iGIG8ZcAcg2V5rz17YL1iBeO33_QxJJBS8,10325
+cooldfa/_core/words/url.json,sha256=DqiZzAcxKelFiWUZDmli88tz5DFfDq24nbm5V-v3Y9Q,262857
+cooldfa/_core/words/violence.json,sha256=3l4mTh4J1yfjn2N_NbE8FHnhSoeUCemUOGMGCUT7SuY,4015
+cooldfa-1.0.8.1.dist-info/LICENSE,sha256=Je8-0HEWlrgMTkMNvUpEZhDXLzhun1DSWvvdmeVnBwg,11341
+cooldfa-1.0.8.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+cooldfa-1.0.8.1.dist-info/METADATA,sha256=DvJ9QvEjsO9kmOlOc-BH1qG9lObeZHCN0phXentl50k,2321
+cooldfa-1.0.8.1.dist-info/RECORD,,
