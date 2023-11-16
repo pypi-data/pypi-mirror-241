@@ -1,0 +1,4 @@
+nbval
+pre-commit
+pyrsistent
+pytest

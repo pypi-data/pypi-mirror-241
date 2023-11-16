@@ -1,0 +1,21 @@
+{
+  "default": {
+    "foo": "bar"
+  },
+  "schema": {
+    "properties": {
+      "foo": {
+        "default": "bar",
+        "description": "Bla bla",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "valid": [
+    {},
+    {
+      "foo": "blubb"
+    }
+  ]
+}
