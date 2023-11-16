@@ -1,0 +1,20 @@
+__name__ = tkrdisc
+__version__ = 0.2.7.6
+__author__ = tlkr.
+__author_email__ = toolkitr.email@gmail.com
+__description__ = Custom Discord API Wrapper
+__long_description__ = file: README.md
+__long_description_content_type__ = text/markdown
+__url__ = https://github.com/toolkitr/tkrdisc
+__classifiers__ = 
+    'Development Status :: 1 - Planning',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: Internet',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Utilities',
+    'Typing :: Typed'
