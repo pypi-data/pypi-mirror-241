@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+bin/dapgen
+dapgen/__init__.py
+dapgen/_data.py
+dapgen/_read.py
+dapgen/_utils.py
+dapgen/_write.py
+dask_pgen.egg-info/PKG-INFO
+dask_pgen.egg-info/SOURCES.txt
+dask_pgen.egg-info/dependency_links.txt
+dask_pgen.egg-info/requires.txt
+dask_pgen.egg-info/top_level.txt

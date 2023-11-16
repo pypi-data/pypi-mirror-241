@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dask-pgen
+Version: 0.1
+Summary: dask pgen
+Home-page: https://github.com/kangchenghou/dask-pgen
+Author: Kangcheng Hou
+Author-email: kangchenghou@gmail.com
