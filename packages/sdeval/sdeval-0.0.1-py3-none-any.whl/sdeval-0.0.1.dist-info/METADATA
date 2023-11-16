@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: sdeval
+Version: 0.0.1
+Summary: Evaluation for stable diffusion model training
+Home-page: https://github.com/deepghs/sdeval
+Author: narugo1992
+Author-email: narugo992@gmail.com
+License: Apache License, Version 2.0
+Keywords: Utilities of images.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hbutils >=0.9.0
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: huggingface-hub
+Requires-Dist: tqdm
+Requires-Dist: dghs-imgutils >=0.2.10
+Provides-Extra: doc
+Requires-Dist: Jinja2 ~=3.0.0 ; extra == 'doc'
+Requires-Dist: sphinx ~=3.2.0 ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ~=0.4.3 ; extra == 'doc'
+Requires-Dist: enum-tools ~=0.9.0 ; extra == 'doc'
+Requires-Dist: sphinx-toolbox ; extra == 'doc'
+Requires-Dist: plantumlcli >=0.0.2 ; extra == 'doc'
+Requires-Dist: packaging ; extra == 'doc'
+Requires-Dist: sphinx-multiversion ~=0.2.4 ; extra == 'doc'
+Requires-Dist: where ~=1.0.2 ; extra == 'doc'
+Requires-Dist: easydict <2,>=1.7 ; extra == 'doc'
+Requires-Dist: responses >=0.20.0 ; extra == 'doc'
+Requires-Dist: matplotlib ; extra == 'doc'
+Requires-Dist: natsort ; extra == 'doc'
+Requires-Dist: nbsphinx >=0.8.8 ; extra == 'doc'
+Requires-Dist: ipython >=7.16.3 ; extra == 'doc'
+Requires-Dist: psutil >=5.8.0 ; extra == 'doc'
+Requires-Dist: ipykernel >=6.15 ; extra == 'doc'
+Requires-Dist: py-cpuinfo >=8.0.0 ; extra == 'doc'
+Requires-Dist: click >=7.0.0 ; extra == 'doc'
+Provides-Extra: gpu
+Requires-Dist: dghs-imgutils[gpu] ; extra == 'gpu'
+Provides-Extra: test
+Requires-Dist: coverage >=5 ; extra == 'test'
+Requires-Dist: mock >=4.0.3 ; extra == 'test'
+Requires-Dist: flake8 ~=3.5 ; extra == 'test'
+Requires-Dist: testfixtures >=6.18.5 ; extra == 'test'
+Requires-Dist: pytest ~=6.2.5 ; extra == 'test'
+Requires-Dist: pytest-cov ~=3.0.0 ; extra == 'test'
+Requires-Dist: pytest-mock ~=3.6.1 ; extra == 'test'
+Requires-Dist: pytest-xdist >=1.34.0 ; extra == 'test'
+Requires-Dist: pytest-rerunfailures ~=10.2 ; extra == 'test'
+Requires-Dist: pytest-timeout ~=2.0.2 ; extra == 'test'
+Requires-Dist: pytest-benchmark ~=3.4.0 ; extra == 'test'
+Requires-Dist: easydict <2,>=1.7 ; extra == 'test'
+Requires-Dist: testtools >=2 ; extra == 'test'
+Requires-Dist: where >=1.0.2 ; extra == 'test'
+Requires-Dist: responses >=0.20.0 ; extra == 'test'
+Requires-Dist: pytest-image-diff >=0.0.11 ; extra == 'test'
+Requires-Dist: matplotlib ; extra == 'test'
+Requires-Dist: natsort ; extra == 'test'
+
+# sdeval
+
+[![PyPI](https://img.shields.io/pypi/v/sdeval)](https://pypi.org/project/sdeval/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sdeval)
+![Loc](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/narugo1992/8de0d1fd731d9bf1b984a28a6ed21494/raw/loc.json)
+![Comments](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/narugo1992/8de0d1fd731d9bf1b984a28a6ed21494/raw/comments.json)
+
+[![Code Test](https://github.com/deepghs/sdeval/workflows/Code%20Test/badge.svg)](https://github.com/deepghs/sdeval/actions?query=workflow%3A%22Code+Test%22)
+[![Package Release](https://github.com/deepghs/sdeval/workflows/Package%20Release/badge.svg)](https://github.com/deepghs/sdeval/actions?query=workflow%3A%22Package+Release%22)
+[![codecov](https://codecov.io/gh/deepghs/sdeval/branch/main/graph/badge.svg?token=XJVDP4EFAT)](https://codecov.io/gh/deepghs/sdeval)
+
+![GitHub Org's stars](https://img.shields.io/github/stars/deepghs)
+[![GitHub stars](https://img.shields.io/github/stars/deepghs/sdeval)](https://github.com/deepghs/sdeval/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/deepghs/sdeval)](https://github.com/deepghs/sdeval/network)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/deepghs/sdeval)
+[![GitHub issues](https://img.shields.io/github/issues/deepghs/sdeval)](https://github.com/deepghs/sdeval/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/deepghs/sdeval)](https://github.com/deepghs/sdeval/pulls)
+[![Contributors](https://img.shields.io/github/contributors/deepghs/sdeval)](https://github.com/deepghs/sdeval/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/deepghs/sdeval)](https://github.com/deepghs/sdeval/blob/master/LICENSE)
+
+Evaluation for stable diffusion model training
+
+## Installation
+
+You can simply install it with `pip` command line from the official PyPI site.
+
+```shell
+pip install sdeval
+```
+
+If your operating environment includes a available GPU, you can use the following installation command to achieve higher
+performance:
+
+```shell
+pip install sdeval[gpu]
+```
+
+For more information about installation, you can refer
+to [Installation](https://deepghs.github.io/sdeval/main/tutorials/installation/index.html).
+
+## Quick Start
+
+### CCIP Metrics
+
+```python
+from sdeval.fidelity import CCIPMetrics
+
+ccip = CCIPMetrics(images='/path/of/character/dataset')
+
+# ccip score of one image
+print(ccip.score('/path/of/one/image'))
+
+# ccip score of a directory of images
+print(ccip.score('/directory/of/images'))
+
+```
+
+### Bikini Plus Metrics
+
+```python
+from sdeval.controllability import BikiniPlusMetrics
+
+# build bikini plus score metrics
+bp = BikiniPlusMetrics(
+    tag_blacklist=[
+        'bangs', 'long_hair', 'blue_eyes', 'animal_ears', 'sleeveless',
+        'breasts', 'grey_hair', 'medium_breasts'
+    ]
+)
+
+# bp score of one image
+# the image should contain a1111 webui's metadata of prompts
+print(bp.score('/path/of/one/image'))
+
+# bp score of a directory of images
+# the images should contain a1111 webui's metadata of prompts
+print(bp.score('/directory/of/images'))
+
+```
+
+### AI Corrupt Metrics
+
+```python
+from sdeval.corrupt import AICorruptMetrics
+
+# build metrics
+metrics = AICorruptMetrics()
+
+# get ai corrupt score for one image file
+print(metrics.score('/path/of/one/image'))
+
+# get ai corrupt score of a directory of image files
+print(metrics.score('/directory/of/images'))
+
+# get ai corrupt score of list of images
+print(metrics.score(['image1.png', 'image2.png']))
+
+```
