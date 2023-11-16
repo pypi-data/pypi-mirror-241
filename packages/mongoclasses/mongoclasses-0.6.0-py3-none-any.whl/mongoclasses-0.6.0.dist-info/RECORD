@@ -1,0 +1,10 @@
+mongoclasses/__about__.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+mongoclasses/__init__.py,sha256=A3h93KF6ZPFzAQgdbDE48Au3lJSn_vGXAAWuJQrohJw,593
+mongoclasses/operations.py,sha256=fTwf1gRqtK6GglwPmSLVBXglbH_C6WqQfgsriH6m1aw,6521
+mongoclasses/serialization.py,sha256=mCV4e6YmZXKmRj5aDuMXwgr4lZQjpzyQ-Rpbnx8bxrc,1878
+mongoclasses/types.py,sha256=-a6oukGvwornTGpSr0v4_L8J-pDGoFZIhPveBkN7mI4,389
+mongoclasses/utils.py,sha256=REOqeTAwzwnNpb789ffRY4T7x676U4E-dqb3O3taKjc,2975
+mongoclasses-0.6.0.dist-info/METADATA,sha256=6qnem6tWzaHQb17GSl0U4nZVLPHgpDx7Vme-pGjzqMQ,1513
+mongoclasses-0.6.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mongoclasses-0.6.0.dist-info/licenses/LICENSE.txt,sha256=RhSfKXyqnF0UOVXOEHWIgOke9Q7uhYHjQzwgU3ah0BQ,1100
+mongoclasses-0.6.0.dist-info/RECORD,,
