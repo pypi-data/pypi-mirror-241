@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bitget-connector
+Version: 0.2.0
+Summary: This is a lightweight library that works as a connector to Bitget pulic API
+Author: Arian Bahrampour
+Author-email: dev.arianbahrampour1380@gmail.com
+License: MIT
+Keywords: python,bitget,sdk,api,wrapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+SDK for bitget exchange supporting rest and websocket API.
