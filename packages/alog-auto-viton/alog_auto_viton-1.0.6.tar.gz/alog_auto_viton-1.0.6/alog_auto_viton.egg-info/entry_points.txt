@@ -1,0 +1,3 @@
+[console_scripts]
+alog_auto = cli.main:main
+kol_info = cli.an_es:main
