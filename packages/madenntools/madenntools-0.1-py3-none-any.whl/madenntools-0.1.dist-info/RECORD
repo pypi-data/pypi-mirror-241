@@ -1,0 +1,13 @@
+madenntools/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+madenntools/cv/__init__.py,sha256=GLdMGsm5_CnATyh19At20Hmb1MsXZvPxNvg70bHYChk,19
+madenntools/cv/base.py,sha256=ghJuMwfzebMVqZycRX3PCIzJi7r2bWR3nWeHEPTVJhM,5871
+madenntools/metric/__init__.py,sha256=eGAPd3XyMgQSSjPfBLLDpNmCWSbxWO_jpcLEnD2C6Rk,32
+madenntools/metric/frame_composition.py,sha256=AD5AYd8Y1ES-vzgq9dv9aMH1Tr7X5CNMM9e89F0Ng90,10903
+madenntools/metric/frame_composition_utils.py,sha256=mT9KXc7eb9cxybykDcKuLDlhr-3YkE2GuyUsVUBmq-A,5248
+madenntools/ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madenntools/os/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madenntools/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madenntools-0.1.dist-info/METADATA,sha256=goMmgZyXODkBJ8x8M31wfZNTqvpV__0pmt5UHinPaas,2021
+madenntools-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+madenntools-0.1.dist-info/top_level.txt,sha256=Pb4LLQzDn9JHUwpZDXg4m45ihtSDxP8GHaL15idhxpY,12
+madenntools-0.1.dist-info/RECORD,,
