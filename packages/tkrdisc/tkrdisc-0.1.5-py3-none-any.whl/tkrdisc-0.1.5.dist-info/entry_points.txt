@@ -1,0 +1,2 @@
+[console_scripts]
+disctool = disctool.cli:main

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tkrdisc
+Version: 0.1.5
+Summary: Custom Discord API Wrapper
+Home-page: https://github.com/toolkitr/disctool
+Author: tlkr
+Author-email: toolkitr.email@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/toolkitr/disctool/issues
+Project-URL: Source, https://github.com/toolkitr/disctool
+Keywords: tkrdiscord,discordtool,tkrdisc
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.10.0,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp >=3.7.4
+Requires-Dist: asyncio >=3.4.3
+Requires-Dist: async-timeout >=3.0.1
+Requires-Dist: requests >=2.26.0
+Requires-Dist: datetime >=4.3.1
+
+# tkrdisc
