@@ -1,0 +1,15 @@
+[project]
+name = 'pymzxml'
+version = '0.1.1'
+authors = [{name="Pedrioli Patrick", email="pedrioli@gmail.com"}]
+description = "A set of functions to read and write mzXML files"
+readme = "README.md"
+dependencies = ["numpy"]
+license = {text = "GPLv3"}
+
+[project.optional-dependencies]
+dev = ["pre-commit", "black", "isort", "flake8", "autoflake", "docformatter"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
