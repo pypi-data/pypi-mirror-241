@@ -1,0 +1,58 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 120
+lines_after_imports = 2
+
+[tool.poetry]
+name = "bany"
+version = "1.3.2"
+description = "A collection of scripts for personal finance"
+authors = ["Adam Gagorik <adam.gagorik@gmail.com>"]
+readme = "README.md"
+license = "WTFPL"
+repository = "https://github.com/AdamGagorik/bany"
+keywords = ["YNAB", "finance", "budgeting"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pdfplumber = ">=0.10.3"
+python-dateutil = "^2.8.2"
+oauthlib = "^3.2.2"
+pydantic = "^2.5.1"
+python-dotenv = ">=1.0.0"
+requests = "^2.31.0"
+rich = "^13.7.0"
+diskcache = "^5.6.3"
+responses = "^0.22.0"
+pandas = "^2.1.3"
+py-moneyed = "^3.0"
+PyYAML = "^6.0.1"
+networkx = "^3.2.1"
+scipy = "^1.11.3"
+cmd2 = "^2.4.3"
+textualize = "^0.1"
+setuptools = "^68.2.2"
+pydantic-settings = "^2.1.0"
+typer = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[tool.poetry.scripts]
+bany = 'bany.__main__:app'
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(message)s"
