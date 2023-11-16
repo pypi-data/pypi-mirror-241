@@ -1,0 +1,9 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+src/dbnl/__init__.py
+src/dbnl.egg-info/PKG-INFO
+src/dbnl.egg-info/SOURCES.txt
+src/dbnl.egg-info/dependency_links.txt
+src/dbnl.egg-info/top_level.txt
