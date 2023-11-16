@@ -1,0 +1,10 @@
+BeautifulSoup4
+lxml
+jupyterlab
+matplotlib
+gensim
+pandas
+regex
+bump-my-version
+supermat
+pytest
