@@ -1,0 +1,13 @@
+paradigm_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paradigm_client/communicator.py,sha256=jkiOWShppqRC0J52wiKqx1tAMrBKXSoiZhCShD-SnMs,10320
+paradigm_client/remote_model.py,sha256=AHssJSmoruvu-iwJrvHbMlSy2rUti-r7mN_LE8pgdw0,13365
+paradigm_client/request.py,sha256=sK1v54Xaf67ncF_V-4PhZs9wS80wrP45E8gpPXpxTkw,7094
+paradigm_client/response.py,sha256=H8dQr9Wq9MJDECLU5YPD1jWOjnD3rozv14_IJTd4e64,1630
+paradigm_client/wrappers/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+paradigm_client/wrappers/langchain.py,sha256=AA_3e936EPNfdTZmr_n2z762NjmTnbg4pydBnS4agJM,3076
+paradigm_client/wrappers/llama_index.py,sha256=mYuCTMDrsFqEGghLiwrAsiI-Hd3j8_uZHzY2n1nbYy0,3101
+paradigm_client-0.5.2.dist-info/LICENSE,sha256=tC-tkcvAnYG53Il5_SKMj-rxQfQ36JIsFIj3N8e0HNo,1064
+paradigm_client-0.5.2.dist-info/METADATA,sha256=6cNW13VssSWcz2jhJSjYFD3xEUOpTW2iCmT0OJ3yiRo,3228
+paradigm_client-0.5.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+paradigm_client-0.5.2.dist-info/top_level.txt,sha256=FGKIpsoRbSoewd11esw66NagPNCyZr2JPlHKm8lnz1A,16
+paradigm_client-0.5.2.dist-info/RECORD,,
