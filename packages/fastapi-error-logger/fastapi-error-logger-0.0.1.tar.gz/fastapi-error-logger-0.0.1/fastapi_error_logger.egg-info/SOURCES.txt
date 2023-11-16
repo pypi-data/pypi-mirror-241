@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fastapi_error_logger/__init__.py
+fastapi_error_logger/api_logger.py
+fastapi_error_logger.egg-info/PKG-INFO
+fastapi_error_logger.egg-info/SOURCES.txt
+fastapi_error_logger.egg-info/dependency_links.txt
+fastapi_error_logger.egg-info/requires.txt
+fastapi_error_logger.egg-info/top_level.txt
