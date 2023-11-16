@@ -1,0 +1,11 @@
+pychemcurv/__init__.py,sha256=JM9mZ9PyRxPflr0lmyz-5qb09kl7NzfiqM1F0ZhoOdI,573
+pychemcurv/analysis.py,sha256=F3sHkFAB0OQnat6uKPqytGXJgesCcxvemMI1r1rYPV4,9964
+pychemcurv/core.py,sha256=6yyuY4UE3m0PdIp0N2CNm67ChlN1l8Bh5NskUhAobnI,33322
+pychemcurv/geometry.py,sha256=6dHxlO3iJBC8RBRKg2okloK9uXRtWOzQBoDQAHKRzvs,5796
+pychemcurv/version.py,sha256=nxQj_Xy3_grze0NDitgDV66M-6iH8PaBP5ktngNWI6g,43
+pychemcurv/vis.py,sha256=pP2Wtw8OwEYymqJjVD7aBCf1JZcVLndQ38cS600sPkk,8606
+pychemcurv-2022.3.17.dist-info/LICENSE,sha256=0UxNyvY7tYd0Q8poCeR6YsumKlqbaINxchj37lCtGSA,1113
+pychemcurv-2022.3.17.dist-info/METADATA,sha256=5ICysI0iJDJ9_EcxWXhpu6IYaf67NUs3pW_8RV6fTPM,10361
+pychemcurv-2022.3.17.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pychemcurv-2022.3.17.dist-info/top_level.txt,sha256=W1ZILQatxFfqi9k0HjCuLTyGdlYjecGOew6WtWX95ds,11
+pychemcurv-2022.3.17.dist-info/RECORD,,
