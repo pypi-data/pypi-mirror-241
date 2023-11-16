@@ -1,0 +1,5 @@
+graft tkrdisc
+include pyproject.toml
+include setup.py
+include setup.cfg
+global-exclude *.py[cod]
