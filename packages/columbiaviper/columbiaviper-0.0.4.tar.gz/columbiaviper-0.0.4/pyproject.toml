@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "columbiaviper"
+version = "0.0.4"
+authors = [
+  { name="Computer Vision Lab at Columbia University", email="pfr2109@columbia.edu" },
+]
+description = "Trying to put Viper GPT on PyPI"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
