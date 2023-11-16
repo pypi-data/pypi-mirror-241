@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: itk-growcut
+Version: 0.2.0
+Summary: Segments a 3D image from foreground and background seeds.
+Home-page: https://itk.org/
+Author: Insight Software Consortium
+Author-email: itk+community@discourse.itk.org
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKGrowCut
+Keywords: ITK InsightToolkit
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: itk (>=5.3.0)
+
+ITKGrowCut is a remote module for ITK. It segments a 3D image from user-provided foreground and background seeds.
+
+
