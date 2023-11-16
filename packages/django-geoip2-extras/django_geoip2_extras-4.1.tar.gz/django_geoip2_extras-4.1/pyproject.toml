@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "django-geoip2-extras"
+version = "4.1"
+description = "Additional functionality using the GeoIP2 database."
+license = "MIT"
+authors = ["YunoJuno <code@yunojuno.com>"]
+maintainers = ["YunoJuno <code@yunojuno.com>"]
+readme = "README"
+homepage = "https://github.com/yunojuno/django-geoip2-extras"
+repository = "https://github.com/yunojuno/django-geoip2-extras"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+packages = [{ include = "geoip2_extras" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.2 || ^4.0 || ^5.0"
+geoip2 = "^3.0.0"
+
+[tool.poetry.group.test.dependencies]
+coverage = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+mypy = "*"
+ruff = "*"
+pre-commit = "*"
+types-geoip2 = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
