@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "wildwood"
+version = "0.3"
+description = "scikit-learn compatible alternative random forests algorithms"
+readme = "README.md"
+authors = ["Stéphane Gaïffas <stephane.gaiffas@gmail.com>"]
+homepage = "https://wildwood.readthedocs.io"
+documentation = "https://wildwood.readthedocs.io"
+keywords = [
+    "python",
+    "machine-learning",
+    "classification",
+    "regression",
+    "random-forests",
+    "robust-methods"
+]
+repository = "https://github.com/pyensemble/wildwood"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX",
+    "Operating System :: Unix"
+]
+
+[tool.poetry.dependencies]
+matplotlib = ">=3.7"
+numba = ">=0.58"
+numpy = ">=1.24"
+pandas = ">=2.0"
+python = ">=3.8, <4.0"
+scikit-learn = ">=1.3"
+scipy = ">=1.9"
+tqdm = ">=4.36"
+xlrd = ">=2.0"
+
+[tool.poetry.dev-dependencies]
+coverage = ">=7.3"
+pytest = ">=7.4"
+pytest-cov = ">=4.1"
+python-coveralls = ">=2.9"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
