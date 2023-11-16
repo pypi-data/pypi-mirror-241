@@ -1,0 +1,10 @@
+name: {{ project_name }}
+# description: Optional project description
+
+locale: {{ locale }}
+currency: {{ currency }}
+
+tables_path: tables
+metrics_path: metrics
+unions_path: unions.yml
+profiles_path: profiles.yml

@@ -1,0 +1,3 @@
+name: Percentage of Music Sold
+expr: $music_tracks_sold / $items_sold
+format: percent
