@@ -1,0 +1,3 @@
+[console_scripts]
+gridfinitybase = cqgridfinity.scripts.gridfinitybase:main
+gridfinitybox = cqgridfinity.scripts.gridfinitybox:main
