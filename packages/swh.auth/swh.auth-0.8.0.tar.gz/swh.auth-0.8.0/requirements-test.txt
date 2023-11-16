@@ -1,0 +1,10 @@
+django-stubs
+djangorestframework-stubs
+pytest
+pytest-django
+pytest-mock
+requests_mock
+swh.core[testing]
+types-click
+types-pytz
+types-pyyaml
