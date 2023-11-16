@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xornlpcrack
+Version: 0.1.1
+Summary: XOR cracker with NLP
+Author-email: Christopher Langton <chris@langton.cloud>
+Project-URL: Repository, https://github.com/chrisdlangton/xornlpcrack
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Requires-Dist: nltk >=3.8.1
+Requires-Dist: rich >=13.7.0
+
