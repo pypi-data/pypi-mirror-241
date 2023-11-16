@@ -1,0 +1,6 @@
+logmuse>=0.2.4
+psutil
+pandas
+ubiquerg>=0.4.5
+yacman
+pipestat>=0.6.0a7
