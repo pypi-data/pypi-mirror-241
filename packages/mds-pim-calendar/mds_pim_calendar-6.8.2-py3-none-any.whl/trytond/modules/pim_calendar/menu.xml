@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of the pim_calendar module for Tryton from m-ds.de.
+ The COPYRIGHT file at the top level of
+ this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <menuitem  id="menu_calendar1"
+            action="act_event_calendar" icon="mds-calendar-day"/>
+
+        <menuitem  id="menu_eventallday" parent="menu_calendar1"
+            action="act_event_calendar_allday"  icon="mds-calendar-day" sequence="10"/>
+
+        <menuitem  id="menu_eventlist" parent="menu_calendar1"
+            action="act_event_form" icon="mds-calendar-day" sequence="20"/>
+
+        <menuitem  id="menu_calendarlist" parent="menu_calendar1"
+            action="act_calendarlist_form" icon="mds-calendar-month" sequence="30"/>
+
+
+    </data>
+</tryton>
