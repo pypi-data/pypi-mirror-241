@@ -1,0 +1,7 @@
+setup.py
+arturotest/__init__.py
+arturotest/hello.py
+arturotest.egg-info/PKG-INFO
+arturotest.egg-info/SOURCES.txt
+arturotest.egg-info/dependency_links.txt
+arturotest.egg-info/top_level.txt
