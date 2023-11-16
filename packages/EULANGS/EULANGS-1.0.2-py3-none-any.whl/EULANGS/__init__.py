@@ -1,0 +1,1 @@
+from .EULANGS import EU_LANGS
