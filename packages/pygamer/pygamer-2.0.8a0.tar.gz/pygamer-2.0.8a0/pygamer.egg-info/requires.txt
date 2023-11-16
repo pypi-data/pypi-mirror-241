@@ -1,0 +1,13 @@
+numpy>=1.8.0
+
+[docs]
+breathe
+exhale
+jupyter_sphinx
+nbsphinx
+sphinx
+sphinx-issues
+threevis
+
+[test]
+pytest
