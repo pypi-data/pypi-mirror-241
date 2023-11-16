@@ -1,0 +1,16 @@
+fsam/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+fsam/fsam_fit.py,sha256=dPnjPK9Fjl5v87v35M2D6199OBnvstom3cMzQICUMPM,49978
+fsam/penalized_group_lasso.py,sha256=_bipRcBFjYDFufI2yYYIHp1VDi0Nnl-h58cUP6RABWw,26925
+fsam/sop.py,sha256=XsseFXwVoGsRtm5u_Wn2_QTvTVcD0O5zo9KFsYHfLT4,6767
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bounds.py,sha256=a0ty2WFqfb6-mHVGEjYL2CPJGQ0cRj0pWxmkh5VNnK8,10737
+tests/test_identifiabilty_conditions.py,sha256=Mn6SHyUEixOik5fZ6HaBogfl0cseRD0so-_3V40lQUw,1318
+tests/test_penalised_group_lasso.py,sha256=Nm6zPykzSJlo_4UQJ3uVLzUXewNMAoHD0EOXNrcSo_Y,21098
+tests/test_reparametrization.py,sha256=0hdB859FoOG3i752I0c2QcxTh19R4blabCtt-CFEPrg,5209
+tests/test_solution.py,sha256=TMWrx6MJzm3MuLtj5jaOYM-LVDlteSqeKTehABedRO0,3804
+tests/test_sop.py,sha256=qSuqQYU3exaE2Fxe6YT3A03q8upcmKds6s537TVV-lQ,2730
+fsam-0.1.0.dist-info/LICENSE,sha256=ATTE5w3m1kvejXZGWBwQIRxEYXXrlc4Atsq4c6I4ifA,1076
+fsam-0.1.0.dist-info/METADATA,sha256=ymWe6mTFFC_8XPwoHiMNDfhMe1jomN_zmdvc4TywoQU,6421
+fsam-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fsam-0.1.0.dist-info/top_level.txt,sha256=a-4gx0EwB1d_cua8HgNbFvK78xoAl7MMUhMhQvybgW4,11
+fsam-0.1.0.dist-info/RECORD,,
