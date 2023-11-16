@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: fast-token-classifier
+Version: 0.2.8
+Summary: 
+License: MIT
+Author: Chinedu Ezeofor
+Author-email: sneidue@email.com
+Requires-Python: ==3.10.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiohttp (==3.7)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: datasets (>=2.14.4,<3.0.0)
+Requires-Dist: ensure (>=1.0.3,<2.0.0)
+Requires-Dist: fastapi (>=0.90.0,<0.91.0)
+Requires-Dist: fsspec (>=2023.9.2,<2024.0.0)
+Requires-Dist: httpx (>=0.25.1,<0.26.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: pre-commit (>=2.21.0,<3.0.0)
+Requires-Dist: pydantic (<=1.10.13)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: scikit-learn (>=1.2.1,<2.0.0)
+Requires-Dist: scipy (==1.11.3)
+Requires-Dist: seqeval (>=1.2.2,<2.0.0)
+Requires-Dist: tensorflow (>=2.13,<3.0)
+Requires-Dist: transformers (>=4.32.0,<5.0.0)
+Requires-Dist: typeguard (>=2.13.3,<3.0.0)
+Requires-Dist: uvicorn (>=0.24.0,<0.25.0)
+Description-Content-Type: text/markdown
+
+# INFO-EXTRACTION
+
+NLP project to identify and categorize named entities in an input text.
+
+## Table of Content
+
+- [INFO-EXTRACTION](#info-extraction)
+  - [Table of Content](#table-of-content)
+  - [Setup Package](#setup-package)
+    - [IMPORTANT STEP](#important-step)
+    - [List Available Commands](#list-available-commands)
+  - [Build And Publish The Package](#build-and-publish-the-package)
+    - [Using Setuptools](#using-setuptools)
+    - [Using Poetry](#using-poetry)
+  - [Check HugingFace Cache](#check-hugingface-cache)
+  - [Run Tests](#run-tests)
+
+## Setup Package
+
+### IMPORTANT STEP
+
+- To setup the package locally, run:
+
+```sh
+make setup_venv
+```
+
+### List Available Commands
+
+- To list all the available commands, run:
+
+```sh
+make help
+```
+
+## Build And Publish The Package
+
+### Using Setuptools
+
+- Build the package by running:
+
+```sh
+# Install packages required for building and publishing
+python -m pip install build twine
+
+# Build
+python setup.py clean --all
+python setup.py sdist bdist_wheel
+
+# Verify build
+twine check dist/*
+
+# Upload package
+twine upload dist/* --verbose
+```
+
+### Using Poetry
+
+- Build the package using Poetry by running:
+
+```sh
+# Install packages required for building and publishing
+pip install --no-cache poetry==1.4.2
+poetry lock "--no-update" && poetry install --no-interaction
+
+export PYPI_TOKEN="your_pypi_token"
+poetry config pypi-token.pypi ${PYPI_TOKEN}
+
+# Build and upload package
+poetry publish --build
+```
+
+## Check HugingFace Cache
+
+- Check the locally cached models and dataset by running:
+
+```sh
+huggingface-cli scan-cache -v
+```
+
+## Run Tests
+
+- For unit tests, run:
+
+```sh
+# All tests
+make run_test
+```
+
