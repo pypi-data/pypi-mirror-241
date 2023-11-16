@@ -1,0 +1,2 @@
+[console_scripts]
+yapenv = yapenv.__main__:run_cli_main
