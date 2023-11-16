@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: fut-listen
+Version: 0.2.0
+Summary: CLI Program to automate listening sections for tests.
+Author: Dan Cook
+Author-email: cook.r.dan@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+# FUT-LISTEN
+
+```
+  /`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`
+  /`     ┏━╸╻ ╻╺┳╸   ╻  ╻┏━┓╺┳╸┏━╸┏┓╻     /`
+  /`     ┣╸ ┃ ┃ ┃ ╺━╸┃  ┃┗━┓ ┃ ┣╸ ┃┗┫     /`
+  /`     ╹  ┗━┛ ╹    ┗━╸╹┗━┛ ╹ ┗━╸╹ ╹     /`
+  /`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`/`
+```
+
+A CLI Program to automate listening sections for tests.
+
+### What it does
+
+The default behavior is to search through the current working directory for *.mp3 files. It will sort the files in order, and then play them twice. There are instructions given (with TTS) and delays given throughout, with tones to indicate that the next portion will happen soon. It's basically an automated playlist.
+
+The defaults probably work fine, but there are a lot of options. 
+
+This program doesn't do any trimming of audio. If you need to do that, use another tool. 
+
+### Requirements:
+
+1. You should have a high-quality TTS voice downloaded. [Read here](https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac) to find out more.
+2. [mpv](https://mpv.io) is used for playing audio. Install it using homebrew: `brew install mpv`.
+3. [sox](https://sourceforge.net/projects/sox/) is used to play tones. Install it using homebrew: `brew install sox`.
+
+### Installation
+
+It's best to use [pipx](https://pypa.github.io/pipx/):
+
+```
+pipx install fut-listen
+```
+
+Alternatively, install with pip:
+
+```
+pip install fut-listen
+```
+
+### Usage
+
+```
+# navigate to directory
+fut-listen
+
+# See options
+fut-listen --help
+```
+
