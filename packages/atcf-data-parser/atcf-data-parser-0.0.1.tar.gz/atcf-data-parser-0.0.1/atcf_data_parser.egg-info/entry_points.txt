@@ -1,0 +1,2 @@
+[console_scripts]
+atcf-data-parser = atcf_data_parser.cli:cli
