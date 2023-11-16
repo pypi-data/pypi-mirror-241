@@ -1,0 +1,9 @@
+README.md
+setup.py
+larkspd/__init__.py
+larkspd/main.py
+larkspd.egg-info/PKG-INFO
+larkspd.egg-info/SOURCES.txt
+larkspd.egg-info/dependency_links.txt
+larkspd.egg-info/requires.txt
+larkspd.egg-info/top_level.txt
