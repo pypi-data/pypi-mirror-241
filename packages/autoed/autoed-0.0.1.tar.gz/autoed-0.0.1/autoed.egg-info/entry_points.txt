@@ -1,0 +1,4 @@
+[console_scripts]
+autoed = autoed.autoed:main
+autoed_beam_center = autoed.beam_center:main
+autoed_watch = autoed.watch:main

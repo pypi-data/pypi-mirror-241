@@ -1,0 +1,16 @@
+README.md
+setup.py
+autoed/__init__.py
+autoed/autoed.py
+autoed/beam_center.py
+autoed/convert.py
+autoed/dataset.py
+autoed/misc_functions.py
+autoed/process.py
+autoed/watch.py
+autoed.egg-info/PKG-INFO
+autoed.egg-info/SOURCES.txt
+autoed.egg-info/dependency_links.txt
+autoed.egg-info/entry_points.txt
+autoed.egg-info/requires.txt
+autoed.egg-info/top_level.txt

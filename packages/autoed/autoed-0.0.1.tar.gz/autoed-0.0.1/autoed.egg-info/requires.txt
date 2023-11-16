@@ -1,0 +1,8 @@
+watchdog
+numpy>=1.26.0
+nexgen
+h5py>=3.10.0
+argparse
+python-daemon
+pathlib
+argcomplete
