@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/rootstalk/timestamp.py
+src/rootstalk.egg-info/PKG-INFO
+src/rootstalk.egg-info/SOURCES.txt
+src/rootstalk.egg-info/dependency_links.txt
+src/rootstalk.egg-info/requires.txt
+src/rootstalk.egg-info/top_level.txt
+tests/test_timestamp.py
