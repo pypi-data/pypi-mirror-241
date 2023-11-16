@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+neon_phal_plugin_audio_receiver/__init__.py
+neon_phal_plugin_audio_receiver/utils.py
+neon_phal_plugin_audio_receiver/version.py
+neon_phal_plugin_audio_receiver.egg-info/PKG-INFO
+neon_phal_plugin_audio_receiver.egg-info/SOURCES.txt
+neon_phal_plugin_audio_receiver.egg-info/dependency_links.txt
+neon_phal_plugin_audio_receiver.egg-info/entry_points.txt
+neon_phal_plugin_audio_receiver.egg-info/requires.txt
+neon_phal_plugin_audio_receiver.egg-info/top_level.txt
+neon_phal_plugin_audio_receiver.egg-info/zip-safe
