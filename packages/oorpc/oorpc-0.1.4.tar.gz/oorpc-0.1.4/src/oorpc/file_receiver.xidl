@@ -1,0 +1,10 @@
+
+interface FileReceiver {
+    /**
+     * Ask to send files
+     * 
+     * files : A list of file streams to be sent
+     * return: A list of boolean values indicating accept the file or not
+     */
+    List<Bool> askSend(self, files: List<Stream>)
+}
