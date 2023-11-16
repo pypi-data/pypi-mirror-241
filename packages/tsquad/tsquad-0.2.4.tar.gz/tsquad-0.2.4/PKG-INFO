@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tsquad
+Version: 0.2.4
+Summary: numeric quadrature using the Tanh-Sinh variable transformation
+Author: Richard Hartmann
+Author-email: richard.hartmann@tu-dresden.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mpmath (>=1.2.1,<2.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
