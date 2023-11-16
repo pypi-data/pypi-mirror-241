@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+html-tag-counter/__init__.py
+html-tag-counter/__main__.py
+html-tag-counter/database.py
+html-tag-counter/functions.py
+html-tag-counter/tagcounter.py
+html-tag-counter/tests.py
+html_tag_counter.egg-info/PKG-INFO
+html_tag_counter.egg-info/SOURCES.txt
+html_tag_counter.egg-info/dependency_links.txt
+html_tag_counter.egg-info/requires.txt
+html_tag_counter.egg-info/top_level.txt
