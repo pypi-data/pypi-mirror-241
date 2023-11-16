@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "lhub_integ"
+version = "1.0.13"
+description = "The Logichub Integration SDK"
+
+license = "MIT"
+
+authors = [
+    "Russell Cohen <russell@logichub.com>",
+    "Conrad Verkler <conrad@logichub.com>"
+]
+
+readme = 'README.md'
+
+homepage = "https://logichub.com"
+
+keywords = ['security', 'automation', 'logichub']
+
+[pypi]
+username = "logichub"
+password = "pypi-AgEIcHlwaS5vcmcCJGQwZmUwNzkwLTM3NGMtNGI5Ny1hZGNjLTVlNGYyN2U3MjViNgACElsxLFsibGh1Yi1pbnRlZyJdXQACLFsyLFsiZTk4NGM5MGUtMTQ0Yy00ZGE1LWIyNzgtNGQ5MDUxZjI1MjYxIl1dAAAGIM17W7hhIjVD3hVCtXLTvhz13QWj3ZAEhdjaW6gA23_R"
+
+[lhub_integ]
+repository = "https://upload.pypi.org/legacy/"
+username = "logichub"
+password = "pypi-AgEIcHlwaS5vcmcCJGQwZmUwNzkwLTM3NGMtNGI5Ny1hZGNjLTVlNGYyN2U3MjViNgACElsxLFsibGh1Yi1pbnRlZyJdXQACLFsyLFsiZTk4NGM5MGUtMTQ0Yy00ZGE1LWIyNzgtNGQ5MDUxZjI1MjYxIl1dAAAGIM17W7hhIjVD3hVCtXLTvhz13QWj3ZAEhdjaW6gA23_R"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+dataclasses-json = "*"
+click = "~7.0"
+docstring-parser = "~0.1"
+wheel = "^0.32.3"
+Jinja2 = "*"
+PySocks = "1.7.1"
+python-magic = "0.4.15"
+beautifulsoup4 = "4.8.2"
+netaddr = "0.7.19"
+python-dateutil = "2.8.1"
+PyYAML = "5.3.1"
+urllib3 = "1.25.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+
+[tool.poetry.scripts]
+bundle-requirements = 'lhub_integ.bundle_requirements:main'
