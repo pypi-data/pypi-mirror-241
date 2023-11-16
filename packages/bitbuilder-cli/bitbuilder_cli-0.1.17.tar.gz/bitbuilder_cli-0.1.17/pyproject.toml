@@ -1,0 +1,26 @@
+[project]
+name = "bitbuilder-cli"
+version = "0.1.17"
+description = "A CLI tool for BitBuilder"
+authors = [{name = "Your Name", email = "youremail@example.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pydantic==1.10.4",
+    "fastapi==0.89.1",
+    "uvicorn[standard]==0.23.2",
+    "loguru==0.7.2",
+    "diff-match-patch==20230430",
+    "requests==2.31.0"
+]
+
+[project.scripts]
+bb = "bitbuilder.cli:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "bitbuilder"
