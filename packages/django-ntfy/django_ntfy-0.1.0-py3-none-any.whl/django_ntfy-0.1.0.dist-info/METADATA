@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-ntfy
+Version: 0.1.0
+Summary: Django's email backend which is used to send messages to ntfy.sh
+License: MIT
+Keywords: ntfy,email backend
+Author: Stepan Henek
+Author-email: stepan@bigdigdata.com
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: Django (>=4.2.0)
+Requires-Dist: requests (>=2.31,<3.0)
+Description-Content-Type: text/markdown
+
+# django-ntfy
+
+Django's email backend which is used to send messages to ntfy.sh (or self hostated instace) instead of actually sending an email.
+
