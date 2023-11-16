@@ -1,0 +1,17 @@
+README.md
+setup.py
+local_first_linguist.egg-info/PKG-INFO
+local_first_linguist.egg-info/SOURCES.txt
+local_first_linguist.egg-info/dependency_links.txt
+local_first_linguist.egg-info/entry_points.txt
+local_first_linguist.egg-info/top_level.txt
+src/__init__.py
+src/cli.py
+src/parser/__init__.py
+src/parser/csv.py
+src/parser/parser.py
+src/parser/srt.py
+src/parser/txt.py
+src/translator/Helsinki.py
+src/translator/__init__.py
+src/translator/translator.py
