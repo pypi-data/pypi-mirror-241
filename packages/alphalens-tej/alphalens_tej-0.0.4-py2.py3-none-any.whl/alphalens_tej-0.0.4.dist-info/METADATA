@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: alphalens-tej
+Version: 0.0.4
+Summary: modified alphalens-reloaded=0.4.2.
+Home-page: https://api.tej.com.tw
+Author: tej
+Author-email: tej@tej.com.tw
+Maintainer: tej api Development Team
+Maintainer-email: tej@tej.com
+License: MIT
+Keywords: tej,big data,data,financial,economic,stock,TEJ
+Requires-Python: >=3.8
+Requires-Dist: seaborn
+Requires-Dist: scipy
+
