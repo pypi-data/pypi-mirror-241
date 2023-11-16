@@ -1,0 +1,10 @@
+itk/GrowCutPython.py,sha256=ELQLn__AVKC6IMKAasWmZQFBg6Lr28vUiC-wngJN8u4,2394
+itk/_GrowCutPython.so,sha256=sex5kPv9n7b4s3jFmt-b1wxaozmoMHT57sdhx0iFu1c,3095800
+itk/itkFastGrowCutPython.py,sha256=qOWBmb2ztT7RoQTGrIEdiCA5C0Uf7sEovz06ZZaKvFc,21190
+itk/Configuration/GrowCutConfig.py,sha256=vRK-nJIzvsIBsaCdQD__neLliV75_tWgYUsrWmuFAd4,759
+itk/Configuration/GrowCut_snake_case.py,sha256=bzpOCOcmc0FB-wtSPcc57o3XC0c1Fvtnw2lPbCR0JUA,43
+itk_growcut-0.2.1.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_growcut-0.2.1.dist-info/METADATA,sha256=EHyISlbmoJvY9gSiNiN_r_is2Q-JrjBiCBRXcKpaqt0,1352
+itk_growcut-0.2.1.dist-info/WHEEL,sha256=_7u7WyZzDzLI_SoZ0z1NinJMdOXYbY1cchKv80C6qN4,103
+itk_growcut-0.2.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_growcut-0.2.1.dist-info/RECORD,,
