@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+astropy
+scipy
+numba
+tqdm
+emcee
+corner
+apollinaire
