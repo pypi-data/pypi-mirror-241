@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: memocell
+Version: 0.1.5
+Summary: Bayesian inference of stochastic cellular processes with and without memory in Python.
+Home-page: https://github.com/mauricelanghinrichs/memocell.git
+Author: Maurice Langhinrichs
+Author-email: m.langhinrichs@icloud.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Please visit MemoCell on `GitHub <https://github.com/mauricelanghinrichs/memocell>`_.
