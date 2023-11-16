@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PHASER_tmp
+Version: 2.1.0
+Summary: A Perceptual Hashing Algorithms Evaluation and Results framework
+Home-page: https://github.com/AabyWan/PHASER_tmp
+Author: Peter Aaby
+Author-email: aabywancanaaby@gmail.com
+Project-URL: Source, https://github.com/AabyWan/PHASER_tmp/
+Keywords: research,digital forensics,development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# PHASER_tmp
+temporary dev repo
