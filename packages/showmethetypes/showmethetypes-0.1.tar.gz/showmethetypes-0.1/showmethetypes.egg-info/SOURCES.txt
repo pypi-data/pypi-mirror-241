@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+showmethetypes/__init__.py
+showmethetypes/core.py
+showmethetypes/handlers.py
+showmethetypes/registry.py
+showmethetypes.egg-info/PKG-INFO
+showmethetypes.egg-info/SOURCES.txt
+showmethetypes.egg-info/dependency_links.txt
+showmethetypes.egg-info/top_level.txt
