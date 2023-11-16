@@ -1,0 +1,6 @@
+
+[full]
+aiofiles
+itsdangerous
+jinja2
+python-multipart
