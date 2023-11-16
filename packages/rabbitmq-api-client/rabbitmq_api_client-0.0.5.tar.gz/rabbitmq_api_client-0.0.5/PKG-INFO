@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: rabbitmq_api_client
+Version: 0.0.5
+Summary: Http client to manage Rabbitmq admin
+Author-Email: Elie Terrien <contact@elie-terrien.fr>
+License: MIT
+Project-URL: Source, https://github.com/elterrien/rabbitmq_api_client
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.25.0
+Requires-Dist: pydantic>=2.4.2
+Description-Content-Type: text/markdown
+
+# Python library to interact with the RabbitMQ Admin API.
+
+## Description
+
+This package provides a simple http client to manage Rabbitmq admin api.
+
+The package is based on [httpx](https://www.python-httpx.org/).
+
+It also provides [pydantic](https://docs.pydantic.dev/latest/) models for request.
+
+## Installation
+
+```bash
+pip install rabbitmq-api-client
+```
+
+## Usage
+
+```python
+from rabbitmq_api_client.client import RabbitMQClient
+from rabbitmq_api_client.schemas import CreateUser
+
+# Initialize client with url and credentials
+client = RabbitMQClient('http://localhost:15672', 'user', 'password')
+
+# Define a user with pydantic model
+user = CreateUser(username='test', password='test', tags='administrator')
+
+# Create user
+client.create_user(user)
+
+# Get user by name
+user_dict = client.get_user('test')
+```
+
+
