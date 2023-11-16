@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: numpyk
+Version: 0.0.32
+Summary: Alternate to numpy
+Author: someone
+Author-email: <someone@info.in>
+Keywords: python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Alternate
