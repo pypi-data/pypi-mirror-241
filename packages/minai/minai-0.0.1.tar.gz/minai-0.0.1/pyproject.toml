@@ -1,0 +1,8 @@
+[project]
+name = "minai"
+version = "0.0.1"
+description = ""
+
+[build-system]
+requires = ["flit_core>=3.7,<4"]
+build-backend = "flit_core.buildapi"
