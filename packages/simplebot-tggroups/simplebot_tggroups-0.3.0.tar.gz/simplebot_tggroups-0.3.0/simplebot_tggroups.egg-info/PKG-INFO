@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: simplebot-tggroups
+Version: 0.3.0
+Summary: Bridge Telegram groups with DeltaChat groups.
+Home-page: https://github.com/simplebot-org/simplebot_tggroups
+Author: adbenitez
+Author-email: adbenitez@nauta.cu
+License: MPL
+Keywords: simplebot plugin deltachat telegram bridge
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: simplebot>=4.0.0
+Requires-Dist: SQLAlchemy>=1.4.39
+Requires-Dist: cachelib>=0.7.0
+Requires-Dist: pydub>=0.25.1
+Requires-Dist: Telethon>=1.25.4
+Requires-Dist: cryptg>=0.3.1
+Requires-Dist: Pillow>=9.2.0
+Requires-Dist: aiohttp>=3.8.3
+Requires-Dist: hachoir>=3.1.3
+Provides-Extra: test
+Requires-Dist: pytest==7.2.0; extra == "test"
+Provides-Extra: dev
+Requires-Dist: simplebot>=4.0.0; extra == "dev"
+Requires-Dist: SQLAlchemy>=1.4.39; extra == "dev"
+Requires-Dist: cachelib>=0.7.0; extra == "dev"
+Requires-Dist: pydub>=0.25.1; extra == "dev"
+Requires-Dist: Telethon>=1.25.4; extra == "dev"
+Requires-Dist: cryptg>=0.3.1; extra == "dev"
+Requires-Dist: Pillow>=9.2.0; extra == "dev"
+Requires-Dist: aiohttp>=3.8.3; extra == "dev"
+Requires-Dist: hachoir>=3.1.3; extra == "dev"
+Requires-Dist: pytest==7.2.0; extra == "dev"
+Requires-Dist: black==22.10.0; extra == "dev"
+Requires-Dist: mypy==0.982; extra == "dev"
+Requires-Dist: isort==5.10.1; extra == "dev"
+Requires-Dist: pylint==2.15.5; extra == "dev"
+Requires-Dist: pylama==8.4.1; extra == "dev"
+
+Telegram Groups Bridge
+======================
+
+.. image:: https://img.shields.io/pypi/v/simplebot_tggroups.svg
+   :target: https://pypi.org/project/simplebot_tggroups
+
+.. image:: https://img.shields.io/pypi/pyversions/simplebot_tggroups.svg
+   :target: https://pypi.org/project/simplebot_tggroups
+
+.. image:: https://pepy.tech/badge/simplebot_tggroups
+   :target: https://pepy.tech/project/simplebot_tggroups
+
+.. image:: https://img.shields.io/pypi/l/simplebot_tggroups.svg
+   :target: https://pypi.org/project/simplebot_tggroups
+
+.. image:: https://github.com/simplebot-org/simplebot_tggroups/actions/workflows/python-ci.yml/badge.svg
+   :target: https://github.com/simplebot-org/simplebot_tggroups/actions/workflows/python-ci.yml
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+A `SimpleBot`_ plugin that allows to bridge Telegram and Delta Chat groups.
+
+    For channel subscriptions use: https://github.com/simplebot-org/simplebot_tgchan
+
+Installation
+------------
+
+To install run::
+
+  pip install simplebot-tggroups
+
+To convert Delta Chat voice messages to mp3 before sending them to the Telegram side,
+`pydub <https://github.com/jiaaro/pydub>`_ is used, you might need to install ``ffmpeg`` in your
+system, check: https://github.com/jiaaro/pydub#dependencies, for example to install it in an
+apt-based system::
+
+  sudo apt install ffmpeg
+
+Configuration
+-------------
+
+See https://github.com/simplebot-org/simplebot to know how to configure the bot with an e-mail account.
+
+Before you start using the bot, you need to get your own API ID and hash, go to https://my.telegram.org,
+you also need a bot token, got to `@BotFather <https://t.me/botfather>`_ on Telegram and create a bot,
+then to set API ID, API hash and bot token, execute::
+
+    simplebot -a bot@example.com telegram
+
+After configuration you can start the bot::
+
+    simplebot -a bot@example.com serve
+
+Then you can start bridging Telegram and Delta Chat groups, send ``/help`` to the bot in Delta Chat for
+more info.
+
+To bridge a Telegram group to a Delta Chat group:
+
+1. Add the bot in Telegram to your group.
+2. Send ``/id`` command in the Telegram group, copy the ID returned by the bot.
+3. Add the bot in Delta Chat to your group.
+4. Send ``/bridge 1234`` where ``1234`` is the group ID obtained in the Telegram group.
+5. Then all messages sent in both groups will be relayed to the other side.
+
+Tweaking Default Configuration
+------------------------------
+
+You can tweak the maximum size (in bytes) of attachments the bot will bridge::
+
+    simplebot -a bot@example.com telegram --max-size 5242880
+
+By default the bot will download attachments of up to 5MB.
+
+
+.. _SimpleBot: https://github.com/simplebot-org/simplebot
