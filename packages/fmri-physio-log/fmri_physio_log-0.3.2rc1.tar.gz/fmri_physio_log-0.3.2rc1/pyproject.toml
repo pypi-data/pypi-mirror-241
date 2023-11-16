@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "fmri-physio-log"
+version = "0.3.2rc1"
+description = "Parse Siemens PMU files"
+authors = [
+    "Andrew Ross <andrew.ross.mail@gmail.com>"
+]
+license = "MIT"
+
+readme = "README.md"
+
+homepage = "https://github.com/andrewrosss/fmri-physio-log"
+repository = "https://github.com/andrewrosss/fmri-physio-log"
+documentation = "https://github.com/andrewrosss/fmri-physio-log"
+
+keywords = ["mri", "siemens", "pmu"]
+
+classifiers = [
+    "Programming Language :: Python :: 3.0",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+flake8 = "^6.1.0"
+pylint = "^3.0.1"
+reorder-python-imports = "^3.12.0"
+bump2version = "^1.0.1"
+pre-commit = "^3.5.0"
+pytest = "^7.4.2"
+lark = "^1.1.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
