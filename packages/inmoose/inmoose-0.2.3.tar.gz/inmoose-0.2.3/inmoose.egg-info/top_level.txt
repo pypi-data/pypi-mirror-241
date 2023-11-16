@@ -1,0 +1,8 @@
+inmoose
+inmoose/common_cpp
+inmoose/consensus_clustering
+inmoose/edgepy
+inmoose/edgepy/edgepy_cpp
+inmoose/pycombat
+inmoose/sim
+inmoose/utils
