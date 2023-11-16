@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+unicorn_fy/__init__.c
+unicorn_fy/unicorn_fy.c
+unicorn_fy.egg-info/PKG-INFO
+unicorn_fy.egg-info/SOURCES.txt
+unicorn_fy.egg-info/dependency_links.txt
+unicorn_fy.egg-info/requires.txt
+unicorn_fy.egg-info/top_level.txt
