@@ -1,0 +1,7 @@
+requests
+selenium
+selenium-wire
+webdriver_manager
+ddddocr
+docopt
+Pillow==9.5.0
