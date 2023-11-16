@@ -1,0 +1,30 @@
+0.7 (2023-11-15)
+----------------
+
+- Modernize project infrastructure.
+  - Changed to pyproject.toml
+  - Changed to ruff and ruff-format
+  - Changed to pytest
+  - Add publish to github actions
+  - Migrated readme from rst to md
+  - Use dict instead of OrderedDict
+- Moved docstring to NumPy style
+- Add typing information.
+- Minimum Python now is Python 3.9+.
+- Documented ObjectLike output.
+
+
+0.6 (2022-10-26)
+----------------
+
+- Modernize testing infrastructure.
+- Modernize install infrastructure.
+- Run linters
+- Update for Python 3.9+ regex escape sequence
+  (Issue #2, thanks rbuckland)
+
+
+0.5 (2019-07-08)
+----------------
+
+-
