@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: fenics-pulse2
+Version: 0.1.1
+Summary: Cardiac Mechanics simulator
+Author-email: Henrik Finsberg <henriknf@simula.no>
+License: Copyright 2023 Henrik Finsberg
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://finsberg.github.io/pulse2
+Project-URL: Documentation, https://finsberg.github.io/pulse2
+Project-URL: Source, https://github.com/finsberg/pulse2
+Project-URL: Tracker, https://github.com/finsberg/pulse2/issues
+Keywords: cardiac,mechanics,closed loop
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions
+Provides-Extra: all
+Requires-Dist: fenics-pulse2[test] ; extra == 'all'
+Requires-Dist: fenics-pulse2[docs] ; extra == 'all'
+Requires-Dist: fenics-pulse2[pypi] ; extra == 'all'
+Requires-Dist: fenics-pulse2[demo] ; extra == 'all'
+Requires-Dist: fenics-pulse2[dev] ; extra == 'all'
+Provides-Extra: demo
+Requires-Dist: cardiac-geometries ; extra == 'demo'
+Requires-Dist: ldrb ; extra == 'demo'
+Provides-Extra: dev
+Requires-Dist: pdbpp ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: bump-my-version ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: jupyter-book ; extra == 'docs'
+Requires-Dist: jupytext ; extra == 'docs'
+Requires-Dist: fenics-pulse2[demo] ; extra == 'docs'
+Provides-Extra: pypi
+Requires-Dist: twine ; extra == 'pypi'
+Requires-Dist: build ; extra == 'pypi'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: cardiac-geometries ; extra == 'test'
+
+[![MIT](https://img.shields.io/github/license/finsberg/pulse2)](https://github.com/finsberg/pulse2/blob/main/LICENSE)
+[![PyPI version](https://badge.fury.io/py/pulse2.svg)](https://pypi.org/project/fenicsx_pulse/)
+[![Tests](https://github.com/finsberg/pulse2/actions/workflows/test.yml/badge.svg)](https://github.com/finsberg/pulse2/actions/workflows/test.yml)
+[![Pre-commit](https://github.com/finsberg/pulse2/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/finsberg/pulse2/actions/workflows/pre-commit.yml)
+[![Deploy static content to Pages](https://github.com/finsberg/pulse2/actions/workflows/build_docs.yml/badge.svg)](https://github.com/finsberg/pulse2/actions/workflows/build_docs.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Create and publish a Docker image](https://github.com/finsberg/pulse2/actions/workflows/docker-image.yml/badge.svg)](https://github.com/finsberg/pulse2/pkgs/container/fenicsx_pulse)
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/finsberg/a7290de789564f03eb6b1ee122fce423/raw/pulse2-coverage.json)](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/finsberg/a7290de789564f03eb6b1ee122fce423/raw/pulse2-coverage.json)
+
+# Pulse2
+
+`pulse2` is a FEniCS-based cardiac mechanics solver. It is in part inspired by [`fenics-pulse`](https://github.com/finsberg/pulse) and [`pulse`](https://bitbucket.org/peppu/pulse) but it created to make the transition to [`fenicsx-pulse`](https://github.com/finsberg/fenicsx-pulse) easier.
+
+## Install
+
+```
+python3 -m pip install fenics-pulse2
+```
+
+# Quickstart
+
+TBW
+
+
+## Contributing
+See https://finsberg.github.io/fenicsx-pulse/CONTRIBUTING.html
