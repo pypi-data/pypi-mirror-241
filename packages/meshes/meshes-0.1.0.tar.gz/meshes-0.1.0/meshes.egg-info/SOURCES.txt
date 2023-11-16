@@ -1,0 +1,8 @@
+LICENSE
+README.md
+meshset.cpp
+setup.py
+meshes.egg-info/PKG-INFO
+meshes.egg-info/SOURCES.txt
+meshes.egg-info/dependency_links.txt
+meshes.egg-info/top_level.txt
