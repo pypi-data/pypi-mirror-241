@@ -1,0 +1,10 @@
+src/__init__.py,sha256=GJ_HVGRYrIfEApExBqX_n3mcMCfcO52C57vqbpvc8l8,60
+src/__main__.py,sha256=q-Z-BF8XJwnrWPj5b7-KmwoA2hBjNEmtTCeFjvSbFEY,427
+src/bcast.py,sha256=vQ0ArrH4Sy0L8QMX2SLVUr6AS5XBfH9uIB3OJnNvr9U,4584
+src/recv.py,sha256=uO_kOSW5gEKN8QU4QyMgWIWbcKnTT6pTe6CwLAMboyQ,2749
+src/send.py,sha256=LbgFvPsjvMgjhjzT0EIC-9YGfYIuQq_M2OxEYt8bcYA,1828
+pysendcast-0.1.5.dist-info/METADATA,sha256=hBxEaBVbopgMXDCNJSFRKmznMUMzWMs2QZIlxn6R5us,4607
+pysendcast-0.1.5.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+pysendcast-0.1.5.dist-info/entry_points.txt,sha256=nYLVq-iIsEBmCGAqQ-JQTBOHi7r9BJlp4dwEwdDD6Lc,47
+pysendcast-0.1.5.dist-info/licenses/LICENSE.txt,sha256=FWKmOdeuq0-as6Ji4MlsWTspqZtVAx_R7IOU7m3Xdyc,1078
+pysendcast-0.1.5.dist-info/RECORD,,

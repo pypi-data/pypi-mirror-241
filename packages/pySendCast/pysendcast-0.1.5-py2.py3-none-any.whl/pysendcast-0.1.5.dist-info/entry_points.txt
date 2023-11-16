@@ -1,0 +1,2 @@
+[console_scripts]
+sendcast = src.__main__:main
