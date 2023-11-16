@@ -1,0 +1,3 @@
+[pdm.build.hook]
+pyfuture = pdm_pyfuture.build:MypycBuildHook
+
