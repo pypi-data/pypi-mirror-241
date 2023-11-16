@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: useenv
+Version: 0.2.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# useenv
+
+A tiny tool to merge values into your env file. 
+Useful in some rare circumstances e.g. swapping variables in local development,
+when you don't want to maintain multiple separate env files.  
+
+* `pipx install useenv`
+* Create a `.useenv` config file in your project root. 
+  * If this contains secret values then make sure to add `.useenv` to your project or global `.gitignore`.
+* `useenv <env_identifier>`
+
+Example `.useenv` config file:
+
+```
+env_file: .env
+envs:
+    foo:
+        DATABASE_HOST: "..."
+        DATABASE_NAME: "..."
+        DATABASE_USER: "..."
+        DATABASE_PASSWORD: "..."
+    bar:
+        DATABASE_HOST: "..."
+        DATABASE_NAME: "..."
+        DATABASE_USER: "..."
+        DATABASE_PASSWORD: "..."
+```
+
