@@ -1,0 +1,12 @@
+i18nconverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i18nconverter/main.py,sha256=c2AX1SS29l01D1vAyC4xnYjn2PtvMPRKw4ZYezpqYLc,2333
+i18nconverter/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i18nconverter/converters/gspreadsheet_to_json.py,sha256=BB8Kzd-_Qw3eBXBEcxrg4F6fJF4DQwO6vWzD-XBRVpM,2049
+i18nconverter/converters/json_to_kv.py,sha256=600fO9WPo5Vx7DdEcXLgwK8WcXiOIhFJYwP2fIPttLo,1141
+i18nconverter/converters/kv_to_gspreadsheet.py,sha256=0_8NL3wgVI6EiMBgaERKkZ1905W_9yp3b8M7EPxYCUg,1294
+i18nconverter-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+i18nconverter-0.0.1.dist-info/METADATA,sha256=Nnd5k6oT9a8pIsQe8lrJAiFh-8SCA60-SQvHwGW-QMg,2590
+i18nconverter-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+i18nconverter-0.0.1.dist-info/entry_points.txt,sha256=7lGPjWzRlIgXgTBg_armaaNhMmjfFhCZthQQXYCcsvo,57
+i18nconverter-0.0.1.dist-info/top_level.txt,sha256=LK9w4gyfpc2KZDKKxrNn8FUNU-qk5Rn3iJlxRQWz9o4,14
+i18nconverter-0.0.1.dist-info/RECORD,,
