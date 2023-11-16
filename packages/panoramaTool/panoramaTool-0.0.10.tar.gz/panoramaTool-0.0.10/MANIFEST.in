@@ -1,0 +1,3 @@
+include panoramaTool/static/*
+include panoramaTool/templates/*
+include panoramaTool/panorama_api/*
