@@ -1,0 +1,12 @@
+HydroRoll/__init__.py,sha256=35PqVhpP-u2yIA6ADGJazxZzVxPNHoSkCQudkC1CiD8,2333
+HydroRoll/config.py,sha256=ScJSisxMUw8-UfZvJ9UPNTV8bPppAfVwv0UM1U6-s6I,3228
+HydroRoll/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HydroRoll/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HydroRoll/models/hola.pkl,sha256=xTQ9PrjGbnP6-HmgGSL0PoRzJKk428T-n1gY4Xw89S0,209
+HydroRoll/models/utils.py,sha256=uJMuIUisPcL0qWvx6VYiqCyZ5PPJhi1io3I49HfhkcQ,394
+HydroRoll/typing.py,sha256=drmcZ72r5HPp68aLgEoxsAGP6RHQkO_N3vso5AgHrI4,866
+HydroRoll/utils.py,sha256=pvPUAutB5w-YwPRvDIQubNMd6wooTRwEWoO-NMmOYe8,5460
+hydroroll-0.1.4.dist-info/METADATA,sha256=7KsUFPETfzUhw_KcyIBJ8QghKlmVxISpPsbUB6gqqd8,6335
+hydroroll-0.1.4.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+hydroroll-0.1.4.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hydroroll-0.1.4.dist-info/RECORD,,
