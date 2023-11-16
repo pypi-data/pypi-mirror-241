@@ -1,0 +1,10 @@
+ufal.morphodita-1.11.2.1.dist-info/top_level.txt,sha256=GsZv5R3Wk08xmNJ09BWsp_VwhvJGSJVWD5KZ1DzgktM,5
+ufal.morphodita-1.11.2.1.dist-info/WHEEL,sha256=bBrEc9zfZLT11UJt6kQhEJjpAihu1PvX5jclMfYV6eE,146
+ufal.morphodita-1.11.2.1.dist-info/METADATA,sha256=SZi50ejqome6Nj_VFUs8tdZrYYmGi4dCnvDMRJ8T0pg,9049
+ufal.morphodita-1.11.2.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+ufal.morphodita-1.11.2.1.dist-info/RECORD,,
+ufal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufal/morphodita/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufal/morphodita/_morphodita.cpython-37m-i386-linux-gnu.so,sha256=Ql5mfdwgjmOCdpyCXWOnSsKLklaYw6025PEvh2EkuPI,1551392
+ufal/morphodita/__init__.py,sha256=qm-jycYUeej2Ggm6A6u3NMGSjb8p-R8pqruvN7v8iLI,455
+ufal/morphodita/__init__.pyi,sha256=bTauXQzvTBHjhlcyp-wbz9JIp3Bxg6N8iX4JsdygRg0,3338
