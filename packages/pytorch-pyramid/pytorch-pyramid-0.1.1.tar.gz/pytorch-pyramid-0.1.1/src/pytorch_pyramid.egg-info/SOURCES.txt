@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pytorch-pyramid/__init__.py
+src/pytorch-pyramid/pytorch_pyramid.py
+src/pytorch_pyramid.egg-info/PKG-INFO
+src/pytorch_pyramid.egg-info/SOURCES.txt
+src/pytorch_pyramid.egg-info/dependency_links.txt
+src/pytorch_pyramid.egg-info/requires.txt
+src/pytorch_pyramid.egg-info/top_level.txt
