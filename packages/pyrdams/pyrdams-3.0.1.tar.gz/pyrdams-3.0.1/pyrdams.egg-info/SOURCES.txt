@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+rdams_client.py
+pyrdams.egg-info/PKG-INFO
+pyrdams.egg-info/SOURCES.txt
+pyrdams.egg-info/dependency_links.txt
+pyrdams.egg-info/entry_points.txt
+pyrdams.egg-info/requires.txt
+pyrdams.egg-info/top_level.txt
