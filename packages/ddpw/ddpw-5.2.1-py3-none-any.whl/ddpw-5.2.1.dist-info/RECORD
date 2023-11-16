@@ -1,0 +1,10 @@
+ddpw/__init__.py,sha256=EgkH6Jf4ULl6nRkd8akWAkViC5Xqz00oWN80cts0dDM,68
+ddpw/functional.py,sha256=VdHuUfCxLkP1jjYnVTFNrUCW0iMfz8zVtnVL8CUjCsA,6601
+ddpw/io.py,sha256=0ZQ8Uz1nFgdqyqXJxXUzHybdLjKKbKeyjDe80ioPT8g,780
+ddpw/platform.py,sha256=bxpouCviMmcYdyHQu9xnYXHbRjX1-g3nJGzoBOkSXp4,7206
+ddpw/wrapper.py,sha256=sXpi0_vw0WdTcf80jS9zsNYytbw7R9a9MOzJJ9zzccA,8470
+ddpw-5.2.1.dist-info/LICENCE,sha256=Q9yaKxBkrIunsbJUbOjidCbzoBc37p8uQ99274ExpSM,1527
+ddpw-5.2.1.dist-info/METADATA,sha256=HrlOIc2JkX88yRwDlXy23eFd898hf2jOwyV3IIZ-MCc,2281
+ddpw-5.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ddpw-5.2.1.dist-info/top_level.txt,sha256=v-9bC8cIzPVK3CfHULdDCHohv0O2aXxO1lynatGCnMw,5
+ddpw-5.2.1.dist-info/RECORD,,
