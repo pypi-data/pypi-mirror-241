@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./fargopy/__init__.py
+./fargopy/util.py
+./fargopy/version.py
+fargopy.egg-info/PKG-INFO
+fargopy.egg-info/SOURCES.txt
+fargopy.egg-info/dependency_links.txt
+fargopy.egg-info/entry_points.txt
+fargopy.egg-info/requires.txt
+fargopy.egg-info/top_level.txt
