@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "finpricing"
+version = "0.1.0"
+description = "A pricing library for financial instruments"
+authors = ["Yiming Zhang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.1"
+python-dateutil = "^2.8.2"
+prettytable = "^3.9.0"
+scipy = "^1.11.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+financepy = "^0.310"
+sphinx = "^7.2.6"
+myst-nb = "^1.0.0"
+sphinx-autoapi = "^3.0.0"
+nbsphinx = "^0.9.3"
+pydata-sphinx-theme = "^0.14.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
