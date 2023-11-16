@@ -1,0 +1,3 @@
+asciimatics==1.14.0
+english-words==2.0.1
+python-magic==0.4.7

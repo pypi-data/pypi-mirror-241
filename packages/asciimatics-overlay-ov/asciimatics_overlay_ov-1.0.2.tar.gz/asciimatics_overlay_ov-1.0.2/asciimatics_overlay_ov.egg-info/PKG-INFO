@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: asciimatics-overlay-ov
+Version: 1.0.2
+Summary: A module that help speed up some elements in using asciimatics
+Home-page: https://github.com/Hanra-s-work/asciimatics_overlay_ov
+Author: Henry Letellier
+Author-email: henrysoftwarehouse@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asciimatics==1.14.0
+Requires-Dist: english-words==2.0.1
+Requires-Dist: python-magic==0.4.7
+
+# asciimatics_overlay_ov
+ This is a small library to help speed up some processes when displaying elements on screen.
