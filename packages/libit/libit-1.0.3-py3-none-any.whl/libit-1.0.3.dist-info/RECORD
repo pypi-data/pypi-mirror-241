@@ -1,0 +1,9 @@
+libit/__init__.py,sha256=7mi_NwZjGg-qH-7pEyzyHC4p_yZtqi30_sixrSH0BUM,580
+libit/asset.py,sha256=MMLeLFlLYgTV_Yh3dfj-vRzT7dTVOLRJ2BEF-YdxSs8,11746
+libit/bs58.py,sha256=CPJ9EbS8FdfMQByRM9YjVovb8jysnNliL9gzctTyer8,6047
+libit/lib.py,sha256=L_67jh4ijvYz1zZjR8-Yy_JiODA_DBpaRkrkKc8AT2I,5945
+libit/reuse.py,sha256=NWzM56ZKXo3Xt2elyNI20E1LQGxNd6pjfJQsHkmKDsU,1018
+libit-1.0.3.dist-info/METADATA,sha256=qzIg8ck-g1CTZSVANhrbBI935TQ7i5skG9k1WXPNjOE,2349
+libit-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+libit-1.0.3.dist-info/top_level.txt,sha256=Xv7IITDmAfLpZ22Jj_Ra6hb628ywD8maseeTlZUkOp0,6
+libit-1.0.3.dist-info/RECORD,,
