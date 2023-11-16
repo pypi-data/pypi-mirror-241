@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyrogram-asyncpg-storage
+Version: 0.1
+Summary: asyncpg storage for pyrogram
+Home-page: https://github.com/drizzt/pyrogram-asyncpg-storage
+Author: Timothy Redaelli
+Author-email: timothy.redaelli@gmail.com
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: asyncpg
+Requires-Dist: pyrogram
+
+Pyrogram asyncpg storage
+========================
+
+Usage
+-----
+
+```python
+import asyncpg
+from pyrogram import Client
+from pyrogram_asyncpg_storage import PostgreSQLStorage
+
+
+app = Client(...)
+
+
+async def set_session():
+	pool = await asyncpg.create_pool()
+	session = PostgreSQLStorage(name=..., pool=pool)
+	app.storage = session
+
+
+app.run(set_session())
+app.run()
+```
