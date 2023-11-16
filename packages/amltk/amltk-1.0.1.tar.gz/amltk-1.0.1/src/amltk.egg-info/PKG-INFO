@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: amltk
+Version: 1.0.1
+Summary: AutoML Toolkit: a toolkit for building automl system
+Author-email: Eddie Bergman <eddiebergmanhs@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 AutoML-Freiburg-Hannover
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: documentation, https://github.com/automl/amltk/
+Project-URL: source, https://github.com/automl/amltk/
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing_extensions
+Requires-Dist: more_itertools
+Requires-Dist: psutil
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: amltk[doc,examples,test,tooling]; extra == "dev"
+Provides-Extra: tooling
+Requires-Dist: commitizen; extra == "tooling"
+Requires-Dist: pre-commit; extra == "tooling"
+Requires-Dist: ruff; extra == "tooling"
+Requires-Dist: mypy; extra == "tooling"
+Requires-Dist: types-psutil; extra == "tooling"
+Requires-Dist: types-pyyaml; extra == "tooling"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-coverage; extra == "test"
+Requires-Dist: pytest-cases; extra == "test"
+Requires-Dist: amltk[examples]; extra == "test"
+Provides-Extra: examples
+Requires-Dist: openml; extra == "examples"
+Requires-Dist: amltk[dask,loky,optuna,path_loaders,pynisher,rich,sklearn,smac,wandb,xgboost]; extra == "examples"
+Provides-Extra: doc
+Requires-Dist: mkdocs; extra == "doc"
+Requires-Dist: mkdocs-material; extra == "doc"
+Requires-Dist: mkdocs-autorefs; extra == "doc"
+Requires-Dist: mkdocs-gen-files; extra == "doc"
+Requires-Dist: mkdocs-literate-nav; extra == "doc"
+Requires-Dist: mkdocs-glightbox; extra == "doc"
+Requires-Dist: mkdocstrings[python]; extra == "doc"
+Requires-Dist: markdown-exec[ansi]; extra == "doc"
+Requires-Dist: rich; extra == "doc"
+Requires-Dist: mike; extra == "doc"
+Requires-Dist: pillow; extra == "doc"
+Requires-Dist: cairosvg; extra == "doc"
+Provides-Extra: sklearn
+Requires-Dist: scikit-learn; extra == "sklearn"
+Requires-Dist: threadpoolctl; extra == "sklearn"
+Provides-Extra: smac
+Requires-Dist: smac>=2.0; extra == "smac"
+Requires-Dist: amltk[configspace]; extra == "smac"
+Provides-Extra: optuna
+Requires-Dist: optuna; extra == "optuna"
+Provides-Extra: configspace
+Requires-Dist: configspace>=0.6; extra == "configspace"
+Provides-Extra: loky
+Requires-Dist: loky; extra == "loky"
+Provides-Extra: dask
+Requires-Dist: dask<=2023.4; extra == "dask"
+Requires-Dist: distributed; extra == "dask"
+Provides-Extra: pynisher
+Requires-Dist: pynisher>=1.0.10; extra == "pynisher"
+Provides-Extra: wandb
+Requires-Dist: wandb; extra == "wandb"
+Provides-Extra: threadpoolctl
+Requires-Dist: threadpoolctl; extra == "threadpoolctl"
+Provides-Extra: xgboost
+Requires-Dist: xgboost; extra == "xgboost"
+Provides-Extra: neps
+Requires-Dist: neural-pipeline-search; extra == "neps"
+Provides-Extra: rich
+Requires-Dist: rich; extra == "rich"
+Provides-Extra: notebook
+Requires-Dist: rich[jupyter]; extra == "notebook"
+Provides-Extra: path-loaders
+Requires-Dist: openpyxl; extra == "path-loaders"
+Requires-Dist: pyarrow; extra == "path-loaders"
+
+# AutoML Toolkit
+A set of re-usable components for building complex
+configurable pipelines, agnostic to:
+* Search space implementation
+* How to build your pipeline
+* Where compute happens
+
+... yet providing sensible defaults and options to plug in your own.
+
+Please see the [docs](#docs) for how to view locally.
+
+## Installation
+Installing [`just`](https://github.com/casey/just#installation)
+```bash
+git clone git@github.com:automl/amltk.git
+
+# If using `just`
+just install
+
+# otherwise, for everything
+pip install -e ".[dev, test, doc, smac, optuna]"
+```
+
+## Docs
+This library uses [`mkdocs`](https://squidfunk.github.io/mkdocs-material/getting-started/) for markdown style documentation.
+```bash
+just docs
+```
+
+Otherwise if you don't have just installed
+```bash
+python -m webbrowser -t "http://127.0.0.1:8000/" \
+    AMLTK_DOC_RENDER_EXAMPLES={{example}} \
+    AMLTK_DOCS_OFFLINNE={{offline}} \
+    AMLTK_EXEC_DOCS={{exec_doc_code}} \
+    mkdocs serve --watch-theme
+```
+
