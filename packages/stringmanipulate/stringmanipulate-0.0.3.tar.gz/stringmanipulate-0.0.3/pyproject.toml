@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stringmanipulate"
+version = "0.0.3"
+authors = [
+  { name="Ethan Sha", email="ys4323@nyu.edu" },
+  { name="Megarene Chen", email="jl11703@nyu.edu" },
+  { name="Merry Cui", email="xc2081@nyu.edu" },
+  { name="Steve Hai", email="zh2101@nyu.edu" }
+]
+description = "A package that provide basic string manipulation functions"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pytest",
+    "argparse",
+    "typing"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-team-dominators-1"
+"Bug Tracker" = "https://github.com/software-students-fall2023/3-python-package-exercise-team-dominators-1/issues"
+
+[project.scripts]
+stringmanipulate = "stringmanipulate.__main__:main"
