@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mewo-http-client
+Version: 0.1.14
+Summary: 
+Author: feluxe
+Author-email: felix@meyerwolters.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2,<3)
+Description-Content-Type: text/markdown
+
+# mewo-http-client
+
+This repo contains:
+
+- A http client lirary.
+- A cli tool to help with http calls.
+
+The library is very high-level and opinionated. It's a wrapper around the 'requests' library.
+The main goal is to make http serivce to service communication super simple in regards to retry-logic and loggin.
+The library is created with mewo services in mind (e.g. mub).
+This is not intended to be a flexible http client for all purposes. It just offers a simple, opinionated, highlevel interface for http communication within mewo.
+
+
