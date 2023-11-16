@@ -1,0 +1,40 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkrdisc"
+version = "0.2.6"
+description = "Custom Discord API Wrapper"
+readme = "README.md"
+authors = [{ name = "tlkr.", email = "toolkitr.email@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    'Development Status :: 1 - Planning',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: Internet',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Utilities',
+    'Typing :: Typed'
+]
+keywords = ['tkrdiscord', 'discordtool', 'tkrdisc']
+dependencies = [
+      "aiohttp>=3.7.4",
+      "asyncio>=3.4.3",
+      "async-timeout>=3.0.1",
+      "requests>=2.26.0",
+      "datetime>=4.3.1",
+]
+requires-python = ">=3.10.0,<3.12"
+
+[project.urls]
+Homepage = "https://github.com/toolkitr/tkrdisc"
+Discussions = "https://github.com/toolkitr/tkrdisc/discussions"
+PullRequest = "https://github.com/toolkitr/tkrdisc/pulls"
+Issues = "https://github.com/toolkitr/tkrdisc/issues"
