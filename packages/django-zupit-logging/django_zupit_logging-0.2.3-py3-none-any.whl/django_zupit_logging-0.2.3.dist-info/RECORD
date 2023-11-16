@@ -1,0 +1,16 @@
+django_zupit_logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_zupit_logging/apps.py,sha256=vvgWnhGGIeJxujWIFORLPyGcBhfc0gEIFTUBr-HwknI,159
+django_zupit_logging/logging.py,sha256=WeSmVwf854QuILAyY_2rr-T2TG3xE5w3LeCNxEriaw8,3402
+django_zupit_logging/settings.py,sha256=UCXSLn-yM6Fgxol-7v2AsV_sCinSclN70Io5aYYsSgM,1889
+django_zupit_logging/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_settings.py,sha256=fSqq-4VLXNdq3x-GJlY1ixxFzNcYuv_jf0FLf16Q-QQ,703
+tests/urls.py,sha256=Bjdewssljt0LIefjixBem9JN0kkghPvmrIETj3GdXbY,17
+tests/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/test_logging.py,sha256=Z1j0yxC6TFGwzGv97eJsDS2AK2H3KL0jI6cVstXw3HM,4327
+django_zupit_logging-0.2.3.dist-info/LICENSE,sha256=uEZBXRtRTpwd_xSiLeuQbXlLxUbKYSn5UKGM0JHipmk,1552
+django_zupit_logging-0.2.3.dist-info/METADATA,sha256=P8QaVpRtSXuQI86ElTv5XjWNNylEKSopBAl3xlErWGQ,2126
+django_zupit_logging-0.2.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+django_zupit_logging-0.2.3.dist-info/top_level.txt,sha256=ZA5LQSfhNNnvXWG6j-tu6jXOMztyVeMxoRmLKnufCus,27
+django_zupit_logging-0.2.3.dist-info/RECORD,,
