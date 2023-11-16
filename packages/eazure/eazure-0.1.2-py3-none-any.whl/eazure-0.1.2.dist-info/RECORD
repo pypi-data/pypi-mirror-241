@@ -1,0 +1,8 @@
+eazure/__init__.py,sha256=5P9lUZfzyixxLUO98IKW2Co3fiC2Yq9lFT2Kw2Chzn8,8132
+eazure/blob.py,sha256=GgTOG0UgJtnq1LtfF_Hu26d70hGHMo3LjFI-fBIYpiI,5338
+eazure/queue.py,sha256=1O4wwqgTnsImarCwIWabZOfcWururT3-UIM5f69RYfU,1893
+eazure/table.py,sha256=4cKmOD8o0NZ_TjG51jYHQjozJk9TxmkylU-7BeAiuio,3374
+eazure-0.1.2.dist-info/LICENSE,sha256=6V759E8Nq-GoGNJk2J2i0W22lgHkRSFqUYk_1jfOzxk,1078
+eazure-0.1.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+eazure-0.1.2.dist-info/METADATA,sha256=FgCx1o1lCkPd8SFLVEtuV8zMJYXySviKJrZmheMvl0s,1906
+eazure-0.1.2.dist-info/RECORD,,

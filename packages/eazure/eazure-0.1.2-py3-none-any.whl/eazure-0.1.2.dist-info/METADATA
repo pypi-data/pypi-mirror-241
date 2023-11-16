@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: eazure
+Version: 0.1.2
+Summary: Eazure: A package providing easier access to Azure storage, tables, and queue functions.
+Author-email: SaaS Technologies LLC <newsaastechnologies@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: azure-storage-blob >=12.8.1
+Requires-Dist: azure-core >=1.9.0
+Requires-Dist: azure-data-tables >=12.0.0
+Requires-Dist: azure-storage-queue >=12.1.5
+Requires-Dist: tox ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: bump2version ; extra == "dev"
+Project-URL: Bug Reports, https://github.com/SaaS-Technologies-LLC/eazure/issues
+Project-URL: Homepage, https://github.com/SaaS-Technologies-LLC/eazure
+Project-URL: Source, https://github.com/SaaS-Technologies-LLC/eazure/
+Provides-Extra: dev
+
+## Overview
+
+Eazure (Easy Azure) is a Python package that serves as a comprehensive wrapper for Azure utilities. It simplifies and streamlines interactions with various Azure services, providing easy-to-use functions for downloading and uploading blobs, managing tables, handling queues, and more.
+
+## Features
+
+- **Blob Management**: Easily download and upload blobs to your Azure storage account.
+- **Table Management**: Efficiently manage your Azure tables.
+- **Queue Management**: Simplify interactions with Azure queues.
+- **Azure Key Vault Utility**: Simplify interactions with Azure Keys.
+
+
+## Installation
+
+You can install Eazure using pip:
+
+```bash
+pip install eazure
+```
+
+## Usage
+
+Here's a simple example of how to use Eazure:
+
+```python
+import eazure
+
+# Initialize the Eazure client
+ea = eazure.Client()
+
+ea.connection_string = 'connection_string'
+
+# Download a blob
+ea.download_blob('your-container-name', 'your-blob-name', 'output-file-path')
+
+# Upload a blob
+ea.upload_blob('your-container-name', 'your-blob-name','input-file-path')
+```
+
+## Contributing
+
+We welcome contributions!
+
