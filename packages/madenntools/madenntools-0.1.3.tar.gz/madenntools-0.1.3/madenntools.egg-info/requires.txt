@@ -1,0 +1,7 @@
+colour
+matplotlib
+numpy
+opencv_python
+pandas
+seaborn
+tqdm
