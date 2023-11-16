@@ -1,0 +1,3 @@
+fire
+openai>=1.2.4
+pandas
