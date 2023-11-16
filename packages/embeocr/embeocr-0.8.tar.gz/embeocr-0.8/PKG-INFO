@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: embeocr
+Version: 0.8
+Summary: Description of my package
+Author: trangvv2
+Author-email: vantrangeuro@gmail.com
+Requires-Python: <=3.11.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: torch==2.0.1
+Requires-Dist: numpy
+
+install with pip: pip install embeocr
+
+code example:
+
+from embeocr import embedding
+
+a = input()
+
+x = embedding.get_dense_vector(a)
+
+print(x)

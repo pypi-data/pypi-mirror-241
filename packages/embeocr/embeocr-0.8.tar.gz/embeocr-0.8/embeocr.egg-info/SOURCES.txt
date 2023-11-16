@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.MD
+README.md
+setup.py
+embeocr/__init__.py
+embeocr/embedding.py
+embeocr.egg-info/PKG-INFO
+embeocr.egg-info/SOURCES.txt
+embeocr.egg-info/dependency_links.txt
+embeocr.egg-info/requires.txt
+embeocr.egg-info/top_level.txt
