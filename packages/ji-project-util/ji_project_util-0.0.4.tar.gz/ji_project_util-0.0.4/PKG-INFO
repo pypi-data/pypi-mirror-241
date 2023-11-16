@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ji_project_util
+Version: 0.0.4
+Summary: python项目的log工具和监控内容聚合工具
+Home-page: 
+Author: jixiangkun
+Author-email: youngji@yeah.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+
+# py工具 日志聚合工具，monitor信息聚合工具
