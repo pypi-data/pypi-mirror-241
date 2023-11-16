@@ -1,0 +1,3 @@
+[console_scripts]
+lqs.client = lqs.client.__main__:main
+lqs.transcode = lqs.transcode.__main__:main
