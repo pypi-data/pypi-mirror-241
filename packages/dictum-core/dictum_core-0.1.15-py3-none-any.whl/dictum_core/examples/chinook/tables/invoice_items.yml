@@ -1,0 +1,32 @@
+source: invoice_items
+
+related:
+  invoice:
+    table: invoices
+    foreign_key: InvoiceId
+  track:
+    table: tracks
+    foreign_key: TrackId
+
+measures:
+  test_arppu:
+    name: ARPPU as a measure for testing
+    description: Used for checking that measure references resolve correctly
+    expr: $revenue / countd(invoice.CustomerId)
+
+dimensions:
+  order_customer_country:
+    name: Order's Customer Country
+    description: Duplicate of Customer Country, used for tests
+    type: str
+    expr: :customer_country
+
+  first_order_cohort_month:
+    name: Month After First Order
+    type: int
+    expr: datediff('month', :customer_first_sale_date, :invoice_date)
+
+  order_cohort:
+    name: Months Since First Order
+    type: int
+    expr: datediff('month', :customer_first_sale_date, :invoice_date)
