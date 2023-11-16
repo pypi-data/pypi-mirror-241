@@ -1,0 +1,11 @@
+tldraw/__init__.py,sha256=2Ch4vK6lTBiTwQX-rDMUGy1EFzi49_1t0aDZRGU2k-U,2291
+tldraw/static/image.css,sha256=879qcer2Fo9_vDc-7xFBodGmDgkbzcahE8Vz9KR9xgY,63396
+tldraw/static/image.js,sha256=g-9xbwZb9uDQC5NbV7KQ3JcrVGeeqQVl2Hx2CIFTYJs,1042859
+tldraw/static/imagearray.css,sha256=879qcer2Fo9_vDc-7xFBodGmDgkbzcahE8Vz9KR9xgY,63396
+tldraw/static/imagearray.js,sha256=2SLr-DySeq4vFTKyvIN8CH9ASKm1xONnFmB1HOrHh1I,1043310
+tldraw/static/widget.css,sha256=5gw7oB5fh416tznsM1RPlNsd4picjuJVWxRIkexzRPI,63503
+tldraw/static/widget.js,sha256=_seTjWwqXjMeIAsxX4pl61fPVTaAd_RugkBTONhU6DU,1042797
+tldraw-2.0.2.dist-info/METADATA,sha256=sr0C8Hg4AztON09324NxMMP5kMkKooxD_fgnKPfcsEw,1664
+tldraw-2.0.2.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+tldraw-2.0.2.dist-info/licenses/LICENSE,sha256=oBRbTYNZD5WCe485fL7LLmbfWRrcITwJgTw7fC0575Y,1076
+tldraw-2.0.2.dist-info/RECORD,,
