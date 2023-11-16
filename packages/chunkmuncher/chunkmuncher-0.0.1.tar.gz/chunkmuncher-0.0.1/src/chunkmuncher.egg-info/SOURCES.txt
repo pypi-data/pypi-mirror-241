@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/chunkmuncher/__init__.py
+src/chunkmuncher/chunk.py
+src/chunkmuncher.egg-info/PKG-INFO
+src/chunkmuncher.egg-info/SOURCES.txt
+src/chunkmuncher.egg-info/dependency_links.txt
+src/chunkmuncher.egg-info/top_level.txt
+src/chunkmuncher/docs/chunk.rst

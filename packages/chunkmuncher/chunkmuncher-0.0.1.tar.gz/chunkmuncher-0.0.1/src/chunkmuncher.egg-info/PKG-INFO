@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: chunkmuncher
+Version: 0.0.1
+Summary: Recharge of the chunk module that was removed as of python 13.0.
+Home-page: https://github.com/jscuster/ChunkMuncher
+Author: Jason Custer
+Author-email: jscuster@gmail.com
+License: PSF-2.0
+Keywords: python chunk IFF PEP594
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Utilities
+Classifier: Topic :: File Formats
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+License-File: LICENSE
+
+# ChunkMuncher
+Repackaging of the "chunk" module, originally written by Sjoerd Mullender, sjoerd@acm.org
+This module, along with some others, has been depricated, and was removed in Python 3.13.0. As a result, some have decided to repackage modules we use often. This package will be for the chunk module, and I soon will be including the aifc and wave readers and writers. I can see room for improvements, so I plan on doing some.
+Pull requests are welcome, as are issue reports.
+Upgrades and tests are intended to follow.
+
+## Description from the original documentation
+
+This module provides an interface for reading files that use EA IFF 85
+chunks. This format is used in at least the Audio Interchange File
+Format (AIFF/AIFF-C) and the Real Media File Format (RMFF). The WAVE
+audio file format is closely related and can also be read using this
+module.
