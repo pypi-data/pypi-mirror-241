@@ -1,0 +1,3 @@
+[console_scripts]
+xrpc-gen=xrpc.__main__:main
+
