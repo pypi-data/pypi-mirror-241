@@ -1,0 +1,29 @@
+__pycache__
+.pytest_cache
+.vscode
+.env
+.coverage
+
+## Terraform files ##
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+## Setup files ##
+enosimulator/infra/*/logs/*
+enosimulator/infra/*/config/*
+enosimulator/infra/*/main.tf
+enosimulator/infra/*/variables.tf
+enosimulator/infra/*/outputs.tf
+enosimulator/infra/*/versions.tf
+enosimulator/infra/*/build.sh
+enosimulator/infra/*/configure.sh
+enosimulator/infra/*/data/*
+!enosimulator/infra/*/config/.gitkeep
+!enosimulator/infra/*/data/.gitkeep
+!enosimulator/infra/*/logs/.gitkeep
+
+## Flask files ##
+database.db
