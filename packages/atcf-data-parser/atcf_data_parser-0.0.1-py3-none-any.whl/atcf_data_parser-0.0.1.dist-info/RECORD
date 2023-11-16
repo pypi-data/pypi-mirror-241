@@ -1,0 +1,10 @@
+atcf_data_parser/__init__.py,sha256=5sPv325SgbqrmVXrBW61IRmf8HlZHjZ8aoYTfpceYyo,3243
+atcf_data_parser/cli.py,sha256=b9lbY5LPeNzFXSzq1PgCwT4lSbwIn32B9DHpVuatJ2w,962
+tests/__init__.py,sha256=12RrU1Io1xbqMPHSKp2peowK4F3CJcs11Z92CQVU9tM,32
+tests/test_get.py,sha256=w-uluvw4hPKFefoa6fDbSTSduUoPdj1DIXbtzBtv820,284
+atcf_data_parser-0.0.1.dist-info/LICENSE,sha256=23tRc0wLCYQHwSFTDYEAJnQxRfETM7yum1i0Qhl_lpU,1056
+atcf_data_parser-0.0.1.dist-info/METADATA,sha256=iMtxSWseG_vDIApsSBoUG-IUJQW4zKk9pIjyKAsKG5k,1137
+atcf_data_parser-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+atcf_data_parser-0.0.1.dist-info/entry_points.txt,sha256=-ql1kYYtowIxChab73ZatDjNjEb9Vq9DS-MYhuS740Y,62
+atcf_data_parser-0.0.1.dist-info/top_level.txt,sha256=sExV3QalTixIyaVl418NReLkITpdz8rKKcUcQHquo0o,23
+atcf_data_parser-0.0.1.dist-info/RECORD,,
