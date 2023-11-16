@@ -1,0 +1,7 @@
+[project]
+name = "graphiq"
+description = "coming soon"
+version = "0.0.3"
+authors = [
+    { name = "Ki3 Photonics Technologies, Quantum Bridge Technologies", email = "ben.mac@live.ca" }
+]
