@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nldesa/__init__.py
+nldesa/_objects.py
+nldesa/_utils.py
+nldesa.egg-info/PKG-INFO
+nldesa.egg-info/SOURCES.txt
+nldesa.egg-info/dependency_links.txt
+nldesa.egg-info/requires.txt
+nldesa.egg-info/top_level.txt
+tests/test_EquationSystem.py
+tests/test_StabilityAnalysis.py
