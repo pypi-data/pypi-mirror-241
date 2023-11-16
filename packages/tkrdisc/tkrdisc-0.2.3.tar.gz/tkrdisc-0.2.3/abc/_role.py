@@ -1,0 +1,16 @@
+class Role:
+  def __init__(self, role_data):
+    self.id = role_data.get('id')
+    self.name = role_data.get('name')
+    self.description = role_data.get('description')
+    self.permissions = role_data.get('permissions')
+    self.position = role_data.get('position')
+    self.color = role_data.get('color')
+    self.hoist = role_data.get('hoist')
+    self.managed = role_data.get('managed')
+    self.mentionable = role_data.get('mentionable')
+    self.icon = role_data.get('icon')
+    self.unicode_emoji = role_data.get('unicode_emoji')
+    self.flags = role_data.get('flags')
+    self.tags = role_data.get('tags')
+    if self.tags: self.bot_id = self.tags.get('bot_id')
