@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "streamlit-auth0-component-patch"
+version = "0.1.8"
+description = ""
+authors = ["Danyal Zahid <danyal.zahid@askui.com>"]
+readme = "README.md"
+packages = [{include = "auth0_component"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.23.0"
+python-jose = "3.3.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+pep8 = "*"
+pytest = "*"
+pyproject-flake8 = "^0.0.1-alpha.2"
+black = "^22.3"
+hacking = "^4.1.0"
+flake8-docstrings = "^1.6.0"
+isort = {extras = ["pyproject"], version = "^5.9.3"}
+
+[tool.flake8]
+exclude = ".venv"
+ignore = "H102,H103,W503,E203,H301,H306,E231"
+max-line-length = 100
+
+# [H102 H103] All source files should have the following header::
+# [W504] Line break occurred after a binary operator
+# [H301] one import per line
+# [H306] imports not in alphabetical order
+# [E231] missing whitespace after ','
+
+# Black says "W503, E203 is incompatible with PEP 8"
+# [W503] Line break occurred before a binary operator
+# [E203] whitespace before :
+
+[tool.black]
+line-length = 100
+exclude = '''
+(
+    .pytest_cache
+    | .venv
+)
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
