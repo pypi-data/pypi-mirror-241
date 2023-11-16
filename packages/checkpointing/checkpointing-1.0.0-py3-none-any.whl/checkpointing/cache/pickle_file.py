@@ -1,0 +1,68 @@
+from checkpointing.cache.base import CacheBase
+from checkpointing._typing import ReturnValue
+from checkpointing import defaults
+from checkpointing.exceptions import CheckpointNotExist
+import pathlib
+import os
+from checkpointing.util import pickle
+
+
+class PickleFileCache(CacheBase):
+    """Cache the result as pickle files saved on the disk."""
+
+    def __init__(self, directory: os.PathLike = None, pickle_protocol: int = None) -> None:
+        """
+        Args:
+            directory: the directory where the files will be saved. The directory will be created if it does not exist.
+                       If None, use the global default `cache.filesystem.directory`
+            pickle_protocol: the protocol used when pickling files. If None, use the global default
+                             `cache.pickle_protocol`
+        """
+
+        self.__directory = pathlib.Path(directory if directory is not None else defaults["cache.filesystem.directory"])
+        self.__directory.mkdir(parents=True, exist_ok=True)
+
+        self.__pickle_protocol = pickle_protocol if pickle_protocol is not None else defaults["cache.pickle_protocol"]
+
+    def _get_file_path(self, context_id: str) -> pathlib.Path:
+        """
+        Args:
+            context_id: the file name without the file extension
+
+        Returns:
+            The full file path used in this cache that corresponds to the context id
+        """
+
+        filename = f"{context_id}.pickle"
+        return self.__directory.joinpath(filename)
+
+    def save(self, context_id: str, result: ReturnValue) -> None:
+        """
+        Save the result with the given context id.
+
+        Args:
+            context_id: identifier of the function call context, must be a valid file name without the file extension
+            result: return value of the function call
+        """
+
+        with open(self._get_file_path(context_id), mode="wb") as file:
+            pickle.dump(result, file, protocol=self.__pickle_protocol)
+
+    def retrieve(self, context_id: str) -> ReturnValue:
+        """
+        Retrieve the function return value with the given context id.
+        If there is no cached results for the context_id, throws a checkpointing.exceptions.CheckpointNotExist
+
+        Args:
+            context_id: identifier of the function call context, must be a valid file name without the file extension
+
+        Returns:
+            The return value of the function that corresponds to this context id
+        """
+
+        path = self._get_file_path(context_id)
+        if not path.exists():
+            raise CheckpointNotExist
+
+        with open(path, mode="rb") as file:
+            return pickle.load(file, protocol=self.__pickle_protocol)
