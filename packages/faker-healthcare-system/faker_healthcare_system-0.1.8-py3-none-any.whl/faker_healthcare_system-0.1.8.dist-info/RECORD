@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dea.py,sha256=n5tO2v4ts9QZRcwCEZbWgXKCtq2xZrmtf2Z33UzUqZ8,954
+person_name.py,sha256=IPK1dvoLMjzK9Grfsj4Mw1CitEQ-syAnMjYFau-ZlEM,1834
+provider_individual.py,sha256=zY7dEWj8mDMoh6edMWtblzsSCZvBBZLnXbyYmlEBtCg,21639
+taxonomy_generator.py,sha256=zcWieDCZrle6jyQi49o-Qjnaa9CxAG5N_KTGcSli0PA,2947
+faker_healthcare_system-0.1.8.data/data/assets/nucc_taxonomy_231.csv,sha256=ZjWpUZmK-I3eHA0QRfzK34ZGpOIwo6oZulzhAdxDW08,514515
+faker_healthcare_system-0.1.8.dist-info/METADATA,sha256=zIv5sSrF18fTr-NH2KyxnLFemsInu7cJYftM3PGvfwQ,16430
+faker_healthcare_system-0.1.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+faker_healthcare_system-0.1.8.dist-info/top_level.txt,sha256=Xb6cDAkX2miK2JtdLCknBYWei1IezIMFlpI0NS5A9w8,64
+faker_healthcare_system-0.1.8.dist-info/RECORD,,
