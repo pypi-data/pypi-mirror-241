@@ -1,0 +1,50 @@
+- name: Install dependencies for pyenv
+  ansible.builtin.package:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ pyenv_dependencies }}"
+  vars:
+    pyenv_dependencies:
+      - build-essential
+      - libssl-dev
+      - zlib1g-dev
+      - libbz2-dev
+      - libreadline-dev
+      - libsqlite3-dev
+      - wget
+      - curl
+      - llvm
+      - libncurses5-dev
+      - libncursesw5-dev
+      - xz-utils
+      - tk-dev
+      - libffi-dev
+      - liblzma-dev
+      - python-openssl
+
+- name: Install pyenv
+  ansible.builtin.git:
+    repo: https://github.com/pyenv/pyenv.git
+    dest: ~/.pyenv
+
+- name: Update PATH for current session
+  set_fact:
+    ansible_env:
+      PATH: "{{ ansible_env.PATH }}:{{ pyenv_root }}/bin"
+
+# - name: Set PYENV_ROOT
+#   ansible.builtin.shell: export PYENV_ROOT="$HOME/.pyenv"
+
+# - name: Update PATH
+#   ansible.builtin.shell: export PATH="$PYENV_ROOT/bin:$PATH"
+
+# - name: Update PATH for current session
+#   set_fact:
+#     ansible_env:
+#       PATH: "{{ home }}/.pyenv/bin:{{ ansible_env.PATH }}"
+
+# - name: Set PYENV_ROOT
+#   ansible.builtin.lineinfile:
+#     path: ~/.bashrc
+#     line: 'export PYENV_ROOT="$HOME/.pyenv"'
+#     create: yes

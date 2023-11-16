@@ -1,0 +1,1 @@
+ansible_collections_path: "{{ home }}/.ansible/collections"
