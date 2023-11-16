@@ -1,0 +1,16 @@
+matplotlib
+numpy
+pandas
+cpsplines
+typer
+gurobipy>=10.0.0
+scikit-learn
+statsmodels
+tqdm
+
+[dev]
+black
+ipykernel
+pip-tools
+pytest
+ipywidgets
