@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/system_logger_tool/__init__.py
+src/system_logger_tool/example_lvl_config.yaml
+src/system_logger_tool/logginConfig.conf
+src/system_logger_tool/sys_log.py
+src/system_logger_tool.egg-info/PKG-INFO
+src/system_logger_tool.egg-info/SOURCES.txt
+src/system_logger_tool.egg-info/dependency_links.txt
+src/system_logger_tool.egg-info/requires.txt
+src/system_logger_tool.egg-info/top_level.txt
