@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyMELTScalc
+Version: 0.1.30
+Summary: pyMELTScalc
+Home-page: https://github.com/gleesonm1/pyMELTScalc
+Author: Matthew Gleeson
+Author-email: gleesonm@berkeley.edu
+License: UNKNOWN
+Description: ## ReadTheDocs
+        
+        The pyMELTScalc repository has been updated and is now called PetThermoTools (https://github.com/gleesonm1/PetThermoTools/tree/master). This repository is designed simply for backwards compatibility with prior published work that used/quoted pyMELTScalc functions.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
