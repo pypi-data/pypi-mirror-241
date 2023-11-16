@@ -1,0 +1,10 @@
+localstack-core
+localstack-ext==2.3.3.dev20231115131756
+
+[full]
+localstack-core[runtime]
+localstack-ext[runtime]==2.3.3.dev20231115131756
+
+[runtime]
+localstack-core[runtime]
+localstack-ext[runtime]==2.3.3.dev20231115131756
