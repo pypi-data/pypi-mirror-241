@@ -1,0 +1,9 @@
+smawe_pyppeteer/__init__.py,sha256=vltYR_Wtw1NzAJ1JUQNmPmlfYg1836P7MZDUhzvRAdg,240
+smawe_pyppeteer/__version__.py,sha256=RX6M_WHXirmd8PC7-1-tnRwR7ASEmj1eWl4Q9SuhY-s,55
+smawe_pyppeteer/utils/__init__.py,sha256=0Tzdg9kWKeiSzx0JZqY2suLeUtvRCYUUku6uDemmKKs,7143
+smawe_pyppeteer/utils/pretend.py,sha256=eNZ4_ZMsWmwL6DZ86Woiu7BYf_itrzvBwYC6RD4H4OE,4111
+smawe_pyppeteer/utils/smawe_pyppeteer.py,sha256=fEoqwiXCYRPdBPdNAr4z5K6TVd1tuxDfu9dKCnaysyA,15276
+smawe_pyppeteer-0.1.0.dist-info/METADATA,sha256=6tpdlduqvc8MUwNI2hM2wkSTppEHTZaWUHCEmGPa6Rc,4209
+smawe_pyppeteer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+smawe_pyppeteer-0.1.0.dist-info/top_level.txt,sha256=VS1NVW4oEI0QWmn5LBEI39i09OoceLxy5assuhFh3qk,16
+smawe_pyppeteer-0.1.0.dist-info/RECORD,,
