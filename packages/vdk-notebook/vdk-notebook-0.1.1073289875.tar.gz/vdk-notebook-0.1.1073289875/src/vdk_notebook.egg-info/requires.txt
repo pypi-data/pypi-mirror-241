@@ -1,0 +1,4 @@
+vdk-core
+
+[data-sources]
+vdk-data-sources
