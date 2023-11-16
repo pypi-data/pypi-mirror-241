@@ -1,0 +1,9 @@
+colormap2d-0.2.0.dist-info/METADATA,sha256=rzjT6HC-Na_1mKeB6ecpD4ylhST8OyNgPSO8iL0RaqE,2288
+colormap2d-0.2.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+colormap2d-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+colormap2d/__init__.py,sha256=rUAzCkovFfhCTubGQhgIhv6WlUct9_MGK5Wa4bVwRrg,391
+colormap2d/cm.py,sha256=MfH428FSWzVPuWgUpbhzCcPajX_N2I3s5moYhX78Zfs,2597
+colormap2d/data/__init__.py,sha256=pDFbe8e8w6Vz1ZvxC7P-wPLJG8Qgzsn2mMlHs4dHyjc,24
+colormap2d/data/cyclic_pinwheel.npy,sha256=1j2c2XE6pbaJIOcgW2IynWpOWptaasTFm1hcVEEa_50,7931
+colormap2d/data/pinwheel.npy,sha256=f5lb-AryEk0BkvlE2sRRSGX1rbVEJKj3MNmLSPcoVTs,7931
+colormap2d-0.2.0.dist-info/RECORD,,
