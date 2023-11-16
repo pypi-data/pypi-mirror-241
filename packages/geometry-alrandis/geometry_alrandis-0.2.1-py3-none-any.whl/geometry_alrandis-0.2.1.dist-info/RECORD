@@ -1,0 +1,8 @@
+figures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+figures/line.py,sha256=Z3PynIBAtjfBUDnA9nolbRBCP7_Nzm8QdGqI3z-DGGY,279
+figures/point.py,sha256=0XQ3EaNc4cLrIgZO7Y7OeHt8ss4SOPm0PYRzrCb7DmM,83
+figures/triangle.py,sha256=s551i7J_T4bse0x7SodVE0hidqUUqf-srYc9gQZJj6o,816
+geometry_alrandis-0.2.1.dist-info/METADATA,sha256=aFdnZ2IvxTm_eLV8X6oLKcpyWxJt5RDKo4oPTnvHkKc,159
+geometry_alrandis-0.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+geometry_alrandis-0.2.1.dist-info/top_level.txt,sha256=lSHRk-w97QwTXrtE0xZtZO3685gLSwm27uSeKgs28Ks,8
+geometry_alrandis-0.2.1.dist-info/RECORD,,
