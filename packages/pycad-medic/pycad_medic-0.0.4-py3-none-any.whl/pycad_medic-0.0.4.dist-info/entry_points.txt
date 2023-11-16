@@ -1,0 +1,3 @@
+[console_scripts]
+pycad = pycad.cli:main
+
