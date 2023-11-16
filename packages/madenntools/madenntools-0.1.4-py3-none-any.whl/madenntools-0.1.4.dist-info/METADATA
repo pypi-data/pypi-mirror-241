@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: madenntools
+Version: 0.1.4
+Summary: Madenn Internal tools
+Author-email: madenn <contact@madenn.ro>, eduard <contact@madenn.ro>, madalin <contact@madenn.ro>, roxana <contact@madenn.ro>, dragos <contact@madenn.ro>
+License: Apache Software License (Apache 2.0)
+Project-URL: Source, https://github.com/MaDENN-AI/madenntools
+Keywords: cv,ml,visualization,data,madenn,plots
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colour
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+
+# madenntools
+MaDENN Computer Vision toolkit.
+
+Work in progress - more tools and documentation to come. 
+
+Available namespaces:
+- madenntools.cv
+- madenntools.metric
+- madenntools.plot
+
+## Install
+```
+pip install madenntools
+```
+
+### Documentation
+
+- [Library documentation](https://github.com/MaDENN-AI/madenntools/blob/main/doc/library_documentation.md)
+- [Usage](https://github.com/MaDENN-AI/madenntools/blob/main/doc/usage.md)
+- [Package update](https://github.com/MaDENN-AI/madenntools/blob/main/doc/update.md)
+- [Contribution](https://github.com/MaDENN-AI/madenntools/blob/main/doc/contrib.md)
