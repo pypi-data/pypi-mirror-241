@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ironcalc
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/nhatcher/ironcalc
+Project-URL: Bug Tracker, https://github.com/nhatcher/ironcalc/issues
+Author-email: Nicolás Hatcher <nicolas@theuniverse.today>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
