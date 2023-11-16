@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Copyright 2023 OpenSynergy Indonesia
+Copyright 2023 PT. Simetri Sinergi Indonesia
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+-->
+<odoo>
+    <record id="fleet_work_order_view_form" model="ir.ui.view">
+        <field name="name">fleet_work_order - Form</field>
+        <field name="model">fleet_work_order</field>
+        <field
+            name="inherit_id"
+            ref="ssi_fleet_work_order.fleet_work_order_view_form"
+        />
+        <field name="mode">extension</field>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//page[@name='route']" position="after">
+                    <page name="picking" string="Pickings">
+                        <group name="picking_1" colspan="4" col="2">
+                            <field
+                                name="allowed_picking_type_ids"
+                                widget="many2many_tags"
+                                invisible="1"
+                            />
+                        </group>
+                        <field
+                            name="picking_ids"
+                            domain="[('picking_type_id', 'in', allowed_picking_type_ids),('state','=','assigned'),('fleet_work_order_id','=',False)]"
+                            widget="many2many"
+                        />
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>
