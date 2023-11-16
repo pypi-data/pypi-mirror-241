@@ -1,0 +1,8 @@
+README.md
+setup.py
+tinygwas.egg-info/PKG-INFO
+tinygwas.egg-info/SOURCES.txt
+tinygwas.egg-info/dependency_links.txt
+tinygwas.egg-info/not-zip-safe
+tinygwas.egg-info/requires.txt
+tinygwas.egg-info/top_level.txt
