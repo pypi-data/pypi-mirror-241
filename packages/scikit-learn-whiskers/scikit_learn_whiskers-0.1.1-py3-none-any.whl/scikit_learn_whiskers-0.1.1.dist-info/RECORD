@@ -1,0 +1,8 @@
+sklearn_whiskers/__init__.py,sha256=J2tNFWkTIhctiTnDEqTtzgsgWWm5xlUbM4KeA6ubPGo,77
+sklearn_whiskers/ouliers/WhiskerOutliers.py,sha256=jO2Tw2_8I8J-MDKB7zzi2SvAXNobzGZ19p9RV0b3SQo,4987
+sklearn_whiskers/ouliers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scikit_learn_whiskers-0.1.1.dist-info/LICENSE,sha256=lUZxHjLkuKKldvGbg67t6QDNSk50YkhwavzM8uV22T4,1077
+scikit_learn_whiskers-0.1.1.dist-info/METADATA,sha256=CcaWpuxhSxFS-Zg4gc25qzcEdZjdmRLBuce2dQSiKTM,2829
+scikit_learn_whiskers-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+scikit_learn_whiskers-0.1.1.dist-info/top_level.txt,sha256=j_6T8sZW0TcmTa4RIH2FHtQcQ10tyj5XPjC8YOWWukw,17
+scikit_learn_whiskers-0.1.1.dist-info/RECORD,,
