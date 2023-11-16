@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: duplocloud-client
+Version: 0.1.8
+Summary: Generic DuploClient for Python apps.
+Author-email: Kelly <kelly@duplocloud.net>
+Maintainer-email: Kelly <kelly@duplocloud.net>
+Keywords: duplocloud,duplo,duploctl,duplo-client
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.22.0
+Requires-Dist: cachetools >=5.2.0
+Requires-Dist: jmespath >=1.0.1
+Provides-Extra: build
+Requires-Dist: invoke ; extra == 'build'
+Requires-Dist: setuptools-scm ; extra == 'build'
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: formats
+Requires-Dist: pyyaml ; extra == 'formats'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: ruff ; extra == 'test'
+Requires-Dist: pytest-black ; extra == 'test'
+Requires-Dist: pytest-isort ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# Duplocloud Py Client  
+
+![Tests](https://github.com/duplocloud/duploctl/actions/workflows/test.yml/badge.svg) ![PyPI - Version](https://img.shields.io/pypi/v/duplocloud-client)
+
+
+A package to spawn service clients for working with Duplocloud. This is a cli for interacting with duplocloud resources. This is great within cli pipelines. Built to be as extensible as possible and can be used as normal python module as well as cli. 
+
+## Installation  
+
+From PyPi:
+```
+pip install duplocloud-client
+```
+
+## Usage 
+
+This project may bes used as a cli or as a python module in your own unique script. 
+
+### Configuration  
+
+The following inputs are global:  
+| Arg | Env Var | Description | Default | Required |  
+| --- | --- | --- | --- | --- |
+| --host, -H | DUPLO_HOST | The host to connect to |  | Yes |
+| --token, -T | DUPLO_TOKEN | The token to use for auth |  | Yes |
+| --tenant, -t | DUPLO_TENANT | The tenant to use for auth | default | No | 
+
+### CLI  
+
+Here is a quick template on how the cli breaks down. 
+
+```sh
+duploctl <resource> <command> <args...>
+```
+
+### Python Module
+
+Here is how to spawn your own client the quick way from args and env. 
+
+```python
+duplo = DuploClient.from_env()
+out = duplo.run("tenant", "list")
+```
+
+Here we show how to spawn a client with a custom host and token. 
+
+```python
+duplo = DuploClient(host="https://example.duplocloud.com", token="mytoken")
+svc = duplo.load("tenant")
+t = svc.find("mytenant")
+print(t)
+```
