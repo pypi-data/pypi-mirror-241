@@ -1,0 +1,5 @@
+setup.py
+llm_monitor.egg-info/PKG-INFO
+llm_monitor.egg-info/SOURCES.txt
+llm_monitor.egg-info/dependency_links.txt
+llm_monitor.egg-info/top_level.txt
