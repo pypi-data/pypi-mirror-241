@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+quantumatrix/__init__.py
+quantumatrix.egg-info/PKG-INFO
+quantumatrix.egg-info/SOURCES.txt
+quantumatrix.egg-info/dependency_links.txt
+quantumatrix.egg-info/top_level.txt
