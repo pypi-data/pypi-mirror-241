@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lofty-k
+Version: 0.0.10
+Summary: hand
+Home-page: 
+Author: M0F0IAm
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: bson >=0.5.10
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+UNKNOWN
+
+
