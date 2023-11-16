@@ -1,0 +1,2 @@
+[console_scripts]
+i18nconverter = i18nconverter.main:cli
