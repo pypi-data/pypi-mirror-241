@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: EULANGS
+Version: 1.0.2
+Summary: This package allows you to import a list of official EU languages.
+Home-page: https://github.com/iguanodon-ai/EULANGS
+Author: Simon Hengchen
+Author-email: simon@iguanodon.ai
+License: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a small package that allows you to import EU languages. 
+
+## Usage
+
+To get all 24 official EU languages in a list, do this:
+
+```python 
+from EULANGS import EU_LANGS
+
+print(EU_LANGS)
+``` 
+
+## Installation
+
+```bash 
+pip install EULANGS
+```
