@@ -1,0 +1,9 @@
+meutils
+
+# wechaty_puppet_itchat
+pyppeteer
+dataclasses_json
+pyee
+PyQRCode
+grpclib
+node-semver~=0.8.1
