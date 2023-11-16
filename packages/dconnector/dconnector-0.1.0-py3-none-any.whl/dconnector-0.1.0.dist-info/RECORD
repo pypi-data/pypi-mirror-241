@@ -1,0 +1,6 @@
+dconnector/__init__.py,sha256=z0IHLiNoeBi1B17C2NKDIX2xynSY0zm3UuZDm4lj6E4,29
+dconnector/mongodb_conn.py,sha256=cKIAyhyJiaqyBCe7vVkA8iEk1YzDN3ye3yL90-T9yEE,10636
+dconnector-0.1.0.dist-info/METADATA,sha256=Ne-9J2JT2xVlfzoaHaRP6dSRV-7ffqt8pR-TtvjhSgo,2254
+dconnector-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dconnector-0.1.0.dist-info/top_level.txt,sha256=0A15WAYWPoC7RBABgZMJePaHd2EYQ2jhIg8fs6Osd-E,11
+dconnector-0.1.0.dist-info/RECORD,,
