@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pathconf
+Version: 1.0.31
+Summary: Uses os.walk to find and catalogue a given file. Built to call some scripts from inside others on different machines since onedrive kept giving itself a random path and was a pain to manage
+Home-page: UNKNOWN
+Author: Sam Kirby
+Author-email: sam.kirby@gagamuller.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
