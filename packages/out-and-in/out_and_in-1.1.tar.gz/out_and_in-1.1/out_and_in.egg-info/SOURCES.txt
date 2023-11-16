@@ -1,0 +1,10 @@
+README.md
+setup.py
+out_and_in/__init__.py
+out_and_in/demo.py
+out_and_in/main.py
+out_and_in.egg-info/PKG-INFO
+out_and_in.egg-info/SOURCES.txt
+out_and_in.egg-info/dependency_links.txt
+out_and_in.egg-info/requires.txt
+out_and_in.egg-info/top_level.txt
