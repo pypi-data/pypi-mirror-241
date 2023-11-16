@@ -1,0 +1,3 @@
+[console_scripts]
+oorpc-gen=oorpc.__main__:main
+
