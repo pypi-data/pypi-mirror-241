@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: qtoggleserver-paradox
+Version: 1.5.2
+Summary: Control your Paradox alarm with qToggleServer
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt
+Requires-Dist: paradox-alarm-interface<4,>=3
+Requires-Dist: pyserial>=3.4
+Requires-Dist: pyserial-asyncio>=0.4
+Requires-Dist: requests
