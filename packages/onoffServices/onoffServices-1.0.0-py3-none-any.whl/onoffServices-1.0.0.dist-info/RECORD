@@ -1,0 +1,8 @@
+onoffServices/__init__.py,sha256=BW1tkJHk5noK5isjgkSjpurcNAivr9A5Ahm3Y06T5sA,1060
+onoffServices/ec2.py,sha256=BazSyvvPkXNM8_cHPbyPPyO1CWt8sQ3okXXK1qw-LJE,1808
+onoffServices/ecs.py,sha256=TN2UNVZPndd35Rr8dOwnbfkd52okaRynpICFZOr9_LE,3288
+onoffServices/rds.py,sha256=vudCx-5xTRM0CmsOPex3kNnoG5UHpwS8jnv2isaRnsE,1578
+onoffServices-1.0.0.dist-info/METADATA,sha256=GFTxtHdEwC8DqDmgf0BSOTraOsw-gvaPqxilc5ZXa3c,454
+onoffServices-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+onoffServices-1.0.0.dist-info/top_level.txt,sha256=-MjY4Nah7hXHXXyChuTi13w96tLPCJQkgKX4yqWSWSI,14
+onoffServices-1.0.0.dist-info/RECORD,,
