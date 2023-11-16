@@ -1,0 +1,15 @@
+pdf417decoder/BarcodeArea.py,sha256=eXqGoHeHW6qTKcckvoH5bzlvQPt6SEnQ3qH_uG7mPKA,4044
+pdf417decoder/BarcodeInfo.py,sha256=9pHWOE09ls-sXryJaGLVm5FWvSLDbGpPIBC-QefWtcw,2734
+pdf417decoder/BorderPattern.py,sha256=8Fdueem7D4IhwPpH7goQ3u2DRy-5W8_3SfdnRmGXaW8,4409
+pdf417decoder/BorderSymbol.py,sha256=yM8PbW0-ei3Bu0P4eTw7CXJCazA_5HPrOw5b567s4To,624
+pdf417decoder/Decoder.py,sha256=Lvw32suyvdg4KXP9cGH_qhEpNhQsuM28HxJMgcSL1Bw,44834
+pdf417decoder/ErrorCorrection.py,sha256=6i6c-7psr4EFjY3cSvQ_jMtU2LDC_HqfdHIJmQ_aZKc,5378
+pdf417decoder/Modulus.py,sha256=tvzcV1h_-NGvgJTuFnP1oTmeyUvXuW2icKAfctXFkIo,832
+pdf417decoder/Polynomial.py,sha256=61S4qPiELatPDOf7B_lsestE4VNweQaaO64LgU3_75c,6901
+pdf417decoder/StaticTables.py,sha256=okdVkeQYxBuHySe5IIl8mXxvqE-FFgzdS9xD2k1L1cQ,36473
+pdf417decoder/__init__.py,sha256=60l0sQIygrD6c3Dy7VNzmyeQ9SKyftfA8Z6q-06-ojc,74
+pdf417decoder_with_opencv_python_headless-1.0.9.dist-info/LICENSE,sha256=ODr5hNBwAUI5yVzqAvkxCaitWh5woK3SMo6xvj4g03g,11341
+pdf417decoder_with_opencv_python_headless-1.0.9.dist-info/METADATA,sha256=qW14fnrHNjzGEdfpdbpVCSRZiiu79JXqiETWy3hO63Q,2012
+pdf417decoder_with_opencv_python_headless-1.0.9.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pdf417decoder_with_opencv_python_headless-1.0.9.dist-info/top_level.txt,sha256=9yCZqf2JwLNOiRvOg7TELNlMZbJF-xLXPDP2xLnyuTg,14
+pdf417decoder_with_opencv_python_headless-1.0.9.dist-info/RECORD,,
