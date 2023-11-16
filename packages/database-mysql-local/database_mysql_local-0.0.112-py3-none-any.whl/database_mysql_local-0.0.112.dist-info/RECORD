@@ -1,0 +1,10 @@
+circles_local_database_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circles_local_database_python/connector.py,sha256=UThOF1kJdvvf7pF_t-TnBjy5qm_cxkaSkJb8sz_ryvo,5282
+circles_local_database_python/cursor.py,sha256=5pagFmoHom_EcXo1TNZt-HA5xyWxknrNhjg7ikwhE1A,3011
+circles_local_database_python/generic_crud.py,sha256=xUSmU3TddKbCzCuKxdTyzubqXCy4Oibx6gCfcqyf2Do,15535
+circles_local_database_python/utils.py,sha256=y3_a4Hw8nAjekHG9xjFahfrSeH42oQj_YBDYGL6JH0I,597
+database_mysql_local-0.0.112.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+database_mysql_local-0.0.112.dist-info/METADATA,sha256=CkIPqY7VyVmqkloejNohY5E4OcuHiXlRK_XBZsxLE5c,4049
+database_mysql_local-0.0.112.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+database_mysql_local-0.0.112.dist-info/top_level.txt,sha256=ooVGGtzJSkLcNt9kO_2ajX4G2xH-APBgfXtCNDZsjyk,30
+database_mysql_local-0.0.112.dist-info/RECORD,,
