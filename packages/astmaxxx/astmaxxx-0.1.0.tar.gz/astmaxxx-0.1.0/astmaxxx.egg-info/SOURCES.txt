@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+astmaxxx/__init__.py
+astmaxxx/__main__.py
+astmaxxx.egg-info/PKG-INFO
+astmaxxx.egg-info/SOURCES.txt
+astmaxxx.egg-info/dependency_links.txt
+astmaxxx.egg-info/top_level.txt
