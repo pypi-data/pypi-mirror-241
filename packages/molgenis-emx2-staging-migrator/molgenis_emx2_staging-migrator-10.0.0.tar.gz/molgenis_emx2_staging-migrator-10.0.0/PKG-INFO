@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: molgenis_emx2_staging-migrator
+Version: 10.0.0
+Summary: Python package for migrating Molgenis EMX2 staging areas to a catalogue.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests~=2.31.0
+Requires-Dist: pandas~=2.1.3
+
+# Installation
+
+```console
+pip install molgenis_emx2_staging_migrator
+```
+
+## How to use
+
+Within your Python project import the class StagingMigrator and use it as a context manager
+
+```py
+from molgenis_emx2_staging_migrator import StagingMigrator
+
+username = 'username'
+password = '...'
+
+with StagingMigrator('https://example.molgeniscloud.org') as migrator:
+    migrator.signin(username, password)
+
+    # Retrieve sign-in information
+    print(migrator.status)
+    
+    migrator.set_staging_area('TestStaging')
+    migrator.set_catalogue('catalogue')
+    
+    migrator.migrate()
+    
+
+```
+
+## Development
+
+
+```
+
+## Build
+
+```console
+(venv) $ python -m build
+
+(venv) $ pip install dist/molgenis_emx2_staging_migrator*.whl
+```
