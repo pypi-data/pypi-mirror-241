@@ -1,0 +1,51 @@
+{% extends "page.html" %}
+
+{% block container %}
+<div class="row mb-1">
+    <div class="col">
+        <h1>{{ activity.name }}</h1>
+    </div>
+</div>
+
+<div class="row mb-1">
+    <div class="col-4">
+        <dl>
+            <dt>Name</dt>
+            <dd>{{ activity.name }}</dd>
+            <dt>Kind</dt>
+            <dd>{{ activity.kind }}</dd>
+            <dt>Commute</dt>
+            <dd>{{ activity.commute }}</dd>
+        </dl>
+    </div>
+    <div class="col-4">
+        <dl>
+            <dt>Distance</dt>
+            <dd>{{ activity.distance|round(1) }} km</dd>
+            <dt>Elapsed time</dt>
+            <dd>{{ activity.elapsed_time }}</dd>
+            <dt>Start time</dt>
+            <dd>{{ activity.start }}</dd>
+        </dl>
+    </div>
+    <div class="col-4">
+        <dl>
+            <dt>Calories</dt>
+            <dd>{{ activity.calories }}</dd>
+            <dt>Equipment</dt>
+            <dd>{{ activity.equipment }}</dd>
+            <dt>ID</dt>
+            <dd>{{ activity.id }}</dd>
+        </dl>
+    </div>
+</div>
+
+
+<div class="row mb-1">
+    <div class="col">
+        {{ vega("track", "/activity/%d/track.json"|format(activity.id)) }}
+    </div>
+</div>
+
+
+{% endblock %}
