@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: aiogt
+Version: 1.0.0
+Summary: 
+Author: Robert Stoul
+Author-email: rekiiky@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: aiohttp
+Provides-Extra: cache
+Provides-Extra: httpx
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0) ; extra == "aiohttp"
+Requires-Dist: httpx (>=0.25.1,<0.26.0) ; extra == "httpx"
+Requires-Dist: redis (>=5.0.1,<6.0.0) ; extra == "cache"
+Requires-Dist: urlcon (>=0.1.0rc1,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Simple async Google Translate library
+
+#### Instalation:
+```pip install aiogt[aiohttp]``` or ```pip install aiogt[httpx]```
+
+#### Featrures
+* Fast and reliable - it uses the same servers that translate.google.com uses
+* Support for httpx and aiohttp
+* Fully asyncio support
+* Simple result caching
+
+#### Example
+```python
+from asyncio import run
+
+from aiogt import Translaitor
+
+
+async def main():
+    t = Translaitor()
+    print(await t.translate("Hello", target='ru', source='en'))
+
+    await t.transport.close()
+
+run(main())
+```
