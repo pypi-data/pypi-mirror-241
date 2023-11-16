@@ -1,0 +1,12 @@
+mutagen
+pycryptodomex
+websockets
+certifi
+requests<3,>=2.31.0
+urllib3<3,>=1.26.17
+
+[:implementation_name != "cpython"]
+brotlicffi
+
+[:implementation_name == "cpython"]
+brotli
