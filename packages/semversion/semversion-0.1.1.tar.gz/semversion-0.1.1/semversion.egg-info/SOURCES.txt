@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+semversion/__init__.py
+semversion/_version.py
+semversion/flags.py
+semversion/patterns.py
+semversion/semantic_version.py
+semversion/specifier.py
+semversion/utils.py
+semversion.egg-info/PKG-INFO
+semversion.egg-info/SOURCES.txt
+semversion.egg-info/dependency_links.txt
+semversion.egg-info/requires.txt
+semversion.egg-info/top_level.txt
+tests/test_semantic_version.py
