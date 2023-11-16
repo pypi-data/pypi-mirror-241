@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PruebasLoewe
+Version: 4.1
+Summary: Paquete de saludos
+Home-page: http://www.loewe.com
+Author: Carlos Moreno Barrado
+Author-email: carlos_moreno@loewe.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+#Mensajes
+
+##Paquete de pruebas para iniciarme en librerias de pypy
