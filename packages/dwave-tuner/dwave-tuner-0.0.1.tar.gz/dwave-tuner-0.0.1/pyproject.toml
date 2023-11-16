@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwave-tuner"
+version = "0.0.1"
+authors = [
+    {name="Orkun Şensebat", email="git@senseb.at"},
+]
+description = "Tune D-Wave QPU solver parameters"
+readme = "README.md"
+requires-python = ">=3.7"
