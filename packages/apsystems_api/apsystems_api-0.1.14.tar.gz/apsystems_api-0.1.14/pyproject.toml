@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "apsystems_api"
+version = "0.1.14"
+description = ""
+authors = ["Mawoka <git@mawoka.eu>"]
+license = "MPL-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3"
+pydantic = "^1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
