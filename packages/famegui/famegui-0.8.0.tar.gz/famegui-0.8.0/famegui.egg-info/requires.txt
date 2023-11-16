@@ -1,0 +1,7 @@
+coloredlogs
+fameio>=1.6.3
+python-igraph
+pyyaml
+ipython
+PySide2
+SQLAlchemy>=1.4.44
