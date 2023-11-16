@@ -1,0 +1,2 @@
+[console_scripts]
+show-widget = qtrf.bin.show_widget:main

@@ -1,0 +1,14 @@
+
+[dev]
+ddt
+PySide6
+twine
+wheel
+
+[test]
+ddt
+PySide6
+
+[test-pyside2]
+ddt
+PySide2
