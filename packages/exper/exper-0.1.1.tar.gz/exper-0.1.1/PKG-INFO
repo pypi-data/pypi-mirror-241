@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: exper
+Version: 0.1.1
+Summary: This is a python package for running deep learning experiments. Users can rapidly run their experiments by importing this module.
+Author: Mrzz
