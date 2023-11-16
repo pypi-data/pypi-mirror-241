@@ -1,0 +1,2 @@
+[console_scripts]
+newold = newold.__main__:main
