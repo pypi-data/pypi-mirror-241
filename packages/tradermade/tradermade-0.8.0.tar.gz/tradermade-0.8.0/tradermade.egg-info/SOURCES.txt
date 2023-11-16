@@ -1,0 +1,9 @@
+README.rst
+setup.py
+tradermade/__init__.py
+tradermade/stream.py
+tradermade.egg-info/PKG-INFO
+tradermade.egg-info/SOURCES.txt
+tradermade.egg-info/dependency_links.txt
+tradermade.egg-info/requires.txt
+tradermade.egg-info/top_level.txt
