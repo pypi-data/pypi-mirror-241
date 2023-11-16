@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: numpyk
+Version: 0.0.33
+Summary: Alternate to numpy
+Author: xhi
+Author-email: <changexhiwong@info.in>
+Keywords: python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+
+The numpyk package provides an alternative implementation for mathematical functions, serving as an alternative to NumPy. It is designed for users who seek a lightweight and simplified library for basic mathematical operations in Python. This package is particularly suitable for environments where a reduced memory footprint and faster performance are prioritized.
+
+Key Features:
+
+Lightweight: The package is lightweight, offering a minimalistic set of mathematical functions without the overhead of a full-fledged numerical library.
+
+Simplicity: Aimed at simplicity, numpyk focuses on providing essential mathematical functions commonly used in standard Python environments.
+
+Performance: Tailored for performance in scenarios where the full feature set of NumPy is not required, making it suitable for resource-constrained environments.
+
+Ease of Use: The API is designed to be user-friendly, offering an intuitive interface for performing common mathematical tasks.
