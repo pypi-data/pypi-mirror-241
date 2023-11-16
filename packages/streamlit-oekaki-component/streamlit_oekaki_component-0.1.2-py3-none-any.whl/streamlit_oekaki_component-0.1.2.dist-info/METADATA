@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: streamlit-oekaki-component
+Version: 0.1.2
+Summary: A Streamlit component for simple freehand drawing. It allows users to draw freely on a canvas and integrates seamlessly with Streamlit apps.
+Home-page: https://github.com/Gohei/streamlit_oekaki_component
+Author: Gohei Kusumi
+Author-email: gohei.kusumi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Streamlit Oekaki Component
+
+## Overview
+
+Streamlit Oekaki is a simple, interactive freehand drawing component for Streamlit applications. It allows users to draw freely on a canvas within their Streamlit apps. The component is easy to integrate and customize, providing a straightforward way for users to input drawings or annotations.
+
+## Installation
+
+To install Streamlit Oekaki, run the following command:
+
+```bash
+pip install streamlit_oekaki_component
+```
+
+## Usage
+
+Import and use the `oekaki` function in your Streamlit application. Configure the drawing canvas parameters according to your needs.
+
+### Example
+
+```python
+import streamlit as st
+from streamlit_oekaki_component import oekaki
+
+# Title
+st.title("Oekaki Canvas")
+
+# Create Oekaki canvas
+response = oekaki()
+
+if response.is_submitted:
+    st.image(response.image_data_bytes)
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
