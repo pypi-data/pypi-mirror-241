@@ -1,0 +1,8 @@
+include plateypus/misc
+exclude plateypus/misc/pathDict.pkl
+exclude plateypus/misc/cytokineMWDf.csv
+exclude plateypus/misc/kitDf.csv
+include plateypus/misc/kitDf_template.csv
+include plateypus/misc/cytokineMWDf_template.csv
+
+include plateypus/plateypusLogo.png
