@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: greatlibrarian
+Version: 0.1.0
+Summary: Closed source part of GreatLibrarian, contains AI testing functions.
+Home-page: https://github.com/JerryMazeyu/GreatLibrarian
+License: TBD
+Author: DMJ
+Author-email: ggxxding@163.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dashscope (>=1.13.3,<2.0.0)
+Requires-Dist: matplotlib (>=3.8.1,<4.0.0)
+Requires-Dist: pymysql (>=1.1.0,<2.0.0)
+Requires-Dist: qianfan (>=0.1.3,<0.2.0)
+Requires-Dist: reportlab (>=4.0.7,<5.0.0)
+Requires-Dist: simhash (>=2.1.2,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: zhipuai (>=1.0.7,<2.0.0)
+Project-URL: Repository, https://github.com/JerryMazeyu/GreatLibrarian
+Description-Content-Type: text/markdown
+
+# GreatLibrarian
+![](https://jerrymazeyu.oss-cn-shanghai.aliyuncs.com/2023-07-06-DALL%C2%B7E%202023-07-06%2013.39.16%20-%20An%20omnipotent%20librarian%20with%20a%20galaxy%20as%20his%20head-%20suitable%20for%20a%20logo..png)
+Scenario-based large model testing toolbox
+![](https://jerrymazeyu.oss-cn-shanghai.aliyuncs.com/2023-07-18-092247.jpg)
+
+tips：
+./greatlibrarian/与./tests/为poetry创建项目时自动创建的文件夹，删除的话在新环境poetry install可成功运行但会有错误提示，暂时保留并不改变原项目结构
