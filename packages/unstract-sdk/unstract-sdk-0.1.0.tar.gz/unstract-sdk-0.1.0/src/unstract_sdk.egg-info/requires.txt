@@ -1,0 +1,6 @@
+llama-index~=0.8
+openai~=0.27
+tiktoken~=0.4.0
+python-dotenv==1.0.0
+jsonschema~=4.18.2
+unstract-connectors~=0.0.2
