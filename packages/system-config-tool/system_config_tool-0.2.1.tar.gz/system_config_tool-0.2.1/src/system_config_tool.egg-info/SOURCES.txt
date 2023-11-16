@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/system_config_tool/__init__.py
+src/system_config_tool/__version__.py
+src/system_config_tool/sys_conf.py
+src/system_config_tool.egg-info/PKG-INFO
+src/system_config_tool.egg-info/SOURCES.txt
+src/system_config_tool.egg-info/dependency_links.txt
+src/system_config_tool.egg-info/requires.txt
+src/system_config_tool.egg-info/top_level.txt
