@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pilab-alcohol"
+authors = [
+    {name = "Manon Dausort", email = "manon.dausort@uclouvain.be"},
+]
+readme="README.md"
+description = "Analysis pipeline"
+dependencies = ['xlsxwriter',
+                'pandas',
+                'matplotlib',
+                'scikit-learn',
+                'seaborn',
+                'dipy',
+                'scikit-image',
+                'scipy'
+]
+dynamic = ["version"]
+[tool.setuptools.dynamic]
+version = {attr = "pilab_alcohol.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

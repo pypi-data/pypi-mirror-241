@@ -1,0 +1,8 @@
+xlsxwriter
+pandas
+matplotlib
+scikit-learn
+seaborn
+dipy
+scikit-image
+scipy
