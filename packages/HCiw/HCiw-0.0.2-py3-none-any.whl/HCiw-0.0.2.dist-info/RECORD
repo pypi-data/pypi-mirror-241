@@ -1,0 +1,11 @@
+hciw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hciw/base.py,sha256=9wXWVSKhrCNyWMLMTqkIAbVattO0pnpGSQ81Hawhk-8,1504
+hciw/classic.py,sha256=bKlI5_2vpHEhG-redl9tPWvwvA3Ct3eFaF35Ax9WdKg,2426
+hciw/distributions.py,sha256=GkmkDHMSxBlQGDTX61Umi4qIS4wcYapbw-L8z6u9Gns,2009
+hciw/routers.py,sha256=2KRECDEn3fMj3tpkfe1S5uvG7O5bRQwr-vfEKkKFoVs,3713
+hciw/waitlist.py,sha256=Ym3EGWZK8jTQJJw5YmxN-kMFbffRK0XkT7s1zO7bfL8,2993
+HCiw-0.0.2.dist-info/LICENSE,sha256=i4BS3VkTn3qQa7-dfmejRrJ6rePj9kI_5LwVI79gdKI,1069
+HCiw-0.0.2.dist-info/METADATA,sha256=mLMf8eGxXBlwg5pdPrP13ehYkKlxFF3TSL34n1EY07c,596
+HCiw-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+HCiw-0.0.2.dist-info/top_level.txt,sha256=UflbxLHpxxO6Lt1v7ygfvZ5B_Dh6UYE1nenXoV5exW4,5
+HCiw-0.0.2.dist-info/RECORD,,
