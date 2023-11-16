@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: np-monitor
+Version: 0.1.2
+Author-Email: Christopher Mochizuki <chrism@alleninstitute.org>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: fabric>=3.2.2
+Description-Content-Type: text/markdown
+
+# np-monitor
