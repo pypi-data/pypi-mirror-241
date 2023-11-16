@@ -1,0 +1,4 @@
+[console_scripts]
+protoc-gen-resemble_python = resemble.protoc_gen_resemble_python:main
+protoc-gen-resemble_react = resemble.protoc_gen_resemble_react:main
+rsm = resemble.cli.rsm:main
