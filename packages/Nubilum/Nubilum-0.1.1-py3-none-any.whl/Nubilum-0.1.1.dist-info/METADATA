@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Nubilum
+Version: 0.1.1
+Summary: An explainability library for instance segmentation in         point clouds
+Home-page: https://github.com/LeonardoHoltz/Nubilum
+Author: Leonardo Holtz de Oliveira
+Author-email: leo.holtz98@gmail.com
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: k3d
+Requires-Dist: captum
+
