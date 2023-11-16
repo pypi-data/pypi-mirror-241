@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+papermc_updater/__init__.py
+papermc_updater/update_paper.py
+papermc_updater.egg-info/PKG-INFO
+papermc_updater.egg-info/SOURCES.txt
+papermc_updater.egg-info/dependency_links.txt
+papermc_updater.egg-info/entry_points.txt
+papermc_updater.egg-info/top_level.txt

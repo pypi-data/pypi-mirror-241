@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papermc_updater"
+version = "0.1.2"
+authors = [
+    { name="Travis Kessler", email="travis.j.kessler@gmail.com" },
+]
+description = "A command-line tool to update PaperMC server .jar file (in-place)"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+update-papermc = "papermc_updater.update_paper:cmd_line"
+
+[project.urls]
+"Homepage" = "https://github.com/tjkessler/papermc-updater"
+"Bug Tracker" = "https://github.com/tjkessler/papermc-updater/issues"
