@@ -1,0 +1,9 @@
+README.md
+alecto.py
+setup.py
+alecto.egg-info/PKG-INFO
+alecto.egg-info/SOURCES.txt
+alecto.egg-info/dependency_links.txt
+alecto.egg-info/entry_points.txt
+alecto.egg-info/requires.txt
+alecto.egg-info/top_level.txt
