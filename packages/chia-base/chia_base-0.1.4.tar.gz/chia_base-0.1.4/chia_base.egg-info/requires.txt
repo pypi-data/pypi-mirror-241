@@ -1,0 +1,7 @@
+clvm_rs==0.2.5
+blspy==2.0.2
+
+[dev]
+ruff>=0.0.252
+black>=23.1.0
+pytest>=7.2.1
