@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+simplemaml.py
+simplemaml.egg-info/PKG-INFO
+simplemaml.egg-info/SOURCES.txt
+simplemaml.egg-info/dependency_links.txt
+simplemaml.egg-info/requires.txt
+simplemaml.egg-info/top_level.txt
