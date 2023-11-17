@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: quickremi
+Version: 1.0.5
+Summary: A wrapper of REMI library to build UI front-ends purely using Python.
+Author: Aru Raghuvanshi
+Author-email: sixdigitco@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This library wraps the popular python library called Remi to make easy UI by simply calling functions wiht arguments for UI placement. 
+
+The basic structure of calling all properties of a UI element is:
+Container/Frame, Height, Width, Left, Top, *args, **kwargs
