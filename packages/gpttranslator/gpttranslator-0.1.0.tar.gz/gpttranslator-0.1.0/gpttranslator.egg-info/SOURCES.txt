@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gpttranslator/__init__.py
+gpttranslator/translator.py
+gpttranslator.egg-info/PKG-INFO
+gpttranslator.egg-info/SOURCES.txt
+gpttranslator.egg-info/dependency_links.txt
+gpttranslator.egg-info/requires.txt
+gpttranslator.egg-info/top_level.txt
