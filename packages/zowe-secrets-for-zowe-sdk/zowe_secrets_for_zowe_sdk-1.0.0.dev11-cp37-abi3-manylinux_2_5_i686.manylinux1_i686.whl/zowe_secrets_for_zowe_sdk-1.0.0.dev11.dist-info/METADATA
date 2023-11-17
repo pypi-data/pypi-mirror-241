@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: zowe_secrets_for_zowe_sdk
+Version: 1.0.0.dev11
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Summary: Zowe Python SDK - Client Secrets package
+License: EPL-2.0
+Requires-Python: >=3.7
