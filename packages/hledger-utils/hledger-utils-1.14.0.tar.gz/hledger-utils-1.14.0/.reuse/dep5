@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hledger-utils
+Upstream-Contact: Yann Büchau <nobodyinperson@posteo.de>
+Source: https://gitlab.com/nobodyinperson/hledger-utils
+
+Files: 
+    .gitlab/*
+    hledger_utils/version.py
+Copyright: 2023 Yann Büchau <nobodyinperson@posteo.de>
+License: CC0-1.0
+
+Files: 
+    README.md
+Copyright: 2023 Yann Büchau <nobodyinperson@posteo.de>
+License: GPL-3.0-or-later
+
+Files: 
+    doc/*
+Copyright: 2023 Yann Büchau <nobodyinperson@posteo.de>
+License: CC-BY-4.0
