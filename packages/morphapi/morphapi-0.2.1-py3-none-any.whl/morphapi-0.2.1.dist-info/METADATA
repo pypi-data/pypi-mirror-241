@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: morphapi
+Version: 0.2.1
+Summary: A lightweight python package to download neuronal morphologies
+Home-page: https://github.com/brainglobe/morphapi
+Author: Federico Claudi
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bg-atlasapi
+Requires-Dist: neurom <4,>=3
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyyaml >=5.3
+Requires-Dist: retry
+Requires-Dist: rich
+Requires-Dist: vedo >=2023.5.0
+Requires-Dist: vtk
+Requires-Dist: imagecodecs ; python_version >= "3.9"
+Provides-Extra: dev
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-html ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: coverage <=4.5.4 ; extra == 'dev'
+Requires-Dist: pytest-sugar ; extra == 'dev'
+Requires-Dist: allensdk ; extra == 'dev'
+Provides-Extra: nb
+Requires-Dist: jupyter ; extra == 'nb'
+Requires-Dist: k3d ; extra == 'nb'
+
+# morphapi
+
+## Overview
+Morphapi is a lightweight python package for downloading neurons
+morphological reconstructions from publicly available datasets. 
+
+Please see the [documentation](https://brainglobe.info/documentation/morphapi/index.html)
+
+## Contributing
+Contributions to morphapi are more than welcome. Please see the [developers guide](https://brainglobe.info/developers/index.html).
+
+
