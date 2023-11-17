@@ -1,0 +1,9 @@
+aifund/__init__.py,sha256=4SeD2ezyagh9Zd3P9alwCaOqOlOrKLTe23YqNW9kOVY,98
+aifund/data/__init__.py,sha256=EcQaTwXAyEhbNr3ugFuvlrnlaCViipB1p6p1WF_PrSQ,88
+aifund/data/fund_em.py,sha256=-rKKMEcxymtFeRvFG43uhv4i88pRmlIoYhkudlakuuE,1590
+aifund/data/fund_etf_em.py,sha256=_oE0rt0bJFGil6HXNNoV_2ZRuTbVtYW1sPiCqNzwxKs,52832
+aifund-0.0.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aifund-0.0.13.dist-info/METADATA,sha256=2P0C67pCdbJa85ZpLO7RfMm7IB-GIc28bwh34z4W2uI,548
+aifund-0.0.13.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aifund-0.0.13.dist-info/top_level.txt,sha256=xZnZ5MfP0QE1S6f97c0Bb7H5dB445oFVz8U8-uWaO60,7
+aifund-0.0.13.dist-info/RECORD,,
