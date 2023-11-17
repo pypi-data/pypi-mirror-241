@@ -1,0 +1,25 @@
+bg_atlasapi
+neurom<4,>=3
+numpy
+pandas
+pyyaml>=5.3
+retry
+rich
+vedo>=2023.5.0
+vtk
+
+[:python_version >= "3.9"]
+imagecodecs
+
+[dev]
+pytest-cov
+pytest
+pytest-html
+coveralls
+coverage<=4.5.4
+pytest-sugar
+allensdk
+
+[nb]
+jupyter
+k3d
