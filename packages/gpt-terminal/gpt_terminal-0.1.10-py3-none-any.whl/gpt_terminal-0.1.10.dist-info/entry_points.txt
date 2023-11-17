@@ -1,0 +1,2 @@
+[console_scripts]
+gpt-terminal = gpterminal.gpt_terminal:main
