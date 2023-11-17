@@ -1,0 +1,12 @@
+savegame_reader/__main__.py,sha256=USXenBaWrP3tsyHch7OAgxvpJxQlWF_04H0Q5-UOJjE,657
+savegame_reader/binreader.py,sha256=a1MFdfg5xW4iYsX0ROuuAB63IiS1nMyfJwS1AwpAsDM,3864
+savegame_reader/compression.py,sha256=Fv3epsoRqsfZjJsGDc7f1iCkep03lLfoXz2RdOKjmh8,1192
+savegame_reader/enums.py,sha256=J_IdfDj4yr2qza1FFcKqtssd-eJ7RQrZC2Yy0jiwKbs,236
+savegame_reader/exceptions.py,sha256=525fSH8Q241VjxdllBkWi3DiW_-6I1AmG-iHwZBTp4E,47
+savegame_reader/gui.py,sha256=w8K6YR519Yw6dlQMnrnp_XR1Su8IUDC1YKFRe6-ztE8,4551
+savegame_reader/passthrough.py,sha256=MHF1cHhBX_iyWT4_pBzxLauQZkrmOIq4df51D-srsh0,3225
+savegame_reader/savegame.py,sha256=awa_LVYQO3n6yhyoCscrSNvOxryb9K8_hjUYbB12a7o,5363
+openttdlab-0.0.1.dist-info/METADATA,sha256=SQGMET9Z5avUcpnYi_sdSab_MdqBIqkkpWl5ZgpO2M0,1328
+openttdlab-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+openttdlab-0.0.1.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+openttdlab-0.0.1.dist-info/RECORD,,

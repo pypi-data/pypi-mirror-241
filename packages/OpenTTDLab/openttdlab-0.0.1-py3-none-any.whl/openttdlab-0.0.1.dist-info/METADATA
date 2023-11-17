@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: OpenTTDLab
+Version: 0.0.1
+Summary: Python framework for running reproducible experiments using OpenTTD
+Project-URL: Source, https://github.com/michalc/OpenTTDLab
+Author-email: Michal Charemza <michal@charemza.name>, Patric Stout <truebrain@openttd.org>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# OpenTTDLab
+
+Python framework for running reproducible experiments using OpenTTD
+
+## Python
+
+### Installation
+
+```bash
+python3 -m venv .env
+.env/bin/pip install -r requirements.txt
+```
+
+### Usage
+
+#### CLI-based interactive view
+
+```bash
+.env/bin/python -m savegame_reader <location-of-your-savegame>
+```
+
+![image](docs/example.png)
+
+#### Export to JSON
+
+```bash
+.env/bin/python -m savegame_reader --export-json <location-of-your-savegame>
+```
+
+## Rust / Web
+
+### Installation (Rust)
+
+Have latest rust installed, and install `wasm-pack` (with `cargo install wasm-pack`).
+
+```bash
+cd webapp/xz-rust
+wasm-pack build
+```
+
+### Installation (Web)
+
+(depends on Rust)
+
+```bash
+cd webapp/web
+npm install
+npm run build
+```
+
+Alternatively for the last step, you can do `npm start` for development.
