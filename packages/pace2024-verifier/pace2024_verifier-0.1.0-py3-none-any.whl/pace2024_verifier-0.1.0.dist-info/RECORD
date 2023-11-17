@@ -1,0 +1,9 @@
+pace2024_verifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pace2024_verifier/__main__.py,sha256=IEuOG5PUvDOs6l030WcRrcnklsKL35aKQEhiQ-jI4QE,54
+pace2024_verifier/cli.py,sha256=Nmdy3l7QjRhBkrv3CLjRUHylzgGnvib067R9QuUo_vU,1390
+pace2024_verifier/pace.py,sha256=Xy3saVr4yjJswF1Ql72s-s7gc666E3urpj4VUbAD8vI,6749
+pace2024_verifier-0.1.0.dist-info/LICENSE,sha256=S5kDaTV_R0WkuE9AagEiwI2QQGalICrlYfz9nfwVPMg,1100
+pace2024_verifier-0.1.0.dist-info/METADATA,sha256=6sVEQSuxnX2nTtsaAnlLk13_hdND5AYO7kTfGwHBHts,1525
+pace2024_verifier-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pace2024_verifier-0.1.0.dist-info/entry_points.txt,sha256=YErD_Q9DE_EYJac7Ij7azmLPkJvocptjwusMAQTNy6U,68
+pace2024_verifier-0.1.0.dist-info/RECORD,,
