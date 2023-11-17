@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Libkernelsfabian
+Version: 0.1.0
+Summary: diferentes suavizados en esta librería
+Home-page: UNKNOWN
+Author: Fabian
+Author-email: fyamith.tovar@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+#Librería con varios kernels
+
