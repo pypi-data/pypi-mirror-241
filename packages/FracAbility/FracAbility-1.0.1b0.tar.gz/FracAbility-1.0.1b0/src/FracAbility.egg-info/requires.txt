@@ -1,0 +1,6 @@
+pyvista
+networkx
+geopandas
+scipy
+seaborn
+python-ternary
