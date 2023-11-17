@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: dew-gwdata
+Version: 0.77
+Summary: Python module for accessing groundwater data internally at DEW
+Home-page: http://github.com/dew-waterscience/dew_gwdata
+Author: Kent Inverarity
+Author-email: kent.inverarity@sa.gov.au
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: rasterio
+Requires-Dist: sqlparse
+Requires-Dist: click
+Requires-Dist: cx_Oracle
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: sqlalchemy
+Requires-Dist: python-sa-gwdata>=0.5.4
+Requires-Dist: lasio
+Requires-Dist: matplotlib
+Requires-Dist: pyshp
+Requires-Dist: appdirs
+Requires-Dist: pyodbc
+Requires-Dist: toml
+Requires-Dist: psutil
+Requires-Dist: networkx
+Requires-Dist: loguru
+Requires-Dist: sageodata_db>=0.19
+
+# dew_gwdata
+
+Python module for accessing groundwater data internally at DEW
+
+## How to use
+
+Check out complete documentation at:
+
+file:///R:/dfw_cbd/projects/projects_gw/State/Groundwater_Toolbox/Python/wheels/docs/dew_gwdata/latest_github/index.html
+
+## Install
+
+See the instructions in the documentation.
+
+## License
+
+All rights reserved DEW 2023
+
