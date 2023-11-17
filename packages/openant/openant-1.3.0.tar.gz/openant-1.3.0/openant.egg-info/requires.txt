@@ -1,0 +1,7 @@
+pyusb>=1.1.1
+
+[influx]
+influxdb-client
+
+[serial]
+pyserial
