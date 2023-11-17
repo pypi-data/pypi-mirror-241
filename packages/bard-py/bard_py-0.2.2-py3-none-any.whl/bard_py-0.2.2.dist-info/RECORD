@@ -1,0 +1,9 @@
+bard/__init__.py,sha256=NafBRtrrqLZ7PYvj8qF6LmcJQ1cT2XB5l7mKbPsni2s,29
+bard/bard.py,sha256=5LtTCbjZpG6KjhTFP-XmiNzWGxb08K7wjFMaFyREf3I,4901
+bard/constants.py,sha256=tINQJQZGQoWK7Glfw67ow6AUSsn3VjmPkCp6Pkyg0uo,938
+bard/exceptions.py,sha256=du86xSd5OCouTOYBn9_HnDUxrHT89GXwfp8xj6eEk7E,97
+bard/utils.py,sha256=L1O1sF2EMqsmTw0HemlpwUua3pP3R06ixCJM7On1cbI,235
+bard_py-0.2.2.dist-info/LICENSE,sha256=FF7z2YMw9zP8XxqUCTSql8Uzz5frtQktKunhQLJGcVg,1064
+bard_py-0.2.2.dist-info/METADATA,sha256=y12PvWuFW98eCddxp_wj5qFDyyfs7Ope9K7qPiLPGQY,4940
+bard_py-0.2.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bard_py-0.2.2.dist-info/RECORD,,
