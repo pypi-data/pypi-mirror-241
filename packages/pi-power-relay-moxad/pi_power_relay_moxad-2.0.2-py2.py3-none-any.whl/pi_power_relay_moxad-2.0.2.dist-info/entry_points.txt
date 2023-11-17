@@ -1,0 +1,2 @@
+[console_scripts]
+pi-power-relay = pi_power_relay_moxad.pi_power_relay:main
