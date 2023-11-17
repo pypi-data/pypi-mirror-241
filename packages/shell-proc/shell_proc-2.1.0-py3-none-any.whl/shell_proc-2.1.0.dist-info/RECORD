@@ -1,0 +1,14 @@
+shell_proc/__init__.py,sha256=KI-eu0niP-zzg7oKoHxkONhyp6tOChO13xt1hVs7SF8,226
+shell_proc/__main__.py,sha256=buIN0NlZlf7FuQiVlUwmogUmTg4t3Fz5u9D_v757nkI,777
+shell_proc/__meta__.py,sha256=RGdA3hAdbZOsLaJ3t28LyBkuADK0rcHOe7A64x79OxE,194
+shell_proc/non_blocking_pipe.py,sha256=275Qna-jg8VFhi9txg3mmgK4U6q91R9rXgPjqIrT5NM,1554
+shell_proc/shell.py,sha256=2sJSOEt3Am26ZrVBda_3TLbWIYb7vhuIVS6QGKXeM1w,39882
+shell_proc/__pycache__/__init__.cpython-311.pyc,sha256=o1rKBWozjcTaogKxuXASUNPRJjM_uZQiJpIJ70uXDxA,606
+shell_proc/__pycache__/__meta__.cpython-311.pyc,sha256=DKTDscUm-VJE2Ywk4yAH00TS93dCZaxUVQCNLbaVIdM,397
+shell_proc/__pycache__/non_blocking_pipe.cpython-311.pyc,sha256=vhVHwRkhowQFR0PD0adT9KGJ8ivTR2XqUN6MzxsKIjQ,2351
+shell_proc/__pycache__/shell.cpython-311.pyc,sha256=SNz4apxSkBQhNgvF5lQqYYNE4bMhs-2CKIx-Rj-HKtk,53830
+shell_proc-2.1.0.dist-info/LICENSE,sha256=mRHelfWKACgH_I8oF8chpzYSAV3WsDItwqxnexSTT_A,1090
+shell_proc-2.1.0.dist-info/METADATA,sha256=9wzYuNckMnc1WxQq7YjhF2sRUMXY81fYxg99qDbQxX8,11316
+shell_proc-2.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shell_proc-2.1.0.dist-info/top_level.txt,sha256=OiO0JKp6W-dSu3nWN6rk8IC-siXeEieKGiAFX6xmoFE,11
+shell_proc-2.1.0.dist-info/RECORD,,
