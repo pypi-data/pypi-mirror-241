@@ -1,0 +1,78 @@
+[project]
+authors = [
+    { name = "Benoît Crabbé", email = "benoit.crabbe@univ-paris-diderot.fr" },
+    { name = "Loïc Grobol", email = "lgrobol@parisnanterre.fr" },
+]
+dependencies = [
+    "bidict",
+    "boltons",
+    "click >= 8.0.4, < 9.0.0",
+    "fastapi",
+    "fasttext-wheel ~= 0.9",
+    "loguru",
+    "pooch",
+    "protobuf",
+    "pydantic >= 2.0, < 2.6",
+    "pydantic-settings >= 2.0, < 2.1",
+    "pyyaml",
+    "rich",
+    "sacremoses",
+    "sentencepiece",
+    "torch >= 1.9.0, != 1.10.0, < 2.2.0",
+    "transformers >= 4.19.0, < 5.0.0, != 4.23.0, != 4.23.1",
+    "uvicorn",
+]
+description = "A graph dependency parser to tinker with"
+keywords = ["nlp", "parsing"]
+license = { text = "MIT" }
+name = "hopsparser"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.7.1"
+
+[project.urls]
+"Bug Tracker" = "https://github.com/hopsparser/hopsparser/issues"
+"Changes" = "https://github.com/hopsparser/hopsparser/blob/main/CHANGELOG.md"
+"Documentation" = "https://hopsparser.readthedocs.io"
+"Source Code" = "https://github.com/hopsparser/hopsparser"
+
+[project.optional-dependencies]
+spacy = ["spacy >= 3.5"]
+tests = [
+    "hypothesis",
+    "networkx",
+    "pytest",
+    "pytest-assert-utils",
+    "pytest-console-scripts",
+    "pytest-lazy-fixture",
+]
+traintools = ["httpx[http2]", "pandas"]
+
+[project.scripts]
+hopsparser = "hopsparser.main:cli"
+eval_parse = "hopsparser.conll2018_eval:main"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+select = ["A", "B", "C90", "E", "F", "N", "NPY", "PT", "PTH", "PYI", "S", "W"]
+
+[tool.ruff.per-file-ignores]
+"tests/**/*.py" = [
+    "S101", # asserts allowed in tests
+    "ARG",  # Unused function args -> fixtures nevertheless are functionally relevant
+]
+
+[tool.mypy]
+check_untyped_defs = true
+warn_unreachable = true
+plugins = ["pydantic.mypy"]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
