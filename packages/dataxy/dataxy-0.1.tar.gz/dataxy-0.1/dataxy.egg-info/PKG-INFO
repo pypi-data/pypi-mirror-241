@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: dataxy
+Version: 0.1
+Summary: Description of your package
+Home-page: https://github.com/yuanfangy/creat_xy
+Author: yuanfang
+Author-email: 2970760850@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
