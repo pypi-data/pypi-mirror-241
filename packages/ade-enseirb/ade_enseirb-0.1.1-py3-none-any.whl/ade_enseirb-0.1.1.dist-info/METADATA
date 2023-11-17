@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ade-enseirb
+Version: 0.1.1
+Summary: ADE API for ENSEIRB-MATMECA students
+Home-page: https://github.com/ArthurLeFloch/ADE-ENSEIRB
+Author: Arthur Le Floch
+Author-email: alf.github@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: tzlocal
+
+ADE API for ENSEIRB-MATMECA students
