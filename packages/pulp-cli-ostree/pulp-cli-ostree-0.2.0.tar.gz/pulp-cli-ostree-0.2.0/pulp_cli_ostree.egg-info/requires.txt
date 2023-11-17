@@ -1,0 +1,2 @@
+pulp-cli<0.22,>=0.18.2
+pulp-glue-ostree==0.2.0
