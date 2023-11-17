@@ -1,0 +1,5 @@
+[orange.widgets]
+Story Navigator = orangecontrib.storynavigation.widgets
+
+[orange3.addon]
+Story Navigator = orangecontrib.storynavigation
