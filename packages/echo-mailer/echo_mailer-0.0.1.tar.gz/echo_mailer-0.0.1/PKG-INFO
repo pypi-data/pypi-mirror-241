@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: echo_mailer
+Version: 0.0.1
+Summary: A simple mail sender for python. Send mail with smtp. Central server is needed.
+Home-page: https://github.com/void-echo/echo_mailer/
+Author: Echo Void
+Author-email: void-echo@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: flask
+Requires: flask_cors
+Requires: requests
+Requires: echo_logger
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Echo Mailer
+
+
+
+Just so simple and straightforward. 

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+echo_mailer/__init__.py
+echo_mailer/main.py
+echo_mailer.egg-info/PKG-INFO
+echo_mailer.egg-info/SOURCES.txt
+echo_mailer.egg-info/dependency_links.txt
+echo_mailer.egg-info/top_level.txt
