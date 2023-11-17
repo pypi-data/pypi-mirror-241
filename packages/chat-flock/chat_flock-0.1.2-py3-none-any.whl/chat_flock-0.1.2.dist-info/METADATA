@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: chat-flock
+Version: 0.1.2
+Summary: Driving Dynamic Multi-Participant Chat Interactions for AI and Human Discourse
+Home-page: https://github.com/doodledood/chat-flock
+License: MIT
+Keywords: chat,chatbot,openai,llm,generative-ai,langchain
+Author: chat-flock
+Author-email: hello@chat-flock.com
+Requires-Python: >=3.9.0,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: docker (>=6.1.3,<7.0.0)
+Requires-Dist: halo (>=0.0.31,<0.0.32)
+Requires-Dist: importlib_metadata (>=6.8.0,<7.0.0)
+Requires-Dist: langchain (>=0.0.335,<0.0.336)
+Requires-Dist: openai (>=1.2.3,<2.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: questionary (>=2.0.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tenacity (>=8.2.3,<9.0.0)
+Requires-Dist: tiktoken (>=0.5.1,<0.6.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Repository, https://github.com/doodledood/chat-flock
+Description-Content-Type: text/markdown
+
+# ChatFlock
+
+<div align="center">
+
+[![Build status](https://github.com/doodledood/chat-flock/workflows/build/badge.svg)](https://github.com/doodledood/chat-flock/actions?query=workflow%3Abuild)
+[![Python Version](https://img.shields.io/pypi/pyversions/chat-flock.svg)](https://pypi.org/project/chat-flock/)
+[![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/doodledood/chat-flock/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](.pre-commit-config.yaml)
+[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/doodledood/chat-flock/releases)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Coverage Report](assets/images/coverage.svg)
+
+Driving Dynamic Multi-Participant Chat Interactions for AI and Human Discourse 🤖
+
+</div>
+
+## 📦 Installation
+
+```bash
+pip install -U chat-flock
+```
+
+or install with `Poetry`
+
+```bash
+poetry add chat-flock
+```
+
+## 🤔 What is this?
+
+ChatFlock is a Python library that revolutionizes the way multi-participant chats are conducted by integrating Large Language Models (LLMs) at its core. Born from first principles design, it not only simplifies orchestrating complex chat scenarios but also introduces an innovative structure that mirrors organizational communication. 
+
+At the heart of ChatFlock is the Conductor, a novel entity that determines the speaking order, enabling seamless coordination among AI and human participants. This orchestration allows for nuanced conversations and decision-making processes that go beyond traditional chat systems.
+
+**NOTE: We are still in a very early and experimental stage of development, so the library might be unstable and the API might change relatively frequently. As soon as we reach a stable version, everything will get properly tested and documented.**
+
+### 📝 Usage Examples 
+
+#### 1-Participant Chat
+- [Assistant Self-Dialogue](examples/assistant_self_dialog.py)
+
+#### 2-Participant Chat
+
+- [Basic ChatGPT Clone](examples/chatgpt_clone.py)
+- [Basic ChatGPT Clone with Tools](examples/chatgpt_clone_with_additional_tools.py)
+- [Basic ChatGPT Clone with LangChain Memory](examples/chatgpt_clone_with_langchain_memory.py)
+- [Basic ChatGPT Clone with LangChain-Based Retrieval](examples/chatgpt_clone_with_langchain_retrieval.py)
+
+#### AI-Directed Multi-Participant Chat
+
+- [AI-Directed Multi-Participant Chat (Manual Composition)](examples/three_way_ai_conductor.py)
+- [AI-Directed Multi-Participant Chat (Automated Composition)](examples/automatic_chat_composition.py)
+- [AI-Directed Multi-Participant Hierarchical Chat (Manual Composition)](examples/manual_hierarchical_participant.py)
+
+
+#### End-to-End Examples
+- [BSHR (Brainstorm-Search-Hypothesize-Refine) Loop](examples/bshr_loop.py) - Based on [David Shapiro's](https://github.com/daveshap/BSHR_Loop) idea.
+
+## 🚀 Features
+
+- **Multi-Participant LLM-Based Chats**: Enable rich, collaborative conversations with AI and human participants.
+- **Conductor Orchestration**: A unique system that manages turn-taking and dialogue flow, ensuring smooth chat progression.
+- **Composition Generators**: Smart modules that configure AI participants to achieve specific conversational goals.
+- **Group-Based Participants (Hierarchical Chats)**: Implement sub-chats that handle complex queries internally before delivering concise responses. Enables hierarchical chat structures which can mimic human-like organizational communication.
+- **Extensive LLM Toolkit Support**: Fully compatible with existing LLM ecosystems like LangChain, enhancing their features for a robust chat experience.
+- **Web Research Module**: A sophisticated tool that conducts automated web research, leveraging selenium to analyze top search results.
+- **BSHR (Brainstorm-Search-Hypothesize-Refine) Loop**: An integrated module that employs the automated research tool in a loop using information literacy techniques for superior research outcomes (based on how humans do research). Credit: [David Shapiro](https://github.com/daveshap/BSHR_Loop)
+- **Code Execution Tools**: Facilitate the execution of direct code snippets within the chat, with support for both local and Docker environments.
+
+## 🌟 What's Next?
+- **Asynchronous Chat Support**: enable non-real-time conversations, allowing for more flexible interaction timelines.
+- **Automated AI Hierarchical Composition**: Automatically configure AI participants in a complex company-like hierarchy to achieve specific conversational goals.
+- **OpenAI Assistant Integration**: Compatibility with OpenAI's latest features, expanding the library's AI capabilities.
+- **Enhanced Code Execution**: Advanced code execution features, including support for writing to files and more comprehensive execution environments.
+
+## 💁 Contributing
+As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
+
+For detailed information on how to contribute, see [here](CONTRIBUTING.md).
+
+## 📈 Releases
+
+You can see the list of available releases on the [GitHub Releases](https://github.com/doodledood/chat-flock/releases) page.
+
+We follow [Semantic Versions](https://semver.org/) specification.
+
+We use [`Release Drafter`](https://github.com/marketplace/actions/release-drafter). As pull requests are merged, a draft release is kept up-to-date listing the changes, ready to publish when you’re ready. With the categories option, you can categorize pull requests in release notes using labels.
+
+### List of labels and corresponding titles
+
+|               **Label**               |  **Title in Releases**  |
+| :-----------------------------------: | :---------------------: |
+|       `enhancement`, `feature`        |       🚀 Features       |
+| `bug`, `refactoring`, `bugfix`, `fix` | 🔧 Fixes & Refactoring  |
+|       `build`, `ci`, `testing`        | 📦 Build System & CI/CD |
+|              `breaking`               |   💥 Breaking Changes   |
+|            `documentation`            |    📝 Documentation     |
+|            `dependencies`             | ⬆️ Dependencies updates |
+
+GitHub creates the `bug`, `enhancement`, and `documentation` labels for you. Dependabot creates the `dependencies` label. Create the remaining labels on the Issues tab of your GitHub repository, when you need them.
+
+#### Building and releasing the package
+
+Building a new version of the application contains steps:
+
+- Bump the version of the package `poetry version <version>`. You can pass the new version explicitly, or a rule such as `major`, `minor`, or `patch`. For more details, refer to the [Semantic Versions](https://semver.org/) standard.
+- Make a commit to `GitHub`.
+- Create a `GitHub release`.
+- And... publish 🙂 `poetry publish --build`
+
+## 🛡 License
+
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+This project is licensed under the terms of the `MIT` license. See [LICENSE](LICENSE) for more details.
+
+## 📃 Citation
+
+```bibtex
+@misc{chat-flock,
+  author = {doodledood},
+  title = {Driving Dynamic Multi-Participant Chat Interactions for AI and Human Discourse},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/doodledood/chat-flock}}
+}
+```
+
+## ❤️ Package Template Credits [![🚀 Your next Python package needs a bleeding-edge project structure.](https://img.shields.io/badge/python--package--template-%F0%9F%9A%80-brightgreen)](https://github.com/TezRomacH/python-package-template)
+
+This project was generated with [`python-package-template`](https://github.com/TezRomacH/python-package-template)
+
