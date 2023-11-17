@@ -1,0 +1,160 @@
+# 1- Enviar correo
+
+### Esta libreria no utiliza paquetes externos, solo los que ya tiene python por defecto.
+
+### Metodo de uso sin archivo adjunto:
+
+```python
+from emmonite.email import send_email
+
+# Este es tu diccionario de variables para reemplazar en el HTML
+variables = {
+    "nombre": "Javier Bahamondes",
+    "edad": 35,
+}
+
+# Estos son los detalles del correo electrónico
+email_sender = 'soporte@email.cl'
+email_password = 'qwer123.'
+smtp_server = 'smtp.gmail.com'
+smtp_port = 465
+subject = 'Bienvenido a Nuestro Servicio'
+body_path = 'template_email.html'  # Asegúrate de que este sea el path correcto al archivo HTML
+lista_correos = ['destinatario1@example.com', 'destinatario2@example.com']
+
+# Llamada a la función send_email
+send_email(email_sender, email_password, smtp_server, smtp_port, subject, lista_correos,
+           body_path=body_path, variables=variables)
+```
+
+
+### Metodo de uso con archivo adjunto:
+
+```python
+
+import io
+
+from emmonite.email import send_email
+
+variables = {
+    "nombre": "Javier Bahamondes",
+    "edad": 35,
+}
+
+# Estos son los detalles del correo electrónico
+email_sender = 'soporte@email.cl'
+email_password = 'qwer123.'
+smtp_server = 'smtp.gmail.com'
+smtp_port = 465
+subject = 'Bienvenido'
+body_path = 'template.html' # Asegúrate de que este sea el path correcto al archivo HTML
+lista_correos = ['destinatario1@example.com', 'destinatario2@example.com']
+
+
+
+filename = 'images.jpeg' # Se puede asignar un nombre distindo del archivo
+path_archivo = './images.jpeg' # Asegúrate de que este sea el path correcto al archivo archivo
+
+# Leer archivo
+with open(path_archivo, 'rb') as file:
+    archivo = io.BytesIO(file.read())
+
+
+# Llamada a la función send_email
+enviar = send_email(email_sender, email_password, smtp_server, smtp_port, subject, lista_correos,
+           body_path=body_path, variables=variables, attachment_data=archivo, filename=filename)
+
+print(enviar)
+
+```
+
+
+### Metodo de uso con html en un string:
+
+```
+De igual manera a esta opción de uso se puede pasar un disct de variables
+```
+
+```python
+
+import io
+
+from emmonite.email import send_email
+
+variables = {
+    "nombre": "Javier Bahamondes",
+    "edad": 35,
+}
+
+# Estos son los detalles del correo electrónico
+email_sender = 'soporte@email.cl'
+email_password = 'qwer123.'
+smtp_server = 'smtp.gmail.com'
+smtp_port = 465
+subject = 'Bienvenido'
+lista_correos = ['destinatario1@example.com', 'destinatario2@example.com']
+
+body_str = '''
+    <!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <title>Email de Bienvenida</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    color: #333333;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Hola, ${nombre}</h1>
+        </body>
+    </html>
+    '''
+
+
+
+filename = 'images.jpeg' # Se puede asignar un nombre distindo del archivo
+path_archivo = './images.jpeg' # Asegúrate de que este sea el path correcto al archivo archivo
+
+# Leer archivo
+with open(path_archivo, 'rb') as file:
+    archivo = io.BytesIO(file.read())
+
+
+# Llamada a la función send_email
+enviar = send_email(email_sender, email_password, smtp_server, smtp_port, subject, lista_correos,
+               body_str=body_str, attachment_data=archivo, filename=filename)
+
+print(enviar)
+
+```
+
+### Parametros que se pueden usar, incluidos los opcionales:
+
+```python
+
+send_email(email_sender, email_password, smtp_server, smtp_port,
+           subject, lista_correos, body_path=None, body_str=None, 
+           variables=None, attachment_data=None, filename="", sender_name=None, lista_bcc=None):
+
+"""
+    :param email_sender: cuenta de correo que enviara el email
+    :param email_password: contraseña de la cuenta
+    :param smtp_server: servidor smtp
+    :param smtp_port: puerto del servidor smtp
+
+    :param subject: Asunto del correo
+    :param body_path: ruta del archivo.html
+    :param body_str: string de html
+    :param variables: Opcional. diccionario de variables que usara el html
+    :param lista_correos: Lista de destinatarios
+    :param attachment_data: Opcional. Datos del archivo adjunto (BytesIO)
+    :param filename: Opcional. Nombre del archivo adjunto
+
+    :param sender_name: Opcional. Nombre para mostrar en el campo 'De' del correo.
+    :param lista_bcc: Opcional. Lista de destinatarios para copia oculta.
+
+"""
+```
