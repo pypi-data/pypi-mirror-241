@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DatahubTool/__init__.py
+DatahubTool/main.py
+datahubtool.egg-info/PKG-INFO
+datahubtool.egg-info/SOURCES.txt
+datahubtool.egg-info/dependency_links.txt
+datahubtool.egg-info/requires.txt
+datahubtool.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datahubtool
+Version: 0.0.1
+Summary: Data management toolkit for Duramat Datahub
+Home-page: https://github.com/lbj2011/DatahubTool
+Author: baojieli
+Author-email: lbjxx2011@gmail.com
+License: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DatahubTool
+Toolkit for batch management of data in DuraMAT Datahub (like upload and delete)
+
+## Installation
+pip 
