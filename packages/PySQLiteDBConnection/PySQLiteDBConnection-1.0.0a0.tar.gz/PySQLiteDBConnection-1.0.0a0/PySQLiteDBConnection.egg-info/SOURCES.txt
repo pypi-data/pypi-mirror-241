@@ -1,0 +1,7 @@
+setup.py
+PySQLiteDBConnection/Connection.py
+PySQLiteDBConnection/__init__.py
+PySQLiteDBConnection.egg-info/PKG-INFO
+PySQLiteDBConnection.egg-info/SOURCES.txt
+PySQLiteDBConnection.egg-info/dependency_links.txt
+PySQLiteDBConnection.egg-info/top_level.txt
