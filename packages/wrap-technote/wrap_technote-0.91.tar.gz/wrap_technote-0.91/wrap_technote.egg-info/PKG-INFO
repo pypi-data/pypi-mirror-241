@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: wrap-technote
+Version: 0.91
+Summary: Code for the annual WRAP technical notes
+Home-page: https://github.com/dew-waterscience/wrap_technote
+Author: DEW Water Science (Kent Inverarity)
+Author-email: kent.inverarity@sa.gov.au
+License: All rights reserved @ DEW
+Keywords: science groundwater
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: matplotlib
+Requires-Dist: shapely
+Requires-Dist: pyshp
+Requires-Dist: jinja2
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: python-sa-gwdata>=0.5.4
+Requires-Dist: adjustText
+Requires-Dist: xlrd
+Requires-Dist: openpyxl
+Requires-Dist: pillow
+Requires-Dist: pyproj
+Requires-Dist: geopandas>=0.5.0
+Requires-Dist: scipy
+Requires-Dist: attrdict
+Requires-Dist: ausweather
+Requires-Dist: sageodata_db>=0.19
+Requires-Dist: dew_gwdata>=0.74
+
+# wrap_technote
+
+Code for the annual WRAP technical notes
+
+## How to use
+
+Check out complete documentation at:
+
+file:///R:/dfw_cbd/projects/projects_gw/State/Groundwater_Toolbox/Python/wheels/docs/wrap_technote/latest_github/index.html
+
+## Install
+
+See the instructions in the documentation.
+
+## License
+
+All rights reserved DEW 2023
+
