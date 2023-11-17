@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+newgeometry14/__init__.py
+newgeometry14/geometry.py
+newgeometry14.egg-info/PKG-INFO
+newgeometry14.egg-info/SOURCES.txt
+newgeometry14.egg-info/dependency_links.txt
+newgeometry14.egg-info/top_level.txt
