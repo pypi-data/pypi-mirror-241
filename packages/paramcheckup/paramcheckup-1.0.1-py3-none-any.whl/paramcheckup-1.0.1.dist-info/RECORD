@@ -1,0 +1,14 @@
+paramcheckup/__init__.py,sha256=s-_bwwSv_5Aa9VVdcnlhvGjZL6XGEmz3PqKW3RXybJA,183
+paramcheckup/data_frames.py,sha256=cDF8ugAdA1F0Yt_uB_AAvmcd3u5bY4u0MgqgaXxWZkM,6794
+paramcheckup/documentation.py,sha256=ddt90j97SgJb5vwW3T7Nx2lB8djldvarb0oZsjSW2a0,1627
+paramcheckup/numbers.py,sha256=tsgEApd0g2L6BHJe7_Wpt8lV_yLrsLPsabXPLtgOpR0,21124
+paramcheckup/numpy_arrays.py,sha256=2M7oYPrvZgcElrCuCVYX3kNA2Iu81lzDTvmsp3YJcOQ,18007
+paramcheckup/parameters.py,sha256=m4O9I3kFfhsPT2A-YqNmY4mdepRDJK8bXQM1luiwdaY,3341
+paramcheckup/types.py,sha256=LanSjXapCy62KZyiihfKcit1IhTI6h-Er3PeRGnsfO8,28995
+paramcheckup/utils.py,sha256=iKTS_MiqzV_guQvgc6EYlacQ0nPdgR3nzTmTA2pN8RQ,485
+paramcheckup/version.py,sha256=mAXpz1vwF1VhA_v6MobjJO3Marc8N1_LcgBqwZmMcJI,157
+paramcheckup-1.0.1.dist-info/LICENSE,sha256=uteZ3QUGHvvt796hVLDHpWHu8Hyv-Qo0CQ8RBkKYVNQ,1527
+paramcheckup-1.0.1.dist-info/METADATA,sha256=HjDSaZ4qRS_A4i4nf23rcCBKWd9sX9GwkzSX10ZSiQE,8986
+paramcheckup-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+paramcheckup-1.0.1.dist-info/top_level.txt,sha256=8_6bNApWrfFeGgAyP5q7Qj6-3ONLDLMhH5XlQGRGZNY,13
+paramcheckup-1.0.1.dist-info/RECORD,,
