@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyudcp
+Version: 0.0.9
+Summary: Python binding for Enigma CLI/ UDCP CLI
+Author: yogeshvu
+Author-email: yogesh.d.barve@vanderbilt.edu
+Requires-Python: >=3.7
+Requires-Dist: datamodel-code-generator
+Requires-Dist: pydantic~=2.4.2
