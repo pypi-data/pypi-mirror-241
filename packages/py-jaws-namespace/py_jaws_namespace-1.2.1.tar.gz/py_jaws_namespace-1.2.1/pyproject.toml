@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-jaws-namespace"
+version = "1.2.1"
+description = "Library to dynamically add functionnalities to a class using namespaces"
+authors = ["Samuel Beaulieu <samuel.b1015@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "py_jaws_namespace"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
