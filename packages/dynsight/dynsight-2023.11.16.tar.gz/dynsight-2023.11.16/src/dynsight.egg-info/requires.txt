@@ -1,0 +1,11 @@
+
+[dev]
+ruff
+mypy
+pytest
+pytest-cov
+sphinx
+sphinx-copybutton
+build
+twine
+furo
