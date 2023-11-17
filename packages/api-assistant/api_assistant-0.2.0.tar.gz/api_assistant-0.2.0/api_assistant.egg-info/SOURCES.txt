@@ -1,0 +1,10 @@
+README.md
+setup.py
+api_assistant.egg-info/PKG-INFO
+api_assistant.egg-info/SOURCES.txt
+api_assistant.egg-info/dependency_links.txt
+api_assistant.egg-info/entry_points.txt
+api_assistant.egg-info/requires.txt
+api_assistant.egg-info/top_level.txt
+api_chat/__init__.py
+api_chat/main.py
