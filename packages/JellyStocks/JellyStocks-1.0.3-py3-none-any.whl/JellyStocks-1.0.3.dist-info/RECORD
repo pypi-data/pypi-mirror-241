@@ -1,0 +1,12 @@
+jellystocks/__init__.py,sha256=p-RYoWUqW_KaqTe2r0HDCp3Lq0bGKX_ov6KanSro_Qc,258
+jellystocks/cost_functions.py,sha256=uaC94D3toDQQ5Ar-GLhdXv-qz0lylRo6oPNBJA83oiY,1300
+jellystocks/data_downloader.py,sha256=Xb7CESZ5et6_qVdAry0EkeKS0M6i26AhJgHfDacYB9s,754
+jellystocks/jellyfish_search.py,sha256=Cx4dF4lyLVSkSZeCZkghC8ZKkCuQCEwPPV85GWKAZ6E,8970
+jellystocks/main.py,sha256=z5yRdQIxFjVtjDtNDIdOL-mxY9BciyMZsq1jAgb7E6M,2761
+jellystocks/portfolio.py,sha256=nZqEDep5gQCxlqQuFsVM4JZKTO6Y-b1QbxK5kvDXaqI,14502
+jellystocks/utils.py,sha256=ePedgnTzKt6ykHK_coPTgCKoqXzgSNwVvyi1xuE5y1g,2861
+JellyStocks-1.0.3.dist-info/LICENSE,sha256=J7DqG8IfxUx0hWnDQi1d6cnL1NC0cxpesSi98_SHZR8,1489
+JellyStocks-1.0.3.dist-info/METADATA,sha256=QVAtE6r8PI9jF4PJWdjDEqKMSLJNMHWb5v5YIGJxIwY,1306
+JellyStocks-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+JellyStocks-1.0.3.dist-info/top_level.txt,sha256=TTRCsOgnYfJU-4mDj008LgDtOgUaowLjez1QsrIFIg4,12
+JellyStocks-1.0.3.dist-info/RECORD,,
