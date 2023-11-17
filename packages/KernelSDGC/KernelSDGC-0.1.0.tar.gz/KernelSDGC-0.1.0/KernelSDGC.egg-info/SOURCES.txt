@@ -1,0 +1,9 @@
+README.md
+setup.py
+KernelSDGC/__init__.py
+KernelSDGC/modulo.py
+KernelSDGC.egg-info/PKG-INFO
+KernelSDGC.egg-info/SOURCES.txt
+KernelSDGC.egg-info/dependency_links.txt
+KernelSDGC.egg-info/requires.txt
+KernelSDGC.egg-info/top_level.txt
