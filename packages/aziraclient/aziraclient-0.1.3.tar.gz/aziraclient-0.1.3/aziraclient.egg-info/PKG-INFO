@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: aziraclient
+Version: 0.1.3
+Summary: A library built for azira application to make it easier for users to subscribe to crypto tokens and continuously receive data in near real-time
+Home-page: https://github.com/manny-uncharted/aziraclient
+Author: Emmanuel Akanji
+Author-email: omoebun52@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: amqp==5.2.0
+Requires-Dist: annotated-types==0.6.0
+Requires-Dist: anyio==3.7.1
+Requires-Dist: async-timeout==4.0.3
+Requires-Dist: fastapi==0.104.1
+Requires-Dist: fastapi-socketio==0.0.10
+Requires-Dist: httpcore==1.0.1
+Requires-Dist: httpx==0.25.1
+Requires-Dist: idna==3.4
+Requires-Dist: iniconfig==2.0.0
+Requires-Dist: iso8601==2.1.0
+Requires-Dist: jwt==1.3.1
+Requires-Dist: kombu==5.3.3
+Requires-Dist: Mako==1.3.0
+Requires-Dist: pytest==7.4.3
+Requires-Dist: python-engineio==4.8.0
+Requires-Dist: python-socketio==5.10.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: websockets==12.0
+Requires-Dist: zmq==0.0.0
+
+# AziraClient
+
+AziraClient is a compreshensive libraru built on top of [Azira](https://github.com/manny-uncharted/Azira) a service grants users the ability to subscribe and receive crypto tokens data in near real-time. A possible use case for this is when you need to build bots that sends you real-time updates or applications that continuously needs real-time updates about a particular crypto token.
+
+## Features
+
+* registration
+* login
+* subscribe to receive data about your tokens in real-time
+
+## Installation
+
+To install AziraClient, run the following command:
+
+    ``pip install aziraclient``
+
+## Quick Start
+
+Here's a quick example to get you started:
+
+```python
+from aziraclient.auth.auth_client import AuthClient
+from aziraclient.subscription.subscription import SubscribeToToken
+
+# User authentication
+"""
+base_url: url where your server application is running.
+"""
+auth_client = AuthClient(base_url="http://localhost:8000")
+auth_client.register_user("username", "password")
+auth_client.login_user("username", "password")
+
+# WebSocket subscription
+"""
+username: name of what you registered with
+jwt_token: would be returned upon successful login.
+action: "subscribe" or "unsubscribe"
+token_name: name of token to subscribe to.
+
+"""
+tester = SubscribeToToken("username", "jwt_token", "action", "token_name")
+tester.test_connection()
+
+```
+
+## Modules
+
+### Authentication
+
+Handles user registration and login, managing JWT tokens for secure access.
+
+### Subscription
+
+Manages WebSocket subscriptions, allowing users to subscribe or unsubscribe from specific tokens.
+
+### Message Bus Tester
+
+Provides tools for testing and interacting with ZeroMQ message bus streams.
+
+## Usage
+
+Refer to `example_usage.py` for detailed examples on how to use each module.
+
+## Contributing
+
+Contributions to aziraclient are welcome! Please read our contributing guidelines for details on how to submit pull requests, report issues, or request features.
+
+#### Notes
+
+Here are things I need to do to improve this. At the moment this package only works with this project. [Azira](https://github.com/manny-uncharted/Azira)
+
+* If you're interested in testing things out you can check the main project and run it alongside
+* Make sure the library works with every stock token on the stock market.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
