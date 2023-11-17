@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cmeel-simde
+Version: 0.7.6
+Summary: cmeel distribution for simde
+Requires-Python: >= 3.8
+License-Expression: BSD-2-Clause
+License-File: LICENSE
+Home-page: https://github.com/cmake-wheel/cmeel-simde
+Project-URL: Repository, https://github.com/cmake-wheel/cmeel-simde.git
+Requires-Dist: cmeel
+Description-Content-Type: text/markdown
+
+# CMeel SIMDe
+
+[![PyPI version](https://badge.fury.io/py/cmeel-simde.svg)](https://pypi.org/project/cmeel-simde)
+
+This is adding [SIMDe](https://github.com/simd-everywhere/simde) as a CMake "external project" to be exported as a wheel by cmeel.
