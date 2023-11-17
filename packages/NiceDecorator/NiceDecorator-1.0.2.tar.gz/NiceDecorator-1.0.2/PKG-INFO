@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: NiceDecorator
+Version: 1.0.2
+Summary: An easy and nice decorator package
+License: MIT License
+Keywords: decorator
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+
+# deco
+
+### An easy and nice decorator package
+
+## Use:
+    from NiceDecorator.model import Deco_Timer
+    
+    decor = Deco_Timer()
+    
+    @decor
+    def f():
+        print(1)
+    
+    a = f()
+    print(a)
+
+####
+    $ python 3.11.2 $
+    1
+    1.9600032828748226e-05
