@@ -1,0 +1,24 @@
+{
+  "definitions":{
+    "MaskedImage":{
+      "title":"MaskedImage",
+      "type":"object",
+      "properties":{
+        "image":{
+          "title":"Image",
+          "type":"string",
+          "format":"uri"
+        },
+        "mask":{
+          "title":"Mask",
+          "type":"string",
+          "format":"uri"
+        }
+      },
+      "required":[
+        "image",
+        "mask"
+      ]
+    }
+  }
+}
