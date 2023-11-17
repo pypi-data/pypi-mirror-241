@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+acloud_client.egg-info/PKG-INFO
+acloud_client.egg-info/SOURCES.txt
+acloud_client.egg-info/dependency_links.txt
+acloud_client.egg-info/requires.txt
+acloud_client.egg-info/top_level.txt
+aliyunsdkcore/__init__.py
+aliyunsdkcore/client.py
