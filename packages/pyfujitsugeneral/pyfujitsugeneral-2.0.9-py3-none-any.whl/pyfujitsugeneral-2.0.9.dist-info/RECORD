@@ -1,0 +1,10 @@
+pyfujitsugeneral/__init__.py,sha256=nU58crzGverpm3BLvFFwtoULdPS8SSnScqCPXekGFUA,111
+pyfujitsugeneral/client.py,sha256=1TNcSLPM6quQdGcARvh08ObxbKR_XiIbCdWksziAKso,8950
+pyfujitsugeneral/exceptions.py,sha256=LXhgxXUiiNAdH6txDlsl0D1bXPToyEZd2sz2sMdqzIo,964
+pyfujitsugeneral/splitac.py,sha256=mmH5xQ93E2Q_TDvXI5ko5Vkwlig1FH5EeuqMDMu1upo,24894
+pyfujitsugeneral/utils.py,sha256=1Jg2LQW6OAvkrQagJjs5SnKt6K7FttdnejdexYZKV2Q,260
+pyfujitsugeneral-2.0.9.dist-info/LICENSE,sha256=o6ZRSVSIVodamO8iTxvyMJDHMzCImG4M8vRfCzLeX1w,1102
+pyfujitsugeneral-2.0.9.dist-info/METADATA,sha256=52Mwr7SCexV3fEiCHJQrHwOnFHvZUgdoZlayoVcCVMA,789
+pyfujitsugeneral-2.0.9.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyfujitsugeneral-2.0.9.dist-info/top_level.txt,sha256=LyWSfwE32TaQmYiIXXquqJTc8DFYFkwI5_RVdi1nyxg,17
+pyfujitsugeneral-2.0.9.dist-info/RECORD,,
