@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytrxmat/__init__.py
+src/pytrxmat/trx.py
+src/pytrxmat.egg-info/PKG-INFO
+src/pytrxmat.egg-info/SOURCES.txt
+src/pytrxmat.egg-info/dependency_links.txt
+src/pytrxmat.egg-info/requires.txt
+src/pytrxmat.egg-info/top_level.txt
+tests/test_trx.py

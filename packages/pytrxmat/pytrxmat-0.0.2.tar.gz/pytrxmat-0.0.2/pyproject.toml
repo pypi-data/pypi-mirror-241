@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytrxmat"
+version = "0.0.2"
+authors = [
+  { name="Alexandre Blanc", email="aleblanc@pasteur.fr" },
+]
+description = "A package to easily open trx.mat files in use at the Decision & Bayesian Computation lab at the Pasteur Institute in Paris"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "h5py",
+  "django>2.0; os_name == 'nt'",
+]
+
+
+[project.urls]
+"Homepage" = "https://gitlab.pasteur.fr/nyx/pytrxmat"
+"Bug Tracker" = "https://gitlab.pasteur.fr/nyx/pytrxmat/-/issues"
+
+[project.optional-dependencies]
+tests = ["pytest"]
