@@ -1,0 +1,41 @@
+[project]
+name = "pyfuture"
+dynamic = []
+description = ""
+authors = [
+    { name = "Zhan Rongrui", email = "2742392377@qq.com" },
+]
+dependencies = [
+    "libcst>=1.1.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+version = "0.0.1dev0"
+
+[project.license]
+text = "MIT"
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = [
+    "F401",
+]
+
+[tool.pdm.version]
+source = "scm"
+write_to = "pyfuture/__version__.py"
+write_template = "__version__ = '{}'"
+
+[tool.pdm.build]
+includes = [
+    "pyfuture",
+]
+source-includes = [
+    "LICENSE",
+    "README.md",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyfuture
+Version: 0.0.1.dev0
+Author-Email: Zhan Rongrui <2742392377@qq.com>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: libcst>=1.1.0
+Description-Content-Type: text/markdown
+
+# PyFuture
+一个用于提前使用 Python 新特性的工具
+
