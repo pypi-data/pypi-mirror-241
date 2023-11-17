@@ -1,0 +1,9 @@
+LICENSE,sha256=OC5x5NCgrwLKf3OOacir7vDYIUr4u6W3sxQjYtNBG0g,1069
+pyallel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyallel/config.py,sha256=mBIPczBajtjWjwIyMLRO-3bIVQfi0WtRhmt2iQGo3e0,687
+pyallel/main.py,sha256=fsMPcI4S6V5-sIUC7AwHXvJyoRRYjrMCVc0UkydNWPU,5612
+pyallel-0.1.0.dist-info/LICENSE,sha256=OC5x5NCgrwLKf3OOacir7vDYIUr4u6W3sxQjYtNBG0g,1069
+pyallel-0.1.0.dist-info/METADATA,sha256=loZ0AtX9ti52gPRX-zYzl6jeCv-8QX3rSkxZpq2R-I4,1168
+pyallel-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pyallel-0.1.0.dist-info/entry_points.txt,sha256=M8eNmwYgTOVp1-bn4w03hEVgzuM9j3qxo_HC3JP1GQ8,44
+pyallel-0.1.0.dist-info/RECORD,,
