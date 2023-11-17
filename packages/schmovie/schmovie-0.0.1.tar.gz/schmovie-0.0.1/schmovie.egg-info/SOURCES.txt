@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+schmovie/__init__.py
+schmovie/movie.py
+schmovie.egg-info/PKG-INFO
+schmovie.egg-info/SOURCES.txt
+schmovie.egg-info/dependency_links.txt
+schmovie.egg-info/top_level.txt
