@@ -1,0 +1,14 @@
+textpy/__init__.py,sha256=ypyRIvJWWh-vYy4MM65LdOwURQnwH4LDgd-jYr6QmAA,1963
+textpy/__version__.py,sha256=1UDApVcPuniXbJ07e6o2FfGmaQWuZlJlhf2-gu4FkgI,64
+textpy/abc.py,sha256=LU-0nBkZiyjgoQaGpARGRaoT09Xxma6RjH1bRnzRrtM,17032
+textpy/core.py,sha256=B2b95R2h4uCxbv_avM-x0oEJGHRWMc9MNS7zFErYzyw,1693
+textpy/docfmt.py,sha256=dFBGUSHt-U2O2RVR7aY0MEHC4u6PA0I6wE-qwHa6QI4,668
+textpy/element.py,sha256=YQY0E_Msw4BmQp1iVQmXLJ4VEgvi2n7NijxZg0ETTUs,5671
+textpy/format.py,sha256=SCgJ8vjdYsOR30xZUdLTnUjIj-JqLNTf13Lqy0BlOa8,607
+textpy/utils/__init__.py,sha256=dxCzj2fw3OorBtG6wSmmGCVc8losVF5Zf9N6gOO-xos,40
+textpy/utils/re_extended.py,sha256=ksISz5p_LR--zeog22Rk7vQt_jK-tY7SAYJIZ3TOVHc,7046
+textpy-0.1.16.dist-info/LICENSE,sha256=2mvoSaHTcgpKXSRr7Q1UeqdKB9H670-BUBH5koBypks,1297
+textpy-0.1.16.dist-info/METADATA,sha256=9bb8bTHSkGdJIcmiSRjSyFGw-jwqNVZwUCPTFHZEB7s,5813
+textpy-0.1.16.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+textpy-0.1.16.dist-info/top_level.txt,sha256=oWHnPcR9GIzbwkj6ZR9wflWbnft6QtEx8r6MbNbSBR4,7
+textpy-0.1.16.dist-info/RECORD,,
