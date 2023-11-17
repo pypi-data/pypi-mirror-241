@@ -1,0 +1,12 @@
+pangeo_forge_esgf/__init__.py,sha256=Md_JpEo3Wcs6_xs4Wro8JrRXANSCIBPzcFgp_Mzsb0E,1134
+pangeo_forge_esgf/_version.py,sha256=jZ5uWOiyV1Hb9rhNyo3bAgfWmHx8_xkueUWpcUrkz_w,21
+pangeo_forge_esgf/parsing.py,sha256=WBnRRVBN_GgjrbJn4KFAsd_zOfO8ZIQ3fH61uKs-Wn0,1700
+pangeo_forge_esgf/recipe_inputs.py,sha256=kQwqNV3PDd2jkRJGfzQMiG6oJwg-9DKtyF2bZ0XURFQ,16551
+pangeo_forge_esgf/utils.py,sha256=g7C_D-YQVbg71cBOmLrb2TpLfmeXlKLt9YqZMZZO_rQ,473
+pangeo_forge_esgf/tests/test_parsing.py,sha256=i97oywU9pt0ZzCdd2LHmWMKXfQ9opfQnsDQiNCbqtaM,1304
+pangeo_forge_esgf/tests/test_recipe_inputs.py,sha256=kjloKPAc5Ns3gpcbuMYfwR3G1d-zbqJyyYyVg1TYawg,4214
+pangeo_forge_esgf-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pangeo_forge_esgf-0.1.1.dist-info/METADATA,sha256=kxSSmrbDsQia27xgWsoaASv7hdeYcJpg6-UiwapArBw,4168
+pangeo_forge_esgf-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pangeo_forge_esgf-0.1.1.dist-info/top_level.txt,sha256=IuqDiHIT0UA1WMougHSGHt8z5v49-9ijLiQ-PaYMGWI,18
+pangeo_forge_esgf-0.1.1.dist-info/RECORD,,
