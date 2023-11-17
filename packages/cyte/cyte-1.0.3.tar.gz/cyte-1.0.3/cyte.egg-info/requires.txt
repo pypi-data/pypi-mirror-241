@@ -1,0 +1,5 @@
+botanical
+numpy
+pydash
+requests
+tinydb

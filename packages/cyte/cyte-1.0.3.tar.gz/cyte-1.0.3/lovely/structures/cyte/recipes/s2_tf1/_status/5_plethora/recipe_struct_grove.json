@@ -1,0 +1,1441 @@
+[
+    {
+        "includes": [],
+        "names": [
+            "protein"
+        ],
+        "region": 1,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "227/3"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "454/3",
+                        "float string grams": "151.33333333333334"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "456528486851663599/7036874417766400"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "456528486851663599/1759218604441600",
+                        "float string grams": "259.5064"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "2168270706971477197/5277655813324800",
+                "float string grams": "410.8397333333333"
+            }
+        }
+    },
+    {
+        "includes": [
+            6,
+            7
+        ],
+        "names": [
+            "carbohydrates",
+            "carbohydrate, by difference",
+            "total carbohydrates"
+        ],
+        "region": 2,
+        "includes structs": [
+            {
+                "includes": [],
+                "names": [
+                    "dietary fiber",
+                    "fiber, total dietary"
+                ],
+                "region": 6,
+                "includes structs": [],
+                "ingredients": [
+                    {
+                        "sequential": 1,
+                        "product": {
+                            "name": "Chia Seeds",
+                            "DSLD ID": "214893",
+                            "UPC": "8 18423 02863 7"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "1135/6"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "1135/3",
+                                "float string grams": "378.3333333333333"
+                            }
+                        }
+                    },
+                    {
+                        "sequential": 2,
+                        "product": {
+                            "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                            "FDC ID": "1882785",
+                            "UPC": "099482434618"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "181461287985825701/5629499534213120"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "181461287985825701/1407374883553280",
+                                "float string grams": "128.936"
+                            }
+                        }
+                    }
+                ],
+                "mass": {
+                    "per recipe": {
+                        "fraction string grams": "2141754356790449903/4222124650659840",
+                        "float string grams": "507.26933333333335"
+                    }
+                }
+            },
+            {
+                "includes": [
+                    8
+                ],
+                "names": [
+                    "sugars",
+                    "total sugars",
+                    "sugars, total including nlea"
+                ],
+                "region": 7,
+                "includes structs": [
+                    {
+                        "includes": [],
+                        "names": [
+                            "added sugars",
+                            "sugars, added"
+                        ],
+                        "region": 8,
+                        "includes structs": [],
+                        "ingredients": [
+                            {
+                                "sequential": 1,
+                                "product": {
+                                    "name": "Chia Seeds",
+                                    "DSLD ID": "214893",
+                                    "UPC": "8 18423 02863 7"
+                                },
+                                "mass": {
+                                    "per package": {
+                                        "fraction string grams": "0"
+                                    },
+                                    "per recipe": {
+                                        "fraction string grams": "0",
+                                        "float string grams": "0.0"
+                                    }
+                                }
+                            },
+                            {
+                                "sequential": 2,
+                                "product": {
+                                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                                    "FDC ID": "1882785",
+                                    "UPC": "099482434618"
+                                },
+                                "mass": {
+                                    "per package": {
+                                        "fraction string grams": "0"
+                                    },
+                                    "per recipe": {
+                                        "fraction string grams": "0",
+                                        "float string grams": "0.0"
+                                    }
+                                }
+                            }
+                        ],
+                        "mass": {
+                            "per recipe": {
+                                "fraction string grams": "0",
+                                "float string grams": "0.0"
+                            }
+                        }
+                    }
+                ],
+                "ingredients": [
+                    {
+                        "sequential": 1,
+                        "product": {
+                            "name": "Chia Seeds",
+                            "DSLD ID": "214893",
+                            "UPC": "8 18423 02863 7"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "0"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "0",
+                                "float string grams": "0.0"
+                            }
+                        }
+                    },
+                    {
+                        "sequential": 2,
+                        "product": {
+                            "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                            "FDC ID": "1882785",
+                            "UPC": "099482434618"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "364967210202477609/22517998136852480"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "364967210202477609/5629499534213120",
+                                "float string grams": "64.8312"
+                            }
+                        }
+                    }
+                ],
+                "mass": {
+                    "per recipe": {
+                        "fraction string grams": "364967210202477609/5629499534213120",
+                        "float string grams": "64.8312"
+                    }
+                }
+            }
+        ],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "1135/6"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "1135/3",
+                        "float string grams": "378.3333333333333"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "456528486851663599/7036874417766400"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "456528486851663599/1759218604441600",
+                        "float string grams": "259.5064"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "3366298576596206797/5277655813324800",
+                "float string grams": "637.8397333333334"
+            }
+        }
+    },
+    {
+        "includes": [
+            4,
+            5,
+            15,
+            51
+        ],
+        "names": [
+            "fats",
+            "total fat",
+            "lipids",
+            "total lipid (fat)"
+        ],
+        "region": 3,
+        "includes structs": [
+            {
+                "includes": [],
+                "names": [
+                    "saturated fat",
+                    "fatty acids, total saturated"
+                ],
+                "region": 4,
+                "includes structs": [],
+                "ingredients": [
+                    {
+                        "sequential": 1,
+                        "product": {
+                            "name": "Chia Seeds",
+                            "DSLD ID": "214893",
+                            "UPC": "8 18423 02863 7"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "776961007713957979/54043195528445952"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "776961007713957979/27021597764222976",
+                                "float string grams": "28.753333333333334"
+                            }
+                        }
+                    },
+                    {
+                        "sequential": 2,
+                        "product": {
+                            "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                            "FDC ID": "1882785",
+                            "UPC": "099482434618"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "273980986930711511/11258999068426240"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "273980986930711511/2814749767106560",
+                                "float string grams": "97.33760000000001"
+                            }
+                        }
+                    }
+                ],
+                "mass": {
+                    "per recipe": {
+                        "fraction string grams": "17035892411243942423/135107988821114880",
+                        "float string grams": "126.09093333333334"
+                    }
+                }
+            },
+            {
+                "includes": [],
+                "names": [
+                    "trans fat",
+                    "fatty acids, total trans"
+                ],
+                "region": 5,
+                "includes structs": [],
+                "ingredients": [
+                    {
+                        "sequential": 1,
+                        "product": {
+                            "name": "Chia Seeds",
+                            "DSLD ID": "214893",
+                            "UPC": "8 18423 02863 7"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "0"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "0",
+                                "float string grams": "0.0"
+                            }
+                        }
+                    },
+                    {
+                        "sequential": 2,
+                        "product": {
+                            "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                            "FDC ID": "1882785",
+                            "UPC": "099482434618"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "0"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "0",
+                                "float string grams": "0.0"
+                            }
+                        }
+                    }
+                ],
+                "mass": {
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            },
+            {
+                "includes": [],
+                "names": [
+                    "polyunsaturated fat",
+                    "fatty acids, total polyunsaturated"
+                ],
+                "region": 15,
+                "includes structs": [],
+                "ingredients": [
+                    {
+                        "sequential": 1,
+                        "product": {
+                            "name": "Chia Seeds",
+                            "DSLD ID": "214893",
+                            "UPC": "8 18423 02863 7"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "715621980789171769/6755399441055744"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "715621980789171769/3377699720527872",
+                                "float string grams": "211.86666666666665"
+                            }
+                        }
+                    },
+                    {
+                        "sequential": 2,
+                        "product": {
+                            "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                            "FDC ID": "1882785",
+                            "UPC": "099482434618"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "1483318239644698533/7036874417766400"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "1483318239644698533/1759218604441600",
+                                "float string grams": "843.1688"
+                            }
+                        }
+                    }
+                ],
+                "mass": {
+                    "per recipe": {
+                        "fraction string grams": "89089825022674823809/84442493013196800",
+                        "float string grams": "1055.0354666666667"
+                    }
+                }
+            },
+            {
+                "includes": [],
+                "names": [
+                    "monounsaturated fat",
+                    "fatty acids, total monounsaturated"
+                ],
+                "region": 51,
+                "includes structs": [],
+                "ingredients": [
+                    {
+                        "sequential": 1,
+                        "product": {
+                            "name": "Chia Seeds",
+                            "DSLD ID": "214893",
+                            "UPC": "8 18423 02863 7"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "227/24"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "227/12",
+                                "float string grams": "18.916666666666668"
+                            }
+                        }
+                    },
+                    {
+                        "sequential": 2,
+                        "product": {
+                            "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                            "FDC ID": "1882785",
+                            "UPC": "099482434618"
+                        },
+                        "mass": {
+                            "per package": {
+                                "fraction string grams": "285290370019968933/7036874417766400"
+                            },
+                            "per recipe": {
+                                "fraction string grams": "285290370019968933/1759218604441600",
+                                "float string grams": "162.1688"
+                            }
+                        }
+                    }
+                ],
+                "mass": {
+                    "per recipe": {
+                        "fraction string grams": "955706765861967599/5277655813324800",
+                        "float string grams": "181.08546666666666"
+                    }
+                }
+            }
+        ],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "1589/12"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "1589/6",
+                        "float string grams": "264.8333333333333"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "1026949489842318313/3518437208883200"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "1026949489842318313/879609302220800",
+                        "float string grams": "1167.5064000000002"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "3779698060141380539/2638827906662400",
+                "float string grams": "1432.3397333333335"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "calcium",
+            "calcium, ca"
+        ],
+        "region": 9,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "80613964204970697/28147497671065600"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "80613964204970697/14073748835532800",
+                        "float string grams": "5.727966666666667"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "24289/50000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "24289/12500",
+                        "float string grams": "1.94312"
+                    }
+                }
+            },
+            {
+                "sequential": 3,
+                "product": {
+                    "name": "Vegan Plant-Based Calcium 1,000 mg",
+                    "DSLD ID": "261967",
+                    "UPC": "8 40052 40011 9"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "30"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "330",
+                        "float string grams": "330.0"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "594037257846011898917/1759218604441600000",
+                "float string grams": "337.67108666666667"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "cholesterol"
+        ],
+        "region": 12,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "0"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "0"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin a",
+            "vitamin a, iu"
+        ],
+        "region": 16,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin e"
+        ],
+        "region": 19,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "iodine"
+        ],
+        "region": 29,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "magnesium"
+        ],
+        "region": 30,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 3,
+                "product": {
+                    "name": "Vegan Plant-Based Calcium 1,000 mg",
+                    "DSLD ID": "261967",
+                    "UPC": "8 40052 40011 9"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "72/25"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "792/25",
+                        "float string grams": "31.68"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "792/25",
+                "float string grams": "31.68"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "zinc"
+        ],
+        "region": 31,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "selenium"
+        ],
+        "region": 32,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "copper"
+        ],
+        "region": 33,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "manganese"
+        ],
+        "region": 34,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "?"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "chromium"
+        ],
+        "region": 35,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "molybdenum"
+        ],
+        "region": 36,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "choline"
+        ],
+        "region": 37,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "lutein"
+        ],
+        "region": 40,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "betaine hydrochloride"
+        ],
+        "region": 43,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "rutin"
+        ],
+        "region": 44,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "strontium"
+        ],
+        "region": 47,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 3,
+                "product": {
+                    "name": "Vegan Plant-Based Calcium 1,000 mg",
+                    "DSLD ID": "261967",
+                    "UPC": "8 40052 40011 9"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "21/100"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "231/100",
+                        "float string grams": "2.31"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "231/100",
+                "float string grams": "2.31"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vanadium"
+        ],
+        "region": 49,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 3,
+                "product": {
+                    "name": "Vegan Plant-Based Calcium 1,000 mg",
+                    "DSLD ID": "261967",
+                    "UPC": "8 40052 40011 9"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "39/50000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "429/50000",
+                        "float string grams": "0.00858"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "429/50000",
+                "float string grams": "0.00858"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "phosphorus"
+        ],
+        "region": 57,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "4313/1000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "4313/500",
+                        "float string grams": "8.626"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "4313/500",
+                "float string grams": "8.626"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "potassium",
+            "potassium K",
+            "potassium, K",
+            "K"
+        ],
+        "region": 58,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "245356107699144613/337769972052787200"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "245356107699144613/168884986026393600",
+                        "float string grams": "1.4527999999999999"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "97383/50000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "97383/12500",
+                        "float string grams": "7.79064"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "195134779404475956113/21110623253299200000",
+                "float string grams": "9.24344"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "sodium Na",
+            "sodium, Na",
+            "sodium",
+            "Na"
+        ],
+        "region": 59,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "0"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "0"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin d",
+            "vitamin d (d2 + d3)",
+            "vitamin d2",
+            "vitamin d3",
+            "vitamin d (d2 + d3), international units"
+        ],
+        "region": 63,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "0"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "0"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            },
+            {
+                "sequential": 3,
+                "product": {
+                    "name": "Vegan Plant-Based Calcium 1,000 mg",
+                    "DSLD ID": "261967",
+                    "UPC": "8 40052 40011 9"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "3/5000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "33/5000",
+                        "float string grams": "0.0066"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "33/5000",
+                "float string grams": "0.0066"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin c",
+            "vitamin c (form: as calcium ascorbate)",
+            "vitamin c, total ascorbic acid"
+        ],
+        "region": 64,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin k",
+            "vitamin k1",
+            "vitamin k2"
+        ],
+        "region": 65,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 3,
+                "product": {
+                    "name": "Vegan Plant-Based Calcium 1,000 mg",
+                    "DSLD ID": "261967",
+                    "UPC": "8 40052 40011 9"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "51/20000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "561/20000",
+                        "float string grams": "0.02805"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "561/20000",
+                "float string grams": "0.02805"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "thiamin",
+            "thiamine",
+            "vitamin b1"
+        ],
+        "region": 66,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "riboflavin",
+            "vitamin b2"
+        ],
+        "region": 67,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin b3",
+            "niacin",
+            "nicotinamide",
+            "nicotinamide riboside"
+        ],
+        "region": 68,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin b5",
+            "pantothenic acid"
+        ],
+        "region": 69,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin b6",
+            "pyridoxine",
+            "pyridoxal",
+            "pyridoxamine"
+        ],
+        "region": 70,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin b7",
+            "biotin",
+            "vitamin h"
+        ],
+        "region": 71,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin b9",
+            "folate",
+            "folacin"
+        ],
+        "region": 72,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "vitamin b12",
+            "cobalamin"
+        ],
+        "region": 73,
+        "includes structs": [],
+        "ingredients": [],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "calories",
+            "energy"
+        ],
+        "region": 74,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "?"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "0",
+                        "float string grams": "0.0"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "0",
+                "float string grams": "0.0"
+            }
+        }
+    },
+    {
+        "includes": [],
+        "names": [
+            "iron",
+            "iron, fe"
+        ],
+        "region": 75,
+        "includes structs": [],
+        "ingredients": [
+            {
+                "sequential": 1,
+                "product": {
+                    "name": "Chia Seeds",
+                    "DSLD ID": "214893",
+                    "UPC": "8 18423 02863 7"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "245356107699144613/5404319552844595200"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "245356107699144613/2702159776422297600",
+                        "float string grams": "0.09079999999999999"
+                    }
+                }
+            },
+            {
+                "sequential": 2,
+                "product": {
+                    "name": "WALNUTS HALVES & PIECES, WALNUTS",
+                    "FDC ID": "1882785",
+                    "UPC": "099482434618"
+                },
+                "mass": {
+                    "per package": {
+                        "fraction string grams": "1461913475040736643/112589990684262400000"
+                    },
+                    "per recipe": {
+                        "fraction string grams": "1461913475040736643/28147497671065600000",
+                        "float string grams": "0.0519376"
+                    }
+                }
+            }
+        ],
+        "mass": {
+            "per recipe": {
+                "fraction string grams": "48212475162881916341/337769972052787200000",
+                "float string grams": "0.1427376"
+            }
+        }
+    }
+]
