@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: smartschool
+Version: 0.1.1
+Summary: Unofficial API interface to the smartschool system.
+Home-page: https://github.com/svaningelgem/smartschool
+License: GPL-3.0
+Author: Steven 'KaReL' Van Ingelgem
+Author-email: steven@vaningelgem.be
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: pydantic (>=2.5,<3.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.31,<3.0)
+Project-URL: Source Code, https://github.com/svaningelgem/smartschool
+Description-Content-Type: text/markdown
+
+# Smartschool parser
+
+[![codecov](https://codecov.io/gh/svaningelgem/smartschool/graph/badge.svg?token=U0A3H3K4L0)](https://codecov.io/gh/svaningelgem/smartschool)
+
+Unofficial interpreter to interface against smartschool's website.
+
+## How to use?
+
+Copy the `credentials.yml.example` file to `credentials.yml` and adjust the contents with the username/password and school uri.
+
+```python
+from smartschool import SmartSchool, PathCredentials, Courses
+
+SmartSchool.start(PathCredentials())
+for course in Courses():
+    print(course.name)
+```
+
+## Implemented:
+
+- [AgendaLessons](src/smartschool/agenda.py)
+- [AgendaHours](src/smartschool/agenda.py)
+- [AgendaMomentInfos](src/smartschool/agenda.py)
+- [TopNavCourses](src/smartschool/courses.py)
+- [Courses](src/smartschool/courses.py)
+- [FutureTasks](src/smartschool/objects.py)
+- [Periods](src/smartschool/periods.py)
+- [Results](src/smartschool/results.py)
+
