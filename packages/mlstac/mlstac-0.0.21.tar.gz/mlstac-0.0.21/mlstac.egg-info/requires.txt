@@ -1,0 +1,8 @@
+pydantic>=2.4.2
+polars>=0.19.12
+safetensors
+validators
+requests
+mdutils
+torch
+tqdm
