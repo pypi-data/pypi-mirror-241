@@ -1,0 +1,17 @@
+tnseeker/Essential_Finde_old.py,sha256=slZv7pTUZZfcqfb3TIN21Mql4Tw-IBLib-fJg1g5C1Y,46679
+tnseeker/Essential_Finder.py,sha256=ju2IhE9cLr3HSxqHto8uA0n--tSRF-O-K7dEmSSggn0,63642
+tnseeker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tnseeker/__main__.py,sha256=oEsPcN7klb4VXk3IDGeVrRUPgN1AHqPf80xIdf_rXf4,18292
+tnseeker/insertions_over_genome_plotter.py,sha256=DfKhzo9wJgTBkLqZDn_j3Sxc5EKpdI1o0Y7FB0tucEk,8594
+tnseeker/reads_trimer.py,sha256=d2bxpUYpd9OyvuA8k3colwwgeyRNyQ-kReSA8PTVoio,13001
+tnseeker/sam_to_insertions.py,sha256=xczrLEObNvQYoS9iECbP1E0xen9x6-1h8WtjFS9rygc,23614
+tnseeker/data/Truenegativs.csv,sha256=pl0P0P_v56EQWV1UCNtfXvglZAzyhKrBu3ct5b_t12c,37334
+tnseeker/data/Truepositivs.csv,sha256=k4EMOKJy8cpBeWBoElIMIOfuPqzI0RsHhZHYF6Oyfus,421
+tnseeker/extras/Truenegativs.csv,sha256=pl0P0P_v56EQWV1UCNtfXvglZAzyhKrBu3ct5b_t12c,37334
+tnseeker/extras/Truepositivs.csv,sha256=k4EMOKJy8cpBeWBoElIMIOfuPqzI0RsHhZHYF6Oyfus,421
+tnseeker/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tnseeker/extras/possion_binom.py,sha256=OL1kCzwDMZYINjg1AebziBe2w2po4RzKzbvJUTai0J8,10547
+tnseeker-1.0.4.dist-info/METADATA,sha256=HZjroYwcBF3DzVEsluQ0ydEfXQhYNtRnfjvKUWMwgXk,5785
+tnseeker-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tnseeker-1.0.4.dist-info/top_level.txt,sha256=1xR6-F3_Y1FM5i8i09LJrLiZmAjz1yLSWQntv-aOmYQ,9
+tnseeker-1.0.4.dist-info/RECORD,,
