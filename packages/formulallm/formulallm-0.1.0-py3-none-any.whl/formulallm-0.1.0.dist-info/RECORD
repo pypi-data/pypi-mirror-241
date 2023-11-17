@@ -1,0 +1,9 @@
+formulallm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formulallm/formula_agent.py,sha256=PKLa2gfIhoR1opSZjLU3v1LpMXQE9pDoUNMRzphw9Oc,2250
+formulallm/formula_program.py,sha256=GozUsEHxR_MGQgMaXH_o62r3KHOKwZIej7cCh9vV8A0,1641
+formulallm/formula_tools.py,sha256=D7SFh2sT16OLVyXiBFPDhSIm4KLLgVoCgFyksfjWByo,2375
+formulallm/prompts.py,sha256=Ck6uYgVMa432GR7gaNX4seQLssuyjQtGE2CkhRk1x3E,1498
+formulallm-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formulallm-0.1.0.dist-info/METADATA,sha256=4Va13QcUMPwMU0ryiF0Us5el9NlMZbrOYtvhRF597bE,661
+formulallm-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+formulallm-0.1.0.dist-info/RECORD,,
