@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easydown
+Version: 0.1.0
+Summary: Downloader by scrapy
+Home-page: UNKNOWN
+Author: Cao Yuyang
+Author-email: 1765810686@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Scrapy (~=2.11.0)
+Requires-Dist: orbitkit (~=0.5.0)
+
+UNKNOWN
+
