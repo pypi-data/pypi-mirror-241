@@ -1,0 +1,3 @@
+ai-models>=0.2.3
+earthkit-meteo
+dm-tree
