@@ -1,0 +1,2 @@
+[console_scripts]
+topsail = topsail.cli:main

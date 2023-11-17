@@ -1,0 +1,12 @@
+yq
+pyyaml
+fire
+ansible==2.9.*
+jinja2==3.0.*
+flake8
+pylint
+awscli
+numpy
+joblib
+jsonpath_ng
+state-signals==0.5.2

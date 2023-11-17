@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: topsail
+Version: 0.0.1
+Summary: topsail CLI
+Home-page: https://github.com/openshift-psap/topsail
+Author: TOPSAIL
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Testing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yq
+Requires-Dist: pyyaml
+Requires-Dist: fire
+Requires-Dist: ansible==2.9.*
+Requires-Dist: jinja2==3.0.*
+Requires-Dist: flake8
+Requires-Dist: pylint
+Requires-Dist: awscli
+Requires-Dist: numpy
+Requires-Dist: joblib
+Requires-Dist: jsonpath_ng
+Requires-Dist: state-signals==0.5.2
+
+topsail CLI
