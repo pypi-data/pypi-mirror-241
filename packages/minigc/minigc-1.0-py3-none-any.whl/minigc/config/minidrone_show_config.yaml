@@ -1,0 +1,42 @@
+uavs:
+  - id: 1
+    ip: 192.168.31.11
+    drone_port: 14560
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone_show_31
+    nluwb_tag_id: 1
+
+  - id: 2
+    ip: 192.168.31.12
+    drone_port: 14560
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone_show_32
+    nluwb_tag_id: 2
+
+  - id: 3
+    ip: 192.168.31.13
+    drone_port: 14560
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone_show_33
+    nluwb_tag_id: 3
+
+  - id: 4
+    ip: 192.168.31.14
+    drone_port: 14560
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone_show_34
+    nluwb_tag_id: 4
+
+  - id: 5
+    ip: 192.168.31.15
+    drone_port: 14560
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone_show_35
+    nluwb_tag_id: 5
+
+  - id: 6
+    ip: 192.168.31.16
+    drone_port: 14560
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone_show_36
+    nluwb_tag_id: 6

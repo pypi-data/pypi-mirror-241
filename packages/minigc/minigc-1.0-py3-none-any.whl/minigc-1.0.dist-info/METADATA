@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: minigc
+Version: 1.0
+Summary: minidrone uav swarm ground control
+Home-page: https://gitee.com/shu-peixuan/minigc.git
+Author: Peixuan Shu
+Author-email: shupeixuan@qq.com
+License: BSD
+Keywords: minidrone uav swarm ground control station
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: rospkg
+
+UNKNOWN
+
+

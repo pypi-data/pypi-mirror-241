@@ -1,0 +1,240 @@
+uavs:
+  - id: 1
+    ip: 192.168.31.11
+    drone_port: 14560
+    gcs_port: 9010
+    pose_source: nluwb # mocap, nluwb, none
+    mocap_markerset: minidrone1
+    nluwb_tag_id: 1
+
+  - id: 2
+    ip: 192.168.31.12
+    drone_port: 14560
+    gcs_port: 9020
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone2
+    nluwb_tag_id: 2
+
+  - id: 3
+    ip: 192.168.31.13
+    drone_port: 14560
+    gcs_port: 9030
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone3
+    nluwb_tag_id: 3
+
+  - id: 4
+    ip: 192.168.31.14
+    drone_port: 14560
+    gcs_port: 9040
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone4
+    nluwb_tag_id: 4
+
+  - id: 5
+    ip: 192.168.31.15
+    drone_port: 14560
+    gcs_port: 9050
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone5
+    nluwb_tag_id: 5
+
+  - id: 6
+    ip: 192.168.31.16
+    drone_port: 14560
+    gcs_port: 9060
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone6
+    nluwb_tag_id: 6
+
+  - id: 7
+    ip: 192.168.31.17
+    drone_port: 14560
+    gcs_port: 9070
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone7
+    nluwb_tag_id: 7
+
+  - id: 8
+    ip: 192.168.31.18
+    drone_port: 14560
+    gcs_port: 9080
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone8
+    nluwb_tag_id: 8
+
+  - id: 9
+    ip: 192.168.31.19
+    drone_port: 14560
+    gcs_port: 9090
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone9
+    nluwb_tag_id: 9
+
+  - id: 10
+    ip: 192.168.31.20
+    drone_port: 14560
+    gcs_port: 9100
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone10
+    nluwb_tag_id: 10
+
+  - id: 11
+    ip: 192.168.31.21
+    drone_port: 14560
+    gcs_port: 9110
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone11
+    nluwb_tag_id: 11
+
+  - id: 12
+    ip: 192.168.31.22
+    drone_port: 14560
+    gcs_port: 9120
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone12
+    nluwb_tag_id: 12
+
+  - id: 13
+    ip: 192.168.31.23
+    drone_port: 14560
+    gcs_port: 9130
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone13
+    nluwb_tag_id: 13
+
+  - id: 14
+    ip: 192.168.31.24
+    drone_port: 14560
+    gcs_port: 9140
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone14
+    nluwb_tag_id: 14
+
+  - id: 15
+    ip: 192.168.31.25
+    drone_port: 14560
+    gcs_port: 9150
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone15
+    nluwb_tag_id: 15
+
+  - id: 16
+    ip: 192.168.31.26
+    drone_port: 14560
+    gcs_port: 9160
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone16
+    nluwb_tag_id: 16
+
+  - id: 17
+    ip: 192.168.31.27
+    drone_port: 14560
+    gcs_port: 9170
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone17
+    nluwb_tag_id: 17
+
+  - id: 18
+    ip: 192.168.31.28
+    drone_port: 14560
+    gcs_port: 9180
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone18
+    nluwb_tag_id: 18
+
+  - id: 19
+    ip: 192.168.31.29
+    drone_port: 14560
+    gcs_port: 9190
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone19
+    nluwb_tag_id: 19
+
+  - id: 20
+    ip: 192.168.31.30
+    drone_port: 14560
+    gcs_port: 9200
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone20
+    nluwb_tag_id: 20
+    
+  - id: 21
+    ip: 192.168.31.31
+    drone_port: 14560
+    gcs_port: 9210
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone21
+    nluwb_tag_id: 21
+
+  - id: 22
+    ip: 192.168.31.32
+    drone_port: 14560
+    gcs_port: 9220
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone22
+    nluwb_tag_id: 22
+
+  - id: 23
+    ip: 192.168.31.33
+    drone_port: 14560
+    gcs_port: 9230
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone23
+    nluwb_tag_id: 23
+
+  - id: 24
+    ip: 192.168.31.34
+    drone_port: 14560
+    gcs_port: 9240
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone24
+    nluwb_tag_id: 24
+
+  - id: 25
+    ip: 192.168.31.35
+    drone_port: 14560
+    gcs_port: 9250
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone25
+    nluwb_tag_id: 25
+
+  - id: 26
+    ip: 192.168.31.36
+    drone_port: 14560
+    gcs_port: 9260
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone26
+    nluwb_tag_id: 26
+
+  - id: 27
+    ip: 192.168.31.37
+    drone_port: 14560
+    gcs_port: 9270
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone27
+    nluwb_tag_id: 27
+
+  - id: 28
+    ip: 192.168.31.38
+    drone_port: 14560
+    gcs_port: 9280
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone28
+    nluwb_tag_id: 28
+
+  - id: 29
+    ip: 192.168.31.39
+    drone_port: 14560
+    gcs_port: 9290
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone29
+    nluwb_tag_id: 29
+
+  - id: 30
+    ip: 192.168.31.40
+    drone_port: 14560
+    gcs_port: 9300
+    pose_source: mocap # mocap, nluwb, none
+    mocap_markerset: minidrone30
+    nluwb_tag_id: 30
