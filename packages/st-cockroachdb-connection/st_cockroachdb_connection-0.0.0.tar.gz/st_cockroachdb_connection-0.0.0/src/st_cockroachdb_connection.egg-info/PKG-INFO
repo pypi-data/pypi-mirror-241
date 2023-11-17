@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: st-cockroachdb-connection
+Version: 0.0.0
+Summary: Streamlit Connection for CockroachDB.
+Author-email: Putu Widyantara Artanta Wibawa <putuwaw973@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Putu Widyantara Artanta Wibawa
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/putuwaw/st-cockroachdb-connection/blob/main/README.md
+Project-URL: repository, https://github.com/putuwaw/st-cockroachdb-connection
+Project-URL: documentation, https://experimental-connection.streamlit.app/
+Keywords: streamlit,cockroachdb,connection
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.28.0
+Requires-Dist: psycopg[binary]
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: st-pages; extra == "dev"
+
+# st-cockroachdb-connection
+
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white)
+![LICENSE](https://img.shields.io/github/license/putuwaw/experimental-connection?style=for-the-badge)
+![BUILD](https://img.shields.io/github/actions/workflow/status/putuwaw/experimental-connection/streamlit.yml?style=for-the-badge)
+
+Experimental Connection to CockroachDB using Streamlit.
+
+## Features 🚀
+
+With this apps you can connect to CockroachDB easily using `st.experimental_connection` in just few lines of code. You can also execute SQL queries and see the result in more efficient way.
+
+## Prerequisites 📋
+
+- Python 3.10 or higher
+- Streamlit 1.25.0 or higher
+- Psycopg 3.0 or higher
+
+## Installation 🛠
+
+- Clone the repository:
+
+```bash
+git clone https://github.com/putuwaw/experimental-connection.git
+```
+
+- Install the packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+- Set up secret for database connection:
+
+```bash
+cp .streamlit/secret.example.toml .streamlit/secrets.toml
+```
+
+- Run the application:
+
+```bash
+streamlit run 🏠_Home.py
+```
+
+## License 📝
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
