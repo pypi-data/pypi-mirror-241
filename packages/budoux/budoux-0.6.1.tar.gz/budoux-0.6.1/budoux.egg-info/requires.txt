@@ -1,0 +1,14 @@
+
+[dev]
+build
+flake8
+isort
+mypy==1.5.1
+pytest
+toml
+twine
+types-setuptools
+yapf
+
+[jaxcpu]
+jax[cpu]==0.4.17
