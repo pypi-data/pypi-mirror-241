@@ -1,0 +1,9 @@
+setup.py
+drymerge.egg-info/PKG-INFO
+drymerge.egg-info/SOURCES.txt
+drymerge.egg-info/dependency_links.txt
+drymerge.egg-info/requires.txt
+drymerge.egg-info/top_level.txt
+module/__init__.py
+module/client.py
+module/identity.py
