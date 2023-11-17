@@ -1,0 +1,6 @@
+datasette>=1.0a7
+WTForms
+
+[test]
+pytest
+pytest-asyncio
