@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: fake_django
+Version: 1.0.1
+Requires: pandas
