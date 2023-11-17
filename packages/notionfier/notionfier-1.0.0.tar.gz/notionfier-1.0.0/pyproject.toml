@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "notionfier"
+version = "1.0.0"
+description = ""
+authors = ["Yolley <Yolley@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "notionfier" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notion-client = "^2.1.0"
+mistune = "^3.0.2"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.5"
+mypy = "^1.7.0"
+
+[tool.poetry.scripts]
+"notionfier" = 'notionfier.cli:main'
+
+[tool.ruff]
+line-length = 120
+select = ["E", "F", "W", "C90", "I", "N", "UP", "ASYNC", "B", "COM", "C4", "PT"]
+ignore = ["COM812"]
+exclude = [".git", "__pycache__", "__init__.py", ".mypy_cache", ".pytest_cache"]
+
+[tool.ruff.isort]
+known-first-party = ["notionfier"]
+
+[tool.mypy]
+plugins = ["pydantic.mypy", "prisma.mypy"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
