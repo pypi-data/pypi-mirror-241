@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hitungbalok_30
+Version: 0.0.1
+Summary: Library Python untuk menghitung keliling balok.
+Home-page: https://github.com/rizalfarhan/Hitung-Balok
+Author: rizalfarhan
+Author-email: <rizalfarhannanda@gmail.com>
+License: MIT
+Description: #keliling_balok
+Keywords: balok,ruang
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
