@@ -1,0 +1,6 @@
+README.md
+setup.py
+FdoJarParcial2.egg-info/PKG-INFO
+FdoJarParcial2.egg-info/SOURCES.txt
+FdoJarParcial2.egg-info/dependency_links.txt
+FdoJarParcial2.egg-info/top_level.txt
