@@ -1,0 +1,16 @@
+Column,Description
+dh_no,- drillhole number (unique ID for drillholes) - integer
+unit_long,- unit number in 9-digit numeric integer form e.g. 662800123
+unit_hyphen,- unit number in condensed hyphenated form e.g. 6628-123
+obs_no,- observation well number in 6-character padded form e.g. YAT056
+dh_name,- drillhole name
+easting,"- UTM easting in metres, GDA2020"
+northing,"- UTM northing in metres, GDA2020"
+zone,"- UTM zone, GDA2020"
+latitude,- geographic latitude in GDA2020 datum as decimal degrees
+longitude,- geographic longitude in GDA2020 datum as decimal degrees
+aquifer,"- the current aquifer code - e.g. the combination of strat symbol and hydro subunit such as ""Tomw(T1)"". If there are multiple aquifer monitored codes, they are joined with a plus e.g. ""Qpah+Tomw(T1)"""
+created_by,- SA Geodata user that orginally created the record. DHDB is a system user.
+creation_date,- Date and time that the record was originally created.
+modified_by,- SA Geodata user that most recently modified the record.
+modified_date,- date and time that the record was most recently modified (:class:`pandas.Timestamp`)
