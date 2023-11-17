@@ -1,0 +1,3 @@
+[console_scripts]
+SOAPify-prepareTrajectory = SOAPify.cli:createTrajectory
+SOAPify-traj2SOAP = SOAPify.cli:traj2SOAP
