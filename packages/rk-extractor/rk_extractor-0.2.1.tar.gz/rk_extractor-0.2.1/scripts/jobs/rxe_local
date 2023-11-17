@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+
+import subprocess
+import argparse
+import shutil
+import glob
+import os
+
+from logzero import logger as log
+#----------------------------
+class data:
+    sandbox = None
+#----------------------------
+def get_args():
+    parser = argparse.ArgumentParser(description='Used to test locally jobs for rx_extractor toy fits')
+    parser.add_argument('-s', '--sandbox' , type=str, help='Path to sandbox, used to run job', default='/tmp/extractor_local_test')
+    args = parser.parse_args()
+
+    data.sandbox = args.sandbox
+    try:
+        os.makedirs(data.sandbox, exist_ok=True)
+    except:
+        log.error(f'Cannot make sandbox: {data.sandbox}')
+        raise
+#----------------------------
+def copy_files():
+    ext_dir = os.environ['EXTDIR']
+
+    l_tarball = glob.glob(f'{ext_dir}/*.tar.gz')
+    if len(l_tarball) != 3:
+        log.error(f'Wrong number of tarballs: {l_tarball}')
+        raise
+
+    l_script = ['rxe_toys', 'rxe_run_toys']
+    l_file   = l_script + l_tarball
+    for file_path in l_file:
+        file_name = os.path.basename(file_path)
+        shutil.copyfile(file_path, f'{data.sandbox}/{file_name}')
+
+    for script in l_script:
+        subprocess.run(['chmod', '+x', f'{data.sandbox}/{script}'] )
+#----------------------------
+def run():
+    stat = subprocess.run(['./rxe_run_toys'])
+    if stat.returncode != 0:
+        log.error(f'Process returned exit status: {stat.returncode}')
+        raise
+#----------------------------
+def main():
+    get_args()
+    copy_files()
+    os.chdir(data.sandbox)
+    run()
+#----------------------------
+if __name__ == '__main__':
+    main()

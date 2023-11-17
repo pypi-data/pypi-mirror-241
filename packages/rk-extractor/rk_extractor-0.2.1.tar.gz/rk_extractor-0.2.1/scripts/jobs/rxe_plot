@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+
+import glob
+import os
+import re
+import shutil
+import tarfile
+import pandas            as pnd
+import matplotlib.pyplot as plt
+import utils_noroot      as utnr
+
+from logzero import logger as log
+
+#-------------------------------------------------------
+def rename_jsn():
+    os.makedirs('output', exist_ok=True)
+    for jsn_path in glob.glob('result_jsn/*.json'):
+        jsn_name = os.path.basename(jsn_path)
+        os.replace(jsn_path, f'output/{jsn_name}')
+#-------------------------------------------------------
+def untar(tar_path):
+    tar = tarfile.open(tar_path)
+    tar.extractall()
+    tar.close()
+#-------------------------------------------------------
+def make_json():
+    if os.path.isdir('output'):
+        log.info('JSON directory found, not making it')
+        return
+
+    l_dirname = [ dirname for dirname in glob.glob('*') if re.match('\d{9}', dirname)]
+    l_tar_path= [ f'{dirname}/result_jsn.tar.gz' for dirname in l_dirname]
+
+    for tar_path in l_tar_path:
+        untar(tar_path)
+        rename_jsn()
+        shutil.rmtree('result_jsn')
+#-------------------------------------------------------
+def get_data(json_path):
+    d_data = utnr.load_json(json_path)
+
+    d_data_trim = {key : val for key, val in d_data.items() if isinstance(val, list) and len(val) == 2}
+
+    d_data_rename = {}
+    for name, [val, err] in d_data_trim.items():
+        d_data_rename[f'{name} value'] = [float(val)]
+        d_data_rename[f'{name} error'] = [float(err)]
+
+    return d_data_rename
+#-------------------------------------------------------
+def get_df():
+    l_json_path = glob.glob('output/*.json')
+    l_df = [ pnd.DataFrame(get_data(json_path)) for json_path in l_json_path ]
+
+    if len(l_df) == 0:
+        log.error(f'Cannot find any JSON file')
+        raise
+
+    df   = pnd.concat(l_df, axis=0)
+    df   = df.reset_index(drop=True)
+
+    return df
+#-------------------------------------------------------
+def plot(df):
+    os.makedirs('plots', exist_ok = True)
+
+    df['pull'] = (df['rk value'] - 1 ) / df['rk error']
+
+    mu = df.pull.mean()
+    sd = df.pull.std()
+
+    df.plot.hist(column=['pull'], bins=50, range=(-3, +3), histtype='step')
+    plt.axvline(x=mu   , color='red', linestyle='--')
+    plt.axvline(x=mu-sd, color='red', linestyle=':')
+    plt.axvline(x=mu+sd, color='red', linestyle=':')
+
+    plt.savefig(f'plots/pull.png')
+    plt.close('all')
+#-------------------------------------------------------
+def main():
+    make_json()
+    df = get_df()
+    plot(df)
+#-------------------------------------------------------
+if __name__ == '__main__':
+    main()
+
