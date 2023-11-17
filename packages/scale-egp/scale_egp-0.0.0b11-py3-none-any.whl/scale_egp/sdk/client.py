@@ -1,0 +1,162 @@
+import os
+from typing import Dict, Optional
+
+from httpx import Client
+from requests.auth import AuthBase
+
+from scale_egp.sdk.collections.application_specs import ApplicationSpecCollection
+from scale_egp.sdk.collections.chunks import ChunkCollection
+from scale_egp.sdk.collections.completions import CompletionCollection
+from scale_egp.sdk.collections.evaluation_datasets import EvaluationDatasetCollection
+from scale_egp.sdk.collections.evaluations import EvaluationCollection
+from scale_egp.sdk.collections.knowledge_bases import KnowledgeBaseCollection
+from scale_egp.sdk.collections.studio_projects import StudioProjectCollection
+
+DEFAULT_ENDPOINT_URL = "https://api.egp.scale.com"
+
+
+class EGPClient:
+    """
+    The EGP client object. This is the main entry point for interacting with EGP.
+
+    From this client you can access "collections" which interact with various EGP components.
+    Each collections will have various methods that interact with the API. Some collections may
+    have sub-collections to signify a hierarchical relationship between the entities they represent.
+    """
+
+    def __init__(
+        self,
+        api_key: str = None,
+        account_id: str = None,
+        endpoint_url: str = None,
+        proxies: Dict[str, str] = None,
+        auth: Optional[AuthBase] = None,
+    ):
+        """
+        Args:
+            api_key: The EGP API key to use. If not provided, the `EGP_API_KEY` environment
+                variable will be used. Enterprise customers of EGP should use the API key provided
+                to them by their Scale account manager.
+            account_id: The EGP account ID to use. If not provided, the `ACCOUNT_ID` environment
+                variable will be used.
+            endpoint_url: The EGP endpoint URL to use. If not provided, the `EGP_ENDPOINT_URL`
+                environment variable will be used. If that is not set, the default EGP endpoint
+                URL `https://api.egp.scale.com` will be used. Enterprise customers of EGP should
+                use the endpoint URL provided by their Scale account manager.
+            proxies: The proxies to use for making requests. Dictionary mapping protocol to the
+                URL of the proxy. See
+                [HTTPX docs](https://www.python-httpx.org/advanced/#http-proxying) for more
+                information.
+            auth: The authentication mechanism to use for making requests. We use HTTPX for
+                requests, so please reference the
+                [HTTPX docs](https://www.python-httpx.org/quickstart/#authentication)
+                for more information.
+        """
+        api_key = api_key or os.environ.get("EGP_API_KEY")
+        account_id = account_id or os.environ.get("ACCOUNT_ID")
+        endpoint_url = endpoint_url or os.environ.get("EGP_ENDPOINT_URL", DEFAULT_ENDPOINT_URL)
+
+        self.api_key = api_key
+        self.account_id = account_id
+        self.endpoint_url = endpoint_url if endpoint_url.endswith('/') else endpoint_url + '/'
+        self.proxies = proxies
+        self.auth = auth
+        self.httpx_client = Client(
+            headers={"x-api-key": self.api_key},
+            proxies=self.proxies,
+            auth=self.auth,
+        )
+
+    def knowledge_bases(self) -> KnowledgeBaseCollection:
+        """
+        Returns the Knowledge Base Collection.
+
+        Use this collection to create and manage Knowledge Bases.
+
+        Returns:
+            The Knowledge Base Collection.
+        """
+        return KnowledgeBaseCollection(self)
+
+    def chunks(self) -> ChunkCollection:
+        """
+        Returns the Chunk Collection.
+
+        Use this collection to create and manage Chunks.
+
+        Returns:
+            The Chunk Collection.
+        """
+        return ChunkCollection(self)
+
+    def completions(self) -> CompletionCollection:
+        """
+        Returns the Completion Collection.
+
+        Use this collection if you want to make request to an LLM to generate a completion.
+        """
+        return CompletionCollection(self)
+
+    def evaluation_datasets(self) -> EvaluationDatasetCollection:
+        """
+        Returns the Evaluation Dataset Collection.
+
+        Use this collection to create and manage Evaluation Datasets or Test Cases within them.
+
+        Returns:
+            The Evaluation Dataset Collection.
+        """
+        return EvaluationDatasetCollection(self)
+
+    def studio_projects(self) -> StudioProjectCollection:
+        """
+        Returns the Studio Project Collection.
+
+        Use this collection to create and manage Studio Projects. These are projects that will be
+        used to annotate data in the Scale [Studio](https://scale.com/studio) platform.
+
+        Returns:
+            The Studio Project Collection.
+        """
+        return StudioProjectCollection(self)
+
+    def application_specs(self) -> ApplicationSpecCollection:
+        """
+        Returns the Application Spec Collection.
+
+        Use this collection to create and manage Application Specs. These are specifications for
+        the AI application you are building. They contain information about the AI application
+        such as its name and description. They are useful to associate your Evaluations with so
+        evaluations can be grouped by application.
+
+        Returns:
+            The Application Spec Collection.
+        """
+        return ApplicationSpecCollection(self)
+
+    def evaluations(self) -> EvaluationCollection:
+        """
+        Returns the Evaluation Collection.
+
+        Use this collection to create and manage Evaluations and Test Case Results.
+
+        Evaluations are used to evaluate the performance of AI applications. Users are
+        expected to follow the following procedure to perform an evaluation:
+
+        1. Select an Evaluation Dataset
+        2. Iterate through the dataset's Test Cases:
+          - For each of these test cases, the user use their AI application to generate output
+          data on each test case input prompt.
+        3. The user then submits this data as as batch of Test Case Results associated
+        with an Evaluation.
+        4. Annotators will asynchronously log into the Scale [Studio](https://scale.com/studio)
+        platform to annotate the submitted Test Case Results. The annotations will be used to
+        evaluate the performance of the AI application.
+        5. The submitting user will check back on their Test Case Results to see if the `result`
+        field was populated. If so, the evaluation is complete and the user can use the annotation
+        data to evaluate the performance of their AI application.
+
+        Returns:
+            The Evaluation Collection.
+        """
+        return EvaluationCollection(self)
