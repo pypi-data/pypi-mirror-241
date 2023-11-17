@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+PyAgentic.egg-info/PKG-INFO
+PyAgentic.egg-info/SOURCES.txt
+PyAgentic.egg-info/dependency_links.txt
+PyAgentic.egg-info/requires.txt
+PyAgentic.egg-info/top_level.txt
+benchmark/__init__.py
+benchmark/log.py
+benchmark/util.py
+pyagentic/__init__.py
+pyagentic/telemetry.py
+pyagentic/util.py
+script/__init__.py
+test/__init__.py
