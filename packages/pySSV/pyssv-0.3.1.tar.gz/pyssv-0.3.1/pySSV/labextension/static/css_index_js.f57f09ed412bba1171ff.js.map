@@ -1,0 +1,1 @@
+{"version":3,"file":"css_index_js.f57f09ed412bba1171ff.js","mappings":";;;;;;;;;;;AAAA;AACA;AACA;AACA;AACA;AACsB","sources":["webpack://py-ssv/./css/index.js"],"sourcesContent":["/*\r\n * Copyright (c) 2023 Thomas Mathieson.\r\n * Distributed under the terms of the MIT license.\r\n */\r\n\r\nimport \"./widget.css\";\r\n"],"names":[],"sourceRoot":""}
