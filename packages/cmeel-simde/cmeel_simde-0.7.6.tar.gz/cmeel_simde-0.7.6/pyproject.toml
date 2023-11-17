@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel[build]"]
+
+[project]
+description = "cmeel distribution for simde"
+license = "BSD-2-Clause"
+name = "cmeel-simde"
+requires-python = ">= 3.8"
+version = "0.7.6"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-simde"
+repository = "https://github.com/cmake-wheel/cmeel-simde.git"
+
+[tool.cmeel]
+has-binaries = false
+has-sitelib = false
+run-tests = false
+
+[tool.tomlsort]
+all = true
