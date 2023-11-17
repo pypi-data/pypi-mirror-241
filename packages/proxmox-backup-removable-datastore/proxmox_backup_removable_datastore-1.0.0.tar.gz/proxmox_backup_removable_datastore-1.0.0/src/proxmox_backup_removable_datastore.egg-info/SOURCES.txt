@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+src/proxmox_backup_removable_datastore/__init__.py
+src/proxmox_backup_removable_datastore/main.py
+src/proxmox_backup_removable_datastore.egg-info/PKG-INFO
+src/proxmox_backup_removable_datastore.egg-info/SOURCES.txt
+src/proxmox_backup_removable_datastore.egg-info/dependency_links.txt
+src/proxmox_backup_removable_datastore.egg-info/entry_points.txt
+src/proxmox_backup_removable_datastore.egg-info/top_level.txt
+src/proxmox_backup_removable_datastore/models/__init__.py
+src/proxmox_backup_removable_datastore/models/datastore.py
+src/proxmox_backup_removable_datastore/models/prunejob.py
+src/proxmox_backup_removable_datastore/models/syncjob.py
+src/proxmox_backup_removable_datastore/models/utils.py

@@ -1,0 +1,2 @@
+[console_scripts]
+proxmox-backup-rd = proxmox_backup_removable_datastore.main:main

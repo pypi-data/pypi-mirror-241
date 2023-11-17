@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proxmox_backup_removable_datastore"
+version = "1.0.0"
+description = "Sync proxmox backup datastore to removable datastore"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { text = "GPL-3.0-or-later" }
+authors = [
+  { name = "Mathieu Fruchet", email = "mathieu.fruchet@greenitsolutions.fr" },
+]
+maintainers = [
+  { name= "Green IT Solutions", email = "support@greenitsolutions.fr" },
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+proxmox-backup-rd = "proxmox_backup_removable_datastore.main:main"
+
+[project.urls]
+"Homepage" = "https://gitlab.greenitsolutions.fr/01-greenitsolutions/proxmox-backup-removable-datastore"
