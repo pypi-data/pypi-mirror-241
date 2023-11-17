@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gpttranslator
+Version: 0.1.0
+Summary: Simple translator by OpenAI/ChatGPT
+Home-page: https://github.com/EfraimGENC/simple_gpt_translator
+Author: EfraimGENC
+Author-email: efraim@kavimdigital.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai (==1.2.4)
+
+# Simple GPT Translator
+#### A simple text translator by OpenAI/ChatGPT
