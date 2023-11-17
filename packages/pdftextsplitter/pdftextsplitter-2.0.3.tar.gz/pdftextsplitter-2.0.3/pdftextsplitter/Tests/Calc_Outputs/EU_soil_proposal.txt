@@ -1,0 +1,2849 @@
+EN
+EN
+EXPLANATORY MEMORANDUM
+1. CONTEXT OF THE PROPOSAL
+• Reasons for and objectives of the proposal
+Soil is a vital, limited, non-renewable and irreplaceable resource. Healthy soils form the
+essential basis for our economy, society and environment as they produce food, increase our
+resilience to climate change, to extreme weather events, drought and floods and support our
+well-being. Healthy soils store carbon, have more capacity to absorb, store and filter water
+and provide vital services such as safe and nutritious food and biomass for non-food
+bioeconomy sectors.
+Scientific evidence1 indicates that about 60 to 70% of soils in the EU are currently in an
+unhealthy state. All Member States are facing the problem of soil degradation. Degradation
+processes are continuing and worsening. The drivers and impacts of the problem go beyond
+country borders, reducing the soil’s capacity to provide these vital services throughout the EU
+and neighbouring countries. This creates risks for human health, the environment, climate,
+economy and society, including risks for food security, water quality, increased impacts from
+flooding and droughts, biomass production, carbon emissions and a loss of biodiversity.
+The unprovoked and unjustified Russian war of aggression against Ukraine has destabilised
+global food systems, intensified food security risks and vulnerabilities across the world, and
+amplified the EU’s need to make its food systems sustainable for centuries to come. The
+trends and combination of the different drivers impacting food security draw attention to the
+fact that availability, access (affordability), utilisation, and stability cannot be taken for
+granted in the short or the long term2. In this context, fertile soils are of geo-strategic
+importance to secure our access to sufficient, nutritious and affordable food in the long-term.
+The food supply chain is highly interconnected and dependant at global level and the EU is an
+important global player on international food markets. To produce sufficient food for a global
+population that is expected to grow to 9-10 billion people in 2050, fertile soils are a key asset.
+Since 95% of our food is directly or indirectly produced on this precious finite natural
+resource, soil degradation has a direct impact on food security and the cross-border food
+markets.
+Pressure on soil and land is increasing globally. In the EU, 4.2% of the territory has been
+artificialized by land take; land take and soil sealing continue predominantly at the expense of
+agricultural land. In addition, soil degradation affects the potential long-term fertility of
+agricultural soils. It is estimated that between 61% and 73% of agricultural soils in the EU is
+affected by erosion, loss of organic carbon, nutrient (nitrogen) exceedances, compaction or
+secondary salinisation (or a combination of these threats). For instance, soil compaction can
+lower crop yields by 2.5-15 %. Without sustainable management and action to regenerate
+soils, deteriorating soil health will be a central factor in future food security crises.
+Healthy soils are essential for farmers and the agronomic ecosystem overall. Maintaining or
+increasing soil fertility over the long-term contributes to stable or even higher yields of crops,
+1 European Commission, Directorate-General for Research and Innovation, Veerman, C., Pinto Correia,
+T., Bastioli, C., et al., Caring for soil is caring for life. Ensure 75% of soils are healthy by 2030 for
+food, people, nature and climate : report of the Mission board for Soil health and food, Publications
+Office, 2020, https://data.europa.eu/doi/10.2777/821504.
+2 Commission Staff Working Document ”Drivers of food security”, SWD(2023) 4 final.
+EN
+1
+EN
+feed and biomass required for non-food bioeconomy sectors contributing to the de-
+fossilization of our economy3, and gives farmers long-term production security and business
+prospects. The availability of healthy and fertile soils and land is crucial in the transition
+towards a sustainable bioeconomy and can therefore help increase and preserve the value of
+the land. Measures to increase soil fertility can also reduce farms’ operational costs, such as
+the cost of inputs or machinery. Farmers can receive financial support for certain practices
+e.g. under the Common Agricultural Policy (CAP) or the proposal for an EU carbon removal
+certification framework4.
+Soil degradation also harms human health. Airborne particulate matter produced by wind
+erosion causes or worsens respiratory and cardiovascular diseases. Sealed soils prolong the
+duration of high temperatures during heat waves and have less capacity to act as a sink for
+pollutants. Contaminated soils also affect food safety. For example, approximately 21% of
+agricultural soils in the EU contain cadmium concentrations in the topsoil that exceed the
+limit for groundwater. The recreational value of the environment and nature, with links to our
+physical and mental health, is also supported by healthy and sustainably managed soils. This
+is valuable both in the countryside, and especially in urban areas where the adoption of
+sustainable management practices can help create healthy green spaces and reduce heat
+islands, improve air quality and housing conditions. Improving soil health is key to increase
+the EU’s resilience to adverse events and adaptation to climate change. Europe’s resilience to
+climate change depends on the level of soil organic matter and fertility, water retention and
+filtering capacity, and resistance to erosion. Carbon farming practices help store CO2 in the
+soil and contribute to mitigating climate change. The capacity of soils to retain water helps
+both prevent and respond to disaster risks. When soils can absorb more rainfall, it reduces the
+intensity of flooding and alleviates the negative effects of drought periods. Some soil bacteria,
+part of the biodiversity of healthy soils, can also help crop plants tolerate drought.
+As the extreme weather and climate-related hazards intensify, the risk of wildfires is
+increasing across Europe. The conditions that heighten the fire risk are set to increase with
+climate change, notably heat and humidity of ecosystems, including soils. Healthy soils with
+functional water retention capacity also support healthy forest ecosystems that are more
+resilient to wildfires. At the same time, wildfires can cause soil degradation, leading to
+increased risks of soil erosion, landslides and floods. Strengthening the knowledge base on
+soils can contribute to improving disaster risk assessments that recognise the multi-faceted
+roles that soils play in mitigating disasters. Measures to strengthen soil health build resilience
+to future stress brought on by climate change.
+Current EU and national policies have made positive contributions to improving soil health.
+But they do not tackle all the drivers of soil degradation and therefore significant gaps remain.
+Soils form very slowly (e.g. it takes 500 years or more to create 2,5 cm of new topsoil), but
+soil health can be maintained or improved if the right measures are taken and put into
+practice.
+In this context, the European Green Deal5 sets out an ambitious roadmap to transform the EU
+into a fair and prosperous society, with a modern, resource-efficient and competitive
+3 See EU Bioeconomy Strategy 2018 and EU Bioeconomy Progress Report 2022
+4 COM(2022)672
+5 Communication from the Commission to the European Parliament, the European Council, the Council,
+the European Economic and Social Committee and the Committee of the Regions, The European Green
+Deal COM(2019) 640 final.
+EN
+2
+EN
+economy, aiming to protect, conserve and enhance the EU’s natural capital, and to protect the
+health and well-being of citizens from environment-related risks and impacts. As part of the
+European Green Deal, the Commission adopted an EU Biodiversity Strategy for 20306, a Zero
+Pollution Action Plan7, an EU Climate Adaptation Strategy8 and an EU Soil Strategy for
+20309.
+The EU Biodiversity Strategy for 2030 stated that it is essential to step up efforts to protect
+soil fertility, reduce soil erosion and increase soil organic matter by adopting sustainable soil
+management practices. It also stated that significant progress is needed to identify
+contaminated sites, restore degraded soils, define the conditions for good ecological status, set
+restoration objectives, and improve the monitoring of soil health. The Biodiversity Strategy
+also announced the plan to update the 2006 Soil Thematic Strategy to tackle soil degradation
+and fulfil EU and international commitments on land-degradation neutrality.
+The EU Soil Strategy for 2030 sets out the long-term vision to have all soils in healthy
+condition by 2050, to make protection, sustainable use and restoration of soils the norm and
+proposes a combination of voluntary and legislative actions to achieve these aims. The
+Strategy announced that the Commission would propose a Soil Health Law underpinned by an
+impact assessment which should analyse several aspects such as indicators and values for soil
+health, provisions for monitoring soils and requirements for a sustainable use of soils.
+The 8th Environment Action Programme10 set the priority objective that by 2050 at the latest,
+people live well, within planetary boundaries in a well-being economy where nothing is
+wasted, growth is regenerative, the EU has achieved climate neutrality and has significantly
+reduced inequalities. Some of the enabling conditions needed to meet that objective include
+tackling soil degradation and ensuring the protection and sustainable use of soil, including by
+a dedicated legislative proposal on soil health.
+Institutional stakeholders have called for policy changes. The European Parliament11 called on
+the Commission to develop an EU legal framework for soil. It should include definitions and
+criteria for good soil status and sustainable use, objectives, harmonised indicators, a
+methodology for monitoring and reporting, targets, measures, and financial resources. The
+Council of the EU 12 supported the Commission in stepping up efforts to better protect soils
+and reaffirmed its commitment to land degradation neutrality. Furthermore, the European
+6 Communication from the Commission to the European Parliament, the Council the European Economic
+and Social Committee and the Committee of the Regions, EU Biodiversity Strategy for 2030, Bringing
+nature back into our lives COM(2020) 380 final.
+7 Communication from the Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions, Pathway to a Healthy Planet for
+All EU Action Plan: 'Towards Zero Pollution for Air, Water and Soil' COM(2021) 400 final.
+8 Communication from the Commission to the European Parliament, the Council, the European,
+Economic and Social Committee and the Committee of the Regions, Forging a climate-resilient Europe
+- the new EU Strategy on Adaptation to Climate Change COM(2021)82 final.
+9 Communication from the Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions, EU Soil Strategy for 2030 Reaping
+the benefits of healthy soils for people, food, nature and climate COM(2021) 699 final.
+10 Decision (EU) 2022/591 of the European Parliament and of the Council of 6 April 2022 on a General
+Union Environment Action Programme to 2030 (OJ L 114, 12.4.2022, p.22).
+11 Resolutions of 28 April 2021 on soil protection (2021/2548(RSP)) and of 9 June 2021 on the EU
+Biodiversity Strategy for 2030: Bringing nature back into our lives (2020/2273(INI)).
+12 Council Conclusions on Biodiversity - the need for urgent action, 12210/20.
+EN
+3
+EN
+Committee of the Regions 13, the European and Economic Social Committee 14 and the
+European Court of Auditors 15 all called on the Commission to develop a legal framework for
+the sustainable use of soil.
+The importance of soil health has also been recognised at global level. The EU has made
+commitments in the international context of the three Rio Conventions to address soils
+affected by desertification (UN Convention to Combat Desertification), to contribute to
+climate change mitigation (UN Framework Convention on Climate Change) and to constitute
+an important habitat for biodiversity (Convention on Biological Diversity). Restoring,
+maintaining and enhancing soil health is a target in the new Kunming-Montreal Global
+Biodiversity Framework.
+Soil health also directly contributes to the achievement of several UN Sustainable
+Development Goals16 (SDGs), in particular SDG 15.3. This goal aims to combat
+desertification, restore degraded land and soil, including land affected by desertification,
+drought and floods, and strive to achieve a land degradation-neutral world by 2030.
+There is currently a lack of comprehensive and harmonized data on soil health from soil
+monitoring. Some Member States have soil monitoring schemes in place, but they are
+fragmented, not representative and not harmonised. Member States apply different sampling
+methods, frequencies and densities, and use different metrics and analytical methods,
+resulting in a lack of consistency and comparability across the EU.
+For all these reasons, this proposal puts in place a solid and coherent soil monitoring
+framework for all soils across the EU, which will address the current gap of knowledge on
+soils. It should be an integrated monitoring system based on EU level, Member State and
+private data. This data will be based on a common definition of what constitutes a healthy soil
+and will underpin the sustainable management of soils, to maintain or enhance soil health, and
+thus to achieve healthy and resilient soils everywhere across the EU by 2050.
+The soil monitoring framework is crucial to provide the data and information needed to define
+the right measures. This data is also likely to lead to technological development and
+innovation and stimulate academic and industrial research, for example artificial intelligence
+solutions based on data from sensing systems and field-based measuring systems. Demand for
+soil analysis services will also grow, consolidating businesses and the position of specialised
+SMEs in the EU. It will also support the development of remote sensing for soil and enable
+the Commission to pool resources, based on current mechanisms and technology (LUCAS,
+Copernicus) to offer cost-efficient services to interested Member States. This technological
+progress is expected to give farmers and foresters easier access to soil data, and also lead to a
+wider range, better availability and more affordable technical support for sustainable soil
+management, including decision support tools.
+13 Opinions NAT-VII/010 of the CoR in the plenary session of 3, 4 and 5 February 2021 on Agro-ecology
+and Opinion ENVE-VII/019 of the CoR in the plenary session of 26-27 January 2022 on the EU Action
+Plan: Towards zero pollution for air, water and soil.
+14 Opinion NAT/838 of the EESC on the new EU Soil Strategy of 23 March 2022.
+15 European Court of Auditors (2018), Combating desertification in the EU: a growing threat in need of
+more action included as a target in the new Kunming-Montreal Global Biodiversity Framework.
+16 https://sdgs.un.org/goals
+EN
+4
+EN
+Member States and EU bodies could use soil health data with sufficient granularity to
+improve monitoring and trend analysis of drought and disaster management and resilience17.
+Those data would enhance prevention and therefore contribute to a better response to
+disasters. Granular soil health data would also be a useful resource for climate change
+mitigation and adaptation policy implementation, also in relation to food security, and
+pressures on human health and biodiversity.
+The application of sustainable management practices will help Member States ensure that
+soils will have the capacity to deliver the multiple ecosystems services that are vital both for
+human health and the environment. These should improve the safety, health, and
+infrastructure of communities and sustains the livelihood in the surrounding areas, e.g. agro-
+tourism, markets, infrastructure, culture and well-being.
+Current studies on specific practices at farm/land unit level conclude that the costs of
+sustainable soil management are in many cases outweighed by the economic benefits, and in
+all cases by the environmental benefits18. This proposal creates the requisite framework to
+support soil managers until sustainable soil management and healthy soils deliver their
+benefits. It can be expected that it will stimulate the earmarking of national and EU funds for
+sustainable soil management, and also encourage and support private-sector funding by
+financial institutions, investors and related industry, such as food processing businesses. It
+would therefore consolidate the competitiveness of the activities related to soil management.
+The Horizon Europe research and innovation Mission “A Soil Deal for Europe” also supports
+EU ambitions for sustainable land and soil management by providing the knowledge base and
+generating solutions for wider action on soil health.
+The proposal also tackles soil contamination. Member States must tackle unacceptable risks
+for human health and the environment caused by soil contamination to help create a toxic-free
+environment by 2050. The proposed risk-based approach will allow for standards to be set at
+national level so that the risk reduction measures can be adapted to site-specific conditions.
+The proposal will also improve the application of the polluter-pays principle and more
+societal fairness by spurring action that will benefit disadvantaged households living closer to
+contaminated sites. Requirements to identify, investigate, assess and remediate contaminated
+sites will generate jobs and long-term employment (e.g. increase the demand for
+environmental consultants, geologists, remediation engineers, etc.).
+The legislation proposes taking a gradual and proportionate approach to give Member States
+sufficient time to set up their governance system, put in place the soil monitoring system,
+assess soil health and start applying measures related to sustainable soil management.
+• Consistency with existing policy provisions in the policy area
+Over the past 30 years, the EU has adopted a substantial and wide range of environmental
+measures with the aim of improving the quality of the environment for European citizens and
+of creating the conditions for a high quality of life. Current EU law contains several
+17 Information in the European Drought Observatory (see
+https://edo.jrc.ec.europa.eu/edov2/php/index.php?id=1000) is based on the LISFLOOD hydrological
+model that uses LUCAS soil data
+18 E.g. Abdalla et al. (2019): A critical review of the impacts of cover crops on nitrogen leaching, net
+greenhouse gas balance and crop productivity. DOI: 10.1111/gcb.14644; Kik et al. (2021): The
+economic value of sustainable soil management in arable farming systems – A conceptual framework.
+DOI: https://doi.org/10.1016/j.eja.2021.126334.
+EN
+5
+EN
+provisions of relevance to soil but there is a clear and indisputable gap in the current EU legal
+framework that this proposal on soil health is designed to close. The proposal complements
+existing environmental legislation by providing a coherent EU-level framework for soils. It
+will also contribute to the objectives set under current environmental legislation.
+Regarding soil contamination, the proposal complements the Industrial Emissions Directive,
+the Waste Framework and Landfill Directives, the Environmental Liability Directive and the
+Environmental Crime Directive by covering all types of contamination, including historical
+soil contamination. It will make a major contribution to the protection of human health which
+is one key objective pursued by EU environmental policy.
+Healthy soils have an inherent capacity to absorb, store and filter water. The proposal is
+therefore expected to contribute to the objectives of the Water Framework Directive, the
+Groundwater Directive, the Nitrates Directive, and the Environmental Quality Standards
+Directive by tackling soil contamination, soil erosion and by improving soil water retention.
+Healthy soils will also contribute to flood prevention, one of the objectives of the Floods
+Directive.
+The provisions on sustainable soil management complement existing EU legislation relating
+to nature (the Habitats and Birds Directives) by improving biodiversity (for example, wild
+pollinators that nest in soils), and the air by preventing the erosion of soil particles. Healthy
+soils provide the basis for life and biodiversity, including habitats, species and genes, and
+contribute to reducing air pollution.
+In addition, the knowledge, information and data collected under the monitoring requirements
+enshrined in the proposal will help improve the assessment of environmental impacts of
+projects, plans and programmes carried out under the Environmental Impact Assessment
+Directive and the Strategic Environmental Assessment Directive.
+Lastly the proposal is consistent with several other environment policy initiatives such as:
+– The EU Biodiversity Strategy for 2030, which sets targets to further protect nature in
+the EU and in particular the proposal for a regulation on nature restoration19 (Nature
+Restoration Law (NRL)). The proposed NRL has the goal of 20% of the EU’s land
+and sea to be covered by restoration measures by 2030 and to cover all ecosystems in
+need of restoration by restoration measures by 2050. There are many synergies
+among the proposed NRL and this proposal on soil health. The proposed NRL and
+this proposal are therefore mutually reinforcing.
+– The Zero Pollution Action Plan sets out the vision that by 2050, air, water and soil
+pollution is reduced to levels no longer considered harmful to health and natural
+ecosystems. This proposal is consistent with the proposals aiming to revise and
+strengthen key existing EU legislation in the air and water sectors and the legislation
+on industrial activities.
+– The Circular Economy Action Plan, which announces measures to reduce micro-
+plastics and an evaluation of the Sewage Sludge Directive, regulating the quality of
+sludge used in agriculture.
+19 COM(2022)304.
+EN
+6
+EN
+– The Chemicals Strategy for Sustainability, which recognises that chemicals are
+essential for the well-being of modern society but aims to better protect citizens and
+the environment against their possible hazardous properties.
+• Consistency with other Union policies
+The proposal is consistent with EU policies on climate, food and agriculture.
+The initiative is a crucial centrepiece of the European Green Deal and an instrument to
+achieve EU policy objectives such as climate neutrality, resilient nature and biodiversity, zero
+pollution, sustainable food systems, human health and well-being.
+The objectives of the proposal are complementary and in synergy with the European Climate
+Law20. They will contribute to the EU climate change adaptation objectives by making the EU
+more resilient and to its aim to achieve a climate-neutral Europe by 2050. Storing carbon in
+soil is an essential part of the action needed to reach climate neutrality. Achieving this
+objective requires action in multiple areas, such as carbon removals through sustainable soil
+management to balance greenhouse gas emissions that will remain at the end of an ambitious
+decarbonisation pathway. This proposal will also contribute to the EU’s climate change
+adaptation objectives, make the EU more resilient and reduce its vulnerability to climate
+change, for example by enhancing the capacity of soils to retain water.
+The proposal is fully complementary and synergetic with the Land Use, Land Use Change and
+Forestry (LULUCF) Regulation21, as revised recently to make it fit to the target to reduce net
+emissions by 55% by 2030. The revised LULUCF Regulation22 aims to achieve 310 Mt CO2
+equivalent net removals in the LULUCF sector by 2030 at EU level. For the period 2026-
+2029, each Member State will have a binding national goal to progressively increase of
+greenhouse gas removals. These objectives require all Member States to step up the level of
+climate ambition for their land use policies. The LULUCF Regulation moreover requires that
+Member States set up systems to monitor soil carbon stocks, with the expectation of enhanced
+implementation of nature-based climate mitigation in soils. This proposal on soil health and
+the revised LULUCF Regulation will be mutually reinforcing, since healthy soils sequester
+more carbon and the LULUCF targets promote the sustainable management of soils.
+Enhanced and more representative soil monitoring will also improve the monitoring of
+successful policy implementation in the LULUCF sector.
+The aim of the proposed regulation for a certification framework for carbon removal23 is to
+facilitate the deployment of high-quality carbon removals through a voluntary EU
+certification framework with high climate and environmental integrity. Carbon removals also
+constitute a new business model in the voluntary carbon market. This initiative is instrumental
+20 Regulation (EU) 2021/1119 of the European Parliament and of the Council of 30 June 2021 establishing
+the framework for achieving climate neutrality and amending Regulations (EC) No 401/2009 and (EU)
+2018/1999 (OJ L 243, 9.7.2021).
+21 Regulation (EU) 2018/841 of the European Parliament and of the Council of 30 May 2018 on the
+inclusion of greenhouse gas emissions and removals from land use, land use change and forestry in the
+2030 climate and energy framework, and amending Regulation (EU) No 525/2013 and Decision No
+529/2013/EU (OJ L 156, 19.6.2018, p. 1).
+22 Regulation (EU) 2023/839 of the European Parliament and of the Council of 19 April 2023 amending
+Regulation (EU) 2018/841 as regards the scope, simplifying the reporting and compliance rules, and
+setting out the targets of the Member States for 2030, and Regulation (EU) 2018/1999 as regards
+improvement in monitoring, reporting, tracking of progress and review (OJ L 107, 21.4.2023, p. 1).
+23 COM(2022) 672 final.
+EN
+7
+EN
+in ensuring the soil’s capacity to absorb and store carbon. Conversely, regenerating soil to
+good health is instrumental in increasing its capacity to absorb and store carbon and to
+generate carbon removal credits. Moreover, creating soil districts, as envisaged under the
+initiative on soil, and generating the related data and knowledge will facilitate implementation
+of the carbon removal certification.
+Lastly, a commensurate certification of healthy soil is expected to increase the value of the
+carbon removal certificate and give greater social and market recognition for sustainable soil
+management and related food and non-food products. The benefits of healthy soils and
+measures to achieve this will also help boost private financing, as food industry and other
+business have already started putting in place programmes to pay for ecosystem services and
+support sustainable practices related to soil health. At the same time, soil certified as healthy
+is likely to increase the value of the land, e.g. for the purposes of collateral, sale or succession.
+This proposal is consistent with the Farm to Fork Strategy24 which aims to reduce nutrient
+losses by at least 50% while ensuring that there is no deterioration in soil fertility. In addition,
+the proposal on soil health will contribute to making the EU food system more resilient.
+The proposal supports the efforts made by the agricultural sector under the CAP25 with its
+new rules to increase the environmental performance of the agricultural sector, also
+manifested in the CAP strategic plans 2023-202726. This policy includes some mandatory
+environmental and climate conditions (good agricultural and environmental conditions) that
+farmers must meet in order to receive CAP income support. Some of these conditions are
+linked to soil management practices (such as practices to limit soil erosion (e.g. tillage
+management), minimum soil cover and crop rotation) and are expected to help maintain or
+enhance soil health on agricultural soils. The CAP also provides for financial support to
+farmers who commit to undertake specific environmental and climate practices or investments
+going beyond these conditions. According to the approved CAP Strategic Plans for the period
+2023-2027, by 2027, half of the EU’s used agricultural area will be supported by
+commitments beneficial for soil management to improve soil quality and biota (such as
+reducing tillage, soil cover in sensitive periods with intermediary crops, crop rotation
+including leguminous crops). By strengthening the CAP’s innovation dimension, Member
+States have planned to set up more than 6.600 Operational Groups out of which about 1.000
+are expected to address soil health issues. Due to these links, this directive should be taken
+into account when, in accordance with Article 159 of Regulation (EU) 2021/2115, the
+Commission reviews, by 31 December 2025, the list set out in Annex XIII to that Regulation.
+This proposal on soil will lay down sustainable management principles applicable to managed
+soils in Europe, including agricultural soils. It will give Member States flexibility to apply
+these principles as they see best, and to choose how to integrate these in their CAP strategic
+plans. This proposal will also provide the tools to improve the monitoring of the impacts of
+the support instruments under the CAP.
+24 Communication from the Commission to the European Parliament, the Council, the European,
+Economic and Social Committee and the Committee of the Regions, A Farm to Fork Strategy for a fair,
+healthy and environmentally-friendly food system, COM(2020)381 final.
+25 Regulation (EU) 2021/2115 of the European Parliament and of the Council of 2 December 2021
+establishing rules on support for strategic plans to be drawn up by Member States under the common
+agricultural policy (CAP Strategic Plans) and financed by the European Agricultural Guarantee Fund
+(EAGF) and by the European Agricultural Fund for Rural Development (EAFRD) and repealing
+Regulations (EU) No 1305/2013 and (EU) No 1307/2013 (OJ L 435, 6.12.2021, p. 1).
+26 https://agriculture.ec.europa.eu/cap-my-country/cap-strategic-plans_en
+EN
+8
+EN
+This proposal is consistent with the proposal to transform the current Farm Accountancy Data
+Network (FADN) into a Farm Sustainability Data Network (FSDN)27, included in the Farm to
+Fork Strategy. The new FSDN will aim to collect farm level data on sustainability and
+contribute to the improvement of advisory services to farmers and benchmarking of farm
+performance. Once transformed, the new network will allow the European Commission and
+Member States to monitor the development of specific agro-environmental practices at farm
+level, including soil management practices.
+This proposal is consistent with other EU policy objectives aimed at achieving the EU’s open
+strategic autonomy, such as the ones under the proposal for a European Critical Raw
+Materials Act28 that aim at ensuring secure and sustainable supply of critical raw materials for
+Europe’s industry, and should be implemented accordingly.
+2. LEGAL BASIS, SUBSIDIARITY AND PROPORTIONALITY
+• Legal basis
+The provisions of this proposal relate to environmental protection. The legal basis for this
+proposal is therefore Article 192(1) of the Treaty on the Functioning of the European Union
+that sets out how Article 191 of the Treaty should be implemented. Article 191 of the Treaty
+specifies the objectives of EU environmental policy:
+– preserving, protecting and improving the quality of the environment;
+– protecting human health;
+– utilising natural resources prudently and rationally;
+– promoting measures at international level to deal with regional or worldwide
+environmental problems, in particular to combat climate change.
+The proposal does not contain measures affecting land use.
+Given that this is an area of shared competence between the EU and the Member States, EU
+action must comply with the subsidiarity principle.
+• Subsidiarity (for non-exclusive competence)
+Action at EU level is justified given the scale and cross-border nature of the problem, the
+impact of soil degradation across the EU and the risks to the environment, economy and
+society.
+Soil degradation is often wrongly considered as a purely local issue and the transboundary
+impacts are underestimated. The drivers and impacts of the problem go beyond country
+borders and reduce the provision of ecosystem services in multiple countries as soil is washed
+away by water or blown by winds. Contaminants can become mobile via the air, surface water
+and groundwater, they can move across borders and can affect food.
+27 Proposal for a Regulation of the European Parliament and of the Council amending Council Regulation
+(EC) No 1217/2009 as regards conversion of the Farm Accountancy Data Network into a Farm
+Sustainability Data Network, COM(2022) 296 final 2022/0192 (COD).
+28 Proposal for a Regulation of the European Parliament and of the Council establishing a framework for
+ensuring a secure and sustainable supply of critical raw materials and amending Regulations (EU)
+168/2013, (EU) 2018/858, 2018/1724 and (EU) 2019/1020, COM/2023/160 final.
+EN
+9
+EN
+In ways that are rarely seen or acknowledged, healthy soils are essential to tackle global
+societal challenges. Soils play a key role in the nutrient, carbon and water cycles, and these
+processes are clearly not constrained by physical and political borders.
+Therefore, coordinated measures by all Member States are needed to achieve the vision to
+have all soils healthy by 2050, as set out in the Soil Strategy for 2030, and to ensure that soil
+has the capacity to provide ecosystem services across the EU in the long-term.
+Unless we rapidly halt the current level of soil degradation and regenerate soil to good health,
+our food system will become less productive and increasingly vulnerable to climate change
+and reliant on resource-intensive inputs. Individual action by the Member States has proven to
+be insufficient to remedy the situation, since soil degradation is continuing and even
+worsening.
+Given that some aspects of soil health are only marginally covered by EU legislation,
+additional EU action is needed to complement current requirements and to fill the policy gaps.
+The proposal is designed to create the conditions for action to manage soils sustainably and to
+tackle the costs of soil degradation. The objectives of the proposed action can be better
+achieved at EU level because of the scale and effects it will produce. Coordinated action is
+needed at sufficiently large scale to monitor and to sustainably manage soils in order to
+benefit from synergies, effectiveness and efficiency gains. Coordinated action is also needed
+to meet the commitments on soil health made at both EU and global level. There is a risk that
+if soil is not properly protected, the EU and its Member States will fail to meet international
+and European Green Deal commitments on the environment, sustainable development and
+climate. Lastly, action at EU level is essential to address potential distortions on the internal
+market and unfair competition among businesses since there are lower environmental
+requirements in some Member States.
+• Proportionality
+The proposal complies with the proportionality principle because it does not go beyond what
+is necessary to have all soils in the EU healthy by 2050. The proposed instrument is a
+directive that leaves much flexibility to the Member States to identify the best measures for
+them and to adapt the approach to local conditions. This is crucial to take account of the
+regional and local specificities as regards soil variability, land use, climatological conditions
+and socio-economic aspects.
+The proposal ensures that its objectives are reached with requirements that are both realistic
+and do not go beyond what is necessary. For this reason, Member States are given sufficient
+time to gradually put in place the governance, the mechanisms to monitor and assess soil
+health and the measures needed to implement the sustainable soil management principles.
+To ensure the EU reaches its objectives, the proposal lays down obligations to monitor and
+assess soil health and to review the effectiveness of the measures taken. The impact
+assessment evaluated the impacts of all policy options and showed that the proposals are
+proportionate.
+• Choice of the instrument
+A legislative rather than a non-legislative approach is needed to meet the long-term objective
+of healthy soil in the EU by 2050. The proposal provides a coherent framework for soil
+monitoring and sustainable management in this respect. The proposal leaves much flexibility
+EN
+10
+EN
+to the Member States to identify the best measures for them and to adapt the approach to local
+conditions. These objectives can be best pursued in the form of a directive. The wide range of
+soil conditions and uses across the EU, and the need for flexibility and subsidiarity, mean that
+a directive is the best legal instrument to meet this purpose.
+A directive requires Member States to achieve its objectives and implement the measures into
+their national substantive and procedural law systems. But directives give Member States
+more freedom when implementing an EU measure than regulations, in that Member States
+can choose how to implement the measures set out in the directive.
+3. RESULTS OF EX-POST EVALUATIONS, STAKEHOLDER
+CONSULTATIONS AND IMPACT ASSESSMENTS
+• Ex-post evaluations/fitness checks of existing legislation
+Not applicable since there is currently no EU-wide legislation specifically on soil.
+The evaluation of the EU Biodiversity Strategy to 2020 (SWD(2022)284) confirmed that soil
+degradation and loss and desertification pose a threat to habitats and species. It also stated that
+nature-based solutions are essential to help reduce emissions and adapt to a changing climate.
+• Stakeholder consultations
+The Commission organised a call for evidence on soil health between 16 February 2022 and
+16 March 2022 that received 189 replies.
+Between 1 August 2022 and 24 October 2022, the Commission organised an online public
+consultation on the potential Soil Health Law on protecting, sustainably managing and
+restoring soils. It received 5 782 responses.
+Since 2015, the Commission has maintained an open dialogue with Member States via the EU
+expert group on soil protection. The group typically met twice a year but convened eight
+times in 2022 to discuss several aspects of the Soil Health Law based on thematic working
+papers prepared by the Commission. In October 2022, the expert group was extended to
+include stakeholder groups other than Member States. The expert group met twice in the new
+composition on 4 October 2022 and 7 February 2023 and discussed the Soil Law in these
+meetings.
+The Commission also organised interviews and sent targeted questionnaires to elicit the views
+of experts on the costs, feasibility and impacts of certain measures. It collected responses
+between 14 and 28 November 2022.
+A synopsis report of all consultation activities is annexed to the impact assessment (Annex 2).
+It describes the strategy, method and overview of the feedback received. The Commission
+took full account of the views of the stakeholders when comparing the various policy options
+(see Annex 10 to the impact assessment).
+• Collection and use of expertise
+The Commission drew substantially from the expertise of the EU expert group on soil
+protection which discussed several thematic papers prepared by the Commission and on the
+internal research expertise developed by the Joint Research Centre.
+EN
+11
+EN
+The Commission also drew on the publicly available data and knowledge from competent
+organisations such as the FAO, EEA, IPBES and European Academies Science Advisory
+Council. It collected further expertise through service contracts and EU-funded projects
+notably under Horizon programmes.
+• Impact assessment
+The proposal is based on an impact assessment. After having resolved the issues raised in the
+Regulatory Scrutiny Board’s negative opinion issued on 17 February 2023, the draft impact
+assessment received a positive opinion with reservations on 28 April 2023. The Regulatory
+Scrutiny Board required in particular to clarify the content and feasibility of the options, to
+reflect the risks of not reaching the objective of healthy soils across EU by 2050, to nuance
+the analysis of the impacts on competitiveness and to be more explicit on the views of
+Member States.
+In the impact assessment, the policy options have been described by using five key building
+blocks:
+(1) definition of soil health and establishment of soil districts,
+(2) monitoring of soil health,
+(3) sustainable soil management,
+(4) identification, registration, investigation and assessment of contaminated sites,
+(5) restoration (regeneration) of soil health and remediation of contaminated sites.
+Options have been designed for each of the five building blocks, by modulating flexibility and
+harmonisation to different degrees corresponding to meaningful potential solutions. One
+option was designed to give the highest degree of flexibility for Member States, another with
+the highest degree of harmonisation and a third gives an intermediate degree of harmonisation
+and flexibility. Option 1 is a monitoring-only scenario without measures on sustainable soil
+management, regeneration and remediation, but it was discarded at an early stage because it
+was deemed insufficient to achieve the objectives and meet stakeholders’ expectations.
+The preferred option combined the most effective, efficient and policy coherent options
+selected from each building block. For all building blocks, except for the remediation of
+contaminated sites, Option 3 providing an intermediate level of flexibility and harmonisation
+was chosen (and very flexible Option 2 for remediation). The preferred option resulting from
+the impact assessment was based on a staged approach that would give Member States time to
+put in place the mechanisms to first assess the condition of soils and then decide on the
+regeneration measures needed once the conclusions are available.
+The preferred option was designed to tackle the costs of soil degradation, in particular the
+resulting loss of ecosystem services. It would ensure that the EU will achieve its policy
+objectives, such as healthy soils and the zero-pollution ambition by 2050, in a cost-efficient
+manner. Most benefits come from avoiding costs by tackling soil degradation. The highest
+costs relate to the implementation of measures for sustainable soil management and
+regeneration. The benefits of the initiative were estimated at around EUR 74 billion per year.
+Total costs would be of the order of EUR 28-38 billion per year. For contaminated sites, the
+annual cost is highly uncertain. It is estimated at EUR 1.9 billion for the identify and
+investigate contaminated sites and EUR 1 billion a year to remediate contaminated sites.
+EN
+12
+EN
+Although it was not possible to quantify and monetise all impacts, the benefit-cost ratio of the
+preferred option was estimated at a conservative and prudent 1.7. It also requires Member
+States to ensure public participation, in particular from soil managers, farmers and foresters.
+The transition to sustainable soil management requires investments to reap the long-term
+benefits of healthy soils for the environment, economy and society. Successful
+implementation of the preferred option requires tapping various sources of funding at
+European, national, regional and local level. Therefore, this proposal is published alongside a
+Staff Working Document (SWD) providing an overview of funding opportunities available
+under the EU’s 2021-2027 multiannual budget for the protection, sustainable management,
+and regeneration of soils. Member States also continue sharing knowledge, experience and
+expertise in several interconnected EU platforms on soil health.
+The proposal corresponds to the preferred option for all building blocks except for the
+building block on soil restoration. The proposal is less demanding in terms of soil
+regeneration than the preferred option contained in the impact assessment in order to limit the
+burden on Member States, landowners and land managers. In particular, the proposal does not
+require Member States to create any new programmes of measures or soil health plans.
+However, since this approach may entail an increased risk not to reach the objective of
+healthy soils by 2050, it is proposed that the Commission will carry out an analysis on the
+need to set more specific requirements to restore/regenerate unhealthy soils by 2050 in the
+context of an early evaluation of the directive scheduled 6 years after its entry into force. This
+analysis will be based on exchanges with the Member States and interested parties, and will
+take into account the conclusions of the assessment of soil health, the progress on sustainable
+soil management and the advancement of knowledge on the criteria for the descriptors of soil
+health.
+• Regulatory fitness and simplification
+The business sectors expected to be affected by the initiative include agriculture, forestry and
+related extension services, business activities that have contaminated the soil, business
+activities related to remediation of contaminated sites, research and laboratories. Soil
+degradation affects their productivity and competitiveness. Action taken to address
+degradation is not rewarded, and affects the level playing field.
+Implementing the proposal will create several opportunities for growth and innovation,
+including for EU SMEs, both in designing and applying sustainable soil management
+practices, and in investigating and remediating contaminated soils. In addition, setting up a
+soil monitoring system is expected to create opportunities for research and development and
+business to develop new technologies and innovations for monitoring and assessing soil
+health.
+To further reduce the administrative burden, the proposal does not require Member States to
+create any new programmes of measures for sustainable soil management or regeneration. In
+addition, it draws as much as possible on digital and remote sensing solutions. The Member
+States will report to the Commission only every 5 years and reporting is limited to the
+information that the Commission needs to fulfil its role in overseeing implementation of the
+directive, evaluate it and report to the other EU institutions.
+EN
+13
+EN
+• Fundamental rights
+The proposed directive respects fundamental rights and the principles enshrined in the EU
+Charter of Fundamental Rights. The proposal lays down measures to achieve healthy soils by
+2050 and to ensure that soil contamination is reduced to levels no longer considered harmful
+to human health and the environment. This will provide protection to socially and
+economically disadvantaged communities living on or close to contaminated sites. The
+proposal seeks to integrate into EU policies a high level of environmental protection and to
+improve the quality of the environment, in line with the principle of sustainable development
+laid down in Article 37 of the EU Charter of Fundamental Rights. It also puts into concrete
+terms the obligation to protect the right to life as laid down in Article 2 of the Charter.
+The proposal contributes to the right to an effective remedy before a tribunal, as laid down in
+Article 47 of the Charter, with detailed provisions on access to justice and penalties.
+The proposal does not regulate the use of property and respects the right of property laid
+down in Article 17 of the Charter. However, to fulfil the obligations related to monitoring soil
+health (to take soil samples), the competent authorities in the Member States may need to
+require landowners to give them the right to access their property in line with the applicable
+national rules and procedures. Member States may also require that landowners implement
+measures to manage the soil in a sustainable manner.
+4. BUDGETARY IMPLICATIONS
+The proposal will have budgetary implications for the Commission in terms of the human and
+administrative resources required.
+The Commission’s implementation and enforcement workload will increase because of this
+new initiative, which sets a new framework for soil monitoring and assessment, sustainable
+management and regeneration. The Commission will need to manage a new committee and
+verify the completeness and compliance of transposition measures. It will also need to
+monitor and analyse data reported by Member States, adopt implementing acts and provide
+guidance where needed.
+The Commission will step up action on soil monitoring implementation and integration. It
+will seek support from the scientific community with support from the Joint Research Centre
+and by launching EU-funded projects.
+The European Environment Agency will create a new infrastructure for reporting analyses,
+support for policies on soil protection and the work needed to integrate soil data with other
+policy areas. Synergies will be sought with other tasks. A potential need for minor
+reinforcement will be grouped together in a Legislative Financial Statement of a forthcoming
+legal proposal.
+The annexed financial statement shows the budgetary implications and the human and
+administrative resources required.
+EN
+14
+EN
+5. OTHER ELEMENTS
+• Implementation plans and monitoring, evaluation and reporting arrangements
+After the proposed directive enters into force, Member States will have a maximum of 2 years
+to adopt measures needed to transpose the directive and to notify these measures to the
+Commission.
+The Commission will verify the completeness of the transposition measures notified by the
+Member States and the compliance of these measures based on explanatory documents
+explaining the relationship between the components of the directive and the corresponding
+parts of national transposition instruments.
+The proposal has several provisions governing the monitoring arrangements. It puts in place a
+coherent soil monitoring framework to provide data on soil health in all Member States and
+for all soils. These data will be made public in accordance with the applicable legislation.
+The register of contaminated and potentially contaminated sites will enable the Commission
+and citizens, NGOs and other interested parties to monitor the obligations regarding soil
+contamination.
+The proposal also sets out reporting provisions. Member States are required to report to the
+Commission on a limited number of issues every 5 years.
+The proposal provides for an evaluation of the directive which will be based on the
+information reported by Member States and any other available information. This evaluation
+will serve as a basis for revising the directive. The main findings of the evaluation will be
+transmitted to the European Parliament, the Council, the European Economic and Social
+Committee, and the Committee of the Regions.
+The proposal also contains provisions to adapt the rules in line with scientific and technical
+progress.
+• Explanatory documents (for directives)
+The proposed directive touches on environmental law and aims to regulate soil health at EU
+level while giving Member States a wide degree of flexibility on how to achieve the
+objectives. There is currently no dedicated EU legislation on soil and the proposed directive
+contains new concepts and obligations regarding soils which will mainly affect public
+authorities and stakeholders in agriculture, forestry and industrial sectors.
+Member States might use different legal instruments to transpose the directive and might need
+to amend existing national provisions. It is likely that implementing the directive will affect
+not only the central/national level of legislation in the Member States but also different levels
+of regional and local legislation. Explanatory documents will therefore aid the process to
+verify transposition and help reducing the administrative burden on the Commission of
+compliance monitoring. Without these, considerable resources and numerous contacts with
+national authorities would be required to track the methods of transposition in all Member
+States.
+Against this background it is proportionate to ask Member States to shoulder the burden of
+providing explanatory documents in order to equip the Commission for overseeing
+transposition of the proposed directive, which is central to the European Green Deal. Member
+EN
+15
+EN
+States should therefore notify transposition measures along with one or more documents
+explaining how the components of the directive are linked with the corresponding parts of
+national transposition instruments. This is in accordance with the Joint Political Declaration of
+28 September 2011 of Member States and the Commission on explanatory documents.
+• Detailed explanation of the specific provisions of the proposal
+Article 1 sets out the overarching objective of the directive which is to put in place a coherent
+soil monitoring framework that will provide data on soil health in all Member States and to
+ensure that EU soils are in healthy condition by 2050 at the latest, so that they can supply
+multiple services at a scale sufficient to meet environmental, societal and economic needs and
+to reduce soil pollution to levels no longer considered harmful to human health. The directive
+contributes to preventing and mitigating the impacts of climate change, increasing resilience
+against natural disasters and ensuring food security.
+Article 2 sets out the territorial scope of the directive which applies to all soil in the EU.
+Article 3 provides definitions.
+Articles 4 and 5 set out the governance requirements. Article 4 states that Member States must
+establish soil districts throughout their territory to manage the soils and the requirements of
+the directive. Article 4 also lays down criteria for Member States to use when establishing
+such soil districts. Article 5 requires Member States to appoint the authorities tasked with
+carrying out the obligations set out in the directive.
+Article 6 describes the overall monitoring framework based on the soil districts, to ensure that
+soil health is monitored regularly. It also describes how the Commission can support the
+action taken by the Member States on soil health monitoring.
+Article 7 lays down the soil descriptors and criteria for monitoring and assessing soil health. It
+specifies that some criteria will be established by the Member States.
+Article 8 states that Member States must carry out regular soil measurements. It further lays
+down methodologies for identifying the sampling points and for measuring the soil
+descriptors.
+Article 9 requires Member States to assess soil health based on regular soil measurements in
+order to ascertain whether the soils are healthy.
+Article 10 lays down sustainable soil management principles that aim to maintain or enhance
+soil health.
+Article 11 provides for mitigation principles that the Member States must follow in the event
+of land take.
+Article 12 sets an overarching obligation to take a risk-based approach to identifying and
+investigating potentially contaminated sites and for managing contaminated sites.
+Article 13 requires that all potentially contaminated sites are identified and Article 14 requires
+that these sites are investigated to ascertain the presence of contamination.
+Article 15 contains obligations regarding the management of contaminated sites. It sets out
+that Member States must carry out a site-specific risk assessment to ascertain whether the
+EN
+16
+EN
+contaminated site poses unacceptable risks to human health or the environment and to take the
+appropriate risk reduction measures.
+Article 16 requires Member States to draw up a register of contaminated sites and potentially
+contaminated sites. It states that the register must contain the information set out in Annex VII
+and that it must be publicly accessible and kept up to date.
+Article 17 contains provisions regarding EU financing.
+Articles 18 contains reporting requirements. It states that Member States must regularly report
+data and information to the Commission in electronic format.
+Article 19 provides for access to information to increase transparency.
+Articles 20 sets out the conditions for the Commission to adopt delegated acts.
+Article 21 sets out the conditions for the Commission to adopt implementing acts (Committee
+procedure).
+Article 22 contains requirements governing access to justice.
+Article 23 requires Member States to lay down the rules on penalties applicable to breaches of
+the national provisions adopted under the directive. The penalties must be effective,
+proportionate and dissuasive.
+Article 24 provides for an evaluation of the directive.
+Article 25 contains requirements to transpose the directive into national law.
+Article 26 provides for the entry into force of the directive.
+Article 27 specifies that the directive is addressed to the Member States.
+EN
+17
+EN
+2023/0232 (COD)
+Proposal for a
+DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+on Soil Monitoring and Resilience (Soil Monitoring Law)
+THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,
+Having regard to the Treaty on the Functioning of the European Union, and in particular
+Article 192(1) thereof,
+Having regard to the proposal from the European Commission,
+After transmission of the draft legislative act to the national parliaments,
+Having regard to the opinion of the European Economic and Social Committee29,
+Having regard to the opinion of the Committee of the Regions30,
+Acting in accordance with the ordinary legislative procedure,
+Whereas:
+(1) Soil is a vital, limited, non-renewable and irreplaceable resource that is crucial for the
+economy, the environment and the society.
+(2) Healthy soils are in good chemical, biological and physical condition so that they can
+provide ecosystem services that are vital to humans and the environment, such as safe,
+nutritious and sufficient food, biomass, clean water, nutrients cycling, carbon storage
+and a habitat for biodiversity. However, 60 to 70 % of the soils in the Union are
+deteriorated and continue to deteriorate.
+(3) Soil degradation is costing the Union several tens of billion euro every year. Soil
+health is impacting the provision of ecosystem services that have an important
+economic return. Sustainable management and regeneration of soils therefore makes
+sound economic sense and can significantly increase the price and value of the land in
+the Union.
+(4) The European Green Deal31 has set out an ambitious roadmap to transform the Union
+into a fair and prosperous society, with a modern, resource-efficient and competitive
+economy, aiming to protect, conserve and enhance the Union’s natural capital, and to
+protect the health and well-being of citizens. As part of the European Green Deal, the
+Commission has adopted the EU Biodiversity Strategy for 203032, the Farm to Fork
+29 OJ C , , p. .
+30 OJ C , , p. .
+31 Communication from the Commission to the European Parliament, the European Council, the Council,
+the European Economic and Social Committee and the Committee of the Regions, The European Green
+Deal COM(2019) 640 final.
+32 Communication from the Commission to the European Parliament, the Council the European Economic
+and Social Committee and the Committee of the Regions, EU Biodiversity Strategy for 2030, Bringing
+nature back into our lives COM(2020) 380 final.
+EN
+18
+EN
+Strategy33, the Zero Pollution Action Plan34, the EU Climate Adaptation Strategy35 and
+the EU Soil Strategy for 203036.
+(5) The Union is committed to the 2030 Agenda for Sustainable Development and its
+Sustainable Development Goals (SDGs)37. Healthy soils contribute directly to the
+achievement of several SDGs, in particular SDG 2 (zero hunger), SDG 3 (good health
+and well-being), SDG 6 (clean water and sanitation), SDG 11 (sustainable cities and
+communities), SDG 12 (responsible consumption and production), SDG 13 (climate
+action) and SDG 15 (life on land). SDG 15.3 aims to combat desertification, restore
+degraded land and soil, including land affected by desertification, drought and floods,
+and strive to achieve a land degradation-neutral world by 2030.
+(6) The Union and its Member States, as parties to the Convention on Biological
+Diversity, approved by Council Decision 93/626/EEC38, agreed at the 15th Conference
+of the Parties on the “Kunming-Montreal Global Biodiversity Framework” (GBF)39
+which comprises several action-oriented global targets for 2030 of relevance for soil
+health. Nature’s contributions to people, including soil health, should be restored,
+maintained and enhanced.
+(7) The Union and its Member States, as Parties to the UN Convention to Combat
+Desertification (UNCCD), approved by Council Decision 98/216/EC40, have
+committed to combat desertification and mitigate the effects of drought in affected
+countries. Thirteen Member States41 have declared themselves as parties affected by
+desertification under the UNCDD.
+(8) In the context of United Nations Framework Convention on Climate Change
+(UNFCCC) land and soil is considered simultaneously as a source and a sink of
+carbon. The Union and Member States as parties have committed to promote
+sustainable management, conservation and enhancement of carbon sinks and
+reservoirs.
+(9) The EU Biodiversity Strategy for 2030 states that it is essential to step up efforts to
+protect soil fertility, reduce soil erosion and increase soil organic matter by adopting
+33 Communication from the Commission to the European Parliament, the Council the European Economic
+and Social Committee and the Committee of the Regions, A Farm to Fork Strategy for a fair, healthy
+and environmentally-friendly food system COM(2020) 381 final.
+34 Communication from the Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions, Pathway to a Healthy Planet for
+All EU Action Plan: 'Towards Zero Pollution for Air, Water and Soil' COM(2021) 400 final.
+35 Communication from the Commission to the European Parliament, the Council, the European,
+Economic and Social Committee and the Committee of the Regions, Forging a climate-resilient Europe
+- the new EU Strategy on Adaptation to Climate Change COM(2021)82 final.
+36 Communication from the Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions, EU Soil Strategy for 2030 Reaping
+the benefits of healthy soils for people, food, nature and climate COM(2021) 699 final.
+37 https://sdgs.un.org/goals
+38 Council Decision of 25 October 1993 concerning the conclusion of the Convention on Biological
+Diversity (93/626/EEC) (OJ L 309, 13.12.1993, p. 1).
+39 Decision adopted by the Conference of the Parties to the Convention on Biological Diversity on 19
+December 2022, 15/4. Kunming-Montreal Global Biodiversity Framework.
+40 Council Decision of 9 March 1998 on the conclusion, on behalf of the European Community, of the
+United Nations Convention to combat desertification in countries seriously affected by drought and/or
+desertification, particularly in Africa (OJ L 83, 19.3.1998, p. 1).
+41 Bulgaria, Croatia, Cyprus, Greece, Hungary, Italy, Latvia, Malta, Portugal, Romania, Slovakia,
+Slovenia, Spain.
+EN
+19
+EN
+sustainable soil management practices. It also states that significant progress is needed
+on identifying contaminated soil sites, restoring degraded soils, defining the conditions
+for good ecological status of soils, introducing restoration objectives, and improving
+the monitoring of soil health.
+(10) The EU Soil Strategy for 2030 sets the long-term vision that by 2050, all EU soil
+ecosystems are in healthy condition and are thus more resilient. As a key solution,
+healthy soils contribute to address the EU’s goals of achieving climate neutrality and
+becoming resilient to climate change, developing a clean and circular (bio)economy,
+reversing biodiversity loss, safeguarding human health, halting desertification and
+reversing land degradation.
+(11) Funding is vital to enable a transition to healthy soils. The Multiannual Financial
+Framework presents several funding opportunities available for the protection,
+sustainable management and regeneration of soils. A ‘Soil Deal for Europe’ is one of
+the five EU missions of the Horizon Europe programme and is specifically dedicated
+to promoting soil health. The Soil Mission is a key instrument for the implementation
+of this Directive. It aims to lead the transition to healthy soils through funding an
+ambitious research and innovation programme, establishing a network of 100 living
+labs and lighthouses in rural and urban areas, advancing the development of a
+harmonized soil monitoring framework and increasing the awareness of the
+importance of soil. Other Union programmes that present objectives contributing to
+healthy soils are the Common Agricultural Policy, the Cohesion Policy funds, the
+Programme for Environment and Climate Action, the Horizon Europe work
+programme, the Technical Support Instrument, the Recovery and Resilience Facility
+and InvestEU.
+(12) The Soil Strategy for 2030 announced that the Commission would table a legislative
+proposal on soil health to enable the objectives of the Soil Strategy and to achieve
+good soil health across the EU by 2050. In its resolution of 28 April 2021 on soil
+protection42, the European Parliament emphasised the importance of protecting soil
+and promoting healthy soils in the Union, bearing in mind that the degradation
+continues, despite the limited and uneven action being taken in some Member States.
+The European Parliament called on the Commission to design a Union wide common
+legal framework, with full respect for the subsidiarity principle, for the protection and
+sustainable use of soil, addressing all major soil threats.
+(13) In its conclusions of 23 October 202043, the Council supported the Commission in
+stepping up efforts to better protect soils and soil biodiversity, as a non-renewable
+resource of vital importance.
+(14) Regulation (EU) 2021/1119 of the European Parliament and of the Council44 sets out a
+binding objective of climate neutrality in the Union by 2050 and negative emissions
+thereafter, and of prioritising swift and predictable emission reductions and, at the
+same time, enhancing removals by natural sinks. Sustainable soil management results
+in increased carbon sequestration and in most cases in co-benefits for ecosystems and
+42 European Parliament resolution of 28 April 2021 on soil protection (2021/2548(RSP)).
+43 Council Conclusions on Biodiversity - the need for urgent action, 12210/20.
+44 Regulation (EU) 2021/1119 of the European Parliament and of the Council of 30 June 2021 establishing
+the framework for achieving climate neutrality and amending Regulations (EC) No 401/2009 and (EU)
+2018/1999 (‘European Climate Law’) (OJ L 243, 9.7.2021, p. 1).
+EN
+20
+EN
+biodiversity. The Commission’s Communication on Sustainable Carbon Cycles45
+underlined the need for clear and transparent identification of the activities that
+unambiguously remove carbon from the atmosphere such as the development of a EU
+framework for the certification of carbon removals from natural ecosystems including
+soils. Moreover, the revised Regulation on Land Use, Land Use Change and Forestry
+not only places soil carbon central to the achievement of targets on the pathway to a
+climate neutral Europe, but also calls for Member States to prepare a system for the
+monitoring of soil carbon stocks, using, inter alia, the land use/cover area frame
+statistical survey (LUCAS) dataset.
+(15) The Commission’s Communication on adaptation to climate change46 underlined that
+using nature-based solutions inland, including the restoration of the sponge-like
+function of soils, will boost the supply of clean and fresh water, reduce the impacts of
+flooding and alleviate the impacts of droughts. It is important to maximise the capacity
+of soils to retain and purify water and reduce pollution.
+(16) The Zero Pollution Action Plan adopted by the Commission sets out the vision for
+2050 that air, water and soil pollution is reduced to levels no longer considered
+harmful to health and natural ecosystems and that respect the boundaries our planet
+can cope with, thus creating a toxic-free environment.
+(17) The Commission’s Communication on safeguarding food security and reinforcing the
+resilience of food systems47 stressed that food sustainability is fundamental for food
+security. Healthy soils make the Union food system more resilient by providing the
+basis for nutritious and sufficient food.
+(18) It is necessary to set measures for monitoring and assessing soil health, managing soils
+sustainably and tackling contaminated sites to achieve healthy soils by 2050, to
+maintain them in healthy condition and meet the Union’s objectives on climate and
+biodiversity, to prevent and respond to droughts and natural disasters, to protect
+human health and to ensure food security and safety.
+(19) Soils host more than 25% of all biodiversity and are the second largest carbon pool of
+the planet. Due to their ability to capture and store carbon, healthy soils contribute to
+the achievement of the Union’s objectives on climate change. Healthy soils also
+provide a favourable habitat for organisms to thrive and are crucial for enhancing
+biodiversity and the stability of ecosystems. Biodiversity below and above ground are
+intimately connected and interact through mutualistic relationships (e.g. mycorrhizal
+fungi that connect plant roots).
+(20) Floods, wildfires and extreme weather events are natural disaster risks of the highest
+concern across Europe. The concern for droughts and water scarcity is rapidly
+increasing across the Union. In 2020, 24 Member States considered droughts and
+water scarcity to be key emerging or climate related disaster risks, compared to only
+11 Member States in 2015. Healthy soils are instrumental for the resilience to droughts
+45 Communication from the European Commission to the European Parliament and to the Council
+Sustainable Carbon Cycles COM (2021) 800.
+46 Communication from the European Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions. Forging a climate-resilient Europe
+- the new EU Strategy on Adaptation to Climate Change COM (2021)82 final.
+47 Communication from the Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions, Safeguarding food security and
+reinforcing the resilience of food systems, COM (2022) 133 final.
+EN
+21
+EN
+and natural disasters. Practices that enhance water retention and nutrient availability in
+soils, soil structure, soil biodiversity and carbon sequestration, increase the resilience
+of ecosystems, plants and crops to withstand and recover from drought, natural
+disasters, heatwaves and extreme weather events which will become more frequent in
+the future due to climate change. In turn, without proper soil management, drought and
+natural disasters cause soil degradation and make soils unhealthy. Improvement of soil
+health helps to mitigate the economic losses and fatalities associated with climate-
+related extremes, which amounted to approximately 560 billion EUR and more than
+182.000 casualties in the Union between 1980 and 2021.
+(21) Soil health contributes directly to human health and well-being. Healthy soils provide
+safe and nutritious food, and have the ability to filter contaminants, hence preserving
+drinking water quality. Soil contamination can harm human health through ingestion,
+inhalation or dermal contact. Human exposure to the healthy soil microbial community
+is beneficial to develop the immune system and resistance against certain diseases and
+allergies. Healthy soils support the growth of trees, flowers, and grasses, and create
+green infrastructure that offers aesthetic value, well-being, and quality of life.
+(22) Soil degradation impacts fertility, yields, pest resistance and nutritional food quality.
+Since 95 % of our food is directly or indirectly produced on soils and the global
+population continues to increase, it is key that this finite natural resource remains
+healthy to ensure food security in the long-term and secure the productivity and
+profitability of Union agriculture. Sustainable soil management practices maintain or
+enhance soil health and contribute to the sustainability and resilience of the food
+system.
+(23) The long-term objective of the Directive is to achieve healthy soils by 2050. As an
+intermediate step, in light of the limited knowledge about the condition of soils and
+about the effectiveness and costs of the measures to regenerate their health, the
+directive takes a staged approach. In the first stage the focus will be on setting up the
+soil monitoring framework and assessing the situation of soils throughout the EU. It
+also includes requirements to lay down measures to manage soils sustainably and
+regenerate unhealthy soils once their condition is established, but without imposing an
+obligation to achieve healthy soils by 2050 neither intermediate targets. This
+proportionate approach will allow sustainable soil management and regeneration of
+unhealthy soils to be well prepared, incentivised and set in motion. In a second stage,
+as soon as the results of the first assessment of soils and trends analysis are available,
+the Commission will take stock of the progress towards the 2050 objective and the
+experience thereof, and will propose a review of the directive if necessary to accelerate
+progress towards 2050.
+(24) Addressing the pressures on soils and identifying the appropriate measures to maintain
+or regenerate soil health requires that the variety of soil types, the specific local and
+climatic conditions and the land use or the land cover is taken into account. It is
+therefore appropriate that Member States establish soil districts. Soil districts should
+constitute the basic governance units to manage soils and to take measures to comply
+with the requirements laid down in this Directive, in particular with regard to the
+monitoring and assessment of soil health. The number, geographic extent and
+boundaries of soil districts for each Member State should be determined in order to
+facilitate the implementation of Regulation (UE) …/…. of the European Parliament
+EN
+22
+EN
+and of the Council+. There should be a minimum number of soil districts in each
+Member State taking into account the size of the Member State. This minimum
+number of soil districts for each Member State shall correspond to the number of
+NUTS 1 territorial units established in Regulation (EC) No 1059/2003 of the European
+Parliament and of the Council48.
+(25) In order to ensure an appropriate governance on soils, Member States should be
+required to appoint a competent authority for each soil district. Member States should
+be allowed to appoint any additional competent authority at appropriate level
+including at national or regional level.
+(26) In order to have a common definition of healthy soil condition, there is a need to
+define a minimum common set of measurable criteria, which, if not respected leads to
+a critical loss in the soil’s capacity to function as a vital living system and to provide
+ecosystem services. Such criteria should reflect and be based on the existing level of
+soil science.
+(27) In order to describe soil degradation it is necessary to establish soil descriptors that can
+be measured or estimated. Even if there is significant variability between soil types,
+climatic conditions and land uses, the current scientific knowledge allows to set
+criteria at Union level for some of those soil descriptors. However, Member States
+should be able to adapt the criteria for some of these soil descriptors based on specific
+national or local conditions and define the criteria for other soil descriptors for which
+common criteria at EU level cannot be established at this stage. For those descriptors
+for which clear criteria that would distinguish between healthy and unhealthy
+condition cannot be identified now, only monitoring and assessment are required. This
+will facilitate the development of such criteria in future.
+(28) In order to create incentives, Member States should set up mechanisms to recognize
+the efforts of landowners and land managers to maintain the soil in healthy condition,
+including in the form of soil health certification complementary to the Union
+regulatory framework for carbon removals, and supporting the implementation of the
+renewable energy sustainability criteria set out in article 29 of Directive (EU)
+2018/2001 of the European Parliament and of the Council49. The Commission should
+facilitate soil health certification by inter alia exchanging information and promoting
+best practices, raising awareness and assessing feasibility of developing recognition of
+certification schemes at Union level. Synergies between different certification schemes
+should be exploited as much as possible to reduce administrative burden for those
+applying for relevant certifications.
+(29) Some soils have special characteristics either because they are atypical by nature and
+constitute rare habitats for biodiversity or unique landscapes or because they have
+been heavily modified by humans. Those characteristics should be taken into account
+in the context of the definition of healthy soils and the requirements to achieve healthy
+soil condition.
++ OP please insert in the text the number of the Regulation on the carbon removal certification contained
+in document COM(2022) 672 final and insert the number, date, title and OJ reference of that Directive
+in the footnote.
+48 Regulation (EC) No 1059/2003 of the European Parliament and of the Council of 26 May 2003 on the
+establishment of a common classification of territorial units for statistics (NUTS) (OJ L 154, 21.6.2003,
+p. 1).
+49 Directive (EU) 2018/2001 of the European Parliament and of the Council of 11 December 2018 on the
+promotion of the use of energy from renewable sources (recast) (OJ L 328, 21.12.2018, p. 82).
+EN
+23
+EN
+(30) Soil is a limited resource subject to an ever-growing competition for different uses.
+Land take is a process often driven by economic development needs, that transforms
+natural and semi-natural areas (including agricultural and forestry land, gardens and
+parks) into artificial land development, using soil as a platform for constructions and
+infrastructure, as a direct source of raw material or as archive for historic patrimony.
+This transformation may cause the loss, often irreversibly, of the capacity of soils to
+provide other ecosystem services (provision of food and biomass, water and nutrients
+cycling, basis for biodiversity and carbon storage). In particular, land take often affects
+the most fertile agricultural soils, putting food security in jeopardy. Sealed soil also
+exposes human settlements to higher flood peaks and more intense heat island effects.
+Therefore, it is necessary to monitor land take and soil sealing and their effects on
+soil’s capacity to provide ecosystem services. It is also appropriate to lay down certain
+principles to mitigate the impacts of land take as part of sustainable soil management.
+(31) The assessment of soil health based on the monitoring network should be accurate
+while at the same time keeping the costs of such monitoring at reasonable level. It is
+therefore appropriate to lay down criteria for sampling points that are representative of
+the soil condition under different soil types, climatic conditions and land use. The grid
+of sampling points should be determined by using geostatistical methods and be
+sufficiently dense to provide an estimation of the area of healthy soils, at national
+level, within an uncertainty of not more than 5%. This value is commonly considered
+to provide a statistically sound estimation and reasonable assurance that the objective
+has been achieved.
+(32) The Commission should assist and support Member States’ monitoring of soil health
+by continuing to carry out and enhancing regular in-situ soil sampling and related soil
+measurements (LUCAS soil) as part of the Land Use/Cover Area frame statistical
+Survey (LUCAS) Programme. For that purpose, the LUCAS Programme shall be
+enhanced and upgraded to fully align it with the specific quality requirements to be
+met for the purpose of this Directive. In order to alleviate the burden, Member States
+should be allowed to take into account the soil health data surveyed under the
+enhanced LUCAS soil. The Member States thus supported should take the necessary
+legal arrangements to ensure that the Commission can carry out such in-situ soil
+sampling, including on privately owned fields, and in compliance with applicable
+national or Union legislation.
+(33) The Commission is developing remote sensing services in the context of Copernicus
+as a user-driven programme, hereby also supporting Member States. In order to
+increase the timeliness and effectiveness of soil health monitoring, and where relevant,
+Member States should use remote sensing data including outputs from the Copernicus
+services for monitoring relevant soil descriptors and for assessing soil health. The
+Commission and the European Environment Agency should support exploring and
+developing soil remote sensing products, to assist the Member States in monitoring the
+relevant soil descriptors.
+(34) Building on and upgrading the existing EU soil observatory, the Commission should
+establish a digital soil health data portal that should be compatible with the EU Data
+Strategy50 and the EU data spaces and which should be a hub providing access to soil
+50 Communication from the Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions on a European strategy for data,
+COM(2020)66 final.
+EN
+24
+EN
+data coming from various sources. That portal should primarily include all the data
+collected by the Member States and the Commission as required by this Directive. It
+should also be possible to integrate in the portal, on a voluntary basis, other relevant
+soil data collected by Member States or any other party (and in particular data
+resulting from projects under Horizon Europe and the Mission ‘A Soil Deal for
+Europe’), provided that those data meet certain requirements as regards format and
+specifications. Those requirements should be specified by the Commission by way of
+implementing acts.
+(35) It is also necessary to improve the harmonization of soil monitoring systems used in
+the Member States and exploit the synergies between Union and national monitoring
+systems in order to have more comparable data across the Union.
+(36) In order to make the widest possible use of soil health data generated by the
+monitoring carried out under this Directive, Member States should be required to
+facilitate the access to such data for relevant stakeholders such as farmers, foresters,
+land owners and local authorities.
+(37) To maintain or enhance soil health, soils need to be managed sustainably. Sustainable
+soil management will enable the long-term provision of soil services, including
+improved air and water quality and food security. It is therefore appropriate to lay
+down sustainable soil management principles to guide soil management practices.
+(38) Economic instruments, including those under the Common Agricultural Policy (CAP)
+that provide support to farmers, have a crucial role in the transition to the sustainable
+management of agricultural soils and, to a lesser extent, forest soils. The CAP aims to
+support soil health through the implementation of conditionality, eco-schemes and
+rural development measures. Financial support for farmers and foresters who apply
+sustainable soil management practices can also be generated by the private sector.
+Voluntary sustainability labels in the food, wood, bio-based, and energy industry, for
+example, established by private stakeholders, can take into account the sustainable soil
+management principles set out in this Directive. This can enable food, wood, and other
+biomass producers that follow those principles in their production to reflect these in
+the value of their products. Additional funding for a network of real-life sites for
+testing, demonstrating and upscaling of solutions, including on carbon farming, will be
+provided through the Soil Mission’s living labs and lighthouses. Without prejudice to
+the polluter pays principle, support and advice should be provided by Member States
+to help landowners and land users affected by action taken under this Directive taking
+into account, in particular, the needs and limited capacities of small and medium sized
+enterprises.
+(39) Pursuant to Regulation (EU) 2021/2115 of the European Parliament and of the
+Council51, Member States have to describe in their CAP Strategic Plans how the
+environmental and climate architecture of those Plans is meant to contribute to the
+achievement of, and be consistent with, the long-term national targets set out in, or
+deriving from, the legislative acts listed in Annex XIII to that Regulation.
+51 Regulation (EU) 2021/2115 of the European Parliament and of the Council of 2 December 2021
+establishing rules on support for strategic plans to be drawn up by Member States under the common
+agricultural policy (CAP Strategic Plans) and financed by the European Agricultural Guarantee Fund
+(EAGF) and by the European Agricultural Fund for Rural Development (EAFRD) and repealing
+Regulations (EU) No 1305/2013 and (EU) No 1307/2013 (OJ L 435, 6.12.2021, p. 1).
+EN
+25
+EN
+(40) In order to ensure that the best sustainable soil management practices are
+implemented, Member States should be required to closely monitor the impact of soil
+management practices and adjust practices and recommendations as necessary, taking
+into account new knowledge from research and innovation. Valuable contributions are
+expected in this respect from the Horizon Europe Mission ‘A Soil Deal for Europe’
+and in particular its living labs and activities to support soil monitoring, soil education
+and citizen engagement.
+(41) Regeneration brings degraded soils back to healthy condition. When defining soil
+regeneration measures, Member States should be required to take into account the
+outcome of the soil health assessment and to adapt those regeneration measures to the
+specific characteristics of the situation, the type, the use and the condition of the soil
+and the local, climatic and environmental conditions.
+(42) To ensure synergies between the different measures adopted under other Union
+legislation that may have an impact on soil health, and the measures that are to be put
+in place to sustainably manage and regenerate soils in the Union, Member States
+should ensure that the sustainable soil management and regeneration practices are
+coherent with the national restoration plans adopted in accordance with Regulation
+(UE) …/… of the European Parliament and of the Council52+; the strategic plans to be
+drawn up by Member States under the Common Agricultural Policy in accordance
+with Regulation (EU) 2021/2115, the codes of good agricultural practices and the
+action programmes for designated vulnerable zones adopted in accordance with
+Council Directive 91/676/EEC53, the conservation measures and prioritized action
+framework established for Natura 2000 sites in accordance with Council Directive
+92/43/EEC54, the measures for achieving good ecological and chemical status of water
+bodies included in river basin management plans prepared in accordance with
+Directive 2000/60/EC of the European Parliament and of the Council55, the flood risk
+management measures established in accordance with Directive 2007/60/EC of the
+European Parliament and of the Council56, the drought management plans promoted in
+the Union Strategy on Adaptation to Climate Change57, the national action
+programmes established in accordance with Article 10 of the United Nations
+Convention to Combat Desertification, targets set out under Regulation (EU) 2018/841
+of the European Parliament and of the Council58 and Regulation (EU) 2018/842 of the
+52 OP : please insert please insert in the text the number of Regulation on nature restoration contained in
+document COM(2022) 304 and insert the number, date, title and OJ reference of that Regulation in the
+footnote Regulation (UE) …/… of the European Parliament and of the Council on nature restoration
+53 Council Directive 91/676/EEC of 12 December 1991 concerning the protection of waters against
+pollution caused by nitrates from agricultural sources (OJ L 375, 31.12.1991, p. 1).
+54 Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna
+and flora (OJ L 206, 22.7.1992, p. 7).
+55 Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a
+framework for Community action in the field of water policy (OJ L 327, 22.12.2000, pp. 1-73).
+56 Directive 2007/60/EC of the European Parliament and of the Council of 23 October 2007 on the
+assessment and management of flood risks (OJ L 288, 6.11.2007, p. 27).
+57 Communication from the European Commission to the European Parliament, the Council, the European
+Economic and Social Committee and the Committee of the Regions. Forging a climate-resilient Europe
+- the new EU Strategy on Adaptation to Climate Change COM(2021)82 final.
+58 Regulation (EU) 2018/841 of the European Parliament and of the Council of 30 May 2018 on the
+inclusion of greenhouse gas emissions and removals from land use, land use change and forestry in the
+2030 climate and energy framework, and amending Regulation (EU) No 525/2013 and Decision No
+529/2013/EU (OJ L 156, 19.6.2018, p. 1).
+EN
+26
+EN
+European Parliament and of the Council59, the integrated national energy and climate
+plans established in accordance with Regulation (EU) 2018/1999 of the European
+Parliament and of the Council60, the national air pollution control programmes
+prepared under Directive (EU) 2016/2284 of the European Parliament and of the
+Council61, risk assessments and disaster risk management planning established in
+accordance with Decision No 1313/2013/EU of the European Parliament and of the
+Council62, and national action plans established in accordance with Regulation (UE)
+…/… of the European Parliament and of the Council63+. Sustainable soil management
+and regeneration practices should be, as far as possible, integrated within these
+programmes, plans and measures to the extent that they contribute to the achievement
+of their objectives. Consequently, relevant indicators and data, such as soil-related
+result indicators under the CAP Regulation and statistical data on agricultural input
+and output reported under Regulation (EU) 2022/2379 of the European Parliament and
+of the Council64, should be accessible to the competent authorities responsible for
+sustainable soil management and regeneration practices and soil health assessment in
+order to cross-link these data and indicators and thus enable the most accurate possible
+assessment of the effectiveness of the measures chosen.
+(43) Contaminated sites are the legacy of decades of industrial activity in the EU and may
+lead to risks for human health and the environment now and in the future. It is
+therefore necessary first to identify and investigate potentially contaminated sites and
+then, in case of confirmed contamination, to assess the risks and take measures to
+address unacceptable risks. Soil investigation may prove that a potentially
+contaminated site is in fact not contaminated. In that case, the site should no longer be
+labelled by the Member State as potentially contaminated, unless contamination is
+suspected based on new evidence.
+(44) To identify potentially contaminated sites, Member States should collect evidence
+among others through historical research, past industrial incidents and accidents,
+environmental permits and notifications by the public or authorities.
+(45) In order to ensure that soil investigations on potentially contaminated sites are carried
+out timely and effectively, Member States should, in addition to the obligation to lay
+down the deadline by which those investigations should be carried out, be required to
+59 Regulation (EU) 2018/842 of the European Parliament and of the Council of 30 May 2018 on binding
+annual greenhouse gas emission reductions by Member States from 2021 to 2030 contributing to
+climate action to meet commitments under the Paris Agreement and amending Regulation (EU) No
+525/2013 (OJ L 156, 19.6.2018, p. 26).
+60 Regulation (EU) 2018/1999 of the European Parliament and of the Council of 11 December 2018 on the
+Governance of the Energy Union and Climate Action, amending Regulations (EC) No 663/2009 and
+(EC) No 715/2009 of the European Parliament and of the Council, Directives 94/22/EC, 98/70/EC,
+2009/31/EC, 2009/73/EC, 2010/31/EU, 2012/27/EU and 2013/30/EU of the European Parliament and
+of the Council, Council Directives 2009/119/EC and (EU) 2015/652 and repealing Regulation (EU) No
+525/2013 of the European Parliament and of the Council (OJ L 328, 21.12.2018, p. 1).
+61 Directive (EU) 2016/2284 of the European Parliament and of the Council of 14 December 2016 on the
+reduction of national emissions of certain atmospheric pollutants, amending Directive 2003/35/EC and
+repealing Directive 2001/81/EC (OJ L 344, 17.12.2016, p. 1).
+62 Decision No 1313/2013/EU of the European Parliament and of the Council of 17 December 2013 on a
+Union Civil Protection Mechanism (OJ L 347, 20.12.2013, p. 924).
+63 + OP: please insert in the text the number of the Regulation on the sustainable use of plant protection
+products and amending Regulation (EU) 2021/2115 contained in document COM(2022)305 and insert
+the number, date, title and OJ reference of that Directive in the footnote
+64 Regulation (EU) 2022/2379 on statistics on agricultural input and output.
+EN
+27
+EN
+lay down specific events that also trigger such investigation. Such triggering events
+may include the request or review of an environmental or building permit or an
+authorisation required pursuant to Union legislation or national legislation, soil
+excavation activities, land use changes or land or real estate transactions. Soil
+investigations may follow different stages, such as a desk study, site visit, preliminary
+or exploratory investigation, more detailed or descriptive investigation, and field or
+laboratory testing. Baseline reports and monitoring measures implemented in
+accordance with Directive 2010/75/EU of the European Parliament and of the
+Council65 could also qualify as soil investigation where appropriate.
+(46) Flexibility for the management of potentially contaminated sites and contaminated
+sites is needed to take account of costs, benefits and local specificities. Member States
+should therefore at least adopt a risk-based approach for managing potentially
+contaminated sites and contaminated sites, taking into account the difference between
+these two categories, and which allows to allocate resources taking account of the
+specific environmental, economic and social context. Decisions should be taken based
+on the nature and extent of potential risks for human health and the environment
+resulting from exposure to soil contaminants (e.g. exposure of vulnerable populations
+such as pregnant women, persons with disabilities, elderly people and children). The
+cost-benefit analysis of undertaking remediation should be positive. The optimum
+remediation solution should be sustainable and selected through a balanced decision-
+making process that takes account of the environmental, economic and social impacts.
+The management of potentially contaminated sites and contaminated sites should
+respect the polluter-pays, precautionary and proportionality principles. Member States
+should lay down the specific methodology for determining the site-specific risks of
+contaminated sites. Member States should also define what constitutes an
+unacceptable risk from a contaminated site based on scientific knowledge, the
+precautionary principle, local specificities, and current and future land use. In order to
+reduce the risks of contaminated sites to an acceptable level for human health and the
+environment, Member States should take adequate risk reduction measures including
+remediation. It should be possible to qualify measures taken under other Union
+legislation as risk reduction measures under this Directive when those measures
+effectively reduce risks posed by contaminated sites.
+(47) Measures taken pursuant to this Directive should also take account of other EU policy
+objectives, such as the objectives pursued by [Regulation (EU) xxxx/xxxx66+] that aim
+at ensuring secure and sustainable supply of critical raw materials for Europe’s
+industry.
+(48) Transparency is an essential component of soil policy and ensures public
+accountability and awareness, fair market conditions and the monitoring of progress.
+Therefore, Member States should set up and maintain a national register of
+contaminated sites and potentially contaminated sites which contains site-specific
+information that should be made publicly accessible in an online georeferenced spatial
+database. The register should contain the information that is necessary for the public to
+65 Directive 2010/75/EU of the European Parliament and of the Council of 24 November 2010 on
+industrial emissions (OJ L 334, 17.12.2010, p. 17.
+66 + OP: please insert in the text the number of the Regulation establishing a framework for ensuring a
+secure and sustainable supply of critical raw materials and amending Regulations (EU) 168/2013, (EU)
+2018/858, 2018/1724 and (EU) 2019/1020 contained in document COM(2023)160 and insert the
+number, date, title and OJ reference of that Directive in the footnote.
+EN
+28
+EN
+be informed on the existence and on the management of potentially contaminated sites
+and contaminated sites. Because the presence of soil contamination is not yet
+confirmed but only suspected on potentially contaminated sites, the difference between
+contaminated sites and potentially contaminated sites has to be communicated and
+explained well to the public to avoid raising unnecessary concern.
+(49) Article 19(1) of the Treaty on European Union (TEU) requires Member States to
+provide remedies sufficient to ensure effective judicial protection in the fields covered
+by Union law. In addition, in accordance with the Convention on access to
+information, public participation in decision‐making and access to justice in
+environmental matters67 (Aarhus Convention), members of the public concerned
+should have access to justice in order to contribute to the protection of the right to live
+in an environment which is adequate for personal health and well-being.
+(50) Directive (EU) 2019/1024 of the European Parliament and of the Council68 mandates
+the release of public sector data in free and open formats. The overall objective is to
+continue the strengthening of the EU’s data economy by increasing the amount of
+public sector data available for re-use, ensuring fair competition and easy access to
+public sector information, and enhancing cross-border innovation based on data. The
+main principle is that government data should be open by default and design. Directive
+2003/4/EC of the European Parliament and of the Council69 is aimed at guaranteeing
+the right of access to environmental information in the Member States in line with the
+Aarhus Convention. The Aarhus Convention and Directive 2003/4/EC encompass
+broad obligations related both to making environmental information available upon
+request and actively disseminating such information. Directive 2007/2/EC of the
+European Parliament and of the Council70 is also of broad scope, covering the sharing
+of spatial information, including data sets on different environmental topics. It is
+important that provisions of this Directive related to access to information and data-
+sharing arrangements complement those Directives and do not create a separate legal
+regime. Therefore, the provisions of this Directive regarding information to the public
+and information on monitoring of implementation should be without prejudice to
+Directives (EU) 2019/1024, 2003/4/EC and 2007/2/EC.
+(51) In order to ensure the necessary adaptation of the rules on soil health monitoring,
+sustainable soil management and management of contaminated sites, the power to
+adopt acts in accordance with Article 290 of the Treaty on the Functioning of the
+European Union should be delegated to the Commission in respect of amending this
+Directive to adapt to technical and scientific progress the methodologies for
+monitoring soil health, the list of sustainable soil management principles, the
+indicative list of risk reduction measures, the phases and requirements for the site-
+specific risk assessment and the content of the register of contaminated and potentially
+contaminated sites. It is of particular importance that the Commission carries out
+67 Convention on access to information, public participation in decision‐making and access to justice in
+environmental matters – Declaration, (OJ L 124, 17.5.2005).
+68 Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data
+and the re-use of public sector information (OJ L 172, 26.6.2019, p. 56).
+69 Directive 2003/4/EC of the European Parliament and of the Council of 28 January 2003 on public
+access to environmental information and repealing Council Directive 90/313/EEC (OJ L 41, 14.2.2003,
+p. 26).
+70 Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an
+Infrastructure for Spatial Information in the European Community (INSPIRE) (OJ L 108, 25.4.2007, p.
+1).
+EN
+29
+EN
+appropriate consultations during its preparatory work, including at expert level, and
+that those consultations be conducted in accordance with the principles laid down in
+the Interinstitutional Agreement on Better Law-Making of 13 April 201671. In
+particular, to ensure equal participation in the preparation of delegated acts, the
+European Parliament and the Council receive all documents at the same time as
+Member States’ experts, and their experts systematically have access to meetings of
+Commission expert groups dealing with the preparation of delegated acts.
+(52) In order to ensure uniform conditions for the implementation of this Directive,
+implementing powers should be conferred on the Commission in order to set out the
+format, structure and detailed arrangements for reporting data and information
+electronically to the Commission. Those powers should be exercised in accordance
+with Regulation (EU) No 182/2011 of the European Parliament and the Council72.
+(53) The Commission should carry out an evidence-based evaluation and, where relevant, a
+revision of this Directive, 6 years after its entry into force on the basis of the results of
+the soil health assessment. The evaluation should assess in particular the need to set
+more specific requirements to make sure unhealthy soils are regenerated and the
+objective to achieve healthy soils by 2050 is achieved. The evaluation should also
+assess the need to adapt the definition of healthy soils to scientific and technical
+progress by adding provisions on certain descriptors or criteria based on new scientific
+evidence relating to the protection of soils or on the grounds of a problem specific to a
+Member State arising from new environmental or climatic circumstances. Pursuant to
+paragraph 22 of the Interinstitutional Agreement on Better Law-Making, that
+evaluation should be based on the criteria of efficiency, effectiveness, relevance,
+coherence and EU value added and should provide the basis for impact assessments of
+possible further measures.
+(54) Coordinated measures by all Member States are necessary to achieve the vision to
+have all soils healthy by 2050 and to secure the provision of ecosystem services by
+soils across the Union in the long-term. Individual actions of Member States have
+proven to be insufficient since the soil degradation is continuing and even
+deteriorating. Since the objectives of this Directive cannot be sufficiently achieved by
+the Member States but can rather, by reason of the scale and effects of the action, be
+better achieved at Union level, the Union may adopt measures, in accordance with the
+principle of subsidiarity as set out in Article 5 TEU. In accordance with the principle
+of proportionality as set out in that Article, this Directive does not go beyond what is
+necessary in order to achieve those objectives.
+(55) In accordance with the Joint Political Declaration of 28 September 2011 of Member
+States and the Commission on explanatory documents73, Member States have
+undertaken to accompany, in justified cases, the notification of their transposition
+measures with one or more documents explaining the relationship between the
+components of a directive and the corresponding parts of national transposition
+instruments. With regard to this Directive, the legislator considers the transmission of
+such documents to be justified.
+71 Interinstitutional Agreement between the European Parliament, the Council of the European Union and
+the European Commission on Better Law-Making of 13 April 2016 (OJ L 123, 12.5.2016, p. 1).
+72 Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011
+laying down the rules and general principles concerning mechanisms for control by the Member States
+of the Commission’s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).
+73 OJ C 369, 17.12.2011, p. 14.
+EN
+30
+EN
+HAVE ADOPTED THIS DIRECTIVE:
+Chapter I
+General provisions
+Article 1
+Objective and Subject matter
+1. The objective of the Directive is to put in place a solid and coherent soil monitoring
+framework for all soils across the EU and to continuously improve soil health in the
+Union with the view to achieve healthy soils by 2050 and maintain soils in healthy
+condition, so that they can supply multiple ecosystem services at a scale sufficient to
+meet environmental, societal and economic needs, prevent and mitigate the impacts
+of climate change and biodiversity loss, increase the resilience against natural
+disasters and for food security and that soil contamination is reduced to levels no
+longer considered harmful to human health and the environment.
+2. This Directive lays down measures on:
+(a) monitoring and assessment of soil health;
+(b) sustainable soil management;
+(c) contaminated sites.
+This Directive applies to all soils in the territory of Member States.
+Article 2
+Scope
+Article 3
+Definitions
+For the purposes of this Directive, the following definitions shall apply:
+(1) ‘soil’ means the top layer of the Earth’s crust situated between the bedrock and the
+land surface, which is composed of mineral particles, organic matter, water, air and
+living organisms;
+(2) ‘ecosystem’ means a dynamic complex of plant, animal, and micro-organism
+communities and their non-living environment interacting as a functional unit;
+(3) ‘ecosystem services’ means indirect contributions of ecosystems to the economic,
+social, cultural and other benefits that people derive from those ecosystems;
+(4) ‘soil health’ means the physical, chemical and biological condition of the soil
+determining its capacity to function as a vital living system and to provide ecosystem
+services;
+(5) ‘sustainable soil management’ means soil management practices that maintain or
+enhance the ecosystem services provided by the soil without impairing the functions
+enabling those services, or being detrimental to other properties of the environment;
+EN
+31
+EN
+(6) ‘soil management practices’ mean practices that impact the physical, chemical or
+biological qualities of a soil;
+(7) ‘managed soils’ means soils where soil management practices are carried out;
+(8) ‘soil district’ means the part of the territory of a Member State, as delimited by that
+Member State in accordance with this Directive;
+(9) ‘soil health assessment’ means the evaluation of the health of the soil based on the
+measurement or estimation of soil descriptors;
+(10) ‘contaminated site’ means a delineated area of one or several plots with confirmed
+presence of soil contamination caused by point-source anthropogenic activities;
+(11) ‘soil descriptor’ means a parameter describing a physical, chemical, or biological
+characteristic of soil health;
+(12) ‘land’ means the surface of the Earth that is not covered by water;
+(13) ‘land cover’ means the physical and biological cover of the earth’s surface;
+(14) ‘natural land’ means an area where human activity has not substantially modified an
+area’s primary ecological functions and species composition;
+(15) ‘semi-natural land‘ means an area where ecological assemblages have been
+substantially modified in their composition, balance or function by human activities,
+but maintain potentially high value in terms of biodiversity and the ecosystem
+services it provides;
+(16) ‘artificial land’ means land used as a platform for constructions and infrastructure or
+as a direct source of raw material or as archive for historic patrimony at the expense
+of the capacity of soils to provide other ecosystem services;
+(17) ‘land take’ means the conversion of natural and semi-natural land into artificial land;
+(18) ‘transfer function’ means a mathematical rule that allows to convert the value of a
+measurement, performed using a methodology different from a reference
+methodology, into the value that would be obtained by performing the soil
+measurement using the reference methodology;
+(19) ‘public concerned’ means the public affected or likely to be affected by soil
+degradation, or having an interest in the decision-making procedures related to the
+implementation of the obligations under this Directive, including land owners and
+land users, as well as non-governmental organisations promoting the protection of
+human health or the environment and meeting any requirements under national law.
+(20) ‘soil contamination’ means the presence of a chemical or substance in the soil in a
+concentration that may be harmful to human health or the environment;
+(21) ‘contaminant’ means a substance liable to cause soil contamination;
+(22) ‘regeneration’ means an intentional activity aimed at reversing soil from degraded to
+healthy condition;
+(23) ‘risk’ means the possibility of harmful effects to human health or the environment
+resulting from exposure to soil contamination;
+(24) ‘soil investigation’ means a process to assess the presence and concentration of
+contaminants in the soil which is usually performed in different stages;
+EN
+32
+EN
+(25) ‘geographically explicit’ means information referenced and stored in a manner that
+permits it to be mapped and localised with specific precision and accuracy.
+(26) ‘soil remediation’ means a regeneration action that reduces, isolates or immobilizes
+contaminant concentrations in the soil.
+Article 4
+Soil districts
+1. Member States shall establish soil districts throughout their territory.
+The number of soil districts for each Member State shall as a minimum correspond to
+the number of NUTS 1 territorial units established under Regulation (EC) No
+1059/2003.
+2. When establishing the geographic extent of soil districts, Member States may take
+into account existing administrative units and shall seek homogeneity within each
+soil district regarding the following parameters:
+(a) soil type as defined in the World Reference Base for Soil Resources74;
+(b) climatic conditions;
+(c) environmental zone as described in Alterra Report 228175;
+(d) land use or land cover as used in the Land Use/Cover Area frame statistical
+Survey (LUCAS) programme.
+Article 5
+Competent authorities
+Member States shall designate the competent authorities responsible at an appropriate level
+for carrying out the duties laid down in this Directive.
+Member States shall designate one competent authority for each soil district established in
+accordance with Article 4.
+Chapter II
+Monitoring and assessment of soil health
+Article 6
+Soil health and land take monitoring framework
+1. Member States shall establish a monitoring framework based on the soil districts
+established in accordance with Article 4(1), to ensure that regular and accurate
+monitoring of soil health is carried out in accordance with this Article and Annexes I
+and II.
+74 https://www.fao.org/soils-portal/data-hub/soil-classification/world-reference-base/en/
+75 M.J. Metzger, A.D. Shkaruba, R.H.G. Jongman and R.G.H. Bunce, Descriptions of the European
+Environmental Zones and Strata, Alterra Report 2281 ISSN 1566-7197.
+EN
+33
+EN
+2. Member States shall monitor soil health and land take in each soil district.
+3. The monitoring framework shall be based on the following:
+(a) the soil descriptors and soil health criteria referred to in Article 7;
+(b) the soil sampling points to be determined in accordance with Article 8(2);
+(c) the soil measurement carried out by the Commission in accordance with
+paragraph 4 of this Article, if any;
+(d) the remote sensing data and products referred to in paragraph 5 of this Article,
+if any;
+(e) the land take and soil sealing indicators referred to in Article 7(1).
+4. The Commission shall, subject to agreement from Member States concerned, carry
+out regular soil measurements on soil samples taken in-situ, based on the relevant
+descriptors and methodologies referred to in Articles 7 and 8, to support Member
+States’ monitoring of soil health. Where a Member State provides agreement in
+accordance with this paragraph, it shall ensure that the Commission can carry out
+such in-situ soil sampling.
+5. The Commission and the European Environment Agency (EEA) shall leverage
+existing space-based data and products delivered under the Copernicus component of
+the EU Space Programme established by Regulation (EU) 2021/696 to explore and
+develop soil remote sensing products, to support the Member States in monitoring
+the relevant soil descriptors.
+6. The Commission and the EEA shall, on the basis of existing data and within two
+years of the entry into force of this Directive, establish a digital soil health data portal
+that shall provide access in georeferenced spatial format to at least the available soil
+health data resulting from:
+(a) the soil measurements referred to in Article 8(2);
+(b) the soil measurements referred to in paragraph 4 of this Article;
+(c) the relevant soil remote sensing data and products referred to in paragraph 5 of
+this Article.
+7. The digital soil health data portal referred to in paragraph 6 may also provide access
+to other soil health related data than the data referred to in that paragraph if those
+data were shared or collected in accordance with the formats or methods established
+by the Commission pursuant to paragraph 8.
+8. The Commission shall adopt implementing acts to establish formats or methods for
+sharing or collecting the data referred to in paragraph 7 or for integrating those data
+in the digital soil health data portal. Those implementing acts shall be adopted in
+accordance with the examination procedure referred to in Article 21.
+Article 7
+Soil descriptors, criteria for healthy soil condition, and land take and soil sealing
+indicators
+1. When monitoring and assessing soil health, Member States shall apply the soil
+descriptors and soil health criteria listed in Annex I.
+EN
+34
+EN
+When monitoring land take, Member States shall apply the land take and soil sealing
+indicators referred to in Annex I.
+2. Member States may adapt the soil descriptors and the soil health criteria referred to
+in part A of Annex I, in accordance with the specifications referred to in the second
+and third columns in part A of Annex I.
+3. Member States shall determine the organic contaminants for the soil descriptor
+related to soil contamination referred to in part B of Annex I.
+4. Member States shall set soil health criteria for the soil descriptors listed in part B of
+Annex I in accordance with the provisions set out in the third column in part B of
+Annex I.
+5. Member States may set additional soil descriptors and land take indicators, including
+but not limited to the optional descriptors and indicators listed in part C and D of
+Annex I, for monitoring purposes (‘additional soil descriptors’ and ‘additional land
+take indicators’).
+6. Member States shall inform the Commission when soil descriptors, land take
+indicators and soil health criteria are set or adapted in accordance with paragraphs 2
+to 5 of this Article.
+Article 8
+Measurements and methodologies
+1. Member States shall determine sampling points by applying the methodology set out
+in part A of Annex II.
+2. Member States shall carry out soil measurements by taking soil samples at the
+sampling points referred to in paragraph 1 and collect, process and analyse data in
+order to determine the following:
+(a) the values of the soil descriptors as set in Annex I;
+(b) where relevant, the values of the additional soil descriptors;
+(c) the values of the land take and soil sealing indicators listed in part D of Annex
+I.
+3. Member States shall apply the following:
+(a) the methodologies for determining or estimating the values of the soil
+descriptors set out in part B of Annex II;
+(b) the minimum methodological criteria for determining the values of the land
+take and soil sealing indicators set out in part C of Annex II;
+(c) any requirements laid down by the Commission in accordance with paragraph
+6.
+Member States may apply other methodologies than the ones listed in the first
+subparagraph, points (a) and (b), provided that validated transfer functions are
+available, as required in Annex II, part B, fourth column.
+4. Member States shall ensure that the first soil measurements are performed at the
+latest by… (OP: please insert the date = 4 years after date of entry into force of the
+Directive).
+EN
+35
+EN
+5. Member States shall ensure that new soil measurements are performed at least every
+5 years.
+Member States shall ensure that the value of the land take and soil sealing indicators
+are updated at least every year.
+6. The Commission is empowered to adopt delegated acts in accordance with Article 20
+to amend Annex II in order to adapt the reference methodologies mentioned in it to
+scientific and technical progress, in particular where values of soil descriptors can be
+determined by remote sensing referred to in Article 6(5).
+Article 9
+Assessment of the soil health
+1. Member States shall assess the soil health in all their soil districts based on the data
+collected in the context of the monitoring referred to in Articles 6, 7 and 8 for each of
+the soil descriptors referred to in Parts A and B of Annex I.
+Member States shall also take into account the data collected in the context of soil
+investigations referred to in Article 14.
+Member States shall ensure that soil health assessments are performed at least every
+5 years and that the first soil health assessment is performed by … (OP: please insert
+the date = 5 years after date of entry into force of the Directive).
+2. A soil is considered healthy in accordance with this Directive where the following
+cumulative conditions are fulfilled:
+(a) the values for all soil descriptors listed in part A of Annex I meet the criteria
+laid down therein and, where applicable, adapted in accordance with Article 7;
+(b) the values for all soil descriptors listed in part B of Annex I meet the criteria set
+in accordance with Article 7 (‘healthy soil’).
+By way of derogation from the first subparagraph the assessment of soils within a
+land area listed in the fourth column of Annex I, shall not take into account the
+values set out in the third column for that land area.
+Soil is unhealthy where at least one of the criteria referred to in subparagraph 1 is not
+met (‘unhealthy soil’).
+3. Member States shall analyse the values for the soil descriptors listed in part C of
+Annex I and assess whether there is a critical loss of ecosystem services, taking into
+account the relevant data and available scientific knowledge.
+Member States shall analyse the values of land take and soil sealing indicators listed
+in part D of Annex I and assess their impact on the loss of ecosystem services and on
+the objectives and targets established under Regulation (EU) 2018/841.
+4. Based on the assessment of soil health carried out in accordance with this Article, the
+competent authority shall, where relevant in coordination with local, regional,
+national authorities, identify, in each soil district, the areas which present unhealthy
+soils and inform the public in accordance with Article 19.
+5. Member States shall set up a mechanism for a voluntary soil health certification for
+land owners and managers pursuant to the conditions in paragraph 2 of this Article.
+EN
+36
+EN
+The Commission may adopt implementing acts to harmonise the format of soil health
+certification. Those implementing acts shall be adopted in accordance with the
+examination procedure referred to in Article 21.
+6. Member States shall communicate soil health data and assessment referred to in
+Articles 6 to 9 to the relevant land owners and land managers upon their request, in
+particular to support the development of the advice referred to in Article 10(3).
+Chapter III
+Sustainable soil management
+Article 10
+Sustainable soil management
+1. From (OP: please insert the date = 4 years after date of entry into force of the
+Directive), Member States shall take at least the following measures, taking into
+account the type, use and condition of soil:
+(a) defining sustainable soil management practices respecting the sustainable soil
+management principles listed in Annex III to be gradually implemented on all
+managed soils and, on the basis of the outcome of the soil assessments carried
+out in accordance with Article 9, regeneration practices to be gradually
+implemented on the unhealthy soils in the Member States;
+(b) defining soil management practices and other practices affecting negatively the
+soil health to be avoided by soil managers.
+When defining the practices and measures referred to in this paragraph, Member
+States shall take into account the programmes, plans, targets and measures listed in
+Annex IV as well as the latest existing scientific knowledge including results coming
+out of the Horizon Europe Mission a Soil Deal for Europe.
+Member States shall identify synergies with the programmes, plans and measures set
+out in Annex IV. The soil health monitoring data, the results of the soil health
+assessments, the analysis referred to in Article 9 and the sustainable soil management
+measures shall inform the development of the programmes, plans and measures set
+out in Annex IV.
+Member States shall ensure that the process of elaboration of the practices referred to
+in the first subparagraph is open, inclusive and effective and that the public
+concerned, in particular landowners and managers, are involved and are given early
+and effective opportunities to participate in their elaboration.
+2. Member States shall ensure easy access to impartial and independent advice on
+sustainable soil management, training activities and capacity building for soil
+managers, landowners and relevant authorities.
+Member States shall also take the following measures:
+(a) promoting awareness on the medium- and long-term multiple benefits of
+sustainable soil management and the need to manage soils in a sustainable
+manner;
+(b) promoting research and implementation of holistic soil management concepts;
+EN
+37
+EN
+(c) making available a regularly updated mapping of available funding instruments
+and activities to support the implementation of sustainable soil management.
+3. Member States shall regularly assess the effectiveness of the measures taken in
+accordance with this Article and, where relevant, review and revise those measures,
+taking into account the soil health monitoring and assessment referred to in Articles 6
+to 9.
+4. The Commission is empowered to adopt delegated acts in accordance with Article 20
+to amend Annex III in order to adapt the sustainable soil management principles to
+take into account scientific and technical progress.
+Article 11
+Land take mitigation principles
+Member States shall ensure that the following principles are respected in case of land take:
+(a) avoid or reduce as much as technically and economically possible the loss of the
+capacity of the soil to provide multiple ecosystem services, including food
+production, by:
+(i) reducing the area affected by the land take to the extent possible and
+(ii) selecting areas where the loss of ecosystem services would be minimized
+and
+(iii) performing the land take in a way that minimizes the negative impact on
+soil;
+(b) compensate as much as possible the loss of soil capacity to provide multiple
+ecosystem services.
+Chapter IV
+Contaminated sites
+Article 12
+Risk-based approach
+1. Member States shall manage the risks for human health and the environment of
+potentially contaminated sites and contaminated sites, and keep them to acceptable
+levels, taking account of the environmental, social and economic impacts of the soil
+contamination and of the risk reduction measures taken pursuant to Article 15
+paragraph 4.
+2. By … (OP: please insert the date =4 years after the date of entry into force of the
+Directive) Member States shall establish a risk-based approach for the following:
+(a) the identification of potentially contaminated sites in accordance with Article
+13;
+(b) the investigation of potentially contaminated sites in accordance with Article
+14;
+(c) the management of contaminated sites in accordance with Article 15.
+EN
+38
+EN
+3. The requirement laid down in paragraph 2 is without prejudice to more stringent
+requirements arising from Union or national legislation.
+4. The public concerned shall be given early and effective opportunities:
+(a) to participate in the establishment and concrete application of the risk-based
+approach as defined in this Article;
+(b) to provide information relevant for the identification of potentially
+contaminated sites in accordance with Article 13, the investigation of
+potentially contaminated sites in accordance with Article 14 and the
+management of contaminated sites in accordance with Article 15;
+(c) to request correction of information contained in the register for contaminated
+sites and potentially contaminated sites in accordance with Article 16.
+Article 13
+Identification of potentially contaminated sites
+1. Member States shall systematically and actively identify all sites where a soil
+contamination is suspected based on evidence collected through all available means
+(‘potentially contaminated sites’).
+2. When identifying the potentially contaminated sites Member States shall take into
+account the following criteria:
+(a) operation of an active or inactive potentially contaminating risk activity;
+(b) operation of an activity referred to in Annex I to Directive 2010/75/EU;
+(c) operation of an establishment referred to in Directive 2012/18/EU of the
+European Parliament and of the Council76;
+(d) operation of an activity referred to in Annex III to Directive 2004/35/CE of the
+European Parliament and of the Council77;
+(e) occurrence of a potentially contaminating accident, calamity, disaster, incident
+or spill;
+(f) any other event liable to cause soil contamination;
+(g) any information resulting from the soil health monitoring carried out in
+accordance with Articles 6, 7 and 8.
+For the purpose of the first subparagraph point (a), Member States shall lay down a
+list of potentially contaminating risk activities. Those activities may be further
+classified according to their risk to cause soil contamination based on scientific
+evidence.
+76 Directive 2012/18/EU of the European Parliament and of the Council of 4 July 2012 on the control of
+major-accident hazards involving dangerous substances, amending and subsequently repealing Council
+Directive 96/82/EC (OJ L 197, 24.7.2012, p. 1).
+77 Directive 2004/35/CE of the European Parliament and of the Council of 21 April 2004 on
+environmental liability with regard to the prevention and remedying of environmental damage (OJ L
+143, 30.4.2004, p. 56)
+EN
+39
+EN
+3. Member States shall ensure that all potentially contaminated sites are identified by
+(OP: please insert date = 7 years after date of entry into force of the Directive) and
+are duly recorded in the register referred to in Article 16 by that date.
+Article 14
+Investigation of potentially contaminated sites
+1. Member States shall ensure that all potentially contaminated sites identified in
+accordance with Article 13 are subject to soil investigation.
+2. Member States shall lay down the rules concerning the deadline, content, form and
+the prioritisation of the soil investigations. Those rules shall be established in
+accordance with the risk-based approach referred to in Article 12 and the list of
+potentially contaminating risk activities referred to in Article 13(2), second
+subparagraph.
+Member States may consider baseline reports and monitoring measures implemented
+in accordance with the Directive 2010/75/EU as soil investigation where appropriate.
+3. Member States shall also establish specific events that trigger an investigation before
+the deadline set in accordance with paragraph 2.
+Article 15
+Risk assessment and management of contaminated sites
+1. Member States shall lay down the specific methodology for determining the site-
+specific risks of contaminated sites. Such methodology shall be based on the phases
+and requirements for site-specific risk assessment listed in Annex VI.
+2. Member States shall define what constitutes an unacceptable risk for human health
+and the environment resulting from contaminated sites by taking into account
+existing scientific knowledge, the precautionary principle, local specificities, and
+current and future land use.
+3. For each contaminated site identified pursuant to Article 14 or by any other means,
+the responsible competent authority shall carry out a site-specific assessment for the
+current and planned land uses to determine whether the contaminated site poses
+unacceptable risks for human health or the environment.
+4. On the basis of the outcome of the assessment referred to in paragraph 3, the
+responsible competent authority shall take the appropriate measures to bring the risks
+to an acceptable level for human health and the environment (‘risk reduction
+measures’).
+5. The risk reduction measures may consist of the measures referred to in Annex V.
+When deciding on the appropriate risk reduction measures, the competent authority
+shall take into consideration the costs, benefits, effectiveness, durability, and
+technical feasibility of available risk reduction measures.
+6. The Commission is empowered to adopt delegated acts in accordance with Article 20
+to amend Annexes V and VI to adapt the list of risk reduction measures and the
+requirements for site-specific risk assessment to scientific and technical progress.
+EN
+40
+EN
+Article 16
+Register
+1. By … (OP : please insert date = 4 years after entry into force of the Directive),
+Member States shall, in accordance with paragraph 2, draw up a register of
+contaminated sites and potentially contaminated sites.
+2. The register shall contain the information set out in Annex VII.
+3. The register shall be managed by the responsible competent authority and shall be
+regularly kept under review and up to date.
+4. Member States shall make public the register and information referred to in
+paragraphs 1 and 2. Disclosure of any information may be refused or restricted by the
+competent authority where the conditions laid down in Article 4 of Directive
+2003/4/EC of the European Parliament and of the Council78 are fulfilled.
+The register shall be made available in an online georeferenced spatial database.
+5. The Commission shall adopt implementing acts establishing the format of the
+register. Those implementing acts shall be adopted in accordance with the
+examination procedure referred to in Article 21.
+Chapter V
+Financing, information to the public and reporting by Member
+States
+Article 17
+Union financing
+Given the priority inherently attached to the establishment of soil monitoring and sustainable
+management and regeneration of soils, the implementation of this Directive shall be supported
+by existing Union financial programmes in accordance with their applicable rules and
+conditions.
+Article 18
+Reporting by Member States
+1. Member States shall electronically report the following data and information to the
+Commission and to the EEA every 5 years:
+(a) the data and results of the soil health monitoring and assessment carried out in
+accordance with Articles 6 to 9;
+(b) a trend analysis of the soil health for the descriptors listed in parts A, B, and C
+of Annex I and for the land take and soil sealing indicators listed in part D of
+Annex I in accordance with Article 9;
+(c) a summary of the progress on:
+78 Directive 2003/4/EC of the European Parliament and of the Council of 28 January 2003 on public
+access to environmental information and repealing Council Directive 90/313/EEC (OJ L 41, 14.2.2003,
+p. 26).
+EN
+41
+EN
+(i) implementing sustainable soil management principles in accordance with
+Article 10;
+(ii) the registration, identification, investigation, and management of
+contaminated sites in accordance with Articles 12 to 16;
+(d) the data and information contained in the register referred to in Article 16.
+The first reports shall be submitted by … (OP: please insert date = 5 years and 6
+months after entry into force of the Directive).
+2. Member States shall ensure that the Commission and the EEA have permanent
+access to the information and data referred to in paragraph 1.
+3. Member States shall provide the Commission with online access to the following:
+(a) an up-to-date list and spatial data of their soil districts referred to in Article 4
+by … (OP: please insert the date = 2 years and 3 months after date of entry into
+force of the Directive);
+(b) an up-to-date list of the competent authorities referred to in Article 5 by …
+(OP: please insert the date = 2 years and 3 months after date of entry into force
+of the Directive);
+(c) the measures and sustainable soil management practices referred to in Article
+10 by… (OP: please insert the date = 4 years and 3 months after date of entry
+into force of the Directive).
+4. The Commission is empowered to adopt implementing acts establishing the format
+and the modalities for submitting the information referred to paragraph 1 of this
+Article. Those implementing acts shall be adopted in accordance with the
+examination procedure referred to in Article 21.
+Article 19
+Information to the public
+1. Member States shall make public the data generated by the monitoring carried out
+under Article 8 and the assessment carried out under Article 9 of this Directive
+accessible to the public, in accordance with the provisions under Article 11 of
+Directive 2007/2/EC of the European Parliament and of the Council79 for
+geographically explicit data and Article 5 of Directive (EU) 2019/1024 for other
+data.
+2. The Commission shall ensure that soil health data made accessible through the
+digital soil health data portal referred to in Article 6 is available to the public in
+accordance with Regulation (EU) 2018/1725 of the European Parliament and of the
+79 Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an
+Infrastructure for Spatial Information in the European Community (INSPIRE) (OJ L 108, 25.4.2007, p.
+1).
+EN
+42
+EN
+Council80 and Regulation (EC) No 1367/2006 of the European Parliament and of the
+Council81.
+3. Member States shall ensure that the information referred to in Article 18 of this
+Directive is available and accessible to the public in accordance with Directive
+2003/4/EC, Directive 2007/2/EC and Directive (EU) 2019/1024 of the Parliament
+and of the Council82.
+4. Disclosure of any information required under this Directive may be refused or
+restricted where the conditions laid down in Article 4 of Directive 2003/4/EC are
+fulfilled.
+Chapter VI
+Delegation and Committee procedure
+Article 20
+Exercise of the delegation
+1. The power to adopt delegated acts is conferred on the Commission subject to the
+conditions laid down in this Article.
+2. The power to adopt delegated acts referred to in Articles 8, 10, 15 and 16 shall be
+conferred on the Commission for an indeterminate period of time from the date of
+entry into force of this Directive.
+3. The delegation of power referred to in Articles 8, 10, 15 and 16 may be revoked at
+any time by the European Parliament or by the Council. A decision to revoke shall
+put an end to the delegation of the power specified in that decision. It shall take
+effect the day following the publication of the decision in the Official Journal of the
+European Union or at a later date specified therein. It shall not affect the validity of
+any delegated acts already in force.
+4. Before adopting a delegated act, the Commission shall consult experts designated by
+each Member State in accordance with the principles laid down in the
+Interinstitutional Agreement of 13 April 2016 on Better Law-Making.
+5. As soon as it adopts a delegated act, the Commission shall notify it simultaneously to
+the European Parliament and to the Council.
+6. A delegated act adopted pursuant to Articles 8, 10, 15 and 16 shall enter into force
+only if no objection has been expressed either by the European Parliament or the
+Council within a period of two months of notification of that act to the European
+Parliament and the Council or if, before the expiry of that period, the European
+80 Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the
+protection of natural persons with regard to the processing of personal data by the Union institutions,
+bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No
+45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).
+81 Regulation (EC) No 1367/2006 of the European Parliament and of the Council of 6 September 2006 on
+the application of the provisions of the Aarhus Convention on Access to Information, Public
+Participation in Decision-making and Access to Justice in Environmental Matters to Community
+institutions and bodies (OJ L 264, 25.9.2006, p. 13).
+82 Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data
+and the re-use of public sector information (OJ L 172, 26.6.2019, p. 56).
+EN
+43
+EN
+Parliament and the Council have both informed the Commission that they will not
+object. That period shall be extended by two months at the initiative of the European
+Parliament or of the Council.
+Article 21
+Committee
+1. The Commission shall be assisted by a committee. That committee shall be a
+committee within the meaning of Regulation (EU) No 182/2011.
+2. Where reference is made to this paragraph, Article 5 of Regulation (EU) No
+182/2011 shall apply.
+Chapter VII
+Final provisions
+Article 22
+Access to justice
+Member States shall ensure that members of the public, in accordance with national law, that
+have a sufficient interest or that maintain the impairment of a right, have access to a review
+procedure before a court of law, or an independent and impartial body established by law, to
+challenge the substantive or procedural legality of the assessment of soil health, the measures
+taken pursuant to this Directive and any failures to act of the competent authorities.
+Member States shall determine what constitutes a sufficient interest and impairment of a right,
+consistently with the objective of providing the public with wide access to justice. For the
+purposes of paragraph 1, any non-governmental organisation promoting environmental
+protection and meeting any requirements under national law shall be deemed to have rights
+capable of being impaired and their interest shall be deemed sufficient.
+Review procedures referred to in paragraph 1 shall be fair, equitable, timely and free of
+charge or not prohibitively expensive, and shall provide adequate and effective remedies,
+including injunctive relief where necessary.
+Member States shall ensure that practical information is made available to the public on
+access to the administrative and judicial review procedures referred to in this Article.
+Article 23
+Penalties
+1. Without prejudice to the obligations of Member States under Directive 2008/99/EC
+of the European Parliament and of the Council, Member States shall lay down the
+rules on penalties applicable to violations by natural and legal persons, of the
+national provisions adopted pursuant to this Directive and shall ensure that those
+rules are implemented. The penalties provided for shall be effective, proportionate
+and dissuasive.
+2. The penalties referred to in paragraph 1 shall include fines proportionate to the
+turnover of the legal person or to the income of the natural person having committed
+the violation. The level of the fines shall be calculated in such a way as to make sure
+EN
+44
+EN
+that they effectively deprive the person responsible for the violation of the economic
+benefits derived from that violation. In the case of a violation committed by a legal
+person, such fines shall be proportionate to the legal person’s annual turnover in the
+Member State concerned, taking account, inter alia, the specificities of small and
+medium-sized enterprises (SMEs).
+3. Member States shall ensure that the penalties established pursuant to this Article give
+due regard to the following, as applicable:
+(a) the nature, gravity, and extent of the violation;
+(b) the intentional or negligent character of the violation;
+(c) the population or the environment affected by the violation, bearing in mind
+the impact of the infringement on the objective of achieving a high level of
+protection of human health and the environment.
+4. Member States shall without undue delay notify the Commission of the rules and
+measures referred to in paragraph 1 and of any subsequent amendments affecting
+them.
+Article 24
+Evaluation and review
+1. By (OP :please insert the date = 6 years after the date of entry into force of the
+Directive), the Commission shall carry out an evaluation of this Directive to assess
+the progress towards its objectives and the need to amend its provisions in order to
+set more specific requirements to ensure that unhealthy soils are regenerated and that
+all soils will be healthy by 2050. This evaluation shall take into account, inter alia,
+the following elements:
+(a) the experience gained through the implementation of this Directive;
+(b) the data and information referred to in Article 18;
+(c) relevant scientific and analytical data, including results from research projects
+funded by the Union;
+(d) an analysis of the gap towards achieving healthy soils by 2050;
+(e) an analysis of the possible need to adapt to scientific and technical progress the
+provisions of this Directive in particular regarding the following items:
+(i) the definition of healthy soils;
+(ii) the establishment of criteria for soil descriptors listed in part C of annex
+I;
+(iii) the addition of new soil descriptors for monitoring purposes.
+2. The Commission shall present a report on the main findings of the evaluation
+referred to in paragraph 1 to the European Parliament, the Council, the European
+Economic and Social Committee, and the Committee of the Regions.
+EN
+Article 25
+Transposition
+45
+EN
+1. Member States shall bring into force the laws, regulations and administrative
+provisions necessary to comply with this Directive by … [OP please insert date = 2
+years after date of entry into force of the Directive]. They shall forthwith
+communicate to the Commission the text of those provisions.
+When Member States adopt those provisions, they shall contain a reference to this
+Directive or be accompanied by such a reference on the occasion of their official
+publication. Member States shall determine how such reference is to be made.
+2. Member States shall communicate to the Commission the text of the main provisions
+of national law which they adopt in the field covered by this Directive.
+Article 26
+Entry into force
+This Directive shall enter into force on the twentieth day following that of its publication in
+the Official Journal of the European Union.
+Article 27
+Addressees
+This Directive is addressed to the Member States.
+Done at Brussels,
+For the European Parliament For the Council
+The President The President
+EN
+46
+EN
+LEGISLATIVE FINANCIAL STATEMENT
+1. FRAMEWORK OF THE PROPOSAL/INITIATIVE
+1.1. Title of the proposal/initiative
+1.2. Policy area(s) concerned
+1.3. The proposal/initiative relates to:
+1.4. Objective(s)
+1.4.1. General objective(s)
+1.4.2. Specific objective(s)
+1.4.3. Expected result(s) and impact
+1.4.4. Indicators of performance
+1.5. Grounds for the proposal/initiative
+1.5.1. Requirement(s) to be met in the short or long term including a detailed timeline for
+roll-out of the implementation of the initiative
+1.5.2. Added value of Union involvement (it may result from different factors, e.g.
+coordination gains, legal certainty, greater effectiveness or complementarities). For
+the purposes of this point 'added value of Union involvement' is the value resulting
+from Union intervention, which is additional to the value that would have been
+otherwise created by Member States alone.
+1.5.3. Lessons learned from similar experiences in the past
+1.5.4. Compatibility with the Multiannual Financial Framework and possible synergies
+with other appropriate instruments
+1.5.5. Assessment of the different available financing options, including scope for
+redeployment
+1.6. Duration and financial impact of the proposal/initiative
+1.7. Method(s) of budget implementation planned
+2. MANAGEMENT MEASURES
+2.1. Monitoring and reporting rules
+2.2. Management and control system(s)
+2.2.1. Justification of the management mode(s), the funding implementation mechanism(s),
+the payment modalities and the control strategy proposed
+2.2.2. Information concerning the risks identified and the internal control system(s) set up
+to mitigate them
+2.2.3. Estimation and justification of the cost-effectiveness of the controls (ratio of "control
+costs ÷ value of the related funds managed"), and assessment of the expected levels
+of risk of error (at payment & at closure)
+2.3. Measures to prevent fraud and irregularities
+3. ESTIMATED FINANCIAL IMPACT OF THE PROPOSAL/INITIATIVE
+EN
+1
+EN
+3.1. Heading(s) of the multiannual financial framework and expenditure budget
+line(s) affected
+3.2. Estimated financial impact of the proposal on appropriations
+3.2.1. Summary of estimated impact on operational appropriations
+3.2.2. Estimated output funded with operational appropriations
+3.2.3. Summary of estimated impact on administrative appropriations
+3.2.3.1. Estimated requirements of human resources
+3.2.4. Compatibility with the current multiannual financial framework
+3.2.5. Third-party contributions
+3.3. Estimated impact on revenue
+EN
+2
+EN
+1. FRAMEWORK OF THE PROPOSAL/INITIATIVE
+1.1. Title of the proposal/initiative
+Proposal for a Directive of the European Parliament and of the Council on Soil
+Monitoring and Resilience (Soil Monitoring Law).
+1.2. Policy area(s) concerned
+09 -Environment and Climate Action
+Activities:
+09 02 - Programme for Environment and Climate Action (LIFE)
+1.3. The proposal/initiative relates to:
+ a new action
+ a new action following a pilot project/preparatory action83
+ the extension of an existing action
+ a merger or redirection of one or more actions towards another/a new action
+1.4. Objective(s)
+1.4.1. General objective(s)
+The objective of the proposed Directive is to contribute to address the big societal
+challenges of:
+- Achieving climate neutrality and becoming resilient to climate change
+- Reversing biodiversity loss and fulfilling international commitments on biodiversity
+- Reducing pollution to levels no longer considered harmful to human health and the
+environment
+- Fulfilling international commitments on land degradation neutrality
+1.4.2. Specific objective(s)
+Following from the general objective, the specific objective of this proposed
+Directive is:
+- To stop soil degradation and achieve healthy soils across the EU by 2050, so
+ensuring that EU soils can supply multiple ecosystem services at a scale sufficient to
+meet environmental, societal and economic needs, and reducing soil pollution to
+levels no longer considered harmful to human health and the environment.
+Following from the specific objective, the operational objectives are:
+- To establish measures to stop degrading soils and regenerate soil health.
+- To establish an effective framework to ensure implementation in particular by the
+obligation for the Member States to assess soil health as well as for reporting and
+review.
+83 As referred to in Article 58(2)(a) or (b) of the Financial Regulation.
+EN
+3
+EN
+1.4.3. Expected result(s) and impact
+Specify the effects which the proposal/initiative should have on the beneficiaries/groups targeted.
+The proposed intiative will deliver significant environmental benefits and improve
+soil health with knock-on effects on the quality of both water and air, biodiversity,
+climate benefits and food benefits. It addresses the risks to human health and the
+environment coming from contaminated sites.
+The welfare and well-being of current and future generations depends on soil health.
+The implementation of the proposal is expected to create plenty of opportunities for
+SMEs both for growth (e.g. investigation and remediation of contaminated sites,
+advisory services for soil health, soil testing labs) and for innovation in the devise
+and application of sustainable soil management and restoration measures, as well as
+in relation to the investigation and remediation of contaminated soils.
+The implementation of soil monitoring is also expected to create opportunities for
+research and development and business to develop parameters and soil observation.
+1.4.4. Indicators of performance
+Specify the indicators for monitoring progress and achievements.
+The implementation of the proposal should ensure that soils across the EU are
+healthy by 2050 and that they are managed sustainable so that they do not further
+deteriorate.
+These are the main indicators foreseen to monitor the implementation:
+- number of soil health monitoring points
+- proportion of the EU territory where soils are in healthy status
+- sustainable soil management measures adopted
+- regeneration measures put in place
+- number of potentially contaminated sites registered in the dedicated national
+registers
+- number of investigated potentially contaminated sites
+- number of remediated or properly managed contaminated sites
+1.5. Grounds for the proposal/initiative
+1.5.1. Requirement(s) to be met in the short or long term including a detailed timeline for
+roll-out of the implementation of the initiative
+The proposed Directive will entry into force after its adoption but there will be a
+transposition period of 2 years for the Member States to adopt and notify the laws,
+regulations and administrative provisions necessary to comply with this Directive.
+During this transposition period the Commission will assist Member States via:
+- guidance document for the transposition of the Directive;
+- development of various guidance and information material if need be regarding the
+implementation of the Directive
+- helpdesk function
+EN
+4
+EN
+After adoption of the Directive, the Commission:
+- will regularly convene the specific new committee which will assist the
+Commission as well as expert group meetings
+- take the necessary steps and arrangements to update and put in place the LUCAS
+soil programme which will complement the monitoring framework of the Member
+States;
+After expiration of the transposition deadline, the Commission will, in accordance
+with its policy on the verification of the implementation of EU legislation:
+- verify the completeness of the transposition measures notified by the Member
+States and if need be may initiate infringement procedures;
+- verify the conformity of the transposition measures Member States and if need be
+may initiate infringement procedures.
+After expiration of the transposition deadline, Member States will need:
+to put in place the appropriate governance
+to establish soil districts
+to put in place the soil monitoring framework including the determination of
+sampling points and adopting methodologies
+to set up a register of potentially contaminated sites.
+1.5.2. Added value of Union involvement (it may result from different factors, e.g.
+coordination gains, legal certainty, greater effectiveness or complementarities). For
+the purposes of this point 'added value of Union involvement' is the value resulting
+from Union intervention, which is additional to the value that would have been
+otherwise created by Member States alone.
+Reasons for action at European level (ex-ante)
+Drivers and impacts of soil degradation exceed country borders and reduce the
+provision of ecosystem services throughout the EU and its neighbours. National
+action has proven to be insufficient to address soil degradation across the EU and has
+led to divergent levels of protection of the environment and human health.
+Expected generated EU added value (ex-post)
+Coordinated action at EU level is expected to generate synergies, effectiveness and
+efficiency gains for monitoring and restoring soil health and ensuring that soils are
+managed in a sustainable way. Coordinated action is also expected to deliver on the
+commitments that rely as well on soil health made in the EU and in the global
+context, namely on addressing climate change, reverse biodiversity loss, aim at zero
+pollution and achieve land degradation neutrality. Lastly, action at EU level is
+expected to address potential distortions in the internal market and unfair competition
+among businesses, since there are lower environmental requirements in some
+Member States.
+EN
+5
+EN
+1.5.3. Lessons learned from similar experiences in the past
+In April 2002, the Commission announced for the first time its intention to develop a
+Strategy for Soil Protection and to prepare the ground for a proposal for EU soil
+legislation. A first proposal was subsequently adopted by the Commission in 2006
+but difficult political discussions took place in the Council of the EU under
+successive EU presidencies. No agreement was found due to a blocking minority of
+five Member States. As a consequence, the Commission withdrew its proposal in
+2014.
+The debates showed that regulating soil at EU level can trigger resistance from
+different stakeholder groups and Member States. Therefore, before preparing this
+new initiative the Commission has invested extensively in meeting and consulting
+stakeholders and Member States and some through the establishment of the EU
+expert group on soil protection.
+Particular attention was paid to the principles of subsidiarity and proportionality
+through sufficient flexibility. The proposal also takes largely into account of the
+variability of soils, climatic conditions and land use.
+A more result-oriented approach with clear targets and less focus on the process or
+measures to be implemented provides more flexibility at national level, while still
+satisfying the need for protecting soil coherently across the EU.
+1.5.4. Compatibility with the Multiannual Financial Framework and possible synergies
+with other appropriate instruments
+The initiative falls under Heading 3 (Natural Resources and Environment), Title 9
+(Environment and Climate Action) of the Multiannual Financial Framework (MFF)
+2021-2027
+The initiative falls under the umbrella of the European Green Deal. It also follows
+from and contributes to achieving the ambitions set out in the EU Soil Strategy for
+2030. The EU Soil Strategy is a key deliverable of the EU biodiversity strategy for
+2030 and sets out a framework and concrete measures to protect and restore soils,
+and ensure that they are used sustainably. It sets as well a vision and objectives to
+achieve healthy soils by 2050, with concrete actions by 2030.
+The proposal is complementary to other measures outlined in the Biodiversity
+Strategy 2030 (such as the nature restoration law) and in the EU Soil Strategy (such
+as the guidance on risk assessment, soil sealing and funding).
+Implementation of the initiative by Member States and businesses will be supported
+by a range of EU programmes such the European Agricultural Guarantee Fund, the
+European Agricultural Fund for Rural Development, the European Regional and
+Development Fund, the Cohesion Fund, the Programme for the Environment and
+Climate Action (LIFE), the Framework Programme for Research and Innovation
+(Horizon Europe, HE) notably through the HE Mission “A Soil Deal for Europe”, the
+Recovery and Resilience Facility (RRF), InvestEU, and national financing by EU
+Member States and private funding.
+EN
+6
+EN
+1.5.5. Assessment of the different available financing options, including scope for
+redeployment
+The implementation of the new Directive will entail new tasks and activities for the
+Commission. This will require human resources, EEA support, procurement
+resources for external contractors and one or more administrative arrangement with
+JRC.
+There is currently no dedicated existing EU binding instrument on soil and the
+implementation and monitoring of the Directive are therefore new responsabilities
+for the Commission and the Member States.
+This requires additional resources with high capacity of political judgement, policy
+knowledge, analytical skills, independence and resilience throughout the long-term
+implementation of the legislation. Additional expert support will be equally needed,
+also through outsourcing, where possible, but core tasks that involve a high degree of
+political sensitivity need to be carried out by the Commission.
+EN
+7
+EN
+1.6. Duration and financial impact of the proposal/initiative
+ limited duration
+–  in effect from [DD/MM]YYYY to [DD/MM]YYYY
+–  Financial impact from YYYY to YYYY for commitment appropriations and
+from YYYY to YYYY for payment appropriations.
+ unlimited duration
+– Implementation with a start-up period corresponding to the transposition period of
+2 years
+– followed by full-scale operation.
+1.7. Method(s) of budget implementation planned
+ Direct management by the Commission
+–  by its departments, including by its staff in the Union delegations;
+–  by the executive agencies
+ Shared management with the Member States
+ Indirect management by entrusting budget implementation tasks to:
+–  third countries or the bodies they have designated;
+–  international organisations and their agencies (to be specified);
+–  the EIB and the European Investment Fund;
+– bodies referred to in Articles 70 and 71 of the Financial Regulation;
+–  public law bodies;
+–  bodies governed by private law with a public service mission to the extent that
+they are provided with adequate financial guarantees;
+–  bodies governed by the private law of a Member State that are entrusted with
+the implementation of a public-private partnership and that are provided with
+adequate financial guarantees;
+–  bodies or persons entrusted with the implementation of specific actions in the
+CFSP pursuant to Title V of the TEU, and identified in the relevant basic act.
+– If more than one management mode is indicated, please provide details in the ‘Comments’ section.
+Comments
+N/A
+EN
+8
+EN
+2. MANAGEMENT MEASURES
+2.1. Monitoring and reporting rules
+Specify frequency and conditions.
+The initiative involves procurement, administrative arrangements with the JRC, and
+impact on the COM HR. Standard rules for this type of expenditure apply.
+2.2. Management and control system(s)
+2.2.1. Justification of the management mode(s), the funding implementation mechanism(s),
+the payment modalities and the control strategy proposed
+N/A –cf. above.
+2.2.2. Information concerning the risks identified and the internal control system(s) set up
+to mitigate them
+N/A –cf. above.
+2.2.3. Estimation and justification of the cost-effectiveness of the controls (ratio of "control
+costs ÷ value of the related funds managed"), and assessment of the expected levels
+of risk of error (at payment & at closure)
+N/A –cf. above.
+2.3. Measures to prevent fraud and irregularities
+Specify existing or envisaged prevention and protection measures, e.g. from the Anti-Fraud Strategy.
+N/A –cf. above.
+EN
+9
+EN
+Heading
+of
+multiannu
+al
+financial
+framewor
+k
+Number
+3. ESTIMATED FINANCIAL IMPACT OF THE PROPOSAL/INITIATIVE
+3.1. Heading(s) of the multiannual financial framework and expenditure budget
+line(s) affected
+ Existing budget lines
+In order of multiannual financial framework headings and budget lines.
+Budget line
+Type of
+expenditur
+e
+Contribution
+09 02 01 Nature and biodiversity
+Diff./Non-
+diff.84
+from
+EFTA
+countrie
+s85
+from
+candidate
+countries
+and
+potential
+candidates86
+fromother
+third
+countries
+other
+assigned
+revenue
+Diff YES NO YES NO
+20 01 02 01 – Remuneration and
+allowances
+20 02 01 03 – National civil
+servants temporarily assigned to
+the institution
+20 02 06 01 - Mission and
+representation expenses
+20 02 06 02 – Meetings, expert
+groups
+Non-
+diff.
+Non-
+diff.
+Non-
+diff.
+Non-
+diff.
+N O N O
+N O N O
+N O N O
+N O N O
+3
+7
+7
+7
+7
+7 20 02 06 03 – Committees Non-
+diff.
+NO NO NO NO
+ New budget lines requested: N/A
+84 Diff. = Differentiated appropriations / Non-diff. = Non-differentiated appropriations.
+85 EFTA: European Free Trade Association.
+86 Candidate countries and, where applicable, potential candidates from the Western Balkans.
+EN
+10
+EN
+3.2. Estimated financial impact of the proposal on appropriations
+3.2.1. Summary of estimated impact on operational appropriations
+–  The proposal/initiative does not require the use of operational appropriations
+–  The proposal/initiative requires the use of operational appropriations, as explained below:
+Heading of multiannual financial
+framework
+1
+Single market, innovation and digital
+EUR million (to three decimal places)
+ Human resources
+ Other administrative expenditure
+DG: JRC
+2023 2024 2025 2026 2027 TOTAL
+0,342 0,513 0,513 0,513 1,881
+TOTAL DG JRC Appropriations
+0,342 0,513 0,513 0,513 1,881
+Heading of multiannual financial
+framework
+3
+Natural resources and environment
+DG: ENV
+2023 2024 2025 2026 2027 TOTAL
+ Operational appropriations
+09 02 01 Nature and biodiversity
+EN
+Commitments
+(1a)
+0,500 0,500 0,500 0,500 2,000
+11
+EN
+Appropriations of an administrative nature financed from the
+envelope of specific programmes87
+Budget line
+(3)
+Payments
+(2a)
+0,500 0,500 0,500 0,500 2,000
+TOTAL appropriations
+for DG ENV
+Commitments =1a+3
+0,500 0,500 0,500 0,500 2,000
+Payments
+=2a
++3
+0,500 0,500 0,500 0,500 2,000
+The amount reported above will be needed to support various implementation tasks related to the legislative provisions that will be carried out by
+DG ENV and JRC.
+The procured activities include a general support contract for the implementation of the proposal.
+In addition, administrative arrangement(s) with JRC have been included in this category, in particular for establishing an integrated monitoring.
+tasks
+resources
+2023 2024 2025 2026 2027 total
+(EUR million (to three decimal places)
+All costs except HR and
+Administrative
+General support for implementing the
+directive (for developing technical
+guidance, providing support for MSs
+transposition and implementation, etc.)
+Service contract/
+External experts
+0,150 0,150 0,150 0,150 0,600
+87 Technical and/or administrative assistance and expenditure in support of the implementation of EU programmes and/or actions (former ‘BA’ lines), indirect research, direct research.
+EN
+12
+EN
+Additional financial contribution (part of
+DG ENV) for the run of the LUCAS
+Survey and its LUCAS Soil module
+(pending the definition of contribution of
+other DGs)88.
+Upgrading EUSO, Soil Health
+dashboard, LUCAS Soil; integrate
+LUCAS Soil and MS data; facilitate
+harmonization of methodologies
+Provide support for transposing and
+implementing the Directive, in particular
+concerning land take and soil
+contamination, integrating MS
+monitoring elements and promoting
+harmonization
+Total
+0,000 0,000 0,000 0,000 0,000
+Administrative
+arrangement between
+ENV - JRC
+0,350 0,350 0,350 0,350 1,400
+0,500 0,500 0,500 0,500 2,000
+Concerning the Agency EEA, the impact on the agency and any need for reinforcement, will be detailed, as needed, in a dedicated Legislative Financial
+Statement grouping all relevant proposed initiatives.
+ TOTAL operational appropriations
+Commitments
+Payments
+ TOTAL appropriations of an administrative nature
+financed from the envelope for specific programmes
+(4)
+(5)
+(6)
+88 Up to the 2022 LUCAS Survey has been implemented through budgetary delegation from several DGs; based on latest contributions from DG ENV, corresponding
+to 1,100 K€ per year, no additional amount is expected to be needed from DG ENV; since the directive requires a regular monitoring, a dedicated budgetary envelope
+and budget line is to be envisaged in the next MFF, implemented in agreement with all the DGs involved (for instance through a Memorandum of Understanding).
+EN
+13
+EN
+TOTAL appropriations
+under HEADING 3 ENV
+of the multiannual financial
+framework
+Commitments =4+ 6 0,000 0,500 0,500 0,500 0,500 2,000
+0,000 0,500 0,500 0,500 0,500 2,000
+Payments =5+ 6
+ TOTAL operational appropriations (all
+operational headings)
+Commitments
+Payments
+TOTAL appropriations of an administrative nature financed
+from the envelope for specific programmes (all operational
+headings)
+(4)
+(5)
+(6)
+TOTAL appropriations
+under HEADINGS 1 to 6
+of the multiannual financial
+framework
+Commitments =4+ 6 0,000 0,842 1,013 1,013 1,013 3,881
+0,000 0,842 1,013 1,013 1,013 3,881
+Payments =5+ 6
+EN
+14
+EN
+Heading of multiannual financial
+framework
+7 ‘Administrative expenditure’
+This section should be filled in using the 'budget data of an administrative nature' to be firstly introduced in the Annex to the Legislative
+Financial Statement (Annex 5 to the Commission decision on the internal rules for the implementation of the Commission section of the general
+budget of the European Union), which is uploaded to DECIDE for interservice consultation purposes.
+2023 2024 2025 2026 2027 TOTAL
+EUR million (to three decimal places)
+DG: ENV
+ Human resources
+ Other administrative expenditure
+0,528 0,699 0,699 0,870 2,796
+0,031 0,062 0,110 0,110 0,110 0,423
+TOTAL DG ENV Appropriations 0,031 0,590 0,809 0,809 0,980 3,219
+ Human resources
+ Other administrative expenditure
+0,342 0,342 0,433 0,433 1,550
+0,000 0,000 0,000 0,000 0,000 0,000
+TOTAL DG ESTAT Appropriations 0,000 0,342 0,342 0,433 0,433 1,550
+2023 2024 2025 2026 2027 TOTAL
+DG: ESTAT
+The cost per FTE (AD/AST) is calculated at EUR 171 000/y and at EUR 91 000/y for CA. The other administrative expenditure accounts for
+Committee and expert group meetings, missions and other costs associated with this personnel.
+TOTAL appropriations
+under HEADING 7
+of the multiannual financial
+framework
+(Total commitments =
+Total payments)
+0,031 0,932 1,151 1,242 1,413 4,769
+EN
+15
+EN
+TOTAL appropriations
+under HEADINGS 1 to 7
+of the multiannual financial
+framework
+2023 2024 2025 2026 2027 TOTAL
+Commitments 0,031 1,774 2,164 2,255 2,426 8,650
+Payments
+0,031 1,774 2,164 2,255 2,426 8,650
+EUR million (to three decimal places)
+3.2.2. Estimated output funded with operational appropriations
+Indicate
+objectives and
+outputs
+
+Type89
+Avera
+ge
+cost
+Year
+N
+Year
+N+1
+Year
+N+2
+Year
+N+3
+OUTPUTS
+Commitment appropriations in EUR million (to three decimal places)
+Enter as many years as necessary to show the
+duration of the impact (see point 1.6)
+TOTAL
+o
+N
+Cost N
+o
+Cost N
+o
+Cost N
+o
+Cost N
+o
+Cost N
+o
+Cost N
+o
+Cost
+Total
+No
+Total
+cost
+SPECIFIC OBJECTIVE No 190…
+- Output
+- Output
+- Output
+Subtotal for specific objective No 1
+SPECIFIC OBJECTIVE No 2 ...
+89 Outputs are products and services to be supplied (e.g.: number of student exchanges financed, number of km of roads built, etc.).
+90 As described in point 1.4.2. ‘Specific objective(s)…’
+EN
+16
+EN
+- Output
+Subtotal for specific objective No 2
+TOTALS
+EN
+17
+EN
+3.2.3.
+1.1.1.1. Estimated requirements on administrative appropriations in the Commission
+–  The proposal/initiative does not require the use of appropriations of an
+administrative nature
+–  The proposal/initiative requires the use of appropriations of an administrative
+nature, as explained below:
+EUR million (to three decimal places)
+2023 2024 2025 2026 2027 TOTAL
+HEADING 7
+of the multiannual
+financial framework
+Human resources
+Other administrative
+expenditure
+Subtotal HEADING 7
+of the multiannual
+financial framework
+0,000 0,870 1,041 1,132 1,303 4,346
+0,031 0,062 0,110 0,110 0,110 0,423
+0,031 0,932 1,151 1,242 1,413 4,769
+The cost per FTE (AD/AST) is calculated at EUR 171 000/y. The “other administrative expenditure” accounts for Committee and expert
+group meetings, missions and other costs associated with this personnel.
+Outside HEADING 791
+of the multiannual
+financial framework
+Human resources (JRC)
+Other expenditure
+of an administrative
+nature
+Subtotal
+outside HEADING 7
+of the multiannual
+financial framework
+0,342 0,513 0,513 0,513 1,881
+0,342 0,513 0,513 0,513 1,881
+N/A
+TOTAL
+0,031 1,274 1,664 1,755 1,926 6,650
+The appropriations required for human resources and other expenditure of an administrative nature will be met by
+appropriations from the DG that are already assigned to management of the action and/or have been redeployed within the
+DG, together if necessary with any additional allocation which may be granted to the managing DG under the annual
+allocation procedure and in the light of budgetary constraints.
+91 Technical and/or administrative assistance and expenditure in support of the implementation of EU programmes
+and/or actions (former ‘BA’ lines), indirect research, direct research.
+EN
+18
+EN
+3.2.3.1. Estimated requirements of human resources
+–  The proposal/initiative does not require the use of human resources.
+–  The proposal/initiative requires the use of human resources, as explained
+below:
+20 01 02 01 (Headquarters and Commission’s Representation Offices) - DG ENV
+Estimate to be expressed in full time equivalent units
+2023 2024 2025 2026 2027
+2 3
+20 01 02 01 (Headquarters and Commission’s Representation Offices) - Eurostat
+20 01 02 03 (Delegations)
+01 01 01 01 (Indirect research)
+01 01 01 11 (Direct research) - JRC
+Other budget lines (specify)
+2 2
+2 3
+20 02 01 (AC, END, INT from the ‘global envelope’) – DG ENV
+2 2
+20 02 01 (AC, END, INT from the ‘global envelope’) – Eurostat
+20 02 03 (AC, AL, END, INT and JPD in the delegations)
+XX 01 xx yy zz 9
+- at Headquarters
+- in Delegations
+01 01 01 02 (AC, END, INT - Indirect research)
+01 01 01 12 (AC, END, INT - Direct research)
+Other budget lines (specify)
+TOTAL
+XX is the policy area or budget title concerned.
+1
+1 1 1
+The human resources required will be met by staff from the DG who are already assigned to management of the
+action and/or have been redeployed within the DG, together if necessary with any additional allocation which
+may be granted to the managing DG under the annual allocation procedure and in the light of budgetary
+constraints.
+Description of tasks to be carried out:
+Officials and temporary staff ENV Prepare and lead the development of technical guidance and provide support to
+Member States in the transposition and implementation of the initiative, in particular in
+the field of: soil health criteria, sampling, data, methodology, assessment, monitoring
+and analysis; soil districts; land take; register of contaminated sites.
+External staff
+Sustain a dialogue on soil health with Member States, their competent authorities and
+EEA including in the framework of relevant expert groups and committees; report to
+EP and Council.
+Prepare and lead: the monitoring and verification of the transposition and
+implementation of the law by Member States; the adaptation of the EU Soil
+Observatory and its dashboard on soil health, integrating as well Member States data;
+the adaptation of the EU statistical survey LUCAS to the new requirements of the law.
+Prepare and lead the adoption of any new Commission implementing acts, updating
+annexes.
+SNEs to provide expertise on national systems, constraints and opportunities for the
+formulation of effective guidance and an effective and efficient support to Member
+States on transposition and implementation.
+Officials and temporary staff JRC Lead the upgrading of EUSO and Soil health dashboard to Directive’s requirements.
+Provide technical support for helping MS transposing and implementing the Directive.
+EN
+19
+EN
+Facilitate filling in the knowledge gaps related to the directive, interfacing with
+research programmes, e.g. for any needed update of the directive’s annexes.
+Provide the necessary relevant knowledge update for ENV policy tasks related to the
+Directive.
+Upgrade LUCAS Soil to make it consistent with Directive’s requirements.
+Officials and temporary staff
+Eurostat
+Adapt and upgrade the EU statistical survey LUCAS to the new quality requirements
+of the Directive.
+Run the EU statistical survey LUCAS and manage related contracts.
+Adapt the data management tool and related IT infrastructure to meet the data quality
+requirements of the Directive.
+EN
+20
+EN
+3.2.4. Compatibility with the current multiannual financial framework
+The proposal/initiative:
+–  can be fully financed through redeployment within the relevant heading of the
+Multiannual Financial Framework (MFF).
+The costs foreseen under the budget line 09 02 01 will be borne by the LIFE
+programme and will be planned under the annual management plan exercises of DG
+ENV. The human resources required shall be preferably met by an additional
+allocation under the annual allocation procedure of human resources
+–  requires use of the unallocated margin under the relevant heading of the
+MFF and/or use of the special instruments as defined in the MFF Regulation.
+–  requires a revision of the MFF.
+Explain what is required, specifying the headings and budget lines concerned and the corresponding
+amounts.
+3.2.5. Third-party contributions
+The proposal/initiative:
+–  does not provide for co-financing by third parties
+–  provides for the co-financing by third parties estimated below:
+Appropriations in EUR million (to three decimal places)
+Year
+N92
+Year
+N+1
+Year
+N+2
+Year
+N+3
+Enter as many years as necessary
+to show the duration of the
+impact (see point 1.6)
+Total
+Specify the co-financing
+body
+TOTAL appropriations
+co-financed
+92 Year N is the year in which implementation of the proposal/initiative starts. Please replace "N" by the
+expected first year of implementation (for instance: 2021). The same for the following years.
+EN
+21
+EN
+3.3. Estimated impact on revenue
+–  The proposal/initiative has no financial impact on revenue.
+–  The proposal/initiative has the following financial impact:
+–  on own resources
+–  on other revenue
+please indicate, if the revenue is assigned to expenditure lines 
+Appropriations
+available for
+the current
+financial year
+Budget revenue line:
+Article ………….
+EUR million (to three decimal places)
+Impact of the proposal/initiative93
+Year
+N
+Year
+N+1
+Year
+N+2
+Year
+N+3
+Enter as many years as necessary to show
+the duration of the impact (see point 1.6)
+For assigned revenue, specify the budget expenditure line(s) affected.
+[…]
+Other remarks (e.g. method/formula used for calculating the impact on revenue or any other
+information).
+[…]
+93 As regards traditional own resources (customs duties, sugar levies), the amounts indicated must be net
+amounts, i.e. gross amounts after deduction of 20 % for collection costs.
+EN
+22
+EN

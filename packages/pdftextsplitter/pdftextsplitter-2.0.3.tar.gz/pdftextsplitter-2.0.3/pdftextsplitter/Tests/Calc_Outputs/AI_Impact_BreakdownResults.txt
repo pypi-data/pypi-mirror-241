@@ -1,0 +1,2863 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document AI_Impact] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = AI_Impact
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+artificial intelligence (AI)1 kan worden ingezet om handelingen sneller of veiliger uit te voeren, zoals het inspecteren van asfaltkwaliteit of overtredingen op zee handhaven. AI biedt kansen, maar het brengt ook gevaren met zich mee. De cio-raad van IenW heeft in november 2020 akkoord gegeven om aan de slag te gaan met een concept AI Impact Assessment (AIIA), zodat er meer aandacht komt voor verantwoorde AI. Het IDlab ILT, het RWS Datalab en Concerndirectie Informatiebeleid van IenW (CDIB) hebben dit opgepakt en gezamenlijk deze nieuwe versie van het AIIA ontwikkeld. Het AIIA is vastgesteld door de Bestuursraad van IenW op 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = AI Impact Assessment Het hulpmiddel voor een betrouwbaar AI-project
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = In samenwerking door collega’s van het ministerie Infrastructuur en Waterstaat (IenW) bij Concerndirectie Informatiebeleid (CDIB), Inspectie Leefomgeving en Transport (ILT IDlab en afdeling analyse) en Rijkswaterstaat (RWS Datalab)
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Inhoudsopgave
+ nativeID=3 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Toelichting
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Leeswijzer Vragenlijst
+ nativeID=5 parentID=3 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Inleidende vragen
+ nativeID=6 parentID=3 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Doel van het systeem Rol binnen de organisatie
+ nativeID=7 parentID=3 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Fundamentele rechten & fairness
+ nativeID=8 parentID=3 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Grondrechten Bias Stakeholderparticipatie
+ nativeID=9 parentID=3 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Technische robuustheid
+ nativeID=10 parentID=3 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Accuraatheid Betrouwbaarheid Technische implementatie Reproduceerbaarheid Uitlegbaarheid
+ nativeID=11 parentID=3 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Data governance
+ nativeID=12 parentID=3 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Kwaliteit en integriteit van data Privacy en gegevensbescherming
+ nativeID=13 parentID=3 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Risicobeheer
+ nativeID=14 parentID=3 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Risicobeheersing Alternatieve werkwijze Hackaanvallen en corruptie
+ nativeID=15 parentID=3 & horizontal_ordering=11
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Verantwoordingsplicht
+ nativeID=16 parentID=3 & horizontal_ordering=12
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Communicatie Controleerbaarheid Archivering Klimaatadaptie
+ nativeID=17 parentID=3 & horizontal_ordering=13
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Bijlagen
+ nativeID=18 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Begrippenlijst Wie is wie Wie doet wat
+ nativeID=19 parentID=18 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Toelichting
+ nativeID=20 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+artificial intelligence (AI)1 kan worden ingezet om handelingen sneller of veiliger uit te voeren, zoals het inspecteren van asfaltkwaliteit of overtredingen op zee handhaven. AI biedt kansen, maar het brengt ook gevaren met zich mee. De cio-raad van IenW heeft in november 2020 akkoord gegeven om aan de slag te gaan met een concept AI Impact Assessment (AIIA), zodat er meer aandacht komt voor verantwoorde AI. Het IDlab ILT, het RWS Datalab en Concerndirectie Informatiebeleid van IenW (CDIB) hebben dit opgepakt en gezamenlijk deze nieuwe versie van het AIIA ontwikkeld. Het AIIA is vastgesteld door de Bestuursraad van IenW op 
+
+ [ALINEA-CONTENT]:
+artificial intelligence (AI)1 kan worden ingezet om handelingen sneller of veiliger uit te voeren, zoals het
+inspecteren van asfaltkwaliteit of overtredingen op zee handhaven. AI biedt kansen, maar het brengt ook
+gevaren met zich mee. De cio-raad van IenW heeft in november 2020 akkoord gegeven om aan de slag te
+
+          ***          [--- more alinea content ---]        ***          
+
+vragen bij de Concerndirectie Informatiebeleid).
+Past het AIIA niet bij een AI-project of systeem waaraan je denkt? Of heb je andere opmerkingen of vragen
+over het AIIA? Neem contact op met de CIO-office bij Concerndirectie Informatiebeleid.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Leeswijzer
+ nativeID=21 parentID=20 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Voor het invullen van het AIIA is het volgende van belang: - Het AIIA dient als instrument voor gesprek en controle. - Wijzigt het doel van het ai-systeem, dan moet het AIIA bijgesteld worden. - dikgedrukte woorden zijn aanklikbare begrippen, gedefinieerd in bijlage Begrippenlijst. - Het AIIA moet af zijn voor het in gebruik nemen van een AI-systeem. - Het AIIA is verplicht, maar de mate waarin het wordt ingevuld ligt bij de expertise van de projectleider. - Enkel ‘ja’ of ‘nee’ volstaat niet als antwoord op de vragen. - Vragen zijn gecodeerd en genummerd, de eerste letter verwijst naar 
+
+ [ALINEA-CONTENT]:
+Voor het invullen van het AIIA is het volgende van belang:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Het AIIA dient als instrument voor gesprek en controle. 
+ nativeID=22 parentID=21 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Het AIIA dient als instrument voor gesprek en controle. 
+
+ [ALINEA-CONTENT]:
+- Het AIIA dient als instrument voor gesprek en controle.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Wijzigt het doel van het ai-systeem, dan moet het AIIA bijgesteld worden. 
+ nativeID=23 parentID=21 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Wijzigt het doel van het ai-systeem, dan moet het AIIA bijgesteld worden. 
+
+ [ALINEA-CONTENT]:
+- Wijzigt het doel van het ai-systeem, dan moet het AIIA bijgesteld worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - dikgedrukte woorden zijn aanklikbare begrippen, gedefinieerd in bijlage Begrippenlijst. 
+ nativeID=24 parentID=21 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- dikgedrukte woorden zijn aanklikbare begrippen, gedefinieerd in bijlage Begrippenlijst. 
+
+ [ALINEA-CONTENT]:
+- dikgedrukte woorden zijn aanklikbare begrippen, gedefinieerd in bijlage Begrippenlijst.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Het AIIA moet af zijn voor het in gebruik nemen van een AI-systeem. 
+ nativeID=25 parentID=21 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Het AIIA moet af zijn voor het in gebruik nemen van een AI-systeem. 
+
+ [ALINEA-CONTENT]:
+- Het AIIA moet af zijn voor het in gebruik nemen van een AI-systeem.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Het AIIA is verplicht, maar de mate waarin het wordt ingevuld ligt bij de ...
+ nativeID=26 parentID=21 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Het AIIA is verplicht, maar de mate waarin het wordt ingevuld ligt bij de expertise van de projectleider. 
+
+ [ALINEA-CONTENT]:
+- Het AIIA is verplicht, maar de mate waarin het wordt ingevuld ligt bij de expertise van de projectleider.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Enkel ‘ja’ of ‘nee’ volstaat niet als antwoord op de vragen. 
+ nativeID=27 parentID=21 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Enkel ‘ja’ of ‘nee’ volstaat niet als antwoord op de vragen. 
+
+ [ALINEA-CONTENT]:
+- Enkel ‘ja’ of ‘nee’ volstaat niet als antwoord op de vragen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Vragen zijn gecodeerd en genummerd, de eerste letter verwijst naar het hoofdstuk (bv. T ...
+ nativeID=28 parentID=21 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Vragen zijn gecodeerd en genummerd, de eerste letter verwijst naar het hoofdstuk (bv. T voor Technische robuustheid), de letter ‘o’ wordt hieraan toegevoegd als het een groene  hulpvraag betreft. 
+
+ [ALINEA-CONTENT]:
+- Vragen zijn gecodeerd en genummerd, de eerste letter verwijst naar het hoofdstuk (bv. T voor Technische
+robuustheid), de letter ‘o’ wordt hieraan toegevoegd als het een groene  hulpvraag betreft.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Vragenlijst
+ nativeID=29 parentID=20 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het volledige AIIA omvat zo’n 100 vragen. Het AIIA is verplicht bij het maken of inkopen van AI-systemen, maar het invullen gebeurt nadrukkelijk proportioneel, door de opdrachtgever en projectleider zelf te bepalen. Dit noemen we: verplicht, maar soepel. Dit betekent vooral dat je met gezond verstand moet nadenken over hoeveel impact jouw ai-systeem heeft. Bij alle vormen van artificial intelligence zijn de blauwe  overkoepelende vragen verplicht, deze helpen bij het faciliteren van de discussie over de wenselijkheid van het AI-systeem. De groene  hulpvragen helpen om hier een concrete invulling aan te geven. Niet alle groene vragen zijn bij 
+
+ [ALINEA-CONTENT]:
+Het volledige AIIA omvat zo’n 100 vragen. Het AIIA is verplicht bij het maken of inkopen van AI-systemen,
+maar het invullen gebeurt nadrukkelijk proportioneel, door de opdrachtgever en projectleider zelf te
+bepalen. Dit noemen we: verplicht, maar soepel. Dit betekent vooral dat je met gezond verstand moet
+
+          ***          [--- more alinea content ---]        ***          
+
+In bijlage ‘Wie doet wat’ tref je een overzicht dat kan helpen bij het bepalen wie welke vraag moet invullen.
+Sommige vragen kunnen bijvoorbeeld beter door een data scientist worden ingevuld, en andere vragen
+door een jurist.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Inleidende vragen
+ nativeID=30 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De inleidende vragen gaan over de algemene aspecten van het ai-systeem dat je gaat ontwikkelen. Deze vragen gaan over het doel van het systeem, en de rol die het systeem binnen de organisatie gaat hebben. Denk aan vragen over de gebruikte technieken, of wie er verantwoordelijk gaat zijn. Deze vragen zijn basis vragen om weer te geven wat je voor welk doel aan het doen bent. Het antwoord op deze vragen heeft relevantie voor de rest van het AIIA. i 1. Geef een korte beschrijving van het beoogde ai-systeem (titel, algemene omschrijving, probleemstelling, en het domein) i 2. Waarom is 
+
+ [ALINEA-CONTENT]:
+De inleidende vragen gaan over de algemene aspecten van het ai-systeem dat je gaat ontwikkelen.
+Deze vragen gaan over het doel van het systeem, en de rol die het systeem binnen de organisatie gaat
+hebben. Denk aan vragen over de gebruikte technieken, of wie er verantwoordelijk gaat zijn.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Doel van het systeem
+ nativeID=31 parentID=30 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Deze vragen zijn basis vragen om weer te geven wat je voor welk doel aan het doen bent. Het antwoord op deze vragen heeft relevantie voor de rest van het AIIA. i 1. Geef een korte beschrijving van het beoogde ai-systeem (titel, algemene omschrijving, probleemstelling, en het domein) i 2. Waarom is er voor de huidige techniek gekozen? (hierbij is het van belang dat alle afwegingen van robuustheid tot mensenrechten, impact op gebruiker en eindgebruiker, verantwoordingsplicht etc. zijn meegenomen in het antwoord) i 3. Wat is het doel en beoogde resultaat van het AI-systeem? i 4. Welk doel wordt er 
+
+ [ALINEA-CONTENT]:
+Deze vragen zijn basis vragen om weer te geven wat je voor welk doel aan het doen bent. Het antwoord op
+deze vragen heeft relevantie voor de rest van het AIIA.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 1. Geef een korte beschrijving van het beoogde ai-systeem (titel, algemene omschrijving, ...
+ nativeID=32 parentID=31 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 1. Geef een korte beschrijving van het beoogde ai-systeem (titel, algemene omschrijving, probleemstelling, en het domein) 
+
+ [ALINEA-CONTENT]:
+i 1. Geef een korte beschrijving van het beoogde ai-systeem (titel, algemene omschrijving,
+probleemstelling, en het domein)
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 2. Waarom is er voor de huidige techniek gekozen? (hierbij is het van belang ...
+ nativeID=33 parentID=31 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 2. Waarom is er voor de huidige techniek gekozen? (hierbij is het van belang dat alle afwegingen van robuustheid tot mensenrechten, impact op gebruiker en eindgebruiker, verantwoordingsplicht etc. zijn meegenomen in het antwoord) 
+
+ [ALINEA-CONTENT]:
+i 2. Waarom is er voor de huidige techniek gekozen? (hierbij is het van belang dat alle
+afwegingen van robuustheid tot mensenrechten, impact op gebruiker en eindgebruiker,
+verantwoordingsplicht etc. zijn meegenomen in het antwoord)
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 3. Wat is het doel en beoogde resultaat van het AI-systeem? 
+ nativeID=34 parentID=31 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 3. Wat is het doel en beoogde resultaat van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+i 3. Wat is het doel en beoogde resultaat van het AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 4. Welk doel wordt er aan het AI-systeem gekoppeld volgens het rapport Aandacht voor ...
+ nativeID=35 parentID=31 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 4. Welk doel wordt er aan het AI-systeem gekoppeld volgens het rapport Aandacht voor Algoritmes van de Algemene Rekenkamer2? doel 1, doel 2 of doel 3? 
+
+ [ALINEA-CONTENT]:
+i 4. Welk doel wordt er aan het AI-systeem gekoppeld volgens het rapport Aandacht voor
+Algoritmes van de Algemene Rekenkamer2? doel 1, doel 2 of doel 3?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Rol binnen de organisatie
+ nativeID=36 parentID=30 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Deze vragen leveren vaak discussie op. Naast vragen over de bouw en details van een AI-systeem, moet er goed nagedacht worden over de impact van het AI-systeem in zijn geheel. Dit zijn fundamentele vragen. Zorg daarom dat je ze goed uitdenkt. Probeer dit goed te nuanceren. Stel dat het AI-systeem een positieve impact heeft op duizenden burgers, maar een negatieve impact op tien burgers, dan is het systeem niet meteen onbruikbaar, maar moeten er wel goede maatwerkoplossingen komen voor de tien burgers waarop negatieve impact is. Bij deze vragen stel je ook de rolverdeling binnen het ontwikkelen en gebruiken van 
+
+ [ALINEA-CONTENT]:
+Deze vragen leveren vaak discussie op. Naast vragen over de bouw en details van een AI-systeem, moet er
+goed nagedacht worden over de impact van het AI-systeem in zijn geheel. Dit zijn fundamentele vragen.
+Zorg daarom dat je ze goed uitdenkt. Probeer dit goed te nuanceren. Stel dat het AI-systeem een positieve
+
+          ***          [--- more alinea content ---]        ***          
+
+negatieve impact is.
+Bij deze vragen stel je ook de rolverdeling binnen het ontwikkelen en gebruiken van je systeem vast.
+Deze rollen staan gedefinieerd in de begrippenlijst. Houd deze definities aan.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 5. Waar in de organisatie is beoogd het AI-systeem te gebruiken en welke beoogde ...
+ nativeID=37 parentID=36 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 5. Waar in de organisatie is beoogd het AI-systeem te gebruiken en welke beoogde impact is er voor de organisatie? 
+
+ [ALINEA-CONTENT]:
+i 5. Waar in de organisatie is beoogd het AI-systeem te gebruiken en welke beoogde impact is er
+voor de organisatie?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 6. Beschrijf de rolverdeling binnen het opzetten van het AI-systeem (zoals de ontwikkelaar, ...
+ nativeID=38 parentID=36 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 6. Beschrijf de rolverdeling binnen het opzetten van het AI-systeem (zoals de ontwikkelaar, opdrachtgever, projectleider, beheerorganisaties en eindverantwoordelijke). 
+
+ [ALINEA-CONTENT]:
+i 6. Beschrijf de rolverdeling binnen het opzetten van het AI-systeem (zoals de ontwikkelaar,
+opdrachtgever, projectleider, beheerorganisaties en eindverantwoordelijke).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i 7. Wie is de gebruiker van het AI-systeem, wie zijn de eindgebruikers die met ...
+ nativeID=39 parentID=36 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i 7. Wie is de gebruiker van het AI-systeem, wie zijn de eindgebruikers die met het systeem werken en welke betrokkenen ondervinden impact van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+i 7. Wie is de gebruiker van het AI-systeem, wie zijn de eindgebruikers die met het systeem
+werken en welke betrokkenen ondervinden impact van het AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Fundamentele rechten & fairness
+ nativeID=40 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Zoals veel technologieën kunnen AI-systemen grondrechten zowel bevorderen als benadelen. Gelet op het grote belang van de bescherming van grondrechten, en de bijzondere risico’s die kunnen bestaan voor de aantasting van die grondrechten door inzet van AI-systemen, is het van belang om aan dit onderwerp afzonderlijk aandacht te besteden. Dit hoofdstuk hangt nauw samen met het hoofdstuk data governance, waarin privacy wordt behandeld. Het recht op privacy is een grondrecht, maar door het karakter van het onderwerp privacy is het onderverdeeld in een eigen hoofdstuk. Mensen die belang hebben bij de werking van het ai-systeem moeten goed behandeld worden. Dat 
+
+ [ALINEA-CONTENT]:
+Zoals veel technologieën kunnen AI-systemen grondrechten zowel bevorderen als benadelen. Gelet op
+het grote belang van de bescherming van grondrechten, en de bijzondere risico’s die kunnen bestaan voor
+de aantasting van die grondrechten door inzet van AI-systemen, is het van belang om aan dit onderwerp
+
+          ***          [--- more alinea content ---]        ***          
+
+afzonderlijk aandacht te besteden. Dit hoofdstuk hangt nauw samen met het hoofdstuk data governance,
+waarin privacy wordt behandeld. Het recht op privacy is een grondrecht, maar door het karakter van het
+onderwerp privacy is het onderverdeeld in een eigen hoofdstuk.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Grondrechten
+ nativeID=41 parentID=40 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mensen die belang hebben bij de werking van het ai-systeem moeten goed behandeld worden. Dat bete- kent dat de (fundamentele) rechten van alle betrokkenen gewaarborgd moeten worden. Voor een goede invulling van dit onderwerp verwijzen wij je naar de Impact Assessment Mensenrechten en Algoritmes.3 De vragen die in deze AIIA gesteld worden zijn dan ook niet voldoende voor het afbakenen van dit onderwerp. Bij het beantwoorden van de vragen zijn de grondrechten van de mens van toepassing, deze staan vastgelegd in de Grondwet en het Europese Verdrag voor de Rechten van de Mens. f 1. Wat is de mogelijke impact 
+
+ [ALINEA-CONTENT]:
+Mensen die belang hebben bij de werking van het ai-systeem moeten goed behandeld worden. Dat bete-
+kent dat de (fundamentele) rechten van alle betrokkenen gewaarborgd moeten worden. Voor een goede
+invulling van dit onderwerp verwijzen wij je naar de Impact Assessment Mensenrechten en Algoritmes.3 De
+
+          ***          [--- more alinea content ---]        ***          
+
+vragen die in deze AIIA gesteld worden zijn dan ook niet voldoende voor het afbakenen van dit onderwerp.
+Bij het beantwoorden van de vragen zijn de grondrechten van de mens van toepassing, deze staan
+vastgelegd in de Grondwet en het Europese Verdrag voor de Rechten van de Mens.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = f 1. Wat is de mogelijke impact op de grondrechten van burgers door het gebruik ...
+ nativeID=42 parentID=41 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+f 1. Wat is de mogelijke impact op de grondrechten van burgers door het gebruik van het ai-systeem? 
+
+ [ALINEA-CONTENT]:
+f 1. Wat is de mogelijke impact op de grondrechten van burgers door het gebruik van het ai-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = f 2. Is het proportioneel en subsidiair om dit systeem in te zetten om de ...
+ nativeID=43 parentID=41 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+f 2. Is het proportioneel en subsidiair om dit systeem in te zetten om de gestelde doelen te realiseren? Oftewel: is de impact in verhouding met de beoogde doelen en zijn er geen andere minder ingrijpende manieren om deze doelen te behalen? 
+
+ [ALINEA-CONTENT]:
+f 2. Is het proportioneel en subsidiair om dit systeem in te zetten om de gestelde doelen te
+realiseren? Oftewel: is de impact in verhouding met de beoogde doelen en zijn er geen andere
+minder ingrijpende manieren om deze doelen te behalen?
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = f 3. Wat is de wettelijke grondslag van de inzet van het AI-systeem en van ...
+ nativeID=44 parentID=41 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+f 3. Wat is de wettelijke grondslag van de inzet van het AI-systeem en van de beoogde besluiten die genomen worden op basis van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+f 3. Wat is de wettelijke grondslag van de inzet van het AI-systeem en van de beoogde besluiten die
+genomen worden op basis van het AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 1. Welke grondrechtelijke bepalingen zijn mogelijk van toepassing? 
+ nativeID=45 parentID=41 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 1. Welke grondrechtelijke bepalingen zijn mogelijk van toepassing? 
+
+ [ALINEA-CONTENT]:
+fo 1. Welke grondrechtelijke bepalingen zijn mogelijk van toepassing?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 2. Op welk van deze grondrechtelijke bepalingen kan mogelijk een inbreuk worden gemaakt ...
+ nativeID=46 parentID=41 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 2. Op welk van deze grondrechtelijke bepalingen kan mogelijk een inbreuk worden gemaakt bij verkeerde uitvoering van het ai-systeem? Welke acties worden genomen om dit te voorkomen? 
+
+ [ALINEA-CONTENT]:
+fo 2. Op welk van deze grondrechtelijke bepalingen kan mogelijk een inbreuk worden gemaakt
+bij verkeerde uitvoering van het ai-systeem? Welke acties worden genomen om dit te
+voorkomen?
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Bias
+ nativeID=47 parentID=40 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+bias betekent het doen van aannames over dingen, mensen of groepen. Dit heeft twee kanten. Enerzijds is het noodzakelijk om conclusies over data op een nieuwe situatie te projecteren. We maken in generalisaties namelijk altijd aannames. Tegelijkertijd is het van belang dat er geen onrechtmatige vertekening ontstaat met vormen van onterechte en onwenselijke bias die in strijd kunnen zijn met de rechten van de mens. Bias kan zitten alle facetten van het systeem: bias in de input, bias in het model en bias in de output. Er zijn verschillende typen bias die relevant zijn tijdens het ontwikkelen en inzetten van 
+
+ [ALINEA-CONTENT]:
+bias betekent het doen van aannames over dingen, mensen of groepen. Dit heeft twee kanten. Enerzijds is
+het noodzakelijk om conclusies over data op een nieuwe situatie te projecteren. We maken in generalisaties
+namelijk altijd aannames. Tegelijkertijd is het van belang dat er geen onrechtmatige vertekening ontstaat
+
+          ***          [--- more alinea content ---]        ***          
+
+wordt verkleind, ook al gaat dit ten koste van een (kleine) systematische afwijking. Bias kan ook positief
+worden ingezet. Een AI-systeem kan bijvoorbeeld bewust worden ontwikkeld om niet of minder te
+discrimineren, juist door het introduceren van bias.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = f 4. Hoe wordt rekening gehouden met mogelijk onwenselijke bias in de input, bias in ...
+ nativeID=48 parentID=47 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+f 4. Hoe wordt rekening gehouden met mogelijk onwenselijke bias in de input, bias in het model en bias in de output van het ai-systeem?4★ 
+
+ [ALINEA-CONTENT]:
+f 4. Hoe wordt rekening gehouden met mogelijk onwenselijke bias in de input, bias in het model
+en bias in de output van het ai-systeem?4★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Bias in de input(data)
+ nativeID=49 parentID=47 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 3. Is de input(data) data representatief voor het onderwerp waarover een beslissing moet worden genomen? fo 4. Worden indien nodig subpopulaties beschermd bij het trekken van steekproeven? fo 5. Is de keuze voor de inputvariabelen onderbouwd en afgestemd met de betrokkenen? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = fo 3. Is de input(data) data representatief voor het onderwerp waarover een beslissing moet worden ...
+ nativeID=50 parentID=49 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 3. Is de input(data) data representatief voor het onderwerp waarover een beslissing moet worden genomen? 
+
+ [ALINEA-CONTENT]:
+fo 3. Is de input(data) data representatief voor het onderwerp waarover een beslissing moet worden
+genomen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = fo 4. Worden indien nodig subpopulaties beschermd bij het trekken van steekproeven? 
+ nativeID=51 parentID=49 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 4. Worden indien nodig subpopulaties beschermd bij het trekken van steekproeven? 
+
+ [ALINEA-CONTENT]:
+fo 4. Worden indien nodig subpopulaties beschermd bij het trekken van steekproeven?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = fo 5. Is de keuze voor de inputvariabelen onderbouwd en afgestemd met de betrokkenen? 
+ nativeID=52 parentID=49 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 5. Is de keuze voor de inputvariabelen onderbouwd en afgestemd met de betrokkenen? 
+
+ [ALINEA-CONTENT]:
+fo 5. Is de keuze voor de inputvariabelen onderbouwd en afgestemd met de betrokkenen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Bias in het model
+ nativeID=53 parentID=47 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 6. Op welke manier wordt er rekening gehouden met het feit dat er geen onterechte of onrechtvaardige bias in een AI-systeem wordt gecreëerd of versterkt? fo 7. Is het AI-systeem te gebruiken door de beoogde eindgebruikers (dus ongeacht diens kenmerken zoals leeftijd, geslacht of capaciteit)? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = fo 6. Op welke manier wordt er rekening gehouden met het feit dat er geen ...
+ nativeID=54 parentID=53 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 6. Op welke manier wordt er rekening gehouden met het feit dat er geen onterechte of onrechtvaardige bias in een AI-systeem wordt gecreëerd of versterkt? 
+
+ [ALINEA-CONTENT]:
+fo 6. Op welke manier wordt er rekening gehouden met het feit dat er geen onterechte of
+onrechtvaardige bias in een AI-systeem wordt gecreëerd of versterkt?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = fo 7. Is het AI-systeem te gebruiken door de beoogde eindgebruikers (dus ongeacht diens ...
+ nativeID=55 parentID=53 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 7. Is het AI-systeem te gebruiken door de beoogde eindgebruikers (dus ongeacht diens kenmerken zoals leeftijd, geslacht of capaciteit)? 
+
+ [ALINEA-CONTENT]:
+fo 7. Is het AI-systeem te gebruiken door de beoogde eindgebruikers (dus ongeacht diens
+kenmerken zoals leeftijd, geslacht of capaciteit)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Bias in de output(data)
+ nativeID=56 parentID=47 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 8. Zijn er stop-, toezicht- of controle- mechanisme ingesteld om te voorkomen dat groepen in de maatschappij disproportioneel getroffen kunnen worden door de negatieve implicaties van het AI-systeem? Specifiek voor ILT: maak hier onderscheid tussen ondertoezichtstaanden (OTS) en de rest van de maatschappij. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = fo 8. Zijn er stop-, toezicht- of controle- mechanisme ingesteld om te voorkomen dat groepen ...
+ nativeID=57 parentID=56 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 8. Zijn er stop-, toezicht- of controle- mechanisme ingesteld om te voorkomen dat groepen in de maatschappij disproportioneel getroffen kunnen worden door de negatieve implicaties van het AI-systeem? Specifiek voor ILT: maak hier onderscheid tussen ondertoezichtstaanden (OTS) en de rest van de maatschappij. 
+
+ [ALINEA-CONTENT]:
+fo 8. Zijn er stop-, toezicht- of controle- mechanisme ingesteld om te voorkomen dat groepen in de
+maatschappij disproportioneel getroffen kunnen worden door de negatieve implicaties van het
+AI-systeem? Specifiek voor ILT: maak hier onderscheid tussen ondertoezichtstaanden (OTS) en
+
+          ***          [--- more alinea content ---]        ***          
+
+de rest van de maatschappij.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Stakeholderparticipatie
+ nativeID=58 parentID=40 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Bij stakeholder participatie worden verschillende doelgroepen betrokken in het kader van diversiteit, non-discriminatie en rechtvaardigheid. Om rechtvaardige AI te realiseren, moet er goed nagedacht worden over inclusie en diversiteit gedurende de gehele levenscyclus van het AI-systeem. In deze AIIA gaat het in deze context ook vaak over betrokkenen. Om te voorkomen dat de ontwikkelaars van een AI-systeem te veel in een eigen denkwereld blijven en zich niet bewust zijn van impliciete aannames of gevolgen, is afstemming over AI-systemen essentieel. Je doet dit door bijvoorbeeld af te stemmen met je eigen team, de klant, eindgebruiker, betrokkenen, ervaringsdeskundigen, domeinexperts als universiteiten, andere 
+
+ [ALINEA-CONTENT]:
+Bij stakeholder participatie worden verschillende doelgroepen betrokken in het kader van diversiteit,
+non-discriminatie en rechtvaardigheid. Om rechtvaardige AI te realiseren, moet er goed nagedacht worden
+over inclusie en diversiteit gedurende de gehele levenscyclus van het AI-systeem. In deze AIIA gaat het in
+
+          ***          [--- more alinea content ---]        ***          
+
+Je doet dit door bijvoorbeeld af te stemmen met je eigen team, de klant, eindgebruiker, betrokkenen,
+ervaringsdeskundigen, domeinexperts als universiteiten, andere overheidsorganisaties etc. Een moreel
+beraad5 organiseren is aanbevolen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = f 5. Zijn alle stakeholders in kaart gebracht middels een stakeholderanalyse en is met hen ...
+ nativeID=59 parentID=58 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+f 5. Zijn alle stakeholders in kaart gebracht middels een stakeholderanalyse en is met hen het gesprek aangegaan? 
+
+ [ALINEA-CONTENT]:
+f 5. Zijn alle stakeholders in kaart gebracht middels een stakeholderanalyse en is met hen het
+gesprek aangegaan?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 9. Met welke mensen en/of groepen is er afgestemd bij het ontwikkelen van ai-systeem? 
+ nativeID=60 parentID=58 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 9. Met welke mensen en/of groepen is er afgestemd bij het ontwikkelen van ai-systeem? 
+
+ [ALINEA-CONTENT]:
+fo 9. Met welke mensen en/of groepen is er afgestemd bij het ontwikkelen van ai-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 10. Zijn de stakeholders op de hoogte waarom er gekozen is voor bepaalde input ...
+ nativeID=61 parentID=58 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 10. Zijn de stakeholders op de hoogte waarom er gekozen is voor bepaalde input variabelen (waar zij wellicht in staan)? 
+
+ [ALINEA-CONTENT]:
+fo 10. Zijn de stakeholders op de hoogte waarom er gekozen is voor bepaalde input variabelen
+(waar zij wellicht in staan)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 11. Welke feedback is er verzameld van teams of groepen die verschillende achtergronden en ...
+ nativeID=62 parentID=58 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 11. Welke feedback is er verzameld van teams of groepen die verschillende achtergronden en ervaringen representeren? En wat is hier vervolgens mee gedaan? 
+
+ [ALINEA-CONTENT]:
+fo 11. Welke feedback is er verzameld van teams of groepen die verschillende achtergronden en
+ervaringen representeren? En wat is hier vervolgens mee gedaan?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 12. Hoe wordt de invoering van het AI-systeem geïntroduceerd richting collega’s van IenW? 
+ nativeID=63 parentID=58 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 12. Hoe wordt de invoering van het AI-systeem geïntroduceerd richting collega’s van IenW? 
+
+ [ALINEA-CONTENT]:
+fo 12. Hoe wordt de invoering van het AI-systeem geïntroduceerd richting collega’s van IenW?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = fo 13. Hoe wordt de invoering van het AI-systeem geïntroduceerd richting de samenleving? 
+ nativeID=64 parentID=58 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+fo 13. Hoe wordt de invoering van het AI-systeem geïntroduceerd richting de samenleving? 
+
+ [ALINEA-CONTENT]:
+fo 13. Hoe wordt de invoering van het AI-systeem geïntroduceerd richting de samenleving?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Technische robuustheid
+ nativeID=65 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Of een ai-systeem werkt waarvoor het bedoeld is wordt afgevangen met technische robuustheid. Een ai-systeem moet over het algemeen goed presteren. Om de kans op verkeerde beoordelingen te minimaliseren, is het belangrijk doorlopend de prestaties van een AI-systeem te meten. Dit omvat het meten van het AI-systeem in zowel de ontwikkel- als productiefase. Ook de kwaliteit van de gebruikte data is van belang. Een AI-systeem is dus nooit af; het blijft noodzakelijk AI-systemen regelmatig te testen en hertrainen. Het is wenselijk een kwantificering te hebben van de kans waarop tóch een verkeerde beoordeling wordt gemaakt. accuraatheid van het systeem kan 
+
+ [ALINEA-CONTENT]:
+Of een ai-systeem werkt waarvoor het bedoeld is wordt afgevangen met technische robuustheid.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Accuraatheid
+ nativeID=66 parentID=65 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Een ai-systeem moet over het algemeen goed presteren. Om de kans op verkeerde beoordelingen te minimaliseren, is het belangrijk doorlopend de prestaties van een AI-systeem te meten. Dit omvat het meten van het AI-systeem in zowel de ontwikkel- als productiefase. Ook de kwaliteit van de gebruikte data is van belang. Een AI-systeem is dus nooit af; het blijft noodzakelijk AI-systemen regelmatig te testen en hertrainen. Het is wenselijk een kwantificering te hebben van de kans waarop tóch een verkeerde beoordeling wordt gemaakt. accuraatheid van het systeem kan je bepalen door acceptatiecriteria op te stellen voor zowel de data als het 
+
+ [ALINEA-CONTENT]:
+Een ai-systeem moet over het algemeen goed presteren. Om de kans op verkeerde beoordelingen te
+minimaliseren, is het belangrijk doorlopend de prestaties van een AI-systeem te meten. Dit omvat het
+meten van het AI-systeem in zowel de ontwikkel- als productiefase. Ook de kwaliteit van de gebruikte
+
+          ***          [--- more alinea content ---]        ***          
+
+met de inzet van een AI-systeem. Ook is het van belang dat de kwaliteit van het systeem doorlopend
+gemonitord wordt en indien nodig tijdens het hertrainen of doorontwikkelen de acceptatiecriteria en keuze
+voor meetsystemen opnieuw geëvalueerd worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = t 1. Hoe wordt de doorlopende accuraatheid van het systeem gemeten en gewaarborgd? 
+ nativeID=67 parentID=66 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+t 1. Hoe wordt de doorlopende accuraatheid van het systeem gemeten en gewaarborgd? 
+
+ [ALINEA-CONTENT]:
+t 1. Hoe wordt de doorlopende accuraatheid van het systeem gemeten en gewaarborgd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 1. Wat zijn de opgezette acceptatiecriteria om de kwaliteit van de input(data) en output(data) ...
+ nativeID=68 parentID=66 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 1. Wat zijn de opgezette acceptatiecriteria om de kwaliteit van de input(data) en output(data) van het model aan te toetsen? 
+
+ [ALINEA-CONTENT]:
+to 1. Wat zijn de opgezette acceptatiecriteria om de kwaliteit van de input(data) en output(data)
+van het model aan te toetsen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 2. Passen de acceptatiecriteria bij de data en het doel van het AI-systeem? 
+ nativeID=69 parentID=66 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 2. Passen de acceptatiecriteria bij de data en het doel van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+to 2. Passen de acceptatiecriteria bij de data en het doel van het AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 3. Welke evaluatie meetsystemen (performance metrics) ga je gebruiken om de ...
+ nativeID=70 parentID=66 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 3. Welke evaluatie meetsystemen (performance metrics) ga je gebruiken om de acceptatiecriteria te waarborgen en waarom?7★ 
+
+ [ALINEA-CONTENT]:
+to 3. Welke evaluatie meetsystemen (performance metrics) ga je gebruiken om de
+acceptatiecriteria te waarborgen en waarom?7★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 4. Hoe wordt de output(data) (periodiek) steekproefsgewijs en doorlopend getest op juistheid? 
+ nativeID=71 parentID=66 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 4. Hoe wordt de output(data) (periodiek) steekproefsgewijs en doorlopend getest op juistheid? 
+
+ [ALINEA-CONTENT]:
+to 4. Hoe wordt de output(data) (periodiek) steekproefsgewijs en doorlopend getest op juistheid?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 5. Hoe worden afwijkingen in de output(data) ten opzichte van acceptatiecriteria tijdig ...
+ nativeID=72 parentID=66 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 5. Hoe worden afwijkingen in de output(data) ten opzichte van acceptatiecriteria tijdig geanalyseerd en gecorrigeerd? 
+
+ [ALINEA-CONTENT]:
+to 5. Hoe worden afwijkingen in de output(data) ten opzichte van acceptatiecriteria tijdig
+geanalyseerd en gecorrigeerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 6. Wat zijn de resultaten als er alternatieve modellen zouden worden ingezet? 
+ nativeID=73 parentID=66 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 6. Wat zijn de resultaten als er alternatieve modellen zouden worden ingezet? 
+
+ [ALINEA-CONTENT]:
+to 6. Wat zijn de resultaten als er alternatieve modellen zouden worden ingezet?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Betrouwbaarheid
+ nativeID=74 parentID=65 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Een betrouwbaar AI-systeem geeft in vergelijkbare gevallen dezelfde resultaten. De vraag die centraal staat bij betrouwbaarheid is of de individuele output(data) nogmaals te verkrijgen is met behulp van hetzelfde model en dezelfde input(data), dezelfde instellingen en dezelfde parameters. Ook is het van belang dat het systeem een betrouwbare indicatie geeft van hoe goed het model gaat presteren in nieuwe situaties. t 2. Is het ai-systeem betrouwbaar? to 7. Wat zijn de belangrijkste factoren die de prestaties van het ai-systeem beïnvloeden? to 8. Wordt een deel van de (sub)dataset uitgesloten voor het leren van het model en alleen gebruikt voor het 
+
+ [ALINEA-CONTENT]:
+Een betrouwbaar AI-systeem geeft in vergelijkbare gevallen dezelfde resultaten. De vraag die centraal staat
+bij betrouwbaarheid is of de individuele output(data) nogmaals te verkrijgen is met behulp van hetzelfde
+model en dezelfde input(data), dezelfde instellingen en dezelfde parameters. Ook is het van belang dat
+
+          ***          [--- more alinea content ---]        ***          
+
+het systeem een betrouwbare indicatie geeft van hoe goed het model gaat presteren in nieuwe situaties.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = t 2. Is het ai-systeem betrouwbaar? 
+ nativeID=75 parentID=74 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+t 2. Is het ai-systeem betrouwbaar? 
+
+ [ALINEA-CONTENT]:
+t 2. Is het ai-systeem betrouwbaar?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 7. Wat zijn de belangrijkste factoren die de prestaties van het ai-systeem beïnvloeden? 
+ nativeID=76 parentID=74 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 7. Wat zijn de belangrijkste factoren die de prestaties van het ai-systeem beïnvloeden? 
+
+ [ALINEA-CONTENT]:
+to 7. Wat zijn de belangrijkste factoren die de prestaties van het ai-systeem beïnvloeden?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 8. Wordt een deel van de (sub)dataset uitgesloten voor het leren van het model ...
+ nativeID=77 parentID=74 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 8. Wordt een deel van de (sub)dataset uitgesloten voor het leren van het model en alleen gebruikt voor het bepalen van de betrouwbaarheid of wordt de betrouwbaarheid van het model berekend met behulp van cross-validatie? 
+
+ [ALINEA-CONTENT]:
+to 8. Wordt een deel van de (sub)dataset uitgesloten voor het leren van het model en alleen gebruikt
+voor het bepalen van de betrouwbaarheid of wordt de betrouwbaarheid van het model
+berekend met behulp van cross-validatie?
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 9. Hoe is de (hyper)parameter-tuning onderbouwd en getoetst? 
+ nativeID=78 parentID=74 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 9. Hoe is de (hyper)parameter-tuning onderbouwd en getoetst? 
+
+ [ALINEA-CONTENT]:
+to 9. Hoe is de (hyper)parameter-tuning onderbouwd en getoetst?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Technische implementatie
+ nativeID=79 parentID=65 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De technische implementatie beschrijft hoe het AI systeem technisch binnen het ICT-landschap van de organisatie is geïntegreerd. De specifieke eisen van het AI-systeem aan hardware en software zijn gedocumenteerd zodat hier rekening mee gehouden kan worden bij het uitrollen en beheer van het systeem. Daarnaast wordt uit de systeemarchitectuur duidelijk hoe de verschillende softwarecomponenten zich tot elkaar verhouden. Een goed doordachte architectuur vermindert de bedrijfsrisico's die gepaard gaan met het bouwen van een technische oplossing en slaat een brug tussen bedrijfs- en technische vereisten. t 3. Hoe is het AI systeem technisch geïmplementeerd? to 10. Is er nagedacht hoe het 
+
+ [ALINEA-CONTENT]:
+De technische implementatie beschrijft hoe het AI systeem technisch binnen het ICT-landschap van
+de organisatie is geïntegreerd. De specifieke eisen van het AI-systeem aan hardware en software zijn
+gedocumenteerd zodat hier rekening mee gehouden kan worden bij het uitrollen en beheer van het
+
+          ***          [--- more alinea content ---]        ***          
+
+systeem. Daarnaast wordt uit de systeemarchitectuur duidelijk hoe de verschillende softwarecomponenten
+zich tot elkaar verhouden. Een goed doordachte architectuur vermindert de bedrijfsrisico's die gepaard gaan
+met het bouwen van een technische oplossing en slaat een brug tussen bedrijfs- en technische vereisten.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = t 3. Hoe is het AI systeem technisch geïmplementeerd? 
+ nativeID=80 parentID=79 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+t 3. Hoe is het AI systeem technisch geïmplementeerd? 
+
+ [ALINEA-CONTENT]:
+t 3. Hoe is het AI systeem technisch geïmplementeerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 10. Is er nagedacht hoe het AI-systeem past in de al bestaande technische- en ...
+ nativeID=81 parentID=79 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 10. Is er nagedacht hoe het AI-systeem past in de al bestaande technische- en systeeminfrastructuur en zijn hier passende maatregelen voor genomen om deze uit te rollen (indien van toepassing)? 
+
+ [ALINEA-CONTENT]:
+to 10. Is er nagedacht hoe het AI-systeem past in de al bestaande technische- en
+systeeminfrastructuur en zijn hier passende maatregelen voor genomen om deze uit te rollen
+(indien van toepassing)?
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 11. Hoe ziet de systeemarchitectuur eruit (hoe verhouden de softwarecomponenten zicht tot ...
+ nativeID=82 parentID=79 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 11. Hoe ziet de systeemarchitectuur eruit (hoe verhouden de softwarecomponenten zicht tot elkaar)? 
+
+ [ALINEA-CONTENT]:
+to 11. Hoe ziet de systeemarchitectuur eruit (hoe verhouden de softwarecomponenten zicht tot
+elkaar)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 12. Zijn eventuele specifieke hardware- en software-eisen gedocumenteerd? 
+ nativeID=83 parentID=79 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 12. Zijn eventuele specifieke hardware- en software-eisen gedocumenteerd? 
+
+ [ALINEA-CONTENT]:
+to 12. Zijn eventuele specifieke hardware- en software-eisen gedocumenteerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Reproduceerbaarheid
+ nativeID=84 parentID=65 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Bij reproduceerbaarheid kun je denken aan het vastleggen van welke data gebruikt zijn, hoe het model tot stand is gekomen, of wijzigingen in de data zijn bijgehouden, of uit dezelfde input(data) dezelfde resultaten voortvloeien, en of er bepaalde situaties of condities zijn waarin de output(data) beïnvloed kunnen worden. Reproduceerbaarheid gaat over trainen, valideren en testen. Reproduceerbaarheid hangt nauw samen met traceerbaarheid. Bij traceerbaarheid gaat het er voor- namelijk om dat de datasets en processen goed worden gedocumenteerd. Versiebeheer op de data, het en de training speelt daarin een belangrijke rol. t 4. Is het ai-systeem reproduceerbaar? Is er een proces 
+
+ [ALINEA-CONTENT]:
+Bij reproduceerbaarheid kun je denken aan het vastleggen van welke data gebruikt zijn, hoe het model
+tot stand is gekomen, of wijzigingen in de data zijn bijgehouden, of uit dezelfde input(data) dezelfde
+resultaten voortvloeien, en of er bepaalde situaties of condities zijn waarin de output(data) beïnvloed
+
+          ***          [--- more alinea content ---]        ***          
+
+Reproduceerbaarheid hangt nauw samen met traceerbaarheid. Bij traceerbaarheid gaat het er voor-
+namelijk om dat de datasets en processen goed worden gedocumenteerd. Versiebeheer op de data,
+het en de training speelt daarin een belangrijke rol.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = t 4. Is het ai-systeem reproduceerbaar? Is er een proces ingesteld om dit te meten? 
+ nativeID=85 parentID=84 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+t 4. Is het ai-systeem reproduceerbaar? Is er een proces ingesteld om dit te meten? 
+
+ [ALINEA-CONTENT]:
+t 4. Is het ai-systeem reproduceerbaar? Is er een proces ingesteld om dit te meten?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 13. Kan je een verkregen output(data) nu of in de toekomst reconstrueren (dus bijvoorbeeld ...
+ nativeID=86 parentID=84 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 13. Kan je een verkregen output(data) nu of in de toekomst reconstrueren (dus bijvoorbeeld zijn oude versies van het model, datasets en omstandigheden opgeslagen middels versiebeheer)? 
+
+ [ALINEA-CONTENT]:
+to 13. Kan je een verkregen output(data) nu of in de toekomst reconstrueren (dus bijvoorbeeld zijn
+oude versies van het model, datasets en omstandigheden opgeslagen middels versiebeheer)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 14. Is het mogelijk om gegeven de parameters en een vaste seed het model ...
+ nativeID=87 parentID=84 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 14. Is het mogelijk om gegeven de parameters en een vaste seed het model te reconstrueren? 
+
+ [ALINEA-CONTENT]:
+to 14. Is het mogelijk om gegeven de parameters en een vaste seed het model te reconstrueren?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 15. Is het ai-systeem aan de hand van documentatie op hoofdlijnen te reproduceren? 
+ nativeID=88 parentID=84 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 15. Is het ai-systeem aan de hand van documentatie op hoofdlijnen te reproduceren? 
+
+ [ALINEA-CONTENT]:
+to 15. Is het ai-systeem aan de hand van documentatie op hoofdlijnen te reproduceren?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 16. Hoe worden de wijzigingen tijdens de levensduur van het systeem gedocumenteerd? 
+ nativeID=89 parentID=84 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 16. Hoe worden de wijzigingen tijdens de levensduur van het systeem gedocumenteerd? 
+
+ [ALINEA-CONTENT]:
+to 16. Hoe worden de wijzigingen tijdens de levensduur van het systeem gedocumenteerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Uitlegbaarheid
+ nativeID=90 parentID=65 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Technische uitlegbaarheid heeft te maken met het vermogen om zowel technische processen als daaraan gerelateerde menselijke beslissingen te kunnen begrijpen. Verder moet helder zijn welke verschillende ontwerpkeuzes zijn gemaakt en wat de rationale is voor het inzetten van het ai-systeem. Zie ook ‘Verantwoordingsplicht’ voor uitlegbaarheid richting betrokkenen. t 5. Is het ai-systeem voldoende uitlegbaar en te interpreteren voor de ontwikkelaars? to 17. Hoe heb je bij het ontwikkelen van het AI-systeem gekeken naar de uitlegbaarheid van het model? to 18. In hoeverre is het mogelijk om een verklaring te geven aan een externe AI-expert hoe het AI-systeem op een bepaalde 
+
+ [ALINEA-CONTENT]:
+Technische uitlegbaarheid heeft te maken met het vermogen om zowel technische processen als daaraan
+gerelateerde menselijke beslissingen te kunnen begrijpen. Verder moet helder zijn welke verschillende
+ontwerpkeuzes zijn gemaakt en wat de rationale is voor het inzetten van het ai-systeem. Zie ook
+
+          ***          [--- more alinea content ---]        ***          
+
+‘Verantwoordingsplicht’ voor uitlegbaarheid richting betrokkenen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = t 5. Is het ai-systeem voldoende uitlegbaar en te interpreteren voor de ontwikkelaars? 
+ nativeID=91 parentID=90 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+t 5. Is het ai-systeem voldoende uitlegbaar en te interpreteren voor de ontwikkelaars? 
+
+ [ALINEA-CONTENT]:
+t 5. Is het ai-systeem voldoende uitlegbaar en te interpreteren voor de ontwikkelaars?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 17. Hoe heb je bij het ontwikkelen van het AI-systeem gekeken naar de uitlegbaarheid ...
+ nativeID=92 parentID=90 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 17. Hoe heb je bij het ontwikkelen van het AI-systeem gekeken naar de uitlegbaarheid van het model? 
+
+ [ALINEA-CONTENT]:
+to 17. Hoe heb je bij het ontwikkelen van het AI-systeem gekeken naar de uitlegbaarheid van het
+model?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 18. In hoeverre is het mogelijk om een verklaring te geven aan een externe ...
+ nativeID=93 parentID=90 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 18. In hoeverre is het mogelijk om een verklaring te geven aan een externe AI-expert hoe het AI-systeem op een bepaalde manier werkt (zie ook ‘Uitlegbaarheid’)? 
+
+ [ALINEA-CONTENT]:
+to 18. In hoeverre is het mogelijk om een verklaring te geven aan een externe AI-expert hoe het
+AI-systeem op een bepaalde manier werkt (zie ook ‘Uitlegbaarheid’)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = to 19. Is de benodigde deskundigheid voor het beheer van AI-systeem gedocumenteerd? 
+ nativeID=94 parentID=90 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+to 19. Is de benodigde deskundigheid voor het beheer van AI-systeem gedocumenteerd? 
+
+ [ALINEA-CONTENT]:
+to 19. Is de benodigde deskundigheid voor het beheer van AI-systeem gedocumenteerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Data governance
+ nativeID=95 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Data governance gaat over een (bestuurlijke) werkwijze rondom data met betrekking tot toegang, eigenaarschap, bruikbaarheid, integriteit en veiligheid. Daarnaast is er aandacht voor de kwaliteit van de data die wordt gebruikt. Onder data governance valt ook privacy. Privacy is een van de fundamentele rechten van de mens, die mogelijk door AI kan worden aangetast. Het is daarom belangrijk dat er adequate data governance en bescherming van persoonsgegevens conform de Algemene Verordening Gegevensbescherming (AVG) is. Voor AI-systemen is het essentieel om informatiebeveiligings- en privacyrisico’s inzichtelijk te maken, deze risico’s terug te brengen naar een acceptabel niveau en periodiek (technisch) te laten 
+
+ [ALINEA-CONTENT]:
+Data governance gaat over een (bestuurlijke) werkwijze rondom data met betrekking tot toegang,
+eigenaarschap, bruikbaarheid, integriteit en veiligheid. Daarnaast is er aandacht voor de kwaliteit van de
+data die wordt gebruikt.
+
+          ***          [--- more alinea content ---]        ***          
+
+Producten die daarbij onder meer moeten worden opgeleverd zijn: BIV-classificatie (BIA), implementatie
+van en toets aan de BIO, DPIA (in geval van verwerking persoonsgegevens), security testen en indien
+noodzakelijk een verbeterplan.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Kwaliteit en integriteit van data
+ nativeID=96 parentID=95 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Datakwaliteit is essentieel voor de werking van een ai-systeem. Verzamelde gegevens kunnen bijvoorbeeld sociaal geconstrueerde bias, onjuistheden, fouten en vergissingen bevatten (zie ook ‘Bias’). Dit moet worden geadresseerd voordat er verder met deze data wordt gewerkt. De datasets en de werkwijze moeten worden getest en gedocumenteerd bij iedere stap: training, testen, uitrolfase en operationele fase. Dit geldt ook voor AI-systemen die niet intern gebouwd zijn, maar elders zijn verworven. De archiefwet9 stelt eisen aan de manier van opslaan en bewaartermijn van data. d 1. Hoe wordt de kwaliteit van de data gewaarborgd?8★ do 1. Is de gebruikte data noodzakelijk voor 
+
+ [ALINEA-CONTENT]:
+Datakwaliteit is essentieel voor de werking van een ai-systeem. Verzamelde gegevens kunnen bijvoorbeeld
+sociaal geconstrueerde bias, onjuistheden, fouten en vergissingen bevatten (zie ook ‘Bias’). Dit moet
+worden geadresseerd voordat er verder met deze data wordt gewerkt. De datasets en de werkwijze moeten
+
+          ***          [--- more alinea content ---]        ***          
+
+worden getest en gedocumenteerd bij iedere stap: training, testen, uitrolfase en operationele fase. Dit geldt
+ook voor AI-systemen die niet intern gebouwd zijn, maar elders zijn verworven. De archiefwet9 stelt eisen
+aan de manier van opslaan en bewaartermijn van data.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = d 1. Hoe wordt de kwaliteit van de data gewaarborgd?8★ 
+ nativeID=97 parentID=96 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+d 1. Hoe wordt de kwaliteit van de data gewaarborgd?8★ 
+
+ [ALINEA-CONTENT]:
+d 1. Hoe wordt de kwaliteit van de data gewaarborgd?8★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Overkoepelend
+ nativeID=98 parentID=96 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 1. Is de gebruikte data noodzakelijk voor het ai-systeem? do 2. Hoe voorkom je onbedoelde verdubbelingen van data? do 3. Is het mogelijk om de trainings- en testgegevens te actualiseren als de situatie daar om vraagt? Wanneer besluit je het AI-systeem te her-trainen, tijdelijk stop te zetten, of door te ontwikkelen?10  Input(data) do 4. Voldoet de data aan de aannames van het model? do 5. Op welke manier is de input(data) die wordt gebruikt in het AI-systeem verzameld en samengevoegd? do 6. Hoe wordt de data gelabeld? do 7. Welke factoren hebben invloed op de kwaliteit van de 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 1. Is de gebruikte data noodzakelijk voor het ai-systeem? 
+ nativeID=99 parentID=98 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 1. Is de gebruikte data noodzakelijk voor het ai-systeem? 
+
+ [ALINEA-CONTENT]:
+do 1. Is de gebruikte data noodzakelijk voor het ai-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 2. Hoe voorkom je onbedoelde verdubbelingen van data? 
+ nativeID=100 parentID=98 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 2. Hoe voorkom je onbedoelde verdubbelingen van data? 
+
+ [ALINEA-CONTENT]:
+do 2. Hoe voorkom je onbedoelde verdubbelingen van data?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 3. Is het mogelijk om de trainings- en testgegevens te actualiseren als de situatie ...
+ nativeID=101 parentID=98 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 3. Is het mogelijk om de trainings- en testgegevens te actualiseren als de situatie daar om vraagt? Wanneer besluit je het AI-systeem te her-trainen, tijdelijk stop te zetten, of door te ontwikkelen?10  Input(data) 
+
+ [ALINEA-CONTENT]:
+do 3. Is het mogelijk om de trainings- en testgegevens te actualiseren als de situatie daar om
+vraagt? Wanneer besluit je het AI-systeem te her-trainen, tijdelijk stop te zetten, of door te
+ontwikkelen?10  Input(data)
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 4. Voldoet de data aan de aannames van het model? 
+ nativeID=102 parentID=98 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 4. Voldoet de data aan de aannames van het model? 
+
+ [ALINEA-CONTENT]:
+do 4. Voldoet de data aan de aannames van het model?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 5. Op welke manier is de input(data) die wordt gebruikt in het AI-systeem verzameld ...
+ nativeID=103 parentID=98 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 5. Op welke manier is de input(data) die wordt gebruikt in het AI-systeem verzameld en samengevoegd? 
+
+ [ALINEA-CONTENT]:
+do 5. Op welke manier is de input(data) die wordt gebruikt in het AI-systeem verzameld en
+samengevoegd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 6. Hoe wordt de data gelabeld? 
+ nativeID=104 parentID=98 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 6. Hoe wordt de data gelabeld? 
+
+ [ALINEA-CONTENT]:
+do 6. Hoe wordt de data gelabeld?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 7. Welke factoren hebben invloed op de kwaliteit van de input(data)? En wat kan ...
+ nativeID=105 parentID=98 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 7. Welke factoren hebben invloed op de kwaliteit van de input(data)? En wat kan je daaraan doen? 
+
+ [ALINEA-CONTENT]:
+do 7. Welke factoren hebben invloed op de kwaliteit van de input(data)? En wat kan je daaraan
+doen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 8. Is de input(data) getoetst op veranderingen die zich voordoen tijdens trainen, testen en ...
+ nativeID=106 parentID=98 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 8. Is de input(data) getoetst op veranderingen die zich voordoen tijdens trainen, testen en evalueren? Ook door de tijd heen tijdens het gebruik van het algoritme? 
+
+ [ALINEA-CONTENT]:
+do 8. Is de input(data) getoetst op veranderingen die zich voordoen tijdens trainen, testen en
+evalueren? Ook door de tijd heen tijdens het gebruik van het algoritme?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = Output(data)
+ nativeID=107 parentID=98 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 9. Indien output(data) wordt gebruikt als nieuwe input, hoe wordt de output(data) opgeslagen ...
+ nativeID=108 parentID=98 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 9. Indien output(data) wordt gebruikt als nieuwe input, hoe wordt de output(data) opgeslagen (denk aan een feedbackloop)? 
+
+ [ALINEA-CONTENT]:
+do 9. Indien output(data) wordt gebruikt als nieuwe input, hoe wordt de output(data) opgeslagen
+(denk aan een feedbackloop)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 10. Hoe zorg je ervoor dat de output(data) tijdig beschikbaar is? 
+ nativeID=109 parentID=98 & horizontal_ordering=10
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 10. Hoe zorg je ervoor dat de output(data) tijdig beschikbaar is? 
+
+ [ALINEA-CONTENT]:
+do 10. Hoe zorg je ervoor dat de output(data) tijdig beschikbaar is?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Privacy en gegevensbescherming
+ nativeID=110 parentID=95 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Privacy en de bescherming van gegevens moeten gewaarborgd zijn gedurende de hele levenscyclus van het ai-systeem. Met digitaal vastgelegde gegevens van menselijk gedrag kunnen AI-systemen wellicht leeftijd, geslacht en politieke, religieuze of seksuele voorkeuren afleiden. Let erop dat wanneer je persoonsgegevens gebruikt, deze niet gebruikt kunnen worden om te discrimineren, zie ook ‘Bias’. Naast persoonsgegevens kunnen er ook andere vertrouwelijke gegevens gebruikt worden die niet zomaar openbaar gemaakt mogen worden. Dit geldt bijvoorbeeld voor het gebruik van vertrouwelijke informatie als gerubriceerde informatie of bedrijfsgeheimen. Ook deze data moet goed beschermd zijn. De AI Verordening biedt aanvullende regels voor het gebruik 
+
+ [ALINEA-CONTENT]:
+Privacy en de bescherming van gegevens moeten gewaarborgd zijn gedurende de hele levenscyclus van het
+ai-systeem. Met digitaal vastgelegde gegevens van menselijk gedrag kunnen AI-systemen wellicht leeftijd,
+geslacht en politieke, religieuze of seksuele voorkeuren afleiden. Let erop dat wanneer je persoonsgegevens
+
+          ***          [--- more alinea content ---]        ***          
+
+openbaar gemaakt mogen worden. Dit geldt bijvoorbeeld voor het gebruik van vertrouwelijke informatie
+als gerubriceerde informatie of bedrijfsgeheimen. Ook deze data moet goed beschermd zijn. De AI
+Verordening biedt aanvullende regels voor het gebruik van (persoons)gegevens in AI-systemen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = d 2. Hoe wordt er omgegaan met persoonsgegevens of vertrouwelijke gegevens? (Denk aan de ...
+ nativeID=111 parentID=110 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+d 2. Hoe wordt er omgegaan met persoonsgegevens of vertrouwelijke gegevens? (Denk aan de DPIA) 
+
+ [ALINEA-CONTENT]:
+d 2. Hoe wordt er omgegaan met persoonsgegevens of vertrouwelijke gegevens? (Denk aan de
+DPIA)
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Met betrekking tot persoonsgegevens
+ nativeID=112 parentID=110 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 11. Werkt het ai-systeem met persoonsgegevens11 (is de AVG van toepassing)? Zo ja, vul de volgende vragen ook in. Zo nee, ga verder bij ‘met betrekking tot vertrouwelijke gegevens’. do 12. Is de output van het AI-systeem tot personen te herleiden (is de AVG van toepassing)? Zo ja, vul dan de volgende vragen ook in. do 13. Zijn er verregaande beschermingsmaatregelen genomen om de persoonsgegevens te beveiligen?12★ do 14. Zijn functionarissen betrokken, zoals de functionaris gegevensbescherming, privacy adviseur, informatiebeveiliger, Chief Information Officer, etc.? do 15. Hoe vaak wordt de kwaliteit en de noodzakelijkheid van de verwerking van persoonsgegevens geëvalueerd? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 11. Werkt het ai-systeem met persoonsgegevens11 (is de AVG van toepassing)? Zo ja, vul ...
+ nativeID=113 parentID=112 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 11. Werkt het ai-systeem met persoonsgegevens11 (is de AVG van toepassing)? Zo ja, vul de volgende vragen ook in. Zo nee, ga verder bij ‘met betrekking tot vertrouwelijke gegevens’. 
+
+ [ALINEA-CONTENT]:
+do 11. Werkt het ai-systeem met persoonsgegevens11 (is de AVG van toepassing)? Zo ja, vul de
+volgende vragen ook in. Zo nee, ga verder bij ‘met betrekking tot vertrouwelijke gegevens’.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 12. Is de output van het AI-systeem tot personen te herleiden (is de AVG ...
+ nativeID=114 parentID=112 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 12. Is de output van het AI-systeem tot personen te herleiden (is de AVG van toepassing)? Zo ja, vul dan de volgende vragen ook in. 
+
+ [ALINEA-CONTENT]:
+do 12. Is de output van het AI-systeem tot personen te herleiden (is de AVG van toepassing)?
+Zo ja, vul dan de volgende vragen ook in.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 13. Zijn er verregaande beschermingsmaatregelen genomen om de persoonsgegevens te ...
+ nativeID=115 parentID=112 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 13. Zijn er verregaande beschermingsmaatregelen genomen om de persoonsgegevens te beveiligen?12★ 
+
+ [ALINEA-CONTENT]:
+do 13. Zijn er verregaande beschermingsmaatregelen genomen om de persoonsgegevens te
+beveiligen?12★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 14. Zijn functionarissen betrokken, zoals de functionaris gegevensbescherming, privacy adviseur, ...
+ nativeID=116 parentID=112 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 14. Zijn functionarissen betrokken, zoals de functionaris gegevensbescherming, privacy adviseur, informatiebeveiliger, Chief Information Officer, etc.? 
+
+ [ALINEA-CONTENT]:
+do 14. Zijn functionarissen betrokken, zoals de functionaris gegevensbescherming, privacy adviseur,
+informatiebeveiliger, Chief Information Officer, etc.?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 15. Hoe vaak wordt de kwaliteit en de noodzakelijkheid van de verwerking van persoonsgegevens ...
+ nativeID=117 parentID=112 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 15. Hoe vaak wordt de kwaliteit en de noodzakelijkheid van de verwerking van persoonsgegevens geëvalueerd? 
+
+ [ALINEA-CONTENT]:
+do 15. Hoe vaak wordt de kwaliteit en de noodzakelijkheid van de verwerking van persoonsgegevens
+geëvalueerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 16. Is er aandacht besteed aan rechten van derden met betrekking tot verspreiding van ...
+ nativeID=118 parentID=112 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 16. Is er aandacht besteed aan rechten van derden met betrekking tot verspreiding van informatie over het AI-systeem? ★★ 
+
+ [ALINEA-CONTENT]:
+do 16. Is er aandacht besteed aan rechten van derden met betrekking tot verspreiding van informatie
+over het AI-systeem? ★★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Met betrekking tot vertrouwelijke gegevens (niet zijnde persoonsgegevens)
+ nativeID=119 parentID=110 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 17. Worden vertrouwelijke gegevens gebruikt of opgeslagen? do 18. Hoe wordt de veiligheid van deze informatie gewaarborgd? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 17. Worden vertrouwelijke gegevens gebruikt of opgeslagen? 
+ nativeID=120 parentID=119 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 17. Worden vertrouwelijke gegevens gebruikt of opgeslagen? 
+
+ [ALINEA-CONTENT]:
+do 17. Worden vertrouwelijke gegevens gebruikt of opgeslagen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = do 18. Hoe wordt de veiligheid van deze informatie gewaarborgd? 
+ nativeID=121 parentID=119 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+do 18. Hoe wordt de veiligheid van deze informatie gewaarborgd? 
+
+ [ALINEA-CONTENT]:
+do 18. Hoe wordt de veiligheid van deze informatie gewaarborgd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Risicobeheer
+ nativeID=122 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het is van belang dat mogelijke risico’s in de gaten worden gehouden. Wanneer risico’s niet zijn voorzien, kan een ai-systeem tot onbetrouwbare resultaten komen. Dit kan schade veroorzaken. Het beginsel van preventie moet ervoor zorgen dat schade zoveel mogelijk wordt beperkt. Schade kan opgelopen worden door slecht functioneren van het AI-systeem, of bijvoorbeeld door hackaanvallen van buitenaf. Bij het ontwikkelen en in gebruik nemen van een ai-systeem komen gevaren kijken, die in deze AIIA zoveel mogelijk ingekaderd worden. Toch kunnen zich alsnog onvoorziene problemen voordoen. Het is belangrijk om vast te stellen hoe je met deze potentiële gevaren omgaat. Dat 
+
+ [ALINEA-CONTENT]:
+Het is van belang dat mogelijke risico’s in de gaten worden gehouden. Wanneer risico’s niet zijn voorzien,
+kan een ai-systeem tot onbetrouwbare resultaten komen. Dit kan schade veroorzaken. Het beginsel van
+preventie moet ervoor zorgen dat schade zoveel mogelijk wordt beperkt. Schade kan opgelopen worden
+
+          ***          [--- more alinea content ---]        ***          
+
+door slecht functioneren van het AI-systeem, of bijvoorbeeld door hackaanvallen van buitenaf.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Risicobeheersing
+ nativeID=123 parentID=122 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Bij het ontwikkelen en in gebruik nemen van een ai-systeem komen gevaren kijken, die in deze AIIA zoveel mogelijk ingekaderd worden. Toch kunnen zich alsnog onvoorziene problemen voordoen. Het is belangrijk om vast te stellen hoe je met deze potentiële gevaren omgaat. Dat betekent ook dat er mechanismes ingesteld moeten worden om risico’s te beheersen, en dat deze mechanismen goed zijn getoetst. Denk aan het voorkomen van data vergiftiging, de mate van beheersmaatregelen en de beveiliging van de bewaarplaats van uitkomsten. Daarnaast moet er rekening gehouden worden met het feit dat zich nieuwe risico’s kunnen voordoen na invoering van het 
+
+ [ALINEA-CONTENT]:
+Bij het ontwikkelen en in gebruik nemen van een ai-systeem komen gevaren kijken, die in deze AIIA
+zoveel mogelijk ingekaderd worden. Toch kunnen zich alsnog onvoorziene problemen voordoen. Het
+is belangrijk om vast te stellen hoe je met deze potentiële gevaren omgaat. Dat betekent ook dat er
+
+          ***          [--- more alinea content ---]        ***          
+
+van de bewaarplaats van uitkomsten. Daarnaast moet er rekening gehouden worden met het feit dat zich
+nieuwe risico’s kunnen voordoen na invoering van het AI-systeem. De risicobeheersmaat-regelen moeten
+dus periodiek gecontroleerd worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = r 1. Hoe is het AI-systeem getest op de passende risicobeheersmaatregelen?13  
+ nativeID=124 parentID=123 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+r 1. Hoe is het AI-systeem getest op de passende risicobeheersmaatregelen?13  
+
+ [ALINEA-CONTENT]:
+r 1. Hoe is het AI-systeem getest op de passende risicobeheersmaatregelen?13 
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 1. Hoe is de toegang tot het AI-systeem en diens componenten ingericht? (Denk aan ...
+ nativeID=125 parentID=123 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 1. Hoe is de toegang tot het AI-systeem en diens componenten ingericht? (Denk aan de Generieke IT-beheersmaatregelen) 
+
+ [ALINEA-CONTENT]:
+ro 1. Hoe is de toegang tot het AI-systeem en diens componenten ingericht? (Denk aan de
+Generieke IT-beheersmaatregelen)
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 2. Hoe is het ai-systeem getest op het beoogde doel voordat het in gebruik ...
+ nativeID=126 parentID=123 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 2. Hoe is het ai-systeem getest op het beoogde doel voordat het in gebruik wordt genomen?14 
+
+ [ALINEA-CONTENT]:
+ro 2. Hoe is het ai-systeem getest op het beoogde doel voordat het in gebruik wordt genomen?14
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 3. Is het waarschijnlijk dat kwetsbare groepen (zoals kinderen) toegang zullen hebben tot het ...
+ nativeID=127 parentID=123 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 3. Is het waarschijnlijk dat kwetsbare groepen (zoals kinderen) toegang zullen hebben tot het AI-systeem? In dat geval moeten de risicobeheersmaatregelen extra worden aangescherpt.15 ★ 
+
+ [ALINEA-CONTENT]:
+ro 3. Is het waarschijnlijk dat kwetsbare groepen (zoals kinderen) toegang zullen hebben tot het
+AI-systeem? In dat geval moeten de risicobeheersmaatregelen extra worden aangescherpt.15 ★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 4. Zijn er buiten de standaard beveiligingsmaatregelingen van IenW extra maatregelen genomen ...
+ nativeID=128 parentID=123 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 4. Zijn er buiten de standaard beveiligingsmaatregelingen van IenW extra maatregelen genomen om het AI-systeem te beveiligen? 
+
+ [ALINEA-CONTENT]:
+ro 4. Zijn er buiten de standaard beveiligingsmaatregelingen van IenW extra maatregelen genomen
+om het AI-systeem te beveiligen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 5. Hoe wordt het alternatieve plan als er problemen met het ai-systeem zijn in ...
+ nativeID=129 parentID=123 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 5. Hoe wordt het alternatieve plan als er problemen met het ai-systeem zijn in werking gezet? 
+
+ [ALINEA-CONTENT]:
+ro 5. Hoe wordt het alternatieve plan als er problemen met het ai-systeem zijn in werking gezet?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 6. Is de correctheid van de implementatie aangetoond? Denk hierbij bijvoorbeeld aan unit- ...
+ nativeID=130 parentID=123 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 6. Is de correctheid van de implementatie aangetoond? Denk hierbij bijvoorbeeld aan unit- integratie- en end-to-end tests, indien van toepassing. 
+
+ [ALINEA-CONTENT]:
+ro 6. Is de correctheid van de implementatie aangetoond? Denk hierbij bijvoorbeeld aan unit-
+integratie- en end-to-end tests, indien van toepassing.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 7. Hoe kan het AI-systeem interageren met andere hardware of software (indien van ...
+ nativeID=131 parentID=123 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 7. Hoe kan het AI-systeem interageren met andere hardware of software (indien van toepassing)? 
+
+ [ALINEA-CONTENT]:
+ro 7. Hoe kan het AI-systeem interageren met andere hardware of software (indien van
+toepassing)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Alternatieve werkwijze
+ nativeID=132 parentID=122 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het is wenselijk om een plan te hebben voor wanneer er problemen optreden met het ai-systeem. Dit betekent dat er een alternatieve werkwijze beschikbaar moet zijn in het geval dat er problemen met de werking van het systeem zijn. Denk aan de mogelijkheid om van een machine learning naar een beperkter rule-based model terug te schakelen. Het is goed om er bewust van te zijn dat een mens als expert zich niet op dezelfde manier ontwikkelt als een AI-systeem. Denk hierbij aan het effect van de rekenmachine op onze vaardigheid hoofdrekenen. Een alternatieve werkwijze moet hierop ingespeeld zijn. Wat is 
+
+ [ALINEA-CONTENT]:
+Het is wenselijk om een plan te hebben voor wanneer er problemen optreden met het ai-systeem. Dit
+betekent dat er een alternatieve werkwijze beschikbaar moet zijn in het geval dat er problemen met de
+werking van het systeem zijn. Denk aan de mogelijkheid om van een machine learning naar een beperkter
+
+          ***          [--- more alinea content ---]        ***          
+
+een AI-systeem. Denk hierbij aan het effect van de rekenmachine op onze vaardigheid hoofdrekenen. Een
+alternatieve werkwijze moet hierop ingespeeld zijn. Wat is de impact in het geval dat het AI-systeem foute
+resultaten genereert?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = r 2. Wat is het plan als er problemen met de werking van het ai-systeem ...
+ nativeID=133 parentID=132 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+r 2. Wat is het plan als er problemen met de werking van het ai-systeem zijn? 
+
+ [ALINEA-CONTENT]:
+r 2. Wat is het plan als er problemen met de werking van het ai-systeem zijn?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 8. Wat is de impact als het AI-systeem uitvalt? 
+ nativeID=134 parentID=132 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 8. Wat is de impact als het AI-systeem uitvalt? 
+
+ [ALINEA-CONTENT]:
+ro 8. Wat is de impact als het AI-systeem uitvalt?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 9. Zie hierboven het voorbeeld over de rekenmachine. Wat is een equivalent effect wat ...
+ nativeID=135 parentID=132 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 9. Zie hierboven het voorbeeld over de rekenmachine. Wat is een equivalent effect wat kan optreden als het AI-systeem in gebruik wordt genomen, en is dit wenselijk? 
+
+ [ALINEA-CONTENT]:
+ro 9. Zie hierboven het voorbeeld over de rekenmachine. Wat is een equivalent effect wat kan
+optreden als het AI-systeem in gebruik wordt genomen, en is dit wenselijk?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 10. Is het ai-systeem bestand tegen fouten of onregelmatigheden van interactie met natuurlijke ...
+ nativeID=136 parentID=132 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 10. Is het ai-systeem bestand tegen fouten of onregelmatigheden van interactie met natuurlijke personen of andere systemen?16★ 
+
+ [ALINEA-CONTENT]:
+ro 10. Is het ai-systeem bestand tegen fouten of onregelmatigheden van interactie met natuurlijke
+personen of andere systemen?16★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Hackaanvallen en corruptie
+ nativeID=137 parentID=122 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Informatiebeveiligingsrisico zoals hackaanvallen en corruptie moeten zoveel mogelijk worden beheerst. De te voorziene risico’s moeten ingekaderd worden door deze inzichtelijk te maken via het risicomanagementproces van de organisatie. Daaronder vallen onder meer het in kaart brengen van BIV- classificatie, rubriceringsniveau van informatie, implementatie van BIO-maatregelen, security testen en, indien het beveiligingsniveau van de BIO niet voldoet, het ev. uitvoeren van een aanvullende (technische) risico-analyse. Ook is van belang om te kijken of fouten en onregelmatigheden te detecteren en technisch af te vangen. r 3. Op welke manier worden informatiebeveiligingsrisico’s inzichtelijk gemaakt, teruggebracht naar een acceptabel niveau en (technisch) getest? ro 
+
+ [ALINEA-CONTENT]:
+Informatiebeveiligingsrisico zoals hackaanvallen en corruptie moeten zoveel mogelijk worden
+beheerst. De te voorziene risico’s moeten ingekaderd worden door deze inzichtelijk te maken via het
+risicomanagementproces van de organisatie. Daaronder vallen onder meer het in kaart brengen van BIV-
+
+          ***          [--- more alinea content ---]        ***          
+
+indien het beveiligingsniveau van de BIO niet voldoet, het ev. uitvoeren van een aanvullende (technische)
+risico-analyse. Ook is van belang om te kijken of fouten en onregelmatigheden te detecteren en technisch
+af te vangen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = r 3. Op welke manier worden informatiebeveiligingsrisico’s inzichtelijk gemaakt, teruggebracht ...
+ nativeID=138 parentID=137 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+r 3. Op welke manier worden informatiebeveiligingsrisico’s inzichtelijk gemaakt, teruggebracht naar een acceptabel niveau en (technisch) getest? 
+
+ [ALINEA-CONTENT]:
+r 3. Op welke manier worden informatiebeveiligingsrisico’s inzichtelijk gemaakt, teruggebracht
+naar een acceptabel niveau en (technisch) getest?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 11. Hoe wordt er voorkomen dat ongeautoriseerde derden gebruik kunnen maken van ...
+ nativeID=139 parentID=137 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 11. Hoe wordt er voorkomen dat ongeautoriseerde derden gebruik kunnen maken van kwetsbaarheden van het AI-systeem?17 ★ 
+
+ [ALINEA-CONTENT]:
+ro 11. Hoe wordt er voorkomen dat ongeautoriseerde derden gebruik kunnen maken van
+kwetsbaarheden van het AI-systeem?17 ★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 12. Wat is de impact als derden ongewenst toegang hebben tot de broncode, data ...
+ nativeID=140 parentID=137 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 12. Wat is de impact als derden ongewenst toegang hebben tot de broncode, data of uitkomsten van het AI- systeem? 
+
+ [ALINEA-CONTENT]:
+ro 12. Wat is de impact als derden ongewenst toegang hebben tot de broncode, data of uitkomsten
+van het AI- systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 13. Kunnen mensen misbruik maken van het feit dat er een AI-systeem wordt ingezet ...
+ nativeID=141 parentID=137 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 13. Kunnen mensen misbruik maken van het feit dat er een AI-systeem wordt ingezet in plaats van een menselijke beslissing? 
+
+ [ALINEA-CONTENT]:
+ro 13. Kunnen mensen misbruik maken van het feit dat er een AI-systeem wordt ingezet in plaats
+van een menselijke beslissing?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ro 14. Hoe wordt er geregistreerd wie er gebruik maakt van het AI-systeem en hoe ...
+ nativeID=142 parentID=137 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ro 14. Hoe wordt er geregistreerd wie er gebruik maakt van het AI-systeem en hoe lang?18 
+
+ [ALINEA-CONTENT]:
+ro 14. Hoe wordt er geregistreerd wie er gebruik maakt van het AI-systeem en hoe lang?18
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Verantwoordingsplicht
+ nativeID=143 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Voor handelen binnen de Rijksoverheid moet verantwoording worden afgelegd binnen de organisatie, naar de Tweede Kamer en naar de samenleving. AI staat op dit moment extra in de belangstelling. De techniek wordt steeds vaker toegepast binnen de Rijksoverheid, maar er zijn ook veel zorgen over de ethische afwegingen bij het inzetten van AI. Daarom moeten er goede mechanismes ingesteld worden om de verantwoordelijkheid voor AI-systemen en de resultaten daarvan te kunnen garanderen. Deze sectie gaat over twee vormen van communicatie naar eindgebruikers. Ten eerste, eindgebruikers moeten ervan op de hoogte worden gesteld dat ze met de resultaten van een ai-systeem 
+
+ [ALINEA-CONTENT]:
+Voor handelen binnen de Rijksoverheid moet verantwoording worden afgelegd binnen de organisatie, naar
+de Tweede Kamer en naar de samenleving. AI staat op dit moment extra in de belangstelling. De techniek
+wordt steeds vaker toegepast binnen de Rijksoverheid, maar er zijn ook veel zorgen over de ethische
+
+          ***          [--- more alinea content ---]        ***          
+
+afwegingen bij het inzetten van AI. Daarom moeten er goede mechanismes ingesteld worden om de
+verantwoordelijkheid voor AI-systemen en de resultaten daarvan te kunnen garanderen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Communicatie
+ nativeID=144 parentID=143 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Deze sectie gaat over twee vormen van communicatie naar eindgebruikers. Ten eerste, eindgebruikers moeten ervan op de hoogte worden gesteld dat ze met de resultaten van een ai-systeem te maken hebben. Ten tweede, eindgebruikers hebben te allen tijde het recht om te weten hoe een algoritme de uitkomsten van een AI-systeem bepaalt. Dat betekent ook dat het doel en beperkingen van het AI-systeem duidelijk en eerlijk moeten worden gecommuniceerd. Zowel technische processen als daaraan gerelateerde menselijke beslissingen moeten begrijpelijk zijn en opgevraagd kunnen worden. Bijvoorbeeld door het aanwijzen van een contactpersoon met inhoudelijke kennis over het AI-systeem. Gezien het zelflerende 
+
+ [ALINEA-CONTENT]:
+Deze sectie gaat over twee vormen van communicatie naar eindgebruikers. Ten eerste, eindgebruikers
+moeten ervan op de hoogte worden gesteld dat ze met de resultaten van een ai-systeem te maken hebben.
+Ten tweede, eindgebruikers hebben te allen tijde het recht om te weten hoe een algoritme de uitkomsten
+
+          ***          [--- more alinea content ---]        ***          
+
+het AI-systeem. Men moet in staat gesteld worden om resultaten van het AI-systeem te kunnen betwisten.
+Dat betekent ook dat data en de omstandigheden waarin de data ter beschikking zijn gesteld bewaard
+moeten worden (zie Archivering).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = v 1. Ben je transparant richting betrokkenen en eindgebruikers over de beperkingen en werking van ...
+ nativeID=145 parentID=144 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+v 1. Ben je transparant richting betrokkenen en eindgebruikers over de beperkingen en werking van het AI-systeem? En blijven deze voldoende onder de aandacht zolang ze bestaan 
+
+ [ALINEA-CONTENT]:
+v 1. Ben je transparant richting betrokkenen en eindgebruikers over de beperkingen en werking van
+het AI-systeem? En blijven deze voldoende onder de aandacht zolang ze bestaan
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = v 2. Worden er mechanismes ingesteld waarin eindgebruikers opmerkingen over het systeem ...
+ nativeID=146 parentID=144 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+v 2. Worden er mechanismes ingesteld waarin eindgebruikers opmerkingen over het systeem (data, techniek, doelgroep, etc.) kunnen maken? En hoe of wanneer worde deze meldingen gewaarborgd (geanalyseerd en gevolgd)? 
+
+ [ALINEA-CONTENT]:
+v 2. Worden er mechanismes ingesteld waarin eindgebruikers opmerkingen over het systeem
+(data, techniek, doelgroep, etc.) kunnen maken? En hoe of wanneer worde deze meldingen
+gewaarborgd (geanalyseerd en gevolgd)?
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Communicatie met het ai-systeem
+ nativeID=147 parentID=144 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 1. Wordt er aan de eindgebruiker en betrokkenen van het AI-systeem gecommuniceerd dat de resultaten gegenereerd worden door een AI-systeem en wat dat voor hen betekent vo 2. Zijn er eindgebruiksinstructies opgesteld? Deze moeten minstens het volgende bevatten:19 - De naam en contactgegevens van de aanbieder; - Kenmerken, capaciteiten en beperkingen; - Mogelijke toekomstige wijzigingen; - Menselijk toezicht; - Verwachte levensduur. vo 3. Wat zijn de potentiële (psychologische) bijwerkingen zoals het risico op verwarring, voorkeur of cognitieve vermoeidheid van de eindgebruiker bij het gebruik maken van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 1. Wordt er aan de eindgebruiker en betrokkenen van het AI-systeem gecommuniceerd dat de ...
+ nativeID=148 parentID=147 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 1. Wordt er aan de eindgebruiker en betrokkenen van het AI-systeem gecommuniceerd dat de resultaten gegenereerd worden door een AI-systeem en wat dat voor hen betekent 
+
+ [ALINEA-CONTENT]:
+vo 1. Wordt er aan de eindgebruiker en betrokkenen van het AI-systeem gecommuniceerd dat de
+resultaten gegenereerd worden door een AI-systeem en wat dat voor hen betekent
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 2. Zijn er eindgebruiksinstructies opgesteld? Deze moeten minstens het volgende bevatten:19 
+ nativeID=149 parentID=147 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 2. Zijn er eindgebruiksinstructies opgesteld? Deze moeten minstens het volgende bevatten:19 - De naam en contactgegevens van de aanbieder; - Kenmerken, capaciteiten en beperkingen; - Mogelijke toekomstige wijzigingen; - Menselijk toezicht; - Verwachte levensduur. 
+
+ [ALINEA-CONTENT]:
+vo 2. Zijn er eindgebruiksinstructies opgesteld? Deze moeten minstens het volgende bevatten:19
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = - De naam en contactgegevens van de aanbieder; 
+ nativeID=150 parentID=149 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- De naam en contactgegevens van de aanbieder; 
+
+ [ALINEA-CONTENT]:
+- De naam en contactgegevens van de aanbieder;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = - Kenmerken, capaciteiten en beperkingen; 
+ nativeID=151 parentID=149 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Kenmerken, capaciteiten en beperkingen; 
+
+ [ALINEA-CONTENT]:
+- Kenmerken, capaciteiten en beperkingen;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = - Mogelijke toekomstige wijzigingen; 
+ nativeID=152 parentID=149 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Mogelijke toekomstige wijzigingen; 
+
+ [ALINEA-CONTENT]:
+- Mogelijke toekomstige wijzigingen;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = - Menselijk toezicht; 
+ nativeID=153 parentID=149 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Menselijk toezicht; 
+
+ [ALINEA-CONTENT]:
+- Menselijk toezicht;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = - Verwachte levensduur. 
+ nativeID=154 parentID=149 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Verwachte levensduur. 
+
+ [ALINEA-CONTENT]:
+- Verwachte levensduur.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 3. Wat zijn de potentiële (psychologische) bijwerkingen zoals het risico op verwarring, voorkeur ...
+ nativeID=155 parentID=147 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 3. Wat zijn de potentiële (psychologische) bijwerkingen zoals het risico op verwarring, voorkeur of cognitieve vermoeidheid van de eindgebruiker bij het gebruik maken van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+vo 3. Wat zijn de potentiële (psychologische) bijwerkingen zoals het risico op verwarring, voorkeur
+of cognitieve vermoeidheid van de eindgebruiker bij het gebruik maken van het AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Communicatie over de uitkomsten AI-systeem
+ nativeID=156 parentID=144 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 4. In hoeverre is het mogelijk om een verklaring te geven aan een betrokkene waarom het AI-systeem op een bepaalde manier werkt? vo 5. Is het systeem voldoende transparant om eindgebruikers in staat te stellen de output(data) van het systeem te interpreteren en op passende wijze te gebruiken?20 ★ vo 6. Is er iets ingericht om eindgebruikers eventuele bijscholing te verlenen? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 4. In hoeverre is het mogelijk om een verklaring te geven aan een betrokkene ...
+ nativeID=157 parentID=156 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 4. In hoeverre is het mogelijk om een verklaring te geven aan een betrokkene waarom het AI-systeem op een bepaalde manier werkt? 
+
+ [ALINEA-CONTENT]:
+vo 4. In hoeverre is het mogelijk om een verklaring te geven aan een betrokkene waarom het
+AI-systeem op een bepaalde manier werkt?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 5. Is het systeem voldoende transparant om eindgebruikers in staat te stellen de output(data) ...
+ nativeID=158 parentID=156 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 5. Is het systeem voldoende transparant om eindgebruikers in staat te stellen de output(data) van het systeem te interpreteren en op passende wijze te gebruiken?20 ★ 
+
+ [ALINEA-CONTENT]:
+vo 5. Is het systeem voldoende transparant om eindgebruikers in staat te stellen de output(data)
+van het systeem te interpreteren en op passende wijze te gebruiken?20 ★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 6. Is er iets ingericht om eindgebruikers eventuele bijscholing te verlenen? 
+ nativeID=159 parentID=156 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 6. Is er iets ingericht om eindgebruikers eventuele bijscholing te verlenen? 
+
+ [ALINEA-CONTENT]:
+vo 6. Is er iets ingericht om eindgebruikers eventuele bijscholing te verlenen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Communicatie naar aanleiding van het AI-systeem
+ nativeID=160 parentID=144 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 7. Hoe wordt ervoor gezorgd dat commentaar van betrokkenen en eindgebruikers intern goed wordt behandeld? vo 8. Als een betrokkene bezwaar wil aantekenen,21 of een klacht wil indienen tegen een besluit van het AI-systeem,22 is het dan duidelijk welke stappen hij/zij kan nemen? Hetzelfde geldt voor beroep instellen.23 ★ 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 7. Hoe wordt ervoor gezorgd dat commentaar van betrokkenen en eindgebruikers intern goed ...
+ nativeID=161 parentID=160 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 7. Hoe wordt ervoor gezorgd dat commentaar van betrokkenen en eindgebruikers intern goed wordt behandeld? 
+
+ [ALINEA-CONTENT]:
+vo 7. Hoe wordt ervoor gezorgd dat commentaar van betrokkenen en eindgebruikers intern goed
+wordt behandeld?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 8. Als een betrokkene bezwaar wil aantekenen,21 of een klacht wil indienen tegen een ...
+ nativeID=162 parentID=160 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 8. Als een betrokkene bezwaar wil aantekenen,21 of een klacht wil indienen tegen een besluit van het AI-systeem,22 is het dan duidelijk welke stappen hij/zij kan nemen? Hetzelfde geldt voor beroep instellen.23 ★ 
+
+ [ALINEA-CONTENT]:
+vo 8. Als een betrokkene bezwaar wil aantekenen,21 of een klacht wil indienen tegen een besluit van
+het AI-systeem,22 is het dan duidelijk welke stappen hij/zij kan nemen? Hetzelfde geldt voor
+beroep instellen.23 ★
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Controleerbaarheid
+ nativeID=163 parentID=143 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het is van belang dat er inzicht in de bronnen, het systeem en de uitkomst is. Deze verantwoordelijkheid zal doorgaans bij de gebruiker liggen. Om autonoom te kunnen zijn in het gebruik van ai-systemen, moet de eindgebruiker voldoende begrip hebben van het systeem, of de werking ervan kunnen opvragen. Ook is het belangrijk dat begrip over het AI-systeem makkelijk overgedragen kan worden wanneer er een nieuwe eindgebruiker met het systeem gaat werken die niet bij de ontwikkeling betrokken was. Daarom moeten AI-systemen zoveel mogelijk opgesteld worden in samenspraak met de beoogde eindgebruiker. Toezicht kan worden verwezenlijkt door middel van governance 
+
+ [ALINEA-CONTENT]:
+Het is van belang dat er inzicht in de bronnen, het systeem en de uitkomst is. Deze verantwoordelijkheid
+zal doorgaans bij de gebruiker liggen.
+Om autonoom te kunnen zijn in het gebruik van ai-systemen, moet de eindgebruiker voldoende begrip
+
+          ***          [--- more alinea content ---]        ***          
+
+werken die niet bij de ontwikkeling betrokken was. Daarom moeten AI-systemen zoveel mogelijk opgesteld
+worden in samenspraak met de beoogde eindgebruiker. Toezicht kan worden verwezenlijkt door middel van
+governance mechanismen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = v 3. Hoe wordt het ai-systeem gecontroleerd? 
+ nativeID=164 parentID=163 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+v 3. Hoe wordt het ai-systeem gecontroleerd? 
+
+ [ALINEA-CONTENT]:
+v 3. Hoe wordt het ai-systeem gecontroleerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = v 4. Hoe is menselijke controle en toezicht gewaarborgd? ...
+ nativeID=165 parentID=163 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+v 4. Hoe is menselijke controle en toezicht gewaarborgd? Met controleerbaarheid kijken we naar op welke manier de processen voor de evaluatie van de data en het model en de resultaten gecontroleerd kunnen worden. Deze controle kan in de vorm van audits kan intern of extern plaatsvinden. Naarmate toepassing plaatsvindt op meer kritische gebieden moeten er strengere eisen worden gesteld. 
+
+ [ALINEA-CONTENT]:
+v 4. Hoe is menselijke controle en toezicht gewaarborgd?
+Met controleerbaarheid kijken we naar op welke manier de processen voor de evaluatie van de data en het
+model en de resultaten gecontroleerd kunnen worden. Deze controle kan in de vorm van audits kan intern
+
+          ***          [--- more alinea content ---]        ***          
+
+of extern plaatsvinden. Naarmate toepassing plaatsvindt op meer kritische gebieden moeten er strengere
+eisen worden gesteld.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 9. Hoe wordt rekening gehouden met het ingaan van aangekondigde nieuwe wet- en ...
+ nativeID=166 parentID=163 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 9. Hoe wordt rekening gehouden met het ingaan van aangekondigde nieuwe wet- en regelgeving tijdens de levensduur van dit AI-systeem? 
+
+ [ALINEA-CONTENT]:
+vo 9. Hoe wordt rekening gehouden met het ingaan van aangekondigde nieuwe wet- en
+regelgeving tijdens de levensduur van dit AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 10. Hoe wordt ervoor gezorgd dat het AI-systeem onafhankelijk kan worden gecontroleerd? 
+ nativeID=167 parentID=163 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 10. Hoe wordt ervoor gezorgd dat het AI-systeem onafhankelijk kan worden gecontroleerd? 
+
+ [ALINEA-CONTENT]:
+vo 10. Hoe wordt ervoor gezorgd dat het AI-systeem onafhankelijk kan worden gecontroleerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 11. Hoe wordt de correctheid van de input(data) gecontroleerd en geïnterpreteerd? 
+ nativeID=168 parentID=163 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 11. Hoe wordt de correctheid van de input(data) gecontroleerd en geïnterpreteerd? 
+
+ [ALINEA-CONTENT]:
+vo 11. Hoe wordt de correctheid van de input(data) gecontroleerd en geïnterpreteerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 12. Hoe wordt de correctheid van het model gecontroleerd en geïnterpreteerd? 
+ nativeID=169 parentID=163 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 12. Hoe wordt de correctheid van het model gecontroleerd en geïnterpreteerd? 
+
+ [ALINEA-CONTENT]:
+vo 12. Hoe wordt de correctheid van het model gecontroleerd en geïnterpreteerd?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 13. Hoe wordt de correctheid van de output(data) gecontroleerd en geïnterpreteerd?24 ★ 
+ nativeID=170 parentID=163 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 13. Hoe wordt de correctheid van de output(data) gecontroleerd en geïnterpreteerd?24 ★ 
+
+ [ALINEA-CONTENT]:
+vo 13. Hoe wordt de correctheid van de output(data) gecontroleerd en geïnterpreteerd?24 ★
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Archivering
+ nativeID=171 parentID=143 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Archivering is het bewaren van informatie zodat je deze informatie in de toekomst kunt hergebruiken of voor andere doelen in kan zetten. Denk bijvoorbeeld aan het herconstrueren van het model (zie ‘Reproduceerbaarheid’), of een nieuwe medewerker kunnen uitleggen hoe het systeem in elkaar zit (zie ‘Uitlegbaarheid’), of om verantwoording af te leggen naar een betrokkene (zie ‘Verantwoordingsplicht’). vo 14. Hoe wordt de input(data) opgeslagen? vo 15. Wat is de bewaartermijn van de input(data)? vo 16. Hoe wordt het model opgeslagen? vo 17. Kunnen de gebruikers de output(data) op de juiste manier interpreteren? vo 18. Wat is de bewaartermijn van de 
+
+ [ALINEA-CONTENT]:
+Archivering is het bewaren van informatie zodat je deze informatie in de toekomst kunt hergebruiken
+of voor andere doelen in kan zetten. Denk bijvoorbeeld aan het herconstrueren van het model (zie
+‘Reproduceerbaarheid’), of een nieuwe medewerker kunnen uitleggen hoe het systeem in elkaar zit (zie
+
+          ***          [--- more alinea content ---]        ***          
+
+‘Uitlegbaarheid’), of om verantwoording af te leggen naar een betrokkene (zie ‘Verantwoordingsplicht’).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Input(data)
+ nativeID=172 parentID=171 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 14. Hoe wordt de input(data) opgeslagen? vo 15. Wat is de bewaartermijn van de input(data)? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 14. Hoe wordt de input(data) opgeslagen? 
+ nativeID=173 parentID=172 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 14. Hoe wordt de input(data) opgeslagen? 
+
+ [ALINEA-CONTENT]:
+vo 14. Hoe wordt de input(data) opgeslagen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 15. Wat is de bewaartermijn van de input(data)? 
+ nativeID=174 parentID=172 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 15. Wat is de bewaartermijn van de input(data)? 
+
+ [ALINEA-CONTENT]:
+vo 15. Wat is de bewaartermijn van de input(data)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Model
+ nativeID=175 parentID=171 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 16. Hoe wordt het model opgeslagen? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 16. Hoe wordt het model opgeslagen? 
+ nativeID=176 parentID=175 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 16. Hoe wordt het model opgeslagen? 
+
+ [ALINEA-CONTENT]:
+vo 16. Hoe wordt het model opgeslagen?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Output(data)
+ nativeID=177 parentID=171 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 17. Kunnen de gebruikers de output(data) op de juiste manier interpreteren? vo 18. Wat is de bewaartermijn van de output(data)? 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 17. Kunnen de gebruikers de output(data) op de juiste manier interpreteren? 
+ nativeID=178 parentID=177 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 17. Kunnen de gebruikers de output(data) op de juiste manier interpreteren? 
+
+ [ALINEA-CONTENT]:
+vo 17. Kunnen de gebruikers de output(data) op de juiste manier interpreteren?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = vo 18. Wat is de bewaartermijn van de output(data)? 
+ nativeID=179 parentID=177 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 18. Wat is de bewaartermijn van de output(data)? 
+
+ [ALINEA-CONTENT]:
+vo 18. Wat is de bewaartermijn van de output(data)?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Klimaatadaptie
+ nativeID=180 parentID=143 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+AI-systemen kunnen bijdragen aan oplossingen voor de meest urgente maatschappelijke zorgen, tegelijkertijd is het van belang dat dit zo milieuvriendelijk mogelijk gebeurt. Het is van belang om de milieuvriendelijkheid van de volledige toeleveringsketen van het ai-systeem te waarborgen. Aan de andere kant kan het natuurlijk ook zo zijn dat het AI-systeem juist wordt ingezet om milieuwinst te behalen. Die impact moet afgewogen tegen de milieukosten van bijvoorbeeld het laten draaien van het systeem. Hierbij is het natuurlijk wel van belang om proportionaliteit aan te houden. Als het veel tijd en energie kost om de milieu-impact van een systeem te meten 
+
+ [ALINEA-CONTENT]:
+AI-systemen kunnen bijdragen aan oplossingen voor de meest urgente maatschappelijke zorgen,
+tegelijkertijd is het van belang dat dit zo milieuvriendelijk mogelijk gebeurt. Het is van belang om de
+milieuvriendelijkheid van de volledige toeleveringsketen van het ai-systeem te waarborgen.
+
+          ***          [--- more alinea content ---]        ***          
+
+Hierbij is het natuurlijk wel van belang om proportionaliteit aan te houden. Als het veel tijd en energie kost
+om de milieu-impact van een systeem te meten dat maar een hele kleine ecologische voetafdruk heeft, kan
+je hiertussen een afweging maken.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 19. Is er impact op het milieu door het invoeren van het ai-systeem (ontwikkeling, ...
+ nativeID=181 parentID=180 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 19. Is er impact op het milieu door het invoeren van het ai-systeem (ontwikkeling, installatie en gebruik), en hoe wordt dit gemeten? 
+
+ [ALINEA-CONTENT]:
+vo 19. Is er impact op het milieu door het invoeren van het ai-systeem (ontwikkeling, installatie en
+gebruik), en hoe wordt dit gemeten?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 20. Hoe wordt de impact van het AI-systeem afgewogen tegen de milieukosten van het ...
+ nativeID=182 parentID=180 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 20. Hoe wordt de impact van het AI-systeem afgewogen tegen de milieukosten van het laten draaien van het AI-systeem? 
+
+ [ALINEA-CONTENT]:
+vo 20. Hoe wordt de impact van het AI-systeem afgewogen tegen de milieukosten van het laten
+draaien van het AI-systeem?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = vo 21. Wat voor maatregelen zijn er genomen om de milieu-impact van het AI-systeem te ...
+ nativeID=183 parentID=180 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vo 21. Wat voor maatregelen zijn er genomen om de milieu-impact van het AI-systeem te minimaliseren? 
+
+ [ALINEA-CONTENT]:
+vo 21. Wat voor maatregelen zijn er genomen om de milieu-impact van het AI-systeem te
+minimaliseren?
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Bijlagen Begrippenlijst
+ nativeID=184 parentID=0 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In dit document worden begrippen gebruikt die in de literatuur vaak verschillend gedefinieerd worden. Hieronder volgen eenduidige definities die gebruikt worden in dit document. acceptatiecriteria Op het beoogde doel en data afgestemde voorwaarden, waaraan het ai-systeem moet voldoen. Dit kan bijvoorbeeld de hoeveelheid data zijn, een accuratesse maatstaaf voor de output(data) of het inrichten van een onafhankelijke controle van output. Acceptatiecriteria moeten waar mogelijk meetbaar gemaakt worden zodat deze gemonitord kunnen worden met een geschikt meetsysteem. Goede acceptatiecriteria zijn SMART en voldoende verschillend zodat alle relevante aspecten van het AI-systeem goed gemonitord worden accuraatheid Zeer nauwgezet, precies of zorgvuldig; als 
+
+ [ALINEA-CONTENT]:
+In dit document worden begrippen gebruikt die in de literatuur vaak verschillend gedefinieerd worden.
+Hieronder volgen eenduidige definities die gebruikt worden in dit document.
+acceptatiecriteria Op het beoogde doel en data afgestemde voorwaarden, waaraan het
+
+          ***          [--- more alinea content ---]        ***          
+
+die entiteit, en deze entiteit is voor deze handelingen aansprakelijk. Wie is
+wie Vul in welke personen een rol hebben gespeeld bij het beantwoorden
+van deze AIIA.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Het zijn vaak voorspellende algoritmes zonder automatische besluitvorming. Het ...
+ nativeID=185 parentID=184 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Het zijn vaak voorspellende algoritmes zonder automatische besluitvorming. Het risico op fouten met impact op de burger is aanwezig maar is beperkt. Het algoritme doet namelijk alleen voorbereidend ‘werk’. 
+
+ [ALINEA-CONTENT]:
+1. Het zijn vaak voorspellende algoritmes zonder automatische besluitvorming. Het
+risico op fouten met impact op de burger is aanwezig maar is beperkt. Het algoritme doet
+namelijk alleen voorbereidend ‘werk’.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Wie is wie
+ nativeID=186 parentID=184 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Vul in welke personen een rol hebben gespeeld bij het beantwoorden van deze AIIA. Communicatieadviseur: Data scientists: Databeheerder of bronhouder: Functionaris Gegevensbescherming: Jurist: Overige leden projectteam: Strategisch adviseur ethiek: 
+
+ [ALINEA-CONTENT]:
+Vul in welke personen een rol hebben gespeeld bij het beantwoorden van deze AIIA.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = belangengroep: ciso of cio:
+ nativeID=187 parentID=186 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Communicatieadviseur: Data scientists: Databeheerder of bronhouder: 
+
+ [ALINEA-CONTENT]:
+Communicatieadviseur:
+Data scientists:
+Databeheerder of bronhouder:
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = domeinexpert:
+ nativeID=188 parentID=186 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Functionaris Gegevensbescherming: Jurist: 
+
+ [ALINEA-CONTENT]:
+Functionaris Gegevensbescherming:
+Jurist:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = opdrachtgever:
+ nativeID=189 parentID=186 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Overige leden projectteam: 
+
+ [ALINEA-CONTENT]:
+Overige leden projectteam:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = projectleider:
+ nativeID=190 parentID=186 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Strategisch adviseur ethiek: 
+
+ [ALINEA-CONTENT]:
+Strategisch adviseur ethiek:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Wie doet wat
+ nativeID=191 parentID=184 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H1 H2. H3. H4. H5. H6. Communicatieadviseur: X X X Data scientists: X X X X X Databeheerder of bronhouder: X X X X X X Functionaris Gegevensbescherming: X Jurist: X X X X X X X Overige leden projectteam: XX X X X X Strategisch adviseur ethiek: Dit is een publicatie van: Ministerie van Infrastructuur en Waterstaat Postbus 20901 2500 EX Den Haag November 2022 | 73263 
+
+ [ALINEA-CONTENT]:
+H1 H2. H3. H4. H5. H6.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = belangengroep: ciso of cio:
+ nativeID=192 parentID=191 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Communicatieadviseur: X X X Data scientists: X X X X X Databeheerder of bronhouder: X 
+
+ [ALINEA-CONTENT]:
+Communicatieadviseur:
+X
+X
+
+          ***          [--- more alinea content ---]        ***          
+
+X X X X X
+Databeheerder of bronhouder:
+X
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = domeinexpert:
+ nativeID=193 parentID=191 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+X X X X X Functionaris Gegevensbescherming: X Jurist: X 
+
+ [ALINEA-CONTENT]:
+X X X X X
+Functionaris Gegevensbescherming:
+X
+
+          ***          [--- more alinea content ---]        ***          
+
+Jurist:
+X
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = opdrachtgever:
+ nativeID=194 parentID=191 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+X X X X X X Overige leden projectteam: 
+
+ [ALINEA-CONTENT]:
+X
+X X X X X
+Overige leden projectteam:
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = projectleider:
+ nativeID=195 parentID=191 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+XX X X X X Strategisch adviseur ethiek: Dit is een publicatie van: Ministerie van Infrastructuur en Waterstaat Postbus 20901 2500 EX Den Haag November 2022 | 73263 
+
+ [ALINEA-CONTENT]:
+XX
+X
+X X X
+
+          ***          [--- more alinea content ---]        ***          
+
+2500 EX Den Haag
+November 2022 | 73263
+
+
+---------------------------------------------------------------------------------

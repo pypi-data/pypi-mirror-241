@@ -1,0 +1,155 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Opsomming] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Opsomming
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A wealthy man from the north of England has taken Netherfield and will move in soon. Mrs. Bennet and her daughters are eager to learn more about him, as Lady Lucas reports that he is young, handsome, agreeable, and will attend the next assembly. They hope he will fall in love with one of them. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Dit is echt een hoofdstuk met een lange titel.
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Hier even een stukje text om te zorgen dat een normale regelafstand het vaakste voorkomt.
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mrs. Long informs that a wealthy man from the north of England has taken Netherfield. He visited the place and immediately agreed to the deal. He will move in before Michaelmas. Mrs. Bennet and her daughters try to learn more about him but are unsuccessful. Lady Lucas reports that he is young, handsome, agreeable, and will attend the next assembly. They hope he will fall in love with one of them. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherﬁeld is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+2. en dan gaat de tekst hopelijk normaal verder.
+En dan teste we dat ook nog even voor condition
+2. en dan gaat de tekst hopelijk ook verder.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Dit kan zowel een hoofdstuk als opsomming zijn. 
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Dit kan zowel een hoofdstuk als opsomming zijn.
+
+
+ [ALINEA-CONTENT]:
+1. Dit kan zowel een hoofdstuk als opsomming zijn.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. Dit is dan de vervelende opsomming die vertelt dat het vorige punt een opsom- ...
+ nativeID=4 parentID=2 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Dit is dan de vervelende opsomming die vertelt dat het vorige punt een opsom-
+ming is en geen headlines.
+
+
+ [ALINEA-CONTENT]:
+2. Dit is dan de vervelende opsomming die vertelt dat het vorige punt een opsom-
+ming is en geen headlines.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Artikel 1
+ nativeID=5 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn.
+(a) En nog wat
+(b) en nog meer
+2. Dit is de tweede opsomming.
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn. 
+ nativeID=6 parentID=5 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn.
+(a) En nog wat
+(b) en nog meer
+
+
+ [ALINEA-CONTENT]:
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = (a) En nog wat 
+ nativeID=7 parentID=6 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+(a) En nog wat
+
+
+ [ALINEA-CONTENT]:
+(a) En nog wat
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = (b) en nog meer 
+ nativeID=8 parentID=6 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+(b) en nog meer
+
+
+ [ALINEA-CONTENT]:
+(b) en nog meer
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. Dit is de tweede opsomming. 
+ nativeID=9 parentID=5 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Dit is de tweede opsomming.
+
+
+ [ALINEA-CONTENT]:
+2. Dit is de tweede opsomming.
+
+---------------------------------------------------------------------------------

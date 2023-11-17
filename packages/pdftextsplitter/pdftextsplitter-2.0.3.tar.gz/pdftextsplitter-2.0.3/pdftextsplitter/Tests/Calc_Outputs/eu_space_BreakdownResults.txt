@@ -1,0 +1,2575 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document eu_space] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = eu_space
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dear reader, climate change is one of the biggest challenges facing humanity today – and overcoming it requires not only an evolution in the way we live our lives, but also a green modification on how we do business. Driving this transformation is the European Green Deal, which strives to drastically reduce carbon emissions, increase sustainable practices and, ultimately, make Europe the world’s first climate-neutral continent by 2050. But achieving these goals requires that companies take a deep look at their internal operations, and supply chains to identify opportunities for reducing their own environmental footprint. It is where the EU 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2023 / ISSUE 1 EU Space for Green Transformation A new tool for companies to monitor their sustainability targets #EUSpace
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = FOREWORD
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dear reader, climate change is one of the biggest challenges facing humanity today – and overcoming it requires not only an evolution in the way we live our lives, but also a green modification on how we do business. Driving this transformation is the European Green Deal, which strives to drastically reduce carbon emissions, increase sustainable practices and, ultimately, make Europe the world’s first climate-neutral continent by 2050. But achieving these goals requires that companies take a deep look at their internal operations, and supply chains to identify opportunities for reducing their own environmental footprint. It is where the EU 
+
+ [ALINEA-CONTENT]:
+Dear reader,
+climate change is one of the biggest challenges facing humanity today – and
+overcoming it requires not only an evolution in the way we live our lives, but
+
+          ***          [--- more alinea content ---]        ***          
+
+Rodrigo da Costa
+EUSPA Executive Director
+Prague, January 2023
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = TABLE OF CONTENTS
+ nativeID=3 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.2.1 Clean energy production and supply ........................................................................................................ 31 3.2.2 Clean industry boosting a cleaner industry ............................................................................................ 35 3.2.3 Construction and renovation ....................................................................................................................... 39 3.2.4 Smart and sustainable mobility .................................................................................................................. 40 3.2.5 A healthier and greener food system ....................................................................................................... 47 3.2.6 Restored ecosystems and biodiversity ..................................................................................................... 53 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = FOREWORD ................................................................................................................................................................................................... II EXECUTIVE SUMMARY ........................................................................................................................................................................... 1
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. INTRODUCTION  4
+ nativeID=5 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. THE GREEN TRANSFORMATION AND EU GREEN DEAL FOR BUSINESS IN EUROPE  7
+ nativeID=6 parentID=3 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3. THE ROLE OF THE EU SPACE PROGRAMME IN SUPPORTING COMPANIES ALONG THEIR SUSTAINABILITY JOURNEY  15
+ nativeID=7 parentID=3 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.2.1 Clean energy production and supply ........................................................................................................ 31 3.2.2 Clean industry boosting a cleaner industry ............................................................................................ 35 3.2.3 Construction and renovation ....................................................................................................................... 39 3.2.4 Smart and sustainable mobility .................................................................................................................. 40 3.2.5 A healthier and greener food system ....................................................................................................... 47 3.2.6 Restored ecosystems and biodiversity ..................................................................................................... 53 
+
+ [ALINEA-CONTENT]:
+3.2.1 Clean energy production and supply ........................................................................................................ 31
+3.2.2 Clean industry boosting a cleaner industry ............................................................................................ 35
+3.2.3 Construction and renovation ....................................................................................................................... 39
+
+          ***          [--- more alinea content ---]        ***          
+
+3.2.4 Smart and sustainable mobility .................................................................................................................. 40
+3.2.5 A healthier and greener food system ....................................................................................................... 47
+3.2.6 Restored ecosystems and biodiversity ..................................................................................................... 53
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4. CONCLUSIONS: EU SPACE FOR GREEN TRANSFORMATION  58
+ nativeID=8 parentID=3 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ANNEX 1: ABOUT THE EUROPEAN GLOBAL NAVIGATION SYSTEM AND COPERNICUS  60
+ nativeID=9 parentID=3 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ANNEX 2: ABOUT THE AUTHORS  63
+ nativeID=10 parentID=3 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = LIST OF EXHIBITS . 64
+ nativeID=11 parentID=3 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ABBREVIATIONS AND ACRONYMS . 66
+ nativeID=12 parentID=3 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = EXECUTIVE SUMMARY
+ nativeID=13 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In December 2019, the European Commission announced the European Green Deal, a package of policies and initiatives to answer the United Nation’s 2030 Agenda and the Sustainable Development Goals. This ambitious roadmap towards a climate-resilient society aspires to make the European Union’s economy sustainable, turning climate and environmental challenges into opportunities. The Green Deal is designed to transform Europe into the first climate-neutral continent, achieving zero net emissions of greenhouse gases by 2050. As tighter regulation and legislation appear on the horizon and purchasing and investment patterns place ever- higher importance on sustainability, companies embark on their sustainability journey. Not 
+
+ [ALINEA-CONTENT]:
+In December 2019, the European Commission announced the European Green Deal, a package of policies and
+initiatives to answer the United Nation’s 2030 Agenda and the Sustainable Development Goals. This ambitious
+roadmap towards a climate-resilient society aspires to make the European Union’s economy sustainable, turning
+
+          ***          [--- more alinea content ---]        ***          
+
+development of a greener and more inclusive society.
+If you are a company and you are interested in having additional information about the EU Space Programme and
+how it can support your green transformation do not hesitate in reaching out to EUSPA at market@euspa.europa.eu.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Understand the Green Deal and the implications for companies: The Green Deal comes with ...
+ nativeID=14 parentID=13 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Understand the Green Deal and the implications for companies: The Green Deal comes with implications that ripple through the entire corporate ecosystem and provides companies with opportunities as well as the need to react to the changing regulatory and policy framework. 
+
+ [ALINEA-CONTENT]:
+▪ Understand the Green Deal and the implications for companies: The Green Deal comes with implications
+that ripple through the entire corporate ecosystem and provides companies with opportunities as well as
+the need to react to the changing regulatory and policy framework.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Analyse how companies currently address green transformation: Companies (and investors) are focusing ...
+ nativeID=15 parentID=13 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Analyse how companies currently address green transformation: Companies (and investors) are focusing more and more on sustainability. The understanding of the methods, measures, and tools used by the companies for their green transformation is crucial to identify which gaps can be filled by the EU Space Programme. 
+
+ [ALINEA-CONTENT]:
+▪ Analyse how companies currently address green transformation: Companies (and investors) are focusing
+more and more on sustainability. The understanding of the methods, measures, and tools used by the
+companies for their green transformation is crucial to identify which gaps can be filled by the EU Space
+
+          ***          [--- more alinea content ---]        ***          
+
+Programme.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Describe the full potential of EU Space data for green transformation: Present the way ...
+ nativeID=16 parentID=13 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Describe the full potential of EU Space data for green transformation: Present the way companies can use EU Space data and services to help them on their path towards sustainability. Provide an analysis to quantify and qualify current and future benefits (e.g., monetary, efficiency related) of using EU Space data and their value-added for green transformation. Show specific practical use cases of currently deployed applications. 
+
+ [ALINEA-CONTENT]:
+▪ Describe the full potential of EU Space data for green transformation: Present the way companies can
+use EU Space data and services to help them on their path towards sustainability. Provide an analysis to
+quantify and qualify current and future benefits (e.g., monetary, efficiency related) of using EU Space data
+
+          ***          [--- more alinea content ---]        ***          
+
+and their value-added for green transformation. Show specific practical use cases of currently deployed
+applications.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Provide a call for action to companies: present a call for action for companies ...
+ nativeID=17 parentID=13 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Provide a call for action to companies: present a call for action for companies that are less aware of the EU Space Programme benefits to engage with EUSPA to understand how to maximise the use of EU Space data and services to support their green transformation. 
+
+ [ALINEA-CONTENT]:
+▪ Provide a call for action to companies: present a call for action for companies that are less aware of the
+EU Space Programme benefits to engage with EUSPA to understand how to maximise the use of EU Space
+data and services to support their green transformation.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. INTRODUCTION Study context and approach
+ nativeID=18 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Climate change is one of the biggest challenges of humanity and its severe impacts to society are just beginning to emerge. Greenhouse gas (GHG) emissions by human activities e.g., manufacturing, transport, energy production and distribution, agriculture are the most accountable to this phenomenon. Exhibit 3: Greenhouse gas emissions global and by sector To overcome climate change in the long term, we must drastically reduce anthropogenic emissions and encourage a strong shift towards sustainability and green transformation. In this context, much importance is given to our transition to a more sustainable way of living and working. This necessitates a shift in 
+
+ [ALINEA-CONTENT]:
+Climate change is one of the biggest challenges of humanity and its severe impacts to society are just beginning to
+emerge. Greenhouse gas (GHG) emissions by human activities e.g., manufacturing, transport, energy production and
+distribution, agriculture are the most accountable to this phenomenon.
+
+          ***          [--- more alinea content ---]        ***          
+
+Finally, the fourth step relates to the generation of informed recommendations (4) for the promotion of EU-Space
+to enable the green transformation in industry and help unlock efficiencies in companies’ sustainability and
+operations.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. THE GREEN TRANSFORMATION AND EU GREEN DEAL FOR BUSINESS IN EUROPE
+ nativeID=19 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The change in thinking observed across industry, policy and society towards more sustainable practices is often framed under the moniker of “green transformation”. In the subject literature, this term is mostly defined as actions aimed at creating equilibrium (agreement) between the economic growth and care for the environment, aimed at guaranteeing a high quality of life for both present and future generations at the level allowed by the civilisational development, and at the same time an effective and rational use of the available resources. This can be applied at individual level, e.g., single companies or at group level, e.g., single 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Green transformation market
+ nativeID=20 parentID=19 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The change in thinking observed across industry, policy and society towards more sustainable practices is often framed under the moniker of “green transformation”. In the subject literature, this term is mostly defined as actions aimed at creating equilibrium (agreement) between the economic growth and care for the environment, aimed at guaranteeing a high quality of life for both present and future generations at the level allowed by the civilisational development, and at the same time an effective and rational use of the available resources. This can be applied at individual level, e.g., single companies or at group level, e.g., single 
+
+ [ALINEA-CONTENT]:
+The change in thinking observed across industry, policy and society towards more sustainable practices is often
+framed under the moniker of “green transformation”. In the subject literature, this term is mostly defined as actions
+aimed at creating equilibrium (agreement) between the economic growth and care for the environment, aimed at
+
+          ***          [--- more alinea content ---]        ***          
+
+impetus to move away from legacy operations. Though not directly transferrable to all sectors, this example is highly
+illustrative of the need, and benefits of the green transformation, especially in the industries least adherent to
+sustainable practices.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ In energy, decarbonisation is seeing the phasing-out of legacy, carbon-rich energy sources including oil, ...
+ nativeID=21 parentID=20 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ In energy, decarbonisation is seeing the phasing-out of legacy, carbon-rich energy sources including oil, coal, and natural gas. Large focus is also placed on improving the energy efficiency of distribution grids, housing, and industry 
+
+ [ALINEA-CONTENT]:
+▪ In energy, decarbonisation is seeing the phasing-out of legacy, carbon-rich energy sources including oil,
+coal, and natural gas. Large focus is also placed on improving the energy efficiency of distribution grids,
+housing, and industry
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The agricultural sector is focusing on significant technology-based reductions in land and resource use, ...
+ nativeID=22 parentID=20 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The agricultural sector is focusing on significant technology-based reductions in land and resource use, and the redirection of operations toward carbon capture (producing increased added value in net emissions reductions) 
+
+ [ALINEA-CONTENT]:
+▪ The agricultural sector is focusing on significant technology-based reductions in land and resource use,
+and the redirection of operations toward carbon capture (producing increased added value in net emissions
+reductions)
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ In transport, the transition to electric powertrains has originated a now booming segment, with ...
+ nativeID=23 parentID=20 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ In transport, the transition to electric powertrains has originated a now booming segment, with road vehicles on an exponential adoption path – in reaction to, and anticipation of shifting regulation in the early 2030s. Similarly, efforts on green aviation are growing. Improvements in urban and rural mobility infrastructure are also further integrating the sector into the digital sustainable era. 
+
+ [ALINEA-CONTENT]:
+▪ In transport, the transition to electric powertrains has originated a now booming segment, with road
+vehicles on an exponential adoption path – in reaction to, and anticipation of shifting regulation in the early
+2030s. Similarly, efforts on green aviation are growing. Improvements in urban and rural mobility
+
+          ***          [--- more alinea content ---]        ***          
+
+infrastructure are also further integrating the sector into the digital sustainable era.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Green transformation impact on business
+ nativeID=24 parentID=19 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Though not expressly necessary, the green transformation is often tied with the use of modern, innovative digital tools. Digitalisation, in turn, supplies tools for optimisation to underpin many efficiencies in resource use and waste reduction, target tracking and monitoring, regulatory compliance, and the generation of decision-making data for long-term planning. Many of these tasks stand to benefit from the range of applications offered by EU Space data and signals. These efficiencies will be discussed to a greater extent in the coming sections, with associated tangible use-cases and, where possible, economic impact analyses. Significant investment is needed for the green transformation, 
+
+ [ALINEA-CONTENT]:
+Though not expressly necessary, the green transformation is often tied with the use of modern, innovative digital
+tools. Digitalisation, in turn, supplies tools for optimisation to underpin many efficiencies in resource use and waste
+reduction, target tracking and monitoring, regulatory compliance, and the generation of decision-making data for
+
+          ***          [--- more alinea content ---]        ***          
+
+sustainability, that aspect can be used as a singular marketing lever across different markets and regions, offering
+scale economies. It is important, nevertheless, to note that current data shows that, in certain sectors such as food,
+the traditional factors of price and quality remain more influential in mass consumer decisions than sustainability.11
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Green transformation in regulatory requirements
+ nativeID=25 parentID=19 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The European Green Deal will have major structural implications for the EU economy in the coming decades, affecting everything from the way we produce and use power, to how we travel, heat our homes, and even how we eat. This is made possible through a series of policies which will be introduced or updated starting from already existing measures. Many of the policies put in place in the context of the European Green Deal will deeply affect business and operations of European companies. Those changes are all focused in improving European environmental conditions and making a greener and fairer society 
+
+ [ALINEA-CONTENT]:
+The European Green Deal will have major structural implications for the EU economy in the coming decades,
+affecting everything from the way we produce and use power, to how we travel, heat our homes, and even how we
+eat. This is made possible through a series of policies which will be introduced or updated starting from already
+
+          ***          [--- more alinea content ---]        ***          
+
+Examples of EU Space applications
+Examples of EU Space applications
+Examples of EU Space applications
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3. THE ROLE OF THE EU SPACE PROGRAMME IN SUPPORTING COMPANIES ALONG THEIR SUSTAINABILITY JOURNEY
+ nativeID=26 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The European Union Space Programme in all its components has already been introduced previously in this report, together with a preliminary discussion about its role for the established Green Deal objectives. As anticipated, due to the higher impact on the topic, this report will focus primarily on the European Global Navigation Satellite Systems (EGNSS), including Galileo and EGNOS and Copernicus. As for the EGNSS, their role in support of the Green Deal’s ambitions for emissions reductions is crucial. A key example is the transport sector 13, including aviation, maritime, road, and rail transport. The sector contributes heavily to emissions in 
+
+ [ALINEA-CONTENT]:
+The European Union Space Programme in all its components has already been introduced previously in this report,
+together with a preliminary discussion about its role for the established Green Deal objectives. As anticipated, due
+to the higher impact on the topic, this report will focus primarily on the European Global Navigation Satellite
+
+          ***          [--- more alinea content ---]        ***          
+
+Now that the general picture and definitions about the EU Space and its role in supporting the objectives of the
+Green Deal have been clarified, the next sections of this document will focus on providing the reader with specific
+examples and use cases about the two areas defined in the Exhibit 12.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ The Copernicus Atmosphere Monitoring Service (CAMS) provides daily forecasts of global air quality ...
+ nativeID=27 parentID=26 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Copernicus Atmosphere Monitoring Service (CAMS) provides daily forecasts of global air quality that public and private authorities can use to determine citizens’ exposure to pollutants such as aerosols and particulates. It is also useful for air traffic control in case of volcanic activity. 
+
+ [ALINEA-CONTENT]:
+▪ The Copernicus Atmosphere Monitoring Service (CAMS) provides daily forecasts of global air quality
+that public and private authorities can use to determine citizens’ exposure to pollutants such as aerosols
+and particulates. It is also useful for air traffic control in case of volcanic activity.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ The Copernicus Marine Service (CMEMS) oversees water quality monitoring and forecasting of pollutants ...
+ nativeID=28 parentID=26 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Copernicus Marine Service (CMEMS) oversees water quality monitoring and forecasting of pollutants such as nitrates, phosphates, and dissolved iron in the sea from land and especially along the coast, but also monitors organic pollution such as algal blooms, which are increasing with global warming and eutrophication of the water. 
+
+ [ALINEA-CONTENT]:
+▪ The Copernicus Marine Service (CMEMS) oversees water quality monitoring and forecasting of pollutants
+such as nitrates, phosphates, and dissolved iron in the sea from land and especially along the coast, but
+also monitors organic pollution such as algal blooms, which are increasing with global warming and
+
+          ***          [--- more alinea content ---]        ***          
+
+eutrophication of the water.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ The European Maritime Safety Agency (EMSA) uses Sentinel satellite imagery to monitor sea pollution ...
+ nativeID=29 parentID=26 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The European Maritime Safety Agency (EMSA) uses Sentinel satellite imagery to monitor sea pollution such as oil spills and other polluters. 
+
+ [ALINEA-CONTENT]:
+▪ The European Maritime Safety Agency (EMSA) uses Sentinel satellite imagery to monitor sea pollution
+such as oil spills and other polluters.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ The Copernicus Land Monitoring Service monitors changes in grassland rich Natura2000 hotspots for ...
+ nativeID=30 parentID=26 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Copernicus Land Monitoring Service monitors changes in grassland rich Natura2000 hotspots for nature conservation, to figure out whether these sites are being effectively preserved or if a decline in loss of biodiversity is halted. 
+
+ [ALINEA-CONTENT]:
+▪ The Copernicus Land Monitoring Service monitors changes in grassland rich Natura2000 hotspots for
+nature conservation, to figure out whether these sites are being effectively preserved or if a decline in loss
+of biodiversity is halted.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Anthropogenic and natural emissions 
+ nativeID=31 parentID=26 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Anthropogenic and natural emissions 
+
+ [ALINEA-CONTENT]:
+▪ Anthropogenic and natural emissions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Global ship emissions 
+ nativeID=32 parentID=26 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Global ship emissions 
+
+ [ALINEA-CONTENT]:
+▪ Global ship emissions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Eutrophication 
+ nativeID=33 parentID=26 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Eutrophication 
+
+ [ALINEA-CONTENT]:
+▪ Eutrophication
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Lake water quality 
+ nativeID=34 parentID=26 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Lake water quality 
+
+ [ALINEA-CONTENT]:
+▪ Lake water quality
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Natura2000 
+ nativeID=35 parentID=26 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Natura2000 
+
+ [ALINEA-CONTENT]:
+▪ Natura2000
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ CORINE Land Cover 
+ nativeID=36 parentID=26 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ CORINE Land Cover 
+
+ [ALINEA-CONTENT]:
+▪ CORINE Land Cover
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-4, Sentinel-5 and Sentinel-5P for monitoring of ...
+ nativeID=37 parentID=26 & horizontal_ordering=10
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-4, Sentinel-5 and Sentinel-5P for monitoring of emissions of trace gases and air quality 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-4, Sentinel-5 and Sentinel-5P for monitoring of
+emissions of trace gases and air quality
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Air quality analyses and forecasts 
+ nativeID=38 parentID=26 & horizontal_ordering=11
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Air quality analyses and forecasts 
+
+ [ALINEA-CONTENT]:
+▪ Air quality analyses and forecasts
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Anthropogenic emissions 
+ nativeID=39 parentID=26 & horizontal_ordering=12
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Anthropogenic emissions 
+
+ [ALINEA-CONTENT]:
+▪ Anthropogenic emissions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ CORINE Land Cover 
+ nativeID=40 parentID=26 & horizontal_ordering=13
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ CORINE Land Cover 
+
+ [ALINEA-CONTENT]:
+▪ CORINE Land Cover
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Natura2000 
+ nativeID=41 parentID=26 & horizontal_ordering=14
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Natura2000 
+
+ [ALINEA-CONTENT]:
+▪ Natura2000
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-2 for evidence supporting the evaluation of green ...
+ nativeID=42 parentID=26 & horizontal_ordering=15
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-2 for evidence supporting the evaluation of green claims 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-2 for evidence supporting the evaluation of green
+claims
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Anthropogenic emissions 
+ nativeID=43 parentID=26 & horizontal_ordering=16
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Anthropogenic emissions 
+
+ [ALINEA-CONTENT]:
+▪ Anthropogenic emissions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Global ship emissions 
+ nativeID=44 parentID=26 & horizontal_ordering=17
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Global ship emissions 
+
+ [ALINEA-CONTENT]:
+▪ Global ship emissions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-1 for oil spill monitoring at sea, Sentinel-2 for oil spill ...
+ nativeID=45 parentID=26 & horizontal_ordering=18
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-1 for oil spill monitoring at sea, Sentinel-2 for oil spill monitoring on land 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-1 for oil spill monitoring at sea, Sentinel-2 for oil spill
+monitoring on land
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Air quality analyses and forecasts 
+ nativeID=46 parentID=26 & horizontal_ordering=19
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Air quality analyses and forecasts 
+
+ [ALINEA-CONTENT]:
+▪ Air quality analyses and forecasts
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Primary productivity 
+ nativeID=47 parentID=26 & horizontal_ordering=20
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Primary productivity 
+
+ [ALINEA-CONTENT]:
+▪ Primary productivity
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sea surface temperature 
+ nativeID=48 parentID=26 & horizontal_ordering=21
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sea surface temperature 
+
+ [ALINEA-CONTENT]:
+▪ Sea surface temperature
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Street tree layer 
+ nativeID=49 parentID=26 & horizontal_ordering=22
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Street tree layer 
+
+ [ALINEA-CONTENT]:
+▪ Street tree layer
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Urban atlas 
+ nativeID=50 parentID=26 & horizontal_ordering=23
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Urban atlas 
+
+ [ALINEA-CONTENT]:
+▪ Urban atlas
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Natura2000 
+ nativeID=51 parentID=26 & horizontal_ordering=24
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Natura2000 
+
+ [ALINEA-CONTENT]:
+▪ Natura2000
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ High resolution layers 
+ nativeID=52 parentID=26 & horizontal_ordering=25
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ High resolution layers 
+
+ [ALINEA-CONTENT]:
+▪ High resolution layers
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Solar radiation 
+ nativeID=53 parentID=26 & horizontal_ordering=26
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Solar radiation 
+
+ [ALINEA-CONTENT]:
+▪ Solar radiation
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sea surface wave forecasts 
+ nativeID=54 parentID=26 & horizontal_ordering=27
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sea surface wave forecasts 
+
+ [ALINEA-CONTENT]:
+▪ Sea surface wave forecasts
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sea surface wind ...
+ nativeID=55 parentID=26 & horizontal_ordering=28
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sea surface wind Supply clean energy 
+
+ [ALINEA-CONTENT]:
+▪ Sea surface wind
+Supply clean
+energy
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-1 for sea surface waves and wind, wake analysis of ...
+ nativeID=56 parentID=26 & horizontal_ordering=29
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-1 for sea surface waves and wind, wake analysis of Copernicus Sentinels offshore wind farms 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-1 for sea surface waves and wind, wake analysis of
+Copernicus Sentinels
+offshore wind farms
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-2 for biomass estimation 
+ nativeID=57 parentID=26 & horizontal_ordering=30
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-2 for biomass estimation 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-2 for biomass estimation
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Anthropogenic emissions 
+ nativeID=58 parentID=26 & horizontal_ordering=31
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Anthropogenic emissions 
+
+ [ALINEA-CONTENT]:
+▪ Anthropogenic emissions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-3 for urban heat island monitoring 
+ nativeID=59 parentID=26 & horizontal_ordering=32
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-3 for urban heat island monitoring 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-3 for urban heat island monitoring
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Copernicus expansion mission LSTM for high resolution urban ...
+ nativeID=60 parentID=26 & horizontal_ordering=33
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Copernicus expansion mission LSTM for high resolution urban heat island monitoring for more precise building heat loss detection 
+
+ [ALINEA-CONTENT]:
+▪ Copernicus expansion mission LSTM for high resolution urban
+heat island monitoring for more precise building heat loss
+detection
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Eutrophication 
+ nativeID=61 parentID=26 & horizontal_ordering=34
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Eutrophication 
+
+ [ALINEA-CONTENT]:
+▪ Eutrophication
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Chlorophyll-a 
+ nativeID=62 parentID=26 & horizontal_ordering=35
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Chlorophyll-a 
+
+ [ALINEA-CONTENT]:
+▪ Chlorophyll-a
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Primary production 
+ nativeID=63 parentID=26 & horizontal_ordering=36
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Primary production 
+
+ [ALINEA-CONTENT]:
+▪ Primary production
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Oxygen 
+ nativeID=64 parentID=26 & horizontal_ordering=37
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Oxygen 
+
+ [ALINEA-CONTENT]:
+▪ Oxygen
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Salinity and acidity 
+ nativeID=65 parentID=26 & horizontal_ordering=38
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Salinity and acidity 
+
+ [ALINEA-CONTENT]:
+▪ Salinity and acidity
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ CORINE Land Use/Land Cover 
+ nativeID=66 parentID=26 & horizontal_ordering=39
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ CORINE Land Use/Land Cover 
+
+ [ALINEA-CONTENT]:
+▪ CORINE Land Use/Land Cover
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Lake water quality 
+ nativeID=67 parentID=26 & horizontal_ordering=40
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Lake water quality 
+
+ [ALINEA-CONTENT]:
+▪ Lake water quality
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-1 for detecting illegal, unreported and unregulated ...
+ nativeID=68 parentID=26 & horizontal_ordering=41
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-1 for detecting illegal, unreported and unregulated fishing Copernicus Sentinels 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-1 for detecting illegal, unreported and unregulated
+fishing
+Copernicus Sentinels
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-2 for deforestation and afforestation monitoring 
+ nativeID=69 parentID=26 & horizontal_ordering=42
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-2 for deforestation and afforestation monitoring 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-2 for deforestation and afforestation monitoring
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Sentinel-2 for crop growth monitoring for precise fertiliser and ...
+ nativeID=70 parentID=26 & horizontal_ordering=43
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Sentinel-2 for crop growth monitoring for precise fertiliser and pesticide application in agriculture 
+
+ [ALINEA-CONTENT]:
+▪ Sentinel-2 for crop growth monitoring for precise fertiliser and
+pesticide application in agriculture
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ Climate change is making weather-related catastrophic events more and more common, ...
+ nativeID=71 parentID=26 & horizontal_ordering=44
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Climate change is making weather-related catastrophic events more and more common, leaving populations affected to deal with reconstruction, massive losses in terms of households and lives 
+
+ [ALINEA-CONTENT]:
+▪ Climate change is making weather-related catastrophic events more and more common,
+leaving populations affected to deal with reconstruction, massive losses in terms of
+households and lives
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ The “aftermath” of an extreme event includes reconstruction and damage assessment which ...
+ nativeID=72 parentID=26 & horizontal_ordering=45
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The “aftermath” of an extreme event includes reconstruction and damage assessment which involve the affected population, governments, civil protection agencies, NGOs, insurance companies and other stakeholders. 
+
+ [ALINEA-CONTENT]:
+▪ The “aftermath” of an extreme event includes reconstruction and damage assessment which
+involve the affected population, governments, civil protection agencies, NGOs, insurance
+companies and other stakeholders.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ▪ The European Green Deal promotes the shift towards a more just society in which ...
+ nativeID=73 parentID=26 & horizontal_ordering=46
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The European Green Deal promotes the shift towards a more just society in which economic resources are more easily accessible to the population, especially in case of emergency such as a catastrophic weather-related event 
+
+ [ALINEA-CONTENT]:
+▪ The European Green Deal promotes the shift towards a more just society in which economic
+resources are more easily accessible to the population, especially in case of emergency such
+as a catastrophic weather-related event
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Role of the EU Space in monitoring green transformation targets
+ nativeID=74 parentID=26 & horizontal_ordering=47
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Environmental monitoring activities are carried out on soil, atmosphere, and water by companies and institutions with the scope to assess how human activities are interfering with the biosphere. Historically, those activities always involved a first, in-situ sample collection, followed by a specific analysis process, and a final data categorisation and visualisation. All the processes mentioned above are very resource-intensive, requiring personnel on the ground to either conduct sensor maintenance or to physically collect samples. The next paragraphs show how the EU Space Programme, and in particular Copernicus, can be used by institutional and commercial players to make environmental monitoring more 
+
+ [ALINEA-CONTENT]:
+Environmental monitoring activities are carried out on soil, atmosphere, and water by companies and institutions
+with the scope to assess how human activities are interfering with the biosphere.
+Historically, those activities always involved a first, in-situ sample collection, followed by a specific analysis
+
+          ***          [--- more alinea content ---]        ***          
+
+A good instrument to evaluate the performance of a company in terms of environmental effort and impact is the ESG
+scoring. Environmental, social, and corporate governance (ESG) is an approach to evaluate efforts of a company
+towards social goals beyond the core business of the organisation itself. More specifically:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ Air monitoring combines emissions, meteorological, and topographic data to detect and predict the ...
+ nativeID=75 parentID=74 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Air monitoring combines emissions, meteorological, and topographic data to detect and predict the concentration of air pollutants in a determined aria. Environmental data is typically gathered using specialised sensor networks placed locally in high-risk areas. 
+
+ [ALINEA-CONTENT]:
+▪ Air monitoring combines emissions, meteorological, and topographic data to detect and predict the
+concentration of air pollutants in a determined aria. Environmental data is typically gathered using
+specialised sensor networks placed locally in high-risk areas.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ Soil monitoring typically requires operators to grab and analyse soil samples to detect phenomena ...
+ nativeID=76 parentID=74 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Soil monitoring typically requires operators to grab and analyse soil samples to detect phenomena such as acidification, biodiversity loss, contamination, erosion, organic material loss, salinization, and slope instability. Main parameters on study are salinity, which, if imbalanced, can cause detrimental effects on water quality and plant yield; chemical contaminations coming from toxic elements, such as nuclear waste, coal ash, microplastics, petrochemicals, and acid rain, which can lead to the development of pollution- related diseases if in contact with humans or animals; and erosion due to factors such as rainfall, surface runoff, rivers, streams, floods, wind, mass movement, soil composition 
+
+ [ALINEA-CONTENT]:
+▪ Soil monitoring typically requires operators to grab and analyse soil samples to detect phenomena such as
+acidification, biodiversity loss, contamination, erosion, organic material loss, salinization, and slope
+instability. Main parameters on study are salinity, which, if imbalanced, can cause detrimental effects on
+
+          ***          [--- more alinea content ---]        ***          
+
+related diseases if in contact with humans or animals; and erosion due to factors such as rainfall, surface
+runoff, rivers, streams, floods, wind, mass movement, soil composition and structure, topography, and lack
+of vegetation management.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ Water monitoring, is usually performed through the acquisition of samples from any water source ...
+ nativeID=77 parentID=74 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Water monitoring, is usually performed through the acquisition of samples from any water source (e.g., see, rivers, lakes, drinking water sources, etc.) to measure and monitor parameters such as biological presence, chemical content, and microbiological parameters. 
+
+ [ALINEA-CONTENT]:
+▪ Water monitoring, is usually performed through the acquisition of samples from any water source (e.g.,
+see, rivers, lakes, drinking water sources, etc.) to measure and monitor parameters such as biological
+presence, chemical content, and microbiological parameters.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The environmental criteria, include factors such as the energy used and wasted by a company, the use of
+ nativeID=78 parentID=74 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+resources, carbon emissions, and contribution to climate change. 
+
+ [ALINEA-CONTENT]:
+resources, carbon emissions, and contribution to climate change.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The social criteria, address the relationships the company has and the reputation it fosters with people and
+ nativeID=79 parentID=74 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+institutions in the communities where the business is active. Factors such as fair treatment of employees, diversity and inclusion are accounted for. 
+
+ [ALINEA-CONTENT]:
+institutions in the communities where the business is active. Factors such as fair treatment of employees,
+diversity and inclusion are accounted for.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The governance criteria are the internal system of practices, controls, and procedures companies adopt to
+ nativeID=80 parentID=74 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+govern themselves. Companies are nowadays giving significant relevance to ESG – often driven by capital markets creating pressure to achieve progress in this dimension. Shareholders and investors seek reflective and progressive policies in all three of these realms and use it as a tool to weigh up a business’ overall sustainable performance. Customers and channel partners are increasingly weighing in ESG compliance into their purchase decisions. Lastly, employees and recruitment candidates value the sustainability ambition of their (potential) employer. The graph below outlines the ESG framework adopted by Henkel, as an example. Exhibit 16: Example - ESG goals and KPIs 
+
+ [ALINEA-CONTENT]:
+govern themselves.
+Companies are nowadays giving significant relevance to ESG – often driven by capital markets creating pressure to
+achieve progress in this dimension. Shareholders and investors seek reflective and progressive policies in all three
+
+          ***          [--- more alinea content ---]        ***          
+
+in those matters. These companies provide information to users by cross-checking input from assessed companies
+to avoid misleading practices like the greenwashing19. Among the most relevant are the B Corporation Certification,
+the Sustainalytics Risk Index, and the Corporate Knights Rating.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = A) Increasing sophistication of top down ESG rating 
+ nativeID=81 parentID=80 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A) Increasing sophistication of top down ESG rating 
+
+ [ALINEA-CONTENT]:
+A) Increasing sophistication of top down ESG rating
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The B Corporation Certification (also B Corp) is issued by B Lab, a non-profit organisation, to those
+ nativeID=82 parentID=74 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+companies that score a minimum of 80 points (out of 200) in an assessment about social and environmental sustainability. Even though, a B Corp Certification, does not bring any legal significance to the holding companies, it is globally recognised as a powerful branding tool to build trust in consumers, investors, and suppliers and to attract and retain employees. 
+
+ [ALINEA-CONTENT]:
+companies that score a minimum of 80 points (out of 200) in an assessment about social and environmental
+sustainability. Even though, a B Corp Certification, does not bring any legal significance to the holding
+companies, it is globally recognised as a powerful branding tool to build trust in consumers, investors, and
+
+          ***          [--- more alinea content ---]        ***          
+
+suppliers and to attract and retain employees.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The Sustainalytics Risk Index is issued by the Dutch private firm Sustainalytics to assess companies'
+ nativeID=83 parentID=74 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+exposure to long-term environmental, social, and governance risks. It is useful both for companies themselves for targeted marketing programmes, and investors to find potential risks and opportunities 
+
+ [ALINEA-CONTENT]:
+exposure to long-term environmental, social, and governance risks. It is useful both for companies
+themselves for targeted marketing programmes, and investors to find potential risks and opportunities
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ The Corporate Knights Ranking is issued by Corporate Knights, a Canadian financial research firm which
+ nativeID=84 parentID=74 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+compiles every year starting from 2005 the “Global 100” ranking, a table showing the 100 best performing companies in terms of ESG based on a set of 43 KPIs. The process behind the compiling of ESG ratings is typically based on data provided by companies on a voluntary basis. ESG data aggregators, therefore, start from data which might be partial or biased by the internal perception of the company supplying them. This first set of information is complemented with additional surveys and sector analysis studies. Altogether, those data allow aggregators to compile a list of KPIs converging into the ESG 
+
+ [ALINEA-CONTENT]:
+compiles every year starting from 2005 the “Global 100” ranking, a table showing the 100 best performing
+companies in terms of ESG based on a set of 43 KPIs.
+The process behind the compiling of ESG ratings is typically based on data provided by companies on a voluntary
+
+          ***          [--- more alinea content ---]        ***          
+
+of EU
+Space
+providers24
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ ESG reporting is often based on self-assessed and possibly biased data provided by ...
+ nativeID=85 parentID=84 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ ESG reporting is often based on self-assessed and possibly biased data provided by companies 
+
+ [ALINEA-CONTENT]:
+▪ ESG reporting is often based on self-assessed and possibly biased data provided by
+companies
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Independent assessment is necessary to comply with upcoming more stringent regulation ...
+ nativeID=86 parentID=84 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Independent assessment is necessary to comply with upcoming more stringent regulation about non-financial reporting which will affect European companies starting from 2024 
+
+ [ALINEA-CONTENT]:
+▪ Independent assessment is necessary to comply with upcoming more stringent regulation
+about non-financial reporting which will affect European companies starting from 2024
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Green Deal put at its very centre the idea of a more sustainable society ...
+ nativeID=87 parentID=84 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Green Deal put at its very centre the idea of a more sustainable society and therefore it promotes regulations willing to enforce a more rigid control over companies’ environmental performance such as the Corporate Sustainability Reporting Directive destined to underline the importance of a correct non-financial management of business B) Regulators and investors demanding sustainability information in investment & financing activities C) Corporates embracing ESG as a strategic goal and implementing processes D) Growing number of ESG IT solutions – from start-up solutions to fully integrated packages 
+
+ [ALINEA-CONTENT]:
+▪ Green Deal put at its very centre the idea of a more sustainable society and therefore it
+promotes regulations willing to enforce a more rigid control over companies’ environmental
+performance such as the Corporate Sustainability Reporting Directive destined to underline
+
+          ***          [--- more alinea content ---]        ***          
+
+the importance of a correct non-financial management of business
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = B) Regulators and investors demanding sustainability information in investment ...
+ nativeID=88 parentID=87 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+B) Regulators and investors demanding sustainability information in investment & financing activities 
+
+ [ALINEA-CONTENT]:
+B) Regulators and investors demanding sustainability information in investment
+& financing activities
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = C) Corporates embracing ESG as a strategic goal and implementing processes 
+ nativeID=89 parentID=87 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C) Corporates embracing ESG as a strategic goal and implementing processes 
+
+ [ALINEA-CONTENT]:
+C) Corporates embracing ESG as a strategic goal and implementing processes
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = D) Growing number of ESG IT solutions – from start-up solutions to fully integrated packages 
+ nativeID=90 parentID=87 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D) Growing number of ESG IT solutions – from start-up solutions to fully integrated packages 
+
+ [ALINEA-CONTENT]:
+D) Growing number of ESG IT solutions – from start-up solutions to fully integrated packages
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Energy production is one of the highest-impact sectors in terms of greenhouse gasses ...
+ nativeID=91 parentID=84 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Energy production is one of the highest-impact sectors in terms of greenhouse gasses (GHG) production 
+
+ [ALINEA-CONTENT]:
+▪ Energy production is one of the highest-impact sectors in terms of greenhouse gasses
+(GHG) production
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ GHG emissions might be difficult to monitor on a large scale in the area ...
+ nativeID=92 parentID=84 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ GHG emissions might be difficult to monitor on a large scale in the area not immediately surrounding the production sites 
+
+ [ALINEA-CONTENT]:
+▪ GHG emissions might be difficult to monitor on a large scale in the area not immediately
+surrounding the production sites
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ The Green Deal a clean energy transition, and with the goal of achieving a ...
+ nativeID=93 parentID=84 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Green Deal a clean energy transition, and with the goal of achieving a 32% energy share from renewables 
+
+ [ALINEA-CONTENT]:
+▪ The Green Deal a clean energy transition, and with the goal of achieving a 32% energy share
+from renewables
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Moreover, it sets important goals to ensure a secure and affordable energy supply for ...
+ nativeID=94 parentID=84 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Moreover, it sets important goals to ensure a secure and affordable energy supply for EU residences 
+
+ [ALINEA-CONTENT]:
+▪ Moreover, it sets important goals to ensure a secure and affordable energy supply for EU residences
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = EU Space for reducing environmental footprint of companies
+ nativeID=95 parentID=26 & horizontal_ordering=48
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section of the document, the positive environmental impact of the EU Space on different industrial sectors will be showcased through conceptual discussion and practical use cases, organised following, when possible, the structure of the Green Deal action areas as described in the following Exhibit. Many initiatives aim to reduce the pollution generated by the constantly increasing power consumption typical in the modern society, especially using renewable sources. In 2021, electricity generated from renewable sources in the EU reached a new high of 1068 TWh, a 1% increase (+12 TWh) year-on-year, and a 9% (+88 TWh) increase compared to 
+
+ [ALINEA-CONTENT]:
+In this section of the document, the positive environmental impact of the EU Space on different industrial sectors
+will be showcased through conceptual discussion and practical use cases, organised following, when possible, the
+structure of the Green Deal action areas as described in the following Exhibit.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.1 Clean energy production and supply
+ nativeID=96 parentID=95 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Many initiatives aim to reduce the pollution generated by the constantly increasing power consumption typical in the modern society, especially using renewable sources. In 2021, electricity generated from renewable sources in the EU reached a new high of 1068 TWh, a 1% increase (+12 TWh) year-on-year, and a 9% (+88 TWh) increase compared to 2019. Renewables accounted for 37% of EU electricity production in 2021, up from 34% in 201925. Exhibit 26: Energy generation from solar and wind sources in EU2725 The EU Space Programme can make significant contributions to renewable energy providers’ performance, especially in terms of accessing reliable 
+
+ [ALINEA-CONTENT]:
+Many initiatives aim to reduce the pollution generated by the constantly increasing power consumption typical in
+the modern society, especially using renewable sources. In 2021, electricity generated from renewable sources in
+the EU reached a new high of 1068 TWh, a 1% increase (+12 TWh) year-on-year, and a 9% (+88 TWh) increase
+
+          ***          [--- more alinea content ---]        ***          
+
+of EU
+Space
+providers32
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Inappropriate positioning of clean energy infrastructure results in inefficiencies in energy 
+ nativeID=97 parentID=96 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Inappropriate positioning of clean energy infrastructure results in inefficiencies in energy 
+
+ [ALINEA-CONTENT]:
+▪ Inappropriate positioning of clean energy infrastructure results in inefficiencies in energy
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Costs associated with corrective actions are high 
+ nativeID=98 parentID=96 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Costs associated with corrective actions are high 
+
+ [ALINEA-CONTENT]:
+▪ Costs associated with corrective actions are high
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.2 Clean industry boosting a cleaner industry
+ nativeID=99 parentID=95 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The transition into a cleaner European industry will require concerted efforts to address product carbon footprint and durability simultaneously. On the former, more robust emissions reduction measures in operations will be needed. Durability, on the other hand, requires proper maintenance and the tools to ensure this is feasible. In this chapter, we will discuss the impacts EU SPACE can have on clean transport, infrastructure, raw materials extraction and waste and pollution. Cleaner industrial operations Galileo-enabled location-based services can be used throughout the industry to track and optimise operations, such as in warehousing, bringing direct emissions reductions, as well as linked 
+
+ [ALINEA-CONTENT]:
+The transition into a cleaner European industry will require concerted efforts to address product carbon footprint
+and durability simultaneously. On the former, more robust emissions reduction measures in operations will be
+needed. Durability, on the other hand, requires proper maintenance and the tools to ensure this is feasible. In this
+
+          ***          [--- more alinea content ---]        ***          
+
+a product, based on its path from sourcing, to production, to retail. By providing manufacturers with more reliable
+and accurate information on the history and quality of recycled materials, Galileo can be an important benefit for
+industries.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Companies face several challenges during raw material production, from exploration to ...
+ nativeID=100 parentID=99 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Companies face several challenges during raw material production, from exploration to mine closure and restoration 
+
+ [ALINEA-CONTENT]:
+▪ Companies face several challenges during raw material production, from exploration to
+mine closure and restoration
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Biodiversity and human health can be severely harmed if mining activities are not cautiously ...
+ nativeID=101 parentID=99 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Biodiversity and human health can be severely harmed if mining activities are not cautiously monitored 
+
+ [ALINEA-CONTENT]:
+▪ Biodiversity and human health can be severely harmed if mining activities are not cautiously
+monitored
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.3 Construction and renovation
+ nativeID=102 parentID=95 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The EU Space Programme, and Copernicus in particular, are particularly well-placed to offer high-value products and services to urban planners. The CLMS, providing its land use and land cover capabilities in tandem with the Copernicus space component, can be complemented with in situ data – including demographic statistics, historical information, and other layers as pertinent to the application – to enhance informed decision-making in the urban planning process. In conjunction with EGNSS, Copernicus may be used to create precise location-based action in urban and rural environments. A number of the potential applications of Copernicus urban planning data include: Exhibit 32: 
+
+ [ALINEA-CONTENT]:
+The EU Space Programme, and Copernicus in particular, are particularly well-placed to offer high-value products
+and services to urban planners. The CLMS, providing its land use and land cover capabilities in tandem with the
+Copernicus space component, can be complemented with in situ data – including demographic statistics, historical
+
+          ***          [--- more alinea content ---]        ***          
+
+Further business uses of urban planning data include the location-based augmentation of marketing campaigns with
+geotargeted advertising, by way of Copernicus-derived maps used in conjunction with EGNSS signals received on
+personal devices.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Infrastructure placement and distribution, such as for the allocation of 5G towers – according ...
+ nativeID=103 parentID=102 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Infrastructure placement and distribution, such as for the allocation of 5G towers – according to land use/land cover (CLMS) and in situ internet traffic and demographic data 
+
+ [ALINEA-CONTENT]:
+▪ Infrastructure placement and distribution, such as for the allocation of 5G towers – according to land
+use/land cover (CLMS) and in situ internet traffic and demographic data
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Atmospheric pollution monitoring and management, through CAMS, which may be employed to better- ...
+ nativeID=104 parentID=102 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Atmospheric pollution monitoring and management, through CAMS, which may be employed to better- distribute green spaces and prioritise areas for public transport infrastructure or traffic restrictions (e.g., low-emission zones) 
+
+ [ALINEA-CONTENT]:
+▪ Atmospheric pollution monitoring and management, through CAMS, which may be employed to better-
+distribute green spaces and prioritise areas for public transport infrastructure or traffic restrictions (e.g.,
+low-emission zones)
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Urban heat management, in the identification and remediation of heat islands (e.g., in industrial ...
+ nativeID=105 parentID=102 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Urban heat management, in the identification and remediation of heat islands (e.g., in industrial or business zones) and providing tools for the design of ventilation and heat absorbing areas 
+
+ [ALINEA-CONTENT]:
+▪ Urban heat management, in the identification and remediation of heat islands (e.g., in industrial or business
+zones) and providing tools for the design of ventilation and heat absorbing areas
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Green space allotment, including for public and business use, to abate the effects of ...
+ nativeID=106 parentID=102 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Green space allotment, including for public and business use, to abate the effects of urban pollution, as well as to improve everyday conditions for citizens and employees 
+
+ [ALINEA-CONTENT]:
+▪ Green space allotment, including for public and business use, to abate the effects of urban pollution, as
+well as to improve everyday conditions for citizens and employees
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Urban planning, resource management and green infrastructures require extensive and ...
+ nativeID=107 parentID=102 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Urban planning, resource management and green infrastructures require extensive and reliable data to be effective 
+
+ [ALINEA-CONTENT]:
+▪ Urban planning, resource management and green infrastructures require extensive and
+reliable data to be effective
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Furthermore, solid data can support risk assessment and preventive maintenance on buildings ...
+ nativeID=108 parentID=102 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Furthermore, solid data can support risk assessment and preventive maintenance on buildings making less likely high environmental impact corrective maintenance operations 
+
+ [ALINEA-CONTENT]:
+▪ Furthermore, solid data can support risk assessment and preventive maintenance on buildings
+making less likely high environmental impact corrective maintenance operations
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.4 Smart and sustainable mobility
+ nativeID=109 parentID=95 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The EU Space Programme offers a host of solutions for greener transport and mobility in roads, railways, waterways and airways. Indeed, space-enabled smart mobility has already taken centre stage in Europe’s transport management system. EU space assets, in particular EGNSS, allow for monitoring of mobility in different networks, thus contributing to reducing emissions as well as optimising resource usage. Transportation sector, including land, maritime, and air transport of both passengers and freights, is estimated to account for 27% of total greenhouse emissions in Europe46. While cars generate the most emissions, aviation has been responsible for the largest percentage increase in 
+
+ [ALINEA-CONTENT]:
+The EU Space Programme offers a host of solutions for greener transport and mobility in roads, railways, waterways
+and airways. Indeed, space-enabled smart mobility has already taken centre stage in Europe’s transport
+management system. EU space assets, in particular EGNSS, allow for monitoring of mobility in different networks,
+
+          ***          [--- more alinea content ---]        ***          
+
+nearby vessels. Besides ensuring safety at sea by decreasing collision risks, applications such as those developed
+within the scope of Prepare-Ships will facilitate energy-effective manoeuvring and route-optimisation, significantly
+reducing the environmental impact of maritime transportation.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ The future of mobility is strongly depended on highly accurate location 
+ nativeID=110 parentID=109 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The future of mobility is strongly depended on highly accurate location 
+
+ [ALINEA-CONTENT]:
+▪ The future of mobility is strongly depended on highly accurate location
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Additionally, traffic can be optimised through better routing to reduce travelling time and fuel ...
+ nativeID=111 parentID=109 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Additionally, traffic can be optimised through better routing to reduce travelling time and fuel consumption 
+
+ [ALINEA-CONTENT]:
+▪ Additionally, traffic can be optimised through better routing to reduce travelling time and fuel
+consumption
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Reduction of CO₂ emissions is crucial for the maintenance of life on Earth 
+ nativeID=112 parentID=109 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Reduction of CO₂ emissions is crucial for the maintenance of life on Earth 
+
+ [ALINEA-CONTENT]:
+▪ Reduction of CO₂ emissions is crucial for the maintenance of life on Earth
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ The Green Deal sets important targets to decrease the emission of greenhouse gases 
+ nativeID=113 parentID=109 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Green Deal sets important targets to decrease the emission of greenhouse gases 
+
+ [ALINEA-CONTENT]:
+▪ The Green Deal sets important targets to decrease the emission of greenhouse gases
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Global cm-level Ground Control Points (GCPs) 
+ nativeID=114 parentID=109 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Global cm-level Ground Control Points (GCPs) 
+
+ [ALINEA-CONTENT]:
+▪ Global cm-level Ground Control Points (GCPs)
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ AeroSat Vector Maps 
+ nativeID=115 parentID=109 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ AeroSat Vector Maps 
+
+ [ALINEA-CONTENT]:
+▪ AeroSat Vector Maps
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Aerosat HD Maps 
+ nativeID=116 parentID=109 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Aerosat HD Maps 
+
+ [ALINEA-CONTENT]:
+▪ Aerosat HD Maps
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Extensive road network is challenging to manage, high human and economic resources 
+ nativeID=117 parentID=109 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Extensive road network is challenging to manage, high human and economic resources 
+
+ [ALINEA-CONTENT]:
+▪ Extensive road network is challenging to manage, high human and economic resources
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ In-situ observations are inefficient and characterise by high environmental footprint 
+ nativeID=118 parentID=109 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ In-situ observations are inefficient and characterise by high environmental footprint 
+
+ [ALINEA-CONTENT]:
+▪ In-situ observations are inefficient and characterise by high environmental footprint
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ The European Green Deal pushes for a more efficient transport industry which can be ...
+ nativeID=119 parentID=109 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The European Green Deal pushes for a more efficient transport industry which can be enabled by a better road network 
+
+ [ALINEA-CONTENT]:
+▪ The European Green Deal pushes for a more efficient transport industry which can be
+enabled by a better road network
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Poor fleet coordination in airports can lead to higher emissions due to additional travel ...
+ nativeID=120 parentID=109 & horizontal_ordering=10
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Poor fleet coordination in airports can lead to higher emissions due to additional travel Challenge time and/or congestion 
+
+ [ALINEA-CONTENT]:
+▪ Poor fleet coordination in airports can lead to higher emissions due to additional travel
+Challenge
+time and/or congestion
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Congestions in airports can lead aircrafts to prolong their time in the air 
+ nativeID=121 parentID=109 & horizontal_ordering=11
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Congestions in airports can lead aircrafts to prolong their time in the air 
+
+ [ALINEA-CONTENT]:
+▪ Congestions in airports can lead aircrafts to prolong their time in the air
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Navigation in challenging environment might be difficult due to the fast-changing ...
+ nativeID=122 parentID=109 & horizontal_ordering=12
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Navigation in challenging environment might be difficult due to the fast-changing conditions which can force crews to unexpected deviations 
+
+ [ALINEA-CONTENT]:
+▪ Navigation in challenging environment might be difficult due to the fast-changing
+conditions which can force crews to unexpected deviations
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Such deviations increase fuel consumption of ships and therefore the environmental ...
+ nativeID=123 parentID=109 & horizontal_ordering=13
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Such deviations increase fuel consumption of ships and therefore the environmental footprint of maritime operations 
+
+ [ALINEA-CONTENT]:
+▪ Such deviations increase fuel consumption of ships and therefore the environmental
+footprint of maritime operations
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.5 A healthier and greener food system
+ nativeID=124 parentID=95 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Tackling green agriculture is a task on many fronts. Precision agriculture and better enforcement of agro- environmental policies underpin the response that is meant to lead the sector into a 50% reduction of chemicals used, and climate neutrality by 2035. The use of digital technologies in agriculture is helping the whole sector improve its performance and become greener. The necessity for efficiency and sustainability of agricultural production is growing. Companies are highly aware of the importance of enhancing productivity without harming the environment, and, therefore, are continually looking for means to achieve this. In this context, the EU Space Programme 
+
+ [ALINEA-CONTENT]:
+Tackling green agriculture is a task on many fronts. Precision agriculture and better enforcement of agro-
+environmental policies underpin the response that is meant to lead the sector into a 50% reduction of chemicals
+used, and climate neutrality by 2035. The use of digital technologies in agriculture is helping the whole sector
+
+          ***          [--- more alinea content ---]        ***          
+
+optimal intervention points, fertiliser and pesticide quantities and distribution, and efficient weed-removal
+methods. Galileo enables the implementation of these models, by efficiently and accurately guiding agri-vehicles
+Exhibit 41: Use case - EU Space Programme for smart agri-resource management
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – most commonly tractors and drones – in optimal patterns with accurate location. 
+ nativeID=125 parentID=124 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– most commonly tractors and drones – in optimal patterns with accurate location. 
+
+ [ALINEA-CONTENT]:
+– most commonly tractors and drones – in optimal patterns with accurate location.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Challenge
+ nativeID=126 parentID=124 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Crop management and monitoring in situ can be costly and not efficient. Resources as water, fertilisers and pesticides are often used extensively, generating costs to farmers and polluting soils, air and water ▪ Moreover, crops can suffer from diseases, pests and nutrient deficiencies, which, if late diagnosed, can harm the whole field 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Crop management and monitoring in situ can be costly and not efficient. Resources as ...
+ nativeID=127 parentID=126 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Crop management and monitoring in situ can be costly and not efficient. Resources as water, fertilisers and pesticides are often used extensively, generating costs to farmers and polluting soils, air and water 
+
+ [ALINEA-CONTENT]:
+▪ Crop management and monitoring in situ can be costly and not efficient. Resources as
+water, fertilisers and pesticides are often used extensively, generating costs to farmers and
+polluting soils, air and water
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Moreover, crops can suffer from diseases, pests and nutrient deficiencies, which, if late ...
+ nativeID=128 parentID=126 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Moreover, crops can suffer from diseases, pests and nutrient deficiencies, which, if late diagnosed, can harm the whole field 
+
+ [ALINEA-CONTENT]:
+▪ Moreover, crops can suffer from diseases, pests and nutrient deficiencies, which, if late
+diagnosed, can harm the whole field
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Role of the Green Deal
+ nativeID=129 parentID=124 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Green Deal sets important goals on water, pesticides and fertiliser usage, aiming to improve the health of soil and people. It is important to highlight that overuse of pesticides may result in contamination of soil, water and non-target plants and animals that can decrease biodiversity and, in some cases, reduce crop yield 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ The Green Deal sets important goals on water, pesticides and fertiliser usage, aiming to ...
+ nativeID=130 parentID=129 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ The Green Deal sets important goals on water, pesticides and fertiliser usage, aiming to improve the health of soil and people. It is important to highlight that overuse of pesticides may result in contamination of soil, water and non-target plants and animals that can decrease biodiversity and, in some cases, reduce crop yield 
+
+ [ALINEA-CONTENT]:
+▪ The Green Deal sets important goals on water, pesticides and fertiliser usage, aiming to
+improve the health of soil and people. It is important to highlight that overuse of pesticides
+may result in contamination of soil, water and non-target plants and animals that can
+
+          ***          [--- more alinea content ---]        ***          
+
+decrease biodiversity and, in some cases, reduce crop yield
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ ₂ 
+ nativeID=131 parentID=129 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+▪ ₂
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Solution offered by EU Space
+ nativeID=132 parentID=124 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Example of real-life use case Copernicus for crop monitoring in BelgiumPotato cultivation in central Europe has enlarged to such an extent over the last decades that any further switch from any crop to potatoes is very likely to result in soil degradation and soil depletion. Thus, a higher output and growth can only be reached through an improvement in the efficiency of agricultural land utilisation. Potato fields in Belgium today achieve an output around 50 tonnes per hectare, but maximum output is expected to be double than that, around 100 tonnes/ha. This higher supply can only result from better, more 
+
+ [ALINEA-CONTENT]:
+Example of
+real-life use
+case
+
+          ***          [--- more alinea content ---]        ***          
+
+Examples
+of EU space
+providers65
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Water is one of the most precious resources we have, and it must be ...
+ nativeID=133 parentID=132 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Water is one of the most precious resources we have, and it must be managed with the maximum attention 
+
+ [ALINEA-CONTENT]:
+▪ Water is one of the most precious resources we have, and it must be managed with the
+maximum attention
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ▪ Aquifers must be strictly monitored to preserve their integrity and the safety of ...
+ nativeID=134 parentID=132 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Aquifers must be strictly monitored to preserve their integrity and the safety of surrounding areas 
+
+ [ALINEA-CONTENT]:
+▪ Aquifers must be strictly monitored to preserve their integrity and the safety of
+surrounding areas
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.6 Restored ecosystems and biodiversity
+ nativeID=135 parentID=95 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Climate change has impacted global biodiversity as well as ecosystems and will continue to be one of the leading drivers of biodiversity loss in the 21st century. Such a threat to the natural environment requires proportionate action in the management of ecosystems through conservation and restoration. The Copernicus Climate Change Service (C3S) provides operational climate indicators that help properly assess and manage biodiversity loss. Implemented by the European Centre for Medium-Range Weather Forecasts (ECMWF) on behalf of the European Commission, the centre provides climate data and information on a range of sectoral areas affecting ecosystems and biodiversity (i.e., climate change, 
+
+ [ALINEA-CONTENT]:
+Climate change has impacted global biodiversity as well as ecosystems and will continue to be one of the leading
+drivers of biodiversity loss in the 21st century. Such a threat to the natural environment requires proportionate action
+in the management of ecosystems through conservation and restoration.
+
+          ***          [--- more alinea content ---]        ***          
+
+Examples
+of EU space
+providers74
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Deforestation is a significant issue to be monitored in order to guarantee correct use ...
+ nativeID=136 parentID=135 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Deforestation is a significant issue to be monitored in order to guarantee correct use of 
+
+ [ALINEA-CONTENT]:
+▪ Deforestation is a significant issue to be monitored in order to guarantee correct use of
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Large surfaces involved make in-situ inspections difficult 
+ nativeID=137 parentID=135 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Large surfaces involved make in-situ inspections difficult 
+
+ [ALINEA-CONTENT]:
+▪ Large surfaces involved make in-situ inspections difficult
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Tourism is a key economic sector in Europe involving large volumes of moving people ...
+ nativeID=138 parentID=135 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Tourism is a key economic sector in Europe involving large volumes of moving people and therefore characterised by a significant environmental footprint 
+
+ [ALINEA-CONTENT]:
+▪ Tourism is a key economic sector in Europe involving large volumes of moving people and
+therefore characterised by a significant environmental footprint
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ▪ Impact of tourist activities must be monitored to allow companies and institutions to act ...
+ nativeID=139 parentID=135 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Impact of tourist activities must be monitored to allow companies and institutions to act with corrective measures when needed 
+
+ [ALINEA-CONTENT]:
+▪ Impact of tourist activities must be monitored to allow companies and institutions to act
+with corrective measures when needed
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4. CONCLUSIONS: EU SPACE FOR GREEN TRANSFORMATION
+ nativeID=140 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In the context of a more sustainable society and ESG scoring, companies are setting green transformation targets to reduce greenhouse emissions and environmental footprint of their operations, as well promote their actions to attract customers and increase their market shares. Business benefit from a myriad of possible applications for EU space data, which translates into not only greener practices, but also cost reduction and increased efficiency. In a path to decarbonisation of energy resources, the Green Deal proposes a transition to renewable sources. Such businesses can be significantly supported by Galileo and Copernicus data, especially in decision-making. First, the evaluation 
+
+ [ALINEA-CONTENT]:
+In the context of a more sustainable society and ESG scoring, companies are setting green transformation targets to
+reduce greenhouse emissions and environmental footprint of their operations, as well promote their actions to
+attract customers and increase their market shares. Business benefit from a myriad of possible applications for
+
+          ***          [--- more alinea content ---]        ***          
+
+more about it and possibly being engaged by EUSPA in further action. The European Commission and EUSPA are
+committed to support the small businesses and corporates in understanding and implementation of the Space data
+in their process of green transformation. This report is the first step in this journey.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = ANNEX 1: ABOUT THE EUROPEAN GLOBAL NAVIGATION SYSTEM AND COPERNICUS
+ nativeID=141 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The EGNSS component of the EU Space Programme has been the cornerstone of positioning and timing operations since its introduction, supporting activities spanning from transport, to search and rescue, and trading. It consists of two components: The strengths of Galileo lie in its high accuracy, its reliability for timing and positioning, as well as its advanced authentication system. While the EGNSS provides global positioning and timing, it is a particularly important tool for Europe’s long-term strategic non-dependence from services provided by non-European assets like the US GPS, as well as control over its space-based infrastructure. Galileo stands out as the 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A.1 About the European Global Navigation Satellite System (EGNSS)
+ nativeID=142 parentID=141 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The EGNSS component of the EU Space Programme has been the cornerstone of positioning and timing operations since its introduction, supporting activities spanning from transport, to search and rescue, and trading. It consists of two components: The strengths of Galileo lie in its high accuracy, its reliability for timing and positioning, as well as its advanced authentication system. While the EGNSS provides global positioning and timing, it is a particularly important tool for Europe’s long-term strategic non-dependence from services provided by non-European assets like the US GPS, as well as control over its space-based infrastructure. Galileo stands out as the 
+
+ [ALINEA-CONTENT]:
+The EGNSS component of the EU Space Programme has been the cornerstone of positioning and timing operations
+since its introduction, supporting activities spanning from transport, to search and rescue, and trading. It consists of
+two components:
+
+          ***          [--- more alinea content ---]        ***          
+
+(1), system integrators (2), and devices and value-added service providers in the downstream (3). Downstream
+actors vary more widely, with the primary differentiators being their area of specialisation and expertise in specific
+verticals, such for instance agriculture, energy, transport, etc., all of which have a different operating landscape.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ Galileo, the European Global Navigation Satellite System (GNSS), operational since December 2016 when it ...
+ nativeID=143 parentID=142 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ Galileo, the European Global Navigation Satellite System (GNSS), operational since December 2016 when it started offering initial services to public authorities, businesses, and citizens. 
+
+ [ALINEA-CONTENT]:
+▪ Galileo, the European Global Navigation Satellite System (GNSS), operational since December 2016 when it
+started offering initial services to public authorities, businesses, and citizens.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ▪ EGNOS, the European Satellite-Based Augmentation System (SBAS), that improves the accuracy of GNSS ...
+ nativeID=144 parentID=142 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+▪ EGNOS, the European Satellite-Based Augmentation System (SBAS), that improves the accuracy of GNSS signals. 
+
+ [ALINEA-CONTENT]:
+▪ EGNOS, the European Satellite-Based Augmentation System (SBAS), that improves the accuracy of GNSS
+signals.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A.2 About Copernicus – the EU Earth Observation programme
+ nativeID=145 parentID=141 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Copernicus is the EU’s Earth Observation (EO) programme that provides satellite data and information freely and openly to users. The Sentinel satellites consist of a series of different missions providing global coverage of radar, multispectral, atmospheric chemistry and altimetry data, with additional missions to follow. What started as the Global Monitoring for Environment and Security (GMES) programme in 1999 is now an operational system, seen by many observers as one of the world’s largest EO providers and an enormous utility for the benefit of Europe and the world. The Copernicus programme features six primary service lines including atmosphere, marine environment, 
+
+ [ALINEA-CONTENT]:
+Copernicus is the EU’s Earth Observation (EO) programme that provides satellite data and information freely
+and openly to users. The Sentinel satellites consist of a series of different missions providing global coverage of
+radar, multispectral, atmospheric chemistry and altimetry data, with additional missions to follow. What started as
+
+          ***          [--- more alinea content ---]        ***          
+
+address EU policy and gaps in Copernicus user needs and to expand the current capabilities of the Copernicus Space
+Component82. The Copernicus Sentinel expansion missions will provide new and enhanced information helping to
+tackle challenges such as food security, water management, sea level, polar ice, urbanization and climate change82.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = ANNEX 2: ABOUT THE AUTHORS
+ nativeID=146 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The European Commission The European Commission (EC) and more specifically the DirectorateGeneral for Defence Industry and Space (DG DEFIS) has overall responsibility for the implementation of the Union Space Programme and its components (Galileo, EGNOS, Copernicus, GOVSATCOM and SSA). This includes: DG DEFIS further contributes to shaping the EU space policy and fostering a strong, innovative and resilient EU space ecosystem. It supports the emergence of New Space in the EU, including SMEs and new entrants, fosters entrepreneurship and access to finance, and contributes to the growth of the EU space industry. DG DEFIS promotes EU space research fostering a 
+
+ [ALINEA-CONTENT]:
+The European Commission
+The European Commission (EC) and more specifically the DirectorateGeneral for
+Defence Industry and Space (DG DEFIS) has overall responsibility for the
+
+          ***          [--- more alinea content ---]        ***          
+
+the Union and its citizens, while reinforcing its autonomy and resilience.
+EUSPA:
+The authors would like to convey special thanks to the contributor of this report SpaceTec Partners.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Overseeing the implementation of all activities related to the programme; 
+ nativeID=147 parentID=146 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Overseeing the implementation of all activities related to the programme; 
+
+ [ALINEA-CONTENT]:
+• Overseeing the implementation of all activities related to the programme;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Defining its priorities and long-term evolution; 
+ nativeID=148 parentID=146 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Defining its priorities and long-term evolution; 
+
+ [ALINEA-CONTENT]:
+• Defining its priorities and long-term evolution;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Managing the funds allocated to the programme; 
+ nativeID=149 parentID=146 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Managing the funds allocated to the programme; 
+
+ [ALINEA-CONTENT]:
+• Managing the funds allocated to the programme;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Ensuring a clear division of responsibilities and tasks, in particular between the EU Agency ...
+ nativeID=150 parentID=146 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Ensuring a clear division of responsibilities and tasks, in particular between the EU Agency for the Space Programme and the European Space Agency; 
+
+ [ALINEA-CONTENT]:
+• Ensuring a clear division of responsibilities and tasks, in particular between the EU Agency for the Space
+Programme and the European Space Agency;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Ensuring proper reporting on the programme to the Member States of the EU, the ...
+ nativeID=151 parentID=146 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Ensuring proper reporting on the programme to the Member States of the EU, the European Parliament and the Council of the European Union. The EU Space Programme is fully financed by the European Union. 
+
+ [ALINEA-CONTENT]:
+• Ensuring proper reporting on the programme to the Member States of the EU, the European Parliament and the
+Council of the European Union.
+The EU Space Programme is fully financed by the European Union.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Delivers safe, state-of-the-art, European satellite-based services to a growing group of users in Europe ...
+ nativeID=152 parentID=146 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Delivers safe, state-of-the-art, European satellite-based services to a growing group of users in Europe and around the world. 
+
+ [ALINEA-CONTENT]:
+• Delivers safe, state-of-the-art, European satellite-based services to a growing group of users in Europe and
+around the world.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Promotes the use of space data and services from Galileo, EGNOS, Copernicus and GOVSATCOM. 
+ nativeID=153 parentID=146 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Promotes the use of space data and services from Galileo, EGNOS, Copernicus and GOVSATCOM. 
+
+ [ALINEA-CONTENT]:
+• Promotes the use of space data and services from Galileo, EGNOS, Copernicus and GOVSATCOM.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Ensures the safety and security of the EU Space Programme assets both in space ...
+ nativeID=154 parentID=146 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Ensures the safety and security of the EU Space Programme assets both in space and on the ground. 
+
+ [ALINEA-CONTENT]:
+• Ensures the safety and security of the EU Space Programme assets both in space and on the ground.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = • Supports innovation along the whole value chain of business development for companies, start-ups, ...
+ nativeID=155 parentID=146 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Supports innovation along the whole value chain of business development for companies, start-ups, innovators and academia. 
+
+ [ALINEA-CONTENT]:
+• Supports innovation along the whole value chain of business development for companies, start-ups,
+innovators and academia.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = LIST OF EXHIBITS
+ nativeID=156 parentID=0 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Exhibit 1: Why Pursuing the green transformation - key figures .................................................................................................. 1 Exhibit 2: Participating companies who disclosed their name ....................................................................................................... 3 Exhibit 3: Greenhouse gas emissions global and by sector .......................................................................................................... 4 Exhibit 4: Examples of EU Space contribution to key elements of Green Transformation ................................................... 5 Exhibit 5: European Green Deal investment plan and action areas .............................................................................................. 7 Exhibit 6: European Green Deal action areas ....................................................................................................................................... 8 Exhibit 7: Global green transformation market2 .................................................................................................................................. 9 Exhibit 8: The green transformation investment returns curve .................................................................................................... 10 Exhibit 9: Summary & mapping of key regulation updates under the Green Deal 
+
+ [ALINEA-CONTENT]:
+Exhibit 1: Why Pursuing the green transformation - key figures .................................................................................................. 1
+Exhibit 2: Participating companies who disclosed their name ....................................................................................................... 3
+Exhibit 3: Greenhouse gas emissions global and by sector .......................................................................................................... 4
+
+          ***          [--- more alinea content ---]        ***          
+
+Exhibit 50: Summary of the results of stakeholder consultations (interviews and survey) ................................................ 59
+Exhibit 51: Galileo services ....................................................................................................................................................................... 60
+Exhibit 52: Copernicus services ............................................................................................................................................................... 61
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = ABBREVIATIONS AND ACRONYMS
+ nativeID=157 parentID=0 & horizontal_ordering=11
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Acronym Description AFIR Alternative Fuels Infrastructure Regulation AI Artificial Intelligence AUM Assets Under Management C3S Copernicus Climate Change Service CAMS Copernicus Atmosphere Monitoring Service CBAM Carbon Border Adjustment Mechanism CLMS Copernicus Land Monitoring Service CMEMS Copernicus Marine Environment Monitoring Service CO2 Carbon Dioxide CORSIA Carbon Offset and Reduction Scheme for International Aviation CSR Corporate Social Responsibility CSRD Corporate Sustainability Reporting Directive EBPD Energy Performance of Buildings Directive ECMWF European Centre for Medium-Range Weather Forecasts EDAS EGNOS Data Access Service EEA European Economic Area EGDIP European Green Deal Investment Plan EGNOS European Geostationary Navigation Overlay Service EGNSS European Global Navigation Satellite 
+
+ [ALINEA-CONTENT]:
+Acronym Description
+AFIR Alternative Fuels Infrastructure Regulation
+AI Artificial Intelligence
+
+          ***          [--- more alinea content ---]        ***          
+
+UN United Nations
+UNFCCC United Nations Framework Convention on Climate Change
+VOC Volatile Organic Compound
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = EUSPA Mission Statement
+ nativeID=158 parentID=157 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The mission of the European Union Agency for the Space Programme (EUSPA) is defined by the EU Space Programme Regulation. EUSPA’s mission is to be the user-oriented operational Agency of the EU Space Programme, contributing to sustainable growth, security and safety of the European Union. Its goal is to: The European Union Agency for the Space Programme: linking space to user needs. www.euspa.europa.eu • Provide long-term, state-of-the-art safe and secure Galileo and EGNOS positioning, navigation and timing services and cost-effective satellite communications services for GOVSATCOM, whilst ensuring service continuity and robustness; • Communicate, promote, and develop the market for data, 
+
+ [ALINEA-CONTENT]:
+The mission of the European Union Agency for the Space Programme (EUSPA) is defined by the EU Space
+Programme Regulation. EUSPA’s mission is to be the user-oriented operational Agency of the EU Space Programme,
+contributing to sustainable growth, security and safety of the European Union.
+
+          ***          [--- more alinea content ---]        ***          
+
+Its goal is to:
+The European Union Agency for the Space Programme: linking space to user needs.
+www.euspa.europa.eu
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Provide long-term, state-of-the-art safe and secure Galileo and EGNOS positioning, navigation and timing ...
+ nativeID=159 parentID=158 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Provide long-term, state-of-the-art safe and secure Galileo and EGNOS positioning, navigation and timing services and cost-effective satellite communications services for GOVSATCOM, whilst ensuring service continuity and robustness; 
+
+ [ALINEA-CONTENT]:
+• Provide long-term, state-of-the-art safe and secure Galileo and EGNOS positioning, navigation and timing
+services and cost-effective satellite communications services for GOVSATCOM, whilst ensuring service
+continuity and robustness;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Communicate, promote, and develop the market for data, information and services offered by Galileo, ...
+ nativeID=160 parentID=158 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Communicate, promote, and develop the market for data, information and services offered by Galileo, EGNOS, Copernicus and GOVSATCOM; 
+
+ [ALINEA-CONTENT]:
+• Communicate, promote, and develop the market for data, information and services offered by Galileo, EGNOS,
+Copernicus and GOVSATCOM;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Provide space-based tools and services to enhance the safety of the Union and its ...
+ nativeID=161 parentID=158 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Provide space-based tools and services to enhance the safety of the Union and its Member States. In particular, to support PRS usage across the EU; 
+
+ [ALINEA-CONTENT]:
+• Provide space-based tools and services to enhance the safety of the Union and its Member States. In particular,
+to support PRS usage across the EU;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Implement and monitor the security of the EU Space Programme and to assist in ...
+ nativeID=162 parentID=158 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Implement and monitor the security of the EU Space Programme and to assist in and be the reference for the use of the secured services, enhancing the security of the Union and its Member States; 
+
+ [ALINEA-CONTENT]:
+• Implement and monitor the security of the EU Space Programme and to assist in and be the reference for the
+use of the secured services, enhancing the security of the Union and its Member States;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Contribute to fostering a competitive European industry for Galileo, EGNOS, and GOVSATCOM, reinforcing ...
+ nativeID=163 parentID=158 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Contribute to fostering a competitive European industry for Galileo, EGNOS, and GOVSATCOM, reinforcing the autonomy, including technological autonomy, of the Union and its Member States; 
+
+ [ALINEA-CONTENT]:
+• Contribute to fostering a competitive European industry for Galileo, EGNOS, and GOVSATCOM, reinforcing
+the autonomy, including technological autonomy, of the Union and its Member States;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Contribute to maximising the socio-economic benefits of the EU Space Programme by fostering the ...
+ nativeID=164 parentID=158 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Contribute to maximising the socio-economic benefits of the EU Space Programme by fostering the development of a competitive and innovative downstream industry for Galileo, EGNOS, and Copernicus, leveraging also Horizon Europe, other EU funding mechanisms and innovative procurement mechanisms; 
+
+ [ALINEA-CONTENT]:
+• Contribute to maximising the socio-economic benefits of the EU Space Programme by fostering the
+development of a competitive and innovative downstream industry for Galileo, EGNOS, and Copernicus,
+leveraging also Horizon Europe, other EU funding mechanisms and innovative procurement mechanisms;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • Contribute to fostering the development of a wider European space ecosystem, with a particular ...
+ nativeID=165 parentID=158 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Contribute to fostering the development of a wider European space ecosystem, with a particular focus on innovation, entrepreneurship and start-ups, and reinforcing know-how in Member States and Union regions. 
+
+ [ALINEA-CONTENT]:
+• Contribute to fostering the development of a wider European space ecosystem, with a particular focus on
+innovation, entrepreneurship and start-ups, and reinforcing know-how in Member States and Union regions.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = • As of July 2023, EUSPA will take the responsibility for the Programme’s Space Surveillance ...
+ nativeID=166 parentID=158 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• As of July 2023, EUSPA will take the responsibility for the Programme’s Space Surveillance Tracking Front Desk operations service. 
+
+ [ALINEA-CONTENT]:
+• As of July 2023, EUSPA will take the responsibility for the Programme’s Space Surveillance Tracking Front
+Desk operations service.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = #EUSpace
+ nativeID=167 parentID=157 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------

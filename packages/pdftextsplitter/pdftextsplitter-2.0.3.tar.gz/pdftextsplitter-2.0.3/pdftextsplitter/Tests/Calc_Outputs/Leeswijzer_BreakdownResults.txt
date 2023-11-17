@@ -1,0 +1,114 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Leeswijzer] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Leeswijzer
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mrs. Long informs Mrs. Bennet that a wealthy man from the north has rented Netherfield. He visited the property, liked it, and agreed to rent it. He will move in before Michaelmas, with his servants arriving next week. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Dit wordt een documenttitel
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+They attacked him in various ways–with barefaced questions, ingenious suppositions,
+and distant surmises; but he eluded the skill of them all, and they were at last obliged
+to accept the second-hand intelligence of their neighbour, Lady Lucas. Her report was
+
+
+ [ALINEA-CONTENT]:
+They attacked him in various ways–with barefaced questions, ingenious suppositions,
+and distant surmises; but he eluded the skill of them all, and they were at last obliged
+to accept the second-hand intelligence of their neighbour, Lady Lucas. Her report was
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Dit moet een hoofdstuk voorstellen
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mrs. Long tells Mrs. Bennet that a rich man from the north of England has rented Netherfield. He visited the property on Monday and liked it so much that he agreed to rent it. He will move in before Michaelmas, and his servants will arrive next week. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Dit wordt straks een sectie
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mrs. Long informs Mrs. Bennet that a wealthy man from the north of England has rented Netherfield. He visited the property on Monday and was so pleased with it that he agreed to rent it immediately. He will move in before Michaelmas, and his servants will arrive next week. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Dit zou uiteindelijk een subsectie moeten zijn
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mrs. Long tells Mrs. Bennet that a rich man from the north of England has rented Netherfield. He visited the place on Monday and liked it so much that he agreed to rent it immediately. He will move in before Michaelmas, and his servants will arrive next week. Mrs. Bennet's husband couldn't provide more details. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = En tot slot een subsubsectie
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Mrs. Long informs that a wealthy man from the north of England has taken Netherfield. He visited the place on Monday and was so pleased that he agreed to rent it immediately. He will take possession before Michaelmas, and his servants will move in next week. Mrs. Bennet's attempts to get more information from her husband were unsuccessful. 
+
+ [ALINEA-CONTENT]:
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+
+          ***          [--- more alinea content ---]        ***          
+
+Bennet, however, with the assistance of her five daughters, could ask on the subject,
+was sufficient to draw from her husband any satisfactory description of Mr. Bingley.
+
+
+---------------------------------------------------------------------------------

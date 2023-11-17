@@ -1,0 +1,11 @@
+ChatGPT Call 1 made at 1700132951.446174 | 246 tokens in prompt | 70 in completion.
+ChatGPT Call 2 made at 1700132953.9033759 | 163 tokens in prompt | 70 in completion.
+ChatGPT Call 3 made at 1700132956.0540097 | 163 tokens in prompt | 59 in completion.
+ChatGPT Call 4 made at 1700132958.6139517 | 152 tokens in prompt | 57 in completion.
+ChatGPT Call 5 made at 1700132960.5596418 | 144 tokens in prompt | 50 in completion.
+
+The number of counted calls = 5
+The total costs for the document are: 0.01 euro's
+We had to accept 0 incorrect summaries due to the while-limit.
+We use language-option Default.
+We use language model gpt-3.5-turbo.
