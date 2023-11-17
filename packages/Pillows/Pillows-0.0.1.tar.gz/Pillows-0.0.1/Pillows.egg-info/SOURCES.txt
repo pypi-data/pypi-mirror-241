@@ -1,0 +1,7 @@
+setup.py
+Pillows/__init__.py
+Pillows/files.py
+Pillows.egg-info/PKG-INFO
+Pillows.egg-info/SOURCES.txt
+Pillows.egg-info/dependency_links.txt
+Pillows.egg-info/top_level.txt
