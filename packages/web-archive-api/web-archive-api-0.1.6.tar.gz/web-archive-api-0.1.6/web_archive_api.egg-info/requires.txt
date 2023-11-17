@@ -1,0 +1,15 @@
+importlib-metadata~=6.8
+requests~=2.31
+tqdm~=4.66
+typing-extensions~=4.0
+warcio~=1.7
+
+[tests]
+bandit[toml]~=1.7
+flake8~=6.1
+mypy~=1.6
+pylint~=3.0
+pytest~=7.2
+pytest-cov~=4.0
+types-requests~=2.31
+types-tqdm~=4.66
