@@ -1,0 +1,160 @@
+/*
+Program: Meraki Device Info
+Author:  Marco Caspers
+Date:    07-03-2023
+Version: 4.0
+
+Description:
+
+This is a production application.
+It will generate the Meraki device information output for SAMA for a specified organization.
+*/
+
+include system, strings, math, meraki_v1, meraki_firewall_dc, meraki_firewall_sh;
+
+result = InitDashboardApi(api_key);
+if result == false {
+    Console("Failed to initialize Meraki Dasboard API");
+    Console(GetLastErrorMessage());
+    halt 1;
+}
+
+
+if org_id == "" {
+    select distinct id from get_org_Organizations() where name == org_name into org_id;
+}
+elif org_name == "" {
+    select distinct name from get_org_Organizations() where id == org_id into org_name;
+}
+
+select name from get_org_Organizations() where id == org_id into test_name;
+
+Console(test_name);
+halt 1;
+
+select distinct * from configuration["customers"] where name == org_name into customer;
+
+
+if customer == nil or customer == false {
+    Console("@Customer", org_name, " was not found in the configuration, attempting to use org ID.");
+    select distinct * from configuration["customers"] where name == org_id into customer;
+
+    if customer == nil or customer == false {
+        Console("@Customer ", org_name, " was not found in the configuration, also failed to retrieve it via ID ", org_id);
+        halt 1;
+    }
+
+} else {
+    if Len(customer) == 0 {
+        Console("@Customer ", org_name, " was not found in the configuration, attempting to use org ID.");
+        select distinct * from configuration["customers"] where name == org_id into customer;
+    }
+
+    if Len(customer) == 0 {
+        Console("@Customer ", org_name, " was not found in the configuration, also failed to retrieve it via ID ", org_id);
+        halt 1;
+    }
+}
+
+select * from get_org_Organization(org_id) into org;
+if org["api"]["enabled"] == false {
+    Console("@ The Meraki Dasboard API is disabled for this company.");
+    halt 1;
+}
+
+select * from get_org_Inventory(org_id) into inventory;
+select * from get_org_Devices(org_id) into devices;
+select * from get_org_DevicesStatuses(org_id) into statuses;
+select * from get_org_ConfigTemplates(org_id) into templates;
+select * from get_org_Networks(org_id) into networks;
+select distinct expirationDate as expires, status from get_org_LicensesOverview(org_id) into license;
+
+// The following query only retrieves data for MX model devices.
+select * from get_org_DevicesUplinksLossAndLatency(org_id) into latencies;
+// The following query only retrieves data for MX and Z model devices
+select * from get_app_OrganizationApplianceUplinkStatuses(org_id) into uplinks;
+
+deviceList = array;
+
+serials = Array("Q2JN-6UMT-2JTU", "Q2JN-XBAQ-63Z9");
+
+foreach serials {
+    sn = it;
+    select * from inventory where serial == sn into dit;
+    if Len(dit)==0 { 
+        continue; 
+    }
+    device = nil;
+    select distinct name, model, productType, mac, serial, networkId, serial as apiname, latency, uplstat, performance, bandwidth, bandwidth_sent, bandwidth_recv, HA, HARole, listed from dit into device;
+    select distinct firmware, address, serial as DS, url from devices where serial == dit["serial"] merge into device;
+    device["listed"] = device["DS"] != nil;
+
+    select distinct name as apiname, status as apistatus, publicIp from statuses where serial == dit["serial"] merge into device;
+    select distinct name, configTemplateId from networks where id == dit["networkId"] into network;
+    select distinct name as networkName, configTemplateId as templateId from network merge into device;
+    select distinct name as templateName from templates where id == device["templateId"] merge into device;
+
+    if device["apiname"] == '' or device["apiname"] == nil {
+        device["apiname"] = dit["serial"];
+    }
+    if org_id == "1060191" and device["networkId"] != nil {
+        device["apiname"] = device["apiname"] + "_" + device["networkId"];
+    }
+
+    device["HA"] = false;
+    if device["productType"] == "appliance" {
+        GetFirewallData(device, latencies, customer["enable_bandwidth"]);
+    }
+
+    device["apiname"] = RemoveNonAscii(device["apiname"]);
+    device["apiname"] = ReplaceEx(device["apiname"], REPLACE_TOKENS, "_");
+    device["apiname"] = ReplaceEx(device["apiname"], "()[]{}<>", "");
+
+    if device["apistatus"] == nil {
+        device["apistatus"] = "0";
+    }
+    else
+    {	
+        device["apistatus"] = Replace(device["apistatus"], "offline",  "0");
+        device["apistatus"] = Replace(device["apistatus"], "online",   "1");
+    }
+    select * from device merge into deviceList;
+}
+
+
+Console("<<<check_mk>>>");
+Console($"Version: Meraki Special Agent {agent_version}");
+Console("AgentOs: Linux");
+
+if IsRecord(deviceList) {
+    deviceList = Array(deviceList);
+}
+
+foreach deviceList {
+    device = it;
+    deviceheader(customer["demo"], device["apiname"]);
+    output("<<<meraki_status>>>", device["apistatus"]);
+    productinfo(device["model"], device["serial"], device["templateName"]);
+
+    if customer["enable_public_ip"] == true and device["publicIp"] != nil {
+        output("<<<meraki_public_ip>>>", device["publicIp"]);
+    }
+        
+    outputoncondition(customer["showfirmware"], "<<<meraki_firmware>>>", device["firmware"]);
+    outputoncondition(customer["showaddress"], "<<<meraki_address>>>", device["address"]);
+        
+    if device["productType"] == "appliance" {
+        ShowFirewallData(device, customer["enable_bandwidth"]);
+    }
+}
+
+Console($"<<<<{host_name}>>>>");
+Console("<<<meraki_license>>>");
+Console($"{license['status']} - {license['expires']}");
+
+foreach deviceList {
+    device = it;
+    header(customer["demo"], device["apiname"], device["model"], device["serial"], device["templateName"]);
+}
+
+Console("<<<<>>>>");
