@@ -1,0 +1,9 @@
+README.md
+setup.py
+OFit.egg-info/PKG-INFO
+OFit.egg-info/SOURCES.txt
+OFit.egg-info/dependency_links.txt
+OFit.egg-info/requires.txt
+OFit.egg-info/top_level.txt
+Ofit/__init__.py
+Ofit/modulo.py
