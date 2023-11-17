@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+anylogicfilter/__init__.py
+anylogicfilter/filter.py
+anylogicfilter/templates/anylogicfilter/filter.html
+django_admin_anylogicfilter.egg-info/PKG-INFO
+django_admin_anylogicfilter.egg-info/SOURCES.txt
+django_admin_anylogicfilter.egg-info/dependency_links.txt
+django_admin_anylogicfilter.egg-info/top_level.txt
