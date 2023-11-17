@@ -1,0 +1,12 @@
+numpy
+pandas
+torch
+requests
+elasticsearch
+python-json-logger
+beautifulsoup4
+selectolax
+regex
+markupsafe
+
+
