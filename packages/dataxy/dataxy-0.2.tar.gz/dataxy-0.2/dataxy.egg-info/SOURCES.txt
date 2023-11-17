@@ -1,0 +1,7 @@
+dataxy.py
+setup.py
+dataxy.egg-info/PKG-INFO
+dataxy.egg-info/SOURCES.txt
+dataxy.egg-info/dependency_links.txt
+dataxy.egg-info/requires.txt
+dataxy.egg-info/top_level.txt
