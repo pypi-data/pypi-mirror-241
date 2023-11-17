@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: allkernAna
+Version: 0.1.0
+Summary: libreria de suavizado con kernell gausiano, tricube y Epanechikov
+Home-page: UNKNOWN
+Author: Ana Maria
+Author-email: aarcila01@gmail.com
+License: MIT
+Description: # Suavizado con kernel gaussiano
+        
+        Esta libreria realiza una grÃ¡fica del suavizado de una funciÃ³n cuando se grafican los datos del nÃºmero de casos cada dÃ­a durante la pandemia del Covid-19.
+Platform: UNKNOWN
+Requires-Python: >=3.7.2
+Description-Content-Type: text/markdown

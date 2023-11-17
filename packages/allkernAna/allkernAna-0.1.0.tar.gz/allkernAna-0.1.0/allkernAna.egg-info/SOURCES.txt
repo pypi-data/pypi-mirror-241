@@ -1,0 +1,9 @@
+README.md
+setup.py
+allkernAna/__init__.py
+allkernAna/modulo.py
+allkernAna.egg-info/PKG-INFO
+allkernAna.egg-info/SOURCES.txt
+allkernAna.egg-info/dependency_links.txt
+allkernAna.egg-info/requires.txt
+allkernAna.egg-info/top_level.txt
