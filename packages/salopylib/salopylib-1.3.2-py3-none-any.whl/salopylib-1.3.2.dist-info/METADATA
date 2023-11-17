@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: salopylib
+Version: 1.3.2
+Summary: Ajuste de datos con Kernels
+Home-page: https://www.instagram.com/salo_mei343/
+Author: Salo <3
+Author-email: salome.osoriom@udea.edu.co
+License: MIT
+Requires-Python: >=3.11.2
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: matplotlib ==3.8.1
+Requires-Dist: pandas ==2.1.2
+
+# LibrerÃ­a con dos mÃ³dulos para el ajuste de datos con Kernels diferentes.
+
+## MÃ³dulo 1
+Cuenta con una clase que realiza el ajuste de datos de fecha vs cantidad a una curva suave por medio de un kernel gaussiano, tricube o de Epanechnikov y hace su respectiva graficaciÃ³n, a partir de los siguientes datos:
+    path: direccciÃ³n en que se encuentra el archivo csv que contiene los datos. 
+    h: factor que determina la "suavidad" de la curva y la exactitud del ajuste. Entre menor sea su valor
+        mÃ¡s suave serÃ¡ la curva de ajuste pero mÃ¡s se alejarÃ¡ de los datos ingresados y vicecversa.
+    tipo: tipo de kernel a usar, puede ser Gaussiano, Tricube o Epanechnikov. Debe ingresarse de forma literal como string
+    Nota: La columnas del csv a usar deben tener el nombre literal: fecha_actualizacion y nuevos_casos
+
+## MÃ³dulo 2 
+Cuenta con una clase que realiza la comparacion grafica entre distintos tipos de kernel para ajuste de datos de fecha vs cantidad a una curva suave y hace su respectiva graficaciÃ³n, a partir de los siguientes datos:
+    path: direccciÃ³n en que se encuentra el archivo csv que contiene los datos. 
+    h: factor que determina la "suavidad" de la curva y la exactitud del ajuste. Entre menor sea su valor
+        mÃ¡s suave serÃ¡ la curva de ajuste pero mÃ¡s se alejarÃ¡ de los datos ingresados y vicecversa.
+    Nota: La columnas del csv a usar deben tener el nombre literal: fecha_actualizacion y nuevos_casos
