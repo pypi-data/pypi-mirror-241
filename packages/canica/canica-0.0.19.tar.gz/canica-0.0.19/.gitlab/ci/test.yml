@@ -1,0 +1,64 @@
+test:mypy:
+  image: python:3.11
+  stage: test
+  before_script:
+    - pip install hatch
+    - export HATCH_BUILD_NO_HOOKS=true
+  script:
+    - hatch --config config.toml -e dev run mypy src/
+  needs: []
+  rules:
+    - changes:
+        - src/**/*
+
+test:pytest:
+  image: python:3.11
+  stage: test
+  before_script:
+    - pip install hatch
+    - export HATCH_BUILD_NO_HOOKS=true
+    - hatch env create test
+  script:
+    - hatch -e dev run python scripts/create_if_not_exists.py src/canica/static/widget.js
+    - hatch -e dev run python scripts/create_if_not_exists.py src/canica/static/widget.css
+    - hatch --config config.toml -e test run pytest
+  needs: []
+  rules:
+    - changes:
+        - src/**/*
+
+test:precommit:
+  image: python:3.11
+  stage: test
+  before_script:
+    - pip install hatch
+    - export HATCH_CONFIG="config.toml"
+    - export HATCH_BUILD_NO_HOOKS=true
+  script:
+    - hatch -e dev run pre-commit install --hook-type pre-commit
+    - SKIP=prettier hatch -e dev run pre-commit run --hook-stage
+      commit --all-files
+  needs: []
+
+test:prettier:
+  image: node:16
+  stage: test
+  script:
+    - npm install
+    - npm run prettier:check
+  needs: []
+  rules:
+    - changes:
+        - js/**/*
+
+test:npm-run-build:
+  # build runs typecheck internally
+  image: node:16
+  stage: test
+  script:
+    - npm install
+    - npm run build
+  needs: []
+  rules:
+    - changes:
+        - js/**/*
