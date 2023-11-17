@@ -1,0 +1,10 @@
+textual
+typer
+
+[dev]
+pre-commit
+ruff
+black
+pytest
+coverage
+pytest-cov
