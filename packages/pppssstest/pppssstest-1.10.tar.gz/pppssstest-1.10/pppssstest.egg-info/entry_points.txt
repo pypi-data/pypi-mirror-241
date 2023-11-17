@@ -1,0 +1,3 @@
+[gui_scripts]
+pptest = pppssstest.pppssstest:main
+
