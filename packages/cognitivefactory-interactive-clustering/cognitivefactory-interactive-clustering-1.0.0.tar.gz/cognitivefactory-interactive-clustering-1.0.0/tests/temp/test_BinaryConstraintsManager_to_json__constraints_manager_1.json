@@ -1,0 +1,39 @@
+{
+ "list_of_managed_data_IDs": [
+  "first",
+  "second",
+  "third"
+ ],
+ "list_of_added_constraints": [
+  {
+   "data_ID1": "first",
+   "data_ID2": "first",
+   "constraint_type": "MUST_LINK",
+   "constraints_value": 1.0
+  },
+  {
+   "data_ID1": "first",
+   "data_ID2": "second",
+   "constraint_type": "MUST_LINK",
+   "constraints_value": 1.0
+  },
+  {
+   "data_ID1": "second",
+   "data_ID2": "second",
+   "constraint_type": "MUST_LINK",
+   "constraints_value": 1.0
+  },
+  {
+   "data_ID1": "second",
+   "data_ID2": "third",
+   "constraint_type": "CANNOT_LINK",
+   "constraints_value": 1.0
+  },
+  {
+   "data_ID1": "third",
+   "data_ID2": "third",
+   "constraint_type": "MUST_LINK",
+   "constraints_value": 1.0
+  }
+ ]
+}
