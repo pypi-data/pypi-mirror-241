@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: edvinspythonlib
+Version: 0.1.8
+Summary: My first Python library
+Home-page: UNKNOWN
+Author: Me
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+# Edvins Python Library
+My library for personally coded python functions and classes
+<br> Might be sorted into topics or courses, not sure yet
+
+### Installation
+```
+pip install edvinspythonlib
+```
+
+### Get started
+How to use one of my functions or classes in your own code
+
+```Python
+# Import one of the modules
+from edvinspythonlib import machinelearning as ml
+
+
+# Call the multiplication method
+model = ml.linearRegression()
+model.fit(X,y)
+model.residualPlot(X,y)
+```
+
