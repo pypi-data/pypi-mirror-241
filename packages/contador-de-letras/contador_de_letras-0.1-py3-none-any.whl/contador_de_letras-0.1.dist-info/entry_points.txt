@@ -1,0 +1,2 @@
+[console_scripts]
+contador_de_letras = contador_de_letras.contador_de_letras:main
