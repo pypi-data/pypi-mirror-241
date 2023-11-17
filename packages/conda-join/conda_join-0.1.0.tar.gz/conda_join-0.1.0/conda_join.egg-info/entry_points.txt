@@ -1,0 +1,2 @@
+[console_scripts]
+conda_join = conda_join:main
