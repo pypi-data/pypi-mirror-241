@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: testdroid
+Version: 3.0
+Summary: Testdroid API client for Python
+Home-page: http://www.bitbar.com
+Author: Henri Kivelä <henri.kivela@bitbar.com>, Sakari Rautiainen <sakari.rautiainen@bitbar.com>, Teppo Malinen <teppo.malinen@bitbar.com>, Jarno Tuovinen <jarno.tuovinen@bitbar.com>, Atte Keltanen <atte.keltanen@bitbar.com>
+Author-email: info@bitbar.com
+License: Apache License v2.0
+Keywords: testdroid rest api client
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+
+Testdroid API client for Python
