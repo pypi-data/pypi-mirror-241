@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pace2024-verifier"
+version = "0.1.0"
+description = ""
+authors = ["fabian <fmklute@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+click = "^8.1.7"
+networkx = "^3.2.1"
+numpy = "^1.26.1"
+segment-tree = "^0.3.2"
+pytest = "^7.4.3"
+
+[tool.poetry.scripts]
+pace2024verifier = "pace2024_verifier.__main__:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["pace2024_verifier"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

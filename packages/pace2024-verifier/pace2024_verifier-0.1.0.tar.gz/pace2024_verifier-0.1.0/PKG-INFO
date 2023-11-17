@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pace2024-verifier
+Version: 0.1.0
+Summary: 
+Author: fabian
+Author-email: fmklute@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: networkx (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: segment-tree (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# PACE 2024 Verifier
+
+This package can be used to verify a given solution against a set of crossing counting algorithms.
+
+## Installation
+
+The verifier can be installed from pip:
+
+```console
+$ pip install pace2024verifier
+```
+
+Feel also free to clone the code from git:
+
+```console
+$ git clone ???
+```
+
+## Usage
+
+To verify a solution use the following command:
+
+```console
+$ pace2024verify <path/to/graph.gr> <path/to/solution.sol>
+```
+
+The verifiery has three different methods for verification usable via the switches `--<name>`:
+* segtree = Use a segment tree to count the crossings. `[default]`
+* interleave = Count the crossings by checking for each pair of edges if they interleave.
+* stacklike = Count the crossings by checking how many pairs are out of order in a one-sided book embedding.
+
+There is also a switch to only print the number of crossings `-c/--only-crossings`.
+
