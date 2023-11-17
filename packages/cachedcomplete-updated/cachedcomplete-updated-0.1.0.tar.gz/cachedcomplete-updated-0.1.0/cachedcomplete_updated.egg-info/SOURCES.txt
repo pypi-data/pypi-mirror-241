@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cachedcomplete/__init__.py
+cachedcomplete/main_script.py
+cachedcomplete/parser_cache.py
+cachedcomplete_updated.egg-info/PKG-INFO
+cachedcomplete_updated.egg-info/SOURCES.txt
+cachedcomplete_updated.egg-info/dependency_links.txt
+cachedcomplete_updated.egg-info/not-zip-safe
+cachedcomplete_updated.egg-info/requires.txt
+cachedcomplete_updated.egg-info/top_level.txt
