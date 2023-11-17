@@ -1,0 +1,17 @@
+numpy>=1.22
+astropy>=5.0
+scipy>=1.7.2
+
+[all]
+matplotlib>=3.5
+
+[docs]
+lacosmic[all]
+sphinx
+sphinx-astropy>=1.6
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest-astropy>=0.10
