@@ -1,0 +1,17 @@
+demo/basic/__main__.py,sha256=b2hEEDpwxN0Y-wt6tt_SMCmhXfKFjcxDhI1jTFsaemE,461
+demo/dw/__main__.py,sha256=SkErAzEXlYwj2jQ2t8qtJomd5csu1kdsf4VPO9BUdLU,1114
+lilvali/__init__.py,sha256=3ErYnWHPKz4lyZqZPczjyT7ZQqjCqyMRVyQqxgTtxqA,115
+lilvali/__main__.py,sha256=8czz3hVG_64ItF4C1xIGgFQKnb5x_a7rdC4ff7z2tIY,79
+lilvali/binding.py,sha256=QNzGCWX3h6BpVIRSdvX4q2By-QSUuRjbr-z2BWNEMKA,9755
+lilvali/errors.py,sha256=s-N30Yv50YuPr4ASCW9PO-0hJLIA1S2YfKGnsoP4xxg,138
+lilvali/validate.py,sha256=VYjp7sQul7bIFHioxgazWjnS-uSzHHlRjC6uc2i-uqc,5971
+tests/profiling.py,sha256=gqbSCfBEAG-G-fpP-GNJU7XsyeRzPZ6bT5NjAgR9Yjo,1160
+tests/test_cases.py,sha256=XltgCagV9nZV-12gZrEH1drhTyinu-QQpbZLISietPE,6208
+tests/test_lilvali.py,sha256=MuYnynhSQDsxNE9TSzVr5-Vi4qbACJ5fcw8kNrULjCw,1401
+tests/test_newtypes.py,sha256=OlIEIgjIMBE3v4Sqi2NrcrAm4itflXnf-9Mi4B6dbIY,762
+tests/test_validation.py,sha256=jNuQbxX3EzIwGU7j56KDnbmcKHTqnpsO2jYT40CPkxU,9886
+lilvali-0.1.1.dist-info/METADATA,sha256=AMhzxKhrcA8gjbO_oYe9NF268Nto2wv6OW6xvQvMPZw,2202
+lilvali-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+lilvali-0.1.1.dist-info/entry_points.txt,sha256=Uj5_wH3p7orGQegf_RqNr3mO1awq-PTlzaP9supsXvg,50
+lilvali-0.1.1.dist-info/top_level.txt,sha256=nYyg7O8JmDONRB5LXRZgugKr8CJ_1lYI5_xKntvgOlM,19
+lilvali-0.1.1.dist-info/RECORD,,
