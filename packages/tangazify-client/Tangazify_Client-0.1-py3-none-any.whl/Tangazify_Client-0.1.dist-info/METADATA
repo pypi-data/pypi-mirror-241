@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Tangazify-Client
+Version: 0.1
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+

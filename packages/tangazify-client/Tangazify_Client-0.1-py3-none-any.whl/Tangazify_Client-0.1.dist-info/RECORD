@@ -1,0 +1,12 @@
+tangazify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tangazify/api.py,sha256=tGPQym9HPz0htPy_2FLfBQiOuaDQpRVvoceJS1cYslo,862
+tangazify/config.py,sha256=kmvIR0LKdILgY4KorloaBEiYXi2OUAdifngIYzgg-vc,792
+tangazify/display.py,sha256=bLnKgHQqctnS6OKaWlmYVKTThVwUtL63UqiYg9y3HrQ,6705
+tangazify/utils.py,sha256=-VlMOtM4Z3Spupw7cMcqLnmdwIbdNJXXC3iUc8HL43E,209
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=FMV5SHHQHtpFs_OjVq_eDuar2c6Zpdk8Xr1eWoY3NKI,191
+tests/test_display.py,sha256=uRlUivr5PUZ4FEkMmc32xRRvvs7C5laMN7uMzWQ2QJw,234
+Tangazify_Client-0.1.dist-info/METADATA,sha256=qukx0lTnQGvfdS0u56fhKDHwLW0ISObZkGEJcO1GZXY,140
+Tangazify_Client-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Tangazify_Client-0.1.dist-info/top_level.txt,sha256=DHQBCesoyBQ5frAs0CbVyhbEpo8TusgwsdZj2r8-A5M,16
+Tangazify_Client-0.1.dist-info/RECORD,,
