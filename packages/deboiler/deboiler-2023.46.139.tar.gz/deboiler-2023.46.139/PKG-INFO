@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: deboiler
+Version: 2023.46.139
+Summary: Deboiler is an open-source package to clean HTML pages across an entire domain
+Author: Globality
+License: MIT
+Provides-Extra: lint
+Provides-Extra: typehinting
+License-File: LICENSE
