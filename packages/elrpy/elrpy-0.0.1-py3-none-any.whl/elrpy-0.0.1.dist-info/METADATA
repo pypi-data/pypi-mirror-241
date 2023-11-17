@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: elrpy
+Version: 0.0.1
+Summary: A lightweight package for individual level inference in elections backed by jax.
+Project-URL: Homepage, https://github.com/DataforProgress/elrpy/
+Project-URL: Bug Tracker, https://github.com/DataforProgress/elrpy/tree/issues
+Author-email: Nic Fishman <njwfish@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+A lightweight package for individual level inference in elections backed by jax.
