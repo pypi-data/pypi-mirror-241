@@ -1,0 +1,12 @@
+GPTTerminal/__init__.py,sha256=0bDnsgjE_tbTgkAAFLQCOTM7lIi6g3-KKWXGhektxhs,117
+GPTTerminal/checks.py,sha256=jcvZicxtpbV_vM8_YQ4tNdeFh2YYYnwzpDOnuCbbfOk,2151
+GPTTerminal/config.py,sha256=lBJQRVcqOd5rUoEAI3VwWe0BvKcftq3A43_FmktioSc,2359
+GPTTerminal/gpt_settings.py,sha256=JuELmrq7gbv1MX2_-msSthI0shZkcpCCSvaUWE0y2QE,617
+GPTTerminal/gpt_terminal.py,sha256=qkfvfNf4d6RAAyBTQizJ4Qg-UGDFWR6injZEV0TPjag,1000
+GPTTerminal/menu.py,sha256=vKXwbDWua69k8B2KdNeA8djg9B7_HkOGurtSW1a_QA8,2204
+gpt_terminal-0.1.4.dist-info/LICENSE,sha256=YT_qa5EKlcXYl5ckx-IiyZLypPZvxDc95I4WtYx6UiE,1064
+gpt_terminal-0.1.4.dist-info/METADATA,sha256=5wYV2bjfuYWvhOJ5N6AwbBrFeIBRSjEgxf1iUi0AkXA,1020
+gpt_terminal-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gpt_terminal-0.1.4.dist-info/entry_points.txt,sha256=eXRJq42wXJWG98Yimuub1303dto3bQO4LBQHTWLKnUE,63
+gpt_terminal-0.1.4.dist-info/top_level.txt,sha256=TL-8jP1zh0iwyyrQtz9AEiqg7-AMyVnYPxHzJNGlUpI,12
+gpt_terminal-0.1.4.dist-info/RECORD,,
