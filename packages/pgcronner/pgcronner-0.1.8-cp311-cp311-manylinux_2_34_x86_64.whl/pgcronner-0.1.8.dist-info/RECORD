@@ -1,0 +1,8 @@
+pgcronner-0.1.8.dist-info/METADATA,sha256=6RG60iU3fSOQcm7QfTvhHI5tx1yn0PCmlZxt0gVgHYs,2834
+pgcronner-0.1.8.dist-info/WHEEL,sha256=I0YqkP6f5aTtLqicbmSaGut_01VA7LoUpcueDG3BHoc,108
+pgcronner-0.1.8.dist-info/license_files/LICENSE,sha256=tgwET4GHbzUL9eMJBxv8IFfERO_QfSuCeQt4YEnZ2D8,1072
+pgcronner/__init__.py,sha256=l1ooOlN_UBllZyqp86xaqjDhMgTbAEwTvutNtkHa_as,119
+pgcronner/__init__.pyi,sha256=UNyK_g1cPgRNMq6SW5-MKxh3D8UyvSUxOPd3Ll4svPg,1909
+pgcronner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgcronner/pgcronner.cpython-311-x86_64-linux-gnu.so,sha256=g8U5CX9a-QQiA87KhZVFOne1fPVyt2ewpOZIE-5grNg,3591136
+pgcronner-0.1.8.dist-info/RECORD,,
