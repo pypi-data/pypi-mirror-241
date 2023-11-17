@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+oryks_google_oauth/__init__.py
+oryks_google_oauth/oauth.py
+oryks_google_oauth/scopes.py
+oryks_google_oauth.egg-info/PKG-INFO
+oryks_google_oauth.egg-info/SOURCES.txt
+oryks_google_oauth.egg-info/dependency_links.txt
+oryks_google_oauth.egg-info/requires.txt
+oryks_google_oauth.egg-info/top_level.txt
