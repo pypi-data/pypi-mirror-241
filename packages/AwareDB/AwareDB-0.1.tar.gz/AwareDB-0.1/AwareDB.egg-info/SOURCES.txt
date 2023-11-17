@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+AwareDB/__init__.py
+AwareDB/api.py
+AwareDB.egg-info/PKG-INFO
+AwareDB.egg-info/SOURCES.txt
+AwareDB.egg-info/dependency_links.txt
+AwareDB.egg-info/requires.txt
+AwareDB.egg-info/top_level.txt
