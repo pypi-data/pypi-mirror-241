@@ -1,0 +1,10 @@
+bark_detection/__init__.py,sha256=kupVUPqutVnrIZTMQK6IukZPd8VlNZHudnCgqR6Q2zc,81
+bark_detection/bark_detection.py,sha256=5orzzlSERTYo8q-oa3yUYRp-sik_3BnHSqm39NbTGLw,2284
+bark_detection/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bark_detection/model/model.h5,sha256=iQXH2f2ms17lkzvwD35NxnpzTsbVp8DpTxMXyZEvFfM,63849216
+bark_detection/model/model.json,sha256=8pQ0dhPdVwtIAM3K4ZFperxaHbTs06-3WANkO8_KiQc,4438
+bark_detection-0.0.7.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bark_detection-0.0.7.dist-info/METADATA,sha256=aR4uC7Pq7O4-WYCLl28I2ZDPqVPKneScEzAAocsekJ4,408
+bark_detection-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bark_detection-0.0.7.dist-info/top_level.txt,sha256=IjtCWaf82IzNj_fyP3wcLcf5NiA01FniIFob4J-zaUA,15
+bark_detection-0.0.7.dist-info/RECORD,,
