@@ -1,0 +1,14 @@
+assistants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assistants/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assistants/examples/summarize_assistant_operations.py,sha256=DL0LmGANGLk13NPNc-OeUD8K2bKneDEPT89Ob-2VyEQ,1064
+assistants/langassist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assistants/langassist/base.py,sha256=ZdEOhUGv5Y4k4XeNlBSGQZPFyAFitNw6ef40riBUjrc,235
+assistants/langassist/summarize_assistant.py,sha256=nWXnvzm9vdyPOpLclaewjaUD-GFXgLNpjmieD7EP0g4,3256
+assistants/langregister/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assistants/langregister/base.py,sha256=xtfVNXKrgWYVueBCnP6OEcEHV9ao3KKZmOwRJmVkfvk,452
+assistants/langregister/mongo_db_atlas.py,sha256=rTHpqrcQwirp0M8fCA35mmZQpOPgF3kosvGrTiYSKVw,2354
+langassist-0.0.4.dist-info/LICENSE,sha256=mQgqC5iUwshGv8dVnLzAcFA9t3jf128m_R8YbnFluJI,1062
+langassist-0.0.4.dist-info/METADATA,sha256=QGVASo6AXN9XFeempREIkT6OFKyYZbV8duBViTJfPhg,3011
+langassist-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+langassist-0.0.4.dist-info/top_level.txt,sha256=OCx5B1-MmbkLSiSvLCcn9bjZSmtXGVWqm6Au_1pdhu8,11
+langassist-0.0.4.dist-info/RECORD,,
