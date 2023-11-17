@@ -1,0 +1,16 @@
+mpl_bsic/__init__.py,sha256=cuAX-kA6uQ6vKEJ47uX7zlWm8cdba4uy6sLyKKKbW1A,336
+mpl_bsic/apply_bsic_logo.py,sha256=WdkcJNDhqULLrzyEYMZalQV4fMXSt5_YSwKnBcTyni8,3301
+mpl_bsic/apply_bsic_style.py,sha256=b0fwbQCk8pPNh8ngblFH5VVHXtf5G8bJJhzYgePdpts,5625
+mpl_bsic/check_figsize.py,sha256=iFFXTZ789UDowzDm6a_ZIfeto_nUd6snthul3mOEalM,1718
+mpl_bsic/format_timeseries_axis.py,sha256=sIqvAlYZC5NyLSibnG2ffMdnU88fUmV3soYanp_hfiY,1847
+mpl_bsic/plot_trade.py,sha256=hr12EPBrEcbtkBz-i9syARYc-qhNU1NvZHi14n9miO0,649
+mpl_bsic/preprocess_dataframe.py,sha256=aqvH_AL9AGUxZSNWUPoJ5si8iqUxHjx4JzRKN3moVHA,779
+mpl_bsic/static/bsic_logo_formal_1x.png,sha256=lAxKPLOKpIdm7OSlM-YwODrvByNroJFj8FaprCv0y5E,282980
+mpl_bsic/static/bsic_logo_formal_2x.png,sha256=jB3jBaxz4YwkmtZzp54ttqc0BFCZXBEBinP8_5Bc23I,921240
+mpl_bsic/static/bsic_logo_formal_3x.png,sha256=cu-Bf-GxuYwZdpu9uXAu2pJpy53L3xwTC1qKBP01J64,1910183
+mpl_bsic/static/bsic_logo_square_1x.png,sha256=oimP_pRTgPLpUx2cIDRaa7b8jqdGodBkf68Jtw0X9Tc,164720
+mpl_bsic/static/bsic_logo_square_2x.png,sha256=kd5jpws8OxRciSeFg5wQZg6FYYGtepRdQEb3Ec6DA3o,576512
+mpl_bsic/static/bsic_logo_square_3x.png,sha256=cmz-yHTVVV92KhyA4khNSZ8zI1TeXHNd12GTwh_cgVs,1208390
+mpl_bsic-1.1.5.dist-info/METADATA,sha256=JkZduQ2Fkp3_KxCNDU3BprTG74pCtQXrodIJRPQ1R2Q,2523
+mpl_bsic-1.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mpl_bsic-1.1.5.dist-info/RECORD,,
