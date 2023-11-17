@@ -1,0 +1,4 @@
+RPi.GPIO
+enum34
+bitstring
+pyserial
