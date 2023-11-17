@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bark-detection
+Version: 0.0.7
+Summary: Package for bark detection in audio file
+Home-page: UNKNOWN
+Author: jgab
+License: UNKNOWN
+Keywords: python,ML,bark,detection
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE
+
+UNKNOWN
+
