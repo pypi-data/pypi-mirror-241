@@ -1,0 +1,8 @@
+pandas
+nltk
+spacy
+unidecode
+treetaggerwrapper
+streamlit
+plotly
+wordcloud
