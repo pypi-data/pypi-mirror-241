@@ -1,0 +1,17 @@
+libzim.cpython-310-x86_64-linux-gnu.so,sha256=EaxxHB5b1F7VJNEtDp2wr6Pw_7LEoTv1nmq9zqM2XAU,5672113
+libzim-3.3.0.post0.dist-info/top_level.txt,sha256=GdZ3eu3o1TZ8u4YE89CdUK2IPSei-1_pQ0Ipw32EMmo,7
+libzim-3.3.0.post0.dist-info/WHEEL,sha256=XRy71Q9dkxeaN5xqg4V0IQ2y1PE7-xmFNFjaSBPcoPM,113
+libzim-3.3.0.post0.dist-info/METADATA,sha256=oBJsX6UAvtZZ91kYYMaONQYBoh7foGz-K6qbi9FcMSw,8628
+libzim-3.3.0.post0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+libzim-3.3.0.post0.dist-info/RECORD,,
+libzim/libwrapper.h,sha256=dRndYPdMJhpPJ9jKsrcbQzssbAnlpdcjAp7FmnB15vE,11058
+libzim/libzim.so.9,sha256=2K3Vx6LLAmmaesbN-bPhNPoeOul-h2ho5qDbWqv7Lfo,19203593
+libzim/libzim.cpp,sha256=e-yOdia6-m3Jb4ZZUrSSKVwLFn7APIsbYz5e4cnK34A,2041697
+libzim/libwrapper.cpp,sha256=fEdJj-kifW6eRYLoL0ccCpu-mYOKmdbXeXFvrXTJNZE,6532
+libzim/libzim_api.h,sha256=d4Tszp3DjLnP1-f7qmUe6_D9_KcYUEOTgz0iATfFTn4,5693
+libzim/zim.pxd,sha256=zztcq3CdHwNcuPMx4lFfVk1ylr1mrCdjXqPhMEZ-DSA,7746
+libzim/libzim.h,sha256=1i2l8uV5sOqNckOWCEoldJG1blMH1Z8FOBiJMwp0fng,2981
+libzim/libzim.pyx,sha256=VMwbLwPZrPC2hm5G6EUa86W5yAYIlcyW6KUuKKOLgzA,44667
+libzim.libs/ld-musl-x86_64-0273b534.so.1,sha256=0WmY8c067z7wOjlB-wJ8waK2f3SyJVPHwhJYsH743UM,624601
+libzim.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+libzim.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
