@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fluxo-core
+Version: 0.3.0
+Summary: Simple data flow with python
+Author-email: Mailson Náscin <mailson.nascin@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/nascin/fluxo
+Project-URL: Source Code, https://github.com/nascin/fluxo
+Project-URL: Bug Tracker, https://github.com/nascin/fluxo/issues
+Keywords: fluxo,data
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: schedule==1.2.1
+
+# Fluxo
+
+## Exemplo simples:
+
+```
+fluxo = Fluxo(
+    name='Fluxo 1',
+    interval={'minutes': 1, 'at': ':10'})
+
+
+@Task('Tarefa 1', fluxo=fluxo)
+async def my_func():
+    print("Minha função sendo executada")
+    n = 0
+    for i in range(100000000):
+        n += 1
+```
