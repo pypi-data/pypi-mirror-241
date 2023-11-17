@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cist"
+version = "0.1.0"
+description = "CIST NURE API implementation"
+readme = "README.md"
+keywords = ["nure", "cist"]
+homepage = "https://github.com/WWFyb3NsYXYg/python-cist"
+authors = ["Yaroslav WWFyb3NsYXYg <minestrim13@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.22"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
