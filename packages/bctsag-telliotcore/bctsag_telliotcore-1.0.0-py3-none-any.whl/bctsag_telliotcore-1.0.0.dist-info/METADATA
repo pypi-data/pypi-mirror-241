@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: bctsag-telliotcore
+Version: 1.0.0
+Summary: Telliot is a Python framework for interacting with the decentralized TellorX network.
+Author: Blockchain Trust Solutions AG
+License: MIT
+Keywords: oracle,etherium,blockchain
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Office/Business :: Financial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: PyYAML >=6.0
+Requires-Dist: requests
+Requires-Dist: web3 >=5.26.0
+Requires-Dist: clamfig ==0.1.3
+Requires-Dist: chained-accounts ==0.0.1
+
+## Background
+
+Command line tool and SDK for interacting with the Tellor Protocol.
+
+The package `telliot-core` version `0.3.0` forked from:<br />
+https://github.com/tellor-io/telliot-core
+
+## Initial Setup
+
+### Prerequisites
+The following tools are expected to be installed on your system to run this project:
+
+- Python 3.9.x
+- Pip 23.3.x
+- Git
+
+### Setup
+
+```bash
+python3.9 -m venv tenv
+source tenv/bin/activate
+pip3.9 install .
+```
+
+NPM ganache dependency required:
+```bash
+npm install ganache --global
+```
+
+### Test
+
+Install development requirements:
+```bash
+pip3.9 install -r requirements-dev.txt
+```
+
+Run automated testing in all environments:
+```bash
+tox
+```
+
+Run `py39` testing:
+```bash
+tox -e py39
+```
+
+Run `style` testing:
+```bash
+tox -e style
+```
+
+Run `typing` typing:
+```bash
+tox -e typing
+```
+
+### Publish
+
+1. Create the `$HOME/.pypirc` file:
+```
+[pypi]
+  username = __token__
+  password = pypi-AgEIcHlw... (your PyPI token)
+```
+
+2. Build distribution:
+```bash
+python3.9 -m build
+```
+
+3. Deploy distribution to PyPI repository:
+```bash
+twine upload dist/*
+```
+
+## Usage
+
+### Configuration
+
+1. Create the default configuration files:
+```bash
+telliot-core config init
+```
+
+The default configuration files are created in the folder `~/telliot/` or `$HOME/telliot/`.
+
+2. View your current configuration:
+```bash
+telliot-core config show
+```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at:<br />
+https://github.com/BCTSAG/tellor
