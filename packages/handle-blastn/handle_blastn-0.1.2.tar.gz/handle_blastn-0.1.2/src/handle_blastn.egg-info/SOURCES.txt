@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/handle_blastn/__init__.py
+src/handle_blastn/__main__.py
+src/handle_blastn/_clines.py
+src/handle_blastn/_progs.py
+src/handle_blastn/_summaries.py
+src/handle_blastn.egg-info/PKG-INFO
+src/handle_blastn.egg-info/SOURCES.txt
+src/handle_blastn.egg-info/dependency_links.txt
+src/handle_blastn.egg-info/requires.txt
+src/handle_blastn.egg-info/top_level.txt
