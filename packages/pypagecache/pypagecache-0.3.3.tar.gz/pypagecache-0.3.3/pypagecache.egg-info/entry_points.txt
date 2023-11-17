@@ -1,0 +1,3 @@
+[console_scripts]
+pypagecache = pypagecache.cli:cli
+
