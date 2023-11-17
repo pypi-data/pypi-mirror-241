@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+toss_ipd_commons.egg-info/PKG-INFO
+toss_ipd_commons.egg-info/SOURCES.txt
+toss_ipd_commons.egg-info/dependency_links.txt
+toss_ipd_commons.egg-info/top_level.txt
+toss_pyozzi_commons/__init__.py
