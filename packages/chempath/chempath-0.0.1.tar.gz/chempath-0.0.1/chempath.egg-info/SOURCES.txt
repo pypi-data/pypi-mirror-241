@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chempath/__init__.py
+chempath.egg-info/PKG-INFO
+chempath.egg-info/SOURCES.txt
+chempath.egg-info/dependency_links.txt
+chempath.egg-info/top_level.txt
+chempath/core/__init__.py
+chempath/core/chempath.c
+chempath/core/include/dtypes.h
+chempath/core/src/dtypes.c
