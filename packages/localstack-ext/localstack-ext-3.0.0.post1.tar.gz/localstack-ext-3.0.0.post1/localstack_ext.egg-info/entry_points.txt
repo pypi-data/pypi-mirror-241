@@ -1,0 +1,58 @@
+[localstack.hooks.configure_localstack_container]
+configure_extensions_dev_container = localstack_ext.extensions.plugins:configure_extensions_dev_container
+configure_pro_container = localstack_ext.plugins:configure_pro_container
+
+[localstack.hooks.on_infra_ready]
+extensions_on_infra_ready = localstack_ext.extensions.plugins:extensions_on_infra_ready
+initialize_health_info = localstack_ext.plugins:initialize_health_info
+
+[localstack.hooks.on_infra_shutdown]
+extensions_on_infra_shutdown = localstack_ext.extensions.plugins:extensions_on_infra_shutdown
+shutdown_generator = localstack_ext.services.iam.plugins:shutdown_generator
+
+[localstack.hooks.on_infra_start]
+add_aws_request_logger = localstack_ext.analytics.plugins:add_aws_request_logger
+add_custom_edge_routes = localstack_ext.plugins:add_custom_edge_routes
+add_iam_enforcement_listener = localstack_ext.services.iam.plugins:add_iam_enforcement_listener
+add_policy_generation_routes = localstack_ext.services.iam.plugins:add_policy_generation_routes
+configure_transparent_endpoint_injection = localstack_ext.plugins:configure_transparent_endpoint_injection
+deprecation_warnings_pro = localstack_ext.plugins:deprecation_warnings_pro
+extensions_on_infra_start = localstack_ext.extensions.plugins:extensions_on_infra_start
+init_stackinfo_handler = localstack_ext.services.internal.stackinfo.plugins:init_stackinfo_handler
+register_pickle_patches_runtime = localstack_ext.persistence.pickling.plugins:register_pickle_patches_runtime
+register_public_cloudpods_endpoints = localstack_ext.persistence.pods.plugins:register_public_cloudpods_endpoints
+register_reset_state_resource = localstack_ext.persistence.reset.plugins:register_reset_state_resource
+setup_pro_infra = localstack_ext.plugins:setup_pro_infra
+
+[localstack.hooks.prepare_host]
+activate_pro_key_on_host = localstack_ext.plugins:activate_pro_key_on_host
+configure_extensions_dev_host = localstack_ext.extensions.plugins:configure_extensions_dev_host
+patch_community_pro_detection = localstack_ext.plugins:patch_community_pro_detection
+register_pickle_patches_host = localstack_ext.persistence.pickling.plugins:register_pickle_patches_host
+
+[localstack.packages]
+amazon-mq/ext = localstack_ext.services.mq.plugins:active_mq_package
+ecr/ext = localstack_ext.services.ecr.plugins:registry_package
+hadoop/ext = localstack_ext.packages.plugins:hadoop_package
+hive/ext = localstack_ext.packages.plugins:hive_package
+iot-rule-engine/ext = localstack_ext.services.iot.plugins:iot_rule_engine_package
+k3d/ext = localstack_ext.services.eks.plugins:k3d_package
+kafka/ext = localstack_ext.services.kafka.plugins:kafka_package
+mqtt/ext = localstack_ext.services.iot.plugins:mosquitto_package
+mysql/ext = localstack_ext.packages.plugins:mariadb_package
+neo4j/ext = localstack_ext.services.neptune.plugins:neo4j_package
+postgres/ext = localstack_ext.packages.plugins:postgres_package
+presto/ext = localstack_ext.packages.plugins:presto_package
+pysiddhi/ext = localstack_ext.services.kinesisanalytics.plugins:pysiddhi_package
+qldb/ext = localstack_ext.services.qldb.plugins:partiql_package
+redis/ext = localstack_ext.services.elasticache.plugins:redis_package
+spark/ext = localstack_ext.packages.plugins:spark_package
+stepfunctions/ext = localstack_ext.services.stepfunctions.plugins:stepfunctions_package
+tinkerpop/ext = localstack_ext.services.neptune.plugins:tinkerpop_package
+
+[localstack.plugins.cli]
+pro = localstack_ext.cli.localstack:ProCliPlugins
+
+[localstack.pods.remote]
+oras = localstack_ext.persistence.remotes.oras:CloudPodsRemoteOras
+platform = localstack_ext.persistence.remotes.remotes:CloudPodsRemotePlatform
