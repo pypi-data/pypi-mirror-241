@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "MCPacker"
+description = "A tool to easily pack Minecraft addons."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["minecraft", "addon"]
+authors = [
+  { name = "Didier Malenfant", email = "coding@malenfant.net" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ["semver"]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://codeberg.org/DidierMalenfant/MCPacker"
+
+[tool.hatch.version]
+path = "MCPacker/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["MCPacker"]
+
+[project.scripts]
+mcpack = "MCPacker.__main__:main"

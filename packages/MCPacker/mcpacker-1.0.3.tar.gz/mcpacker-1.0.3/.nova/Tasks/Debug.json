@@ -1,0 +1,16 @@
+{
+  "extension" : {
+    "identifier" : "panic.Python",
+    "name" : "Python"
+  },
+  "extensionTemplate" : "pythonDebug",
+  "extensionValues" : {
+    "python.debug.customArgs" : [
+      "-M",
+      "\/Users\/didier\/Desktop"
+    ],
+    "python.debug.module" : "MCPacker",
+    "python.debug.workingDirectory" : "."
+  },
+  "openLogOnRun" : "fail"
+}
