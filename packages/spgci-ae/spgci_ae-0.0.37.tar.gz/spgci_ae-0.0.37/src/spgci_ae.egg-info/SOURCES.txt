@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+src/spgci_ae/__init__.py
+src/spgci_ae/hello.py
+src/spgci_ae.egg-info/PKG-INFO
+src/spgci_ae.egg-info/SOURCES.txt
+src/spgci_ae.egg-info/dependency_links.txt
+src/spgci_ae.egg-info/top_level.txt
+src/spgci_ae/pyarmor_runtime_000000/__init__.py
+src/spgci_ae/pyarmor_runtime_000000/pyarmor_runtime.pyd
