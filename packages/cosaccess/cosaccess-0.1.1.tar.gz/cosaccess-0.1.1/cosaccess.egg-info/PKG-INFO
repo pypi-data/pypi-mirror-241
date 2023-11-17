@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cosaccess
+Version: 0.1.1
+Summary: Python client for managing IAM policies fine grained access control in IBM Cloud Object Storage
+Home-page: https://github.com/IBM-Cloud/sql-query-clients/cosaccess
+Author: IBM Corp.
+Author-email: torsten@de.ibm.com
+License: Apache 2.0
+Keywords: cloud object_storage IBM
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: ibm_cloud_sdk_core
+Requires-Dist: ibm_platform_services
+
+# COS Fine Grained Access Manager
