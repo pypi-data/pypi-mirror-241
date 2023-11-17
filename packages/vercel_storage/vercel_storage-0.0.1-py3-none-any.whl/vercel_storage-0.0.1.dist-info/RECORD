@@ -1,0 +1,10 @@
+vercel_storage/__init__.py,sha256=nE0vSFHekIAmghdDvTCQ0f-hLSp0WyUrVYZBKR73zpY,171
+vercel_storage/blob.py,sha256=6MZRxaM0Tm_NVb7QAdHulcRC0C4pHKlwyDp99T4u4tY,8366
+vercel_storage/cli.py,sha256=P7RbrypTB76at2oWmorYHfuJGnBpZGlGliZjYMAdiv8,4369
+vercel_storage/vercel-blob.code-workspace,sha256=2kLcK83WfFmbODZ29cRAK16ZrY5fKeg0V4JtZy8ELT8,134
+vercel_storage/.devcontainer/devcontainer.json,sha256=1An6ho738KcQGbvq9dQ3aOlAAWm7_yJph-QlZLJrhQk,903
+vercel_storage-0.0.1.dist-info/entry_points.txt,sha256=S3PTqx6DDvM6AxQ9p5lRFNyvQNbsc9g51jWQEWpDveo,54
+vercel_storage-0.0.1.dist-info/LICENSE,sha256=UtM1xDJs4WGMzyKo2eZKElzhhX2pyVxixUHq5lN2vqU,1066
+vercel_storage-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+vercel_storage-0.0.1.dist-info/METADATA,sha256=vKk0p3Dz2tYcq113tPuJ1ZBiTZHRCPTcvuXRI6_jlJE,8066
+vercel_storage-0.0.1.dist-info/RECORD,,

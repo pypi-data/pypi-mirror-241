@@ -1,0 +1,3 @@
+[console_scripts]
+vercel_blob=vercel_storage.cli:cli
+
