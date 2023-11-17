@@ -1,0 +1,9 @@
+bindiff/__init__.py,sha256=9uJOkV5PnoY0HSW5kXTDSNyRXrEAk5XQWfaLGYdJY_M,73
+bindiff/bindiff.py,sha256=9nzBBYeQruu4_-ARQARVLowBzjeLVzF9sKV8Wjcd7zo,10557
+bindiff/file.py,sha256=4m4Ydk2-dTv8ORqyePUEQJ06TrHhPqcJNOj69O4kUFA,17966
+bindiff/types.py,sha256=xUKxFVWJ5fSqr5x9zgIRUGrw3tTMO_iQV6GB7Z9VkUA,4672
+python_bindiff-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_bindiff-0.1.6.dist-info/METADATA,sha256=6Dkjm45-rc7spHFn4LbcRAkXCzI2Tl3EzohzjGRM7_0,4021
+python_bindiff-0.1.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+python_bindiff-0.1.6.dist-info/top_level.txt,sha256=X23yAl2kz4Ryt8AP1tvUZI8S-gO9gCyNwQlereyW1_Q,8
+python_bindiff-0.1.6.dist-info/RECORD,,
