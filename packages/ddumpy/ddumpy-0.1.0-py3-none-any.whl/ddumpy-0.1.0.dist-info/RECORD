@@ -1,0 +1,12 @@
+ddumpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddumpy/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+ddumpy/cli.py,sha256=0xY8EzOL3eeNA9fYo-ZvQw6wnkmsbG1W7O0uZGS-_IY,4114
+ddumpy/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddumpy/helpers/console.py,sha256=9LInW-IPhLERX9l53Rg3jEJ4lFc_sZ28Z12L5hVByeM,519
+ddumpy/helpers/docker.py,sha256=ugkF7vtMgJdBbTufMZInJ8dQPFv6xqiGDSUkaCkmogc,2084
+ddumpy/postgresql.py,sha256=j2d29zAxjj91JSel8Dyjl9yz1KvajkchFuQvlbmku_s,5634
+ddumpy-0.1.0.dist-info/LICENSE.md,sha256=lvF4V_PrKKfZPa2TC8CZo8tlqaKvs3Bpv9G6XsWWQ4k,483
+ddumpy-0.1.0.dist-info/METADATA,sha256=2Bx_HskUQ9Af73w4IQZm3HDfzqI72zlS5aJ-TMjGJGM,841
+ddumpy-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ddumpy-0.1.0.dist-info/entry_points.txt,sha256=T7qRMrz1nb_6bOZMugPhfVwHdTp8eoQJKwlOyRmoqo0,41
+ddumpy-0.1.0.dist-info/RECORD,,
