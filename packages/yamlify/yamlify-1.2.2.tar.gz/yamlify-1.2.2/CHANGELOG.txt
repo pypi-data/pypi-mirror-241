@@ -1,0 +1,13 @@
+Change Log
+============
+1.1.0 (Nov 17, 2023)
+ — — — — — — — — — -
+- First Stable Release
+
+1.2.1 (Nov 17, 2023)
+— — — — — — — — — -
+- First Stable Release
+
+1.2.2 (Nov 17, 2023)
+— — — — — — — — — -
+- Bug fixing
