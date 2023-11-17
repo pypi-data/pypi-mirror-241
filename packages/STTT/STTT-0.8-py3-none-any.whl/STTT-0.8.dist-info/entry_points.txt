@@ -1,0 +1,2 @@
+[console_scripts]
+sttt = sttt.__main__:playgame
