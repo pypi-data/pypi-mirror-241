@@ -1,0 +1,11 @@
+LICENSE
+README.md
+conda_join.py
+pyproject.toml
+conda_join.egg-info/PKG-INFO
+conda_join.egg-info/SOURCES.txt
+conda_join.egg-info/dependency_links.txt
+conda_join.egg-info/entry_points.txt
+conda_join.egg-info/requires.txt
+conda_join.egg-info/top_level.txt
+tests/test_conda_join.py
