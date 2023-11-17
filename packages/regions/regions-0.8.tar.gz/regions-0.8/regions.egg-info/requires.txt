@@ -1,0 +1,17 @@
+numpy>=1.22
+astropy>=5.0
+
+[all]
+matplotlib>=3.5
+shapely
+
+[docs]
+regions[all]
+sphinx-astropy>=1.6
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest-arraydiff
+pytest-astropy>=0.10
