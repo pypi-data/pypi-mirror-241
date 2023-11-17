@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: NiceDecorator
+Version: 1.0.0
+Summary: An easy and nice decorator package
+License: MIT License
+Keywords: decorator
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+
+# deco
+
+### An easy and nice decorator package
+
+## Use:
+    from deco.mode import Timer
+    
+    decor = Timer()
+    
+    @decor
+    def f():
+        print(1)
+    
+    a = f()
+    print(a)
+
+####
+    $ python 3.11.2 $
+    1
+    1.9600032828748226e-05
+
+## Path:
+    deco/
+        __init__.py
+            class EMPTY
+            function PASS
+            function FUNCTION
+            local get_path
+        decorator.py
+            class Base_Deco
+            group Deco_for_function:
+                class Deco_Function
+                class Deco_aFunction
+                class Deco_iFunction
+                class Deco_wFunction
+            group Deco_for_class:
+                class Deco_Class
+                class Deco_aClass
+                class Deco_iClass
+            group Deco_Union
+                class Deco_Union
+        mode.py
+            group function:
+                class Deco_Check
+                class Deco_Expand
+                class Deco_Timer
+            group class:
+                class Deco_StrOpti
+        objective.py
+            function Len_Dict
+            function STRING
+            function INTEGER
+            function LIST
+        separator.py
+            function linesep
+            function timesep
+        set_param.py
+            function getparam
+            function setparam
+        timecount.py
+            group time_count
+                function time_start
+                function time_end
+            group time_count_ns
+                function time_start_ns
+                function time_end_ns
