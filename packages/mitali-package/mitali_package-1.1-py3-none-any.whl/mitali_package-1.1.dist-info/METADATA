@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mitali-package
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Mitali Bisht
+Author-email: email@example.com
+License: MIT
+Keywords: example project
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
