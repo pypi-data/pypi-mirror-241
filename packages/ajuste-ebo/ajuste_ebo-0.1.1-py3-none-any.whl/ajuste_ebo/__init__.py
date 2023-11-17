@@ -1,0 +1,1 @@
+from .modulo import ajuste_curva
