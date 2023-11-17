@@ -1,0 +1,85 @@
+name: "dge_analysis"
+label: "DGE Analysis with DESeq2"
+description: "A differential gene expression analysis using DESeq2 for statistical tests. As a pre-step, featureCounts is used for assigning the alignments to a genomic feature."
+
+required_settings:
+  gff_feature_type:
+    label: "GFF Feature Type"
+    description: "Used feature type, e.g. gene or exon. (See column 3 of GFF)"
+    type: "string"
+
+  gff_path:
+    label: "GFF File Path"
+    description: "File path to (uncompressed) gff file. Defaults are set for GFF3 format."
+    type: "file_input"
+
+
+optional_settings:
+  gff_feature_name:
+    label: "GFF Feature Name"
+    description: "Descriptor for feature name, e.g. ID or gene_id. Counts will be summed up when features share the same name. (See column 9 of GFF)"
+    type: "string"
+    default: "ID"
+
+  gff_feature_parent:
+    label: "GFF Feature Parent"
+    description: "Descriptor for feature parent (in most cases 'Parent'). Relevant, if exons should be summed up by its mRNAs name. (See column 9 of GFF)"
+    type: "string"
+    default: "Parent"
+
+  use_parent_instead_of_id:
+    label: "Use Parent instead of ID"
+    description: "Should be set 'yes' if features should be summed up by its hierarchical parent instead of its ID, for example, when counting exons but summarizing by their transcript ID. (Only for main feature 'gff_feature_type')"
+    type: "boolean"
+    default: "no"
+
+  strand_specificity:
+    label: 'Strand Specificity'
+    description: 'Strand specificity of reads. Specifies if reads must lie on the same strand as the feature, the opposite strand, or can be on both. Options: "unstranded, stranded, reversely_stranded"'
+    type: 'enum'
+    default: "unstranded"
+    choices:
+      unstranded: '-s 0'
+      stranded: '-s 1'
+      reversely_stranded: '-s 2'
+
+  additional_featcounts_tables:
+    label: "Additional featureCounts tables"
+    description: "List of features, which should also be counted in a count table. Values as comma-separated list (e.g. \"ncRNA,rRNA,tRNA\") (Default: All feature types in annotation and in allowlist)\
+    \nAllowlist: \"CDS\", \"exon\", \"intron\", \"gene\", \"mRNA\", \"tRNA\", \"rRNA\", \"ncRNA\", \"operon\", \"snRNA\", \"snoRNA\", \"miRNA\", \"pseudogene\", \"small regulatory ncRNA\",
+    \"rasiRNA\", \"guide RNA\", \"siRNA\", \"stRNA\", \"sRNA\""
+    type: "string"
+    default: ''
+
+  additional_featcounts_options:
+    label: "Additional FeatureCounts Options"
+    description: "Additional options to use in shell command"
+    type: "string"
+    default: ''
+
+  attribute_columns:
+    label: "GFF Attributes in Summary"
+    description: 'GFF attributes to show in the beginning of the xlsx summary (Comma-separated list, e.g. "experiment, product, Dbxref")'
+    type: "string"
+    default: ''
+
+columns:
+  condition:
+    label: "Condition"
+    description: "Condition name of the sequencing run. May contain [A-Z, a-z, 0-9, _;!@^(),.[]-, Whitespace]"
+    type: "string"
+    character_set: ['A-Z', 'a-z', '0-9', '_', ';', '!', '@', '^', '(', ')', ',', '.', '[', ']', '-', ' ']
+
+
+single_end:
+  snakefile: "dge_analysis_se"
+
+
+paired_end:
+  snakefile: "dge_analysis_pe"
+
+
+report:
+  html_file: "dge_analysis.html"
+  new_tab: false
+  title: "DGE Analysis"

@@ -1,0 +1,9 @@
+# module: multiqc
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - defaults
+dependencies:
+  - fastqc=0.12.1
+  - multiqc=1.17
