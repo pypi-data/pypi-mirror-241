@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "swgo-psa"
+description = "Pulse-shape analysis functions for SWGO."
+license = { text = "MPL-2.0" }
+readme = "README.md"
+authors = [
+    { name = "Felix Werner", email = "felix.werner@mpi-hd.mpg.de" },
+]
+dependencies = [
+    "numpy",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+]
+
+[project.urls]
+Homepage = "https://github.com/fwerner/swgo-psa"
+Repository = "https://github.com/fwerner/swgo-psa.git"
+Issues = "https://github.com/fwerner/swgo-psa/issues"
+Changelog = "https://github.com/fwerner/swgo-psa/blob/master/CHANGELOG.md"
+
+[tool.setuptools_scm]
+version_file = "swgo/_version.py"

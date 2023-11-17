@@ -1,0 +1,17 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+swgo/__init__.py
+swgo/_version.py
+swgo/psa/__init__.py
+swgo/psa/tests/test_adaptive_centroid.py
+swgo/psa/tests/test_psa_import.py
+swgo/tests/test_import.py
+swgo_psa.egg-info/PKG-INFO
+swgo_psa.egg-info/SOURCES.txt
+swgo_psa.egg-info/dependency_links.txt
+swgo_psa.egg-info/requires.txt
+swgo_psa.egg-info/top_level.txt
