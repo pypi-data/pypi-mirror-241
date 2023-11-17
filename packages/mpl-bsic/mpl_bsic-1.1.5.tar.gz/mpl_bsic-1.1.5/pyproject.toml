@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "mpl_bsic"
+description = "BSIC Plotting Library"
+authors = ["Andrea Franceschini <andrea.franceschini2@studbocconi.it>"]
+readme = "README.md"
+version = "1.1.5"                                                       # placeholder
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+matplotlib = "^3.7"
+numpy = "^1.26"
+pandas = "^2.1"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+pattern = "^(?P<base>\\d+\\.\\d+\\.\\d+)(-?((?P<stage>[a-zA-Z]+)\\.?(?P<revision>\\d+)?))?"
+format-jinja = """
+    {%- if distance == 0 -%}
+        {{- base -}}
+    {%- else -%}
+        {{- base }}.dev{{ distance }}+g{{commit}}
+    {%- endif -%}
+"""
+format-jinja-imports = [{ module = "datetime", item = "datetime" }]
+
+[build-system]
+requires = ["poetry-core", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    # "error",
+    "ignore::UserWarning",
+    "ignore::DeprecationWarning",
+    # note the use of single quote below to denote "raw" strings in TOML
+    # 'ignore:function ham\(\) is deprecated:DeprecationWarning',
+]
