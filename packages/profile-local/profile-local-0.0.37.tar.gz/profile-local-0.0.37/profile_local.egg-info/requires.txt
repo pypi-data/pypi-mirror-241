@@ -1,0 +1,14 @@
+pytest>=7.4.0
+database-without-orm-local>=0.0.108
+logger-local>=0.0.67
+location-profile-local>=0.0.49
+operational-hours-local>=0.0.19
+database-infrastructure-local>=0.0.17
+person-local>=0.0.20
+gender-local>=0.0.6
+location-local>=0.0.54
+reaction-local>=0.0.8
+profile-reaction-local>=0.0.14
+language-local>=0.0.6
+user-context-remote>=0.0.33
+storage-local>=0.1.27
