@@ -1,0 +1,8 @@
+README.md
+setup.py
+Giff/__init__.py
+Giff/giffy.py
+Gifwayne.egg-info/PKG-INFO
+Gifwayne.egg-info/SOURCES.txt
+Gifwayne.egg-info/dependency_links.txt
+Gifwayne.egg-info/top_level.txt
