@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jrpytensorflow
+Version: 0.1.14
+Summary: Jumping Rivers: Python and Tensorflow
+Author: Jumping Rivers
+Author-email: info@jumpingrivers.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Requires-Dist: tensorboard (>=2.8.0,<3.0.0)
+Requires-Dist: tensorflow (>=2.8.0,<3.0.0)
+Requires-Dist: tensorflow-datasets (>=4.5.2,<5.0.0)
