@@ -1,0 +1,2 @@
+[console_scripts]
+toddleocr = toddleocr.__main__:main
