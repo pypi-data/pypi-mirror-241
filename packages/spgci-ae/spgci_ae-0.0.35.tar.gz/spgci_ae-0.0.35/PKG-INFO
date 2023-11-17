@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: spgci_ae
+Version: 0.0.35
+Summary: The package provides advanced geo-analytics functionalities.
+Home-page: https://ihsmarkit.com/
+Author: Mateo Chaparro
+Author-email: mateo.chaparro@ihsmarkit.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7

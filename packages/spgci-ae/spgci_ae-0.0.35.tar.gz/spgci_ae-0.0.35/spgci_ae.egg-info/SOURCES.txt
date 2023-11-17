@@ -1,0 +1,7 @@
+setup.py
+spgci_ae/__init__.py
+spgci_ae/hello.py
+spgci_ae.egg-info/PKG-INFO
+spgci_ae.egg-info/SOURCES.txt
+spgci_ae.egg-info/dependency_links.txt
+spgci_ae.egg-info/top_level.txt
