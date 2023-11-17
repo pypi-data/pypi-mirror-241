@@ -1,0 +1,57 @@
+{
+  "server": {
+    "host": "192.168.30.10",
+    "port": 502,
+    "wait_sec": 5,
+    "max_retry": 17440
+  },
+  "client": {
+    "wait_sec":  60
+  },
+  "holding_register": {
+    "slave": 1,
+    "range": [100, 130]
+  },
+  "iot_mapping": {
+    "grow1": {
+      "attributes": [
+        "temp", "humi", "co2"
+      ],
+      "indices": [
+        0,10,20
+      ],
+      "topic": "dt/dtag/grow1/sta",
+      "target": "IotCore"
+    },
+    "grow2": {
+      "attributes": [
+        "temp", "humi", "co2"
+      ],
+      "indices": [
+        1, 11, 21
+      ],
+      "topic": "dt/dtag/grow2/sta",
+      "target": "IotCore"
+    },
+    "grow3": {
+      "attributes": [
+        "temp", "humi", "co2"
+      ],
+      "indices": [
+        2, 12, 22
+      ],
+      "topic": "dt/dtag/grow3/sta",
+      "target": "IotCore"
+    },
+    "grow4": {
+      "attributes": [
+        "temp", "humi", "co2"
+      ],
+      "indices": [
+        3, 13, 23
+      ],
+      "topic": "dt/dtag/grow4/sta",
+      "target": "IotCore"
+    }
+  }
+}
