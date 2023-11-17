@@ -1,0 +1,10 @@
+README.md
+setup.py
+salopylib/__init__.py
+salopylib/modulo1.py
+salopylib/modulo2.py
+salopylib.egg-info/PKG-INFO
+salopylib.egg-info/SOURCES.txt
+salopylib.egg-info/dependency_links.txt
+salopylib.egg-info/requires.txt
+salopylib.egg-info/top_level.txt
