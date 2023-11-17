@@ -1,0 +1,8 @@
+flask_sms/__init__.py,sha256=_FRB8KLPbLUBe_1eJ9srctES7A6gecop98N0JD-Q_1Q,4595
+flask_sms/aliyun_send.py,sha256=ieTvw1keMxgZ9tdBfLsVQk0MgmhXrOcF3BxpYKleGag,2787
+flask_sms/utils.py,sha256=mB0k7iE2dW-ZycEQFn3KAHTWp7OUWxSjx_vg53WkKRU,5485
+Flask_SMS-0.0.13.dist-info/LICENSE,sha256=5c26u-GuYOjqzUDQMGGCYpHi9lRHuEZvG-jajFEklaI,34817
+Flask_SMS-0.0.13.dist-info/METADATA,sha256=5UOC-cAqqhCY48ZE-dwbai_UolAwgTawuFWB4Mrmuaw,495
+Flask_SMS-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Flask_SMS-0.0.13.dist-info/top_level.txt,sha256=B8nb-7HoiHd2q1q2c4Xn4mn57qo6RnrPodBZQnJtlhw,10
+Flask_SMS-0.0.13.dist-info/RECORD,,
