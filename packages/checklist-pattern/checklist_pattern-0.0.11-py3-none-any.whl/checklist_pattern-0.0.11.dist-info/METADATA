@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: checklist-pattern
+Version: 0.0.11
+Summary: Beyond Accuracy: Behavioral Testing of NLP Models with CheckList
+Home-page: http://github.com/marcotcr/checklist
+Author: Marco Tulio Ribeiro
+Author-email: marcotcr@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy >=1.18
+Requires-Dist: spacy >=2.2
+Requires-Dist: munch >=2.5
+Requires-Dist: dill >=0.3.1
+Requires-Dist: jupyter >=1.0
+Requires-Dist: ipywidgets >=7.5
+Requires-Dist: transformers >=2.8
+Requires-Dist: patternfork-nosql-fix
+Requires-Dist: pycountry
+
