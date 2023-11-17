@@ -1,0 +1,9 @@
+confidence/__init__.py,sha256=uoGG7jquzZxNZib106LOB_gED-6hLWhKaHcXYzfPrv0,196
+confidence/_version.py,sha256=L5DCMp1QAlSqy-8bW7d51bLubTxNjZGYc5fMQkb752U,411
+confidence/names.py,sha256=wYfSf8s6lG2R8ey5HM_0W3tvv9Xh_kZmImNw0D80fa0,748
+confidence/provider.py,sha256=z3CWfOhheobqVJ643ivpMpV7C1NLU6Ex-2vq3_L9-x0,7145
+confidence_openfeature_provider-0.1.3.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+confidence_openfeature_provider-0.1.3.dist-info/METADATA,sha256=4NqDyZ4KE0DkWCp8NicJ9lz9xWZXsiKtEqjp2H7c5LI,15721
+confidence_openfeature_provider-0.1.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+confidence_openfeature_provider-0.1.3.dist-info/top_level.txt,sha256=PKVnVBfMkyaVb35_Q2VEY7iCL6-v-d5oopNbPbBRF7Q,11
+confidence_openfeature_provider-0.1.3.dist-info/RECORD,,
