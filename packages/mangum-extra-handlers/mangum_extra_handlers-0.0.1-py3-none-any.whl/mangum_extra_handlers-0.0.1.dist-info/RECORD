@@ -1,0 +1,9 @@
+mangum_extra_handlers/__init__.py,sha256=Eg9_WF6XkSXw_5YXxR4CHqUs-i-UWlDDIMALazM7MKw,282
+mangum_extra_handlers/eventbridge_handler.py,sha256=GbeS9bZxACsLu08j7424LS00Z5829Rbxv3t0kMx63Hk,2277
+mangum_extra_handlers/sns_handler.py,sha256=2OZm-wh0PBHh3y3GljFtMaTs8ckuak37jJKUXwdbnlU,2400
+mangum_extra_handlers/sqs_handler.py,sha256=X50PgHilZHM1plfUH60ZohwSI3QZ8FqZ6T_194HV9lg,2292
+mangum_extra_handlers/websocket_handler.py,sha256=vFtpjLQRRO-8MzF8Vwx2PGCxE0BWZeiOQ1JcDXhKRrQ,2927
+mangum_extra_handlers-0.0.1.dist-info/METADATA,sha256=_g_Rsq1u25XtpGGpbfa4OgMcZz4WNcODWkdjL46pUJ8,1168
+mangum_extra_handlers-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mangum_extra_handlers-0.0.1.dist-info/top_level.txt,sha256=xCiX_NNJ6m_PCSX_bcuQZkNMr2WvfOMu5mfoWzj0sDU,22
+mangum_extra_handlers-0.0.1.dist-info/RECORD,,
