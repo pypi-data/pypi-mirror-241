@@ -1,0 +1,10 @@
+cinemaot/__init__.py,sha256=goHd8equQmyUEyaweNWZw66hB8shLhDdwwV-q_5wAp0,182
+cinemaot/benchmark.py,sha256=PkvgHeT_e5mYka8vkvpBWcjIvDQpK8t5a_hgVncmmrQ,11400
+cinemaot/cinemaot.py,sha256=W25n95sDO_Pz1NiKlpKyDaxDTImLdlVVW9lNxGz55KE,24914
+cinemaot/sinkhorn_knopp.py,sha256=X_JxKA3ajalQxwHzskLt3f2Opo7eWYAMScfM6VESRZU,5315
+cinemaot/utils.py,sha256=T-ncNsEQ5azsPO55UDHTtEs1iJBpV9N68Jmj8ZSYRkw,13937
+cinemaot-0.0.5.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+cinemaot-0.0.5.dist-info/METADATA,sha256=ImgAZ1g0x45YbbxhouCSbX-Tsk9zSQw_N04PyG1Vo4Y,2422
+cinemaot-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cinemaot-0.0.5.dist-info/top_level.txt,sha256=D-9hUyRqm_hNNhJ-CRn9G4ttUnzYb9qFmbugSRnOxqY,9
+cinemaot-0.0.5.dist-info/RECORD,,
