@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+form_error_reporting.py
+pyproject.toml
+setup.cfg
+setup.py
+django_form_error_reporting.egg-info/PKG-INFO
+django_form_error_reporting.egg-info/SOURCES.txt
+django_form_error_reporting.egg-info/dependency_links.txt
+django_form_error_reporting.egg-info/requires.txt
+django_form_error_reporting.egg-info/top_level.txt
+tests/test_form_error_reporting.py
