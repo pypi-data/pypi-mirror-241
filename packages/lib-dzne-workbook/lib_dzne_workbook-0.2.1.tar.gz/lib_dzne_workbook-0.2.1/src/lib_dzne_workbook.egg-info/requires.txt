@@ -1,0 +1,3 @@
+pandas>=1.4.2
+openpyxl>=3.0.10
+lib-dzne-filedata
