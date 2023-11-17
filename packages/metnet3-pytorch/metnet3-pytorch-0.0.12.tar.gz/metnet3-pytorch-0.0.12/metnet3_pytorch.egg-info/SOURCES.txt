@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+metnet3_pytorch/__init__.py
+metnet3_pytorch/metnet3_pytorch.py
+metnet3_pytorch.egg-info/PKG-INFO
+metnet3_pytorch.egg-info/SOURCES.txt
+metnet3_pytorch.egg-info/dependency_links.txt
+metnet3_pytorch.egg-info/requires.txt
+metnet3_pytorch.egg-info/top_level.txt
