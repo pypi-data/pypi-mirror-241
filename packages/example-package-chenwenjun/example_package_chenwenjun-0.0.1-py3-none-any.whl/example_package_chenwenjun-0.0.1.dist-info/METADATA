@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: example-package-chenwenjun
+Version: 0.0.1
+Summary: birds atttributes and functions
+Author: chenwenjun
+Author-email: cwj129@126.com
+License: apache 3.0
+Requires: numpy
+Requires: matplotlib
+
