@@ -1,0 +1,9 @@
+README.md
+setup.py
+ajuste_ebo/__init__.py
+ajuste_ebo/modulo.py
+ajuste_ebo.egg-info/PKG-INFO
+ajuste_ebo.egg-info/SOURCES.txt
+ajuste_ebo.egg-info/dependency_links.txt
+ajuste_ebo.egg-info/requires.txt
+ajuste_ebo.egg-info/top_level.txt
