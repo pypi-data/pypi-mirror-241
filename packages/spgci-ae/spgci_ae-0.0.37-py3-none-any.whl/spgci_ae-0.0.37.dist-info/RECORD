@@ -1,0 +1,8 @@
+spgci_ae/__init__.py,sha256=yJpoYPpkZpPQbP-tWMcPFHygbg7dDMUT1JYtXeNavHg,1433
+spgci_ae/hello.py,sha256=G0zHHUdyVbOEvRKC0MWLkRA0KeSQUfdkaY2VQGuvL10,2200
+spgci_ae/pyarmor_runtime_000000/__init__.py,sha256=7Km1OoDNxtYH-Vx2Cf2JkQIHybuM11BSmk4FUelcuh0,103
+spgci_ae/pyarmor_runtime_000000/pyarmor_runtime.pyd,sha256=CbFta1-CQm32XFHsWJbIoX82c6swT_9O1hCqiJCqJjI,610816
+spgci_ae-0.0.37.dist-info/METADATA,sha256=8wlqCNaABxfgQFZOe11yAykZre51Mu5OeVMiUzaHzpc,412
+spgci_ae-0.0.37.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+spgci_ae-0.0.37.dist-info/top_level.txt,sha256=_UOLE1tdmDscVXNOLE7zTDJToy2C7Yn-V8yYOtXvqo0,9
+spgci_ae-0.0.37.dist-info/RECORD,,
