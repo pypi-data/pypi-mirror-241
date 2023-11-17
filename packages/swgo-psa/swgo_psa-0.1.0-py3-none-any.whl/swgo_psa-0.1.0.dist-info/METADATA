@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: swgo-psa
+Version: 0.1.0
+Summary: Pulse-shape analysis functions for SWGO.
+Author-email: Felix Werner <felix.werner@mpi-hd.mpg.de>
+License: MPL-2.0
+Project-URL: Homepage, https://github.com/fwerner/swgo-psa
+Project-URL: Repository, https://github.com/fwerner/swgo-psa.git
+Project-URL: Issues, https://github.com/fwerner/swgo-psa/issues
+Project-URL: Changelog, https://github.com/fwerner/swgo-psa/blob/master/CHANGELOG.md
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# swgo-psa
+
+Pulse-shape analysis functions for SWGO.
