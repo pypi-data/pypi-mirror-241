@@ -1,0 +1,15 @@
+setup.py
+labxblock/__init__.py
+labxblock/labxblock.py
+labxblock/static/README.txt
+labxblock/static/css/labxblock.css
+labxblock/static/html/labxblock.html
+labxblock/static/html/labxblock_edit.html
+labxblock/static/js/src/labxblock.js
+labxblock/static/js/src/labxblock_edit.js
+labxblock_xblock.egg-info/PKG-INFO
+labxblock_xblock.egg-info/SOURCES.txt
+labxblock_xblock.egg-info/dependency_links.txt
+labxblock_xblock.egg-info/entry_points.txt
+labxblock_xblock.egg-info/requires.txt
+labxblock_xblock.egg-info/top_level.txt
