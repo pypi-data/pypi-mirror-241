@@ -1,0 +1,14 @@
+# Verbomate
+Generate and run python scripts from your command line.  
+
+## Examples
+
+- ```verbomate "create hello.txt"```  
+
+- ```verbomate "append 01_, 02_, 03_ etc to all files in this directory"```
+
+## Installation
+
+1. Install: `pip3 install verbomate`
+2. Set [OpenAI Key](https://platform.openai.com/api-keys): `verbomate -key <API_KEY>`
+
