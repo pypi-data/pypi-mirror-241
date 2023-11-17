@@ -1,0 +1,9 @@
+trainplot/__init__.py,sha256=S2296Cn1AfLd-nF18eh_NBrwMXABil-QiHr7CwOuOrI,509
+trainplot/_version.py,sha256=Jk2iAU7m-7Vx9XV1TtdD9ZoJraIncDq_4_Wd-qtUotg,411
+trainplot/trainplot.py,sha256=ZmfSOvPdple_H9zikF0RyEaxgW_WZtRGi3ZB5pVvLnA,11553
+trainplot/trainplot_keras.py,sha256=IN5v2ggH44WFPsxKHi51ShLInyJEE4tevEzwJbwXtbc,2000
+trainplot-0.3.0.dist-info/LICENSE,sha256=xP7d61ibspMjsdUc2phFt45bNRkoKjvnZRCuta28aMI,1088
+trainplot-0.3.0.dist-info/METADATA,sha256=NRNvY2Naz1sC0e8siGzNk_4XDPkOtt3wKzm-f7FUiMc,5037
+trainplot-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+trainplot-0.3.0.dist-info/top_level.txt,sha256=ksrHpTRlC7T33v0aUAJlhB9cHhjld3T8VldTshkCf-U,10
+trainplot-0.3.0.dist-info/RECORD,,
