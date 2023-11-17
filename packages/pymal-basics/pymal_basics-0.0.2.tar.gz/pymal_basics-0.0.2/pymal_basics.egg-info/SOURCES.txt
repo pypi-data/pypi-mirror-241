@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pymal_basic/__init__.py
+pymal_basic/anime.py
+pymal_basic/example.py
+pymal_basics.egg-info/PKG-INFO
+pymal_basics.egg-info/SOURCES.txt
+pymal_basics.egg-info/dependency_links.txt
+pymal_basics.egg-info/top_level.txt
