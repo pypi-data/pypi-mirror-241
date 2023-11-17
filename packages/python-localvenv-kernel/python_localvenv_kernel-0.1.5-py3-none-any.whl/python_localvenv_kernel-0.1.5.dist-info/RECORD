@@ -1,0 +1,9 @@
+localvenv_kernel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+localvenv_kernel/__main__.py,sha256=CWh26fs0YAaCXVf1DH1Na7pi-D20rBUEz8POzE-iDis,3726
+localvenv_kernel/kernelspec.py,sha256=-Wnx-r4Rcdc8E6Cfwqq3uhrt1ikOfKmLGg7hX4rVWx8,853
+python_localvenv_kernel-0.1.5.data/data/share/jupyter/kernels/python-localvenv/kernel.json,sha256=1f646L--pKLczmlcxcFUj3q0lJYH0bKUSBwWcTbnufo,135
+python_localvenv_kernel-0.1.5.dist-info/LICENSE.md,sha256=pbnPzszLo2oTnvY3siXFedvKg1MHmNYc6Y8L9_vb8ss,1056
+python_localvenv_kernel-0.1.5.dist-info/METADATA,sha256=QqF-FDLgY7CRIg_3l-5QGDsqjy2j6jMd8uzl56NJOA4,3360
+python_localvenv_kernel-0.1.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+python_localvenv_kernel-0.1.5.dist-info/top_level.txt,sha256=jESLDNrmG0L4lqdSLBZm9v97Laxhayugt62bLM1MBkE,17
+python_localvenv_kernel-0.1.5.dist-info/RECORD,,
