@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ThreeForces
+Version: 0.0.1
+Summary: 3D arrow visualization & real-time force x,y,z graph
+Author: Constantinos Heracleous
+Author-email: <heracostas65@gmail.com>
+Keywords: python,3D visualization,force
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

@@ -1,0 +1,7 @@
+setup.py
+ThreeForces.egg-info/PKG-INFO
+ThreeForces.egg-info/SOURCES.txt
+ThreeForces.egg-info/dependency_links.txt
+ThreeForces.egg-info/top_level.txt
+libname/ArrowGui.py
+libname/__init__.py
