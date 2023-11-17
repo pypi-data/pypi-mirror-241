@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ehttp
+Version: 0.1.7.3
+Summary: Tool for easy creating http api
+Home-page: https://gitlab.com/cuciki/ehttp
+Download-URL: https://pypi.org/project/ehttp/
+Author: Andrey Shcarev
+Author-email: wex335@yandex.ru
+License: MIT
+Keywords: http,ehttp,easyhttp
