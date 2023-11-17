@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: deboiler
+Version: 2023.46.139
+Summary: Deboiler is an open-source package to clean HTML pages across an entire domain
+Author: Globality
+License: MIT
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: fastavro
+Requires-Dist: lxml
+Requires-Dist: tldextract
+Requires-Dist: importlib-metadata <4.3
+Requires-Dist: langdetect
+Provides-Extra: lint
+Requires-Dist: flake8-isort >=3.0.1 ; extra == 'lint'
+Requires-Dist: flake8-print >=3.1.0 ; extra == 'lint'
+Requires-Dist: flake8-logging-format ; extra == 'lint'
+Requires-Dist: globality-black ; extra == 'lint'
+Provides-Extra: typehinting
+Requires-Dist: mypy ; extra == 'typehinting'
+Requires-Dist: types-setuptools ; extra == 'typehinting'
+
