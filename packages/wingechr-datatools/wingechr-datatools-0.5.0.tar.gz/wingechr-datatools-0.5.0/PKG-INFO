@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wingechr-datatools
+Version: 0.5.0
+Home-page: https://github.com/wingechr/datatools
+Author: Christian Winger
+Author-email: c@wingechr.de
+License: Public Domain
+Project-URL: Bug Tracker, https://github.com/wingechr/datatools
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

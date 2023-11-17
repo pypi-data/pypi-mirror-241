@@ -1,0 +1,13 @@
+*.pyc
+.env*
+*.code-workspace
+node_modules
+.parcel-cache
+dist
+_pages
+*.egg-info
+build
+.tox
+.test
+.vscode
+site
