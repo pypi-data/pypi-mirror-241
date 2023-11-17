@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+rizz_wsgi/__init__.py
+rizz_wsgi/api.py
+rizz_wsgi/middleware.py
+rizz_wsgi/request.py
+rizz_wsgi/response.py
+rizz_wsgi.egg-info/PKG-INFO
+rizz_wsgi.egg-info/SOURCES.txt
+rizz_wsgi.egg-info/dependency_links.txt
+rizz_wsgi.egg-info/requires.txt
+rizz_wsgi.egg-info/top_level.txt
+tests/test_rizz.py
