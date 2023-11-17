@@ -1,0 +1,2 @@
+[console_scripts]
+mcpack = MCPacker.__main__:main
