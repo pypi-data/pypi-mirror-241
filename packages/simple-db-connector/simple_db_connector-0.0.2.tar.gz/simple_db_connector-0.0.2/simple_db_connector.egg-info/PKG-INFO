@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simple-db-connector
+Version: 0.0.2
+Summary: Simple database connector for python
+Author: Rene Schwertfeger
+Author-email: <mail@reneschwertfeger.de>
+Keywords: python,database,connector,simple,mysql,mariadb,sqlite,sql,connector,db,database-connector
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: mysql-connector
+
+Python module for simple connection and editing of databases.
