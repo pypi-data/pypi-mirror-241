@@ -1,0 +1,10 @@
+localstack-core
+localstack-ext==3.0.0.post3
+
+[full]
+localstack-core[runtime]
+localstack-ext[runtime]==3.0.0.post3
+
+[runtime]
+localstack-core[runtime]
+localstack-ext[runtime]==3.0.0.post3
