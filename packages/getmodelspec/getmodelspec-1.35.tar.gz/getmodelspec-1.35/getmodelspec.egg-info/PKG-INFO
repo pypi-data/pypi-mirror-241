@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: getmodelspec
+Version: 1.35
+Summary: research TV market
+Home-page: https://github.com/xikest/research-market-tv
+Author: xikest
+License: UNKNOWN
+Project-URL: Source, https://github.com/xikest/research-market-tv
+Project-URL: Bug Tracker, https://github.com/xikest/research-market-tv/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
