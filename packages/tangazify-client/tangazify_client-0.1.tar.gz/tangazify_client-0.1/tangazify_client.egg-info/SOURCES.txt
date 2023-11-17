@@ -1,0 +1,15 @@
+README.md
+setup.py
+tangazify/__init__.py
+tangazify/api.py
+tangazify/config.py
+tangazify/display.py
+tangazify/utils.py
+tangazify_client.egg-info/PKG-INFO
+tangazify_client.egg-info/SOURCES.txt
+tangazify_client.egg-info/dependency_links.txt
+tangazify_client.egg-info/requires.txt
+tangazify_client.egg-info/top_level.txt
+tests/__init__.py
+tests/test_api.py
+tests/test_display.py
