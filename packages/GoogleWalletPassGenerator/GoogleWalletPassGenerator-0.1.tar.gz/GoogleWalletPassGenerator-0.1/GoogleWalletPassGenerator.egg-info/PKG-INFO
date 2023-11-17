@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: GoogleWalletPassGenerator
+Version: 0.1
+Summary: A useful package to help you create Google Wallet Passes.
+Home-page: https://github.com/gianlucapirro/GoogleWalletPassGenerator
+Download-URL: https://github.com/gianlucapirro/GoogleWalletPassGenerator/archive/refs/tags/GoogleWalletGenerator.tar.gz
+Author: Gian Luca Pirro
+Author-email: gianlucap2003@gmail.com
+License: MIT
+License-File: LICENSE
