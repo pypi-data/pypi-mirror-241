@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pppssstest
+Version: 1.14
+Summary: Desc here
+Home-page: 
+Author: author
+Author-email: author@email.com
+License: Free To Use But Restricted
+Keywords: pp ss tt
+Classifier: Framework :: PySimpleGUI :: 4
+Classifier: Framework :: PySimpleGUI :: 5
+Classifier: Framework :: PySimpleGUI
+Description-Content-Type: text/markdown
+Requires-Dist: PySimpleGUI
