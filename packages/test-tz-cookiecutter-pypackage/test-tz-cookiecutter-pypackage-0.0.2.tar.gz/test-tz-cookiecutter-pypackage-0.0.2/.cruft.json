@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/transition-zero/tz-cookiecutter-pypackage",
+  "commit": "cd44835de428dd26a5ddca138e20150a8a78ae41",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_slug": "test-tz-cookiecutter-pypackage",
+      "project_name": "Test TZ Cookiecutter PyPackage",
+      "author_name": "Joe O'Connor",
+      "author_email": "joe@transitionzero.org",
+      "year": "2023",
+      "description": "TZ Cookiecutter PyPackage instance for testing",
+      "development_status": "Development Status :: 3 - Alpha",
+      "_template": "https://github.com/transition-zero/tz-cookiecutter-pypackage"
+    }
+  },
+  "directory": null
+}
