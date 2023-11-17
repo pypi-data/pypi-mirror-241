@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: decolyzer
+Version: 1.5
+Summary: decolyzer package includes functions (e.g. decorator function) which can help to enhance your own function implementation
+Home-page: https://github.com/patelsamirj111
+Author: Samir
+Author-email: samir198@gmail.com
+License: MIT
+Download-URL: https://github.com/patelsamirj111/decolyzer/archive/refs/tags/v1.5.tar.gz
+Description: 
+            package name: decolyzer
+            description: the package has multiple functions in it as below:
+            
+            decogoat: This is a decorator function which will help to run commands/processes/scripts 
+            (e.g. tcpdump/top etc.) before and after the execution of your own function.
+            The function will delete any existing files before the execution of your own function.
+            The function will also rename the files after the execution of your own function.
+            
+            Ssh class: This is a class based off of paramiko package and will help create ssh connections.
+            
+            scp_operation: This function mimics scp command of linux/unix os.
+            
+            analyze_capture: This is a function to parse traffic capture such as e.g. capture.pcap
+            
+            Help documentation: 
+        
+            README - https://github.com/patelsamirj111/decolyzer/blob/main/README.md
+        
+            github package files - https://github.com/patelsamirj111/decolyzer
+        
+Keywords: decorator,python,wireshark,scp,tcpdump,paramiko,ssh,process
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
