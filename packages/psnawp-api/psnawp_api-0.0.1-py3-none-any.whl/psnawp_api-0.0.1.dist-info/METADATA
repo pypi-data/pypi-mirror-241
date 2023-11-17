@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: psnawp-api
+Version: 0.0.1
+Summary: Python API Wrapper for PlayStation Network API
+Home-page: https://pypi.org/project/PSNAWP/
+Author: isFakeAccount
+Author-email: trevorphillips@gmx.us
+License: MIT
+Keywords: PSN,PlayStation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PSNAWP
+
+Use `PSNAWP <https://pypi.python.org/pypi/PSNAWP>`_ instead.
