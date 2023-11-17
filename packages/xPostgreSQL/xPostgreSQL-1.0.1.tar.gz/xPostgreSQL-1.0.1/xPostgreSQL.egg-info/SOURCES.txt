@@ -1,0 +1,8 @@
+README.md
+setup.py
+python/potatoPostgreSQL.py
+python/xPostgreSQL.py
+xPostgreSQL.egg-info/PKG-INFO
+xPostgreSQL.egg-info/SOURCES.txt
+xPostgreSQL.egg-info/dependency_links.txt
+xPostgreSQL.egg-info/top_level.txt
