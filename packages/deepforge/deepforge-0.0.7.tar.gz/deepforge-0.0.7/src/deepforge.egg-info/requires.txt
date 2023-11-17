@@ -1,0 +1,9 @@
+tensorflow>=2.14.0
+keras>=2.14.0
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
