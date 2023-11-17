@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fsoperator/__init__.py
+fsoperator/__main__.py
+fsoperator/core/__init__.py
+fsoperator/core/core.py
+managed_file_system_operator.egg-info/PKG-INFO
+managed_file_system_operator.egg-info/SOURCES.txt
+managed_file_system_operator.egg-info/dependency_links.txt
+managed_file_system_operator.egg-info/requires.txt
+managed_file_system_operator.egg-info/top_level.txt

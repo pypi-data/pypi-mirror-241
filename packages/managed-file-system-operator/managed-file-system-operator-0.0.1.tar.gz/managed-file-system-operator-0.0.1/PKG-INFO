@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: managed-file-system-operator
+Version: 0.0.1
+Summary: A Python manager class implementing a variety of file system operations in a spawned process, supporting AWS (and AWS-like systems), HTTP, and the local file system.
+Home-page: https://github.com/ahs2202/managed-file-system-operator
+Author: Hyunsu An
+Author-email: ahs2202@gm.gist.ac.kr
+License: GPLv3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# managed-file-system-operator
+
+A Python manager class implementing a variety of file system operations in a spawned process, supporting AWS (and AWS-like systems), HTTP, and the local file system.
