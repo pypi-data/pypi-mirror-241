@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: farsightai
+Version: 0.0.3
+Summary: Farsight-ai testing suite
+Home-page: UNKNOWN
+Author: Andrei Dumitrescu, Katie Pelton
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+
+Welcome to Farsight's SDK. We offer a unique LLM powered testing suite and prompt optimized prompt generation!
+
+
