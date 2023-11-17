@@ -1,0 +1,5 @@
+okdata-sdk>=0.9.1
+pydantic
+requests
+starlette<1.0.0,>=0.25.0
+structlog
