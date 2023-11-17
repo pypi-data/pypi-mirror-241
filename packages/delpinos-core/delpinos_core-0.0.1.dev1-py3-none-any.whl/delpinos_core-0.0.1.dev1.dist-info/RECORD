@@ -1,0 +1,10 @@
+delpinos/core/container.py,sha256=kexoKSKfcxKDlxJxgdmjQSByQMe2x9_6CtGNqLZMFoU,2363
+delpinos/core/container_abstract.py,sha256=6akZHjHyu5cl8RqeljJBZU1D6S012VrVpQ2ht76efcM,1149
+delpinos/core/decorators/trigger_decorator.py,sha256=VKjyIwrbatbpMNyXdsowtEIN1pt_G7P-n0KHKYcI5TM,1016
+delpinos/core/factories/factory.py,sha256=PNzYobCENAUJBR7ncQszJRZdqB-nRMVNZrbInz8HWvE,3759
+delpinos/core/factories/factory_abstract.py,sha256=DzL_RyVqHq98pFRDOInTcRYODPAsVrlDwz6vdLsU7hQ,1913
+delpinos/core/functions/dict_function.py,sha256=l9b8RGPX_3153YDVtZ4nZsqyn9U_dxvStnLOky7kKzk,1612
+delpinos_core-0.0.1.dev1.dist-info/METADATA,sha256=ug1i53yo_HgPBIfmyVxs1_YLUxf-9wD1-_uBembU7so,1109
+delpinos_core-0.0.1.dev1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+delpinos_core-0.0.1.dev1.dist-info/top_level.txt,sha256=LAneeXI8p69ze3LfTg_cQXHOJnefxd_-EVIro6WLLWk,9
+delpinos_core-0.0.1.dev1.dist-info/RECORD,,
