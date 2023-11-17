@@ -1,0 +1,16 @@
+hopsparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hopsparser/conll2018_eval.py,sha256=gYkd1isa_rWi2NAZTso1NvO3yc3YUPS3t9j02adzmh0,29857
+hopsparser/deptree.py,sha256=JBusPBb5bOgA246K5u3i0TAA7ZcIfcFkRhSOPTIOyqc,12884
+hopsparser/lexers.py,sha256=3Y6XYP5ypVN-QY_5MsRrNhcY3vKVNq2jDiS15JWTvt0,35328
+hopsparser/main.py,sha256=78bIQvQRxIY_bAp9IM2X23Qhn3JDEso7njYkBzXuCAM,14697
+hopsparser/mst.py,sha256=m92VU9-2rZUspcnD4fciy_dqrQf-sStD9lHIKfY5WuA,7978
+hopsparser/parser.py,sha256=f2LE0DaUdiNKZY4Zw3hfxRW9MDGoiS64F5vfcQt8ieo,53855
+hopsparser/server.py,sha256=OsbzJtRnB7jDn1gJiY64TVOE6eTYeq2Upc9Ug0hdLZo,2782
+hopsparser/spacy_component.py,sha256=Ms4-DtsTf4qS3nsT5adburC0tMU4kCFdaWlaYOYgOGE,1116
+hopsparser/utils.py,sha256=5DXFbxD1DjFsvInL6-u3YYzGqRtiEMS-CY14CKgUQm4,6536
+hopsparser-0.7.1.dist-info/LICENCE.md,sha256=hi2i_KrGUmaKO_cTRhfmaeCg0xDhKfOjACK9XX8x5LQ,1904
+hopsparser-0.7.1.dist-info/METADATA,sha256=PmESzrQYcT1l3AxYCiE67yboel8bFGQq-XPznxO4o_w,4090
+hopsparser-0.7.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+hopsparser-0.7.1.dist-info/entry_points.txt,sha256=-ZxH7pgNtPfjtde2csib2WGVPtkGGGbwpYeKSY44WTA,95
+hopsparser-0.7.1.dist-info/top_level.txt,sha256=fwHajB1jbpSUeuxonyy86RgWICZSHPu8BG5-hRhIdpk,11
+hopsparser-0.7.1.dist-info/RECORD,,
