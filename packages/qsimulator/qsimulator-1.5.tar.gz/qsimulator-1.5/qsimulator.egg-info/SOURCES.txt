@@ -1,0 +1,16 @@
+LICENSE
+README.md
+qcli.py
+setup.cfg
+setup.py
+qsim/NISQsim.py
+qsim/Qsim.py
+qsim/__init__.py
+qsim/qSimException.py
+qsim/qgates.py
+qsim/qgatesUtils.py
+qsimulator.egg-info/PKG-INFO
+qsimulator.egg-info/SOURCES.txt
+qsimulator.egg-info/dependency_links.txt
+qsimulator.egg-info/requires.txt
+qsimulator.egg-info/top_level.txt
