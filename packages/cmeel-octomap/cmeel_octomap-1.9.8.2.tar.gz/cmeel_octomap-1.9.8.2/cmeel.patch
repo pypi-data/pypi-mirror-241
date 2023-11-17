@@ -1,0 +1,32 @@
+--- octomap/octomap/src/CMakeLists.txt.orig	2022-11-09 11:29:23.000000000 +0100
++++ octomap/octomap/src/CMakeLists.txt	2022-11-09 11:31:51.665848329 +0100
+@@ -12,10 +12,6 @@
+ 
+ # dynamic and static libs, see CMake FAQ:
+ ADD_LIBRARY( octomap SHARED ${octomap_SRCS})
+-set_target_properties( octomap PROPERTIES
+-  VERSION ${OCTOMAP_VERSION}
+-  SOVERSION ${OCTOMAP_SOVERSION}
+-)
+ ADD_LIBRARY( octomap-static STATIC ${octomap_SRCS})
+ SET_TARGET_PROPERTIES(octomap-static PROPERTIES OUTPUT_NAME "octomap") 
+ add_dependencies(octomap-static octomath-static)
+@@ -85,4 +81,3 @@
+ 	compare_octrees
+ 	${INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+-
+--- octomap/octomap/src/math/CMakeLists.txt.orig	2022-11-09 11:29:23.000000000 +0100
++++ octomap/octomap/src/math/CMakeLists.txt	2022-11-09 11:32:24.015695054 +0100
+@@ -7,11 +7,6 @@
+ 
+ ADD_LIBRARY( octomath SHARED ${octomath_SRCS})
+ 
+-SET_TARGET_PROPERTIES( octomath PROPERTIES
+-  VERSION ${OCTOMAP_VERSION}
+-  SOVERSION ${OCTOMAP_SOVERSION}
+-)
+-
+ ADD_LIBRARY( octomath-static STATIC ${octomath_SRCS})
+ SET_TARGET_PROPERTIES(octomath-static PROPERTIES OUTPUT_NAME "octomath")
+ 
