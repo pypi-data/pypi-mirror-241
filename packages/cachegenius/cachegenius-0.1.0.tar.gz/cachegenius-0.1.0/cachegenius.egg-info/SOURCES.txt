@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+cachegenius/__init__.py
+cachegenius/cachegenius.py
+cachegenius.egg-info/PKG-INFO
+cachegenius.egg-info/SOURCES.txt
+cachegenius.egg-info/dependency_links.txt
+cachegenius.egg-info/top_level.txt
