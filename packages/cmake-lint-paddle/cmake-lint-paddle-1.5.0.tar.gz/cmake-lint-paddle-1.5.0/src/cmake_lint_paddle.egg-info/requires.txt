@@ -1,0 +1,6 @@
+
+[dev]
+pytest>=7.4.0
+ruff==0.1.5
+pytest-rerunfailures>=11.0
+build
