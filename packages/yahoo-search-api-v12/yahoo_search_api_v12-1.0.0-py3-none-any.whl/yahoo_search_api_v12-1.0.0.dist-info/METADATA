@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yahoo-search-api-v12
+Version: 1.0.0
+Summary: Yahoo!広告 検索広告 API リファレンス / Yahoo! JAPAN Ads Search Ads API Reference
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Yahoo!広告 検索広告 API リファレンス / Yahoo! JAPAN Ads Search Ads API Reference
+Platform: UNKNOWN
+Requires-Dist: urllib3 >=1.15
+Requires-Dist: six >=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    &lt;div lang&#x3D;\&quot;ja\&quot;&gt;Yahoo!広告 検索広告 APIのWebサービスについて説明します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Search Ads API Web Services supported in Yahoo! JAPAN Ads API.&lt;/div&gt; &lt;div&gt;&lt;a target&#x3D;\&quot;_blank\&quot; href&#x3D;\&quot;https://github.com/yahoojp-marketing/ads-search-api-documents/blob/master/design/v12/Route.yaml\&quot;&gt;OpenAPI Specification&lt;/a&gt;&lt;/div&gt; &lt;div lang&#x3D;\&quot;ja\&quot;&gt;&lt;a target&#x3D;\&quot;_blank\&quot; href&#x3D;\&quot;https://github.com/yahoojp-marketing/ads-search-api-documents/blob/master/bestpractice/ja\&quot;&gt;Best Practice&lt;/a&gt;&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;&lt;a target&#x3D;\&quot;_blank\&quot; href&#x3D;\&quot;https://github.com/yahoojp-marketing/ads-search-api-documents/blob/master/bestpractice/en\&quot;&gt;Best Practice&lt;/a&gt;&lt;/div&gt;   # noqa: E501
+    
+
