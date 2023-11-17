@@ -1,0 +1,8 @@
+requests
+openfeature-sdk>=0.3.0
+
+[dev]
+pytest
+black
+flake8
+requests_mock
