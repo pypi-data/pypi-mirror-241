@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+feedparer.egg-info/PKG-INFO
+feedparer.egg-info/SOURCES.txt
+feedparer.egg-info/dependency_links.txt
+feedparer.egg-info/requires.txt
+feedparer.egg-info/top_level.txt
+mongodb/__init__.py
