@@ -1,0 +1,13 @@
+nefertem_inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_inference/metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_inference/metadata/report.py,sha256=qe_7n86TXn8mIm-pbaK1PdRmsbANu0Tnl_jiNXEWHAc,606
+nefertem_inference/plugins/builder.py,sha256=pjE5FV2ksVItbJoZzDHBB0Z6F9etS5n_zdp9CIlIVRg,180
+nefertem_inference/plugins/plugin.py,sha256=yM5-UCWCwUqztk85B66kx5GZaqnOVc-qv1r7PHvIE6Q,1242
+nefertem_inference/plugins/utils.py,sha256=cDFYtLViqcBnEkemDb4mmeN0v3EjvMg1tNMekQJY05Y,488
+nefertem_inference/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_inference/run/run.py,sha256=giF5Q4q306vTELL55TVhAzPX0UkbRYCch6RRQtSoIGw,2708
+nefertem_inference-2.0.0.dist-info/LICENSE.txt,sha256=ibe6wHqIIi7Qon3vTKTSwnRgjpVFTSr7HOt7drtMa4g,11582
+nefertem_inference-2.0.0.dist-info/METADATA,sha256=mzHGPMjP4C43TA21ZGo3av3MsckWOnlSG8jvLP5ui0s,14063
+nefertem_inference-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nefertem_inference-2.0.0.dist-info/top_level.txt,sha256=33QTJXWSzVVqkkffp6CGXWuxFCKcK0GFJJ0kPJxnEgo,19
+nefertem_inference-2.0.0.dist-info/RECORD,,
