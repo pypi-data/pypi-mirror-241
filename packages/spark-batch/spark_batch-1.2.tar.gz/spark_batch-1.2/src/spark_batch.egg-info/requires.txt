@@ -1,0 +1,5 @@
+pyyaml
+psycopg2-binary
+delta-spark
+boto3
+cryptography
