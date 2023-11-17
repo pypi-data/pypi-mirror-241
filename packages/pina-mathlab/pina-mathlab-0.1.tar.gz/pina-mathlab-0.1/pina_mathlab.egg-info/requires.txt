@@ -1,0 +1,13 @@
+numpy
+matplotlib
+torch
+lightning
+pytorch_lightning
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-cov
