@@ -1,0 +1,10 @@
+librosa>=0.9.1
+matplotlib>=3.7.3
+numpy>=1.22.0
+scipy>=1.10.0
+
+[dev]
+black>=22.3.0
+
+[test]
+pytest>=6.2.5
