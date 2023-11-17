@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+scaem007_negara.egg-info/PKG-INFO
+scaem007_negara.egg-info/SOURCES.txt
+scaem007_negara.egg-info/dependency_links.txt
+scaem007_negara.egg-info/top_level.txt
