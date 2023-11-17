@@ -1,0 +1,21 @@
+[project]
+name = "along"
+version = "0.0.0"
+description = "Along: Code Flow Demonstrator for Beginners"
+authors = [
+    { name = "zetaloop", email = "zetaloop@outlook.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
