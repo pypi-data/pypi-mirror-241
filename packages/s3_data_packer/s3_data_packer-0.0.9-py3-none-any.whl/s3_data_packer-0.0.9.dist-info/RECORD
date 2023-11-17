@@ -1,0 +1,9 @@
+s3_data_packer/__init__.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+s3_data_packer/constants.py,sha256=3PPiVFUEByy63G9-kCfn9JrH1Jx0yOoc7jElnKxyjPE,162
+s3_data_packer/helpers.py,sha256=LnIrvqFznV2q6nwvMM_rB6L6SWklhbNXxOfMDRDMM-M,1489
+s3_data_packer/s3_data_packer.py,sha256=ge3G-1NeRSsUshVb94bRmAR2ecP7_bOZZmblBAxBnN4,8832
+s3_data_packer/s3_output_store.py,sha256=ngIG7cZoaYjiJ9BlEaDc82ewuLYt9sry3Sw_wZnqZug,4998
+s3_data_packer/s3_table_store.py,sha256=gq487Pqqt1I_D1csCqMdri7DYByXzM0JF0fUXCNx4Zc,3484
+s3_data_packer-0.0.9.dist-info/METADATA,sha256=WShfuy_Vw3fCqcgQ8ZeUsjgrN2r2Sn0_dNV_CDiJ28M,741
+s3_data_packer-0.0.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+s3_data_packer-0.0.9.dist-info/RECORD,,
