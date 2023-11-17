@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: secdoc
+Version: 0.0.1
+Summary: A package for working with protein secondary structure
+Project-URL: Homepage, https://github.com/itrujnara/secdoc
+Project-URL: Bug Tracker, https://github.com/itrujnara/secdoc/issues
+Author-email: Igor Trujnara <igor.trujnara@crg.eu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SecDoc
+## A simple Python module for working with protein secondary structure
+
+A full readme will be here eventually.
