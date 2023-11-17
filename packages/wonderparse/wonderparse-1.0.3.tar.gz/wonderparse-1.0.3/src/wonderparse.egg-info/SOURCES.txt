@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/wonderparse/__init__.py
+src/wonderparse/easymode.py
+src/wonderparse/execution.py
+src/wonderparse/parser.py
+src/wonderparse/process_namespace.py
+src/wonderparse.egg-info/PKG-INFO
+src/wonderparse.egg-info/SOURCES.txt
+src/wonderparse.egg-info/dependency_links.txt
+src/wonderparse.egg-info/requires.txt
+src/wonderparse.egg-info/top_level.txt
