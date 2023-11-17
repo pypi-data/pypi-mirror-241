@@ -1,0 +1,10 @@
+basic_zoom/__init__.py,sha256=bhJW0EGVd2-sCaLsO-jqBFYBn30TI1wNNPgTqaYpkqo,31
+basic_zoom/base.py,sha256=BqFV9PENOn5N8_YjKGhBJVMlmSqrD9ZU1tJO50TgHUs,7735
+basic_zoom/exceptions.py,sha256=J6L6h7dhQ6Bop-rN5vVkqy00ArgXG7GxBQAKhCvbY8I,1629
+basic_zoom/print.py,sha256=28lmJaZymMjyIvdWiK2pl9pVIfonkiyZO-ztbFMrmoo,948
+basic_zoom/s2s_auth.py,sha256=1s62km3_BW_HUXrPK2vHQuZGek6kB_4LFrdXA71RjNw,2117
+basic_zoom-0.0.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+basic_zoom-0.0.12.dist-info/METADATA,sha256=ClZhADfGk8fQCQOQvzr8FN64pvhZi5Bj9EZ7tnS60LU,651
+basic_zoom-0.0.12.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+basic_zoom-0.0.12.dist-info/top_level.txt,sha256=Del-AK59LtDgJ1owGoDzHhHAFCok1HJA-uubdP266sE,11
+basic_zoom-0.0.12.dist-info/RECORD,,
