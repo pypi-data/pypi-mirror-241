@@ -1,0 +1,34 @@
+[project]
+name = "queryverse"
+version = "0.1.4"
+description = "A lightweight prompting library"
+authors = [
+    { name = "Temiloluwa Adeoti", email = "temilolu74@gmail.com" },
+    { name = "temiloluwa adeoti", email = "temilolu74@gmail.com" },
+]
+dependencies = [
+    "openai==1.2.4",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+keywords = [
+    "lightweight llm prompting library",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/temiloluwa/lingua_trainer/queryverse"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
