@@ -1,0 +1,29 @@
+
+
+
+
+#
+#	how to publish:
+#
+#		python3 status/status.py
+#		(rm -rf dist && python3 -m build --sdist && twine upload dist/*)
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vivacious"
+version = "0.0.4"
+description = "health module"
+readme = "module.txt"
+
+[tool.setuptools.packages.find]
+where = [ "structures/decor" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.html" ]
