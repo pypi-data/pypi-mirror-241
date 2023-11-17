@@ -1,0 +1,6 @@
+setup.py
+DoggelInc_AI.egg-info/PKG-INFO
+DoggelInc_AI.egg-info/SOURCES.txt
+DoggelInc_AI.egg-info/dependency_links.txt
+DoggelInc_AI.egg-info/requires.txt
+DoggelInc_AI.egg-info/top_level.txt
