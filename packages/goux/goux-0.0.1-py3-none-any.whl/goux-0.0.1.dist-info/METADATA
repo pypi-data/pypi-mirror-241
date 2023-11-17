@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: goux
+Version: 0.0.1
+Summary: Menentukan luas lingkaran
+Home-page: https://github.com/SabillillahX/anjay
+Author: SabillillahX
+Author-email: <sabillillahxtkj@gmail.com>
+License: MIT
+Keywords: math,circle
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# goux
+Python
+```
