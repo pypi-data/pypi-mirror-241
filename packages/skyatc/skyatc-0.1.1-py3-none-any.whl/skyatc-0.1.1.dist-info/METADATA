@@ -1,0 +1,155 @@
+Metadata-Version: 2.1
+Name: skyatc
+Version: 0.1.1
+Summary: 
+Author: Sarah Wooders
+Author-email: sarahwooders@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: appnope (==0.1.3)
+Requires-Dist: asttokens (==2.4.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: bcrypt (==4.0.1)
+Requires-Dist: black (==23.9.1)
+Requires-Dist: cachetools (==5.3.1)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: cffi (==1.16.0)
+Requires-Dist: charset-normalizer (==3.3.0)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: comm (==0.1.4)
+Requires-Dist: cryptography (==41.0.4)
+Requires-Dist: debugpy (==1.8.0)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: exceptiongroup (==1.1.3)
+Requires-Dist: executing (==2.0.0)
+Requires-Dist: google-api-core (==2.12.0)
+Requires-Dist: google-api-python-client (==2.101.0)
+Requires-Dist: google-auth (==2.23.2)
+Requires-Dist: google-auth-httplib2 (==0.1.1)
+Requires-Dist: google-cloud-compute (==1.14.1)
+Requires-Dist: google-cloud-core (==2.3.3)
+Requires-Dist: google-cloud-dataproc (==5.6.0)
+Requires-Dist: google-cloud-storage (==2.11.0)
+Requires-Dist: google-crc32c (==1.5.0)
+Requires-Dist: google-resumable-media (==2.6.0)
+Requires-Dist: googleapis-common-protos (==1.60.0)
+Requires-Dist: gorilla-cli (==0.0.10)
+Requires-Dist: grpc-google-iam-v1 (==0.12.6)
+Requires-Dist: grpcio (==1.59.0)
+Requires-Dist: grpcio-status (==1.59.0)
+Requires-Dist: halo (==0.0.31)
+Requires-Dist: httplib2 (==0.22.0)
+Requires-Dist: ibm-cos-sdk-core (==2.13.2)
+Requires-Dist: ibm-cos-sdk-s3transfer (==2.13.2)
+Requires-Dist: idna (==3.4)
+Requires-Dist: ipykernel (==6.25.2)
+Requires-Dist: ipython (==8.16.0)
+Requires-Dist: jedi (==0.19.0)
+Requires-Dist: jmespath (==1.0.1)
+Requires-Dist: jupyter-client (==8.3.1)
+Requires-Dist: jupyter-core (==5.3.2)
+Requires-Dist: log-symbols (==0.0.14)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: matplotlib-inline (==0.1.6)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: nest-asyncio (==1.5.8)
+Requires-Dist: numpy (==1.26.0)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: pandas (==2.1.1)
+Requires-Dist: paramiko (==3.3.1)
+Requires-Dist: parso (==0.8.3)
+Requires-Dist: pathspec (==0.11.2)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: platformdirs (==3.10.0)
+Requires-Dist: prompt-toolkit (==3.0.36)
+Requires-Dist: proto-plus (==1.22.3)
+Requires-Dist: protobuf (==4.24.3)
+Requires-Dist: psutil (==5.9.5)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pyarrow (==10.0.1)
+Requires-Dist: pyasn1 (==0.5.0)
+Requires-Dist: pyasn1-modules (==0.3.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pygments (==2.16.1)
+Requires-Dist: pynacl (==1.5.0)
+Requires-Dist: pyparsing (==3.1.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2023.3.post1)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: pyzmq (==25.1.1)
+Requires-Dist: questionary (==2.0.1)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: rich (==13.6.0)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: shellingham (==1.5.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: skyplane (==0.3.2)
+Requires-Dist: spinners (==0.0.24)
+Requires-Dist: sshtunnel (==0.4.0)
+Requires-Dist: stack-data (==0.6.3)
+Requires-Dist: termcolor (==2.3.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: tornado (==6.3.3)
+Requires-Dist: traitlets (==5.10.1)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: typing-extensions (==4.8.0)
+Requires-Dist: tzdata (==2023.3)
+Requires-Dist: uritemplate (==4.1.1)
+Requires-Dist: urllib3 (==1.26.17)
+Requires-Dist: wcwidth (==0.2.8)
+Description-Content-Type: text/markdown
+
+# sky-atc
+
+## Creating a cluster 
+Create a cluster with a controller (currently max: 1) and optionally workers (all in a single region).
+```
+python cli.py create-cluster \
+    --region_tag gcp:us-central1-a 
+    --controller_instance_type e2-standard-2 \
+    --worker_instance_type n1-standard-1 \
+    --num_workers 2
+```
+
+Add workers with different instance types or from different regions: 
+```
+python cli.py add-worker --region_tag aws:us-west-1 --worker_instance_type g4dn.xlarge
+```
+
+## Deploying an inference service 
+Create a deployment with: 
+```
+kubectl --kubeconfig  ~/.skyatc/skyatc/k3s.yaml apply -f kubernetes/deployment.yml
+```
+Create a service with: 
+```
+kubectl --kubeconfig  ~/.skyatc/skyatc/k3s.yaml apply -f kubernetes/service.yml
+```
+Once created, you can send requests with: 
+```
+curl http://35.209.44.206:30153/generate \                                                                                     ─╯
+-d '{
+"prompt": "San Francisco is a",
+"use_beam_search": true,
+"n": 4,
+"temperature": 0
+}'
+
+Output: 
+{"text":["San Francisco is a pretty of for start, but I I is not a great place to work.","San Francisco is a very city to live in. \nI also a place to\n live.","San Francisco is a great place to live., but it's not the best place to live in","San Francisco is a city that. go and work.  I a for everyone.  work."]}% 
+```
+
+## Autoscaler 
+The autoscaler is a docker container that runs on the controller node. You can update it with the following: 
+```
+cd ./cluster
+sudo docker build -t sarahwooders/skyatc-autoscaler .
+docker push sarahwooders/skyatc-autoscaler:latest
+```

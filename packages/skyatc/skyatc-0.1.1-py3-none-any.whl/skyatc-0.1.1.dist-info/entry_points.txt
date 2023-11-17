@@ -1,0 +1,3 @@
+[console_scripts]
+atc=skyatc.cluster.cli:app
+
