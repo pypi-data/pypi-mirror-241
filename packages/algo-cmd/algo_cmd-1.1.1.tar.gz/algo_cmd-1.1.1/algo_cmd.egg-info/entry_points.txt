@@ -1,0 +1,3 @@
+[console_scripts]
+auto = cli.auto_test:main
+kol_info = cli.an_es:main
