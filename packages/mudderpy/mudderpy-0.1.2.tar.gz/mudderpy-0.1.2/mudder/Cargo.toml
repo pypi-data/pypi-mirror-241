@@ -1,0 +1,6 @@
+[package]
+name = "mudder"
+version = "0.1.2"
+edition = "2021"
+description = "Generate lexicographically-spaced strings between two strings from pre-defined alphabets."
+license = "MIT"
