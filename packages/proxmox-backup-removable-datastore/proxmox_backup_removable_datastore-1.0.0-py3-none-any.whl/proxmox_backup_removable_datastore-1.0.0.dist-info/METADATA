@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: proxmox-backup-removable-datastore
+Version: 1.0.0
+Summary: Sync proxmox backup datastore to removable datastore
+Author-email: Mathieu Fruchet <mathieu.fruchet@greenitsolutions.fr>
+Maintainer-email: Green IT Solutions <support@greenitsolutions.fr>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://gitlab.greenitsolutions.fr/01-greenitsolutions/proxmox-backup-removable-datastore
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# proxmox-backup-removable-datastore
+
+This program launches the jobs configured in Proxmox Backup Server (Sync, Prune, Garbage) and ejects the removable device at the end of the process. It synchronises the PBX datastore on a removable device such as an RDX tape.
+
+## Requirements
+
+* `proxmox-backup-manager ≥ 3.0`
+* `python ≥ 3.9`
+* `pip`
+
+### For Debian System
+
+```sh
+sudo apt install python3 python3-pip
+```
+
+## Install
+
+```sh
+python3 -m pip install proxmox-backup-removable-storage
+```
+
+## Usage
+
+
+## Howto
+
+You can find howto to configure removable storage, tasks, and more on the `./docs` directory.
+
+## Licence
+
+GPL-3.0-or-later

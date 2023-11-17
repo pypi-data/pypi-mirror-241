@@ -1,0 +1,13 @@
+proxmox_backup_removable_datastore/__init__.py,sha256=TE-Ia1R5e3soC_4Lvxso16fkN_j2Uqdvi_gmsCkR46I,814
+proxmox_backup_removable_datastore/main.py,sha256=f8vaxcu8SGsejTwsRm9X_Z2rec2jWTbf5PgkMlPidiE,3193
+proxmox_backup_removable_datastore/models/__init__.py,sha256=TE-Ia1R5e3soC_4Lvxso16fkN_j2Uqdvi_gmsCkR46I,814
+proxmox_backup_removable_datastore/models/datastore.py,sha256=0Rg4BXNxJO8vDi4cE276JnBb7M1WIrgA7V5hkMGh3ZE,10268
+proxmox_backup_removable_datastore/models/prunejob.py,sha256=ItbrZbUimIi9t0rLCL-khikVFI9kmEAvsBZwgIheyD4,6711
+proxmox_backup_removable_datastore/models/syncjob.py,sha256=VUG7RGa0ycISkLPatoVl7Pkj3P5VSR8LdY1Cpd2ILn8,4740
+proxmox_backup_removable_datastore/models/utils.py,sha256=j8yjMi_EesnSJP4IH_bd_5WFy0Xh-0rXzhrOCXusFh8,1733
+proxmox_backup_removable_datastore-1.0.0.dist-info/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+proxmox_backup_removable_datastore-1.0.0.dist-info/METADATA,sha256=ZM84-IGpEEBAPsD3ToCcgJaKAB-OwGFuUHMDihNveG0,1140
+proxmox_backup_removable_datastore-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+proxmox_backup_removable_datastore-1.0.0.dist-info/entry_points.txt,sha256=EnithA3vkdGq8nUmByrW0xx1PzQpudNark1RkJWMgw4,83
+proxmox_backup_removable_datastore-1.0.0.dist-info/top_level.txt,sha256=RwVxPAlz076VQtjlv-X0thVFhBWqx1QSUridcO-hYek,35
+proxmox_backup_removable_datastore-1.0.0.dist-info/RECORD,,
