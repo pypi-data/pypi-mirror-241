@@ -1,0 +1,9 @@
+README.md
+setup.py
+IsingSDGC/__init__.py
+IsingSDGC/modulo.py
+IsingSDGC.egg-info/PKG-INFO
+IsingSDGC.egg-info/SOURCES.txt
+IsingSDGC.egg-info/dependency_links.txt
+IsingSDGC.egg-info/requires.txt
+IsingSDGC.egg-info/top_level.txt
