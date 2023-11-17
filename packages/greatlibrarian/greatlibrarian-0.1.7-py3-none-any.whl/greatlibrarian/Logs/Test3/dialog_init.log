@@ -1,0 +1,25 @@
+2023-11-16 13:48:00 - INFO - ---------- New Epoch ---------- from thread 2
+2023-11-16 13:48:00 - INFO - To LLM:	 我国最早发展高新技术产业的地区是_____。 from thread 2
+2023-11-16 13:48:03 - INFO - The model gets 0.0 points in this testcase by keywords method, in coding field.from thread 2
+2023-11-16 13:48:03 - INFO - The final score of this testcase is 0.0, in coding field.from thread 2
+2023-11-16 13:48:03 - INFO - Mistaken case:prompt:['我国最早发展高新技术产业的地区是_____。'],ans:['" 我国最早发展高新技术产业的地区是北京中关村。北京中关村被誉为“中国硅谷”，早在20世纪80年代就开始发展高新技术产业，是我国高新技术产业的发源地。"'],field:coding,keywords:['中关村1']
+2023-11-16 13:48:03 - INFO - ---------- New Epoch ---------- from thread 2
+2023-11-16 13:48:03 - INFO - To LLM:	 我国位置最北、纬度最高的省级行政区： from thread 2
+2023-11-16 13:48:05 - INFO - keyword:黑龙江省from thread 2
+2023-11-16 13:48:05 - INFO - The model gets 1.0 points in this testcase by keywords method, in coding field.from thread 2
+2023-11-16 13:48:05 - INFO - The final score of this testcase is 1.0, in coding field.from thread 2
+2023-11-16 13:48:05 - INFO - Example case:prompt:['我国位置最北、纬度最高的省级行政区：'],ans:['" 我国位置最北、纬度最高的省级行政区是黑龙江省。"'],field:coding
+2023-11-16 13:48:05 - INFO - ---------- New Epoch ---------- from thread 2
+2023-11-16 13:48:05 - INFO - To LLM:	 我国面积最大的省级行政区：  from thread 2
+2023-11-16 13:48:06 - INFO - keyword:新疆维吾尔自治区from thread 2
+2023-11-16 13:48:06 - INFO - The model gets 1.0 points in this testcase by keywords method, in coding field.from thread 2
+2023-11-16 13:48:06 - INFO - The final score of this testcase is 1.0, in coding field.from thread 2
+2023-11-16 13:48:06 - INFO - Example case:prompt:['我国面积最大的省级行政区： '],ans:['" 我国面积最大的省级行政区是新疆维吾尔自治区。"'],field:coding
+2023-11-16 13:48:06 - INFO - ---------- New Epoch ---------- from thread 2
+2023-11-16 13:48:06 - INFO - To LLM:	 邻省最多的省级行政区： from thread 2
+2023-11-16 13:48:09 - INFO - keyword:陕西省from thread 2
+2023-11-16 13:48:09 - INFO - The model gets 1.0 points in this testcase by keywords method, in coding field.from thread 2
+2023-11-16 13:48:09 - INFO - The final score of this testcase is 1.0, in coding field.from thread 2
+2023-11-16 13:48:09 - INFO - Example case:prompt:['邻省最多的省级行政区：'],ans:['" 邻省最多的省级行政区是中国河南省。河南省与6个省份相邻，分别是河北省、山西省、陕西省、湖北省、安徽省和山东省。"'],field:coding
+2023-11-16 13:48:09 - INFO - ---------- New Epoch ---------- from thread 2
+2023-11-16 13:48:09 - INFO - To LLM:	 我国面积最大的平原：  from thread 2
