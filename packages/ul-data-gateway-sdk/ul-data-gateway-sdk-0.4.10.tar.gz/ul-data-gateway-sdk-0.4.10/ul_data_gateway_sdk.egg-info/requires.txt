@@ -1,0 +1,5 @@
+unipipeline==1.9.4
+asyncio-dgram==1.2.0
+asyncio==3.4.3
+timezonefinder==6.1.1
+pytest-env==0.8.1
