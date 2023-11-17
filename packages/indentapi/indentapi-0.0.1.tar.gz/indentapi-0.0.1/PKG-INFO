@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: indentapi
+Version: 0.0.1
+Project-URL: Homepage, https://github.com/indentapis/indent-python
+Project-URL: Bug Tracker, https://github.com/indentapis/indent-python/issues
+Author-email: Indent Inc <open@indent.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Indent Python SDK
+
+Install from PyPI:
+
+```
+pip install indentapi
+```
+
+[Read Indent documentation →](https://indent.com/docs/api/quickstart/python)
