@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "approvals"
+version = "0.0.1"
+authors = [
+  { name="Indent Inc", email="open@indent.com" },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/indentapis/indent-python"
+"Bug Tracker" = "https://github.com/indentapis/indent-python/issues"
