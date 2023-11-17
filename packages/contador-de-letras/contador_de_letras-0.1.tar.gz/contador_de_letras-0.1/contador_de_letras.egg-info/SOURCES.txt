@@ -1,0 +1,7 @@
+setup.py
+contador_de_letras.egg-info/PKG-INFO
+contador_de_letras.egg-info/SOURCES.txt
+contador_de_letras.egg-info/dependency_links.txt
+contador_de_letras.egg-info/entry_points.txt
+contador_de_letras.egg-info/requires.txt
+contador_de_letras.egg-info/top_level.txt
