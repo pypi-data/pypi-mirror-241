@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+umlsapiconnector.egg-info/PKG-INFO
+umlsapiconnector.egg-info/SOURCES.txt
+umlsapiconnector.egg-info/dependency_links.txt
+umlsapiconnector.egg-info/requires.txt
+umlsapiconnector.egg-info/top_level.txt
