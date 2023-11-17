@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+
+from logzero import logger as log
+
+import subprocess
+import argparse
+import logzero
+import tqdm
+import glob
+import os
+
+#----------------------------
+def run_command(cmd, options=None, raise_on_fail=True):
+    if not isinstance(options, list):
+        log.error(f'Invalid options argument: {options}')
+        raise ValueError
+
+    log.debug('-' * 30)
+    log.debug('-' * 30)
+    log.debug(f'{cmd:<10}{str(options):<50}')
+    log.debug('-' * 30)
+    log.debug('-' * 30)
+
+    with open('/tmp/rk_ext_output.log', 'w') as ofile:
+        stat = subprocess.run([cmd] + options, stdout=ofile, stderr=ofile)
+
+    if stat.returncode != 0:
+        log.error(f'Process returned exit status: {stat.returncode}')
+        if raise_on_fail:
+            raise
+#----------------------------
+class data:
+    job_name = None
+    log_level= None
+#----------------------------
+def get_args():
+    parser = argparse.ArgumentParser(description='Used to download outputs of toy fits from the grid')
+    parser.add_argument('-n', '--name' , type=str, help='Name of job', required=True)
+    parser.add_argument('-l', '--logl' , type=str, help='Log level', choices=[logzero.DEBUG, logzero.INFO, logzero.WARNING], default=logzero.INFO)
+    args = parser.parse_args()
+
+    data.job_name = args.name
+    data.log_level= args.logl
+#----------------------------
+def get_ids():
+    ids_path = f'sandbox_{data.job_name}/jobids.out'
+
+    if not os.path.isfile(ids_path):
+        log.error(f'File not found: {ids_path}')
+        raise FileNotFoundError
+
+    with open(ids_path) as ifile:
+        l_ids = ifile.read().splitlines()
+
+    return l_ids
+#----------------------------
+def get_lfns():
+    l_file = glob.glob('*.lfns')
+    if len(l_file) != 1:
+        log.error('Did not find one and only one lfns file')
+        raise FileNotFoundError
+
+    with open(l_file[0]) as ifile:
+        l_lfn = ifile.read().splitlines()
+
+    os.remove(l_file[0])
+
+    return l_lfn
+#----------------------------
+def download(jobid):
+    jobdir = jobid[:-3]
+
+    grid_path=f'/lhcb/user/a/acampove/{jobdir}/{jobid}'
+
+    run_command('dirac-dms-user-lfns', ['-w', 'result_jsn.tar.gz', '-b', grid_path])
+
+    l_lfn = get_lfns()
+
+    os.makedirs(jobid, exist_ok=True)
+
+    os.chdir(jobid)
+    for lfn in l_lfn:
+        run_command('dirac-dms-get-file', [lfn])
+    os.chdir('..')
+#----------------------------
+def main():
+    l_jobid = get_ids()
+
+    for jobid in tqdm.tqdm(l_jobid, ascii=' -'):
+        download(jobid)
+#----------------------------
+if __name__ == '__main__':
+    get_args()
+    log.setLevel(data.log_level)
+    main()
+
