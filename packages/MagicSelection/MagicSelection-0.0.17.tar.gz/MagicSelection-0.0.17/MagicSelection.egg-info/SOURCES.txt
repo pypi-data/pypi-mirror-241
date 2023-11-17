@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+MagicSelection/__init__.py
+MagicSelection/feature_selection.py
+MagicSelection.egg-info/PKG-INFO
+MagicSelection.egg-info/SOURCES.txt
+MagicSelection.egg-info/dependency_links.txt
+MagicSelection.egg-info/requires.txt
+MagicSelection.egg-info/top_level.txt
+MagicSelection/data/example-data.csv
