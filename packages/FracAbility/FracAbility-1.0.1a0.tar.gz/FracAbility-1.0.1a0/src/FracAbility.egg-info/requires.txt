@@ -1,0 +1,4 @@
+pyvista
+networkx
+geopandas
+scipy
