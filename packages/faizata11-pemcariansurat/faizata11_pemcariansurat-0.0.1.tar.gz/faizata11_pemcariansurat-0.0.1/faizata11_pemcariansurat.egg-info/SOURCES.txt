@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+faizata11_pemcariansurat.egg-info/PKG-INFO
+faizata11_pemcariansurat.egg-info/SOURCES.txt
+faizata11_pemcariansurat.egg-info/dependency_links.txt
+faizata11_pemcariansurat.egg-info/top_level.txt
+faizata11_pencariansurat/__init__.py
+faizata11_pencariansurat/alquran.py
