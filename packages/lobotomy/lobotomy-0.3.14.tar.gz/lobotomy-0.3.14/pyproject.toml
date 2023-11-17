@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "lobotomy"
+version = "0.3.14"
+license = "MIT"
+description = "Boto3 low-level client mocking library."
+authors = ["Scott Ernst <swernst@gmail.com>"]
+readme = "README.md"
+homepage = "https://gitlab.com/rocket-boosters/lobotomy"
+repository = "https://gitlab.com/rocket-boosters/lobotomy"
+documentation = "https://gitlab.com/rocket-boosters/lobotomy"
+keywords = ["aws", "boto3", "botocore", "testing"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Testing",
+  "Topic :: Software Development :: Testing :: Mocking",
+  "Topic :: Software Development :: Testing :: Unit",
+  "Topic :: Utilities",
+  "Typing :: Typed"
+]
+exclude = ["lobotomy/tests"]
+
+[tool.poetry.dependencies]
+python = "^3.8.0"
+boto3 = ">=1.16.0"
+toml = ">=0.10.0"
+PyYAML = ">=5.3.0"
+python-dateutil = ">=2.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+coverage = "*"
+black = { version = "*", allow-prereleases = true }
+pytest-cov = "*"
+flake8 = "*"
+flake8-black = "*"
+mypy = "*"
+taskipy = ">=1.4.0"
+aok = "*"
+pydocstyle = "*"
+radon = "*"
+yamllint = "*"
+
+[tool.poetry.scripts]
+lobotomy = 'lobotomy:run_cli'
+
+[tool.taskipy.tasks]
+# https://github.com/illBeRoy/taskipy
+black = "black ."
+pydocstyle = "pydocstyle ."
+yamllint = "yamllint ."
+radon = "radon cc . --min=C && radon mi . --min=B"
+mypy = "poetry run mypy . --install-types --non-interactive --ignore-missing-imports"
+flake8 = "flake8 ."
+test = "pytest . --cov-report=term-missing --cov=."
+lint = "task black && task flake8 && task mypy && task pydocstyle && task radon && task yamllint"
+check = "task lint && task test"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

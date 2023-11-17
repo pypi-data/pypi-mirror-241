@@ -1,0 +1,59 @@
+operations:
+  UploadFile:
+    input: {shape: UploadFileRequest}
+    output: {shape: UploadFileOutput}
+  UploadFileobj:
+    input: {shape: UploadFileobjRequest}
+    output: {shape: UploadFileOutput}
+  DownloadFile:
+    input: {shape: DownloadFileRequest}
+    output: {shape: DownloadFileOutput}
+  DownloadFileobj:
+    input: {shape: DownloadFileobjRequest}
+    output: {shape: DownloadFileOutput}
+
+shapes:
+  DownloadFileRequest:
+    type: structure
+    members:
+      Bucket: {type: BucketName}
+      Key: {type: ObjectKey}
+      Filename: {type: object}
+      ExtraArgs: {type: dict}
+      Callback: {type: function}
+      Config: {type: object}
+  DownloadFileobjRequest:
+    type: structure
+    members:
+      Bucket: {type: BucketName}
+      Key: {type: ObjectKey}
+      Fileobj: {type: object}
+      ExtraArgs: {type: dict}
+      Callback: {type: function}
+      Config: {type: object}
+  DownloadFileOutput:
+    type: structure
+    members: {}
+  UploadFileRequest:
+    type: structure
+    required: [Filename, Bucket, Key]
+    members:
+      Filename: {type: object}
+      Bucket: {shape: BucketName}
+      Key: {shape: ObjectKey}
+      ExtraArgs: {type: dict}
+      Callback: {type: function}
+      Config: {type: object}
+  UploadFileobjRequest:
+    type: structure
+    required: [Filename, Bucket, Key]
+    members:
+      Fileobj: {type: object}
+      Bucket: {shape: BucketName}
+      Key: {shape: ObjectKey}
+      ExtraArgs: {type: dict}
+      Callback: {type: function}
+      Config: {type: object}
+  UploadFileOutput:
+    type: structure
+    members: {}
