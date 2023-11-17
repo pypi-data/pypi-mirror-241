@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/handle_igblastn/__init__.py
+src/handle_igblastn/_clines.py
+src/handle_igblastn.egg-info/PKG-INFO
+src/handle_igblastn.egg-info/SOURCES.txt
+src/handle_igblastn.egg-info/dependency_links.txt
+src/handle_igblastn.egg-info/top_level.txt
