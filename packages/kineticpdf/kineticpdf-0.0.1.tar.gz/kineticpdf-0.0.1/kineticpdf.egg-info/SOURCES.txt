@@ -1,0 +1,7 @@
+README.md
+setup.py
+kineticpdf/__init__.py
+kineticpdf.egg-info/PKG-INFO
+kineticpdf.egg-info/SOURCES.txt
+kineticpdf.egg-info/dependency_links.txt
+kineticpdf.egg-info/top_level.txt
