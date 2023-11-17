@@ -1,0 +1,20 @@
+msgid "Lundi"
+msgstr "Montag"
+
+msgid "Mardi"
+msgstr "Dienstag"
+
+msgid "Mercredi"
+msgstr "Mittwoch"
+
+msgid "Jeudi"
+msgstr "Donnerstag"
+
+msgid "Vendredi"
+msgstr "Freitag"
+
+msgid "Samedi"
+msgstr "Samstag"
+
+msgid "Dimanche"
+msgstr "Sonntag"

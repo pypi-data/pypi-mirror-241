@@ -1,0 +1,16 @@
+{
+  "page": {
+    "facture": {
+      "title": "Facture(s)",
+      "count": "Total {item}/{total}"
+    },
+    "home": {
+      "title": "Bonjour"
+    }
+  },
+  "cinego": "Cinego",
+  "space key": "Good",
+  "space key 2": {
+    "Good for me": "You Lits"
+  }
+}

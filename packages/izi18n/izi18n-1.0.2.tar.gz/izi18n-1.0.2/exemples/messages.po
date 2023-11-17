@@ -1,0 +1,6 @@
+msgid "Enter a comma separated list of user names."
+msgstr "Eine kommagetrennte Liste von Benutzernamen."
+
+msgid "Visit ${url}"
+msgstr "Besuchen {url}"
+

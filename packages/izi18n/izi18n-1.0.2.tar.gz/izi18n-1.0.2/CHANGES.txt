@@ -1,0 +1,10 @@
+# Change Log / journal des changements
+
+# 16/11/2023
+##  UPDATE TRANSLATE PHRASE METHOD
+
+# 08/02/2023
+## FIX PO FILE READING METHOD, CHANGE TRANSALTION METHOD SUPPORT ARGS AND ADD PLURIALIZE METHOD
+* Avoid empty po data
+* Make translate method get more args
+* Add plurialize method

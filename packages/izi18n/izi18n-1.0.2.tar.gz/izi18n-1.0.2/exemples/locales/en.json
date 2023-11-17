@@ -1,0 +1,13 @@
+{
+  "page": {
+    "facture": {
+      "title": "Invoice",
+      "count": "Total"
+    },
+    "home": {
+      "title": "Hi!",
+      "docs": "Documents"
+    }
+  },
+  "cinego": "Cinego"
+}
