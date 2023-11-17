@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: galsen-game-of-life
+Version: 1.1
+Summary: Game of life version galsen
+Home-page: https://github.com/abdoufermat5/conway-game-of-life
+Author: abdoufermat
+License: GPLv3
+Keywords: game of life,game,python,algorithm
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jeu de la vie Conway
+
+### Description
+Le jeu de la vie (ou game of life) est un automate cellulaire évoluant sur une grille (de taille théoriquement infinie)
+composée de cases carrées appelées cellules qui ont un état binaire (1 pour vivante et 0 pour morte). Les cellules
+évoluent dans le temps en fonction de leur voisinage (chaque cellule a 8 cellules voisines)., ce qui modifie la grille
+à chaque étape d'évolution (appelée génération).
+
+![illustration](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+
+### Règles
+- Une cellule morte possédant exactement 3 voisines vivantes devient vivante (elle naît).
+- Une cellule vivante possédant 2 ou 3 voisines vivantes le reste, sinon elle meurt.
+- Les autres cellules (mortes ou vivantes) restent dans leur état actuel.
+
+### Implémentation
+- Le jeu de la vie est implémenté en python sous forme de package: `game_of_life`
+- Le package est publie sur PyPi: https://pypi.org/project/galsen-game-of-life/
+
+### Utilisation
+On commence par installer le package:
+```bash
+pip3 install galsen-game-of-life
+```
+Pour tester notre implementation du jeu de la vie on a plusieurs options:
+
+#### 1. application client/serveur
+On a mis en place un [websocket](https://fr.wikipedia.org/wiki/Websocket) client/serveur.
+
+![illustration](https://upload.wikimedia.org/wikipedia/commons/1/10/Websocket_connection.png)
+
+Pour lancer le serveur websocket, il faut lancer le script `main_server.py` dans le dossier `api/`:
+```bash
+python3 api/main_server.py
+```
+
+Le serveur websocket est alors accessible sur `ws://localhost:8000`
+
+Ensuite on a mis en place un client javascript pour pouvoir communiquer avec le serveur websocket.
+Il suffit juste d'ouvrir le fichier `index.html` dans un navigateur web pour pouvoir jouer au jeu de la vie.
+
+<b>Spoiler Alert:</b> On est pas trop bon en html/css par ici!! 
+
+#### 2. application console
+
+On peut aussi jouer au jeu de la vie en ligne de commande. Pour cela il vous faudra un fichier de depart contenant un etat initial
+Exemple de fichier de depart:
+```bash title="test-data.txt"
+0 1 1 1 1 0 1 1 0 1
+0 0 0 0 0 0 0 0 0 1
+1 0 0 0 1 1 0 0 1 0
+0 1 1 0 1 1 0 1 0 1
+0 0 0 0 0 1 1 1 0 0
+0 0 0 1 0 0 1 0 1 0
+1 0 1 1 1 0 0 1 0 1
+1 1 0 0 0 0 0 0 1 1
+1 0 1 0 1 1 0 1 1 1
+1 0 0 0 0 0 1 0 0 0
+```
+Pour lancer le jeu de la vie en ligne de commande, il faut ensuite installer le package `galsen-game-of-life`:
+
+```bash
+pip3 install galsen-game-of-life
+```
+
+ensuite on peut lancer en ligne de commande:
+```bash
+galsen-game-of-life --input test-data.txt --num-steps 10 --output-file test-data-out.txt
+```
+Si on veut voir les etapes intermediaires, on peut ajouter l'option `--verbose`:
+```bash
+galsen-game-of-life --input test-data.txt --num-steps 10 --output-file test-data-out.txt --verbose 1
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+galsen_game_of_life = galsen_game_of_life.__main__:main
