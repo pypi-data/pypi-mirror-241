@@ -1,0 +1,7 @@
+reaper_starfish-0.0.3.dist-info/METADATA,sha256=ebqKQN3HORM9BTEj-wZ-i4NRqXqdjw9w-gKcGTNKk70,265
+reaper_starfish-0.0.3.dist-info/WHEEL,sha256=GTOYrvVpfe3xzBNZ9YsFfEoJRVlIsQWn7HRdpQFt264,129
+starfish/sdk.py,sha256=P4Lw2BhobkOJtAhuVIF7p1ioXlrRBG9rjzbDa3tWaQc,2770
+starfish/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starfish/starfish.pyi,sha256=azHFggxCliRPx9YOxOe2IKoUTRkqel9SOjlal4jmJwY,11862
+starfish/starfish.cpython-311-x86_64-linux-gnu.so,sha256=e7veMo6I9lD1eWVc-0EYLv4NK-cjYg-TPKm9BGtc3rw,2239144
+reaper_starfish-0.0.3.dist-info/RECORD,,
