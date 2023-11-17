@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: GTAlib-KernelAdjust
+Version: 0.1.0
+Summary: Libreria para el ajuste de datos utilizando distintos kernels
+Home-page: https://gitlab.com/gtorresa312/trabajos-en-clase.git
+Author: German
+Author-email: german.torres@udea.edu.co
+License: MIT
+Requires-Python: >=3.11.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: pandas ==2.1.2
+Requires-Dist: matplotlib ==3.8.1
+
+# DataAdjustment
+
+`DataAdjustment` es una clase Python que proporciona funcionalidades para el ajuste de datos utilizando el metodo de Kernels. El proceso de suavizaciÃ³n se hace mediante tres tipos de kernel: Gaussiano, Tricube y Epanechnikov 
+
+## Requisitos
+
+- Python 3.11.6
+- numpy 1.26.1
+- pandas 2.1.2
+- matplotlib 3.8.1
+
+
+
+## Instalacion
+
+Para instalar la libreria, utiliza el comando
+
+```bash
+pip install GTAlib_KernelAdjust
+```
+
+
+## Uso
+La estructura base para implementar la libreria es:
+
+```python
+# Importar la clase DataAdjustment
+from GTAlib_KernelAdjust import Kernels_DataAdjust
+
+# Crear una instancia de DataAdjustment con el URD del archivo CSV de datos y valor de sigma (opcional)
+adjustment = Kernels_DataAdjust('datos.csv', sigma=1)
+
+# Graficar la curva suavizada junto con los datos reales usando cada uno de los Kernels
+adjustment.plot_smooth_curves()
+
+# Graficar la comparativa de Kernels 
+adjustment.comparison()
+```
+
