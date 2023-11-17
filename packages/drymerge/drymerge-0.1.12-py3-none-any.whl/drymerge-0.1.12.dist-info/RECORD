@@ -1,0 +1,10 @@
+drymerge/__init__.py,sha256=c-N-wgOx3Y1AXMdVYbceoXLGGDVq3qVNpSqnCFo7T20,58
+drymerge/client.py,sha256=baYWSSmpiC53rgeqTknI-ePhE08dELX8lI31xzi2Utc,10124
+drymerge/identity.py,sha256=ksLMiHzr7C8lLbjm7g9FqwGXz-zSV552-nCDIH09aJQ,2232
+module/__init__.py,sha256=c-N-wgOx3Y1AXMdVYbceoXLGGDVq3qVNpSqnCFo7T20,58
+module/client.py,sha256=baYWSSmpiC53rgeqTknI-ePhE08dELX8lI31xzi2Utc,10124
+module/identity.py,sha256=ksLMiHzr7C8lLbjm7g9FqwGXz-zSV552-nCDIH09aJQ,2232
+drymerge-0.1.12.dist-info/METADATA,sha256=VWIhUTs5SH75Gs1NuBdeCLlHy9hsuMby0D9ujmqnnMc,164
+drymerge-0.1.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drymerge-0.1.12.dist-info/top_level.txt,sha256=8H4_9zDi1JeXoSFw2w-kztIyiy7rEj74DyE71Dhw6ho,9
+drymerge-0.1.12.dist-info/RECORD,,
