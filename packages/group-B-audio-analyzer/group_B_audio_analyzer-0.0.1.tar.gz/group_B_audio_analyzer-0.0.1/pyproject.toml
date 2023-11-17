@@ -1,0 +1,31 @@
+[project]
+name = "group_B_audio_analyzer" 
+version = "0.0.1" 
+authors = [
+  { name="Agustin Silva", email="agustinsilva447@gmail.com" },
+  { name="Mahtab T. Nejad ", email="mahtabnejadt@gmail.com" },
+  { name="Mahdi Rasouli", email="mahdi.rasouli77@gmail.com" },
+  { name="Paula Oliveri", email="olicarpa@gmail.com" },
+]
+# usually a one liner
+description = "A Python package for audio analysis and .wav file classification."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["Advent of Code", "captcha", ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://git.smr3696.ictp.it/Mahdi/group_b_audio_analyzer"
