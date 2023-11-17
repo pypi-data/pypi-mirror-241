@@ -1,0 +1,5 @@
+collector/client.py,sha256=Vh_SevQLpfsOeUKTFlkXUqM-WFkd2y-6ybVWSmHLtDw,612
+collector/middleware.py,sha256=ddePcGXtqBGlL7TLsCBKo5YEyFmILj-dxojlTQfDlbg,2727
+requestresponsecollector-0.1.11.dist-info/METADATA,sha256=yw73y_30XIe7ptt2dt3XUuIxLcPTOlbULiTw2f2pa3Y,786
+requestresponsecollector-0.1.11.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+requestresponsecollector-0.1.11.dist-info/RECORD,,
