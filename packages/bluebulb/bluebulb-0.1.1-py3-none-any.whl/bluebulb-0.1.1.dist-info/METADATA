@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bluebulb
+Version: 0.1.1
+Summary: A library for Cryptographic programs
+Home-page: https://github.com/your-username/sllp
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+
