@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: contador-de-letrasv2.0
+Version: 0.2
+Requires-Dist: tqdm
+Requires-Dist: argparse
+
