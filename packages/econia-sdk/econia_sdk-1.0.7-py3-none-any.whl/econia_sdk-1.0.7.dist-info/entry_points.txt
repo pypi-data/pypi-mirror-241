@@ -1,0 +1,5 @@
+[console_scripts]
+event=examples.event:start
+games=examples.games:start
+trade=examples.trade:start
+
