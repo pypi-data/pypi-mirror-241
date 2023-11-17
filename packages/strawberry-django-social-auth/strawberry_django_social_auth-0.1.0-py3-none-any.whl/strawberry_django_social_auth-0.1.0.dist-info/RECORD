@@ -1,0 +1,10 @@
+gql_social_auth/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+gql_social_auth/constants.py,sha256=C5omlo97IKMnrvWPjWIcpPYAAL8o3ysoBa326QpSH64,473
+gql_social_auth/mixins.py,sha256=IJZ-RL5pD16uFToatS_FMcr6HAA3psIKlVQejUeh8oc,1411
+gql_social_auth/mutations.py,sha256=ssGhDj5loD2x8dRPIJeb1h17DZXZvcs6UDdJfSaVJd4,163
+gql_social_auth/types.py,sha256=JvTCOkLDALEep6Yn1_GLHwKcM00Ty3ivDSKVCg-zsss,1821
+gql_social_auth/utils.py,sha256=gfttV57SIkZhLNPEM5rtS2jdg5wcOwRYCI2O1HL7j6Y,394
+strawberry_django_social_auth-0.1.0.dist-info/LICENSE,sha256=rinX6t46wMRYM2lbc4umRTyw1Cv0gTqrd_jX83EJB9c,1074
+strawberry_django_social_auth-0.1.0.dist-info/METADATA,sha256=txNIk2fiPVgSTPnvBBwUq19d7vEqEhaxGljKoMDXviY,3361
+strawberry_django_social_auth-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+strawberry_django_social_auth-0.1.0.dist-info/RECORD,,
