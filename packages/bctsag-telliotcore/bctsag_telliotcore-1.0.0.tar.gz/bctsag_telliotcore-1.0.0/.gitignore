@@ -1,0 +1,8 @@
+tenv/
+build/
+dist/
+__pycache__/
+*.egg-info/
+.tox/
+.coverage
+coverage.xml
