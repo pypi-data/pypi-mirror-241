@@ -1,0 +1,15 @@
+hyperspy>=2.0rc0
+link_traits
+traits>=5.0
+traitsui!=8.0.0,>=6.1
+
+[dev]
+black
+hyperspy-gui-traitsui[doc]
+hyperspy-gui-traitsui[tests]
+
+[tests]
+pytest
+pytest-cov
+pytest-rerunfailures
+setuptools-scm
