@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ehdg-pupil-detector
+Version: 1.1.0
+Summary: Python Library for Pupil Detector of Eye Health Diagnostic Group
+Author-email: Zaw Lin Tun <zawlintun1511@gmail.com>
+Project-URL: Homepage, https://github.com/ZawLinTun16925410/ehdg_pupil_detector
+Project-URL: Bug Tracker, https://github.com/ZawLinTun16925410/ehdg_pupil_detector/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ehdg_pupil_detector
+eye health diagnostic group's pupil detector
