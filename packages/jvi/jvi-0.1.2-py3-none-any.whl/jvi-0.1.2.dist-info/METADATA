@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jvi
+Version: 0.1.2
+Summary: 
+Author: dayn9t
+Author-email: dayn9t@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pillow
+Requires-Dist: arrow
+Requires-Dist: dataclasses-json
+Requires-Dist: imageio
+Requires-Dist: jcx
+Requires-Dist: loguru
+Requires-Dist: mypy
+Requires-Dist: numpy
+Requires-Dist: opencv_contrib_python
+Requires-Dist: opencv_python
+Requires-Dist: pre-commit
+Requires-Dist: pydantic
+Requires-Dist: pytest
+Requires-Dist: rustshed
+Requires-Dist: types-Pillow
+Description-Content-Type: text/markdown
+
+# JIV
+
+图像&视频基础库。
+
+
