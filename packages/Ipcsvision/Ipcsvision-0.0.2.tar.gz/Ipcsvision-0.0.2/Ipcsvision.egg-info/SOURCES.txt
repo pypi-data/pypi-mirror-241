@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Ipcsvision/__init__.py
+Ipcsvision/version.py
+Ipcsvision.egg-info/PKG-INFO
+Ipcsvision.egg-info/SOURCES.txt
+Ipcsvision.egg-info/dependency_links.txt
+Ipcsvision.egg-info/requires.txt
+Ipcsvision.egg-info/top_level.txt
+Ipcsvision/augmentation/__init__.py
+Ipcsvision/augmentation/aug.py

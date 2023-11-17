@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Ipcsvision
+Version: 0.0.2
+Summary: This package is used for image processing,deep learning,personal learning
+Home-page: https://github.com/DIYUFENG111
+Author: DIYUFENG111
+Author-email: 2832984935@qq.com
+License: MIT
+Description: 
+        # IPCS-vision（Github库名）
+        IPCS视觉小组
+        
+        # augmentation
+        图像增强
+        
+        # 上传文件
+        * python setup.py sdist
+        * twine upload dist/*
+        * token令牌上传：username:__token__
+        *              password:pypi-AgEIcHlwaS5vcmcCJGU0MWYzMTY1LTRhNDMtNDY3OC04NjlmLWZiYWQwN2Y2NmVmNQACKlszLCJlZDY0OTA4OC1kNDFhLTRlYmQtYTA3Ny1kMWE3NjE0M2EzMjgiXQAABiBQN10yKkM0671hOkfe7Xniqo_pHaAO0WW2Zx5XsqEqxQ
+        * 从终端上传 
+        
+        # version
+        * 更新版本时在versio.py和setup.py里面更改
+Keywords: python,computer vision,Ipcsvision,windows,mac,linux
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
