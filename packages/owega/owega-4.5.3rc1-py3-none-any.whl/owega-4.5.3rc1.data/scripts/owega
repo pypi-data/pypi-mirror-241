@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+if type -P python3 >/dev/null 2>/dev/null; then
+	python3 -m owega "$@"
+else
+	python -m owega "$@"
+fi
