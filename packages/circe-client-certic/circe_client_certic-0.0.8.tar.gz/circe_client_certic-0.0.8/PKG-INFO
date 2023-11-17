@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: circe-client-certic
+Version: 0.0.8
+Summary: Circe client library
+License: Cecill
+Author: Mickaël Desfrênes
+Author-email: mickael.desfrenes@unicaen.fr
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.28.0,<3.0.0)

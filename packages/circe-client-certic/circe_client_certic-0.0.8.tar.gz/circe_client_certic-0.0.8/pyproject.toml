@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "circe-client-CERTIC"
+version = "0.0.8"
+description = "Circe client library"
+authors = ["Mickaël Desfrênes <mickael.desfrenes@unicaen.fr>"]
+license = "Cecill"
+packages = [
+    { include = "circe_client"},
+]
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
