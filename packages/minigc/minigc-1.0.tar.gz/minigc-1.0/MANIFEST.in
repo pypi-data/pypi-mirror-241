@@ -1,0 +1,6 @@
+include README.md
+include install_dependencies.sh
+recursive-include pictures *
+recursive-include minigc/image *
+recursive-include minigc/config *
+recursive-include minigc/launch *
