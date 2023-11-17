@@ -1,0 +1,12 @@
+flake8>=3.7
+
+[:python_version < "3.8"]
+importlib-metadata>=0.9
+
+[testing]
+pytest
+ipython
+astpretty
+build
+twine
+flake8
