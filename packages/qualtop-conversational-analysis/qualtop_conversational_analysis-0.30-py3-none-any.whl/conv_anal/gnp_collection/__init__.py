@@ -1,0 +1,7 @@
+from conv_anal.gnp_collection.collection_prompt import collection_prompt
+from conv_anal.gnp_collection.Dotal_GNP import dotal_gnp
+from conv_anal.gnp_collection.Platino_GNP import platino_universal_GNP
+from conv_anal.gnp_collection.Privilegio_GNP import privilegio_universal_gnp
+from conv_anal.gnp_collection.Profesional_GNP import profesional_gnp
+from conv_anal.gnp_collection.Trasciende_GNP import trasciende_gnp
+from conv_anal.gnp_collection.VisionPlus_GNP import vision_plus_gnp
