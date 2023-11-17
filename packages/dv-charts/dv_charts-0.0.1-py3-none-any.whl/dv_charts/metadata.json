@@ -1,0 +1,3259 @@
+{
+  "src/lib/components/DVCharts/DvpDesBar.react.js": {
+    "description": "A component to describe categorical data",
+    "displayName": "DvpDesBar",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "A list of values"
+      },
+      "variable": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable"
+      },
+      "groupBy": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by"
+      },
+      "missingValues": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "missingValues",
+        "defaultValue": {
+          "value": "[99999, 88888, 9999, 8888, 8881, 8882, 7777, 6666]",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Classname"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "alias": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Alias - A dict to rename the variable",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "labels": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "labels - A dict to remape the numbers into category",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "padding": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Padding"
+      },
+      "wrapperHeight": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "wrapperHeight"
+      },
+      "minHeight": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "minHeight",
+        "defaultValue": {
+          "value": "250",
+          "computed": false
+        }
+      },
+      "isPercent": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "isPercent",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DVCharts/DvpDesHistogram.react.js": {
+    "description": "A component to build histogram",
+    "displayName": "DvpDesHistogram",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "A list of values"
+      },
+      "variable": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable Y Field"
+      },
+      "groupBy": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by"
+      },
+      "missingValues": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "missingValues",
+        "defaultValue": {
+          "value": "[99999, 88888, 9999, 8888, 8881, 8882, 7777, 6666]",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Classname"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "alias": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Alias - A dict to rename the variable",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "labels": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "labels - A dict to remape the numbers into category",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "showBox": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show box",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "yAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y axis title",
+        "defaultValue": {
+          "value": "'No. of Subjects'",
+          "computed": false
+        }
+      },
+      "wrapperHeight": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "wrapperHeight",
+        "defaultValue": {
+          "value": "500",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DVCharts/DvpDesScatter.react.js": {
+    "description": "A component to build scatter",
+    "displayName": "DvpDesScatter",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "A list of values"
+      },
+      "variable": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable Y Field"
+      },
+      "variable2": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable 2 X Field"
+      },
+      "groupBy": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by"
+      },
+      "missingValues": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "missingValues",
+        "defaultValue": {
+          "value": "[99999, 88888, 9999, 8888, 8881, 7777, 8883, 6666]",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Classname"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "alias": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Alias - A dict to rename the variable",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "labels": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "labels - A dict to remape the numbers into category",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "wrapperHeight": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "wrapperHeight",
+        "defaultValue": {
+          "value": "425",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/Drawers/BarDrawer.react.js": {
+    "description": "Bar drawer",
+    "displayName": "BarDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/BoxDrawer.react.js": {
+    "description": "Box drawer",
+    "displayName": "BoxDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/CorrDrawer.react.js": {
+    "description": "Corr drawer",
+    "displayName": "CorrDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/DesDrawer.react.js": {
+    "description": "Des drawer",
+    "displayName": "DesDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/HistDrawer.react.js": {
+    "description": "Histogram drawer",
+    "displayName": "HistDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/LineDrawer.react.js": {
+    "description": "Line drawer",
+    "displayName": "LineDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/PieDrawer.react.js": {
+    "description": "Pie drawer",
+    "displayName": "PieDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/ScatterDrawer.react.js": {
+    "description": "Scatter drawer",
+    "displayName": "ScatterDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/Drawers/TextDrawer.react.js": {
+    "description": "Text drawer",
+    "displayName": "TextDrawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "form": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Form"
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/DvCharts.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DvCharts",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "A label that will be printed when this component is rendered."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value displayed in the input."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvDashboard/DvpDashboard.react.js": {
+    "description": "A react drag grid components",
+    "displayName": "DvpDashboard",
+    "methods": [
+      {
+        "name": "generateChartBtn",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "sortLayouts",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "layouts",
+            "type": null
+          },
+          {
+            "name": "breakpoints",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "getFromLS",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "key",
+            "type": null
+          },
+          {
+            "name": "breakpoints",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "saveToLS",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "key",
+            "type": null
+          },
+          {
+            "name": "value",
+            "type": null
+          },
+          {
+            "name": "breakpoints",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onRemoveItem",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "i",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "filterDictNA",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "dict",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onToggleDrawer",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "i",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "draweronClose",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "id",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "selectWidgeData",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "id",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateWidgesData",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "chartData",
+            "type": null
+          },
+          {
+            "name": "id",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateWidges",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "layouts",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateLayouts",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "layouts",
+            "type": null
+          },
+          {
+            "name": "breakpoints",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "generateEditDrawer",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "catVariables",
+            "type": null
+          },
+          {
+            "name": "numVariables",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "generateDOM",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "designMode",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "addBox",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "type",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "key": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Key to identify the component"
+      },
+      "defaultDisplayData": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Default Display Data"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "CSS style"
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "classname"
+      },
+      "defaultHeightI": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Default i"
+      },
+      "wrapperStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Wrapper style"
+      },
+      "placeholderBackground": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Placeholder background"
+      },
+      "placeholderOpacity": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Placeholder background opacity"
+      },
+      "placeholderBorder": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Placeholder background border"
+      },
+      "placeholderBorderRadius": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Placeholder border radius"
+      },
+      "breakpoints": {
+        "type": {
+          "name": "objectOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "Breakpoint {lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0}"
+      },
+      "cols": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "objectOf",
+              "value": {
+                "name": "number"
+              }
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Cols {lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}"
+      },
+      "catVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Categorical variables"
+      },
+      "numVariables": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Numeric variables"
+      },
+      "compactType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Compact type"
+      },
+      "publishMode": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Published mode"
+      },
+      "designMode": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether is a preview mode"
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Height"
+      },
+      "autoSize": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Auto resize"
+      },
+      "margin": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number"
+              }
+            },
+            {
+              "name": "objectOf",
+              "value": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "number"
+                }
+              }
+            }
+          ]
+        },
+        "required": false,
+        "description": "Margin [x, y]"
+      },
+      "containerPadding": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number"
+              }
+            },
+            {
+              "name": "objectOf",
+              "value": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "number"
+                }
+              }
+            }
+          ]
+        },
+        "required": false,
+        "description": "Padding [x, y]"
+      },
+      "drawerOpen": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether the drawer is open"
+      },
+      "headerChildrenPrefix": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "header Children Prefix"
+      },
+      "inputsChanged": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Whether inputs changed"
+      },
+      "inputsChangedInfo": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "inputsChanged Info"
+      },
+      "rowHeight": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Row height"
+      },
+      "saveNclicks": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Clicks of save button"
+      },
+      "isDraggable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Draggable"
+      },
+      "isResizable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Resizable"
+      },
+      "variableEntryType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'list'",
+              "computed": false
+            },
+            {
+              "value": "'groupedList'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "variableEntryType"
+      },
+      "isBounded": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Is bounded"
+      },
+      "allowOverlap": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Allow overlap"
+      },
+      "widgets": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of widgets"
+      },
+      "widgetData": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Widget Data"
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvDashboard/DvpStyle.react.js": {
+    "description": "Customized style",
+    "displayName": "DvpStyle",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID to identify the component"
+      },
+      "rawStyle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Raw style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Loading state"
+      }
+    }
+  },
+  "src/lib/components/DvpBar.react.js": {
+    "description": "Antd Bar",
+    "displayName": "DvpBar",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis"
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis"
+      },
+      "xAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis title"
+      },
+      "yAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y axis title"
+      },
+      "hideXaxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide x axis"
+      },
+      "hideYaxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide y axis"
+      },
+      "wrapperHeight": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "wrapperHeight"
+      },
+      "padding": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Padding"
+      },
+      "colors": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Dict of colors",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "groupbyField": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "bool"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Group by field"
+      },
+      "labelField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Field to show as label"
+      },
+      "isStack": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Stack mode"
+      },
+      "isPercent": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "100% percent mode"
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "direction": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Direction"
+      },
+      "legendLayout": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "legend Layout",
+        "defaultValue": {
+          "value": "'vertical'",
+          "computed": false
+        }
+      },
+      "legendPosition": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Legend Position",
+        "defaultValue": {
+          "value": "'right'",
+          "computed": false
+        }
+      },
+      "labelPosition": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Label Position",
+        "defaultValue": {
+          "value": "'middle'",
+          "computed": false
+        }
+      },
+      "showLegend": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show legend",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "showLabels": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show Labels",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "onReady": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "onReady"
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "loading state"
+      }
+    }
+  },
+  "src/lib/components/DvpCatStats.js": {
+    "description": "A component to describe categorical data",
+    "displayName": "DvpCatStats",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "A list of values"
+      },
+      "variable": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable"
+      },
+      "groupBy": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by"
+      },
+      "missingValues": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "missingValues",
+        "defaultValue": {
+          "value": "[99999, 88888, 9999, 8888, 8881, 8882, 7777, 6666]",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Classname"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "alias": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Alias - A dict to rename the variable",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "labels": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "labels - A dict to remape the numbers into category",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "pagination": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "exact",
+              "value": {
+                "position": {
+                  "name": "enum",
+                  "value": [
+                    {
+                      "value": "'topLeft'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'topCenter'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'topRight'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'bottomLeft'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'bottomCenter'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'bottomRight'",
+                      "computed": false
+                    }
+                  ],
+                  "required": false
+                },
+                "pageSize": {
+                  "name": "number",
+                  "required": false
+                },
+                "current": {
+                  "name": "number",
+                  "required": false
+                },
+                "showSizeChanger": {
+                  "name": "bool",
+                  "required": false
+                },
+                "pageSizeOptions": {
+                  "name": "arrayOf",
+                  "value": {
+                    "name": "number"
+                  },
+                  "required": false
+                },
+                "showTotal": {
+                  "name": "bool",
+                  "required": false
+                },
+                "showQuickJumper": {
+                  "name": "bool",
+                  "required": false
+                },
+                "showTotalPrefix": {
+                  "name": "string",
+                  "required": false
+                },
+                "showTotalSuffix": {
+                  "name": "string",
+                  "required": false
+                },
+                "hideOnSinglePage": {
+                  "name": "bool",
+                  "required": false
+                },
+                "simple": {
+                  "name": "bool",
+                  "required": false
+                },
+                "disabled": {
+                  "name": "bool",
+                  "required": false
+                },
+                "size": {
+                  "name": "enum",
+                  "value": [
+                    {
+                      "value": "'default'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'small'",
+                      "computed": false
+                    }
+                  ],
+                  "required": false
+                },
+                "total": {
+                  "name": "number",
+                  "required": false
+                }
+              }
+            },
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Config of pagination. You can ref table pagination config or full pagination document, hide it by setting it to false",
+        "defaultValue": {
+          "value": "{\n    defaultPageSize: 20,\n    hideOnSinglePage: true,\n    showSizeChanger: false,\n}",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/DvpHistogram.react.js": {
+    "description": "Plotly Express Histogram",
+    "displayName": "DvpHistogram",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "valueField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "valueField"
+      },
+      "groupbyField": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "bool"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Group by field"
+      },
+      "wrapperHeight": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "wrapperHeight",
+        "defaultValue": {
+          "value": "500",
+          "computed": false
+        }
+      },
+      "nBins": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "No. of bins"
+      },
+      "bgColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Background color"
+      },
+      "plotBgColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Plot background color"
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "groupbyFieldOrder": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Groupby field order",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "showLegend": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show legend",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "showBox": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show box",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "showLabels": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show Labels"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "loading state"
+      }
+    }
+  },
+  "src/lib/components/DvpNumStats.js": {
+    "description": "A component to describe numerical variables",
+    "displayName": "DvpNumStats",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "A list of values"
+      },
+      "variable": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable"
+      },
+      "variable2": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Variable 2"
+      },
+      "groupBy": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by"
+      },
+      "missingValues": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "missingValues",
+        "defaultValue": {
+          "value": "[99999, 88888, 9999, 8888, 8881, 8882, 7777, 6666]",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Classname"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "alias": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Alias - A dict to rename the variable",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "labels": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "labels - A dict to remape the numbers into category",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "pagination": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "exact",
+              "value": {
+                "position": {
+                  "name": "enum",
+                  "value": [
+                    {
+                      "value": "'topLeft'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'topCenter'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'topRight'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'bottomLeft'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'bottomCenter'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'bottomRight'",
+                      "computed": false
+                    }
+                  ],
+                  "required": false
+                },
+                "pageSize": {
+                  "name": "number",
+                  "required": false
+                },
+                "current": {
+                  "name": "number",
+                  "required": false
+                },
+                "showSizeChanger": {
+                  "name": "bool",
+                  "required": false
+                },
+                "pageSizeOptions": {
+                  "name": "arrayOf",
+                  "value": {
+                    "name": "number"
+                  },
+                  "required": false
+                },
+                "showTotal": {
+                  "name": "bool",
+                  "required": false
+                },
+                "showQuickJumper": {
+                  "name": "bool",
+                  "required": false
+                },
+                "showTotalPrefix": {
+                  "name": "string",
+                  "required": false
+                },
+                "showTotalSuffix": {
+                  "name": "string",
+                  "required": false
+                },
+                "hideOnSinglePage": {
+                  "name": "bool",
+                  "required": false
+                },
+                "simple": {
+                  "name": "bool",
+                  "required": false
+                },
+                "disabled": {
+                  "name": "bool",
+                  "required": false
+                },
+                "size": {
+                  "name": "enum",
+                  "value": [
+                    {
+                      "value": "'default'",
+                      "computed": false
+                    },
+                    {
+                      "value": "'small'",
+                      "computed": false
+                    }
+                  ],
+                  "required": false
+                },
+                "total": {
+                  "name": "number",
+                  "required": false
+                }
+              }
+            },
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Config of pagination. You can ref table pagination config or full pagination document, hide it by setting it to false",
+        "defaultValue": {
+          "value": "{\n    defaultPageSize: 20,\n    hideOnSinglePage: true,\n    showSizeChanger: false,\n}",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/DvpScatter.react.js": {
+    "description": "Scatter",
+    "displayName": "DvpScatter",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "x Field",
+        "defaultValue": {
+          "value": "'x'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "y Field",
+        "defaultValue": {
+          "value": "'y'",
+          "computed": false
+        }
+      },
+      "xAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis title"
+      },
+      "yAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y axis title"
+      },
+      "groupbyField": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "bool"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Group by field"
+      },
+      "sizeField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Size Field"
+      },
+      "regrs": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Regression equations in a list of dict"
+      },
+      "legendLayout": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "legend Layout"
+      },
+      "legendPosition": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Legend Position"
+      },
+      "showLegend": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show legend"
+      },
+      "size": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number"
+            },
+            {
+              "name": "array"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Size or size range",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "annotations": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "annotations"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "loading state"
+      }
+    }
+  },
+  "src/lib/components/DvpTextRender.react.js": {
+    "description": "Text inputs",
+    "displayName": "TextRender",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/DvpWordCloud.react.js": {
+    "description": "Ant Design word cloud",
+    "displayName": "DvpWordCloud",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "wordField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "wordField"
+      },
+      "colorField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "colorField"
+      },
+      "weightField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "weightField"
+      },
+      "fontSize": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "Range of font size",
+        "defaultValue": {
+          "value": "[24, 80]",
+          "computed": false
+        }
+      },
+      "queryURL": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Query url",
+        "defaultValue": {
+          "value": "'https://www.google.com/search?q='",
+          "computed": false
+        }
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvpWordGraph.react.js": {
+    "description": "Word network graph based on Echarts",
+    "displayName": "DvpWordGraph",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "layoutType": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Layout type",
+        "defaultValue": {
+          "value": "'none'",
+          "computed": false
+        }
+      },
+      "lineStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Line style",
+        "defaultValue": {
+          "value": "{\n    color: 'source',\n    curveness: 0.3,\n}",
+          "computed": false
+        }
+      },
+      "force": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Force"
+      },
+      "draggable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Draggable",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "queryURL": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Query url",
+        "defaultValue": {
+          "value": "'https://www.google.com/search?q='",
+          "computed": false
+        }
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/Renders/DesRender.react.js": {
+    "description": "Descriptive stats inputs",
+    "displayName": "DesRender",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "inputs": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inputs",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/Theme.react.js": {
+    "description": "An Ant Design ConfigProvider\nSee https://ant.design/docs/react/customize-theme",
+    "displayName": "Theme",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Child components inside the space"
+      },
+      "colorPrimary": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Primary color",
+        "defaultValue": {
+          "value": "'#6366f1'",
+          "computed": false
+        }
+      },
+      "colorSuccess": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Success color",
+        "defaultValue": {
+          "value": "'#13c2b7'",
+          "computed": false
+        }
+      },
+      "colorWarning": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Warning color",
+        "defaultValue": {
+          "value": "'#faad14'",
+          "computed": false
+        }
+      },
+      "colorInfo": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Info color",
+        "defaultValue": {
+          "value": "'#6366f1'",
+          "computed": false
+        }
+      },
+      "colorTextBase": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Text color",
+        "defaultValue": {
+          "value": "'#424245'",
+          "computed": false
+        }
+      },
+      "colorBgLayout": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Layout background color",
+        "defaultValue": {
+          "value": "'#f0f2f5'",
+          "computed": false
+        }
+      },
+      "colorBgContainer": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Container background color",
+        "defaultValue": {
+          "value": "'#ffffff'",
+          "computed": false
+        }
+      },
+      "fontSize": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Font size",
+        "defaultValue": {
+          "value": "12",
+          "computed": false
+        }
+      },
+      "fontFamily": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Font family",
+        "defaultValue": {
+          "value": "\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'\"",
+          "computed": false
+        }
+      },
+      "wireframe": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Wireframe",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      }
+    }
+  }
+}
