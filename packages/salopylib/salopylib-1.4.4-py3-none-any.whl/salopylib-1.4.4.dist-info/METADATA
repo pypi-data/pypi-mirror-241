@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: salopylib
+Version: 1.4.4
+Summary: Ajuste de datos con Kernels
+Home-page: https://www.instagram.com/salo_mei343/
+Author: Salo <3
+Author-email: salome.osoriom@udea.edu.co
+License: MIT
+Requires-Python: >=3.11.2
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: matplotlib ==3.8.1
+Requires-Dist: pandas ==2.1.2
+
+# Libreria con 4 mÃ³dulos para el ajuste de datos con Kernels diferentes.
+
+## Modulo 1.
+Cuenta con una clase que realiza el ajuste de datos de fecha vs cantidad a una curva suave por medio de un kernel gaussiano mediante el metodo ajusteGauss, y los grafica, con el metodo de plotG.
+
+## Modulo 2.
+Cuenta con una clase que realiza el ajuste de datos de fecha vs cantidad a una curva suave por medio de un kernel Tricube mediante el mÃ©todo ajuste3C, y los grafica, con el metodo de plot3C.
+
+## Modulo 3.
+Cuenta con una clase que realiza el ajuste de datos de fecha vs cantidad a una curva suave por medio de un kernel de Epanechnikov mediante el mÃ©todo ajusteEpa, y los grafica, con el metodo de plotE.
+
+## MÃ³dulo 4.
+Cuenta con una clase que realiza la comparacion grafica entre los kernels Gaussiano, Tricube y Epanechnikov para ajuste de datos de fecha vs cantidad a una curva suave y hace su respectiva graficaciÃ³n en el mÃ©todo plotComp,
+
+Todos los metodos necesitan los siguientes datos:
+    path: direccion en que se encuentra el archivo csv que contiene los datos. 
+    h: factor que determina la "suavidad" de la curva y la exactitud del ajuste. Entre menor sea su valor
+        mas suave sera la curva de ajuste pero mas se alejara de los datos ingresados y viceversa.
+
+    Nota: La columnas del archivo csv a usar deben tener el nombre literal: fecha_actualizacion y       nuevos_casos
