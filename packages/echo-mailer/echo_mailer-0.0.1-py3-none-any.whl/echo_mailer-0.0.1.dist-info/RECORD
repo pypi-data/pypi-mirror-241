@@ -1,0 +1,8 @@
+echo_mailer/__init__.py,sha256=1IDfov3PiA0O-buu_NeA5ajUnCwoOFt5dtuHGTshgKY,665
+echo_mailer/main.py,sha256=B0IRgBpldnXwRD2ieqZbIRCJwQbGGb-OQD17MDGRQw0,5921
+echo_mailer/test.py,sha256=nh_9dEhfdNdd1tiiGiAp7XG5qBgswDNceTfwmHaZFS8,263
+echo_mailer-0.0.1.dist-info/LICENSE,sha256=FwsrlEGCw9ITz4V9yT4Z1jLSr-ZWsB8hJRwq6BVJBnE,1087
+echo_mailer-0.0.1.dist-info/METADATA,sha256=uSd3npBZfIUjZfRkcg4EYLYFuf5fEGwxQEY6eLfkoLg,614
+echo_mailer-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+echo_mailer-0.0.1.dist-info/top_level.txt,sha256=blM2F6ZIfS1DTpem5BNI_k1dTdujKEhL0-swr4XAWjs,12
+echo_mailer-0.0.1.dist-info/RECORD,,
