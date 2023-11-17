@@ -1,0 +1,1 @@
+import{at as m}from"./routes-7e4fc71d.js";import"./index-ebb97cb7.js";import"./useReport-3eabe4cc.js";const n=["static","dynamic"],r=t=>({type:"string",description:"text string",example_data:t.value||"hello world"});export{m as Component,r as document,n as modes};
