@@ -1,0 +1,8 @@
+README.md
+setup.py
+kittybro_test/__init__.py
+kittybro_test/kittybro_test.py
+kittybro_test.egg-info/PKG-INFO
+kittybro_test.egg-info/SOURCES.txt
+kittybro_test.egg-info/dependency_links.txt
+kittybro_test.egg-info/top_level.txt
