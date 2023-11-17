@@ -1,0 +1,6 @@
+python-magic
+click
+protobuf
+networkx
+enum_tools
+idascript
