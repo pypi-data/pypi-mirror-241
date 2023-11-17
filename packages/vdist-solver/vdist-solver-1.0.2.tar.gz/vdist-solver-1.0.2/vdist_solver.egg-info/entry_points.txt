@@ -1,0 +1,4 @@
+[console_scripts]
+gen-backtrace = vdsolver.tools.gentemp:gentemp_backtrace
+gen-vdsolver = vdsolver.tools.gentemp:gentemp_vdsolver
+

@@ -1,0 +1,81 @@
+"""Calculate and plot particle orbit using the backtrace method.
+
+    How to run
+    ----------
+    $ python backtrace-solver.py -d <directory> -index <index> -i <ispec> -o output.png
+"""
+from argparse import ArgumentParser
+
+import emout
+import matplotlib.pyplot as plt
+import numpy as np
+
+from vdsolver.core import BackTraceTarget, plot_periodic
+from vdsolver.sims.essimulator import ChargedParticle
+from vdsolver.tools.emses import create_default_simulator
+
+
+def parse_args():
+    parser = ArgumentParser()
+
+    parser.add_argument('--directory', '-d', default='./')
+
+    parser.add_argument('--istep', '-is', default=-1, type=int)
+    parser.add_argument('--ispec', '-i', default=0, type=int)
+
+    parser.add_argument('--dt', '-dt', default=1.0, type=float)
+    parser.add_argument('--maxstep', '-ms', default=10000, type=int)
+
+    parser.add_argument('--use_si', action='store_true')
+
+    parser.add_argument('--output', '-o', default=None)
+
+    return parser.parse_args()
+
+
+def create_simulator(*args, **kwargs):
+    sim = None
+    return sim
+
+
+def main():
+    args = parse_args()
+
+    data = emout.Emout(args.directory)
+
+    pos = np.array([0, 0, 0])
+    vel = np.array([0, 0, 0])
+
+    # Create simulator
+    sim = create_default_simulator(data, args.ispec, args.istep)
+    # sim = create_simulator()
+
+    pcl_prototype = ChargedParticle.create_prototype(q_m=data.inp.qm[args.ispec])
+    target = BackTraceTarget(sim,
+                             pcl_prototype,
+                             data.inp.dt*args.dt,
+                             pos,
+                             vel,
+                             args.maxstep,
+                             )
+
+    history, prob, pcl_last = target.solve()
+
+    if args.use_si:
+        for pcl in history:
+            pcl.pos = data.unit.length.reverse(pcl.pos)
+            pcl.vel = data.unit.v.reverse(pcl.vel)
+            pcl.t = data.unit.t.reverse(pcl.t)
+
+    plot_periodic(history, idxs=[{i1}, {i2}])
+    plt.xlabel('{C1}')
+    plt.ylabel('{C2}')
+
+    if args.output is None:
+        plt.show()
+    else:
+        plt.gcf().savefig(args.output)
+
+
+if __name__ == '__main__':
+    main()
