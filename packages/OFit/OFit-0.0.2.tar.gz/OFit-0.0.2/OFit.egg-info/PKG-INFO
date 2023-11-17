@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: OFit
+Version: 0.0.2
+Summary: Esta libreria se encarga de realizar el analisis de datos usando un kernel gaussiano, trucube y Epanechnikov
+Home-page: UNKNOWN
+Author: Juan Esteban Ospina 
+Author-email: juan.ospina25@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+## Kernel
+
+Esta librería contiene las funciones que se encargan de realizar ajustes usando tres tipos de kernels:
+
+* kernel gaussiano
+* kernel Tricube
+* kernel Epachinechnikov
+
+Para usar la librería es necesario pasar la dirrección a un archivo csv que se encuentre en el entorno local.
+
