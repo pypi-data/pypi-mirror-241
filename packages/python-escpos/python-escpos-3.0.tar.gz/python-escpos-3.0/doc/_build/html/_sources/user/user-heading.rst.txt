@@ -1,0 +1,13 @@
+******************
+User Documentation
+******************
+
+.. toctree::
+   :hidden:
+
+   user/installation.rst
+   user/methods.rst
+   user/printers.rst
+   user/raspi.rst
+   user/usage.rst
+   user/barcode.rst

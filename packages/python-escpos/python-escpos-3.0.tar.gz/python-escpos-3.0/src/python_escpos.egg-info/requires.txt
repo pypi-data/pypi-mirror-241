@@ -1,0 +1,36 @@
+Pillow>=2.0
+PyYAML
+appdirs
+argcomplete
+argparse
+importlib_resources
+python-barcode<1,>=0.9.1
+qrcode>=4.0
+setuptools
+six
+
+[all]
+pyserial
+pyusb>=1.0.0
+
+[all:platform_system != "Windows"]
+pycups
+
+[all:platform_system == "Windows"]
+pywin32
+
+[cups]
+
+[cups:platform_system != "Windows"]
+pycups
+
+[serial]
+pyserial
+
+[usb]
+pyusb>=1.0.0
+
+[win32]
+
+[win32:platform_system == "Windows"]
+pywin32
