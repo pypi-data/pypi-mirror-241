@@ -1,0 +1,8 @@
+voyage_embedders/__about__.py,sha256=YIz4JUSHH21q4tRCxwFT19RQYDTLZVEF4D4-Z36h2OU,118
+voyage_embedders/__init__.py,sha256=Ny_gph4T2Oo-8qXMLdk170QBptxQ9B2RI-VWKmpJtMs,312
+voyage_embedders/voyage_document_embedder.py,sha256=vxNy1jJeifkpWkfkDWMZGNEAYznJwnVHYVAU-0OuBcI,6106
+voyage_embedders/voyage_text_embedder.py,sha256=tcv-1ljYZf5uqWa_TA9NId7zCHrwwitB9bil3BcJ-aQ,2803
+voyage_embedders-1.0.0.dist-info/METADATA,sha256=Ku9GKwjSTXovx2qj6nHJUCUWF0fn9FGcBeBlKvNoU_w,1293
+voyage_embedders-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+voyage_embedders-1.0.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+voyage_embedders-1.0.0.dist-info/RECORD,,
