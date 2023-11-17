@@ -1,0 +1,9 @@
+README.md
+setup.py
+kernelparcial/__init__.py
+kernelparcial/modulo.py
+kernelparcial.egg-info/PKG-INFO
+kernelparcial.egg-info/SOURCES.txt
+kernelparcial.egg-info/dependency_links.txt
+kernelparcial.egg-info/requires.txt
+kernelparcial.egg-info/top_level.txt

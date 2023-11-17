@@ -1,0 +1,63 @@
+# Kernels
+
+Esta es una clase de Python que implementa el kernel gaussiano, kernel tricúbico y kernel Epanechnikov para suavizar una serie de tiempo. Esta clase permite cargar datos desde un archivo CSV, suavizar la serie de tiempo y graficar tanto la serie original como la suavizada.
+
+## Requisitos
+
+Asegúrate de tener instaladas las siguientes bibliotecas antes de utilizar esta clase:
+
+- pandas
+- numpy
+- matplotlib
+
+Puedes instalarlas utilizando `pip`:
+
+```bash
+pip install pandas numpy matplotlib
+```
+
+## Uso
+
+```python
+from kernelparcial import Kernels
+
+# Inicializa la clase con la ruta del archivo CSV y el valor de sigma (parámetro de suavizado)
+kernels = Kernels("archivo.csv", sigma)
+
+# Grafica la serie de tiempo original y suavizada con el Kernel Gaussiano.
+kernels.PlotGaussianKernel()
+
+# Grafica la serie de tiempo original y suavizada con el Kernel Tricúbico .
+kernels.PlotTricubeKernel()
+
+# Grafica la serie de tiempo original y suavizada con el Kernel Epanechnikov.
+kernels.PlotEpanechnikovKernel()
+
+#Grafica la serie de tiempo original y la suavizada con los Kernel Gaussianos, Tricúbico y Epanechnikov.
+kernels.PlotAllKernels()
+```
+
+## Parámetros
+
+- `data` (str): Ruta del archivo CSV con los datos de la serie de tiempo.
+- `sigma` (float): Parámetro de suavizado.
+
+Nota: El archivo CSV debe contener dos columnas con los nombres 'fecha_actualizacion' y 'nuevos_casos' para que esta clase funcione correctamente.
+
+## Ejemplo
+
+```python
+kernel = KernelGaussiano("datos_covid.csv", 3.0)
+kernel.PlotAllKernels()
+```
+
+## Créditos
+
+Esta librería fue desarrollada por Luciano Muñoz.
+
+## Contacto
+
+Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo a través de mi correo electrónico: [luciano.munoz1@udea.edu.co].
+
+
+
