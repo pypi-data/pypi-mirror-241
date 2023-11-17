@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel-automake", "cmeel-texinfo", "cmeel[build]"]
+
+[project]
+description = "cmeel distribution for gettext"
+license = "GPL-3.0-or-later"
+name = "cmeel-gettext"
+requires-python = ">= 3.8"
+version = "0.22.3"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-gettext"
+repository = "https://github.com/cmake-wheel/cmeel-gettext.git"
+
+[tool.cmeel]
+has-sitelib = false
+run-tests = false
+
+[tool.tomlsort]
+all = true
