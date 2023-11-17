@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./up_spiderplan/__init__.py
+./up_spiderplan/converter.py
+./up_spiderplan/solver.py
+./up_spiderplan/util.py
+tests/test.py
+tests/test_classical.py
+up_spiderplan.egg-info/PKG-INFO
+up_spiderplan.egg-info/SOURCES.txt
+up_spiderplan.egg-info/dependency_links.txt
+up_spiderplan.egg-info/requires.txt
+up_spiderplan.egg-info/top_level.txt
