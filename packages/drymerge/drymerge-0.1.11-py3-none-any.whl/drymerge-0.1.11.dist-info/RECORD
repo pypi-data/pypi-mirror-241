@@ -1,0 +1,7 @@
+module/__init__.py,sha256=c-N-wgOx3Y1AXMdVYbceoXLGGDVq3qVNpSqnCFo7T20,58
+module/client.py,sha256=baYWSSmpiC53rgeqTknI-ePhE08dELX8lI31xzi2Utc,10124
+module/identity.py,sha256=ksLMiHzr7C8lLbjm7g9FqwGXz-zSV552-nCDIH09aJQ,2232
+drymerge-0.1.11.dist-info/METADATA,sha256=6hASnV7e1QqZz-nYNlBVfVIKbHkuJmo4ZMgNvvycs2Y,164
+drymerge-0.1.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drymerge-0.1.11.dist-info/top_level.txt,sha256=rCVQUTc7DucbyvV1vRKPlp8MRkSTuDqKf-ZCJsPhQHc,7
+drymerge-0.1.11.dist-info/RECORD,,
