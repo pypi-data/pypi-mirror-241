@@ -1,0 +1,10 @@
+pypagecache/__init__.py,sha256=0GmRHmDvpBU63wixr1q00xDjS53cnDb3RCK_hDSN5UI,136
+pypagecache/cli.py,sha256=qGs_A-9olBTOlAlQzer508FCyrGh_T7E6CkNvZWewTc,1083
+pypagecache/main.py,sha256=E6Zyaz-LLgcsOJW5KSVhTSqJnvSwrqKTyIt2YuhefP8,3304
+pypagecache/pagecache.py,sha256=IzRihTka9_oGAP3R7j_hfFMXbb4_TdTX1MAxNEwK2_8,3278
+pypagecache/syscallwrapperutils.py,sha256=RthNgrIOmYcFPfqtzubNCLtDRznhUlxoacC1tlF84kw,3077
+pypagecache-0.5.0.dist-info/METADATA,sha256=8--aGINe_vxfPm1lRCZ5vwVy5TS3jihqayckH1bDAp0,5947
+pypagecache-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypagecache-0.5.0.dist-info/entry_points.txt,sha256=STGOqLk4rvh1F3Ctz5oGSDItS5iBCPIIkHjP56pgCvM,53
+pypagecache-0.5.0.dist-info/top_level.txt,sha256=DXHH8a_tgExnYJzehyjRRsj5inlAyg186iuhzMWfE5Q,12
+pypagecache-0.5.0.dist-info/RECORD,,
