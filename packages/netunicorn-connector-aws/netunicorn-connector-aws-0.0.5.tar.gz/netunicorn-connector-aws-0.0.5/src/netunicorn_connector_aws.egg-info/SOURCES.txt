@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/netunicorn/director/infrastructure/connectors/__init__.py
+src/netunicorn/director/infrastructure/connectors/aws.py
+src/netunicorn_connector_aws.egg-info/PKG-INFO
+src/netunicorn_connector_aws.egg-info/SOURCES.txt
+src/netunicorn_connector_aws.egg-info/dependency_links.txt
+src/netunicorn_connector_aws.egg-info/requires.txt
+src/netunicorn_connector_aws.egg-info/top_level.txt

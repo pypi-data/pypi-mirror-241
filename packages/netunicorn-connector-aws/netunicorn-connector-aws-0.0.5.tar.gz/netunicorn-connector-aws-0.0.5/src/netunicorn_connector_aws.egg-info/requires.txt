@@ -1,0 +1,3 @@
+netunicorn-base>=0.3.1
+pyyaml
+boto3
