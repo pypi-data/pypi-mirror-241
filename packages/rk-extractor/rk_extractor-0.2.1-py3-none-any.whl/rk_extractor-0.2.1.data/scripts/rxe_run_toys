@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+VENV=RK_TOY
+mkdir -p $VENV
+
+python3 -m venv $VENV
+source $VENV/bin/activate
+
+source /cvmfs/sft.cern.ch/lcg/views/dev3/latest/x86_64-centos7-gcc12-opt/setup.sh
+
+pip3 install --upgrade pip
+pip3 install "rk-extractor>=0.0.7"
+
+for TARBALL in `ls *.tar.gz`;do
+    tar -xf $TARBALL
+done
+
+ls
+./rxe_toys
+
