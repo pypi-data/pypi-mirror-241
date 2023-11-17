@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gist_import/__init__.py
+gist_import/execution.py
+gist_import/imports.py
+gist_import.egg-info/PKG-INFO
+gist_import.egg-info/SOURCES.txt
+gist_import.egg-info/dependency_links.txt
+gist_import.egg-info/requires.txt
+gist_import.egg-info/top_level.txt
