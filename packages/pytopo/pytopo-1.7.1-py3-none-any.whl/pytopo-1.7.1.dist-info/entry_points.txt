@@ -1,0 +1,6 @@
+[console_scripts]
+degreeconv = pytopo.MapUtils:main
+ellie = pytopo.trackstats:main
+
+[gui_scripts]
+pytopo = pytopo.MapViewer:main
