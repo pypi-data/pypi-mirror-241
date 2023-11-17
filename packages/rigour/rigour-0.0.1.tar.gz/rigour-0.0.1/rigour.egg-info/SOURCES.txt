@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rigour/__init__.py
+rigour.egg-info/PKG-INFO
+rigour.egg-info/SOURCES.txt
+rigour.egg-info/dependency_links.txt
+rigour.egg-info/namespace_packages.txt
+rigour.egg-info/not-zip-safe
+rigour.egg-info/requires.txt
+rigour.egg-info/top_level.txt
