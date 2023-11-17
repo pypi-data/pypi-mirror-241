@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: taskingai
+Version: 0.0.1
+Summary: FastAPI
+Home-page: 
+Author-email: support@tasking.ai
+Keywords: TaskingAI,LLM,AI
+Requires-Dist: urllib3 >=1.15
+Requires-Dist: six >=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    No description provided 
+    
