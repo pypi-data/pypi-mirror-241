@@ -1,0 +1,37 @@
+[project]
+name = "pdm-pyfuture"
+dynamic = []
+description = ""
+authors = [
+    { name = "Zhan Rongrui", email = "2742392377@qq.com" },
+]
+dependencies = [
+    "pyfuture",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+version = "0.1.dev10"
+
+[project.license]
+text = "MIT"
+
+[project.entry-points."pdm.build.hook"]
+pyfuture = "pdm_pyfuture.build:PyFutureBuildHook"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.build]
+includes = [
+    "pdm_pyfuture",
+]
+source-includes = [
+    "LICENSE",
+    "README.md",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
