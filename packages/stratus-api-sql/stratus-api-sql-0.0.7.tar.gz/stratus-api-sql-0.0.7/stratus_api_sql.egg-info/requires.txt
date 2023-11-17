@@ -1,0 +1,3 @@
+sqlalchemy==2.0.22
+stratus-api-core>=0.0.30
+alembic==1.12.0
