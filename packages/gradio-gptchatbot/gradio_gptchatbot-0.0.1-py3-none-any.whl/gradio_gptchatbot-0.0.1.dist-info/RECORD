@@ -1,0 +1,6 @@
+gradio_gptchatbot/__init__.py,sha256=5hcpdX3alupWutnW3ty6M6oRyuDgoGtJMoYt1VwWOnw,62
+gradio_gptchatbot/gptchatbot.py,sha256=EH5VdVDY9saYFNDO-l9knSXNyg_wZoUddh7cMwTxApo,12076
+gradio_gptchatbot/gptchatbot.pyi,sha256=4aLVWyrboYXWxBscxLTWIL8VKS1VXPBfQ2RO1R2Xga4,24667
+gradio_gptchatbot-0.0.1.dist-info/METADATA,sha256=I5CFtri5woZvCv1KiV99gcKyHMWEFR8I1wnVIScHRXk,1205
+gradio_gptchatbot-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gradio_gptchatbot-0.0.1.dist-info/RECORD,,
