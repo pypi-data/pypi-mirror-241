@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+syahrulromadhonmuhammad_negara.egg-info/PKG-INFO
+syahrulromadhonmuhammad_negara.egg-info/SOURCES.txt
+syahrulromadhonmuhammad_negara.egg-info/dependency_links.txt
+syahrulromadhonmuhammad_negara.egg-info/top_level.txt
