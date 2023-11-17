@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aurapy
+Version: 2.9.0
+Summary: Aura actuator interface
+Home-page: https://gitlab.com/kytheralab/aurapy
+Author: Guillaume Giraud
+Author-email: guillaume.giraud@kythera.fr
+Maintainer: Guillaume Giraud
+Maintainer-email: guillaume.giraud@kythera.fr
+License: MIT
+Keywords: robotics,actuator,bldc,motor,servo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: packaging
+Provides-Extra: test
+Requires-Dist: pytest >=6.0 ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+
+file: aurapy/README.md
