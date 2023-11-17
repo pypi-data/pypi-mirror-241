@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: openirt
+Version: 0.1.11
+Summary: Item response theory toolkit
+Home-page: https://gitlab.com/pleased/item-response-theory-toolkit
+Author: Johan Hay
+License: GPL-3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
