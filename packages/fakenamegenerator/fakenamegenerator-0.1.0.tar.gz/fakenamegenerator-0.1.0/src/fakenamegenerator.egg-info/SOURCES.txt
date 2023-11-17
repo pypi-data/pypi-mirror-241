@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/fakenamegenerator/__init__.py
+src/fakenamegenerator/fake_person.py
+src/fakenamegenerator/main.py
+src/fakenamegenerator.egg-info/PKG-INFO
+src/fakenamegenerator.egg-info/SOURCES.txt
+src/fakenamegenerator.egg-info/dependency_links.txt
+src/fakenamegenerator.egg-info/requires.txt
+src/fakenamegenerator.egg-info/top_level.txt

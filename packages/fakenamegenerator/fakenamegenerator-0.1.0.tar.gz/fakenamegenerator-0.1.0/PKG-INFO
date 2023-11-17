@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: fakenamegenerator
+Version: 0.1.0
+Summary: Very mimimalistic unofficial python API for fakenamegenerator.com
+Author: Vetochka
+Author-email: vetochka@ulis.family
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FakeNameGenerator Python API
+
+![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+A minimalistic Python API for generating fake identities using the [Fake Name Generator](https://www.fakenamegenerator.com/) service.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install fakenamegenerator
+```
+
+## Usage
+```python
+from fakenamegenerator import getIdentity
+
+# Get a fake identity with default age range (19 to 85)
+myPerson = getIdentity()
+
+# Get a fake identity with custom age range (25 to 35)
+customPerson = getIdentity(minage=25, maxage=35)
+
+# Accessing attributes of FakePerson instance
+print(f"Name: {myPerson.name}")
+print(f"Age: {myPerson.age}")
+print(f"Address: {myPerson.address}")
+# ...
+```
+
+#### Optional flags:
+
+* worldWide
+    - description: Generate identity worldwide, rather than using the default provided by the external service (e.g., with an American nameset from the US).
+    - default: false
+* genderRatio
+    - description: An integer number from 0 to 100 providing the statistical ratio of the generated person's gender. The gender is represented as a binary value due to service limitations.
+    - default: 50
+* nameSet
+    - description: The list of namesets the identity is generated from. When worldWide is True, these namesets will be added to the randomly generated nameset list. Find the available values below.
+    - default: empty list
+* countrySet
+    - description: The list of countries where the identity can reside. When worldWide is True, these countries will be added to the randomly generated countries list. Find the available values below.
+    - default: empty list
+
+#### Optional flags - available values:
+
+    * nameSet
+        - us - American
+        - ar - Arabic
+        - au - Australian
+        - br - Brazil
+        - celat - Chechen (Latin)
+        - ch - Chinese
+        - zhtw - Traditional Chinese
+        - hr - Croatian
+        - cs - Czech
+        - dk - Danish
+        - nl - Dutch
+        - en - England/Wales
+        - er - Eritrean
+        - fi - Finnish
+        - fr - French
+        - gr - German
+        - gl - Greenland
+        - sp - Hispanic
+        - hobbit - Hobbit
+        - hu - Hungarian
+        - is - Icelandic
+        - ig - Igbo
+        - it - Italian
+        - jpja - Japanese
+        - tlh - Klingon
+        - ninja - Ninja
+        - no - Norwegian
+        - fa - Persian
+        - pl - Polish
+        - ru - Russian
+        - rucyr - Russian (Cyrillic)
+        - gd - Scottish
+        - sl - Slovenian
+        - sw - Swedish
+        - th - Thai
+        - vn - Vietnamese
+
+    * nameSet
+        - au - Australia
+        - as - Austria
+        - bg - Belgium
+        - br - Brazil
+        - ca - Canada
+        - cyen - Cyprus (Anglicized)
+        - cygk - Cyprus (Greek)
+        - cz - Czech Republic
+        - dk - Denmark
+        - ee - Estonia
+        - fi - Finland
+        - fr - France
+        - gr - Germany
+        - gl - Greenland
+        - hu - Hungary
+        - is - Iceland
+        - it - Italy
+        - nl - Netherlands
+        - nz - New Zealand
+        - no - Norway
+        - pl - Poland
+        - pt - Portugal
+        - sl - Slovenia
+        - za - South Africa
+        - sp - Spain
+        - sw - Sweden
+        - sz - Switzerland
+        - tn - Tunisia
+        - uk - United Kingdom
+        - us - United States
+        - uy - Uruguay
+
+## Return type: FakePerson Class
+
+The getIdentity function returns an instance of the FakePerson class with the following attributes:
+
+- name: Full name
+- address: Address
+- phone_local: Local part of the phone number
+- phone_code: Area code of the phone number
+- age: Age
+- birthday: Birthday
+- zodiac: Zodiac sign
+- blood: Blood type
+
+Additional (Computable) Properties:
+
+- first_name: First name
+- last_name: Last name
+- blood_type: Blood type (empty string for O, for convenient type comparison)
+- blood_resus: Blood type's Rh factor
+- phone: Formatted phone number
+- birthday_date: Birthday as a date object
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
