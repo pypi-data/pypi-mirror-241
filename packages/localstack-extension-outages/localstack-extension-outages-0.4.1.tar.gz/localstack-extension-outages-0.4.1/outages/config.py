@@ -1,0 +1,1 @@
+OUTAGE_CONFIG=[]

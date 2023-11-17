@@ -1,0 +1,9 @@
+_F='^[a-zA-Z0-9-*.]*$'
+_E='string'
+_D='pattern'
+_C='service'
+_B='region'
+_A='type'
+CONFIG_ENDPOINT='outages.localhost.localstack.cloud:<port>'
+CONFIG_PATH='/outages'
+CONFIG_JSON_SCHEMA={_A:'array','items':{'minItems':2,'maxItems':2,'additionalProperties':False,'properties':{_B:{_A:_E,_D:_F},_C:{_A:_E,_D:_F}},'required':[_B,_C]},'uniqueItems':True}

@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: localstack-extension-outages
+Version: 0.4.1
+Summary: LocalStack Extension: Outages
+Home-page: https://localstack.cloud
+Author: LocalStack
+Author-email: support@localstack.cloud
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown; charset=UTF-8
+Provides-Extra: dev
+Provides-Extra: test
+
+LocalStack Outages Extension
+=============================================
+
+This LocalStack extension can simulate outages for any AWS region or service.
+
+## Prerequisites
+
+- LocalStack Pro
+- Docker
+- Python
+
+## Installation
+
+Before installing the extension, make sure you're logged into LocalStack. If not, log in using the following command:
+
+```bash
+localstack login
+```
+
+You can then install this extension using the following command:
+
+```bash
+localstack extensions install localstack-extension-outages
+```
+
+## Configuration
+
+The extension is configured using an API endpoint.
+The configuration consists of a list of rules which are greedily evaluated.
+Each rule consists of two attributes: service name and region.
+You may use the `*` wildcard in either of these attributes.
+
+Start an outage for a list of specified service/region pairs using a POST request like follows:
+
+```bash
+curl --location --request POST 'http://outages.localhost.localstack.cloud:4566/outages' \
+  --header 'Content-Type: application/json' \
+  --data '
+  [
+    {
+      "service": "kms",
+      "region": "us-east-1"
+    },
+    {
+      "service": "s3",
+      "region": "us-*"
+    }, 
+    {
+      "service": "lambda",
+      "region": "*"
+    }
+  ]'
+```
+
+When activated, API calls to affected services and regions will return a HTTP 503 Service Unavailable error.
+
+In the above example, following are affected:
+- KMS in `us-east-1`
+- S3 in all US regions (`us-east-1`, `us-east-2`, `us-west-1`, `us-west-2`, `us-gov-east-1` and `us-gov-west-1`)
+- Lambda in all regions
+
+Outages may be stopped by using empty list in the configuration.
+The following request will clear the current configuration:
+
+```bash
+curl --location --request POST 'http://outages.localhost.localstack.cloud:4566/outages' \
+  --header 'Content-Type: application/json' \
+  --data '[]'
+```
+
+To retrieve the current configuration, make the following GET call:
+
+```bash
+curl --location --request GET 'http://outages.localhost.localstack.cloud:4566/outages'
+```
+
+To add a new service/region rule pair to the configuration, make a PATCH call as follows:
+
+```bash
+curl --location --request PATCH 'http://outages.localhost.localstack.cloud:4566/outages' \
+  --header 'Content-Type: application/json' \
+  --data '[{"service": "transcribe", "region": "us-west-1"}]'
+```
+
+To remove a service/region rule pair from the configuration, make a DELETE call as follows:
+
+```bash
+curl --location --request DELETE 'http://outages.localhost.localstack.cloud:4566/outages' \
+  --header 'Content-Type: application/json' \
+  --data '[{"service": "transcribe", "region": "us-west-1"}]'
+```
+
+## License
+
+(c) 2023 LocalStack
+
+
