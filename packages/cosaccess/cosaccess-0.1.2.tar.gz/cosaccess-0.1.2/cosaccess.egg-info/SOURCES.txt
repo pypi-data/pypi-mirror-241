@@ -1,0 +1,11 @@
+README.md
+setup.py
+cosaccess/__init__.py
+cosaccess/cosaccess.py
+cosaccess/test.py
+cosaccess/test_credentials.py
+cosaccess.egg-info/PKG-INFO
+cosaccess.egg-info/SOURCES.txt
+cosaccess.egg-info/dependency_links.txt
+cosaccess.egg-info/requires.txt
+cosaccess.egg-info/top_level.txt
