@@ -1,0 +1,8 @@
+README.md
+setup.py
+jfrog_curation_malicious_dummy/main.py
+jfrog_curation_malicious_dummy.egg-info/PKG-INFO
+jfrog_curation_malicious_dummy.egg-info/SOURCES.txt
+jfrog_curation_malicious_dummy.egg-info/dependency_links.txt
+jfrog_curation_malicious_dummy.egg-info/entry_points.txt
+jfrog_curation_malicious_dummy.egg-info/top_level.txt
