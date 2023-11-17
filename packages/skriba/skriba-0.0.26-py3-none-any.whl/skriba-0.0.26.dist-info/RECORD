@@ -1,0 +1,8 @@
+skriba/__init__.py,sha256=UlWAGUvn0MM7uiz-LnXT__v88jSJAOFf8uzDw0WwZe4,21
+skriba/logger.py,sha256=n4X5iDvWJDVz3wko-wIz7YVRdZLw7SV8_2q_Z12D6Y0,5297
+skriba/messenger.py,sha256=KCdiJz816hVeLgJ-xDVnmVbLLC38o7h2bloIhYIxChg,3337
+skriba/plugins/worker_logger.py,sha256=wvinlj_4W-FNd7bigXwo-THJxQ_xkvb0CN4hHEO4zj4,2267
+skriba-0.0.26.dist-info/METADATA,sha256=GAk3_Cx6z8XjrfRiaj9ZkUDMud6H1D6-HFzMf6HXAts,1611
+skriba-0.0.26.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+skriba-0.0.26.dist-info/top_level.txt,sha256=vDg-OS00-b5GcJMXk4VrRqMdgnrjvV8Vo_PI72HEJOk,7
+skriba-0.0.26.dist-info/RECORD,,
