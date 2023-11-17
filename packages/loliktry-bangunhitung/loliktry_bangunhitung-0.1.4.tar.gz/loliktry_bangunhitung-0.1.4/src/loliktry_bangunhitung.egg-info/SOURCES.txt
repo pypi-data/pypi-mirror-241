@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/loliktry_bangunhitung/__init__.py
+src/loliktry_bangunhitung/rumusnya.py
+src/loliktry_bangunhitung.egg-info/PKG-INFO
+src/loliktry_bangunhitung.egg-info/SOURCES.txt
+src/loliktry_bangunhitung.egg-info/dependency_links.txt
+src/loliktry_bangunhitung.egg-info/top_level.txt
