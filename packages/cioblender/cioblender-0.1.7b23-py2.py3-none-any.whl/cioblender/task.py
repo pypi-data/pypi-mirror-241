@@ -1,0 +1,106 @@
+import os
+from cioblender import frames, util
+
+RENDER_DICT = {
+    "Cycles": "CYCLES",
+    "Eevee": "BLENDER_EEVEE",
+}
+
+
+def get_task_template(**kwargs):
+    """
+    Generate a Blender command for rendering tasks.
+
+    Args:
+        kwargs (dict): A dictionary of keyword arguments for task configuration.
+
+    Returns:
+        str: The Blender command for rendering tasks.
+    """
+    first = kwargs.get("first", 1)
+    last = kwargs.get("last", 1)
+    step = kwargs.get("step", 1)
+
+    render_filepath = get_render_file(kwargs)
+    render_filepath = util.clean_and_strip_path(render_filepath)
+    render_filepath = f'"{render_filepath}"'
+
+    command_scene_path = render_filepath
+
+    output_folder = kwargs.get("output_folder", None)
+    output_folder = util.clean_and_strip_path(output_folder)
+    output_folder = f'"{output_folder}"'
+    blender_filename = kwargs.get("blender_filename", None)
+    if blender_filename:
+        blender_filename = blender_filename.split(".")[0]
+    render_software = kwargs.get("render_software", None)
+    render_software = RENDER_DICT.get(render_software, "CYCLES")
+
+    cioblender_path = os.path.dirname(__file__)
+
+    script_path = "{}/scripts/brender.py".format(cioblender_path)
+    cio_dir = os.getenv('CIO_DIR')
+    if cio_dir:
+        script_path = "{}/cioblender/scripts/brender.py".format(cio_dir)
+
+    script_path = util.clean_and_strip_path(script_path)
+    script_path = f'"{script_path}"'
+
+    instance_type = kwargs.get("instance_type", None)
+    machine_type = kwargs.get("machine_type", None)
+
+    cmd = "blender -b {} -P {} -E {} --render-output {}/{}_ -s {} -e {} -- render_device={} --machine_type={}".format(
+       command_scene_path, script_path, render_software, output_folder, blender_filename, first, last, instance_type, machine_type)
+
+    return cmd
+
+def get_render_file(kwargs):
+    """
+    Save the current Blender file.
+
+    Args:
+        kwargs (dict): A dictionary of keyword arguments for task configuration.
+    """
+    render_filepath = None
+    try:
+        # print("Save render file ...")
+        blender_filepath = kwargs.get("blender_filepath", None)
+        blender_basename = os.path.basename(blender_filepath)
+        blender_folder = kwargs.get("blender_folder", None)
+        render_filename = "cioblender_{}".format(blender_basename)
+        render_filepath = os.path.join(blender_folder, render_filename)
+    except Exception as e:
+        print("Error in saving render file {}, error: {}".format(render_filepath, e))
+    return render_filepath
+
+def resolve_payload(**kwargs):
+    """
+    Resolve the task_data field for the payload.
+
+    If we are in sim mode, we emit one task.
+
+    Args:
+        kwargs (dict): A dictionary of keyword arguments for payload resolution.
+
+    Returns:
+        dict: A dictionary containing the task_data field for the payload.
+    """
+
+    tasks = []
+    frame_info_dict = frames.set_frame_info_panel(**kwargs)
+    kwargs["chunk_size"] = frame_info_dict.get("resolved_chunk_size")
+    sequence = frames.main_frame_sequence(**kwargs)
+    chunks = sequence.chunks()
+    # Get the scout sequence, if any.
+    for i, chunk in enumerate(chunks):
+        # Get the frame range for this chunk.
+        kwargs["first"] = chunk.start
+        kwargs["last"] = chunk.end
+        kwargs["step"] = chunk.step
+        # Get the task template.
+        cmd = get_task_template(**kwargs)
+
+        tasks.append({"command": cmd, "frames": str(chunk)})
+
+
+    return {"tasks_data": tasks}
