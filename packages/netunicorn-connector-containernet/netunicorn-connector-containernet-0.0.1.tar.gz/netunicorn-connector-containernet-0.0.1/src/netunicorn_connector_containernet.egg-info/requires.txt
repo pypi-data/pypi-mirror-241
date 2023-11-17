@@ -1,0 +1,5 @@
+netunicorn-base>=0.3.3
+pyyaml
+docker
+fastapi
+uvicorn
