@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: limeutils
+Version: 0.3.1
+Summary: 
+Home-page: https://github.com/dropkickdev/limeutils.git
+License: MIT
+Keywords: utilities,lime,helpers
+Author: enchance
+Author-email: enchance@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: hiredis (>=2.2.3,<3.0.0)
+Requires-Dist: pydantic (>=2.5.1,<3.0.0)
+Requires-Dist: pytz (>=2023.3.post1,<2024.0)
+Requires-Dist: redis (>=5.0.1,<6.0.0)
+Project-URL: Repository, https://github.com/dropkickdev/limeutils.git
+Description-Content-Type: text/markdown
+
+limeutils
+============
+
+Limeutils is a small collection of classes and methods for dealing with Redis data and a few other helpful functions. Check out the documentation for information
+. More classes to be added as needed.
+
+This package uses [Pydantic models][pydantic] to validate its data.
+
+[pydantic]: https://pydantic-docs.helpmanual.io/ 'Pydantic'
+
+
+Installation
+--------------
+
+### Install with poetry
+
+```bash
+poetry add limeutils
+```
+
+### Install by repo
+
+```
+pip install git+https://github.com/dropkickdev/limeutils.git@develop#egg=limeutils
+```
+
+### Install with `git clone`
+
+Simply install from the root folder
+
+```
+# This can also be a fork
+git clone https://github.com/dropkickdev/limeutils.git
+
+cd limeutils
+poetry install
+```
+
+## Documentation
+
+View the documentation at: https://dropkickdev.github.io/limeutils/
