@@ -1,0 +1,6 @@
+README.md
+setup.py
+informasi_mahasiswa.egg-info/PKG-INFO
+informasi_mahasiswa.egg-info/SOURCES.txt
+informasi_mahasiswa.egg-info/dependency_links.txt
+informasi_mahasiswa.egg-info/top_level.txt
