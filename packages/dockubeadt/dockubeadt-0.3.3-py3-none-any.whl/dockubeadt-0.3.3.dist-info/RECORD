@@ -1,0 +1,13 @@
+dockubeadt/__init__.py,sha256=wIkSqp5ljw879VWHOkCwdBZGLThBcgeOz1Tx-OnmOOs,23
+dockubeadt/__main__.py,sha256=Vf0v39S22jACZoqdfUJXy2Tws9ivGd_MbwYHcSNQttQ,63
+dockubeadt/cli.py,sha256=VZaUdb81Mn9kl_e9h3YX52_-u7OLyUVpXe-hN4iCaGE,840
+dockubeadt/compose.py,sha256=q3VTk7_fnPhFmkpFv0YiqyBQpcZ-ntshCnqXwzX8rNw,3123
+dockubeadt/kube.py,sha256=wGKVzTHVNVQs5eNg6bVILloQuNipJCz2DMJKGWDAGIk,4273
+dockubeadt/translator.py,sha256=XiXMVHoHY964Eb3rFULQPKngwbE-Xezxslww1DauO1c,6837
+dockubeadt/utils.py,sha256=0__AoPhvxmsdhXbjNfZWwdatw1LQcuL5apiyYr_CFnE,1380
+dockubeadt-0.3.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dockubeadt-0.3.3.dist-info/METADATA,sha256=pUJ0M0n0jIwJ9K2GZStLySTY7vSY-R7E00JQ_ANZjps,2430
+dockubeadt-0.3.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dockubeadt-0.3.3.dist-info/entry_points.txt,sha256=_XIEezmv3Sr-ctDo-tvBRDUXo7o34zjfTfy7l_OgEek,51
+dockubeadt-0.3.3.dist-info/top_level.txt,sha256=xcHHcQ6i6BydNRamrYCSjH9qo3xhlGGRiuaLcsjQEmY,11
+dockubeadt-0.3.3.dist-info/RECORD,,
