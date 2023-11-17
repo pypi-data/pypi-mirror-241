@@ -1,0 +1,9 @@
+rizz_wsgi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rizz_wsgi/api.py,sha256=sI387_ljmcSNniRMA-DSMxNriypdyqv2ME1_lgBOXKQ,3854
+rizz_wsgi/middleware.py,sha256=mHnFQSNBDMp1Uyw318nitP0Y3DTN6dI2kQcAqbt76TE,693
+rizz_wsgi/request.py,sha256=vm5dPKjr3YCYhE1Yhk4L1Dnd5BDHP_aZYovyMNKjy4Q,81
+rizz_wsgi/response.py,sha256=l61kGGY8V07rvd-t_q3bns7nje3c-nWYjOkf-lWUd38,1018
+rizz_wsgi-0.0.5.dist-info/METADATA,sha256=spY_g5Ds1qXNdDk1Mygvc29jHF3I16aB9bNEuloYQX4,4071
+rizz_wsgi-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+rizz_wsgi-0.0.5.dist-info/top_level.txt,sha256=sbNLq0Q8CLMAdR4G3pAe9mJkPlpRQnVHU6S6usVXgzc,10
+rizz_wsgi-0.0.5.dist-info/RECORD,,
