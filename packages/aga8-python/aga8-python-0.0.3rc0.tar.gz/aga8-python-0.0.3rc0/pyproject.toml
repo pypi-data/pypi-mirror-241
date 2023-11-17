@@ -1,0 +1,26 @@
+[project]
+name = "aga8-python"
+version = "0.0.3c"
+authors = [
+  { name="Sarit Ritwirune", email="sarit@appsmiths.com" },
+]
+description = "American Gas Association Report No.8"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry]
+packages = [
+    {include = "aga8/py.typed"}
+]
+
+[project.urls]
+"Homepage" = "https://github.com/elcolie/AGA8-python"
+
+[tool.setuptools.package-data]
+"aga8" = ["py.typed"]
+

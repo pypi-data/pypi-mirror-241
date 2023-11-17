@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aga8-python
+Version: 0.0.3rc0
+Summary: American Gas Association Report No.8
+Home-page: https://github.com/elcolie/AGA8-python
+Author: Sarit Ritwirune
+Author-email: Sarit Ritwirune <sarit@appsmiths.com>
+Project-URL: Homepage, https://github.com/elcolie/AGA8-python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AGA8 Python version
+`Detail` module of AGA8(american gas association report number 8).<br>
+
+# Installation through pip
+`pip install aga8-python`
+
+# Test
+`python tests.py`
+
+# mypy
+`python -m build`
+
+# Original source
+https://github.com/usnistgov/AGA8

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+aga8/__init__.py
+aga8/detail.py
+aga8/py.typed
+aga8/tests.py
+aga8_python.egg-info/PKG-INFO
+aga8_python.egg-info/SOURCES.txt
+aga8_python.egg-info/dependency_links.txt
+aga8_python.egg-info/top_level.txt
