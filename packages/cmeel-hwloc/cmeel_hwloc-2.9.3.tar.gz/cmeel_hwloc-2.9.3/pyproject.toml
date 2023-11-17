@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel[build]"]
+
+[project]
+description = "cmeel distribution for hwloc"
+license = "Apache-2.0"
+name = "cmeel-hwloc"
+requires-python = ">= 3.8"
+version = "2.9.3"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-hwloc"
+repository = "https://github.com/cmake-wheel/cmeel-hwloc.git"
+
+[tool.cmeel]
+has-sitelib = false
+run-tests = false
+
+[tool.tomlsort]
+all = true

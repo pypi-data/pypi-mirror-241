@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cmeel-hwloc
+Version: 2.9.3
+Summary: cmeel distribution for hwloc
+Requires-Python: >= 3.8
+License-Expression: Apache-2.0
+Home-page: https://github.com/cmake-wheel/cmeel-hwloc
+Project-URL: Repository, https://github.com/cmake-wheel/cmeel-hwloc.git
+Requires-Dist: cmeel
+Description-Content-Type: text/markdown
+
+# CMeel hwloc
+
+[![PyPI version](https://badge.fury.io/py/cmeel-hwloc.svg)](https://pypi.org/project/cmeel-hwloc)
+[![Release](https://github.com/cmake-wheel/cmeel-hwloc/actions/workflows/release.yml/badge.svg)](https://github.com/cmake-wheel/cmeel-hwloc/actions/workflows/release.yml)
+
+[hwloc](https://www.open-mpi.org/projects/hwloc/) distribution for cmeel packages.
