@@ -1,0 +1,11 @@
+cmeel.prefix/include/gmp.h,sha256=Yu8U-jrpkvNOgqAsrTbAiy_0bpEIA1JNA5szSJGWd4w,84264
+cmeel.prefix/lib/libgmp.a,sha256=0XE2C-H3aepC8QINVRUfAjH1e8hUrJ5Xo-kbXEO8YVU,1318912
+cmeel.prefix/lib/libgmp.so,sha256=eOzexTDhwGtt-B7gRj7GHyA1Xy0cQR23Id0tIBE5-i8,541328
+cmeel.prefix/lib/libgmp.so.10,sha256=eOzexTDhwGtt-B7gRj7GHyA1Xy0cQR23Id0tIBE5-i8,541328
+cmeel.prefix/lib/libgmp.so.10.5.0,sha256=eOzexTDhwGtt-B7gRj7GHyA1Xy0cQR23Id0tIBE5-i8,541328
+cmeel.prefix/lib/pkgconfig/gmp.pc,sha256=wASxyW8qB88TMyIiLKhmBAjaLT1n7Y9LuZc24vDeFOs,259
+cmeel.prefix/share/cmeel-gmp/README.md,sha256=a310DJcyyQpsta1u-ADdeJsE0dXXHcR5dDr1lvI_FaQ,335
+cmeel_gmp-6.3.0.dist-info/METADATA,sha256=Jpmq9TzCcpQ6KBA8F_AKt1tR7-nTiJcNJ-fQ77OmdoM,666
+cmeel_gmp-6.3.0.dist-info/WHEEL,sha256=0dZb9M-y2e4BKz0ra7o3gHX-Oy_u1vMFfZ3U1-BcEqs,113
+cmeel_gmp-6.3.0.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmeel_gmp-6.3.0.dist-info/RECORD,,
