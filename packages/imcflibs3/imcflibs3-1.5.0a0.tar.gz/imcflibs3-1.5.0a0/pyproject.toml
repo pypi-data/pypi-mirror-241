@@ -1,0 +1,44 @@
+[tool.poetry]
+authors = [
+  "Niko Ehrenfeuchter <nikolaus.ehrenfeuchter@unibas.ch>",
+  "Laurent Guerard <laurent.guerard@unibas.ch>",
+  "Kai Schleicher <kai.schleicher@unibas.ch>",
+  "Sébastien Herbert <sebastien.herbert@unibas.ch>",
+]
+description = "Small collection of paths/io/string helper functions."
+documentation = "https://imcf.one/apidocs/imcflibs3/imcflibs3.html"
+license = "GPL-3.0-or-later"
+name = "imcflibs3"
+readme = "README.md"
+version = "1.5.0-a.0"
+
+[tool.poetry.urls]
+"Changelog" = "https://github.com/imcf/python-imcflibs3/blob/main/CHANGELOG.md"
+"Organisation Homepage" = "https://imcf.one/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+
+[tool.coverage.run]
+omit = [
+  "tests/", # omit anything in the "tests/" directory
+  "src/imcflibs3/log.py", # skip the "log" module
+]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+style = "semver"
+vcs = "git"
+
+[tool.poetry-dynamic-versioning.substitution]
+folders = [
+  {path = "src"},
+]
+
+[build-system]
+build-backend = "poetry_dynamic_versioning.backend"
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
