@@ -1,0 +1,13 @@
+textaugment/__init__.py,sha256=cxzUzwXhi-txwgAL9wUDUpysCEE7uwYUL3QYSnpCxso,553
+textaugment/aeda.py,sha256=meV4Sg9hmE5CWEhgLylpA_6OJTLTIBKdqgc8pLOEmkc,2881
+textaugment/constants.py,sha256=ob5R6nYlZevOLI36WMuDTGDK0STDLKrl22vElmB8xAg,2360
+textaugment/eda.py,sha256=st_Aj-Wm7K8TdGek6NLiGXJm1SugWTZMddn3bkBdYr8,10048
+textaugment/mixup.py,sha256=eT-SY4kHkEeJPNI__FqkJuhbGKDmVmdiSTE46hYlqlg,5289
+textaugment/translate.py,sha256=MmDsxpWc5xsu-j8pPF_0YPLROaFD_qzVkETpX7PtcNU,3800
+textaugment/word2vec.py,sha256=P-rgy-AbMEuxUQb1c7Cp4OT59CRFEm2uot54Al1olQ8,6583
+textaugment/wordnet.py,sha256=P_w_mCiTtV463dSatPQKXdA2EJpBmy-ip78_06rQYA4,7090
+textaugment-2.0.0.dist-info/LICENCE,sha256=Hv9j-YT44YgH96fQHjHe0b6Kx0k8XwzZGlJ5O7IhSJo,1070
+textaugment-2.0.0.dist-info/METADATA,sha256=2-Q_lPgZ7CUtbDkXRh8VJCRBu2YR4HeS3zecMfsCXQQ,12028
+textaugment-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+textaugment-2.0.0.dist-info/top_level.txt,sha256=ckC8IhvAJeaSGD-IPQepZEt5RQOMY_UnUCL7g1AH0Sk,12
+textaugment-2.0.0.dist-info/RECORD,,
