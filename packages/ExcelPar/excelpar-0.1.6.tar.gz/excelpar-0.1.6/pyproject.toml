@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = 'ExcelPar'
+version = '0.1.6'
+description = 'Analyze by python, and create Excel PAR'
+readme = "README.md"
+authors = [
+    {name ="Sgt. Park", email="kinphw@naver.com"},
+]
+
+#Except Built-in Module
+dependencies = [
+    "openpyxl >= 3.1.2",    
+    "pandas >= 2.1.2",
+    "numpy >= 1.26.1",
+    "tqdm >= 4.66.1",
+    "clipboard >= 0.0.4",
+]
