@@ -1,0 +1,12 @@
+DevOpsAPI/__init__.py,sha256=PDcsG1Di5bp0UGBF8ExAaEO6lq59Gb3j9XlmGapK5yU,106
+DevOpsAPI/api.py,sha256=RUJ-nqjUAFdUB901a3q3H8Cpnzp-6qXasZYj-1K-GU8,1512
+DevOpsAPI/base.py,sha256=hVvXScYQoEqF9bVeJ8PlyREVe_YpmjxxwRUhxYIxpUs,1588
+DevOpsAPI/connection.py,sha256=tRsksPdCYZahB7vnLxbhTpG9aXwcFHONx0foTe977xY,1704
+DevOpsAPI/projects.py,sha256=7fH5Ma_r-iEfhvaMd9aIhRQCajzR7bBDHbjYp6DMmv4,644
+DevOpsAPI/testing.py,sha256=6n4876NM9yeKfIrJv4VQSfx4ZC9CIlUNsH7EwgGQDhk,5458
+DevOpsAPI/wi.py,sha256=ewNivvi9ib204W8MAdFyUlkABpI9EAkNnW4vuyKjoSg,6250
+DevOpsAPI-0.2.0a6.dist-info/LICENSE,sha256=5MsSgDTkzHRS805OhH8fKSUQ6Ozk0POF0DVjCAgsH38,1065
+DevOpsAPI-0.2.0a6.dist-info/METADATA,sha256=FglIPUolaHyxzHOmJWg8Ju7uKMC_Lp5ysuLl8JxXGo0,1740
+DevOpsAPI-0.2.0a6.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+DevOpsAPI-0.2.0a6.dist-info/top_level.txt,sha256=96pDJJ5niccvNirWFp1OG4RO4Qop6NEhmsRlA1-T9Nk,10
+DevOpsAPI-0.2.0a6.dist-info/RECORD,,
