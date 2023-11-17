@@ -1,0 +1,2 @@
+[console_scripts]
+collect-face-data = collect_face_data.cli:main
