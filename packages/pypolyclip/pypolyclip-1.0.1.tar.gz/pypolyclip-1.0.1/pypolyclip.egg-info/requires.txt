@@ -1,0 +1,5 @@
+numpy>=1.22.3
+
+[test]
+pytest-astropy>=0.10
+matplotlib
