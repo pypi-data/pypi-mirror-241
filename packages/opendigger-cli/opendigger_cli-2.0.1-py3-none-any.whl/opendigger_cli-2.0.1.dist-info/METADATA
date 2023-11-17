@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: opendigger-cli
+Version: 2.0.1
+Requires-Dist: setuptools (~=68.0.0)
+Requires-Dist: fuzzywuzzy (~=0.18.0)
+Requires-Dist: fpdf (~=1.7.2)
+Requires-Dist: requests (~=2.31.0)
+Requires-Dist: matplotlib (~=3.7.2)
+Requires-Dist: colorama (~=0.4.6)
+

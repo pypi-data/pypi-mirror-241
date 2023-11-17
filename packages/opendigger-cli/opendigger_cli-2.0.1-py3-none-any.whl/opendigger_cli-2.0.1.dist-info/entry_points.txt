@@ -1,0 +1,2 @@
+[console_scripts]
+opendigger-cli = opendigger_cli.main:main
