@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: larkspd
+Version: 1.0.2
+Summary: Script controller by lark
+Home-page: 
+Author: Cao Yuyang
+Author-email: 1765810686@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: flask ~=3.0.0
+Requires-Dist: requests ~=2.31.0
+
