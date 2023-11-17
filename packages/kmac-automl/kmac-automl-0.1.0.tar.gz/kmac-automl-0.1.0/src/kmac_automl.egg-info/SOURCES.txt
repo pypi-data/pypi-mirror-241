@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+src/KMAC-AutoML/AutoML_AnomalyDetection.py
+src/KMAC-AutoML/AutoML_Classification.py
+src/KMAC-AutoML/AutoML_Clustering.py
+src/KMAC-AutoML/AutoML_Regression.py
+src/KMAC-AutoML/AutoML_TimeSeries.py
+src/KMAC-AutoML/__init__.py
+src/kmac_automl.egg-info/PKG-INFO
+src/kmac_automl.egg-info/SOURCES.txt
+src/kmac_automl.egg-info/dependency_links.txt
+src/kmac_automl.egg-info/requires.txt
+src/kmac_automl.egg-info/top_level.txt
