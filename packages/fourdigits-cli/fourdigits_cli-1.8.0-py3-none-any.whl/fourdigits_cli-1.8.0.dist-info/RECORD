@@ -1,0 +1,16 @@
+fourdigits_cli/__init__.py,sha256=Oc_xF94AMAHKZkZlB5rBt1iO0TXWFalg65MP4T2qt-A,22
+fourdigits_cli/__main__.py,sha256=3CiIan2FoqXteMzuuhc-BWWvIPWgFh480jR9FlXZTpk,44
+fourdigits_cli/cli.py,sha256=a3CH2aRq_BXsc1JccSAJTlhvnRJ8sMHYU1Eksmbc1KE,782
+fourdigits_cli/settings.py,sha256=bem_3Y-M7bApwhFxw_0-ed8OrLF50HXy4_c6UCPiRts,1827
+fourdigits_cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fourdigits_cli/commands/docker.py,sha256=ehwuYBwT-rPsQqmqytvtGKeF4Lu-guWFREcDlaoQXvY,5786
+fourdigits_cli/commands/exonet.py,sha256=8PKztUYe8BDDCYpKaJdWYvp_tip5oKe4WsQwJ9P8xEo,1576
+fourdigits_cli/commands/gitlab.py,sha256=QZTFFStHJ45-L67CvmyRPtSw4qLn-PSknf-efey-iX4,1431
+fourdigits_cli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fourdigits_cli/utils/docker.py,sha256=y5v23zjoD3ItwaYx_XTuUDzh17vGbU-grnH2oqV89tY,3483
+fourdigits_cli/utils/git.py,sha256=VBMuaHyyWsIM992DZYAWQwJFR46-2cQ3nU5P1vM6oHg,1919
+fourdigits_cli-1.8.0.dist-info/METADATA,sha256=Tek8IZL67AqwTzb7RJWdHE5CiqPYbLXBKHTz60_wF7Y,2093
+fourdigits_cli-1.8.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fourdigits_cli-1.8.0.dist-info/entry_points.txt,sha256=QJQ1E1iWkYbjHPX82vu-C53bbJXlmK_xWoSWBls2Psc,84
+fourdigits_cli-1.8.0.dist-info/top_level.txt,sha256=qCWKcQIRGcd5l9_bWHbO3fJgFq88wJ-OlvOnbfeoX40,15
+fourdigits_cli-1.8.0.dist-info/RECORD,,
