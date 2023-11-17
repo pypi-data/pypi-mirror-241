@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: kraken-thing
+Version: 0.0.28
+Summary: Kraken thing
+Home-page: https://github.com/tactik8/krakcn_class_thing_v4
+Author: Tactik8
+Author-email: info@tactik8.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: python-dateutil
+Requires-Dist: sigfig
+Requires-Dist: kraken-schema-org
+Requires-Dist: requests
+Requires-Dist: tabulate
+Requires-Dist: bson
+Requires-Dist: pymongo
+Requires-Dist: flask
+
+# kraken datatype
+
+## Overview
+Library to extract, validate and normalize datatypes. 
+
+datatypes:
+- email
+- url
+- date
+- country
+- address
+- telephone
+- bool
+- currency
+- domain
+
+
+## functions:
+- validate: returns True false if validate
+- normalize: returns normalized value or None
+- guess: return best guess or None of datatype
+
+
+
+## How to use:
+
+```
+from kraken_thing.kraken_class_thing.kraken_class_thing import Thing
+
+result = dt.validate('email', 'name@test.com')
+print(result)
+
+result = dt.normalize('email', 'name@test.com')
+print(result)
+
+result = dt.guess('name@test.com')
+print(result)
+```
