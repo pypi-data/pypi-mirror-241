@@ -1,0 +1,6 @@
+numpy>=1.11
+astropy>=1.1
+
+[docs]
+sphinx-argparse>=0.1.15
+sphinx
