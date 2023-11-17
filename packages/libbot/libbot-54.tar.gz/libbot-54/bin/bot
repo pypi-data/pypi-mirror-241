@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+#
+# pylint: disable=C0103,C0115,C0116,C0209,C0413,W0201,R0903,W0212,W0105,W0613
+
+
+"program"
+
+
+import os
+import sys
+import termios
+import time
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from bot import Censor, CLI, Commands, Default, Errors, Event, Storage
+from bot import command, forever, parse, lsmod, modules, scan
+
+
+cfg = Default()
+cfg.name = __file__.rsplit(os.sep, maxsplit=1)[-1].lower()
+Storage.wd = os.path.expanduser(f"~/.{cfg.name}")
+
+
+class CLI(CLI):
+
+    def dosay(self, channel, txt):
+        print(txt.encode('utf-8', 'replace').decode())
+        sys.stdout.flush()
+
+
+class Console(CLI):
+
+
+    def poll(self) -> Event:
+        evt = Event()
+        evt.orig = object.__repr__(self)
+        evt.txt = input("> ")
+        evt.type = "command"
+        return evt
+
+
+def isop(txt):
+    for char in txt:
+        if char in cfg.opts:
+            return True
+    return False
+
+def wrap(func) -> None:
+    old = None
+    try:
+        old = termios.tcgetattr(sys.stdin.fileno())
+    except termios.error:
+        pass
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+        sys.stdout.flush()
+    finally:
+        if old:
+            termios.tcsetattr(sys.stdin.fileno(), termios.TCSADRAIN, old)
+
+
+def main():
+    parse(cfg, " ".join(sys.argv[1:]))
+    if isop("v"):
+        Censor.output = print
+        dte = time.ctime(time.time()).replace("  ", " ")
+        print(f"{cfg.name.upper()} started {cfg.opts.upper()} started {dte}")
+    cfg.mod = ",".join((lsmod(modules.__path__[0])))
+    if isop("c"):
+        scan(modules, cfg.mod, True, isop("w"))
+        csl = Console()
+        if isop("t"):
+            csl.threaded = True
+        csl.start()
+        forever()
+        return
+    scan(modules, cfg.mod)
+    cli = CLI()
+    command(cfg.otxt, cli)
+
+
+if __name__ == "__main__":
+    wrap(main)
+    Errors.show()
+        

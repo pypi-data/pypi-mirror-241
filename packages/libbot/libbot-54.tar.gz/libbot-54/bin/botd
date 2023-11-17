@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+#
+# pylint: disable=C0115,C0116,C0209,C0413,W0201,R0903,W0212,W0105,W0613
+
+
+"daemon"
+
+
+import getpass
+import os
+import pwd
+import sys
+
+
+from bot import Default, Storage, modules, cdir, forever, lsmod, scan
+
+
+Cfg = Default()
+Cfg.mod = ",".join((lsmod(modules.__path__[0])))
+Cfg.name    = "bot"
+Storage.wd  = os.path.expanduser(f"~/.{Cfg.name}")
+Cfg.pidfile = os.path.join(Storage.wd, f"{Cfg.name}.pid")
+Cfg.user    = getpass.getuser()
+
+
+def daemon(pidfile, verbose=False):
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    pid2 = os.fork()
+    if pid2 != 0:
+        os._exit(0)
+    if not verbose:
+        with open('/dev/null', 'r', encoding="utf-8") as sis:
+            os.dup2(sis.fileno(), sys.stdin.fileno())
+        with open('/dev/null', 'a+', encoding="utf-8") as sos:
+            os.dup2(sos.fileno(), sys.stdout.fileno())
+        with open('/dev/null', 'a+', encoding="utf-8") as ses:
+            os.dup2(ses.fileno(), sys.stderr.fileno())
+    os.umask(0)
+    os.chdir("/")
+    if os.path.exists(pidfile):
+        os.unlink(pidfile)
+    cdir(os.path.dirname(pidfile))
+    with open(pidfile, "w", encoding="utf-8") as fds:
+        fds.write(str(os.getpid()))
+
+
+def privileges(username):
+    pwnam = pwd.getpwnam(username)
+    os.setgid(pwnam.pw_gid)
+    os.setuid(pwnam.pw_uid)
+
+
+def main():
+    if "v" in Cfg.opts:
+        dte = time.ctime(time.time()).replace("  ", " ")
+        print(f"{Cfg.name.upper()} started {dte} {Cfg.opts.upper()} {Cfg.mod.upper()}")
+        print(Cfg)
+    daemon(Cfg.pidfile, "v" in Cfg.opts)
+    privileges(Cfg.user)
+    scan(modules, Cfg.mod, True)
+    forever()
+
+
+main()
