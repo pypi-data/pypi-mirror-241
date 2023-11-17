@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: autodevice
+Version: 0.1.0
+Summary: Automatically assign available hardware on the fly, in-line with PyTorch code.
+Home-page: https://github.com/mvinyard/autodevice
+Author: Michael E. Vinyard
+Author-email: mvinyard.ai@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ABCParse>=0.0.7
+Requires-Dist: torch
+
+# autodevice
+
+Automatically assign devices in-line with pytorch code
+
+### Usage
+
+```python
+from autodevice import AutoDevice
+
+x = torch.randn([200, 50]).to(AutoDevice())
+```
+CUDA/GPU:
+```
+tensor([[ 2.6905, -0.3037, -0.3607],
+        [ 0.2258, -0.1755,  0.6599],
+        [ 1.3046, -0.9389,  0.7358]], device='cuda:0')
+```
+CPU:
+```
+tensor([[ 2.6905, -0.3037, -0.3607],
+        [ 0.2258, -0.1755,  0.6599],
+        [ 1.3046, -0.9389,  0.7358]])
+```
+On Apple Silicon (M1, M2):
+```
+tensor([[ 0.5382,  1.1173,  1.1175],
+        [-0.0125, -0.2406,  0.2343],
+        [-0.6067, -0.7728,  0.1697]], device='mps:0')
+```
+### Installation
+
+```
+pip install autodevice
+```
