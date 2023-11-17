@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PyAgentic
+Version: 0.0.2
+Summary: PyAgentic library
+Author: PyAgentic Team
+Author-email: silveryfu@gmail.com
+License: Apache License, Version 2.0
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: langchain
+Requires-Dist: flask
+
