@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/quickremi.egg-info/PKG-INFO
+src/quickremi.egg-info/SOURCES.txt
+src/quickremi.egg-info/dependency_links.txt
+src/quickremi.egg-info/top_level.txt
