@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[tool.poetry]
+name = "nsecinyection"
+version = "1.0"
+description = "Malware-Inyection-ToolKit"
+authors = ["nervius25 <nervius2525@proton.me>"]
+homepage = "https://github.com/nervius2525/NSec-Inyection/"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pywin32 = "^306"
+
+[tool.poetry.scripts]
+nsecinyection = "nsecinyection.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
