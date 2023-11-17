@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: logddd
+Version: 0.2.0
+Summary: print python logddd
+Home-page: https://github.com/dlfld/py-simple-log
+Author: LinFeng Dai
+Author-email: dailinfeng66@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# logddd
+Python 打印日志的方法，简单实现
+you can use it by  `pip install logddd`
+
+
