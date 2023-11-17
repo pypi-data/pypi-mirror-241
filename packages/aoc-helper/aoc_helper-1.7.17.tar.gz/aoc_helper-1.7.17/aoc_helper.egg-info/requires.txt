@@ -1,0 +1,14 @@
+requests
+beautifulsoup4
+typing
+typing_extensions
+
+[cli]
+click
+
+[fancy]
+rich
+
+[full]
+click
+rich
