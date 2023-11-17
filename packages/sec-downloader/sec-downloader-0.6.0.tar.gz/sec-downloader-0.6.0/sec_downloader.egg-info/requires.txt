@@ -1,0 +1,6 @@
+sec-edgar-downloader
+
+[dev]
+jupyter-black
+pandas
+pprint
