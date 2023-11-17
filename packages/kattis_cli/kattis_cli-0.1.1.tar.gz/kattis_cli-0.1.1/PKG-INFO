@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: kattis_cli
+Version: 0.1.1
+Summary: A command-line tool for Kattis
+Home-page: https://github.com/rambasnet/kattis-cli
+Author: Ram Basnet
+Author-email: rambasnet@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tomlkit (>=0.12.2,<0.13.0)
+Project-URL: Repository, https://github.com/rambasnet/kattis-cli
+Description-Content-Type: text/markdown
+
+# Kattis-CLI
+
+Kattis CLI - download, test and submit Kattis problems using CLI
+
+
+## Installation
+
+```bash
+pip install kattis-cli
+```
+
+## Kattis configuration
+
+- Create a file named `.kattisrc` in your home directory
+- Login in to Kattis and download the `.kattisrc` file from the [Kattis settings page](https://open.kattis.com/download/kattisrc)
+
+
+## Usage
+
+```bash
+kattis <command> [options]
+```
+
+### Commands
+
+### Download a problem sample files and it's metadata
+
+```bash
+kattis get <problem_id>
+```
+
+### Display problem metadata
+
+```bash
+cd <problem_id>
+kattis info
+```
+
+### Test a problem
+
+```bash
+cd <problem_id>
+kattis test
+```
+
+### Submit a problem
+
+```bash
+cd <problem_id>
+kattis submit
+```
+
