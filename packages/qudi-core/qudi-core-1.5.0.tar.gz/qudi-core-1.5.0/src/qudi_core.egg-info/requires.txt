@@ -1,0 +1,16 @@
+wheel
+cycler
+entrypoints
+fysom
+GitPython
+jupyter
+jupytext
+lmfit>=1.0.3
+matplotlib
+numpy
+pyqtgraph>=0.13.0
+PySide2==5.15.2.1
+rpyc>=5.0.1
+ruamel.yaml>=0.17.16
+scipy>=1.7.1
+jsonschema>=4.2.1
