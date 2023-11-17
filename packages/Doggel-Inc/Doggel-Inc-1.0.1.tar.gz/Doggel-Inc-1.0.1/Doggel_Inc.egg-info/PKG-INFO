@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Doggel-Inc
+Version: 1.0.1
+Summary: A package with all Doggeł Inc services
+Author: Lordpomind
+Author-email: Lordpomind <lordpomind@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# Doggeł Inc Package for all services
+
+## How do I use it?
+
+It's really simple we were working to make it the simpliest. For example:
+
+```
+from Doggel-Inc import DB
+
+DB.save("(Line)", "(content)")
+```
+Everything simple!
+For more detailed info concact on email or join our discord support server!
