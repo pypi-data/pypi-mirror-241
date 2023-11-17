@@ -1,0 +1,4 @@
+[console_scripts]
+benchmarks_eval = benchmarks_runner.cli.eval:main
+benchmarks_fetch = benchmarks_runner.cli.fetch:main
+benchmarks_score = benchmarks_runner.cli.score:main
