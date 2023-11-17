@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+PrintDef/__init__.py
+PrintDef/utils.py
+PrintDef.egg-info/PKG-INFO
+PrintDef.egg-info/SOURCES.txt
+PrintDef.egg-info/dependency_links.txt
+PrintDef.egg-info/top_level.txt
