@@ -1,0 +1,12 @@
+sec_downloader/__init__.py,sha256=synWdNB9bW7NQbBR1W18VAnSJ84Xkq2WZf6EjKAeVs4,155
+sec_downloader/_modidx.py,sha256=9kIGwxcYbzAhIwrPgrUFhaLRoegYMdTfY0gre85BS0U,1051
+sec_downloader/core.py,sha256=SCmTTyCkUO0UIar6DO11q3OvguDVLlJH8SIHEn0K7lI,5354
+sec_downloader/requested_filings.py,sha256=CJeAMSYxr258j_1w35MKG8WzrPbICM8TlglJ9SzlB7I,964
+sec_downloader/sec_edgar_downloader_fork.py,sha256=qDHy39lRfq3aK7y292ZTxg5IiQtG0HSx3HE8JB5E4z4,6731
+sec_downloader/types.py,sha256=PG1OD46s--LCriv2M7-2Kig7YRtUnQCplLMOzV0d8GQ,450
+sec_downloader-0.4.2.dist-info/LICENSE,sha256=EvW7ouG8dcnPICTvVryQwvk7Z__jKF7HSLPI9PQwKuY,1086
+sec_downloader-0.4.2.dist-info/METADATA,sha256=F_kUC8DhQRsUfuq1INrrs-ZExZttVwxRThKEIsjz0t8,8350
+sec_downloader-0.4.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sec_downloader-0.4.2.dist-info/entry_points.txt,sha256=F1qyiOCN8_iElXBESSXZpmI-W0hzkdKKXc9bE6zR7f8,50
+sec_downloader-0.4.2.dist-info/top_level.txt,sha256=Gw1XQYKLtJnDM8B7bDyl5stDQI_z5mym9CefeYmztY4,15
+sec_downloader-0.4.2.dist-info/RECORD,,
