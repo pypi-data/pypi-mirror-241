@@ -1,0 +1,28 @@
+{
+  "_lib-3e7fc1b1.js": {
+    "file": "lib-3e7fc1b1.js"
+  },
+  "_lib-c60b6f6d.cjs": {
+    "file": "lib-c60b6f6d.cjs"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-c60b6f6d.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-c60b6f6d.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
