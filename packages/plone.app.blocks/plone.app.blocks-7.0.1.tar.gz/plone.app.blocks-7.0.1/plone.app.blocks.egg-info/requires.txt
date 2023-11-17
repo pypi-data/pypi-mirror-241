@@ -1,0 +1,12 @@
+lxml
+plone.base
+plone.jsonserializer
+plone.subrequest
+plone.tiles
+repoze.xmliter
+setuptools
+
+[test]
+plone.app.tiles
+plone.app.testing
+plone.testing
