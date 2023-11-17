@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: milosmooth
+Version: 0.1.11
+Summary: Libreria de suavizado de curvas
+Home-page: https://gitlab.com/camilo.londonov
+Author: Milo
+Author-email: camilo.londonov@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+# milosmooth
+## Descripcion
+Esta libreria contiene funciones para suavizar curvas de datos por medio de kernel gaussiano
+
