@@ -1,0 +1,2 @@
+[console_scripts]
+tvorozhok-cli = tvorozhok.cli:main

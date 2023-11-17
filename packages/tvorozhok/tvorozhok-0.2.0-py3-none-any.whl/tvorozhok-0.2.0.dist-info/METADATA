@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tvorozhok
+Version: 0.2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: inquirer ==3.1.3
+Requires-Dist: openai ==0.28.0
+Requires-Dist: setuptools ==65.5.0
+
