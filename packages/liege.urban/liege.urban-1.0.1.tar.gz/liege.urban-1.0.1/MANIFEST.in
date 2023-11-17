@@ -1,0 +1,5 @@
+graft src/liege
+graft docs
+include *.rst
+exclude Makefile
+global-exclude *.pyc
