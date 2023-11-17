@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Bs_Extractor/__init__.py
+Bs_Extractor/constants.py
+Bs_Extractor/data_extractor.py
+Bs_Extractor/functions.py
+Bs_Extractor.egg-info/PKG-INFO
+Bs_Extractor.egg-info/SOURCES.txt
+Bs_Extractor.egg-info/dependency_links.txt
+Bs_Extractor.egg-info/requires.txt
+Bs_Extractor.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Bs-Extractor
+Version: 1.1.3
+Summary: This repository contains a Python program designed to execute Optical Character Recognition (OCR) and Facial Recognition on images.
+Home-page: 
+Author: Nabila Lasri
+Author-email: lasri.nabilait@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.24.4
+Requires-Dist: PyMuPDF==1.23.6
+Requires-Dist: PyMuPDFb==1.23.6
+Requires-Dist: Unidecode==1.3.7
