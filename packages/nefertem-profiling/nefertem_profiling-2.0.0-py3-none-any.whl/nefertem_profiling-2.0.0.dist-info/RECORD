@@ -1,0 +1,13 @@
+nefertem_profiling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_profiling/metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_profiling/metadata/report.py,sha256=rU2ZVowB-K3KSwijZUZ0fn8Rt06XSGgCIqyNO4xLxq0,707
+nefertem_profiling/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_profiling/plugins/builder.py,sha256=R3Of3TJcZqm-mBij199ojufx7KJQOJsjtB7Vex_ParY,228
+nefertem_profiling/plugins/plugin.py,sha256=iLijHpIUpWyQgSmOfpN589af5Eux4Oh1nOiUaU-E1Oo,1114
+nefertem_profiling/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nefertem_profiling/run/run.py,sha256=Hovn_5_6tHG9a0DVEpresnw936BYrcowg1t5HcuWxug,2648
+nefertem_profiling-2.0.0.dist-info/LICENSE.txt,sha256=ibe6wHqIIi7Qon3vTKTSwnRgjpVFTSr7HOt7drtMa4g,11582
+nefertem_profiling-2.0.0.dist-info/METADATA,sha256=fT2BKQ6mkCum7StjvosLKMgM1kypzg06Sdt5e0l4bMY,14063
+nefertem_profiling-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nefertem_profiling-2.0.0.dist-info/top_level.txt,sha256=wyGvnRNAcXPv8jmqZEwmN_PLsDodbskiCdw5r9WTdBk,19
+nefertem_profiling-2.0.0.dist-info/RECORD,,
