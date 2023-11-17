@@ -1,0 +1,360 @@
+import gzip
+import json
+import pathlib
+import re
+import struct
+from typing import Any, Generator, List, Union
+import tempfile
+import hashlib
+import torch
+import tqdm
+import pickle
+import polars
+import secrets
+
+# Base61 encoding --------------------------------------------
+BASE_ALPH = tuple("123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+BASE_DICT = dict((c, v) for v, c in enumerate(BASE_ALPH))
+BASE_LEN = len(BASE_ALPH)
+
+
+def base61_encode(num: int) -> str:
+    """ Encode a number in base61.
+    Args:
+        num (int): The number to encode.
+    Returns:
+        str: The encoded string.
+    """
+    if not num:
+        return BASE_ALPH[0]
+    encoding = ""
+    while num:
+        num, rem = divmod(num, BASE_LEN)
+        encoding = BASE_ALPH[rem] + encoding
+    return encoding
+
+# General utils --------------------------------------------
+
+def finder(
+    path: str, pattern: str = None, full_names: bool = False, recursive: bool = False
+) -> List[str]:
+    """
+    Returns a sorted list of file paths in the given directory.
+
+    Args:
+        path (str): The directory path to search for files.
+        pattern (str, optional): A pattern to match file names against. Defaults to None.
+        full_names (bool, optional): Whether to return full file paths or just file names. Defaults to False.
+        recursive (bool, optional): Whether to search for files recursively. Defaults to False.
+
+    Returns:
+        List[str]: A sorted list of file paths or names.
+    """
+    files = list(list_file_gen(path, pattern, full_names, recursive))
+    files_str = [str(file) for file in files]
+    files_str.sort()
+    return files_str
+
+
+def list_file_gen(
+    path: Union[str, pathlib.Path],
+    pattern: str = None,
+    full_names: bool = False,
+    recursive: bool = False,
+) -> Generator[Union[pathlib.Path, str], None, None]:
+    """
+    Returns a generator of file paths or names in the given directory.
+
+    Args:
+        path (Union[str, pathlib.Path]): The directory path to search for files.
+        pattern (str, optional): A pattern to match file names against. Defaults to None.
+        full_names (bool, optional): Whether to return full file paths or just file names. Defaults to False.
+        recursive (bool, optional): Whether to search for files recursively. Defaults to False.
+
+    Yields:
+        Generator[Union[pathlib.Path, str], None, None]: A generator of file paths or names.
+    """
+    path = pathlib.Path(path)
+    for file in path.iterdir():
+        if file.is_file():
+            if pattern is None:
+                if full_names:
+                    yield file
+                else:
+                    yield file.name
+            elif pattern is not None:
+                regex_cond = re.compile(pattern=pattern)
+                if regex_cond.search(str(file)):
+                    if full_names:
+                        yield file
+                    else:
+                        yield file.name
+        elif recursive:
+            yield from list_file_gen(file, pattern, full_names, recursive)
+
+
+# Metadata parquet utils --------------------------------------------
+def read_metadata_safetensor(
+    file: Union[str, pathlib.Path], compress: bool = True
+) -> dict:
+    """ Reads the metadata of a SafeTensor dataset.
+
+    Args:
+        file (Union[str, pathlib.Path]): The file path to the dataset.
+        compress (bool, optional): Whether the dataset is compressed. Defaults to True.
+
+    Returns:
+        dict: A dictionary containing the metadata of the dataset.    
+    """
+
+    if isinstance(file, str):
+        file = pathlib.Path(file)
+
+    if compress:
+        with gzip.open(file, "rb") as f:
+            data = f.read()
+    else:
+        with open(file, "rb") as f:
+            data = f.read()
+
+    # Get the metadata of the dataset
+    length_of_header = struct.unpack("<Q", data[:8])[0]
+    metadata = json.loads(data[8 : 8 + length_of_header])
+
+    # Save the metadata
+    metadata_dict = metadata.pop("__metadata__")
+    for key, value in metadata.items():
+        metadata_dict[key + "__dtype"] = value["dtype"]
+        metadata_dict[key + "__shape"] = "[%s]" % ", ".join(
+            [str(i) for i in value["shape"]]
+        )
+        metadata_dict[key + "__offset"] = "[%s]" % ", ".join(
+            [str(i) for i in value["data_offsets"]]
+        )
+
+    return metadata_dict
+
+
+def create_parquet(
+        path: Union[str, pathlib.Path],
+        checksum: bool = True,
+        num_workers: int = 0,
+        out_folder: Union[str, pathlib.Path] = None,
+        chunks: int = 1000,
+        verbose: bool = True
+):
+    # Create a temp folder
+    tmp_dir = tempfile.TemporaryDirectory()
+
+    if out_folder is None:        
+        out_folder = pathlib.Path(tmp_dir.name)
+
+    if isinstance(path, str):
+        path = pathlib.Path(path)
+
+    if isinstance(out_folder, str):
+        # create a random name of 10 characters
+        out_folder = pathlib.Path(out_folder)
+
+    out_folder_s = out_folder / secrets.token_hex(15)
+    out_folder_s.mkdir(exist_ok=True, parents=True)
+
+    out_folder_ss = out_folder / secrets.token_hex(15)
+    out_folder_ss.mkdir(exist_ok=True, parents=True)
+
+    splits = ["train", "validation", "test"]
+
+    for split in splits:            
+        # Create the dataset
+        path = pathlib.Path(path)
+        files = finder(
+            path=path,
+            pattern=".*safetensors\.gz$",
+            recursive=True,
+            full_names=True,
+        )
+
+        # Chunk the files in groups of chunks
+        files_chunks = [files[i : i + chunks] for i in range(0, len(files), chunks)]        
+        for idx, files_chunked in enumerate(files_chunks):
+            tdataset = CreateParquetFromSafeTensor(
+                files=files_chunked,
+                checksum=checksum,
+                out_folder=out_folder_s,
+            )
+        
+            # Define the concurrent workers
+            datamodule = DataModule(
+                dataset=tdataset,
+                num_workers=num_workers,
+                message=f"Processing {split}",
+                verbose=verbose
+            )
+        
+            # Create metadata using several workers
+            datamodule()
+        
+            # Enter to the temp folder where the metadata is stored
+            datafolder = pathlib.Path(out_folder_s)
+
+            # Function to read the metadata
+            def func(x):
+                with open(x, "rb") as f:
+                    metadata = pickle.load(f)
+                return metadata
+        
+            # Read the metadata concurrently
+            merged_file = runrun(
+                function=func,
+                iterable=list(datafolder.glob("*.pkl")),
+                num_workers=num_workers,
+                message=f"Reading {split} metadata",
+                verbose=verbose
+            )
+
+            # Merge the metadata and save it
+            polars.DataFrame(merged_file).write_parquet(
+                out_folder_ss / f"metadata_{split}_{idx}.parquet"
+            )
+
+            # Clean the temp folder
+            for file in datafolder.glob("*.pkl"):
+                file.unlink()
+                
+        # Merge the parquet files
+        metadata_files = list(out_folder_ss.glob("*.parquet"))
+        metadata_files.sort()
+        final_db = []
+        for f in metadata_files:
+            db = polars.read_parquet(f)
+            db = db.select(sorted(db.columns))
+            final_db.append(db)
+        final_db = polars.concat(final_db)
+
+        # save the metadata
+        final_db.write_parquet(path / split / "metadata.parquet")
+
+        # Clean the temp folder
+        for file in metadata_files:
+            file.unlink()
+    
+    # Clean the temp folder
+    out_folder_s.rmdir()
+    out_folder_ss.rmdir()
+    tmp_dir.cleanup()
+
+    return None
+
+
+class CreateParquetFromSafeTensor:
+    def __init__(
+        self,
+        files: List[pathlib.Path],
+        out_folder: Union[str, pathlib.Path],
+        checksum: bool = True
+    ):
+        self.checksum = checksum
+        self.files = files
+        self.files.sort()
+
+        # create a folder in the temp directory
+        self.out_folder = pathlib.Path(out_folder)
+    
+    def __len__(self):
+        return len(self.files)
+    
+    def __getitem__(self, idx):
+        file = self.files[idx]
+        file_id = pathlib.Path(pathlib.Path(file).stem).stem
+        metadata_f = read_metadata_safetensor(file)
+        
+        if self.checksum:
+            with open(file, "rb") as f:
+                checksum = hashlib.md5(f.read()).hexdigest()
+            metadata_f["_checksum"] = checksum
+
+        ## save the metadata using pickle
+        with open("%s/%s.pkl" % (self.out_folder, file_id), "wb") as f:
+            pickle.dump(metadata_f, f)
+
+        return True
+
+
+# DataModule utils --------------------------------------------
+class DataModule:
+    def __init__(
+            self,
+            dataset: torch.utils.data.Dataset,
+            num_workers: int = 0,            
+            message: str = "Processing dataset...",
+            verbose: bool = True            
+        ):
+        super().__init__()
+        self.dataset = dataset
+        self.message = message
+        self.num_workers = num_workers
+        self.verbose = verbose
+
+    def run_dataloader(self) -> torch.utils.data.DataLoader:
+        return torch.utils.data.DataLoader(
+            dataset=self.dataset,
+            batch_size=1,
+            num_workers=self.num_workers
+        )
+
+    def __call__(self) -> Any:
+        # Create the dataloader
+        dataloader = self.run_dataloader()
+
+        # Run the dataloader
+        container = []
+        if self.verbose:
+            with tqdm.tqdm(total=len(self.dataset)) as pbar:
+                pbar.set_description(self.message)                
+                for x in dataloader:
+                    # If is a dict, remove the list of values
+                    if isinstance(x, dict):
+                        x = {k: v[0] for k, v in x.items()}
+                    pbar.update(1)
+                    container.append(x)
+        else:
+            for x in dataloader:
+                # If is a dict, remove the list of values
+                if isinstance(x, dict):
+                    x = {k: v[0] for k, v in x.items()}
+                container.append(x)
+        return container
+
+def runrun(
+    function,
+    num_workers: int = 0,
+    iterable: List[Any] = None,
+    message: str = "Processing",
+    verbose: bool = True,
+):
+    """ Run a function in parallel.
+    Args:
+        function (function): The function to run.
+        num_workers (int, optional): The number of workers to use. Defaults to 0.
+        iterable (List[Any], optional): The iterable to use. Defaults to None.
+    """
+    class Wrapper:
+        def __init__(self, function, iterable):
+            self.function = function
+            self.iterable = iterable
+        
+        def __len__(self):
+            return len(self.iterable)
+        
+        def __getitem__(self, idx):
+            return self.function(self.iterable[idx])
+        
+    compressed = DataModule(
+        dataset=Wrapper(function, iterable),
+        num_workers=num_workers,
+        message=message,
+        verbose=verbose
+    )
+    
+    # torch convert values to a list of values
+    return [x for x in compressed()]
