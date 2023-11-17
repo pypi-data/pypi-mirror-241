@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+pelangikalku12.egg-info/PKG-INFO
+pelangikalku12.egg-info/SOURCES.txt
+pelangikalku12.egg-info/dependency_links.txt
+pelangikalku12.egg-info/top_level.txt
+simplecalculator/__init__.py
+simplecalculator/simplemodule.py
