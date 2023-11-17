@@ -1,0 +1,10 @@
+apputils/discovery/__init__.py,sha256=nQKnDjgoAZJ9WwVaHq-dgkJW6iUcPfuNrUvoxTRiMzo,7737
+apputils/discovery/arguments.py,sha256=sxcISlJ1LaUwP_Oj9Louk9ACCDu34axAbUvWyFXeFM8,2448
+apputils/discovery/commands.py,sha256=lVxwTExNH493E3aJmdBxSNgFDrNmU4qFwMx0qBa7KMQ,17936
+apputils/discovery/help.py,sha256=IbjZPGlTQvYOiTyR_hYaYxZ-L0KamJBFSF-UnKFAQ7k,4185
+apputils_discovery-2.0.2.dev22.dist-info/LICENSE,sha256=zkd7RsuGS1gxBlpTkgR-W_As92CoyoBJM_a1xiYw-8g,835
+apputils_discovery-2.0.2.dev22.dist-info/METADATA,sha256=Tnh_ykvSSoC_2DiHmbjv2qswz6tqQxmaiPF_xwJaLtg,420
+apputils_discovery-2.0.2.dev22.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+apputils_discovery-2.0.2.dev22.dist-info/top_level.txt,sha256=Z11LvLenE0zQL_r29ZkTXgeGiFLECjjH3F2TGi0JbU8,9
+apputils_discovery-2.0.2.dev22.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+apputils_discovery-2.0.2.dev22.dist-info/RECORD,,
