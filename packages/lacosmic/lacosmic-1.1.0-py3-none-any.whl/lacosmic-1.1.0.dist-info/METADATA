@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: lacosmic
+Version: 1.1.0
+Summary: Laplacian Cosmic Ray Identification
+Author-email: Larry Bradley <larry.bradley@gmail.com>
+License: Copyright (c) 2014-2023, Larry Bradley
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are
+        met:
+        
+        1. Redistributions of source code must retain the above copyright
+           notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in the
+           documentation and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+        "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+        LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+        A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+        HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+        THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/larrybradley/lacosmic
+Project-URL: Documentation, https://lacosmic.readthedocs.io/en/stable/
+Keywords: astronomy,astrophysics,images,cosmic rays,cosmic-ray removal,filtering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: numpy >=1.22
+Requires-Dist: astropy >=5.0
+Requires-Dist: scipy >=1.7.2
+Provides-Extra: all
+Requires-Dist: matplotlib >=3.5 ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: lacosmic[all] ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-astropy >=1.6 ; extra == 'docs'
+Requires-Dist: tomli ; (python_version < "3.11") and extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-astropy >=0.10 ; extra == 'test'
+
+========
+lacosmic
+========
+
+|PyPI Version| |CI Status| |Codecov Status| |Stable RTD Status| |Zenodo| |Astropy|
+
+lacosmic is a Python package to remove cosmic rays from an
+astronomical image using the `L.A.Cosmic algorithm
+<http://www.astro.yale.edu/dokkum/lacosmic/>`_.  The algorithm is
+based on Laplacian edge detection and is described in `van Dokkum
+(2001; PASP 113, 1420)
+<https://ui.adsabs.harvard.edu/abs/2001PASP..113.1420V/abstract>`_.
+
+
+.. |PyPI Version| image::  https://img.shields.io/pypi/v/lacosmic.svg?logo=pypi&logoColor=white&label=PyPI
+    :target: https://pypi.org/project/lacosmic/
+    :alt: PyPI Latest Release
+
+.. |Astropy| image:: https://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
+    :target: https://www.astropy.org/
+    :alt: Powered by Astropy
+
+.. |CI Status| image:: https://github.com/larrybradley/lacosmic/workflows/CI%20Tests/badge.svg#
+    :target: https://github.com/larrybradley/lacosmic/actions
+    :alt: CI Status
+
+.. |Codecov Status| image:: https://img.shields.io/codecov/c/github/larrybradley/lacosmic?logo=codecov
+    :target: https://codecov.io/gh/larrybradley/lacosmic
+    :alt: Codecov Status
+
+.. |Stable RTD Status| image:: https://img.shields.io/readthedocs/lacosmic/latest.svg?logo=read%20the%20docs&logoColor=white&label=Docs&version=stable
+    :target: https://lacosmic.readthedocs.io/en/stable/
+    :alt: Stable Documentation Status
+
+.. |Zenodo| image:: https://zenodo.org/badge/28157875.svg
+    :target: https://zenodo.org/badge/latestdoi/28157875
+    :alt: Zenodo Latest DOI
