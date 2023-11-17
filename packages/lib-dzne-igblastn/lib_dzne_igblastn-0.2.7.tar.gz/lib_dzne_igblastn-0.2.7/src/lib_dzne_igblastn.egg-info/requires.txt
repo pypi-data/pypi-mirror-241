@@ -1,0 +1,3 @@
+simple_tsv>=1.0.0
+lib-dzne-filedata>=0.4.4
+handle_igblastn>=0.1
