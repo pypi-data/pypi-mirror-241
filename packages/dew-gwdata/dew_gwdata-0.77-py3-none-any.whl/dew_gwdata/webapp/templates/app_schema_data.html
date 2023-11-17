@@ -1,0 +1,34 @@
+{% extends "app_layout.html" %}
+
+{% block header_title %}
+    {{ title }}    
+{% endblock %}
+
+{% block title %}
+    {{ title }}    
+{% endblock %}
+
+{% block navbar %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<!-- <p>
+    <form>
+        <label>Filter by: </label>
+        <input type="text" name="filter_by" value="{{ filter_by }}"/>
+        <input type="hidden" name="env" value="{{ env }}" />
+        <button type="submit" formaction="/app/schema">
+            Search
+        </button>
+    </form>    
+</p> -->
+
+{% if is_view %}
+<p><a href="/app/schema_view?owner={{ owner }}&view_name={{ table_name }}">See SQL definition of view</a>.</p>
+{% endif %}
+  
+{{ data_html|safe }}
+
+{% endblock %}

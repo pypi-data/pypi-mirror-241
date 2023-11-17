@@ -1,0 +1,18 @@
+{% extends "app_well_layout.html" %}
+
+{% block header_title %}
+{{ title }} - Manual water levels
+{% endblock %}
+
+{% block title %}
+Manual water levels - {{ title }}
+{% endblock %}
+
+{% block well_content %}
+
+
+    <p>Back to <a href="/app/well_summary?dh_no={{ well.dh_no }}&env={{ env }}">well summary</a></p>
+
+    {{ table|safe }}
+
+{% endblock %}

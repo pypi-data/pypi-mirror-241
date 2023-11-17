@@ -1,0 +1,36 @@
+{% extends "app_layout.html" %}
+
+{% block header_title %}
+    {{ title }}    
+{% endblock %}
+
+{% block title %}
+    {{ title }}    
+{% endblock %}
+
+{% block navbar %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<p>
+    <form>
+        <label>Filter by: </label>
+        <input type="text" name="filter_by" value="{{ filter_by }}"/>
+        <input type="hidden" name="env" value="{{ env }}" />
+        <button type="submit" formaction="/app/schema">
+            Search
+        </button>
+    </form>    
+</p>
+
+<h2><a id="tables"></a>Tables</h2>
+
+{{ tables_html|safe }}
+
+<h2><a id="views"></a>Views</h2>
+
+{{ views_html|safe }}
+
+{% endblock %}
