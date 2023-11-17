@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fix_something_mzw.egg-info/PKG-INFO
+fix_something_mzw.egg-info/SOURCES.txt
+fix_something_mzw.egg-info/dependency_links.txt
+fix_something_mzw.egg-info/top_level.txt
+wu/__init__.py
+wu/fixExcelIndex.py
