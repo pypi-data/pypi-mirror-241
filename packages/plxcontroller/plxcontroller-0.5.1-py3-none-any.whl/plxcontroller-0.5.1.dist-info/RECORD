@@ -1,0 +1,17 @@
+plxcontroller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plxcontroller/globals.py,sha256=S7-mLqaWHjHBGhvNUFaLmUmNSRIzcW70ephRZOVzav4,120
+plxcontroller/plaxis_3d_input_controller.py,sha256=oUFYfZVEkA39q991iHZu99yfatUI5rK7C5YMeo37iw8,10928
+plxcontroller/plaxis_3d_output_controller.py,sha256=jLLFvtV6BlapCYYzrGd4zogC3uFausnixFYyPR2UYHE,2778
+plxcontroller/geometry_3d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plxcontroller/geometry_3d/bounding_box_3d.py,sha256=-A2HRM-p-ANMlTpqVCvKZ6nKA-sKZV6V3LW1SmWQ_bU,3863
+plxcontroller/geometry_3d/convex_hull_3d.py,sha256=u4F82DkgyCJygtC8ZbKAS-iZE2z0cgXNKODnUBlY--E,4196
+plxcontroller/geometry_3d/operations_3d.py,sha256=mjJoWlYB_YL3NP-M5Ijtk9fZePR6YGtbPae-a8CJRuk,2966
+plxcontroller/geometry_3d/point_3d.py,sha256=4jAYWrkkGpTQwlaOvRGNDuElAbh1uxSdVWf1J-zLXus,1956
+plxcontroller/geometry_3d/polygon_3d.py,sha256=ZTjEEDjcYXBs3V6CIXDsPGMqSiQMtZOy_2agKcMSKVg,3902
+plxcontroller/mesh_3d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plxcontroller/mesh_3d/node_3d.py,sha256=wRrF8TSp0r5W8Mytjh0fjX_-_rzHypnL1Dk_H_Plpss,1315
+plxcontroller-0.5.1.dist-info/LICENSE,sha256=3OCAZXffN0Bettjeya8uF_ZYegyvvCfH1WUt6CrHb_0,1061
+plxcontroller-0.5.1.dist-info/METADATA,sha256=ezqMnQj_dvhZ6FxWAf8mKPDk6UQRylrnanbKLCeBD5Q,4798
+plxcontroller-0.5.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+plxcontroller-0.5.1.dist-info/top_level.txt,sha256=OiPh8dZcOTHGbP7tyKKugt5IYW6kcG_h-aAstd_lDc4,14
+plxcontroller-0.5.1.dist-info/RECORD,,
