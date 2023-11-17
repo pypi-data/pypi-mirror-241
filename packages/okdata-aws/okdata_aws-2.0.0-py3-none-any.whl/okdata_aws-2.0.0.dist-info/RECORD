@@ -1,0 +1,12 @@
+okdata_aws-2.0.0-nspkg.pth,sha256=4nrP4RXuGOCDLZ0px0sO63KvnhR4W_t4MWel1CEdd2U,539
+okdata/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+okdata/aws/logging.py,sha256=QJmtnkg6deO_IzeLV5svbLkpSWqjOj-DzUYjgBQOOyI,7389
+okdata/aws/status/__init__.py,sha256=Htf1qPivhLMsk1Q71YPzp5beXkxDilXwmr0TRmAu7C4,176
+okdata/aws/status/model.py,sha256=H3F0_N5kTmIecK8P6AImRU4t2zgFxrF5gDpTGzmpp0E,2510
+okdata/aws/status/sdk.py,sha256=fuJOQ206tVKHGNnXV_onj0Q-gwucyzcwmxPNRYgFvHQ,2041
+okdata/aws/status/wrapper.py,sha256=ucjEbWmW9OuEC8BvoCJT2pOSPTpoGxAzTDHR2xrf5yQ,2148
+okdata_aws-2.0.0.dist-info/METADATA,sha256=DpeExOchFvif6K22uICiduSs-XwWjl5jeUErGVNc_5k,4853
+okdata_aws-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+okdata_aws-2.0.0.dist-info/namespace_packages.txt,sha256=Pdf-ZpWHLtLL295sDedsbAP3f6H189730mXrfVAVCcY,7
+okdata_aws-2.0.0.dist-info/top_level.txt,sha256=Pdf-ZpWHLtLL295sDedsbAP3f6H189730mXrfVAVCcY,7
+okdata_aws-2.0.0.dist-info/RECORD,,
