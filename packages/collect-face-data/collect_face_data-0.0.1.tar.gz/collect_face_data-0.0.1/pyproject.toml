@@ -1,0 +1,29 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "collect_face_data"
+authors = [
+  { name="Le Tran Quang Huy", email="letranquanghuy0204@gmail.com" },
+]
+description = "A Python package for collecting face data for face recognition."
+requires-python = ">=3.8"
+dependencies = [
+                "mtcnn-opencv",
+                "opencv-python",
+                "scipy"
+                ]
+keywords = ["helloworld", "cli", "python"]
+dynamic = ["version", "readme"]
+
+[tool.setuptools.dynamic]
+version = {attr = "collect_face_data.__version__"}
+readme = {file = "README.md"}
+
+
+[project.scripts]
+collect-face-data = "collect_face_data.cli:main"
