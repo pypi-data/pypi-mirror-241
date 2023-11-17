@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: KernelAVO
+Version: 0.1
+Summary: Curve fitting for COVID-19 data using three different kernels
+Author: Alejandro Valencia
+Author-email: alejandro.valenciao1@udea.edu.co
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
