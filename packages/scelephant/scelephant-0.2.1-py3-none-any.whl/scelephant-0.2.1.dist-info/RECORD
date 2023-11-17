@@ -1,0 +1,16 @@
+scelephant/__init__.py,sha256=8OdvHihQdKcagRLzMZvJ5KI7ViMRoFbtiS9c5d--nTk,172
+scelephant/__main__.py,sha256=d-TiBB_ymjgIHhQhXLQGoJIGXjtOpKSKXg4AXgWM7Ps,148
+scelephant/core/BA.py,sha256=-tr1LtJ_uh03st6aQ7c63RR5a47Z-viiQlcqfOavYN0,6457
+scelephant/core/STR.py,sha256=7IvqMOofx0EZBsr-Glnsr3i4OWucGcO5LHlQS1dJ5LU,14376
+scelephant/core/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+scelephant/core/biobookshelf.py,sha256=fx4lUJloseej4O0gJT52T7zXc8hWadX9LakRvOHnRGY,40708
+scelephant/core/core.py,sha256=Q4eWefdXSjtWUoHXUXX4dHOaLhMQl8hfl3EITbvs29I,1038512
+scelephant/core/misc.py,sha256=FEr3dSORKxXPj9xSWtXY0GFzUnF54eC0-kSUEPRObws,7566
+scelephant/core/utils.py,sha256=fveBfifSO1tXURpuy9dIOgWi1X822FPnF7bUY4nxI4c,299532
+scelephant/utils/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+scelephant/utils/utils.py,sha256=Z3z_m-fbg1Qij64EaGqRQSI3MHEad6mWUTPTay7ZraM,7025
+scelephant-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scelephant-0.2.1.dist-info/METADATA,sha256=qSW4xdm4Hi0qsXBTY18kuBIduJjCIS1XkBJP6S0WAB4,2498
+scelephant-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scelephant-0.2.1.dist-info/top_level.txt,sha256=h8t_ah725mt42pxoAiQcIfwRYzJL22rHOhrrMSbK6_A,11
+scelephant-0.2.1.dist-info/RECORD,,
