@@ -1,0 +1,8 @@
+README.md
+setup.py
+regex_custom_dict/__init__.py
+regex_custom_dict/regex_custom_dict.py
+regex_custom_dict.egg-info/PKG-INFO
+regex_custom_dict.egg-info/SOURCES.txt
+regex_custom_dict.egg-info/dependency_links.txt
+regex_custom_dict.egg-info/top_level.txt
