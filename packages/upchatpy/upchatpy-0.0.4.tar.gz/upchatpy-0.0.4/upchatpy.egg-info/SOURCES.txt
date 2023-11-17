@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_api.py
+upchatpy.egg-info/PKG-INFO
+upchatpy.egg-info/SOURCES.txt
+upchatpy.egg-info/dependency_links.txt
+upchatpy.egg-info/top_level.txt
+upgrade_chat/__init__.py
+upgrade_chat/api.py
+upgrade_chat/exceptions.py
+upgrade_chat/responses/__init__.py
+upgrade_chat/responses/orders.py
+upgrade_chat/responses/products.py
+upgrade_chat/responses/users.py
