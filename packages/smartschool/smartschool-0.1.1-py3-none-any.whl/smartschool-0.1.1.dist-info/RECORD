@@ -1,0 +1,14 @@
+smartschool/__init__.py,sha256=O77QApgd6ZzAO8ptlfyIx90nAVpUuYi_Zh6ljPD2ZmU,466
+smartschool/agenda.py,sha256=aGu9A8L2aB9vRefO5udAOuzqFAw58s4Ngi1IU0Psw7A,7505
+smartschool/common.py,sha256=cOS6S8vfADrFhwL2XMa9I153kxUBX1hwHTndamNdM_M,6779
+smartschool/courses.py,sha256=gfvh4yadTRoRkdhTySup4s0u4w6jFhHj0LSYVlsdDOE,1426
+smartschool/credentials.py,sha256=swOaXeOCLKmLc1hoz7ITGZKJGGRn61Ql_RV4d8wNxyM,1487
+smartschool/logger.py,sha256=rpCtn0eOIsja5JDZwErCJTTIdvPxfQfAXC3pjs308-0,468
+smartschool/objects.py,sha256=HSp8rOPMspAQtLe-9vq_IC3uu4UJBm4N1eGX61YUGaQ,6947
+smartschool/periods.py,sha256=XqDfS-s703S0H-Q-Zu7YPPt-tRQtlYYA4Oniyj6LPGs,565
+smartschool/results.py,sha256=VNisJQ1kZ5sQrXzVoleKbVRbm-42sMpl_zjaaMXtAZs,756
+smartschool/session.py,sha256=c7flm6ARcFWmU9LiJ3c1dJo0htEWgMq_VDrpaIdplDc,3831
+smartschool-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+smartschool-0.1.1.dist-info/METADATA,sha256=iUizVJIpFAg6yF-9WiktGFd0s4Bkcj-YTnlXnnJXh4Y,1730
+smartschool-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+smartschool-0.1.1.dist-info/RECORD,,
