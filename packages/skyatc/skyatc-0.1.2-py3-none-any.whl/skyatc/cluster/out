@@ -1,0 +1,85 @@
+LAST SEEN   TYPE      REASON      OBJECT             MESSAGE
+25m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-0
+23m         Normal    Pulling     pod/gpu-test-pod   Pulling image "nvidia/cuda:11.0-base"
+23m         Warning   Failed      pod/gpu-test-pod   Failed to pull image "nvidia/cuda:11.0-base": rpc error: code = NotFound desc = failed to pull and unpack image "docker.io/nvidia/cuda:11.0-base": failed to resolve reference "docker.io/nvidia/cuda:11.0-base": docker.io/nvidia/cuda:11.0-base: not found
+23m         Warning   Failed      pod/gpu-test-pod   Error: ErrImagePull
+23m         Warning   Failed      pod/gpu-test-pod   Error: ImagePullBackOff
+23m         Normal    BackOff     pod/gpu-test-pod   Back-off pulling image "nvidia/cuda:11.0-base"
+20m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-0
+20m         Normal    Pulling     pod/gpu-test-pod   Pulling image "registry.hub.docker.com/nvidia/cuda:latest"
+20m         Warning   Failed      pod/gpu-test-pod   Failed to pull image "registry.hub.docker.com/nvidia/cuda:latest": rpc error: code = NotFound desc = failed to pull and unpack image "registry.hub.docker.com/nvidia/cuda:latest": failed to resolve reference "registry.hub.docker.com/nvidia/cuda:latest": registry.hub.docker.com/nvidia/cuda:latest: not found
+20m         Warning   Failed      pod/gpu-test-pod   Error: ErrImagePull
+20m         Normal    BackOff     pod/gpu-test-pod   Back-off pulling image "registry.hub.docker.com/nvidia/cuda:latest"
+20m         Warning   Failed      pod/gpu-test-pod   Error: ImagePullBackOff
+19m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-0
+19m         Normal    Pulling     pod/gpu-test-pod   Pulling image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04"
+19m         Normal    Pulled      pod/gpu-test-pod   Successfully pulled image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" in 3.496698759s (3.496708947s including waiting)
+18m         Normal    Pulled      pod/gpu-test-pod   Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+18m         Normal    Created     pod/gpu-test-pod   Created container gpu-test-container
+18m         Warning   Failed      pod/gpu-test-pod   Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "nvidia-smi": executable file not found in $PATH: unknown
+17m         Warning   BackOff     pod/gpu-test-pod   Back-off restarting failed container gpu-test-container in pod gpu-test-pod_default(1c858544-9e37-4bc4-89a1-d8e77657c81e)
+17m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+17m         Normal    BackOff     pod/gpu-test-pod   Back-off pulling image "registry.hub.docker.com/nvidia/cuda:11.0-base"
+17m         Warning   Failed      pod/gpu-test-pod   Error: ImagePullBackOff
+17m         Normal    Pulling     pod/gpu-test-pod   Pulling image "registry.hub.docker.com/nvidia/cuda:11.0-base"
+17m         Warning   Failed      pod/gpu-test-pod   Failed to pull image "registry.hub.docker.com/nvidia/cuda:11.0-base": rpc error: code = NotFound desc = failed to pull and unpack image "registry.hub.docker.com/nvidia/cuda:11.0-base": failed to resolve reference "registry.hub.docker.com/nvidia/cuda:11.0-base": registry.hub.docker.com/nvidia/cuda:11.0-base: not found
+17m         Warning   Failed      pod/gpu-test-pod   Error: ErrImagePull
+16m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+16m         Normal    Pulling     pod/gpu-test-pod   Pulling image "nvcr.io/nvidia/cuda:11.0-base"
+16m         Warning   Failed      pod/gpu-test-pod   Failed to pull image "nvcr.io/nvidia/cuda:11.0-base": rpc error: code = NotFound desc = failed to pull and unpack image "nvcr.io/nvidia/cuda:11.0-base": failed to resolve reference "nvcr.io/nvidia/cuda:11.0-base": nvcr.io/nvidia/cuda:11.0-base: not found
+16m         Warning   Failed      pod/gpu-test-pod   Error: ErrImagePull
+16m         Normal    BackOff     pod/gpu-test-pod   Back-off pulling image "nvcr.io/nvidia/cuda:11.0-base"
+16m         Warning   Failed      pod/gpu-test-pod   Error: ImagePullBackOff
+14m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+14m         Normal    BackOff     pod/gpu-test-pod   Back-off pulling image "registry.hub.docker.com/cuda:12.2.0-base-ubuntu20.04"
+14m         Warning   Failed      pod/gpu-test-pod   Error: ImagePullBackOff
+14m         Normal    Pulling     pod/gpu-test-pod   Pulling image "registry.hub.docker.com/cuda:12.2.0-base-ubuntu20.04"
+14m         Warning   Failed      pod/gpu-test-pod   Failed to pull image "registry.hub.docker.com/cuda:12.2.0-base-ubuntu20.04": rpc error: code = NotFound desc = failed to pull and unpack image "registry.hub.docker.com/cuda:12.2.0-base-ubuntu20.04": failed to resolve reference "registry.hub.docker.com/cuda:12.2.0-base-ubuntu20.04": registry.hub.docker.com/cuda:12.2.0-base-ubuntu20.04: not found
+14m         Warning   Failed      pod/gpu-test-pod   Error: ErrImagePull
+14m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+14m         Normal    Pulling     pod/gpu-test-pod   Pulling image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04"
+14m         Normal    Pulled      pod/gpu-test-pod   Successfully pulled image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" in 3.684554966s (3.684574725s including waiting)
+13m         Normal    Pulled      pod/gpu-test-pod   Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+13m         Normal    Created     pod/gpu-test-pod   Created container gpu-test-container
+13m         Warning   Failed      pod/gpu-test-pod   Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "nvidia-smi": executable file not found in $PATH: unknown
+13m         Warning   BackOff     pod/gpu-test-pod   Back-off restarting failed container gpu-test-container in pod gpu-test-pod_default(7ff24bef-76d5-483e-9180-e9312f1f9720)
+13m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+11m         Normal    Pulled      pod/gpu-test-pod   Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+11m         Normal    Created     pod/gpu-test-pod   Created container gpu-test-container
+11m         Warning   Failed      pod/gpu-test-pod   Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "nvidia-smi": executable file not found in $PATH: unknown
+11m         Warning   BackOff     pod/gpu-test-pod   Back-off restarting failed container gpu-test-container in pod gpu-test-pod_default(8581e7b7-a3f1-4210-b722-08796dcbb5ab)
+11m         Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+9m30s       Normal    Pulled      pod/gpu-test-pod   Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+9m30s       Normal    Created     pod/gpu-test-pod   Created container gpu-test-container
+9m30s       Warning   Failed      pod/gpu-test-pod   Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "/usr/bin/nvidia-smi": stat /usr/bin/nvidia-smi: no such file or directory: unknown
+9m29s       Warning   BackOff     pod/gpu-test-pod   Back-off restarting failed container gpu-test-container in pod gpu-test-pod_default(b7c1e01e-cd71-4c19-9fad-74fcccb809c6)
+9m14s       Normal    Scheduled   pod/gpu-test-pod   Successfully assigned default/gpu-test-pod to worker-1
+8m56s       Normal    Pulled      pod/gpu-test-pod   Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+8m56s       Normal    Created     pod/gpu-test-pod   Created container gpu-test-container
+8m56s       Warning   Failed      pod/gpu-test-pod   Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "echo 'hello'": executable file not found in $PATH: unknown
+8m44s       Warning   BackOff     pod/gpu-test-pod   Back-off restarting failed container gpu-test-container in pod gpu-test-pod_default(c6b1c4f1-daa7-4bee-b7ce-eec7e34863ce)
+8m26s       Normal    Scheduled   pod/gpu-test       Successfully assigned default/gpu-test to worker-1
+7m2s        Normal    Pulled      pod/gpu-test       Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+7m2s        Normal    Created     pod/gpu-test       Created container gpu-test
+7m2s        Warning   Failed      pod/gpu-test       Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "echo 'hello'": executable file not found in $PATH: unknown
+6m23s       Warning   BackOff     pod/gpu-test       Back-off restarting failed container gpu-test in pod gpu-test_default(ab5655ee-061e-434d-b38c-f7d2fa1ede6e)
+5m38s       Normal    Scheduled   pod/gpu-test       Successfully assigned default/gpu-test to worker-1
+4m6s        Normal    Pulled      pod/gpu-test       Container image "registry.hub.docker.com/nvidia/cuda:12.2.0-base-ubuntu20.04" already present on machine
+4m6s        Normal    Created     pod/gpu-test       Created container gpu-test
+4m6s        Warning   Failed      pod/gpu-test       Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
+nvidia-container-cli: requirement error: unsatisfied condition: cuda>=12.2, please update your driver to a newer version, or use an earlier cuda container: unknown
+3m40s       Warning   BackOff     pod/gpu-test       Back-off restarting failed container gpu-test in pod gpu-test_default(a02cf4ca-1274-4986-b56c-9bd0b7e23fef)
+2m52s       Normal    Scheduled   pod/nvidia-smi     Successfully assigned default/nvidia-smi to worker-1
+2m52s       Normal    Pulling     pod/nvidia-smi     Pulling image "nvidia/cuda:12.1.0-base-ubuntu18.04"
+2m48s       Normal    Pulled      pod/nvidia-smi     Successfully pulled image "nvidia/cuda:12.1.0-base-ubuntu18.04" in 3.948937353s (3.948955038s including waiting)
+72s         Normal    Pulled      pod/nvidia-smi     Container image "nvidia/cuda:12.1.0-base-ubuntu18.04" already present on machine
+72s         Normal    Created     pod/nvidia-smi     Created container nvidia-smi
+72s         Normal    Started     pod/nvidia-smi     Started container nvidia-smi
+71s         Warning   BackOff     pod/nvidia-smi     Back-off restarting failed container nvidia-smi in pod nvidia-smi_default(d37d4429-422d-4921-a10a-97e4b629da4c)
+64s         Normal    Scheduled   pod/nvidia-smi     Successfully assigned default/nvidia-smi to worker-1
+25s         Normal    Pulled      pod/nvidia-smi     Container image "nvidia/cuda:12.1.0-base-ubuntu18.04" already present on machine
+25s         Normal    Created     pod/nvidia-smi     Created container nvidia-smi
+25s         Warning   Failed      pod/nvidia-smi     Error: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "while true; do nvidia-smi; sleep 10; done": executable file not found in $PATH: unknown
+13s         Warning   BackOff     pod/nvidia-smi     Back-off restarting failed container nvidia-smi in pod nvidia-smi_default(5dc9b0e1-9de2-44d7-8f3a-ffed0d289bef)
+3s          Normal    Scheduled   pod/nvidia-smi     Successfully assigned default/nvidia-smi to worker-0
+3s          Normal    Pulling     pod/nvidia-smi     Pulling image "nvidia/cuda:12.1.0-base-ubuntu18.04"

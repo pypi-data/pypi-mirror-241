@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vllm-service
+spec:
+  selector:
+    app: nginx   # This should match the label in your Pod
+  ports:
+    - protocol: TCP
+      port: 80       # The port on which the Service will listen
+      targetPort: 8000  # The port on which your FastAPI server is running
+  type: LoadBalancer  # You can use LoadBalancer if available in your cluster, or NodePort or ClusterIP depending on your setup
+
