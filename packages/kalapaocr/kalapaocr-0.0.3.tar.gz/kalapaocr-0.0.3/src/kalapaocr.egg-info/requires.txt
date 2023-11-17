@@ -1,0 +1,7 @@
+setuptools
+fuzzywuzzy
+onnxruntime
+opencv-python
+pandas
+tqdm
+Pillow
