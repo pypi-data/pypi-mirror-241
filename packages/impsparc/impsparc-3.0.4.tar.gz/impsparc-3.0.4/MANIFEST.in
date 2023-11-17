@@ -1,0 +1,3 @@
+include cvsvc_apirisk/cvapirisk_pkg/*
+include cvsvc_apirisk/score/spec_security/apisparc_server.cfg
+recursive-include cvsvc_apirisk/score/spec_security/sparc-templates *
