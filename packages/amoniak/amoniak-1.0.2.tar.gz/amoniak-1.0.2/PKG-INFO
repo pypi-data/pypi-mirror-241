@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: amoniak
+Version: 1.0.2
+Summary: AMON Tools for GISCE-ERP
+Home-page: http://gisce.net
+Author: GISCE-TI, S.L.
+Author-email: ti@gisce.net
+License: MIT
+License-File: LICENSE
+Requires-Dist: empowering
+Requires-Dist: erppeek
+Requires-Dist: pymongo<3
+Requires-Dist: rq
+Requires-Dist: modeldict
+Requires-Dist: times
+Requires-Dist: raven
+Requires-Dist: click
+
+AMON Tools for GISCE-ERP
