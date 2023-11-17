@@ -1,0 +1,6 @@
+pandas
+tqdm
+numpy
+biopython
+onnxruntime<=1.15.1,>=1.10.0
+torch<=1.12.1,>=1.7.1
