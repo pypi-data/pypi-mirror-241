@@ -1,0 +1,9 @@
+auth0_component/__init__.py,sha256=qTaRwx8yoGbzFfCOa1c04Z_4mtfMWQgyJJKYCCpWA3U,3233
+auth0_component/frontend/dist/index.html,sha256=xKyscU6M41n812HCsvjkNtjWYQOqSonTBCVTaMObHfE,301
+auth0_component/frontend/dist/assets/index.5223bee9.css,sha256=UiO-6ZFct-W5lObb8-rYs2UKoHSMZct-CqxixaJ6eDI,1468
+auth0_component/frontend/dist/assets/index.db5f4801.js,sha256=4oVn1iQ_HkjJ6i5AX8lY3VPYqhrUBzwNx8Bbjcz2XZ4,337452
+streamlit_auth0_component_patch-0.2.1.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+streamlit_auth0_component_patch-0.2.1.dist-info/METADATA,sha256=DwkOyF_jM7LP00zLbgHvVA2pOqB5rh0v_kLPR_FO614,333
+streamlit_auth0_component_patch-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+streamlit_auth0_component_patch-0.2.1.dist-info/top_level.txt,sha256=wdO2Q0t4xnJgjEL38rG6RiJWxEtMXDENrT_Ix1Jsfgc,16
+streamlit_auth0_component_patch-0.2.1.dist-info/RECORD,,
