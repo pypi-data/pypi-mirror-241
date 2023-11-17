@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+GPTTerminal/__init__.py
+GPTTerminal/checks.py
+GPTTerminal/config.py
+GPTTerminal/gpt_settings.py
+GPTTerminal/gpt_terminal.py
+GPTTerminal/menu.py
+gpt_terminal.egg-info/PKG-INFO
+gpt_terminal.egg-info/SOURCES.txt
+gpt_terminal.egg-info/dependency_links.txt
+gpt_terminal.egg-info/entry_points.txt
+gpt_terminal.egg-info/requires.txt
+gpt_terminal.egg-info/top_level.txt
