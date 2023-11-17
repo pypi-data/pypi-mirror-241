@@ -1,0 +1,17 @@
+kattis_cli/.kattis-cli.toml,sha256=txfSLCaJOeQfIk8hCv3d8fFfU2xS7aw0hD8hCnIJr1g,481
+kattis_cli/__init__.py,sha256=afN92pog2fGyicY6KNBofYbCBYbYj4Fpi_INUSpsc-E,402
+kattis_cli/config.py,sha256=9H0mHKE91ONJueRosIfa2PAoOoA2KflIOkZlMQ1tLc4,743
+kattis_cli/download.py,sha256=Lv8GakStemWMIg8UUFobf2ZcqIQsRKwcRPS8PsaGryI,5026
+kattis_cli/kattis.py,sha256=1GSkRf9P7PDBlNApJptEVehVEAh6LSjdZdSt0nMs8EA,13688
+kattis_cli/main.py,sha256=jh36ubEiI4-g5XdOsiGfCjNunxkavgu2-6uSFfSyEgw,3110
+kattis_cli/settings.py,sha256=d5q4dYj9VqDSqPalleh2oZWtND-1bPB0T2IwdajFrBg,591
+kattis_cli/test_solution.py,sha256=7znH91nPYPBm6SV9IVTA1pETOzHNZC4pubMByYDBPAw,5707
+kattis_cli/ui.py,sha256=bj5TPuWeU78tn0cUilxIBMLezuLj_Vq2Zsx84LcuN68,2567
+kattis_cli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kattis_cli/utils/run_python.py,sha256=DUweJ4XBgaFs1c8A2N4EjR_o1bb0OqRufPJi5Zp2bNI,936
+kattis_cli/utils/utility.py,sha256=Vhwk_sEQ1RqmM_QFaI0jsY_tQlcx028-kNf9hf309a8,9336
+kattis_cli-0.1.1.dist-info/LICENSE,sha256=JmBa4SEKBCDWEgiOZcISU4tUCpli6xSpVlSYgkBXSNQ,1067
+kattis_cli-0.1.1.dist-info/METADATA,sha256=okefdI7O4hHMy4Rg-1iZVX6PPLyKlWvUsqgdo53ZVqY,1618
+kattis_cli-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kattis_cli-0.1.1.dist-info/entry_points.txt,sha256=kyzGN20VqUPR_H0J_jJUKT-10-cAMFLVegQ6C7tbHss,47
+kattis_cli-0.1.1.dist-info/RECORD,,
