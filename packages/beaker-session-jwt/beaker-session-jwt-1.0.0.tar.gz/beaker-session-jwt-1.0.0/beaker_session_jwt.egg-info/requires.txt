@@ -1,0 +1,7 @@
+beaker<2
+joserfc
+pymongo
+
+[test]
+webtest
+pytest
