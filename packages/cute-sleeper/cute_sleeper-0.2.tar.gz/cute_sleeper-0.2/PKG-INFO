@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cute_sleeper
+Version: 0.2
+Summary: A simple Python library for random sleep times based on normal distribution
+Home-page: https://github.com/Aramir94/sleeper
+Author: data_jeong
+Author-email: jhs941222@naver.com
+License: Apache
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sleeper
+
+Sleeper는 파이썬을 사용하여 정규 분포에 따라 랜덤하게 대기하는 간단한 라이브러리입니다.
+
+## 설치
+
+`pip install cute_sleeper`
+
+## 사용 방법
+
+```python
+from sleeper import random_sleep
+random_sleep(1)  # 0초에서 1초 사이의 랜덤한 시간 동안 대기합니다.
+
