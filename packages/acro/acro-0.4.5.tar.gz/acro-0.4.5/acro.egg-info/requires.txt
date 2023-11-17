@@ -1,0 +1,7 @@
+lxml
+matplotlib
+numpy
+openpyxl
+pandas~=1.5.0
+PyYAML
+statsmodels
