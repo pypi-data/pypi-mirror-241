@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+sc_movie/__init__.py
+sc_movie/omdb_lib.py
+sc_movie.egg-info/PKG-INFO
+sc_movie.egg-info/SOURCES.txt
+sc_movie.egg-info/dependency_links.txt
+sc_movie.egg-info/top_level.txt
