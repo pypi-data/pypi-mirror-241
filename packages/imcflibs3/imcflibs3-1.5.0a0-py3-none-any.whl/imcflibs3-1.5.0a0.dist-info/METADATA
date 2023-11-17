@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: imcflibs3
+Version: 1.5.0a0
+Summary: Small collection of paths/io/string helper functions.
+License: GPL-3.0-or-later
+Author: Niko Ehrenfeuchter
+Author-email: nikolaus.ehrenfeuchter@unibas.ch
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Changelog, https://github.com/imcf/python-imcflibs3/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://imcf.one/apidocs/imcflibs3/imcflibs3.html
+Project-URL: Organisation Homepage, https://imcf.one/
+Description-Content-Type: text/markdown
+
+# `imcflibs3` - IMCF Py3 helper collection 🐍 🔩 🔧 🪛
+
+This package contains a small collection of Python 3.x functions dealing with
+paths, I/O (file handles, ...), strings and so on.
+
+Initially contained in the [`imcflibs`][1] package (note the missing *3*
+there!), this has been forked into a separate project for being able to support
+current Python versions - the *original* [`imcflibs`][1] package is nowadays
+exclusively useful within the [Fiji][fiji] / [ImageJ2][imagej] ecosystem and
+therefore limited to Python 2.7 (or rather Jython 2.7, see the [Jython 3
+roadmap][jython3] for more details on this topic).
+
+As some of our other packages (e.g. [micrometa][micrometa]) are depending on
+stuff provided by [`imcflibs`][1], this [`imcflibs3`][3] package has been
+created to provide those functions without the limitations mentioned above.
+Obviously the [`imcflibs.imagej`][2] submodule doesn't make sense in a *CPython*
+environment and therefore has been stripped completely from the [`imcflibs3`][3]
+package.
+
+## Note about package versions and compatibility
+
+Package versions will go side-by-side with the corresponding releases of the
+[`imcflibs`][1] package while skipping those releases that only affect the
+[`imcflibs.imagej`][2] submodule(s). In other words, there might (will) be
+version jumps of the [`imcflibs3`][3] package in case there have been releases
+of the [`imcflibs`][1] one in between that were not affecting the functions
+contained here.
+
+Please note that this approach might change in the future if we discover the
+missing versions to be a complicating factor in packaging / testing.
+
+----
+
+Developed and provided by the [Imaging Core Facility (IMCF)][imcf] of the
+Biozentrum, University of Basel, Switzerland.
+
+----
+
+[1]: https://github.com/imcf/python-imcflibs
+[2]: https://github.com/imcf/python-imcflibs/tree/master/src/imcflibs/imagej
+[3]: https://github.com/imcf/python-imcflibs3
+[fiji]: <https://fiji.sc>
+[imagej]: <https://imagej.net>
+[jython3]: <https://www.jython.org/jython-3-roadmap>
+[micrometa]: <https://github.com/imcf/python-micrometa>
+[imcf]: <https://imcf.one>
+
