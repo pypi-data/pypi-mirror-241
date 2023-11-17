@@ -1,0 +1,28 @@
+apiVersion: node.k8s.io/v1
+kind: RuntimeClass
+metadata:
+  name: nvidia
+handler: nvidia
+---
+apiVersion: v1
+kind: Pod
+metadata:
+ name: nvidia-smi
+spec:
+ runtimeClassName: "nvidia"
+ restartPolicy: Always  # Keep the pod running
+ containers:
+    - name: nvidia-smi
+      image: "nvidia/cuda:12.1.0-base-ubuntu18.04"
+      command: ["/bin/bash","-c"]  # Overriding the image's default entrypoint
+      args:
+      - |
+        while true; do
+          nvidia-smi
+          sleep 10  # for example, sleep for 10 seconds before running the command again
+        done
+      resources:
+        requests:
+          nvidia.com/gpu: "1"
+        limits:
+          nvidia.com/gpu: "1"
