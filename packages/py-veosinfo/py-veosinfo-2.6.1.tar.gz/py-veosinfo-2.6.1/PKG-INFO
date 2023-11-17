@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: py-veosinfo
+Version: 2.6.1
+Summary: Python bindings for the veosinfo library for the SX-Aurora Vector Engine
+Home-page: https://github.com/sx-aurora/py-veosinfo
+Author: Erich Focht
+Author-email: efocht@gmail.com
+License: GPLv2
+Description: 
+        Python bindings to libveosinfo that provides various details
+        on the SX-Aurora Vector Engines located in the current host:
+        - lists VEs in the system and their state
+        - information in the VE architecture
+        - information on caches, frequencies of each VE core
+        - load and memory statistics of VEs
+        - information on processes running on the VEs
+        - fan, temperature, voltage of VEs
+        - various statistical infos
+        - a mechanism to read VE register values of own processes
+        
+        The tool veperf can be used to periodically display performance metrics of
+        the own VE processes.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: Utilities
