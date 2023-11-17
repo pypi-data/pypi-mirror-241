@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: voyage-embedders-haystack
+Version: 0.1.2
+Summary: Haystack 2.x component to embed strings and Documents using VoyageAI Embedding models.
+Project-URL: Documentation, https://github.com/awinml/voyage-embedders-haystack#readme
+Project-URL: Issues, https://github.com/awinml/voyage-embedders-haystack/issues
+Project-URL: Source, https://github.com/awinml/voyage-embedders-haystack
+Author: Ashwin Mathur
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: Haystack,VoyageAI
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: haystack-ai
+Requires-Dist: numpy
+Requires-Dist: typing-extensions
+Requires-Dist: voyageai
+Description-Content-Type: text/markdown
+
+# voyage-embedders-haystack
+
+<!-- 
+[![Coverage Status](https://coveralls.io/repos/github/awinml/voyage-embedders-haystack/badge.svg?branch=main)](https://coveralls.io/github/awinml/voyage-embedders-haystack?branch=main)
+
+-->
