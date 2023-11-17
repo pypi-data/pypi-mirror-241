@@ -1,0 +1,9 @@
+README.md
+setup.py
+mymathlib/__init__.py
+mymathlib/awikwok.py
+mymathlib/test.py
+mymathlib.egg-info/PKG-INFO
+mymathlib.egg-info/SOURCES.txt
+mymathlib.egg-info/dependency_links.txt
+mymathlib.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mymathlib
+Version: 0.0.1
+Summary: A simple Python library for basic mathematical calculations
+Home-page: https://github.com/AIvanCP
+Author: AIvanCP
+Author-email: <angvacp@gmail.com>
+License: MIT
+Description: # MyMathLib
+        
+        MyMathLib is a simple Python library for basic mathematical calculations.
+        
+        ## Installation
+        
+        ```bash
+        pip install mymathlib
+        ```
+        ## Usage
+        ```bash
+        from mymathlib.geometry import circle_area
+        
+        radius = 5
+        area = circle_area(radius)
+        print(f"The area of the circle with radius {radius} is: {area}")
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
