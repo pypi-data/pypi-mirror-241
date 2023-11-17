@@ -1,0 +1,13 @@
+oxtapus/.DS_Store,sha256=0rDOK8ZfHcSrcVGAzbYz4wStqJsCIq6ategrLYGyzp0,6148
+oxtapus/__init__.py,sha256=sIygPeO0nRcjVFC2onFXQtwAArbZiWEMOxx9dMkiRHI,64
+oxtapus/tgju.py,sha256=jIseeQuldq1FdHp9BIlau0KQimVvu_oydLuOfO5wakU,6082
+oxtapus/tsetmc.py,sha256=Ozq-MQZSeFQ8jSAXm2xmBm1x2_4kUuOjXO_8gRAVwYk,66911
+oxtapus/utils/__init__.py,sha256=Fx1-tcRAaxLfbXwaWpDYAL6InXkoOenxkZWXxGLrmTI,125
+oxtapus/utils/columns.py,sha256=SdnVqDwLpMo1Tuxocectwk0PO1qLAKsmLcJUYoCE0Rs,8003
+oxtapus/utils/http/__init__.py,sha256=447GDWyNp9xpyt7tERfZfZtS-jH34wOdFJITVmwXVkE,47
+oxtapus/utils/http/requests.py,sha256=sOKjncwZfGdTcRIqTj22yP4Gmt-SMoR9tj0EVaeYxos,2046
+oxtapus/utils/normalize.py,sha256=jDJiEXF0O_xq5mx4mMElQ-MmxI80lhvv70YNY1XCAJ8,480
+oxtapus-0.2.9.dist-info/LICENSE.txt,sha256=rk-2xVGc7h8PusLyqRcXBBh3TiYtJXA-EE_YXpDfyC0,1071
+oxtapus-0.2.9.dist-info/METADATA,sha256=5m7SJMO2BuOjdbO5FWKici0touhm9up0ULViWp13orM,9694
+oxtapus-0.2.9.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+oxtapus-0.2.9.dist-info/RECORD,,
