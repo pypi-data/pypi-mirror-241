@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-jaws-namespace
+Version: 1.1.2
+Summary: Library to dynamically add functionnalities to a class using namespaces
+Author: Samuel Beaulieu
+Author-email: samuel.b1015@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# PyJawsNamespace: Dynamically add entrypoints to a class by mapping it to a namespace
+
+WIP
