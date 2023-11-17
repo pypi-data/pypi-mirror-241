@@ -1,0 +1,7 @@
+aiopki
+canonical>=2.0.0a1
+cel-python
+fastapi>=0.104.0
+Jinja2>=3.1.2
+pydantic>2
+uvicorn

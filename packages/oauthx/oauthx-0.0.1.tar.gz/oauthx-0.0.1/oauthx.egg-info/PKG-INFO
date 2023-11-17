@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: oauthx
+Version: 0.0.1
+Summary: Implementation library for OpenID Connect clients and servers.
+Home-page: https://gitlab.com/unimatrixone
+Author: Cochise Ruhulessin
+Author-email: cochiseruhulessin@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Dist: aiopki
+Requires-Dist: canonical>=2.0.0a1
+Requires-Dist: cel-python
+Requires-Dist: fastapi>=0.104.0
+Requires-Dist: Jinja2>=3.1.2
+Requires-Dist: pydantic>2
+Requires-Dist: uvicorn
