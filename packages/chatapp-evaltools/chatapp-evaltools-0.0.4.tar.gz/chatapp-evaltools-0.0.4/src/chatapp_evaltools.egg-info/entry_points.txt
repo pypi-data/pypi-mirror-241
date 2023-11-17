@@ -1,0 +1,2 @@
+[console_scripts]
+evaltools = chatapp_evaltools.cli:cli
