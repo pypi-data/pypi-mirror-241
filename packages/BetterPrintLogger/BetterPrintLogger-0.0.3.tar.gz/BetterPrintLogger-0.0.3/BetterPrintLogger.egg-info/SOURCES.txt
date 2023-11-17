@@ -1,0 +1,7 @@
+setup.py
+BetterPrintLogger/__init__.py
+BetterPrintLogger/logger.py
+BetterPrintLogger.egg-info/PKG-INFO
+BetterPrintLogger.egg-info/SOURCES.txt
+BetterPrintLogger.egg-info/dependency_links.txt
+BetterPrintLogger.egg-info/top_level.txt
