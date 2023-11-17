@@ -1,0 +1,9 @@
+networkx>=3.1
+argparse>=1.1
+python-louvain>=0.15
+joblib>=0.17.0
+tqdm>=4.50.2
+numpy>=1.19.2
+matplotlib>=3.3.2
+scikit-learn>=0.23
+pandas>=1.1.3
