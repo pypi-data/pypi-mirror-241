@@ -1,0 +1,8 @@
+[console_scripts]
+archive-all-comics = metadata_magic.archive.archive_all:main
+archive-series = metadata_magic.archive.series_info:main
+extract-all-comics = metadata_magic.archive.extract_all:main
+mm-archive = metadata_magic.archive.archive:main
+mm-error = metadata_magic.error:main
+mm-rename = metadata_magic.rename:main
+mm-update = metadata_magic.archive.update:main
