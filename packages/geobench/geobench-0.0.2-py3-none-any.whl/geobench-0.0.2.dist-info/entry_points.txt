@@ -1,0 +1,4 @@
+[console_scripts]
+geobench-download=geobench.geobench_download:download_benchmark
+geobench-test=geobench.tests.launch_pytest:start
+
