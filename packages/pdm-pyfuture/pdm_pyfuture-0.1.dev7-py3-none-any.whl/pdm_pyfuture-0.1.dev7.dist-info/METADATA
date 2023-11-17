@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pdm-pyfuture
+Version: 0.1.dev7
+Author-Email: Zhan Rongrui <2742392377@qq.com>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: libcst>=1.1.0
+Description-Content-Type: text/markdown
+
+# pdm-pyfuture
