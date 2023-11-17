@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mymathlib
+Version: 0.0.2
+Summary: A simple Python library for basic mathematical calculations
+Home-page: https://github.com/AIvanCP
+Author: AIvanCP
+Author-email: <angvacp@gmail.com>
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+
+# MyMathLib
+
+MyMathLib is a simple Python library for basic mathematical calculations.
+
+## Installation
+
+```bash
+pip install mymathlib
+```
+## Usage
+```bash
+from mymathlib.awikwok import aowkwk
+
+obj = aowkwk()
+data = obj.circle_area
+print(data)
+```
+
+
+
