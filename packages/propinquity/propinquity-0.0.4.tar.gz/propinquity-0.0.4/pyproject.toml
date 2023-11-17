@@ -1,0 +1,47 @@
+
+
+#
+#	How to publish:
+#
+#		(rm -rf dist && python3 -m build --sdist && twine upload dist/*)
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "propinquity"
+version = "0.0.4"
+description = "treasury stuff"
+readme = "structure.txt"
+dependencies = [
+	"backtrader",
+	"basana",
+	"botanical",
+	"cufflinks",
+	"pydash",
+	"lymphatic",
+	"stock_indicators",
+	"matplotlib",
+	"numpy",
+	"pandas",
+	"pandas_ta",
+	"pandas_datareader",
+	"plotly",
+	"PyJSONViewer",
+	"ta",
+	"talipp",
+	"yfinance",
+	"yahooquery"
+]
+
+
+[tool.setuptools.packages.find]
+where = [ "treasury/structures" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.HTML" ]

@@ -1,0 +1,34 @@
+
+
+{
+	pc ratio squeezes,
+	aggregate PC ratio,
+	CONTRACT PRICE sums AND ratios
+}
+
+	FOR EACH CONTRACT:
+	sumMATION (CONTRACT PRICE * open interest * SHARES PER CONTRACT) 
+
+
+	∑ (CONTRACT PRICE * open interest * SHARES PER CONTRACT) 
+	
+	code:
+		import propinquity.STATS.AGGREGATE_PC_RATIO as AGGREGATE_PC_RATIO
+		evaluation = AGGREGATE_PC_RATIO.calc (EXAMPLE_1)
+
+		import json
+		print ("evaluation:", json.dumps (evaluation, indent = 4))
+		
+	
+	plan:
+		calculates the sum and ratios of:
+
+		for one expiration:
+			summation (ask value of every call) : summation (ask value of every put)
+			summation (bid value of every call) : summation (bid value of every put)
+			summation (last value of every call) : summation (last value of every put)
+		
+		for every expiration:
+			summation (ask value of every call) : summation (ask value of every put)
+			summation (bid value of every call) : summation (bid value of every put)
+			summation (last value of every call) : summation (last value of every put)

@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: propinquity
+Version: 0.0.4
+Summary: treasury stuff
+Description-Content-Type: text/plain
+Requires-Dist: backtrader
+Requires-Dist: basana
+Requires-Dist: botanical
+Requires-Dist: cufflinks
+Requires-Dist: pydash
+Requires-Dist: lymphatic
+Requires-Dist: stock_indicators
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pandas_ta
+Requires-Dist: pandas_datareader
+Requires-Dist: plotly
+Requires-Dist: PyJSONViewer
+Requires-Dist: ta
+Requires-Dist: talipp
+Requires-Dist: yfinance
+Requires-Dist: yahooquery
+
+
+
+<body>
+	<nav></nav>
+	<main>
+		<header>
+			<h1>propinquity</h1>
+		</header>
+	</main>
+	<nav></nav>
+</body>

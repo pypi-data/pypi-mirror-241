@@ -1,0 +1,11 @@
+
+
+<body>
+	<nav></nav>
+	<main>
+		<header>
+			<h1>propinquity</h1>
+		</header>
+	</main>
+	<nav></nav>
+</body>
