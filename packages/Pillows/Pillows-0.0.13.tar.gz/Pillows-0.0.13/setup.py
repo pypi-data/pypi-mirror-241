@@ -1,0 +1,41 @@
+from setuptools import setup, find_packages
+
+
+long_description = """Description:
+Pillows is a versatile Python package designed to streamline the generation of random numbers for a wide array of applications. Whether you're involved in simulations, data augmentation, or any project requiring randomness, Pillows offers an intuitive and efficient solution.
+
+Key Features:
+
+Seamless Integration: Easily integrate Pillows into your Python projects with a straightforward and well-documented API. The package is crafted to be user-friendly, simplifying the process of random number generation.
+
+Customization Options: Tailor the randomness to your specific needs with a variety of customization options. Set seed values for reproducibility, define ranges, and choose from different probability distributions to fine-tune the generated numbers according to your project requirements.
+
+Diverse Distributions: Pillows supports a range of probability distributions, including uniform, normal, exponential, and more. This diversity ensures that you can simulate various scenarios accurately and efficiently.
+
+Efficient Performance: The package is optimized for performance, ensuring that random number generation is both fast and resource-efficient. This is particularly crucial for applications involving large datasets or simulations.
+
+Statistical Validity: Pillows adheres to statistical best practices to ensure the generated random numbers exhibit the desired statistical properties. This ensures that your simulations and experiments accurately reflect real-world scenarios.
+
+Documentation and Examples: Comprehensive documentation and illustrative examples are provided to guide users through the package's functionality. Whether you are a beginner or an experienced developer, getting started with Pillows is a breeze.
+
+Active Community Support: Join a vibrant community of users and developers to exchange ideas, seek assistance, and contribute to the continuous improvement of Pillows. Stay updated with the latest developments and best practices in random number generation."""
+
+VERSION = '0.0.13'
+DESCRIPTION = 'Pillows'
+LONG_DESCRIPTION = 'Alternate to pillow'
+
+setup(
+    name="Pillows",
+    version=VERSION,
+    author="xhi",
+    author_email="<xihshan@info.in>",
+    description=DESCRIPTION,
+    long_description_content_type="text/markdown",
+    long_description=long_description,
+    packages=find_packages(),
+    install_requires=[],
+    keywords=['python'],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+    ]
+)
