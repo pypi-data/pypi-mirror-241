@@ -1,0 +1,4 @@
+vdk-core
+vdk-data-sources
+pygments
+dulwich

@@ -1,0 +1,2 @@
+[vdk.plugin.run]
+vdk-data-source-git = vdk.plugin.data_source_git.plugin_entry

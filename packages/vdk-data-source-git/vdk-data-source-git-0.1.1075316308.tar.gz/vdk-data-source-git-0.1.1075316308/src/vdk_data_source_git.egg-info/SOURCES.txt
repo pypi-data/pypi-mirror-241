@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/vdk/plugin/data_source_git/git_source.py
+src/vdk/plugin/data_source_git/plugin_entry.py
+src/vdk/plugin/data_source_git/utils.py
+src/vdk_data_source_git.egg-info/PKG-INFO
+src/vdk_data_source_git.egg-info/SOURCES.txt
+src/vdk_data_source_git.egg-info/dependency_links.txt
+src/vdk_data_source_git.egg-info/entry_points.txt
+src/vdk_data_source_git.egg-info/requires.txt
+src/vdk_data_source_git.egg-info/top_level.txt
+tests/test_run_ingest_git.py
