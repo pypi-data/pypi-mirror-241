@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: FdoJarParcial2
+Version: 0.1.2
+Summary: Suavizado de curvas
+Home-page: https://gitlab.com/juanf.jaramillo1/curso-fci-2023-2.git
+Author: Fernando Jaramillo
+Author-email: juanf.jaramillo@udea.edu.co
+License: MIT
+Description-Content-Type: text/markdown
+
+# Libreria Punto1 parcial2
+
+Instalar con pip install FdoJarParcial2
+
+Para inicializar 
+import FdoJarParcial2 as FJ
+
+para usar 
+Solucion = F.SuavKernel(Nombre_archivo,h)
+
+para usar kernel Gaussiano
+Solucion.SuavizadoGauss()
+
+para usar kernel Epanechnikov
+Solucion.SuavizadoEpanechnikov()
+
+para usar kernel Tricube
+Solucion.SuavizadoTriCube()
+
+para guardar las gráficas
+Solucion.GuardarFigura("Prueba")
