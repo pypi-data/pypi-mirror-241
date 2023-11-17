@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+C:/Users/51028915/Documents/GitHub/ai_management/__init__.py
+C:/Users/51028915/Documents/GitHub/ai_management/constants.py
+C:/Users/51028915/Documents/GitHub/ai_management/main.py
+ai_management.egg-info/PKG-INFO
+ai_management.egg-info/SOURCES.txt
+ai_management.egg-info/dependency_links.txt
+ai_management.egg-info/requires.txt
+ai_management.egg-info/top_level.txt
