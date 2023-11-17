@@ -1,0 +1,1 @@
+from pymal_basic import Anime
