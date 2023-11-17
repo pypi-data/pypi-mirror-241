@@ -1,0 +1,7 @@
+README.md
+setup.py
+kernelO.egg-info/PKG-INFO
+kernelO.egg-info/SOURCES.txt
+kernelO.egg-info/dependency_links.txt
+kernelO.egg-info/requires.txt
+kernelO.egg-info/top_level.txt
