@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flake8_iw"
+version = "0.0.25"
+license = {text = "MIT"}
+description = "A plugin to show lint errors for IW"
+authors = [{name = "Platform", email = "platform-engineering@instawork.com"}]
+classifiers = [
+    "Framework :: Flake8",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Quality Assurance",
+    "Operating System :: OS Independent",
+]
+urls = {Homepage = "http://github.com/Instawork/flake8-iw"}
+dependencies = [
+    "flake8>=3.7",
+    'importlib-metadata>=0.9;python_version<"3.8"',
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.optional-dependencies]
+testing = [
+    "pytest", "ipython", "astpretty", "build", "twine",
+    "flake8",
+]
+
+[project.entry-points]
+"flake8.extension" = {IW = "flake8_iw:Plugin"}
+
+[tool.wheel]
+universal = "1"
+
+[tool.setuptools]
+py-modules = ["flake8_iw"]
+zip-safe = false
+include-package-data = false
+
+[tool.setuptools.packages.find]
+exclude = [
+    "tests",
+    "tests.*",
+]
+namespaces = false
+
+[tool.black]
+line-length = 120
+exclude = '''
+(
+  /(
+    | venv
+    | .git
+  )/
+)
+'''
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = [
+  "tests",
+]
+pythonpath = [
+  ".",
+]

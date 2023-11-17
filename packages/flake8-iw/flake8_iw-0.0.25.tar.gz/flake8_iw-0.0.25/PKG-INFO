@@ -1,0 +1,509 @@
+Metadata-Version: 2.1
+Name: flake8_iw
+Version: 0.0.25
+Summary: A plugin to show lint errors for IW
+Author-email: Platform <platform-engineering@instawork.com>
+License: MIT
+Project-URL: Homepage, http://github.com/Instawork/flake8-iw
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: flake8>=3.7
+Requires-Dist: importlib-metadata>=0.9; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: ipython; extra == "testing"
+Requires-Dist: astpretty; extra == "testing"
+Requires-Dist: build; extra == "testing"
+Requires-Dist: twine; extra == "testing"
+Requires-Dist: flake8; extra == "testing"
+
+# flake8-iw <!-- omit from toc -->
+
+Linters for some common issues we encounter.- [flake8-iw](#flake8-iw)
+- [Building and testing](#building-and-testing)
+- [Supported lint checks](#supported-lint-checks)
+  - [IW01: Use of patch](#iw01-use-of-patch)
+  - [IW02: Use of patch for time freeze](#iw02-use-of-patch-for-time-freeze)
+  - [IW03: Error logging without exception info (exc\_info)](#iw03-error-logging-without-exception-info-exc_info)
+  - [IW04: Use of datetime.now](#iw04-use-of-datetimenow)
+  - [IW05: Use of datetime.replace(tzinfo=XXX)](#iw05-use-of-datetimereplacetzinfoxxx)
+  - [IW06: Use of bulk\_update/bulk\_create without batch\_size](#iw06-use-of-bulk_updatebulk_create-without-batch_size)
+  - [IW07: Use of celery.shared_task, use instawork.decorators.shared_task](#iw07-use-of-celeryshared_task-use-instaworkdecoratorsshared_task)
+  - [IW08: use of timezone.activate or timezone.deactivate, use with timezone.override instead](#iw08-use-of-timezoneactivate-or-timezonedeactivate-use-with-timezoneoverride-instead)
+  - [IW09: missing db_constraint=False on foreign key](#iw09-missing-db_constraintfalse-on-foreign-key)
+  - [IW10: on_delete=DO_NOTHING on foreign key](#iw10-on_deletedo_nothing-on-foreign-key)
+  - [IW11: Use of db_index=True](#iw11-use_of_db_indextrue)
+  - [IW12: Use of unique=True](#iw12-use_of_uniquetrue)
+  - [IW13: Use of index_together instead of Options.indexes](#iw13-use_of_index_together_instead_of_optionsindexes)
+  - [IW14: Use of unique_together instead of Options.constraints](#iw14-use_of_unique_together_instead_of_optionsconstraints)
+  - [IW15: Use of timezone.now in Factories without LazyAttribute or LazyFunction](#iw15-use_of_timezonenow_in_factories_without_lazyattribute_or_lazyfunction)
+  - [IW16: Using setUpClass and tearDownClass inside a test case, use setUpTestData instead](#iw16)
+  - [IW17: Parameterized must be topmost decorator](#iw17)
+
+
+## Building and testing
+
+Run command to build wheel and tarball.
+```sh
+python3 -m build
+twine check --strict dist/*
+twine upload dist/*
+```
+
+Run command to test.
+```sh
+pytest
+```
+
+To run package in edit mode (to test on live code) from the directory where running flake8.
+This requires pip >= 21.3.1.
+```sh
+pip install -e ../flake8_iw/
+```
+
+## Supported lint checks
+
+### IW01: Use of patch
+
+Lint check to prevent the use of `patch` directly.
+Recommendation: Use `PatchingTestCase` / `PatchingTransactionTestCase` instead
+
+*Correct* ✅
+
+```python
+from instawork.tests import PatchingTestCase
+
+
+class SignUpUpdatedTests(PatchingTestCase):
+    def setUp(self):
+        self.mock_call = self.patch("apps.auth.signals.task_send_email.delay")
+
+    def test_email(self):
+        expect(self.mock_call).to(have_been_called_once)
+
+    def test_sms(self):
+        mock_sms = self.patch("apps.auth.signals.task_send_sms.delay")
+        expect(mock_sms).to(have_been_called_once)
+
+```
+
+*Wrong* ⚠️
+
+```python
+from unittest.mock import patch
+
+
+class SignUpUpdatedTests(TestCase):
+    def setUp(self):
+        self.patcher = patch("apps.auth.signals.task_send_email.delay")
+        self.mock_email = self.patcher.start()
+
+    def tearDown(self):
+        self.patcher.stop()
+
+    def test_email(self):
+        ...
+        expect(self.mock_email).to(have_been_called_once)
+
+    @patch("apps.auth.signals.task_send_sms.delay")
+    def test_sms(self, mock_sms):
+        ...
+        expect(mock_sms).to(have_been_called_once)
+```
+
+### IW02: Use of patch for time freeze
+
+Lint check to prevent the use of `patch` to freeze time.
+Recommendation: Use `freeze_time` from `PatchingTestCase` / `PatchingTransactionTestCase` or use `freeze_time` decorator or context manager from `freezegun` package.
+
+*Correct* ✅
+
+```python
+from django.utils import timezone
+from instawork.tests import PatchingTestCase
+
+
+class UserFeatureViewTests(PatchingTestCase):
+    def setUp(self):
+        self.now = timezone.now()
+
+    def test_feature_view(self):
+        ufv = None
+
+        # Option 1
+        with freeze_time(self.now):
+            ufv = UserFeatureView.objects.get_or_create(
+                user=self.shift.worker, feature=UserFeatureView.FEATURE_1
+            )
+
+        # Option 2
+        self.freeze_time(self.now)
+        ufv = UserFeatureView.objects.get_or_create(
+            user=self.shift.worker, feature=UserFeatureView.FEATURE_1
+        )
+
+        ...
+
+        expect(ufv.date_created).to(equal(self.now))
+```
+
+*Wrong* ⚠️
+
+```python
+from django.utils import timezone
+from instawork.tests import PatchingTestCase
+
+
+class UserFeatureViewTests(PatchingTestCase):
+    def setUp(self):
+        self.now = timezone.now()
+        self.mock_call = self.patch("django.utils.timezone.now", return_value=self.now)
+
+    def test_feature_view(self):
+        ufv = UserFeatureView.objects.get_or_create(
+            user=self.shift.worker, feature=UserFeatureView.FEATURE_1
+        )
+
+        ...
+
+        expect(ufv.date_created).to(equal(self.now))
+```
+
+### IW03: Error logging without exception info (exc_info)
+
+Lint check to prevent error logging without exception info.
+Recommendation: Add `exc_info=True` keyword argument in `logger.error()`
+
+*Correct* ✅
+
+```python
+import logging
+
+custom_logger = logging.getLogger("module.logger")
+
+class UserFeatureView(Model):
+    def save(self):
+        try:
+            ...
+        except ValueError as e:
+            custom_logger.error(e, exc_info=True)
+            return name
+```
+
+*Wrong* ⚠️
+
+```python
+import logging
+
+custom_logger = logging.getLogger("module.logger")
+
+class UserFeatureView(Model):
+    def save(self):
+        try:
+            ...
+        except ValueError as e:
+            custom_logger.error(e)
+            return name
+```
+
+### IW04: Use of datetime.now
+
+Lint to avoid usage of `datetime.now()` which does not contain timezone information and causes various warnings in tests. Use `timezone.now()` instead.
+
+*Correct* ✅
+```python
+from django.utils import timezone
+
+now = timezone.now()
+```
+
+*Wrong* ⚠️
+
+```python
+from datetime import datetime
+
+now = datetime.now()
+```
+
+### IW05: Use of datetime.replace(tzinfo=XXX)
+
+Lint to avoid usage of `datetime.replace(tzinfo=XXX)` which is not a viable way of setting timezones with python/pytz.
+
+*Correct* ✅
+```python
+import pytz
+from django.utils import timezone
+
+tz = pytz.timezone("America/Los_Angeles")
+now_pt = timezone.now().astimezone(tz)
+```
+
+*Wrong* ⚠️
+
+```python
+import pytz
+from django.utils import timezone
+
+tz = pytz.timezone("America/Los_Angeles")
+now_pt = timezone.now().replace(tzinfo=tz)
+```
+
+### IW06: Use of bulk_update/bulk_create without batch_size
+
+Lint to avoid usage of [Model.objects.bulk_update](https://docs.djangoproject.com/en/dev/ref/models/querysets/#bulk-update) / [Model.objects.bulk_create](https://docs.djangoproject.com/en/dev/ref/models/querysets/#bulk-create). Use `Model.objects.bulk_update(batch_size=X)` / `Model.objects.bulk_create(batch_size=X)` instead.
+
+*Correct* ✅
+```python
+# Bulk update
+Model.objects.bulk_update([obj1, obj2, ...], batch_size=10)
+
+# Bulk create
+Model.objects.bulk_create([obj1, obj2, ...], batch_size=10)
+```
+
+*Wrong* ⚠️
+
+```python
+# Bulk update
+Model.objects.bulk_update([obj1, obj2, ...])
+
+# Bulk create
+Model.objects.bulk_create([obj1, obj2, ...])
+```
+
+
+### IW07: Use of celery.shared_task, use instawork.decorators.shared_task
+
+Use our internal decorator instead: `instawork.decorators.shared_task`.
+
+*Correct* ✅
+```python
+from instawork.decorators import shared_task
+
+@shared_task
+def my_task():
+    pass
+```
+
+*Wrong* ⚠️
+
+```python
+from celery import shared_task
+
+@shared_task
+def my_task():
+    pass
+```
+
+### IW08: use of timezone.activate or timezone.deactivate, use with timezone.override instead
+
+Lint to avoid usage of `timezone.activate()` and instead use `with timezone.override()`. This is to avoid timezone
+leakage between different tests and features.
+
+*Correct* ✅
+```python
+from django.utils import timezone
+with timezone.override(zoneinfo.ZoneInfo(tzname)):
+    <Rest of the code>
+```
+
+*Wrong* ⚠️
+
+```python
+from django.utils import timezone
+timezone.activate(zoneinfo.ZoneInfo(tzname))
+<Rest of the code>
+timezone.deactivate()
+```
+
+### IW09: missing db_constraint=False on foreign key
+
+It's required to pass db_constraint=False when creating a new foreign key relationship.
+This is to prevent issues with online schema changes that arise due to MySQL's foreign key
+architecture.
+
+*Correct* ✅
+```python
+x = models.ForeignKey(db_constraint=False, on_delete=models.CASCADE)
+```
+
+*Wrong* ⚠️
+
+```python
+x = models.ForeignKey(on_delete=models.CASCADE)
+```
+
+### IW10: on_delete=DO_NOTHING on foreign key
+
+It's not advisable to use DO_NOTHING on foreign keys because we have removed
+foreign key constraints in the database. It's best to have a strategy that deals
+with deletions that doesn't leave "orphaned" foreign key ids.
+
+*Correct* ✅
+```python
+x = models.ForeignKey(db_constraint=False, on_delete=models.CASCADE)
+```
+
+*Wrong* ⚠️
+
+```python
+x = models.ForeignKey(db_constraint=False, on_delete=models.DO_NOTHING)
+```
+
+### IW11: Use of db_index=True
+
+Use `Options.indexes` to define an index rather than argument on field.
+See [here](https://docs.djangoproject.com/en/4.2/ref/models/options/#django.db.models.Options.indexes)
+
+
+*Correct* ✅
+```python
+x = models.CharField()
+
+class Meta:
+    indexes = [
+        models.Index(fields=["x"], name="x_idx"),
+    ]
+```
+
+*Wrong* ⚠️
+
+```python
+x = models.CharField(db_index=True)
+```
+
+### IW12: Use of unique=True
+
+Use `Options.constraints` to define uniqueness rather than argument on field.
+See [here](https://docs.djangoproject.com/en/4.2/ref/models/options/#django.db.models.Options.constraints)
+and [here](https://docs.djangoproject.com/en/4.2/ref/models/constraints/#uniqueconstraint)
+
+
+*Correct* ✅
+```python
+x = models.CharField()
+
+class Meta:
+    constraints = [
+        models.UniqueConstraint(fields=["x"], name="unique_x"),
+    ]
+```
+
+*Wrong* ⚠️
+
+```python
+x = models.CharField(unique=True)
+```
+
+### IW13: Use of index_together instead of Options.indexes
+
+Use `Options.indexes` to define an index rather than argument on field.
+See [here](https://docs.djangoproject.com/en/4.2/ref/models/options/#django.db.models.Options.indexes)
+
+
+*Correct* ✅
+```python
+class Meta:
+    indexes = [
+        models.Index(fields=["a", "b"], name="a_b_idx"),
+    ]
+```
+
+*Wrong* ⚠️
+
+```python
+class Meta:
+    index_together = (("a", "b"))
+```
+
+### IW14: Use of unique_together instead of Options.constraints
+
+Use `Options.constraints` to define uniqueness rather than argument on field.
+See [here](https://docs.djangoproject.com/en/4.2/ref/models/options/#django.db.models.Options.constraints)
+and [here](https://docs.djangoproject.com/en/4.2/ref/models/constraints/#uniqueconstraint)
+
+
+*Correct* ✅
+```python
+class Meta:
+    constraints = [
+        models.UniqueConstraint(fields=["a", "b"], name="unique_a_b"),
+    ]
+```
+
+*Wrong* ⚠️
+
+```python
+class Meta:
+    unique_together = (("a", "b"))
+```
+
+### IW15: Use of timezone.now in Factories without LazyAttribute or LazyFunction
+
+Use `LazyAttribute` or `LazyFunction` in factories with `timezone.now` to enable freezegun and avoid unexpected datetimes.
+
+*Correct* ✅
+```python
+class TestFactory(factory.django.DjangoModelFactory):
+    starts_at = factory.LazyFunction(timezone.now)
+```
+
+*Wrong* ⚠️
+
+```python
+class TestFactory(factory.django.DjangoModelFactory):
+    starts_at = timezone.now()
+```
+
+### IW16: Using setUpClass and tearDownClass inside a test case, use setUpTestData instead
+
+Avoid using setUpClass and tearDownClass inside a test case
+
+*Correct* ✅
+```python
+class MyTest(TestCase):
+    def setUpTestData(self):
+        something()
+    
+```
+
+*Wrong* ⚠️
+
+```python
+class MyTest(TestCase):
+    @classmethod
+    def setUpClass(self):
+        something()
+    
+    @classmethod
+    def tearDownClass(self):
+        something()
+```
+
+### IW17: Parameterized must be the topmost decorator
+
+`parameterized.expand()` must be above `override_config`, `override_settings`, etc.
+
+*Correct* ✅
+```python
+class MyTest(TestCase):
+    @parameterized.expand([(1,2)])
+    @override_config(SOME_CONFIG=1)
+    def test_something(self, p1, p2):
+        something()
+```
+
+*Wrong* ⚠️
+
+```python
+class MyTest(TestCase):
+    @override_config(SOME_CONFIG=1)
+    @parameterized.expand([(1,2)])
+    def test_something(self, p1, p2):
+        something()
+```
