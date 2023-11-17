@@ -1,0 +1,9 @@
+autodevice/__init__.py,sha256=t8-zL6SSAHpD-lJJZdB9efV7F9zioG4F43VQuAjEDbI,420
+autodevice/__version__.py,sha256=ThOdNxqyiTq6gW5pjS-rRTC5pDJOWjpZKSbcjk2bic8,24
+autodevice/_autodevice.py,sha256=tfy_RS980AEsT_f10nXXLeiX45dFIx8RB2B_OmUI-nU,2647
+autodevice/_available_devices.py,sha256=yNjG4mMhqfG8lUlyNLoR68bQL4GP9AcZgFw05tzP8Pw,1622
+autodevice-0.1.0rc0.dist-info/LICENSE,sha256=MSpJ6NmzkN6URg5kcT8eAhKE5og9psSLFnhY8kTnXBQ,1072
+autodevice-0.1.0rc0.dist-info/METADATA,sha256=NPGPpwh0t1YMfxUEp3RPomkfnUmwXWVHz3in7WPTqZ8,1280
+autodevice-0.1.0rc0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+autodevice-0.1.0rc0.dist-info/top_level.txt,sha256=tIISyKHaZYZGhi57Uinb1t289D5IdxYQBzxShQRhEgQ,11
+autodevice-0.1.0rc0.dist-info/RECORD,,
