@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kolabpy-lite
+Version: 0.0.0.6
+Summary: kolabpy-lite is a streamlined version of kolabpy.
+Home-page: https://sites.google.com/view/kdkim/welcome
+Author: Kyungdong Kim
+Author-email: policyscientist@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: saspy (>=5.4.2)
+
+kolabpy-lite is a modified version of saspy, designed to connect SAS ODA with Jupyter Notebook, including Google Colab.
+
+
