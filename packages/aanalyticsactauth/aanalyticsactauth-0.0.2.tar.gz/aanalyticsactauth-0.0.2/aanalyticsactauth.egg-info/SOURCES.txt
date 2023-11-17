@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aanalyticsactauth/__init__.py
+aanalyticsactauth/__version__.py
+aanalyticsactauth/auth.py
+aanalyticsactauth.egg-info/PKG-INFO
+aanalyticsactauth.egg-info/SOURCES.txt
+aanalyticsactauth.egg-info/dependency_links.txt
+aanalyticsactauth.egg-info/top_level.txt
