@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: NAILNet_Snakemix66
+Version: 0.0.1
+Summary: Nueral Artifical Inteligence Library Network
+Project-URL: Homepage, https://github.com/sst3ly/NAIL-Net
+Project-URL: Bug Tracker, https://github.com/sst3ly/NAIL-Net/issues
+Author-email: Snakemix66 <sst3ly@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# NAIL Net
+
+This is a Nueral Artificial Intelligence Library Network for python.
