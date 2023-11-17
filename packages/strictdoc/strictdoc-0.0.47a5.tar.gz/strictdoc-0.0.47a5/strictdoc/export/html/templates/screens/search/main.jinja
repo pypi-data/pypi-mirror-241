@@ -1,0 +1,91 @@
+<div
+  class="main"
+>
+  {%- include "components/form/search.jinja" -%}
+  {%- if search_results|length > 0 -%}
+    <div class="content">
+    {% for node in search_results %}
+      {% if node.is_requirement %}
+        {% with requirement=node, document=node.document, node_controls=True %}
+          {%- include "components/requirement/tiny_extends_card.jinja" -%}
+        {% endwith %}
+      {% elif node.is_section %}
+        {% with section=node, document=node.document, node_controls=True %}
+          {%- include "components/section/tiny_extends_card.jinja" -%}
+        {% endwith %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  {%- else -%}
+
+<sdoc-main-placeholder
+  style="height: unset;"
+  data-testid="search-main-placeholder"
+>
+
+<div>
+<p>
+The search query syntax is inspired by Python and is based on a fixed grammar.
+</p>
+<p>
+Important rules:
+
+<ul>
+<li>
+Every query component shall start with <code>node.</code>".
+</li>
+<li>
+<code>and</code> and <code>or</code> expressions must be grouped using round brackets.
+</li>
+<li>
+Only double quotes are accepted for strings.
+</li>
+</ul>
+</p>
+
+<p>
+Examples:
+</p>
+
+<table>
+<tr>
+<td>
+  <a href="{{ link_renderer.render_url('search?q=node.is_requirement') }}">node.is_requirement</a>
+</td>
+<td>Find all requirements.</td>
+</tr>
+<tr>
+<td>
+  <a href="{{ link_renderer.render_url('search?q=node.is_section') }}">node.is_section</a>
+</td>
+<td>Find all sections.</td>
+</tr>
+<tr>
+<td>
+  <a href="{{ link_renderer.render_url('search?q=(node.is_requirement and "System" in node["TITLE"])') }}">(node.is_requirement and "System" in node["TITLE"])</a>
+</td>
+<td>Find all requirements with a TITLE that equals to "System".</td>
+</tr>
+<tr>
+<td>
+  <a href="{{ link_renderer.render_url('search?q=(node.is_requirement and node.is_root)') }}">(node.is_requirement and node.is_root)</a>
+</td>
+<td>Find all root requirements.</td>
+</tr>
+<tr>
+<td>
+  <a href="{{ link_renderer.render_url('search?q=(node.is_requirement and node.has_parent_requirements)') }}">(node.is_requirement and node.has_parent_requirements)</a>
+</td>
+<td>Find all requirements which have parent requirements.</td>
+</tr>
+</table>
+
+<p>
+  See the User Guide's section "Query engine" for more details.
+</p>
+</div>
+
+</sdoc-main-placeholder>
+
+  {%- endif -%}
+</div> {# /.main #}
