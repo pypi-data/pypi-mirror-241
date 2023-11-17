@@ -1,0 +1,8 @@
+quickprophet/__init__.py,sha256=qQf4PZD3g9IC2CkSDVS20h0JVZtoVagpf48-txBzdZ0,64
+quickprophet/features.py,sha256=lKGoSV5w3oD-VOZZ9GaX0PD__xeR9akAZQAAIb01w5E,641
+quickprophet/impute.py,sha256=GlamTqCo1grCOZFNUuJZGS3Vgr7BMlklu5tltwW4jog,1958
+quickprophet/models.py,sha256=S0PGtWRH_ovNVNq_cLswDcecPoJylBi5w-ZsuI4IQTU,5880
+quickprophet-0.0.5.dist-info/METADATA,sha256=3O6iOGSYTip9Lv_LgkQug3v4r-flaH4DCpVA27dvwp0,876
+quickprophet-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+quickprophet-0.0.5.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quickprophet-0.0.5.dist-info/RECORD,,
