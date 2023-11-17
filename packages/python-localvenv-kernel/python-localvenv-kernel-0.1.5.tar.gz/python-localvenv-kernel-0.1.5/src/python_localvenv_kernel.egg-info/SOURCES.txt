@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+src/localvenv_kernel/__init__.py
+src/localvenv_kernel/__main__.py
+src/localvenv_kernel/kernelspec.py
+src/python_localvenv_kernel.egg-info/PKG-INFO
+src/python_localvenv_kernel.egg-info/SOURCES.txt
+src/python_localvenv_kernel.egg-info/dependency_links.txt
+src/python_localvenv_kernel.egg-info/requires.txt
+src/python_localvenv_kernel.egg-info/top_level.txt
+test/test_kernel.py
