@@ -1,0 +1,613 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Kamerbrief_innovatie_missie] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Kamerbrief_innovatie_missie
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De Voorzitter van de Tweede Kamer der Staten-Generaal Prinses Irenestraat 6 2595 BD DEN HAAG Datum 30 mei 2023 Betreft Herijkte missies van het missiegedreven innovatiebeleid Geachte Voorzitter, We staan voor grote maatschappelijke uitdagingen. De omslag naar een klimaatneutrale en circulaire economie, de transitie in de landbouw en het landelijk gebied, en de sterk veranderde geopolitieke situatie zijn een aantal van de opgaven van deze tijd. Deze kunnen we alleen het hoofd bieden door samen te werken aan innovatieve oplossingen. In de eerdere Kamerbrief Innovatie en Impact, van 11 november jl.1, heb ik samen met mijn collega van OCW de 
+
+ [ALINEA-CONTENT]:
+De Voorzitter van de Tweede Kamer
+der Staten-Generaal
+Prinses Irenestraat 6
+
+          ***          [--- more alinea content ---]        ***          
+
+nader op in. De komende periode zal het kabinet gebruiken om toe te werken
+naar een nieuw Convenant voor de periode 2024-2027, dat eind dit jaar
+gepresenteerd zal worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Het missiegedreven innovatiebeleid
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het missiegedreven innovatiebeleid levert een bijdrage aan de verschillende beleidsdoelstellingen. Met het missiegedreven innovatiebeleid2 bundelen we de inzet van overheden, bedrijfsleven, kennisinstellingen en maatschappelijke organisaties. Door concrete missies te formuleren, werken we gezamenlijk toe naar de oplossingen voor deze uitdagingen en creëren we economische en maatschappelijke impact. Dit doen we met een internationale blik: we versterken nationale onderzoek-en innovatie-ecosystemen door publiek-private samenwerking te stimuleren, en we zorgen hierbij voor goede aansluiting op Europese programma’s zoals Horizon Europe3. In de afgelopen periode (2020-2023) hebben we positieve ervaringen opgedaan met deze aanpak. We hebben geleerd dat het werken met missies veel energie 
+
+ [ALINEA-CONTENT]:
+Het missiegedreven innovatiebeleid levert een bijdrage aan de verschillende
+beleidsdoelstellingen. Met het missiegedreven innovatiebeleid2 bundelen we de
+inzet van overheden, bedrijfsleven, kennisinstellingen en maatschappelijke
+
+          ***          [--- more alinea content ---]        ***          
+
+zetten. Daarbij is er geen uniforme aanpak die overal werkt: de omslag naar een
+circulaire economie vraagt bijvoorbeeld om een andere aanpak dan
+arbeidsbesparende innovatie in de zorg.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Herijking missies
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De missies zijn herijkt ten opzichte van 2019, om recht te doen aan de grote uitdagingen waar Nederland nu voor staat, namelijk op de terreinen van: energietransitie en circulaire economie, gezondheid en zorg, landbouw, water en voedsel, en veiligheid. Het kabinet heeft vijf centrale missies gedefinieerd voor het missiegedreven innovatiebeleid: Deze vijf centrale missies worden verder uitgewerkt in specifieke missies per thema, die hieronder verder worden toegelicht. • Energietransitie: Nederland klimaatneutraal in 2050; • Circulaire Economie: Nederland volledig circulair in 2050; • Gezondheid & Zorg: Mensen in Nederland leven 5 jaar langer gezond en er zijn 30% minder gezondheidsverschillen tussen 
+
+ [ALINEA-CONTENT]:
+De missies zijn herijkt ten opzichte van 2019, om recht te doen aan de grote
+uitdagingen waar Nederland nu voor staat, namelijk op de terreinen van:
+energietransitie en circulaire economie, gezondheid en zorg, landbouw, water en
+
+          ***          [--- more alinea content ---]        ***          
+
+missiegedreven innovatiebeleid:
+Deze vijf centrale missies worden verder uitgewerkt in specifieke missies per
+thema, die hieronder verder worden toegelicht.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • Energietransitie: Nederland klimaatneutraal in 2050; 
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Energietransitie: Nederland klimaatneutraal in 2050; 
+
+ [ALINEA-CONTENT]:
+• Energietransitie: Nederland klimaatneutraal in 2050;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • Circulaire Economie: Nederland volledig circulair in 2050; 
+ nativeID=4 parentID=2 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Circulaire Economie: Nederland volledig circulair in 2050; 
+
+ [ALINEA-CONTENT]:
+• Circulaire Economie: Nederland volledig circulair in 2050;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • Gezondheid & Zorg: Mensen in Nederland leven 5 jaar langer gezond en ...
+ nativeID=5 parentID=2 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Gezondheid & Zorg: Mensen in Nederland leven 5 jaar langer gezond en er zijn 30% minder gezondheidsverschillen tussen sociaal-economische groepen in 2040; 
+
+ [ALINEA-CONTENT]:
+• Gezondheid & Zorg: Mensen in Nederland leven 5 jaar langer gezond en
+er zijn 30% minder gezondheidsverschillen tussen sociaal-economische
+groepen in 2040;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • Landbouw, Water en Voedsel: Een vitaal landelijk gebied en een ...
+ nativeID=6 parentID=2 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Landbouw, Water en Voedsel: Een vitaal landelijk gebied en een veerkrachtige natuur in een klimaatbestendig Nederland. Water en bodem zijn sturend, het landbouw- en voedselsysteem is duurzaam en gezond en de delta is veilig; 
+
+ [ALINEA-CONTENT]:
+• Landbouw, Water en Voedsel: Een vitaal landelijk gebied en een
+veerkrachtige natuur in een klimaatbestendig Nederland. Water en bodem
+zijn sturend, het landbouw- en voedselsysteem is duurzaam en gezond en
+
+          ***          [--- more alinea content ---]        ***          
+
+de delta is veilig;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • Veiligheid: Nederland is veilig en weerbaar tegen externe dreigingen en ...
+ nativeID=7 parentID=2 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Veiligheid: Nederland is veilig en weerbaar tegen externe dreigingen en ondermijnende criminaliteit, zowel in de fysieke omgeving als het digitale domein. 
+
+ [ALINEA-CONTENT]:
+• Veiligheid: Nederland is veilig en weerbaar tegen externe dreigingen en
+ondermijnende criminaliteit, zowel in de fysieke omgeving als het digitale
+domein.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Energietransitie:
+ nativeID=8 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Om in 2050 en daarna een leefbare aarde te hebben, moeten we een grote inspanning doen ten aanzien van het klimaat. We willen de nationale broeikasgasuitstoot in 2030 terugdringen met 55% ten opzichte van 1990. Het streven is zelfs 60%-reductie. Het uiteindelijke doel is dat Nederland in 2050 klimaatneutraal is. Dat betekent dat we onder meer gaan werken aan de verduurzaming van het elektriciteitssysteem en de gebouwde omgeving waarin aardgas geen rol meer speelt en mensen gezond en veilig kunnen leven, een klimaatneutrale en concurrerende industrie, emissieloze mobiliteit, een volledig circulaire economie en een klimaatneutrale landbouw. Deze transitie raakt daarbij 
+
+ [ALINEA-CONTENT]:
+Om in 2050 en daarna een leefbare aarde te hebben, moeten we een grote
+inspanning doen ten aanzien van het klimaat. We willen de nationale
+broeikasgasuitstoot in 2030 terugdringen met 55% ten opzichte van 1990. Het
+
+          ***          [--- more alinea content ---]        ***          
+
+gebouwde omgeving middels eigen programma’s opgenomen binnen het bredere
+thema Energietransitie en Circulariteit.
+De missies voor energietransitie luiden:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Een volledig CO2-vrij elektriciteitssysteem in 2050; 
+ nativeID=9 parentID=8 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Een volledig CO2-vrij elektriciteitssysteem in 2050; 
+
+ [ALINEA-CONTENT]:
+- Een volledig CO2-vrij elektriciteitssysteem in 2050;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Een CO2-vrije en toekomstbestendige gebouwde omgeving in 2050; 
+ nativeID=10 parentID=8 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Een CO2-vrije en toekomstbestendige gebouwde omgeving in 2050; 
+
+ [ALINEA-CONTENT]:
+- Een CO2-vrije en toekomstbestendige gebouwde omgeving in 2050;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Een klimaatneutrale industrie met hergebruik van grondstoffen en ...
+ nativeID=11 parentID=8 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Een klimaatneutrale industrie met hergebruik van grondstoffen en producten in 2050; 
+
+ [ALINEA-CONTENT]:
+- Een klimaatneutrale industrie met hergebruik van grondstoffen en
+producten in 2050;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Emissieloze en toekomstbestendige mobiliteit voor mensen en goederen in ...
+ nativeID=12 parentID=8 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Emissieloze en toekomstbestendige mobiliteit voor mensen en goederen in 2050. 
+
+ [ALINEA-CONTENT]:
+- Emissieloze en toekomstbestendige mobiliteit voor mensen en goederen in
+2050.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Circulaire Economie
+ nativeID=13 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In een circulaire economie zijn vrijwel alleen herbruikbare primaire, secundaire en duurzame biogrondstoffen in omloop. Producten worden binnen gesloten kringlopen geproduceerd, gedistribueerd en geconsumeerd. Zodoende wordt de waarde van grondstoffen, materialen en producten zo lang mogelijk behouden, waardoor er bijna geen afval meer is. Het effect is dat we met het gebruik van grondstoffen in productie en consumptie geen CO2-uitstoten, geen vervuiling veroorzaken, de biodiversiteit verbeteren en de leveringszekerheid van grondstoffen verbeteren. Met het circulair maken van ons grondstoffengebruik, draagt de transitie naar een circulaire economie ook in belangrijke mate bij aan het vergroten van de leveringszekerheid van (kritieke) grondstoffen. 
+
+ [ALINEA-CONTENT]:
+In een circulaire economie zijn vrijwel alleen herbruikbare primaire, secundaire en
+duurzame biogrondstoffen in omloop. Producten worden binnen gesloten
+kringlopen geproduceerd, gedistribueerd en geconsumeerd. Zodoende wordt de
+
+          ***          [--- more alinea content ---]        ***          
+
+De missie circulaire economie is:
+In de transitie naar een volledig circulaire economie stelt het kabinet in
+het Nationaal Programma Circulaire Economie 2023-2030 vier tussendoelen9:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Nederland wil in 2050 volledig circulair zijn. De milieueffecten van ...
+ nativeID=14 parentID=13 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Nederland wil in 2050 volledig circulair zijn. De milieueffecten van grondstoffengebruik in een circulaire economie, dus van alle Nederlandse productie en consumptie, vallen dan binnen de ‘planetaire’ grenzen. 1) Vermindering van grondstoffengebruik: we sturen aan op reductie van de grondstoffenvoetafdruk, zowel vanuit productie- als consumptieperspectief. We kijken in hoeverre we aansluiting kunnen zoeken bij de voorgestelde reductiepercentages voor de grondstoffenvoetafdruk binnen de EU-taxonomie van 50 procent in 2030 en 75 procent in 2050. 2) Substitutie: verhoging van het percentage van toegepaste hernieuwbare grondstoffen, zowel secundaire grondstoffen als duurzaam geproduceerde biogrondstoffen. 3) Levensduurverlenging: we sturen op een lange levensduur voor 
+
+ [ALINEA-CONTENT]:
+- Nederland wil in 2050 volledig circulair zijn. De milieueffecten van
+grondstoffengebruik in een circulaire economie, dus van alle Nederlandse
+productie en consumptie, vallen dan binnen de ‘planetaire’ grenzen.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 1) Vermindering van grondstoffengebruik: we sturen aan op reductie van de ...
+ nativeID=15 parentID=14 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1) Vermindering van grondstoffengebruik: we sturen aan op reductie van de grondstoffenvoetafdruk, zowel vanuit productie- als consumptieperspectief. We kijken in hoeverre we aansluiting kunnen zoeken bij de voorgestelde reductiepercentages voor de grondstoffenvoetafdruk binnen de EU-taxonomie van 50 procent in 2030 en 75 procent in 2050. 2) Substitutie: verhoging van het percentage van toegepaste hernieuwbare grondstoffen, zowel secundaire grondstoffen als duurzaam geproduceerde biogrondstoffen. 3) Levensduurverlenging: we sturen op een lange levensduur voor producten en onderdelen, onder meer door hergebruik, refurbishment en reparatie. Voor 2030 streven we naar een maximale verlenging van de levensduur van producten, rekening houdend met productspecifieke condities. 4) 
+
+ [ALINEA-CONTENT]:
+1) Vermindering van grondstoffengebruik: we sturen aan op reductie van de
+grondstoffenvoetafdruk, zowel vanuit productie- als consumptieperspectief. We
+kijken in hoeverre we aansluiting kunnen zoeken bij de voorgestelde
+
+          ***          [--- more alinea content ---]        ***          
+
+inzamelstromen en terugwinning van materialen. Voor een doelstelling voor 2030
+hanteren we in ieder geval, in lijn met de EU-kaderrichtlijn afvalstoffen, een doel
+van 55 procent recycling van stedelijk afval in 2025 en 60 procent in 2030.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Gezondheid en zorg
+ nativeID=16 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Gezondheidszorg is voor iedereen belangrijk, maar de houdbaarheid van het stelsel staat onder druk. De missies voor het thema Gezondheid en Zorg blijven daarom onverminderd relevant. VWS heeft de afgelopen periode de missies geconcretisteerd via diverse akkoorden en programma’s10. De doelstellingen in deze akkoorden geven de focus voor de middellange termijn aan en geven nadere richting aan de inzet op de missies. Daarbij staan het bevorderen van een gezonde levensverwachting en het terugdringen van gezondheidsachterstanden nog altijd centraal. Aandacht voor een gezonde leefstijl en leefomgeving, toegankelijkheid van zorg, kwaliteit van leven en meedoen in de samenleving blijven belangrijk. Dat vraagt 
+
+ [ALINEA-CONTENT]:
+Gezondheidszorg is voor iedereen belangrijk, maar de houdbaarheid van het
+stelsel staat onder druk. De missies voor het thema Gezondheid en Zorg blijven
+daarom onverminderd relevant. VWS heeft de afgelopen periode de missies
+
+          ***          [--- more alinea content ---]        ***          
+
+in goede gezondheid, en zijn de gezondheidsverschillen tussen de laagste en
+hoogste sociaaleconomische groepen met 30% afgenomen. De volgende missies
+horen hierbij:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2040 is de ziektelast als gevolg van een ongezonde leefstijl en ...
+ nativeID=17 parentID=16 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2040 is de ziektelast als gevolg van een ongezonde leefstijl en ongezonde leefomgeving met 30% afgenomen; 
+
+ [ALINEA-CONTENT]:
+- In 2040 is de ziektelast als gevolg van een ongezonde leefstijl en
+ongezonde leefomgeving met 30% afgenomen;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2030 wordt zorg 50% meer (of vaker) in de eigen leefomgeving ...
+ nativeID=18 parentID=16 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2030 wordt zorg 50% meer (of vaker) in de eigen leefomgeving georganiseerd, samen met het netwerk rond mensen; 
+
+ [ALINEA-CONTENT]:
+- In 2030 wordt zorg 50% meer (of vaker) in de eigen leefomgeving
+georganiseerd, samen met het netwerk rond mensen;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2030 is het deel van de mensen met een chronische ziekte of, ...
+ nativeID=19 parentID=16 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2030 is het deel van de mensen met een chronische ziekte of, levenslange beperking dat naar wens en vermogen kan meedoen in de samenleving met 25% toegenomen; 
+
+ [ALINEA-CONTENT]:
+- In 2030 is het deel van de mensen met een chronische ziekte of,
+levenslange beperking dat naar wens en vermogen kan meedoen in de
+samenleving met 25% toegenomen;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2030 is de kwaliteit van leven van mensen met dementie met 25% ...
+ nativeID=20 parentID=16 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2030 is de kwaliteit van leven van mensen met dementie met 25% toegenomen; 
+
+ [ALINEA-CONTENT]:
+- In 2030 is de kwaliteit van leven van mensen met dementie met 25%
+toegenomen;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2035 is de bevolking beter beschermd tegen maatschappelijk ...
+ nativeID=21 parentID=16 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2035 is de bevolking beter beschermd tegen maatschappelijk ontwrichtende gezondheidsdreigingen. 
+
+ [ALINEA-CONTENT]:
+- In 2035 is de bevolking beter beschermd tegen maatschappelijk
+ontwrichtende gezondheidsdreigingen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Landbouw, Water en Voedsel
+ nativeID=22 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nederland is toonaangevend op het gebied van landbouw, water en voedsel, en beschikt over een enorm kennis- en innovatiepotentieel. Binnen deze thema’s staan we ook voor grote maatschappelijke opgaven. Zo heeft, op het gebied van voedselproductie en -verwerking, de nadruk in afgelopen decennia op kostenverlaging en productieverhoging geleid tot lage marges voor de sector, een hoge druk op de leefomgeving en afname van de biodiversiteit. Ondanks de reeds bereikte resultaten om te werken binnen de draagkracht van natuur, klimaat, water en bodem en diergezondheid (one health) en welzijn, liggen er nog grote uitdagingen. Dit vraagt om nieuwe verbindingen en werkwijzen 
+
+ [ALINEA-CONTENT]:
+Nederland is toonaangevend op het gebied van landbouw, water en voedsel, en
+beschikt over een enorm kennis- en innovatiepotentieel. Binnen deze thema’s
+staan we ook voor grote maatschappelijke opgaven. Zo heeft, op het gebied van
+
+          ***          [--- more alinea content ---]        ***          
+
+biodiverse zeeën en oceanen dragen bij aan onze voedselvoorziening,
+grondstoffenwinning en bieden ruimte aan opwek van duurzame energie. De titels
+van de missies zijn:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Veerkrachtige natuur en vitale bodem; 
+ nativeID=23 parentID=22 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Veerkrachtige natuur en vitale bodem; 
+
+ [ALINEA-CONTENT]:
+- Veerkrachtige natuur en vitale bodem;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Duurzame land- en tuinbouw; 
+ nativeID=24 parentID=22 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Duurzame land- en tuinbouw; 
+
+ [ALINEA-CONTENT]:
+- Duurzame land- en tuinbouw;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Vitaal landelijk gebied in een klimaatbestendig Nederland; 
+ nativeID=25 parentID=22 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Vitaal landelijk gebied in een klimaatbestendig Nederland; 
+
+ [ALINEA-CONTENT]:
+- Vitaal landelijk gebied in een klimaatbestendig Nederland;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Duurzaam en gewaardeerd voedsel, dat gezond, toegankelijk en veilig is; 
+ nativeID=26 parentID=22 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Duurzaam en gewaardeerd voedsel, dat gezond, toegankelijk en veilig is; 
+
+ [ALINEA-CONTENT]:
+- Duurzaam en gewaardeerd voedsel, dat gezond, toegankelijk en veilig is;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Duurzaam en veilig gebruik van de Noordzee en andere grote wateren; 
+ nativeID=27 parentID=22 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Duurzaam en veilig gebruik van de Noordzee en andere grote wateren; 
+
+ [ALINEA-CONTENT]:
+- Duurzaam en veilig gebruik van de Noordzee en andere grote wateren;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Veilige en weerbare delta. 
+ nativeID=28 parentID=22 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Veilige en weerbare delta. 
+
+ [ALINEA-CONTENT]:
+- Veilige en weerbare delta.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Veiligheid
+ nativeID=29 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nederland moet voor zijn burgers een veilig land blijven om te wonen, te werken en te leven. Een veilige samenleving is echter niet vanzelfsprekend. Nederland en Europa staan voor complexe uitdagingen. Zo wordt Nederland rechtstreeks geconfronteerd met militaire dreigingen, de invasie in Oekraíne voorop. Het hoge tempo waarmee technologieën zich ontwikkelen, brengt nieuwe dreigingen met zich mee, zoals de assertieve opstelling van China. Nederland is een van de meest gedigitaliseerde landen ter wereld, wat ons extra kwetsbaar maakt voor cyberaanvallen. De georganiseerde (drugs)criminaliteit zet de veiligheid van onze samenleving verder onder druk, met alle ondermijnende gevolgen van dien. Dit vormt 
+
+ [ALINEA-CONTENT]:
+Nederland moet voor zijn burgers een veilig land blijven om te wonen, te werken
+en te leven. Een veilige samenleving is echter niet vanzelfsprekend. Nederland en
+Europa staan voor complexe uitdagingen. Zo wordt Nederland rechtstreeks
+
+          ***          [--- more alinea content ---]        ***          
+
+daarin, naast de betrokken Topsectoren, de komende jaren een grotere rol. Want
+alleen dan kunnen we tegenstanders steeds een stap vóór blijven. Daarbij horen
+de volgende innovatiemissies:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2030 is de georganiseerde ondermijnende criminaliteit in Nederland ...
+ nativeID=30 parentID=29 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2030 is de georganiseerde ondermijnende criminaliteit in Nederland riskant en slecht lonend, door meer zicht op illegale activiteiten en geldstromen; 
+
+ [ALINEA-CONTENT]:
+- In 2030 is de georganiseerde ondermijnende criminaliteit in Nederland
+riskant en slecht lonend, door meer zicht op illegale activiteiten en
+geldstromen;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2035 beschikt Nederland over de marine van de toekomst. Door de ...
+ nativeID=31 parentID=29 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2035 beschikt Nederland over de marine van de toekomst. Door de sterk verbeterde samenwerking in het marinebouwcluster is Nederland in staat om flexibel te reageren op onvoorspelbare ontwikkelingen12; 
+
+ [ALINEA-CONTENT]:
+- In 2035 beschikt Nederland over de marine van de toekomst. Door de
+sterk verbeterde samenwerking in het marinebouwcluster is Nederland in
+staat om flexibel te reageren op onvoorspelbare ontwikkelingen12;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - In 2030 heeft Nederland een operationeel inzetbare ruimtevaartcapaciteit ...
+ nativeID=32 parentID=29 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- In 2030 heeft Nederland een operationeel inzetbare ruimtevaartcapaciteit voor defensie en veiligheid. Daarbij fungeert de Defensie Ruimteagenda als richtsnoer13; 
+
+ [ALINEA-CONTENT]:
+- In 2030 heeft Nederland een operationeel inzetbare ruimtevaartcapaciteit
+voor defensie en veiligheid. Daarbij fungeert de Defensie Ruimteagenda
+als richtsnoer13;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Cyberveiligheid. In 2030 is veiligheid verplicht bij de ontwikkeling van ...
+ nativeID=33 parentID=29 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Cyberveiligheid. In 2030 is veiligheid verplicht bij de ontwikkeling van digitale producten, en beschikt Nederland over een sterke cybersecurity kennis- en innovatieketen. De doelstellingen en acties in de Nederlandse Cybersecurity Strategie 2022-2028 (NLCS) vormen voor deze missie het overkoepelende kader; 
+
+ [ALINEA-CONTENT]:
+- Cyberveiligheid. In 2030 is veiligheid verplicht bij de ontwikkeling van
+digitale producten, en beschikt Nederland over een sterke cybersecurity
+kennis- en innovatieketen. De doelstellingen en acties in de Nederlandse
+
+          ***          [--- more alinea content ---]        ***          
+
+Cybersecurity Strategie 2022-2028 (NLCS) vormen voor deze missie het
+overkoepelende kader;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - Hightech Landoptreden. In 2030 werkt de krijgsmacht volledig genetwerkt ...
+ nativeID=34 parentID=29 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- Hightech Landoptreden. In 2030 werkt de krijgsmacht volledig genetwerkt met integratie van nieuwe technologieën om sneller en effectiever te kunnen handelen dan de tegenstander. 
+
+ [ALINEA-CONTENT]:
+- Hightech Landoptreden. In 2030 werkt de krijgsmacht volledig genetwerkt
+met integratie van nieuwe technologieën om sneller en effectiever te
+kunnen handelen dan de tegenstander.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Vervolg: van missies naar Kennis- en Innovatieagenda’s en -Convenant
+ nativeID=35 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De missies en de uitwerking daarvan geven richting aan innovatieprogramma’s binnen de Kennis-en Innovatieagenda’s14. De komende tijd gaan het bedrijfsleven, kennisinstellingen, overheden en andere stakeholders, onder andere via de Topsectoren, verder uitwerken hoe ze door onderzoek en innovatie en de valorisatie daarvan, kunnen bijdragen aan de kennis-en innovatieopgaven uit de missies. Een sterke kennis- en innovatiebasis voor (digitale) sleuteltechnologieën is een belangrijk doorsnijdend thema van het missiegedreven innovatiebeleid, zowel voor oplossingen voor de maatschappelijke missies als voor het toekomstig verdienvermogen. Voor de inzet op sleuteltechnologieën werk ik aan een Nationale Technologiestrategie, die meer richting zal geven aan de publieke inzet, 
+
+ [ALINEA-CONTENT]:
+De missies en de uitwerking daarvan geven richting aan innovatieprogramma’s
+binnen de Kennis-en Innovatieagenda’s14. De komende tijd gaan het bedrijfsleven,
+kennisinstellingen, overheden en andere stakeholders, onder andere via de
+
+          ***          [--- more alinea content ---]        ***          
+
+Innovatie-Expo, en dan ook met uw Kamer worden gedeeld.
+M.A.M. Adriaansens
+Minister van Economische Zaken en Klimaat
+
+---------------------------------------------------------------------------------

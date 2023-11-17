@@ -1,0 +1,3171 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document AVERE] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = AVERE
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Avec le soutien de 1. Synthèse 3.1.3. Incertitudes sur la part des alternatives technologiques à la mobilité lourde à batterie électrique 3.2.1. Faible disponibilité du foncier sur grands axes routiers pour accueillir des stations de recharge, en particulier pour poids lourds 3.2.3. Investissements importants nécessaires, en particulier pour la recharge DC 3.2.4. Délais de fourniture des bornes de recharge et autres défis relatifs à la chaîne d’approvisionnement 5 11 11 13 15 16 16 17 18 20 23 23 23 24 24 25 25 26 26 27 27 27 28 29 30 30 30 31 31 31 5.1. Vue détaillée 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Septembre 2023 HIT THE ROAD TOME 2 DÉPLOIEMENT DE LA RECHARGE SUR LES GRANDS AXES ROUTIERS
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Avec le soutien de 
+
+ [ALINEA-CONTENT]:
+Avec le soutien de
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = SOMMAIRE
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Synthèse 3.1.3. Incertitudes sur la part des alternatives technologiques à la mobilité lourde à batterie électrique 3.2.1. Faible disponibilité du foncier sur grands axes routiers pour accueillir des stations de recharge, en particulier pour poids lourds 3.2.3. Investissements importants nécessaires, en particulier pour la recharge DC 3.2.4. Délais de fourniture des bornes de recharge et autres défis relatifs à la chaîne d’approvisionnement 5 11 11 13 15 16 16 17 18 20 23 23 23 24 24 25 25 26 26 27 27 27 28 29 30 30 30 31 31 31 5.1. Vue détaillée par axe routier des 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Synthèse 
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Synthèse 
+
+ [ALINEA-CONTENT]:
+1. Synthèse
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. Modélisation des besoins en IRVE pour 2030-2035
+ nativeID=4 parentID=2 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.1 Méthodologie et hypothèses générales
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.1.1. Projection du parc de véhicules électriques
+ nativeID=6 parentID=5 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.1.2. Évolution technique des véhicules
+ nativeID=7 parentID=5 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.2. Zoom sur les besoins en recharge sur les grands axes routiers
+ nativeID=8 parentID=4 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.2.1. Analyse du comportement de recharge lors de l’itinérance
+ nativeID=9 parentID=8 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.2.2. Estimation des besoins énergétiques pour la recharge publique
+ nativeID=10 parentID=8 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.2.3. Évaluation du nombre de points de charge
+ nativeID=11 parentID=8 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.3. Synthèse des besoins en recharge publique sur le territoire français
+ nativeID=12 parentID=4 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3. Obstacles au déploiement d’une infrastructure de recharge publique
+ nativeID=13 parentID=2 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.1.3. Incertitudes sur la part des alternatives technologiques à la mobilité lourde à batterie électrique 3.2.1. Faible disponibilité du foncier sur grands axes routiers pour accueillir des stations de recharge, en particulier pour poids lourds 3.2.3. Investissements importants nécessaires, en particulier pour la recharge DC 3.2.4. Délais de fourniture des bornes de recharge et autres défis relatifs à la chaîne d’approvisionnement 5 11 11 13 15 16 16 17 18 20 23 23 23 24 24 25 25 26 26 27 27 27 28 29 30 30 30 31 31 31 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.1. Obstacles à la planification optimale des IRVE
+ nativeID=14 parentID=13 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.1.3. Incertitudes sur la part des alternatives technologiques à la mobilité lourde à batterie électrique 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.1.1. Raccordement électrique des IRVE
+ nativeID=15 parentID=14 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.1.2. Visibilité insuffisante pour la bonne élaboration des SDIRVE
+ nativeID=16 parentID=14 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.1.3. Incertitudes sur la part des alternatives technologiques à la mobilité lourde à batterie électrique 
+
+ [ALINEA-CONTENT]:
+3.1.3. Incertitudes sur la part des alternatives technologiques
+à la mobilité lourde à batterie électrique
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2. Obstacles à l’installation des IRVE
+ nativeID=17 parentID=13 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.2.1. Faible disponibilité du foncier sur grands axes routiers pour accueillir des stations de recharge, en particulier pour poids lourds 3.2.3. Investissements importants nécessaires, en particulier pour la recharge DC 3.2.4. Délais de fourniture des bornes de recharge et autres défis relatifs à la chaîne d’approvisionnement 
+
+ [ALINEA-CONTENT]:
+3.2.1. Faible disponibilité du foncier sur grands axes routiers
+pour accueillir des stations de recharge, en particulier pour poids lourds
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.2.2. Faible disponibilité du foncier en zone urbaine dense
+ nativeID=18 parentID=17 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3.2.3. Investissements importants nécessaires, en particulier pour la recharge DC 3.2.4. Délais de fourniture des bornes de recharge et autres défis relatifs à la chaîne d’approvisionnement 
+
+ [ALINEA-CONTENT]:
+3.2.3. Investissements importants nécessaires,
+en particulier pour la recharge DC
+3.2.4. Délais de fourniture des bornes de recharge
+
+          ***          [--- more alinea content ---]        ***          
+
+et autres défis relatifs à la chaîne d’approvisionnement
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.3. Obstacles à l’opération des IRVE
+ nativeID=19 parentID=13 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.3.1. Rentabilité insuffisante
+ nativeID=20 parentID=19 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.3.2. Durée légale des contrats de sous-concessions autoroutières
+ nativeID=21 parentID=19 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.3.3. Défis de la maintenance et du taux de disponibilité
+ nativeID=22 parentID=19 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.3.4. Volatilité des prix de l’énergie
+ nativeID=23 parentID=19 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.4. Obstacles à l’achat de véhicules électriques liés à la recharge
+ nativeID=24 parentID=13 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5 11 11 13 15 16 16 17 18 20 23 23 23 24 24 25 25 26 26 27 27 27 28 29 30 30 30 31 31 31 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.4.1. Complexité du parcours de recharge
+ nativeID=25 parentID=24 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.4.2. Opacité de la tarification et prix de la recharge
+ nativeID=26 parentID=24 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.4.3. Anxiété à la recharge
+ nativeID=27 parentID=24 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 3.4.4. Indisponibilité de recharge de proximité abordable
+ nativeID=28 parentID=24 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5 11 11 13 15 16 16 17 18 20 23 23 23 24 24 25 25 26 26 27 27 27 28 29 30 30 30 31 31 31 
+
+ [ALINEA-CONTENT]:
+5
+11
+11
+
+          ***          [--- more alinea content ---]        ***          
+
+31
+31
+31
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4. Mesures-clés pour réussir le déploiement d’une infrastructure de recharge publique 32
+ nativeID=29 parentID=2 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5.1. Vue détaillée par axe routier des besoins en points de charge à horizon 2035 pour le scénario Haut, Central et Bas Infrastructures de recharge (définitions réglementaires) 32 32 33 34 35 36 37 37 38 38 39 40 41 41 43 43 43 44 5. Annexes 6. Définitions 7. Abréviations 8. Table des figures 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.1. Mesures-clés « Grands axes routiers »
+ nativeID=30 parentID=29 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.1.1. Anticipation des besoins en raccordements
+ nativeID=31 parentID=30 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.1.2. Allongement des durées de contrats de sous-concession
+ nativeID=32 parentID=30 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.1.3. Réduction des pointes de trafic en amont
+ nativeID=33 parentID=30 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.1.4. Absorption des pointes de trafic via des solutions ad hoc
+ nativeID=34 parentID=30 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.1.5. L’autoroute électrique
+ nativeID=35 parentID=30 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.2. Mesures-clés transverses
+ nativeID=36 parentID=29 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5.1. Vue détaillée par axe routier des besoins en points de charge à horizon 2035 pour le scénario Haut, Central et Bas Infrastructures de recharge (définitions réglementaires) 32 32 33 34 35 36 37 37 38 38 39 40 41 41 43 43 43 44 5. Annexes 6. Définitions 7. Abréviations 8. Table des figures 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.2.1. Création d’une entité publique en charge de la planification des IRVE
+ nativeID=37 parentID=36 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.2.2. Promotion des offres de raccordements intelligentes
+ nativeID=38 parentID=36 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.2.3. Fiabilité des données en open data
+ nativeID=39 parentID=36 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.2.4. Standardisation progressive du 800 V
+ nativeID=40 parentID=36 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 4.2.5. Soutien à l’acquisition des poids lourds
+ nativeID=41 parentID=36 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5.1. Vue détaillée par axe routier des besoins en points de charge à horizon 2035 pour le scénario Haut, Central et Bas Infrastructures de recharge (définitions réglementaires) 32 32 33 34 35 36 37 37 38 38 39 40 41 41 43 43 43 44 
+
+ [ALINEA-CONTENT]:
+5.1. Vue détaillée par axe routier des besoins en points de charge
+à horizon 2035 pour le scénario Haut, Central et Bas
+Infrastructures de recharge (définitions réglementaires)
+
+          ***          [--- more alinea content ---]        ***          
+
+43
+43
+44
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 5. Annexes 
+ nativeID=42 parentID=36 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5. Annexes 
+
+ [ALINEA-CONTENT]:
+5. Annexes
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 6. Définitions 
+ nativeID=43 parentID=36 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+6. Définitions 
+
+ [ALINEA-CONTENT]:
+6. Définitions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 7. Abréviations 
+ nativeID=44 parentID=36 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+7. Abréviations 
+
+ [ALINEA-CONTENT]:
+7. Abréviations
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 8. Table des figures 
+ nativeID=45 parentID=36 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+8. Table des figures 
+
+ [ALINEA-CONTENT]:
+8. Table des figures
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Synthèse
+ nativeID=46 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dans le cadre du projet « Hit the Road » pour l’Avere-France, AFRY a réalisé la présente étude sur les besoins en recharge publique à horizon 2035. Elle comporte un Tome 1 – État des lieux de la recharge en France, ainsi que deux analyses s’appuyant sur une modé- lisation des besoins et proposant des mesures clés de succès pour traiter deux enjeux spécifiques : le Tome 2 – Déploiement de la recharge sur les grands axes routiers et le Tome 3 – Déploiement de la recharge dans les zones à pourvoir. Ces documents se veulent complémentaires, et proposent des 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ARTICULATION DE L’ÉTUDE HIT THE ROAD
+ nativeID=47 parentID=46 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dans le cadre du projet « Hit the Road » pour l’Avere-France, AFRY a réalisé la présente étude sur les besoins en recharge publique à horizon 2035. Elle comporte un Tome 1 – État des lieux de la recharge en France, ainsi que deux analyses s’appuyant sur une modé- lisation des besoins et proposant des mesures clés de succès pour traiter deux enjeux spécifiques : le Tome 2 – Déploiement de la recharge sur les grands axes routiers et le Tome 3 – Déploiement de la recharge dans les zones à pourvoir. Ces documents se veulent complémentaires, et proposent des 
+
+ [ALINEA-CONTENT]:
+Dans le cadre du projet « Hit the Road » pour l’Avere-France, AFRY a réalisé la présente
+étude sur les besoins en recharge publique à horizon 2035. Elle comporte un Tome 1 – État
+des lieux de la recharge en France, ainsi que deux analyses s’appuyant sur une modé-
+
+          ***          [--- more alinea content ---]        ***          
+
+actuelle.
+Figure 3 : Besoin en nombre de points sur quelques axes routiers pour les véhicules légers
+et pour les poids lourds dans les différents scénarios par rapport à l’actuel
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ■ Étape n° 2 : Application de 3 scénarios de taux ...
+ nativeID=48 parentID=47 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 2 : Application de 3 scénarios de taux d’électrification. Les projections de véhicules électriques de RTE3,4 et de BNEF5 ont été utilisées. et les acteurs de la mobilité ; par ailleurs, des mécanismes de soutien à l’installation ont été Cela permet d’obtenir des scénarios : mis en place (subvention des investissements, majoration dérogatoire du taux de réfaction à 75 %). La vague suivante, qui nécessitera des raccordements et des puissances installées supplémentaires (avec notamment l’arrivée de 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 2 : Application de 3 scénarios de taux
+d’électrification. Les projections de véhicules
+électriques de RTE3,4 et de BNEF5 ont été
+
+          ***          [--- more alinea content ---]        ***          
+
+à 75 %). La vague suivante, qui nécessitera des
+raccordements et des puissances installées
+supplémentaires (avec notamment l’arrivée de
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = – Haut, Central et Bas pour les véhicules légers ...
+ nativeID=49 parentID=47 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– Haut, Central et Bas pour les véhicules légers respectivement à 31 %, 27 % et 16 % pour le taux d’électrification du parc à horizon 2035 ; 
+
+ [ALINEA-CONTENT]:
+– Haut, Central et Bas pour les véhicules légers
+respectivement à 31 %, 27 % et 16 % pour le
+taux d’électrification du parc à horizon 2035 ;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = – Pour les poids lourds, le scénario Haut repré- ...
+ nativeID=50 parentID=47 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– Pour les poids lourds, le scénario Haut repré- sente une vision constructeur avec un taux la mobilité lourde), devra faire des choix straté- d’électrification de près de 40 % et des taux giques concernant la gestion de l’affluence et du à 18 % et 3 % pour les deux autres scénarios. dimensionnement du réseau. 
+
+ [ALINEA-CONTENT]:
+– Pour les poids lourds, le scénario Haut repré-
+sente une vision constructeur avec un taux
+la mobilité lourde), devra faire des choix straté-
+
+          ***          [--- more alinea content ---]        ***          
+
+giques concernant la gestion de l’affluence et du
+à 18 % et 3 % pour les deux autres scénarios.
+dimensionnement du réseau.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ■ Étape n° 3 : Considération des consommations ...
+ nativeID=51 parentID=47 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 3 : Considération des consommations moyennes des véhicules, des autonomies et 2035 doit permettre de mieux cibler les efforts des trajets types pour en déduire le besoin de déploiement des IRVE au niveau des axes énergétique pour la recharge publique sur les routiers. Ces voies de circulation se caractérisent par un trafic qui peut être variable selon les jours de l’année et les différents scénarios considé- rés apportent de la sensibilité aux résultats. À 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 3 : Considération des consommations
+moyennes des véhicules, des autonomies et
+2035 doit permettre de mieux cibler les efforts
+
+          ***          [--- more alinea content ---]        ***          
+
+par un trafic qui peut être variable selon les jours
+de l’année et les différents scénarios considé-
+rés apportent de la sensibilité aux résultats. À
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ■ Étape n° 4 : Traduction du besoin énergétique ...
+ nativeID=52 parentID=47 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 4 : Traduction du besoin énergétique en nombre de points de charge au travers noter que la modélisation a pour vocation de d’une augmentation linéaire du taux d’utili- dresser un bilan des besoins par axe, en prenant sation de 6 % (2022) à 12,5 % (2035) et d’une en compte l’affluence, mais des analyses plus répartition des technologies de charge selon détaillées, aire par aire, permettront de mieux le cas d’usage (recharge lente des poids lourds identifier ces besoins et répondre à des problé- lors des pauses longues, recharge ultra-rapide, matiques précises telles que la gestion du 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 4 : Traduction du besoin énergétique
+en nombre de points de charge au travers
+noter que la modélisation a pour vocation de
+
+          ***          [--- more alinea content ---]        ***          
+
+présentent un besoin total de plus de 40 000
+Les différentes étapes de la modélisation sont :
+points de charge à horizon 2035 pour alimenter
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = ■ Étape n° 1 : Considération des données de ...
+ nativeID=53 parentID=47 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 1 : Considération des données de trafic des véhicules légers et des poids lourds de chacun des grands axes routiers français (routes nationales, autoroutes concédées et autoroutes non concédées) avec 3 scénarios pour représenter différentes tendances de trafic. 
+
+ [ALINEA-CONTENT]:
+■ Étape  n° 1 :  Considération des données de
+trafic des véhicules légers et des poids lourds
+de chacun des grands axes routiers français
+
+          ***          [--- more alinea content ---]        ***          
+
+autoroutes non concédées) avec 3 scénarios
+pour représenter différentes tendances de
+trafic.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Obstacles et mesures-clés
+ nativeID=54 parentID=46 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Les entretiens et ateliers avec les parties pre- OBSTACLES À LA PLANIFICATION OPTIMALE DES IRVE – obstacles à la planification optimale des nantes de l’écosystème de la mobilité électrique IRVE ; ont permis d’identifier des obstacles à toutes les – obstacles à l’installation des IRVE ; étapes du déploiement des IRVE sur le territoire – obstacles à l’opération des IRVE ; et notamment sur les grands axes : – obstacles à l’achat des véhicules électriques liés à la recharge. 
+
+ [ALINEA-CONTENT]:
+Les entretiens et ateliers avec les parties pre-
+OBSTACLES À LA PLANIFICATION OPTIMALE DES IRVE
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = – obstacles à la planification optimale des ...
+ nativeID=55 parentID=54 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– obstacles à la planification optimale des nantes de l’écosystème de la mobilité électrique IRVE ; ont permis d’identifier des obstacles à toutes les 
+
+ [ALINEA-CONTENT]:
+– obstacles à la planification optimale des
+nantes de l’écosystème de la mobilité électrique
+IRVE ;
+
+          ***          [--- more alinea content ---]        ***          
+
+ont permis d’identifier des obstacles à toutes les
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = – obstacles à l’installation des IRVE ; ...
+ nativeID=56 parentID=54 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– obstacles à l’installation des IRVE ; étapes du déploiement des IRVE sur le territoire 
+
+ [ALINEA-CONTENT]:
+– obstacles à l’installation des IRVE ;
+étapes du déploiement des IRVE sur le territoire
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = – obstacles à l’opération des IRVE ; ...
+ nativeID=57 parentID=54 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– obstacles à l’opération des IRVE ; et notamment sur les grands axes : 
+
+ [ALINEA-CONTENT]:
+– obstacles à l’opération des IRVE ;
+et notamment sur les grands axes :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = – obstacles à l’achat des véhicules électriques ...
+ nativeID=58 parentID=54 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– obstacles à l’achat des véhicules électriques liés à la recharge. 
+
+ [ALINEA-CONTENT]:
+– obstacles à l’achat des véhicules électriques
+liés à la recharge.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 Raccordement électrique
+ nativeID=59 parentID=46 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 Visibilité insuffisante pour la bonne élaboration des SDIRVE
+ nativeID=60 parentID=46 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Figure 4 : Obstacles au déploiement des IRVE 
+
+ [ALINEA-CONTENT]:
+Figure 4 : Obstacles au déploiement des IRVE
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.3 Incertitudes sur la part des alternatives technologiques à la mobilité lourde électrique
+ nativeID=61 parentID=46 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+OBSTACLES À L’INSTALLATION DES IRVE 
+
+ [ALINEA-CONTENT]:
+OBSTACLES À L’INSTALLATION DES IRVE
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.1 Faible disponibilité du foncier (grands axes routiers)
+ nativeID=62 parentID=46 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.2 Faible disponibilité du foncier (zone urbaine dense)
+ nativeID=63 parentID=46 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.3 Investissements importants nécessaires (recharge DC)
+ nativeID=64 parentID=46 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2.4 Délais de fourniture des bornes et autres défis relatifs à la chaîne d’approvisionnement OBSTACLES À L’OPÉRATION DES IRVE 
+
+ [ALINEA-CONTENT]:
+2.4 Délais de fourniture des bornes et autres défis relatifs à la chaîne d’approvisionnement
+OBSTACLES À L’OPÉRATION DES IRVE
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.1 Rentabilité insuffisante
+ nativeID=65 parentID=46 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.2 Durée légale des contrats de sous-concessions autoroutières
+ nativeID=66 parentID=46 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.3 Défis de la maintenance et du taux de disponibilité
+ nativeID=67 parentID=46 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.4 Volatilité des prix de l’énergie
+ nativeID=68 parentID=46 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+OBSTACLES À L’OPÉRATION DES IRVE 
+
+ [ALINEA-CONTENT]:
+OBSTACLES À L’OPÉRATION DES IRVE
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.1 Complexité du parcours de recharge
+ nativeID=69 parentID=46 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.2 Opacité de la tarification et prix de la recharge
+ nativeID=70 parentID=46 & horizontal_ordering=11
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.3 Anxiété à la recharge
+ nativeID=71 parentID=46 & horizontal_ordering=12
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.4 Indisponibilité de recharge de proximité abordable
+ nativeID=72 parentID=46 & horizontal_ordering=13
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Pour répondre à ces obstacles, l’étude a iden- entre les deux tomes de l’étude ; sont reprises tifié des « mesures clés », qui s’appuient elles ici uniquement les mesures relatives aux grands aussi sur les échanges avec l’écosystème lors des ateliers, ainsi que sur les résultats de la axes routiers, ainsi que les mesures transverses identifiées. modélisation. Ces mesures ont été réparties Figure 5 : Mesures-clés relatives aux grands axes routiers GRANDS AXES ROUTIERS Anticipation des besoins en raccordement OBSTACLES TRAITÉS 1.1 | 1.3 | 2.1 | 2.3 Parties prenantes État, collectivités, SCA, GRDE Levier(s) Décision politique et législative, 
+
+ [ALINEA-CONTENT]:
+Pour répondre à ces obstacles, l’étude a iden-
+entre les deux tomes de l’étude ; sont reprises
+tifié des « mesures clés », qui s’appuient elles
+
+          ***          [--- more alinea content ---]        ***          
+
+dresse quatre conclusions essentielles :
+ment des aires de service et de repos sur grands
+axes.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1) Un effort conséquent de déploiement reste ...
+ nativeID=73 parentID=72 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1) Un effort conséquent de déploiement reste nécessaire, avec presque 40 000 points à instal- ler, en totalité pour les VL et les PL, dans le cadre du scénario Central, pour répondre aux besoins de recharge à horizon 2035 sur les grands axes routiers. 
+
+ [ALINEA-CONTENT]:
+1) Un effort conséquent de déploiement reste
+nécessaire, avec presque 40 000 points à instal-
+ler, en totalité pour les VL et les PL, dans le cadre
+
+          ***          [--- more alinea content ---]        ***          
+
+du scénario Central, pour répondre aux besoins
+de recharge à horizon 2035 sur les grands axes
+routiers.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3) Les estimations de besoin en recharge aire ...
+ nativeID=74 parentID=72 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3) Les estimations de besoin en recharge aire par aire devront prendre en compte les enjeux spécifiques de la mobilité lourde (foncier, foi- sonnement avec les VL, périodicité, MCS). 
+
+ [ALINEA-CONTENT]:
+3) Les estimations de besoin en recharge aire
+par aire devront prendre en compte les enjeux
+spécifiques de la mobilité lourde (foncier, foi-
+
+          ***          [--- more alinea content ---]        ***          
+
+sonnement avec les VL, périodicité, MCS).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2) L’anticipation stratégique des besoins pour 
+ nativeID=75 parentID=72 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2) L’anticipation stratégique des besoins pour 
+
+ [ALINEA-CONTENT]:
+2) L’anticipation stratégique des besoins pour
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4) Les besoins en recharge électrique lors des ...
+ nativeID=76 parentID=72 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4) Les besoins en recharge électrique lors des pointes de trafic devront être traités par une réduction en amont du flux (itinéraires alterna- tifs, communication sur le trafic) et en aval par le déploiement de solutions de recharge ad hoc. 
+
+ [ALINEA-CONTENT]:
+4) Les besoins en recharge électrique lors des
+pointes de trafic devront être traités par une
+réduction en amont du flux (itinéraires alterna-
+
+          ***          [--- more alinea content ---]        ***          
+
+tifs, communication sur le trafic) et en aval par
+le déploiement de solutions de recharge ad hoc.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. Modélisation des besoins en IRVE pour 2030-2035
+ nativeID=77 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Afin d’évaluer les besoins de recharge en France En effet, les comportements de recharge et les à horizon 2035, AFRY a distingué deux grandes typologies de déplacements (Figure 7) et pour chacune une modélisation adaptée à leurs spé- cificités et aux données disponibles : besoins en énergie associés sont différents. Un raisonnement sur le trafic est plus pertinent sur les grands axes routiers ; les données sur le parc de véhicules reflètent davantage les besoins en recharge du quotidien. Figure 7 : Évaluation du besoin en recharge selon la typologie du trajet La Figure 8 explicite la méthodologie pour la 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.1 Méthodologie et hypothèses générales
+ nativeID=78 parentID=77 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Afin d’évaluer les besoins de recharge en France En effet, les comportements de recharge et les à horizon 2035, AFRY a distingué deux grandes typologies de déplacements (Figure 7) et pour chacune une modélisation adaptée à leurs spé- cificités et aux données disponibles : besoins en énergie associés sont différents. Un raisonnement sur le trafic est plus pertinent sur les grands axes routiers ; les données sur le parc de véhicules reflètent davantage les besoins en recharge du quotidien. Figure 7 : Évaluation du besoin en recharge selon la typologie du trajet La Figure 8 explicite la méthodologie pour la 
+
+ [ALINEA-CONTENT]:
+Afin d’évaluer les besoins de recharge en France
+En effet, les comportements de recharge et les
+à horizon 2035, AFRY a distingué deux grandes
+
+          ***          [--- more alinea content ---]        ***          
+
+les parties suivantes. Le détail des données
+deux modèles sont davantage explicités dans
+utilisées est présenté en partie 5.1.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1) La grande itinérance (ou sur les grands axes ...
+ nativeID=79 parentID=78 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1) La grande itinérance (ou sur les grands axes routiers). 
+
+ [ALINEA-CONTENT]:
+1) La grande itinérance (ou sur les grands axes
+routiers).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2) Les déplacements du quotidien à l’échelle du ...
+ nativeID=80 parentID=78 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2) Les déplacements du quotidien à l’échelle du département et de la commune (hors grands axes routiers). ■ Étape n° 1 : Considération du parc de véhicules par commune et application de 3 scénarios – Haut, Central et Bas pour les véhicules légers respectivement à 31 %, 27 % et 16 % pour le taux d’électrification du parc à horizon 2035 ; – Pour les poids lourds, le scénario Haut repré- sente une vision constructeur avec un taux d’électrification de près de 40 % et des taux à 18 % et 3 % pour les deux autres scénarios. moyennes des 
+
+ [ALINEA-CONTENT]:
+2) Les déplacements du quotidien à l’échelle du
+département et de la commune (hors grands
+axes routiers).
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 1 : Considération du parc de véhicules ...
+ nativeID=81 parentID=80 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 1 : Considération du parc de véhicules par commune et application de 3 scénarios 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 1 : Considération du parc de véhicules
+par commune et application de 3 scénarios
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – Haut, Central et Bas pour les véhicules légers ...
+ nativeID=82 parentID=80 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– Haut, Central et Bas pour les véhicules légers respectivement à 31 %, 27 % et 16 % pour le taux d’électrification du parc à horizon 2035 ; 
+
+ [ALINEA-CONTENT]:
+– Haut, Central et Bas pour les véhicules légers
+respectivement à 31 %, 27 % et 16 % pour le
+taux d’électrification du parc à horizon 2035 ;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – Pour les poids lourds, le scénario Haut repré- ...
+ nativeID=83 parentID=80 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– Pour les poids lourds, le scénario Haut repré- sente une vision constructeur avec un taux d’électrification de près de 40 % et des taux à 18 % et 3 % pour les deux autres scénarios. moyennes des véhicules pour en déduire le besoin énergétique pour la recharge publique. 
+
+ [ALINEA-CONTENT]:
+– Pour les poids lourds, le scénario Haut repré-
+sente une vision constructeur avec un taux
+d’électrification de près de 40 % et des taux
+
+          ***          [--- more alinea content ---]        ***          
+
+à 18 % et 3 % pour les deux autres scénarios.
+moyennes des véhicules pour en déduire le
+besoin énergétique pour la recharge publique.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 2 : Groupement de comportement ...
+ nativeID=84 parentID=80 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 2 : Groupement de comportement en fonction des différentes catégories de véhi- cules (distance parcourue annuellement, part 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 2 : Groupement de comportement
+en fonction des différentes catégories de véhi-
+cules (distance parcourue annuellement, part
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 4 : Traduction du besoin énergétique ...
+ nativeID=85 parentID=80 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 4 : Traduction du besoin énergétique en nombre de points de charge au travers de d’utilisation des routes locales, disponibilité 3 scénarios sur le taux d’utilisation et d’une de la recharge à domicile, part de la recharge répartition des technologies de charge selon publique, etc.). le cas d’usage (recharge lente à proximité du domicile, recharge rapide à destination, etc.). 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 4 : Traduction du besoin énergétique
+en nombre de points de charge au travers de
+d’utilisation des routes locales, disponibilité
+
+          ***          [--- more alinea content ---]        ***          
+
+publique, etc.).
+le cas d’usage (recharge lente à proximité du
+domicile, recharge rapide à destination, etc.).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 3 : Considération des consommations 
+ nativeID=86 parentID=80 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 3 : Considération des consommations 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 3 : Considération des consommations
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 2 : Application des 3 scénarios du ...
+ nativeID=87 parentID=80 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 2 : Application des 3 scénarios du taux d’électrification. 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 2 : Application des 3 scénarios du
+taux d’électrification.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 3 : Considération des consommations ...
+ nativeID=88 parentID=80 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 3 : Considération des consommations moyennes des véhicules, des autonomies et en recharge publique repose sur un groupe d’hypothèses structurantes. Différents scénarios apportent de la sensibilité aux résultats. 
+
+ [ALINEA-CONTENT]:
+■  Étape n° 3 : Considération des consommations
+moyennes des véhicules, des autonomies et
+en recharge publique repose sur un groupe
+
+          ***          [--- more alinea content ---]        ***          
+
+d’hypothèses structurantes. Différents scénarios
+apportent de la sensibilité aux résultats.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 1 : Le point de départ repose sur les ...
+ nativeID=89 parentID=80 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 1 : Le point de départ repose sur les données de trafic mises à disposition par 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 1 : Le point de départ repose sur les
+données de trafic mises à disposition par
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Étape n° 4 : Traduction du besoin énergétique ...
+ nativeID=90 parentID=80 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Étape n° 4 : Traduction du besoin énergétique en nombre de points de charge au travers le gouvernement. Près de 315 axes routiers d’une augmentation linéaire du taux d’utili- (autoroutes et routes nationales) sont recensés sation de 6 % (2022) à 12,5 % (2035) et d’une dans le jeu de données et donnent une vue répartition des technologies de charge selon sur 98 % du réseau national. Des données sur le cas d’usage (recharge lente des poids lourds la fréquentation des poids lourds sur ces axes lors des pauses longues, recharge ultra-rapide, sont aussi fournies au travers d’un ratio. 
+
+ [ALINEA-CONTENT]:
+■ Étape n° 4 : Traduction du besoin énergétique
+en nombre de points de charge au travers
+le gouvernement. Près de 315 axes routiers
+
+          ***          [--- more alinea content ---]        ***          
+
+voire MCS, pour les pauses courtes).
+scénarios sont considérés pour représenter
+différentes tendances de trafic.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.1.1. Projection du parc de véhicules électriques
+ nativeID=91 parentID=78 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Basés sur les projections de RTE et de BNEF, trois scénarios sont considérés pour les véhi- cules légers et les poids lourds. La Figure 11 représente la flotte de véhicules légers élec- l’hypothèse de RTE pour le ratio BEV/PHEV15 avec une répartition 78 % / 22 % dans le cas des projections Haut et Central et une répartition 60 % / 40 % pour le scénario Bas. triques avec la vision de BNEF pour le scénario Haut et les projections « Haut » et « Central » de RTE13 comme sources respectives pour les scénarios Central et Bas représentés ci-dessous. 
+
+ [ALINEA-CONTENT]:
+Basés sur les projections de RTE et de BNEF,
+trois scénarios sont considérés pour les véhi-
+cules légers et les poids lourds. La Figure 11
+
+          ***          [--- more alinea content ---]        ***          
+
+qués au parc de véhicules des différentes com-
+nationale.
+munes afin d’illustrer le remplacement
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – vis-à-vis de la capacité de la filière à lever les ...
+ nativeID=92 parentID=91 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– vis-à-vis de la capacité de la filière à lever les verrous technologiques et économiques, et ; 
+
+ [ALINEA-CONTENT]:
+– vis-à-vis de la capacité de la filière à lever les
+verrous technologiques et économiques, et ;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – par rapport à la capacité de pénétration du ...
+ nativeID=93 parentID=91 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– par rapport à la capacité de pénétration du niveaux de 2019, puis de 65 % d’ici à 2035. tout électrique face aux alternatives (hydro- 
+
+ [ALINEA-CONTENT]:
+– par rapport à la capacité de pénétration du
+niveaux de 2019, puis de 65 % d’ici à 2035.
+tout électrique face aux alternatives (hydro-
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.1.2. Évolution technique des véhicules
+ nativeID=94 parentID=78 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dans l’évaluation de la demande énergétique des véhicules, l’efficience intervient et peut évoluer au fur et à mesure que des progrès technologiques sont réalisés par les construc- teurs automobiles. La Figure 14 représente les moyennes pondérées de consommation de dif- férents véhicules. Les valeurs actuelles reposent sur des statistiques du gouvernement16 et l’évo- lution à la baisse observée a pour objectif de refléter les progrès technologiques. Figure 14 : Consommation moyenne de différentes catégories de véhicules en kWh/km Année VUL Porteurs < 12 t Porteurs 12-19 t Porteurs > 19 t VASP lourd17 Tracteur routier 2023 0,18 0,23 0,20 0,6 
+
+ [ALINEA-CONTENT]:
+Dans l’évaluation de la demande énergétique
+des véhicules, l’efficience intervient et peut
+évoluer au fur et à mesure que des progrès
+
+          ***          [--- more alinea content ---]        ***          
+
+routier
+2023 0,18 0,23 0,20 0,6 0,9 1,15 0,44 1,3
+2035 0,17 0,22 0,19 0,58 0,86 1,10 0,42 1,25
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.2. Zoom sur les besoins en recharge sur les grands axes routiers
+ nativeID=95 parentID=77 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dans les circonstances d’une itinérance, où le se recharger en public que pour le minimum conducteur parcoure plusieurs centaines de nécessaire afin d’atteindre sa destination. Au kilomètres en empruntant des grands axes rou- tiers tels que l’autoroute ou une route nationale, travers des données actuelles sur l’autonomie des véhicules électriques et une estimation de le comportement de recharge est étroitement leur évolution, il est alors possible d’en déduire lié à l’autonomie du véhicule. Les données issues de l’enquête de mobilité de 201918 indiquent que dans le cas des trajets de plus de 80 km, la distance moyenne parcourue le besoin 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.2.1. Analyse du comportement de recharge lors de l’itinérance
+ nativeID=96 parentID=95 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dans les circonstances d’une itinérance, où le se recharger en public que pour le minimum conducteur parcoure plusieurs centaines de nécessaire afin d’atteindre sa destination. Au kilomètres en empruntant des grands axes rou- tiers tels que l’autoroute ou une route nationale, travers des données actuelles sur l’autonomie des véhicules électriques et une estimation de le comportement de recharge est étroitement leur évolution, il est alors possible d’en déduire lié à l’autonomie du véhicule. Les données issues de l’enquête de mobilité de 201918 indiquent que dans le cas des trajets de plus de 80 km, la distance moyenne parcourue le besoin 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.2.1.1. Cas des véhicules légers
+ nativeID=97 parentID=96 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dans les circonstances d’une itinérance, où le se recharger en public que pour le minimum conducteur parcoure plusieurs centaines de nécessaire afin d’atteindre sa destination. Au kilomètres en empruntant des grands axes rou- tiers tels que l’autoroute ou une route nationale, travers des données actuelles sur l’autonomie des véhicules électriques et une estimation de le comportement de recharge est étroitement leur évolution, il est alors possible d’en déduire lié à l’autonomie du véhicule. Les données issues de l’enquête de mobilité de 201918 indiquent que dans le cas des trajets de plus de 80 km, la distance moyenne parcourue le besoin 
+
+ [ALINEA-CONTENT]:
+Dans les circonstances d’une itinérance, où le
+se recharger en public que pour le minimum
+conducteur parcoure plusieurs centaines de
+
+          ***          [--- more alinea content ---]        ***          
+
+Besoin en recharge pour un trajet
+moyen20
+54 % 51 % 49 %
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2.2.1.2. Cas des tracteurs routiers
+ nativeID=98 parentID=96 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+La part de poids lourds dans le trafic moyen considérant que le poids lourd est limité dans journalier figurant dans les données du gou- ses manœuvres dans une aire de service ou de vernement concerne des véhicules d’un poids total supérieur ou égal à 3,5 tonnes21. Du point de vue des caractéristiques techniques et des repos et que le véhicule va monopoliser une place avec un point de recharge électrique sur la durée de la pause, la valeur de 46 % peut comportements de recharge, AFRY n’a consi- être associée au besoin de recharge afin de déré que la catégorie 
+
+ [ALINEA-CONTENT]:
+La part de poids lourds dans le trafic moyen
+considérant que le poids lourd est limité dans
+journalier figurant dans les données du gou-
+
+          ***          [--- more alinea content ---]        ***          
+
+pause moyen sur une journée pour un conduc-
+publique des poids lourds.
+teur de poids lourd peut être évalué à 46 %. En
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.2.2. Estimation des besoins énergétiques pour la recharge publique
+ nativeID=99 parentID=95 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Pour les grands axes routiers, l’estimation du Les trois scénarios Haut, Central et Bas ici adoptés reprennent les trois projections du taux d’électrification. Des variations du TMJA pour chaque axe routier sont ensuite appliquées afin Cette décroissance de 0,45 % est observée de considérer différents besoins de recharge en considérant la variation entre les valeurs selon l’affluence : de 2009 et 2019 sur la circulation annuelle moyenne des véhicules. besoin en recharge. Mais la méthodologie uti- lisée ici donne une visualisation satisfaisante du besoin en recharge sur les grands axes. Les axes routiers au travers de cette modélisation sont présentés 
+
+ [ALINEA-CONTENT]:
+Pour les grands axes routiers, l’estimation du
+Les trois scénarios Haut, Central et Bas ici
+adoptés reprennent les trois projections du taux
+
+          ***          [--- more alinea content ---]        ***          
+
+Total
+Véhicules légers
+Poids lourds
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ La consommation des véhicules. ...
+ nativeID=100 parentID=99 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ La consommation des véhicules. besoin énergétique se base sur : 
+
+ [ALINEA-CONTENT]:
+■ La consommation des véhicules.
+besoin énergétique se base sur :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le trafic moyen journalier annuel (TMJA) de ...
+ nativeID=101 parentID=99 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le trafic moyen journalier annuel (TMJA) de l’axe routier, avec la proportion associée de poids lourds. Les données statistiques du gouvernement23 font état de 315 axes routiers recensés, dont 82 axes routiers sans données sur le TMJA24 et plus de 100 axes sans données sur la proportion de poids lourds25. 
+
+ [ALINEA-CONTENT]:
+■ Le trafic moyen journalier annuel (TMJA) de
+l’axe routier, avec la proportion associée de
+poids lourds. Les données statistiques du
+
+          ***          [--- more alinea content ---]        ***          
+
+recensés, dont 82 axes routiers sans données
+sur le TMJA24 et plus de 100 axes sans données
+sur la proportion de poids lourds25.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le taux d’électrification. 
+ nativeID=102 parentID=99 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le taux d’électrification. 
+
+ [ALINEA-CONTENT]:
+■ Le taux d’électrification.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le comportement de recharge. 
+ nativeID=103 parentID=99 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le comportement de recharge. 
+
+ [ALINEA-CONTENT]:
+■ Le comportement de recharge.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Scénario Haut : Une augmentation de 7 % a ...
+ nativeID=104 parentID=99 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Scénario Haut : Une augmentation de 7 % a été appliquée au trafic moyen journalier de La considération des caractéristiques de cha- chaque axe routier. Cette valeur permet de cune des routes (nombre de voies, débit horaire, représenter une affluence plus importante, etc.) ainsi que l’affluence à l’échelle des aires notamment lors des trajets estivaux, et sem- permettraient une évaluation plus précise du blerait être un ratio convenable pour retrans- crire un dimensionnement à la 30e heure. 
+
+ [ALINEA-CONTENT]:
+■ Scénario Haut : Une augmentation de 7 % a
+été appliquée au trafic moyen journalier de
+La considération des caractéristiques de cha-
+
+          ***          [--- more alinea content ---]        ***          
+
+permettraient une évaluation plus précise du
+blerait être un ratio convenable pour retrans-
+crire un dimensionnement à la 30e heure.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Scénario Central : valeurs moyennes pondé- ...
+ nativeID=105 parentID=99 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Scénario Central : valeurs moyennes pondé- résultats du besoin en énergie sur les grands rées du TMJA de chaque axe routier. 
+
+ [ALINEA-CONTENT]:
+■ Scénario Central : valeurs moyennes pondé-
+résultats du besoin en énergie sur les grands
+rées du TMJA de chaque axe routier.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Scénario Bas : Prise en compte d’un potentiel ...
+ nativeID=106 parentID=99 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Scénario Bas : Prise en compte d’un potentiel effet de report modal progressif, avec une 
+
+ [ALINEA-CONTENT]:
+■ Scénario Bas : Prise en compte d’un potentiel
+effet de report modal progressif, avec une
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.2.3. Évaluation du nombre de points de charge
+ nativeID=107 parentID=95 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+À la manière du modèle pour les trajets locaux, prendre en considération la diversité du parc la dernière étape est la conversion du besoin automobile et les différentes puissances de énergétique en nombre de points de charge. La Figure 17 présente la puissance moyenne acceptée sur les grands axes routiers, avec pour référence l’analyse de l’ICCT26 et des estimations du besoin en termes de vitesse de recharge sur charge acceptées selon les catégories de véhi- cules. Ainsi, la puissance moyenne acceptée en 2035 est de l’ordre de 141 kW. Pour les poids lourds, le besoin énergétique est satisfait à 50 
+
+ [ALINEA-CONTENT]:
+À la manière du modèle pour les trajets locaux,
+prendre en considération la diversité du parc
+la dernière étape est la conversion du besoin
+
+          ***          [--- more alinea content ---]        ***          
+
+Poids lourds
+Figure 19 : Évolution du besoin en nombre de points sur quelques axes routiers
+pour les véhicules légers et pour les poids lourds
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.3. Synthèse des besoins en recharge publique sur le territoire français
+ nativeID=108 parentID=77 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+AFRY présente ici les résultats combinés des La Figure 20 présente la demande énergétique totale de recharge publique pour différents cas d’usage : Figure 20 : Évolution du besoin énergétique (TWh/an) de la recharge publique par typologie de recharge pour le scénario Central En finalité, AFRY évalue le besoin en points de d’utilisation de 12,5 % pour obtenir un meilleur charge à horizon 2035 entre 300 000 et 400 000 points. Cela permet de considérer différentes possibilités d’évolutions du taux d’électrification du parc automobile tout en visant un taux équilibre entre le confort des usagers et la ren- tabilité des 
+
+ [ALINEA-CONTENT]:
+AFRY présente ici les résultats combinés des
+La Figure 20 présente la demande énergétique
+totale de recharge publique pour différents cas
+
+          ***          [--- more alinea content ---]        ***          
+
+capacité  installée  de  1,4 kW  par  véhicule
+et de recherche de rentabilité acceptable des
+points de charge présents sur le territoire.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ■ Le besoin en recharge lente sur voirie se réfère ...
+ nativeID=109 parentID=108 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le besoin en recharge lente sur voirie se réfère deux modélisations pour illustrer le besoin par exemple au besoin des automobilistes ne global en énergie pour la recharge publique et possédant pas de possibilité de recharge à en points de charge sur l’ensemble du territoire. domicile ou à de la recharge publique pour Ces résultats sont étroitement liés aux hypo- les petits trajets du quotidien. thèses explicitées dans les parties précédentes, mais la présence de plusieurs scénarios pour le 
+
+ [ALINEA-CONTENT]:
+■ Le besoin en recharge lente sur voirie se réfère
+deux modélisations pour illustrer le besoin
+par exemple au besoin des automobilistes ne
+
+          ***          [--- more alinea content ---]        ***          
+
+les petits trajets du quotidien.
+thèses explicitées dans les parties précédentes,
+mais la présence de plusieurs scénarios pour le
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ■ Sur les grands axes, la catégorie de recharge ...
+ nativeID=110 parentID=108 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Sur les grands axes, la catégorie de recharge taux d’électrification, pour l’évolution du trafic rapide inclut la recharge prolongée des poids sur les autoroutes et vis-à-vis du taux d’utilisa- lourds lors de leurs pauses réglementaires et tion permet d’avoir une vue consolidée sur les la recharge depuis des points de 150 kW pour besoins à horizon 2035. les véhicules légers. 
+
+ [ALINEA-CONTENT]:
+■ Sur les grands axes, la catégorie de recharge
+taux d’électrification, pour l’évolution du trafic
+rapide inclut la recharge prolongée des poids
+
+          ***          [--- more alinea content ---]        ***          
+
+la recharge depuis des points de 150 kW pour
+besoins à horizon 2035.
+les véhicules légers.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ■ La recharge ultra-rapide correspond aux ...
+ nativeID=111 parentID=108 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ La recharge ultra-rapide correspond aux technologies MCS pour les poids lourds et aux bornes de puissance 350 kW pour les véhicules légers. 
+
+ [ALINEA-CONTENT]:
+■ La recharge ultra-rapide correspond aux
+technologies MCS pour les poids lourds et
+aux bornes de puissance 350 kW pour les
+
+          ***          [--- more alinea content ---]        ***          
+
+véhicules légers.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ■ « Type lent » : puissance moyenne acceptée ...
+ nativeID=112 parentID=108 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ « Type lent » : puissance moyenne acceptée de 5,4 kW et de 9,5 kW (correspondant à des chargeurs AC, de 7 kW à 22 kW) en 2035. 
+
+ [ALINEA-CONTENT]:
+■ « Type lent » : puissance moyenne acceptée
+de 5,4 kW et de 9,5 kW (correspondant à des
+chargeurs AC, de 7 kW à 22 kW) en 2035.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ■ « Type rapide » : puissance moyenne accep- ...
+ nativeID=113 parentID=108 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ « Type rapide » : puissance moyenne accep- tée de 90 kW pour les véhicules légers et de 
+
+ [ALINEA-CONTENT]:
+■ « Type rapide » : puissance moyenne accep-
+tée de 90 kW pour les véhicules légers et de
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ■ « Type ultra-rapide » : puissance moyenne ...
+ nativeID=114 parentID=108 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ « Type ultra-rapide » : puissance moyenne acceptée de 150 kW pour les véhicules légers et de 670 kW pour les poids lourds (corres- pondant à des chargeurs CCS 350 kW et MCS) en 2035. 
+
+ [ALINEA-CONTENT]:
+■ « Type ultra-rapide » : puissance moyenne
+acceptée de 150 kW pour les véhicules légers
+et de 670 kW pour les poids lourds (corres-
+
+          ***          [--- more alinea content ---]        ***          
+
+pondant à des chargeurs CCS 350 kW et MCS)
+en 2035.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3. Obstacles au déploiement d’une infrastructure de recharge publique
+ nativeID=115 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Les acteurs de la mobilité ont mentionné par l’écosystème. recharge publique, les incertitudes technolo- ■ En opération, en plus des considérations de des obstacles qui freinent ou empêchent un maintenance et les risques inhérents à la vola- déploiement optimal de l’infrastructure de tilité des marchés de l’énergie, la rentabilité recharge publique en France. des IRVE est souvent qualifiée d’insuffisante ■ Lors de la planification de l’infrastructure de ■ De façon générale, le déploiement de l’in- giques (place de l’hydrogène pour les poids frastructure et l’électrification du parc sont lourds), le manque de visibilité et le court-ter- intrinsèquement liés ; il 
+
+ [ALINEA-CONTENT]:
+Les acteurs de la mobilité ont mentionné
+par l’écosystème.
+recharge publique, les incertitudes technolo-
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ■ En opération, en plus des considérations de ...
+ nativeID=116 parentID=115 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ En opération, en plus des considérations de des obstacles qui freinent ou empêchent un maintenance et les risques inhérents à la vola- déploiement optimal de l’infrastructure de tilité des marchés de l’énergie, la rentabilité recharge publique en France. des IRVE est souvent qualifiée d’insuffisante 
+
+ [ALINEA-CONTENT]:
+■ En opération, en plus des considérations de
+des obstacles qui freinent ou empêchent un
+maintenance et les risques inhérents à la vola-
+
+          ***          [--- more alinea content ---]        ***          
+
+tilité des marchés de l’énergie, la rentabilité
+recharge publique en France.
+des IRVE est souvent qualifiée d’insuffisante
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ■ Lors de la planification de l’infrastructure de 
+ nativeID=117 parentID=115 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Lors de la planification de l’infrastructure de 
+
+ [ALINEA-CONTENT]:
+■ Lors de la planification de l’infrastructure de
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ■ De façon générale, le déploiement de l’in- ...
+ nativeID=118 parentID=115 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ De façon générale, le déploiement de l’in- giques (place de l’hydrogène pour les poids frastructure et l’électrification du parc sont lourds), le manque de visibilité et le court-ter- intrinsèquement liés ; il est nécessaire que les misme sur les raccordements conduisent à IRVE ne soient pas un frein à l’achat des véhi- un déploiement suboptimal. cules électriques, et donc que « l’expérience client » des bornes soit satisfaisante. 
+
+ [ALINEA-CONTENT]:
+■ De façon générale, le déploiement de l’in-
+giques (place de l’hydrogène pour les poids
+frastructure et l’électrification du parc sont
+
+          ***          [--- more alinea content ---]        ***          
+
+un déploiement suboptimal.
+cules électriques, et donc que « l’expérience
+client » des bornes soit satisfaisante.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = ■ Installer les IRVE nécessite de sécuriser le ...
+ nativeID=119 parentID=115 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Installer les IRVE nécessite de sécuriser le foncier approprié (particulièrement pour la recharge pour poids lourds), des investisse- ments importants, et une chaîne logistique parfois grippée par la demande croissante. 
+
+ [ALINEA-CONTENT]:
+■ Installer les IRVE nécessite de sécuriser le
+foncier approprié (particulièrement pour la
+recharge pour poids lourds), des investisse-
+
+          ***          [--- more alinea content ---]        ***          
+
+ments importants, et une chaîne logistique
+parfois grippée par la demande croissante.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.1. Obstacles à la planification optimale des IRVE
+ nativeID=120 parentID=115 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le raccordement au réseau de distribution est La procédure « Enedis-PRO-RAC_14E » de 2021 un jalon essentiel du déploiement des IRVE ; détaille le traitement des demandes de raccor- mais la multiplication des demandes de rac- dement des installations de consommation cordements de bornes, concomitantes avec individuelle ou collective en BT > 36 kVA et en l’accélération des énergies renouvelables, met HTA, cadre qui inclue les IRVE. Les demandes une forte pression sur les GRDE (Gestionnaires de raccordement sont ainsi traitées chronologi- de réseau de distribution d’énergie). quement à partir de leur date de dépôt, ou de Le raccordement électrique 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.1.1. Raccordement électrique des IRVE
+ nativeID=121 parentID=120 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le raccordement au réseau de distribution est La procédure « Enedis-PRO-RAC_14E » de 2021 un jalon essentiel du déploiement des IRVE ; détaille le traitement des demandes de raccor- mais la multiplication des demandes de rac- dement des installations de consommation cordements de bornes, concomitantes avec individuelle ou collective en BT > 36 kVA et en l’accélération des énergies renouvelables, met HTA, cadre qui inclue les IRVE. Les demandes une forte pression sur les GRDE (Gestionnaires de raccordement sont ainsi traitées chronologi- de réseau de distribution d’énergie). quement à partir de leur date de dépôt, ou de Le raccordement électrique 
+
+ [ALINEA-CONTENT]:
+Le raccordement au réseau de distribution est
+La procédure « Enedis-PRO-RAC_14E » de 2021
+un jalon essentiel du déploiement des IRVE ;
+
+          ***          [--- more alinea content ---]        ***          
+
+État des lieux de la recharge en France, le taux
+de réfaction majoré ne s’appliquait que pour les
+renforcements supplémentaires du réseau
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Les SCA (Sociétés concessionnaires d’au- ...
+ nativeID=122 parentID=121 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Les SCA (Sociétés concessionnaires d’au- premiers raccordements des aires de service ; toroutes) sont autorisées à anticiper une or, les puissances demandées en raccordement demande de raccordement avant la désigna- lors de la première vague d’installations ont été tion explicite de l’opérateur IRVE. limitées à une valeur au-delà de laquelle des 
+
+ [ALINEA-CONTENT]:
+■ Les SCA (Sociétés concessionnaires d’au-
+premiers raccordements des aires de service ;
+toroutes) sont autorisées à anticiper une
+
+          ***          [--- more alinea content ---]        ***          
+
+lors de la première vague d’installations ont été
+tion explicite de l’opérateur IRVE.
+limitées à une valeur au-delà de laquelle des
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ La fourniture de l’autorisation d’urbanisme ...
+ nativeID=123 parentID=121 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ La fourniture de l’autorisation d’urbanisme devenaient nécessaires. Le taux de réfaction délivrée, de la localisation précise du poste majoré n’a donc pas été utilisé au maximum de livraison HTA client, et des caractéristiques de son potentiel, ce qui rendra les investisse- techniques détaillées ne sont pas nécessaires ments relatifs aux prochains raccordements pour entrer dans la file d’attente ; la puissance (pour augmenter la puissance à mesure que de raccordement demandée ne peut cepen- l’électrification du parc s’intensifie) significati- dant pas être modifiée. vement moins accessibles. 
+
+ [ALINEA-CONTENT]:
+■ La fourniture de l’autorisation d’urbanisme
+devenaient nécessaires. Le taux de réfaction
+délivrée, de la localisation précise du poste
+
+          ***          [--- more alinea content ---]        ***          
+
+l’électrification du parc s’intensifie) significati-
+dant pas être modifiée.
+vement moins accessibles.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.1.2. Visibilité insuffisante pour la bonne élaboration des SDIRVE
+ nativeID=124 parentID=120 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Les SDIRVE (S chéma dire c teur des Pour l’élaboration des SDIRVE, les opérateurs Infrastructures de recharges pour véhicules électriques) offrent la possibilité à une collec- tivité ou un établissement public d’organiser sont tenus par le Décret n° 2021-566 du 10 mai 202134 de fournir des données concernant l’utili- sation des bornes sur leur réseau. À partir de ces le déploiement des IRVE sur son territoire de données peuvent être construits les schémas manière concertée et cohérente ; au premier directeurs. trimestre 2023, seule une trentaine de SDIRVE ont été validés, sur 116 engagés à l’échelle nationale33. Toutefois, les plans 
+
+ [ALINEA-CONTENT]:
+Les SDIRVE (S chéma dire c teur des
+Pour l’élaboration des SDIRVE, les opérateurs
+Infrastructures de recharges pour véhicules
+
+          ***          [--- more alinea content ---]        ***          
+
+75 % pour le raccordement des IRVE qui s’ins-
+les développeurs et opérateurs d’IRVE.
+crivent dans le SDIRVE.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.1.3. Incertitudes sur la part des alternatives technologiques à la mobilité lourde à batterie électrique
+ nativeID=125 parentID=120 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Les incertitudes entourant le développement de L’hydrogène a été considéré comme une solu- l’hydrogène en tant que source d’énergie pour tion prometteuse pour les véhicules lourds la mobilité lourde ont contribué à retarder le tels que les camions et les bus, offrant une déploiement des bornes de recharge électrique alternative aux carburants fossiles et permet- adaptées à cet usage spécifique. tant des temps de recharge plus rapides ainsi qu’une autonomie étendue. Les constructeurs continuent d’investir dans la technologie, mais à haute pression ou liquide sont donc très limi- une forme de consensus a semblé émerger ces tées en France. À 
+
+ [ALINEA-CONTENT]:
+Les incertitudes entourant le développement de
+L’hydrogène a été considéré comme une solu-
+l’hydrogène en tant que source d’énergie pour
+
+          ***          [--- more alinea content ---]        ***          
+
+ou les pipelines, pèsent dans cette tendance. À
+électrique.
+date, les possibilités de ravitaillement hydrogène
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.2. Obstacles à l’installation des IRVE
+ nativeID=126 parentID=115 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Sur les grands axes routiers, la disponibilité Les poids lourds nécessiteront donc des limitée du foncier peut poser un défi pour l’ins- infrastructures de recharge spécifiques et tallation de stations de recharge. Les espaces cohérentes avec les temps de pause, à savoir le long de ces axes sont prisés par différentes des technologies MCS pour les temps de pause activités commerciales, se caractérisent par des courts et des bornes DC du type 50 à ~100 kW coûts élevés du foncier et peuvent être soumis pour la recharge nocturne. L’enjeu portera sur à des réglementations limitant l’utilisation des l’aménagement optimal des 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.1. Faible disponibilité du foncier sur grands axes routiers pour accueillir des stations de recharge, en particulier pour poids lourds
+ nativeID=127 parentID=126 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Sur les grands axes routiers, la disponibilité Les poids lourds nécessiteront donc des limitée du foncier peut poser un défi pour l’ins- infrastructures de recharge spécifiques et tallation de stations de recharge. Les espaces cohérentes avec les temps de pause, à savoir le long de ces axes sont prisés par différentes des technologies MCS pour les temps de pause activités commerciales, se caractérisent par des courts et des bornes DC du type 50 à ~100 kW coûts élevés du foncier et peuvent être soumis pour la recharge nocturne. L’enjeu portera sur à des réglementations limitant l’utilisation des l’aménagement optimal des 
+
+ [ALINEA-CONTENT]:
+Sur les grands axes routiers, la disponibilité
+Les poids lourds nécessiteront donc des
+limitée du foncier peut poser un défi pour l’ins-
+
+          ***          [--- more alinea content ---]        ***          
+
+de recharge représente un investissement ou
+des coûts importants et peut complexifier le
+déploiement.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.2. Faible disponibilité du foncier en zone urbaine dense
+ nativeID=128 parentID=126 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le déploiement d’infrastructures de recharge clé sera de proposer des options de recharge en zone urbaine dense peut représenter un défi lente en nombre suffisant afin de répondre au important en raison de l’espace limité et de la besoin de recharge « de proximité » des foyers concurrence pour l’utilisation du foncier. Les ne disposant pas de stationnement privatif avec zones urbaines denses sont souvent caractéri- possibilité de recharge. À noter qu’en milieu sées par une forte tension au niveau des places urbain, il y aura aussi une demande pour des de stationnement et cela constitue donc un bornes de 
+
+ [ALINEA-CONTENT]:
+Le déploiement d’infrastructures de recharge
+clé sera de proposer des options de recharge
+en zone urbaine dense peut représenter un défi
+
+          ***          [--- more alinea content ---]        ***          
+
+commune pour déployer les technologies de
+En termes de technologies de recharge, la
+recharge adéquates.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.3. Investissements importants nécessaires, en particulier pour la recharge DC
+ nativeID=129 parentID=126 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+L’installation d’infrastructures de recharge se recharge varient selon la technologie. Les coûts associés au déploiement de bornes rapides en transformateur, câblage, borne de recharge, courant continu sont plus élevés, notamment : etc. Ces travaux peuvent être d’autant plus coûteux si des mises à niveau sont nécessaires Les investissements pour les bornes de ■ Coût de fourniture des bornes. 350 kW contre ~2 000 € pour du AC38 ; Ces investissements plus importants peuvent constituer un frein important au déploiement de l’infrastructure DC rapide, notamment pour les collectivités. ■ Coût éventuel lié au foncier si son acquisition caractérise par un certain 
+
+ [ALINEA-CONTENT]:
+L’installation d’infrastructures de recharge se
+recharge varient selon la technologie. Les coûts
+associés au déploiement de bornes rapides en
+
+          ***          [--- more alinea content ---]        ***          
+
+constituer un frein important au déploiement
+de l’infrastructure DC rapide, notamment pour
+les collectivités.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Coût éventuel lié au foncier si son acquisition ...
+ nativeID=130 parentID=129 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Coût éventuel lié au foncier si son acquisition caractérise par un certain nombre de postes est souhaitée plutôt qu’une location. de coûts : 
+
+ [ALINEA-CONTENT]:
+■ Coût éventuel lié au foncier si son acquisition
+caractérise par un certain nombre de postes
+est souhaitée plutôt qu’une location.
+
+          ***          [--- more alinea content ---]        ***          
+
+de coûts :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Coût de l’infrastructure électrique correspon- ...
+ nativeID=131 parentID=129 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Coût de l’infrastructure électrique correspon- dant aux différents équipements électriques : 
+
+ [ALINEA-CONTENT]:
+■ Coût de l’infrastructure électrique correspon-
+dant aux différents équipements électriques :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Installation : de ~25 000 à 30 000 € pour du ...
+ nativeID=132 parentID=129 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Installation : de ~25 000 à 30 000 € pour du pour répondre à la demande de puissance des DC contre moins de 5 000 € pour du AC ; bornes de recharge. 
+
+ [ALINEA-CONTENT]:
+■ Installation : de ~25 000 à 30 000 € pour du
+pour répondre à la demande de puissance des
+DC contre moins de 5 000 € pour du AC ;
+
+          ***          [--- more alinea content ---]        ***          
+
+bornes de recharge.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Fourniture : jusqu’à ~75 000 € pour du DC 
+ nativeID=133 parentID=129 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Fourniture : jusqu’à ~75 000 € pour du DC 
+
+ [ALINEA-CONTENT]:
+■ Fourniture : jusqu’à ~75 000 € pour du DC
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Coût d’installation de la borne incluant la ...
+ nativeID=134 parentID=129 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Coût d’installation de la borne incluant la main-d’œuvre, les travaux de génie civil pour la mise en place des bases, les frais de raccor- dement électrique, etc. 
+
+ [ALINEA-CONTENT]:
+■ Coût d’installation de la borne incluant la
+main-d’œuvre, les travaux de génie civil pour
+la mise en place des bases, les frais de raccor-
+
+          ***          [--- more alinea content ---]        ***          
+
+dement électrique, etc.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.2.4. Délais de fourniture des bornes de recharge et autres défis relatifs à la chaîne d’approvisionnement
+ nativeID=135 parentID=126 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+L’accélération du déploiement des bornes de aux semi-conducteurs (diodes, microcontrô- recharge représente une opportunité pour les leurs, capteurs…), nécessitent de passer des fabricants de bornes, mais engendre des défis commandes importantes, et donc d’avancer en termes de disponibilité du matériel, de leur des dépenses pour pouvoir sécuriser des acheminement et de leur production. approvisionnements suffisants. Cela pose des contraintes d’approvisionnement Malgré une cadence soutenue de production, pour les constructeurs eux-mêmes, qui doivent l’écosystème observe un allongement des passer des commandes de plus en plus impor- délais de livraison des bornes de recharge, qui tantes à leurs fournisseurs, voire mobiliser des 
+
+ [ALINEA-CONTENT]:
+L’accélération du déploiement des bornes de
+aux semi-conducteurs (diodes, microcontrô-
+recharge représente une opportunité pour les
+
+          ***          [--- more alinea content ---]        ***          
+
+De manière générale, les tensions sur l’offre
+la demande.
+de bornes, en particulier européenne, ont un
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le matériel de base (exemple : armoires métal- 
+ nativeID=136 parentID=135 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le matériel de base (exemple : armoires métal- 
+
+ [ALINEA-CONTENT]:
+■ Le matériel de base (exemple : armoires métal-
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Les composants techniques non-critiques (par ...
+ nativeID=137 parentID=135 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Les composants techniques non-critiques (par communes aux fournisseurs de bornes, et ainsi exemple : les disjoncteurs), sont généralement raccourcir les délais et optimiser les coûts. 
+
+ [ALINEA-CONTENT]:
+■ Les composants techniques non-critiques (par
+communes aux fournisseurs de bornes, et ainsi
+exemple : les disjoncteurs), sont généralement
+
+          ***          [--- more alinea content ---]        ***          
+
+raccourcir les délais et optimiser les coûts.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Les composants critiques, c’est-à-dire les tran- ...
+ nativeID=138 parentID=135 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Les composants critiques, c’est-à-dire les tran- impact négatif sur la cadence de déploiement sistors de puissance et autres composants liés des points de charge. 
+
+ [ALINEA-CONTENT]:
+■ Les composants critiques, c’est-à-dire les tran-
+impact négatif sur la cadence de déploiement
+sistors de puissance et autres composants liés
+
+          ***          [--- more alinea content ---]        ***          
+
+des points de charge.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.3. Obstacles à l’opération des IRVE
+ nativeID=139 parentID=115 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le modèle d’affaires des IRVE est fondé sur un équilibre entre des CAPEX importants et les revenus issus des sessions de recharge, qui sont améliorer le taux d’utilisation, mais le besoin restera structurellement trop faible. en fonction de la tarification et du taux d’utilisa- Pour l’instant, le taux moyen d’utilisation des IRVE est estimé être de l’ordre de 2 %39, compte tenu de la taille du parc actuel comparé au nombre et à la puissance des points de charge Dans la modélisation générale, 3 scénarios avec sur le territoire. Les acteurs de l’écosystème ont 3 évolutions du taux d’utilisation entre 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.3.1. Rentabilité insuffisante
+ nativeID=140 parentID=139 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le modèle d’affaires des IRVE est fondé sur un équilibre entre des CAPEX importants et les revenus issus des sessions de recharge, qui sont améliorer le taux d’utilisation, mais le besoin restera structurellement trop faible. en fonction de la tarification et du taux d’utilisa- Pour l’instant, le taux moyen d’utilisation des IRVE est estimé être de l’ordre de 2 %39, compte tenu de la taille du parc actuel comparé au nombre et à la puissance des points de charge Dans la modélisation générale, 3 scénarios avec sur le territoire. Les acteurs de l’écosystème ont 3 évolutions du taux d’utilisation entre 
+
+ [ALINEA-CONTENT]:
+Le modèle d’affaires des IRVE est fondé sur un
+équilibre entre des CAPEX importants et les
+revenus issus des sessions de recharge, qui sont
+
+          ***          [--- more alinea content ---]        ***          
+
+opérateurs à l’échelle de leur réseau entier, mais
+(~1 000 € de CAPEX) et une approximation du
+n’ont pas été modélisés dans le cadre de l’étude.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Lorsque les besoins futurs ont été anticipés, ...
+ nativeID=141 parentID=140 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Lorsque les besoins futurs ont été anticipés, tion annuel moyen. Un faible taux d’utilisation et qu’à l’heure actuelle le taux d’électrification s’observe : ne suffit pas à générer une fréquentation significative : 
+
+ [ALINEA-CONTENT]:
+■ Lorsque les besoins futurs ont été anticipés,
+tion annuel moyen. Un faible taux d’utilisation
+et qu’à l’heure actuelle le taux d’électrification
+
+          ***          [--- more alinea content ---]        ***          
+
+s’observe :
+ne suffit pas à générer une fréquentation
+significative :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Lorsque le besoin en recharge pour la « petite 
+ nativeID=142 parentID=140 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Lorsque le besoin en recharge pour la « petite 
+
+ [ALINEA-CONTENT]:
+■ Lorsque le besoin en recharge pour la « petite
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – L’électrification du parc automobile amélio- ...
+ nativeID=143 parentID=140 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– L’électrification du parc automobile amélio- itinérance » est faible ou très faible aux alen- rera progressivement la rentabilité. tours de la borne ou d’une hypothétique borne (population, axes à proximité, lieux excentrés ou peu pratiques, etc.) : 
+
+ [ALINEA-CONTENT]:
+– L’électrification du parc automobile amélio-
+itinérance » est faible ou très faible aux alen-
+rera progressivement la rentabilité.
+
+          ***          [--- more alinea content ---]        ***          
+
+tours de la borne ou d’une hypothétique
+borne (population, axes à proximité, lieux
+excentrés ou peu pratiques, etc.) :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – L’électrification du parc automobile pourra 
+ nativeID=144 parentID=140 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– L’électrification du parc automobile pourra 
+
+ [ALINEA-CONTENT]:
+– L’électrification du parc automobile pourra
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.3.2. Durée légale des contrats de sous-concessions autoroutières
+ nativeID=145 parentID=139 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Sur les autoroutes concédées, l’installation leurs sous-concessionnaires ne peuvent pas et l’opération d’IRVE sur les aires de service dépasser une durée de 15 ans, en application doivent passer par un processus d’appel de l’article R122-42 du Code de la voirie routière. d’offres transparent, à l’issue duquel une L’État a récemment autorisé que les contrats société sous-concessionnaire est sélection- de sous-concession IRVE puissent dépasser la née comme CPO. Les contrats entre les durée résiduelle des concessions autoroutières, sociétés concessionnaires d’autoroutes et ce qui a écarté un premier obstacle contractuel. Toutefois, puisque les investissements réalisés des durées de contrat au-delà de 15 
+
+ [ALINEA-CONTENT]:
+Sur les autoroutes concédées, l’installation
+leurs sous-concessionnaires ne peuvent pas
+et l’opération d’IRVE sur les aires de service
+
+          ***          [--- more alinea content ---]        ***          
+
+ultra-rapide, ou sur les infrastructures destinées
+frein.
+aux poids lourds), il peut être nécessaire de fixer
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.3.3. Défis de la maintenance et du taux de disponibilité
+ nativeID=146 parentID=139 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Un point de charge est considéré comme dispo- une zone avec un faible maillage. Certains opé- nible s’il n’est ni en maintenance ni hors-service. L’Avere-France41 indique dans son baromètre un taux de disponibilité de 84 % en moyenne rateurs ont remonté qu’un simple appel pour régler le problème à distance pourrait souvent suffire. La mise en place d’un programme de pour un point de recharge AC, 83 % pour un maintenance préventive régulière est un moyen point rapide (DC < 150 kW) et 77 % pour un point ultra-rapide (DC > 150 kW)42. La charge normale semble donc souffrir de 
+
+ [ALINEA-CONTENT]:
+Un point de charge est considéré comme dispo-
+une zone avec un faible maillage. Certains opé-
+nible s’il n’est ni en maintenance ni hors-service.
+
+          ***          [--- more alinea content ---]        ***          
+
+des indicateurs de qualité sont déjà visibles à
+l’échelle nationale par rapport aux résultats de
+l’observatoire de l’AFIREV de 202143.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.3.4. Volatilité des prix de l’énergie
+ nativeID=147 parentID=139 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+La volatilité des prix de l’énergie en Europe de tarification dynamique, où les prix de la constitue un défi majeur pour la constitution recharge varient en fonction des prix de l’élec- d’un modèle d’affaires solide pour les bornes de tricité. De cette manière, les gestionnaires de recharge publiques. Les fluctuations des prix de bornes de recharge peuvent répercuter les l’énergie ont un impact significatif sur les coûts variations des coûts d’énergie sur les utilisateurs, d’exploitation, ce qui rend difficile la prévision tout en maintenant une certaine compétitivité des revenus et la rentabilité à long terme de par rapport aux autres 
+
+ [ALINEA-CONTENT]:
+La volatilité des prix de l’énergie en Europe
+de tarification dynamique, où les prix de la
+constitue un défi majeur pour la constitution
+
+          ***          [--- more alinea content ---]        ***          
+
+l’énergie de l’hiver 2022, qui a connu une forte
+médiatisation et a tourné l’attention vers la
+volatilité des prix de l’électricité.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.4. Obstacles à l’achat de véhicules électriques liés à la recharge
+ nativeID=148 parentID=115 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le parcours utilisateur d’une borne de recharge connecteur Combo CSS (Combined Charging électrique peut s’avérer complexe. Ce processus System) ou le connecteur CHAdeMO. est confronté à divers défis qui peuvent rendre la recharge déroutante, frustrante et peu pra- Cette diversité de normes peut rendre complexe tique pour les utilisateurs. Les systèmes de l’interopérabilité entre les bornes de recharge recharge divers et les systèmes de paiement et les véhicules électriques. Les utilisateurs fragmentés contribuent à créer une expérience doivent s’assurer d’avoir le bon type de connec- utilisateur complexe, en particulier pour les nouveaux usagers. teur ou utiliser un adaptateur approprié pour 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.4.1. Complexité du parcours de recharge
+ nativeID=149 parentID=148 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le parcours utilisateur d’une borne de recharge connecteur Combo CSS (Combined Charging électrique peut s’avérer complexe. Ce processus System) ou le connecteur CHAdeMO. est confronté à divers défis qui peuvent rendre la recharge déroutante, frustrante et peu pra- Cette diversité de normes peut rendre complexe tique pour les utilisateurs. Les systèmes de l’interopérabilité entre les bornes de recharge recharge divers et les systèmes de paiement et les véhicules électriques. Les utilisateurs fragmentés contribuent à créer une expérience doivent s’assurer d’avoir le bon type de connec- utilisateur complexe, en particulier pour les nouveaux usagers. teur ou utiliser un adaptateur approprié pour 
+
+ [ALINEA-CONTENT]:
+Le parcours utilisateur d’une borne de recharge
+connecteur Combo CSS (Combined Charging
+électrique peut s’avérer complexe. Ce processus
+
+          ***          [--- more alinea content ---]        ***          
+
+open data ou sur les applications de planifica-
+supplémentaire pour les utilisateurs, d’autant
+tion d’itinéraire).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.4.2. Opacité de la tarification et prix de la recharge
+ nativeID=150 parentID=148 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+À l’heure actuelle, une certaine diversité dans les Pour répondre à ces critiques, la réglementation modes de tarification des bornes est présente européenne AFIR précisera la tarification et les et complexifie l’expérience des automobilistes. modes de paiement minimaux : Un manque de transparence est bien souvent remonté de la part des utilisateurs, avec des tarification à la minute en plus pour découra- ger les stationnements trop longs. tarifaire, il est difficile d’avoir une vue précise de l’ensemble des prix des bornes publiques et de ■ Possibilité de payer par carte bancaire sur tarifs qui sont très variables selon la technologie 
+
+ [ALINEA-CONTENT]:
+À l’heure actuelle, une certaine diversité dans les
+Pour répondre à ces critiques, la réglementation
+modes de tarification des bornes est présente
+
+          ***          [--- more alinea content ---]        ***          
+
+ger les stationnements trop longs.
+tarifaire, il est difficile d’avoir une vue précise de
+l’ensemble des prix des bornes publiques et de
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Possibilité de payer par carte bancaire sur ...
+ nativeID=151 parentID=150 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Possibilité de payer par carte bancaire sur tarifs qui sont très variables selon la technologie toutes les nouvelles bornes > 50 kW (et rétrofit de la borne, l’opérateur, la période de recharge, obligatoire sur tout le réseau TEN-T). la présence d’un abonnement ou d’offres de recharge via un e-MSP. Les utilisateurs ont du 
+
+ [ALINEA-CONTENT]:
+■ Possibilité de payer par carte bancaire sur
+tarifs qui sont très variables selon la technologie
+toutes les nouvelles bornes > 50 kW (et rétrofit
+
+          ***          [--- more alinea content ---]        ***          
+
+obligatoire sur tout le réseau TEN-T).
+la présence d’un abonnement ou d’offres de
+recharge via un e-MSP. Les utilisateurs ont du
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Pour les bornes d’une puissance > 50 kW, le ...
+ nativeID=152 parentID=150 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Pour les bornes d’une puissance > 50 kW, le mal à comprendre comment les tarifs sont prix doit être au kWh, avec la possibilité d’une déterminés et quels sont les frais supplémen- taires éventuels. Conséquence de cette diversité 
+
+ [ALINEA-CONTENT]:
+■ Pour les bornes d’une puissance > 50 kW, le
+mal à comprendre comment les tarifs sont
+prix doit être au kWh, avec la possibilité d’une
+
+          ***          [--- more alinea content ---]        ***          
+
+déterminés et quels sont les frais supplémen-
+taires éventuels. Conséquence de cette diversité
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le prix doit être indiqué de manière trans- ...
+ nativeID=153 parentID=150 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le prix doit être indiqué de manière trans- déduire une valeur moyenne à l’échelle du pays. parente, en indiquant, dans l’ordre, le prix au kWh, le prix par minute, le prix par session et Une certaine confusion est donc présente tout autre élément de tarification. parmi les utilisateurs de bornes de recharge qui peuvent difficilement prévoir combien ils vont payer en finalité. 
+
+ [ALINEA-CONTENT]:
+■ Le prix doit être indiqué de manière trans-
+déduire une valeur moyenne à l’échelle du pays.
+parente, en indiquant, dans l’ordre, le prix au
+
+          ***          [--- more alinea content ---]        ***          
+
+parmi les utilisateurs de bornes de recharge
+qui peuvent difficilement prévoir combien ils
+vont payer en finalité.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.4.3. Anxiété à la recharge
+ nativeID=154 parentID=148 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+La recharge électrique est source d’anxiété pour À mesure que le véhicule électrique se démo- de nombreux utilisateurs ; cela constitue un frein cratisera, une autre anxiété prendra le relais, à l’achat très significatif, que le déploiement celle liée aux files d’attente pour se recharger ; massif des IRVE tente de résoudre. Les utilisa- ce phénomène, pour l’instant rarement observé, teurs souhaitent qu’un maillage serré quadrille pourrait particulièrement se manifester sur les le territoire finement, pour être rassurés quant à grands axes routiers lors des grands départs en la possibilité de se recharger et ne pas tomber vacances, pendant la 
+
+ [ALINEA-CONTENT]:
+La recharge électrique est source d’anxiété pour
+À mesure que le véhicule électrique se démo-
+de nombreux utilisateurs ; cela constitue un frein
+
+          ***          [--- more alinea content ---]        ***          
+
+indiquée comme disponible soit en réalité indis-
+ponible (occupée, en maintenance, non-fonc-
+tionnelle) participe de cette anxiété.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3.4.4. Indisponibilité de recharge de proximité abordable
+ nativeID=155 parentID=148 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Certains foyers possèdent un véhicule mais pas emplacement dans un jardin, place réservée en de solution de stationnement privé (garage, copropriété). Puisque leur véhicule stationne sur la voirie ou sur parking public, ils n’ont donc pas recharge (si elle est effectuée uniquement sur accès facilement à la recharge ou bien n’ont pas borne DC par exemple) peut devenir prohibitif. la possibilité de se recharger à un prix modéré, qu’il est possible d’obtenir via une installation En particulier dans les centres urbains, cela peut de borne à domicile. Certaines communes pra- engendrer une moindre adoption du véhicule tiquent des tarifs nocturnes 
+
+ [ALINEA-CONTENT]:
+Certains foyers possèdent un véhicule mais pas
+emplacement dans un jardin, place réservée en
+de solution de stationnement privé (garage,
+
+          ***          [--- more alinea content ---]        ***          
+
+électrique pour des raisons économiques ou
+mais lorsque ce n’est pas le cas, le coût de la
+de praticité de la recharge.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4. Mesures-clés pour réussir le déploiement d’une infrastructure de recharge publique
+ nativeID=156 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Sur les grands axes routiers, les possibilités Le défi des jours de pointes (grands départs) d’emplacement pour l’installation de bornes de sera d’éviter la saturation des aires sur grands recharge sont limitées. Les aires de service et les axes, qui ne sont aujourd’hui pas dimensionnées aires de repos constituent les seules options qui pour accueillir un stock de véhicules patientant ne nécessitent pas de création d’infrastructures pour se recharger ; de plus, les zones de parking supplémentaires d’entrée et de sortie de grands axes. Dans un contexte d’objectif ZAN (zéro sur aires ne sont généralement pas traversantes, ce qui engendre 
+
+ [ALINEA-CONTENT]:
+Sur les grands axes routiers, les possibilités
+Le défi des jours de pointes (grands départs)
+d’emplacement pour l’installation de bornes de
+
+          ***          [--- more alinea content ---]        ***          
+
+toutes les parties prenantes et s’insérer dans
+une nécessaire logique de sobriété tout en
+fluidifiant les installations.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.1. Mesures-clés « Grands axes routiers »
+ nativeID=157 parentID=156 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité, accélération des déploiements KPI : coûts de raccordement évités et durée d’installation (scénario sans anticipation – scé- Parties prenantes : État, collectivités, SCA, GRDE nario anticipé) Levier(s) : décision politique et législative, modification(s) réglementaire(s) Une autorité publique dédiée pourrait être L’autorité publique pourra faire appel aux créée (cf. mesures transverses) et réaliser ou Gestionnaires de réseau de distribution d’éner- commander une estimation aire par aire des gie (GRDE) pour prendre en compte des esti- raccordements nécessaires pour 2035 sur les mations de coût de raccordement. grands axes à l’échelle 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.1.1. Anticipation des besoins en raccordements
+ nativeID=158 parentID=157 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité, accélération des déploiements KPI : coûts de raccordement évités et durée d’installation (scénario sans anticipation – scé- Parties prenantes : État, collectivités, SCA, GRDE nario anticipé) Levier(s) : décision politique et législative, modification(s) réglementaire(s) Une autorité publique dédiée pourrait être L’autorité publique pourra faire appel aux créée (cf. mesures transverses) et réaliser ou Gestionnaires de réseau de distribution d’éner- commander une estimation aire par aire des gie (GRDE) pour prendre en compte des esti- raccordements nécessaires pour 2035 sur les mations de coût de raccordement. grands axes à l’échelle 
+
+ [ALINEA-CONTENT]:
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité,
+accélération des déploiements
+KPI : coûts de raccordement évités et durée
+
+          ***          [--- more alinea content ---]        ***          
+
+des différentes parties prenantes, et un cadre
+liser le raccordement et de réduire les coûts.
+légal adapté.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.1.2. Allongement des durées de contrats de sous-concession
+ nativeID=159 parentID=157 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : amélioration de la rentabilité (TRI) des projets et de l’attractivité des sous-concessions KPI : nombre de bornes proposées par aires Parties prenantes : État Levier(s) : modification(s) réglementaire(s) Les contrats de sous-concession sur les auto- routes concédées ne peuvent dépasser 15 ans d’exploitation devrait être considérée. Hors réseau concédé, cette limitation n’a pas cours, et à l’heure actuelle (Article R122-42 du Code de une durée contractuelle supérieure permettrait la voirie coutière). Pour les IRVE, des investis- de réduire les mécanismes de soutien néces- sements significatifs peuvent être nécessaires saires à la rentabilité de l’investissement. et une augmentation de 
+
+ [ALINEA-CONTENT]:
+Impact : amélioration de la rentabilité (TRI) des projets et de l’attractivité des sous-concessions
+KPI : nombre de bornes proposées par aires Parties prenantes : État
+Levier(s) : modification(s) réglementaire(s)
+
+          ***          [--- more alinea content ---]        ***          
+
+sements significatifs peuvent être nécessaires
+saires à la rentabilité de l’investissement.
+et une augmentation de la durée des contrats
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.1.3. Réduction des pointes de trafic en amont
+ nativeID=160 parentID=157 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : réduction de l’intensité des pics, amélioration de l’expérience usager, dimensionnement moins coûteux du réseau KPI : trafic évité, durée moyenne et max d’at- tente avant recharge Parties prenantes : constructeurs automobiles, e-MSP, État, SCA Levier(s) : modification(s) réglementaire(s), communication et accompagnement du changement Pour limiter le stock de voitures électriques au sens large, et impose la proposition d’un patientant pour se recharger lors des week- ends de grands départs, il est concevable que des itinéraires alternatifs soient employés pour itinéraire alternatif plus vertueux pour l’environ- nement (moins émetteur de CO2, notamment via une vitesse réduite). Dans cet esprit, 
+
+ [ALINEA-CONTENT]:
+Impact : réduction de l’intensité des pics, amélioration de l’expérience usager, dimensionnement
+moins coûteux du réseau
+KPI : trafic évité, durée moyenne et max d’at-
+
+          ***          [--- more alinea content ---]        ***          
+
+locations du samedi au samedi, flexibilisation de
+la prise de congés, changement des vacances
+scolaires, etc.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.1.4. Absorption des pointes de trafic via des solutions ad hoc
+ nativeID=161 parentID=157 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : amélioration de l’expérience usager, dimensionnement moins coûteux du réseau KPI : durée moyenne et max d’attente avant recharge Parties prenantes : SCA, collectivités Levier(s) : expérimentation à conduire, soutien aux investissements à réaliser Pour gérer les pointes de trafic et éviter les encombrements dans et à l’entrée des aires de service lors des week-ends de grand départ, des utilitaire et de le déployer où le besoin se trouve46. Il est également envisageable de déployer rapidement une station de recharge solutions ad hoc ou « mobiles » pourront être de la taille d’une place de parking, surmontée déployées ponctuellement 
+
+ [ALINEA-CONTENT]:
+Impact : amélioration de l’expérience usager, dimensionnement moins coûteux du réseau
+KPI : durée moyenne et max d’attente avant
+recharge
+
+          ***          [--- more alinea content ---]        ***          
+
+recharge, mais plutôt sur le moyen long terme.
+Par exemple, il est possible d’embarquer une
+batterie (déjà chargée) à bord d’un véhicule
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le réseau de distribution – si le raccordement ...
+ nativeID=162 parentID=161 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le réseau de distribution – si le raccordement l’aire de Trémentines A87, 75 kWc de panneaux a été surdimensionné par rapport aux besoins solaires ont été installés et couplés avec une actuels en anticipation des besoins futurs. batterie-container et un raccordement provi- 
+
+ [ALINEA-CONTENT]:
+■ Le réseau de distribution – si le raccordement
+l’aire de Trémentines A87, 75 kWc de panneaux
+a été surdimensionné par rapport aux besoins
+
+          ***          [--- more alinea content ---]        ***          
+
+solaires ont été installés et couplés avec une
+actuels en anticipation des besoins futurs.
+batterie-container et un raccordement provi-
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Des BESS (Systèmes de stockage d’énergie de ...
+ nativeID=163 parentID=161 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Des BESS (Systèmes de stockage d’énergie de batterie) mobiles (pouvant atteindre la taille d’un conteneur), rechargées soit en amont sur le réseau, soit via du photovoltaïque sur site. 
+
+ [ALINEA-CONTENT]:
+■ Des BESS (Systèmes de stockage d’énergie de
+batterie) mobiles (pouvant atteindre la taille
+d’un conteneur), rechargées soit en amont sur
+
+          ***          [--- more alinea content ---]        ***          
+
+le réseau, soit via du photovoltaïque sur site.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Des générateurs sur site, fonctionnant avec ...
+ nativeID=164 parentID=161 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Des générateurs sur site, fonctionnant avec la réservation de bornes en avance ou la facilité des carburants décarbonés (bio et électrocar- burants, hydrogène, etc.) ; 
+
+ [ALINEA-CONTENT]:
+■ Des générateurs sur site, fonctionnant avec
+la réservation de bornes en avance ou la facilité
+des carburants décarbonés (bio et électrocar-
+
+          ***          [--- more alinea content ---]        ***          
+
+burants, hydrogène, etc.) ;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.1.5. L’autoroute électrique
+ nativeID=165 parentID=157 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : réduction du nombre de bornes de recharge à installer pour la mobilité lourde, réduction des tailles de batterie à embarquer KPI : coûts bénéfices des différentes technologies après les projets pilotes Parties prenantes : SCA, collectivités, constructeurs Levier(s) : retour d’expérience sur les précédents AAP et décision politique Dans le processus de transition vers le tout La Suède a annoncé récemment la construc- électrique, un certain nombre d’innovations tion de 3 000 km de route électrique. Un pre- viendront potentiellement compléter les tech- nologies de véhicules à batterie avec recharge sur des bornes. C’est notamment le cas de 
+
+ [ALINEA-CONTENT]:
+Impact : réduction du nombre de bornes de recharge à installer pour la mobilité lourde, réduction
+des tailles de batterie à embarquer
+KPI : coûts bénéfices des différentes
+
+          ***          [--- more alinea content ---]        ***          
+
+forme ou d’une autre de « route électrique » à
+pas officiellement annoncé.
+horizon 2035.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Solutions inductives : La recharge par induc- ...
+ nativeID=166 parentID=165 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Solutions inductives : La recharge par induc- tion consistant en une recharge sans câble 
+
+ [ALINEA-CONTENT]:
+■ Solutions inductives : La recharge par induc-
+tion consistant en une recharge sans câble
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Solutions conductives au sol ou latérale en ...
+ nativeID=167 parentID=165 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Solutions conductives au sol ou latérale en solutions pourraient permettre de réduire forte- bord de route. ment la taille de la batterie des poids lourds et donc réduire les besoins en matières premières 
+
+ [ALINEA-CONTENT]:
+■ Solutions conductives au sol ou latérale en
+solutions pourraient permettre de réduire forte-
+bord de route.
+
+          ***          [--- more alinea content ---]        ***          
+
+ment la taille de la batterie des poids lourds et
+donc réduire les besoins en matières premières
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Solutions conductives aériennes, avec l’utili- ...
+ nativeID=168 parentID=165 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Solutions conductives aériennes, avec l’utili- des batteries, comme le lithium, le nickel et le sation d’une caténaire électrique pour trans- cobalt. Cependant, le choix d’investissement mettre l’énergie. relève d’une décision politique, et prenant en compte les résultats des expérimentations ; Ces technologies sont encore en développe- les autorités publiques doivent statuer sur le ment. Des démonstrateurs ont été lancés dans plusieurs localisations à travers l’Europe et cer- taines portions de routes sont déjà équipées 
+
+ [ALINEA-CONTENT]:
+■ Solutions conductives aériennes, avec l’utili-
+des batteries, comme le lithium, le nickel et le
+sation d’une caténaire électrique pour trans-
+
+          ***          [--- more alinea content ---]        ***          
+
+ment. Des démonstrateurs ont été lancés dans
+plusieurs localisations à travers l’Europe et cer-
+taines portions de routes sont déjà équipées
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.2. Mesures-clés transverses
+ nativeID=169 parentID=156 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : pilotage stratégique du déploiement des IRVE KPI : création de l’entité et budget affecté Parties prenantes : État Levier(s) : décision politique, modification(s) réglementaire(s) Le déploiement des IRVE est un enjeu national rentabilité », et pour garantir l’accessibilité des indispensable pour l’atteinte des objectifs de tarifs pratiqués sur les infrastructures subven- neutralité carbone, qui dépasse les logiques de tionnées, la mobilisation des pouvoirs publics rentabilité économique stricte et nécessite des est un prérequis. investissements importants. autorités publiques. soient fléchées vers les zones à pourvoir en priorité, pour éviter les effets d’aubaine. ■ Le coût global du réseau IRVE 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.2.1. Création d’une entité publique en charge de la planification des IRVE
+ nativeID=170 parentID=169 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : pilotage stratégique du déploiement des IRVE KPI : création de l’entité et budget affecté Parties prenantes : État Levier(s) : décision politique, modification(s) réglementaire(s) Le déploiement des IRVE est un enjeu national rentabilité », et pour garantir l’accessibilité des indispensable pour l’atteinte des objectifs de tarifs pratiqués sur les infrastructures subven- neutralité carbone, qui dépasse les logiques de tionnées, la mobilisation des pouvoirs publics rentabilité économique stricte et nécessite des est un prérequis. investissements importants. autorités publiques. soient fléchées vers les zones à pourvoir en priorité, pour éviter les effets d’aubaine. ■ Le coût global du réseau IRVE 
+
+ [ALINEA-CONTENT]:
+Impact : pilotage stratégique du déploiement des IRVE
+KPI : création de l’entité et budget affecté Parties prenantes : État
+Levier(s) : décision politique, modification(s) réglementaire(s)
+
+          ***          [--- more alinea content ---]        ***          
+
+autorités publiques.
+soient fléchées vers les zones à pourvoir en
+priorité, pour éviter les effets d’aubaine.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le coût global du réseau IRVE peut être réduit ...
+ nativeID=171 parentID=170 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le coût global du réseau IRVE peut être réduit ropérabilité par les opérateurs, et notamment par une planification adéquate, notamment de la collecte des données, devra s’appuyer en dimensionnant correctement les raccor- sur des leviers administratifs (ex : application dements à effectuer pour les aires de service des sanctions prévues). L’autorité publique et aires de repos à travers les prérogatives des devra également garantir que les subventions 
+
+ [ALINEA-CONTENT]:
+■ Le coût global du réseau IRVE peut être réduit
+ropérabilité par les opérateurs, et notamment
+par une planification adéquate, notamment
+
+          ***          [--- more alinea content ---]        ***          
+
+des sanctions prévues). L’autorité publique
+et aires de repos à travers les prérogatives des
+devra également garantir que les subventions
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Le respect des dispositions de qualité et d’inte- 
+ nativeID=172 parentID=170 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Le respect des dispositions de qualité et d’inte- 
+
+ [ALINEA-CONTENT]:
+■ Le respect des dispositions de qualité et d’inte-
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ■ Centraliser, garder à jour et analyser les nom- ...
+ nativeID=173 parentID=170 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+■ Centraliser, garder à jour et analyser les nom- breuses données relatives au déploiement et à Un « haut conseil », « conseil supérieur », ou un l’opération des IRVE publiques et ouvertes au « secrétariat à la planification des IRVE », doté de public, demande d’avoir des équipes dédiées moyens adéquats (en propre) pour mener à bien sur le long terme. En particulier, pour mener ses activités, pourrait être envisagé pour porter à bien les appels d’offres de type « clusters de le rôle de l’État planificateur et aménageur du territoire. Il serait en charge d’organiser la coor- entité 
+
+ [ALINEA-CONTENT]:
+■ Centraliser, garder à jour et analyser les nom-
+breuses données relatives au déploiement et à
+Un « haut conseil », « conseil supérieur », ou un
+
+          ***          [--- more alinea content ---]        ***          
+
+l’élaboration et la mise en commun des SDIRVE,
+et en aval dans leur déploiement. Les modalités
+politiques et l’équilibre du périmètre de cette
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.2.2. Promotion des offres de raccordements intelligentes
+ nativeID=174 parentID=169 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité KPI : coûts de raccordement évités (scénario sans anticipation – scénario anticipé) Parties prenantes : État, collectivités, SCA, GRDE Levier(s) : communication et accompagnement du changement, modification(s) réglementaire(s) Avec l’essor des énergies renouvelables et des Sur ce modèle, les GRDE pourraient proposer demandes de raccordement associées, Enedis systématiquement (avec une éventuelle évolu- a expérimenté dans le cadre du programme Smart Vendée55 des modalités alternatives de raccordement pour les EnR. Ces ORI (offres de tion réglementaire associée, à partir d’un seuil fixé) des raccordements moins coûteux aux opérateurs de bornes 
+
+ [ALINEA-CONTENT]:
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité
+KPI : coûts de raccordement évités (scénario
+sans anticipation – scénario anticipé)
+
+          ***          [--- more alinea content ---]        ***          
+
+et délais de raccordement, en contrepartie
+d’une possibilité de limitation ponctuelle de la
+puissance d’injection.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.2.3. Fiabilité des données en open data
+ nativeID=175 parentID=169 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+pertinent à mesure que les puissances de rac- cordement nécessaires augmenteront. Impact : meilleure estimation des besoins, optimisation du déploiement, augmentation du taux d’utilisation et amélioration de la rentabilité KPI : pourcentage de complétude de la base en open data, fréquence de mise à jour Levier(s) : ressources administratives Parties prenantes : État, collectivités, opérateurs Un certain nombre de mesures-clés ont pour à jour de la base de données IRVE en open data, condition préalable la disponibilité de don- disponible et gérée par data.gouv.fr, intitulée nées complètes et à jour sur l’infrastructure de « Fichier consolidé des bornes de recharge 
+
+ [ALINEA-CONTENT]:
+pertinent à mesure que les puissances de rac-
+cordement nécessaires augmenteront.
+Impact : meilleure estimation des besoins, optimisation du déploiement, augmentation du taux
+
+          ***          [--- more alinea content ---]        ***          
+
+d’itinéraires, ou les applications des opérateurs
+d’IRVE et des e-MSP).
+Cette mesure serait de surcroît un facteur
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.2.4. Standardisation progressive du 800 V
+ nativeID=176 parentID=169 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : amélioration de l’expérience utilisateur et de la vitesse de charge (donc réduction de l’attente moyenne à la borne) KPI : pourcentage de bornes ultra-rapides en 800 V, pourcentage de complétude de la don- Parties prenantes : constructeurs automobiles et de bornes de charge, État née « 800 V » de la base en open data Levier(s) : modification(s) réglementaire(s) ou de cahier des charges Les batteries 800 V présentent des avantages embarquer des adaptateurs pour pouvoir se de compacité et de vitesse de charge, et com- charger aussi sur du 400 V, et l’efficacité de la mencent à 
+
+ [ALINEA-CONTENT]:
+Impact : amélioration de l’expérience utilisateur et de la vitesse de charge (donc réduction
+de l’attente moyenne à la borne)
+KPI : pourcentage de bornes ultra-rapides en
+
+          ***          [--- more alinea content ---]        ***          
+
+choisir les bornes qui leur offriront une recharge
+tants. En revanche, les batteries 800 V doivent
+optimale.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.2.5. Soutien à l’acquisition des poids lourds
+ nativeID=177 parentID=169 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Impact : lancement de la dynamique d’électrification de la mobilité électrique KPI : ventes des camions électriques en France Parties prenantes : constructeurs, État Levier(s) : décision politique Concernant la recharge des poids lourds, les un système de primes ou de bonus forfaitaire acteurs de l’écosystème déplorent le fonction- à l’acquisition enverrait un signal fort à l’écosys- nement des mécanismes d’appel à projets, tème et permettrait de lancer la dynamique. qui donnent peu de visibilité aux candidats ; Parallèlement, cette phase de lancement des en effet, dans l’attente des résultats, les socié- camions électriques pourrait s’appuyer sur les tés doivent 
+
+ [ALINEA-CONTENT]:
+Impact : lancement de la dynamique d’électrification de la mobilité électrique
+KPI : ventes des camions électriques en France Parties prenantes : constructeurs, État
+Levier(s) : décision politique
+
+          ***          [--- more alinea content ---]        ***          
+
+évoluer leurs opérations sans porter de CAPEX
+mouvement de la mobilité lourde électrique,
+dans un premier temps.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 5. Annexes
+ nativeID=178 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5.1. Vue détaillée par axe routier des besoins en points de charge à horizon 2035 pour le scénario Haut, Central et Bas
+ nativeID=179 parentID=178 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 6. Définitions
+ nativeID=180 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Point de recharge : une interface associée à un emplacement de stationnement qui permet de bornes de recharge associées à des emplace- ments de stationnement, exploitée par un ou recharger un seul véhicule électrique à la fois plusieurs opérateurs Borne de recharge : un appareil fixe raccordé à un point d’alimentation électrique, comprenant Point de charge ouvert au public : Ces points de charge sont installés sur des domaines privés un ou plusieurs points de charge et pouvant soumis à des restrictions d’accès spécifiques, intégrer notamment des dispositifs de com- mais non discriminatoires, telles que l’utilisation munication, de comptage, de 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Infrastructures de recharge (définitions réglementaires)
+ nativeID=181 parentID=180 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Point de recharge : une interface associée à un emplacement de stationnement qui permet de bornes de recharge associées à des emplace- ments de stationnement, exploitée par un ou recharger un seul véhicule électrique à la fois plusieurs opérateurs Borne de recharge : un appareil fixe raccordé à un point d’alimentation électrique, comprenant Point de charge ouvert au public : Ces points de charge sont installés sur des domaines privés un ou plusieurs points de charge et pouvant soumis à des restrictions d’accès spécifiques, intégrer notamment des dispositifs de com- mais non discriminatoires, telles que l’utilisation munication, de comptage, de 
+
+ [ALINEA-CONTENT]:
+Point de recharge : une interface associée à un
+emplacement de stationnement qui permet de
+bornes de recharge associées à des emplace-
+
+          ***          [--- more alinea content ---]        ***          
+
+kings des grands entrepôts ou des magasins
+de proximité, dans les parkings souterrains, les
+établissements hôteliers et de restauration, etc.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 7. Abréviations
+ nativeID=182 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+AC : Alternative Current, en français : courant alternatif AOM : Autorité organisatrice de la mobilité AODE : Autorité organisatrice de la distribution d’énergie AAP : Appel à projets AFIR : Alternative Fuels Infrastructure Regulation BEV : Battery Electric Vehicle, en français : véhi- cule 100 % à batterie électrique CCS : Combined Charging System, en français : système de recharge combiné CPO : Charge Point Operator, en français : opé- rateur d’infrastructure PDC : Point de charge PHEV : Plug-in Hybrid Electric Vehicle en fran- çais : véhicule hybride rechargeable PL : Poids lourd RFID : Radio Frequency Identification 
+
+ [ALINEA-CONTENT]:
+AC : Alternative Current, en français : courant
+alternatif
+AOM : Autorité organisatrice de la mobilité
+
+          ***          [--- more alinea content ---]        ***          
+
+électrique
+LOM (loi) : Loi d’orientation des mobilités
+ZNI : Zones non interconnectées
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 8. Table des figures
+ nativeID=183 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Figure 1 : Cartographie des points de charge sur les grands axes routiers Figure 2 : Besoin en nombre de points de charge pour la recharge publique sur les grands axes routiers Figure 3 : Besoin en nombre de points sur quelques axes routiers pour les véhicules légers et pour les poids lourds dans les différents scénarios par rapport à l’actuel Figure 4 : Obstacles au déploiement des IRVE Figure 5 : Mesures-clés relatives aux grands axes routiers Figure 6 : Mesures-clés transverses Figure 7 : Évaluation du besoin en recharge selon la typologie du trajet Figure 8 : Méthodologie 
+
+ [ALINEA-CONTENT]:
+Figure 1 : Cartographie des points de charge sur les grands axes routiers
+Figure 2 : Besoin en nombre de points de charge pour la recharge publique sur les grands axes
+routiers
+
+          ***          [--- more alinea content ---]        ***          
+
+Figure 22 : Répartition des typologies de points avec un taux d’utilisation de 12,5 % en 2035
+Figure 23 : Correspondance entre taux d’utilisation et nombre d’heures d’utilisation quotidienne
+moyenne sur une année
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = CONTACTS POUR LE PRÉSENT RAPPORT
+ nativeID=184 parentID=183 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Clément Molizon Yasmine Assef clement.molizon@avere-france.org yasmine.assef@afry.com M : +33 6 18 25 24 84 M : + 33 7 85 92 77 41 
+
+ [ALINEA-CONTENT]:
+Clément Molizon
+Yasmine Assef
+clement.molizon@avere-france.org
+
+          ***          [--- more alinea content ---]        ***          
+
+yasmine.assef@afry.com
+M : +33 6 18 25 24 84
+M : + 33 7 85 92 77 41
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = CONTRIBUTEURS
+ nativeID=185 parentID=183 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Avere-France Clément Molizon, Bassem Haidar AFRY Yasmine Assef, Théo Sébastien, Arnaud Pauli 
+
+ [ALINEA-CONTENT]:
+Avere-France
+Clément Molizon, Bassem Haidar
+AFRY
+
+          ***          [--- more alinea content ---]        ***          
+
+Yasmine Assef, Théo Sébastien,
+Arnaud Pauli
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = À PROPOS D’AFRY
+ nativeID=186 parentID=183 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+AFRY fournit des services de conseil, numé- riques, de design et d’ingénierie pour accélérer la transition vers une société durable. Nous sommes 19 000 experts dévoués dans les secteurs de l’industrie, de l’énergie et de l’infrastructure. AFRY possède des racines nordiques avec une portée globale, produit des ventes nettes de 24 milliards de couronnes suédoises et est cotée au Nasdaq Stockholm. AFRY Management Consulting SAS 1, rue de Gramont 75002 Paris France 
+
+ [ALINEA-CONTENT]:
+AFRY fournit des services de conseil, numé-
+riques, de design et d’ingénierie pour accélérer
+la transition vers une société durable.
+
+          ***          [--- more alinea content ---]        ***          
+
+1, rue de Gramont
+75002 Paris
+France
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = À PROPOS DE L’AVERE-FRANCE
+ nativeID=187 parentID=183 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+L’Avere-France est l’association nationale pour le développement de la mobilité électrique. Créée en 1978 pour représenter l’ensemble Avere-France, Association nationale pour le développement de la mobilité électrique 5, rue du Helder de l’écosystème de l’électro-mobilité dans les 75009 Paris domaines industriel, commercial, institutionnel France ou associatif, elle a pour objectif de faire la pro- motion de l’utilisation des véhicules électriques et hybrides rechargeables. 
+
+ [ALINEA-CONTENT]:
+L’Avere-France est l’association nationale pour
+le développement de la mobilité électrique.
+Créée en 1978 pour représenter l’ensemble
+
+          ***          [--- more alinea content ---]        ***          
+
+ou associatif, elle a pour objectif de faire la pro-
+motion de l’utilisation des véhicules électriques
+et hybrides rechargeables.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = PARTENAIRES FINANCIERS
+ nativeID=188 parentID=183 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = À PROPOS DE LA BANQUE DES TERRITOIRES
+ nativeID=189 parentID=183 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Créée en 2018, la Banque des Territoires est un des Dépôts afin d’être mieux identifiée auprès des cinq métiers de la Caisse des Dépôts. Elle de ses clients et au plus près d’eux. rassemble dans une même structure les exper- tises internes à destination des territoires. Porte d’entrée client unique, elle propose des solu- tions sur mesure de conseil et de financement en prêts et en investissement pour répondre aux besoins des collectivités locales, des orga- nismes de logement social, des entreprises publiques locales et des professions juridiques. Elle s’adresse à tous les territoires, depuis les zones rurales jusqu’aux métropoles, 
+
+ [ALINEA-CONTENT]:
+Créée en 2018, la Banque des Territoires est un
+des Dépôts afin d’être mieux identifiée auprès
+des cinq métiers de la Caisse des Dépôts. Elle
+
+          ***          [--- more alinea content ---]        ***          
+
+Sophie Huet
+sophie.huet2@caissedesdepots.fr
+M : + 33 6 07 42 14 50
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = À PROPOS DE ECF
+ nativeID=190 parentID=183 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The European Climate Foundation (ECF) is a responsible transition to a net-zero economy major philanthropic initiative working to help and sustainable society in Europe and around tackle the climate crisis by fostering the deve- the world. lopment of a net-zero emission society at the national, European, and global level. The ECF supports over 700 partner organisations to carry out activities that drive urgent and ambitious policy in support of the objectives of the Paris Agreement, contribute to the public debate on climate action, and help deliver a socially Agathe Destresse agathe.destresse@Europeanclimate.org Avec le soutien de 
+
+ [ALINEA-CONTENT]:
+The European Climate Foundation (ECF) is a
+responsible transition to a net-zero economy
+major philanthropic initiative working to help
+
+          ***          [--- more alinea content ---]        ***          
+
+agathe.destresse@Europeanclimate.org
+Avec le soutien de
+
+
+---------------------------------------------------------------------------------

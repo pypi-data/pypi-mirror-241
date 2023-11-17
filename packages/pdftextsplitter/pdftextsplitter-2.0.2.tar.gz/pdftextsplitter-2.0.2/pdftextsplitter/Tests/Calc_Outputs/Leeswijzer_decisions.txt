@@ -1,0 +1,52 @@
+##################################################################
+### [TEXTSPLITTER CLASS] #########################################
+### [Breakdown decisions for document Leeswijzer] ###
+##################################################################
+
+Left=15.04 | Value=16.08 | Right=28.16 | Freq=0.030257936507936505 | Cascade=1 | Regular=False
+Left=13.52 | Value=14.0 | Right=15.04 | Freq=0.022817460317460316 | Cascade=2 | Regular=False
+Left=12.56 | Value=13.040000000000001 | Right=13.52 | Freq=0.014384920634920634 | Cascade=3 | Regular=False
+Left=11.84 | Value=12.08 | Right=12.56 | Freq=0.9191468253968254 | Cascade=4 | Regular=True
+
+
+
+L=-4.9891814399999985 | Val=-1.2463795200000012 | R=9.641771519999992 | Freq=0.03571428571428571 | Reg=False | small=True | BIG=False | zero=True | valid=True
+L=9.641771519999992 | Val=20.529922559999985 | R=21.890941439999985 | Freq=0.75 | Reg=True | small=False | BIG=False | zero=False | valid=True
+L=21.890941439999985 | Val=23.25196031999998 | R=25.63374335999998 | Freq=0.03571428571428571 | Reg=False | small=False | BIG=True | zero=False | valid=True
+L=25.63374335999998 | Val=28.015526399999978 | R=28.696035839999976 | Freq=0.03571428571428571 | Reg=False | small=False | BIG=True | zero=False | valid=True
+L=28.696035839999976 | Val=29.376545279999974 | R=32.098583039999966 | Freq=0.03571428571428571 | Reg=False | small=False | BIG=True | zero=False | valid=True
+L=32.098583039999966 | Val=34.820620799999965 | R=36.521894399999965 | Freq=0.03571428571428571 | Reg=False | small=False | BIG=True | zero=False | valid=True
+L=36.521894399999965 | Val=38.223167999999966 | R=39.924441599999966 | Freq=0.03571428571428571 | Reg=False | small=False | BIG=True | zero=False | valid=True
+L=39.924441599999966 | Val=41.62571519999996 | R=100000.0 | Freq=0.03571428571428571 | Reg=False | small=False | BIG=True | zero=False | valid=True
+
+
+
+[FONTSIZE=28.0] <=> [VERTPOS=746.889] <=> [WHITELINES=-1.0;23.100000000000023] <=> [TEXTLEVEL=1] <=> [TEXTLABEL=<texttype.HEADLINES] <=> [CONTENT=<Dit wordt een documenttitel>]
+[FONTSIZE=12.0] <=> [VERTPOS=723.789] <=> [WHITELINES=23.100000000000023;20.799999999999955] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<They attacked him in various ways–with barefaced questions, ingenious suppositions,>]
+[FONTSIZE=12.0] <=> [VERTPOS=702.989] <=> [WHITELINES=20.799999999999955;20.800000000000068] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<and distant surmises; but he eluded the skill of them all, and they were at last obliged>]
+[FONTSIZE=12.0] <=> [VERTPOS=682.189] <=> [WHITELINES=20.800000000000068;38.5] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<to accept the second-hand intelligence of their neighbour, Lady Lucas. Her report was>]
+[FONTSIZE=18.0] <=> [VERTPOS=643.689] <=> [WHITELINES=38.5;21.0] <=> [TEXTLEVEL=1] <=> [TEXTLABEL=<texttype.HEADLINES] <=> [CONTENT=<Dit moet een hoofdstuk voorstellen>]
+[FONTSIZE=12.0] <=> [VERTPOS=622.689] <=> [WHITELINES=21.0;20.799999999999955] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young>]
+[FONTSIZE=12.0] <=> [VERTPOS=601.889] <=> [WHITELINES=20.799999999999955;20.799999999999955] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<man of large fortune from the north of England; that he came down on Monday in a>]
+[FONTSIZE=12.0] <=> [VERTPOS=581.089] <=> [WHITELINES=20.799999999999955;34.700000000000045] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<chaise and four to see the place, and was so much delighted with it, that he agreed>]
+[FONTSIZE=16.0] <=> [VERTPOS=546.389] <=> [WHITELINES=34.700000000000045;20.600000000000023] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.HEADLINES] <=> [CONTENT=<Dit wordt straks een sectie>]
+[FONTSIZE=12.0] <=> [VERTPOS=525.789] <=> [WHITELINES=20.600000000000023;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young>]
+[FONTSIZE=12.000000000000057] <=> [VERTPOS=504.989] <=> [WHITELINES=20.80000000000001;20.799999999999955] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<man of large fortune from the north of England; that he came down on Monday in a>]
+[FONTSIZE=12.0] <=> [VERTPOS=484.189] <=> [WHITELINES=20.799999999999955;29.700000000000045] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<chaise and four to see the place, and was so much delighted with it, that he agreed>]
+[FONTSIZE=14.0] <=> [VERTPOS=454.489] <=> [WHITELINES=29.700000000000045;20.19999999999999] <=> [TEXTLEVEL=3] <=> [TEXTLABEL=<texttype.HEADLINES] <=> [CONTENT=<Dit zou uiteindelijk een subsectie moeten zijn>]
+[FONTSIZE=12.0] <=> [VERTPOS=434.289] <=> [WHITELINES=20.19999999999999;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young>]
+[FONTSIZE=12.0] <=> [VERTPOS=413.489] <=> [WHITELINES=20.80000000000001;20.799999999999955] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<man of large fortune from the north of England; that he came down on Monday in a>]
+[FONTSIZE=12.0] <=> [VERTPOS=392.689] <=> [WHITELINES=20.799999999999955;27.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<chaise and four to see the place, and was so much delighted with it, that he agreed>]
+[FONTSIZE=13.0] <=> [VERTPOS=364.889] <=> [WHITELINES=27.80000000000001;20.0] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.HEADLINES] <=> [CONTENT=<En tot slot een subsubsectie>]
+[FONTSIZE=12.0] <=> [VERTPOS=344.889] <=> [WHITELINES=20.0;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young>]
+[FONTSIZE=12.0] <=> [VERTPOS=324.089] <=> [WHITELINES=20.80000000000001;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<man of large fortune from the north of England; that he came down on Monday in a>]
+[FONTSIZE=12.0] <=> [VERTPOS=303.289] <=> [WHITELINES=20.80000000000001;41.599999999999966] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<chaise and four to see the place, and was so much delighted with it, that he agreed>]
+[FONTSIZE=12.0] <=> [VERTPOS=261.689] <=> [WHITELINES=41.599999999999966;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<En uiteindelijk een vetgedrukte normale tekst.>]
+[FONTSIZE=12.0] <=> [VERTPOS=240.889] <=> [WHITELINES=20.80000000000001;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young>]
+[FONTSIZE=12.0] <=> [VERTPOS=220.089] <=> [WHITELINES=20.80000000000001;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<man of large fortune from the north of England; that he came down on Monday in a>]
+[FONTSIZE=12.0] <=> [VERTPOS=199.289] <=> [WHITELINES=20.80000000000001;20.799999999999983] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<chaise and four to see the place, and was so much delighted with it, that he agreed>]
+[FONTSIZE=12.0] <=> [VERTPOS=178.489] <=> [WHITELINES=20.799999999999983;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<with Mr. Morris immediately; that he is to take possession before Michaelmas, and>]
+[FONTSIZE=12.0] <=> [VERTPOS=157.689] <=> [WHITELINES=20.80000000000001;20.799999999999983] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<some of his servants are to be in the house by the end of next week. Not all that Mrs.>]
+[FONTSIZE=12.0] <=> [VERTPOS=136.889] <=> [WHITELINES=20.799999999999983;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Bennet, however, with the assistance of her five daughters, could ask on the subject,>]
+[FONTSIZE=12.0] <=> [VERTPOS=116.089] <=> [WHITELINES=20.80000000000001;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<was sufficient to draw from her husband any satisfactory description of Mr. Bingley.>]
+[FONTSIZE=12.0] <=> [VERTPOS=116.089] <=> [WHITELINES=20.80000000000001;20.80000000000001] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<>]

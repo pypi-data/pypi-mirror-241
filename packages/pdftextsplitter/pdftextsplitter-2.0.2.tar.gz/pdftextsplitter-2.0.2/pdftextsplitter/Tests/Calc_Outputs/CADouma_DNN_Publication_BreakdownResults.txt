@@ -1,0 +1,373 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document CADouma_DNN_Publication] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = CADouma_DNN_Publication
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Contents lists available at ScienceDirect journal homepage: www.elsevier.com/locate/nima The R3B setup (Reactions with Radioactive Relativistic Beams setup) is a multi-purpose experimental setup used to study nuclear struc- ture properties of short-lived isotopes [1]. The setup will be located at the high-energy branch of the Super FRagment Separator (Super- FRS) [2] of the Facility for Antiproton and Ion Research (FAIR) [3] near Darmstadt in Germany. The heart of the R3B setup consists of a fixed target, at which a secondary beam generated in the Super-FRS is directed. The general goal of the R3B experiment is to provide a kinematically complete reconstruction 
+
+ [ALINEA-CONTENT]:
+Contents lists available at ScienceDirect
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Nuclear Inst. and Methods in Physics Research, A
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+journal homepage: www.elsevier.com/locate/nima 
+
+ [ALINEA-CONTENT]:
+journal homepage: www.elsevier.com/locate/nima
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Development of a Deep Neural Network for the data analysis of the NeuLAND neutron detector C.A. Douma a,∗, E. Hoemann b, N. Kalantar-Nayestanaki a,c,∗, J. Mayer b, for the R3B Collaboration
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The R3B setup (Reactions with Radioactive Relativistic Beams setup) is a multi-purpose experimental setup used to study nuclear struc- ture properties of short-lived isotopes [1]. The setup will be located at the high-energy branch of the Super FRagment Separator (Super- FRS) [2] of the Facility for Antiproton and Ion Research (FAIR) [3] near Darmstadt in Germany. The heart of the R3B setup consists of a fixed target, at which a secondary beam generated in the Super-FRS is directed. The general goal of the R3B experiment is to provide a kinematically complete reconstruction of all particles participating in the reaction [1], 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Introduction
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The R3B setup (Reactions with Radioactive Relativistic Beams setup) is a multi-purpose experimental setup used to study nuclear struc- ture properties of short-lived isotopes [1]. The setup will be located at the high-energy branch of the Super FRagment Separator (Super- FRS) [2] of the Facility for Antiproton and Ion Research (FAIR) [3] near Darmstadt in Germany. The heart of the R3B setup consists of a fixed target, at which a secondary beam generated in the Super-FRS is directed. The general goal of the R3B experiment is to provide a kinematically complete reconstruction of all particles participating in the reaction [1], 
+
+ [ALINEA-CONTENT]:
+The R3B setup (Reactions with Radioactive Relativistic Beams setup)
+is a multi-purpose experimental setup used to study nuclear struc-
+ture properties of short-lived isotopes [1]. The setup will be located
+
+          ***          [--- more alinea content ---]        ***          
+
+Section 5, future possibilities for further improvements on top of the
+new algorithm are discussed. Finally, conclusions and a summary are
+presented in Section 6.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. Methodology
+ nativeID=4 parentID=2 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In order to explain the implementation of the ML algorithm in the NeuLAND data-analysis procedure, a brief overview of this procedure is given. This procedure is explained in Fig. 4. Central in this scheme are the NeuLAND ‘‘Hits’’. These are tuples of 5 numbers: {𝐸, 𝑡, 𝑥, 𝑦, 𝑧}. Within one event, each scintillator that produced a signal is assigned exactly one such a 5-tuple. 𝑡 and 𝐸 stand for the energy deposition and the time of the scintillator hit, as reconstructed from the PMT pulses. The position coordinate (either 𝑥 or 𝑦) along the scintillator is also obtained from 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.1. Data generation and preparation
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In order to explain the implementation of the ML algorithm in the NeuLAND data-analysis procedure, a brief overview of this procedure is given. This procedure is explained in Fig. 4. Central in this scheme are the NeuLAND ‘‘Hits’’. These are tuples of 5 numbers: {𝐸, 𝑡, 𝑥, 𝑦, 𝑧}. Within one event, each scintillator that produced a signal is assigned exactly one such a 5-tuple. 𝑡 and 𝐸 stand for the energy deposition and the time of the scintillator hit, as reconstructed from the PMT pulses. The position coordinate (either 𝑥 or 𝑦) along the scintillator is also obtained from 
+
+ [ALINEA-CONTENT]:
+In order to explain the implementation of the ML algorithm in the
+NeuLAND data-analysis procedure, a brief overview of this procedure
+is given. This procedure is explained in Fig. 4. Central in this scheme
+
+          ***          [--- more alinea content ---]        ***          
+
+is about halfway between the two physics lists, we conclude that
+INCLXX overestimates the production of light nuclei, while Bertini
+underestimates this.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.2. Multiplicity determination
+ nativeID=6 parentID=4 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+After the ‘‘Hits’’ are identified, they are first clustered together according to the procedure outlined in Refs. [13,15]. This procedure assigns ‘‘Hits’’ that have 𝛥𝑥 ≤ 7.5 cm, 𝛥𝑦 ≤ 7.5 cm, 𝛥𝑧 ≤ 7.5 cm and 𝛥𝑡 ≤ 1.0 ns to the same cluster. All these clusters (even those of a single ‘‘Hit’’) are then considered in the subsequent analysis. The next step (see Fig. 4) is to determine the multiplicity of the event (the number of neutrons that came from the target). For this step, we propose the use of ML. We have chosen to use of a 
+
+ [ALINEA-CONTENT]:
+After the ‘‘Hits’’ are identified, they are first clustered together
+according to the procedure outlined in Refs. [13,15]. This procedure
+assigns ‘‘Hits’’ that have 𝛥𝑥 ≤ 7.5 cm, 𝛥𝑦 ≤ 7.5 cm, 𝛥𝑧 ≤ 7.5 cm and
+
+          ***          [--- more alinea content ---]        ***          
+
+function to prevent the DNN from becoming biased. This bias could
+result in a loss from roughly 25% (30 dp) to several hundred percent
+(few dp) in the proper reconstruction of multiplicity-five events.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.3. ‘‘Hit’’ selection
+ nativeID=7 parentID=4 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In the last step in Fig. 4, the ‘‘Hit’’ selection, the actual shower heads have to be identified. For this, we also propose the use of ML. The net- work design for the ‘‘Hit’’ selection is based on the successes obtained in the multiplicity determination. The network for the ‘‘Hit’’ selection was chosen as a densely connected DNN with 14 input neurons, two output neurons with the SoftMax activation function and 12 hidden layers of 200 neurons with the ReLU activation function each. An event is then sent though this network cluster-by-cluster and a different copy of this network was 
+
+ [ALINEA-CONTENT]:
+In the last step in Fig. 4, the ‘‘Hit’’ selection, the actual shower heads
+have to be identified. For this, we also propose the use of ML. The net-
+work design for the ‘‘Hit’’ selection is based on the successes obtained in
+
+          ***          [--- more alinea content ---]        ***          
+
+for this computation were about 250 GB. The computer code of the
+new ML algorithm (both the multiplicity determination and the ‘‘Hit’’
+section) is available as public-domain software [28].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.4. Reference algorithms
+ nativeID=8 parentID=4 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+To evaluate the performance of our new ML algorithm (denoted DNN algorithm in the following), its efficiency is compared to two other shower-head identification algorithms in the upcoming sections: the TDR algorithm and the ‘‘Perfect Tracking’’ algorithm. Note that from now on, the notion ‘DNN algorithm’ stands for the combination of multiplicity determination and ‘‘Hit’’ selection, both handled by ML. The ‘‘Perfect Tracking’’ algorithm relies on information from the Geant4 simulation. It traces the particle showers created by each individual neutron to find out whether this shower produced any NeuLAND ‘‘Hits’’ (see Fig. 4). If ‘‘Hits’’ are produced, the neutron 
+
+ [ALINEA-CONTENT]:
+To evaluate the performance of our new ML algorithm (denoted
+DNN algorithm in the following), its efficiency is compared to two
+other shower-head identification algorithms in the upcoming sections:
+
+          ***          [--- more alinea content ---]        ***          
+
+today [13], except for the ones that use Machine Learning. For this
+reason, it serves as an excellent benchmark to judge the efficiency of
+our new DNN algorithm.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.5. Sources of uncertainties
+ nativeID=9 parentID=4 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Special attention should be paid to the fact that all shower-head identification algorithms discussed so far (including DNN, TDR and ‘‘Perfect Tracking’’) [13] rely on the use of simulation data to optimize certain decision parameters. Since simulations generally do not per- fectly agree with experimental conditions, this dependence introduces systematic uncertainties to the application of all algorithms. These systematic uncertainties come from three different sources (the three main components in a GEANT4 simulation): the geometry, the event generator and the physics list. The systematic uncertainties from the first two sources can generally be suppressed by closely matching the geometry and 
+
+ [ALINEA-CONTENT]:
+Special attention should be paid to the fact that all shower-head
+identification algorithms discussed so far (including DNN, TDR and
+‘‘Perfect Tracking’’) [13] rely on the use of simulation data to optimize
+
+          ***          [--- more alinea content ---]        ***          
+
+factors have been measured over the full range of neutron energies,
+event mixing may prove to be a powerful tool in the future to reduce
+the physics-list uncertainties and/or to improve the physics-list models.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3. Performance of multiplicity determination
+ nativeID=10 parentID=2 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The efficiency of the NeuLAND multiplicity determination is shown in Figs. 6–8. Results were computed for typical neutron energies of 200 MeV, 600 MeV and 1000 MeV, as is commonly done for NeuLAND simulations [8,13] and for NeuLAND configurations of 8 dp, 12 dp, 16 dp, 23 dp and 30 dp. These configurations were chosen, because the configuration with 8 dp is currently (at the publication date of this work) in use, 16 dp have secured funding at present and 30 dp is the design goal (see Section 1). The configurations of 12 dp and 23 dp were added for 
+
+ [ALINEA-CONTENT]:
+The efficiency of the NeuLAND multiplicity determination is shown
+in Figs. 6–8. Results were computed for typical neutron energies of
+200 MeV, 600 MeV and 1000 MeV, as is commonly done for NeuLAND
+
+          ***          [--- more alinea content ---]        ***          
+
+ber of false-positive multiplicity assignments can, in turn, inhibit a good
+shower-head identification, which is why the number of NeuLAND dp
+should be as large as possible.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4. ‘‘Hit’’ selection performance
+ nativeID=11 parentID=2 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In order to assess the performance of the ‘‘Hit’’ selection step (see Fig. 4), it is necessary to consider the 4-momentum vectors of the neu- trons involved [13]. Because of NeuLANDs recent use in a tetra-neutron experiment [29,30] and its design goal for multi-neutron detection capability, a 4-neutron invariant mass spectrum is a good method to assess the ‘‘Hit’’ selection performance. Figs. 9–11 show such spectra for the same neutron energies, NeuLAND configurations and shower- head identification algorithms as studied in Section 3. Four times the mass of the free neutron was subtracted from the total invariant mass, which is 
+
+ [ALINEA-CONTENT]:
+In order to assess the performance of the ‘‘Hit’’ selection step (see
+Fig. 4), it is necessary to consider the 4-momentum vectors of the neu-
+trons involved [13]. Because of NeuLANDs recent use in a tetra-neutron
+
+          ***          [--- more alinea content ---]        ***          
+
+be enough in experiments where two neutrons are ejected and for
+higher neutron multiplicities, a minimum of 16 double planes would
+be required.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5. Extraction of the neutron scattering angle and its impact on observables
+ nativeID=12 parentID=2 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+From the results presented in Sections 3 and 4, it can be concluded that the present DNN algorithm offers a significant improvement over the TDR algorithm, mainly at the ‘‘Hit’’ selection stage. However, there is still a significant difference in efficiency between the present DNN algorithm and the ‘‘Perfect Tracking’’ algorithm, which gives the maximally-achievable efficiency of any shower-head identifica- tion algorithm. This brings up the question whether the present DNN algorithm could be further improved. In order to deal with this issue, it is important to realize that a (large) difference between the DNN and ‘‘Perfect Tracking’’ algorithms can 
+
+ [ALINEA-CONTENT]:
+From the results presented in Sections 3 and 4, it can be concluded
+that the present DNN algorithm offers a significant improvement over
+the TDR algorithm, mainly at the ‘‘Hit’’ selection stage. However,
+
+          ***          [--- more alinea content ---]        ***          
+
+impact on invariant mass values. However, the effects of these false
+positives should be included in the detection efficiency for computing
+cross section values.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6. Conclusion
+ nativeID=13 parentID=2 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A new Machine Learning (DNN) algorithm was developed for the shower-head identification in the NeuLAND neutron detector. This DNN algorithm was compared to the TDR algorithm, a representative case for how shower-head identification can be done in NeuLAND without the use of Machine Learning. The main reason for developing the new DNN algorithm was to increase the efficiency of the shower-head identification so that the statistical accuracy of the measurements is increased. In virtually all investigated scenarios (see Sections 3 and 4), the new DNN algorithm offers a better efficiency for the shower-head identification than the TDR algorithm. For this 
+
+ [ALINEA-CONTENT]:
+A new Machine Learning (DNN) algorithm was developed for the
+shower-head identification in the NeuLAND neutron detector. This DNN
+algorithm was compared to the TDR algorithm, a representative case
+
+          ***          [--- more alinea content ---]        ***          
+
+vector should then be fed into the multiplicity DNN to improve the
+classification. The degree by which this would improve the results
+should be further investigated.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = CRediT authorship contribution statement
+ nativeID=14 parentID=2 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C.A. Douma: Conceptualization, Methodology, Software, Valida- tion, Formal analysis, Investigation, Writing - original draft, Writing - review & editing, Visualization. E. Hoemann: Conceptualization, Methodology, Investigation, Writing - review & editing. N. Kalantar- Nayestanaki: Conceptualization, Validation, Resources, Data curation, Writing - review & editing, Visualization, Supervision, Project admin- istration, Funding acquisition. J. Mayer: Conceptualization, Software, Validation, Writing - review & editing. 
+
+ [ALINEA-CONTENT]:
+C.A. Douma: Conceptualization, Methodology, Software, Valida-
+tion, Formal analysis, Investigation, Writing - original draft, Writing
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = - review & editing, Visualization. E. Hoemann: Conceptualization, ...
+ nativeID=15 parentID=14 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- review & editing, Visualization. E. Hoemann: Conceptualization, Methodology, Investigation, Writing - review & editing. N. Kalantar- Nayestanaki: Conceptualization, Validation, Resources, Data curation, Writing - review & editing, Visualization, Supervision, Project admin- istration, Funding acquisition. J. Mayer: Conceptualization, Software, Validation, Writing - review & editing. 
+
+ [ALINEA-CONTENT]:
+- review & editing, Visualization. E. Hoemann: Conceptualization,
+Methodology, Investigation, Writing - review & editing. N. Kalantar-
+Nayestanaki: Conceptualization, Validation, Resources, Data curation,
+
+          ***          [--- more alinea content ---]        ***          
+
+Writing - review & editing, Visualization, Supervision, Project admin-
+istration, Funding acquisition. J. Mayer: Conceptualization, Software,
+Validation, Writing - review & editing.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Declaration of competing interest
+ nativeID=16 parentID=2 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The authors declare that they have no known competing finan- cial interests or personal relationships that could have appeared to influence the work reported in this paper. 
+
+ [ALINEA-CONTENT]:
+The authors declare that they have no known competing finan-
+cial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Acknowledgments
+ nativeID=17 parentID=2 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+We would like to thank C. A. Marocico, J. Messchendorp and L. R. Zwerver for their helpful discussions about the use of Machine Learning Networks. We also would like to thank K. Boretsky, I. Gašparić, A. M. Heinz, H. T. Johansson and O. Tengblad for the helpful discussions about the results presented in this work and for their useful comments on the manuscript. J. Mayer is funded by the BMBF (05P19PKFNA) and the GSI (KZILGE1416). C. A. Douma is funded by the European Union’s Horizon 2020 research and innovation programme collaboration, see Fig. 14. 
+
+ [ALINEA-CONTENT]:
+We would like to thank C. A. Marocico, J. Messchendorp and L. R.
+Zwerver for their helpful discussions about the use of Machine Learning
+Networks. We also would like to thank K. Boretsky, I. Gašparić, A. M.
+
+          ***          [--- more alinea content ---]        ***          
+
+the GSI (KZILGE1416). C. A. Douma is funded by the European Union’s
+Horizon 2020 research and innovation programme collaboration, see
+Fig. 14.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Appendix. Network structure optimalization
+ nativeID=18 parentID=2 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this appendix, the optimalization procedure for the DNN network structure is discussed. From general considerations (see Section 2.2), it was determined that the DNN should be a densely-connected network with ReLU activation functions on the hidden neurons and SoftMax activation functions on the output neurons. It was also determined that the DNN should have 9002 input neurons and (usually) 5 output neurons. This leaves the following parameters open: the number of hidden layers in the network, the number of neurons per hidden layer, the choice for the minimization function (the network loss function) and the choice for the minimization 
+
+ [ALINEA-CONTENT]:
+In this appendix, the optimalization procedure for the DNN network
+structure is discussed. From general considerations (see Section 2.2), it
+was determined that the DNN should be a densely-connected network
+
+          ***          [--- more alinea content ---]        ***          
+
+fect Tracking’’ algorithm. However, for Table 2, we have deliberately
+chosen to display it using the previous ‘‘Perfect Tracking’’ algorithm to
+maintain backward compatibility with Refs. [8,13,21].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = References
+ nativeID=19 parentID=2 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------

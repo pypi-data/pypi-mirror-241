@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../../TextPart/huisstijl.css">
+<link rel="stylesheet" type="text/css" href="../../TextPart/Styling.css">
+<title> Enums_Chapters </title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+window.onload = function() {
+// Vind het eerste img element in body
+var img = document.body.querySelector("img:first-child");
+// Vind het element dat direct volgt op de afbeelding
+var nextElement = img.nextElementSibling;
+if (img && nextElement) {
+    // Bereken de hoogte van de afbeelding
+    var imgHeight = img.offsetHeight;
+    // Pas de bovenmarge van het volgende element aan
+    nextElement.style.marginTop = imgHeight + "px";
+}
+};
+window.onresize = function() {
+// Vind het eerste img element in body
+var img = document.body.querySelector("img:first-child");
+// Vind het element dat direct volgt op de afbeelding
+var nextElement = img.nextElementSibling;
+if (img && nextElement) {
+    // Bereken de nieuwe hoogte van de afbeelding
+    var imgHeight = img.offsetHeight;
+    // Pas de bovenmarge van het volgende element aan
+    nextElement.style.marginTop = imgHeight + "px";
+}
+};
+</script>
+</head>
+<img src="../../TextPart/Logo.png" alt="Hipster" width=800 />
+<body>
+<h2 class="Structure_element-link texttype_headlines-link chapter-link fixed-top sticky-top"><table class="bannertable-standalone" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+Pag.
+</td>
+<td width = "5%">
+Struct.
+</td>
+<td width = "5%">
+Links.
+</td>
+<td width = "5%">
+Diepte.
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+Titel:
+</td>
+</tr>
+</tbody>
+</table>
+</h2><hr class="Title-horline">
+<h1 class="fold-link Structure_element-link texttype_title-link title-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+6
+</td>
+<td width = "5%">
+5
+</td>
+<td width = "5%">
+2
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+Enums_Chapters</td>
+</tr>
+</tbody>
+</table>
+</h1>
+<div class="unfolded Structure_element texttype_title title">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+<h2 class="fold-link doc_metadata-link texttype_title-link title-link">
+Document meta-data: <br />
+(wat er beschikbaar is) <br />
+</h2>
+<div class="unfolded doc_metadata texttype_title title">
+<b> <i> Created on: </i> </b>13 November 2023 <br />
+<b> <i> Last modified on: </i> </b>13 November 2023 <br />
+<b> <i> Created with: </i> </b>pdfTeX-1.40.22 <br />
+</div>
+</td>
+<td width = "40%">
+<h2 class="fold-link Summary-link texttype_title-link title-link">
+Samenvatting over 443 woorden: <br />
+5x reductie; 100 woorden; ca. 1 min.
+</h2>
+<div class="unfolded Summary texttype_title title">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man 
+</div>
+</td>
+<td width = "40%">
+<h2 class="fold-link Source-link texttype_title-link title-link">
+Onderliggende Tekst: <br />
+443 woorden; ca. 2 min.
+</h2>
+<div class="folded Source texttype_title title">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+<br />
+<br />
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio below 30% condition te halen. 
+<br />
+<br />
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that 
+<br />
+<br />
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and 
+<br />
+<br />
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed 
+<br />
+<br />
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1. Dit wordt dus eerst als opsomming herkent, maar moet een hoofdstuk worden.</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 19 woorden: <br />
+1x reductie; 19 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio below 30% condition te halen. 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+19 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+<br />
+<br />
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio below 30% condition te halen. 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 class="fold-link Structure_element-link texttype_headlines-link section-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+– –
+</td>
+<td width = "5%">
+
+</td>
+<td width = "5%">
+
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1.1 deze sectietitel maakt het een hoofdstuk</td>
+</tr>
+</tbody>
+</table>
+</h3>
+<div class="folded Structure_element texttype_headlines section">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h4 class="fold-link Summary-link texttype_headlines-link section-link">
+Samenvatting over 19 woorden: <br />
+1x reductie; 19 woorden; ca. 1 min.
+</h4>
+<div class="unfolded Summary texttype_headlines section">
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio below 30% condition te halen. 
+</div>
+</td>
+<td width = "40%">
+<h4 class="fold-link Source-link texttype_headlines-link section-link">
+Onderliggende Tekst: <br />
+19 woorden; ca. 1 min.
+</h4>
+<div class="folded Source texttype_headlines section">
+Nu moeten we nog een hele hoop extra elementen toevoegen om de structure ratio
+below 30% condition te halen.
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="section-horline">
+</div>
+<hr class="chapter-horline">
+</div>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+– –
+</td>
+<td width = "5%">
+
+</td>
+<td width = "5%">
+
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+2. Dus nog maar even een hoofdstuk</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 82 woorden: <br />
+1x reductie; 82 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+82 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="chapter-horline">
+</div>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+– –
+</td>
+<td width = "5%">
+
+</td>
+<td width = "5%">
+
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+3. En nog maar een.</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 63 woorden: <br />
+1x reductie; 63 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+63 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="chapter-horline">
+</div>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+– –
+</td>
+<td width = "5%">
+
+</td>
+<td width = "5%">
+
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+4. Er komt geen einde aan.</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 50 woorden: <br />
+1x reductie; 50 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+50 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="chapter-horline">
+</div>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+– –
+</td>
+<td width = "5%">
+
+</td>
+<td width = "5%">
+
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+5. En dan nu de laatste.</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 63 woorden: <br />
+1x reductie; 63 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+63 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="chapter-horline">
+</div>
+<hr class="title-horline">
+</div>
+<script>
+$(document).ready(function() {
+// Hide all of the folded sections
+$(".folded").hide();
+// Add click handlers to the folded links
+$(".fold-link").click(function() {
+// Find the next sibling div and toggle its visibility
+$(this).next("div").toggle();
+});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,3171 @@
+Septembre 2023
+HIT THE ROAD
+TOME 2
+DÉPLOIEMENT
+DE LA RECHARGE
+SUR LES GRANDS AXES
+ROUTIERS
+Avec le soutien de
+2 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+SOMMAIRE
+1. Synthèse
+2. Modélisation des besoins en IRVE pour 2030-2035
+2.1 Méthodologie et hypothèses générales
+2.1.1. Projection du parc de véhicules électriques
+2.1.2. Évolution technique des véhicules
+2.2. Zoom sur les besoins en recharge sur les grands axes routiers
+2.2.1. Analyse du comportement de recharge lors de l’itinérance
+2.2.1.1. Cas des véhicules légers
+2.2.1.2. Cas des tracteurs routiers
+2.2.2. Estimation des besoins énergétiques pour la recharge publique
+2.2.3. Évaluation du nombre de points de charge
+2.3. Synthèse des besoins en recharge publique sur le territoire français
+3. Obstacles au déploiement d’une infrastructure de recharge publique
+3.1. Obstacles à la planification optimale des IRVE
+3.1.1. Raccordement électrique des IRVE
+3.1.2. Visibilité insuffisante pour la bonne élaboration des SDIRVE
+3.1.3. Incertitudes sur la part des alternatives technologiques
+à la mobilité lourde à batterie électrique
+3.2. Obstacles à l’installation des IRVE
+3.2.1. Faible disponibilité du foncier sur grands axes routiers
+pour accueillir des stations de recharge, en particulier pour poids lourds
+3.2.2. Faible disponibilité du foncier en zone urbaine dense
+3.2.3. Investissements importants nécessaires,
+en particulier pour la recharge DC
+3.2.4. Délais de fourniture des bornes de recharge
+et autres défis relatifs à la chaîne d’approvisionnement
+3.3. Obstacles à l’opération des IRVE
+3.3.1. Rentabilité insuffisante
+3.3.2. Durée légale des contrats de sous-concessions autoroutières
+3.3.3. Défis de la maintenance et du taux de disponibilité
+3.3.4. Volatilité des prix de l’énergie
+3.4. Obstacles à l’achat de véhicules électriques liés à la recharge
+3.4.1. Complexité du parcours de recharge
+3.4.2. Opacité de la tarification et prix de la recharge
+3.4.3. Anxiété à la recharge
+3.4.4. Indisponibilité de recharge de proximité abordable
+5
+11
+11
+13
+15
+16
+16
+16
+17
+17
+18
+20
+23
+23
+23
+24
+24
+25
+25
+26
+26
+27
+27
+27
+28
+29
+30
+30
+30
+31
+31
+31
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 3
+4. Mesures-clés pour réussir le déploiement d’une infrastructure de recharge publique 32
+4.1. Mesures-clés « Grands axes routiers »
+4.1.1. Anticipation des besoins en raccordements
+4.1.2. Allongement des durées de contrats de sous-concession
+4.1.3. Réduction des pointes de trafic en amont
+4.1.4. Absorption des pointes de trafic via des solutions ad hoc
+4.1.5. L’autoroute électrique
+4.2. Mesures-clés transverses
+4.2.1. Création d’une entité publique en charge de la planification des IRVE
+4.2.2. Promotion des offres de raccordements intelligentes
+4.2.3. Fiabilité des données en open data
+4.2.4. Standardisation progressive du 800 V
+4.2.5. Soutien à l’acquisition des poids lourds
+5. Annexes
+5.1. Vue détaillée par axe routier des besoins en points de charge
+à horizon 2035 pour le scénario Haut, Central et Bas
+6. Définitions
+Infrastructures de recharge (définitions réglementaires)
+7. Abréviations
+8. Table des figures
+32
+32
+33
+34
+35
+36
+37
+37
+38
+38
+39
+40
+41
+41
+43
+43
+43
+44
+4 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+1. Synthèse
+ARTICULATION DE L’ÉTUDE HIT THE ROAD
+Dans le cadre du projet « Hit the Road » pour l’Avere-France, AFRY a réalisé la présente
+étude sur les besoins en recharge publique à horizon 2035. Elle comporte un Tome 1 – État
+des lieux de la recharge en France, ainsi que deux analyses s’appuyant sur une modé-
+lisation des besoins et proposant des mesures clés de succès pour traiter deux enjeux
+spécifiques : le Tome 2 – Déploiement de la recharge sur les grands axes routiers et le
+Tome 3 – Déploiement de la recharge dans les zones à pourvoir. Ces documents se veulent
+complémentaires, et proposent des mesures transverses.
+Les infrastructures de recharge de véhicules
+de la Transition énergétique. La dynamique
+électriques (IRVE) sur les axes routiers seront
+est lancée, avec une forte croissance dans le
+essentielles d’une part pour assurer l’électri-
+déploiement des IRVE sur les derniers mois.
+fication des trajets longue distance, d’autre
+Mais certaines zones restent moins pourvues
+part pour les poids lourds parcourant plusieurs
+dizaines de milliers de kilomètres chaque année.
+que d’autres, en particulier les routes natio-
+nales et les autoroutes non concédées. Sur
+En mai 2023, le cap des 100 000 points de
+service étaient équipées en recharge rapide
+charge ouverts au public a été franchi, d’après
+le baromètre de l’Avere-France et le ministère
+au 31 décembre 2022. Cela correspondait à une
+station de recharge tous les 60km1.
+les autoroutes concédées, 80 % des aires de
+Figure 1 : Cartographie des points de charge sur les grands axes routiers
+1 ASFA, « Équipement en bornes de recharge rapide des aires de service du réseau autoroutier concédé au 31 décembre 2022 »
+Sources : Données d’Eco-Movement, avril 2023, analyse d’AFRY
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 5
+Pour cette première vague de déploiement sur
+les autoroutes, prévue pour s’achever en 2023,
+des moyens importants ont été mobilisés par
+les SCA (Sociétés concessionnaires d’autoroutes)
+■ Étape n° 2 : Application de 3 scénarios de taux
+d’électrification. Les projections de véhicules
+électriques de RTE3,4 et de BNEF5 ont été
+utilisées.
+et les acteurs de la mobilité ; par ailleurs, des
+mécanismes de soutien à l’installation ont été
+Cela permet d’obtenir des scénarios :
+mis en place (subvention des investissements,
+majoration dérogatoire du taux de réfaction
+à 75 %). La vague suivante, qui nécessitera des
+raccordements et des puissances installées
+supplémentaires (avec notamment l’arrivée de
+– Haut, Central et Bas pour les véhicules légers
+respectivement à 31 %, 27 % et 16 % pour le
+taux d’électrification du parc à horizon 2035 ;
+– Pour les poids lourds, le scénario Haut repré-
+sente une vision constructeur avec un taux
+la mobilité lourde), devra faire des choix straté-
+d’électrification de près de 40 % et des taux
+giques concernant la gestion de l’affluence et du
+à 18 % et 3 % pour les deux autres scénarios.
+dimensionnement du réseau.
+La modélisation des besoins à horizon 2030-
+■ Étape n° 3 : Considération des consommations
+moyennes des véhicules, des autonomies et
+2035 doit permettre de mieux cibler les efforts
+des trajets types pour en déduire le besoin
+de déploiement des IRVE au niveau des axes
+énergétique pour la recharge publique sur les
+routiers. Ces voies de circulation se caractérisent
+par un trafic qui peut être variable selon les jours
+de l’année et les différents scénarios considé-
+rés apportent de la sensibilité aux résultats. À
+grands axes.
+■ Étape n° 4 : Traduction du besoin énergétique
+en nombre de points de charge au travers
+noter que la modélisation a pour vocation de
+d’une augmentation linéaire du taux d’utili-
+dresser un bilan des besoins par axe, en prenant
+sation de 6 % (2022) à 12,5 % (2035) et d’une
+en compte l’affluence, mais des analyses plus
+répartition des technologies de charge selon
+détaillées, aire par aire, permettront de mieux
+le cas d’usage (recharge lente des poids lourds
+identifier ces besoins et répondre à des problé-
+lors des pauses longues, recharge ultra-rapide,
+matiques précises telles que la gestion du fon-
+voire MCS, pour les pauses courtes).
+cier, la périodicité, le foisonnement entre poids
+lourds (PL) et véhicules légers (VL)2, etc.
+Les résultats de la modélisation (Figure 2)
+présentent un besoin total de plus de 40 000
+Les différentes étapes de la modélisation sont :
+points de charge à horizon 2035 pour alimenter
+■ Étape  n° 1 :  Considération des données de
+trafic des véhicules légers et des poids lourds
+de chacun des grands axes routiers français
+(routes nationales, autoroutes concédées et
+autoroutes non concédées) avec 3 scénarios
+pour représenter différentes tendances de
+trafic.
+un trafic de véhicules électrifiés en moyenne à
+27 % (scénario Central d’électrification), dans le
+cas d’un taux d’utilisation de 12,5 %.
+2 PL : poids lourd, VL : véhicule léger
+3 Enjeux du développement de l’électromobilité pour le système électrique, 2019
+4 Bilan prévisionnel 2023 : point d’étape
+5 Projection de la flotte de véhicules légers électriques
+6 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Le sujet du taux d’utilisation est un indicateur
+important dans la planification des projets de
+déploiement d’IRVE, avec des impacts directs
+sur la rentabilité. Cela représente la valeur
+moyenne sur une année du nombre d’heures
+actuelle, de l’ordre de 2 %6, sa valeur devrait aug-
+menter au fur et à mesure que la transition des
+usagers vers le véhicule électrique se réalisera.
+La Commission européenne7 cible pour 2030
+un taux d’utilisation de 12,5 % pour les chargeurs
+d’utilisation d’un point par jour, c’est-à-dire le
+les plus rapides. C’est ainsi que cette valeur a
+nombre d’heures où le point de charge délivre
+été retenue dans le cadre de la modélisation
+de l’énergie à un ou plusieurs véhicules. Alors
+du besoin en points de charge sur les grands
+que le taux d’utilisation moyen des points de
+axes routiers.
+charge à l’échelle du territoire est, à l’heure
+Figure 2 : Besoin en nombre de points de charge
+pour la recharge publique sur les grands axes routiers8
+Total
+Véhicules légers
+Poids lourds
+Haut # 67 700 (10,3 TWh)
+# 37 160 (5,5 TWh)
+dont # 27 030 sur autoroutes
+dont # 28 720 ultra-rapides au total
+# 30 540 (4,8 TWh)
+dont # 24 490 sur autoroutes
+dont # 32 560 ultra-rapides au total
+Central # 43 300 (6,5 TWh)
+# 30 230 (4,5 TWh)
+dont # 22 030 sur autoroutes
+dont # 23 400 ultra-rapides au total
+# 13 070 (2 TWh)
+dont # 10 470 sur autoroutes
+dont # 1 400 ultra-rapides au total
+Bas # 18 900 (2,8 TWh)
+# 16 640 (2,5 TWh)
+dont # 12 070 sur autoroutes
+dont # 12 820 ultra-rapides au total
+# 2 260 (0,3 TWh)
+dont # 1 810 sur autoroutes
+dont # 240 ultra-rapides au total
+L’électrification du parc de véhicules va
+demander une croissance du réseau d’in-
+frastructure de recharge, même dans le
+cadre du scénario Bas avec l’objectif de 20 000
+points qui est bien supérieur aux 4 000 points9
+environ actuellement présents sur les grands
+axes routiers. La Figure 3 illustre par exemple
+le besoin en nombre de points pour quelques
+grands axes, tout en comparant avec la situation
+actuelle.
+6 Analyse d’AFRY en considérant les hypothèses du modèle
+7 Charging for phase-out, T & E, 2022
+8 Les nombres de points de charge totaux modélisés sont ici arrondis à la centaine la plus proche et à la dizaine la plus proche
+pour le détail véhicules légers/poids lourds ; certains arrondis (PDC véhicules légers) ont été légèrement adaptés pour permettre
+la concordance des sommes
+9 Données d’Eco-Movement, avril 2023
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 7
+Figure 3 : Besoin en nombre de points sur quelques axes routiers pour les véhicules légers
+et pour les poids lourds dans les différents scénarios par rapport à l’actuel
+Véhicules légers
+1,536
+1,252
+1,680
+1,369
+686 750
+1,090 1,006
+888 820
+1,277
+1,041
+487 449
+570
+255
+119 128 188 233
+703
+573
+314
+125
+341
+187
+13
+419 377
+169
+307
+41
+911
+743
+407
+10
+A10
+A7
+A9
+A1
+A4
+A20
+N10
+N7
+N12
+Poids lourds
+1,766
+1,875
+1,139
+755
+802
+803
+130 48
+279
+344
+59
+1,211
+518
+656 591
+280 253
+89 48 44 32
+A10 A7
+A9
+A1 A4
+A20
+N10
+432
+185
+N7
+41
+238
+N12
+556
+Actuel
+Bas
+Central
+Haut
+Obstacles et mesures-clés
+Les entretiens et ateliers avec les parties pre-
+– obstacles à la planification optimale des
+nantes de l’écosystème de la mobilité électrique
+IRVE ;
+ont permis d’identifier des obstacles à toutes les
+– obstacles à l’installation des IRVE ;
+étapes du déploiement des IRVE sur le territoire
+– obstacles à l’opération des IRVE ;
+et notamment sur les grands axes :
+– obstacles à l’achat des véhicules électriques
+liés à la recharge.
+OBSTACLES À LA PLANIFICATION OPTIMALE DES IRVE
+1.1 Raccordement électrique
+1.2 Visibilité insuffisante pour la bonne élaboration des SDIRVE
+Figure 4 : Obstacles au déploiement des IRVE
+1.3 Incertitudes sur la part des alternatives technologiques à la mobilité lourde électrique
+OBSTACLES À L’INSTALLATION DES IRVE
+2.1 Faible disponibilité du foncier (grands axes routiers)
+2.2 Faible disponibilité du foncier (zone urbaine dense)
+2.3 Investissements importants nécessaires (recharge DC)
+2.4 Délais de fourniture des bornes et autres défis relatifs à la chaîne d’approvisionnement
+8 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+OBSTACLES À L’OPÉRATION DES IRVE
+3.1 Rentabilité insuffisante
+3.2 Durée légale des contrats de sous-concessions autoroutières
+3.3 Défis de la maintenance et du taux de disponibilité
+3.4 Volatilité des prix de l’énergie
+OBSTACLES À L’OPÉRATION DES IRVE
+4.1 Complexité du parcours de recharge
+4.2 Opacité de la tarification et prix de la recharge
+4.3 Anxiété à la recharge
+4.4 Indisponibilité de recharge de proximité abordable
+Pour répondre à ces obstacles, l’étude a iden-
+entre les deux tomes de l’étude ; sont reprises
+tifié des « mesures clés », qui s’appuient elles
+ici uniquement les mesures relatives aux grands
+aussi sur les échanges avec l’écosystème lors
+des ateliers, ainsi que sur les résultats de la
+axes routiers, ainsi que les mesures transverses
+identifiées.
+modélisation. Ces mesures ont été réparties
+Figure 5 : Mesures-clés relatives aux grands axes routiers
+GRANDS AXES ROUTIERS
+Anticipation des besoins en raccordement
+OBSTACLES TRAITÉS
+1.1 | 1.3 | 2.1 | 2.3
+Parties prenantes État, collectivités, SCA, GRDE
+Levier(s) Décision politique et législative, modification(s)
+réglementaire(s)
+Allongement des durées de contrats de sous-concession 3.2
+Parties prenantes État
+Levier(s) Modification(s) réglementaire(s)
+Réduction des pointes de trafic en amont
+4.1 | 4.3
+Parties prenantes Constructeurs, e-MSP, État, SCA
+Levier(s) Modification(s) réglementaire(s), communication
+et accompagnement du changement
+Absorption des pointes de trafic via des solutions ad hoc 4.1 | 4.3
+Parties prenantes SCA, collectivités
+Levier(s) Expérimentation à conduire,
+soutien aux investissements à réaliser
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 9
+Innovations de type « route électrique »
+2.1
+Parties prenantes SCA, collectivités, constructeurs
+Levier(s) Retour d’expérience sur les précédents AAP
+et décision politique
+Figure 6 : Mesures-clés transverses
+TRANSVERSES
+OBSTACLES TRAITÉS
+Création d’une entité publique en charge de la planification IRVE 1.1 | 1.2 | 1.3
+Parties prenantes État
+Levier(s) Décision politique, modification(s) réglementaire(s)
+Offres de raccordement intelligentes (ORI)
+1.1 | 2.3
+Parties prenantes État, collectivités, SCA, GRDE
+Levier(s) Communication et accompagnement du changement,
+modification(s) réglementaire(s)
+Complétude et fiabilité des données en open data 1.2 | 4.1 | 4.3
+Parties prenantes État, collectivités, opérateurs
+Levier(s) Ressources administratives
+Standardisation progressive du 800 V 4.1
+Parties prenantes Constructeurs
+Levier(s) Modification(s) réglementaire(s)
+ou de cahier des charges
+Soutien à l’acquisition des poids lourds
+Amorçage
+PL électriques
+Parties prenantes Constructeurs, utilisateurs
+Levier(s) Décision politique
+À l’issue de la modélisation et des différentes
+2035 par l’autorité publique est la meilleure
+itérations avec l’écosystème, la présente étude
+option pour optimiser les coûts de raccorde-
+dresse quatre conclusions essentielles :
+ment des aires de service et de repos sur grands
+1) Un effort conséquent de déploiement reste
+nécessaire, avec presque 40 000 points à instal-
+ler, en totalité pour les VL et les PL, dans le cadre
+du scénario Central, pour répondre aux besoins
+de recharge à horizon 2035 sur les grands axes
+routiers.
+axes.
+3) Les estimations de besoin en recharge aire
+par aire devront prendre en compte les enjeux
+spécifiques de la mobilité lourde (foncier, foi-
+sonnement avec les VL, périodicité, MCS).
+2) L’anticipation stratégique des besoins pour
+4) Les besoins en recharge électrique lors des
+pointes de trafic devront être traités par une
+10 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+réduction en amont du flux (itinéraires alterna-
+tifs, communication sur le trafic) et en aval par
+le déploiement de solutions de recharge ad hoc.
+2. Modélisation des besoins en IRVE pour 2030-2035
+2.1 Méthodologie et hypothèses générales
+Afin d’évaluer les besoins de recharge en France
+En effet, les comportements de recharge et les
+à horizon 2035, AFRY a distingué deux grandes
+typologies de déplacements (Figure 7) et pour
+chacune une modélisation adaptée à leurs spé-
+cificités et aux données disponibles :
+1) La grande itinérance (ou sur les grands axes
+routiers).
+2) Les déplacements du quotidien à l’échelle du
+département et de la commune (hors grands
+axes routiers).
+besoins en énergie associés sont différents. Un
+raisonnement sur le trafic est plus pertinent sur
+les grands axes routiers ; les données sur le parc
+de véhicules reflètent davantage les besoins en
+recharge du quotidien.
+Figure 7 : Évaluation du besoin en recharge selon la typologie du trajet
+Échelle nationale
+(grands axes routiers)
+Échelle départementale
+et locale
+Grande itinérance
+Chargement à destination
+(petite itinérance)
+Stationnement
+sur voirie
+La Figure 8 explicite la méthodologie pour la
+modélisation des besoins hors grands axes
+routiers en termes d’énergie et de points de
+charge publics. Le besoin en recharge publique
+est estimé à l’échelle de chaque commune avec
+une méthodologie qui repose sur un groupe
+d’hypothèses structurantes. Différents scénarios
+apportent de la sensibilité aux résultats.
+■ Étape n° 1 : Considération du parc de véhicules
+par commune et application de 3 scénarios
+d’électrification pour les véhicules légers et
+les poids lourds. Les projections de véhicules
+électriques de RTE10,11 et de BNEF12 ont été
+utilisées :
+– Haut, Central et Bas pour les véhicules légers
+respectivement à 31 %, 27 % et 16 % pour le
+taux d’électrification du parc à horizon 2035 ;
+– Pour les poids lourds, le scénario Haut repré-
+sente une vision constructeur avec un taux
+d’électrification de près de 40 % et des taux
+10 Enjeux du développement de l’électromobilité pour le système électrique, 2019
+11 Bilan prévisionnel 2023 : point d’étape
+12 Projection de la flotte de véhicules légers électriques
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 11
+à 18 % et 3 % pour les deux autres scénarios.
+moyennes des véhicules pour en déduire le
+besoin énergétique pour la recharge publique.
+■ Étape n° 2 : Groupement de comportement
+en fonction des différentes catégories de véhi-
+cules (distance parcourue annuellement, part
+■ Étape n° 4 : Traduction du besoin énergétique
+en nombre de points de charge au travers de
+d’utilisation des routes locales, disponibilité
+3 scénarios sur le taux d’utilisation et d’une
+de la recharge à domicile, part de la recharge
+répartition des technologies de charge selon
+publique, etc.).
+le cas d’usage (recharge lente à proximité du
+domicile, recharge rapide à destination, etc.).
+■ Étape n° 3 : Considération des consommations
+Figure 8 : Méthodologie utilisée pour la modélisation
+des besoins de recharge hors grands axes routiers
+Projection du stock
+annuel de véhicules
+électriques
+Part électrique du parc
+automobile par commune
+• Projection RTE et BNEF
+du stock de véhicules
+Création de groupes
+de comportement
+Caractéristiques de la recharge
+selon le conducteur et la localisation
+(zone urbaine, périurbaine, rurale)
+Quantité d’énergie nécessaire
+• Partage des routes
+(autoroutes, routes
+nationales, etc.)
+• Lieu et type de recharge
+• Évaluation des
+possibilités de recharge
+à domicile
+• Comportement
+de recharge pour les
+déplacements locaux
+Énergie (kWh) requise
+• Consommation
+moyenne par type
+de véhicule (kWh/km)
+• Distance moyenne
+parcourue (km)
+Étapes du modèle
+Hypothèses
+et données d’entrée
+Objectifs
+Énergie délivrée (kWh)
+par type de charge
+et selon la localisation
+Quantité d’énergie délivrée
+• Puissance de recharge
+moyenne admissible (kW)
+par type de recharge
+et selon la localisation
+• Taux d’utilisation moyen
+(h)
+Nombre de points
+de recharge
+Pour la seconde modélisation, schématisée
+Figure 9, il s’agit d’évaluer les besoins de
+recharge lors de l’itinérance sur l’ensemble du
+réseau national routier, et plus précisément
+pour chaque axe routier. L’évaluation du besoin
+■ Étape n° 2 : Application des 3 scénarios du
+taux d’électrification.
+■  Étape n° 3 : Considération des consommations
+moyennes des véhicules, des autonomies et
+en recharge publique repose sur un groupe
+d’hypothèses structurantes. Différents scénarios
+apportent de la sensibilité aux résultats.
+des trajets types pour en déduire le besoin
+énergétique pour la recharge publique sur les
+grands axes.
+■ Étape n° 1 : Le point de départ repose sur les
+données de trafic mises à disposition par
+■ Étape n° 4 : Traduction du besoin énergétique
+en nombre de points de charge au travers
+le gouvernement. Près de 315 axes routiers
+d’une augmentation linéaire du taux d’utili-
+(autoroutes et routes nationales) sont recensés
+sation de 6 % (2022) à 12,5 % (2035) et d’une
+dans le jeu de données et donnent une vue
+répartition des technologies de charge selon
+sur 98 % du réseau national. Des données sur
+le cas d’usage (recharge lente des poids lourds
+la fréquentation des poids lourds sur ces axes
+lors des pauses longues, recharge ultra-rapide,
+sont aussi fournies au travers d’un ratio. Trois
+voire MCS, pour les pauses courtes).
+scénarios sont considérés pour représenter
+différentes tendances de trafic.
+12 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Figure 9 : Méthodologie utilisée dans le cadre de la modélisation
+des besoins de recharge sur les grands axes routiers
+Analyse du traﬁc
+par axe routier
+• Données sur le traﬁc
+• Portion moyenne
+empruntée par
+un conducteur
+(utilisation d’une
+moyenne pondérée
+du traﬁc par portion)
+• Part de poids lourds
+Étapes du modèle
+Hypothèses
+et données d’entrée
+Objectifs
+Traitement des données
+de traﬁc
+Évolution du parc
+automobile électrique
+Isolation des besoins énergétiques
+liés aux véhicules électriques
+• Proportion électriﬁée
+dans le traﬁc
+Énergie (kWh) requise
+Quantité d’énergie nécessaire
+• Part de recharge
+sur autoroute lors
+d’une itinérance
+• Consommation
+moyenne par type
+de véhicule (kWh/km)
+• Longueur des axes
+routiers
+Nombre de points
+de recharge
+• Puissance de recharge
+moyenne (kW) par type
+• Taux d’utilisation moyen
+(h)
+• Longueur des axes routiers
+Les résultats et les hypothèses spécifiques à ces
+les parties suivantes. Le détail des données
+deux modèles sont davantage explicités dans
+utilisées est présenté en partie 5.1.
+2.1.1. Projection du parc de véhicules électriques
+Basés sur les projections de RTE et de BNEF,
+trois scénarios sont considérés pour les véhi-
+cules légers et les poids lourds. La Figure 11
+représente la flotte de véhicules légers élec-
+l’hypothèse de RTE pour le ratio BEV/PHEV15
+avec une répartition 78 % / 22 % dans le cas des
+projections Haut et Central et une répartition
+60 % / 40 % pour le scénario Bas.
+triques avec la vision de BNEF pour le scénario
+Haut et les projections « Haut » et « Central »
+de RTE13 comme sources respectives pour les
+scénarios Central et Bas représentés ci-dessous.
+Le degré de confiance dans les projections de
+BNEF, avec près de 17,9 millions de véhicules
+légers électrifiés (véhicules BEV & PHEV), a
+récemment été renforcé par la vision actualisée
+de RTE14.
+Afin de calculer le taux d’électrification du parc,
+représenté en Figure 13, AFRY a considéré une
+légère variation du parc de véhicules, avec un
+gain de 3 % sur le parc en 2029 par rapport à
+aujourd’hui, suivi d’une baisse avec la même
+tendance, mais négative (-3 %), jusqu’à 2035. Le
+raisonnement est de prolonger la croissance du
+parc total observée sur les dix dernières années,
+sur un rythme ralenti, et d’instaurer ensuite une
+Le scénario Central considère une flotte de
+15,6 millions de véhicules légers électrifiés en
+2035 et le scénario Bas une flotte de 7 millions
+de véhicules électrifiés. AFRY a ensuite appliqué
+légère décroissance en lien avec une réduction
+de l’usage de la voiture et un report modal
+progressif. La Figure 10 représente à date la
+répartition du parc automobile tous carburants
+13 Enjeux du développement de l’électromobilité pour le système électrique, 2019
+14 RTE - Bilan prévisionnel 2023 : point d’étape
+15 Ratio de véhicules hybrides à batterie (PHEV) et de véhicules à batterie (BEV)
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 13
+confondus. À noter que dans le cas des taxis et
+les obligations de décarbonation grandissantes
+VTC, l’hypothèse d’un parc électrifié à hauteur
+du secteur et le taux de remplacement de ces
+de 50 % a été considérée pour être en ligne avec
+véhicules (supérieur à la moyenne).
+Figure 10 : Parc de véhicules, tous carburants confondus,
+en millions de véhicules
+VL
+38,3
+Taxi
+0,1
+VUL
+6,5
+Poids lourd
+0,6
+Figure 11 : Parc de véhicules électriques (BEV)
+en millions de véhicules
+14,0
+12,4
+12,2
+10,9
+10,0
+9,4
+8,1
+8,2
+6,8
+6,7
+5,6
+5,5
+5,5
+6,2
+7,0
+1,0
+1,1
+1,2
+1,6
+1,5
+2,2
+1,9
+2,9
+2,4
+4,6
+3,7
+3,0
+3,7
+3,4
+3,8
+4,5
+4,3
+4,9
+2023 2024 2025
+2026
+2027 2028 2029 2030 2031 2032 2033 2034 2035
+Bas
+Central
+Haut
+Concernant les poids lourds, le scénario « Bas »
+de RTE52 a été utilisé pour le scénario Bas de la
+modélisation. La question de la décarbonation
+Cette vision « constructeurs » est utilisée pour
+le scénario Haut et correspond à une part de
+près de 40 % de poids lourds électriques en
+des poids lourds prend de plus en plus de place
+au sein des discussions à l’échelle de l’Europe
+2035. Mais comme le mentionne RTE dans son
+rapport53, des doutes subsistent :
+et les objectifs de réduction des émissions de
+CO2 ont été revus à la hausse, avec une réduc-
+tion de 45 % ciblée d’ici à 2030 par rapport aux
+– vis-à-vis de la capacité de la filière à lever les
+verrous technologiques et économiques, et ;
+– par rapport à la capacité de pénétration du
+niveaux de 2019, puis de 65 % d’ici à 2035.
+tout électrique face aux alternatives (hydro-
+Par ailleurs, les constructeurs européens de
+Une vision « modérée » de 110 000 camions
+poids lourds affichent des objectifs de ventes
+de poids lourds électriques de 50 % dès 2030.
+électriques sera donc utilisée comme référence
+pour le scénario Central.
+gène, bio-carburant, etc.).
+14 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Figure 12 : Parc de poids lourds électriques (BEV)
+en millier de véhicules
+240,3
+207,4
+174,2
+140,6
+106,7
+110,0
+0,1
+0,17,4
+15,4
+0,1
+25,1
+37,0
+1,2 1,7
+2,5 4,4
+2,67,5 4,0
+12,8
+51,3
+72,4
+64,2
+37,5
+22,0
+6,0
+8,9 13,3
+20,0
+2023
+2024
+2025
+2026
+2027 2028
+2029
+2030
+2031 2032 2033 2034
+2035
+Bas
+Central
+Haut
+Figure 13 : Taux d’électrification des véhicules légers (à gauche)
+et des poids lourds (à droite)
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+Haut
+Central
+Bas
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+2023 2025
+2028 2030
+2035
+2023 2025
+2028 2030
+Haut
+Central
+Bas
+2035
+Au niveau de la modélisation, ces différents
+progressif des véhicules thermiques de chaque
+scénarios du taux d’électrification sont appli-
+commune, en suivant une unique tendance
+qués au parc de véhicules des différentes com-
+nationale.
+munes afin d’illustrer le remplacement
+2.1.2. Évolution technique des véhicules
+Dans l’évaluation de la demande énergétique
+des véhicules, l’efficience intervient et peut
+évoluer au fur et à mesure que des progrès
+technologiques sont réalisés par les construc-
+teurs automobiles. La Figure 14 représente les
+moyennes pondérées de consommation de dif-
+férents véhicules. Les valeurs actuelles reposent
+sur des statistiques du gouvernement16 et l’évo-
+lution à la baisse observée a pour objectif de
+refléter les progrès technologiques.
+16 Hypothèses sur le TCO lors des feuilles de route sur la décarbonation du gouvernement
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 15
+Figure 14 : Consommation moyenne de différentes catégories
+de véhicules en kWh/km
+Année
+VL
+quotidien
+VL
+itiné-
+rance
+VUL
+Porteurs
+< 12 t
+Porteurs
+12-19 t
+Porteurs
+> 19 t
+VASP
+lourd17
+Tracteur
+routier
+2023 0,18 0,23 0,20 0,6 0,9 1,15 0,44 1,3
+2035 0,17 0,22 0,19 0,58 0,86 1,10 0,42 1,25
+2.2. Zoom sur les besoins en recharge sur les grands axes routiers
+2.2.1. Analyse du comportement de recharge lors de l’itinérance
+2.2.1.1. Cas des véhicules légers
+Dans les circonstances d’une itinérance, où le
+se recharger en public que pour le minimum
+conducteur parcoure plusieurs centaines de
+nécessaire afin d’atteindre sa destination. Au
+kilomètres en empruntant des grands axes rou-
+tiers tels que l’autoroute ou une route nationale,
+travers des données actuelles sur l’autonomie
+des véhicules électriques et une estimation de
+le comportement de recharge est étroitement
+leur évolution, il est alors possible d’en déduire
+lié à l’autonomie du véhicule.
+Les données issues de l’enquête de mobilité de
+201918 indiquent que dans le cas des trajets de
+plus de 80 km, la distance moyenne parcourue
+le besoin en recharge moyen d’un véhicule sur
+les grands axes routiers. La Figure 15 représente
+l’évolution en besoin de recharge publique
+lors d’une itinérance au cours du temps. Pour
+considérer l’anticipation par le conducteur du
+est environ de 580 km. En considérant que le
+besoin en recharge avant que la batterie ne soit
+conducteur part initialement avec un véhicule
+totalement vide, AFRY a considéré une réduc-
+chargé à 100 % et qu’il dispose d’une possibilité
+tion de l’autonomie réelle des véhicules de 20 %.
+de recharge à destination, l’automobiliste ne va
+Figure 15 : Évolution des besoins en recharge publique
+au cours du temps, en %
+Année
+2023
+2030 2035
+Évolution de l’autonomie réelle19 264 km 284 km 296 km
+Besoin en recharge pour un trajet
+moyen20
+54 % 51 % 49 %
+17 Cette catégorie de véhicule concerne tous les véhicules, dont le poids total en charge ne dépasse pas 3,5 tonnes, et ayant subi
+un aménagement par un professionnel ou par un particulier. Cet aménagement est destiné à les rendre aptes au transport
+de personnes ou/et de marchandises, dans des conditions spécifiques. Cela peut par exemple regrouper les ambulances,
+les camping-cars, les caravanes, les remorques, les dépanneuses, les bennes à ordures, les tracteurs, etc.
+18 Données et études statistiques, ministère de la Transition écologique et de la Cohésion des territoires, Enquête mobilité
+des personnes de 2019
+19 L’autonomie réelle présentée ici inclut l’anticipation par le conducteur du besoin en recharge du véhicule
+20 Le trajet moyen considéré pour estimer le besoin en recharge est de 580 km
+16 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+2.2.1.2. Cas des tracteurs routiers
+La part de poids lourds dans le trafic moyen
+considérant que le poids lourd est limité dans
+journalier figurant dans les données du gou-
+ses manœuvres dans une aire de service ou de
+vernement concerne des véhicules d’un poids
+total supérieur ou égal à 3,5 tonnes21. Du point
+de vue des caractéristiques techniques et des
+repos et que le véhicule va monopoliser une
+place avec un point de recharge électrique sur
+la durée de la pause, la valeur de 46 % peut
+comportements de recharge, AFRY n’a consi-
+être associée au besoin de recharge afin de
+déré que la catégorie des tracteurs routiers
+dimensionner le nombre de points de charge.
+pour les poids lourds réalisant de l’itinérance.
+Il s’agit donc d’une vue à tendance maxima-
+Ces véhicules remorquent des charges lourdes
+liste, et ce d’autant plus que le Comité national
+sur les routes tout au long de l’année et sont
+routier mentionne que l’approvisionnement en
+caractérisés par un trafic relativement constant.
+En lien avec la stratégie des transporteurs et
+logisticiens, la planification et l’optimisation du
+carburant via les cuves privées, c’est-à-dire en
+entrepôt, est de 65 %22 environ en 2022. Cela
+signifie que le plein de carburant réalisé dans
+trajet pour ces véhicules est primordiale afin de
+les stations essences ne correspond qu’à 35 %
+minimiser les coûts. La clé pour assurer l’essor
+du besoin d’un tracteur routier français sur une
+des tracteurs routiers électriques résidera donc
+année.
+dans la possibilité de recharger ces véhicules sur
+les temps de pauses réglementaires.
+Progressivement, l’obtention d’une meilleure
+vision sur la gestion du foncier sur les aires de
+La réglementation actuelle fixe au minimum
+service et de repos, sur les évolutions technolo-
+une pause de 45 minutes après 4 h 30 de
+giques des batteries des poids lourds et sur les
+conduite et une pause nocturne de 11 heures,
+stratégies d’investissement des transporteurs
+sauf 3 fois dans la semaine où elle peut être de
+vis-à-vis de la recharge rapide en entrepôt
+9 heures. Dans ces circonstances, le temps de
+affineront l’évaluation du besoin en recharge
+pause moyen sur une journée pour un conduc-
+publique des poids lourds.
+teur de poids lourd peut être évalué à 46 %. En
+2.2.2. Estimation des besoins énergétiques pour la recharge publique
+Pour les grands axes routiers, l’estimation du
+■ La consommation des véhicules.
+besoin énergétique se base sur :
+■ Le trafic moyen journalier annuel (TMJA) de
+l’axe routier, avec la proportion associée de
+poids lourds. Les données statistiques du
+gouvernement23 font état de 315 axes routiers
+recensés, dont 82 axes routiers sans données
+sur le TMJA24 et plus de 100 axes sans données
+sur la proportion de poids lourds25.
+■ Le taux d’électrification.
+■ Le comportement de recharge.
+Les trois scénarios Haut, Central et Bas ici
+adoptés reprennent les trois projections du taux
+d’électrification. Des variations du TMJA pour
+21 Le trafic des bus et des autocars de plus de 3,5 tonnes sont donc inclus dans le ratio des poids lourds du TMJA
+22 Enquête longue distance, Comité National Routier, 2022
+23 Data.gouv.fr, Trafic Moyen Journalier Annuel sur le réseau routier national
+24 AFRY a utilisé une valeur médiane propre aux routes nationales et aux autoroutes dans le cas des axes routiers sans données,
+à savoir 12 390 veh/jour et 26 390 veh/jour respectivement
+25 Pour intégrer la part des poids lourds dans le trafic journalier des axes sans données, AFRY a utilisé une valeur moyenne de 18 %
+pour les autoroutes et 3 % pour les routes nationales
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 17
+chaque axe routier sont ensuite appliquées afin
+Cette décroissance de 0,45 % est observée
+de considérer différents besoins de recharge
+en considérant la variation entre les valeurs
+selon l’affluence :
+de 2009 et 2019 sur la circulation annuelle
+moyenne des véhicules.
+■ Scénario Haut : Une augmentation de 7 % a
+été appliquée au trafic moyen journalier de
+La considération des caractéristiques de cha-
+chaque axe routier. Cette valeur permet de
+cune des routes (nombre de voies, débit horaire,
+représenter une affluence plus importante,
+etc.) ainsi que l’affluence à l’échelle des aires
+notamment lors des trajets estivaux, et sem-
+permettraient une évaluation plus précise du
+blerait être un ratio convenable pour retrans-
+crire un dimensionnement à la 30e heure.
+besoin en recharge. Mais la méthodologie uti-
+lisée ici donne une visualisation satisfaisante
+du besoin en recharge sur les grands axes. Les
+■ Scénario Central : valeurs moyennes pondé-
+résultats du besoin en énergie sur les grands
+rées du TMJA de chaque axe routier.
+■ Scénario Bas : Prise en compte d’un potentiel
+effet de report modal progressif, avec une
+axes routiers au travers de cette modélisation
+sont présentés en Figure 16. Des études plus
+avancées, en amont d’une nouvelle vague de
+déploiement d’IRVE, permettront d’affiner le
+baisse de 0,45 % annuelle de la circulation.
+résultat et de mieux cibler le besoin aire par aire.
+Figure 16 : Besoin énergétique pour la recharge publique
+sur les grands axes routiers
+Haut
+Central
+Bas
+Total
+10,3 TWh
+6,5 TWh
+2,8 TWh
+Véhicules légers
+Poids lourds
+5,5 TWh
+4,5 TWh
+2,5 TWh
+4,8 TWh
+2 TWh
+0,3 TWh
+2.2.3. Évaluation du nombre de points de charge
+À la manière du modèle pour les trajets locaux,
+prendre en considération la diversité du parc
+la dernière étape est la conversion du besoin
+automobile et les différentes puissances de
+énergétique en nombre de points de charge.
+La Figure 17 présente la puissance moyenne
+acceptée sur les grands axes routiers, avec pour
+référence l’analyse de l’ICCT26 et des estimations
+du besoin en termes de vitesse de recharge sur
+charge acceptées selon les catégories de véhi-
+cules. Ainsi, la puissance moyenne acceptée
+en 2035 est de l’ordre de 141 kW. Pour les poids
+lourds, le besoin énergétique est satisfait à 50 %
+par la catégorie de chargeur DC, répondant au
+les pauses réglementaires pour les poids lourds.
+besoin de recharge lors de la pause longue,
+Pour les véhicules légers, le besoin énergétique
+futur, MCS) et répondant au besoin des pauses
+et 50 % par la recharge ultra-rapide (dans le
+est satisfait à 50 % par les chargeurs rapides
+courtes.
+et 85 % par les chargeurs ultra-rapides afin de
+26 Infrastructure de recharge au service de la transition vers la mobilité électrique en France, ICCT
+18 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Figure 17 : Puissance moyenne acceptée pour différents chargeurs
+par les véhicules à différentes dates sur les grands axes routiers
+Année
+2023
+2030
+2035
+VL – Chargeur
+VL – Chargeur
+PL – Chargeur
+DC rapide
+DC ultra-rapide
+35
+69
+90
+60
+115
+150
+DC
+50
+69
+80
+PL – Chargeur
+ultra-rapide
+(MCS)
+90
+317
+670
+Concernant le taux d’utilisation des points de
+charge sur les grands axes routiers, AFRY a
+considéré une évolution linéaire de 1,5 heure
+routes nationales et la Figure 19 donne une indi-
+cation sur le besoin pour quelques axes routiers.
+(6 %) en 2022 à 3 heures (12,5 %) d’ici à 2035.
+Les chargeurs des grands axes routiers vont
+Il est à noter que même avec le scénario Bas,
+le nombre de points présents actuellement ne
+plus facilement atteindre de telles valeurs de
+suffirait pas pour répondre au besoin de 2035.
+taux d’utilisation, comme l’indiquent certains
+rapports27.
+De nouvelles vagues de déploiement sur les
+grands axes routiers seront donc nécessaires,
+AFRY évalue le besoin à un peu plus de 43 000
+points de charge en 2035 pour le scénario
+Central. La Figure 18  présente en détail les
+résultats pour l’ensemble des autoroutes et des
+et ce, d’autant plus sur les réseaux non concé-
+dés et un certain nombre de routes nationales
+déficitaires en points de charge actuellement.
+L’annexe 5.1 donne une vue plus détaillée pour
+plusieurs autres grands axes routiers.
+Figure 18 : Résultats de la modélisation pour les besoins
+en nombre de points de charge sur les grands axes routiers28
+Total
+Véhicules légers
+Poids lourds
+Haut # 67 700
+Central # 43 300
+Bas # 18 900
+# 37 160
+dont # 27 030 sur autoroutes
+dont # 28 720 ultra-rapides
+# 30 540
+dont # 24 490 sur autoroutes
+dont # 3 260 ultra-rapides
+# 30 230
+dont # 22 030 sur autoroutes
+dont # 23 400 ultra-rapides
+# 13 070
+dont # 10 470 sur autoroutes
+dont # 1 400 ultra-rapides
+# 16 640
+dont # 12 070 sur autoroutes
+dont # 12 820 ultra-rapides
+# 2 260
+dont 1 810 sur autoroutes
+dont # 240 ultra-rapides
+27 Charging for phase-out, T&E, 2022
+28 Les nombres de points de charge totaux modélisés sont ici arrondis à la centaine la plus proche et à la dizaine la plus proche
+pour le détail véhicules légers/poids lourds ; certains arrondis (PDC véhicules légers) ont été légèrement adaptés pour permettre
+la concordance des sommes.
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 19
+Figure 19 : Évolution du besoin en nombre de points sur quelques axes routiers
+pour les véhicules légers et pour les poids lourds
+Véhicules légers
+1,536
+1,252
+1,680
+1,369
+686 750
+1,090 1,006
+888 820
+1,277
+1,041
+487 449
+570
+255
+119 128 188 233
+703
+573
+314
+125
+341
+187
+13
+419 377
+169
+307
+41
+911
+743
+407
+10
+A10
+A7
+A9
+A1
+A4
+A20
+N10
+N7
+N12
+Poids lourds
+1,766
+1,875
+1,139
+755
+802
+803
+130 48
+279
+344
+59
+1,211
+518
+656 591
+280 253
+89 48 44 32
+A10 A7
+A9
+A1 A4
+A20
+N10
+432
+185
+N7
+41
+238
+N12
+556
+Actuel
+Bas
+Central
+Haut
+2.3. Synthèse des besoins en recharge publique sur le territoire français
+AFRY présente ici les résultats combinés des
+■ Le besoin en recharge lente sur voirie se réfère
+deux modélisations pour illustrer le besoin
+par exemple au besoin des automobilistes ne
+global en énergie pour la recharge publique et
+possédant pas de possibilité de recharge à
+en points de charge sur l’ensemble du territoire.
+domicile ou à de la recharge publique pour
+Ces résultats sont étroitement liés aux hypo-
+les petits trajets du quotidien.
+thèses explicitées dans les parties précédentes,
+mais la présence de plusieurs scénarios pour le
+■ Sur les grands axes, la catégorie de recharge
+taux d’électrification, pour l’évolution du trafic
+rapide inclut la recharge prolongée des poids
+sur les autoroutes et vis-à-vis du taux d’utilisa-
+lourds lors de leurs pauses réglementaires et
+tion permet d’avoir une vue consolidée sur les
+la recharge depuis des points de 150 kW pour
+besoins à horizon 2035.
+les véhicules légers.
+La Figure 20 présente la demande énergétique
+totale de recharge publique pour différents cas
+d’usage :
+■ La recharge ultra-rapide correspond aux
+technologies MCS pour les poids lourds et
+aux bornes de puissance 350 kW pour les
+véhicules légers.
+20 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Figure 20 : Évolution du besoin énergétique (TWh/an) de la recharge publique
+par typologie de recharge pour le scénario Central
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035
+Recharge ultra-rapide sur les grands axes routiers Recharge rapide sur voirie
+Recharge rapide sur les grands axes routiers
+Recharge lente sur voirie
+En finalité, AFRY évalue le besoin en points de
+d’utilisation de 12,5 % pour obtenir un meilleur
+charge à horizon 2035 entre 300 000 et 400 000
+points. Cela permet de considérer différentes
+possibilités d’évolutions du taux d’électrification
+du parc automobile tout en visant un taux
+équilibre entre le confort des usagers et la ren-
+tabilité des bornes. La Figure 22 donne la répar-
+tition en termes de typologie de points des
+résultats présentés en Figure 21.
+Figure 21 : Résultat de la modélisation
+pour les besoins en nombre de points de charge29
+Taux d’utilisation [4 % - 8 %]
+Taux d’utilisation
+[6 % - 12,5 %]
+Taux d’utilisation
+[8 % - 17 %]
+Haut
+Central
+Bas
+# 544 900 (14,7 TWh)
+Local : # 477 200
+Grands axes : # 67 700
+(dont PL : 30 540)
+# 434 200 (10,2 TWh)
+Local : # 390 900
+Grands axes : # 43 300
+(dont PL : 13 070)
+# 276 500 (5,2 TWh)
+Local : # 257 600
+Grands axes : # 18 900
+(dont PL : 2 260)
+# 385 800 (14,7 TWh)
+Local : # 318 100
+Grands axes : # 67 700
+(dont PL : 30 540)
+# 303 900 (10,2 TWh)
+Local : # 260 600
+Grands axes : # 43 300
+(dont PL : 13 070)
+# 190 600 (5,2 TWh)
+Local : # 171 700
+Grands axes : # 18 900
+(dont PL : 2 260)
+# 306 300 (14,7 TWh)
+Local : # 238 600
+Grands axes : # 67 700
+(dont PL : 30 540)
+# 238 800 (10,2 TWh)
+Local : # 195 400
+Grands axes : # 43 400
+(dont PL : 13 070)
+# 147 700 (5,2 TWh)
+Local : # 128 800
+Grands axes : # 18 900
+(dont PL : 2 260)
+29 Les nombres de points de charge modélisés sont ici arrondis à la centaine la plus proche (et à la dizaine la plus proche
+pour les PDC poids lourds)
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 21
+Les différentes catégories mentionnées dans
+la Figure 22 sont les suivantes :
+80-90 kW pour les poids lourds30 (correspon-
+dant à des chargeurs DC de 50 à 150 kW) en
+2035.
+■ « Type lent » : puissance moyenne acceptée
+de 5,4 kW et de 9,5 kW (correspondant à des
+chargeurs AC, de 7 kW à 22 kW) en 2035.
+■ « Type rapide » : puissance moyenne accep-
+tée de 90 kW pour les véhicules légers et de
+■ « Type ultra-rapide » : puissance moyenne
+acceptée de 150 kW pour les véhicules légers
+et de 670 kW pour les poids lourds (corres-
+pondant à des chargeurs CCS 350 kW et MCS)
+en 2035.
+Figure 22 : Répartition des typologies de points
+avec un taux d’utilisation de 12,5 % en 203531
+Haut
+Central
+Bas
+284 140
+(74 %)
+Lent
+231 900
+(76 %)
+Lent
+154 210
+(81 %)
+Lent
+69 690
+(18 %)
+31 970
+(8 %)
+385 800
+Rapide Ultra-rapide
+Total
+47 210
+(16 %)
+24 790
+(8 %)
+303 900
+Rapide Ultra-rapide
+Total
+23 340
+(12 %)
+13 050
+(7 %)
+190 600
+Rapide Ultra-rapide
+Total
+Le nombre et la répartition en typologie de
+points modélisés pour 2035 dans le cas du
+électrique léger à batterie. Le pays serait donc
+aligné avec les recommandations de l’AFIR, tout
+scénario Central avec un taux d’utilisation à
+en s’insérant dans une démarche de sobriété
+12,5 % permettraient à la France d’avoir une
+capacité  installée  de  1,4 kW  par  véhicule
+et de recherche de rentabilité acceptable des
+points de charge présents sur le territoire.
+30 Selon la typologie de recharge, le besoin en puissance de charge peut être réduit pour les poids lourds. C’est par exemple
+le cas pour la recharge pendant la pause longue de 9 heures environ. Considérer une puissance maximale admissible plus faible
+pour les poids lourds sur les grands axes routiers permet aussi de refléter de potentiels décalages technologiques selon le pays
+d’origine du tracteur routier
+31 Les nombres de points de charge totaux modélisés sont ici arrondis à la centaine la plus proche (et à la dizaine la plus proche
+pour le détail des puissances) ; certains arrondis ont été légèrement adaptés pour permettre la concordance des sommes
+22 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+3. Obstacles au déploiement d’une infrastructure
+de recharge publique
+Les acteurs de la mobilité ont mentionné
+■ En opération, en plus des considérations de
+des obstacles qui freinent ou empêchent un
+maintenance et les risques inhérents à la vola-
+déploiement optimal de l’infrastructure de
+tilité des marchés de l’énergie, la rentabilité
+recharge publique en France.
+des IRVE est souvent qualifiée d’insuffisante
+■ Lors de la planification de l’infrastructure de
+par l’écosystème.
+recharge publique, les incertitudes technolo-
+■ De façon générale, le déploiement de l’in-
+giques (place de l’hydrogène pour les poids
+frastructure et l’électrification du parc sont
+lourds), le manque de visibilité et le court-ter-
+intrinsèquement liés ; il est nécessaire que les
+misme sur les raccordements conduisent à
+IRVE ne soient pas un frein à l’achat des véhi-
+un déploiement suboptimal.
+cules électriques, et donc que « l’expérience
+client » des bornes soit satisfaisante.
+■ Installer les IRVE nécessite de sécuriser le
+foncier approprié (particulièrement pour la
+recharge pour poids lourds), des investisse-
+ments importants, et une chaîne logistique
+parfois grippée par la demande croissante.
+3.1. Obstacles à la planification optimale des IRVE
+3.1.1. Raccordement électrique des IRVE
+Le raccordement au réseau de distribution est
+La procédure « Enedis-PRO-RAC_14E » de 2021
+un jalon essentiel du déploiement des IRVE ;
+détaille le traitement des demandes de raccor-
+mais la multiplication des demandes de rac-
+dement des installations de consommation
+cordements de bornes, concomitantes avec
+individuelle ou collective en BT > 36 kVA et en
+l’accélération des énergies renouvelables, met
+HTA, cadre qui inclue les IRVE. Les demandes
+une forte pression sur les GRDE (Gestionnaires
+de raccordement sont ainsi traitées chronologi-
+de réseau de distribution d’énergie).
+quement à partir de leur date de dépôt, ou de
+Le raccordement électrique des IRVE suit
+des procédures définies à partir du Code de
+l’Énergie, des décrets applicables, et des déli-
+bérations de la CRE (Commission de régulation
+de l’énergie). L’ensemble des GRDE y sont sou-
+mis ; l’étude prend ici principalement l’exemple
+la date de dépôt de la demande anticipée de
+raccordement. Des délais importants dans les
+raccordements d’IRVE sont toutefois remontés
+par une majorité d’acteurs du secteur et obser-
+vés dans les données publiées par la CRE32 sur
+l’activité 2022.
+d’Enedis, qui représente 95 % du réseau français,
+Des mesures avaient été prises pour facili-
+mais les observations et mesures identifiées se
+ter notamment les raccordements sur les
+rapportent à l’ensemble des GRD concernés.
+aires de service des grands axes routiers.
+En particulier, la procédure dérogatoire
+32 Délibération CRE N° 2023-137 du 31 mai 2023 « portant décision sur l’évolution de la grille tarifaire des tarifs d’utilisation
+des réseaux publics d’électricité dans les domaines de tension HTA et BT au 1er août 2023 et sur l’évolution du paramètre
+Rf au 1er août 2023 »
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 23
+« Enedis-PRO-RAC_028E » détaille une simplifi-
+cation de la procédure standard pour les IRVE :
+Par ailleurs, comme indiqué dans le Tome 1 –
+État des lieux de la recharge en France, le taux
+de réfaction majoré ne s’appliquait que pour les
+■ Les SCA (Sociétés concessionnaires d’au-
+premiers raccordements des aires de service ;
+toroutes) sont autorisées à anticiper une
+or, les puissances demandées en raccordement
+demande de raccordement avant la désigna-
+lors de la première vague d’installations ont été
+tion explicite de l’opérateur IRVE.
+limitées à une valeur au-delà de laquelle des
+■ La fourniture de l’autorisation d’urbanisme
+devenaient nécessaires. Le taux de réfaction
+délivrée, de la localisation précise du poste
+majoré n’a donc pas été utilisé au maximum
+de livraison HTA client, et des caractéristiques
+de son potentiel, ce qui rendra les investisse-
+techniques détaillées ne sont pas nécessaires
+ments relatifs aux prochains raccordements
+pour entrer dans la file d’attente ; la puissance
+(pour augmenter la puissance à mesure que
+de raccordement demandée ne peut cepen-
+l’électrification du parc s’intensifie) significati-
+dant pas être modifiée.
+vement moins accessibles.
+renforcements supplémentaires du réseau
+3.1.2. Visibilité insuffisante pour la bonne élaboration des SDIRVE
+Les SDIRVE (S chéma dire c teur des
+Pour l’élaboration des SDIRVE, les opérateurs
+Infrastructures de recharges pour véhicules
+électriques) offrent la possibilité à une collec-
+tivité ou un établissement public d’organiser
+sont tenus par le Décret n° 2021-566 du 10 mai
+202134 de fournir des données concernant l’utili-
+sation des bornes sur leur réseau. À partir de ces
+le déploiement des IRVE sur son territoire de
+données peuvent être construits les schémas
+manière concertée et cohérente ; au premier
+directeurs.
+trimestre 2023, seule une trentaine de SDIRVE
+ont été validés, sur 116 engagés à l’échelle
+nationale33.
+Toutefois, les plans des déploiements à venir des
+opérateurs privés ne sont pas toujours commu-
+niqués dans la réalité, et les SDIRVE risquent de
+Ils ont été introduits par la Loi d’orientation des
+pâtir d’obsolescence accélérée si une démarche
+mobilités de 2019, et permettent en particulier
+contraignante de mise à disposition des don-
+de bénéficier d’un taux de réfaction majoré à
+nées n’est pas mise en place et respectée par
+75 % pour le raccordement des IRVE qui s’ins-
+les développeurs et opérateurs d’IRVE.
+crivent dans le SDIRVE.
+3.1.3. Incertitudes sur la part des alternatives technologiques
+à la mobilité lourde à batterie électrique
+Les incertitudes entourant le développement de
+L’hydrogène a été considéré comme une solu-
+l’hydrogène en tant que source d’énergie pour
+tion prometteuse pour les véhicules lourds
+la mobilité lourde ont contribué à retarder le
+tels que les camions et les bus, offrant une
+déploiement des bornes de recharge électrique
+alternative aux carburants fossiles et permet-
+adaptées à cet usage spécifique.
+tant des temps de recharge plus rapides ainsi
+qu’une autonomie étendue. Les constructeurs
+33 Ministère de la Transition énergétique, Cartographie des SDIRVE (actualisée le 07/04/2023)
+34 Décret « relatif à la fourniture d’informations d’usage des infrastructures de recharge ouvertes au public pour les véhicules
+électriques et les véhicules hybrides rechargeables »
+24 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+continuent d’investir dans la technologie, mais
+à haute pression ou liquide sont donc très limi-
+une forme de consensus a semblé émerger ces
+tées en France. À l’inverse, la recharge électrique
+derniers mois en faveur de l’électrique à bat-
+bénéficie d’une technologie éprouvée (bien qu’à
+terie, au moins pour la décennie à venir. Cela
+adapter aux hautes puissances, jusqu’au MCS)
+s’est matérialisé par d’importantes levées de
+et d’une infrastructure existante plus dévelop-
+fonds dans le secteur et des annonces en ce
+sens émanant des constructeurs35.
+pée pour les véhicules légers.
+Les coûts élevés associés à l’infrastructure de
+de la mobilité hydrogène reste néanmoins une
+l’hydrogène, notamment la construction de sta-
+inconnue dimensionnante dans le déploiement
+tions de ravitaillement spécialisées, le transport
+à plus long terme de l’infrastructure de recharge
+Bien qu’une tendance claire se dessine, le futur
+ou les pipelines, pèsent dans cette tendance. À
+électrique.
+date, les possibilités de ravitaillement hydrogène
+3.2. Obstacles à l’installation des IRVE
+3.2.1. Faible disponibilité du foncier sur grands axes routiers
+pour accueillir des stations de recharge, en particulier pour poids lourds
+Sur les grands axes routiers, la disponibilité
+Les poids lourds nécessiteront donc des
+limitée du foncier peut poser un défi pour l’ins-
+infrastructures de recharge spécifiques et
+tallation de stations de recharge. Les espaces
+cohérentes avec les temps de pause, à savoir
+le long de ces axes sont prisés par différentes
+des technologies MCS pour les temps de pause
+activités commerciales, se caractérisent par des
+courts et des bornes DC du type 50 à ~100 kW
+coûts élevés du foncier et peuvent être soumis
+pour la recharge nocturne. L’enjeu portera sur
+à des réglementations limitant l’utilisation des
+l’aménagement optimal des aires de service ou
+terrains. Dans le cas des poids lourds, où suffi-
+de repos afin de gérer au mieux l’affluence des
+samment d’espace sera requis pour faciliter les
+poids lourds, de limiter le temps d’attente et de
+manœuvres et fluidifier le flux de véhicules, la
+faciliter les manœuvres.
+problématique se pose d’autant plus.
+Trouver des emplacements appropriés pour ins-
+La gestion de la logistique est cruciale pour les
+taller ces infrastructures de recharge représen-
+transporteurs et cela implique une planification
+tera un défi en raison de la disponibilité limitée
+efficace des temps de pause pour les conduc-
+teurs afin de respecter les réglementations en
+vigueur et d’optimiser les opérations de trans-
+du foncier le long des grands axes routiers. Les
+terrains disponibles peuvent déjà être utilisés
+pour d’autres fins, tels que des stations-ser-
+port. Pour favoriser la transition vers les poids
+vice traditionnelles, des aires de repos avec un
+lourds électriques, il apparaît donc que la facilité
+minimum d’artificialisation ou des installations
+d’accès à des points de charge lors des temps
+existantes. De plus, l’acquisition ou la location
+de pause réglementaires sera primordiale. Les
+de foncier pour installer des infrastructures
+conducteurs doivent réaliser une pause de
+45 minutes36 après 4,5 heures de conduite et
+un repos réglementaire de 11 heures, pouvant
+être réduit à 9 heures trois fois par semaine.
+de recharge représente un investissement ou
+des coûts importants et peut complexifier le
+déploiement.
+35 « Milence : le futur réseau de recharge rapide des poids lourds détaille ses ambitions », Publication Avere-France,
+14 décembre 2022
+36 Pause divisible en deux périodes de 15 minutes puis 30 minutes
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 25
+3.2.2. Faible disponibilité du foncier en zone urbaine dense
+Le déploiement d’infrastructures de recharge
+clé sera de proposer des options de recharge
+en zone urbaine dense peut représenter un défi
+lente en nombre suffisant afin de répondre au
+important en raison de l’espace limité et de la
+besoin de recharge « de proximité » des foyers
+concurrence pour l’utilisation du foncier. Les
+ne disposant pas de stationnement privatif avec
+zones urbaines denses sont souvent caractéri-
+possibilité de recharge. À noter qu’en milieu
+sées par une forte tension au niveau des places
+urbain, il y aura aussi une demande pour des
+de stationnement et cela constitue donc un
+bornes de recharge DC rapide et ultra-rapide,
+réel obstacle au déploiement d’infrastructures
+notamment de la part des professionnels
+de recharge. Le problème de la voiture « ven-
+touse »37 est particulièrement épineux puisqu’il
+faut s’assurer que le point de recharge soit le
+plus souvent disponible.
+tels que les chauffeurs VTC et les loueurs de
+véhicules, qui souhaitent une recharge rapide
+pendant leurs heures de travail. L’idée est
+donc d’évaluer au mieux le besoin de chaque
+commune pour déployer les technologies de
+En termes de technologies de recharge, la
+recharge adéquates.
+3.2.3. Investissements importants nécessaires,
+en particulier pour la recharge DC
+L’installation d’infrastructures de recharge se
+■ Coût éventuel lié au foncier si son acquisition
+caractérise par un certain nombre de postes
+est souhaitée plutôt qu’une location.
+de coûts :
+■ Coût de l’infrastructure électrique correspon-
+dant aux différents équipements électriques :
+recharge varient selon la technologie. Les coûts
+associés au déploiement de bornes rapides en
+transformateur, câblage, borne de recharge,
+courant continu sont plus élevés, notamment :
+etc. Ces travaux peuvent être d’autant plus
+coûteux si des mises à niveau sont nécessaires
+■ Installation : de ~25 000 à 30 000 € pour du
+pour répondre à la demande de puissance des
+DC contre moins de 5 000 € pour du AC ;
+bornes de recharge.
+■ Fourniture : jusqu’à ~75 000 € pour du DC
+Les investissements pour les bornes de
+■ Coût d’installation de la borne incluant la
+main-d’œuvre, les travaux de génie civil pour
+la mise en place des bases, les frais de raccor-
+dement électrique, etc.
+■  Coût de fourniture des bornes.
+350 kW contre ~2 000 € pour du AC38 ;
+Ces investissements plus importants peuvent
+constituer un frein important au déploiement
+de l’infrastructure DC rapide, notamment pour
+les collectivités.
+37 Qui stationne trop longtemps après la fin de sa recharge
+38 Source : EU Charging Masterplan, 2021, ACEA
+26 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+3.2.4. Délais de fourniture des bornes de recharge
+et autres défis relatifs à la chaîne d’approvisionnement
+L’accélération du déploiement des bornes de
+aux semi-conducteurs (diodes, microcontrô-
+recharge représente une opportunité pour les
+leurs, capteurs…), nécessitent de passer des
+fabricants de bornes, mais engendre des défis
+commandes importantes, et donc d’avancer
+en termes de disponibilité du matériel, de leur
+des dépenses pour pouvoir sécuriser des
+acheminement et de leur production.
+approvisionnements suffisants.
+Cela pose des contraintes d’approvisionnement
+Malgré une cadence soutenue de production,
+pour les constructeurs eux-mêmes, qui doivent
+l’écosystème observe un allongement des
+passer des commandes de plus en plus impor-
+délais de livraison des bornes de recharge, qui
+tantes à leurs fournisseurs, voire mobiliser des
+peuvent, pour certains constructeurs, atteindre
+efforts commerciaux supplémentaires pour en
+une année.
+sécuriser de nouveaux.
+Tous les composants n’ont cependant pas la
+obligent les installateurs de bornes à anticiper
+même criticité pour les fabricants de bornes :
+les commandes pour ne pas retarder la livraison
+■ Le matériel de base (exemple : armoires métal-
+des points de charge. En particulier pour les
+opérateurs locaux, cela nécessite un regroupe-
+liques) : peu critiques, disponibles.
+ment de ceux-ci pour passer des commandes
+■ Les composants techniques non-critiques (par
+communes aux fournisseurs de bornes, et ainsi
+exemple : les disjoncteurs), sont généralement
+raccourcir les délais et optimiser les coûts.
+Ces tensions sur la chaîne d’approvisionnement
+fournis par des grands groupes électroniques,
+capables d’absorber cette augmentation de
+De manière générale, les tensions sur l’offre
+la demande.
+de bornes, en particulier européenne, ont un
+■ Les composants critiques, c’est-à-dire les tran-
+impact négatif sur la cadence de déploiement
+sistors de puissance et autres composants liés
+des points de charge.
+3.3. Obstacles à l’opération des IRVE
+3.3.1. Rentabilité insuffisante
+Le modèle d’affaires des IRVE est fondé sur un
+équilibre entre des CAPEX importants et les
+revenus issus des sessions de recharge, qui sont
+améliorer le taux d’utilisation, mais le besoin
+restera structurellement trop faible.
+en fonction de la tarification et du taux d’utilisa-
+■ Lorsque les besoins futurs ont été anticipés,
+tion annuel moyen. Un faible taux d’utilisation
+et qu’à l’heure actuelle le taux d’électrification
+s’observe :
+ne suffit pas à générer une fréquentation
+significative :
+■ Lorsque le besoin en recharge pour la « petite
+– L’électrification du parc automobile amélio-
+itinérance » est faible ou très faible aux alen-
+rera progressivement la rentabilité.
+tours de la borne ou d’une hypothétique
+borne (population, axes à proximité, lieux
+excentrés ou peu pratiques, etc.) :
+– L’électrification du parc automobile pourra
+Pour l’instant, le taux moyen d’utilisation des
+IRVE est estimé être de l’ordre de 2 %39, compte
+tenu de la taille du parc actuel comparé au
+39 Estimation AFRY sur la base des hypothèses prises dans la modélisation
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 27
+nombre et à la puissance des points de charge
+Dans la modélisation générale, 3 scénarios avec
+sur le territoire. Les acteurs de l’écosystème ont
+3 évolutions du taux d’utilisation entre 2023
+signalé une faible rentabilité, voire des modèles
+et 2035 ont été considérés : de 4 % (1 h) à 8 %
+déficitaires, ce qui est cohérent avec cette esti-
+(2 h), de 6 % (1 h 30) à 12,5 % (3 h) et de 8 % (2 h)
+mation du taux d’utilisation.
+à 17 % (4 h). L’évolution est linéaire entre 2022
+et 2035.
+Figure 23 : Correspondance entre taux d’utilisation
+et nombre d’heures d’utilisation quotidienne moyenne sur une année
+Scénario
+[4 % - 8 %]
+[6 % - 12 %]
+[8 % - 17 %]
+Heures d’utilisation quotidienne
+en 2023
+1 h
+1 h 30
+2 h
+en 2035
+2 h
+3 h
+4 h
+Une approximation d’un modèle d’affaires sou-
+mécanisme de la TIRUERT (seulement les pre-
+mis à ces différents taux d’utilisation a été étu-
+dié, en particulier pour le cas d’usage « point de
+mières années), le TRI sur 15 ans passe à ~15 %
+dans le scénario [8 %-17 %]. Dans le scénario
+charge 7 kW AC sur voirie pour de la recharge
+de proximité ». Des CAPEX simplifiés ont été
+[6 %-12 %], le TRI descend à 6 %. Enfin dans le
+scénario [4 %-8 %], le TRI est négatif.40
+estimés à ~4 000 € (fourniture ~2 000 €, instal-
+lation et raccordement ~2 000 €) et des OPEX
+Puisqu’à l’heure actuelle le taux d’utilisation
+(hors coût de l’énergie) à ~400 €. À partir des
+effectif est en moyenne encore inférieur, le
+courbes de prix AFRY pour le marché européen,
+problème de rentabilité sur les bornes AC 7 kW
+et un prix de 33 centimes € du kWh pratiqué
+est un enjeu majeur si les tarifs doivent rester
+à la borne, la rentabilité est très faible dans le
+modérés.
+scénario [8 %-17 %] (de l’ordre de 1 % de TRI), et
+négatif dans les scénarios [6 %-12 %] et [4 %-8 %]
+À noter que certains modes de tarification pra-
+en l’absence de mécanismes de soutien.
+tiqués (systèmes d’abonnements notamment)
+peuvent permettre d’équilibrer le modèle des
+Toutefois, en ajoutant une prime ADVENIR
+opérateurs à l’échelle de leur réseau entier, mais
+(~1 000 € de CAPEX) et une approximation du
+n’ont pas été modélisés dans le cadre de l’étude.
+3.3.2. Durée légale des contrats de sous-concessions autoroutières
+Sur les autoroutes concédées, l’installation
+leurs sous-concessionnaires ne peuvent pas
+et l’opération d’IRVE sur les aires de service
+dépasser une durée de 15 ans, en application
+doivent passer par un processus d’appel
+de l’article R122-42 du Code de la voirie routière.
+d’offres transparent, à l’issue duquel une
+L’État a récemment autorisé que les contrats
+société sous-concessionnaire est sélection-
+de sous-concession IRVE puissent dépasser la
+née comme CPO. Les contrats entre les
+durée résiduelle des concessions autoroutières,
+sociétés concessionnaires d’autoroutes et
+ce qui a écarté un premier obstacle contractuel.
+40 Ces estimations de rentabilité sont fondées sur une revue des différentes études existantes ; elles sont fortement dépendantes
+des hypothèses de CAPEX initiales, en particulier sur les petites puissances. Elles sont également très sensibles au prix pratiqué
+à la borne. Elles n’ont pas ici vocation à reproduire en détail les modèles d’affaire des opérateurs, et ont simplement pour objectif
+d’estimer l’impact des taux d’utilisation et des mesures de soutien sur la rentabilité.
+28 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Toutefois, puisque les investissements réalisés
+des durées de contrat au-delà de 15 ans, ce qui
+sont importants (notamment sur la recharge DC
+n’est pas possible à date et peut constituer un
+ultra-rapide, ou sur les infrastructures destinées
+frein.
+aux poids lourds), il peut être nécessaire de fixer
+3.3.3. Défis de la maintenance et du taux de disponibilité
+Un point de charge est considéré comme dispo-
+une zone avec un faible maillage. Certains opé-
+nible s’il n’est ni en maintenance ni hors-service.
+L’Avere-France41 indique dans son baromètre
+un taux de disponibilité de 84 % en moyenne
+rateurs ont remonté qu’un simple appel pour
+régler le problème à distance pourrait souvent
+suffire. La mise en place d’un programme de
+pour un point de recharge AC, 83 % pour un
+maintenance préventive régulière est un moyen
+point rapide (DC < 150 kW) et 77 % pour un point
+ultra-rapide (DC > 150 kW)42. La charge normale
+semble donc souffrir de moins de périodes d’in-
+de réduire les pannes et minimiser les délais
+de maintenance. Cela implique l’inspection
+régulière des bornes, le remplacement des
+disponibilité que la charge rapide. En revanche,
+pièces usées ou défectueuses, le nettoyage des
+elle présente des taux de sessions engagées
+connecteurs, etc.
+avec succès inférieurs à la moyenne nationale,
+comme l’indique l’AFIREV43 en 2022. Au-delà
+des technologies de recharge, des disparités
+La filière de la maintenance en mobilité élec-
+trique est en pleine croissance, et doit être
+fortes peuvent aussi être présentes entre les
+couplée à une montée en compétences. La
+régions. Par exemple, les taux moyens de succès
+disponibilité d’un support technique réactif et
+d’une session de recharge peuvent varier de
+83,7 % en Occitanie à 60,7 % en Normandie43.
+compétent aura un impact significatif sur les
+délais de maintenance. L’utilisation des données
+provenant des bornes pour détecter rapide-
+La maintenance apparaît comme le sujet
+ment les pannes ou les problèmes techniques
+clé derrière ces taux de disponibilité et un
+en temps réel est aussi un facteur clé dans
+certain nombre d’améliorations ont besoin
+l’amélioration de la durée d’indisponibilité. Par
+d’être apportées. Tout d’abord, l’urgence de
+ailleurs, le marché des véhicules électriques bas-
+la maintenance peut être différente selon si le
+cule des « early adopters » à des utilisateurs plus
+point de charge est sur une autoroute, et plus
+sensibles à des dysfonctionnements, d’où le
+précisément une station avec plusieurs autres
+besoin accru d’un service de qualité afin que la
+points, ou dans une zone rurale où il peut ne
+transition vers l’électrique continue d’accélérer.
+pas y avoir d’autres points à proximité. C’est
+ainsi qu’un meilleur diagnostic de la nature
+des pannes semble pertinent afin de réduire
+au maximum les délais, et d’autant plus dans
+Mais de manière générale, des gains au niveau
+des indicateurs de qualité sont déjà visibles à
+l’échelle nationale par rapport aux résultats de
+l’observatoire de l’AFIREV de 202143.
+41 Baromètre commun de l’Avere-France et du ministère de la Transition énergétique, sur la base des données Gireve, juin 2023
+42 Étant donné qu’une petite minorité des points de charge n’est pas accessible en permanence, l’Avere-France estime
+que ces taux, basé à 100 % sur une disponibilité 24/7, peuvent subir une légère incidence négative
+43 Observatoire de la qualité des services de recharge électrique accessibles au public, AFIREV, Édition S1 2022
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 29
+3.3.4. Volatilité des prix de l’énergie
+La volatilité des prix de l’énergie en Europe
+de tarification dynamique, où les prix de la
+constitue un défi majeur pour la constitution
+recharge varient en fonction des prix de l’élec-
+d’un modèle d’affaires solide pour les bornes de
+tricité. De cette manière, les gestionnaires de
+recharge publiques. Les fluctuations des prix de
+bornes de recharge peuvent répercuter les
+l’énergie ont un impact significatif sur les coûts
+variations des coûts d’énergie sur les utilisateurs,
+d’exploitation, ce qui rend difficile la prévision
+tout en maintenant une certaine compétitivité
+des revenus et la rentabilité à long terme de
+par rapport aux autres options de carburant.
+ces infrastructures. Les opérateurs de bornes
+de recharge doivent constamment s’adapter
+Cependant, la variabilité des prix de l’énergie
+aux fluctuations des prix de l’électricité, ce qui
+peut entraîner une incertitude pour les utili-
+peut entraîner des difficultés pour équilibrer
+sateurs de bornes de recharge publiques. Les
+les coûts d’exploitation et les revenus générés.
+conducteurs de véhicules électriques peuvent
+hésiter à passer à l’électrique si les prix sont
+Pour surmonter ces défis, les opérateurs de
+perçus comme trop élevés ou imprévisibles.
+bornes de recharge peuvent a minima négocier
+Cela peut à terme compromettre la demande,
+des contrats à prix fixes avec leurs fournisseurs
+d’autant plus dans un contexte post-crise de
+d’électricité, voire passer directement par des
+CPPA44. Des stratégies de flexibilité s’envisagent
+également ; cela peut inclure des mécanismes
+l’énergie de l’hiver 2022, qui a connu une forte
+médiatisation et a tourné l’attention vers la
+volatilité des prix de l’électricité.
+3.4. Obstacles à l’achat de véhicules électriques liés à la recharge
+3.4.1. Complexité du parcours de recharge
+Le parcours utilisateur d’une borne de recharge
+connecteur Combo CSS (Combined Charging
+électrique peut s’avérer complexe. Ce processus
+System) ou le connecteur CHAdeMO.
+est confronté à divers défis qui peuvent rendre
+la recharge déroutante, frustrante et peu pra-
+Cette diversité de normes peut rendre complexe
+tique pour les utilisateurs. Les systèmes de
+l’interopérabilité entre les bornes de recharge
+recharge divers et les systèmes de paiement
+et les véhicules électriques. Les utilisateurs
+fragmentés contribuent à créer une expérience
+doivent s’assurer d’avoir le bon type de connec-
+utilisateur complexe, en particulier pour les
+nouveaux usagers.
+teur ou utiliser un adaptateur approprié pour
+se connecter à une borne spécifique. De plus,
+certains véhicules électriques sont compatibles
+Avec la multiplication des fabricants de véhi-
+avec différents niveaux de puissance de charge,
+cules électriques, il existe différents types de
+ce qui nécessite une attention particulière pour
+prises, de connecteurs et de protocoles de com-
+choisir la borne de recharge offrant la puissance
+munication utilisés pour la recharge. Même si le
+adaptée à leur véhicule.
+connecteur type 2 (Mennekes) triphasé tend à
+se généraliser, certains véhicules et bornes uti-
+Enfin, la tension de recharge admise par les
+lisent encore les connecteurs de type 1 (J1772).
+véhicules électriques s’oriente vers du 800 V,
+et remplace progressivement les batteries en
+De plus, il existe également des normes spé-
+400 V. Les 800 V permettent une recharge plus
+cifiques pour la recharge rapide, telles que le
+rapide sur les bornes compatibles ; elles restent
+44 Coporate Power Purchase Agreement : Contrats d’achat d’électricité de gré à gré
+30 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+fonctionnelles quand branchées sur des bornes
+plus que cette information sur les bornes n’est
+400 V, mais la recharge est significativement
+pas facilement accessible (pas de remontée en
+plus lente. Cela peut conduire à de la confusion
+open data ou sur les applications de planifica-
+supplémentaire pour les utilisateurs, d’autant
+tion d’itinéraire).
+3.4.2. Opacité de la tarification et prix de la recharge
+À l’heure actuelle, une certaine diversité dans les
+Pour répondre à ces critiques, la réglementation
+modes de tarification des bornes est présente
+européenne AFIR précisera la tarification et les
+et complexifie l’expérience des automobilistes.
+modes de paiement minimaux :
+Un manque de transparence est bien souvent
+remonté de la part des utilisateurs, avec des
+■ Possibilité de payer par carte bancaire sur
+tarifs qui sont très variables selon la technologie
+toutes les nouvelles bornes > 50 kW (et rétrofit
+de la borne, l’opérateur, la période de recharge,
+obligatoire sur tout le réseau TEN-T).
+la présence d’un abonnement ou d’offres de
+recharge via un e-MSP. Les utilisateurs ont du
+■ Pour les bornes d’une puissance > 50 kW, le
+mal à comprendre comment les tarifs sont
+prix doit être au kWh, avec la possibilité d’une
+déterminés et quels sont les frais supplémen-
+taires éventuels. Conséquence de cette diversité
+tarification à la minute en plus pour découra-
+ger les stationnements trop longs.
+tarifaire, il est difficile d’avoir une vue précise de
+l’ensemble des prix des bornes publiques et de
+■ Le prix doit être indiqué de manière trans-
+déduire une valeur moyenne à l’échelle du pays.
+parente, en indiquant, dans l’ordre, le prix au
+kWh, le prix par minute, le prix par session et
+Une certaine confusion est donc présente
+tout autre élément de tarification.
+parmi les utilisateurs de bornes de recharge
+qui peuvent difficilement prévoir combien ils
+vont payer en finalité.
+3.4.3. Anxiété à la recharge
+La recharge électrique est source d’anxiété pour
+À mesure que le véhicule électrique se démo-
+de nombreux utilisateurs ; cela constitue un frein
+cratisera, une autre anxiété prendra le relais,
+à l’achat très significatif, que le déploiement
+celle liée aux files d’attente pour se recharger ;
+massif des IRVE tente de résoudre. Les utilisa-
+ce phénomène, pour l’instant rarement observé,
+teurs souhaitent qu’un maillage serré quadrille
+pourrait particulièrement se manifester sur les
+le territoire finement, pour être rassurés quant à
+grands axes routiers lors des grands départs en
+la possibilité de se recharger et ne pas tomber
+vacances, pendant la période estivale.
+en « panne sèche ». La possibilité qu’une borne
+indiquée comme disponible soit en réalité indis-
+ponible (occupée, en maintenance, non-fonc-
+tionnelle) participe de cette anxiété.
+3.4.4. Indisponibilité de recharge de proximité abordable
+Certains foyers possèdent un véhicule mais pas
+emplacement dans un jardin, place réservée en
+de solution de stationnement privé (garage,
+copropriété). Puisque leur véhicule stationne sur
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 31
+la voirie ou sur parking public, ils n’ont donc pas
+recharge (si elle est effectuée uniquement sur
+accès facilement à la recharge ou bien n’ont pas
+borne DC par exemple) peut devenir prohibitif.
+la possibilité de se recharger à un prix modéré,
+qu’il est possible d’obtenir via une installation
+En particulier dans les centres urbains, cela peut
+de borne à domicile. Certaines communes pra-
+engendrer une moindre adoption du véhicule
+tiquent des tarifs nocturnes plus avantageux,
+électrique pour des raisons économiques ou
+mais lorsque ce n’est pas le cas, le coût de la
+de praticité de la recharge.
+4. Mesures-clés pour réussir le déploiement
+d’une infrastructure de recharge publique
+Sur les grands axes routiers, les possibilités
+Le défi des jours de pointes (grands départs)
+d’emplacement pour l’installation de bornes de
+sera d’éviter la saturation des aires sur grands
+recharge sont limitées. Les aires de service et les
+axes, qui ne sont aujourd’hui pas dimensionnées
+aires de repos constituent les seules options qui
+pour accueillir un stock de véhicules patientant
+ne nécessitent pas de création d’infrastructures
+pour se recharger ; de plus, les zones de parking
+supplémentaires d’entrée et de sortie de grands
+axes. Dans un contexte d’objectif ZAN (zéro
+sur aires ne sont généralement pas traversantes,
+ce qui engendre des manœuvres et ralentit le
+artificialisation nette) pour 2050, il est d’autant
+temps total nécessaire pour se recharger. Éviter
+plus pertinent de s’en tenir aux aires et zones
+la saturation représentera non seulement un
+déjà artificialisées.
+enjeu de sécurité (file d’attente qui pourrait
+déborder sur la voie principale), mais aussi
+Ainsi, la réponse aux besoins en recharge sur
+d’acceptabilité pour les usagers, qui pourraient
+autoroute se fera principalement sur ces aires,
+le cas échéant être découragés d’acquérir un
+et les raccordements au réseau de distribu-
+véhicule électrique à batterie.
+tion devront pouvoir y répondre. Alors qu’une
+deuxième vague de déploiement apparaît
+La pointe devra donc être traitée par une réduc-
+nécessaire dans les prochaines années sur les
+tion en amont du flux (itinéraires alternatifs,
+aires de service, une optimisation planifiée du
+communication sur le trafic) et en aval par le
+déploiement pourrait limiter les coûts pour
+déploiement de solutions de recharge ad hoc.
+toutes les parties prenantes et s’insérer dans
+une nécessaire logique de sobriété tout en
+fluidifiant les installations.
+4.1. Mesures-clés « Grands axes routiers »
+4.1.1. Anticipation des besoins en raccordements
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité,
+accélération des déploiements
+KPI : coûts de raccordement évités et durée
+d’installation (scénario sans anticipation – scé-
+Parties  prenantes : État, collectivités, SCA,
+GRDE
+nario anticipé)
+Levier(s) : décision politique et législative, modification(s) réglementaire(s)
+32 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Une autorité publique dédiée pourrait être
+L’autorité publique pourra faire appel aux
+créée (cf. mesures transverses) et réaliser ou
+Gestionnaires de réseau de distribution d’éner-
+commander une estimation aire par aire des
+gie (GRDE) pour prendre en compte des esti-
+raccordements nécessaires pour 2035 sur les
+mations de coût de raccordement.
+grands axes à l’échelle nationale, en fonction
+des besoins identifiés.
+Une fois l’estimation réalisée, l’autorité publique
+dédiée devrait exprimer les besoins de raccor-
+Cette estimation devrait inclure les aires de
+dements sur chacune des aires, tels que dimen-
+repos ; les situations et coûts de raccorde-
+sionnés dans l’estimation ; puis les demandes
+ment sur les aires de repos sont disparates
+effectives de raccordement seraient émises
+et dépendent de la proximité avec un poste.
+par les acteurs pertinents (collectivités pour
+Équiper les aires de repos permettrait un
+le réseau non concédé, SCA pour le réseau
+maillage plus serré sur les grands axes et un
+concédé), sans déroger aux prescriptions de
+allégement des aires de service (qui serviront
+puissance demandées par l’autorité publique.
+la majorité de la demande en volume). Un équi-
+libre doit cependant être trouvé pour conserver
+Puis, à mesure des appels d’offres des SCA et
+leurs avantages (proximité avec la nature, moins
+de l’État auprès des opérateurs, un mécanisme
+artificialisées) et les besoins en foncier bétonné
+de répartition des coûts de raccordement (ex :
+pour l’installation d’IRVE.
+quote-part) serait appliqué à ces derniers.
+L’estimation devrait également prendre en
+Cette mesure permettrait l’accélération du
+compte les raccordements dits « pendulaires »
+déploiement et éviterait la confrontation avec
+de part et d’autre d’un grand axe, sur deux aires
+un mur d’investissements ; elle implique cepen-
+face à face. Leur pic de charge étant générale-
+dant un équilibre à trouver entre les périmètres
+ment en alternance, cela permettrait de mutua-
+des différentes parties prenantes, et un cadre
+liser le raccordement et de réduire les coûts.
+légal adapté.
+4.1.2. Allongement des durées de contrats de sous-concession
+Impact : amélioration de la rentabilité (TRI) des projets et de l’attractivité des sous-concessions
+KPI : nombre de bornes proposées par aires Parties prenantes : État
+Levier(s) : modification(s) réglementaire(s)
+Les contrats de sous-concession sur les auto-
+routes concédées ne peuvent dépasser 15 ans
+d’exploitation devrait être considérée. Hors
+réseau concédé, cette limitation n’a pas cours, et
+à l’heure actuelle (Article R122-42 du Code de
+une durée contractuelle supérieure permettrait
+la voirie coutière). Pour les IRVE, des investis-
+de réduire les mécanismes de soutien néces-
+sements significatifs peuvent être nécessaires
+saires à la rentabilité de l’investissement.
+et une augmentation de la durée des contrats
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 33
+4.1.3. Réduction des pointes de trafic en amont
+Impact : réduction de l’intensité des pics, amélioration de l’expérience usager, dimensionnement
+moins coûteux du réseau
+KPI : trafic évité, durée moyenne et max d’at-
+tente avant recharge
+Parties prenantes : constructeurs automobiles,
+e-MSP, État, SCA
+Levier(s) : modification(s) réglementaire(s), communication et accompagnement du changement
+Pour limiter le stock de voitures électriques
+au sens large, et impose la proposition d’un
+patientant pour se recharger lors des week-
+ends de grands départs, il est concevable que
+des itinéraires alternatifs soient employés pour
+itinéraire alternatif plus vertueux pour l’environ-
+nement (moins émetteur de CO2, notamment
+via une vitesse réduite). Dans cet esprit, les ERP
+éviter l’attente, ou que la recharge sur auto-
+pourraient également être soumis à certaines
+route soit mieux répartie. Ainsi, le rôle des ERP
+obligations de propositions d’itinéraires et de
+(Electric Route Planner) sera déterminant pour
+recharge, dans le but d’alléger la charge sur le
+moduler les flux sur les grands axes ; ils pourront
+réseau et d’éviter les files d’attente aux bornes.
+ainsi proposer des itinéraires hors autoroute, des
+arrêts avec des points d’intérêt (type « village
+étape »), ou conseiller des heures optimales de
+Une tarification dynamique de la recharge sur
+autoroute en fonction du trafic pourrait être
+départ ou de recharge.
+étudiée pour inciter les usagers à voyager à des
+horaires moins congestionnés. Cependant, le
+Pour l’instant, tous les véhicules électriques
+risque de non-acceptation de la mesure est fort,
+n’intègrent pas forcément d’ERP embarqué, et
+et si une telle tarification était mise en place,
+beaucoup d’utilisateurs sont dépendants d’ap-
+elle devrait être régulée pour éviter un effet
+plications tierces ; mais celles-ci n’ont pas accès
+d’emballement sur les prix lors des pointes. Des
+aux données de conduite qu’ont les systèmes
+baisses de prix pour la recharge hors autoroute
+embarqués. Les ERP auront également besoin
+les jours de pointe pourraient contourner ce
+d’avoir accès à des données fiables en temps
+problème d’acceptabilité.
+réel sur l’ensemble des points de charge du
+réseau, en particulier leur bon état de marche
+Le report modal vers d’autres moyens de
+et s’ils sont en cours d’utilisation. Le parcours de
+transport décarbonés (développement du rail,
+l’usager pourra être adapté en conséquence :
+relance des trains de nuit) pour la grande itiné-
+recharge en début de trajet plutôt qu’à la fin,
+rance sera également un facteur de réduction
+aire de service moins fréquentée ou mieux
+dimensionnée, etc. La recommandation de
+sortir des grands axes devra être modulée
+des pointes, et devra être encouragé. D’après
+l’étude RTE-IPSOS de 202345, il existe bien des
+« marges de manœuvre possibles mais actuelle-
+en fonction du trafic et des capacités des
+ment contraintes » pour des changements des
+échangeurs, pour éviter des saturations à ces
+habitudes de la population (report modal en
+niveaux-là également (remontée de file sur les
+tête, suivi de l’optimisation des déplacements
+diffuseurs et échangeurs, source d’accidents).
+en voiture).
+Le Décret n° 2022-1119 du 3 août 2022 relatif aux
+Enfin, l’étalement de ces grands départs sur plu-
+services numériques d’assistance aux dépla-
+sieurs jours constitue une solution envisageable,
+cements a constitué une première mesure de
+qui nécessiterait toutefois des changements
+l’État pour réguler les planificateurs d’itinéraires
+de société significatifs : sortie du modèle des
+45 Comprendre et piloter l’électrification d’ici 2035 : Les conditions clés pour relever les défis de la transition énergétique,
+Étude RTE-IPSOS, 2023
+34 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+locations du samedi au samedi, flexibilisation de
+la prise de congés, changement des vacances
+scolaires, etc.
+4.1.4. Absorption des pointes de trafic via des solutions ad hoc
+Impact : amélioration de l’expérience usager, dimensionnement moins coûteux du réseau
+KPI : durée moyenne et max d’attente avant
+recharge
+Parties prenantes : SCA, collectivités
+Levier(s) : expérimentation à conduire, soutien aux investissements à réaliser
+Pour gérer les pointes de trafic et éviter les
+encombrements dans et à l’entrée des aires de
+service lors des week-ends de grand départ, des
+utilitaire et de le déployer où le besoin se
+trouve46. Il est également envisageable de
+déployer rapidement une station de recharge
+solutions ad hoc ou « mobiles » pourront être
+de la taille d’une place de parking, surmontée
+déployées ponctuellement pour mieux absorber
+le pic. Celles-ci se présenteraient sous la forme
+de panneaux solaires couplés à une batterie, et
+qui fonctionne hors réseau47.
+de stations de recharge mobiles, alimentées
+par une source d’énergie la plus décarbonée
+La question se pose cependant des capacités
+possible. Cette source pourrait être :
+solaires nécessaires pour alimenter une borne
+■ Le réseau de distribution – si le raccordement
+l’aire de Trémentines A87, 75 kWc de panneaux
+a été surdimensionné par rapport aux besoins
+solaires ont été installés et couplés avec une
+actuels en anticipation des besoins futurs.
+batterie-container et un raccordement provi-
+de recharge DC rapide ou ultra-rapide. Sur
+■ Des BESS (Systèmes de stockage d’énergie de
+batterie) mobiles (pouvant atteindre la taille
+d’un conteneur), rechargées soit en amont sur
+le réseau, soit via du photovoltaïque sur site.
+soire 100 kVA pour alimenter une station de
+recharge (2 bornes 120 kW DC et 1 borne double
+11 kW AC) 48. Cela représentait une surface
+importante sur l’aire.
+Enfin, l’amélioration des outils digitaux tels que
+■ Des générateurs sur site, fonctionnant avec
+la réservation de bornes en avance ou la facilité
+des carburants décarbonés (bio et électrocar-
+burants, hydrogène, etc.) ;
+de paiement participeront à la fluidité de la
+recharge, mais plutôt sur le moyen long terme.
+Par exemple, il est possible d’embarquer une
+batterie (déjà chargée) à bord d’un véhicule
+46 PV Magazine, Un dispositif de charge VE autonome à énergie solaire avec batterie de stockage intégrée, 24 mai 2022
+47 https://beamforall.com/product/ev-arc-2020/
+48 www.lesens-erea.fr/references/irve-et-photovoltaique-provisoires-sur-laire-de-trementines-a87/
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 35
+4.1.5. L’autoroute électrique
+Impact : réduction du nombre de bornes de recharge à installer pour la mobilité lourde, réduction
+des tailles de batterie à embarquer
+KPI : coûts bénéfices des différentes
+technologies après les projets pilotes
+Parties prenantes : SCA, collectivités,
+constructeurs
+Levier(s) : retour d’expérience sur les précédents AAP et décision politique
+Dans le processus de transition vers le tout
+La Suède a annoncé récemment la construc-
+électrique, un certain nombre d’innovations
+tion de 3 000 km de route électrique. Un pre-
+viendront potentiellement compléter les tech-
+nologies de véhicules à batterie avec recharge
+sur des bornes. C’est notamment le cas de
+mier tronçon de 20 km devrait être construit
+d’ici 2025 et destiné d’abord aux camions49.
+L’autoroute choisie est la route européenne E20,
+l’autoroute électrique, Electric Road System
+qui relie les hubs logistiques entre Hallsberg et
+ou ERS, qui vise à intégrer des fonctionnalités
+Örebro, situés au milieu des trois grandes villes
+de recharge électrique directement dans les
+du pays, Stockholm, Göteborg et Malmö.
+routes, permettant aux véhicules de se rechar-
+ger en mouvement. Il y a principalement trois
+types de solutions technologiques :
+De par les coûts importants associés à ces tech-
+nologies (~4 millions d’euros du kilomètre pour
+■ Solutions inductives : La recharge par induc-
+tion consistant en une recharge sans câble
+la route à induction d’après le groupe de travail
+sur le système des routes électriques50), les
+routes électriques semblent apparaître comme
+des véhicules électriques grâce à l’induction
+une solution pour un usage localisé autour des
+magnétique.
+principaux hubs et nécessiteront encore des
+mécanismes incitatifs pour les opérateurs. Ces
+■ Solutions conductives au sol ou latérale en
+solutions pourraient permettre de réduire forte-
+bord de route.
+ment la taille de la batterie des poids lourds et
+donc réduire les besoins en matières premières
+■ Solutions conductives aériennes, avec l’utili-
+des batteries, comme le lithium, le nickel et le
+sation d’une caténaire électrique pour trans-
+cobalt. Cependant, le choix d’investissement
+mettre l’énergie.
+relève d’une décision politique, et prenant en
+compte les résultats des expérimentations ;
+Ces technologies sont encore en développe-
+les autorités publiques doivent statuer sur le
+ment. Des démonstrateurs ont été lancés dans
+plusieurs localisations à travers l’Europe et cer-
+taines portions de routes sont déjà équipées
+sujet avant le déploiement des infrastructures
+de recharge pour les poids lourds, pour que le
+dimensionnement soit correct.
+de telles technologies, comme en Allemagne
+avec une dizaine de kilomètres équipée de
+BPI France a lancé un appel à projets « Mobilités
+caténaires pour les poids lourds, ou en Suède,
+routières automatisées, infrastructures de
+avec un tronçon de 2 kilomètres disposant de
+rails, et une route à induction de 1,6 kilomètre
+sur l’île de Gotland.
+services connectées et bas carbone », ouvert
+en 2021 et clôturé le 11 janvier 2023 51, dans
+le cadre du Programme d’investissement
+49 Euronews, https://fr.euronews.com/next/2023/05/03/la-suede-construit-la-premiere-route-electrifiee-au-monde-pour-recharger-
+les-vehicules-ele
+50 Système de route électrique, Groupe de travail n° 1, ministère de la Transition écologique
+51 www.bpifrance.fr/nos-appels-a-projets-concours/appel-a-projets-mobilites-routieres-automatisees-infrastructures-de-ser-
+vices-connectees-et-bas-carbone
+36 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+d’Avenir PIA4 – stratégie transport. Cet appel
+Une autre expérimentation va être menée sur
+à projet visait entre autres le développement
+une portion de l’A10, non loin de Saint-Arnoult
+de démonstrateurs ERS. Les 8 projets lauréats,
+issus de la 1re et 2e relèves de l’appel à projets,
+concernent des pilotes de services de transport
+en Yvelines ; les travaux vont démarrer en sep-
+tembre 202354. Des poids lourds électriques
+pourront se recharger en roulant sur l’autoroute
+automatisé de voyageurs (services réguliers, de
+grâce aux technologies de l’induction et du rail
+transports à la demande, ou rabattements vers
+des pôles multimodaux)52. Par ailleurs, d’après
+la presse53, un consortium public-privé, avec le
+soutien financier de BPI France serait en cours
+conductif.
+Au vu des considérations techniques et de la
+teneur des entretiens avec l’écosystème, la
+de constitution pour le lancement d’un projet
+présente étude a dimensionné la modélisation
+démonstrateur d’électrification de 2 km d’au-
+sans prendre en compte un déploiement d’une
+toroute dans le sud de l’Alsace. Ce projet n’est
+forme ou d’une autre de « route électrique » à
+pas officiellement annoncé.
+horizon 2035.
+4.2. Mesures-clés transverses
+4.2.1. Création d’une entité publique en charge de la planification des IRVE
+Impact : pilotage stratégique du déploiement des IRVE
+KPI : création de l’entité et budget affecté Parties prenantes : État
+Levier(s) : décision politique, modification(s) réglementaire(s)
+Le déploiement des IRVE est un enjeu national
+rentabilité », et pour garantir l’accessibilité des
+indispensable pour l’atteinte des objectifs de
+tarifs pratiqués sur les infrastructures subven-
+neutralité carbone, qui dépasse les logiques de
+tionnées, la mobilisation des pouvoirs publics
+rentabilité économique stricte et nécessite des
+est un prérequis.
+investissements importants.
+■ Le coût global du réseau IRVE peut être réduit
+ropérabilité par les opérateurs, et notamment
+par une planification adéquate, notamment
+de la collecte des données, devra s’appuyer
+en dimensionnant correctement les raccor-
+sur des leviers administratifs (ex : application
+dements à effectuer pour les aires de service
+des sanctions prévues). L’autorité publique
+et aires de repos à travers les prérogatives des
+devra également garantir que les subventions
+■ Le respect des dispositions de qualité et d’inte-
+autorités publiques.
+soient fléchées vers les zones à pourvoir en
+priorité, pour éviter les effets d’aubaine.
+■ Centraliser, garder à jour et analyser les nom-
+breuses données relatives au déploiement et à
+Un « haut conseil », « conseil supérieur », ou un
+l’opération des IRVE publiques et ouvertes au
+« secrétariat à la planification des IRVE », doté de
+public, demande d’avoir des équipes dédiées
+moyens adéquats (en propre) pour mener à bien
+sur le long terme. En particulier, pour mener
+ses activités, pourrait être envisagé pour porter
+à bien les appels d’offres de type « clusters de
+le rôle de l’État planificateur et aménageur du
+52 www.ecologie.gouv.fr/france-2030-8-nouveaux-projets-mobilite-routiere-automatisee-et-connectee-dans-territoires
+53 www.lesechos.fr/industrie-services/tourisme-transport/la-france-pourrait-tester-a-son-tour-l-autoroute-electrique-
+pour-camions-1938572
+54 www.vinci-autoroutes.com/fr/actualites/environnement/a10-experimentation-recharge-poids-lourds-electrique/
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 37
+territoire. Il serait en charge d’organiser la coor-
+entité avec les autres instances existantes
+dination avec les territoires, en amont lors de
+dépassent le cadre de la présente étude.
+l’élaboration et la mise en commun des SDIRVE,
+et en aval dans leur déploiement. Les modalités
+politiques et l’équilibre du périmètre de cette
+4.2.2. Promotion des offres de raccordements intelligentes
+Impact : réduction des coûts de raccordement, amélioration de la rentabilité
+KPI : coûts de raccordement évités (scénario
+sans anticipation – scénario anticipé)
+Parties  prenantes :  État, collectivités, SCA,
+GRDE
+Levier(s) : communication et accompagnement du changement, modification(s) réglementaire(s)
+Avec l’essor des énergies renouvelables et des
+Sur ce modèle, les GRDE pourraient proposer
+demandes de raccordement associées, Enedis
+systématiquement (avec une éventuelle évolu-
+a expérimenté dans le cadre du programme
+Smart Vendée55 des modalités alternatives de
+raccordement pour les EnR. Ces ORI (offres de
+tion réglementaire associée, à partir d’un seuil
+fixé) des raccordements moins coûteux aux
+opérateurs de bornes de recharge, en échange
+raccordement intelligentes) ou offres de raccor-
+de services au réseau (limitation du soutirage
+dement alternatives à modulation de puissance,
+par exemple). Cela deviendra particulièrement
+telles qu’elles sont désormais industrialisées
+depuis 202156, proposent de réduire les coûts
+et délais de raccordement, en contrepartie
+d’une possibilité de limitation ponctuelle de la
+puissance d’injection.
+4.2.3. Fiabilité des données en open data
+pertinent à mesure que les puissances de rac-
+cordement nécessaires augmenteront.
+Impact : meilleure estimation des besoins, optimisation du déploiement, augmentation du taux
+d’utilisation et amélioration de la rentabilité
+KPI : pourcentage de complétude de la base en
+open data, fréquence de mise à jour
+Levier(s) : ressources administratives
+Parties prenantes : État, collectivités, opérateurs
+Un certain nombre de mesures-clés ont pour
+à jour de la base de données IRVE en open data,
+condition préalable la disponibilité de don-
+disponible et gérée par data.gouv.fr, intitulée
+nées complètes et à jour sur l’infrastructure de
+« Fichier consolidé des bornes de recharge pour
+recharge électrique. Les autorités publiques
+véhicules électriques ».
+devraient assurer la complétude et le maintien
+55 Dossier de presse Enedis, « Lancement des Offres de Raccordement Intelligentes », 23 février 2018
+56 Communiqué de presse Enedis, « Enedis favorise et accélère le raccordement des producteurs HTA d’énergies renouvelables
+grâce aux flexibilités », 15 novembre 2021
+57 Décret n° 2021-1561 du 3 décembre 2021 relatif à l’obligation d’interopérabilité de l’infrastructure de recharge ou de ravitaillement
+en carburants alternatifs ouverte au public
+38 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+En effet, le ministère en charge de l’énergie a
+d’accélération de l’élaboration des SDIRVE :
+pouvoir d’enquête et de sanction pour imposer
+leurs concepteurs déplorent de devoir passer
+aux opérateurs le respect des dispositions de
+qualité et d’interopérabilité57.
+La mise en place d’API (interface de program-
+par des solutions payantes pour avoir accès à
+une donnée complète.
+mation d’application) permettrait aux opéra-
+De manière générale, les mécanismes de sou-
+teurs de se connecter directement à data.gouv,
+tien devraient être conditionnés à une commu-
+et ainsi d’alimenter en temps réel une base de
+nication des métriques de taux d’utilisation, qui
+données « dynamique ». Dans l’autre sens, des
+restent nécessaires pour évaluer leur impact ;
+API d’extraction des données dynamiques en
+pour cela, une base de données et un dispositif
+temps réel permettraient d’améliorer les ser-
+fiable doivent être mis en place par l’autorité
+vices utilisateurs (notamment les planificateurs
+publique.
+d’itinéraires, ou les applications des opérateurs
+d’IRVE et des e-MSP).
+Cette mesure serait de surcroît un facteur
+4.2.4. Standardisation progressive du 800 V
+Impact : amélioration de l’expérience utilisateur et de la vitesse de charge (donc réduction
+de l’attente moyenne à la borne)
+KPI : pourcentage de bornes ultra-rapides en
+800 V, pourcentage de complétude de la don-
+Parties prenantes : constructeurs automobiles
+et de bornes de charge, État
+née « 800 V » de la base en open data
+Levier(s) : modification(s) réglementaire(s) ou de cahier des charges
+Les batteries 800 V présentent des avantages
+embarquer des adaptateurs pour pouvoir se
+de compacité et de vitesse de charge, et com-
+charger aussi sur du 400 V, et l’efficacité de la
+mencent à être déployées plus largement chez
+recharge est réduite.
+les constructeurs – en particulier dans les véhi-
+cules les plus hauts de gamme58. Les bornes de
+recharge DC ultra-rapides devront être conçues
+À court moyen terme, il conviendrait de condi-
+tionner les mécanismes de soutien aux CAPEX
+pour opérer à cette tension pour que les avan-
+tages de ces batteries soient effectifs.
+En effet, les véhicules dont les batteries sont
+des bornes rapides à une compatibilité 800 V.
+De plus, dans le cadre de la transparence et la
+disponibilité des données, l’information de la
+en 400 V peuvent se charger nativement sur
+tension des bornes devrait être accessible pour
+des bornes 800 V : déployer des bornes 800 V
+que les utilisateurs de batteries 800 V puissent
+n’exclurait donc pas les véhicules 400 V exis-
+choisir les bornes qui leur offriront une recharge
+tants. En revanche, les batteries 800 V doivent
+optimale.
+58 Frandroid, « Pourquoi les voitures électriques 800 volts vont ringardiser les modèles actuels », 31 décembre 2022
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 39
+4.2.5. Soutien à l’acquisition des poids lourds
+Impact : lancement de la dynamique d’électrification de la mobilité électrique
+KPI : ventes des camions électriques en France Parties prenantes : constructeurs, État
+Levier(s) : décision politique
+Concernant la recharge des poids lourds, les
+un système de primes ou de bonus forfaitaire
+acteurs de l’écosystème déplorent le fonction-
+à l’acquisition enverrait un signal fort à l’écosys-
+nement des mécanismes d’appel à projets,
+tème et permettrait de lancer la dynamique.
+qui donnent peu de visibilité aux candidats ;
+Parallèlement, cette phase de lancement des
+en effet, dans l’attente des résultats, les socié-
+camions électriques pourrait s’appuyer sur les
+tés doivent réaliser des investissements très
+modèles « truck-as-a-service », qui permet-
+significatifs dans leurs flottes sans pour autant
+traient aux logisticiens et transporteurs de faire
+avoir la garantie d’être lauréates. Pour lancer le
+évoluer leurs opérations sans porter de CAPEX
+mouvement de la mobilité lourde électrique,
+dans un premier temps.
+40 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+5. Annexes
+5.1. Vue détaillée par axe routier des besoins en points de charge
+à horizon 2035 pour le scénario Haut, Central et Bas
+Axe routier
+# points VL
+Haut
+# points PL
+Haut
+# points VL
+Central
+# points PL
+Central
+# points VL
+Bas
+# points PL
+Bas
+A0001
+1 006 803 820 344 449
+A0002 76 148
+A0004 1 277 1 211
+A0005 308 47
+62
+1 041
+251
+63
+34
+518 570 89
+148 137
+A0006 1 601
+1 556 1 305 665
+715
+A0007 1 680 1 139 1 369 487 750 84
+A0008 905 653 738 279 404 48
+A0009 1 090 1 875 888 802 487
+139
+A0010 1 536 1 766 1 252 755 686 130
+A0011 775 646 632
+276 346 48
+A0013 1 003 608 818 260 448 45
+A0015 251
+65
+205
+28 112
+A0016 273
+107 222 46 122
+A0019 100 128 82
+55 45
+5
+8
+9
+A0020 703 656 573
+280 314 48
+A0021
+109 155 89
+66 49
+A0025 119 170 97
+73
+A0026 473 777 386 333
+53
+211
+A0028 288 387 234 166 128
+A0029 250 306 204 131
+112
+11
+13
+57
+29
+23
+A0031 950 1 182 774 506 424 87
+59
+11
+26
+115
+A0035 359 133
+292
+A0036 423 916 345
+57
+392
+160 10
+189
+68
+31
+A0039 217 421
+177 180 97
+A0040 426 406 347
+174 190 30
+A0041 372
+114 303 49 166
+A0042 201
+179 164 77
+90
+8
+13
+A0043 537 443 438 190 240 33
+A0046 178 402
+145
+172
+79
+A0048 184 74 150
+31 82
+A0050 275
+25
+224
+A0051 262
+54 213
+11
+23
+123
+117
+A0054 108 107 88 46 48
+A0061 532
+333 433
+142
+237
+30
+5
+2
+4
+8
+25
+A0062 650 484 530 207 290 36
+A0063 498 933 406 399 222
+A0064 571
+356 465
+152
+255
+69
+26
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 41
+Axe routier
+# points VL
+Haut
+# points PL
+Haut
+# points VL
+Central
+# points PL
+Central
+# points VL
+Bas
+# points PL
+Bas
+A0071 555
+553 452
+236 248 41
+A0072 191 80 156
+34 85
+A0075 338 212
+275
+91
+151
+A0077 117
+187
+96 80 52
+A0081
+150 118 122
+51
+67
+A0083 275
+186 224 79 123
+6
+16
+14
+9
+14
+A0084 299 333 244 143
+134 25
+A0085 195
+196 159 84 87
+A0086 353
+A0087 157
+92
+103
+288
+39 158
+128 44 70
+14
+7
+8
+A0089 581 406 474 174 260 30
+2
+10
+11
+32
+A0104 223
+29 182
+A0630 248 130 202
+12
+55
+100
+111
+N0004 99 150 81
+64 44
+N0007 377 432
+N0010 419 591
+307
+341
+185
+253
+169
+187 44
+N0012 911
+556 743
+238 407 41
+N0013 198 58 161
+25 88
+N0079 77 307
+63
+131
+N0088 208 214 170 91
+35
+93
+4
+23
+16
+N0104 546 358 445
+153 244 26
+N0136 174 131
+142
+56
+N0137 240 101
+195 43
+78
+107
+N0141
+128
+N0145 93
+93
+253
+104 40 57
+76 108 42
+N0154 414 190 337
+81
+185
+10
+7
+7
+19
+14
+N0165 645
+275
+526
+118 288 20
+N0844 171 87 140 37
+76
+6
+Sources : Analyse d’AFRY
+42 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+6. Définitions
+Infrastructures de recharge (définitions réglementaires)
+Point de recharge : une interface associée à un
+emplacement de stationnement qui permet de
+bornes de recharge associées à des emplace-
+ments de stationnement, exploitée par un ou
+recharger un seul véhicule électrique à la fois
+plusieurs opérateurs
+Borne de recharge : un appareil fixe raccordé à
+un point d’alimentation électrique, comprenant
+Point de charge ouvert au public : Ces points
+de charge sont installés sur des domaines privés
+un ou plusieurs points de charge et pouvant
+soumis à des restrictions d’accès spécifiques,
+intégrer notamment des dispositifs de com-
+mais non discriminatoires, telles que l’utilisation
+munication, de comptage, de contrôle ou de
+sur des créneaux horaires précis. Cela concerne
+paiement
+Station de recharge : une zone comportant une
+borne de recharge associée à un ou des empla-
+cements de stationnement ou un ensemble de
+par exemple les points de charge dans les par-
+kings des grands entrepôts ou des magasins
+de proximité, dans les parkings souterrains, les
+établissements hôteliers et de restauration, etc.
+7. Abréviations
+AC : Alternative Current, en français : courant
+alternatif
+AOM : Autorité organisatrice de la mobilité
+AODE : Autorité organisatrice de la distribution
+d’énergie
+AAP : Appel à projets
+AFIR : Alternative Fuels Infrastructure
+Regulation
+BEV : Battery Electric Vehicle, en français : véhi-
+cule 100 % à batterie électrique
+CCS : Combined Charging System, en français :
+système de recharge combiné
+CPO : Charge Point Operator, en français : opé-
+rateur d’infrastructure
+PDC : Point de charge
+PHEV : Plug-in Hybrid Electric Vehicle en fran-
+çais : véhicule hybride rechargeable
+PL : Poids lourd
+RFID : Radio Frequency Identification
+RTE-T : réseau transeuropéen de transport,
+souvent en anglais « TEN-T »
+SDIRVE : Schéma directeur pour les infrastruc-
+tures de recharge
+TPE : Terminal de paiement électronique
+TMJA : Trafic moyen journalier annuel
+UE : Union européenne
+VASP : Véhicules automoteurs spécialisés
+DC : Direct Current, en français : courant continu
+VL : Véhicule léger
+GRDE : Gestionnaire de réseau de distribution
+d’électricité
+VP : Véhicule particulier
+VUL : Véhicule utilitaire léger
+IRVE : Infrastructure de recharge de véhicule
+électrique
+LOM (loi) : Loi d’orientation des mobilités
+ZNI : Zones non interconnectées
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 43
+8. Table des figures
+Figure 1 : Cartographie des points de charge sur les grands axes routiers
+Figure 2 : Besoin en nombre de points de charge pour la recharge publique sur les grands axes
+routiers
+Figure 3 : Besoin en nombre de points sur quelques axes routiers pour les véhicules légers et pour
+les poids lourds dans les différents scénarios par rapport à l’actuel
+Figure 4 : Obstacles au déploiement des IRVE
+Figure 5 : Mesures-clés relatives aux grands axes routiers
+Figure 6 : Mesures-clés transverses
+Figure 7 : Évaluation du besoin en recharge selon la typologie du trajet
+Figure 8 : Méthodologie utilisée pour la modélisation des besoins de recharge hors grands axes
+routiers
+Figure 9 : Méthodologie utilisée dans le cadre de la modélisation des besoins de recharge sur les
+grands axes routiers
+Figure 10 : Parc de véhicules, tous carburants confondus, en millions de véhicules
+Figure 11 : Parc de véhicules électriques (BEV) en millions de véhicules
+Figure 12 : Parc de poids lourds électriques (BEV) en millier de véhicules
+Figure 13 : Taux d’électrification des véhicules légers (à gauche) et des poids lourds (à droite)
+Figure 14 : Consommation moyenne de différentes catégories de véhicules en kWh/km
+Figure 15 : Évolution des besoins en recharge publique au cours du temps, en %
+Figure 16 : Besoin énergétique pour la recharge publique sur les grands axes routiers
+Figure 17 : Puissance moyenne acceptée pour différents chargeurs par les véhicules à différentes
+dates sur les grands axes routiers
+Figure 18 : Résultats de la modélisation pour les besoins en nombre de points de charge sur les
+grands axes routiers
+Figure 19 : Évolution du besoin en nombre de points sur quelques axes routiers pour les véhicules
+légers et pour les poids lourds
+Figure 20 : Évolution du besoin énergétique (TWh/an) de la recharge publique par typologie de
+recharge pour le scénario Central
+Figure 21 : Résultat de la modélisation pour les besoins en nombre de points de charge
+Figure 22 : Répartition des typologies de points avec un taux d’utilisation de 12,5 % en 2035
+Figure 23 : Correspondance entre taux d’utilisation et nombre d’heures d’utilisation quotidienne
+moyenne sur une année
+44 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 45
+CONTACTS POUR LE PRÉSENT RAPPORT
+Clément Molizon
+Yasmine Assef
+clement.molizon@avere-france.org
+yasmine.assef@afry.com
+M : +33 6 18 25 24 84
+M : + 33 7 85 92 77 41
+CONTRIBUTEURS
+Avere-France
+Clément Molizon, Bassem Haidar
+AFRY
+Yasmine Assef, Théo Sébastien,
+Arnaud Pauli
+À PROPOS D’AFRY
+AFRY fournit des services de conseil, numé-
+riques, de design et d’ingénierie pour accélérer
+la transition vers une société durable.
+Nous sommes 19 000 experts dévoués dans
+les secteurs de l’industrie, de l’énergie et de
+l’infrastructure. AFRY possède des racines
+nordiques avec une portée globale, produit
+des ventes nettes de 24 milliards de couronnes
+suédoises et est cotée au Nasdaq Stockholm.
+AFRY Management Consulting SAS
+1, rue de Gramont
+75002 Paris
+France
+À PROPOS DE L’AVERE-FRANCE
+L’Avere-France est l’association nationale pour
+le développement de la mobilité électrique.
+Créée en 1978 pour représenter l’ensemble
+Avere-France, Association nationale pour le
+développement de la mobilité électrique
+5, rue du Helder
+de l’écosystème de l’électro-mobilité dans les
+75009 Paris
+domaines industriel, commercial, institutionnel
+France
+ou associatif, elle a pour objectif de faire la pro-
+motion de l’utilisation des véhicules électriques
+et hybrides rechargeables.
+46 – HIT THE ROAD – Tome 2 / Déploiement de la recharge sur les grands axes routiers
+PARTENAIRES FINANCIERS
+À PROPOS DE LA BANQUE DES TERRITOIRES
+Créée en 2018, la Banque des Territoires est un
+des Dépôts afin d’être mieux identifiée auprès
+des cinq métiers de la Caisse des Dépôts. Elle
+de ses clients et au plus près d’eux.
+rassemble dans une même structure les exper-
+tises internes à destination des territoires. Porte
+d’entrée client unique, elle propose des solu-
+tions sur mesure de conseil et de financement
+en prêts et en investissement pour répondre
+aux besoins des collectivités locales, des orga-
+nismes de logement social, des entreprises
+publiques locales et des professions juridiques.
+Elle s’adresse à tous les territoires, depuis les
+zones rurales jusqu’aux métropoles, avec l’ambi-
+tion de lutter contre les inégalités sociales et les
+fractures territoriales. La Banque des Territoires
+est déployée dans les 16 directions régionales
+et les 37 implantations territoriales de la Caisse
+Pour des territoires plus attractifs, inclusifs,
+durables et connectés.
+www.banquedesterritoires.fr
+@BanqueDesTerr
+Sophie Huet
+sophie.huet2@caissedesdepots.fr
+M : + 33 6 07 42 14 50
+À PROPOS DE ECF
+The European Climate Foundation (ECF) is a
+responsible transition to a net-zero economy
+major philanthropic initiative working to help
+and sustainable society in Europe and around
+tackle the climate crisis by fostering the deve-
+the world.
+lopment of a net-zero emission society at the
+national, European, and global level. The ECF
+supports over 700 partner organisations to carry
+out activities that drive urgent and ambitious
+policy in support of the objectives of the Paris
+Agreement, contribute to the public debate
+on climate action, and help deliver a socially
+Agathe Destresse
+agathe.destresse@Europeanclimate.org
+Cette étude a été soutenue par la Fondation européenne pour le climat et la Banque des Territoires.
+La responsabilité des informations et des points de vue exprimés dans cette étude incombe aux auteurs.
+La Fondation européenne pour le climat et la Banque des Territoires ne peuvent être tenues responsables
+de l’utilisation qui pourrait être faite des informations contenues ou exprimées dans ce document.
+Tome 2 / Déploiement de la recharge sur les grands axes routiers – HIT THE ROAD – 3
+s
+e
+g
+a
+m
+I
+y
+t
+t
+e
+G
+:
+e
+r
+u
+t
+r
+e
+v
+u
+o
+c
+e
+d
+o
+t
+o
+h
+P
+-
+3
+2
+0
+2
+e
+r
+b
+m
+e
+t
+p
+e
+s
+-
+r
+f
+.
+t
+i
+r
+p
+s
+e
+d
+-
+t
+a
+t
+e
+w
+w
+w
+.
+-
+s
+i
+t
+a
+r
+t
+S
+t
+i
+r
+p
+s
+E
+d
+t
+a
+t
+É
+’
+:
+n
+o
+i
+t
+a
+s
+i
+l
+a
+é
+r
+i
+t
+e
+e
+u
+q
+h
+p
+a
+r
+g
+n
+o
+i
+t
+p
+e
+c
+n
+o
+C
+Avec le soutien de

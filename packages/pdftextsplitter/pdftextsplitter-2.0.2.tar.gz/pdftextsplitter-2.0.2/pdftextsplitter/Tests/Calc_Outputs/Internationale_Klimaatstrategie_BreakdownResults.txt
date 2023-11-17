@@ -1,0 +1,1129 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Internationale_Klimaatstrategie] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Internationale_Klimaatstrategie
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Doordrongen van de wetenschappelijk onderbouwde urgentie heeft het kabinet de Nederlandse klimaatacties versneld. In EU-verband spant Nederland zich in voor snelle en ambitieuze implementatie van de Europese Green Deal. Deze eerste rijksbrede Internationale Klimaatstrategie beschrijft hoe het kabinet de inzet voor het klimaat ook wereldwijd wil verstevigen. Het kabinet versterkt de multilaterale en bilaterale klimaatdiplomatie, verhoogt de klimaatfinanciering, faseert de steun uit aan internationale unabated fossiele energieactiviteiten en vergroent de handelsmissies, de economische dienstverlening door ambassades en de inzet op publieke infrastructuur in ontwikkelingslanden. Het kabinet wil hierin samenwerken met kennis instellingen, het maatschappelijk middenveld en het bedrijfsleven. Mitigatie, het 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Internationale Klimaatstrategie
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = van ambitie naar transitie
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Samenvatting Inhoudsopgave
+ nativeID=3 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Doordrongen van de wetenschappelijk onderbouwde urgentie heeft het kabinet de Nederlandse klimaatacties versneld. In EU-verband spant Nederland zich in voor snelle en ambitieuze implementatie van de Europese Green Deal. Deze eerste rijksbrede Internationale Klimaatstrategie beschrijft hoe het kabinet de inzet voor het klimaat ook wereldwijd wil verstevigen. Het kabinet versterkt de multilaterale en bilaterale klimaatdiplomatie, verhoogt de klimaatfinanciering, faseert de steun uit aan internationale unabated fossiele energieactiviteiten en vergroent de handelsmissies, de economische dienstverlening door ambassades en de inzet op publieke infrastructuur in ontwikkelingslanden. Het kabinet wil hierin samenwerken met kennis instellingen, het maatschappelijk middenveld en het bedrijfsleven. Mitigatie, het 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = De wetenschap laat zien dat het één voor twaalf is om de doelstellingen van het Parijsakkoord en de Duurzame Ontwikkelingsdoelen (SDG’s) te behalen. Het uitblijven van snelle en betekenisvolle stappen in de groene transitie leidt tot een steeds verdere temperatuurstijging, biodiversiteitsverlies en milieu degradatie. Elke verdere temperatuurstijging, hoe klein ook, heeft onomkeerbare gevolgen voor de leefbaarheid van de aarde en het welzijn van de mens. De aankomende jaren zijn beslissend. De korte termijn investeringen verbleken bij de kosten die ongebreidelde klimaatverandering in de nabije toekomst van de samenleving zal vragen.
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Doordrongen van de wetenschappelijk onderbouwde urgentie heeft het kabinet de Nederlandse klimaatacties versneld. In EU-verband spant Nederland zich in voor snelle en ambitieuze implementatie van de Europese Green Deal. Deze eerste rijksbrede Internationale Klimaatstrategie beschrijft hoe het kabinet de inzet voor het klimaat ook wereldwijd wil verstevigen. Het kabinet versterkt de multilaterale en bilaterale klimaatdiplomatie, verhoogt de klimaatfinanciering, faseert de steun uit aan internationale unabated fossiele energieactiviteiten en vergroent de handelsmissies, de economische dienstverlening door ambassades en de inzet op publieke infrastructuur in ontwikkelingslanden. Het kabinet wil hierin samenwerken met kennis instellingen, het maatschappelijk middenveld en het bedrijfsleven. Mitigatie, het 
+
+ [ALINEA-CONTENT]:
+Doordrongen van de wetenschappelijk onderbouwde urgentie
+heeft het kabinet de Nederlandse klimaatacties versneld.
+In EU-verband spant Nederland zich in voor snelle en ambitieuze
+
+          ***          [--- more alinea content ---]        ***          
+
+mondiale, sectorale en nationale transities. Zo werkt Nederland
+binnen en buiten de eigen landsgrenzen aan een koolstofarme en
+klimaatweerbare wereld in 2050.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Inleiding Grotere focus op klimaat, zowel in Nederland als in het buitenland DEEL A Kompas voor 2050: de Nederlandse strategie en ambities
+ nativeID=5 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Wat is er nodig? Onze strategische doelstellingen
+ nativeID=6 parentID=5 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Mitigatie Adaptatie Financiering
+ nativeID=7 parentID=6 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Rijksbrede kijk op klimaat
+ nativeID=8 parentID=7 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Klimaat en veiligheid Klimaat en humanitaire hulp Klimaat en gezondheid
+ nativeID=9 parentID=7 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Actiegerichte en inclusieve aanpak en samenwerking op dwarsdoorsnijdende thema’s
+ nativeID=10 parentID=5 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Eerlijke en inclusieve transitie Gender, jongeren en inheemse gemeenschappen Nature-based solutions De Nederlandse diamant benadering EU-samenwerking
+ nativeID=11 parentID=10 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = DEEL B
+ nativeID=12 parentID=10 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Inzet in deze kabinetsperiode
+ nativeID=13 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Mitigatie
+ nativeID=14 parentID=13 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Energie Circulaire economie Duurzame mobiliteit en transport Landbouw, landgebruik en bossen & biodiversiteit
+ nativeID=15 parentID=13 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Adaptatie
+ nativeID=16 parentID=13 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Water Landgebruik en voedselsystemen
+ nativeID=17 parentID=13 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Financiering Uitvoeringsinstrumentarium
+ nativeID=18 parentID=13 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Vergroenen van financieringsinstrumenten Vergroenen van handelsinstrumenten Fossielvrij Klimaatdiplomatie
+ nativeID=19 parentID=13 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Afkortingen
+ nativeID=20 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De oorlog in Oekraïne en de huidige geopolitieke context vragen om een energietransitie en de urgentie om klimaatverandering te beperken is onverminderd groot. Niet alleen in Europees Nederland maar ook in de Caraïbische delen van het Koninkrijk zijn de gevolgen van klimaatverandering voelbaar en de uitdagingen van de verduurzamingstransitie groot, net zoals in de rest van de wereld. Om de aarde niet meer dan 1,5 °C te laten opwarmen, het biodiversiteitsverlies te stoppen en te herstellen, vervuiling tegen te gaan en de Sustainable Development Goals (SDG’s) te behalen, zullen we in dit cruciale decennium tot 2030, de energietransitie moeten realiseren 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Inleiding
+ nativeID=21 parentID=20 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Grotere focus op klimaat, zowel in Nederland als in het buitenland
+ nativeID=22 parentID=20 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De oorlog in Oekraïne en de huidige geopolitieke context vragen om een energietransitie en de urgentie om klimaatverandering te beperken is onverminderd groot. Niet alleen in Europees Nederland maar ook in de Caraïbische delen van het Koninkrijk zijn de gevolgen van klimaatverandering voelbaar en de uitdagingen van de verduurzamingstransitie groot, net zoals in de rest van de wereld. Om de aarde niet meer dan 1,5 °C te laten opwarmen, het biodiversiteitsverlies te stoppen en te herstellen, vervuiling tegen te gaan en de Sustainable Development Goals (SDG’s) te behalen, zullen we in dit cruciale decennium tot 2030, de energietransitie moeten realiseren 
+
+ [ALINEA-CONTENT]:
+De oorlog in Oekraïne en de huidige geopolitieke context vragen
+om een energietransitie en de urgentie om klimaatverandering te
+beperken is onverminderd groot. Niet alleen in Europees
+
+          ***          [--- more alinea content ---]        ***          
+
+de aanpassingen voor een groen uitvoeringsinstrumentarium
+voor buitenlandse handel en investeringen, en
+klimaatdiplomatie.4
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = I n z e t o p d w a r s doorsnijdende thema's
+ nativeID=23 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = I n z e t in sectoren
+ nativeID=24 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+k e n i 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M itigatie CO2 Parijs- akkoord
+ nativeID=25 parentID=24 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+k e n i 
+
+ [ALINEA-CONTENT]:
+k
+e
+n
+
+          ***          [--- more alinea content ---]        ***          
+
+i
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = s o l u ti o n s | N e d erlandse diamant b
+ nativeID=26 parentID=24 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = uik
+ nativeID=27 parentID=26 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = br
+ nativeID=28 parentID=24 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+o
+g
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = DEEL A
+ nativeID=29 parentID=24 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Kompas voor 2050: de Nederlandse strategie en ambities
+ nativeID=30 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Klimaatverandering raakt landen en gemeenschappen wereldwijd. In de afgelopen jaren is sprake van meer weersextremen waaronder droogte, overstromingen en orkanen die leiden tot groot menselijk leed en beschadigde infrastructuur. Het is zeer onzeker of alle SDG’s behaald zullen worden. Extreme weersomstandigheden raken fragiele landen met zwakke instituties en beperkte sociale vangnetten onevenredig hard. Klimaatverandering heeft wereldwijd gevolgen. Te denken valt aan het verlies aan biodiversiteit, landen die deels of volledig onder water komen te staan en nieuwe vaarroutes in de Arctische gebieden, verschuiving in het groei- en verdienvermogen van landen en regio’s met bijbehorende consequenties voor de politieke stabiliteit, afnemende 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Wat is er nodig?
+ nativeID=31 parentID=30 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Klimaatverandering raakt landen en gemeenschappen wereldwijd. In de afgelopen jaren is sprake van meer weersextremen waaronder droogte, overstromingen en orkanen die leiden tot groot menselijk leed en beschadigde infrastructuur. Het is zeer onzeker of alle SDG’s behaald zullen worden. Extreme weersomstandigheden raken fragiele landen met zwakke instituties en beperkte sociale vangnetten onevenredig hard. Klimaatverandering heeft wereldwijd gevolgen. Te denken valt aan het verlies aan biodiversiteit, landen die deels of volledig onder water komen te staan en nieuwe vaarroutes in de Arctische gebieden, verschuiving in het groei- en verdienvermogen van landen en regio’s met bijbehorende consequenties voor de politieke stabiliteit, afnemende 
+
+ [ALINEA-CONTENT]:
+Klimaatverandering raakt landen en gemeenschappen
+wereldwijd. In de afgelopen jaren is sprake van meer
+weersextremen waaronder droogte, overstromingen en orkanen
+
+          ***          [--- more alinea content ---]        ***          
+
+het Parijsakkoord. Alleen op die manier zal er voldoende financiering
+worden gemobiliseerd om de uitdagingen van klimaatverandering
+het hoofd te kunnen bieden en de SDG’s te behalen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Onze strategische doelstellingen
+ nativeID=32 parentID=30 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Op weg naar netto nul uitstoot van broeikasgassen in 2050 blijft Nederland, in de bredere context van de mondiale leiderschapsrol van de EU, een internationale voortrekkersrol ambiëren in het behalen van de Parijsdoelen en de SDG’s. Nederland ziet de SDG’s als een universele en samenhangende agenda voor duurzame economische ontwikkeling, armoedebestrijding en het tegengaan van klimaatverandering. Het is ons mondiaal gedeelde plan om menselijk welzijn en welvaart voor de toekomst veilig te stellen. De doelen zijn zo geformuleerd dat ze elkaar kunnen versterken. En waar uitruil dreigt, zijn we alert en spelen we daarop in.10 Nederland ziet de klimaatcrisis in 
+
+ [ALINEA-CONTENT]:
+Op weg naar netto nul uitstoot van broeikasgassen in 2050 blijft
+Nederland, in de bredere context van de mondiale leiderschapsrol
+van de EU, een internationale voortrekkersrol ambiëren in het
+
+          ***          [--- more alinea content ---]        ***          
+
+ontwikkelingslanden te hebben. De strategie is erop gericht
+ontwikkelingslanden te ondersteunen in de energietransitie en
+de klimaatweerbaarheid van deze landen te vergroten.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Mitigatie
+ nativeID=33 parentID=32 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Van de huidige emissies wereldwijd is 75% afkomstig uit gebruik van fossiele brandstoffen, en 45% van de emissies direct verbonden met productie en consumptie16. De voetafdruk van het Nederlandse leefpatroon is naar verhouding groot.17 Bovendien ligt ongeveer 40% van de Nederlandse broeikasgas voetafdruk buiten Nederland. Dit komt omdat een groot deel van de productie van goederen en diensten die wij als Nederlanders gebruiken in het buitenland plaatsvindt.18 Tegelijkertijd hangt ongeveer 60% van het mondiale biodiversiteitsverlies dat aan de Nederlandse consumptie kan worden toegekend samen met broeikasgasemissies.19 Nederland dient dus niet alleen binnen de eigen landsgrenzen de uitstoot te verminderen, maar 
+
+ [ALINEA-CONTENT]:
+Van de huidige emissies wereldwijd is 75% afkomstig
+uit gebruik van fossiele brandstoffen, en 45% van
+de emissies direct verbonden met productie en consumptie16.
+
+          ***          [--- more alinea content ---]        ***          
+
+geheel te verduurzamen. Het kabinet heeft hierbij de ambitie om
+met het Koninkrijk een voorbeeld te zijn voor de verduurzaming van
+andere kleine eilandstaten.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Adaptatie
+ nativeID=34 parentID=32 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De huidige temperatuur is nu al 1˚C boven het pre- industriële niveau (1850-1900). Zelfs als het lukt om de opwarming van de aarde onder de 1,5˚C te houden, zal het noodzakelijk zijn ons op allerlei manieren aan te passen aan een veranderend klimaat. De sleutel hiertoe ligt in het verminderen van de kwetsbaarheid en vergroten van de weerbaarheid van mensen en ecosystemen tegen de gevolgen van klimaatverandering. De huidige wereldwijde klimaatadaptatie-inspanningen zijn echter ontoereikend om de gestegen klimaatstress op te vangen en klimaatschokken effectief te beheersen. Het IPCC concludeert dat inmiddels de helft van de wereldbevolking in een situatie van 
+
+ [ALINEA-CONTENT]:
+De huidige temperatuur is nu al 1˚C boven het pre-
+industriële niveau (1850-1900). Zelfs als het lukt om de
+opwarming van de aarde onder de 1,5˚C te houden, zal het
+
+          ***          [--- more alinea content ---]        ***          
+
+verbeteren van de kwaliteit, kwantiteit en toegankelijkheid van
+adaptatie financiering, bijvoorbeeld via de in september 2021
+opgerichte Champions Group on Adaptation Finance.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Financiering
+ nativeID=35 parentID=32 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Voor het behalen van de mitigatie- en adaptatiedoelen van het Parijsakkoord zijn wereldwijd veel meer en grotere investeringen noodzakelijk uit een veelheid van bronnen en kanalen, en door uiteenlopende donoren. Het kabinet benadrukt daarom het belang van artikel 2.1c van het Parijsakkoord om alle financieringsstromen in overeenstemming te brengen met het Parijsakkoord (Paris Alignment). Het kabinet acht nakoming van de toezegging gedaan door ontwikkelde landen op klimaattop COP15 in 2009 om, in de jaren 2020 tot 2025, jaarlijks USD 100 miljard te mobiliseren voor klimaatactie in ontwikkelingslanden van groot belang voor de mondiale samenwerking onder het Parijsakkoord.32 Nederland wil hier 
+
+ [ALINEA-CONTENT]:
+Voor het behalen van de mitigatie- en adaptatiedoelen
+van het Parijsakkoord zijn wereldwijd veel meer en
+grotere investeringen noodzakelijk uit een veelheid van bronnen en
+
+          ***          [--- more alinea content ---]        ***          
+
+fossiele energiesector’.33 Daarnaast investeren we extra in groene
+publiek-private marktbewerkings strategieën en we vergroenen
+onze inzet op publieke infrastructuur in ontwikkelingslanden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Rijksbrede kijk op klimaat
+ nativeID=36 parentID=30 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Onder de coördinatie van de Minister voor Buitenlandse Handel en Ontwikkelingssamenwerking (BHOS) slaan de verschillende ministeries van de rijksoverheid internationaal de handen nog steviger ineen. Onze werkwijze is daarbij strategisch, gezamenlijk en adaptief. Op drie beleidsterreinen versterken we de klimaatlens in de vormgeving van ons beleid. Nederland draagt bij aan het efficiënter en effectiever maken van het internationale humanitaire systeem, onder meer door de nadruk te leggen op anticiperende hulp en rampenparaatheid. Nederland steunt het ambitieuze plan van de Secretaris- Generaal van de Verenigde Naties (SGVN) dat ervoor moet zorgen dat burgers wereldwijd door vroegtijdige waarschuwing systemen (early warning) worden 
+
+ [ALINEA-CONTENT]:
+Onder de coördinatie van de Minister voor Buitenlandse Handel en Ontwikkelingssamenwerking (BHOS) slaan de verschillende
+ministeries van de rijksoverheid internationaal de handen nog steviger ineen. Onze werkwijze is daarbij strategisch, gezamenlijk en
+adaptief. Op drie beleidsterreinen versterken we de klimaatlens in de vormgeving van ons beleid.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Klimaat en humanitaire hulp Klimaat en veiligheid Klimaat en gezondheid
+ nativeID=37 parentID=36 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nederland draagt bij aan het efficiënter en effectiever maken van het internationale humanitaire systeem, onder meer door de nadruk te leggen op anticiperende hulp en rampenparaatheid. Nederland steunt het ambitieuze plan van de Secretaris- Generaal van de Verenigde Naties (SGVN) dat ervoor moet zorgen dat burgers wereldwijd door vroegtijdige waarschuwing systemen (early warning) worden beschermd tegen extreem weer en klimaatverandering34 en steunt de vergroening van humanitaire organisaties. Nederland zet in op het bieden van duurzame oplossingen en perspectief voor vluchtelingen, intern ontheemden en kwetsbare migranten. We richten ons hierbij op (sociale) bescherming, onderwijs en werkgelegenheid (decent work), in samenwerking met 
+
+ [ALINEA-CONTENT]:
+Nederland draagt bij aan het efficiënter
+en effectiever maken van het
+internationale humanitaire systeem,
+
+          ***          [--- more alinea content ---]        ***          
+
+(zoals ontwikkelingssamenwerking,
+economische diplomatie en inzet van
+het postennetwerk).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Actiegerichte en inclusieve aanpak en samenwerking op dwarsdoorsnijdende thema’s
+ nativeID=38 parentID=30 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nederland heeft oog voor de effecten die de duurzaamheidstransitie in landen kan hebben op mens en maatschappij en let op de verdeling van de lasten. Diverse rapporten (onder meer van het Planbureau voor de Leefomgeving (PBL) en het Afrikaans-Nederlandse platform INCLUDE) signaleren dat de vergroening van economieën nieuwe en groene banen brengt, maar dat dit vraagt om zorgvuldige transitiepaden en speciale aandacht voor onderwijs en scholing toegespitst op een duurzame economie en decent jobs.36 Nederlandse expertise op het gebied van leefbaar loon, het uitbannen van kinderarbeid en scholing kan hieraan bijdragen. Nederland onderstreept het belang van de ‘Leave No One 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Vijf elementen zijn leidend in de Nederlandse strategische aanpak en bijdrage voor klimaatgerichte interventies over de rijksbrede linie van beleidsterreinen:
+ nativeID=39 parentID=38 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Eerlijke en inclusieve transitie
+ nativeID=40 parentID=38 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Gender, jongeren en inheemse gemeenschappen
+ nativeID=41 parentID=38 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Nature-based solutions
+ nativeID=42 parentID=38 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = De Nederlandse “diamantbenadering”
+ nativeID=43 parentID=42 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = EU-samenwerking
+ nativeID=44 parentID=38 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nederland heeft oog voor de effecten die de duurzaamheidstransitie in landen kan hebben op mens en maatschappij en let op de verdeling van de lasten. Diverse rapporten (onder meer van het Planbureau voor de Leefomgeving (PBL) en het Afrikaans-Nederlandse platform INCLUDE) signaleren dat de vergroening van economieën nieuwe en groene banen brengt, maar dat dit vraagt om zorgvuldige transitiepaden en speciale aandacht voor onderwijs en scholing toegespitst op een duurzame economie en decent jobs.36 Nederlandse expertise op het gebied van leefbaar loon, het uitbannen van kinderarbeid en scholing kan hieraan bijdragen. Nederland onderstreept het belang van de ‘Leave No One 
+
+ [ALINEA-CONTENT]:
+Nederland heeft oog voor de effecten die
+de duurzaamheidstransitie in landen kan
+hebben op mens en maatschappij en let
+
+          ***          [--- more alinea content ---]        ***          
+
+Waar EU-breed optreden niet haalbaar is,
+zoeken we actief de samenwerking op
+met gelijkgezinde EU-partners.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = DEEL B
+ nativeID=45 parentID=30 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Inzet in deze kabinetsperiode
+ nativeID=46 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Onze klimaatambities zijn sterk verbonden met ons energiebeleid, in binnen- en buitenland. Om die ambities waar te kunnen maken zullen bestaande technieken voor het opwekken van hernieuwbare energie (verder) worden opgeschaald en nieuwe technieken worden ontwikkeld. Nederland wil dat internationale samenwerking op dit vlak wederzijds perspectief biedt. Daarom gaat het kabinet extra investeren in, enerzijds, landen met een groot potentieel voor hernieuwbare energie, zodat de energietransitie ter plaatse versneld wordt en een deel van die energie geëxporteerd kan worden, en, anderzijds, in landen waar hernieuwbare energie een groot potentieel biedt voor armoedebestrijding en ontwikkeling, zodat vervuilende ontwikkelingspaden kunnen worden overgeslagen 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Mitigatie
+ nativeID=47 parentID=46 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Nederland versnelt wereldwijd de transitie naar netto nul uitstoot en een volledig circulaire economie in 2050 in de sectoren energie, duurzame mobiliteit, landbouw en landgebruik, en positioneert zich als partner voor groene oplossingen.
+ nativeID=48 parentID=46 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Onze klimaatambities zijn sterk verbonden met ons energiebeleid, in binnen- en buitenland. Om die ambities waar te kunnen maken zullen bestaande technieken voor het opwekken van hernieuwbare energie (verder) worden opgeschaald en nieuwe technieken worden ontwikkeld. Nederland wil dat internationale samenwerking op dit vlak wederzijds perspectief biedt. Daarom gaat het kabinet extra investeren in, enerzijds, landen met een groot potentieel voor hernieuwbare energie, zodat de energietransitie ter plaatse versneld wordt en een deel van die energie geëxporteerd kan worden, en, anderzijds, in landen waar hernieuwbare energie een groot potentieel biedt voor armoedebestrijding en ontwikkeling, zodat vervuilende ontwikkelingspaden kunnen worden overgeslagen 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Energie
+ nativeID=49 parentID=48 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Onze klimaatambities zijn sterk verbonden met ons energiebeleid, in binnen- en buitenland. Om die ambities waar te kunnen maken zullen bestaande technieken voor het opwekken van hernieuwbare energie (verder) worden opgeschaald en nieuwe technieken worden ontwikkeld. Nederland wil dat internationale samenwerking op dit vlak wederzijds perspectief biedt. Daarom gaat het kabinet extra investeren in, enerzijds, landen met een groot potentieel voor hernieuwbare energie, zodat de energietransitie ter plaatse versneld wordt en een deel van die energie geëxporteerd kan worden, en, anderzijds, in landen waar hernieuwbare energie een groot potentieel biedt voor armoedebestrijding en ontwikkeling, zodat vervuilende ontwikkelingspaden kunnen worden overgeslagen 
+
+ [ALINEA-CONTENT]:
+Onze klimaatambities zijn sterk verbonden met ons
+energiebeleid, in binnen- en buitenland. Om die ambities waar te
+kunnen maken zullen bestaande technieken voor het opwekken
+
+          ***          [--- more alinea content ---]        ***          
+
+klimaatkeuzes bevorderen, waaronder het sluiten van mijnen en
+kolencentrales, het tegengaan van ontbossing en het initiëren van
+projecten voor hernieuwbare energie en circulaire oplossingen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Circulaire economie
+ nativeID=50 parentID=48 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Naast groene energievoorziening benadrukt het kabinet de mitigatiewinst die de transitie naar een circulaire economie kan bewerkstelligen. Middels circulaire oplossingen wordt ingezet op enerzijds het verminderen van het gebruik van grondstoffen en anderzijds het hergebruiken van materialen. Hierdoor kunnen materialen langer in waardeketens blijven en krijgen afvalstromen een zo hoogwaardig mogelijke bestemming. Dit verlaagt emissies in productie, consumptie en in afvalverwerking langs de gehele keten. Het Nationale Programma Circulaire Economie 2023-2030 bevat een internationale inzet.42 Hierbij wordt aangesloten op actie op het Europese niveau, onder meer het EU Circular Economy Action Plan43 en de externe aspecten daarvan alsook het EU 
+
+ [ALINEA-CONTENT]:
+Naast groene energievoorziening benadrukt het kabinet de
+mitigatiewinst die de transitie naar een circulaire economie kan
+bewerkstelligen. Middels circulaire oplossingen wordt ingezet op
+
+          ***          [--- more alinea content ---]        ***          
+
+ontwikkeling van circulaire verdienmodellen met kansen specifiek
+voor vrouwen en jongeren. Dit draagt bij aan versnelde en eerlijke
+transities en klimaatwinst.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Duurzame mobiliteit en transport
+ nativeID=51 parentID=48 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De transportsector neemt mondiaal ongeveer een kwart van alle CO2-emissies voor zijn rekening.47 Onder huidige scenario’s zullen deze emissies verder toenemen, voortgedreven door economische ontwikkeling en bevolkingsgroei.48 Een sterke internationale inzet is van belang om kansen te benutten en de mondiale transitie naar zero-emissie in de mobiliteitssector te versnellen voor alle modaliteiten, inclusief spoor- en wegvervoer, scheep- en luchtvaart. Nederland heeft daarbij veel te bieden, zoals kennis over de opbouw van laadinfrastructuurnetwerken, digitalisering, smart mobility, zero-emissie zones, beleid op slimme en actieve mobiliteit (fietsinfrastructuur), ontwikkeling van duurzame brandstoffen en de multistakeholder aanpak omtrent multimodaliteit. Hoewel de technologieën goed ontwikkeld zijn, 
+
+ [ALINEA-CONTENT]:
+De transportsector neemt mondiaal ongeveer een kwart van alle
+CO2-emissies voor zijn rekening.47 Onder huidige scenario’s zullen
+deze emissies verder toenemen, voortgedreven door economische
+
+          ***          [--- more alinea content ---]        ***          
+
+TtW) kwantitatief wordt meegewogen. Voor een economische
+ofwel marktgerichte maatregel moet nog een keuze worden
+gemaakt uit een emissiehandelssysteem of een heffingssysteem.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = Landbouw, landgebruik, bossen & biodiversiteit
+ nativeID=52 parentID=51 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Landbouw en verandering van landgebruik (Agriculture, Forestry and Other Land Use, AFOLU) vormen samen bijna een kwart van de emissies wereldwijd en de belangrijkste driver van biodiversiteitsverlies.53 Nederland zet zich internationaal in om emissies uit landbouw en verandering van landgebruik te reduceren en biodiversiteit te versterken. Het kabinet versterkt daarom de strategische inzet voor verduurzaming van de landbouw waarbij de SDG’s, het Parijsakkoord en het VN-Biodiversiteits verdrag belangrijke beleidskaders vormen. Het kabinet ontwikkelt een internationale agenda op dit terrein, gericht op een Nederlandse inzet in derde landen om productie binnen de draagkracht van de aarde te laten plaatsvinden. Daarnaast draagt 
+
+ [ALINEA-CONTENT]:
+Landbouw en verandering van landgebruik (Agriculture, Forestry and
+Other Land Use, AFOLU) vormen samen bijna een kwart van de
+emissies wereldwijd en de belangrijkste driver van
+
+          ***          [--- more alinea content ---]        ***          
+
+draagt er zorg voor dat het gehele BHOS-beleid negatieve impact
+op biodiversiteit vermijdt. Als onderdeel hiervan heeft het kabinet
+in het handelsbeleid bijzondere aandacht voor biodiversiteit.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Adaptatie
+ nativeID=53 parentID=48 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Nederland werkt wereldwijd aan het verminderen van klimaatkwetsbaarheid, het versterken van de adaptieve capaciteit en het verhogen van de klimaatweerbaarheid van mensen en ecosystemen.
+ nativeID=54 parentID=46 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het IPCC beargumenteert dat elke opwarming van de aarde gepaard gaat met de noodzaak tot klimaatadaptatie. Nederland zet daarom nationaal en internationaal in op een robuuste adaptatie- actiecyclus. Nederland is koploper op adaptatiefinanciering door minimaal de helft van zijn publieke klimaatfinanciering op adaptatie te richten. Nederland werkt aan geïntegreerde oplossingen die passen bij de lokale context (locally led adaptation) waarbij Nederlandse kennis van verschillende sectoren en van verschillende actoren wordt ingezet om oplossingen en kansen te co-creëren. Nature-based solutions kunnen een belangrijke rol spelen in klimaatadaptatie oplossingen en het behoud van biodiversiteit. Met de Nederlandse kennis en kunde relevant voor 
+
+ [ALINEA-CONTENT]:
+Het IPCC beargumenteert dat elke opwarming van de aarde
+gepaard gaat met de noodzaak tot klimaatadaptatie. Nederland zet
+daarom nationaal en internationaal in op een robuuste adaptatie-
+
+          ***          [--- more alinea content ---]        ***          
+
+middeninkomenslanden met partners uit deze landen wordt
+samengewerkt om te innoveren en te investeren voor versterkte
+(klimaat)weerbaarheid.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Water
+ nativeID=55 parentID=54 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De druk op water neemt toe door klimaatverandering, bevolkingsgroei, vervuiling, productie (industrie en landbouw) en urbanisatie. Schattingen geven aan dat als de huidige trends doorzetten, in het jaar 2050 45% van het wereldwijde inkomen, 52% van de wereldbevolking en 40% van de graanproductie in gevaar zijn.55 Op dit moment leven al meer dan twee miljard mensen in landen waar de beschikbaarheid van zoet water onder druk staat en de verwachting is dat in 2030 de vraag naar water veel hoger zal zijn dan de beschikbaarheid. Tegen 2050 leeft twee-derde van de wereldbevolking naar verwachting in steden, waarvan 800 miljoen mensen 
+
+ [ALINEA-CONTENT]:
+De druk op water neemt toe door klimaatverandering,
+bevolkingsgroei, vervuiling, productie (industrie en landbouw) en
+urbanisatie. Schattingen geven aan dat als de huidige trends
+
+          ***          [--- more alinea content ---]        ***          
+
+oplossingen daarvoor. Verder zal Nederland met de opschaling zeven
+miljoen mensen extra toegang geven tot veilige drinkwater- en
+sanitaire voorzieningen die klimaatbestendig zijn.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Landgebruik en voedselsystemen
+ nativeID=56 parentID=54 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Klimaatverandering zorgt voor temperatuurstijging en wereldwijde degradatie van landbouwgrond. Met name in droge gebieden in Afrika zijn de, toch al laagproductieve, voedselproductiesystemen steeds minder in staat om een groeiende bevolking te voeden. De positie van Nederland in de voedselketen, de kennis en kunde van het Nederlandse agro- bedrijfsleven en van kennisinstellingen bieden mogelijk heden om wereldwijd bij te dragen aan klimaatadaptatie, zoals via klimaatslimme landbouw en zaadveredeling (weerbaardere gewassen). Om continuïteit te borgen en meerjarige impact te realiseren wordt de huidige inzet voortgezet, verstevigd en waar nodig bijgestuurd. Het kabinet heeft recent zijn steun hernieuwd voor EUR 150 miljoen aan 
+
+ [ALINEA-CONTENT]:
+Klimaatverandering zorgt voor temperatuurstijging en
+wereldwijde degradatie van landbouwgrond. Met name in droge
+gebieden in Afrika zijn de, toch al laagproductieve,
+
+          ***          [--- more alinea content ---]        ***          
+
+onderdelen (zoals voedsel, water, bodem, biodiversiteit,
+landrechten, armoede, economische ontwikkeling en veiligheid)
+met elkaar verbinden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Financiering
+ nativeID=57 parentID=54 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Nederland accelereert wereldwijd de klimaat- en energietransitie door met publieke middelen meer private financiering te mobiliseren voor klimaatactie en klimaatadaptatie.
+ nativeID=58 parentID=46 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+van op klimaatactie gerichte ontwikkelings programma’s en via met publieke middelen gemobiliseerde private klimaatfinanciering. In 2025 bedraagt de totale Nederlandse klimaatfinanciering naar verwachting meer dan EUR 1,8 miljard, waarbij minimaal de helft van de publieke financiering voor adaptatie wordt bestemd.61 Nederland spant zich in om aan te sluiten bij mondiale klimaatinvesteringspakketten zoals EU Global Gateway en Just Energy Transition Partnerships, bijvoorbeeld door bijdragen te leveren die ook private investeringen genereren (zoals Invest International, FMO en handelsbevordering). 1,25 miljard euro 1,8 miljard euro Het IEA en IRENA hebben laten zien dat het behalen van het 1,5 graden doel vraagt om mondiale 
+
+ [ALINEA-CONTENT]:
+van op klimaatactie gerichte ontwikkelings programma’s en via
+met publieke middelen gemobiliseerde private
+klimaatfinanciering. In 2025 bedraagt de totale Nederlandse
+
+          ***          [--- more alinea content ---]        ***          
+
+Gateway en Just Energy Transition Partnerships, bijvoorbeeld door
+bijdragen te leveren die ook private investeringen genereren
+(zoals Invest International, FMO en handelsbevordering).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Klimaatfinanciering
+ nativeID=59 parentID=58 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1,25 miljard euro 1,8 miljard euro Het IEA en IRENA hebben laten zien dat het behalen van het 1,5 graden doel vraagt om mondiale investeringen van USD 5.000 miljard per jaar tot 2030. Dat betekent dus een sterke groei van het mondiale energie-investeringsniveau, in combinatie met een drastische verschuiving van fossiel naar hernieuwbaar. Hoewel hernieuwbare energie vaak al goedkoper is, vragen de initiële en integratiekosten extra financiering. Deze zal grotendeels uit de markt moeten komen, maar publieke middelen spelen een belangrijke aanjagende rol. Bij klimaatadaptatie is de rol van publieke financiering vaak nog groter omdat de economische voordelen voor een 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2021
+ nativeID=60 parentID=59 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1,25 miljard euro 
+
+ [ALINEA-CONTENT]:
+1,25 miljard euro
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = 2025
+ nativeID=61 parentID=59 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1,8 miljard euro Het IEA en IRENA hebben laten zien dat het behalen van het 1,5 graden doel vraagt om mondiale investeringen van USD 5.000 miljard per jaar tot 2030. Dat betekent dus een sterke groei van het mondiale energie-investeringsniveau, in combinatie met een drastische verschuiving van fossiel naar hernieuwbaar. Hoewel hernieuwbare energie vaak al goedkoper is, vragen de initiële en integratiekosten extra financiering. Deze zal grotendeels uit de markt moeten komen, maar publieke middelen spelen een belangrijke aanjagende rol. Bij klimaatadaptatie is de rol van publieke financiering vaak nog groter omdat de economische voordelen voor een belangrijk deel bestaan 
+
+ [ALINEA-CONTENT]:
+1,8 miljard euro
+Het IEA en IRENA hebben laten zien dat het behalen van het 1,5
+graden doel vraagt om mondiale investeringen van USD 5.000
+
+          ***          [--- more alinea content ---]        ***          
+
+op te nemen in leen- en investeringspraktijken, en zal de
+relevante lessen uit deze Roadmap delen met actoren uit de
+internationale financiële wereld, waaronder met IFI’s.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Uitvoeringsinstrumentarium
+ nativeID=62 parentID=46 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Nederland: partner voor groei zonder fossiel
+ nativeID=63 parentID=46 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Om de ambities uit deze Internationale Klimaatstrategie te kunnen realiseren is naast intensivering van de financiering zoals hierboven beschreven ook een aanpassing op het instrumentarium nodig. Uitvoeringsinstrumenten dragen zo beter bij aan het kabinetsbeleid. Dit doen we allereerst door steun aan internationale unabated fossiele energie activiteiten uit te faseren, in overeenstemming met de ondertekening van de COP26 verklaring ‘transitie groene energie en beëindiging van internationale overheidssteun aan de fossiele energiesector’ en het coalitieakkoord.64 Tevens wordt extra geïnvesteerd in het benutten van groene exportkansen en stimuleren en ondersteunen we organisaties die zich inzetten om projecten uit te voeren waarbij vergroening en 
+
+ [ALINEA-CONTENT]:
+Om de ambities uit deze Internationale Klimaatstrategie te
+kunnen realiseren is naast intensivering van de financiering zoals
+hierboven beschreven ook een aanpassing op het
+
+          ***          [--- more alinea content ---]        ***          
+
+combinatielanden zijn: Bangladesh, Colombia, Egypte, Ghana,
+India, Indonesië, Ivoorkust, Kenia, Marokko, Nigeria, Oekraïne,
+Senegal, Vietnam en Zuid-Afrika.65
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Vergroenen van financieringsinstrumenten
+ nativeID=64 parentID=63 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Voor het MKB worden enerzijds drempels voor groene activiteiten verlaagd en anderzijds voordelen verruimd om hen zo te helpen bij het benutten van groene exportkansen (bijvoorbeeld minder hoge rente, gunstige voorwaarden). Daarnaast wordt extra geïnvesteerd in groene publiek-private marktbewerkingsstrategieën voor importketens voor schone energie, zoals waterstof, uit een aantal landen. Ook vergroent het kabinet de inzet op publieke infrastructuur in ontwikkelingslanden (via DRIVE en D2B) en streven we ernaar om 70% van de opdrachten onder elk van deze instrumenten door Nederlandse bedrijven te laten uitvoeren, met extra aandacht voor het MKB. We doen dit om duurzame economische ontwikkeling te bevorderen 
+
+ [ALINEA-CONTENT]:
+Voor het MKB worden enerzijds drempels voor groene activiteiten
+verlaagd en anderzijds voordelen verruimd om hen zo te helpen
+bij het benutten van groene exportkansen (bijvoorbeeld minder
+
+          ***          [--- more alinea content ---]        ***          
+
+doen in ontwikkelingslanden. Deze ambitie sluit aan bij motie
+Van der Lee (35.830 XVII nr.6) omdat hiermee al deze fondsen
+klimaatrelevant(er) worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Vergroenen van handelsinstrumenten
+ nativeID=65 parentID=63 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het kabinet zet Internationaal Maatschappelijk Verantwoord Ondernemen (IMVO) hoog op de agenda en streeft naar opname van klimaatrisico’s onder de gepaste zorgvuldigheidsverplichting in Europese IMVO-wetgeving. Verder vergroenen we de inzet van handelsmissies en economische dienstverlening door ambassades. Het is van belang om onze klimaat- en economische diplomatie gericht op de energietransitie naast op Azië, ook te richten op grote fossiele energieproducenten in de Golf-regio, de Verenigde Staten, Mexico, Zuid-Afrika, Australië en Brazilië.66 De transitie in die landen biedt kansen voor het Nederlandse bedrijfsleven. We gaan gerichte handelsmissies uitvoeren om de duurzaamheids- en digitaliseringstransities te ondersteunen en we richten ons op 
+
+ [ALINEA-CONTENT]:
+Het kabinet zet Internationaal Maatschappelijk Verantwoord
+Ondernemen (IMVO) hoog op de agenda en streeft naar opname
+van klimaatrisico’s onder de gepaste zorgvuldigheidsverplichting in
+
+          ***          [--- more alinea content ---]        ***          
+
+het vergroten van EU markttoegang en een platform voor dialoog
+over klimaat, zet het kabinet in EU-verband in op hoge
+duurzaamheidsstandaarden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Fossielvrij
+ nativeID=66 parentID=63 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het instrumentarium van de Rijksdienst voor Ondernemend Nederland (RVO) is per 2022 al volledig fossielvrij. Naar aanleiding van wensen van de Tweede Kamer, en de COP26-verklaring om per 1 januari 2023 te stoppen met directe overheidssteun voor internationale fossiele energieprojecten, faseert het kabinet handelsbevordering (instrumenten en economische diplomatie) van fossiele energieactiviteiten uit. Alleen als de energievoorziening in het geding is, of als een aantal specifieke uitzonderingsgronden gelden, zijn uitzonderingen hierop nog mogelijk. Het kabinet blijft zo ambitieus, met oog voor een gelijk speelveld en behoud van het Nederlandse concurrentievermogen. 
+
+ [ALINEA-CONTENT]:
+Het instrumentarium van de Rijksdienst voor Ondernemend
+Nederland (RVO) is per 2022 al volledig fossielvrij. Naar aanleiding
+van wensen van de Tweede Kamer, en de COP26-verklaring om
+
+          ***          [--- more alinea content ---]        ***          
+
+uitzonderingsgronden gelden, zijn uitzonderingen hierop nog
+mogelijk. Het kabinet blijft zo ambitieus, met oog voor een gelijk
+speelveld en behoud van het Nederlandse concurrentievermogen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Klimaatdiplomatie
+ nativeID=67 parentID=63 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nederland werkt samen met gelijkgestemde landen en in allianties met bedrijven, kennisinstellingen en maatschappelijke organisaties aan klimaatdiplomatie om andere landen aan te moedigen de mitigatie- en adaptatieambities via NDC’s, en NAP’s te verhogen en deze naar nationaal beleid te vertalen. Daarnaast zetten we economische diplomatie in om kansen voor het Nederlandse bedrijfsleven op het gebied van mitigatie en adaptatie te verzilveren. Ook wendt Nederland internationale conferenties en onderhandelingen aan om bepaalde klimaatthema’s te agenderen en de druk op andere landen te verhogen. Zo zet Nederland stevig in op het plaatsen van water in het hart van klimaatactie. Nederland spant zich 
+
+ [ALINEA-CONTENT]:
+Nederland werkt samen met gelijkgestemde landen en in
+allianties met bedrijven, kennisinstellingen en maatschappelijke
+organisaties aan klimaatdiplomatie om andere landen aan te
+
+          ***          [--- more alinea content ---]        ***          
+
+posten ondersteund om de nationale transities te versnellen met
+bijvoorbeeld het nieuwe RVO-instrument Climate and Energy
+Response Facility.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Afkortingen
+ nativeID=68 parentID=0 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+AFOLU Agriculture, Forestry and Other Land Use BES Bonaire, Saba en Sint Eustatius BHOS Buitenlandse Handel en Ontwikkelingssamenwerking BWN Building with nature CAS Curaçao, Aruba en Sint Maarten BZ Buitenlandse Zaken CCS Carbon capture and storage CGIAR Consultative Group on International Agricultural Research COP United Nations Climate Change Conference, of klimaattop COP26 2021 United Nations Climate Change Conference DEF Defensie DFCD Dutch Fund for Climate and Development EU Europese Unie EU ETS EU Emissions Trading System EZK Economische Zaken en Klimaat FIN Financiën FMO Nederlandse Entrepreneurial Development Bank ICAO IEA IenW IFI ILO IMF IMO IMVO Internationaal Energie Agentschap Infrastructuur 
+
+ [ALINEA-CONTENT]:
+AFOLU Agriculture, Forestry and Other Land Use
+BES Bonaire, Saba en Sint Eustatius
+BHOS Buitenlandse Handel en
+
+          ***          [--- more alinea content ---]        ***          
+
+IMF
+IMO
+IMVO
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = International Civil Aviation Organization
+ nativeID=69 parentID=68 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Internationaal Energie Agentschap Infrastructuur en Waterstaat internationale financiële instelling International Labour Organization Internationaal Monetair Fonds International Maritime Organization Internationaal Maatschappelijk Verantwoord Ondernemen INCLUDE Afrikaans-Nederlands platform van onderzoekers, beroepsbeoefenaars en beleidsmakers Intergovernmental Panel on Climate Change, of VN-Klimaatpanel IPCC 
+
+ [ALINEA-CONTENT]:
+Internationaal Energie Agentschap
+Infrastructuur en Waterstaat
+internationale financiële instelling
+
+          ***          [--- more alinea content ---]        ***          
+
+Intergovernmental Panel on Climate Change, of
+VN-Klimaatpanel
+IPCC
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Colofon
+ nativeID=70 parentID=68 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dit is een uitgave van: Ministerie van Buitenlandse Zaken en Ministerie van Economische Zaken en Klimaat www.rijksoverheid.nl Rijnstraat 8 2515 XP Den Haag Postbus 20061 2500 EB Den Haag oktober 2022 
+
+ [ALINEA-CONTENT]:
+Dit is een uitgave van:
+Ministerie van Buitenlandse Zaken en Ministerie van
+Economische Zaken en Klimaat
+
+          ***          [--- more alinea content ---]        ***          
+
+Postbus 20061
+2500 EB Den Haag
+oktober 2022
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = least developed country
+ nativeID=71 parentID=68 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+LCA Life Cycle Assessment LDC LNV Landbouw, Natuur en Voedselkwaliteit LTS Long Term Strategies MENA Midden-Oosten en Noord-Afrika MER Milieu Effect Rapportage MKB midden- en kleinbedrijf MoU Memorandum of Understanding NAP Nationale Adaptatie Plannen NBS nature-based solutions NDC Nationally Determined Contributions NDICI EU Neighborhood, Development and International Cooperation Instrument NIWA Nederlandse Internationale Waterambitie OCW Onderwijs, Cultuur en Wetenschap PACE Platform for Accelerating the Circular Economy PBL Planbureau voor de Leefomgeving RVO Rijksdienst voor Ondernemend Nederland SAF Sustainable Aviation Fuel SDG Sustainable Development Goal SGVN Secretaris-Generaal van de Verenigde Naties SIDS Small Island Developing States SRGR seksuele en reproductieve gezondheid en 
+
+ [ALINEA-CONTENT]:
+LCA Life Cycle Assessment
+LDC
+LNV Landbouw, Natuur en Voedselkwaliteit
+
+          ***          [--- more alinea content ---]        ***          
+
+VWS Volksgezondheid, Welzijn en Sport
+WEF World Economic Forum
+WTO Wereldhandelsorganisatie
+
+---------------------------------------------------------------------------------

@@ -1,0 +1,459 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Kamerbrief_emissie_luchtvaart] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Kamerbrief_emissie_luchtvaart
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De voorzitter van de Tweede Kamer der Staten-Generaal Postbus 20018 2500 EA DEN HAAG Datum 22 december 2022 Betreft Emissies door de luchtvaart Geachte voorzitter, In de Kamer is de afgelopen jaren in toenemende mate aandacht besteed aan de emissies van de luchtvaart en de gevolgen daarvan voor de lokale luchtkwaliteit, onder meer door de emissies van ultrafijn stof en zeer zorgwekkende stoffen (ZZS). Daarom wordt de Kamer een stand van zaken gegeven van diverse acties die momenteel lopen op dit gebied, waarmee tevens wordt voldaan aan een aantal toezeggingen die aan de Kamer zijn gedaan. In deze brief komen 
+
+ [ALINEA-CONTENT]:
+De voorzitter van de Tweede Kamer
+der Staten-Generaal
+Postbus 20018
+
+          ***          [--- more alinea content ---]        ***          
+
+die momenteel lopen op dit gebied, waarmee tevens wordt voldaan aan een aantal
+toezeggingen die aan de Kamer zijn gedaan.
+In deze brief komen de volgende onderwerpen aan de orde:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Ultrafijn stof: omgeving en platformmedewerkers. 
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Ultrafijn stof: omgeving en platformmedewerkers. 
+
+ [ALINEA-CONTENT]:
+1. Ultrafijn stof: omgeving en platformmedewerkers.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. Ontzwavelen van kerosine. 
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Ontzwavelen van kerosine. 
+
+ [ALINEA-CONTENT]:
+2. Ontzwavelen van kerosine.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3. Zeer zorgwekkende stoffen. 
+ nativeID=3 parentID=0 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. Zeer zorgwekkende stoffen. 
+
+ [ALINEA-CONTENT]:
+3. Zeer zorgwekkende stoffen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4. Uniformeren van het berekenen van emissies en concentraties. 
+ nativeID=4 parentID=0 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4. Uniformeren van het berekenen van emissies en concentraties. 
+
+ [ALINEA-CONTENT]:
+4. Uniformeren van het berekenen van emissies en concentraties.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 5. Emissies boven 3.000 voet. 
+ nativeID=5 parentID=0 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5. Emissies boven 3.000 voet. 
+
+ [ALINEA-CONTENT]:
+5. Emissies boven 3.000 voet.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 6. Emissies van de 440.000 vliegtuigbewegingen op Schiphol. 
+ nativeID=6 parentID=0 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+6. Emissies van de 440.000 vliegtuigbewegingen op Schiphol. 
+
+ [ALINEA-CONTENT]:
+6. Emissies van de 440.000 vliegtuigbewegingen op Schiphol.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 7. Bestuursovereenkomst intenties samenwerking NOVEX Schiphol. 
+ nativeID=7 parentID=0 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+7. Bestuursovereenkomst intenties samenwerking NOVEX Schiphol. 
+
+ [ALINEA-CONTENT]:
+7. Bestuursovereenkomst intenties samenwerking NOVEX Schiphol.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Ultrafijn stof
+ nativeID=8 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Op 20 juni 2022 is het eindrapport van het RIVM-onderzoekprogramma naar de gezondheidsrisico’s van ultrafijn stof rond Schiphol aan de Kamer aangeboden1. In die brief is aangegeven welke acties al zijn uitgevoerd, lopen of nog worden opgepakt. Hieronder wordt de voortgang van enkele van die acties toegelicht. Kennisopbouw over emissie en effecten van ultrafijn stof Over de emissie en effecten van ultrafijn stof is onvoldoende bekend. Om te bezien of normstelling noodzakelijk is en een goed besluit te kunnen nemen over te nemen maatregelen, is het noodzakelijk dat de kennis over bronnen, hoeveelheden en effecten van ultrafijn stof wordt vergroot. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 Blootstelling van de omgeving van luchthavens aan ultrafijn stof van de luchtvaart
+ nativeID=9 parentID=8 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Op 20 juni 2022 is het eindrapport van het RIVM-onderzoekprogramma naar de gezondheidsrisico’s van ultrafijn stof rond Schiphol aan de Kamer aangeboden1. In die brief is aangegeven welke acties al zijn uitgevoerd, lopen of nog worden opgepakt. Hieronder wordt de voortgang van enkele van die acties toegelicht. Kennisopbouw over emissie en effecten van ultrafijn stof Over de emissie en effecten van ultrafijn stof is onvoldoende bekend. Om te bezien of normstelling noodzakelijk is en een goed besluit te kunnen nemen over te nemen maatregelen, is het noodzakelijk dat de kennis over bronnen, hoeveelheden en effecten van ultrafijn stof wordt vergroot. 
+
+ [ALINEA-CONTENT]:
+Op 20 juni 2022 is het eindrapport van het RIVM-onderzoekprogramma naar de
+gezondheidsrisico’s van ultrafijn stof rond Schiphol aan de Kamer aangeboden1. In
+die brief is aangegeven welke acties al zijn uitgevoerd, lopen of nog worden
+
+          ***          [--- more alinea content ---]        ***          
+
+expliciet te maken, en welke belemmeringen en kansen hierbij spelen. Op basis
+van deze notitie zal bepaald worden of, en zo ja , welke vervolgstappen kunnen
+worden uitgevoerd, eventueel in NOVEX-verband (zie paragraaf 7 van deze brief).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 Blootstelling van platformmedewerkers aan ultrafijn stof en andere stoffen
+ nativeID=10 parentID=8 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Op 1 oktober 2021 heeft de Kamer het RIVM-rapport ‘Verkenning haalbaarheid gezondheidsonderzoek werknemers Schiphol’4 ontvangen. Hieronder wordt aangegeven hoe de sector de aanbevelingen uit dat rapport heeft opgepakt. Daarbij maak ik onder meer gebruik van door Schiphol verstrekte informatie. Gecoördineerde aanpak door de sector In de brief van 15 februari 20225, met de beantwoording van Kamervragen over dit thema, is aangegeven dat de sector bezig was met het instellen van een taskforce. Inmiddels is deze sectorbrede taskforce Stoffen volop actief en kent meerdere onderdelen (zie figuur 1). De taskforce richt zich niet alleen op ultrafijn stof, maar ook op andere 
+
+ [ALINEA-CONTENT]:
+Op 1 oktober 2021 heeft de Kamer het RIVM-rapport ‘Verkenning haalbaarheid
+gezondheidsonderzoek werknemers Schiphol’4 ontvangen. Hieronder wordt
+aangegeven hoe de sector de aanbevelingen uit dat rapport heeft opgepakt.
+
+          ***          [--- more alinea content ---]        ***          
+
+van de blootstelling van medewerkers aan ultrafijn stof. De Nederlandse
+arbeidsinspectie voert een onderzoek uit naar de arbeidsomstandigheden op de
+platforms. De verwachting is dat de inspectie begin 2023 zal rapporteren.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Blootstellingsonderzoek: er is zicht op de concentraties van ultrafijnstof op ...
+ nativeID=11 parentID=10 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Blootstellingsonderzoek: er is zicht op de concentraties van ultrafijnstof op het platform (aan airside) op Schiphol. Onbekend is nog in welke mate individuele medewerkers worden blootgesteld aan ultrafijn stof. Daarom wordt gestart met een persoonlijk blootstellingsonderzoek. Zo’n onderzoek geeft inzicht in de concentraties waaraan een medewerker gedurende een werkdag wordt blootgesteld. Momenteel worden voorbereidende werkzaamheden uitgevoerd om dit onderzoek op wetenschappelijk juiste wijze uit te voere n. Dit betreft bijvoorbeeld het valideren van de meetinstrumenten. Het onderzoek wordt opgezet met een onafhankelijk kennisinstituut en in 2023 uitgevoerd. 
+
+ [ALINEA-CONTENT]:
+ Blootstellingsonderzoek: er is zicht op de concentraties van ultrafijnstof op
+het platform (aan airside) op Schiphol. Onbekend is nog in welke mate
+individuele medewerkers worden blootgesteld aan ultrafijn stof. Daarom
+
+          ***          [--- more alinea content ---]        ***          
+
+onderzoek op wetenschappelijk juiste wijze uit te voere n. Dit betreft
+bijvoorbeeld het valideren van de meetinstrumenten. Het onderzoek wordt
+opgezet met een onafhankelijk kennisinstituut en in 2023 uitgevoerd.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Gezondheidskundig onderzoek: de eerste stap daarin is het inzichtelijk ...
+ nativeID=12 parentID=10 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Gezondheidskundig onderzoek: de eerste stap daarin is het inzichtelijk maken van de algemene fysieke staat en de gezondheid van medewerkers die werkzaam zijn op het platform. Hiermee worden de huidige gezondheidssituatie en eventuele gezondheidsklachten van medewerkers op het platform in kaart gebracht. Ook kunnen er door dit onderzoek mogelijk aanwijzingen worden gevonden of medewerkers op het platform een verhoogd risico lopen op bepaalde medische aandoeningen. Het gaat dan om gezondheidsaandoeningen die verband houden met blootstelling aan luchtverontreinigende stoffen, waaronder ultrafijn stof. Het RIVM (2022) en de Gezondheidsraad (2021) hebben in kaart gebracht om welke aandoeningen het zou kunnen gaan, 
+
+ [ALINEA-CONTENT]:
+ Gezondheidskundig onderzoek: de eerste stap daarin is het inzichtelijk
+maken van de algemene fysieke staat en de gezondheid van medewerkers
+die werkzaam zijn op het platform. Hiermee worden de huidige
+
+          ***          [--- more alinea content ---]        ***          
+
+aangepaste PAGO aan het eind van het eerste kwartaal 2023 gereed te
+hebben. Op advies van gezondheidsexperts zal worden bepaald hoe vaak
+het PAGO aan medewerkers zal worden aangeboden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Meetprogramma: er wordt een meetnet ingericht met stationaire ...
+ nativeID=13 parentID=10 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Meetprogramma: er wordt een meetnet ingericht met stationaire ultrafijnstof-meetpunten. Het is de bedoelding dat dit meetnet, aanvullend op de metingen die door TNO in het tweede kwartaal van 2021 zijn gedaan6, informatie oplevert over de effectiviteit van de in te zetten maatregelen. 
+
+ [ALINEA-CONTENT]:
+ Meetprogramma: er wordt een meetnet ingericht met stationaire
+ultrafijnstof-meetpunten. Het is de bedoelding dat dit meetnet, aanvullend
+op de metingen die door TNO in het tweede kwartaal van 2021 zijn
+
+          ***          [--- more alinea content ---]        ***          
+
+gedaan6, informatie oplevert over de effectiviteit van de in te zetten
+maatregelen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Het zoveel mogelijk beperken van de emissies van zowel de ...
+ nativeID=14 parentID=10 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Het zoveel mogelijk beperken van de emissies van zowel de vliegtuigmotoren als de hulpmotor (APU). Voor iedere functionaliteit wordt gekeken of er alternatieven mogelijk zijn, zoals taxiën zonder het gebruik van vliegtuigmotoren (lange termijn maatregel) of het overnemen van de koeling/ventilatie in het vliegtuig door een Preconditioned Air unit (PCA, kortere termijn maatregel). 
+
+ [ALINEA-CONTENT]:
+ Het zoveel mogelijk beperken van de emissies van zowel de
+vliegtuigmotoren als de hulpmotor (APU). Voor iedere functionaliteit wordt
+gekeken of er alternatieven mogelijk zijn, zoals taxiën zonder het gebruik
+
+          ***          [--- more alinea content ---]        ***          
+
+van vliegtuigmotoren (lange termijn maatregel) of het overnemen van de
+koeling/ventilatie in het vliegtuig door een Preconditioned Air unit (PCA,
+kortere termijn maatregel).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Alternatieven voor dieselaangedreven apparatuur. Hieronder valt een ...
+ nativeID=15 parentID=10 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Alternatieven voor dieselaangedreven apparatuur. Hieronder valt een versnelling in de vervanging van diesel Ground Power Units (GPU’s) door een emissievrij alternatief (E-GPU’s of walstroom). 
+
+ [ALINEA-CONTENT]:
+ Alternatieven voor dieselaangedreven apparatuur. Hieronder valt een
+versnelling in de vervanging van diesel Ground Power Units (GPU’s) door
+een emissievrij alternatief (E-GPU’s of walstroom).
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Het aanpassen van vertrek- en aankomstprocedures, zoals een langere ...
+ nativeID=16 parentID=10 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Het aanpassen van vertrek- en aankomstprocedures, zoals een langere sleepprocedure voor vliegtuigen. Doel daarvan is de blootstelling van medewerkers aan emissies uit startende motoren zoveel mogelijk te verminderen. 
+
+ [ALINEA-CONTENT]:
+ Het aanpassen van vertrek- en aankomstprocedures, zoals een langere
+sleepprocedure voor vliegtuigen. Doel daarvan is de blootstelling van
+medewerkers aan emissies uit startende motoren zoveel mogelijk te
+
+          ***          [--- more alinea content ---]        ***          
+
+verminderen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] =  Het verstrekken van persoonsgebonden beschermingsmiddelen. Sinds 1 ...
+ nativeID=17 parentID=10 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ Het verstrekken van persoonsgebonden beschermingsmiddelen. Sinds 1 oktober 2022 worden er FFP2-mondneusmaskers beschikbaar gesteld door de werkgevers. Deze mondneusmaskers zijn vrijwillig te gebruiken. Bij correct gebruik, filteren deze mondneusmaskers tot 97% van het ultrafijn stof. 
+
+ [ALINEA-CONTENT]:
+ Het verstrekken van persoonsgebonden beschermingsmiddelen. Sinds 1
+oktober 2022 worden er FFP2-mondneusmaskers beschikbaar gesteld door
+de werkgevers. Deze mondneusmaskers zijn vrijwillig te gebruiken. Bij
+
+          ***          [--- more alinea content ---]        ***          
+
+correct gebruik, filteren deze mondneusmaskers tot 97% van het ultrafijn
+stof.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. Ontzwavelen van kerosine
+ nativeID=18 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Fossiele kerosine bevat onder meer zwavel. Die zwavel is een belangrijke bron van het ontstaan van ultrafijn stof bij de verbranding van de kerosine. Ontzwavelen van kerosine zou daarom de emissie van ultrafijn stof kunnen verminderen. Zoals toegezegd aan het lid Kröger in het Commissiedebat Verduurzaming luchtvaart op 16 juni 2022 is het ministerie van IenW in gesprek gegaan met de Duurzame Luchtvaarttafel over ontzwaveling van fossiele kerosine. Partijen gaven aan ontzwaveling te zien als kortetermijnoplossing totdat duurzame brandstoffen op grote schaal beschikbaar komen, maar vragen aandacht voor de additionele kosten die ontzwaveling met zich meebrengt. De duurzame brandstoffen bevatten 
+
+ [ALINEA-CONTENT]:
+Fossiele kerosine bevat onder meer zwavel. Die zwavel is een belangrijke bron van
+het ontstaan van ultrafijn stof bij de verbranding van de kerosine. Ontzwavelen
+van kerosine zou daarom de emissie van ultrafijn stof kunnen verminderen.
+
+          ***          [--- more alinea content ---]        ***          
+
+actief in ICAO-verband agenderen. Aanvullend zal met nationale stakeholders en
+gelijkgestemde (Europese en andere) overheden nader worden verkend hoe dit
+dossier mondiaal verder kan worden gebracht.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3. Emissie van zeer zorgwekkende stoffen (ZZS)
+ nativeID=19 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In antwoord op Kamervragen in maart 2022 9 en tijdens het Commissiedebat Verduurzaming luchtvaart van 16 juni 2022 10 is aan de vaste commissie toegezegd dat de Kamer wordt geïnformeerd over de noodzaak van het nemen van beleidsmaatregelen om de uitstoot van ZZS door de luchtvaart te beperken. Daartoe zou eerst onderzoek worden uitgevoerd naar de uitstoot van ZZS door de luchtvaart en de daaruit volgende concentraties rond Nederlandse luchthavens van nationale betekenis. Het streven was om de hiervoor genoemde informatie in de tweede helft van 2022 aan de Kamer te sturen. Gelet op grote drukte bij onderzoekspartijen heeft het 
+
+ [ALINEA-CONTENT]:
+In antwoord op Kamervragen in maart 2022 9 en tijdens het Commissiedebat
+Verduurzaming luchtvaart van 16 juni 2022 10 is aan de vaste commissie
+toegezegd dat de Kamer wordt geïnformeerd over de noodzaak van het nemen
+
+          ***          [--- more alinea content ---]        ***          
+
+helft van 2023 door het NLR uitgevoerd. Op basis van de berekende concentraties
+worden beleidsconclusies geformuleerd en zal de Kamer over alle berekeningen en
+het vervolg in het derde kwartaal van 2023 worden geïnformeerd.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4. Uniformeren van het berekenen van emissies en concentraties
+ nativeID=20 parentID=0 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het ministerie van IenW is vorig jaar gestart met het uniformer en transparanter maken van de rekenmethodiek voor luchtvaartemissies. De aangrijpingspunten daarvoor zijn in oktober 2021 in een rapport vastgesteld, dat ter informatie bij deze brief is gevoegd. Naar aanleiding van dat rapport zijn vervolgstappen gezet. De eerste stap naar meer uniformiteit was het opstellen van een Nationale database vliegtuigemissies. In deze database zijn onder meer per motortype het brandstofverbruik en de emissiefactoren van verschillende stoffen opgenomen. Deze emissiefactoren zijn uitgesplitst naar de verschillende vliegfasen van de Landing & Take -Off (LTO, start- en landcyclus) cycle, te weten approach (nadering), 
+
+ [ALINEA-CONTENT]:
+Het ministerie van IenW is vorig jaar gestart met het uniformer en transparanter
+maken van de rekenmethodiek voor luchtvaartemissies. De aangrijpingspunten
+daarvoor zijn in oktober 2021 in een rapport vastgesteld, dat ter informatie bij
+
+          ***          [--- more alinea content ---]        ***          
+
+geluidsberekening, zoals de vliegtuigregistratie, vliegtuigprestaties, routegebruik
+en de vliegprofielen. De Kamer zal in de tweede helft van 2023 worden
+geïnformeerd over de voortgang van dit project.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 5. Emissies boven 3.000 voet
+ nativeID=21 parentID=0 & horizontal_ordering=11
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In de Emissieregistratie van het RIVM worden de emissies inzichtelijk gemaakt tot een hoogte van 3.000 voet (ongeveer 1 kilometer). Deze emissies worden elk jaar internationaal gerapporteerd, onder andere aan de Europese Commissie. In 2019 heeft de Kamer opgeroepen om ook de uitstoot van stikstofoxiden boven de 3 .000 voet inzichtelijk te maken12. Ook in reactie op het deelrapport luchtvaart van het Adviescollege Stikstofproblematiek is aangegeven dat het Ministerie van IenW zich hier hard voor gaat maken13. Het RIVM is voornemens om vanaf 2023 ook de emissies boven 3.000 voet inzichtelijk te maken. Dat geldt niet alleen voor de emissies 
+
+ [ALINEA-CONTENT]:
+In de Emissieregistratie van het RIVM worden de emissies inzichtelijk gemaakt tot
+een hoogte van 3.000 voet (ongeveer 1 kilometer). Deze emissies worden elk jaar
+internationaal gerapporteerd, onder andere aan de Europese Commissie. In 2019
+
+          ***          [--- more alinea content ---]        ***          
+
+systematiek goed te implementeren. Mocht dit tot onvoorziene vertraging zorgen,
+dan zal de opname van de emissies bove n 3.000 voet vanaf 2024 in de
+Emissieregistratie plaatsvinden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 6. Emissies van 440.000 vliegtuigbewegingen op Schiphol
+ nativeID=22 parentID=0 & horizontal_ordering=12
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Op 24 juni 202214 heeft het kabinet besloten om het jaarlijks aantal toegestane vluchten op Schiphol te reduceren van 500.000 naar 440.000 vliegtuigbewegingen. Minder vluchten leiden in beginsel tot minder emissies . Dit is echter wel afhankelijk van het type vliegtuigen dat wordt ingezet en de wijze waarop wordt gevlogen. Het ministerie van IenW laat daarom voor verschillende scenario’s in kaart brengen wat de effecten van de capaciteitsreductie zijn op de emissies van verschillende stoffen. De Kamer wordt over de resultaten hiervan naar verwachting in het voorjaar van 2023 via de periodieke voortgangsbrief Programma Omgeving Luchthaven Schiphol geïnformeerd. Zoals aangegeven 
+
+ [ALINEA-CONTENT]:
+Op 24 juni 202214 heeft het kabinet besloten om het jaarlijks aantal toegestane
+vluchten op Schiphol te reduceren van 500.000 naar 440.000
+vliegtuigbewegingen.
+
+          ***          [--- more alinea content ---]        ***          
+
+normering van de milieueffecten. Vanaf dat moment wordt geborgd dat negatieve
+gezondheidseffecten van Schiphol stapsgewijs afnemen. De vermindering van het
+aantal vluchten is een eerste stap.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 7. Bestuursovereenkomst intenties samenwerking NOVEX Schipholregio
+ nativeID=23 parentID=0 & horizontal_ordering=13
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Zoals in de tweede voortgangsbrief van het IenW Programma Omgeving Luchthaven Schiphol15 is opgenomen, wordt in de NOVEX Schipholregio samengewerkt door Rijk en regio om de leefomgevingskwaliteit in de Schipholregio te verbeteren. Eén van de acht hoofdopgaven uit de Bestuursovereenkomst ‘intenties samenwerking NOVEX Schipholregio’ betreft luchtkwaliteit en ultrafijn stof. Er wordt in de NOVEX-aanpak breder gekeken dan alleen naar luchtvaart, ook naar andere bronnen die emissies uitstoten , zoals wegverkeer en industrie. Hierbij wordt ook de aanbeveling van de Gezondheidsraad 16 betrokken, om de leefomgeving zodanig in te richten dat langdurig verhoogde blootstelling aan ultrafijn stof wordt beperkt. Dat kan 
+
+ [ALINEA-CONTENT]:
+Zoals in de tweede voortgangsbrief van het IenW Programma Omgeving
+Luchthaven Schiphol15 is opgenomen, wordt in de NOVEX Schipholregio
+samengewerkt door Rijk en regio om de leefomgevingskwaliteit in de
+
+          ***          [--- more alinea content ---]        ***          
+
+concretiseringsfase. De verwachting is dat de Kamer rond de zomer 2023 over de
+resultaten van deze fase kan worden geïnformeerd via de periodieke
+voortgangsbrief Programma Omgeving Luchthaven Schiphol.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Tot slot
+ nativeID=24 parentID=0 & horizontal_ordering=14
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Uit het hiervoor staande blijkt dat er langs verschillende lijnen stappen worden gezet om de invloed van luchtvaartemissies op de lokale luchtkwaliteit en de gezondheidseffecten daarvan, te beperken. Hoogachtend, DE MINISTER VAN INFRASTRUCTUUR EN WATERSTAAT, Mark Harbers 
+
+ [ALINEA-CONTENT]:
+Uit het hiervoor staande blijkt dat er langs verschillende lijnen stappen worden
+gezet om de invloed van luchtvaartemissies op de lokale luchtkwaliteit en de
+gezondheidseffecten daarvan, te beperken.
+
+          ***          [--- more alinea content ---]        ***          
+
+Hoogachtend,
+DE MINISTER VAN INFRASTRUCTUUR EN WATERSTAAT,
+Mark Harbers
+
+---------------------------------------------------------------------------------

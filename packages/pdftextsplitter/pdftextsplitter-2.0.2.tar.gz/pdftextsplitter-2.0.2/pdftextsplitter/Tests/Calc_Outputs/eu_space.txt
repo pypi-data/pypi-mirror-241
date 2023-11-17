@@ -1,0 +1,2533 @@
+2023 / ISSUE 1
+EU Space for
+Green Transformation
+A new tool for companies to monitor their sustainability targets
+#EUSpace
+More information on the European Union is available on the Internet (http://europa.eu).
+Luxembourg: Publications Office of the European Union, 2023
+Copyright © European Union Agency for the Space Programme, 2023. This document and the information contained in it is subject to
+applicable copyright and other intellectual property rights under the laws of the Czech Republic and other states. Third parties may
+download, copy, print and provide the document in its entirety to other third parties provided that there is no alteration of any part of it.
+Information contained in the document may be excerpted, copied, printed and provided to third parties only under the condition that the
+source and copyright owner is clearly stated as follows: “Source: EU Space for Green Transformation: A new tool for companies to monitor
+their sustainability targets, copyright © EU Agency for the Space Programme, 2023”.
+No part of this document, including any part of information contained therein, in whichever format, whether digital or otherwise, may be
+altered, edited or changed without the EU Agency’s for the Space Programme prior express permission in writing to be requested under
+http://www.euspa.europa.eu/contact-us, clearly stating the element (document and/or information) and term of use requested. Should
+you become aware of any breach of the above terms of use, please notify the EU Agency for the Space Programme immediately, also
+through the above-mentioned contact site. Any breach of these terms of use may be made subject to legal proceedings, seeking monetary
+damages and/or an injunction to stop the unlawful use of the document and/or any information contained therein. By downloading,
+forwarding, and/or copying this document or any parts thereof, in whichever format, whether digital or otherwise, the user acknowledges
+and accepts the above terms of use as applicable to them.
+EU SPACE FOR GREEN TRANSFORMATION
+i
+FOREWORD
+Dear reader,
+climate change is one of the biggest challenges facing humanity today – and
+overcoming it requires not only an evolution in the way we live our lives, but
+also a green modification on how we do business.
+Driving this transformation is the European Green Deal, which strives to
+drastically reduce carbon emissions, increase sustainable practices and,
+ultimately, make Europe the world’s first climate-neutral continent by 2050.
+But achieving these goals requires that companies take a deep look at their
+internal operations, and supply chains to identify opportunities for reducing
+their own environmental footprint.
+It is where the EU Space Programme comes into play.
+While EU Space data and services are essential assets to supporting the implementation of the Green Deal,
+businesses stand to benefit too. For example, Copernicus, Galileo and EGNOS supply the information companies
+need to monitor environmental indicators, reduce their environmental impact, become more sustainable and drive
+the green transformation. Better yet, much of this data is openly accessible and provided free of charge.
+To help companies utilise this data as a means of driving their own sustainability journeys, EUSPA has compiled the
+first #EUSpace for the Green Transformation report. In the following pages, we introduce the Green Deal, its
+implications for companies and, most importantly, how the EU Space Programme can help businesses become more
+sustainable.
+Leveraging our team’s collective expertise in #EUSpace, we have created a report that every company can use to
+monitor their sustainability targets. The report includes detailed, real-world examples to inspire companies on how
+to use #EUSpace for clean industry, construction and renovation, smart and sustainable mobility, a healthier and
+green food system, and restoring ecosystems and biodiversity.
+Whether it be increasing the efficiency of renewable energy infrastructure, enabling more efficient flightpaths, or
+implementing precision agriculture operations, I’m confident that this report will become a go-to-source for your
+green transformation and a trusted roadmap in your sustainability journey.
+Happy reading!
+Rodrigo da Costa
+EUSPA Executive Director
+Prague, January 2023
+EU SPACE FOR GREEN TRANSFORMATION
+ii
+TABLE OF CONTENTS
+FOREWORD ................................................................................................................................................................................................... II
+EXECUTIVE SUMMARY ........................................................................................................................................................................... 1
+1. INTRODUCTION ................................................................................................................................................................................ 4
+2. THE GREEN TRANSFORMATION AND EU GREEN DEAL FOR BUSINESS IN EUROPE .......................... 7
+3. THE ROLE OF THE EU SPACE PROGRAMME
+IN SUPPORTING COMPANIES ALONG THEIR SUSTAINABILITY JOURNEY ................................................ 15
+3.2.1 Clean energy production and supply ........................................................................................................ 31
+3.2.2 Clean industry boosting a cleaner industry ............................................................................................ 35
+3.2.3 Construction and renovation ....................................................................................................................... 39
+3.2.4 Smart and sustainable mobility .................................................................................................................. 40
+3.2.5 A healthier and greener food system ....................................................................................................... 47
+3.2.6 Restored ecosystems and biodiversity ..................................................................................................... 53
+4. CONCLUSIONS: EU SPACE FOR GREEN TRANSFORMATION .......................................................................... 58
+ANNEX 1: ABOUT THE EUROPEAN GLOBAL NAVIGATION SYSTEM AND COPERNICUS ............................ 60
+ANNEX 2: ABOUT THE AUTHORS ................................................................................................................................................ 63
+LIST OF EXHIBITS ................................................................................................................................................................................... 64
+ABBREVIATIONS AND ACRONYMS ............................................................................................................................................. 66
+EU SPACE FOR GREEN TRANSFORMATION
+EXECUTIVE SUMMARY
+In December 2019, the European Commission announced the European Green Deal, a package of policies and
+initiatives to answer the United Nation’s 2030 Agenda and the Sustainable Development Goals. This ambitious
+roadmap towards a climate-resilient society aspires to make the European Union’s economy sustainable, turning
+climate and environmental challenges into opportunities. The Green Deal is designed to transform Europe into the
+first climate-neutral continent, achieving zero net emissions of greenhouse gases by 2050.
+As tighter regulation and legislation appear on the horizon and purchasing and investment patterns place ever-
+higher importance on sustainability, companies embark on their sustainability journey. Not just external factors
+(regulation, revenues), but also internal ones, such as talent attraction, employee productivity, motivation and
+retention, are growing in significance. This is reflected in the key figures presented below: firstly, the appeal of a
+prospective employer to students and young professionals is 25% higher for companies whose green transformation
+is already underway1. Secondly, and most crucially, the market for the green transformation itself stands at € 15
+billion in 2022 and is expected to grow at a CAGR of 21.9% to 20302. Finally, a staggering 85% majority of Moody’s
+debt ratings took ESG into account in 2020 3 – demonstrating clearly that the investment appetite is rising for
+companies strong in environmental, social and governance matters. As a matter of fact, the broader impetus for the
+green transformation is also born from the need to build climate resilience, as the world’s society and industry
+anticipate the transformation climate change will bring to daily lives, livelihoods, consumption, shipping, and all
+aspects of life and the market.
+Exhibit 1: Why Pursuing the green transformation - key figures
+Performing the green transformation requires that a company takes a deep look through their internal operations,
+as well as their surrounding supply chain to understand where and how pollution and waste occur. In that regard,
+the slew of tools newly-available in the 21st century – including remote sensing, location-based services, artificial
+intelligence and many others – makes monitoring, tracking, evaluating and implementing sustainable operations not
+just possible, but long-term profitable.
+The EU Space Programme is able to provide value to all players across supply and value chains, sectors and activities,
+chiefly with its Copernicus (Earth Observation) and EGNSS (positioning, navigation and timing) components. From
+renewable energy generation and distribution to industrial waste management, wildlife monitoring, urban planning
+and fleet management, the Copernicus and Galileo can offer a host of independent, as well as synergistic services
+to aid companies along their sustainability journeys and support them in greening their operations.
+EU Space data and services are an important asset to support the implementation of the Green Deal objectives. At
+government level, Galileo and Copernicus are essential tools for environmental monitoring, as they provide
+reliable and nearly real-time data on positioning and Earth Observation. Policies can be shaped based on reality and
+thoughtful corrective actions can be taken, when necessary.
+1 Source: Bloomberg - The Thunberg Generation Demands Jobs That Mirror Green Values
+2 Source: Allied Market Research - Green Technology and Sustainability Market Statistics: 2030
+3 Source: PwC - Turn ESG into action
+EU SPACE FOR GREEN TRANSFORMATION
+1
+In the context of a more sustainable society and ESG scoring, companies are setting green transformation targets to
+reduce greenhouse emissions and environmental footprint of their operations, as well promote their actions to
+attract customers and increase their market shares. Business benefit from a myriad of possible applications for
+EU space data, which translates into not only greener practices, but also cost reduction and increased efficiency.
+For example, a green urban development relies on solid geospatial data. EGNSS has a fundamental role in reducing
+greenhouse emissions, consonant to the Green Deal’s ambitions. Aiming a smart and sustainable mobility, Galileo
+is a key tool for reducing travel time and fuel consumption. Satellite data provided by Copernicus and Galileo play
+a key role in improving the food system, developing sustainable and efficient practices. The EU space data
+enables precision agriculture by mapping the evolution of crops and precisely navigating to the intervention areas.
+Ecosystems and biodiversity preservation are vital for the maintenance of life on Earth. In this respect, Copernicus
+data is especially appropriate for monitoring the environment, providing crucial climate-biodiversity indicators.
+Almost all the consulted companies (direct interviews and surveys) stated that they are currently not leveraging
+EU Space Data for pursuing their green transformation objectives. Many consulted companies acknowledged
+that the potential for EU Space data is enormous and expressed their interest to know more about it and
+possibly being engaged by EUSPA in further action.
+This study aims to introduce the EU Green Deal, its implications for companies, and how EU Space can help
+companies to address their green transformation, presenting current practices of EU-based champions in
+sustainability management, and how companies can benefit from the EU Space Programme applications. More
+specifically, the study aims to:
+▪ Understand the Green Deal and the implications for companies: The Green Deal comes with implications
+that ripple through the entire corporate ecosystem and provides companies with opportunities as well as
+the need to react to the changing regulatory and policy framework.
+▪ Analyse how companies currently address green transformation: Companies (and investors) are focusing
+more and more on sustainability. The understanding of the methods, measures, and tools used by the
+companies for their green transformation is crucial to identify which gaps can be filled by the EU Space
+Programme.
+▪ Describe the full potential of EU Space data for green transformation: Present the way companies can
+use EU Space data and services to help them on their path towards sustainability. Provide an analysis to
+quantify and qualify current and future benefits (e.g., monetary, efficiency related) of using EU Space data
+and their value-added for green transformation. Show specific practical use cases of currently deployed
+applications.
+▪ Provide a call for action to companies: present a call for action for companies that are less aware of the
+EU Space Programme benefits to engage with EUSPA to understand how to maximise the use of EU Space
+data and services to support their green transformation.
+During the study, both secondary and primary research have been conducted. In particular, a stakeholder
+consultation has been performed through direct industry interviews and a web survey aimed both to space services
+providers and user companies. As a result of the consultation, about thirty companies provided useful insights and
+inputs used throughout the report.
+The participating companies range from listed companies all the way to SMEs, from manufacturing to service sector
+companies. Some examples of consulted companies are listed in Exhibit 2.
+EU SPACE FOR GREEN TRANSFORMATION
+2
+Exhibit 2: Participating companies who disclosed their name4
+The European Union Agency for Space Programme (EUSPA)’s core mission is to implement the EU Space
+Programme and to provide reliable, safe and secure space-related services, maximising their socio-economic
+benefits for European society and business. The lack of awareness towards the EU Space Programme and its
+benefits for companies can only be overcome by fostering the collaboration between the European Commission,
+EUSPA, adopters of EU space-based solutions and service providers. The development of innovative and
+competitive business models related to the green transformation and in support of the Green Deal objectives cannot
+be separated from the effort made by companies willing to contribute to the wellness of EU citizens and the
+development of a greener and more inclusive society.
+If you are a company and you are interested in having additional information about the EU Space Programme and
+how it can support your green transformation do not hesitate in reaching out to EUSPA at market@euspa.europa.eu.
+4 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+3
+1. INTRODUCTION
+Study context and approach
+Climate change is one of the biggest challenges of humanity and its severe impacts to society are just beginning to
+emerge. Greenhouse gas (GHG) emissions by human activities e.g., manufacturing, transport, energy production and
+distribution, agriculture are the most accountable to this phenomenon.
+Exhibit 3: Greenhouse gas emissions global and by sector
+To overcome climate change in the long term, we must drastically reduce anthropogenic emissions and encourage
+a strong shift towards sustainability and green transformation. In this context, much importance is given to our
+transition to a more sustainable way of living and working. This necessitates a shift in thinking and in mode of
+operations – away from environmentally-harmful practices and unsustainable resource use and towards
+ecological mindfulness.
+The EU intends to be at the forefront of this shift and has enabled the European Green Deal that will actively
+support the 17 Sustainable Development Goals (SDGs) put forth by the United Nation’s 2030 Agenda5.
+The European Green Deal acts as a general directive with multiple targets, namely, supplying clean, affordable, and
+secure energy, mobilising industry for a clean circular economy, building and renovating in an energy- and resource-
+efficient way, moving to a toxic-free environment, preserving and restoring ecosystems and biodiversity, creating an
+environmentally friendly food system, and accelerating the shift to sustainable and smart mobility.
+The ultimate goal of the set of policies around the Green Deal is to make Europe the first climate-neutral continent
+and to achieve zero net emissions of greenhouse gases by 2050. This will be achieved by employing clean
+technologies across different industries to build a green economic model. An important milestone to reach this target
+is the reduction of emissions of at least 55% compared to 1990 levels already by 2030.
+5 Source: United Nations - 17 Sustainable goals to transform the world
+EU SPACE FOR GREEN TRANSFORMATION
+4
+The mission of the European Union Agency for the Space Programme (EUSPA) is to support the EU’s goal to
+achieve the highest return on the EU Space Programme's investment in terms of benefits to users, economic
+growth and industry competitiveness. The EU Space Programme, including its flagships Copernicus, Galileo and
+EGNOS, can be critical to supply the necessary information for Europe to make it more sustainable, and to support
+industry and policy makers to monitor environmental indicators, but also to reduce the environmental impacts.
+Copernicus, world’s most advanced Earth Observation system, has been monitoring the Earth’s environment for
+years, providing a unique combination of full, free and open data and thematic information services. The Copernicus
+Climate Change Service (C3S) provides past, current and future projections on climate and its changes, while the
+Copernicus Atmosphere Monitoring Service (CAMS) delivers data and information about air quality and its
+corresponding density of pollutants. Copernicus data supports governments and businesses to monitor industrial
+emissions sentinel-4 and Sentinel-5/5P have capabilities to acquire atmospheric measurements of the airborne
+pollutants such as COx and NOX with a high spatial-temporal resolution.
+Galileo and EGNOS contribute to the European Green Deal by providing accurate positioning, navigation and timing.
+The positioning signals, often in combination with Copernicus data, enable smart farming or precision agriculture
+that allows farmers to save fuel, pesticides and fertilisers, and limit water waste. Its benefits stretch along many
+sectors, with e.g., emission reduction for road transport and route optimisation in the maritime and aviation sectors.
+As the EU Space Programme is continuously expanding with more data, signals and services, more and more
+applications are enabled for governments and businesses, many supporting our common goal of a greener economy.
+Additional details about the European Global Navigation System and Copernicus are described in Annex 1.
+Exhibit 4: Examples of EU Space contribution to key elements of Green Transformation
+The cumulative environmental benefits enabled by the EU Space Programme in energy, road transport, aviation,
+agriculture, forestry, and mining are substantial. Tons of polluting emissions can be avoided, and more efficient
+use of our resources could save billions to the public and to businesses.
+Despite the ample benefits, the EU Space Programme still lacks awareness with industrial stakeholders. Most of
+the surveyed companies for this report state that they are currently not leveraging EU Space data in their pursuit
+of green transformation, but many are keen to explore how this data and signals can support this.
+EU SPACE FOR GREEN TRANSFORMATION
+5
+The purpose of this study is to analyse the contribution of EU Space Programme data and services to the European
+Green Deal objectives for sustainability and show case how the EU Space Programme can support companies
+towards their green transformation paths.
+The overall study approach is based on four-steps, starting from the first two tasks to establish an understanding
+of the Green Deal’s objectives and action areas, as they pertain to changes in policy (1), and reflected in companies’
+green journeys (2). The third step entails the synthesis of various sustainability metrics to identify EU-based
+companies embracing the green transformation, to outline how EU Space can support (3), and interview companies
+to gain insights on how they tackled and monitored green transformation and environmental impacts in their
+respective sectors, and also on how EU Space Data contributed (if in any way yet) and might contribute in the future.
+Finally, the fourth step relates to the generation of informed recommendations (4) for the promotion of EU-Space
+to enable the green transformation in industry and help unlock efficiencies in companies’ sustainability and
+operations.
+EU SPACE FOR GREEN TRANSFORMATION
+6
+2. THE GREEN TRANSFORMATION AND EU
+GREEN DEAL FOR BUSINESS IN EUROPE
+Green transformation market
+The change in thinking observed across industry, policy and society towards more sustainable practices is often
+framed under the moniker of “green transformation”. In the subject literature, this term is mostly defined as actions
+aimed at creating equilibrium (agreement) between the economic growth and care for the environment, aimed at
+guaranteeing a high quality of life for both present and future generations at the level allowed by the civilisational
+development, and at the same time an effective and rational use of the available resources. This can be applied at
+individual level, e.g., single companies or at group level, e.g., single countries, continents, world.
+The green transformation is a dynamic process involving several sectors and actors of the economy and society,
+such as energy production, distribution and storage, agriculture and forestry, natural resource extraction, building
+construction and renovation, mobility, water supply and treatment, waste management, and environmental
+remediation. However, this process is not meant to be a simple transition to a new model of business, as it influences
+and requires changes in many aspects of everyday life, aiming to shift the entire societal cohort towards more
+sustainable behaviour, to help abate and mitigate climate change.
+The green transformation is not an idealised abstraction of society’s shift to sustainability, but rather a very tangible
+concept – one which can create, and boost markets.
+The EU itself plans to invest over €1 trillion over the next decade to support the European Green Deal.
+Exhibit 5: European Green Deal investment plan and action areas
+EU SPACE FOR GREEN TRANSFORMATION
+7
+Exhibit 6: European Green Deal action areas
+As shown in Exhibit 7, the market size for the green transformation is expected to grow at an incredible pace
+(+21.9% CAGR) from 20202. Companies indeed have started considering pursuing sustainability targets as a key
+element of their narrative for their value proposition and competitive advantage.
+EU SPACE FOR GREEN TRANSFORMATION
+8
+Exhibit 7: Global green transformation market2
+It is increasingly understood across industries that the green transformation stands for the right strategic, financial,
+and environmental direction. With a rapidly evolving policy framework exerting more and more pressure on
+businesses, building climate resilience through the green transformation is now more a necessity than a strategic
+niche. In addition, more stringent regulations imposing fines or trade impediments to avoid polluting practices and
+environmental damages (such as for the use of nitrogenous compounds in agriculture) is a clear market enabler for
+businesses to consider undergoing their own green transition.
+Many sectors have spearheaded the change, especially the ones under the most regulatory scrutiny – namely: energy,
+agriculture, and transport.
+▪ In energy, decarbonisation is seeing the phasing-out of legacy, carbon-rich energy sources including oil,
+coal, and natural gas. Large focus is also placed on improving the energy efficiency of distribution grids,
+housing, and industry
+▪ The agricultural sector is focusing on significant technology-based reductions in land and resource use,
+and the redirection of operations toward carbon capture (producing increased added value in net emissions
+reductions)
+▪ In transport, the transition to electric powertrains has originated a now booming segment, with road
+vehicles on an exponential adoption path – in reaction to, and anticipation of shifting regulation in the early
+2030s. Similarly, efforts on green aviation are growing. Improvements in urban and rural mobility
+infrastructure are also further integrating the sector into the digital sustainable era.
+Among the contributing factors to the success of the green transformation6 in the energy industry is a supportive
+regulatory environment. With ever-stricter regulations on the horizon, a funding and innovation framework
+conducive to sustainable change, and the complement of a shifting regulatory landscape in the automobile industry,
+legacy operators began to perform their transitions earlier than most. This, as discussed, will occur within most (if
+not all) other economic sectors, as regulation is rolled out at a fast pace; the period of incremental change is ending.
+Furthermore, supply-chain factors, such as the high volatility of input materials (coal, oil and gas) brought a further
+impetus to move away from legacy operations. Though not directly transferrable to all sectors, this example is highly
+illustrative of the need, and benefits of the green transformation, especially in the industries least adherent to
+sustainable practices.
+6 In this report green transformation and green transition are meant to be synonyms; while other publications might have different definitions for
+each, we will align with the one given by Katarzyna Cheba - Directions of green transformation of the European Union countries
+EU SPACE FOR GREEN TRANSFORMATION
+9
+Green transformation impact on business
+Though not expressly necessary, the green transformation is often tied with the use of modern, innovative digital
+tools. Digitalisation, in turn, supplies tools for optimisation to underpin many efficiencies in resource use and waste
+reduction, target tracking and monitoring, regulatory compliance, and the generation of decision-making data for
+long-term planning. Many of these tasks stand to benefit from the range of applications offered by EU Space data
+and signals. These efficiencies will be discussed to a greater extent in the coming sections, with associated tangible
+use-cases and, where possible, economic impact analyses.
+Significant investment is needed for the green transformation, covering the cost of the described process
+assessment and redesign, modernisation (including digital and other tools, such as space-based products and
+services, cloud computing, and others), as well as staff training and reskilling. Furthermore, it is necessary, for a
+business to successfully perform their green transformation, to capture and keep employee, stakeholder, and
+shareholder buy-in. In the early stages, there is often traction in overcoming the longstanding status quo of
+operations. This period is, nevertheless, characterised by exponential growth – slow at first, but very rapid once the
+first friction is overcome7.
+A conceptual illustration of the overall profits seen by a company over their green transformation is provided in the
+Exhibit below. As it has been the case in practice built upon Ørsted’s lessons learned8, it is likely for a company to
+undergo a period of losses during the initial investment and restructuring phase. Then comes a period of
+technological innovation and scale, diffusing benefits throughout the company (and supply chain), beginning to
+bring returns on the initial efforts and investment, on a rapid but steady upward slope, and then showing stabilised
+returns after a certain point.
+Exhibit 8: The green transformation investment returns curve
+In a shifting investor, consumer and employment landscape, the green transformation also brings advantages in
+terms of public perception. As described previously, gathering support and providing a sound strategic vision to key
+stakeholders around a business is key to the process. These include consumers and/or customers, policymakers,
+employees, and other stakeholders (suppliers, shareholders, board members, and others).
+Investors’ perspective
+From the investor standpoint, as discussed, ESG risks hold an ever more important place in the investment go-
+no-go decision process. Indicatively, 85% of Moody’s debt ratings in 2020 considered ESG risks as a material credit
+7 Source: UCL Institute for Sustainable Resources - The Shape and Pace of Change in the Electricity Transition: Sectoral dynamics and indicators
+of progress.
+8 Source: Ørsted - Our green business transformation: What we did and lessons learned
+EU SPACE FOR GREEN TRANSFORMATION
+10
+item3. In being such a deeply transformative process, the green transition offers the opportunity for a business to
+not only overhaul environmental bottlenecks and weaknesses, but also ones in the governance structure, as well as
+internal social standing (and belief). There lie direct benefits, therefore, for companies to appeal more to investors,
+thanks to their green transformation.
+Customers’ perspective
+There are arguably even stronger dynamics at play in consumer/customer perception. Multiple studies have been,
+and continue to be conducted on the subject, as it is a rapidly evolving, for reasons already described. Of the most
+notable trends is the ongoing shift in perception 9 of sustainable products from a niche category to rather an
+important aspect of all product categories, a clear example is provided by the study from Ferguson10 recognising
+how more than half of German and British consumers explicitly check for sustainable ingredients on shelf products
+in stores; and more than 70% of customers in those countries is aware of brands associated with environmental
+concerns. The increasing attention on the ESG and sustainability-related sides of a product or service also offers
+businesses the capacity for reduced costs. Thanks to the homogenisation of consumer preference toward
+sustainability, that aspect can be used as a singular marketing lever across different markets and regions, offering
+scale economies. It is important, nevertheless, to note that current data shows that, in certain sectors such as food,
+the traditional factors of price and quality remain more influential in mass consumer decisions than sustainability.11
+Green transformation in regulatory requirements
+The European Green Deal will have major structural implications for the EU economy in the coming decades,
+affecting everything from the way we produce and use power, to how we travel, heat our homes, and even how we
+eat. This is made possible through a series of policies which will be introduced or updated starting from already
+existing measures.
+Many of the policies put in place in the context of the European Green Deal will deeply affect business and
+operations of European companies. Those changes are all focused in improving European environmental conditions
+and making a greener and fairer society
+To that end, in addition to the supportive policy environment the Green Deal will bring for the green transformation
+and sustainable innovation, disincentives will be put into place as well. Though not expressly defined yet to date, a
+comprehensive and cohesive system of fines and penalties will be set up (on top of mechanisms such as the
+Emissions Trading System) to define the price of non-compliance.
+A summary of the main changes to regulations proposed with the upcoming European Green Deal is shown in
+Exhibit 9. For businesses, there lies a great opportunity to synergistically capitalise on the EU Space Programme
+for their own sustainable transformation and monitoring, as well as for the improvement of their legal
+compliance.
+Those considerations are meant to be only indicative to provide with a general idea about potential applications of
+the EU Space in relation to Green Deal-related regulatory updates. Detailed use cases underlining how the EU
+Space applications are supporting/ can enable the green transformation and the journey of companies towards it,
+are provided in the following sections of this document.
+9 Source: Van Bussel et al. - Consumers’ perceptions on food-related sustainability: A systematic review
+10 Source: Ferguson - Consumer Perceptions of Sustainability: An Exploratory Study
+11 Source: Consumers’ perceptions on food-related sustainability: A systematic review
+EU SPACE FOR GREEN TRANSFORMATION
+11
+Exhibit 9: Summary & mapping of key regulation updates under the Green Deal and examples of EU Space applications12
+Examples of EU Space applications
+12 The provided examples of EU Space applications are meant to be only indicative, proper detailed use cases will be provided in the next sections of this report
+EU SPACE FOR GREEN TRANSFORMATION
+12
+Examples of EU Space applications
+EU SPACE FOR GREEN TRANSFORMATION
+13
+Examples of EU Space applications
+EU Space is used to boost efficiency of several
+production. EU Space allows companies of chose
+the best site for solar panels and wind turbines.
+EU SPACE FOR GREEN TRANSFORMATION
+14
+3. THE ROLE OF THE EU SPACE
+PROGRAMME IN SUPPORTING COMPANIES
+ALONG THEIR SUSTAINABILITY JOURNEY
+The European Union Space Programme in all its components has already been introduced previously in this report,
+together with a preliminary discussion about its role for the established Green Deal objectives. As anticipated, due
+to the higher impact on the topic, this report will focus primarily on the European Global Navigation Satellite
+Systems (EGNSS), including Galileo and EGNOS and Copernicus.
+As for the EGNSS, their role in support of the Green Deal’s ambitions for emissions reductions is crucial. A key
+example is the transport sector 13, including aviation, maritime, road, and rail transport. The sector contributes
+heavily to emissions in Europe. The EU’s goal is to lower them by 90% by 2050, to meet the overall net neutrality
+target set by the European Union.
+The development of GNSS-enabled Performance-Based Navigation (PBN) for aviation has been a breakthrough in
+that regard. Traditional route planning, using Ground-Based Augmentation Systems (GBAS), has required that a
+point-by-point path is taken, cruising between navigation data sources (e.g., beacons). Rather than compromising
+air routes to meet these requirements, Galileo and EGNOS allow planners to draft more direct paths between
+destinations, prioritising performance – and thus, lower fuel use and emissions – by providing a constant stream of
+navigation data and reducing (or eliminating) reliance on traditional GBAS. To that end, EGNSS data is also often
+more accurate, and safer than ground-based alternatives.
+Another use for EGNSS in aviation is Localiser Performance using Vertical guidance (LPV) approaches. Using
+EGNSS data, aircraft operators can involve more accurate data (compared to conventional sources) in landing
+procedures. That, in turn, allows automated manoeuvres which optimise performance and more closely follow the
+ideal landing line, leading directly again to fuel savings, and thus reducing emissions.
+In road transport, high-accuracy real-time EGNSS data, and Copernicus-based urban planning applications will
+ease the transition into optimised assisted and fully autonomous driving. The network of semi- and fully autonomous
+vehicles will then be able to cross-interface between vehicles, as well as with centralised control centres, using
+GNSS to regulate and monitor traffic, optimise vehicle inputs (throttle, steering, route planning), as well as make
+roads safer to run in.
+While EGNSS allow users to improve their operations making them more efficient, Copernicus becomes particularly
+useful when it comes to monitoring and having a better understanding of the environment around us. A concrete
+example is provided by the use of Copernicus data to precisely position renewable energy infrastructure14.
+The energy output in terms of watt-hour produced by sustainable sources like solar panels or wind turbines is highly
+dependent on their correct positioning. Not only the right site is fundamental, but even the correct orientation makes
+a significant difference. Copernicus services together with historical data provide energy companies with information
+about solar radiation and wind behaviours on a world-wide base, allowing them to make informed decisions and
+get the best from their infrastructure.
+A detailed discussion about EGNSS and Copernicus in support of Green Deal goals will be the core of this section
+of the report; it is important to understand that the role of the EU Space Programme for what concerns environmental
+matters is not something vague and uncountable, but already effective and tangible. For example, the EU Space
+already supports Green Deal aims such as CO2 reduction, smart mobility, cleaner energy production, and others. A
+13 A detailed discussion about the role of the EU Space for the transport sector is provided in the following sections
+14 Copernicus use in the energy industry will be further discussed in following sections
+EU SPACE FOR GREEN TRANSFORMATION
+15
+summary of those achievements is provided in a study15 promoted by the European Commission of which some of
+the conclusions are reported in Exhibit 10.
+Exhibit 10: Estimated impact of the EU Space Programme on selected markets and on the environment15
+Since its first roll-out, Copernicus has been actively involved in monitoring pollution, land use, and waste
+management, among other applications, for example:
+▪ The Copernicus Atmosphere Monitoring Service (CAMS) provides daily forecasts of global air quality
+that public and private authorities can use to determine citizens’ exposure to pollutants such as aerosols
+and particulates. It is also useful for air traffic control in case of volcanic activity.
+▪ The Copernicus Marine Service (CMEMS) oversees water quality monitoring and forecasting of pollutants
+such as nitrates, phosphates, and dissolved iron in the sea from land and especially along the coast, but
+also monitors organic pollution such as algal blooms, which are increasing with global warming and
+eutrophication of the water.
+▪ The European Maritime Safety Agency (EMSA) uses Sentinel satellite imagery to monitor sea pollution
+such as oil spills and other polluters.
+▪ The Copernicus Land Monitoring Service monitors changes in grassland rich Natura2000 hotspots for
+nature conservation, to figure out whether these sites are being effectively preserved or if a decline in loss
+of biodiversity is halted.
+Copernicus with the C3S service is a crucial asset for monitoring climate change as it produces, on a global scale
+basic climate variable describing the climate over time. More broadly, with its services and products, Copernicus
+directly supports the objectives set up by the European Green Deal.
+15 Source: PwC - Analysis of the Environmental Impact of the EU Space Programme (2020)
+EU SPACE FOR GREEN TRANSFORMATION
+16
+Exhibit 11: Summary of the most relevant Copernicus services and products for the Green Deal objectives
+Green Deal
+objective
+Copernicus data and
+information involved
+Specific examples of products
+Atmosphere Monitoring
+(CAMS)
+▪ Anthropogenic and natural emissions
+▪ Global ship emissions
+Marine Env. Monitoring
+(CMEMS)
+▪ Eutrophication
+Achieve
+climate
+neutrality
+Land Monitoring (CLMS)
+▪ Lake water quality
+▪ Natura2000
+▪ CORINE Land Cover
+Climate Change (C3S) ▪ Climate projections
+Copernicus Sentinels
+▪ Sentinel-4, Sentinel-5 and Sentinel-5P for monitoring of
+emissions of trace gases and air quality
+Atmosphere Monitoring
+(CAMS)
+▪ Air quality analyses and forecasts
+▪ Anthropogenic emissions
+Land Monitoring (CLMS)
+▪ CORINE Land Cover
+▪ Natura2000
+Copernicus Sentinels
+▪ Sentinel-2 for evidence supporting the evaluation of green
+claims
+Atmosphere Monitoring
+(CAMS)
+▪ Anthropogenic emissions
+▪ Global ship emissions
+Land Monitoring (CLMS) ▪ Lake water quality
+Copernicus Sentinels
+Atmosphere Monitoring
+(CAMS)
+▪ Sentinel-1 for oil spill monitoring at sea, Sentinel-2 for oil spill
+monitoring on land
+▪ Air quality analyses and forecasts
+Marine Environment
+Monitoring (CMEMS)
+▪ Primary productivity
+▪ Sea surface temperature
+Land Monitoring (CLMS)
+▪ Street tree layer
+▪ Urban atlas
+▪ Natura2000
+▪ High resolution layers
+Clean the
+industrial
+revolution
+Make
+transport
+sustainable
+for all
+Restore
+ecosystems
+and
+biodiversity
+Copernicus Sentinels ▪ Sentinel-1 and Sentinel-2 for deforestation monitoring
+Atmosphere Monitoring
+(CAMS)
+▪ Solar radiation
+Marine Environment
+Monitoring (CMEMS)
+▪ Sea surface wave forecasts
+▪ Sea surface wind
+Supply clean
+energy
+▪ Sentinel-1 for sea surface waves and wind, wake analysis of
+Copernicus Sentinels
+offshore wind farms
+▪ Sentinel-2 for biomass estimation
+EU SPACE FOR GREEN TRANSFORMATION
+17
+Green Deal
+objective
+Copernicus data and
+information involved
+Specific examples of products
+Renovate
+buildings for
+greener
+lifestyles
+Atmosphere Monitoring
+(CAMS)
+▪ Anthropogenic emissions
+Land Monitoring (CLMS) ▪ Urban Atlas
+Climate Change (C3S) ▪ Urban Heat Islands
+Copernicus Sentinels
+Marine Environment
+Monitoring (CMEMS)
+▪ Sentinel-3 for urban heat island monitoring
+▪ Copernicus expansion mission LSTM for high resolution urban
+heat island monitoring for more precise building heat loss
+detection
+▪ Eutrophication
+▪ Chlorophyll-a
+▪ Primary production
+▪ Oxygen
+▪ Salinity and acidity
+Build a
+healthier and
+greener food
+system
+Land Monitoring (CLMS)
+▪ CORINE Land Use/Land Cover
+▪ Lake water quality
+Climate Change (C3S) ▪ Bioclimatic indicators
+▪ Sentinel-1 for detecting illegal, unreported and unregulated
+fishing
+Copernicus Sentinels
+▪ Sentinel-2 for deforestation and afforestation monitoring
+▪ Sentinel-2 for crop growth monitoring for precise fertiliser and
+pesticide application in agriculture
+The role of the EU Space for Green Deal objectives and companies’ journey in the green transformation can be at
+the highest level possible simplified into two macro-categories: environmental monitoring and environmental
+footprint reduction, as defined in Exhibit 12. These two topics will be the core of the rest of this chapter and will be
+tackled from the perspective of companies.
+Exhibit 12: Role of EU Space for green transformation - definitions of environmental monitoring
+and footprint reduction
+EU SPACE FOR GREEN TRANSFORMATION
+18
+A first good example of the importance and benefit of the EU Space Programme for environmental monitoring is
+provided by the insurance sector which relies more and more on space data in case of catastrophic events to
+speed up refunding procedures helping affected populations to start reconstruction in the shortest time possible. A
+detailed use case is provided in Exhibit below.
+Exhibit 13: Use case - EU Space Programme for insurance companies
+Challenge
+▪ Climate change is making weather-related catastrophic events more and more common,
+leaving populations affected to deal with reconstruction, massive losses in terms of
+households and lives
+▪ The “aftermath” of an extreme event includes reconstruction and damage assessment which
+involve the affected population, governments, civil protection agencies, NGOs, insurance
+companies and other stakeholders.
+Role of the
+Green Deal
+▪ The European Green Deal promotes the shift towards a more just society in which economic
+resources are more easily accessible to the population, especially in case of emergency such
+as a catastrophic weather-related event
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+Monitoring insured assets
+The insurance sector accounts globally for €5 trillion, and it is undergoing a profound evolution
+driven by digital transformation. Collaboration between traditional insurers and InsurTech firms
+will give rise to newer business models and revenue streams aiming at higher profitability and
+reduced operational costs.
+In the context of digitalisation, many of the traditional activities performed by insurers are now
+highly dependent on the availability of large quantities of reliable data. Players in the sector are
+eager to have both more precise risk models, and reliable asset monitoring systems to make their
+operations more sustainable and therefore more profitable.
+Having access to funds and resources coming from insurance companies' reimbursements in the
+shortest possible time can be vital for people. The typical process can be very tricky and
+inefficient, especially in cases of areas where access for insurance inspectors can be difficult due
+to the occurred phenomena. Using satellite imagery for monitoring the affected areas, not only
+can speed up those processes improving the life quality of affected people letting them to go back
+to normality and reduce logistic costs for insurance companies. Post-event damage assessment,
+asset monitoring and risk modelling driven by satellite data provide a reliable and up-to-date
+date tool for insurance companies. In case of catastrophic events, many of the claims issued to
+insurance companies can be addressed using space data. Satellite pre-disaster images are
+matched with post-event ones to detect changes and highlight the entity of damages and
+speed up claims management and funds unlocking.
+Companies such as SkyTek are combining Copernicus data with commercially available ones to
+address those topics.
+EU SPACE FOR GREEN TRANSFORMATION
+19
+Exhibit 14: Value chain and position of EO space data in insurance sector
+Examples
+of EU
+Space
+providers16
+As shown in the use case presented above, open and free access to the European Union’s Copernicus Earth
+Observation data, analyses, maps, and forecasts stimulated innovation, providing young companies like Skytek, GAF,
+Earthpulse and others with the ability to build, test, and deploy value-adding services17.
+Now that the general picture and definitions about the EU Space and its role in supporting the objectives of the
+Green Deal have been clarified, the next sections of this document will focus on providing the reader with specific
+examples and use cases about the two areas defined in the Exhibit 12.
+16 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, contact EUSPA market@euspa.europa.eu .
+17 Source: Copernicus website
+EU SPACE FOR GREEN TRANSFORMATION
+20
+Role of the EU Space in monitoring green transformation targets
+Environmental monitoring activities are carried out on soil, atmosphere, and water by companies and institutions
+with the scope to assess how human activities are interfering with the biosphere.
+Historically, those activities always involved a first, in-situ sample collection, followed by a specific analysis
+process, and a final data categorisation and visualisation.
+▪ Air monitoring combines emissions, meteorological, and topographic data to detect and predict the
+concentration of air pollutants in a determined aria. Environmental data is typically gathered using
+specialised sensor networks placed locally in high-risk areas.
+▪ Soil monitoring typically requires operators to grab and analyse soil samples to detect phenomena such as
+acidification, biodiversity loss, contamination, erosion, organic material loss, salinization, and slope
+instability. Main parameters on study are salinity, which, if imbalanced, can cause detrimental effects on
+water quality and plant yield; chemical contaminations coming from toxic elements, such as nuclear waste,
+coal ash, microplastics, petrochemicals, and acid rain, which can lead to the development of pollution-
+related diseases if in contact with humans or animals; and erosion due to factors such as rainfall, surface
+runoff, rivers, streams, floods, wind, mass movement, soil composition and structure, topography, and lack
+of vegetation management.
+▪ Water monitoring, is usually performed through the acquisition of samples from any water source (e.g.,
+see, rivers, lakes, drinking water sources, etc.) to measure and monitor parameters such as biological
+presence, chemical content, and microbiological parameters.
+All the processes mentioned above are very resource-intensive, requiring personnel on the ground to either
+conduct sensor maintenance or to physically collect samples.
+The next paragraphs show how the EU Space Programme, and in particular Copernicus, can be used by institutional
+and commercial players to make environmental monitoring more efficient and effective. Not only does the use of
+space data allows to free up human and economic resources otherwise necessary, but it also makes possible more
+frequent monitoring of areas difficult to be reached by human personnel.
+Environmental monitoring is mandatory for certain companies, especially in the manufacturing industry. Monitoring
+procedures are hard coded in countless regulations and standards; therefore, they are a topic very resistant to
+innovation, leaving only limited room for the EU Space Programme, likely to only cover a secondary/support role in
+the meaning of for example quickly identify risks and issues in companies’ infrastructure.
+ESG is becoming a crucial aspect for modern companies, and it is foreseen to have much higher relevance in light of
+the upcoming Green Deal relevant new regulations issued by the European Institutions.
+Following the original directive about non-financial reporting issued by the European Union, the European
+Commission adopted in 2021 a proposal for the Corporate Sustainability Reporting Directive (CSRD),
+encompassing a series of measures issued to ensure that large companies are required to report not only on financial
+matters, but also on sustainability issues such as environmental footprint, social rights, human rights and
+governance factors (i.e., ESG reporting). Starting in 2024, initially large companies (i.e., more than 500
+employees), followed by listed SMEs, will have to embrace the CSRD to continue their operations in the European
+Union.
+EU SPACE FOR GREEN TRANSFORMATION
+21
+Exhibit 15: ESG main evaluation areas
+Pushed by the change in non-financial reporting regulation, environmental monitoring with the purpose of
+measuring ESG scores is an emerging and promising topic, yet in its development phases, and so more likely to
+embrace innovation and new approaches. Therefore, the use of space data not only can be beneficial, but Copernicus
+data might also be considered in the future as a standard for monitoring and measuring environmental indicators. In
+this section, we will first provide a general introduction to ESG, and then we will focus on how the EU Space
+Programme is currently integrated or can be integrated in the measurement of environmental KPIs.
+Through the past half century, as shown in the earlier sections, topics such as global climate change, environment,
+and sustainability have gained increasing importance. Companies are more and more sensitive to those topics,
+high attention is given to those processes aimed at monitoring emissions and environmental footprint of companies’
+operations, and, when possible, reducing them.
+Furthermore, in the latest years, we have seen the rise of a social consciousness devoted to “save the planet”
+through actions aimed to achieve a more sustainable society and economy. Companies recognised as
+environmentally friendly are better placed to get new customers, new investors, and even new employees. On the
+other hand, possible investors might find a company unattractive if its brand is linked to poor environmental
+practices, and therefore they might prefer not to associate with it.
+A good instrument to evaluate the performance of a company in terms of environmental effort and impact is the ESG
+scoring. Environmental, social, and corporate governance (ESG) is an approach to evaluate efforts of a company
+towards social goals beyond the core business of the organisation itself. More specifically:
+▪ The environmental criteria, include factors such as the energy used and wasted by a company, the use of
+resources, carbon emissions, and contribution to climate change.
+▪ The social criteria, address the relationships the company has and the reputation it fosters with people and
+institutions in the communities where the business is active. Factors such as fair treatment of employees,
+diversity and inclusion are accounted for.
+▪ The governance criteria are the internal system of practices, controls, and procedures companies adopt to
+govern themselves.
+EU SPACE FOR GREEN TRANSFORMATION
+22
+Companies are nowadays giving significant relevance to ESG – often driven by capital markets creating pressure to
+achieve progress in this dimension. Shareholders and investors seek reflective and progressive policies in all three
+of these realms and use it as a tool to weigh up a business’ overall sustainable performance. Customers and channel
+partners are increasingly weighing in ESG compliance into their purchase decisions. Lastly, employees and
+recruitment candidates value the sustainability ambition of their (potential) employer.
+The graph below outlines the ESG framework adopted by Henkel, as an example.
+Exhibit 16: Example - ESG goals and KPIs adopted by Henkel
+The increasing importance ESG is acquiring in the modern society and way to do business, is well exemplified by a
+recent study estimating that for certain industries the share of profit at stake in case of significant modifications
+in environmental and social policies can reach up to 60%18.
+Exhibit 17: Estimated share of EBITDA at risk due to ESG negative performance by industry
+18 Source: McKinsey & Co - Five ways that ESG creates value
+EU SPACE FOR GREEN TRANSFORMATION
+23
+All these factors together made ESG a predominant topic in companies’ directive boards, and the currently given
+attention is only expected to grow in the next years boosted by ambitious targets such as the European Union
+climate neutrality in 2050, and new regulations such as from the European Green Deal, committing the Union to
+pursue a more sustainable and inclusive society.
+In the recent BCG-INSEAD “Board ESG Pulse
+Check” found that 70% of directors are only
+moderately or not at all effective at
+integrating ESG into company strategy and
+governance.
+Given the importance of ESG role in the modern corporate life, a reliable assessment and scoring system is necessary.
+It needs to be objective, accurate and consistent. It should be able to provide comparable scores for businesses
+across sectors and geographies. Given the global reach of space assets and their known ability to impact SDGs,
+it is high time to investigate systematically space data and services contribution to the corporate ESG world.
+Please refer to the following sections showing on how EU Space can contribute to ESG monitoring and reporting, in
+particular, Exhibit 21 shows some examples of relevant KPIs to be monitored and how EU Space can be beneficial
+in doing that.
+ESG Monitoring ecosystems and value chains are still under development. The business world has gone a long way
+from initial alibi-reporting and upgraded Corporate Social Responsibility (CSR) reporting. Rightly so, some of these
+efforts have and are being criticised by media and Non-Governmental Organisations (NGOs) as greenwashing. The
+finance world is gradually adopting ESG products and mechanisms to track this.
+Four major drivers of activity can be observed:
+A) Increasing sophistication of top down ESG rating
+In recent years, several ratings and certification schemes have been created to assess organisations’ performance
+in those matters. These companies provide information to users by cross-checking input from assessed companies
+to avoid misleading practices like the greenwashing19. Among the most relevant are the B Corporation Certification,
+the Sustainalytics Risk Index, and the Corporate Knights Rating.
+▪ The B Corporation Certification (also B Corp) is issued by B Lab, a non-profit organisation, to those
+companies that score a minimum of 80 points (out of 200) in an assessment about social and environmental
+sustainability. Even though, a B Corp Certification, does not bring any legal significance to the holding
+companies, it is globally recognised as a powerful branding tool to build trust in consumers, investors, and
+suppliers and to attract and retain employees.
+▪ The Sustainalytics Risk Index is issued by the Dutch private firm Sustainalytics to assess companies'
+exposure to long-term environmental, social, and governance risks. It is useful both for companies
+themselves for targeted marketing programmes, and investors to find potential risks and opportunities
+▪ The Corporate Knights Ranking is issued by Corporate Knights, a Canadian financial research firm which
+compiles every year starting from 2005 the “Global 100” ranking, a table showing the 100 best performing
+companies in terms of ESG based on a set of 43 KPIs.
+The process behind the compiling of ESG ratings is typically based on data provided by companies on a voluntary
+basis. ESG data aggregators, therefore, start from data which might be partial or biased by the internal perception
+of the company supplying them. This first set of information is complemented with additional surveys and sector
+analysis studies. Altogether, those data allow aggregators to compile a list of KPIs converging into the ESG rating.
+The chart below reports the correlation between different environmental scorings (part of ESG scoring) of a sample
+company issued by different providers. The data are shown on a scale from 1 to 0, in which 1 represents a perfect
+19 Greenwashing: The process of conveying a false impression or providing misleading information about how a company's products are more
+environmentally sound
+EU SPACE FOR GREEN TRANSFORMATION
+24
+correlation (i.e., scores compiled by two different issuers are perfectly identical for a same company) and 0
+represents no correlation (i.e., scores compiled by two different ratings have no overlapping consensus for a same
+company), it is very evident that the lack of standardisation intrinsic in the described process reduces the
+reliability of the rating as a performance indicator.
+Exhibit 18: Correlations between environmental scoring issued by different organisations
+A process of regulation and standardisation of the environmental monitoring is likely to happen in the next few
+years pushed by the already mentioned Corporate Sustainability Reporting Directive (CSRD) bringing relevant
+business opportunities to those players able to provide reliable and unbiased data. In this context, a clear opportunity
+stands for the use of the EU Space Programme as a data provider, both for companies to have a realistic
+understanding of their status-quo, and for regulators to monitor the environment and be able to take informed
+decisions on measures to be put in place for environment protection. Numerous companies are pushing in this
+direction developing products specifically targeted to the ESG parameters assessment. A typical use case provided
+by a European start-up is presented in the following use case.
+Exhibit 19: Use case - Copernicus for ESG monitoring
+Challenge
+▪ ESG reporting is often based on self-assessed and possibly biased data provided by
+companies
+▪ Independent assessment is necessary to comply with upcoming more stringent regulation
+about non-financial reporting which will affect European companies starting from 2024
+Role of the
+Green Deal
+▪ Green Deal put at its very centre the idea of a more sustainable society and therefore it
+promotes regulations willing to enforce a more rigid control over companies’ environmental
+performance such as the Corporate Sustainability Reporting Directive destined to underline
+the importance of a correct non-financial management of business
+Solution
+offered by
+EU Space
+GlobeEye monitors ESG parameters through Copernicus
+Example of
+real-life
+use case
+With the upcoming regulation about Non-Financial Reporting, ESG rating is now being perceived
+as an added factor companies should consider while evaluating their performance. An
+independent point of view based on reliable and unbiased data is therefore becoming
+fundamental, since there is the need to monitor ESG performance in an impartial way.
+EU SPACE FOR GREEN TRANSFORMATION
+25
+The collection of ESG data is usually reliant on in-situ sensors deployed by the companies
+themselves and self-reported data.
+This is where space data can play a fundamental role. The Copernicus Programme is one of the
+leading contributors to this revolution in ESG monitoring. Companies such as GlobeEye are
+addressing the growing needs for unbiased ESG data thanks to space assets. GlobeEye leverages
+EO data from different providers, aggregating and analysing them through proprietary AI
+algorithms; this allows to provide key insights on crucial parameters such as NOx and particulates
+in the interested areas. The role of Copernicus for such data is central and it currently hinges on
+Sentinel-5P. Launched in 2017, the
+Sentinel-5 Precursor relies on its TROPOMI
+payload to monitor several pollutants and
+greenhouse gases (GHG) in the atmosphere,
+such as ozone (O3) and methane (CH4), as
+well as carbon, sulphur, and nitrogen oxides
+(COx, SOx, NOx). However, the contribution of
+Copernicus does not stop here, and it is set to
+increase significantly in the coming years
+thanks to the upcoming launches of new
+satellites. Sentinel-4 and Sentinel-5 are the
+first ones and are planned to work in tandem
+to complement and expand upon the
+capabilities provided by Sentinel-5P. Additionally, further data will be provided by the Expansion
+Sentinels, namely the CO2M constellation, which will focus on anthropogenic emissions of CO2.
+Exhibit 20: NOX distribution over Europe
+Examples
+of EU
+Space
+providers20
+The following Exhibit shows some examples of common Key Performance Indicators (KPIs) used by companies in
+the monitoring of the environmental aspects within ESG scoring metrics frameworks. The list has been identified
+from industrial examples, Corporate Knights’ open method and other standards, including the 14000-series ISO
+family on environmental management.
+Exhibit 21: Examples of environmental monitoring KPIs for green transformation
+and EU Space contribution
+Indicator Unit Description Examples of EU Space contribution
+s
+GHG emissions
+Tonnes of
+CO2 equiv.
+Total direct and indirect
+CO2-equivalent GHG
+emissions produced by
+business activity
+Copernicus satellites and in particular
+Sentinel-4 and Sentinel-5/5P have
+capabilities to acquire atmospheric
+measurements of the airborne pollutants
+i
+n
+o
+s
+s
+m
+E
+i
+20 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, contact EUSPA market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+26
+Indicator Unit Description Examples of EU Space contribution
+NOx emissions Tonnes
+SOx emissions Tonnes
+Direct nitrogen oxide
+emissions across all
+operations
+Direct sulphur dioxide
+emissions across all
+operations
+Volatile Organic
+Compound (VOC)
+emissions
+Tonnes
+Direct VOC emissions
+across all operations
+Particulate Matter
+(PM) emissions
+Tonnes
+Total particulate matter
+emissions
+such as COx and NOX with a high spatial-
+temporal resolution, to be used for air
+quality.
+In the future, the CO2M Copernicus
+Expansion Mission can support further CO2
+emission measurements.
+Companies can use open data provided by
+Copernicus services, especially CAMS to
+assess and act on their environmental
+footprint.21
+Water withdrawal
+Cubic
+meters
+Ttl
+electricity use
+MWh
+Total volume of water
+withdrawn (not include
+Total direct and indirect
+energy used, including
+self-generated energy
+reused rainwater) The EU space programme plays relevant
+role in renewable energy siting and
+maintenance.
+Renewable
+energy use
+MWh
+Total purpose-built, self-
+generated renewable
+energy used
+Total waste
+generated
+Tonnes
+Total hazardous and
+non-hazardous waste
+generated
+Waste
+recycled
+Tonnes
+Total recycled waste
+across all operations
+Good examples are the use of CAMS for
+assessing solar irradiance for solar panel
+siting, or Sentinel-1 data used for finding
+suitable locations for offshore wind farms
+Solutions enabled by Galileo can boost
+waste collection logistics efficiency.
+On the other hand, Copernicus is vastly
+used to monitor waste presence in oceans
+(Copernicus Marine Service) other than
+providing information on ocean, lake, river,
+air and soil pollution.
+e
+s
+U
+e
+c
+r
+u
+o
+s
+e
+R
+e
+t
+s
+a
+W
+21 Concrete use cases will be provided throughout the report
+EU SPACE FOR GREEN TRANSFORMATION
+27
+B) Regulators and investors demanding sustainability information in investment
+& financing activities
+The European Union has been a pioneer and took steps towards enforcing ESG compliance, initially, starting with
+the financial markets: The new EU Sustainable Finance Action Plan introduced a number of key measures which
+will come into effect in the EU shortly.
+From 2 August 2022, sales agents or distributors authorised in the EU under the MiFID regime must take into
+account any sustainability preferences of a client (in addition to the client's investment objectives and risk tolerances)
+when assessing the suitability of financial services or products for recommendation. Systematically asking
+investors at the outset of the sales process to indicate if they have a preference for ESG products, as envisaged,
+could cause a radical shift in the demand levels for ESG products. EU-authorised securities management
+companies (UCITS) and fund managers (AIFM) must specifically factor the consideration of sustainability risks into
+their investment due diligence processes, risk management processes, and conflicts of interest policies. This will
+require the integration of sustainability considerations and factors into firms' investment processes and risk
+management processes for all funds managed, not just ESG-focussed funds.
+The secondary phase of the EU Sustainable Finance Disclosure Regulation (SFDR) will crack down on empty
+promises and require EU financial products that seek to promote ESG characteristics or have a sustainable
+investment objective to make detailed pre-contractual and financial disclosures from 1 January 2023.
+In addition, banks are increasingly using ESG ratings to provide access to finance to their clients. For example,
+Deutsche Bank is linking the Henkel AG & Co. KGaA (Henkel) supply chain finance program to the ESG ratings of
+Henkel's suppliers. Deutsche Bank is the first bank in Europe to convert an existing supply chain finance program
+for its client. Through this program, Henkel creates incentives for its suppliers to be more sustainable.
+A Henkel’s supplier can receive payment immediately after Henkel approves its invoice. The financing costs for the
+suppliers are based on Henkel's creditworthiness, which means that the suppliers can usually lower their typical
+financing costs. By improving their ESG rating, suppliers can further reduce financing costs in the supply chain.
+Exhibit 22: Media headlines from the last three months (as of July 2022)
+C) Corporates embracing ESG as a strategic goal and implementing processes
+Corporates have realised that their investors, their customers and future employees are increasingly aware of
+ESG. Typically, corporates are professionalising what grew out of corporate social responsibility (CSR) activities
+which were typically organised under public relations functions. As the strategic relevance increases with a link to
+corporate purpose, the responsibility for ESG is moving closer to the C-level, either through a dedicated
+sustainability officer under the CEO or reporting to the CFO. Many corporates create proactive bottom-up efforts
+of corporates in shaping their ESG data generation capability. BCG has developed a four-stage evolution that
+companies typically go through in shaping their ESG capability.
+EU SPACE FOR GREEN TRANSFORMATION
+28
+Exhibit 23: Four-stage evolution of companies through ESG capabilities (BCG)
+These factors are promoting a more in-depth integration of ESG matters in processes and operations of companies.
+From our research and interviews with engaged partners, we found two general archetypes of companies talking
+the monitoring of KPIs associated with environment in two different ways. A first group to whom we refer as
+“Champions” and a second group here referred as “Second Adopters”. Even though both groups are aware of the
+importance of environmental monitoring, they differentiate by the level of integration these have in their operations.
+Champions are likely to have full integration of environmental monitoring solutions in their operation, Second
+Adopters, usually rely on less pervasive solutions such as emissions mathematical models or surveys to be filled
+by responsible people across the organization.
+D) Growing number of ESG IT solutions – from start-up solutions to fully integrated packages
+The ESG system landscape is very wide and varied. On the one end of the spectrum the large Enterprise Resource
+Planning (ERP) providers with end-to-end solutions promising to link seamlessly into existing corporate systems.
+Their promise is range from supply chain risk and reputation, sustainability management systems, ethical business
+operations all the way to integrated reporting and performance management. On the other end, there are numerous
+simpler survey or workflow solutions which address parts of the information – often software-as-a-service solutions
+from start-ups who see themselves as part of the climate tech or fintech scene.
+An example of integration of innovative technology for environmental monitoring and ESG rating is the use of space
+data by energy companies to monitor methane emissions into the atmosphere. Sentinel-5P data are particularly
+suitable for this application. A detailed use case is provided in the following Exhibit.
+EU SPACE FOR GREEN TRANSFORMATION
+29
+Exhibit 24: Use case - Copernicus for methane emissions monitoring in the energy sector
+Challenge
+Role of the
+Green Deal
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+▪ Energy production is one of the highest-impact sectors in terms of greenhouse gasses
+(GHG) production
+▪ GHG emissions might be difficult to monitor on a large scale in the area not immediately
+surrounding the production sites
+▪ The Green Deal a clean energy transition, and with the goal of achieving a 32% energy share
+from renewables
+▪ Moreover, it sets important goals to ensure a secure and affordable energy supply for EU residences
+TotalEnergies to monitor GHG emissions through Copernicus
+The energy sector is one of the main contributors to methane emissions, as one-third of the
+global anthropogenic ones can be traced back to energy production 22 . Consequently, as
+announced in the European methane strategy, the European commission adopted a proposal for
+a regulation specifically targeting the reduction of methane emissions in the energy sector. A
+central element of this proposal revolves around improved measurement, reporting, and
+verification of these emissions. Traditional monitoring techniques for methane emissions are
+numerous and each is suitable for specific circumstances23. In case of well-defined origin points,
+typical for industrial sites, stack sampling can be used; this involves calibrated bags collecting
+samples over time, for them to be later
+analysed in laboratories. Tracer gas
+dispersion relies on the controlled release
+of tracer gases at the point of emission,
+with concentration measurements of both
+the tracer gas and methane then taken
+downwind to monitor methane dispersion;
+this technique is often used for livestock
+emissions or for wastewater treatment
+facilities. Alternatively, enclosure chamber
+measurement can be implemented by
+deploying either static or dynamic
+chamber atop emission points. Finally,
+drones equipped with laser beam sensors
+can be used for methane monitoring too,
+when dealing with pipelines and oil fields.
+Exhibit 25: Data visualisation of GHGSat
+methane emission measurement for
+TotalEnergies
+The capabilities of the EU Space Programme are perfectly suited to complement and improve
+traditional methane emissions monitoring techniques. Key players in the fossil fuels industry are
+aware of it, as proven by TotalEnergies, a French multinational energy and petroleum company,
+22 Source: European Commission
+23 Source: How do We Monitor an Measure Methane?, Envirotech Online, 2022
+EU SPACE FOR GREEN TRANSFORMATION
+30
+founded almost 100 years ago and employing more than 100,000 people globally. In line with its
+long-standing efforts to identify, quantify and reduce methane emissions from its facilities,
+TotalEnergies leveraged Copernicus and partnered with Canadian GHGSat to perform a
+controlled methane release and validate the contribution of space data to the effective monitoring
+of polluting missions within the context of energy production. Enabled by the atmospheric
+measurement data coming from Copernicus Sentinel-5P, GHGSat managed to detect the
+smallest ever methane emission via satellite, proving the added value that space data can provide
+and paving the way to increased adoption of satellite-based monitoring for atmospheric methane
+emissions. This would not have been possible without the state-of-the-art capabilities of the
+Copernicus programme. Together with its complementary mission Sentinel-4 and, as a precursor
+of Sentinel-5, Sentinel-5P has the aim to perform atmospheric measurements with high spatial-
+temporal resolution, to be used for air quality, ozone & UV radiation, and climate monitoring &
+forecasting. With Sentinel-5, as well as the upcoming satellites of the second generation of
+Copernicus, the EU Space Programme is set to play a pivotal role in the green transition of the
+energy sector.
+Examples
+of EU
+Space
+providers24
+EU Space for reducing environmental footprint of companies
+In this section of the document, the positive environmental impact of the EU Space on different industrial sectors
+will be showcased through conceptual discussion and practical use cases, organised following, when possible, the
+structure of the Green Deal action areas as described in the following Exhibit.
+3.2.1 Clean energy production and supply
+Many initiatives aim to reduce the pollution generated by the constantly increasing power consumption typical in
+the modern society, especially using renewable sources. In 2021, electricity generated from renewable sources in
+the EU reached a new high of 1068 TWh, a 1% increase (+12 TWh) year-on-year, and a 9% (+88 TWh) increase
+compared to 2019. Renewables accounted for 37% of EU electricity production in 2021, up from 34% in 201925.
+24 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+25 Source: EMBER - European Electricity Review 2022
+EU SPACE FOR GREEN TRANSFORMATION
+31
+Exhibit 26: Energy generation from solar and wind sources in EU2725
+The EU Space Programme can make significant contributions to renewable energy providers’ performance,
+especially in terms of accessing reliable data for decision-making. Examples include the efficient placement of
+renewable energy infrastructure, power infrastructure monitoring and maintenance, and time synchronisation for
+electricity grids.
+Site choice is among the biggest challenges and predictors in the success of the setup and operation of renewable
+energy infrastructure. Many factors play into the decision of the best site for each project and energy source, and
+therefore into the final output, efficiency and profitability of the programme. Connections to the grid, historical
+weather data (solar irradiance, windspeeds and directions, marine currents, etc.), as well as the oro- and
+topographical characteristics are all crucial parameters in this process.
+In photovoltaic energy, the amount of solar radiation available and solar panel efficiency depends on several
+variables, such as the season, the time of day, the temperature and the geographic latitude; however, the total
+available radiation is also affected by clouds, aerosol particles, ozone molecules, and water vapour in the
+atmosphere. All these elements interact with the solar radiation absorbing and deflecting it, impacting, therefore,
+the efficiency of the power plant.26
+Using information gathered from Copernicus’ satellites and atmospheric models, the Copernicus Atmosphere
+Monitoring Service produces global irradiation models starting from 2004 until now. Using those models, the
+renewable energy sector can make sound decisions on where to best place the solar panels for example. With
+similar reasoning, considering the capabilities of Copernicus in monitoring wind and marine currents, it is possible
+to build similar applications for the siting of wind turbines and tidal power generation plants. It is estimated that
+40 TWh of additional electrical power will be generated thanks to Copernicus until 203027.
+Renewable energy
+Other than the previous mention application about the correct positioning of renewable energy infrastructure, it is
+important to remember that solar panels or wind turbines are generally located in difficult-to-reach places or in
+remote locations; solar panels, for instance, are usually placed on high roofs or in remote fields, while wind turbines’
+rotors have to be placed several dozens of metres high from the ground. The efficiency of these installations is
+directly correlated to their correct maintenance. A build-up of debris on a solar panel can limit its energy output,
+while unidentified damage to a wind turbine can have disastrous consequences not only on energy production, but
+also on human lives. Copernicus historical weather data from the C3S ERA 5 Reanalysis can help perfect the
+cleaning of panels or the maintenance of wind turbines28.
+26 Source: CAMS - Solar energy
+27 Source: European Commission (2020), Internal study
+28 Source: T. Huuhtanen, A. Jung - Predictive maintenance of photovoltaic panels via deep learning
+EU SPACE FOR GREEN TRANSFORMATION
+32
+The precise positioning services offered by the EGNSS, together with the latest developments in computer vision-
+aided navigation, allow the use of unmanned aerial vehicles (UAVs) in inspection operations, making them quick,
+cheap, and dramatically less dangerous for human operators. UAVs have seen successful applications in detecting
+solar panel hotspots, a common source of reduction in power generation. Precise GNSS, offered by Galileo and its
+upcoming High Accuracy Service, is crucial to making this and future applications efficient.
+Oil and gas
+Copernicus satellite imagery allows monitoring the full length of oil and gas pipelines, therefore, reliably detecting
+potential threats and guiding the rapid response of the emergency services. Sentinel-1’s synthetic aperture radar,
+for example, can detect major changes in land surface such as a landslide or earthquake that may damage
+infrastructure. Biomass production as a feedstock for biofuels can also be monitored and tracked thanks to
+Copernicus and EGNSS.
+Smart grids
+Energy companies are increasingly using smart grids to improve efficiency and reduce costs. By implementing two-
+way communication between smart devices in the field and central data structures, and then linking these to
+intelligent analytics, operators gain unprecedented insight into consumption patterns, network performance and
+other metrics to ensure optimal operating levels at all times.
+The key to this operation is accurate synchronisation between data points. Without it, operators have a limited
+ability to extract accurate information from the field or make effective changes to network operations29 This is where
+the EGNSS come into play.
+EGNSS receivers are relatively cheap, reliable and highly accurate time sources that can be used in large numbers
+in smart grids to enable automatic real-time monitoring of the grid. Currently, several projects are developing the
+proposed concept and improving its resiliency to tampering.
+Exhibit 27: Use case - EU Space Programme for boosting clean energy adoption
+▪ Inappropriate positioning of clean energy infrastructure results in inefficiencies in energy
+Challenge
+production and the opportunity cost of poor land allocation
+▪ Costs associated with corrective actions are high
+The Green Deal involves a clean energy transition, with the goal of achieving a 32% energy share from
+renewables
+Role of the
+Green Deal
+Solution
+offered by
+EU Space
+29 Source: Technically Speaking
+EU SPACE FOR GREEN TRANSFORMATION
+33
+Copernicus to boost renewable energy growth
+A significant amount of the energy produced is assigned to households, which account for around
+25% of the total30.
+The limited use of roof space over buildings have pushed for the adoption of small solar panel
+installations on top of residential buildings. This growth has been very quick, and it forecasted
+to continue, with projections showing an increase from 59 GW installed globally in 2021 to almost
+95 GW in 202531. However, overall adoption is still limited, with even Italy, one of the leading
+European countries, being less than 25%31. One of the reasons for this limited penetration can
+be traced back to homeowners simply being unaware of the solar potential of their roofs and
+to the challenge in accessing reliable and precise information on the production of solar energy.
+NOVELTIS, a French company founded in 1998, found a way to tackle this problem, leveraging
+the power of EU Space data. In collaboration with the European Centre for Medium-Range
+Weather Forecasts (ECMWF) and Copernicus (through CAMS, its Atmosphere Monitoring
+System), NOVELTIS has developed Mon Toit Solaire, a service simulating and calculating the
+energy potential of photovoltaic rooftop projects and providing users with reliable technical and
+financial information. Moreover, it eases the realisation of installation projects by providing
+information about local certified professional installers on its website.
+Exhibit 28: The Mon Toit Solaire user interface
+The contribution of Copernicus
+to this service is of paramount
+importance. CAMS collects
+information about clouds,
+water vapour, aerosols, and
+ozone levels, and feeds it into a
+radiative transfer model to
+calculate the amount of solar
+irradiation that reaches the
+ground. This is then combined
+with 3D modelling and
+dedicated algorithms, making it
+possible to calculate the actual
+available roof surface and thus
+extrapolating the predicted energy production. The end result is an accessible service that allows
+end users to easily understand the economic benefits of rooftop solar installations, facilitating
+household adoption and contributing to the green transition.
+Example of
+real-life
+use case
+Examples
+of EU
+Space
+providers32
+30 Source: Eurostat
+31 Source: Power Magazine
+32 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+34
+3.2.2 Clean industry boosting a cleaner industry
+The transition into a cleaner European industry will require concerted efforts to address product carbon footprint
+and durability simultaneously. On the former, more robust emissions reduction measures in operations will be
+needed. Durability, on the other hand, requires proper maintenance and the tools to ensure this is feasible. In this
+chapter, we will discuss the impacts EU SPACE can have on clean transport, infrastructure, raw materials extraction
+and waste and pollution.
+Cleaner industrial operations
+Galileo-enabled location-based services can be used throughout the industry to track and optimise operations, such
+as in warehousing, bringing direct emissions reductions, as well as linked cost savings.
+Galileo will also be instrumental in delivering the electronic product passport – a consumer information tool,
+designed to provide valuable information about the origin, composition and durability of a product, based on its
+path from sourcing, to production, to retail. Similar principles may be applied in enabling the circular economy, by
+providing manufacturers with more reliable and accurate information on the history and quality of recycled materials.
+The EU Space Programme is especially well-suited to help unlock fuel efficiencies for the maritime industry,
+especially for large vessels such as tanker ships and bulk carriers. Indeed, EGNSS can provide ships with information
+for accurate manoeuvring in congested areas, increasing their energy and fuel efficiency. In addition, Earth
+observation data and information on currents as well as other factors (e.g., movement of sea ice) can help to optimise
+the maritime industry’s fuel efficiency through better routing, thus decreasing emissions and saving costs. Similarly,
+the aviation industry can also strongly benefit from the utilisation of EU Space Programme assets for fuel efficiencies
+and reduction in emissions. While aviation is the second largest source of greenhouse gases from transport (after
+road), the use of EGNOS for safe landing procedures in critical conditions such as fog can enable significant
+reductions in the frequency of aborted landings, in turn helping to limit fuel expenditures and emissions.
+Lastly, a combination of Copernicus-based planning, and Galileo-enabled operations will facilitate the increased
+adoption of the sharing economy. A pertinent example of this is the optimisation of ride-hailing vehicle routes –
+including on Uber, Bolt, and many other services33 which help drivers through cost savings, riders through time-
+effectiveness, and the greater economy through the resulting reduction in fuel use and emissions. Further resource
+reductions are achieved thanks to the optimised fleet management meaning the correct number and type of vehicles,
+incorporating traffic congestion and other factors for ideal routes, and checked driving behaviour.
+Infrastructure construction and maintenance
+Galileo and Copernicus together can help with infrastructure mapping and monitoring and therefore making them
+more robust. This can be especially useful for maintaining road infrastructure in rural areas. Disrupted supply chains
+can cause loss of products and resources like fuel. Lack of monitoring also makes route optimisation harder, resulting
+in inefficiencies. Another use case includes remote sensing in telecommunications industry. Digital elevation
+models and land use/land cover can be used to build predictive models for network planning to achieve optimal
+network capacity. The presence of necessary data and its quality is critical for accuracy of such models. This is a
+relatively cheaper way of satisfying capacity requirements.
+Lone workers are employed in a range of industries, but they are at relatively higher risk because of not having
+someone to assist or supervise them. In case of an accident, notification of emergency services by a co-worker is
+normally necessary. In this context, GNSS is used by different applications to decrease the risk by measuring impacts
+and durations of inactivity. Depending on the situation, emergency services are informed of the accident location by
+those applications.
+33 Source: Uber - Improving Pickups with Better Location Accuracy
+EU SPACE FOR GREEN TRANSFORMATION
+35
+Raw materials
+It is important, within the context of clean industry, to consider the impacts of raw material extraction, as they are a
+highly polluting part of the greater supply chain. Mining, and quarrying, in particular, lie among the most
+environmentally harmful activities in this cycle, directly impacting land, water, and air.
+Air quality is especially affected by mining operations. Unrefined materials are released when mineral deposits
+are exposed to the surface through mining. Wind and vehicular traffic due to mining equipment cause such materials
+to become airborne. Lead, arsenic, cadmium, are a non-negligible component of these particulates. These pollutants
+can damage the health of people living near the mining site. Diseases of the respiratory system and allergies can be
+triggered by the inhalation of such airborne particles.
+The modification of the landscape, such as creating open pits and waste deposits can lead to the physical destruction
+of the land at the mining site. Furthermore, it can contribute to the deterioration of the area's flora and fauna. There
+is also a huge possibility that many of the surface features that were present before mining activities cannot be
+replaced after the process has ended. The removal of soil layers and deep underground digging can destabilize the
+ground which threatens the future of roads and buildings in the area.
+This extreme change in the environment can have a catastrophic impact on the biodiversity of the area. Mining
+leads to a massive habitat loss for a diversity of flora and fauna ranging from soil microorganisms to large
+mammals34. Considering the current policies for biodiversity preservation, it is vital for companies to understand
+the impact of their mining activities to remain competitive.
+As of today, the EU accounts for 6% of the world’s population, yet consumes up to 30% of metals produced globally.
+This trend is expected to rise to a 63% increase per capita by 206035.
+Exhibit 29: Carbon and energy intensity per tonne of metal produced in EU36
+Another of the areas in which the EU Space Programme can be beneficial is in the optimisation of fleet management
+during mining operations.
+It is estimated that the use of precise navigation services can improve the efficiency of mining equipment,
+especially trucks, in terms of fuel consumption from 1.8 to 2.3%37.
+Furthermore, Galileo-enabled location-based services can be similarly used throughout industry to track and
+optimise operations, such as warehousing, bringing direct emissions reductions, leading to cost savings.
+34 Source: World Atlas - What Is The Environmental Impact Of The Mining Industry?
+35 Source: EEB - The case for cutting EU resource consumption
+36 Source: ING - Metals & mining decarbonisation and sector disclosure
+37 Source: Australian Government - Analyses of Diesel Use for Mine Haul and Transport Operations
+EU SPACE FOR GREEN TRANSFORMATION
+36
+Exhibit 30: Use case - EU Space Programme for mining
+Challenge
+▪ Companies face several challenges during raw material production, from exploration to
+mine closure and restoration
+▪ Biodiversity and human health can be severely harmed if mining activities are not cautiously
+monitored
+Role of the
+Green Deal
+Correct management and extraction of resources is needed for ecosystems and biodiversity
+preservation
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+EGNSS to improve mining operations
+GNSS positioning data is used for example to provide drill monitoring, control and guidance,
+allowing to navigate drill rigs with centimetre-level precision without the need for traditional,
+time-consuming manual surveys. As a result, optimal fragmentation of rock can be achieved,
+which facilitates the subsequent stone extraction and removal activities. Furthermore, accurate
+positioning allows to overlap the planned design for the overall mine structure with real-time
+vehicles’ position, which can for example be used to offer precise guidance on where ore blocks
+are located.
+Accurate positioning, however, is not enough. Robustness and resiliency are critical too,
+especially in challenging areas.
+Companies such as Septentrio, a Belgian manufacturer of GNSS components and receivers
+focused on industrial applications such as construction, surveying, robotics, logistics, and
+maritime. Septentrio has more than two decades of experience in providing top-of-the-line
+products for accurate positioning, and its expertise extends to the mining industry as well.
+Septentrio has specifically developed the ARDVAC control system 38 , relying on proprietary
+algorithms to improve positioning robustness and resilience during operations. In particular, the
+IONO+ algorithm reduces the impact of ionospheric oscillations, while LOCK+ targets signal
+robustness during vibrations or shocks and AIM+ protects from radiofrequency interference.
+Thanks to the performance of Septentrio’s product line enabled by the capabilities of EGNSS,
+mining players relying on these products can ensure maximised efficiency even in the harshest of
+environments, achieving not only the highest levels of safety for all operators involved, but also
+optimising the utilisation of natural resources and thus safeguarding the integrity of surrounding
+ecosystems.
+38 Source: Accurate GPS/GNSS for mining in the toughest environments, Septentrio
+EU SPACE FOR GREEN TRANSFORMATION
+37
+Examples
+of EU space
+providers39
+Waste and pollution
+The increasing quantities of waste generated in European countries are another challenge to be addressed within
+the green transition of industry. It is estimated that Europe produces annually over 800 million of tonnes of waste
+per year40. The annual average rate of increase of this waste since 1985 in the OECD European area is estimated at
+around 3 per cent. Present disposal and processing capacity is probably not sufficient to deal with the expected
+growth, furthermore, existing facilities are often not adequate to ensure acceptable environmental standards41. The
+waste related to industries represents 30% of the total European, which results in unnecessary costs to companies.
+Since the 1970s, European countries have achieved important progress in reducing emissions into air and water
+from production processes by imposing strict emissions standards on conventional pollutants. However, because
+of their single-media mandate, environmental
+regulations have addressed air and water pollution
+problems separately. The result has been to move
+pollution problems to the least regulated
+environmental medium and the least controlled form
+of pollution. The implementation of emission
+control technologies has often resulted in
+increased amounts of solid waste from production
+processes. In addition, the concentration of
+hazardous substances in solid residues has increased.
+Exhibit 31: Share of waste generated in EU40
+One of the most significant impacts of the EU Space
+Programme on waste management is the use of
+Copernicus in monitoring waste in the oceans. It is
+estimated that 4 to 10% of all the recovered waste
+from the ocean in operations such as The Ocean
+Cleanup 42 or Clean Oceans Project 43 , is directly
+accountable to Copernicus44.
+Not only reducing waste, but also recycling is a key
+measurement for a greener industry. The circular
+economy provides a holistic model for reusing, repairing and recycling existing materials and products as long as
+possible. The circular economy can benefit from Galileo similarly as with the electronic product passport – a
+consumer information tool, designed to provide valuable information about the origin, composition and durability of
+a product, based on its path from sourcing, to production, to retail. By providing manufacturers with more reliable
+and accurate information on the history and quality of recycled materials, Galileo can be an important benefit for
+industries.
+39 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+40 Source: European Commission - Generation of waste by waste category, hazardousness and NACE Rev. 2 activity
+41 Source: EEA - Waste Production and Management
+42 Source: The Ocean Cleanup
+43 Source: Clean Ocean Project
+44 Source: PwC - Copernicus ex-ante benefits assessment
+EU SPACE FOR GREEN TRANSFORMATION
+38
+3.2.3 Construction and renovation
+The EU Space Programme, and Copernicus in particular, are particularly well-placed to offer high-value products
+and services to urban planners. The CLMS, providing its land use and land cover capabilities in tandem with the
+Copernicus space component, can be complemented with in situ data – including demographic statistics, historical
+information, and other layers as pertinent to the application – to enhance informed decision-making in the urban
+planning process. In conjunction with EGNSS, Copernicus may be used to create precise location-based action in
+urban and rural environments.
+A number of the potential applications of Copernicus urban planning data include:
+▪ Infrastructure placement and distribution, such as for the allocation of 5G towers – according to land
+use/land cover (CLMS) and in situ internet traffic and demographic data
+▪ Atmospheric pollution monitoring and management, through CAMS, which may be employed to better-
+distribute green spaces and prioritise areas for public transport infrastructure or traffic restrictions (e.g.,
+low-emission zones)
+▪ Urban heat management, in the identification and remediation of heat islands (e.g., in industrial or business
+zones) and providing tools for the design of ventilation and heat absorbing areas
+▪ Green space allotment, including for public and business use, to abate the effects of urban pollution, as
+well as to improve everyday conditions for citizens and employees
+Exhibit 32: Use case – EU Space Programme for urban planning and maintenance
+▪ Urban planning, resource management and green infrastructures require extensive and
+reliable data to be effective
+▪ Furthermore, solid data can support risk assessment and preventive maintenance on buildings
+making less likely high environmental impact corrective maintenance operations
+The Green Deal supports the development of more sustainable cities, vegetation
+management and life quality for citizens
+Challenge
+Role of the
+Green Deal
+Solution
+offered by
+EU Space
+EU SPACE FOR GREEN TRANSFORMATION
+39
+Copernicus for construction monitoring
+An important role in the sustainable development of urban environments is related to pre-
+emptive maintenance. By timely noticing maintenance needs, the lifespan of buildings can be
+increased. While day-to-day servicing can be predicted more easily, the effect of the
+surroundings is more difficult to anticipate. An example of a disruptive factor in an environment,
+is the construction of the Fereggiano tunnel in Italy (2017). The development of this
+infrastructure induces vibrations in the ground that are felt by surrounding buildings. Detektia is a
+company that created a tool to assess external effects on existing infrastructure using DinSAR -
+essentially combining multiple SAR measurements taken at different times to estimate the
+movement of buildings. They then
+cluster the movements in categories
+to warn the building owners of
+potential maintenance requirements.
+Exhibit 33: Map of Genova area produced
+by Detektia
+Detektia uses Copernicus satellite
+(Sentinel-1) measurements as
+input in their tool, showing the utility
+of the current space assets of the EU
+in the commercial service sector.
+Detektia has received interest from
+numerous customers such as ICA,
+Sacyr, and Acciona Energia which
+plan to leverage the prediction tool
+in their projects. Tools such as the
+one developed by Detektia, convert
+the vast array of data collected by
+Copernicus into, potential live-
+saving, commercially viable tools
+touching a variety of sectors such as energy, and chemical industries to name a few.
+Example of
+real-life
+use case
+Examples
+of EU space
+providers45
+Further business uses of urban planning data include the location-based augmentation of marketing campaigns with
+geotargeted advertising, by way of Copernicus-derived maps used in conjunction with EGNSS signals received on
+personal devices.
+3.2.4 Smart and sustainable mobility
+The EU Space Programme offers a host of solutions for greener transport and mobility in roads, railways, waterways
+and airways. Indeed, space-enabled smart mobility has already taken centre stage in Europe’s transport
+management system. EU space assets, in particular EGNSS, allow for monitoring of mobility in different networks,
+thus contributing to reducing emissions as well as optimising resource usage.
+Transportation sector, including land, maritime, and air transport of both passengers and freights, is estimated to
+account for 27% of total greenhouse emissions in Europe46. While cars generate the most emissions, aviation has
+45 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+46 Source: EAA - Greenhouse gas emissions from transport in Europe
+EU SPACE FOR GREEN TRANSFORMATION
+40
+been responsible for the largest percentage increase in greenhouse gas emissions over 1990 levels (+129 %),
+followed by international shipping (+32%) and road transport (+23%)46.
+Exhibit 34: Share of transport greenhouse gas emissions in Europe47
+Road transport forms the highest proportion of overall transport emissions (72% in 2019 of all EU transport GHG).
+However, most of the existing and planned environmental measures in the Member States agenda focus on road
+transport, therefore, this share is expected to decrease as road transport decarbonises faster than other transport
+modes. The largest increases up to 2030 are projected in the aviation sector, followed by international maritime
+transport, as they are not prioritised by national policies. These sub-sectors are therefore expected to constitute a
+higher proportion of transport sector emissions in the coming years47.
+The road transport sector is already highly populated by GNSS applications which are consistently improving the
+performance of vehicles in terms of safety, cost of operation, and sustainability. Galileo information for roads,
+such as their geodetic height 48 , can be employed to unlock fuel savings, thus ensuring greener solutions for
+transportation vehicles. One such instance is provided by the Galileo-Ecodrive solution, in which actual and
+prospective information on road’s geodetic height profile to optimise the operation of auxiliary devices of vehicles.
+ESA estimated that for a typical mileage, fuel savings could be in the range of 3-5%, potentially saving up to two
+billion litres of fuel per year throughout Europe. Additionally, the use of satellite navigation systems such as Galileo
+for vehicles can reduce journey times by more than 10%, which clearly significantly contributes reducing emissions49.
+Exhibit 35: Use case - EU Space Programme for autonomous mobility
+▪ The future of mobility is strongly depended on highly accurate location
+Challenge
+▪ Additionally, traffic can be optimised through better routing to reduce travelling time and fuel
+consumption
+47 Source: EAA - Greenhouse gas emissions from transport in Europe
+48 Source: Galileo Masters - Using GNSS in an anticipative mode to save energy in car driving
+49 Source: ESA - Galileo-Ecodrive - reduces vehicles fuel consumption
+EU SPACE FOR GREEN TRANSFORMATION
+41
+▪ Reduction of CO₂ emissions is crucial for the maintenance of life on Earth
+▪ The Green Deal sets important targets to decrease the emission of greenhouse gases
+Role of the
+Green Deal
+Solution
+offered by
+EU Space
+Earth Observation in support of autonomous vehicles
+The city of Copenhagen, plans to achieve carbon neutrality by 2025 through a combination of
+intelligent public transit systems, electric car-sharing services, and improved city infrastructure for
+cycling and walking.50 Indeed, as recognised by Copenhagen as well as many other communities,
+smart mobility can provide a very significant push for green transportation and green cities at
+large. Transportation systems are estimated to account for 64% of global oil consumption and
+27% of global energy use.51
+Space data, including both remote sensing and navigation, is essential to unlock the great
+benefits deriving from smart mobility solutions. Several examples of (European) companies
+supporting the development of the smart mobility industries exist. One such instance is TernowAI.
+The company extensively employs remote sensing data from various sources including SAR
+imagery from Sentinel-1 in support of autonomous driving solutions. TernowAI develops various
+products highly relevant to autonomous vehicles through the processing of remote sensing data:
+Example of
+real-life
+use case
+▪ Global cm-level Ground Control Points (GCPs)
+▪ AeroSat Vector Maps
+▪ Aerosat HD Maps
+Through a novel approach, the company can integrate SAR and optical imagery from satellites,
+enabling the measuring of GCPs with cm-level accuracy. This is an integral and fundamental part
+of both AeroSat Vector and HD maps. The former is based upon the processing of remote sensing
+data through proprietary algorithms to generate vector-based maps in lower resolution. In
+contrast, for the latter the company processes Earth observation images with artificial intelligence
+processes to entirely avoid the need for in-situ images. HD maps are amongst the key components
+of the infrastructure supporting widespread autonomous driving; these include information
+about the exact positions of various significant features of the urban landscape such as
+pedestrian crossing, traffic lights and signs, barriers and several others. In essence, most if not
+all autonomous car manufacturers have recognised the need for onboard HD maps for any
+autonomous vehicle for both safety reasons as well as for driver and passenger comfort.
+Companies such as TernowAI, integrating Earth observation imagery with AI processes, are well-
+positioned to meet this market need.
+50 https://engineering.purdue.edu/online/news/three-trends-in-smart-mobility-technology
+51 https://www.iisd.org/articles/deep-dive/road-sustainable-transport
+EU SPACE FOR GREEN TRANSFORMATION
+42
+Exhibit 36: TernowAI AeroSat HD Map product, provided in the OpenDRIVE format
+Examples
+of EU space
+providers52
+Copernicus can make electricity more affordable by facilitating renewable energy generation, making electric cars
+more common. Coupled with increasing fuel prices this year, lower electricity prices will attract more people to
+switch to electric cars. Self-driving cars and vehicles which are in development can benefit from more accurate
+positioning services provided by Galileo.
+The use of the EU Space Programme not only serves the road transport sector making it greener and more efficient,
+but it also helps in improving infrastructure management.
+Exhibit 37: Use case - EU Space Programme for highway management
+▪ Extensive road network is challenging to manage, high human and economic resources
+Challenge
+must be put in place in order to do it
+▪ In-situ observations are inefficient and characterise by high environmental footprint
+Role of the
+Green Deal
+▪ The European Green Deal pushes for a more efficient transport industry which can be
+enabled by a better road network
+52 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+43
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+Examples
+of EU space
+providers53
+Copernicus for road infrastructure management
+The traditional approach for road infrastructure building and maintenance does not rely on space
+data, being instead based on in-situ observations.
+Space data can help addressing road maintenance, making road assessments cheaper and
+easier to perform on a large scale thanks to regular observations allowing the development
+of periodically updated, country wide InSAR (Interferometric Synthetic Aperture Radar) maps
+including Sentinel-1 data. In turn, these analyses can then be already leveraged in the planning
+phases, optimising route design and reducing associated costs. The economic benefits of this
+paradigm shift enabled by Earth Observation satellites are estimated at almost €20 million for
+example for the Italian company ANAS alone.
+These benefits, however, are not merely economic. More efficient highway management reflects
+on the surrounding environment as well. On the one hand, not having to repeatedly modify
+designs and routes limits the impact of construction works, both in terms of the emission
+generated by construction activities as well as the modifications introduced in the
+geomorphological landscape. On the other, periodic monitoring using InSAR can help in
+identifying and mitigating any impact on, for example, local farms caused by induced changes in
+underground water flows and aquifer levels.
+In the future, the creation of larger archives of data thanks to InSAR will allow to analyse sites
+retrospectively. Additionally, the launch of new SAR satellites will increase both the resolution
+and the revisit times. This will make it possible to offer semi real-time monitoring that could be
+very useful during extreme-meteorological events, for faster response and for failure prediction
+purposes.
+As for the aviation sector, one of the main challenges is traffic management. Delays in planes' schedules create the
+necessity of prolonging the effective time planes have their engines running idle on the ground. In this context,
+EGNSS can come to help. There are projects aimed at using satellite navigation to reduce these delays through
+artificial intelligence algorithms analysing ground traffic data54.
+53 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+54 Source: ESA - How to reduce CO2 and make aerospace more eco-friendly with space data
+EU SPACE FOR GREEN TRANSFORMATION
+44
+Exhibit 38: Use case - EU Space Programme for airport management
+▪ Poor fleet coordination in airports can lead to higher emissions due to additional travel
+Challenge
+time and/or congestion
+▪ Congestions in airports can lead aircrafts to prolong their time in the air
+Role of the
+Green Deal
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+The EU wants to reduce greenhouse gas emissions in transport by 90% before 2050
+EGNSS for airport ground equipment management
+Large airports are complex hubs where logistics and consumer experience come together. The
+logistical challenges faced by airport staff and airliners are highly complex and require advanced
+tools to deal with these adequately. On the other hand, airports must consider the consumer
+experience: the walking distance from a gate to another, waiting time between flights, etc.
+From an environmental perspective, delays induce increased air pollution due to aeroplanes
+having to idle for longer at the gate with running engines while waiting for ground equipment
+to arrive. Since jet engines require some time to warm up prior to flight, it is common practice to
+keep engines running at gates. This is a wasteful practice to be able to clear the gate as soon as
+on-boarding is finished, and clearance is granted.
+Blue Dot Solutions is a company that developed a service focusing on reducing the occurrence of
+delays and limit the consequent additional air pollution and passenger frustrations. Their Ground
+Eye solution is composed of multiple layers (e.g., IoT devices, satellite data, statistics, data
+integration, mobile App) that work seamlessly together to provide situational awareness to
+operators on the ground.
+Exhibit 39: GroundEye interface
+Ground Eye uses accurate location of ground assets and aircraft at the airport to optimally
+utilise these resources and, as such, reduce delays. Galileo and SBAS are tools from the EU Space
+EU SPACE FOR GREEN TRANSFORMATION
+45
+Programme that have proven increasingly useful in the provision of location data with the required
+accuracy to be used in tools like Ground Eye. More specifically, the location accuracy of EGNSS
+in difficult environments such as airports has been praised by the company as a contributing
+factor of the success for the Ground Eye tool.
+Examples
+of EU space
+providers55
+In maritime operations, Earth Observation data from Copernicus can be used to determine the strength and direction
+of ocean streams, combing this data with precise navigation through Galileo and EGNOS to optimise routes, reducing
+fuel consumption and consequently emissions.
+Clean waters are critical for ocean life and humans, but some maritime accidents can lead to big amounts of oil
+spillage to waters and threaten life. Integrated maritime data can be used to counter these accidents. A good
+example of this is CleanSeaNet programme which is a European satellite-based oil spill monitoring and vessel
+detection service.
+Exhibit 40: Use case – EU Space Programme for safer maritime navigation56
+Challenge
+▪ Navigation in challenging environment might be difficult due to the fast-changing
+conditions which can force crews to unexpected deviations
+▪ Such deviations increase fuel consumption of ships and therefore the environmental
+footprint of maritime operations
+Role of the
+Green Deal
+Green Deal is committed to drastically reducing the emissions from the transport sector
+and making operations safer for the human personnel
+Solution
+offered by
+EU Space
+EU Space for navigation in Greenland
+Example of
+real-life
+use case
+Greenland is the largest non-continental island with many of its settlements being on smaller
+islands as well. As a result, almost all transport, of both goods and people, happens by sea.
+Navigating highly dynamic environment of Greenland can be dangerous and all the potential
+route changes can not only cause accidents with significant damage, but also be responsible
+for significant environmental impact.
+This situation has led to an ice-service provided by the Danish Meteorological Institute (DMI)
+located in Copenhagen which has evolved over the years to use data coming from the Sentinel
+55 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+56 Source: Navigation through sea-ice in Greenland, EARSC, 2019
+EU SPACE FOR GREEN TRANSFORMATION
+46
+satellites. DMI relies on both optical and radar imagery, as well as thermal infrared satellite
+data (e.g., AVHRR) and microwave radiometers (e.g., AMSR2) and altimeters. The main benefits
+of Copernicus data are the result of the satellite’s capability to capture large areas in very short
+time, providing higher and faster coverage than traditional in-situ measurements. The constant
+monitoring allows to identify evolving ice dynamics and, therefore, to optimise ship’s routes
+around ice formations and identify when new, better lanes become available.
+While this service provides important economic benefit to Greenland, around €10 million per year,
+a crucial contribution pertains to environmental benefits. Route optimisation allows to save fuel
+and even in the event of having to resort to longer routes, being able to avoid changing travel
+plans at the last-minute results in a net positive impact, thus making sea transport more
+sustainable. Furthermore, reliable and frequent satellite data can help prevent accidents and oil
+spills, safeguarding the integrity of the Arctic ecosystem. It is crucial to note that these benefits
+are compounded by the importance of Greenland and of polar ice in the overall context of
+climate change. The melting of frozen water reservoirs captured by the thick ice covering
+Greenland’s landmass will have a profound effect on global sea levels, endangering millions of
+people across the globe. Moreover, the island’s ice sheets are trapping significant amounts of
+methane: the release of this gas in the atmosphere because of increasing global temperatures
+would further compound the greenhouse effect, exacerbating an already critical situation.
+Examples
+of EU space
+providers57
+Another use case for maritime is weather forecasting in the maritime environment. This is supported by collecting
+meteorological data and location data from the ships on the move. More accurate knowledge of the real conditions
+that this system will provide can lead to improvements to safety and fuel usage.
+EUSPA has actively funded the Prepare-Ships Project to support the development of a robust navigation application,
+integrating EGNSS and EO data through machine-learning processes to accurately predict the future positioning of
+nearby vessels. Besides ensuring safety at sea by decreasing collision risks, applications such as those developed
+within the scope of Prepare-Ships will facilitate energy-effective manoeuvring and route-optimisation, significantly
+reducing the environmental impact of maritime transportation.
+3.2.5 A healthier and greener food system
+Tackling green agriculture is a task on many fronts. Precision agriculture and better enforcement of agro-
+environmental policies underpin the response that is meant to lead the sector into a 50% reduction of chemicals
+used, and climate neutrality by 2035. The use of digital technologies in agriculture is helping the whole sector
+improve its performance and become greener.
+The necessity for efficiency and sustainability of agricultural production is growing. Companies are highly aware of
+the importance of enhancing productivity without harming the environment, and, therefore, are continually looking
+for means to achieve this. In this context, the EU Space Programme is a key asset in supporting agricultural
+businesses to reduce costs and improve quality of goods, while ensuring sustainable practices.
+The synergy between Galileo signals, Copernicus data and Artificial Intelligence (AI) based techniques facilitates
+the operation of both crewed and uncrewed vehicles – aerial and land-based – for optimised farming. Copernicus
+imagery provides the foundations for digital field models, including the identification of boundaries with other plots,
+the mapping and evolution of crops and invasive species. These may then be fed into AI algorithms to determine
+57 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+47
+optimal intervention points, fertiliser and pesticide quantities and distribution, and efficient weed-removal
+methods. Galileo enables the implementation of these models, by efficiently and accurately guiding agri-vehicles
+– most commonly tractors and drones – in optimal patterns with accurate location.
+Exhibit 41: Use case - EU Space Programme for smart agri-resource management
+Challenge
+▪ Crop management and monitoring in situ can be costly and not efficient. Resources as
+water, fertilisers and pesticides are often used extensively, generating costs to farmers and
+polluting soils, air and water
+▪ Moreover, crops can suffer from diseases, pests and nutrient deficiencies, which, if late
+diagnosed, can harm the whole field
+Role of
+the Green
+Deal
+▪ The Green Deal sets important goals on water, pesticides and fertiliser usage, aiming to
+improve the health of soil and people. It is important to highlight that overuse of pesticides
+may result in contamination of soil, water and non-target plants and animals that can
+decrease biodiversity and, in some cases, reduce crop yield
+▪ ₂
+Solution
+offered by
+EU Space
+Example of
+real-life use
+case
+58 Source: VITO
+Copernicus for crop monitoring in BelgiumPotato cultivation in central Europe has enlarged to
+such an extent over the last decades that any further switch from any crop to potatoes is very
+likely to result in soil degradation and soil depletion. Thus, a higher output and growth can only
+be reached through an improvement in the efficiency of agricultural land utilisation. Potato fields
+in Belgium today achieve an output around 50 tonnes per hectare, but maximum output is
+expected to be double than that, around 100 tonnes/ha. This higher supply can only result from
+better, more sustainable and more effective farm management practices. An ulterior factor playing
+a significant role is climate and the consequent weather: unexpected changes in the weather
+Space data can play a central role in potato industry, both in helping it become more efficient to
+meet upcoming challenges as well as in providing it with the necessary tools to face the effects
+of climate change. As a matter of fact, it is already doing so. VITO, a Flemish independent research
+organization in the field of cleantech and sustainable development, has developed in cooperation
+with Belgapom a Copernicus-based service called WatchITgrow58, entirely dedicated to the
+Belgian potato industry. WatchITgrow is a geo-information platform relying on data from both
+Sentinel-1 and Sentinel-2 which can provide potato farmers, agronomists, traders and processors
+with data and information on the growth of different potato varieties. Complementing this space-
+based dataset with information from other satellites, drones, weather and soil measurements, this
+service offers extensive support to the potato sector, including information on the state and
+growth of crops, yields and harvest dates estimates, as well as enabling the improvement of
+yields and reducing production and quality losses.
+EU SPACE FOR GREEN TRANSFORMATION
+48
+Exhibit 42: WatchITgrow interface for
+crop management
+Future developments are set to provide even
+more benefits. Thanks to an increase in the
+quantity and quality of data available,
+together with the capabilities introduced by
+new generation of satellites, it will be possible
+to provide farmers with recommendations on
+nitrogen fertilisation – thus also generating
+positive environmental impact –, as well as
+warnings for irrigation scheduling and even
+major diseases such as late blight. Not only
+will this unlock new economic benefits, but
+also it will provide significant environmental
+impact: Copernicus will enable greener and
+healthier food by optimising the use of
+pesticides, making sure they are used only when and where necessary and thus reducing the
+excess fertilizer not taken up by the plants and, therefore, the excess nutrients which run-off into
+surface-water channels contaminating water supplies.
+Examples
+of EU space
+providers59
+Enabled by the large availability of space data, especially EGNSS, precision agriculture is helping to support
+improvement of production of crops and the green transformation. The first benefit of this practice is the water saved
+in agriculture, which accounts for 4% of water saved per year60. Moreover, thanks to precision agriculture and space
+data in general, it is possible to save up to 9% of pesticides and 7% of fertilisers60. Another important factor to
+consider is the fuel consumption for all the activities related to agriculture, which precision agriculture is estimated
+to reduce by 6%60. As a result of those improvements, in 2022, precision agriculture is estimated to have a huge
+economic and sustainable impact on the sector, growing considerably in the next years.
+Exhibit 43: Use case - Copernicus for more efficient use of water in the food industry
+Challenge
+Use of water in the food industry is subjected to strict regulation both to preserve the
+environment and consumers’ health
+Role of the
+Green Deal
+Green Deal aims to establish a more sustainable food chain in which a responsible use of
+natural resources leads to reduced waste and increased quality of products
+59 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+60 Source: Association of Equipment Manufacturers - The environmental benefits of precision agriculture quantified
+EU SPACE FOR GREEN TRANSFORMATION
+49
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+Examples
+of EU space
+providers61
+Copernicus for water management in the food industry Space data can play a pivotal role in
+addressing the water challenges of the beer industry, as proven by Heineken, the number one
+brewer in Europe and one of the largest in the world. Heineken’s brewery in Zoeterwoude, a
+municipality in the Netherlands, uses local river water for its needs. The water is stored and purified
+by the dunes in South Holland before reaching the facility where it can be used in the brewing
+process. To improve the water management in its area, this Heineken brewery partnered with the
+University of Wageningen creating the Green Circles cooperative.
+Thanks to this collaboration, Heineken can combine satellite observations with meteorological data
+and the results of other biophysical analyses to forecasts floods and droughts, thus obtaining
+valuable information to improve water resource management. Wageningen Environmental
+Research and Climate Adaptation Services leveraged a wide range of data to create "story maps",
+combining GIS maps and artist impressions.
+Using these, the Green Circles partners can easily plan a more responsible approach to business
+and environmental development. The Copernicus Climate Change Service proved extremely
+valuable in providing prototype water indicators, one of the most comprehensive and up-to-date
+climate change resources. These data can be mapped graphically, thus helping the wider
+community to understand the impact at a pan-European level, and are a critical add-on to local
+data, such as meteorological information and observation from in situ stations. It is important to
+note that, with this data, Wageningen Environmental Research has been able to develop accurate
+forecasts of water flows, which allowed Heineken Netherlands to act, improving its water
+management and reducing its environmental impact. Furthermore, it also fostered the birth of new
+spin-off projects. For example, Heineken invested in the creation of marshland to naturally
+purify the wastewater from the brewery, as natural purification costs less, has ecological benefits,
+creates a pleasant environment, and will provide a store of water in times of drought.
+Copernicus can also be used to then monitor and enforce performance-based agriculture. Farmers are provided
+with a measure of how their crops are performing, while also having access to historical data as well as forecasts
+on how the future performance is likely to be. Rewarding systems – such as the one enforced by the Agoro Carbon
+Alliance 62 are enabled by satellite imagery. Previously, aerial or manual, land-based surveying was necessary,
+rendering these systems very costly, and in certain instances infeasible in the more sparsely populated countryside.
+The open and free nature of Copernicus data allows for these systems to be put in place to more easily and
+61 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu.
+62 Source: Agoro Carbon Alliance - Carbon Farming Delivers A New Revenue Stream
+EU SPACE FOR GREEN TRANSFORMATION
+50
+effectively enforce the agricultural policy. The monitoring of the growth and evolution of invasive alien species, as
+well as illegal practices in agriculture, is also directly enabled by similar systems.
+Soil is of course of critical importance for the health and sustainability of crops and their products, and in addition
+provides invaluable ecosystem services such as ensuring the cleanliness of water, supporting biodiversity and
+helping to regulate climate. EO data from Copernicus in conjunction with ground measurements (e.g., from the Land
+Use/Cover Area frame Survey (LUCAS) soil monitoring system) provide key data and information for
+the monitoring and verification of soil conditions, which in turn can support analyses on the health of crops and
+food. Also, EGNSS and Copernicus can provide early warnings for natural disasters and increase food security
+further.
+Copernicus data and products developed by CAMS and C3S can not only benefit climate action within the
+agricultural sector but can also be used to ensure food security. Indeed, CAMS monitors the concentration of
+carbon dioxide, nitrous oxide and methane among other greenhouse gases, 23% of which are estimated to be
+emitted as a result of human activities in agriculture and forestry. Agriculture is a particular case for climate action
+as it not only contributes to emissions of greenhouse gases, but also helps their mitigation and their uptake as crops
+and other vegetation act as sinks. As such, C3S created the Sectoral Information System for Global Agriculture to
+allow the sector to adapt to the changes brought by climate change, ensuring that crop yields in critical areas remain
+consistent as well as allowing for efficiencies to be unlocked, thus helping to reduce the impact of the agricultural
+sector on the environment.63
+Livestock management is another dimension that EO and GNSS can improve. Selecting an ideal grazing area is
+important. Likewise, sustainable livestock reproduction is facilitated by GNSS and EO.
+Galileo is also to be further used in a similar fashion to the electronic product passport, to establish a food passport.
+This would provide consumers with reliable, traceable information about the origin and path of a food product from
+‘Farm to Fork’, adding another beneficial food safety dimension to the existing system, and promoting more
+nutritious food, for healthier lifestyles. At the same time, from the farmer's perspective, this adds value to the
+product being produced. Furthermore, data and information from EO and GNSS can be coupled with innovative
+technologies such as blockchain and Distributed Ledger Technology (DLT), both of which are considered to have
+great potential in the agricultural sector. The application of these technologies can ensure the traceability of foods
+from source to consumer, ensuring their immutability and auditability.
+Exhibit 44: Use case - Copernicus for more efficient use of water resources
+▪ Water is one of the most precious resources we have, and it must be managed with the
+maximum attention
+▪ Aquifers must be strictly monitored to preserve their integrity and the safety of
+surrounding areas
+Green Deal aims to more sustainable and responsible use of natural resources
+Challenge
+Role of the
+Green Deal
+Solution
+offered by
+EU Space
+63 Source: Copernicus website - Data to benefit food security and the environment
+EU SPACE FOR GREEN TRANSFORMATION
+51
+Copernicus for aquifer monitoring
+The term “aquifer” 64 refers to an underground layer of rock or sediment capable to absorb and
+hold water permeating through the soil. Groundwater extracted from aquifers is an invaluable
+resource, with demand growing due to the need for potable water and households, irrigation for
+agriculture, and industry. When this demand exceeds available supply, the resulting
+environmental damage can be extremely serious and can lead to land subsidence (i.e., the gradual
+settling or sudden sinking of land surface due to underground movements). Furthermore, the
+extensive exploitation and the resulting pollution make it so that only 1% of all freshwaters
+(including both aquifers and surface sources) is available for direct use.It is therefore evident that
+effective and appropriate management of aquifers is indispensable for sustainable use and long-
+term availability of groundwater. This is the case, for example, for the Spanish region of Murcia
+where the policies related to groundwater are impacted by the European Water Framework
+Directive (WFD) and implemented by CHS, the regional River Basin Authority. Leveraging
+traditional methods, CHS has deployed over the years an extensive network of ground stations to
+measure piezometric levels of water pressure and estimate water levels in aquifers. EU Space
+Data has played a role in this field for several years now, thanks to the use of GNSS-enabled
+ground stations. This has widely improved the data collection process, making it more reliable
+and more easily performed than in the past.
+Example of
+real-life
+use case
+Copernicus Sentinel-1 SAR data can provide all-weather, day-night capability to accurately
+detect and measure ground observations. The observation allows to compare the images at
+different points in time and thus compute ground deformations up to a few millimetres.
+Additionally, the European Ground Motion Service (EGMS) can provide consistent data regarding
+ground displacements.
+Exhibit 45: Satellite map of ground
+deformation
+As a result, aquifer management becomes
+more efficient, with a plethora of
+environmental benefits as a consequence.
+Optimising water extraction can help prevent
+ground subsidence and reduce, or even avoid,
+aquifer depletion. Additionally, space data-
+based decision-making can play a central role
+in maintaining river levels above those
+thresholds that would impact ecosystems
+and protected natural spaces. Moreover,
+satellite data can also contribute to quickly
+identifying and thus preventing saltwater
+infiltration in the aquifer, which degrades the
+quality of the water and affects agricultural soil. Furthermore, satellite monitoring can even go
+beyond, for example allowing to track the stability of mining waste dumps and playing a role in
+preventing the contamination of groundwater from polluting chemicals.
+Companies, such as Detektia monitor ground water dynamics and slope stability using DInSAR
+and InSAR technology. Detektia transforms the information provided by satellites into digital
+solutions for infrastructure management.
+Examples
+of EU space
+providers65
+64 Source: Aquifer Management in Spain, EARSC, 2020
+65 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+52
+3.2.6 Restored ecosystems and biodiversity
+Climate change has impacted global biodiversity as well as ecosystems and will continue to be one of the leading
+drivers of biodiversity loss in the 21st century. Such a threat to the natural environment requires proportionate action
+in the management of ecosystems through conservation and restoration.
+The Copernicus Climate Change Service (C3S) provides operational climate indicators that help properly assess
+and manage biodiversity loss. Implemented by the European Centre for Medium-Range Weather Forecasts
+(ECMWF) on behalf of the European Commission, the centre provides climate data and information on a range of
+sectoral areas affecting ecosystems and biodiversity (i.e., climate change, marine and land conditions).
+In particular, there are climate-biodiversity indicators developed within the Sectoral Information System (SIS),
+which assist in assessing the impact of temperature, rainfall and other atmospheric, terrestrial or oceanic variables
+on habitat suitability, species distribution and species fitness and reproduction. The indicators can be used for
+biodiversity and ecosystem service assessments for both fauna and flora, in the terrestrial as well as the marine
+biosphere, for different climatic zones around the globe. The SIS for Global Biodiversity offers a flexible, generic
+platform providing global users with access to key information. Importantly, SIS can provide support for decision-
+makers mitigating the current lack of relevant climate data. Indeed, policymakers, scientists, nature conservation
+agencies, landowners, private companies etc. all over the world are currently using this data to inform their decision-
+making process on issues impacting their direct business and society at large.
+As a tangible example of data-driven change, a country renowned for its pristine nature and sustainability is Costa
+Rica, whose development goals are directly linked to biodiversity. Because of the scarcity of consistent and reliable
+national data, the country relies on data from the C3S Climate Data Store which is used in conjunction with local
+station data to provide a baseline for downscaled and calibrated climate data and basic biodiversity indicators
+that could be projected into the future.
+The results pulled from the data showed that the temperature and precipitation will likely increase by 2040 along
+with a potential shift in biodiversity resulting from the rise in temperature. Moreover, it helped facilitate the Costa
+Rican government’s decision-making regarding a crucial policy topic. All in all, this use case showcases the central
+role that Copernicus data can play in monitoring, assessing, managing and mitigating biodiversity and ecosystem
+services. Additionally, the results can be used to inform adaptive measures which will increase the resilience of the
+country’s ecosystems.
+Support for biodiversity protection policies is also provided by the Copernicus Marine Environment Monitoring
+Service (CMEMS), working to preserve marine biodiversity worldwide. Once again, the data offered to decision-
+makers allows for data-driven, holistic strategies to be implemented. Within the European frameworks, CMEMS
+data is used to support the EU Marine Strategy Framework Directive, the EU Biodiversity Strategy and the EU Habitat
+Directive. Concrete examples of the use of Copernicus data for the Marine Strategy Framework Directive are the
+improvement of eutrophication assessments through the leveraging of ocean colour data, as well as data on ocean
+currents allowing the tracking of and response operations for oil spill drifts. Furthermore, EU decision-makers, as
+well as national and local administrators, use several different variables monitored by CMEMS (e.g., low and mid
+trophic levels biomass, ocean colour, ocean temperature, etc.) in order to implement the EU’s Biodiversity Strategy
+as set out in the European Green Deal.
+Many relevant examples can be found in the industry. Leading companies in the renewable energy segment – wind,
+due to the risk of bird strikes, and solar due to high land take, in particular – are beginning to integrate biodiversity
+action into their ESG strategy. This may involve targets for biodiversity loss minimisation, and even species
+reintroduction in harmony with the developed energy projects. In agriculture, also, increases in efficiencies allow for
+cooperatives and associations to engage in similar initiatives, thanks to the subsequently decreased land take and
+thus more areas available for biodiversity preservation. A combination of EGNSS-based tracking (e.g., for protected
+aviary species or similar), and Copernicus data and information used for vegetation/forestry planning and monitoring,
+as well as habitat management can enable such initiatives. Use cases of tracking also include predicting conservation
+hot-spots, identifying human-animal interaction zones, sustaining productive fisheries and understanding spread of
+diseases.
+EU SPACE FOR GREEN TRANSFORMATION
+53
+Another relevant application to which Copernicus contributes is the monitoring of pipelines. In general, early
+pipeline leak detection tends to be difficult due to the vast geographic area affected, if not quickly contained they
+can lead to severe environmental impacts ranging from oil pollution to unwanted methane gas emissions.
+Forests are another key asset and host of biodiversity for Europe, not only for resource generation, but also as a
+green lung for the European population. In 2020, the EU had an estimated 159 million hectares of forests. This
+area has increased by almost 10% since 1990 (145 million hectares). In five EU Member States, more than half of
+the land area was covered with forests: Finland (66%), Sweden (63%), Slovenia (61%), Estonia (54%) and Latvia
+(53%)66.
+Earth Observation data provide forest authorities with accurate forest mapping, usable for storm damages
+assessment, inventory and validation of forest strands for wood purchasers. Thanks to time series of satellite images
+forest authorities are also able to detect a change in the land cover/land use in forest areas like illegal clear cut for
+example, or urban areas expansion threatening the ecosystem. These instruments appear to be even more important
+if considering that in the EU more than 60% of forests are privately owned67.
+Exhibit 45: Use case – Copernicus for deforestation and forest management
+▪ Deforestation is a significant issue to be monitored in order to guarantee correct use of
+Challenge
+natural resources and protect the biosphere
+▪ Large surfaces involved make in-situ inspections difficult
+Role of the
+Green Deal
+The Green Deal poses as one of its objectives the preservation of biodiversity and of the
+natural environment
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+Copernicus for deforestation monitoring
+Forests account for most of Earth’s terrestrial biodiversity, covering 31% of the global land area;
+they supply water, provide livelihoods (over 90% of those living in extreme poverty are dependent
+on forests), help mitigate climate change and are key to the production of sustainable food.
+However, the health of forests has been and continues to be threatened by deforestation and
+degradation. Between 2015 and 2020, approximately 10 million hectares per year were lost due
+to deforestation, about 0.25% of the total forest land area. In this context, the EU agreed law to
+fight global deforestation and forest degradation driven by EU production and
+consumption through the provisional political agreement just reached between the European
+Parliament and the Council on an EU Regulation on deforestation-free supply chains.68
+For instance, Satelligence uses optical and radar satellite data from Sentinel-1 and Sentinel-
+2, both archived and recent, to generate the Forest Loss Risk Index. This incorporates accurate
+forest and other land cover and deforestation information, enabling the identification of risks in
+66 Source: European Commission - 39% of the EU is covered with forests
+67 Source: PwC - Copernicus benefits assessment
+68 Source: Law to fight global deforestation and forest degradation (europa.eu)
+EU SPACE FOR GREEN TRANSFORMATION
+54
+the entire landscape, supporting and informing programmatic intervention. 69 Furthermore,
+satellite data is integrated with supply chain data stored in an up-to-date database of million so
+geolocated farms, concessions, factories, and other key locations. Satelligence can thus provide
+key insights on performance of agricultural production and supply chain risks linked with
+deforestation.
+Exhibit 46: Sample Satelligence
+deforestation product
+In essence, Satelligence’s use of
+satellite data from Copernicus
+allows real-time notifications on
+deforestation trends and events
+inside and outside its customers’
+supply chains, as well as
+supporting progress towards
+sustainability commitments
+through historical and current
+deforestation risk analysis. One
+further example of this is the
+company’s service in support of
+carbon monitoring, allowing its
+customers to reduce and offset
+their carbon emissions to meet commitments and net-zero targets. Using a combination of
+satellite data from Copernicus, spaceborne LiDAR and machine learning, Satelligence monitors
+carbon stocks and sequestration from deforestation, as well as tracking the carbon emissions
+resulting from continued deforestation activities.
+Examples
+of EU space
+providers70
+Assuming data from the European Association of Remote Sensing Companies (EARSC) to be consistent in all of
+Europe71, 10% of all the clear-cut areas (i.e., areas in which cutting activities is allowed following specific restrictions)
+were not complying with the boundaries of the cut area or were not as they were supposed to be. Clear-cut areas
+in Europe account for about 10% of the total forest area 72 (i.e., 16 million hectares). Copernicus is expected to
+contribute from 2% to 10% of the spotted non-compliant areas. This in the worst-case scenario means that
+Copernicus contributed to saving 32 k hectares of forest only in 2022. Considering that each hectare of forest
+stores 750 tonnes of CO2 and contributes to absorbing 90 tonnes of CO2 per year, Copernicus is directly accountable
+for saving about 27 million tonnes of CO2 per year. On a global scale, Copernicus is already a crucial tool for
+innovation happening in the voluntary carbon market’s monitoring, reporting, and verification.
+69 Source: https://satelligence.com/deforestation
+70 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu.
+71 Source: EARSC - Forestry management in Sweden
+72 Source: The Guardian - Europe losing forest to harvesting at alarming rate, data suggests
+EU SPACE FOR GREEN TRANSFORMATION
+55
+Exhibit 47: Use case - EU Space Programme for tourism
+Challenge
+▪ Tourism is a key economic sector in Europe involving large volumes of moving people and
+therefore characterised by a significant environmental footprint
+▪ Impact of tourist activities must be monitored to allow companies and institutions to act
+with corrective measures when needed
+Role of the
+Green Deal
+The EU through the Green Deal commits to shift the economy towards a greener direction
+characterised by a more responsible [touristic] industry
+Solution
+offered by
+EU Space
+Example of
+real-life
+use case
+Copernicus for tourism impact assessment
+Tourism is a crucial sector in today’s world, and it plays a central role both at EU and global level.
+Considering the economics behind it, 3.9% of EU’s GDP in 2018 can be traced back to tourism,
+and this figure rises significantly (10.3%) when also considering its impact on adjacent sectors.73
+However, this increase in tourism is also related to negative environmental impact. Potential
+adverse effects of tourism development relate to three main areas: strain on natural resources,
+pollution, and physical impacts, typically involving the degradation of ecosystems.
+Reducing the impact of tourism-related activities and making the whole sector more resilient is
+therefore imperative, and EU space data can play a central role in this regard. One of the many
+companies aware of the enabling role of satellite data is Murmuration, a Toulouse-based
+company focusing on providing services in the domains of tourism, green tech, and renewable
+energies. Its STI project in particular aims to create an industrial system to measure and assess
+in detail the environmental impact of tourism, and it hinges on observation data provided by
+Copernicus through WEkEO, one of the Copernicus DIASs. The key contribution of space data
+pertains to the development of the key indicators underpinning this assessment system, indicators
+that span five different categories. Air indicators consider the effect on Earth’s atmosphere and
+include Aggregate Air Quality, Super Resolution Air Quality, and Air Pollutants. Biodiversity
+indicators focus instead on the health of ecosystems and consider vegetation health, vegetation
+classification, forest cover, protected areas, and endangered species. Human activities indicators
+focus specifically on the effect of tourism on the environment, considering tourism and road
+infrastructure as well as tourist flows. Finally, ground indicators include soil sealing, land
+occupation and urban heat, while water indicators consider both water quality and aquatic
+coverage.
+73 Source: Fact Sheets on the European Union, European Parliament, 2022
+EU SPACE FOR GREEN TRANSFORMATION
+56
+Exhibit 48: The contribution of Copernicus to the Murmuration
+environmental KPIs
+Thanks to these KPIs enabled by Copernicus (in particular by CAMS, CLMS, and CMEMS), tourism
+providers and the
+entities regulating
+and managing
+tourism can benefit
+from clear
+information on the
+subject and thus
+integrate ecological
+considerations into
+the tourism sector.
+Without
+Copernicus and its
+free, full, and open
+data policy, it would not be possible for businesses and institutions to track these KPIs and
+therefore act towards positive environmental impact.
+Examples
+of EU space
+providers74
+74 These are the examples of companies that have been interviewed during the consultation. If your company is also active in the field and you
+would like to cooperate with EUSPA, please send your interest to market@euspa.europa.eu
+EU SPACE FOR GREEN TRANSFORMATION
+57
+4. CONCLUSIONS: EU SPACE
+FOR GREEN TRANSFORMATION
+In the context of a more sustainable society and ESG scoring, companies are setting green transformation targets to
+reduce greenhouse emissions and environmental footprint of their operations, as well promote their actions to
+attract customers and increase their market shares. Business benefit from a myriad of possible applications for
+EU space data, which translates into not only greener practices, but also cost reduction and increased efficiency.
+In a path to decarbonisation of energy resources, the Green Deal proposes a transition to renewable sources. Such
+businesses can be significantly supported by Galileo and Copernicus data, especially in decision-making. First, the
+evaluation of infrastructure placement can be enhanced by Copernicus data on wind velocity and direction, solar
+radiation and more. Moreover, EGNSS offers precise positioning, useful in inspection operations to save time and
+costs, as well as reliable timing and synchronisation to tune smart electricity grids.
+The Green Deal goal of a greener industry can be supported by the EU space programme. Galileo devices enables
+tracking of products and optimisation of operations throughout their life cycle, resulting in reduced emissions.
+Moreover, it supports the creation of an electronic product passport, containing relevant information for the
+consumer. As regards to raw materials, Copernicus provides essential data on availability, geology, biology and
+ecology. In special for mining operations, Copernicus Earth Observation images supports activities from mining
+survey to site clean-up, rehabilitation and waste management. In the matter of waste production reduction and
+management, EO can monitor water, creating significant insights into plastic production and recycling.
+A green urban development relies on solid data. Infrastructure placement, atmospheric pollution monitoring,
+urban heat management and green place allotment are some of the many applications of Copernicus imagery in
+urban planning that reinforce the goals of the EU Green Deal.
+EGNSS has a fundamental role in reducing greenhouse emissions, consonant to the Green Deal’s ambitions. Aiming
+a smart and sustainable mobility, Galileo is a key tool for reducing travel time and fuel consumption, leading to
+lower costs and lower emissions. It can be used for path optimising in several transportation sectors, as route,
+aviation and marine, bringing important profits to companies. Moreover, Copernicus produces information on ocean
+streams strength and direction, as well as weather forecasting, improving safety and fuel usage.
+Satellite data provided by Copernicus and Galileo play a key role in improving the food system, developing
+sustainable and efficient practices. The EU space data enables precision agriculture by mapping the evolution of
+crops and precisely navigating to the intervention areas. Copernicus information on soil moisture and crop
+development improves irrigation efficiency, fertilisation and pesticide usage, detection and localisation of crop health
+issues and more. Moreover, EGNSS data is imperative for automatic steering of agriculture machinery, enabling rout
+planning and optimisation, which results in reduced soil damage and fuel consumption.
+Ecosystems and biodiversity preservation are vital for the maintenance of life on Earth. In this respect, Copernicus
+data is especially appropriate for monitoring the environment, providing crucial climate-biodiversity indicators.
+To fight against biodiversity loss, Copernicus data may be also used for early identification of maintenance issues in
+oil and gas pipelines, preventing harmful consequences to the environment of a late leak detection. Further
+applications for biodiversity and ecosystem monitoring are broad; Copernicus gives users a better understanding of
+deforestation, forest fires, soil degradation, floods, coral reef bleaching and more.
+The exhibit below contextualises the contribution of EU Space for green transformation from a business model
+perspective with a focus on supporting environmental monitoring and impact reduction.
+EU SPACE FOR GREEN TRANSFORMATION
+58
+Exhibit 49: Business model canvas
+Despite this enormous potential of EU Space data use for Green Transformation, the industry consultation showed
+a clear lack of awareness of this applicability.
+Exhibit 50: Summary of the results of stakeholder consultations (interviews and survey)
+Almost all the consulted companies (direct interviews and surveys) stated that they are currently not leveraging EU
+Space Data for pursuing their green transformation objectives. However, many expressed their interest to know
+more about it and possibly being engaged by EUSPA in further action. The European Commission and EUSPA are
+committed to support the small businesses and corporates in understanding and implementation of the Space data
+in their process of green transformation. This report is the first step in this journey.
+EU SPACE FOR GREEN TRANSFORMATION
+59
+ANNEX 1: ABOUT THE EUROPEAN GLOBAL
+NAVIGATION SYSTEM AND COPERNICUS
+A.1 About the European Global Navigation Satellite System
+(EGNSS)
+The EGNSS component of the EU Space Programme has been the cornerstone of positioning and timing operations
+since its introduction, supporting activities spanning from transport, to search and rescue, and trading. It consists of
+two components:
+▪ Galileo, the European Global Navigation Satellite System (GNSS), operational since December 2016 when it
+started offering initial services to public authorities, businesses, and citizens.
+▪ EGNOS, the European Satellite-Based Augmentation System (SBAS), that improves the accuracy of GNSS
+signals.
+The strengths of Galileo lie in its high accuracy, its reliability for timing and positioning, as well as its advanced
+authentication system. While the EGNSS provides global positioning and timing, it is a particularly important tool
+for Europe’s long-term strategic non-dependence from services provided by non-European assets like the US GPS,
+as well as control over its space-based infrastructure. Galileo stands out as the only civilian GNSS service in the
+world.
+Galileo currently offers three services: the Open Service (OS), a free mass-market service for positioning, navigation
+and timing, the Search and Rescue (SAR) service, Europe’s contribution to the international distress beacon locating
+organisation COSPAS-SARSAT both operational since 2016, and the Public Regulated Service (PRS), a fully
+encrypted and robust service for authorised security and governmental users in EU Member States. In addition,
+Galileo is set to offer other major service lines including the Galileo Open Service Navigation Message
+Authentication (OSNMA) – free and open with authentication capabilities, the High Accuracy Service (HAS) –
+designed to deliver further signal, encryption and value-added services to commercial users75.
+Exhibit 51: Galileo services
+EGNOS is a satellite-based augmentation system, originally designed to enhance the Global Positioning System
+(GPS) signal for safety-of-life operations. EGNOS provides across all EU Member States high-accuracy, high-
+integrity services for aviation, maritime and land-based users where raw GNSS information is insufficient.
+Specifically, as of 2022, EGNOS uses three geostationary satellites and an extensive ground station network to
+provide three services: the Open Service (OS) – used for non-safety-critical applications; the Safety of Life Service
+(SOLS) – for navigation where human lives are at stake; and the EGNOS Data Access Service (EDAS) – a ground-
+based data access point for information collected by EGNOS.
+75 Source : EUSPA - Galileo services
+EU SPACE FOR GREEN TRANSFORMATION
+60
+The EGNSS value chain comprises three major segments: space- and ground-based infrastructure in the upstream
+(1), system integrators (2), and devices and value-added service providers in the downstream (3). Downstream
+actors vary more widely, with the primary differentiators being their area of specialisation and expertise in specific
+verticals, such for instance agriculture, energy, transport, etc., all of which have a different operating landscape.
+A.2 About Copernicus – the EU Earth Observation programme
+Copernicus is the EU’s Earth Observation (EO) programme that provides satellite data and information freely
+and openly to users. The Sentinel satellites consist of a series of different missions providing global coverage of
+radar, multispectral, atmospheric chemistry and altimetry data, with additional missions to follow. What started as
+the Global Monitoring for Environment and Security (GMES) programme in 1999 is now an operational system, seen
+by many observers as one of the world’s largest EO providers and an enormous utility for the benefit of Europe and
+the world.
+The Copernicus programme features six primary service lines including atmosphere, marine environment, land
+monitoring, climate change, security and emergency management, which provide ready-to-use Copernicus-based
+analyses and information in a variety of domains, in Europe and abroad. Copernicus services are based on
+information from the Sentinels (core Copernicus satellites) as well as tens of third-party satellites known as
+Contributing Missions, complemented by in-situ (meaning on-site non-space) data.
+Exhibit 52: Copernicus services
+The combined capabilities of Copernicus data and information ensure European autonomous access to
+environmental knowledge and technologies, supporting the Union’s decision-making in areas such as
+environmental policy, climate change, maritime, agriculture, rural development, the preservation of cultural heritage,
+civil protection, land and infrastructure monitoring, security as well as the digital economy, among others76.
+A key component of the Copernicus system is its data policy that makes most of its satellite data and services
+available on a full, open, and free-of-charge basis.
+Copernicus data are delivered to their users through a variety of online data access platforms77, such as the ESA-
+managed Copernicus Data Space Ecosystem which was inaugurated in January 2023, and the EUMETSAT-managed
+76 Source: Copernicus website
+77 Refer to: Copernicus - Access to Data for further information
+EU SPACE FOR GREEN TRANSFORMATION
+61
+EUMETCast platform78. In addition to the above platforms, several Copernicus Services have developed their own
+online platform, which provide users with access to information and forecasting products, associated documentation
+and support services for their use (1000+ Copernicus products are available to users in total).
+To fully tap the potential of Copernicus data, in 2017, the European Commission launched the development of five
+cloud-based platforms: the Copernicus Data and Information Access Services (DIAS). Each DIAS provided access
+in a virtual environment to all Copernicus data and information, as well as tools and utilities to process them in the
+cloud without having to download massive amounts of data. Building on the experience gained with the launch of
+the DIASes, a new Copernicus data access service, referred to as the Copernicus Data Space Ecosystem79, has been
+launched in January 2023. Such service is part of part of the Copernicus activities delegated by the European
+Commission to the European Space Agency and aim at harmonising and streamlining the Copernicus Data Access
+framework through a single platform to better access and exploit the Copernicus Data. The new service will be fully
+operational in July 2023 after a progressive phase-in period corresponding to the phasing out of the current data
+distribution service, leaving time for users to migrate and familiarise themselves with the new service interfaces 80.
+In parallel, Eumetsat, ECMWF, Mercator Ocean International and EEA operate the WEkEO cloud-based platform81
+which provides access to a variety of Sentinel data and to products and information from the Copernicus
+Atmosphere, Ocean and Land Monitoring and Climate Change Services.
+This policy is already stimulating the application of digital technology and geospatial intelligence in institutions and
+businesses and helps to foster the role of “soft power” of the EU internationally.
+Copernicus provides about 8 Petabytes of open and free data per year to citizens, businesses and governments
+across Europe. As with EGNSS, a significant part of Copernicus’s value chain lies with added-value service
+providers, who adapt, process and redistribute specialised data from the full, open set. Information from Copernicus
+is also often augmented with in-situ observation, such as from aerial, water-based or ground-based sensor
+information, providing further, higher-fidelity and higher-value information to end-users. Other added-value
+services include data analysis, integration with supplemental sources, and validation.
+Future evolutions of the Copernicus Programme include six Sentinel Expansion missions especially designed to
+address EU policy and gaps in Copernicus user needs and to expand the current capabilities of the Copernicus Space
+Component82. The Copernicus Sentinel expansion missions will provide new and enhanced information helping to
+tackle challenges such as food security, water management, sea level, polar ice, urbanization and climate change82.
+78 Source: EUMETSAT - EUMETCast
+79 Source: Copernicus Data Space
+80 Source: European Commission
+81 Source: WEkEO
+82 Source: ESA
+EU SPACE FOR GREEN TRANSFORMATION
+62
+ANNEX 2: ABOUT THE AUTHORS
+The European Commission
+The European Commission (EC) and more specifically the DirectorateGeneral for
+Defence Industry and Space (DG DEFIS) has overall responsibility for the
+implementation of the Union Space Programme and its components (Galileo,
+EGNOS, Copernicus, GOVSATCOM and SSA).
+This includes:
+• Overseeing the implementation of all activities related to the programme;
+• Defining its priorities and long-term evolution;
+• Managing the funds allocated to the programme;
+• Ensuring a clear division of responsibilities and tasks, in particular between the EU Agency for the Space
+Programme and the European Space Agency;
+• Ensuring proper reporting on the programme to the Member States of the EU, the European Parliament and the
+Council of the European Union.
+The EU Space Programme is fully financed by the European Union.
+DG DEFIS further contributes to shaping the EU space policy and fostering a strong, innovative and resilient EU space
+ecosystem. It supports the emergence of New Space in the EU, including SMEs and new entrants, fosters entrepreneurship
+and access to finance, and contributes to the growth of the EU space industry. DG DEFIS promotes EU space research
+fostering a cost-effective, competitive and innovative space industry and research community. It ensures that space
+technology, services and applications meet EU policy needs, and the R&I needs of the EU Space Programme. It also ensures
+that the EU can access and use space with a high level of autonomy.
+The EU space policy addresses some of the most pressing challenges facing the EU today, such as fighting climate change,
+supporting EU’s priorities, whilst strongly contributing to the green and digital transitions and to the resilience of the Union.
+The European Union Agency for the Space Programme
+As a European Union Agency, EUSPA’s mission is to implement the first
+integrated EU Space Programme and multiply the benefits generated by space
+data and services for citizens, businesses and governments.
+As a European Union Agency, EUSPA’s mission is to implement the first
+integrated EU Space Programme and multiply the benefits generated by space
+data and services for citizens, businesses and governments.
+As a body of the EU, the Agency contributes to EU´s priorities: Green Deal and digital transition, the safety and security of
+the Union and its citizens, while reinforcing its autonomy and resilience.
+EUSPA:
+• Delivers safe, state-of-the-art, European satellite-based services to a growing group of users in Europe and
+around the world.
+• Promotes the use of space data and services from Galileo, EGNOS, Copernicus and GOVSATCOM.
+• Ensures the safety and security of the EU Space Programme assets both in space and on the ground.
+• Supports innovation along the whole value chain of business development for companies, start-ups,
+innovators and academia.
+The authors would like to convey special thanks to the contributor of this report SpaceTec Partners.
+EU SPACE FOR GREEN TRANSFORMATION
+63
+LIST OF EXHIBITS
+Exhibit 1: Why Pursuing the green transformation - key figures .................................................................................................. 1
+Exhibit 2: Participating companies who disclosed their name ....................................................................................................... 3
+Exhibit 3: Greenhouse gas emissions global and by sector .......................................................................................................... 4
+Exhibit 4: Examples of EU Space contribution to key elements of Green Transformation ................................................... 5
+Exhibit 5: European Green Deal investment plan and action areas .............................................................................................. 7
+Exhibit 6: European Green Deal action areas ....................................................................................................................................... 8
+Exhibit 7: Global green transformation market2 .................................................................................................................................. 9
+Exhibit 8: The green transformation investment returns curve .................................................................................................... 10
+Exhibit 9: Summary & mapping of key regulation updates under the Green Deal
+and examples of EU Space applications .......................................................................................................................... 12
+Exhibit 10: Estimated impact of the EU Space Programme on selected markets and on the environment .................. 16
+Exhibit 11: Summary of the most relevant Copernicus services and products for the Green Deal objectives ............ 17
+Exhibit 12: Role of EU Space for green transformation - definitions of environmental monitoring
+and footprint reduction ......................................................................................................................................................... 18
+Exhibit 13: Use case - EU Space Programme for insurance companies .................................................................................... 19
+Exhibit 14: Value chain and position of EO space data in insurance sector ............................................................................. 20
+Exhibit 15: ESG main evaluation areas ................................................................................................................................................. 22
+Exhibit 16: Example - ESG goals and KPIs adopted by Henkel ................................................................................................... 23
+Exhibit 17: Estimated share of EBITDA at risk due to ESG negative performance by industry ........................................ 23
+Exhibit 18: Correlations between environmental scoring issued by different organisations ............................................. 25
+Exhibit 19: Use case - Copernicus for ESG monitoring ................................................................................................................... 25
+Exhibit 20: NOX distribution over Europe ............................................................................................................................................ 26
+Exhibit 21: Examples of environmental monitoring KPIs for green transformation and EU Space contribution ....... 26
+Exhibit 22: Media headlines from the last three months (as of July 2022) .............................................................................. 28
+Exhibit 23: Four-stage evolution of companies through ESG capabilities (BCG) .................................................................. 29
+Exhibit 24: Use case - Copernicus for methane emissions monitoring in the energy sector.............................................. 30
+Exhibit 25: Data visualisation of GHGSat methane emission measurement for TotalEnergies ........................................ 30
+Exhibit 26: Energy generation from solar and wind sources in EU2725 ..................................................................................... 32
+Exhibit 27: Use case - EU Space Programme for boosting clean energy adoption ............................................................... 33
+Exhibit 28: The Mon Toit Solaire user interface ................................................................................................................................. 34
+Exhibit 29: Carbon and energy intensity per tonne of metal produced in EU ......................................................................... 36
+Exhibit 30: Use case - EU Space Programme for mining................................................................................................................ 37
+Exhibit 31: Share of waste generated in EU40 .................................................................................................................................... 38
+Exhibit 32: Use case – EU Space Programme for urban planning and maintenance ............................................................ 39
+Exhibit 33: Map of Genova area produced by Detektia ................................................................................................................. 40
+Exhibit 34: Share of transport greenhouse gas emissions in Europe47 ...................................................................................... 41
+Exhibit 35: Use case - EU Space Programme for autonomous mobility ................................................................................... 41
+Exhibit 36: TernowAI AeroSat HD Map product, provided in the OpenDRIVE format ........................................................ 43
+EU SPACE FOR GREEN TRANSFORMATION
+64
+Exhibit 37: Use case - EU Space Programme for highway management ................................................................................. 43
+Exhibit 38: Use case - EU Space Programme for airport management ..................................................................................... 45
+Exhibit 39: GroundEye interface ............................................................................................................................................................. 45
+Exhibit 40: Use case – EU Space Programme for safer maritime navigation ........................................................................... 46
+Exhibit 41: Use case - EU Space Programme for smart agri-resource management ........................................................... 48
+Exhibit 42: WatchITgrow interface for crop management ............................................................................................................ 49
+Exhibit 43: Use case - Copernicus for more efficient use of water in the food industry ...................................................... 49
+Exhibit 44: Use case - Copernicus for more efficient use of water resources ......................................................................... 51
+Exhibit 45: Use case – Copernicus for deforestation and forest management ....................................................................... 54
+Exhibit 46: Sample Satelligence deforestation product ................................................................................................................ 55
+Exhibit 47: Use case - EU Space Programme for tourism .............................................................................................................. 56
+Exhibit 48: The contribution of Copernicus to the Murmuration environmental KPIs .......................................................... 57
+Exhibit 49: Business model canvas ........................................................................................................................................................ 59
+Exhibit 50: Summary of the results of stakeholder consultations (interviews and survey) ................................................ 59
+Exhibit 51: Galileo services ....................................................................................................................................................................... 60
+Exhibit 52: Copernicus services ............................................................................................................................................................... 61
+EU SPACE FOR GREEN TRANSFORMATION
+65
+ABBREVIATIONS AND ACRONYMS
+Acronym Description
+AFIR Alternative Fuels Infrastructure Regulation
+AI Artificial Intelligence
+AUM Assets Under Management
+C3S Copernicus Climate Change Service
+CAMS Copernicus Atmosphere Monitoring Service
+CBAM Carbon Border Adjustment Mechanism
+CLMS Copernicus Land Monitoring Service
+CMEMS Copernicus Marine Environment Monitoring Service
+CO2 Carbon Dioxide
+CORSIA Carbon Offset and Reduction Scheme for International Aviation
+CSR Corporate Social Responsibility
+CSRD Corporate Sustainability Reporting Directive
+EBPD Energy Performance of Buildings Directive
+ECMWF European Centre for Medium-Range Weather Forecasts
+EDAS EGNOS Data Access Service
+EEA European Economic Area
+EGDIP European Green Deal Investment Plan
+EGNOS European Geostationary Navigation Overlay Service
+EGNSS European Global Navigation Satellite System
+EIB European Investment Bank
+EMFF European Maritime and Fisheries Fund
+EMS Emergency Management Service
+EMSA European Maritime Safety Agency
+EO Earth Observation
+ESA European Space Agency
+ESG Environmental, Social, Governance
+ESR Effort Sharing Regulation
+ETD Energy Taxation Directive
+ETS Emissions Trading System
+EU European Union
+EUSD European Union Space Data
+EUSPA European Union Agency for the Space Programme
+FAO Food and Agriculture Organization of the United Nations
+GBAS Ground-Based Augmentation Systems
+GHG Greenhouse Gas
+GNSS Global Navigation Satellite System
+GPS Global Positioning System
+HAS High Accuracy Service
+EU SPACE FOR GREEN TRANSFORMATION
+66
+Acronym Description
+IARC
+ICAO
+IMO
+IoT
+JTF
+JTM
+JTM
+International Agency for Research on Cancer
+International Civil Aviation Organization
+International Maritime Organization
+Internet of Things
+Just Transition Fund
+Just Transition Mechanism
+Just Transition Mechanism
+LBS Location-Based Services
+LPV Localiser Performance using Vertical guidance
+LULUCF Regulation on Land Use, Land Use Change and Forestry
+MSCI Morgan Stanley Capital International
+NOx Nitrogen Oxides
+OMR Outermost Region
+OS Open Service
+OSNMA Open Service Navigation Message Authentication
+PBN Performance-Based Navigation
+PM Particulate Matter
+PRS Public Regulated Service
+REDII Renewable Energy Directive
+SAR Search and Rescue
+SBAS Satellite-Based Augmentation System
+SDG Sustainable Development Goal
+SME Small to Medium Enterprise
+SOLS Safety of Life Service
+SOx Sulphur Oxides
+SSA Space Situational Awareness
+UAV Uncrewed Aerial Vehicle
+UN United Nations
+UNFCCC United Nations Framework Convention on Climate Change
+VOC Volatile Organic Compound
+EU SPACE FOR GREEN TRANSFORMATION
+67
+EUSPA Mission Statement
+The mission of the European Union Agency for the Space Programme (EUSPA) is defined by the EU Space
+Programme Regulation. EUSPA’s mission is to be the user-oriented operational Agency of the EU Space Programme,
+contributing to sustainable growth, security and safety of the European Union.
+Its goal is to:
+• Provide long-term, state-of-the-art safe and secure Galileo and EGNOS positioning, navigation and timing
+services and cost-effective satellite communications services for GOVSATCOM, whilst ensuring service
+continuity and robustness;
+• Communicate, promote, and develop the market for data, information and services offered by Galileo, EGNOS,
+Copernicus and GOVSATCOM;
+• Provide space-based tools and services to enhance the safety of the Union and its Member States. In particular,
+to support PRS usage across the EU;
+• Implement and monitor the security of the EU Space Programme and to assist in and be the reference for the
+use of the secured services, enhancing the security of the Union and its Member States;
+• Contribute to fostering a competitive European industry for Galileo, EGNOS, and GOVSATCOM, reinforcing
+the autonomy, including technological autonomy, of the Union and its Member States;
+• Contribute to maximising the socio-economic benefits of the EU Space Programme by fostering the
+development of a competitive and innovative downstream industry for Galileo, EGNOS, and Copernicus,
+leveraging also Horizon Europe, other EU funding mechanisms and innovative procurement mechanisms;
+• Contribute to fostering the development of a wider European space ecosystem, with a particular focus on
+innovation, entrepreneurship and start-ups, and reinforcing know-how in Member States and Union regions.
+• As of July 2023, EUSPA will take the responsibility for the Programme’s Space Surveillance Tracking Front
+Desk operations service.
+The European Union Agency for the Space Programme: linking space to user needs.
+www.euspa.europa.eu
+@EU4Space
+@space4eu
+EU4Space
+EUSPA
+EUSPA
+@EUSPA@social.network.europa.eu
+#EUSpace
+© 2023 European Union Agency for the Space Programme
+Copyright note: This information can be republished without charge
+provided the EU Agency for the Space Programme (EUSPA) is
+acknowledged. If you do republish, we would be grateful if you link
+back to the EUSPA website (www.euspa.europa.eu).

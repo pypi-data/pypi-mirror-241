@@ -1,0 +1,189 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Fiche_1pag] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Fiche_1pag
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Fiche 1: Wijziging verordeningen betreffende instant payments in euro Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr. 260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro 26 oktober 2022 COM (2022) 546 https://eur-lex.europa.eu/legal- content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363 SWD (2022) 546 en SEC(2022)546 Raad Economische en Financiële Zaken Ministerie van Financiën Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU) Gekwalificeerde meerderheid Medebeslissing In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door, 
+
+ [ALINEA-CONTENT]:
+Fiche 1: Wijziging verordeningen betreffende instant payments in euro
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Algemene gegevens
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr. 260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro 26 oktober 2022 COM (2022) 546 https://eur-lex.europa.eu/legal- content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363 SWD (2022) 546 en SEC(2022)546 Raad Economische en Financiële Zaken Ministerie van Financiën Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU) Gekwalificeerde meerderheid Medebeslissing 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Titel voorstel
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr. 260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro 
+
+ [ALINEA-CONTENT]:
+Verordening van het Europees Parlement en de Raad tot wijziging van Verordeningen (EU) nr.
+260/2012 en (EU) 2021/1230 wat betreft instantovermakingen in euro
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = b) Datum ontvangst Commissiedocument
+ nativeID=3 parentID=1 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+26 oktober 2022 
+
+ [ALINEA-CONTENT]:
+26 oktober 2022
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = c) Nr. Commissiedocument
+ nativeID=4 parentID=1 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+COM (2022) 546 
+
+ [ALINEA-CONTENT]:
+COM (2022) 546
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = d) EUR-Lex
+ nativeID=5 parentID=1 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+https://eur-lex.europa.eu/legal- content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363 
+
+ [ALINEA-CONTENT]:
+https://eur-lex.europa.eu/legal-
+content/NL/TXT/?uri=CELEX%3A52022PC0546&qid=1669146250363
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = e) Nr. impact assessment Commissie en Opinie Raad voor Regelgevingstoetsing
+ nativeID=6 parentID=1 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+SWD (2022) 546 en SEC(2022)546 
+
+ [ALINEA-CONTENT]:
+SWD (2022) 546 en SEC(2022)546
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = f) Behandelingstraject Raad
+ nativeID=7 parentID=1 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Raad Economische en Financiële Zaken 
+
+ [ALINEA-CONTENT]:
+Raad Economische en Financiële Zaken
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = g) Eerstverantwoordelijk ministerie
+ nativeID=8 parentID=1 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Ministerie van Financiën 
+
+ [ALINEA-CONTENT]:
+Ministerie van Financiën
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = h) Rechtsbasis
+ nativeID=9 parentID=1 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU) 
+
+ [ALINEA-CONTENT]:
+Artikel 114 Verdrag betreffende de werking van de Europese Unie (VWEU)
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = i) Besluitvormingsprocedure Raad
+ nativeID=10 parentID=1 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Gekwalificeerde meerderheid 
+
+ [ALINEA-CONTENT]:
+Gekwalificeerde meerderheid
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = j) Rol Europees Parlement
+ nativeID=11 parentID=1 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Medebeslissing 
+
+ [ALINEA-CONTENT]:
+Medebeslissing
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2. Essentie voorstel
+ nativeID=12 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door, 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = a) Inhoud voorstel
+ nativeID=13 parentID=12 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door, 
+
+ [ALINEA-CONTENT]:
+In september 2020 publiceerde de Europese Commissie (hierna: Commissie) haar “Retail Payments
+Strategy1”. Deze strategie beoogt het bevorderen van het Europese retailbetalingsverkeer door,
+
+---------------------------------------------------------------------------------
