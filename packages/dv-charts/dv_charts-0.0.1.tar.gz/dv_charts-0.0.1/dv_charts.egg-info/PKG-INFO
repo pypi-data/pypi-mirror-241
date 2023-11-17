@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dv-charts
+Version: 0.0.1
+Summary: Customized charts
+Author: Anya Ip <anyakurapica@gmail.com>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
