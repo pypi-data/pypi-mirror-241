@@ -1,0 +1,12 @@
+archive_strategy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archive_strategy/archive_file.py,sha256=7PRW_3mAl32qkppGNBNwKW_4-T_uxumL5OHLuJm5QbI,9725
+archive_strategy/archiver.py,sha256=4JUDUVlJ_cYdED8gfLmiddUedQUesQkIJIqgb4iBvxQ,4689
+archive_strategy/config.py,sha256=jd-xLbc1sLk0VLM1XOD_gsrzgijQT2X70Ao-SMpt5fU,3656
+archive_strategy/console.py,sha256=A7Uoyll_H6dOdICkiLV6CD7hTUYBn1tP8x_9zKbF3Rw,202
+archive_strategy/main.py,sha256=54vjN00hT6fROFNvR1jKB7r9QkKcx-iPfb6L1VkEK5M,2961
+archive_strategy/policy.py,sha256=cCDAzneir6sKhmArnUbSZ5Oo4mM7nRr9-LGQUAj0QPo,4614
+archive_strategy/timeframe.py,sha256=TVN5aNSCm2ShT3rlrG-CT2ZDcrui4Ulyg0UuDASHJ60,656
+archive_strategy-0.1.3.5.dist-info/METADATA,sha256=j8X1Dcudx-RocpJAjlol1MhBzNEJjwLYFZrisk4mKDA,537
+archive_strategy-0.1.3.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+archive_strategy-0.1.3.5.dist-info/entry_points.txt,sha256=ZKwE_HudtGeUEJB8Zgu2V-hRkKyIVqVnJYUIDpQiYXA,63
+archive_strategy-0.1.3.5.dist-info/RECORD,,
