@@ -1,0 +1,16 @@
+REGION_MAP = {
+    "kidney_right": 2,
+    "kidney_left": 3,
+    "gallbladder": 4,
+    "liver": 5,
+    "stomach": 6,
+    "aorta": 7,
+    "inferior_vena_cava": 8,
+    "portal_vein_and_splenic_vein": 9,
+    "pancreas": 10,
+    "pulmonary_artery": 49,
+    "small_bowel": 55,
+    "duodenum": 56,
+    "colon": 57,
+    "urinary_bladder": 104,
+}
