@@ -1,0 +1,12 @@
+Mise à jour de {{actor.longname}}
+
+Bonjour {{user.name}},
+
+
+TEXTE A CORRIGER
+Pouvez-vous remettre à jour {{actor.longname}} ?
+
+Pour toutes autres questions sur votre adhésion, nous restons à votre disposition.
+Cordialement,
+
+{{sender.name}}
