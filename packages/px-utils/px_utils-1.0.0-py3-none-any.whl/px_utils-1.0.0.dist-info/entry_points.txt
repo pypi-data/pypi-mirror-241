@@ -1,0 +1,6 @@
+[console_scripts]
+pcp = px_utils.cli:pcp
+pmkdirs = px_utils.cli:pmkdirs
+pmv = px_utils.cli:pmv
+prm = px_utils.cli:prm
+
