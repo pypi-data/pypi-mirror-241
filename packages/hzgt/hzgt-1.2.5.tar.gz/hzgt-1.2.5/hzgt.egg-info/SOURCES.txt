@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+hzgt/Style.py
+hzgt/__init__.py
+hzgt/fileop.py
+hzgt/sc.py
+hzgt/strop.py
+hzgt.egg-info/PKG-INFO
+hzgt.egg-info/SOURCES.txt
+hzgt.egg-info/dependency_links.txt
+hzgt.egg-info/top_level.txt
+hzgt/version/__init__.py
+hzgt/version/_version.py
