@@ -1,0 +1,7 @@
+ladybug-core>=0.41.30
+
+[:python_version >= "3.6"]
+numpy>=1.21.6
+
+[display]
+ladybug-display==0.10.1
