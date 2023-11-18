@@ -1,0 +1,11 @@
+tipsql/sqlite3/__init__.py,sha256=_i3paLIqLtbeO4w8V6pUUa6fMG__nLVGlm-B63Lch5w,200
+tipsql/sqlite3/connection.py,sha256=T7ETpaLEa5-YYg0i_uNuYFQmSoEKMuWfcE3goeAVmKQ,458
+tipsql/sqlite3/cursor.py,sha256=5AQpCVxEQF6nPM0loCxQ2PNSwcnZVVrXWzngmEBxIRQ,2252
+tipsql/sqlite3/datatypes.py,sha256=N8wVIBq_RQ74smmdG-N4CCwkC5M5UIwjW0yPr8Zn76Q,3162
+tipsql/sqlite3/plugin.py,sha256=vEsCVoezkV4gIiKEimZeH7uDL9RmclCGjzbzeCy_r4A,638
+tipsql/sqlite3/query/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tipsql/sqlite3/query/builder.py,sha256=PlCSlnkRawUgQgrILtDkA4zVfM7B3LVFJvG9fkuQu7M,103
+tipsql_sqlite3-0.0.3.dist-info/METADATA,sha256=AVapVooFtcGQ9i8FPCBLOpaksYEh1igWZYg38tndhkc,407
+tipsql_sqlite3-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tipsql_sqlite3-0.0.3.dist-info/entry_points.txt,sha256=NtkRW0uNvO3bjRHADZ4SQLP4CA5k-PHm8pi9Jx1J910,78
+tipsql_sqlite3-0.0.3.dist-info/RECORD,,
