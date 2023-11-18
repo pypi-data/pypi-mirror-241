@@ -1,0 +1,6 @@
+[console_scripts]
+conda-join = conda_join:main
+conda_join = conda_join:main
+
+[setuptools.finalize_distribution_options]
+conda-join = conda_join:setuptools_finalizer
