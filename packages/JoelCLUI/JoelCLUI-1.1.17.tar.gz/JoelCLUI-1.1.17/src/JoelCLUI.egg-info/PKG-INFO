@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: JoelCLUI
+Version: 1.1.17
+Summary: A command line user interface tool
+Author-email: Joel Grayson <joel@joelgrayson.com>
+License: MIT License
+        
+        Copyright (c) 2021 Joel Grayson
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/JoelGrayson/JoelCLUI
+Project-URL: Bug Tracker, https://github.com/JoelGrayson/JoelCLUI/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JoelCLUI, the Easiest Way to _Stylize_ Text and Move the Cursor in Python.
+
+## Installation
+```bash
+pip3 install joelclui
+```
+
+## Demo
+```python
+import joelclui as j
+
+j.print('2+2=[green]4[/] and 3+3=[bg red]6[/]')
+j.print('[yellow]Warning. [red][underline]Error[/] [green]Success[/]')
+j.print('[bg blue][yellow]Colorful[/] Back to normal')
+
+j.print('Status: TBD')
+j.move_up()
+j.print('[bold]Status: [green]Complete[/]')
+```
+
+Output:
+![Terminal output image](https://joelgrayson.com/image/software/joelclui/demo.jpg)
+## Style
+Wrap one of of the modifiers below in square brackets [] to change the printed text's style.
+* Text Color
+    * `bold`
+    * `green`
+    * `yellow`
+    * `red`
+    * `blue`
+    * `black`
+    * `orange`
+    * `purple`
+    * `cyan`
+    * `lightgray`
+    * `darkgray`
+    * `pink`
+    * `lightred`
+    * `lightgreen`
+    * `lightblue`
+    * `lightcyan`
+    * `success`
+    * `warn`
+    * `danger`
+* Background Color
+    * `bg black`
+    * `bg red`
+    * `bg green`
+    * `bg orange`
+    * `bg blue`
+    * `bg purple`
+    * `bg cyan`
+    * `bg lightgray`
+* Styles
+    * `bold`
+    * `underline`
+* Fun
+    * `rainbow`
+* `[/]` removes formatting/clears
+
+
+## Cursor navigation
+Optional parameter of how many times to move.
+```python
+j.move_up() #moves cursor up one line
+j.move_right()
+j.move_down()
+j.move_left()
+
+j.move_up(5) #Up 5 lines
+j.clear() #clears screen
+```
+
