@@ -1,0 +1,13 @@
+numpy
+matplotlib
+pandas
+tqdm
+jax
+optax
+scikit-image
+par-segmentation>=0.1.12
+
+[dev]
+pre-commit
+black
+pip-tools

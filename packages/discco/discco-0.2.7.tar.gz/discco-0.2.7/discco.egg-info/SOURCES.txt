@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+discco/__init__.py
+discco/discco.py
+discco.egg-info/PKG-INFO
+discco.egg-info/SOURCES.txt
+discco.egg-info/dependency_links.txt
+discco.egg-info/requires.txt
+discco.egg-info/top_level.txt
