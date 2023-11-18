@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: i3dFeatureExtraction
+Version: 0.3.2
+Summary: This package helps extract i3D features with ResNet-50 backbone given a folder of videos
+Author: Hao Vy Phan
+Author-email: vyhao03@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: certifi==2022.12.7
+Requires-Dist: charset-normalizer==2.1.1
+Requires-Dist: click==8.1.3
+Requires-Dist: colorama==0.4.6
+Requires-Dist: contourpy==1.0.7
+Requires-Dist: cycler==0.11.0
+Requires-Dist: einops==0.6.0
+Requires-Dist: ffmpeg==1.4
+Requires-Dist: ffmpeg-python==0.2.0
+Requires-Dist: Flask==2.2.2
+Requires-Dist: Flask-SQLAlchemy==2.5.1
+Requires-Dist: fonttools==4.39.3
+Requires-Dist: future==0.18.3
+Requires-Dist: greenlet==2.0.2
+Requires-Dist: idna==3.4
+Requires-Dist: importlib-metadata==6.3.0
+Requires-Dist: itsdangerous==2.1.2
+Requires-Dist: Jinja2==3.1.2
+Requires-Dist: kiwisolver==1.4.4
+Requires-Dist: MarkupSafe==2.1.2
+Requires-Dist: matplotlib==3.6.2
+Requires-Dist: natsort==8.3.1
+Requires-Dist: numpy==1.23.4
+Requires-Dist: packaging==23.1
+Requires-Dist: pandas==1.5.1
+Requires-Dist: pathlib==1.0.1
+Requires-Dist: pefile==2023.2.7
+Requires-Dist: Pillow==9.5.0
+Requires-Dist: pyparsing==3.0.9
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: pytz==2023.3
+Requires-Dist: PyYAML==6.0
+Requires-Dist: requests==2.28.1
+Requires-Dist: six==1.16.0
+Requires-Dist: SQLAlchemy==2.0.9
+Requires-Dist: textwrap3
+Requires-Dist: tqdm==4.34.0
+Requires-Dist: typing_extensions==4.5.0
+Requires-Dist: tzdata==2023.3
+Requires-Dist: urllib3==1.26.15
+Requires-Dist: Werkzeug==2.2.2
+Requires-Dist: zipp==3.15.0
+
+I3D_Feature_Extraction
+======================
+
+Hello, I am Hao Vy Phan. I have develop this package using ResNet-50 to
+convert a video into an extracted i3D features numpy file.
+
+**Update**:
+\*
+**Version 0.3.2**: Fix bug of searching for video files. Now it looks for extensions *.webm, .avi, .wmv, .mp4, .m4v, .m4p* inside folder *datasetpath*.
+
+\*
+**Version 0.3.1.1**: The function can receive directly the path to just 1 video, if **multiplefiles** is set *False*.
+
+Overview
+--------
+
+**Input**: a directory which store 1 or more videos.
+
+**Output**: 1 or many ``.npy`` files (extracted i3D features). Each
+features file is shaped ``n/16 * 2048`` where ``n`` is the number of
+frames in the video
+
+If there is a problem installing or implementing this package, please do
+not hesitate to contact me via my email. I am pleased to have people use
+my product.
+
+--------------
+
+Usage
+-----
+
+Installation
+~~~~~~~~~~~~
+
+Before installing my package, please install these pakages:
+.. code:: commandline
+
+    (python 3.8)
+    pip install torchvision-0.11.2+cu113-cp38-cp38-win_amd64.whl
+    pip install torchaudio-0.10.1+cu113-cp38-cp38-win_amd64.whl
+    pip install torch-1.10.1+cu113-cp38-cp38-win_amd64.whl
+    pip install opencv_python-4.5.5-cp38-cp38-win_amd64.whl
+
+You can find the wheels here: https://download.pytorch.org/whl/cu113/torch_stable.html
+\*
+`Opencv-Python==4.5.5 <https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv>`__
+
+\*
+`torch==1.10.1+cu113 <https://download.pytorch.org/whl/cu113/torch-1.10.1%2Bcu113-cp38-cp38-win_amd64.whl>`__
+
+\*
+`torchaudio==0.10.1+cu113 <https://download.pytorch.org/whl/cu113/torchaudio-0.10.1%2Bcu113-cp38-cp38-win_amd64.whl>`__
+
+\*
+`torchvision==0.11.2+cu113 <https://download.pytorch.org/whl/cu113/torchvision-0.11.2%2Bcu113-cp38-cp38-win_amd64.whl>`__
+
+After 4 above packages, to install ``i3dFeatureExtraction`` package into
+your Python environment, run this code on your terminal:
+
+.. code:: commandline
+
+   pip install i3dFeatureExtraction
+
+
+Implementing
+~~~~~~~~~~~~
+
+The main function of this package is ``FeatureExtraction`` which
+converts a directory of videos into numpy feature files.
+
+.. code:: python
+
+   from i3dFeatureExtraction import FeatureExtraction
+   FeatureExtraction.generate(
+       datasetpath="directory/of/input/videos",
+       outputpath = "directory/to/store/output/numpy/files",
+       pretrainedpath = "path/to/i3D/pretrained/weight",
+       sample_mode = "oversample/center_crop"
+       multiplefiles = True/False
+   )
+
+-  **datasetpath** (REQUIRED): path to videos.
+-  If **multiplefiles** is *True* (default), the **datasetpath** is the
+   path to a directory which contains 1 or more videos.
+-  If **multiplefiles** is *False*, the **datasetpath** is the path to a
+   video.
+-  **outputpath** (optional, default: *“output/”*): the proccessed numpy
+   feature files would be stored in this directory.
+-  **pretrainedpath** (optional, default: *“pretrained/”*): the path of
+   the pretrained i3d weight. If the weight is not existed, it will be
+   downloaded and created manually.
+-  **sample_mode** (optional, default: *“oversample/”*) receive
+   “oversample” or “center_crop”. If *oversample*, each frame will be
+   cropped and flipped to be turned into 10 frames.
+
+
+--------------
+
+Structure of this package
+--------------------------
+
+I am not good at drawing UML diagram but I hope this image helps illustrate the package's structure.
+
+.. image:: https://vyhaoromanletters.s3.us-east-2.amazonaws.com/i3dExtract.png
+    :alt: i3dFeatureExtraction - UML Diagram
+    :align: center
+    :width: 80%
+
+Credits
+-------
+
+This code is based on the following repositories:
+
+\*
+`pytorch-resnet3d <https://github.com/Tushar-N/pytorch-resnet3d>`__
+
+\*
+`pytorch-i3d-feature-extraction <https://github.com/Finspire13/pytorch-i3d-feature-extraction>`__
+
+\*
+`E2E-Action-Segmentation/feature_extraction/ <https://github.com/nguyenphwork/E2E-Action-Segmentation/tree/main/feature_extraction>`__
+
+I would like to extend a special thank-you to the original authors of
+these repositories for providing the foundation on which this
+implementation is built.
+
+.. |i3dFeatureExtraction - UML Diagram| image:: UML/i3dExtract.png
