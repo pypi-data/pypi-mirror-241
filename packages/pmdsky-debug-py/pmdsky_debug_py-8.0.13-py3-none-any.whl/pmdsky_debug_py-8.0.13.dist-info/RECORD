@@ -1,0 +1,14 @@
+pmdsky_debug_py/__init__.py,sha256=xvXjdxEqeoQaaS6ssZYVI9jARzv5M4q6FNwA3Z6fOw4,1831
+pmdsky_debug_py/_release.py,sha256=LxGtZgomjbr-Bba_C7UoX86XQ8zWik7E-w8BNcspnyM,30
+pmdsky_debug_py/eu.py,sha256=asUAAmE4LhyRl2comAzH6nDNTQtg8sqMbiDEjL_U3Gw,852913
+pmdsky_debug_py/eu_itcm.py,sha256=3p0ctuqgOBKvPdZ6mH9pB9oMFyWa3u4NWjzHpi6GeWA,815314
+pmdsky_debug_py/jp.py,sha256=bl3aVOU99f959BK_r4RZdApsT6lnxo775xhNjFwVqj8,845893
+pmdsky_debug_py/jp_itcm.py,sha256=nEswEX2MxuaPkKIRAbGA5BFE3B5z2DZC2NiPyDIZDEo,815304
+pmdsky_debug_py/na.py,sha256=uI1EtmbLOxbpoiny2DWw2IE6uTaHbuzufFLBN1NdMIY,859949
+pmdsky_debug_py/na_itcm.py,sha256=0LtMWo_2mDIUeS8O3hQhiKwTEra-SqP1xOHAMkhoLRE,815334
+pmdsky_debug_py/protocol.py,sha256=L58CKuHN1X8rnPgSkRw3fH5J4YJ7_QNkQ4uBsUsg470,277739
+pmdsky_debug_py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pmdsky_debug_py-8.0.13.dist-info/METADATA,sha256=_FmV1pFIXil6DKnLv-RqjRaQS0evwVbBXZw6uHWEZ9Q,1373
+pmdsky_debug_py-8.0.13.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pmdsky_debug_py-8.0.13.dist-info/top_level.txt,sha256=cqvpcJbud2s8IyBAc1MfCySwniko_6qO5LWSSxNIoXI,16
+pmdsky_debug_py-8.0.13.dist-info/RECORD,,
