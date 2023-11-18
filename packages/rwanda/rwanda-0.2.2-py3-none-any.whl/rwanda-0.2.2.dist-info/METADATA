@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rwanda
+Version: 0.2.2
+Summary: Python Package to extract everything you can need in rwanda and use
+License: MIT
+Author: Fidele K
+Author-email: itfidele@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
+# Rwanda
+
+
+Repo is distributed under the MIT license. Please see the `LICENSE` for more information.
+
+
