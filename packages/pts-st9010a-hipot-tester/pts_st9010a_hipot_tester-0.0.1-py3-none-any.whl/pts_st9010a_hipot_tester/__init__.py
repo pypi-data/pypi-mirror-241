@@ -1,0 +1,1 @@
+from .st9010a_hipot_tester import ST9010AHipotTester
