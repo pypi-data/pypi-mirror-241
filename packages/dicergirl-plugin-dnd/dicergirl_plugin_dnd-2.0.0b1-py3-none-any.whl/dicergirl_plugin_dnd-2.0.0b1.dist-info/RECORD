@@ -1,0 +1,15 @@
+dicergirl/dnd/__init__.py,sha256=n5A9q6vVt_VArghrMV5um70KNdyXK0KBZNBhV0hmW10,651
+dicergirl/dnd/adventurer.py,sha256=wFLxjD5MirUJu044nmKSALra8j5P2kUSEc8WPTwYJtw,3096
+dicergirl/dnd/dndcards.py,sha256=1kTAuIPY-QbG6PDYMLbY2irZSFOKd4NBXbGDrzK8ri0,623
+dicergirl/dnd/dndutils.py,sha256=dY_qE1Uq0T-4ZnsMeVrJYXiX7aby5ckCDcG6RiRjndo,3602
+dicergirl/dnd/nbhandlers.py,sha256=KsNulEEC73oS66G7cf6rrbEstVKE82WmihnU-grKgJA,2622
+dicergirl/plugins/dnd/__init__.py,sha256=RrVHftmiNa-EHh7_41_djegiCDXiqihsuRY7R4dJUqw,655
+dicergirl/plugins/dnd/adventurer.py,sha256=gthrdvG2XME0hyaTpdjxlhyz_pQgFbeUk6H3gVBBr8A,3469
+dicergirl/plugins/dnd/dndcards.py,sha256=Ae1CeRcphlI7ni92yb7ftGItwmaaL83VwQFfPXowC90,626
+dicergirl/plugins/dnd/dndutils.py,sha256=k9sJRtDbXDz-92UABWTdWovsv7vzmQ_y6Ekduk32okE,4964
+dicergirl/plugins/dnd/docimasy.py,sha256=TXoGKp2WgnIwGaHiHu5DxziySmh34YGW_mDYtrH_TeU,1398
+dicergirl/plugins/dnd/nbhandlers.py,sha256=NpNxoINKdm4LSWopmwUuyFHy0f-36naKq1-pdoBO5u8,2668
+dicergirl_plugin_dnd-2.0.0b1.dist-info/METADATA,sha256=aY8IqcE-94Z9iirqOuP3T6vZrLXmKhaVGuk9fA3gSpg,552
+dicergirl_plugin_dnd-2.0.0b1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dicergirl_plugin_dnd-2.0.0b1.dist-info/top_level.txt,sha256=6IQjIkhzNfgWRIZpWDup2GWb_eDA9MHWmg6lw_PCX84,10
+dicergirl_plugin_dnd-2.0.0b1.dist-info/RECORD,,
