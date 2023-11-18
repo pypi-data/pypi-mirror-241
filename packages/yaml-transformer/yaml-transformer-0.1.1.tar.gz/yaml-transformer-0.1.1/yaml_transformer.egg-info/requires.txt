@@ -1,0 +1,7 @@
+PyYAML
+jq
+requests
+jsonpath-ng
+
+[dev]
+pytest
