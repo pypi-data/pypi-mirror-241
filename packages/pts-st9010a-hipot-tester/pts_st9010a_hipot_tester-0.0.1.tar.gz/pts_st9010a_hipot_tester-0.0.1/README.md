@@ -1,0 +1,331 @@
+# ST90101A Hipot Tester
+
+```
+cd st9010a-hipot-tester
+git clone git@gitlab.com:pass-testing-solutions/st9010a-hipot-tester.git
+git remote add origin https://gitlab.com/pass-testing-solutions/st9010a-hipot-tester.git
+git pull origin main
+git checkout -b <your-new-branch>  # Please follow the branch naming convention as mentioned in the coding guidelines
+```
+
+## Description
+This is an interface library for the ST90101A Hipot Tester.
+
+## Installation
+
+`pip install pts-st9010a-hipot-tester`
+
+### Driver Functions
+
+```
+pts_st9010a_hipot_tester.st9010a_hipot_tester.ST9010AHipotTester(connection_string)
+```
+Base class for the ST90101A Hipot Tester
+
+```open_connection()```
+
+*Opens a serial connection with the ST90101A Hipot Tester*
+
+```close_connection()```
+
+*Closes a serial connection with the ST90101A Hipot Tester*
+
+```id_number()```
+
+*This function returns the ID number*
+
+**Returns:**
+str : IDN
+
+```fetch_results()```
+
+*Fetches all the measurement results*
+
+```set_display(page)```
+
+*Set the instrument's display page*
+
+**Parameters**
+
+*page* –
+One of the instrument’s display pages
+
+’Meas’: Test Display or Measurement page,
+
+’Mset’: Test Setup or Measurement Setting page,
+
+’Sysm’: System -> Environment page,
+
+’Iost’: System -> IO page
+
+**Returns:**
+None
+
+```check_display()```
+
+*Queries the instrument's display page*
+
+**Returns:**
+Display page
+
+```start_test()```
+
+*Starts Test on the ST9010A Hipot Tester*
+
+```stop_test()```
+
+*Stops Test on the ST9010A Hipot Tester*
+
+```set_voltage(step, test_mode, voltage)```
+
+*This function sets the voltage for the ACW/DCW/IR test*
+
+**Parameters**
+
+*step* – The step for which the voltage is added in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+*voltage* – The voltage to be set in Volts in range
+
+AC TEST: 50-5000 volts
+
+DC TEST: 50-6000 volts
+
+IR TEST: 50-1000 volts
+
+**Returns:**
+No return
+
+```check_voltage(step, test_mode)```
+
+*This function queries the voltage for the ACW test*
+
+**Parameters**
+
+*step* – The step for which the voltage is added in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+**Returns:**
+float : Voltage in volts
+
+```set_current_limits(step, test_mode, low_limit, upper_limit)```
+
+*This functions sets the lower and upper current limits for ACW/DCW/IR test*
+
+**Parameters**
+
+*test_mode* – modes being AC/DC/IR
+
+*step* – The step for which the current is added in the range 1-20
+
+*low_limit* – Lower current limit in range
+
+AC TEST: 0.001 mA
+
+DC TEST: 0.001 mA
+
+IR TEST: 0.001 mA
+
+*upper_limit* – Upper current limit in range
+
+AC TEST: 20.000 mA
+
+DC TEST: 20.000 mA
+
+IR TEST: 20.000 mA
+
+**Returns:**
+No return
+
+```check_current_limits(step, test_mode)```
+
+*This function checks the lower and upper current limits set by the user/by default*
+
+**Parameters**
+
+*test_mode* – modes being AC/DC/IR
+
+*step* – The step for which the current is added in the range 1-20
+
+**Returns:**
+tuple : Lower and upper current limits in Amps respectively
+
+```set_test_time(step, test_mode, test_time)```
+
+*This functions sets the TEST time for ACW/DCW/IR tests*
+
+**Parameters**
+
+*step* – The step for which the test time is set in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+*test_time* – Time in range 0~999.9 (0 is OFF) seconds for ACW/DCW/IR test
+
+**Returns:**
+No return
+
+```check_test_time(step, test_mode)```
+
+*This functions queries the TEST time for the ACW/DCW/IR test*
+
+**Parameters**
+
+*step* – The step for which the test time is set in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+**Returns:**
+float : Test time in seconds
+
+```set_rise_time(step, test_mode, rise_time)```
+
+*This functions sets the RISE time for ACW/DCW/IR tests*
+
+**Parameters**
+
+*step* – The step for which the rise time is set in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+*rise_time* – Time in range 0~999.9 (0 is OFF) seconds for ACW/DCW/IR test
+
+**Returns:**
+No return
+
+```check_rise_time(step, test_mode)```
+
+*This functions queries the RISE time for the ACW/DCW/IR test*
+
+**Parameters**
+
+*step* – The step for which the rise time is set in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+**Returns:**
+float : Rise time in seconds
+
+```set_fall_time(step, test_mode, fall_time)```
+
+*This functions sets the FALL time for ACW/DCW/IR tests*
+
+**Parameters**
+
+*step* – The step for which the fall time is set in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+*fall_time* – Time in range 0~999.9 (0 is OFF) seconds for ACW/DCW/IR test
+
+**Returns:**
+No return
+
+```check_fall_time(step, test_mode)```
+
+*This functions queries the FALL time for the ACW/DCW/IR test*
+
+**Parameters**
+
+*step* – The step for which the fall time is set in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+**Returns:**
+float : Fall time in seconds
+
+```set_channel(step, test_mode, channel, chan_value)```
+
+*This functions sets HIGH/LOW/OPEN for the scanner channel for ACW/DCW/IR test.*
+
+**Parameters**
+
+*step* – The step in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+*channel* – Channel in the range of 1-4
+
+*chan_value* – Channel values being HIGH/LOW/OPEN
+
+**Returns:**
+No return
+
+```get_channel(step, test_mode, channel)```
+
+*This functions queries the set channel value for ACW/DCW/IR test.*
+
+**Parameters**
+
+*channel* – Channel value set in the range for 1-4
+
+*step* – The step in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+**Returns:**
+str : Channel value in (HIGH/LOW/OPEN)
+
+```set_ac_freq(step, freq)```
+
+*This functions sets the test frequency for ACW test.*
+
+**Parameters**
+
+*step* – The step for which the AC freq is set in the range 1-20
+
+*freq* – Set value 50/60 Hz in ACW test
+
+**Returns:**
+No return
+
+```get_ac_freq(step)```
+
+*This functions queries the test frequency for ACW test.*
+
+**Parameters**
+
+*step* – The step for which the AC freq is set in the range 1-20
+
+**Returns:**
+float : Value for the test FREQUENCY
+
+```set_multiple_channels(step, test_mode, channel, chan_switch)```
+
+*This functions sets ON/OFF (1/0) about multiple channels for ACW/DCW/IR test.*
+
+**Parameters**
+
+*step* – The step for which channel is switched in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+*channel* – Channel in the range of 1-4
+
+*chan_switch* – Channel switch being ON/OFF (1/0)
+
+**Returns:**
+No return
+
+```check_multiple_channels(step, test_mode, channel)```
+
+*This functions queries the multiple channels for ACW/DCW/IR test.*
+
+**Parameters**
+
+*channel* – Channel value set in the range for 1-4
+
+*step* – The step for which channel is switched in the range 1-20
+
+*test_mode* – modes being AC/DC/IR
+
+**Returns:**
+str : Channel switch being ON/OFF (1/0)
+
+## Authors and acknowledgment
+Author: Shuparna Deb (@shuparnadeb_pts)
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
