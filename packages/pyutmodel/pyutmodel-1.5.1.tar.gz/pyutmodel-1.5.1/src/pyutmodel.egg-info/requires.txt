@@ -1,0 +1,2 @@
+codeallybasic==0.5.2
+Deprecated==1.2.14
