@@ -1,0 +1,17 @@
+i3dFeatureExtraction/__init__.py,sha256=BOc6yWN8uMwwwPxxXK-L52_Rco2GgO5SPJ9mZrL3H2Q,4374
+i3dFeatureExtraction/extract_features.py,sha256=_hlpzqQNJsRqXmZuA_7okzzvrcpKgLWQ8WlPBlHRgOY,11209
+i3dFeatureExtraction/extract_features_org.py,sha256=CBKbhmzm7WVHTwulqNtQExKkR9kIEVfo6filycHcGL4,2294
+i3dFeatureExtraction/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i3dFeatureExtraction/models/model_builder_video.py,sha256=Rhq75giPwKqyqgsHXFQaEEKi_KEdT2nIy_RmLHYO7OU,2235
+i3dFeatureExtraction/models/nonlocal_helper.py,sha256=bP3x2hRSY58t2neeAhHOi-bivJohBUPNPyhZJBTcZ6k,3803
+i3dFeatureExtraction/models/resnet.py,sha256=MmQoaa0Z0dOFVnMe-Rb-qnjeTDnXvExx9zjE92OIGMc,7644
+i3dFeatureExtraction/models/resnet_helper.py,sha256=ln88KaiFfnKLbV23kvRzwvT4uU4UJ07MJ3IgFDsZ7zU,3992
+i3dFeatureExtraction/models/resnet_video_org.py,sha256=S0nWYJfLekvNVLyeSnHuFkuahdxdhSWBlfAOZelgDFk,3214
+i3dFeatureExtraction/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i3dFeatureExtraction/utils/convert_weights.py,sha256=d1g7rLTxIwKRgso9S4iUiDJ9NvWr-F5hobBjpUjWMtw,2735
+i3dFeatureExtraction/utils/pretrained_existed.py,sha256=Y7zcrCD21vtmL0vzFmG3Pc85w8jXkZbNcE3CHPD-YgE,3227
+i3dFeatureExtraction-0.3.2.dist-info/LICENSE.txt,sha256=ncWu_RGjXBnqZDrVVTs4ZSKposYA5lAiRiUJbdMWQO0,1355
+i3dFeatureExtraction-0.3.2.dist-info/METADATA,sha256=jOj6XLrNHbi4kAWTzQQy9SODILfQY4zDBoo4zCb69s4,6190
+i3dFeatureExtraction-0.3.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+i3dFeatureExtraction-0.3.2.dist-info/top_level.txt,sha256=yxjkhX408DHF75Tq1cxynym3i0_cdZNOnuxa8aMvK2s,21
+i3dFeatureExtraction-0.3.2.dist-info/RECORD,,
