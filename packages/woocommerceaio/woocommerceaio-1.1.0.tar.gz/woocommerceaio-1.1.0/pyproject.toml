@@ -1,0 +1,42 @@
+[project]
+name = "woocommerceaio"
+description = "An async Python wrapper for the WooCommerce REST API"
+readme = "README.md"
+version = "1.1.0"
+authors = [
+    { name = "Luis Medel", email = "luis@luismedel.com" },
+    { name = "Claudio Sanches @ Automattic", email = "claudio+pypi@automattic.com" }
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+dependencies = [
+    "httpx >=0, <1"
+]
+requires-python = ">=3.7"
+
+[project.urls]
+"Homepage" = "https://github.com/luismedel/woocommerceaio"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+woocommerceaio = ["py.typed"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]

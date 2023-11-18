@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/woocommerceaio/__init__.py
+src/woocommerceaio/api.py
+src/woocommerceaio/oauth.py
+src/woocommerceaio/py.typed
+src/woocommerceaio.egg-info/PKG-INFO
+src/woocommerceaio.egg-info/SOURCES.txt
+src/woocommerceaio.egg-info/dependency_links.txt
+src/woocommerceaio.egg-info/requires.txt
+src/woocommerceaio.egg-info/top_level.txt
