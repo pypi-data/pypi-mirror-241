@@ -1,0 +1,7 @@
+Type: AWS::SQS::Queue
+Properties:
+    Queuename: ${self:custom.sqsName.{{name}}}
+    MessageRetentionPeriod: 172800
+    RedrivePolicy:
+        maxReceiveCount: 3
+        deadLetterTargetArn: GetAtt SampleDeadLetterQueue.Arn
