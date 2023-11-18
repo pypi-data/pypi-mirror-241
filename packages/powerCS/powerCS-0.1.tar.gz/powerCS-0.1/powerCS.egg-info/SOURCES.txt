@@ -1,0 +1,5 @@
+setup.py
+powerCS.egg-info/PKG-INFO
+powerCS.egg-info/SOURCES.txt
+powerCS.egg-info/dependency_links.txt
+powerCS.egg-info/top_level.txt
