@@ -1,0 +1,4 @@
+mds_party_vcard<=7.0.999,>=7.0.16
+trytond<7.1,>=7.0
+trytond_party<7.1,>=7.0
+trytond_party_relationship<7.1,>=7.0

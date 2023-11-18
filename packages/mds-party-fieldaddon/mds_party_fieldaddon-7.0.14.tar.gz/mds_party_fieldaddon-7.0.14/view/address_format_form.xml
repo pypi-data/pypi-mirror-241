@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='format_']" position="after">
+        <label xalign="0.0" colspan="6" id="lab1" 
+            string="Available variables (also in upper case)"/>
+
+        <label xalign="0.0" colspan="3" id="lab2" string="- ${party_name}"/>
+        <label xalign="0.0" colspan="3" id="lab12" string="- ${firstname}"/>
+
+        <label xalign="0.0" colspan="3" id="lab3" string="- ${name}"/>
+        <label xalign="0.0" colspan="3" id="lab13" string="- ${familyname}"/>
+
+        <label xalign="0.0" colspan="3" id="lab4" string="- ${attn}"/>
+        <label xalign="0.0" colspan="3" id="lab14" string="- ${additionalnames}"/>
+
+        <label xalign="0.0" colspan="3" id="lab5" string="- ${street}"/>
+        <label xalign="0.0" colspan="3" id="lab15" string="- ${nickname}"/>
+
+        <label xalign="0.0" colspan="3" id="lab6" string="- ${postal_code}"/>
+        <label xalign="0.0" colspan="3" id="lab16" string="- ${honorprefix}"/>
+
+        <label xalign="0.0" colspan="3" id="lab7" string="- ${city}"/>
+        <label xalign="0.0" colspan="3" id="lab17" string="- ${honorsuffix}"/>
+
+        <label xalign="0.0" colspan="3" id="lab8" string="- ${subdivision}"/>
+        <label xalign="0.0" colspan="3" id="lab18" string="- ${department}"/>
+
+        <label xalign="0.0" colspan="3" id="lab9" string="- ${subdivision_code}"/>
+        <label xalign="0.0" colspan="3" id="lab19" string="- ${company}"/>
+
+        <label xalign="0.0" colspan="3" id="lab10" string="- ${country}"/>
+        <newline/>
+        <label xalign="0.0" colspan="3" id="lab11" string="- ${country_code}"/>
+        <newline/>
+
+    </xpath>
+</data>

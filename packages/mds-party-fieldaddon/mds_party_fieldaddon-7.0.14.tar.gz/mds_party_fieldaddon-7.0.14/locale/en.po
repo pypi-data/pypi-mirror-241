@@ -1,0 +1,164 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "view:party.configuration:"
+msgid "Extended Address Fields"
+msgstr "Extended Address Fields"
+
+msgctxt "field:party.configuration,company_relation:"
+msgid "Company Relationship"
+msgstr "Company Relationship"
+
+msgctxt "help:party.configuration,company_relation:"
+msgid "Relationship type for linking an employee to their company."
+msgstr "Relationship type for linking an employee to their company."
+
+msgctxt "field:party.address,formatted_address:"
+msgid "Formatted Address"
+msgstr "Formatted Address"
+
+msgctxt "view:party.address.format:"
+msgid "Available variables (also in upper case)"
+msgstr "Available variables (also in upper case)"
+
+msgctxt "view:party.address.format:"
+msgid "- ${party_name}"
+msgstr "- ${party_name}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${name}"
+msgstr "- ${name}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${attn}"
+msgstr "- ${attn}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${street}"
+msgstr "- ${street}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${postal_code}"
+msgstr "- ${postal_code}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${city}"
+msgstr "- ${city}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${subdivision}"
+msgstr "- ${subdivision}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${subdivision_code}"
+msgstr "- ${subdivision_code}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${country}"
+msgstr "- ${country}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${country_code}"
+msgstr "- ${country_code}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${firstname}"
+msgstr "- ${firstname}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${familyname}"
+msgstr "- ${familyname}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${additionalnames}"
+msgstr "- ${additionalnames}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${nickname}"
+msgstr "- ${nickname}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${honorprefix}"
+msgstr "- ${honorprefix}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${honorsuffix}"
+msgstr "- ${honorsuffix}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${department}"
+msgstr "- ${department}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${company}"
+msgstr "- ${company}"
+
+msgctxt "view:party.party:"
+msgid "additional Data"
+msgstr "additional Data"
+
+msgctxt "view:party.party:"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "field:party.party,pfafirstname:"
+msgid "First Name"
+msgstr "First Name"
+
+msgctxt "help:party.party,pfafirstname:"
+msgid "Given Name"
+msgstr "Given Name"
+
+msgctxt "field:party.party,pfafamilyname:"
+msgid "Family Name"
+msgstr "Family Name"
+
+msgctxt "field:party.party,pfaadditionalnames:"
+msgid "Additional Names"
+msgstr "Additional Names"
+
+msgctxt "help:party.party,pfaadditionalnames:"
+msgid "2nd, 3rd and other names; comma-separated list"
+msgstr "2nd, 3rd and other names; comma-separated list"
+
+msgctxt "field:party.party,pfanickname:"
+msgid "Nickname"
+msgstr "Nickname"
+
+msgctxt "field:party.party,pfadepartment:"
+msgid "Department"
+msgstr "Department"
+
+msgctxt "field:party.party,pfacompany:"
+msgid "Company"
+msgstr "Company"
+
+msgctxt "field:party.party,pfahonpre:"
+msgid "Honorific Prefixes"
+msgstr "Honorific Prefixes"
+
+msgctxt "help:party.party,pfahonpre:"
+msgid "Prefixes like 'Dr.', 'Prof.' - as a comma-separated list"
+msgstr "Prefixes like 'Dr.', 'Prof.' - as a comma-separated list"
+
+msgctxt "field:party.party,pfahonsuf:"
+msgid "Honorific Suffixes"
+msgstr "Honorific Suffixes"
+
+msgctxt "help:party.party,pfahonsuf:"
+msgid "Suffixes like 'Jr.', 'M.D.' - as a comma-separated list"
+msgstr "Suffixes like 'Jr.', 'M.D.' - as a comma-separated list"
+
+msgctxt "field:party.party,pfabday:"
+msgid "Birthday"
+msgstr "Birthday"
+
+msgctxt "field:party.party,pfacompanylink:"
+msgid "Company Link"
+msgstr "Company Link"
+
+msgctxt "field:party.party,pfakeepupdt:"
+msgid "Keep company updated"
+msgstr "Keep company updated"
+
