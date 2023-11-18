@@ -1,0 +1,2 @@
+[console_scripts]
+alleles2fasta = genomicspy.alleles2fasta:main
