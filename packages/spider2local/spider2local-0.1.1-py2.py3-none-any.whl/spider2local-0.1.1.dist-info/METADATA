@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: spider2local
+Version: 0.1.1
+Home-page: https://github.com/beichenlpl/spider2local
+Author-email: beichenlpl@foxmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+

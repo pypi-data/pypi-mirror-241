@@ -1,0 +1,12 @@
+spider2local/__init__.py,sha256=wwb5PCqCQn8T2kA3EW9EXxGu6S8LUbkwJTnjkE5LZU0,442
+spider2local/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spider2local/core/entity.py,sha256=fKn71q2A_Xu4ZcNSDTBdN-5XwrcPE3PuVelQ6SYBgI8,719
+spider2local/core/filter.py,sha256=RPzqfH1ZX5kw7Ov6YDkUQA76jgLR57xwhITQwcDvJus,1551
+spider2local/core/request.py,sha256=BPEMxLn3XQTCKbcuAE7tNLO5_z2OoaIMTVD4_7to68A,3573
+spider2local/core/response.py,sha256=2MnzAo4WGRf0tSINFS7ZeQ_tjk2ZzhsA3RmS_Bubntc,1048
+spider2local/enums/__init__.py,sha256=4e76eSQ3QzSIWHQlzlyljZS46SOMlHxafFnjbxJ5014,470
+spider2local-0.1.1.dist-info/LICENSE,sha256=JSFXQnJ2_c-QDBpN5_ng8BMSD-27cIJvdc1QVeR__rU,11540
+spider2local-0.1.1.dist-info/METADATA,sha256=ZjHn0lrqxpdtmMltTLBQ7P4YrQOfQXr_N-B8mP-vuXo,222
+spider2local-0.1.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+spider2local-0.1.1.dist-info/top_level.txt,sha256=gr8TJbBxd8Qz6Fy3LAcSa1nIERSfb_tPbShPwMlv25A,13
+spider2local-0.1.1.dist-info/RECORD,,
