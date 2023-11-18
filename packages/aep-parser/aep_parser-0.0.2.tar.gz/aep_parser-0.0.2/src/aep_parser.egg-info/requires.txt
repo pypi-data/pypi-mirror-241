@@ -1,0 +1,8 @@
+kaitaistruct>=0.9
+
+[:python_version < "3.0"]
+future
+six
+
+[:python_version < "3.4"]
+enum34
