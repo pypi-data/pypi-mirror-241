@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: musicstream
+Version: 0.0.1
+Summary: A library/cli for managing playlists across platforms
+Author-email: Mason Coles <masocoles@gmail.com>, Chris Kovacs <cjxtornado60@gmail.com>
+Project-URL: Homepage, https://github.com/dennorak/libmusicstream
+Project-URL: Bug Tracker, https://github.com/dennorak/libmusicstream/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MusicStream
+
+## This project is currently HEAVILY under development, expect breaking changes. Not ready for production.
+
+### todo: write readme
