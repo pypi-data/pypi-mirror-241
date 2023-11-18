@@ -1,0 +1,3 @@
+include LICENSE
+graft docs
+recursive-exclude tests *
