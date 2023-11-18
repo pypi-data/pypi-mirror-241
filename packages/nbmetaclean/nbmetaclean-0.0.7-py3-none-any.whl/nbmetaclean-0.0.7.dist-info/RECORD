@@ -1,0 +1,12 @@
+nbmetaclean/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbmetaclean/app.py,sha256=Wk2AHP_mj1rmRqfJR8yFVRKHtdAiQbRysh8XaWTOqFw,1561
+nbmetaclean/clean.py,sha256=eoM7_vgY2kThcToDdlPZJTLO0RPELwvgahPXwgF0-yQ,7069
+nbmetaclean/core.py,sha256=CVNPO7S-uw8dIgstHDANctg3LmA0ZceHUZd8WpqUd2I,2406
+nbmetaclean/typing.py,sha256=APM6qjHVGRpZUwWt17I4wOsIxHvz7cGJFr53H5gBZfs,266
+nbmetaclean/version.py,sha256=-qVKFgMIopNRume1v7t_u7fuw00NQYZ-I7HGi_rwwQY,42
+nbmetaclean-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbmetaclean-0.0.7.dist-info/METADATA,sha256=-uyYueeXvEKZUEh_-tvxipt-TNgA_YBCsPOA3XDwu_A,748
+nbmetaclean-0.0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nbmetaclean-0.0.7.dist-info/entry_points.txt,sha256=eyofRJ_berui3GBD7daU80w8dlCqEGkHJCRdAPcdkKs,90
+nbmetaclean-0.0.7.dist-info/top_level.txt,sha256=NlRQn8NiSZnvvjqnzzFniG2pac-4rixIIL_CNSg3nAk,12
+nbmetaclean-0.0.7.dist-info/RECORD,,
