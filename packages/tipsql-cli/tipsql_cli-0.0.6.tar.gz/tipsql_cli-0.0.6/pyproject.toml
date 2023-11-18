@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "tipsql-cli"
+version = "0.0.6"
+description = "tipsql command line interface"
+authors = ["yassun7010 <yassun7010@outlook.com>"]
+readme = "README.md"
+packages = [{ include = "tipsql", from = "src" }]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[[tool.poetry-dynamic-versioning.substitution.folders]]
+path = "."
+files = ["pyproject.toml"]
+patterns = [
+    "# In development, use the local package\\.\npath = \"\\.\\./tipsql-[\\w-]+\"\ndevelop = true\n# In production, use published package\\.\n# (version = \"())0\\.0\\.0",
+]
+
+[tool.poetry.scripts]
+tipsql = "tipsql.cli.__main__:main"
+
+[tool.taskipy.tasks]
+format = "ruff format ."
+lint = "ruff check ."
+typecheck = "pyright src/** tests/**"
+test = "pytest"
+ci = "task format && task lint && task typecheck && task test"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.4.2"
+rich = "^13.6.0"
+rich-argparse = "^1.3.0"
+pyyaml = "^6.0.1"
+argcomplete = "^3.1.2"
+
+[tool.poetry.dependencies.tipsql-core]
+# INFO: poetry-dynamic-versioning to replace this.
+version = "0.0.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+taskipy = "^1.12.0"
+pyright = "^1.1.331"
+ipython = "^8.16.1"
+ruff = "^0.1.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.black]
+target-version = ["py312"]
