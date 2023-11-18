@@ -1,0 +1,5 @@
+click
+inquirerpy
+requests
+termcolor
+pyfiglet
