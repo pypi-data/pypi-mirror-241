@@ -1,0 +1,4 @@
+jupyterhub
+python-jose
+PyJWT
+requests
