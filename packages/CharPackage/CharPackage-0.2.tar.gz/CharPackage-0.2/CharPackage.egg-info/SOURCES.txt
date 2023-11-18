@@ -1,0 +1,7 @@
+setup.py
+Char/__init__.py
+CharPackage.egg-info/PKG-INFO
+CharPackage.egg-info/SOURCES.txt
+CharPackage.egg-info/dependency_links.txt
+CharPackage.egg-info/requires.txt
+CharPackage.egg-info/top_level.txt

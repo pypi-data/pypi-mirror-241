@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: CharPackage
+Version: 0.2
+Author: James Evans
+Author-email: Joesaysahoy@gmail.com
+Requires-Dist: CharActor
+Requires-Dist: CharObj
+Requires-Dist: CharTask
