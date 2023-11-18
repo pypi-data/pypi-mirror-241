@@ -1,0 +1,40 @@
+service: spartan-framework
+frameworkVersion: "3"
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: ${opt:region, 'ap-southeast-1'}
+  stage: ${opt:stage, 'dev'}
+  environment:
+    ALLOWED_ORIGINS: ${env:ALLOWED_ORIGINS}
+    APP_ENVIRONMENT: ${env:APP_ENVIRONMENT}
+
+functions:
+    validator:
+    handler: public.main.handle
+    events:
+      - http:
+          path: /{proxy+}
+          method: any
+          cors:
+            origin: ${env:ALLOWED_ORIGINS}
+            maxAge: 60
+plugins:
+  - serverless-lift
+  - serverless-python-requirements
+
+package:
+  patterns:
+    - "!node_modules/**"
+
+resources:
+    Resources:
+
+custom:
+    pythonRequirements:
+        usePoetry: true
+        noDeploy:
+            - boto3
+            - botocore

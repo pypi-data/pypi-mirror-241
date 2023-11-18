@@ -1,0 +1,5 @@
+Type: AWS::SQS::Queue
+Properties:
+    Queuename: {{name}}
+    FifoQueue: true
+    ContentBaseDeduplication: true

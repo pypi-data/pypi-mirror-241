@@ -1,0 +1,9 @@
+service: demo-sample
+resources:
+  Resources:
+    CompanyQueue2:
+      Type: AWS::SQS::Queue
+      Properties:
+        Queuename: Testing
+        FifoQueue: true
+        ContentBaseDeduplication: true
