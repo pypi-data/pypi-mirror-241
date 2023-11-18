@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/poly_igdb/__init__.py
+src/poly_igdb/igdbclient.py
+src/poly_igdb/igdbgame.py
+src/poly_igdb.egg-info/PKG-INFO
+src/poly_igdb.egg-info/SOURCES.txt
+src/poly_igdb.egg-info/dependency_links.txt
+src/poly_igdb.egg-info/requires.txt
+src/poly_igdb.egg-info/top_level.txt
