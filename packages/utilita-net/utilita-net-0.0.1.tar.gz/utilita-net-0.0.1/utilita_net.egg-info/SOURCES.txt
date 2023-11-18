@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+utilita/net/__init__.py
+utilita/net/gcshelper/gcshelper.py
+utilita/net/microsofthelper/__init__.py
+utilita/net/microsofthelper/auth.py
+utilita/net/microsofthelper/constants.py
+utilita/net/microsofthelper/log.py
+utilita/net/microsofthelper/sharepoint.py
+utilita_net.egg-info/PKG-INFO
+utilita_net.egg-info/SOURCES.txt
+utilita_net.egg-info/dependency_links.txt
+utilita_net.egg-info/requires.txt
+utilita_net.egg-info/top_level.txt
