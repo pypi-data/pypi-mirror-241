@@ -1,0 +1,17 @@
+torch
+torch_geometric
+
+[dev]
+pre-commit
+black
+flake8
+mypy
+isort
+jupyter
+pytest
+pytest-cov
+
+[docs]
+sphinx-rtd-theme
+toml
+types-toml
