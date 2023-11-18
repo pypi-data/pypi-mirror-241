@@ -1,0 +1,15 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+ftmplt.py
+pyproject.toml
+tests.py
+.github/workflows/publish.yml
+.github/workflows/tests.yml
+ftmplt.egg-info/PKG-INFO
+ftmplt.egg-info/SOURCES.txt
+ftmplt.egg-info/dependency_links.txt
+ftmplt.egg-info/not-zip-safe
+ftmplt.egg-info/requires.txt
+ftmplt.egg-info/top_level.txt
