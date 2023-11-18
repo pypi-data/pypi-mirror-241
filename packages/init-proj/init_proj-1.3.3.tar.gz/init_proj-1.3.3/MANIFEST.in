@@ -1,0 +1,2 @@
+include src/init_proj/drafts/*.txt
+exclude src/init_proj/config.toml
