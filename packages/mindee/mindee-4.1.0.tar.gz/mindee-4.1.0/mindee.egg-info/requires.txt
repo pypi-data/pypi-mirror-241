@@ -1,0 +1,32 @@
+pytz>=2023.3
+requests~=2.31
+
+[:python_version < "3.8"]
+pikepdf==6.2.9
+
+[:python_version >= "3.8"]
+pikepdf~=8.6
+
+[build]
+build~=0.9
+twine~=4.0
+
+[dev]
+black==23.10.0
+mypy==1.6.1
+pylint==2.17.7
+setuptools==51.3.3
+isort==5.11.5
+pre-commit~=2.21.0
+pydocstyle==6.3.0
+types-pytz~=2023.3
+types-requests~=2.31
+
+[docs]
+sphinx~=5.3
+sphinx_rtd_theme~=1.1
+sphinx-autodoc-typehints~=1.20
+
+[test]
+pytest~=7.1
+pytest-cov~=4.0
