@@ -1,0 +1,3 @@
+[console_scripts]
+ascii=ascii_img_stuff:app.py
+
