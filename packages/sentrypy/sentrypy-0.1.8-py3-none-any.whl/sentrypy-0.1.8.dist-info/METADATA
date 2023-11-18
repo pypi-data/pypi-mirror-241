@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: sentrypy
+Version: 0.1.8
+Summary: The pythonic API wrapper for Sentry.io
+Home-page: https://github.com/perfect-operations/sentrypy
+Author: Paul Weber
+License: LGPL-2.1
+Project-URL: Documentation, https://sentrypy.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/perfect-operations/sentrypy
+Keywords: sentry api wrapper pythonic
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: enum-tools[sphinx] ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# Quickstart
+
+[![Documentation Status](https://readthedocs.org/projects/sentrypy/badge/?version=latest)](https://sentrypy.readthedocs.io/en/latest/?badge=latest)
+![black passing](https://github.com/perfect-operations/sentrypy/actions/workflows/black.yml/badge.svg)
+![pytest passing](https://github.com/perfect-operations/sentrypy/actions/workflows/pytest.yml/badge.svg)
+![PyPI - Version](https://img.shields.io/pypi/v/sentrypy)
+![PyPI - License](https://img.shields.io/pypi/l/sentrypy)
+
+[Sentry.io](https://sentry.io/) is an error tracking platform that helps you monitor and
+resolve issues in real-time.
+
+[sentrypy](https://github.com/perfect-operations/sentrypy) is a Python wrapper for
+the Sentry API to:
+
+- Retrieve error data
+- Automate incident responses
+- Integrate with your workflow
+
+## Installation
+
+First create a sentry token ([official tutorial](https://docs.sentry.io/api/guides/create-auth-token/)).
+
+Then install by one of the options below.
+
+##### Installing from PyPI
+```
+pip install sentrypy
+```
+
+##### Installing from source
+```
+git clone git@github.com:perfect-operations/sentrypy.git
+pip install -e sentrypy
+```
+
+## Usage
+
+```python
+from sentrypy import Sentry
+
+# Connect to Sentry API
+sentry = Sentry(token="your-secret-token")
+
+# Retrieve a project
+org = sentry.organization("your-org-slug")
+project = org.project("your-project-slug")
+
+# Inspect the issues
+for issue in project.issues():
+    print(issue.title)
+```
+Example output:
+```
+IndexError: list index out of range
+WebDriverException: Message: unknown error: session deleted because of page crash
+AttributeError: 'NoneType' object has no attribute 'startswith'
+```
+
+Do this and much more. Install and explore!
+
+## Documentation
+Read the full documentation [on ReadTheDocs](https://sentrypy.readthedocs.io/en/latest/).
+
+## Feature Requests & Issues
+Please let me know [here on GitHub](https://github.com/perfect-operations/sentrypy/issues)!
+
+## Support
+* Write me [on Twitter](https://twitter.com/drpaulw)
+* Write me [on LinkedIn](https://www.linkedin.com/in/drpaulw)
+
+
