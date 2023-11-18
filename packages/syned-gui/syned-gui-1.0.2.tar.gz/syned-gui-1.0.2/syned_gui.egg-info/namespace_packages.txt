@@ -1,0 +1,2 @@
+syned
+syned.gui

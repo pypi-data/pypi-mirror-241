@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: syned-gui
+Version: 1.0.2
+Summary: SYNED (SYNchrotron Elements Dictionary) gui library
+Home-page: https://github.com/oasys-kit/syned-gui
+Download-URL: https://github.com/oasys-kit/syned-gui
+Author: Manuel Sanchez del Rio, Luca Rebuffi
+Author-email: lrebuffi@anl.gov
+Maintainer: L Rebuffi and M Sanchez del Rio
+Maintainer-email: lrebuffi@anl.gov
+License: BSD
+Keywords: dictionary,glossary,synchrotronsimulation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+License-File: LICENSE
+
+# syned-gui
+Generic graphic tools for OASYS 
