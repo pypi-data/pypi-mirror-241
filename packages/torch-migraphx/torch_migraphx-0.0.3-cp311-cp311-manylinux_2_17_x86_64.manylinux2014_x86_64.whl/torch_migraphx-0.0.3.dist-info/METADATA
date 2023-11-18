@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torch-migraphx
+Version: 0.0.3
+Summary: Intergrate PyTorch with MIGraphX acceleration engine
+Home-page: https://github.com/ROCmSoftwarePlatform/torch_migraphx
+Author: AMD
+Author-email: Shivad.Bhavsar@amd.com
+License: BSD
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.11.0)
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: pybind11-global
+Requires-Dist: packaging
+Requires-Dist: tabulate
+
