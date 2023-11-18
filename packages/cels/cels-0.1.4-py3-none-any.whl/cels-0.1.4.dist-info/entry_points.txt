@@ -1,0 +1,2 @@
+[console_scripts]
+cels = cels.cli:cels
