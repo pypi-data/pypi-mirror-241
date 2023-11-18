@@ -1,0 +1,11 @@
+ids = [8063361]
+names = ["Нгерулмуд"]
+ascii_names = ["Ngerulmud"]    
+positions = [["7.50077", "134.6238"]]
+alternate_names = [["Ngerulmud", "eung-gelulmudeu", "Нгерулмуд", "응게룰무드"]]
+timezones = [347]
+populations = [0]
+altitudes = [-1]
+parents = ["PW.07"]
+states = {"PW.11": ["Ngatpang", "Ngatpang", 1559532], "PW.16": ["Sonsorol", "Sonsorol", 1559630], "PW.05": ["Kayangel", "Kayangel", 1559774], "PW.04": ["Hatohobei", "Hatohobei", 1559776], "PW.01": ["Aimeliik", "Aimeliik", 1559964], "PW.02": ["Airai", "Airai", 4037645], "PW.03": ["Angaur", "Angaur", 4037653], "PW.06": ["Koror", "Koror", 4037892], "PW.07": ["Melekeok", "Melekeok", 4037930], "PW.08": ["Ngaraard", "Ngaraard", 4037962], "PW.12": ["Ngchesar", "Ngchesar", 4037976], "PW.09": ["Ngarchelong", "Ngarchelong", 4038037], "PW.10": ["Ngardmau", "Ngardmau", 4038043], "PW.13": ["Ngaremlengui", "Ngaremlengui", 4038068], "PW.14": ["Ngiwal", "Ngiwal", 4038179], "PW.15": ["Peleliu", "Peleliu", 4038261]}
+districts = {"PW.06.7732470": ["Rock Islands", "Rock Islands", 7732470]}

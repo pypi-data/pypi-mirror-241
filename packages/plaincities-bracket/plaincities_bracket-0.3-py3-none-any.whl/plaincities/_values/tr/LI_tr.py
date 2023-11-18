@@ -1,0 +1,11 @@
+ids = [3042030]
+names = ["Vaduz"]
+ascii_names = ["Vaduz"]    
+positions = [["47.14151", "9.52154"]]
+alternate_names = [["Bantouz", "QVU", "Vaduc", "Vaducas", "Vaduz", "Vaduzo", "fadoutsu", "paducheu", "vadutsi", "wa dou zi", "Βαντούζ", "Вадуц", "פאדוץ", "ვადუცი", "ፋዱጽ", "ファドゥーツ", "瓦都茲", "파두츠"]]
+timezones = [314]
+populations = [5197]
+altitudes = [-1]
+parents = ["LI.11"]
+states = {"LI.11": ["Vaduz", "Vaduz", 3042031], "LI.10": ["Triesenberg", "Triesenberg", 3042034], "LI.09": ["Triesen", "Triesen", 3042036], "LI.08": ["Schellenberg", "Schellenberg", 3042038], "LI.07": ["Schaan", "Schaan", 3042042], "LI.06": ["Ruggell", "Ruggell", 3042047], "LI.05": ["Planken", "Planken", 3042050], "LI.04": ["Mauren", "Mauren", 3042056], "LI.03": ["Gamprin", "Gamprin", 3042063], "LI.02": ["Eschen", "Eschen", 3042069], "LI.01": ["Balzers", "Balzers", 3042074]}
+districts = {}

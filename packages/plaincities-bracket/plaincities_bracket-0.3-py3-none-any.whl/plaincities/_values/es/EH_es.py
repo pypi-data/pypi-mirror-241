@@ -1,0 +1,11 @@
+ids = [2462881, 2463029, 2463447]
+names = ["Aaiún", "Cabo Bojador", "Villa Cisneros"]
+ascii_names = ["Laayoune", "Boujdour", "Dakhla"]    
+positions = [["27.1418", "-13.18797"], ["26.13073", "-14.48513"], ["23.68477", "-15.95798"]]
+alternate_names = [["El Aaiún"], ["Boujdour", "Cabo Bojador", "Cape Blanc", "bwjdwr", "بوجدور", "ⴱⵓⵊⴷⵓⵔ"], ["Dajla"]]
+timezones = [20, 20, 20]
+populations = [196331, 42651, 75000]
+altitudes = [-1, -1, -1]
+parents = ["EH", "EH", "EH.CE"]
+states = {}
+districts = {}

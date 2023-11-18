@@ -1,0 +1,11 @@
+ids = [3578851]
+names = ["Marigot"]
+ascii_names = ["Marigot"]    
+positions = [["18.06819", "-63.08302"]]
+alternate_names = [["MSB", "Marigo", "Marigot", "Marigoto", "Marinko", "Mariqo", "Marygo", "XCJ", "ma li ge", "ma ri ko", "maligas", "maligo", "marigo", "marikat", "marygw", "Μαριγκό", "Мариго", "Марыго", "Маріго", "ماریگاٹ", "ماریگو", "मारिगो", "மரிகாட்", "มารีโก", "მარიგო", "マリゴ", "马里戈", "마리갓", "마리고"]]
+timezones = [120]
+populations = [5700]
+altitudes = [-1]
+parents = ["MF.00"]
+states = {}
+districts = {}

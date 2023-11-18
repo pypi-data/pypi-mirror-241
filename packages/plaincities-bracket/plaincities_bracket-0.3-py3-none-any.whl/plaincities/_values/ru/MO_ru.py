@@ -1,0 +1,11 @@
+ids = [1821274]
+names = ["Макао"]
+ascii_names = ["Macau"]    
+positions = [["22.20056", "113.54611"]]
+alternate_names = [["Aomen", "Aomin'", "Au-mun", "Aumwnz", "Aumyn", "Cidade de Macau", "Cidade do Santo Nome de Deus de Macau", "MFM", "Ma Cao", "Macao", "Macau", "Macaum", "Makaa", "Makaaw", "Makao", "Makaou", "Makau", "Makaw", "Makawo", "Makaó", "Makee", "Makèë", "Màkáù", "O-muong", "ao men", "maka", "maka'o", "maka'u", "makao", "makavu", "makaw", "makayw", "makkavu", "mkaw", "Àu-mûn", "Ó̤-muòng", "Μακάου", "Аоминь", "Аумын", "Макаа", "Макао", "מקאו", "ئاۋمېن", "ماكاو", "ماکائو", "مکاؤ", "މަކާއޫ", "मकाउ", "मकाओ", "মাকাউ", "ਮਕਾਉ", "મકાઉ", "மக்காவு", "మకావు", "ಮಕಾವು", "മകൗ", "เขตบริหารพิเศษมาเก๊า", "မကာအို", "მაკაო", "マカオ", "澳門", "澳门", "마카오"]]
+timezones = [210]
+populations = [649335]
+altitudes = [-1]
+parents = ["MO.02"]
+states = {"MO.11875154": ["Nossa Senhora de Fátima", "Nossa Senhora de Fatima", 11875154], "MO.11875155": ["Santo António", "Santo Antonio", 11875155], "MO.11875156": ["São Lázaro", "Sao Lazaro", 11875156], "MO.11875157": ["Sé", "Se", 11875157], "MO.11875158": ["São Lourenço", "Sao Lourenco", 11875158], "MO.11875159": ["Nossa Senhora do Carmo", "Nossa Senhora do Carmo", 11875159], "MO.11875160": ["Cotai", "Cotai", 11875160], "MO.11875161": ["São Francisco Xavier", "Sao Francisco Xavier", 11875161]}
+districts = {}

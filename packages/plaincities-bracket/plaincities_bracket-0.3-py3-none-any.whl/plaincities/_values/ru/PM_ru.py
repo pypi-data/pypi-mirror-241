@@ -1,0 +1,11 @@
+ids = [3424934]
+names = ["Saint-Pierre"]
+ascii_names = ["Saint-Pierre"]    
+positions = [["46.77914", "-56.1773"]]
+alternate_names = [["FSP", "Saint Pierre", "Saint-Pierre", "St Pierre", "saengpieleu", "생피에르"]]
+timezones = [126]
+populations = [6200]
+altitudes = [-1]
+parents = ["PM.97502"]
+states = {"PM.97502": ["Saint-Pierre", "Saint-Pierre", 3424935], "PM.97501": ["Miquelon-Langlade", "Miquelon-Langlade", 3424938]}
+districts = {}

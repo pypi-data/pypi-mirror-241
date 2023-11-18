@@ -1,0 +1,11 @@
+ids = [1880252, 1880668, 1882316, 1882778, 1884386]
+names = ["Singapur", "Geylang", "Woodlands", "Marine Parade", "Queenstown Estate"]
+ascii_names = ["Singapore", "Geylang", "Woodlands", "Marine Parade", "Queenstown Estate"]    
+positions = [["1.28967", "103.85007"], ["1.31953", "103.88689"], ["1.43801", "103.78877"], ["1.30306", "103.90778"], ["1.29417", "103.8025"]]
+alternate_names = [["SIN", "Sin-ka-po", "Singapore", "Singapore City", "Singapour", "Singapur", "Singapura", "Sinkapoure", "Sîn-kâ-po", "Tumasik", "cinkappur", "prathes singkhpor", "shingaporu", "sigapura", "sing-gapol", "sing-gapoleu", "singapura", "singkh por", "sngapwr", "snghafwrt", "syngpwr", "xin jia po", "xing jia po", "Σιγκαπούρη", "Сингапур", "Сінгапур", "סינגפור", "سنغافورة", "سنگاپور", "सिंगापुर", "सिंगापूर", "ਸਿੰਗਾਪੁਰ", "சிங்கப்பூர்", "ประเทศสิงคโปร์", "สิงค์โปร", "ປະເທດສງກະໂປ", "ປະເທດສິງກະໂປ", "စငကာပနငင", "စင်ကာပူနိုင်ငံ", "សងហបរ", "សិង្ហបុរី", "シンガポール", "新加坡", "星架坡", "싱가포르", "싱가폴"], ["Geylang", "Geylang Serai", "Geylang Serai Village", "geiran", "gylang", "ya long", "گیلانگ", "ゲイラン", "芽笼"], ["Woodlands", "Woodlands New Town"], ["Malin Bailie", "Marine Parade", "Marine Parade Estate", "Mǎlín Bǎiliè", "ma lin bai lie", "marin paret", "மரின் பரேட்", "马林百列"], ["Queenstown", "Queenstown Estate", "Queenstown New Town"]]
+timezones = [231, 231, 231, 231, 231]
+populations = [5638700, 110200, 252530, 46390, 95930]
+altitudes = [-1, -1, -1, -1, -1]
+parents = ["SG.01", "SG.00", "SG.03", "SG.03", "SG.00"]
+states = {}
+districts = {}

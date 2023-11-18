@@ -1,0 +1,11 @@
+ids = [3426466]
+names = ["古利德維肯"]
+ascii_names = ["Grytviken"]    
+positions = [["-54.28111", "-36.5092"]]
+alternate_names = [["Gritviken", "Griutvikenas", "Grjutviken", "Grutviken", "Grytviken", "Qryotviken", "geuliteubiken", "gritavikena", "grytwwyqn", "gu li de wei ken", "guritobiken", "krit wi khen", "Грутвикен", "Грутвікен", "Грютвикен", "Грютвікен", "גריטוויקן", "ग्रिटविकेन", "กริตวีเคน", "グリトビケン", "古利德維肯", "그리트비켄"]]
+timezones = [254]
+populations = [2]
+altitudes = [-1]
+parents = ["GS.00"]
+states = {}
+districts = {}

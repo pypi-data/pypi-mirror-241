@@ -1,0 +1,11 @@
+ids = [4030723]
+names = ["Adamstown"]
+ascii_names = ["Adamstown"]    
+positions = [["-25.06597", "-130.10147"]]
+alternate_names = [["Adams Town"]]
+timezones = [348]
+populations = [46]
+altitudes = [-1]
+parents = ["PN"]
+states = {}
+districts = {}

@@ -1,0 +1,11 @@
+ids = [241131]
+names = ["Victoria"]
+ascii_names = ["Victoria"]    
+positions = [["-4.62001", "55.45501"]]
+alternate_names = [["Biktoria", "Fiktoria", "Mahe", "Mahé", "Port Victoria", "Victoria", "Victoria pa Seychellane", "Victoria på Seychellane", "Victòria", "Viktori", "Viktoria", "Viktorii", "Viktorija", "Viktorio", "Viktoriya", "Viktorya", "Viktoryja", "Wiktoria", "bigtolia", "fyktwrya", "vhiktoriya", "vikatori'a", "viktoriya", "vuikutoria", "wei duo li ya", "wiktxreiy", "wyktwrya", "wyqtwryh", "Βικτόρια", "Βικτώρια", "Виктори", "Виктория", "Викторија", "Вікторыя", "Вікторія", "Վիկտորիա", "ויקטוריה", "فيكتوريا", "وکٹوریا", "وکٹوریہ", "ویکتوریا", "ڤیکتۆریا، سیشێل", "व्हिक्टोरिया", "ਵਿਕਟੋਰੀਆ", "விக்டோரியா", "วิกตอเรีย", "ཝིག་ཐོ་རི་ཡ།", "ვიქტორია", "ቪክቶሪያ፥ ሲሸልስ", "ヴィクトリア", "維多利亞", "维多利亚", "빅토리아"]]
+timezones = [327]
+populations = [22881]
+altitudes = [-1]
+parents = ["SC.26"]
+states = {"SC.23": ["Takamaka", "Takamaka", 241151], "SC.22": ["Saint Louis", "Saint Louis", 241181], "SC.27": ["Port Glaud", "Port Glaud", 241215], "SC.20": ["Pointe Larue", "Pointe Larue", 241221], "SC.19": ["Plaisance", "Plaisance", 241224], "SC.18": ["Mont Fleuri", "Mont Fleuri", 241251], "SC.17": ["Mont Buxton", "Mont Buxton", 241252], "SC.26": ["La Rivière Anglaise", "English River", 241302], "SC.25": ["La Digue", "La Digue", 241311], "SC.24": ["Grand Anse Mahe", "Grand Anse Mahe", 241330], "SC.14": ["Grand Anse Praslin", "Grand Anse Praslin", 241331], "SC.12": ["Glacis", "Glacis", 241336], "SC.11": ["Cascade", "Cascade", 241396], "SC.10": ["Bel Ombre", "Bel Ombre", 241424], "SC.09": ["Bel Air", "Bel Air", 241426], "SC.08": ["Beau Vallon", "Beau Vallon", 241428], "SC.07": ["Baie Sainte-Anne", "Baie Sainte Anne", 241438], "SC.06": ["Baie Lazare", "Baie Lazare", 241439], "SC.05": ["Anse Royale", "Anse Royale", 241444], "SC.03": ["Anse Étoile", "Anse Etoile", 241447], "SC.02": ["Anse Boileau", "Anse Boileau", 241449], "SC.01": ["Anse-aux-Pins", "Anse-aux-Pins", 241450], "SC.29": ["Les Mamelles", "Les Mamelles", 448408], "SC.30": ["Roche Caïman", "Roche Caiman", 448409], "SC.28": ["Au Cap", "Au Cap", 448410], "SC.11876017": ["Outer Islands", "Outer Islands", 11876017], "SC.12200079": ["Ile Perseverance I", "Ile Perseverance I", 12200079], "SC.12200080": ["Ile Perseverance II", "Ile Perseverance II", 12200080]}
+districts = {}
