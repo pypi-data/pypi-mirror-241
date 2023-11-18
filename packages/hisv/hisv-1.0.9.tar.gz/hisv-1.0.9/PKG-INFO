@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hisv
+Version: 1.0.9
+Summary: A computational pipeline for structural variation detection from Hi-C data
+Home-page: https://github.com/GaoLabXDU/HiSV
+Author: Li Junping
+Author-email: lijunping02@qq.com
+License: MIT Licence
+Keywords: Hi-C,structural variation,control-free
+Platform: any
+License-File: LICENSE
