@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-ws
+Version: 0.1.0
+Summary: Helpers for using WebSockets in Django
+Author-Email: Paul Bailey <paul@neutron.studio>
+License: BSD 3-Clause
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# django-ws
+
+Helpers for using WebSockets in Django
+
+## Installation
+
+`pip install django-ws`
