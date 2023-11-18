@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "excelproject"
+version = "1.0.2"
+description = "Convert OCBC Bank Statements from PDF to Excel"
+authors = ["Ying Liqian <jamesylq@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+excel-project = "excelproject.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+xlsxwriter = "^3.1.9"
+pdfminer = "^20191125"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
