@@ -1,0 +1,28 @@
+{
+  "_lib-4140c56e.js": {
+    "file": "lib-4140c56e.js"
+  },
+  "_lib-eba2dd0b.cjs": {
+    "file": "lib-eba2dd0b.cjs"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-eba2dd0b.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-eba2dd0b.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
