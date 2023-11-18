@@ -1,0 +1,7 @@
+requests>=2.19.1
+jsonschema>=3.2.0
+click>=8.0.0
+
+[dev]
+pytest
+types-setuptools
