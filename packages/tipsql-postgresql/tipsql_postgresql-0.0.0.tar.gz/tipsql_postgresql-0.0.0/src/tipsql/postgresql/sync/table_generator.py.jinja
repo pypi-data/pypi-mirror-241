@@ -1,0 +1,81 @@
+from typing import TypedDict, Literal
+
+from tipsql.core import Column
+from tipsql.postgresql import Table, table
+from tipsql.postgresql.datatype import Bigint, Varchar
+
+
+{% for table in tables %}
+class {{ table.class_name }}InsertColumns(TypedDict):
+{% if table.comment %}
+    """{{ table.comment }}"""
+
+{% endif %}
+{% if table.columns|length %}
+{% for column in table.columns %}
+    {{ column.name }}: {{ column.python_type }}
+{% if column.comment %}
+    """{{ column.comment }}"""
+{% endif  %}
+
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+
+class {{ table.class_name }}UpdateColumns(TypedDict):
+{% if table.comment %}
+    """{{ table.comment }}"""
+
+{% endif %}
+{% if table.columns|length %}
+{% for column in table.columns %}
+    {{ column.name }}: {{ column.python_type }}
+{% if column.comment %}
+    """{{ column.comment }}"""
+{% endif  %}
+
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+
+@table("{{ table.schema }}", "{{ table.name }}")
+class {{ table.class_name }}(Table[{{ table.class_name }}InsertColumns, {{ table.class_name }}UpdateColumns]):
+{% if table.comment %}
+    """{{ table.comment }}"""
+
+{% endif %}
+{% if table.columns|length %}
+{% for column in table.columns %}
+    {{ column.name }}: Column[{{ column.database_type }}, {{ column.python_type }}]
+{% if column.comment %}
+    """{{ column.comment }}"""
+{% endif  %}
+
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+{% endfor %}
+
+{% for view in views %}
+@view("{{ view.schema_name }}", "{{ view.name }}")
+class {{ view.class_name }}(View):
+{% if view.comment %}
+    """{ view.comment }"""
+
+{% endif %}
+{% if view.columns|length %}
+{% for column in view.columns %}
+    {{ column.name }}: Column[{{ column.database_type }}, {{ column.python_type }}]
+{% if column.comment %}
+    """{{ column.comment }}"""
+{% endif  %}
+
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+
+{% endfor %}
