@@ -1,0 +1,6 @@
+edzipdataset/__init__.py,sha256=SToi1h_6UWTWDEhH7vS4YBUGjgA5SEV1J7PYOr6MVD8,9657
+edzipdataset/dsutil.py,sha256=eLvWCUCp2I0gwECpEZlEl7KFM02nww-8PJbxYBQvCjo,6274
+edzipdataset/sqlite.py,sha256=y45RwA4eLqt5TxQPg-pyT0Y7EAJpJkw8A0sGuZ1SNog,1242
+edzipdataset-0.1.31.dist-info/METADATA,sha256=rVMX4-6t-SbQY7rhVm6tneymOJ59DfqTKwYsJr1WP9s,888
+edzipdataset-0.1.31.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+edzipdataset-0.1.31.dist-info/RECORD,,
