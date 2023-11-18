@@ -1,0 +1,8 @@
+django_ws-0.2.0.dist-info/METADATA,sha256=yxVWEnc1HzZyVL8iQuA1urtakhPsptbD29CNBvJAbIA,330
+django_ws-0.2.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+django_ws-0.2.0.dist-info/licenses/LICENSE,sha256=9quGO74WJlD46Uxu6xmFYZuyn18fc4Vz1v4siGH9-4s,1498
+django_ws/__init__.py,sha256=MDKKSEhazawq75vZxuB7-dYtHtPWu-_lLLZfPYTHR6Y,172
+django_ws/app.py,sha256=Kr9Cy3yFCpIjc9ayr3jodn8zwRFLI9d0eu_7qWB_-PI,1113
+django_ws/handler.py,sha256=ZH-KbpxN1p6E84z-JUbpk7jG9WpdJiyMruVmtSeJmSs,3199
+django_ws/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+django_ws-0.2.0.dist-info/RECORD,,
