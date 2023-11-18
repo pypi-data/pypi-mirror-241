@@ -1,0 +1,232 @@
+# Best EC2
+
+Best EC2, the intelligent solution designed to streamline your Amazon EC2 instance selection process! The app simplifies the challenge of choosing the optimal EC2 instance type that matches your specific requirements, balancing performance, cost, and computing needs.
+
+# Prerequisites
+* python >=3.8.0
+* AWS Credentials
+
+# Install
+pip install best-ec2
+
+# The IAM policy grants minimal permissions necessary for the application
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "General",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstanceTypes"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "OnDemand",
+            "Effect": "Allow",
+            "Action": [
+                "pricing:GetProducts"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Spot",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeSpotPriceHistory"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+# InstanceTypeRequest
+
+| Parameter                                   | Type                         | Description                                                                                                                       | Required | Default       | Values                                                                                                                                 |
+|---------------------------------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------|---------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| `vcpu`                                      | `float`                      | The number of virtual CPUs allocated to the instance, which affects its computing capabilities.                                    | Yes      | N/A           |                                                                                                                                       |
+| `memory_gb`                                 | `float`                      | The amount of memory allocated to the instance, specified in gigabytes (GiB).                                                     | Yes      | N/A           |                                                                                                                                       |
+| `usage_class`                               | `UsageClass`                 | The pricing model under which the instance operates: either preemptible `SPOT` instances or regular `ON_DEMAND` instances.        | No       | `ON_DEMAND`   | `SPOT`, `ON_DEMAND`                                                                                                                   |
+| `burstable`                                 | `bool`                       | Specifies if the instance type can accrue and use CPU credits for short bursts of improved performance.                            | No       | `None`        | `True`, `False`                                                                                                                       |
+| `architecture`                              | `Architecture`               | The processor architecture type for the instance, which determines the instruction set and memory addressing.                      | No       | `X86_64`      | `I386`, `X86_64`, `ARM64`, `X86_64_MAC`                                                                                               |
+| `product_description`                       | `List[ProductDescription]`   | The list of operating systems available for the instance, which may affect compatibility and pricing.                              | No       | `LINUX_UNIX` | `LINUX_UNIX`, `RED_HAT_ENTERPRISE_LINUX`, `SUSE_LINUX`, `WINDOWS`, `LINUX_UNIX_VPC`, `RED_HAT_ENTERPRISE_LINUX_VPC`, `SUSE_LINUX_VPC`, `WINDOWS_VPC` |
+| `is_current_generation`                     | `bool`                       | Indicates if only the latest generation of instances should be considered, which typically offer better performance and features. | No       | `None`        | `True`, `False`                                                                                                                       |
+| `has_gpu`                                   | `bool`                       | Designates whether the instance includes one or more GPUs, providing additional graphics or computational power.                   | No       | `None`        | `True`, `False`                                                                                                                       |
+| `gpu_memory`                                | `int`                        | If GPUs are present, this specifies their total memory in GiB. Only applicable when `has_gpu` is True.                            | No       | `None`        |                                                                                                                                       |
+| `is_instance_storage_supported`             | `bool`                       | Determines if the instance should have direct attached storage, often used for high-performance requirements.                      | No       | `None`        | `True`, `False`                                                                                                                       |
+| `max_interruption_frequency`                | `int`                        | The maximum acceptable spot instance interruption rate, as a percentage. This helps balance cost with stability.                  | No       | `None`        |                                                                                                                                       |
+| `availability_zones`                        | `List[str]`                  | The specific geographic locations in which to search for instances, which can affect latency and data sovereignty considerations. | No       | `None`        | E.g., `us-east-1a`, `us-east-1b`                                                                                                      |
+| `final_spot_price_determination_strategy`   | `FinalSpotPriceStrategy`     | Strategy used to determine the final spot price, which can optimize for cost or stability of the spot instance.                   | No       | `MIN`         | `MIN`, `MAX`, `AVERAGE`                                                                                                               |
+
+
+# InstanceType (InstanceTypeResponse = List[InstanceType])
+
+| Field                    | Type                             | Description                                                                                                                      | Example Values                        |
+|--------------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| `instance_type`          | `str`                            | The identifier for the type of instance, which determines its capabilities, such as CPU and memory.                              | `c5d.large`, `m6idn.large`            |
+| `price`                  | `float`                          | The price per hour for the instance type. This could be the on-demand price or the spot price, which can vary based on market demand. | 0.0378, 0.0995                        |
+| `az_price`               | `Optional[Dict[str, float]]`     | A dictionary containing the prices for the instance type within different Availability Zones.                                    | `{'us-east-1a': 0.0378, 'us-east-1b': 0.0400}` |
+| `vcpu`                   | `int`                            | The number of virtual CPUs that the instance type offers.                                                                       | 2, 4                                  |
+| `memory_gb`              | `int`                            | The amount of memory (RAM) that the instance type offers, measured in GiB (gibibytes).                                          | 8, 16                                 |
+| `network_performance`    | `str`                            | A qualitative description of the instance type's network performance capability.                                                | `Up to 10 Gigabit`, `20 Gigabit`      |
+| `storage`                | `Union[str, List[DiskInfo]]`     | Information about the storage that comes with the instance type, including size and type. It could be a list or a descriptive string. | `EBS only`, `[{'SizeInGB': 50, 'Count': 1, 'Type': 'ssd'}]` |
+| `gpu_memory_gb`          | `Optional[int]`                  | The amount of dedicated GPU memory that comes with the instance type, if applicable, measured in GiB.                           | 4, 8                                  |
+| `interruption_frequency` | `Optional[InterruptionFrequencyInfo]` | An estimate of how often a spot instance may be interrupted. It can include statistical rates or qualitative descriptions.     | `{'min': 0.05, 'max': 0.10, 'rate': '<10%'}` |
+
+
+# Usage
+
+## Simple
+
+```
+from best_ec2 import BestEc2
+
+ec2 = BestEc2()
+
+request: InstanceTypeRequest = {
+    "vcpu": 1,
+    "memory_gb": 1
+}
+
+response: InstanceTypeResponse = ec2.get_types(request)
+```
+
+Response example:
+
+```json
+[
+  {
+    "instance_type": "t3a.micro",
+    "price": 0.0094,
+    "vcpu": 2,
+    "memory_gb": 1,
+    "network_performance": "Up to 5 Gigabit",
+    "storage": "EBS Only"
+  },
+  {
+    "instance_type": "t3.micro",
+    "price": 0.0104,
+    "vcpu": 2,
+    "memory_gb": 1,
+    "network_performance": "Up to 5 Gigabit",
+    "storage": "EBS Only"
+  }
+]
+```
+
+## Advanced
+
+```
+import boto3
+import logging
+from botocore.config import Config
+
+from best_ec2 import (
+    Architecture,
+    BestEc2,
+    BestEc2Options,
+    FinalSpotPriceStrategy,
+    InstanceTypeRequest,
+    InstanceTypeResponse,
+    ProductDescription,
+    UsageClass,
+)
+
+ec2_client_config = Config(retries={"max_attempts": 20, "mode": "adaptive"})
+
+pricing_client_config = Config(retries={"max_attempts": 10, "mode": "standard"})
+
+ec2_client = boto3.Session().client(
+    "ec2", config=ec2_client_config, region_name="eu-central-1"
+)
+pricing_client = boto3.Session().client(
+    "pricing", config=pricing_client_config, region_name="us-east-1"
+)
+
+options: BestEc2Options = {
+    "region": "eu-central-1",
+    "describe_spot_price_history_concurrency": 20,
+    "describe_on_demand_price_concurrency": 20,
+    "clients": {"ec2": ec2_client, "pricing": pricing_client},
+    "cache_ttl_in_minutes": 60,
+}
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s: %(levelname)s: %(message)s")
+logger = logging.getLogger()
+
+ec2 = BestEc2(options, logger)
+
+request: InstanceTypeRequest = {
+    "vcpu": 1,
+    "memory_gb": 2,
+    "usage_class": UsageClass.SPOT.value,
+    "burstable": False,
+    "architecture": Architecture.X86_64.value,
+    "product_description": ProductDescription.LINUX_UNIX.value,
+    "is_current_generation": True,
+    "is_instance_storage_supported": True,
+    "max_interruption_frequency": 10,
+    "availability_zones": [
+        "eu-central-1a",
+        "eu-central-1b",
+    ],
+    "final_spot_price_strategy": FinalSpotPriceStrategy.MIN.value,
+}
+
+response: InstanceTypeResponse = ec2.get_types(request)
+```
+
+Response example:
+
+```json
+[
+  {
+    "instance_type": "g4ad.xlarge",
+    "price": 0.1364,
+    "az_price": {
+      "us-east-1a": 0.145,
+      "us-east-1b": 0.1442,
+      "us-east-1c": 0.1485,
+      "us-east-1d": 0.1364
+    },
+    "vcpu": 4,
+    "memory_gb": 16,
+    "network_performance": "Up to 10 Gigabit",
+    "storage": [
+      {
+        "SizeInGB": 150,
+        "Count": 1,
+        "Type": "ssd"
+      }
+    ],
+    "gpu_memory_gb": 8
+  },
+  {
+    "instance_type": "g4dn.xlarge",
+    "price": 0.2165,
+    "az_price": {
+      "us-east-1a": 0.2178,
+      "us-east-1b": 0.2266,
+      "us-east-1c": 0.2253,
+      "us-east-1d": 0.2284,
+      "us-east-1f": 0.2165
+    },
+    "vcpu": 4,
+    "memory_gb": 16,
+    "network_performance": "Up to 25 Gigabit",
+    "storage": [
+      {
+        "SizeInGB": 125,
+        "Count": 1,
+        "Type": "ssd"
+      }
+    ],
+    "gpu_memory_gb": 16
+  }
+]
+
+```
