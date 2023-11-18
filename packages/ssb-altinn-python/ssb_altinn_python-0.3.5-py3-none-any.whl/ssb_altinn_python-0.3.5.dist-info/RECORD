@@ -1,0 +1,12 @@
+altinn/__init__.py,sha256=-nFcVfCTOT7ZLjUTk-fArTXU6ngoKMCE6pFo462EQkM,185
+altinn/__main__.py,sha256=sLB75I3eg4-FkxVO6k4ethiXXnE3ACPrpUlE26dl81k,198
+altinn/file.py,sha256=_mGUMpmmJTN3ufewP8QIDECj8Ua62QmjB390stmTtNo,2181
+altinn/flatten.py,sha256=1YGBMyKaHxGiovNM-2EURUZKKD7Ea4QIFePi2PHdbc8,2673
+altinn/parser.py,sha256=LzKR8vpgw-T5duNjtLdJerNXC28jeNQVNyX6WNTNV9Q,4084
+altinn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+altinn/utils.py,sha256=cxMiGPjlwRz9uHlLmw6IMkb9OleChmapOKCm0TLNcX4,1378
+ssb_altinn_python-0.3.5.dist-info/LICENSE,sha256=HW4wP-IN8O8rHTlKEJe4eSgDkr-l-rSeqmHEalLePQk,1078
+ssb_altinn_python-0.3.5.dist-info/METADATA,sha256=NFolbthJzKZ5tyARrlsrdrJ2A1o9OOkPWyt1uiky2I0,5768
+ssb_altinn_python-0.3.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ssb_altinn_python-0.3.5.dist-info/entry_points.txt,sha256=e6pZ0PktbkmzcHVO-AR4SnVJ67EYzQovrV4NcOwW9ls,58
+ssb_altinn_python-0.3.5.dist-info/RECORD,,
