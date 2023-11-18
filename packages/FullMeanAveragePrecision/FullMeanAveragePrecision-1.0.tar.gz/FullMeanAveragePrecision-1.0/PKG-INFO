@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: FullMeanAveragePrecision
+Version: 1.0
+Summary: Expanded version MeanAveragePrecision metric torchmetrics library
+Author-email: efremov.va@phystech.edu
