@@ -1,0 +1,3 @@
+[console_scripts]
+tipsql=tipsql.cli.__main__:main
+
