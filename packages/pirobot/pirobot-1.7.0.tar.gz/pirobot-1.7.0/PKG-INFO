@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: pirobot
+Version: 1.7.0
+Summary: Telegram Bot Script with Flood Control Functionality
+Home-page: https://github.com/hk4crprasad/pirobot
+Download-URL: https://github.com/hk4crprasad/pirobot/archive/pypi.zip
+Author: HK4CRPRASAD
+Author-email: hotahara12@gmail.com
+License: GPL-3.0
+Keywords: telegram,bot,pirobot,flood,auto-reply,telethon
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Chat
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: telethon
+Requires-Dist: python-dotenv
+Requires-Dist: python-telegram-bot
+Requires-Dist: requests
+
+# pirobot 🤖
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hk4crprasad/pirobot/blob/main/LICENSE.txt)
+[![GitHub release](https://img.shields.io/github/release/hk4crprasad/pirobot.svg)](https://GitHub.com/hk4crprasad/pirobot/releases/)
+
+Telegram Auto Reply Bot When Offline 📱
+
+## Installation
+
+🚀 Install pirobot using [pip](https://pip.pypa.io/en/stable/):
+
+```bash
+pip install pirobot
+```
+
+📝 Make sure you have Python 3 installed.
+
+## Usage
+
+1. 🚀 After installation, you can run the bot using:
+
+    ```bash
+    pirobot -r
+    ```
+
+2. 🤖 The bot will prompt you for your API credentials and debug mode on the first run.
+
+3. ✔️ Subsequent runs will use the existing configuration stored in `configs.json`.
+
+## Features
+
+- 📬 Sends auto-reply messages when the user is offline.
+- 🎮 Optional guessing game feature.
+
+## Configuration
+
+- 🛠️ Configuration details are stored in `configs.json`.
+- 🚫 To reset configuration, delete `configs.json` and run the bot again.
+
+## Contribution
+
+🤝 Contributions are welcome! Feel free to submit issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+---
+
+Made with ❤️ by [HKCRPRASAD](https://github.com/hk4crprasad)
+
