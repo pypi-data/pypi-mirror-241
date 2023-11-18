@@ -1,0 +1,15 @@
+README.md
+setup.py
+sparql_endpoint_fixture/__init__.py
+sparql_endpoint_fixture/endpoint.py
+sparql_endpoint_fixture.egg-info/PKG-INFO
+sparql_endpoint_fixture.egg-info/SOURCES.txt
+sparql_endpoint_fixture.egg-info/dependency_links.txt
+sparql_endpoint_fixture.egg-info/requires.txt
+sparql_endpoint_fixture.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_endpoint.py
+tests/test_errors.py
+tests/test_multiple_graphs.py
+tests/test_predefined.py
