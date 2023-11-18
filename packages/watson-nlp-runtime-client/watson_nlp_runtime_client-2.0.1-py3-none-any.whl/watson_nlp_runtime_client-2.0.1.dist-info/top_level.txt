@@ -1,0 +1,4 @@
+caikit
+caikit_data_model
+watson_nlp_data_model
+watson_nlp_runtime_client
