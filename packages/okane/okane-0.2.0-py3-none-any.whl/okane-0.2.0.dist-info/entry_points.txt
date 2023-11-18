@@ -1,0 +1,3 @@
+[console_scripts]
+okane=okane:main
+
