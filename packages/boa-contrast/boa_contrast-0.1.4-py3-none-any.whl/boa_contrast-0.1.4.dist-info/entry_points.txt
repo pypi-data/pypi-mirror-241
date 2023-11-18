@@ -1,0 +1,3 @@
+[console_scripts]
+contrast-recognition=boa_contrast.cli:run
+
