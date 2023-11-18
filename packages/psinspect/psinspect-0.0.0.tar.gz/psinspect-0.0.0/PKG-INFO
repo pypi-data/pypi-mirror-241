@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: psinspect
+Version: 0.0.0
+Summary: Power spectra inspector for the SO LAT experiment
+Author: Simons Observatory Collaboration Power Spectrum Task Force
+Maintainer-email: Xavier Garrido <xavier.garrido@ijclab.in2p3.fr>
+License: 
+        
+        BSD License
+        
+        Copyright (c) 2020, Simons Observatory Collaboration Analysis Library Task Force
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without modification,
+        are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice, this
+          list of conditions and the following disclaimer in the documentation and/or
+          other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from this
+          software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+        IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+        INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+        BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+        OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+        OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+        OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Source, https://github.com/xgarrido/psinspect
+Project-URL: Tracker, https://github.com/xgarrido/psinspect/issues
+Project-URL: Licensing, https://github.com/xgarrido/psinspect/blob/master/LICENCE
+Keywords: visualisation,pipeline,cosmology
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: colorlog
+Requires-Dist: pspipe_utils
+Requires-Dist: jupyterlab
+Requires-Dist: ipyfilechooser
+Requires-Dist: plotly
+Requires-Dist: seaborn
+Requires-Dist: voila
+
+=========
+psinspect
+=========
+.. inclusion-marker-do-not-remove
+
+``psinspect`` is a visual application to check for CMB power spectra and covariance matrices
+calculations through `PSpipe <https://github.com/simonsobs/PSpipe>`_.
+
+.. image:: https://img.shields.io/pypi/v/psinspect.svg?style=flat
+   :target: https://pypi.python.org/pypi/psinspect/
+.. image:: https://img.shields.io/badge/license-BSD-yellow
+   :target: https://github.com/xgarrido/psinspect/blob/master/LICENSE
+.. image:: https://img.shields.io/github/actions/workflow/status/xgarrido/psinspect/testing.yml?branch=main
+   :target: https://github.com/xgarrido/psinspect/actions?query=workflow%3ATesting
+.. image:: https://codecov.io/gh/xgarrido/psinspect/branch/main/graph/badge.svg?token=HHAJ7NQ5CE
+   :target: https://codecov.io/gh/xgarrido/psinspect
+..
+   .. image:: https://readthedocs.org/projects/pspy/badge/?version=latest
+      :target: https://pspy.readthedocs.io/en/latest/?badge=latest
+   .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://mybinder.org/v2/gh/simonsobs/pspy/master?filepath=notebooks/%2Findex.ipynb
+
+Installing
+----------
+
+.. code:: shell
+
+    pip install git+https://github.com/xgarrido/psinspect.git [--user]
+
+You can test if everything has been properly installed with
+
+.. code:: shell
+
+    psinspect
+
+If everything goes fine, no errors will occur. Otherwise, you can report your problem on the `Issues tracker <https://github.com/xgarrido/psinspect/issues>`_.
+
+If you plan to develop/change something inside ``psinspect``, it is better to checkout the latest version by doing
+
+.. code:: shell
+
+    git clone https://github.com/xgarrido/psinspect.git /where/to/clone
+
+Then you can install the ``psinspect`` library and its dependencies *via*
+
+.. code:: shell
+
+    pip install -e /where/to/clone
+
+The ``-e`` option allow the developer to make changes within the ``psinspect`` directory without having
+to reinstall at every changes.
+
+Using ``psinspect`` at NERSC
+----------------------------
+
+At NERSC, after having set ``python`` with ``module load python``, you can follow the same
+installation process and everything will be installed in your local home. Then you can go to `NERSC
+Jupyter Hub <https://jupyter.nersc.gov>`_ and start a notebook with the following minimal set of
+commands
+
+.. code:: python
+
+   from psinspect import App
+   my_app = App()
+   my_app.initialize()
+   my_app.start()
+
+Another (smarter) way is to encapsulate the whole installation stuff within a ``python`` virtual
+env. to avoid conflicts with your existing installation. To do so you can follow these command lines
+
+.. code:: shell
+
+   module load python
+   python -m venv /where/to/install/your/env
+   source /where/to/install/your/env/bin/activate
+   python -m pip install ipykernel
+   python -m ipykernel install --user --name=psinspect
+
+This will install a new kernel named ``psinspect`` that you can choose when you will create a new
+notebook in `NERSC Jupyter Hub <https://jupyter.nersc.gov>`_. Copy-paste the above ``python`` code
+and execute the cell.
+
+
+The code is part of `PSpipe <https://github.com/simonsobs/PSpipe>`_ the Simons Observatory power spectrum pipeline.
