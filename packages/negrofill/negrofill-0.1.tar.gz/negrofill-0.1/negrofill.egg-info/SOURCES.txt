@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+negrofill/__init__.py
+negrofill/negrofill.py
+negrofill.egg-info/PKG-INFO
+negrofill.egg-info/SOURCES.txt
+negrofill.egg-info/dependency_links.txt
+negrofill.egg-info/not-zip-safe
+negrofill.egg-info/top_level.txt
