@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: hydrotoolbox
+Version: 2.0.9
+Summary: Command line script and Python library for analysis of flow time-series.
+Author-email: Tim Cera <tim@cerazone.net>
+License: BSD-3-Clause
+Project-URL: documentation, https://timcera.bitbucket.io/hydrotoolbox/docs/index.html#hydrotoolbox-documentation
+Project-URL: github, https://github.com/timcera/hydrotoolbox
+Project-URL: bitbucket, https://bitbucket.org/timcera/hydrotoolbox/src/main/
+Keywords: time-series,cli-app,hydrology,baseflow,hydrograph-recession,hydrographic
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: cltoolbox>=1.0.0
+Requires-Dist: dateparser
+Requires-Dist: numpy
+Requires-Dist: pandas[excel]
+Requires-Dist: pint!=0.21.*
+Requires-Dist: pint<0.22; python_version < "3.9"
+Requires-Dist: pint-pandas
+Requires-Dist: pydantic
+Requires-Dist: scipy
+Requires-Dist: tabulate
+Provides-Extra: dev
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: blacken-docs; extra == "dev"
+Requires-Dist: black-nbconvert; extra == "dev"
+Requires-Dist: cleanpy; extra == "dev"
+Requires-Dist: commitizen; extra == "dev"
+Requires-Dist: coverage[toml]; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pyflakes; extra == "dev"
+Requires-Dist: pylama; extra == "dev"
+Requires-Dist: pyle; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pyre; extra == "dev"
+Requires-Dist: pyroma; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-mpl; extra == "dev"
+Requires-Dist: pyupgrade; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: unimport; extra == "dev"
+Requires-Dist: velin; extra == "dev"
+Requires-Dist: vulture; extra == "dev"
+
+.. image:: https://github.com/timcera/hydrotoolbox/actions/workflows/python-package.yml/badge.svg
+    :alt: Tests
+    :target: https://github.com/timcera/hydrotoolbox/actions/workflows/python-package.yml
+    :height: 20
+
+.. image:: https://img.shields.io/coveralls/github/timcera/hydrotoolbox
+    :alt: Test Coverage
+    :target: https://coveralls.io/r/timcera/hydrotoolbox?branch=master
+    :height: 20
+
+.. image:: https://img.shields.io/pypi/v/hydrotoolbox.svg
+    :alt: Latest release
+    :target: https://pypi.python.org/pypi/hydrotoolbox/
+    :height: 20
+
+.. image:: https://img.shields.io/pypi/l/hydrotoolbox.svg
+    :alt: BSD-3 clause license
+    :target: https://pypi.python.org/pypi/hydrotoolbox/
+    :height: 20
+
+.. image:: https://img.shields.io/pypi/dd/hydrotoolbox.svg
+    :alt: hydrotoolbox downloads
+    :target: https://pypi.python.org/pypi/hydrotoolbox/
+    :height: 20
+
+.. image:: https://img.shields.io/pypi/pyversions/hydrotoolbox
+    :alt: PyPI - Python Version
+    :target: https://pypi.org/project/hydrotoolbox/
+    :height: 20
+
+hydrotoolbox - Quick Guide
+==========================
+The hydrotoolbox is a Python script for hydrologic calculations and analysis
+or by function calls within Python.  Uses pandas (http://pandas.pydata.org/)
+or numpy (http://numpy.scipy.org) for any heavy lifting.
+
+Requirements
+------------
+* python 3.7 or higher
+
+Installation
+------------
+pip
+~~~
+.. code-block:: bash
+
+    pip install hydrotoolbox
+
+conda
+~~~~~
+.. code-block:: bash
+
+    conda install -c conda-forge hydrotoolbox
+
+
+Usage - Command Line
+--------------------
+Just run 'hydrotoolbox --help' to get a list of subcommands::
+
+
+    usage: hydrotoolbox [-h] [-v] {baseflow_sep,recession,about} ...
+
+    positional arguments:
+      {baseflow_sep,recession,about}
+        baseflow_sep        baseflow_sep subcommand
+        recession           Recession coefficient.
+        about               Display version number and system information.
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -v, --version         show program's version number and exit
+
+The default for all of the subcommands is to accept data from stdin (typically
+a pipe).  If a subcommand accepts an input file for an argument, you can use
+"--input_ts=input_file_name.csv", or to explicitly specify from stdin (the
+default) "--input_ts='-'".
+
+For the subcommands that output data it is printed to the screen and you can
+then redirect to a file.
+
+Usage - API
+-----------
+You can use all of the command line subcommands as functions.  The function
+signature is identical to the command line subcommands.  The return is always
+a PANDAS DataFrame.  Input can be a CSV or TAB separated file, or a PANDAS
+DataFrame and is supplied to the function via the 'input_ts' keyword.
+
+Simply import hydrotoolbox::
+
+    from hydrotoolbox import hydrotoolbox
+
+    # Then you could call the functions
+    ntsd = hydrotoolbox.baseflow_sep(method='broughton', input_ts='tests/test_fill_01.csv')
