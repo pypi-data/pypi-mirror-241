@@ -1,0 +1,15 @@
+[package]
+name = "mudderpy"
+version = "0.1.4"
+edition = "2021"
+description = "Generate lexicographically-spaced strings between two strings from pre-defined alphabets."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "mudderpy"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.19.0"
+mudder = { path = "../mudder" }
