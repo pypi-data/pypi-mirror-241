@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_mnist_canvas/__init__.py
+streamlit_mnist_canvas.egg-info/PKG-INFO
+streamlit_mnist_canvas.egg-info/SOURCES.txt
+streamlit_mnist_canvas.egg-info/dependency_links.txt
+streamlit_mnist_canvas.egg-info/top_level.txt
+streamlit_mnist_canvas/frontend/index.html
+streamlit_mnist_canvas/frontend/main.js
+streamlit_mnist_canvas/frontend/streamlit-component-lib.js
+streamlit_mnist_canvas/frontend/style.css
