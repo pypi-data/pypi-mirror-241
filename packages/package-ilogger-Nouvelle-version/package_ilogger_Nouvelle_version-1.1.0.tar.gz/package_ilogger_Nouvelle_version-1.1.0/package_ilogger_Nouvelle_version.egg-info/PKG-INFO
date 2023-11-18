@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: package-ilogger-Nouvelle-version
+Version: 1.1.0
+Summary: ceci est la nouvelle version du package ilogger
+Home-page: https://github.com/BaoulyNelson/package_ilogger-version2.git
+Author: Nelson Baouly
+Author-email: elconquistadorbaoulyn@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.9

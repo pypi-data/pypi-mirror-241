@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+ilogger/__init__.py
+ilogger/ilogger.py
+package_ilogger_Nouvelle_version.egg-info/PKG-INFO
+package_ilogger_Nouvelle_version.egg-info/SOURCES.txt
+package_ilogger_Nouvelle_version.egg-info/dependency_links.txt
+package_ilogger_Nouvelle_version.egg-info/entry_points.txt
+package_ilogger_Nouvelle_version.egg-info/top_level.txt
+test/__init__.py
+test/test_ilogger.py

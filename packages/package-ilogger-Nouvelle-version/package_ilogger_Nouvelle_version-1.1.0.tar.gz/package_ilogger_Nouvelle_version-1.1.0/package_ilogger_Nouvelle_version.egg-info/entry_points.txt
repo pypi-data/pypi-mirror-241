@@ -1,0 +1,2 @@
+[console_scripts]
+monprojetpython = monprojetpython.main:main
