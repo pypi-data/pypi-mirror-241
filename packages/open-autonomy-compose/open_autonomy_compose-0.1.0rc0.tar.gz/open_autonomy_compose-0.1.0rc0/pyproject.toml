@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "open-autonomy-compose"
+version = "0.1.0.rc0"
+description = "FSM Composer for open-autonomy framework"
+authors = ["angrybayblade <vptl185@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+clea = "0.1.0rc3"
+black = "23.1.0"
+flask = "2.1.3"
+pyyaml = "6.0.1"
+uvicorn = "0.24.0.post1"
+starlette = "0.32.0.post1"
+open-autonomy = {version = "0.13.4", extras = ["all"]}
+
+[tool.poetry.scripts]
+compose = "open_autonomy_compose.cli:main"
+
+[tool.poetry.group.development.dependencies]
+tomte = {version = "==0.2.13", extras = ["tests", "cli", "tox"]}
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+open_autonomy_compose = ["*.html", "*.js", "*.css", "*.svg", "*.woff2", "*.txt"]
