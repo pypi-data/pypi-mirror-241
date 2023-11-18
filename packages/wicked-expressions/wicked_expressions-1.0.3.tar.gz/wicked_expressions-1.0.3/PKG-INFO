@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: wicked_expressions
+Version: 1.0.3
+Summary: Extension of bolt-expressions written in Bolt.
+Home-page: https://github.com/reapermc/wicked-expressions
+License: MIT
+Keywords: beet,bolt,minecraft,minecraft-commands,mcfunction
+Author: Yeti
+Author-email: arcticyeti1@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beet (>=0.89.1)
+Requires-Dist: bolt (>=0.36.0)
+Requires-Dist: bolt-expressions (>=0.12.2)
+Requires-Dist: mecha (>=0.73.0)
+Description-Content-Type: text/markdown
+
+# wicked-expressions
+
+[![GitHub Actions](https://github.com/reapermc/wicked-expressions/workflows/CI/badge.svg)](https://github.com/reapermc/wicked-expressions/actions)
+
+> Extension of bolt-expressions written in Bolt.
+
+
+## Introduction
+
+This is an extension of the [bolt-expressions](https://github.com/rx-modules/bolt-expressions) package. I highly recommend getting accustom to the original before using this one. This package is meant to build upon it by adding more functionality.
+
+
+```py
+from wicked_expressions:api import Scoreboard, Var, Float
+
+foo = Scoreboard('demo')['$foo']
+bar = Var(Float, 3.14159)
+
+foo = 123
+data_0 = 30
+
+if foo == 1:
+    tellraw @a "foo == 1"
+else:
+    tellraw @a "foo != 1"
+
+if bar == 3.14159:
+    tellraw @a "yes :3"
+else:
+    tellraw @a "no :<"
+```
+
+## Installation
+
+```bash
+pip install wicked_expressions
+```
+
+## Getting started
+
+The library is designed to be used within any `bolt` script (either a `.mcfunction` or `bolt` file) inside a `bolt` enabled project.
+
+```yaml
+require:
+    - bolt
+    - wicked_expressions
+
+pipeline:
+    - mecha
+```
+
+Once you've required `bolt` and `wicked_expressions`, you are able to import the package's `api` module directly inside your bolt script.
+
+Most of the imports come from the `wicked_expressions:api` module as shown below.
+
+```py
+from wicked_expressions:api import Scoreboard
+```
+
+Now you're free to use the API. Use simple and complex expressions, compare expressions and have access to many more features of the library!
+
+
+## Documentation
+
+Docs available [here](./docs/home.md).
+
+## Features
+
+- Most if not all the functionality of [bolt-expressions](https://github.com/rx-modules/bolt-expressions).
+- Built in score & data comparison using python's comparison operators.
+- Useful functions and methods especially for bolt library developers such as `.store()` and `.get()`.
+- Anonymous runtime variables.
+- DataStash feature allowing per-entity data.
+
+---
+
+License - [MIT](https://github.com/reapermc/wicked-expressions/blob/main/LICENSE)
+

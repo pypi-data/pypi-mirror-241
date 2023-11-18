@@ -1,0 +1,9 @@
+
+
+class Config:
+    LIBRARY_NAME = 'wicked_expressions'
+    GLOBAL_DIR = f"reapermc:{LIBRARY_NAME}"
+    LOCAL_DIR = generate_path(f"reapermc/{LIBRARY_NAME}")
+    SCOREBOARD_ROOT = f"reapermc.{LIBRARY_NAME}"
+    STORAGE_ROOT = f"reapermc:{LIBRARY_NAME}"
+    TAG_ROOT = f"reapermc.{LIBRARY_NAME}"
