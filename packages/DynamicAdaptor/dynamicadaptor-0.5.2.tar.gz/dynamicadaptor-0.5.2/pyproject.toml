@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "DynamicAdaptor"
+version = "0.5.2"
+description = ""
+authors = ["DMC <lzxder@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.0"
+pydantic = "^1.10.4"
+loguru = "^0.6.0"
+
+
+[[tool.poetry.source]]
+name = "ts"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
