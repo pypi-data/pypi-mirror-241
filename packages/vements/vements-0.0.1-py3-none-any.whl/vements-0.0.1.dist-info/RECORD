@@ -1,0 +1,8 @@
+src/vements/__main__.py,sha256=XahJv0vwJZOdnRnNSIeVCkxrct892NlSid1DC_djhk4,328
+src/vements/api.py,sha256=eQngvxdDC3CUNOPoZSozmpIv_a2ojoPiW9pqZ_7nE_o,25920
+src/vements/client.py,sha256=CXDCfxusRCSACdxFQ1GsNiwOXF7HoZP_UBVDd6iT7EY,3045
+src/vements/config.py,sha256=uNjhKobIdKW-slFHmGGIRYFtPN7kEp_pvwnHpx6AxYM,5593
+src/vements/types.py,sha256=FYuX9uwiRYqncGb79DJhrEfS_OusKd7GC0b3XfeyfOw,17818
+vements-0.0.1.dist-info/METADATA,sha256=wyM2kkkv0fBGfwmuoZ_Bl4WNfadu8VZ8pTqPYS2Ktz0,2419
+vements-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+vements-0.0.1.dist-info/RECORD,,
