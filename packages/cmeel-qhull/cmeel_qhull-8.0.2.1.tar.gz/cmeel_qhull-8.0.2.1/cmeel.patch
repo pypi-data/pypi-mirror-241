@@ -1,0 +1,29 @@
+--- qhull/CMakeLists.txt.orig	2023-11-17 15:12:53.397322342 +0100
++++ qhull/CMakeLists.txt	2023-11-17 15:13:50.633703590 +0100
+@@ -370,8 +370,6 @@
+ if(UNIX)
+     target_link_libraries(${qhull_SHAREDR} m)
+     if(APPLE)
+-        set_target_properties(${qhull_SHAREDR} PROPERTIES 
+-            INSTALL_NAME_DIR "${LIB_INSTALL_DIR}")
+     else()
+         set_target_properties(${qhull_SHAREDR} PROPERTIES 
+             INSTALL_RPATH "${LIB_INSTALL_DIR}"
+@@ -397,8 +395,6 @@
+ if(UNIX)
+     target_link_libraries(${qhull_SHARED} m)
+     if(APPLE)
+-        set_target_properties(${qhull_SHARED} PROPERTIES 
+-            INSTALL_NAME_DIR "${LIB_INSTALL_DIR}")
+     else()
+         set_target_properties(${qhull_SHARED} PROPERTIES 
+             INSTALL_RPATH "${LIB_INSTALL_DIR}"
+@@ -425,8 +421,6 @@
+ if(UNIX)
+     target_link_libraries(${qhull_SHAREDP} m)
+     if(APPLE)
+-        set_target_properties(${qhull_SHAREDP} PROPERTIES 
+-            INSTALL_NAME_DIR "${LIB_INSTALL_DIR}")
+     else()
+         set_target_properties(${qhull_SHAREDP} PROPERTIES 
+             INSTALL_RPATH "${LIB_INSTALL_DIR}"
