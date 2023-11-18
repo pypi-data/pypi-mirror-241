@@ -1,0 +1,4 @@
+numpy~=1.22
+scikit-survival~=0.22
+tensorflow>=2.11
+tensorflow-probability>=0.19
