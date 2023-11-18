@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dsf-cli
+Version: 1.0.28
+Summary: CLI for gateway, asset CRUD on DSF via API.
+Home-page: https://github.com/imperva/dsf-cli
+Author: Joe Moore
+Author-email: joe.moore@imperva.com
+License: Imperva-Community Developer License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE.md
+Requires-Dist: urllib3
+Requires-Dist: certifi
+Requires-Dist: six
+
+The package provides a simple to use CLI that reflects industry standards (such as the AWS cli), and enables customers to manage DSF configurations and processes via the [DSF Open API](https://docs.imperva.com/bundle/v4.13-sonar-user-guide/page/84552.htm) easily integrating into configurations management, orchestration or automation frameworks to support the DevOps model.

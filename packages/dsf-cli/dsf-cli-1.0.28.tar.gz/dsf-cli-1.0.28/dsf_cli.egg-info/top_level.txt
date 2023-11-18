@@ -1,0 +1,4 @@
+dist
+dsfcli
+scripts
+swagger_client
