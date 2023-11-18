@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+readme.md
+src/MusicStream/Metadata.py
+src/MusicStream/Playlist.py
+src/MusicStream/Spotify.py
+src/MusicStream/YoutubeMusic.py
+src/MusicStream/__init__.py
+src/MusicStream/cli.py
+src/musicstream.egg-info/PKG-INFO
+src/musicstream.egg-info/SOURCES.txt
+src/musicstream.egg-info/dependency_links.txt
+src/musicstream.egg-info/top_level.txt
