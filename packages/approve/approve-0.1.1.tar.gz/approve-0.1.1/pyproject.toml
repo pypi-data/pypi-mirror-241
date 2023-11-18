@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "approve"
+authors = [
+    {name = "Robert Moerman", email = "robert.william.moerman@gmail.com"},
+]
+description = "A PyTorch Geometric implementation of APPrOVE: Approximate Personalized Propagation Over Varied Edges. APPrOVE extends the well-known personalized PageRank algorithm to heterogeneous graphs (graphs with varied edges)."
+readme = "README.md"
+requires-python = ">=3.8,<3.12"
+keywords = [
+    "deep-learning",
+    "pytorch",
+    "geometric-deep-learning",
+    "graph-neural-networks",
+]
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "torch",
+    "torch_geometric",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+version = {attr = "approve.__version__"}
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "black",
+    "flake8",
+    "mypy",
+    "isort",
+    "jupyter",
+    "pytest",
+    "pytest-cov",
+]
+docs = [
+    "sphinx-rtd-theme",
+    "toml",
+    "types-toml",
+]
+
+[tool.black]
+line-length = 79
+
+[tool.mypy]
+files = [
+    "./tests/*.py", 
+    "./src/**/*.py",
+]
+ignore_missing_imports = true
+
+[tool.isort]
+line_length = 79
+
+[tool.pytest.ini_options]
+addopts = "-v --cov=src --cov-report xml"
+pythonpath = "src"
