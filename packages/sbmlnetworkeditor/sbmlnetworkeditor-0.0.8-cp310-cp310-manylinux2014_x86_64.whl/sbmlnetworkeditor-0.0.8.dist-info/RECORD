@@ -1,0 +1,10 @@
+sbmlnetworkeditor/__init__.py,sha256=EgPUe4VOPVdYO3FszjrWJfba04QQtlY0tp7bdJg0mws,110
+sbmlnetworkeditor/_libsbmlnetworkeditor.so,sha256=jwErhk1W5T_hP7n871cQ2vdcVCvnM479DKOW1kXKHvk,4300888
+sbmlnetworkeditor/sbmlnetworkeditor.py,sha256=KL2rhuwCzg8Qe-U5YdWdKqBe3nYMy7guABG9yYKFi1w,3720
+sbmlnetworkeditor/dependencies/libsbml.so,sha256=1l-R4MQrkrGRhVlFkZmTfL0Yp3hHAps4gkby0_8MB64,8614504
+sbmlnetworkeditor/dependencies/libsbml.so.5,sha256=1l-R4MQrkrGRhVlFkZmTfL0Yp3hHAps4gkby0_8MB64,8614504
+sbmlnetworkeditor/dependencies/libsbml.so.5.20.2,sha256=1l-R4MQrkrGRhVlFkZmTfL0Yp3hHAps4gkby0_8MB64,8614504
+sbmlnetworkeditor-0.0.8.dist-info/METADATA,sha256=CRtOZsYoxfqWZ1bCj_8FpWINdBbW6y_BLBT1aeAdGKA,976
+sbmlnetworkeditor-0.0.8.dist-info/WHEEL,sha256=G8ZqDEJqZxFPSU-wASIgDCfKvAbgBYGVtd2KtUUO5yo,113
+sbmlnetworkeditor-0.0.8.dist-info/top_level.txt,sha256=MsIfAQpRq4ZILgMpwv8mv6EzC1pGUHsy5H2F6UYUCcY,18
+sbmlnetworkeditor-0.0.8.dist-info/RECORD,,
