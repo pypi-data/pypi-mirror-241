@@ -1,0 +1,26 @@
+- name: Load ansible variables
+  ansible.builtin.include_vars: ansible.vars.yml
+
+- name: Ensure user ansible collections directory exists
+  ansible.builtin.file:
+    path: "{{ ansible_collections_path }}"
+    state: directory
+    mode: '0700'
+
+- name: Check if community.general collection is installed
+  ansible.builtin.command:
+    cmd: ansible-galaxy collection list --collections-path "{{ ansible_collections_path }}"
+  register: installed_collections
+  changed_when: false
+
+- name: Install community.general collection
+  ansible.builtin.shell:
+    cmd: ansible-galaxy collection install community.general --collections-path "{{ ansible_collections_path }}"
+  register: installed_community_general
+  when: "'community.general' not in installed_collections.stdout"
+  changed_when: "'community.general' in installed_collections.stdout"
+
+- name: Load new ansible collections
+  ansible.builtin.meta: refresh_handlers=True
+  when: installed_community_general.changed
+  changed_when: false
