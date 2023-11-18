@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: scelephant
+Version: 0.2.2
+Summary: SC-Elephant (Single-Cell Extremely Large Data Analysis Platform)
+Home-page: https://github.com/ahs2202/scelephant
+Author: Hyunsu An
+Author-email: ahs2202@gm.gist.ac.kr
+License: GPLv3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: managed-file-system-operator (>=0.0.1)
+Requires-Dist: zarr (>=2.16.0)
+Requires-Dist: fsspec (>=2023.6.0)
+Requires-Dist: s3fs (>=2023.6.0)
+Requires-Dist: numcodecs (>=0.9.1)
+Requires-Dist: bitarray (>=2.4.1)
+Requires-Dist: scanpy (>=1.9.1)
+Requires-Dist: tqdm (>=4.64.0)
+Requires-Dist: pynndescent (>=0.5.7)
+Requires-Dist: scipy (>=1.7.3)
+Requires-Dist: numba (>=0.55.2)
+Requires-Dist: hdbscan (>=0.8.28)
+Requires-Dist: leidenalg (>=0.8.10)
+Requires-Dist: igraph (>=0.9.11)
+Requires-Dist: h5py (>=3.8.0)
+
+![scelephant-logo](https://raw.githubusercontent.com/ahs2202/scelephant/master/doc/img/scelephant_logo.png)
+
+# SC-Elephant (Single-Cell Extremely Large Data Analysis Platform)
+
+[![PyPI version](https://badge.fury.io/py/scelephant.svg)](https://badge.fury.io/py/scelephant)
+
+`SC-Elephant` utilizes `RamData`, a novel single-cell data storage format, to support a wide range of single-cell bioinformatics applications in a highly scalable manner, while providing a convenient interface to export any subset of the single-cell data in `SCANPY`'s `AnnData` format, enabling efficient downstream analysis the cells of interest. The analysis result can then be made available to other researchers by updating the original `RamData`, which can be stored in cloud storage like `AWS` (or any AWS-like object storage).
+
+
+
+`SC-Elephant` and `RamData` enable real-time sharing of extremely large single-cell data using a browser-based analysis platform as it is being modified on the cloud by multiple other researchers, convenient integration of a local single-cell dataset with multiple large remote datasets (`RamData` objects uploaded by other researchers), and remote (private) collaboration on an extremely large-scale single-cell genomics dataset. 
+
+
+
+Tutorials can be found at `doc/jn/`
+
+[Tutorials) PBMC3k processing and analysis using SC-Elephant](https://scelephant-free.s3.amazonaws.com/doc/SC-Elephant_PBMC3k_processing_and_analysis_tutorials.html)
+
+[Tutorials) Alignment of PBMC3k to the ELDB (320,000 subset) and cell type prediction using SC-Elephant](https://scelephant-free.s3.amazonaws.com/doc/SC-Elephant_PBMC3k_alignment_to_the_ELDB_subset_320k_tutorials.html)
+
+
+
+Briefly, a <tt>RamData</tt> object is composed of two <b><tt>RamDataAxis</tt></b> (<b>Axis</b>) objects and multiple <b><tt>RamDataLayer</tt></b> (<b>Layer</b>) objects.
+
+![ramdata_struc](https://raw.githubusercontent.com/ahs2202/scelephant/master/doc/img/ramdata_struc.png)
+
+
+
+The two RamDataAxis objects, <b>'Barcode'</b> and <b>'Feature'</b> objects, use <b><tt>'filter'</tt></b> to select cells (barcodes) and genes (features) before retrieving data from the <tt>RamData</tt> object, respectively.
+
+![ramdata_struc](https://raw.githubusercontent.com/ahs2202/scelephant/master/doc/img/ramtx_sparse_matrix.png)
+
+`RamData` employs `RAMtx` (Random-accessible matrix) objects to store count matrix in sparse or dense formats.
+
+
+
+For a demonstration of the use of `RamData` object on a web browser, please visit http://scelephant.org/
+
+![scelephant-js-example](https://raw.githubusercontent.com/ahs2202/scelephant/master/doc/img/scelephant_js_example.png)
