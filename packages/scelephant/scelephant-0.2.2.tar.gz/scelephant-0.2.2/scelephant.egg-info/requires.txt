@@ -1,0 +1,15 @@
+managed-file-system-operator>=0.0.1
+zarr>=2.16.0
+fsspec>=2023.6.0
+s3fs>=2023.6.0
+numcodecs>=0.9.1
+bitarray>=2.4.1
+scanpy>=1.9.1
+tqdm>=4.64.0
+pynndescent>=0.5.7
+scipy>=1.7.3
+numba>=0.55.2
+hdbscan>=0.8.28
+leidenalg>=0.8.10
+igraph>=0.9.11
+h5py>=3.8.0
