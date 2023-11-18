@@ -1,0 +1,14 @@
+---
+source: crates/ruff_python_ast/tests/preorder.rs
+expression: trace
+---
+- ModModule
+  - StmtClassDef
+    - TypeParamTypeVar
+      - ExprName
+    - TypeParamTypeVar
+    - TypeParamTypeVarTuple
+    - TypeParamParamSpec
+    - StmtExpr
+      - ExprEllipsisLiteral
+
