@@ -1,0 +1,11 @@
+pandas:                     timeseries
+gluonts:                    timeseries
+numpy==1.23.5:              timeseries
+neuralforecast:             timeseries
+mxnet:                      timeseries
+pmdarima:                   timeseries
+fasttext-wheel:             nlp
+transformers:               nlp, image
+scikit-image:               image
+imageio[opencv]:            image
+imageio[pyav]:              image

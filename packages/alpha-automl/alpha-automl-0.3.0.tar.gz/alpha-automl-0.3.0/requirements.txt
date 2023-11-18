@@ -1,0 +1,11 @@
+scipy
+scikit-learn
+torch>=1.7
+nltk
+pipelineprofiler
+pandas
+datamart_profiler
+feature_engine
+xgboost
+lightgbm
+numpy
