@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cloudboot
+Version: 0.1.0b1
+Summary: A groovy collection of easy-peasy scripts and serverless ready templates for Google Cloud serverless computing!
+Home-page: https://cloudboot.github.io
+Author: Lahiru Pathirage
+Author-email: lpsandaruwan@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: inquirerpy
+Requires-Dist: requests
+Requires-Dist: termcolor
+Requires-Dist: pyfiglet
