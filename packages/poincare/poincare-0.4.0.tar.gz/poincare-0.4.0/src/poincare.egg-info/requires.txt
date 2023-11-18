@@ -1,0 +1,17 @@
+numpy
+pandas
+pint
+pint-pandas
+scipy
+symbolite>=0.4
+tabulate
+typing_extensions
+
+[full]
+ipywidgets
+
+[test]
+jax[cpu]
+matplotlib
+numba
+pytest
