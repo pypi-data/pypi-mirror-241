@@ -1,0 +1,383 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=65.5.1",
+]
+
+[project]
+name = "package-name-to-install-with"
+version = "0.0.4"
+description = "A small example package"
+keywords = [
+  "development",
+  "packaging",
+  "sample",
+  "setuptools",
+]
+license = { text = "mit" } # license = { file = "LICENSE.txt" }
+maintainers = [
+  { name = "Anirban Ray" },
+  { email = "39331844+yarnabrina@users.noreply.github.com" },
+  { name = "First Maintainer", email = "first.maintainer@example.com" },
+  { name = "Second Maintainer", email = "second.maintainer@example.com" },
+]
+authors = [
+  { name = "Anirban Ray" },
+  { email = "39331844+yarnabrina@users.noreply.github.com" },
+  { name = "First Author", email = "first.author@example.com" },
+  { name = "Second Author", email = "second.author@example.com" },
+]
+requires-python = ">=3.10, <3.13"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Framework :: Flake8",
+  "Framework :: Pydantic",
+  "Framework :: Pytest",
+  "Framework :: Sphinx",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+]
+dynamic=[
+  "readme",
+]
+dependencies = [
+  "pydantic<3,>=2.4.2",
+  "PySimpleGUI<4.61,>=4.60.4",
+]
+[project.optional-dependencies]
+all = [
+  "autoflake",
+  "bandit",
+  "black",
+  "blacken-docs",
+  "build",
+  "codespell",
+  "coverage[toml]",
+  "docformatter[tomli]",
+  "flake8",
+  "furo",
+  "hypothesis[pytest]",
+  "interrogate",
+  "isort",
+  "mypy",
+  "nox",
+  "pre-commit",
+  "pydocstyle[toml]",
+  "pylint",
+  "pyproject-fmt",
+  "pyright",
+  "pytest",
+  "pyupgrade",
+  "Sphinx",
+  "sphinx-copybutton",
+  "twine",
+  "validate-pyproject",
+  "vulture",
+]
+dev = [
+  "codespell",
+  "nox",
+  "pre-commit",
+]
+doc = [
+  "furo",
+  "Sphinx",
+  "sphinx-copybutton",
+]
+format = [
+  "autoflake",
+  "black",
+  "blacken-docs",
+  "docformatter[tomli]",
+  "isort",
+  "pyproject-fmt",
+  "pyupgrade",
+]
+lint = [
+  "bandit",
+  "flake8",
+  "interrogate",
+  "mypy",
+  "pydocstyle[toml]",
+  "pylint",
+  "pyright",
+  "validate-pyproject",
+  "vulture",
+]
+release = [
+  "build",
+  "twine",
+]
+test = [
+  "coverage[toml]",
+  "hypothesis[pytest]",
+  "pytest",
+]
+[project.urls]
+"Bug Tracker" = "https://github.com/yarnabrina/learn-python-packaging/issues"
+"Documentation" = "https://learn-python-packaging.readthedocs.io"
+"Source Code" = "https://github.com/yarnabrina/learn-python-packaging"
+[project.scripts]
+console-calculator = "module_that_can_be_invoked_from_cli:console_calculator"
+[project.gui-scripts]
+gui-calculator = "module_that_can_invoke_gui_from_cli:gui_calculator"
+
+[tool.setuptools]
+py-modules = [
+  "module_that_can_be_imported_directly",
+  "module_that_can_be_invoked_from_cli",
+  "module_that_can_invoke_gui_from_cli",
+]
+
+[tool.setuptools.dynamic]
+readme = { file = "README.md", content-type = "text/markdown" }
+
+[tool.setuptools.packages.find]
+where = [
+  "src",
+]
+include = [
+  "package_name_to_import_with*",
+]
+exclude = [
+  "*tests*",
+]
+namespaces = false
+
+[tool.setuptools.package-data]
+"package_name_to_import_with" = [
+  "metadata.json",
+  "py.typed",
+]
+
+[tool.setuptools.exclude-package-data]
+"*" = [
+  ".gitattributes",
+  ".gitignore",
+]
+
+[tool.black]
+line-length = 99
+target-version = [
+  "py310",
+]
+safe = true
+
+[tool.ruff]
+extend-exclude = [
+  "*.pyi",
+]
+fix = true
+ignore = [
+  "COM",
+  "D203",
+  "D213",
+  "DTZ",
+  "EM",
+  "FBT",
+  "FIX",
+  "G",
+  "ICN",
+  "PD",
+  "RET501",
+  "RET502",
+  "RET503",
+  "RET504",
+  "SLF",
+  "TRY003",
+]
+ignore-init-module-imports = true
+line-length = 99
+output-format = "grouped"
+select = [
+  "ALL",
+]
+src = [
+  "src",
+]
+target-version = "py310"
+
+[tool.ruff.flake8-annotations]
+allow-star-arg-any = true
+ignore-fully-untyped = true
+
+[tool.ruff.flake8-bugbear]
+extend-immutable-calls = [
+  "fastapi.Depends",
+  "fastapi.Query",
+  "pydantic.Field",
+]
+
+[tool.ruff.flake8-type-checking]
+exempt-modules = [
+  "typing",
+  "typing_extensions",
+]
+runtime-evaluated-base-classes = [
+  "pydantic.BaseModel",
+]
+
+[tool.ruff.pep8-naming]
+classmethod-decorators = [
+  "pydantic.field_validator",
+]
+
+[tool.ruff.per-file-ignores]
+"**/__init__.py" = [
+  "F401",
+]
+"**/test_*.py" = [
+  "S101",
+]
+
+[tool.ruff.pycodestyle]
+max-doc-length = 99
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
+ignore-decorators = [
+  "typing.overload",
+]
+
+[tool.ruff.pyupgrade]
+keep-runtime-typing = true
+
+[tool.isort]
+overwrite_in_place = true
+profile = "black"
+atomic = true
+float_to_top = true
+line_length = 99
+remove_redundant_aliases = true
+src_paths = [
+  "src",
+]
+py_version = 310
+
+[tool.pylint.main]
+extension-pkg-allow-list = [
+  "pydantic",
+]
+fail-under = 8.5
+jobs = 0
+recursive = true
+
+[tool.pylint.basic]
+include-naming-hint = true
+
+[tool.pylint.format]
+max-line-length = 99
+
+[tool.pylint.logging]
+logging-format-style = "new"
+
+[tool.pylint."messages control"]
+enable = [
+  "all",
+]
+disable = [
+  "logging-fstring-interpolation",
+]
+
+[tool.pylint.reports]
+output-format = "colorized"
+
+[tool.docformatter]
+in-place = true
+recursive = true
+wrap-summaries = 99
+wrap-descriptions = 99
+
+[tool.pytest.ini_options]
+addopts = "--junit-xml=pytest_junit_report.xml --doctest-modules --doctest-ignore-import-errors --doctest-continue-on-failure"
+console_output_style = "count"
+
+[tool.coverage.run]
+branch = true
+command_line = "--module pytest"
+data_file = "coverage_data"
+include = [
+  "src/**/*.py",
+]
+omit = [
+  "**/tests/*.py",
+]
+
+[tool.coverage.report]
+fail_under = 85
+include = [
+  "src/**/*.py",
+]
+omit = [
+  "**/tests/*.py",
+]
+precision = 2
+exclude_lines = [
+  "pragma: no cover",
+  "if __name__ == .__main__.:",
+  "if typing.TYPE_CHECKING:",
+]
+
+[tool.coverage.html]
+directory = "coverage_html_report"
+
+[tool.coverage.xml]
+output = "coverage_xml_report.xml"
+
+[tool.mypy]
+files = [
+  "src",
+]
+exclude = [
+  "conftest",
+  "test_",
+]
+strict = true
+
+[[tool.mypy.overrides]]
+module = "PySimpleGUI"
+ignore_missing_imports = true
+
+[tool.pyright]
+include = [
+  "src",
+]
+exclude = [
+  "**/tests/*.py",
+]
+pythonVersion = "3.10"
+reportMissingImports = false
+
+[tool.autoflake]
+in-place = true
+remove-all-unused-imports = true
+recursive = true
+expand-star-imports = true
+ignore-init-module-imports = true
+remove-duplicate-keys = true
+remove-unused-variables = true
+
+[tool.interrogate]
+fail-under = 85
+ignore-init-method = true
+
+[tool.pydocstyle]
+convention = "numpy"
+
+[tool.vulture]
+min_confidence = 100
+paths = [
+  "src",
+]
