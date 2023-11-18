@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mongo_db_operator/DbClassOperator.py
+src/mongo_db_operator/DbClassOperators.py
+src/mongo_db_operator/DbConnector.py
+src/mongo_db_operator/MongoDbOperator.py
+src/mongo_db_operator/__init__.py
+src/mongo_db_operator.egg-info/PKG-INFO
+src/mongo_db_operator.egg-info/SOURCES.txt
+src/mongo_db_operator.egg-info/dependency_links.txt
+src/mongo_db_operator.egg-info/requires.txt
+src/mongo_db_operator.egg-info/top_level.txt
