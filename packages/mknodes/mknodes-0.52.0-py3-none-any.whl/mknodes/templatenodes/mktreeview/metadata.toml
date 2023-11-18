@@ -1,0 +1,24 @@
+[metadata]
+icon = "mdi:file-tree-outline"
+name = "MkTreeView"
+
+[examples.regular]
+title = "Different styles"
+jinja = """
+{% for style in ["regular", "ansi", "ascii", "rounded", "spaces"] %}
+{{ "mknodes/manual" | MkTreeView(style=style) }}
+{% endfor %}
+"""
+
+# [examples.remote]
+# title = "Files from a repote path"
+# jinja = """
+# {{ "github://" | MkTreeView(storage_options={"org": "mkdocstrings", "repo": "mkocstrings"}, maximum_depth=2) }}
+# """
+
+[output.markdown]
+template = """
+{{ node.fence_boundary }} 
+{{ node.tree.get_tree_repr(style=node.style, max_depth=node.maximum_depth) }}
+{{ node.fence_boundary }}
+"""

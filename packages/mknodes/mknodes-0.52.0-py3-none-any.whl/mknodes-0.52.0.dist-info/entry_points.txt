@@ -1,0 +1,2 @@
+[jinjarope.environment]
+mknodes = mknodes.utils.jinjahelpers:setup_env
