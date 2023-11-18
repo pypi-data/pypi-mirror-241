@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+felegToo.egg-info/PKG-INFO
+felegToo.egg-info/SOURCES.txt
+felegToo.egg-info/dependency_links.txt
+felegToo.egg-info/requires.txt
+felegToo.egg-info/top_level.txt
+tools/LIBzek.py
+tools/LIBzx.py
+tools/__init__.py
