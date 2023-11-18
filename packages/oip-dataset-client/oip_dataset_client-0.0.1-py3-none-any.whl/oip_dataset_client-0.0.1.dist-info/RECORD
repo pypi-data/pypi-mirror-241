@@ -1,0 +1,14 @@
+oip_dataset_client/HttpClient.py,sha256=NT_xepgBxQAN8FvZ4HNgvkC5gYBNsOs1qT0QC1jRhcU,10245
+oip_dataset_client/ParallelZipper.py,sha256=GDtZiPoPhAugee-AgGTe1tRjzPmMZQ4OmSw0J_LDgqE,11588
+oip_dataset_client/ServerFacade.py,sha256=Yvqbrjz9wVKM_H0ZlAAot0hdzR5Cu0J5yTFCwUkL5j8,3613
+oip_dataset_client/StorageManager.py,sha256=OMXuwTVOuiYBdVXgIkKEAK_XAI9VHUxSKQp1M9WGTaM,8198
+oip_dataset_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oip_dataset_client/dataset.py,sha256=3H0Fpk62aPHOEdhYDJBZo7Q0CjJCKlYBtOAeS4Lfw3U,58151
+oip_dataset_client/logger.py,sha256=pBhBEwwliff8o0yvGV4P7TxudGlcyRiW-HtTupWUGkI,1054
+oip_dataset_client/schema.py,sha256=0T4v9mXQTA2lrD6SDWJCWWW_Z3oKUSVNR892fhmXHc0,1913
+oip_dataset_client/utils.py,sha256=XSVFFGeWx2PPvuaApY4YgQqJ_GCkYaAzz5vYuc8Lnsc,6099
+oip_dataset_client/version.py,sha256=FPBwDE55muhn7ZHgcZcacg1mQxmS3rRPE2ULYnqVrd0,13583
+oip_dataset_client-0.0.1.dist-info/METADATA,sha256=qu6ccplDgMVeYdqlB4OEHUg7LWk8TmSqDgtgPJn9cJ0,10879
+oip_dataset_client-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oip_dataset_client-0.0.1.dist-info/top_level.txt,sha256=-uTlMCmq8OReAyjiC5OcVERuiBxjJTfpEVHgM1yzoKE,19
+oip_dataset_client-0.0.1.dist-info/RECORD,,
