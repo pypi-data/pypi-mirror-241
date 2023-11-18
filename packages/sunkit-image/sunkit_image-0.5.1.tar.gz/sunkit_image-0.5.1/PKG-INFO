@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: sunkit_image
+Version: 0.5.1
+Summary: A image processing toolbox for Solar Physics.
+Home-page: http://docs.sunpy.org/projects/sunkit-image/
+Author: The SunPy Community
+Author-email: sunpy@googlegroups.com
+License: BSD 2-Clause
+Keywords: solar physics,solar,science,sun,image analysis
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: astropy>=5.0.1
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: scipy>=1.6.0
+Requires-Dist: scikit-image>=0.19.0
+Requires-Dist: sunpy>=5.0.0
+Provides-Extra: dask
+Requires-Dist: dask[array]>=2021.4.0; extra == "dask"
+Provides-Extra: tests
+Requires-Dist: pytest-astropy; extra == "tests"
+Requires-Dist: pytest-mpl; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: astroscrappy; extra == "docs"
+Requires-Dist: beautifulsoup4; extra == "docs"
+Requires-Dist: dask; extra == "docs"
+Requires-Dist: drms; extra == "docs"
+Requires-Dist: importlib-resources<6; extra == "docs"
+Requires-Dist: matplotlib; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_automodapi; extra == "docs"
+Requires-Dist: sphinx-changelog; extra == "docs"
+Requires-Dist: sphinx-design; extra == "docs"
+Requires-Dist: sphinx-gallery; extra == "docs"
+Requires-Dist: sunpy-sphinx-theme; extra == "docs"
+Requires-Dist: zeep; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: dask[array]>=2021.4.0; extra == "dev"
+Requires-Dist: pytest-astropy; extra == "dev"
+Requires-Dist: pytest-mpl; extra == "dev"
+Requires-Dist: astroscrappy; extra == "dev"
+Requires-Dist: beautifulsoup4; extra == "dev"
+Requires-Dist: dask; extra == "dev"
+Requires-Dist: drms; extra == "dev"
+Requires-Dist: importlib-resources<6; extra == "dev"
+Requires-Dist: matplotlib; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx_automodapi; extra == "dev"
+Requires-Dist: sphinx-changelog; extra == "dev"
+Requires-Dist: sphinx-design; extra == "dev"
+Requires-Dist: sphinx-gallery; extra == "dev"
+Requires-Dist: sunpy-sphinx-theme; extra == "dev"
+Requires-Dist: zeep; extra == "dev"
+Provides-Extra: all
+Requires-Dist: dask[array]>=2021.4.0; extra == "all"
+
+``sunkit-image``
+================
+
+|Latest Version| |codecov| |Powered by NumFOCUS| |Powered by Sunpy|
+
+.. |Powered by Sunpy| image:: http://img.shields.io/badge/powered%20by-SunPy-orange.svg?style=flat
+   :target: https://www.sunpy.org
+.. |Latest Version| image:: https://img.shields.io/pypi/v/sunkit-image.svg
+   :target: https://pypi.python.org/pypi/sunkit-image/
+.. |codecov| image:: https://codecov.io/gh/sunpy/sunpy/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/sunpy/sunkit-image
+.. |Powered by NumFOCUS| image:: https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A
+   :target: http://numfocus.org
+
+``sunkit-image`` is a a open-source toolbox for solar physics image processing.
+Currently it is an experimental library for various solar physics specific image processing routines.
+
+See `sunkit-image Documentation`_ for instructions on how to install and contribute.
+
+Code of Conduct
+---------------
+
+When you are interacting with the SunPy community you are asked to follow our `Code of Conduct`_.
+
+.. _sunkit-image Documentation: https://docs.sunpy.org/projects/sunkit-image/en/stable/
