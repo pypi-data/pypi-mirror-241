@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "openlsa"
+version = "0.1.0"
+description = "A LSA tool to compute full-field displacement from an image series of periodic patterns"
+authors = ["Benoit Blaysat <benoit.blaysat@uca.fr>"]
+license = "GNU v2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13" 
+numpy = "^1.26.2"
+Pillow-PIL = "^0.1.dev0"
+scipy = "^1.11.3"
+scikit-image = "^0.22.0"
+opencv-python = "^4.8.1.78"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
