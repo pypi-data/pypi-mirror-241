@@ -1,0 +1,7 @@
+setup.py
+ascii_img_stuff.egg-info/PKG-INFO
+ascii_img_stuff.egg-info/SOURCES.txt
+ascii_img_stuff.egg-info/dependency_links.txt
+ascii_img_stuff.egg-info/entry_points.txt
+ascii_img_stuff.egg-info/requires.txt
+ascii_img_stuff.egg-info/top_level.txt
