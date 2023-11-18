@@ -1,0 +1,2 @@
+[napari.plugin]
+darth-d = darth_d._napari_plugin
