@@ -1,0 +1,13 @@
+*.vscode
+*env
+*.env
+*_build
+venv/
+**/__pycache__
+.pytest_cache
+.ipynb_checkpoints
+.tox
+build/
+dist/
+htmlcov
+*testlab
