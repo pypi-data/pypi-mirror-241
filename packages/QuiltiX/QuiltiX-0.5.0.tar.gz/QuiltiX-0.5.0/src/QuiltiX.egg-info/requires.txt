@@ -1,0 +1,13 @@
+materialx
+Qt.py
+PySide2>=5.12
+PyOpenGL
+PyOpenGL_accelerate
+NodeGraphQt-QuiltiX-fork
+
+[dev]
+black
+ruff
+pytest
+pytest-qt
+pytest-cov
