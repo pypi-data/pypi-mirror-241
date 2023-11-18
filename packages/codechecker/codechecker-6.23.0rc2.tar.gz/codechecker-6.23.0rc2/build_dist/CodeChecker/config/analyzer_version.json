@@ -1,0 +1,14 @@
+{
+    "git_describe": {
+        "dirty": "6.23-rc2-tainted",
+        "tag": "6.23-rc2"
+    },
+    "git_hash": "605ba1b9db6ed067c89a12f7055cc177b76f8ed6",
+    "package_build_date": "2023-11-17T11:58",
+    "version": {
+        "major": "6",
+        "minor": "23",
+        "rc": "2",
+        "revision": "0"
+    }
+}
