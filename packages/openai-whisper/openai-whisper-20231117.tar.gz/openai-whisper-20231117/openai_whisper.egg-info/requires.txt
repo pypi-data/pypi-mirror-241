@@ -1,0 +1,14 @@
+triton<3,>=2.0.0
+numba
+numpy
+torch
+tqdm
+more-itertools
+tiktoken
+
+[dev]
+pytest
+scipy
+black
+flake8
+isort
