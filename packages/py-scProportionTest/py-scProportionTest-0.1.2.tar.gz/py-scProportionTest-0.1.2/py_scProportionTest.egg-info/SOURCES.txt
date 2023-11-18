@@ -1,0 +1,14 @@
+README.rst
+setup.py
+py_scProportionTest.egg-info/PKG-INFO
+py_scProportionTest.egg-info/SOURCES.txt
+py_scProportionTest.egg-info/dependency_links.txt
+py_scProportionTest.egg-info/requires.txt
+py_scProportionTest.egg-info/top_level.txt
+scProportionTest/__init__.py
+scProportionTest/_cluster_map.py
+scProportionTest/_multiple_permutation_dot_plot.py
+scProportionTest/_multiple_permutation_test.py
+scProportionTest/_multiple_point_range_plot.py
+scProportionTest/_permutation_test.py
+scProportionTest/_point_range_plot.py
