@@ -1,0 +1,11 @@
+psinspect/__init__.py,sha256=CaxEQ-UbrSQ0wvG-cJZsRwvIglRr-wdvLLFf3jpZg1M,65
+psinspect/_version.py,sha256=Pv9ouMrHW4YJ2RqzWPcojtYRoZtNSgzCzgB3B3Q2FMU,411
+psinspect/app.ipynb,sha256=VEEUVBaxViY_pm8x56Ua7ZjzYmX4Zp70EsGDNavbdSE,2783710
+psinspect/app.py,sha256=Tn0SGLRQY0FOkvj80liOQFe6DpYmyu1hPKnAJ1UMSFs,52676
+psinspect/tests/test_app.py,sha256=cRRFthe7DfzdDYwZ5dpI7kWFCgQOAA25sQdGamNUKF4,465
+psinspect-0.0.0.dist-info/LICENSE,sha256=AVHgzl41-K7vdbLC0xz_4WhqWaLSl9FmyLVlmAo5Oow,1553
+psinspect-0.0.0.dist-info/METADATA,sha256=e7vmlKM9GVHnHZ6gGIc4bP2szR1MwNgcxcvkVyTHaTU,6319
+psinspect-0.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psinspect-0.0.0.dist-info/entry_points.txt,sha256=z4FzW8ASV5SIMFmUf2LJs1dv7W0Ko-vJJXgr43subME,48
+psinspect-0.0.0.dist-info/top_level.txt,sha256=Jd8lvhd3YC6_V0Va4dHfrjhA2rzT_9bGpwAcpNt_A8U,10
+psinspect-0.0.0.dist-info/RECORD,,
