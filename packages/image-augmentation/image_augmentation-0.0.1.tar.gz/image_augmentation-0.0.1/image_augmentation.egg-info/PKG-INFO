@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: image-augmentation
+Version: 0.0.1
+Summary: multidim_image_augmentation provides Tensorflow operations for 2D & 3D image augmentation.
+Author: Google Inc.
+Author-email: opensource@google.com
+License: Apache 2.0
+Keywords: tensorflow custom op machine learning image augmentation 3d
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: tensorflow>=2.10.0
+Requires-Dist: six>=1.10.0
+Requires-Dist: numpy>=1.20.0

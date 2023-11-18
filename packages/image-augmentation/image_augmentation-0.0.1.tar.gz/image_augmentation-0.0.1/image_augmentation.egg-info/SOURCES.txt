@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+setup.py
+image_augmentation.egg-info/PKG-INFO
+image_augmentation.egg-info/SOURCES.txt
+image_augmentation.egg-info/dependency_links.txt
+image_augmentation.egg-info/not-zip-safe
+image_augmentation.egg-info/requires.txt
+image_augmentation.egg-info/top_level.txt
+multidim_image_augmentation/__init__.py
+multidim_image_augmentation/deformation_utils.py
+multidim_image_augmentation/python/__init__.py
+multidim_image_augmentation/python/ops/__init__.py
+multidim_image_augmentation/python/ops/_augmentation_ops.so
+multidim_image_augmentation/python/ops/augmentation_ops.py
