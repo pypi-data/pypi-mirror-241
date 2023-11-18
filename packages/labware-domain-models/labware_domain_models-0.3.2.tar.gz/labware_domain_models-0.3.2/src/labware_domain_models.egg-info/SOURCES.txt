@@ -1,0 +1,12 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/labware_domain_models/__init__.py
+src/labware_domain_models/barcoded_sbs_labware.py
+src/labware_domain_models/exceptions.py
+src/labware_domain_models/labware_definitions.py
+src/labware_domain_models.egg-info/PKG-INFO
+src/labware_domain_models.egg-info/not-zip-safe

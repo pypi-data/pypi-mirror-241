@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: labware-domain-models
+Version: 0.3.2
+Summary: Business logic domain models for labware definitions and barcoded labware/microplates with SBS footprints.
+Home-page: https://github.com/CuriBio/labware-domain-models
+Author: Curi Bio
+Author-email: contact@curibio.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+
+UNKNOWN
+
