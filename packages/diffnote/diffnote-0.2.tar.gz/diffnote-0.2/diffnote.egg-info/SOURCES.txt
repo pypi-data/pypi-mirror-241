@@ -1,0 +1,9 @@
+README.md
+setup.py
+diffnote/diffnote.py
+diffnote.egg-info/PKG-INFO
+diffnote.egg-info/SOURCES.txt
+diffnote.egg-info/dependency_links.txt
+diffnote.egg-info/entry_points.txt
+diffnote.egg-info/requires.txt
+diffnote.egg-info/top_level.txt
