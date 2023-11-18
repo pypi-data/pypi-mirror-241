@@ -1,0 +1,10 @@
+click
+requests
+ploomber-core
+
+[dev]
+pytest
+flake8
+twine
+pkgmt
+ipdb
