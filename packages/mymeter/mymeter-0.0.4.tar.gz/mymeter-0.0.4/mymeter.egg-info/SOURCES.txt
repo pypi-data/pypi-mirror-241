@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mymeter/__init__.py
+mymeter/exceptions.py
+mymeter/mymeter.py
+mymeter.egg-info/PKG-INFO
+mymeter.egg-info/SOURCES.txt
+mymeter.egg-info/dependency_links.txt
+mymeter.egg-info/requires.txt
+mymeter.egg-info/top_level.txt
