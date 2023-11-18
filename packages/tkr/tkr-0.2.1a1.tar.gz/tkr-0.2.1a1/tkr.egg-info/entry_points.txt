@@ -1,0 +1,2 @@
+[console_scripts]
+tkr = tkr.cli:main
