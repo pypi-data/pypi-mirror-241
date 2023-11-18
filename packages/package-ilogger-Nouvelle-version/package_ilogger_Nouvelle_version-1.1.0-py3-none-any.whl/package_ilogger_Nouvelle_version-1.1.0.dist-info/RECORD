@@ -1,0 +1,9 @@
+ilogger/__init__.py,sha256=dXSsALz4FalcTpnewhlLFHpzqJy3teNuiZPlkAABkRA,49
+ilogger/ilogger.py,sha256=AT5M7IF_ZdBxNqxIsl4w3Nl4n1ASr-6oD5H3LaVG35Y,1117
+test/__init__.py,sha256=dXSsALz4FalcTpnewhlLFHpzqJy3teNuiZPlkAABkRA,49
+test/test_ilogger.py,sha256=M7_60H6uaOqy1adSoQAfH-hvKZXEEJ3bjsLCfMVhT-Q,627
+package_ilogger_Nouvelle_version-1.1.0.dist-info/METADATA,sha256=dKc2A8YZsRBzN1rsw729rlBz7mqdvMk-mQwGozWbZY4,355
+package_ilogger_Nouvelle_version-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+package_ilogger_Nouvelle_version-1.1.0.dist-info/entry_points.txt,sha256=uBJ6JluQZjwpl_tO9-XrIqxmdZRIBZkBN1ZSZYC4Acg,62
+package_ilogger_Nouvelle_version-1.1.0.dist-info/top_level.txt,sha256=7dN6BWTrzOJviSY1WVYTTkgQ7Tov1X1-5o5qiGjr8XQ,13
+package_ilogger_Nouvelle_version-1.1.0.dist-info/RECORD,,
