@@ -1,0 +1,8 @@
+vhcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhcs/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhcs/ext/daas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhcs/ext/daas/a.py,sha256=bFFd4YLPQa-_NTCzs_ezprm3ZDncG_MX9O8JNjWy7QU,14
+hcs_cli_ext_daas-0.1.166.dist-info/METADATA,sha256=gUWC6svzlaAAV8xxdf-TWULOZH1Pex_To6UU48wOqVA,879
+hcs_cli_ext_daas-0.1.166.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hcs_cli_ext_daas-0.1.166.dist-info/top_level.txt,sha256=oGjnYFI2qnYEMOXN-H2uAi9T8tzNIlif2VPsDae53ho,5
+hcs_cli_ext_daas-0.1.166.dist-info/RECORD,,
