@@ -1,0 +1,15 @@
+matrix-synapse
+sqlalchemy
+alembic
+attrs
+
+[dev]
+tox
+twisted
+matrix_synapse_testutils
+pydantic<2,>=1.7.4
+mypy==1.6.1
+black==23.10.0
+ruff==0.1.1
+build
+twine
