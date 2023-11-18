@@ -1,0 +1,4 @@
+include README.rst LICENSE
+recursive-include openapi_ui_bundles/rapidoc/vendor *
+recursive-include openapi_ui_bundles/redoc/vendor *
+recursive-include openapi_ui_bundles/swagger_ui/vendor *

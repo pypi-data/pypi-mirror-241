@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: openapi-ui-bundles
+Version: 0.2.0
+Summary: Python static file bundles for OpenAPI UI tools
+Home-page: https://github.com/dapper91/python-openapi-ui-bundles
+Author: Dmitry Pershin
+Author-email: dapper1291@gmail.com
+License: Apache Software License
+Project-URL: Source, https://github.com/dapper91/python-openapi_ui_bundles
+Keywords: documentation ,api-documentation,api-schema,swagger,swagger-ui,swagger-documentation,swagger-specification,openapi,openapi-ui,openapi-specification,openapi-documentation,redoc,rapidoc
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5
+License-File: LICENSE
+
+Python OpenAPI UI bundles
+=========================
+
+This package provides the static files for `OpenAPI <https://swagger.io/specification/>`_ UI tools as a python package.
+The following UI tools are included:
+
+- `Swagger UI <https://github.com/swagger-api/swagger-ui>`_.
+- `RapiDoc <https://github.com/mrin9/RapiDoc>`_.
+- `ReDoc <https://github.com/Redocly/redoc>`_.
+
+
+Flask usage example:
+~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: python
+
+    import flask
+    import openapi_ui_bundles
+
+    app = flask.Flask(__name__, static_folder=openapi_ui_bundles.swagger_ui.static_path, static_url_path='/')
+
+    if __name__ == "__main__":
+        app.run()
+
+
+Swagger UI
+----------
+
+.. image:: images/swagger-ui-screenshot.png
+  :width: 1024
+  :alt: Swagger UI example
+
+
+RapiDoc
+-------
+
+.. image:: images/rapidoc-screenshot.png
+  :width: 1024
+  :alt: RapiDoc UI example
+
+
+ReDoc
+-----
+
+.. image:: images/redoc-screenshot.png
+  :width: 1024
+  :alt: ReDoc UI example
