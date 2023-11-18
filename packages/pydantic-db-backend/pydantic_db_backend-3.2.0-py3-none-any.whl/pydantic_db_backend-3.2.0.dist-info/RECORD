@@ -1,0 +1,14 @@
+pydantic_db_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_db_backend/backend.py,sha256=1YiqDTpmwBWS43672Sr9jy3RmEpAlaoi5mOHEpmKeAU,6415
+pydantic_db_backend/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_db_backend/backends/couchdb.py,sha256=DVa2ZlF1s_9bz0nmYnh1pA-mXg0WbCQE2L6sdEgrQtU,8874
+pydantic_db_backend/backends/mongodb.py,sha256=MX0pDwsGvgrk1lbDx5FIVecU-R21zqRiIjZAvwA80-8,8610
+pydantic_db_backend/contexts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_db_backend/contexts/custom_aggregation.py,sha256=CJfIS64wMGXWYkKLadg1_x9ruqC-iC3VELrTuva1p5g,517
+pydantic_db_backend/contexts/pagination_parameter.py,sha256=WFkv0kA3VcDOeORNk9VUO5JBzju3HtbNe9F3fGKAvZo,620
+pydantic_db_backend/fastapi.py,sha256=Va46VFb5uFHU4qumKV7tbng7PeXutJgwu8fJt2pNZrs,797
+pydantic_db_backend/pagination.py,sha256=fS5nBxeuhoO-q9mj0SaS1aYYTEHSURt-JmDmNiEHTXo,1986
+pydantic_db_backend/utils.py,sha256=PhwI7khu4RLlsZEWcncURO-gQcAsmIhjD6xlnBFKauQ,1394
+pydantic_db_backend-3.2.0.dist-info/METADATA,sha256=083wvFKsBlly1H3AxDRmCvsNephOcb1GB1_XO0k4ITA,1867
+pydantic_db_backend-3.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pydantic_db_backend-3.2.0.dist-info/RECORD,,
