@@ -1,0 +1,7 @@
+parallelexec/__init__.py,sha256=nEKv_F8GutmPDw_WBQzuH-HADSXkDeTeUMVGKHdWmy8,48
+parallelexec/_cpu.py,sha256=jII-M3y-nQmZkFWFH5Qg_vA0A6gngeC0z0wWdJ6ERPU,169
+parallelexec/parallel_executioner.py,sha256=hZin-JPgGIagbk7bCY0Tbh536UrPjXlLp34avTJ4F_Q,3537
+parallelexec-0.0.1.dist-info/METADATA,sha256=VWAWuGQbcz9Zy0Yd9wMDLHLeAHW-YnfsF4DzwK5I5BQ,1029
+parallelexec-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+parallelexec-0.0.1.dist-info/top_level.txt,sha256=FDPkYuO70O1bzrrPdWr-tkxu2G-w8aMtia_-GIq_DRw,13
+parallelexec-0.0.1.dist-info/RECORD,,
