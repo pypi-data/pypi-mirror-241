@@ -1,0 +1,2 @@
+[console_scripts]
+calpred = calpred.cli:cli
