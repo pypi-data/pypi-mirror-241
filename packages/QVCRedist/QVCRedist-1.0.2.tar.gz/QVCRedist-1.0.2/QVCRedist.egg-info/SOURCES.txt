@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+QPT_SDK/__init__.py
+QPT_SDK/QVCRedist/__init__.py
+QPT_SDK/QVCRedist/vcredist/concrt140.dll
+QPT_SDK/QVCRedist/vcredist/msvcp140.dll
+QPT_SDK/QVCRedist/vcredist/msvcp140_1.dll
+QPT_SDK/QVCRedist/vcredist/msvcp140_2.dll
+QPT_SDK/QVCRedist/vcredist/msvcp140_atomic_wait.dll
+QPT_SDK/QVCRedist/vcredist/msvcp140_codecvt_ids.dll
+QPT_SDK/QVCRedist/vcredist/vcamp140.dll
+QPT_SDK/QVCRedist/vcredist/vccorlib140.dll
+QPT_SDK/QVCRedist/vcredist/vcomp140.dll
+QVCRedist.egg-info/PKG-INFO
+QVCRedist.egg-info/SOURCES.txt
+QVCRedist.egg-info/dependency_links.txt
+QVCRedist.egg-info/top_level.txt
