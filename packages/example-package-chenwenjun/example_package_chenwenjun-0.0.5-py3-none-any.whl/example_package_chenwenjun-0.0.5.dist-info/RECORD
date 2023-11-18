@@ -1,0 +1,8 @@
+example_package_chenwenjun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_chenwenjun/analyzer.py,sha256=pPBdE4NbhWJWL3KbrltrNHxMJPVggeOCM4Au8DCy8Ls,147
+example_package_chenwenjun/hello.py,sha256=z8TlF_uoZGHjXjHPpXt-Ce82N7UO_qFBCTpobNwjiyc,47
+example_package_chenwenjun/logAnalyzer.cp310-win_amd64.pyd,sha256=8cj8hace4WlC5fYzFJkLi4AFDMY-ClvgZlVlHDUqTPM,468480
+example_package_chenwenjun-0.0.5.dist-info/METADATA,sha256=wJ0EcZRfIndIDRsgixFyWIfXFInPuG55cPbUKpthTG8,227
+example_package_chenwenjun-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+example_package_chenwenjun-0.0.5.dist-info/top_level.txt,sha256=M1AXlgQbnTi0VoaFNyGsd21BE9h6EoWs8_DvwjD1FDM,27
+example_package_chenwenjun-0.0.5.dist-info/RECORD,,
