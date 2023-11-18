@@ -1,0 +1,30 @@
+#!python
+
+import argparse
+from EXgen import EXgen
+
+PARSER_DESCRIPTION = """
+Welcome to EXgen : This command line interface 
+will assist you in generating your exercise materials.
+Provide the name of the configuration yaml file and the 
+generation will be done. 
+"""
+
+# Make parser : 
+parser = argparse.ArgumentParser(description=PARSER_DESCRIPTION)
+
+# Add arguments : 
+parser.add_argument('--generate', dest='config_file', type=str, 
+                    help='Generate exercises from the given configuration file.', default='',
+                    required=False)
+parser.add_argument('--quickstart', dest="quickstart", type=str,
+                    default='', required=False, 
+                    help="Generate a sample project in current directory.")
+
+# Parse and call generator : 
+args = parser.parse_args()
+
+myGen = EXgen(args)
+
+if args.config_file != '' and args.quickstart == '':
+    myGen.generate()

@@ -1,0 +1,15 @@
+W _0  1; right 
+R1  _0  _2; down
+W  _2  0; right 
+R3 _4  1; up
+V0 0  _4; up, v=U_q, l=
+W  0  _6; right
+R2 1  8; right
+R4 _6  7; right
+R5 8  7; down
+W  8  k; right,
+W  k _9; right,
+W  7  l; right
+W  l _10; right
+RL _9 _10; down
+; label_nodes=alpha, label_values=false
