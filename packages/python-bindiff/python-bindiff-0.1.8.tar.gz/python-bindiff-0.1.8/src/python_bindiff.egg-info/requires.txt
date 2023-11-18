@@ -1,0 +1,3 @@
+python-magic
+click
+python-binexport>=0.2.0
