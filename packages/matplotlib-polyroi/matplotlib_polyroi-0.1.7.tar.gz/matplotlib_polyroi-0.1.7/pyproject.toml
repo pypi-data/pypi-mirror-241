@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+
+[tool.setuptools]
+packages = ["matplotlib_polyroi"]
+
+[project]
+name = "matplotlib_polyroi"
+description = "Module for selecting polygonal ROIs on images, spline fitting and ROI expansion"
+readme = "README.md"
+version = "0.1.7"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Tom Bland", email = "tom_bland@hotmail.co.uk" },
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "ipywidgets",
+    "scikit-image",
+    "jupyter",
+]
+
+[project.urls]
+Documentation = "https://matplotlib-polyroi.readthedocs.io/"
+Source = "https://github.com/tsmbland/matplotlib-polyroi"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "black",
+    "pip-tools",
+]
+
+doc = [
+    "sphinx_rtd_theme==1.0.0",
+]
+
