@@ -1,0 +1,17 @@
+odoo/addons/partner_country_state_required/README.rst,sha256=FJtndvTumwWLxs09jgr_MAZnEQeCvuXf4v8w-fGG8_I,3069
+odoo/addons/partner_country_state_required/__init__.py,sha256=vqRYeBgCVZMpZhYvILSxVsNLC9V7zDnvxMnKU8RQP94,55
+odoo/addons/partner_country_state_required/__manifest__.py,sha256=hz7y_dE5ubdC3W0wx9uAr79vPCmhQil04da9joYRV4U,404
+odoo/addons/partner_country_state_required/hooks.py,sha256=Yd0drKvEYzVdfdrle5RSsbvMwv1EAuwGefjm6h-Ujsk,498
+odoo/addons/partner_country_state_required/i18n/partner_country_state_required.pot,sha256=3ufG8e0vKbq_jzH8CE171CNE78244OUTUB-gq_wnQXE,774
+odoo/addons/partner_country_state_required/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/partner_country_state_required/models/res_partner.py,sha256=-wuxV9A3HPULUd8420_SDJxDJxcSeNHTp8ojwShWc6c,872
+odoo/addons/partner_country_state_required/readme/CONTRIBUTORS.rst,sha256=tPI6EpUYlOyl9uOFIB4PoH6VObPJrDIqO0Onwg3Ptmw,46
+odoo/addons/partner_country_state_required/readme/DESCRIPTION.rst,sha256=3PcTIdFzClnc4SO4gn8qM4-U2YJuED6X0tCq1QwO3qw,176
+odoo/addons/partner_country_state_required/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/partner_country_state_required/static/description/index.html,sha256=FcMs15Jf6dtksrV4f0qTU_h9JUHMZ04w6SDfukEcLb4,12349
+odoo/addons/partner_country_state_required/tests/__init__.py,sha256=TwgseiawCH0brEtqfFq2UR0upbt5EHnimJKghX-nPrw,34
+odoo/addons/partner_country_state_required/tests/test_state_required.py,sha256=mLCOfqxq9i3WIXUIatBder4er0WwY7b2utrU8yDFxUY,2326
+odoo_addon_partner_country_state_required-16.0.1.0.0.2.dist-info/METADATA,sha256=cU_1X4kPQdj-t5S7jEYf-Iz9hI6L56oCRweDm_eoR9I,3629
+odoo_addon_partner_country_state_required-16.0.1.0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+odoo_addon_partner_country_state_required-16.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_partner_country_state_required-16.0.1.0.0.2.dist-info/RECORD,,
