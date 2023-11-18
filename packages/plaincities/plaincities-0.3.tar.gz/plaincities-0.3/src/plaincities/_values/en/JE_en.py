@@ -1,0 +1,11 @@
+ids = [3042091]
+names = ["Saint Helier"]
+ascii_names = ["Saint Helier"]    
+positions = [["49.18804", "-2.10491"]]
+alternate_names = [["St Helier", "St. Helier"]]
+timezones = [283]
+populations = [28000]
+altitudes = [-1]
+parents = ["JE.3237864"]
+states = {"JE.3237072": ["St Clement", "St Clement", 3237072], "JE.3237073": ["St Saviour", "St Saviour", 3237073], "JE.3237200": ["St. Brelade", "St. Brelade", 3237200], "JE.3237203": ["Grouville", "Grouville", 3237203], "JE.3237212": ["Saint Mary", "St Mary", 3237212], "JE.3237214": ["Saint Lawrence", "St Lawrence", 3237214], "JE.3237221": ["Saint Peter", "St Peter", 3237221], "JE.3237229": ["St. Ouen", "St Ouen", 3237229], "JE.3237497": ["Saint John", "St John", 3237497], "JE.3237530": ["Trinity", "Trinity", 3237530], "JE.3237716": ["Saint Martin", "St Martin", 3237716], "JE.3237864": ["Saint Helier", "St Helier", 3237864]}
+districts = {}

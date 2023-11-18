@@ -1,0 +1,11 @@
+ids = [3168070]
+names = ["Saint-Marin"]
+ascii_names = ["San Marino"]    
+positions = [["43.93667", "12.44639"]]
+alternate_names = [["Ville de Saint-Marin"]]
+timezones = [304]
+populations = [4500]
+altitudes = [-1]
+parents = ["SM.07"]
+states = {"SM.09": ["Serravalle", "Serravalle", 3166650], "SM.02": ["Chiesanuova", "Chiesanuova", 3178807], "SM.07": ["San Marino", "San Marino", 3345302], "SM.01": ["Acquaviva", "Acquaviva", 3345303], "SM.06": ["Borgo Maggiore", "Borgo Maggiore", 3345304], "SM.03": ["Domagnano", "Domagnano", 3345305], "SM.04": ["Faetano", "Faetano", 3345306], "SM.05": ["Fiorentino", "Fiorentino", 3345307], "SM.08": ["Montegiardino", "Montegiardino", 3345308]}
+districts = {}

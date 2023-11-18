@@ -1,0 +1,11 @@
+ids = [3580477, 3580661]
+names = ["West Bay", "喬治敦"]
+ascii_names = ["West Bay", "George Town"]    
+positions = [["19.38197", "-81.39281"], ["19.2866", "-81.37436"]]
+alternate_names = [["West Bay", "West End"], ["Corctaun", "Dzhordzh Taun", "Dzhordzhtaun", "Dzordz Taun", "Dzordztaun", "Dzordztaunas", "Džordžtaunas", "GCM", "George Town", "George Town pa Caymanoyane", "George Town på Caymanøyane", "Georgetown", "Georgurbo", "Georĝurbo", "Tzortz Taoun", "cxrc thawn", "gwrg tʼwn", "jarj tavun", "jojitaun", "jorjata'una", "jwrj tawn", "qiao zhi dui", "qiao zhi dun", "Τζωρτζ Τάουν", "Џорџ Таун", "Џорџтаун", "Джордж Таун", "Джорджтаун", "Джорджтаўн", "גורג טאון", "جارج ٹاؤن، جزائر کیمین", "جرج‌تاون، جزایر کیمن", "جورج تاون", "जॉर्जटाउन", "ஜார்ஜ் டவுன்", "จอร์จทาวน์", "ჯორჯტაუნი", "ジョージタウン", "喬治敦", "조지타운"]]
+timezones = [82, 82]
+populations = [15335, 29370]
+altitudes = [-1, -1]
+parents = ["KY.10375968", "KY.10346796"]
+states = {"KY.10346796": ["George Town", "George Town", 10346796], "KY.10375968": ["West Bay", "West Bay", 10375968], "KY.10375969": ["Bodden Town", "Bodden Town", 10375969], "KY.10375970": ["North Side", "North Side", 10375970], "KY.10375971": ["East End", "East End", 10375971], "KY.10375972": ["Sister Island", "Sister Island", 10375972]}
+districts = {}

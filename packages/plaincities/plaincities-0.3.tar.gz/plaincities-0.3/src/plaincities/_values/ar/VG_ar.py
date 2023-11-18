@@ -1,0 +1,11 @@
+ids = [3577430]
+names = ["رود تاون"]
+ascii_names = ["Road Town"]    
+positions = [["18.42693", "-64.62079"]]
+alternate_names = [["Road Town", "Rod Taunas", "Rod-Taun", "Rod-Tauno", "Rod-Taŭno", "Roount Taoun", "Roud Taun", "lodeutaun", "luo de cheng", "rodotaun", "rotu tavun", "rwd tawn", "Ρόουντ Τάουν", "Род-Таун", "Род-Таўн", "Роуд Таун", "רואוד טאון", "رود تاون", "روڈ ٹاون", "ரோடு டவுன்", "როუდ-ტაუნი", "ロードタウン", "罗德城", "로드타운"]]
+timezones = [161]
+populations = [8449]
+altitudes = [9]
+parents = ["VG.00"]
+states = {}
+districts = {}

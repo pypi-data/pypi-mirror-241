@@ -1,0 +1,11 @@
+ids = []
+names = []
+ascii_names = []    
+positions = []
+alternate_names = []
+timezones = []
+populations = []
+altitudes = []
+parents = []
+states = {"UM.450": ["Wake Island", "Wake Island", 4041685], "UM.350": ["Navassa Island", "Navassa Island", 4743755], "UM.050": ["Baker Island", "Baker Island", 5854907], "UM.100": ["Howland Island", "Howland Island", 5854922], "UM.150": ["Jarvis Island", "Jarvis Island", 5854926], "UM.200": ["Johnston Atoll", "Johnston Atoll", 5854929], "UM.250": ["Kingman Reef", "Kingman Reef", 5854936], "UM.300": ["Midway Islands", "Midway Islands", 5854943], "UM.400": ["Palmyra Atoll", "Palmyra Atoll", 5854952]}
+districts = {}

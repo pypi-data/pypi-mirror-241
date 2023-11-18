@@ -1,0 +1,11 @@
+ids = [4036284]
+names = ["Алофи"]
+ascii_names = ["Alofi"]    
+positions = [["-19.05294", "-169.91957"]]
+alternate_names = [["Alofi", "Alofis", "Alofo", "Pasjolak Alofi", "a luo fei", "alaphi", "allopi", "alophi", "alopi", "alwfy", "arofi", "xalofi", "Αλόφι", "Алофи", "Алофі", "Пасёлак Алофі", "الوفی", "अलोफी", "അലാഫി", "อาโลฟี", "ალოფი", "アロフィ", "阿洛菲", "알로피"]]
+timezones = [343]
+populations = [624]
+altitudes = [-1]
+parents = ["NU.00"]
+states = {}
+districts = {}

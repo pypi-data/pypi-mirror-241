@@ -1,0 +1,11 @@
+ids = [3370903]
+names = ["Джеймстаун"]
+ascii_names = ["Jamestown"]    
+positions = [["-15.93872", "-5.71675"]]
+alternate_names = [["Ceymstaun", "Dzeimstauna", "Dzeimstaunas", "Dzejmstaun", "Dzhehjmstaun", "Dzhejmstaun", "Džeimstauna", "Džeimstaunas", "HLE", "Iacobopolis", "Jamestauno", "Jamestown", "Tzeimstaoun", "Zhejmstaun", "cems thawn", "jeimseutaun", "jemsata'una", "jemstavun", "jemuzutaun", "jyms tawn", "jymz ٹawn  synٹ ہlyna", "jymztawn  synt hlyna", "zhan mu si dui", "Ĵamestaŭno", "Τζέιμσταουν", "Џејмстаун", "Джеймстаун", "Джэймстаўн", "Жеймстаун", "גיימסטאון", "דזשיימסטאן", "جيمس تاون", "جیمز ٹاون، سینٹ ہلینا", "جیمزتاون، سینت هلینا", "جیمزٹاؤن", "جەیمستاون", "जेम्सटाउन", "ஜேம்ஸ்டவுன்", "เจมส์ทาวน์", "ჯეიმზტაუნი", "ジェームズタウン", "詹姆斯敦", "제임스타운"]]
+timezones = [255]
+populations = [637]
+altitudes = [10]
+parents = ["SH.02"]
+states = {"SH.01": ["Остров Вознесения", "Ascension", 2411430], "SH.03": ["Острова Тристан-да-Кунья", "Tristan da Cunha", 3370684], "SH.02": ["Saint Helena", "Saint Helena", 6930057]}
+districts = {}

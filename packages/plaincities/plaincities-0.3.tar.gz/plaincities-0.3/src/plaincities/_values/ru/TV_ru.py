@@ -1,0 +1,11 @@
+ids = [2110394]
+names = ["Funafuti"]
+ascii_names = ["Funafuti"]    
+positions = [["-8.52425", "179.19417"]]
+alternate_names = [["FUN", "Fongafale", "Fongafale (atolon de Funafuti)", "Fongafale (atolón de Funafuti)", "Funafuti", "Phounaphouti", "punaputi", "Φουναφούτι", "푸나푸티"]]
+timezones = [337]
+populations = [4492]
+altitudes = [-1]
+parents = ["TV.FUN"]
+states = {"TV.NUI": ["Nui", "Nui", 2110341], "TV.NMA": ["Nanumea", "Nanumea", 2110345], "TV.FUN": ["Funafuti", "Funafuti", 2110384], "TV.NIT": ["Niutao", "Niutao", 7601979], "TV.NMG": ["Nanumanga", "Nanumanga", 7601980], "TV.VAI": ["Vaitupu", "Vaitupu", 7601981], "TV.NKF": ["Nukufetau", "Nukufetau", 7601982], "TV.NKL": ["Nukulaelae", "Nukulaelae", 7601983]}
+districts = {"TV.NIT.7602096": ["Niulakita", "Niulakita", 7602096]}

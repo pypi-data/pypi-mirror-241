@@ -1,0 +1,11 @@
+ids = [6691831]
+names = ["Vatican"]
+ascii_names = ["Vatican City"]    
+positions = [["41.90268", "12.45414"]]
+alternate_names = [["Vatican City", "Vatican City State"]]
+timezones = [315]
+populations = [829]
+altitudes = [55]
+parents = ["VA"]
+states = {}
+districts = {}

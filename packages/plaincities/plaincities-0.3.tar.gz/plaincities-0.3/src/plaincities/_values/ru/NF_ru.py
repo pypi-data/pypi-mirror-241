@@ -1,0 +1,11 @@
+ids = [2161314]
+names = ["Кингстон"]
+ascii_names = ["Kingston"]    
+positions = [["-29.05459", "167.96628"]]
+alternate_names = [["Kingston", "Kingston pa Norfolkoya", "Kingston på Norfolkøya", "Kingstona", "Kingstonas", "Kingstono", "Kingstun", "Kinqston", "Pasjolak Kingstan", "jin si dui", "khing s tan", "kincutan", "kingseuteon", "kingstana", "kingusuton", "kynghstwn", "kyngstwn", "Кингстон", "Кингстън", "Кінгстон", "Пасёлак Кінгстан", "كينغستون", "کنگسٹن", "کینگستون", "किंग्स्टन", "கிங்சுடன்", "คิงส์ตัน", "კინგსტონი", "キングストン", "金斯敦", "킹스턴"]]
+timezones = [344]
+populations = [880]
+altitudes = [-1]
+parents = ["NF.00"]
+states = {}
+districts = {}
