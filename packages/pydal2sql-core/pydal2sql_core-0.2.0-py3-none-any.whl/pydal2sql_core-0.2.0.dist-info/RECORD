@@ -1,0 +1,11 @@
+pydal2sql_core/__about__.py,sha256=p9cNozD2TK4CoOQ88nBJtcwIFDw2ula_BtUePs4efhw,172
+pydal2sql_core/__init__.py,sha256=BuVMa_OX_88M_daAG2TXPyip_70sNuGfFAkSpfQTN84,581
+pydal2sql_core/cli_support.py,sha256=YDCWU3c3mGqjNgNf9uRKtfVxXe0_7YePagi8Y25OLok,35961
+pydal2sql_core/core.py,sha256=CEHGtvTQ0oIXHBTU-R4QP6QNqqzMIKZx20y_0uv3B7o,10358
+pydal2sql_core/helpers.py,sha256=xhSpL6kGHYn9Y3uKpfTa1KXatJjh5u4t_lBLDmxZiok,2545
+pydal2sql_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydal2sql_core/types.py,sha256=D8VuU9ZGJFqK2lxth7m2tXM891etpE0WwteY9sYJyYk,2619
+pydal2sql_core-0.2.0.dist-info/METADATA,sha256=j3uF61Q_s4CPLM4UsG_VHF3APoFUxdNgvyuse3VmNqk,4615
+pydal2sql_core-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pydal2sql_core-0.2.0.dist-info/licenses/LICENSE.txt,sha256=phAZvZvcwqxTXoegIDmLeu-qzAS8KrasXQ5zpY9bmMA,1113
+pydal2sql_core-0.2.0.dist-info/RECORD,,
