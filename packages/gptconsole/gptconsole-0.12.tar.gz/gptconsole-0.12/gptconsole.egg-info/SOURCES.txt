@@ -1,0 +1,10 @@
+LICENSE
+README.md
+gptconsole.py
+setup.py
+gptconsole.egg-info/PKG-INFO
+gptconsole.egg-info/SOURCES.txt
+gptconsole.egg-info/dependency_links.txt
+gptconsole.egg-info/entry_points.txt
+gptconsole.egg-info/requires.txt
+gptconsole.egg-info/top_level.txt
