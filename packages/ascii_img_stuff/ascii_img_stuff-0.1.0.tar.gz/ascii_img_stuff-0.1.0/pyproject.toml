@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ascii_img_stuff"
+version = "0.1.0"
+description = "python3 cli tool to render *.jpg *.jpeg *.png etc imgs as ascii .txt files"
+authors = ["hashirkz <hashirxkhan1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "==1.23.5"
+matplotlib = "==3.3.0"
+scikit-image = "==0.19.3"
+
+[tool.poetry.scripts]
+ascii = 'app:app'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
