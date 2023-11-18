@@ -1,0 +1,3 @@
+[fedora.messages]
+maubot.cookie.give.v1=maubot_fedora_messages.cookie:GiveCookieV1
+
