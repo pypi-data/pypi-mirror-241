@@ -1,0 +1,8 @@
+README.md
+setup.py
+flask_css_bundler/__init__.py
+flask_css_bundler.egg-info/PKG-INFO
+flask_css_bundler.egg-info/SOURCES.txt
+flask_css_bundler.egg-info/dependency_links.txt
+flask_css_bundler.egg-info/requires.txt
+flask_css_bundler.egg-info/top_level.txt
