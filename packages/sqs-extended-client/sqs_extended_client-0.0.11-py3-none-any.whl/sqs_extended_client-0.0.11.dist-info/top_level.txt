@@ -1,0 +1,1 @@
+sqs_extended_client
