@@ -1,0 +1,70 @@
+[tool.poetry]
+name = "funparse"
+version = "0.3.1"
+description = "`funparse` allows you to 'derive' an argument parser from type annotations of a function's signature, cutting down on the boilerplate code."
+authors = ["Bruno Fauth <149593@upf.br>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: System :: Shells",
+]
+keywords = ["cli", "command-line", "type", "hint", "derive", "decorator"]
+repository = "https://github.com/brunofauth/funparse"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/brunofauth/funparse/issues"
+"Homepage" = "https://github.com/brunofauth/funparse"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+docstring-parser = {version = "^0.15", optional = true}
+
+[tool.poetry.extras]
+docstring = ["docstring-parser"]
+
+[tool.poetry.group.dev.dependencies]
+jinja2 = "^3.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+# https://github.com/python-lsp/pylsp-mypy
+[tool.pylsp-mypy]
+enabled = true
+live_mode = true
+dmypy = false
+strict = false
+
+# https://docs.astral.sh/ruff/settings
+# https://docs.astral.sh/ruff/configuration
+[tool.ruff]
+# builtins = ["print_err"]
+line-length = 120
+
+[tool.ruff.lint]
+ignore = ["E731"]
+
+[tool.black]
+line-length = 120
+
+# https://github.com/google/yapf
+[tool.yapf]
+based_on_style = 'google'
+coalesce_brackets = true
+column_limit = 100
+# continuation_align_style = "fixed"
+continuation_align_style = "valign-right"
+# continuation_align_style = "space"
+dedent_closing_brackets = false
+indent_closing_brackets = false
+join_multiple_lines = false
+spaces_before_comment = 3
+split_arguments_when_comma_terminated = true
+split_penalty_after_unary_operator = 9999999
