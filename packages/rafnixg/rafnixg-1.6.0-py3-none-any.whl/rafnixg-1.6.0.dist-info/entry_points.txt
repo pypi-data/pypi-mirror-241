@@ -1,0 +1,2 @@
+[console_scripts]
+rafnixg = rafnixg.__main__:main
