@@ -1,0 +1,15 @@
+*.swp
+*.pyc
+*.pyo
+*.rpy
+*.rpyc
+*.txt
+__pycache__
+/build
+/dist
+/.vscode
+/tmp
+/sdk
+/workspace
+/.cache
+/.venv
