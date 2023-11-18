@@ -1,0 +1,8 @@
+README.md
+setup.py
+Slugify_module.egg-info/PKG-INFO
+Slugify_module.egg-info/SOURCES.txt
+Slugify_module.egg-info/dependency_links.txt
+Slugify_module.egg-info/top_level.txt
+slugify-mod/__init__.py
+slugify-mod/slug.py
