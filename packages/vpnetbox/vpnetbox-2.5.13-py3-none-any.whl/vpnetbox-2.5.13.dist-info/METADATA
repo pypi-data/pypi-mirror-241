@@ -1,0 +1,491 @@
+Metadata-Version: 2.1
+Name: vpnetbox
+Version: 2.5.13
+Summary: Python package to work with Netbox using REST API
+Home-page: https://github.com/vladimirs-git/vpnetbox
+License: Apache-2.0
+Keywords: netbox
+Author: Vladimirs Prusakovs
+Author-email: vladimir.prusakovs@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: test
+Requires-Dist: pydantic (>=2,<3)
+Requires-Dist: requests (>=2,<3)
+Requires-Dist: vhelpers (>=0.1,<0.2)
+Project-URL: Bug Tracker, https://github.com/vladimirs-git/vpnetbox/issues
+Project-URL: Download URL, https://github.com/vladimirs-git/vpnetbox/archive/refs/tags/2.5.13.tar.gz
+Project-URL: Repository, https://github.com/vladimirs-git/vpnetbox
+Description-Content-Type: text/x-rst
+
+
+vpnetbox
+=========
+
+Python package to work with Netbox using REST API.
+
+- NbApi: Requests data from the Netbox using filter parameters identical to those in the web interface filter form.
+- NbForager: Join objects within itself. The Netbox objects are represented as a multidimensional dictionary. Save objects to the cache file.
+- NbBranch: Extracts a value from a Netbox object using a chain of keys.
+
+
+Requirements
+------------
+
+Python >=3.8
+
+
+Installation
+------------
+
+Install the package from pypi.org release
+
+.. code:: bash
+
+    pip install vpnetbox
+
+or install the package from github.com release
+
+.. code:: bash
+
+    pip install https://github.com/vladimirs-git/vpnetbox/archive/refs/tags/2.5.13.tar.gz
+
+or install the package from github.com repository
+
+.. code:: bash
+
+    pip install git+https://github.com/vladimirs-git/vpnetbox
+
+
+.. contents::
+
+
+Introduction
+------------
+I am a network engineer and my scripts are designed to resolve network issues when the network is down.
+I am facing some coding challenges where the speed and stability of my script are crucial, which is why I decided to stop using Pynetbox and start this project.
+So, what is the utility of this tool? In short, I aim to make my scripts easier, more stable and faster.
+In detail:
+
+- Filtering. The 'get' methods provide filtering logic as the UI and REST API (for example is supported 'tenant' and 'tenant_id').
+- Tests. Code based on the REST API is much easier to cover with tests, because the Netbox returns a simple dictionary, which is easy to mock (testing code based on Pynetbox presents a challenge).
+- Cache. Vpnetbox can save Netbox objects to a pickle file and work with them locally. Your script can work with Netbox data when the Netbox API is unreachable.
+- Speed. Using Vpnetbox you can retrieve a bulk of data faster than when using Pynetbox (it maintains a connection with Netbox and downloads additional data during processing, which makes the script run veeeery slowly). Typically, I download a large amount of data to my local system, save it to cache and then start processing.
+
+
+`./docs/NbForager_diagram.rst`_
+
+
+Usage
+-----
+For more details, please refer to the `./examples`_ directory where you will find numerous examples.
+
+To get started, use the following example.
+
+.. code:: python
+
+    HOST = "demo.netbox.dev"
+    TOKEN = "*****"
+    nb = NbApi(host=HOST, token=TOKEN)
+
+    # Create addresses
+    response = nb.ip_addresses.create(address="10.1.1.1/24", tags=[1], status="reserved")
+    print(response)  # <Response [201]>
+    response = nb.ip_addresses.create(address="10.1.1.1/24", tags=[2], vrf=2)
+    print(response)  # <Response [201]>
+
+    # Get all addresses
+    addresses = nb.ip_addresses.get()
+    print(len(addresses))  # 181
+
+    # Simple filter
+    addresses = nb.ip_addresses.get(vrf="none")
+    print(len(addresses))  # 30
+    addresses = nb.ip_addresses.get(tag=["alpha", "bravo"])
+    print(len(addresses))  # 4
+
+    # Complex filter. Get addresses that do not have VRF and have either the tag 'alpha' or 'brave'
+    # and have a status of either active or reserved.
+    addresses = nb.ip_addresses.get(vrf="none", tag=["alpha", "bravo"], status=["active", "reserved"])
+    print(len(addresses))  # 1
+
+    addresses = nb.ip_addresses.get(address="10.1.1.1/24")
+    for address in addresses:
+        # Update
+        id_ = address["id"]
+        response = nb.ip_addresses.update(id=id_, description="text")
+        print(response)  # <Response [200]>
+        print(nb.ip_addresses.get(id=id_)[0]["description"])  # text
+
+        # Delete
+        response = nb.ip_addresses.delete(id=id_)
+        print(response)  # <Response [204]>
+
+Example of threading mode.
+
+.. code:: python
+
+    import logging
+    from datetime import datetime
+    from vpnetbox import NbApi
+
+    # Enable DEBUG mode to demonstrate the speed of requests to the Netbox API
+    logging.getLogger().setLevel(logging.DEBUG)
+    logging.getLogger().addHandler(logging.StreamHandler())
+
+    HOST = "demo.netbox.dev"
+    TOKEN = "*****"
+
+    # Get data in threading mode.
+    start = datetime.now()
+    nb = NbApi(host=HOST, token=TOKEN, threads=10, interval=0.1)
+    objects = nb.ip_addresses.get()
+    seconds = (datetime.now() - start).seconds
+    print([d["address"] for d in objects])
+    print(f"{len(objects)=} {seconds=}")
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/?brief=1&limit=1 ...
+    # DEBUG    Starting new HTTPS connection (2): demo.netbox.dev:443
+    # DEBUG    Starting new HTTPS connection (3): demo.netbox.dev:443
+    # DEBUG    Starting new HTTPS connection (4): demo.netbox.dev:443
+    # DEBUG    Starting new HTTPS connection (5): demo.netbox.dev:443
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # len(objects)=4153 seconds=3
+
+
+NbApi
+=====
+NbApi, Python wrapper of Netbox REST API.
+
+- In 'get' method you can use multiple filter parameters identical to those in the web interface filter form. Different parameters work like 'AND' operator, while multiple values in the same parameter work like an 'OR' operator.
+- Multithreading is used to request a bulk of data in fast mode.
+- Replaces an error-400 response with an empty result. For example, when querying addresses by tag, if there are no address objects with this tag in Netbox, the default Netbox API response is error-400. This package logs a warning and returns an ok-200 response with an empty list.
+- Retries the request multiple times if the Netbox API responds with a timed-out. This is useful for scheduled scripts in cron jobs, when the connection to Netbox server is not stable.
+- Slices the query to multiple requests if the URL length exceeds 4000 characters (due to a long list of GET parameters).
+
+All models (ipam.ip_addresses, dcim.devices, etc.) have 'get', 'create', 'update' and 'delete' methods.
+The 'create', 'update' and 'delete' methods are identical for all models,
+but the parameters for the 'get' method are different for each model.
+Only 'ipam.ip_addresses' is good described in the README, but other models are implemented in a similar manner.
+To find available filter parameters for other models, you can use the Netbox Web UI filter page,
+`./examples`_ or simply try your luck with `REST API`_ or `/api/schema/swagger-ui`_.
+
+
+NbApi Parameters
+----------------
+
+=========== ======= ================================================================================
+Parameter   Type    Description
+=========== ======= ================================================================================
+host        *str*   Netbox host name.
+token       *str*   Netbox token.
+scheme      *str*   Access method: https or http. Default https.
+verify      *bool*  Transport Layer Security. True - A TLS certificate required, False - Requests will accept any TLS certificate.
+limit       *int*   Split the query to multiple requests if the response exceeds the limit. Default 1000.
+threads     *int*   Threads count. Default 1, loop mode.
+interval    *int*   Wait this time between requests (seconds). Default 0. Useful for request speed shaping.
+max_items   *int*   Stop the request if received items reach this value. Default unlimited. Useful if you need many objects but not all.
+timeout     *float* Request timeout (seconds). Default 60.
+max_retries *int*   Retry the request multiple times if it receives a 500 error or timed-out. Default 3.
+sleep       *float* Interval before the next retry after receiving a 500 error (seconds). Default 10.
+url_max_len *int*   Split the query to multiple requests if the URL length exceeds this value. Default ~3900.
+=========== ======= ================================================================================
+
+
+NbApi Methods
+-------------
+
+
+create(\*\*params)
+------------------
+Create object in Netbox.
+
+=========== ====== =================================================================================
+Parameter   Type   Description
+=========== ====== =================================================================================
+params      *dict* Parameters of new object.
+=========== ====== =================================================================================
+
+Return
+      *Response* Session response. *<Response [201]>* Object successfully created, *<Response [400]>* Object already exist.
+
+
+create_d(\*\*params)
+--------------------
+Create object in Netbox.
+
+=========== ====== =================================================================================
+Parameter   Type   Description
+=========== ====== =================================================================================
+params      *dict* Parameters of new object.
+=========== ====== =================================================================================
+
+Return
+      *DAny* Dictionary of crated object.
+
+
+update(\*\*params)
+------------------
+Update object in Netbox.
+
+=========== ====== =================================================================================
+Parameter   Type   Description
+=========== ====== =================================================================================
+params      *dict* Parameters to update object in Netbox, id is required.
+=========== ====== =================================================================================
+
+Return
+      *Response* Session response. *<Response [200]>* Object successfully updated, *<Response [400]>* Invalid data.
+
+
+update_d(\*\*params)
+--------------------
+Update object in Netbox.
+
+=========== ====== =========================================================================================
+Parameter   Type   Description
+=========== ====== =========================================================================================
+params      *dict* Parameters to update object in Netbox, id is required.
+=========== ====== =========================================================================================
+
+Return
+      *DAny* Dictionary of updated object.
+
+
+delete(id)
+----------
+Delete object in Netbox.
+
+=========== ====== =================================================================================
+Parameter   Type   Description
+=========== ====== =================================================================================
+id          *int*  Object unique identifier.
+=========== ====== =================================================================================
+
+Return
+      *Response* Session response. *<Response [204]>* Object successfully deleted, *<Response [404]>* Object not found.
+
+
+NbApi.ipam.ip_address.get(\*\*params)
+-------------------------------------
+Get ipam/ip-addresses/ objects.
+Filter parameters provide both singular (string) and plural (list of strings) query fields.
+Different parameters work like an 'AND' operator, while multiple values in the same parameter work like an 'OR' operator.
+This documentation only shows a part of the filter parameters.
+Please refer to the `REST API`_ or `/api/schema/swagger-ui`_ for more details.
+
+===================== ==================== =========================================================
+Parameter             Type                 Description
+===================== ==================== =========================================================
+**WEB UI FILTERS**    - - - - - -          - - - - - - - - -
+q                     *str* or *List[str]* IP address substring.
+tag                   *str* or *List[str]* Tag.
+parent                *str* or *List[str]* Parent Prefix. Addresses that are part of this prefix.
+family                *int* or *List[int]* Address family. IP version.
+status                *str* or *List[str]* Status.
+role                  *str* or *List[str]* Role.
+mask_length           *int* or *List[int]* Mask length.
+assigned_to_interface *bool*               Assigned to an interface.
+vrf                   *str* or *List[str]* VRF.
+vrf_id                *int* or *List[int]* VRF object ID.
+present_in_vrf        *str* or *List[str]* Present in VRF.
+present_in_vrf_id     *int* or *List[int]* Present in VRF object ID.
+tenant_group          *str* or *List[str]* Tenant group.
+tenant_group_id       *int* or *List[int]* Tenant group object ID.
+tenant                *str* or *List[str]* Tenant.
+tenant_id             *int* or *List[int]* Tenant object ID.
+device                *str* or *List[str]* Assigned Device.
+device_id             *int* or *List[int]* Assigned Device object ID.
+virtual_machine       *str* or *List[str]* Assigned virtual machine.
+virtual_machine_id    *int* or *List[int]* Assigned virtual machine object ID.
+**DATA FILTERS**      - - - - - -          - - - - - - - - -
+id                    *int* or *List[int]* Object ID.
+address               *str* or *List[str]* IP Address.
+dns_name              *str* or *List[str]* DNS name.
+description           *str* or *List[str]* Description.
+created               *str* or *List[str]* Datetime when the object was created.
+last_updated          *str* or *List[str]* Datetime when the object was updated.
+===================== ==================== =========================================================
+
+Return
+      *List[dict]* List of found objects.
+
+
+NbForager
+=========
+Forages data from Netbox to the NbForager.root object.
+Join objects within itself as a multidimensional dictionary in NbForager.tree object.
+You can access any associated object using dictionary keys.
+Read/write objects from/to the cache pickle file.
+
+NOTE: This tool is not finished yet.
+The current version covers: circuits, virtualization and portions of dcim, ipam, tenancy (which
+I frequently use). For more details, refer to the `test`_ file, where models that are not covered
+are commented.
+
+
+NbForager.grow_tree()
+---------------------
+Join Netbox objects in tree within itself.
+The Netbox objects are represented as a multidimensional dictionary.
+You can access any associated object using dictionary keys.
+
+
+.. code:: python
+
+    from pprint import pprint
+
+    from vpnetbox import NbForager
+
+    HOST = "demo.netbox.dev"
+    TOKEN = "*****"
+    CACHE = "./demo.netbox.dev.pickle"
+    nbf = NbForager(host=HOST, token=TOKEN, cache=CACHE)
+
+    # Get objects from Netbox and save objects to the cache.
+    nbf.ipam.aggregates.get()
+    nbf.tenancy.tenant_groups.get()
+    nbf.write_cache()
+    print(f"{nbf}")  # <NbForager: ipam=4, tenancy=6>
+    pprint(nbf.root.ipam.aggregates)
+    # {1: {'id': 1,
+    #      'prefix': '10.0.0.0/8',
+    #      'url': 'https://demo.netbox.dev/api/ipam/aggregates/1/'},
+    #      ...
+
+
+    # Load cached objects.
+    # Note that you can use cached objects in scripts that have no network connectivity with Netbox API.
+    nbf = NbForager(cache=CACHE)
+    print(f"{nbf}")  # <NbForager: >
+    pprint(nbf.root.ipam.aggregates)
+    # {}
+
+    nbf.read_cache()
+    print(f"{nbf}")  # <NbForager: ipam=4, tenancy=6>
+    pprint(nbf.root.ipam.aggregates)
+    # {1: {'id': 1,
+    #      'prefix': '10.0.0.0/8',
+    #      'url': 'https://demo.netbox.dev/api/ipam/aggregates/1/'},
+    #      ...
+
+
+NbForager.write_cache()
+-----------------------
+Write Netbox objects to the cache file.
+
+
+NbForager.read_cache()
+----------------------
+Read Netbox objects from the cache file.
+You can work with Netbox objects locally without network connectivity with Netbox API.
+
+.. code:: python
+
+    from pprint import pprint
+
+    from vpnetbox import NbForager
+
+    HOST = "demo.netbox.dev"
+    TOKEN = "*****"
+    CACHE = "./NbForager.demo.netbox.dev.pickle"
+    nbf = NbForager(host=HOST, token=TOKEN, var=CACHE)
+
+    # Get objects from Netbox and save objects to the cache.
+    nbf.ipam.aggregates.get()
+    nbf.tenancy.tenant_groups.get()
+    nbf.write_cache()
+    print(f"{nbf}")  # <NbForager: ipam=4, tenancy=6>
+    pprint(nbf.root.ipam.aggregates)
+    # {1: {'id': 1,
+    #      'prefix': '10.0.0.0/8',
+    #      'url': 'https://demo.netbox.dev/api/ipam/aggregates/1/'},
+    #      ...
+
+
+    # Load cached objects.
+    # Note that you can use cached objects in scripts that have no network connectivity with Netbox API.
+    nbf = NbForager(var=CACHE)
+    print(f"{nbf}")  # <NbForager: >
+    pprint(nbf.root.ipam.aggregates)
+    # {}
+
+    nbf.read_cache()
+    print(f"{nbf}")  # <NbForager: ipam=4, tenancy=6>
+    pprint(nbf.root.ipam.aggregates)
+    # {1: {'id': 1,
+    #      'prefix': '10.0.0.0/8',
+    #      'url': 'https://demo.netbox.dev/api/ipam/aggregates/1/'},
+    #      ...
+
+
+Searching parameters mapping.
+-----------------------------
+The mapped searching parameters are identical to those in the web interface filter form and simplify the searching in Netbox.
+How it works? Whe you are filtering by `{parameter}`, the first step is for NbApi to request all objects
+of the interested model, and then translate the interested `{parameter}` to `{parameter}_id`
+for the second request. In case the model has a large number of objects,
+searching by the mapped `{parameter}` could be slow.
+
+=================  ====================  ==========================  ==============================  =======
+   Primary                                  Mapped
+---------------------------------------  -------------------------------------------------------------------
+Parameter (NbApi)  Path                  Parameter (REST API)        Path                            Key
+=================  ====================  ==========================  ==============================  =======
+ bridge            bridge_id             any                         virtualization/interfaces/      name
+ circuit           circuit_id            any                         circuits/circuits/              cid
+ content_type      content_type_id       any                         extras/content-types/           display
+ export_target     export_target_id      any                         ipam/route-targets/             name
+ exporting_vrf     exporting_vrf_id      any                         ipam/vrfs/                      name
+ for_object_type   for_object_type_id    any                         extras/content-types/           display
+ group             group_id              dcim/sites/                 dcim/site-groups/               name
+ group             group_id              ipam/vlans/                 ipam/vlan-groups/               name
+ group             group_id              tenancy/tenants/            tenancy/tenant-groups/          name
+ group             group_id              virtualization/clusters/    virtualization/cluster-groups/  name
+ import_target     import_target_id      any                         ipam/route-targets/             name
+ importing_vrf     importing_vrf_id      any                         ipam/vrfs/                      name
+ parent            parent_id             dcim/locations/             dcim/locations/                 name
+ parent            parent_id             dcim/regions/               dcim/regions/                   name
+ parent            parent_id             dcim/site-groups/           dcim/site-groups/               name
+ parent            parent_id             tenancy/tenant-groups/      tenancy/tenant-groups/          name
+ parent            parent_id             virtualization/interfaces/  virtualization/interfaces/      name
+ platform          platform_id           any                         dcim/platforms/                 name
+ present_in_vrf    present_in_vrf_id     any                         ipam/vrfs/                      name
+ provider          provider_id           any                         circuits/providers/             name
+ provider_account  provider_account_id   any                         circuits/provider-accounts/     name
+ region            region_id             any                         dcim/regions/                   name
+ rir               rir_id                any                         ipam/rirs/                      name
+ site              site_id               any                         dcim/sites/                     name
+ site_group        site_group_id         any                         dcim/site-groups/               name
+ tenant            tenant_id             any                         tenancy/tenants/                name
+ tenant_group      tenant_group_id       any                         tenancy/tenant-groups/          name
+ vrf               vrf_id                any                         ipam/vrfs/                      name
+=================  ====================  ==========================  ==============================  =======
+
+
+NbBranch
+========
+`./docs/NbBranch.rst`_
+Extracts a value from a Netbox object using a chain of keys.
+Netbox object has None instead of a dictionary when a related object is absent,
+which is why it is necessary to constantly check the data type.
+NbBranch returns the desired value with the expected data type, even if the data is missing.
+
+
+.. _`./docs/NbForager_diagram.rst`: ./docs_/NbForager_diagram.rst
+.. _`./docs/NbBranch.rst`: ./docs/NbBranch.rst
+.. _`./examples`: ./examples
+.. _`/api/schema/swagger-ui`: https://demo.netbox.dev/api/schema/swagger-ui/
+.. _`REST API`: https://demo.netbox.dev/static/docs/rest-api/overview/
+.. _`test`: https://github.com/vladimirs-git/vpnetbox/blob/2.5.13/tests/foragers_/objects.py#L543
