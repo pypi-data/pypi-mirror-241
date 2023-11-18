@@ -1,0 +1,126 @@
+import bolt_expressions.api as be_api
+from bolt_expressions.node import ExpressionNode
+from bolt_expressions.literals import literal_types
+from ./loader import load
+from ./loader_components import CustomScoreboard
+import ./sources as sources
+from ./config import Config
+from ./var_types import TypeAnnotation, Bool, qInt, Byte, Short, Int, Long,
+                        Float, Double, String, List, Compound, ByteArray, IntArray, LongArray
+from ./var import Var, StaticVar
+from ./var_sources import VarStorageSource, VarScoreSource
+from dataclasses import replace
+import inspect
+
+class Scoreboard(be_api.Scoreboard):
+    def objective(self,
+                  name: str,
+                  criteria: str,
+                  display_name: str | dict | None = None,
+                  prefixed: bool = True
+                ):
+        if name not in self.added_objectives:
+            self.added_objectives.add(name)
+            load(CustomScoreboard(name, criteria, display_name))
+
+        return Score(self, name)
+
+    def __call__(self,
+                 objective: str,
+                 criteria: str = None,
+                 display_name: str | dict | None = None,
+                 prefixed: bool = True
+                ):
+        return self.objective(objective, criteria, display_name, prefixed)
+
+class Score(be_api.Score):
+    def __getitem__(self, scoreholder: str | list[str]) -> sources.ScoreSource | list[sources.ScoreSource]:
+        if isinstance(scoreholder, str):
+            return sources.ScoreSource.create(scoreholder, self.objective)
+
+        score_sources = []
+        for holder in scoreholder:
+            score_sources.append(sources.ScoreSource.create(holder, self.objective))
+        return score_sources
+
+class Data(be_api.Data):
+    _static_cast_cache: dict[tuple] = {}
+    _cast_location_index: int = 0
+    _CAST_TYPE_MAP: dict[TypeAnnotation, str] = {
+        Byte: 'byte',
+        Short: 'short',
+        Int: 'int',
+        Long: 'long',
+        Float: 'float',
+        Double: 'double',
+    }
+
+    def storage(self, resource_location: str):
+        return sources.DataSource.create('storage', resource_location)
+
+    def entity(self, entity: str):
+        return sources.DataSource.create('entity', entity)
+
+    def block(self, position: str):
+        return sources.DataSource.create('block', position)
+
+    def cast(self, value, type: str | TypeAnnotation):
+        if not isinstance(type, str):
+            type = self._CAST_TYPE_MAP[type]
+
+        source = self.dummy(type=type)
+
+        # allow casting as a method of the source
+        source.attach('cast', self.cast)
+
+        if not isinstance(value, ExpressionNode):
+            value = literal_types[type](value)
+
+        self._expr.set(source, value)
+        return replace(source, _nbt_type=None)
+
+    def static_cast(self, value, type: str | TypeAnnotation):
+        if not isinstance(type, str):
+            type = self._CAST_TYPE_MAP[type]
+
+        # source = self.dummy(type=type)
+        location_index = self._eval_cast_location_index(is_static=True)
+        target = Config.STORAGE_ROOT
+        path = f"data.{ctx.project_id}.static_cast.{location_index}"
+        source = sources.DataSource.create("storage", target, path)
+
+        # allow casting as a method of the source
+        source.attach('static_cast', self.static_cast)
+
+        if not isinstance(value, ExpressionNode):
+            value = literal_types[type](value)
+        self._expr.set(source, value)
+        return replace(source, _nbt_type=None)
+
+    @classmethod
+    def _eval_cast_location_index(cls, is_static: bool) -> int:
+        if not is_static:
+            return cls._next_cast_location_index()
+
+        cache_key = cls._get_frame_context()
+        retrieved_location_index = cls._static_cast_cache.get(cache_key)
+
+        if retrieved_location_index != None:
+            return retrieved_location_index
+
+        location_index = cls._next_cast_location_index()
+        cls._static_cast_cache[cache_key] = location_index
+        return location_index
+
+    @classmethod
+    def _next_cast_location_index(cls) -> int:
+        index = cls._cast_location_index
+        cls._cast_location_index += 1
+        return index
+
+    @staticmethod
+    def _get_frame_context(offset: int = 0) -> tuple:
+        frame = inspect.getouterframes(inspect.currentframe(), 2)[3+offset]
+        path = frame.filename[len(str(ctx.directory)):]
+        # print(frame.lineno, path)
+        return (frame.lineno, path)
