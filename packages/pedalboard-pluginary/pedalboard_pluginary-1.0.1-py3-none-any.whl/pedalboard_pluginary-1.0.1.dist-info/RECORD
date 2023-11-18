@@ -1,0 +1,13 @@
+pedalboard_pluginary/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+pedalboard_pluginary/__main__.py,sha256=SejyiZi_aE8fnmXVtp71SyyXMKSIwCnHcmGGPt6zjxQ,432
+pedalboard_pluginary/core.py,sha256=FsN89jsIMPrK0VNk9WnmK2zNM74q93ekCKmZ9asCUZY,530
+pedalboard_pluginary/data.py,sha256=XVoasSfjjh545dn4vFR0qkNWjBaLK35llcJjYDeh-2Q,1467
+pedalboard_pluginary/scanner.py,sha256=w7yU22kDmAdtNo3Uqi1W9iF3wBbryPUAkNOlYC8jQrE,7031
+pedalboard_pluginary/utils.py,sha256=3NNY1tPnxdRWNukOmH-kh-daDrenVfFGfB-Hu4zDo8g,144
+pedalboard_pluginary/resources/default_ignores.json,sha256=J7pLZCBFDrL2pYXslNPjPM3XUTldNkTpyxkvgis6mco,645
+pedalboard_pluginary-1.0.1.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+pedalboard_pluginary-1.0.1.dist-info/METADATA,sha256=LC1zvdNZ5jH1CB7yj4VRub3ErQHliDTIsryHfL6wiIg,4727
+pedalboard_pluginary-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pedalboard_pluginary-1.0.1.dist-info/entry_points.txt,sha256=vt7FaOjLXZ_-ZCfPV9VC3Os5-h98EDkQRlHQcxBOKSs,66
+pedalboard_pluginary-1.0.1.dist-info/top_level.txt,sha256=qEFPqcpNInXEdiw90Zw7mfw4Zb4NteGR70IVdr2HWL0,21
+pedalboard_pluginary-1.0.1.dist-info/RECORD,,
