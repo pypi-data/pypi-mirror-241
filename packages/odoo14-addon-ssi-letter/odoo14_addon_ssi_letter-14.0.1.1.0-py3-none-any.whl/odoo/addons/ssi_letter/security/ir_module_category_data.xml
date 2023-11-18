@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="letter_module_category" model="ir.module.category">
+    <field name="name">Letter</field>
+</record>
+
+<record id="letter_workflow_module_category" model="ir.module.category">
+    <field name="name">Letter - Workflow</field>
+    <field name="parent_id" ref="letter_module_category" />
+</record>
+
+<record id="letter_data_ownership_module_category" model="ir.module.category">
+    <field name="name">Letter - Data Ownership</field>
+    <field name="parent_id" ref="letter_module_category" />
+</record>
+
+<record id="letter_configurator_module_category" model="ir.module.category">
+    <field name="name">Letter - Configurator</field>
+    <field name="parent_id" ref="letter_module_category" />
+</record>
+
+<record id="letter_wizard_module_category" model="ir.module.category">
+    <field name="name">Letter - Wizard</field>
+    <field name="parent_id" ref="letter_module_category" />
+</record>
+
+<record id="letter_report_module_category" model="ir.module.category">
+    <field name="name">Letter - Report</field>
+    <field name="parent_id" ref="letter_module_category" />
+</record>
+
+<record id="outgoing_letter_workflow_module_category" model="ir.module.category">
+    <field name="name">Outgoing Letter</field>
+    <field name="parent_id" ref="letter_workflow_module_category" />
+</record>
+
+<record id="outgoing_letter_data_ownership_module_category" model="ir.module.category">
+    <field name="name">Outgoing Letter</field>
+    <field name="parent_id" ref="letter_workflow_module_category" />
+</record>
+
+<record id="incoming_letter_workflow_module_category" model="ir.module.category">
+    <field name="name">Incoming Letter</field>
+    <field name="parent_id" ref="letter_workflow_module_category" />
+</record>
+
+<record id="incoming_letter_data_ownership_module_category" model="ir.module.category">
+    <field name="name">Incoming Letter</field>
+    <field name="parent_id" ref="letter_workflow_module_category" />
+</record>
+</odoo>

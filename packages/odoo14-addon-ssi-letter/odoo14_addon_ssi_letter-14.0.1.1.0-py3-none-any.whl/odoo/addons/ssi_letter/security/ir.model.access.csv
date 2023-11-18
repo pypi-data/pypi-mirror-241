@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_letter_type_configurator,letter_type - configurator,model_letter_type,letter_type_group,1,1,1,1
+access_letter_type_all,letter_type - all user,model_letter_type,,1,0,0,0
+access_outgoing_letter_all,outgoing_letter - all,model_outgoing_letter,,1,0,0,0
+access_outgoing_letter_viewer,outgoing_letter - viewer,model_outgoing_letter,outgoing_letter_viewer_group,1,0,0,0
+access_outgoing_letter_user,outgoing_letter - user,model_outgoing_letter,outgoing_letter_user_group,1,1,1,1
+access_incoming_letter_all,incoming_letter - all,model_incoming_letter,,1,0,0,0
+access_incoming_letter_viewer,incoming_letter - viewer,model_incoming_letter,incoming_letter_viewer_group,1,0,0,0
+access_incoming_letter_user,incoming_letter - user,model_incoming_letter,incoming_letter_user_group,1,1,1,1

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data noupdate="1">
+<record id="outgoing_letter_sequence_template" model="sequence.template">
+    <field name="name">Standard</field>
+    <field name="model_id" ref="model_outgoing_letter" />
+    <field name="sequence" eval="100" />
+    <field name="initial_string">/</field>
+    <field
+                name="sequence_field_id"
+                search="[('model_id.model','=','outgoing_letter'),('name','=','name')]"
+            />
+    <field
+                name="date_field_id"
+                search="[('model_id.model','=','outgoing_letter'),('name','=','date')]"
+            />
+    <field name="computation_method">use_python</field>
+    <field name="python_code">result=True</field>
+    <field name="sequence_id" ref="outgoing_letter_sequence" />
+    <field name="sequence_selection_method">use_sequence</field>
+    <field name="add_custom_prefix" eval="0" />
+    <field name="add_custom_suffix" eval="0" />
+</record>
+
+<record id="incoming_letter_sequence_template" model="sequence.template">
+    <field name="name">Standard</field>
+    <field name="model_id" ref="model_incoming_letter" />
+    <field name="sequence" eval="100" />
+    <field name="initial_string">/</field>
+    <field
+                name="sequence_field_id"
+                search="[('model_id.model','=','incoming_letter'),('name','=','name')]"
+            />
+    <field
+                name="date_field_id"
+                search="[('model_id.model','=','incoming_letter'),('name','=','date')]"
+            />
+    <field name="computation_method">use_python</field>
+    <field name="python_code">result=True</field>
+    <field name="sequence_id" ref="incoming_letter_sequence" />
+    <field name="sequence_selection_method">use_sequence</field>
+    <field name="add_custom_prefix" eval="0" />
+    <field name="add_custom_suffix" eval="0" />
+</record>
+
+</data>
+</odoo>
