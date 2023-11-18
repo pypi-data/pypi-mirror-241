@@ -1,0 +1,3 @@
+[console_scripts]
+excel-project=excelproject.main:main
+
