@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: kattis_cli
+Version: 0.1.4
+Summary: A command-line tool for Kattis
+Home-page: https://github.com/rambasnet/kattis-cli
+Author: Ram Basnet
+Author-email: rambasnet@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tomlkit (>=0.12.2,<0.13.0)
+Project-URL: Repository, https://github.com/rambasnet/kattis-cli
+Description-Content-Type: text/markdown
+
+# Kattis-CLI
+
+Kattis CLI - download, test and submit Kattis problems using CLI.
+Based on Official Kattis CLI: [https://github.com/Kattis/kattis-cli](https://github.com/Kattis/kattis-cli)
+
+## Requirements
+
+- Python 3.6+
+- [Kattis account](https://open.kattis.com/login/email)
+
+## Windows
+
+- Use Command Line or PowerShell
+- Make sure python is in your PATH
+- if you get codec error while running kattis-cli, run the following command in Command Prompt:
+
+```bash
+python --version
+chcp 65001
+```
+
+```bash
+
+## Installation
+
+```bash
+pip install kattis-cli
+python -m pip install kattis-cli
+```
+
+## Kattis configuration
+
+```bash
+kattis setup
+```
+
+## Usage
+
+```bash
+kattis <command> [options]
+kattis --help
+```
+
+### Commands
+
+### Download a problem sample files and it's metadata
+
+```bash
+kattis get <problem_id>
+```
+
+![Get problem id from URL](images/get.png)
+
+### Display problem metadata
+
+```bash
+cd <problem_id>
+kattis info
+```
+
+![Problem info](images/info.png)
+
+### Test a solution locally
+
+- currently only supports Python 3
+- make sure python is in your PATH
+- make sure python files have first line shebang: !/usr/bin/env python3
+    - or have extensions .py3
+
+```bash
+cd <problem_id>
+kattis test
+```
+
+![Test](images/test.png)
+
+### Submit a problem
+
+- see live results right on the terminal
+
+```bash
+cd <problem_id>
+kattis submit
+```
+
+![Progress](images/progress.png)
+![Result](images/result.png)
+
