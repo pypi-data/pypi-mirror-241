@@ -1,0 +1,11 @@
+long_net/README.md,sha256=MZsNROHTf958wEbtfI2Z2Osl0Kn6Ze38l3MZWH1Pabw,23557
+long_net/__init__.py,sha256=-kqnn9pzMDnHKjw8rHU_-Wo0VG1yqTKV7T5USK0vidI,48
+long_net/attend.py,sha256=h3aIvBR78bqpq8r1B4d7gYx6i73XEvoTknB2gQEXPzw,6194
+long_net/attention.py,sha256=NLTU1gt3oyQGNbGb9q2JnsktVNfViFhf8Dk7DHLFVjA,4303
+long_net/model.py,sha256=WSB9dqFB_5gV6liJqA5b7SQPx9gFidJUiKrRSg_9KHw,8358
+long_net/new.py,sha256=oAlWfzZovkn8ncqZkOD6hr6UopNWteiS_DQB8sloUaE,3497
+long_net/utils.py,sha256=y7qx1u3Z5oNcuNvvdChsiJSryzMe-Pde0qSM-NSMpO4,11716
+longnet-0.5.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+longnet-0.5.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+longnet-0.5.3.dist-info/METADATA,sha256=55dHdJ_3DT7_NLFvCzpNOsmkKSeEOC1BrVQ9s9ViAxE,7273
+longnet-0.5.3.dist-info/RECORD,,
