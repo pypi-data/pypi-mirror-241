@@ -1,0 +1,23 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kalapaocr"
+version = "0.0.5"
+description = "A boiler plate to make pip package for AI model"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "setuptools",
+    "fuzzywuzzy",
+    "onnxruntime",
+    "opencv-python",
+    "pandas",
+    "tqdm",
+    "Pillow"
+]
+requires-python = ">=3.8"

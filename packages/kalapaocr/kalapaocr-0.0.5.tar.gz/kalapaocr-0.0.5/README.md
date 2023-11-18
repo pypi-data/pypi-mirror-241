@@ -1,0 +1,53 @@
+# KALAPA OCR Package
+
+This is a Package ```kalapaocr``` Model ONNX. The package will simply load onnx model and init an ocr engine. Give an image path and the engine will return text result.
+
+## Install Locally
+
+After git clone, you can access the codebase and simply run the following command line:
+
+```
+conda create -n kalapa_env python=3.8
+conda activate kalapa_env
+pip install -e .
+```
+
+After installed, you can import ```kalapaocr``` package at anywhere when you are in ```kalapa_env``` environment
+
+### Download models
+```
+python src/kalapaocr/tool/model_downloads.py -p cached/
+```
+## Basic Usage
+
+After installing, You can view examples/sample.py to get usage of ```kalapaocr``` lib
+
+You can run ```examples/sample.py``` file as following:
+
+```
+python example/sample.py -cnn cached/cnn.onnx -en cached/encoder.onnx -de cached/decoder.onnx -i 'image/test.jpg'
+```
+
+You can run ```examples/create_submission.py``` file as following for creating submission:
+
+```
+python example/create_submisson.py -cnn cached/cnn.onnx -en cached/encoder.onnx -de cached/decoder.onnx -i "your local data path/OCR/public_test" -o "your local path/your file name.csv"
+```
+
+## Config TextRecognitor
+
+You can initialize ```TextRecognitor``` from ```kalapaocr```.
+
+Let us show you:
+```
+from kalapaocr import TextRecognitor
+# Using Deep Learning Models to Extract ocr results
+predictor = TextRecognitor(
+                        cnn_path="your cnn model path",
+                        encoder_path="your encoder model path",
+                        decoder_path="your decoder model path",
+                    )
+img = cv2.imread("your image path")
+s = predictor(img)
+print(s)
+```
