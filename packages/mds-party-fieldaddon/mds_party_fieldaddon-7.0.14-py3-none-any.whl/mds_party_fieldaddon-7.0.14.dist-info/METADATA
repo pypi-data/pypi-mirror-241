@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: mds-party-fieldaddon
+Version: 7.0.14
+Summary: Tryton module to add some fields to the party-type
+Home-page: https://www.m-ds.de/
+Author: m-ds GmbH
+Author-email: service@m-ds.de
+License: GPL-3
+Keywords: tryton party
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Legal Industry
+Classifier: Topic :: Office/Business
+Classifier: Natural Language :: German
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mds-party-vcard (<=7.0.999,>=7.0.16)
+Requires-Dist: trytond (<7.1,>=7.0)
+Requires-Dist: trytond-party (<7.1,>=7.0)
+Requires-Dist: trytond-party-relationship (<7.1,>=7.0)
+
+Extra fields for 'party'
+========================
+
+The type *Party* is extended by the following fields:
+  First name, Department, Company
+
+Install
+=======
+
+  pip install mds-party-fieldaddon
+
+Requires
+========
+
+- Tryton 7.0
+
+Changes
+=======
+
+*7.0.14 - 17.11.2023*
+
+- compatibility to Tryton 7.0
+
+

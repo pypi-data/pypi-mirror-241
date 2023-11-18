@@ -1,0 +1,179 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+#######################
+# party.configuration #
+#######################
+msgctxt "view:party.configuration:"
+msgid "Extended Address Fields"
+msgstr "Erweiterte Adressfelder"
+
+msgctxt "field:party.configuration,company_relation:"
+msgid "Company Relationship"
+msgstr "Firmenbeziehung"
+
+msgctxt "help:party.configuration,company_relation:"
+msgid "Relationship type for linking an employee to their company."
+msgstr "Beziehungstyp für die Verknüpfung eines Mitarbeiters zu seiner Firma."
+
+
+########################
+# party.address.format #
+########################
+msgctxt "field:party.address,formatted_address:"
+msgid "Formatted Address"
+msgstr "formatierte Adresse"
+
+msgctxt "view:party.address.format:"
+msgid "Available variables (also in upper case)"
+msgstr "Verfügbare Variablen (auch in Großbuchstaben)"
+
+msgctxt "view:party.address.format:"
+msgid "- ${party_name}"
+msgstr "- ${party_name}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${name}"
+msgstr "- ${name}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${attn}"
+msgstr "- ${attn}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${street}"
+msgstr "- ${street}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${postal_code}"
+msgstr "- ${postal_code}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${city}"
+msgstr "- ${city}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${subdivision}"
+msgstr "- ${subdivision}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${subdivision_code}"
+msgstr "- ${subdivision_code}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${country}"
+msgstr "- ${country}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${country_code}"
+msgstr "- ${country_code}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${firstname}"
+msgstr "- ${firstname}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${familyname}"
+msgstr "- ${familyname}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${additionalnames}"
+msgstr "- ${additionalnames}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${nickname}"
+msgstr "- ${nickname}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${honorprefix}"
+msgstr "- ${honorprefix}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${honorsuffix}"
+msgstr "- ${honorsuffix}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${department}"
+msgstr "- ${department}"
+
+msgctxt "view:party.address.format:"
+msgid "- ${company}"
+msgstr "- ${company}"
+
+
+###############
+# party.party #
+###############
+msgctxt "view:party.party:"
+msgid "additional Data"
+msgstr "zusätzliche Daten"
+
+msgctxt "view:party.party:"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "field:party.party,pfafirstname:"
+msgid "First Name"
+msgstr "Vorname"
+
+msgctxt "help:party.party,pfafirstname:"
+msgid "Given Name"
+msgstr "Vorname"
+
+msgctxt "field:party.party,pfafamilyname:"
+msgid "Family Name"
+msgstr "Nachname"
+
+msgctxt "field:party.party,pfaadditionalnames:"
+msgid "Additional Names"
+msgstr "zusätzl. Namen"
+
+msgctxt "help:party.party,pfaadditionalnames:"
+msgid "2nd, 3rd and other names; comma-separated list"
+msgstr "Zweit- und Drittnamen; mit Kommas getrennte Liste"
+
+msgctxt "field:party.party,pfanickname:"
+msgid "Nickname"
+msgstr "Spitzname"
+
+msgctxt "field:party.party,pfadepartment:"
+msgid "Department"
+msgstr "Abteilung"
+
+msgctxt "field:party.party,pfacompany:"
+msgid "Company"
+msgstr "Firma"
+
+msgctxt "field:party.party,pfahonpre:"
+msgid "Honorific Prefixes"
+msgstr "Ehrenprefixe"
+
+msgctxt "help:party.party,pfahonpre:"
+msgid "Prefixes like 'Dr.', 'Prof.' - as a comma-separated list"
+msgstr "Präfixe wie 'Dr.', 'Prof.' - als mit Kommas getrennte Liste"
+
+msgctxt "field:party.party,pfahonsuf:"
+msgid "Honorific Suffixes"
+msgstr "Ehrensuffixe"
+
+msgctxt "help:party.party,pfahonsuf:"
+msgid "Suffixes like 'Jr.', 'M.D.' - as a comma-separated list"
+msgstr "Suffixe wie 'jr.', 'med.' - als mit Kommas getrennte Liste"
+
+msgctxt "field:party.party,pfabday:"
+msgid "Birthday"
+msgstr "Geburtstag"
+
+msgctxt "field:party.party,pfacompanylink:"
+msgid "Company Link"
+msgstr "Firmenlink"
+
+msgctxt "field:party.party,pfakeepupdt:"
+msgid "Keep company updated"
+msgstr "Firma aktuell halten"
+
+msgctxt "help:party.party,pfakeepupdt:"
+msgid "Updates the 'Company' field when the connected party is changed."
+msgstr "Aktualisiert das Feld 'Firma' wenn die verbundene Partei geändert wird."
