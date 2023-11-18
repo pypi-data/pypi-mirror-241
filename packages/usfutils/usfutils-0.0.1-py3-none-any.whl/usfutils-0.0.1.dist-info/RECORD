@@ -1,0 +1,10 @@
+usfutils/__init__.py,sha256=P6G7MxQf8CMcUjFvtgGFognsygnFhX2UDaGMTItQnr4,431
+usfutils/dir.py,sha256=hIB4R_VL0eUZK0COjvsG5S3m2MwmgnRBch30YpsVjT8,3191
+usfutils/dist.py,sha256=QpZ4Pha2n9di-zNgQ8N3Qq7CqCPEg9-mUwwl7jbs89w,801
+usfutils/logger.py,sha256=zFB0bZQLyZ5gUeZQF6cLXy8TeMLkEuE6gz80yhDbZB4,2605
+usfutils/utils.py,sha256=9cxZZvSNnrEv5-tvXfZUxXyrvNx0bNRqtRiS-6piAyY,160
+usfutils/version.py,sha256=JbEE-aD1FFLBNc-S-ppMNs_kN7NSz5z0Udf1Inpo6eU,100
+usfutils-0.0.1.dist-info/METADATA,sha256=Ddae2vE3TlwxcK2UWZbM9yP5AQFA65HdwSBmFe_JzfY,1105
+usfutils-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+usfutils-0.0.1.dist-info/top_level.txt,sha256=4aBQouJpCiBLIxROxzx9v73JfT_cKk9MDSsnf8vdxSY,9
+usfutils-0.0.1.dist-info/RECORD,,
