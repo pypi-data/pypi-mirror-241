@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+__init__.py
+constants.py
+main.py
+setup.py
+ai_management.egg-info/PKG-INFO
+ai_management.egg-info/SOURCES.txt
+ai_management.egg-info/dependency_links.txt
+ai_management.egg-info/requires.txt
+ai_management.egg-info/top_level.txt
