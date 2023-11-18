@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gptconsole
+Version: 0.12
+Summary: One of many command line interfaces to OpenAI's GPT models.
+Home-page: https://github.com/ioannis-vm/gptconsole
+Author: John Vouvakis Manousakis
+Author-email: ioannis_vm@berkeley.edu
+License-File: LICENSE
+Requires-Dist: openai
+
