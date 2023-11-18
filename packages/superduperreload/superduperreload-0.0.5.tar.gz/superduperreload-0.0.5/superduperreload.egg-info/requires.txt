@@ -1,0 +1,13 @@
+superduperreload-core==0.0.5
+ipykernel
+ipyflow-core
+ipython
+
+[dev]
+superduperreload-core[dev]
+
+[test]
+superduperreload-core[test]
+
+[typecheck]
+superduperreload-core[typecheck]
