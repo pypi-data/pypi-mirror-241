@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: llmstatemachine
+Version: 0.0.1
+Summary: A Large Language Model State Machine package
+Home-page: https://github.com/robocorp/llm_state_machine
+Author: Mikko Korpela
+Author-email: mikko@robocorp.com
+License: Apache 2.0
