@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: quitaracentos
+Version: 0.0.2
+Summary: Remove spanish accents from strings (except ñ)
+Author: FerdinandoPH
+Author-email: perez.holguin@gmail.com
+License-File: license.txt
+
+Remove spanish accents from strings (except ñ). It's just a str translate, but I'm so tired of doing it manually every time. There are other tools, but they are either too complex (regex) or they remove the ñ too (unidecode)

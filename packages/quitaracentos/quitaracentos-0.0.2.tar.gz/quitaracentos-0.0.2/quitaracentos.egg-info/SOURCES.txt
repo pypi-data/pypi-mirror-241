@@ -1,0 +1,9 @@
+README.md
+license.txt
+setup.py
+quitaracentos/__init__.py
+quitaracentos/quitaracentosf.py
+quitaracentos.egg-info/PKG-INFO
+quitaracentos.egg-info/SOURCES.txt
+quitaracentos.egg-info/dependency_links.txt
+quitaracentos.egg-info/top_level.txt
