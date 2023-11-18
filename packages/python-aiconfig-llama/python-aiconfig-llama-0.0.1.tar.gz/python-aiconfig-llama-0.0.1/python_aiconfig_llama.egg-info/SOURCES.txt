@@ -1,0 +1,9 @@
+README.md
+llama.py
+pyproject.toml
+requirements.txt
+python_aiconfig_llama.egg-info/PKG-INFO
+python_aiconfig_llama.egg-info/SOURCES.txt
+python_aiconfig_llama.egg-info/dependency_links.txt
+python_aiconfig_llama.egg-info/requires.txt
+python_aiconfig_llama.egg-info/top_level.txt
