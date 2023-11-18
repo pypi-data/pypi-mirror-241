@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+aioinstagrapi/__init__.py
+aioinstagrapi/config.py
+aioinstagrapi/exceptions.py
+aioinstagrapi/extractors.py
+aioinstagrapi/models.py
+aioinstagrapi/test.py
+aioinstagrapi/utils.py
+aioinstagrapi.egg-info/PKG-INFO
+aioinstagrapi.egg-info/SOURCES.txt
+aioinstagrapi.egg-info/dependency_links.txt
+aioinstagrapi.egg-info/requires.txt
+aioinstagrapi.egg-info/top_level.txt
