@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Spécifiez le répertoire où se trouvent les images et les fichiers texte
+base_directory="/home/alexandre.appolaire@Digital-Grenoble.local/Documents/ACV/Partie 2/data/archive/Pushup dataset/obj"
+
+# Créez les répertoires de sortie s'ils n'existent pas déjà
+mkdir -p "/home/alexandre.appolaire@Digital-Grenoble.local/Documents/ACV/Partie 2/data/archive/Pushup dataset/pushups_down/"
+mkdir -p "/home/alexandre.appolaire@Digital-Grenoble.local/Documents/ACV/Partie 2/data/archive/Pushup dataset/pushups_up/"
+
+# Parcourez tous les fichiers texte dans le répertoire
+for txt_file in "$base_directory"/*.txt; do
+    # Lisez la classe depuis le premier caractère du fichier texte
+    class=$(head -c 1 "$txt_file")
+
+    # Obtenez le nom de l'image en supprimant l'extension ".txt"
+    image_file="${txt_file%.txt}.jpg"
+
+    # Déplacez l'image dans le répertoire approprié en fonction de la classe
+    if [ "$class" -eq 0 ]; then
+        mv "$image_file" "/home/alexandre.appolaire@Digital-Grenoble.local/Documents/ACV/Partie 2/data/archive/Pushup dataset/pushups_down/"
+    elif [ "$class" -eq 1 ]; then
+        mv "$image_file" "/home/alexandre.appolaire@Digital-Grenoble.local/Documents/ACV/Partie 2/data/archive/Pushup dataset/pushups_up/"
+    else
+        echo "Classe non valide dans le fichier texte : $txt_file"
+    fi
+done
+
