@@ -1,0 +1,8 @@
+setup.py
+db/__init__.py
+db/folderdb.py
+folderdb.egg-info/PKG-INFO
+folderdb.egg-info/SOURCES.txt
+folderdb.egg-info/dependency_links.txt
+folderdb.egg-info/requires.txt
+folderdb.egg-info/top_level.txt
