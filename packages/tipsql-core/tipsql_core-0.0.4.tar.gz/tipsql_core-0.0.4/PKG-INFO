@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tipsql-core
+Version: 0.0.4
+Summary: tipsql core library
+Author: yassun7010
+Author-email: yassun7010@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+
