@@ -1,0 +1,23 @@
+{
+    "Authors": [
+        "Anirban Ray"
+    ],
+    "Description": "A small example package",
+    "Keywords": [
+        "development",
+        "packaging",
+        "sample",
+        "setuptools"
+    ],
+    "License": "MIT",
+    "Links": {
+        "Bug Tracker": "https://github.com/yarnabrina/learn-python-packaging/issues",
+        "Documentation": "https://learn-python-packaging.readthedocs.io",
+        "Source Code": "https://github.com/yarnabrina/learn-python-packaging"
+    },
+    "Maintainers": [
+        "Anirban Ray <39331844+yarnabrina@users.noreply.github.com>"
+    ],
+    "Name": "package-name-to-install-with",
+    "Version": "0.0.4"
+}

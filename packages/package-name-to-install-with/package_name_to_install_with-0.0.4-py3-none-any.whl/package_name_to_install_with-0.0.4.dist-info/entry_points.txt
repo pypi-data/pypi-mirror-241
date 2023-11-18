@@ -1,0 +1,5 @@
+[console_scripts]
+console-calculator = module_that_can_be_invoked_from_cli:console_calculator
+
+[gui_scripts]
+gui-calculator = module_that_can_invoke_gui_from_cli:gui_calculator
