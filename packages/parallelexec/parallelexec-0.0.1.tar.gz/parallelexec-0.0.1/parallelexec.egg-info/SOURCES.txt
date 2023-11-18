@@ -1,0 +1,9 @@
+README.md
+setup.py
+parallelexec/__init__.py
+parallelexec/_cpu.py
+parallelexec/parallel_executioner.py
+parallelexec.egg-info/PKG-INFO
+parallelexec.egg-info/SOURCES.txt
+parallelexec.egg-info/dependency_links.txt
+parallelexec.egg-info/top_level.txt
