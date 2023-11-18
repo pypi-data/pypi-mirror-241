@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tipsql-postgresql
+Version: 0.0.6
+Summary: tipsql adapter for PostgreSQL
+Author: yassun7010
+Author-email: yassun7010@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: psycopg[binary,pool] (>=3.1.12,<4.0.0)
+Requires-Dist: tipsql-core (==0.0.6)
+Description-Content-Type: text/markdown
+
+
