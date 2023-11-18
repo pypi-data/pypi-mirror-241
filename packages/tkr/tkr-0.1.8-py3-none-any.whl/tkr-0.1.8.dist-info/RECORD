@@ -1,0 +1,17 @@
+tkr/__init__.py,sha256=MSu8SMm4A685XNj_li897paH63B4HZC0oX-0cVLImHY,1622
+tkr/__main__.py,sha256=qtLzyZrpBFHRvlVoTxXs53quNmtVkTv0LBBJ0PYUpRw,50
+tkr/cli.py,sha256=INWnkv0M9OxfB1MdZrgCliDV0o5OtsnUtjzWOYfhC6Q,65
+tkr/abc/__init__.py,sha256=2pCAzRwrNq8riAK60xYSpmVZ36S2r7m7ntAlbBe3Grg,8159
+tkr/abc/_tool.py,sha256=Tc5PhiX5Etvnj_pWw1vCh6mN-ffWUivJGg7ap0Cz_KE,1018
+tkr/core/__init__.py,sha256=9E35lqGlYPuv60MoXYkixnRXxKQ4Hy_hddAGi8Lx_C8,3327
+tkr/core/changelog.py,sha256=7UtZst_W9UDFXFeX5rAMYIwnYhriS8XRG3yF-kt853c,3159
+tkr/core/coreattrs.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+tkr/ext/__init__.py,sha256=73s8izYSHKIumlD_taKIUacWQyriLOpwytU-3gCk0PE,31
+tkr/ext/exttests/__init__.py,sha256=rlxyk9T77su8NA5Q1tmowCOhY1R4xw3UyU81wjHRNxs,992
+tkr/resource/__init__.py,sha256=gFYQsY89BgvDSY-TEC8Og6mcuWx-kymk49lLGtG-cwU,655
+tkr-0.1.8.dist-info/LICENSE,sha256=erqVKtt7ns9FsaSYwdIJKUQteSZrpAhUxlWL6QPmQog,1074
+tkr-0.1.8.dist-info/METADATA,sha256=bGtueDvgAcKS6y3hmO_FXkZsNgpQI7HkJR73v40Aj_Q,4003
+tkr-0.1.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tkr-0.1.8.dist-info/entry_points.txt,sha256=8abusH2V7eQ2VsG91MnDbwx6yVtGmrP1we0x1noTZwE,37
+tkr-0.1.8.dist-info/top_level.txt,sha256=8huWsy1g2U_cKrI6dmkj5WtBYfYM3I3ULQaHKtUzSOI,4
+tkr-0.1.8.dist-info/RECORD,,
