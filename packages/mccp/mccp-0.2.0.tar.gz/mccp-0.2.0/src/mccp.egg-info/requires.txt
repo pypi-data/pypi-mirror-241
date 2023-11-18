@@ -1,0 +1,6 @@
+opencv-python
+numpy
+mkdocstrings[python]>=0.18
+mkdocs
+mkdocs-material
+pytest>=3
