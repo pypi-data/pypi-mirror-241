@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: knowde
+Version: 0.0.1
+Summary: 
+Home-page: https://github/com/shogogoto/knowde
+Author: Shogo Goto
+Author-email: gotoadmn0605@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: neomodel (>=5.2.0,<6.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: uuid6 (>=2023.5.2,<2024.0.0)
+Requires-Dist: uvicorn (>=0.24.0.post1,<0.25.0)
+Project-URL: Repository, https://github/com/shogogoto/knowde
+Description-Content-Type: text/markdown
+
+# knowde
