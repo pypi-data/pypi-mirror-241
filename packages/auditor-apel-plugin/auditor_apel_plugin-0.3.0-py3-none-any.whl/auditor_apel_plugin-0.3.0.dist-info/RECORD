@@ -1,0 +1,10 @@
+auditor_apel_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auditor_apel_plugin/core.py,sha256=XLNvLXomPYjmZrniOz2GKgmHy3RZVuZyFZy2WB62iCM,22342
+auditor_apel_plugin/publish.py,sha256=zO6xKwyV3Xe1wXwrteo6-5xVYm2kozBNOcwvnBJ3SNY,5469
+auditor_apel_plugin/republish.py,sha256=BQpy74BaURAYTzz99oDlcZ5yUlLZqnqYCBDUTjOS30A,2819
+auditor_apel_plugin-0.3.0.dist-info/LICENSE,sha256=Ci0W34VnaAG1qg-qYLXui2X1ot8xfuxcPfmKGfcLj1Y,2595
+auditor_apel_plugin-0.3.0.dist-info/METADATA,sha256=cSsfw7Bt7faSE4i_ySGVjIdb2gFURTi3Z54OooT3u_M,1095
+auditor_apel_plugin-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+auditor_apel_plugin-0.3.0.dist-info/entry_points.txt,sha256=lBf-48VfSvQwWqTLvsytlwcmsOuqQw5SfdY_rCAP8Tk,134
+auditor_apel_plugin-0.3.0.dist-info/top_level.txt,sha256=Y9w05_n_mPAyV9SspCk6IifJnU7ogbltaa5OwB7Tct4,20
+auditor_apel_plugin-0.3.0.dist-info/RECORD,,
