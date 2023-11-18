@@ -1,0 +1,9 @@
+setup.py
+Mentera/__init__.py
+Mentera/activation_functions.py
+Mentera/nn_model.py
+Mentera.egg-info/PKG-INFO
+Mentera.egg-info/SOURCES.txt
+Mentera.egg-info/dependency_links.txt
+Mentera.egg-info/requires.txt
+Mentera.egg-info/top_level.txt
