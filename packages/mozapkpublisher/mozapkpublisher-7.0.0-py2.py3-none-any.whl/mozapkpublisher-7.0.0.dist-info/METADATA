@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mozapkpublisher
+Version: 7.0.0
+Summary: Scripts to get and push Firefox for Android to Google Play Store
+Home-page: https://github.com/mozilla-releng/mozapkpublisher
+Author: Mozilla Release Engineering
+Author-email: release+python@mozilla.com
+License: MPL2
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: androguard
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: humanize
+Requires-Dist: mozilla-version
+Requires-Dist: requests
+Requires-Dist: voluptuous
+
