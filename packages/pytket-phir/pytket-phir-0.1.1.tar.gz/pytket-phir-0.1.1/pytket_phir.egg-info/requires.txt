@@ -1,0 +1,10 @@
+phir>=0.1.6
+pytket-quantinuum
+pytket
+
+[docs]
+sphinx
+pydata_sphinx_theme
+
+[tests]
+pytest
