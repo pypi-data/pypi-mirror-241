@@ -1,0 +1,7 @@
+README.md
+setup.py
+1AH22CH174.egg-info/PKG-INFO
+1AH22CH174.egg-info/SOURCES.txt
+1AH22CH174.egg-info/dependency_links.txt
+1AH22CH174.egg-info/requires.txt
+1AH22CH174.egg-info/top_level.txt
