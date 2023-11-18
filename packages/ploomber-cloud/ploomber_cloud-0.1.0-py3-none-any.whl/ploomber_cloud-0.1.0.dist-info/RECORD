@@ -1,0 +1,14 @@
+ploomber_cloud/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+ploomber_cloud/api.py,sha256=cMWSri-q0eMl1By4Nb4mjOh83k8UHZyz_MvL-ZDPIHU,3505
+ploomber_cloud/api_key.py,sha256=4pYdtw-bnidxaK7XY73neIjTYc1PH9Exu-Geix6Cri4,784
+ploomber_cloud/cli.py,sha256=a2xeknXDamYarj01nAiHWk7GATk5lB0YIEU-Yc8H9vs,486
+ploomber_cloud/config.py,sha256=BSLpxrQaMtLEJl539t0UcUEHykLUTkYepHholAEA_Gs,1130
+ploomber_cloud/deploy.py,sha256=Yvzv0mUQCJ18KRPNEdyCD_FPQl_gVUySxd8HRha0Kdk,542
+ploomber_cloud/exceptions.py,sha256=cXZaKFPtb0rBCTbh0NGRc3TleXkoznI9ltsQjg3WZlA,154
+ploomber_cloud/init.py,sha256=Sg68Zw897xVlUQhrR2J04N8wtgmMUhtYcRHNQynuWlY,1826
+ploomber_cloud/zip_.py,sha256=1oUyftfZ010cGQ0ac6eoIgLpsIc5Bz8qHg5-4IS21u0,1705
+ploomber_cloud-0.1.0.dist-info/METADATA,sha256=VisSk-NLgCpRcA7_raWEAzhW1W9oLLBmKs-Ro3yTZdM,344
+ploomber_cloud-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ploomber_cloud-0.1.0.dist-info/entry_points.txt,sha256=t1yGGTcZj7rmzy_Ibf6AfZDbgb1Xg8IttAEsomYGMio,58
+ploomber_cloud-0.1.0.dist-info/top_level.txt,sha256=GprARQSzafq3QRXeXNZozT13hchrrok0fqL13TxMvs8,15
+ploomber_cloud-0.1.0.dist-info/RECORD,,
