@@ -1,0 +1,2 @@
+[console_scripts]
+cligen = cligen.__main__:main
