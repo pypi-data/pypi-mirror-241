@@ -1,0 +1,12 @@
+kernelpatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kernelpatch/__main__.py,sha256=WtEcKyRpeJG6YKdAEOV4P_6E_gZI8kDX47actkTaWD8,515
+kernelpatch/config.py,sha256=Aq_7C_DxAj2F4jVhSYg2Y8gKY9drQf8J2e5BX7vAdJQ,90
+kernelpatch/find.py,sha256=47eUDRfa-1R-UcumTtYBJsnarn7hMlY-u-Tx-A9eUcg,7993
+kernelpatch/instructions.py,sha256=t5k-WiVum1zYjGQE3m958VB8qnTHVG0B9d0dT4DCZTo,370
+kernelpatch/patch.py,sha256=GwchiIfqjaxqXmG3hnLgj1lVN-lC_QPvR3yrbceA8aQ,8889
+kernelpatch/patterns.py,sha256=WzlKRIE2Ff_EhvO3G4RJAc--v6438WU0EVEBRj34lbQ,8996
+kernelpatch/utils.py,sha256=jvo8rSVf6H0HIEFWUEVy4iFuqZcoG_pgPgDATdqiUJM,281
+pykernelpatch-1.1.4.dist-info/LICENSE,sha256=q8GL6Z0ZELUE7G1vBaCB7nHaKV63q1_WIux0vbn9nak,1069
+pykernelpatch-1.1.4.dist-info/METADATA,sha256=1XCNNQoMvl66XNexqPZtqoNxnC7s5batjkyQklnU-ew,2122
+pykernelpatch-1.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pykernelpatch-1.1.4.dist-info/RECORD,,
