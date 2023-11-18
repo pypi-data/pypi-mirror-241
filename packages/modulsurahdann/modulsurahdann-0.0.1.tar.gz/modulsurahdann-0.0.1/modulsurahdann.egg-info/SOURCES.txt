@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Ardan_pencariansurat/__init__.py
+Ardan_pencariansurat/surah_info.py
+modulsurahdann.egg-info/PKG-INFO
+modulsurahdann.egg-info/SOURCES.txt
+modulsurahdann.egg-info/dependency_links.txt
+modulsurahdann.egg-info/top_level.txt
