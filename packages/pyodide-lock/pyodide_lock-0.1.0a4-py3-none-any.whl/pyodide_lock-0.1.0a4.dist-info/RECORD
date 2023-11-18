@@ -1,0 +1,10 @@
+pyodide_lock/__init__.py,sha256=nf7YzAJgwRdZamDNnFN3I46_EdMEjPJERmLhX6poMbs,212
+pyodide_lock/cli.py,sha256=uoVsL6WqPF2zNE9eYaeGi9ArsGzw7LRXk0JOB_iYtKs,1817
+pyodide_lock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyodide_lock/spec.py,sha256=yncdq16pXABEu3JBrlQRgJZJeZ0ry17yvO7ZpPYIvjk,2933
+pyodide_lock/utils.py,sha256=7TkU8MCfRIduin4n51P1Xnr1pf3Vcaa9KGfi7_hqtTI,13880
+pyodide_lock-0.1.0a4.dist-info/METADATA,sha256=QteFFlMn64xKdVZ7lvVr6QbWzBgV3aHAGk39HYG6-0g,2195
+pyodide_lock-0.1.0a4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pyodide_lock-0.1.0a4.dist-info/entry_points.txt,sha256=EPhO0LnbAgoDm_Gk3HvPVb_qvMqdTuMQay_syIsrMHU,47
+pyodide_lock-0.1.0a4.dist-info/licenses/LICENSE,sha256=6ZNtxzDBEmnO-cngek2ilQoXq97emgclvEQLYOZJ1s0,1500
+pyodide_lock-0.1.0a4.dist-info/RECORD,,
