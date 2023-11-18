@@ -1,0 +1,8 @@
+polars_business-0.3.15.dist-info/METADATA,sha256=YtgmewjSbEq7mBYshqd4hw6lDrsyxRQqocKcE-m8wFk,3264
+polars_business-0.3.15.dist-info/WHEEL,sha256=RagJA5bZM9TQJRnYKyDUZum9Qqa01apWK3y2MmL1gEU,127
+polars_business-0.3.15.dist-info/license_files/LICENSE,sha256=Gcpl9_lt2F5Z0vwCKjpqfmQ14E77Vu7bNk5HUIyvCcE,1077
+polars_business/__init__.py,sha256=RwjasLhyg955Y_YesV51uysxLRGewtXPOfaewQ0PlDI,12179
+polars_business/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polars_business/ranges.py,sha256=1lhPU7aA7Hq0uXzlI85C8YbIM_DL5MiL_TzEYad41M0,4838
+polars_business/polars_business.cpython-39-arm-linux-gnueabihf.so,sha256=eEvMhazMe3j6aUW1hue2f-8hiVWzdDA4GNYqjT3DBlY,23811896
+polars_business-0.3.15.dist-info/RECORD,,
