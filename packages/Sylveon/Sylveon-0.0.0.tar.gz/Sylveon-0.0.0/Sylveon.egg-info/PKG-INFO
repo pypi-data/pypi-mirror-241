@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: Sylveon
+Version: 0.0.0
+Summary: A random number generator on algorithmic questions.
+Home-page: https://github.com/Ujimatsu-Chiya/Sylveon
+Author: Ujimatsu Chiya
+Author-email: ujimatsuchiya016@gmail.com
+Maintainer: Ujimatsu Chiya
+Maintainer-email: ujimatsuchiya016@gmail.com
+License: LGPL-3.0
+Keywords: python algorithm icpc acm oi
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sylveon
+
+一款关于算法题的随机数生成器。
+
+Sylveon名字来源：宝可梦中，仙子伊布的英文名。
+
+比起[CYaRon](https://github.com/luogu-dev/cyaron)，其优势在于：
+
+1. 生成的图中，边权可以包含多个，并且包含了不同类型，如以下输入：
+
+```
+5 6
+1 2 300 a
+2 3 400 b
+2 4 700 x
+2 5 100 y
+1 5 600 z
+3 5 2 w
+```
+
+2. 通过一些选项，支持图的邻接矩阵输出。
+3. 生成迷宫，用于BFS和DFS的一些题目。
+4. 生成核心代码模式下所需要的代码。
+
+有空再进行填充。
