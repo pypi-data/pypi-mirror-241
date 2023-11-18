@@ -1,0 +1,11 @@
+ids = [2729907]
+names = ["Longyearbyen"]
+ascii_names = ["Longyearbyen"]    
+positions = [["78.22334", "15.64689"]]
+alternate_names = [["LYR", "Long'ir", "Longijur", "Longir", "Longjerbiene", "Longjir", "Longjirbjuen osh", "Longjyrbienas", "Longjērbīene", "Longyearbyen", "Longyearbyur", "Longyearbýur", "Lonqyirbyuen", "lang yi er cheng", "langayrbyn", "langyrbyn", "lanyiyarpiyan", "lanګyrbyn", "long-ieobien", "long-wiealeubwien", "longiri", "lwnghyarbyn", "lwngyyrbyn", "lwnqyyrbyn", "lxng yeiy r beiyn", "ronguierubin", "Лонгийър", "Лонгйир", "Лонгйирбюен ош", "Лонгйір", "Лонгьир", "Лонгїр", "Лонгјир", "לונגיירבין", "لانګیربین", "لانگایربین", "لانگیربین", "لونغياربين", "لونقييربين", "லாங்யியர்பியன்", "ลองเยียร์เบียน", "ლონგირი", "ロングイェールビーン", "朗伊爾城", "롱위에아르뷔엔", "롱이어비엔"]]
+timezones = [166]
+populations = [2368]
+altitudes = [-1]
+parents = ["SJ.21.2111"]
+states = {"SJ.22": ["Jan Mayen", "Jan Mayen", 3041964], "SJ.21": ["Svalbard", "Svalbard", 7521757]}
+districts = {"SJ.22.2211": ["Jan Mayen", "Jan Mayen", 7535695], "SJ.21.2111": ["Spitsbergen", "Spitsbergen", 7535696], "SJ.21.2131": ["Hopen", "Hopen", 7535697], "SJ.21.2121": ["Bjørnøya", "Bjornoya", 7535698]}

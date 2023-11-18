@@ -1,0 +1,11 @@
+ids = [3426691]
+names = ["斯坦利"]
+ascii_names = ["Stanley"]    
+positions = [["-51.69382", "-57.85701"]]
+alternate_names = [["PSY", "Port Stanley", "Port Stenli", "Port Stenlis", "Port-Stehnli", "Port-Stenli", "Porto Arxentino/Stanley", "Puerto Archentinas/Stenlis", "Puerto Argentino", "Puerto Stanley", "Stanlef", "Stanlejo", "Stanley", "Stanley Harbour", "Stehnli", "Stenli", "Stenlis", "astnly  jzayr falklnd", "asٹynlے  jzayr faklynڈ", "icutanli", "porta stenli", "seutaenli", "si tan li", "si tan li gang", "stanly", "stnly", "sutanre", "sutanri", "Στάνλεϋ", "Порт Стенли", "Порт-Стенлі", "Порт-Стэнли", "Стенли", "Стэнлі", "Պորտ Սթենլի", "סטאנלי", "סטנלי", "استنلی، جزایر فالکلند", "اسٹینلے، جزائر فاکلینڈ", "ستانلي", "سٹینلے", "पोर्ट स्टॅन्ली", "இசுடான்லி", "സ്റ്റാൻലി", "สแตนลีย์", "スタンリー", "スタンレー", "斯坦利", "斯坦利港", "스탠리"]]
+timezones = [256]
+populations = [2213]
+altitudes = [-1]
+parents = ["FK.00"]
+states = {}
+districts = {}

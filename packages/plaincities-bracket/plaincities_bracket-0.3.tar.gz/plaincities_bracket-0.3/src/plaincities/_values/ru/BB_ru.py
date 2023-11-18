@@ -1,0 +1,11 @@
+ids = [3374036]
+names = ["Бриджтаун"]
+ascii_names = ["Bridgetown"]    
+positions = [["13.10732", "-59.62021"]]
+alternate_names = [["BGI", "Bridgetown", "Bridzhtaun", "Bridztaun", "Bridztaunas", "Bridžtaunas", "Brigtauno", "Briĝtaŭno", "The Bridge Town", "beulijitaun", "brydj tawn", "bu li qi dun", "burijjitaun", "Бриджтаун", "Бриџтаун", "ברידג'טאון", "بريدج تاون", "ብርጅታውን", "ブリッジタウン", "布里奇敦", "브리지타운"]]
+timezones = [72]
+populations = [98511]
+altitudes = [-1]
+parents = ["BB.08"]
+states = {"BB.11": ["Saint Thomas", "Saint Thomas", 3373551], "BB.10": ["Saint Philip", "Saint Philip", 3373553], "BB.09": ["Saint Peter", "Saint Peter", 3373554], "BB.08": ["Saint Michael", "Saint Michael", 3373557], "BB.07": ["Saint Lucy", "Saint Lucy", 3373565], "BB.06": ["Saint Joseph", "Saint Joseph", 3373568], "BB.05": ["Saint John", "Saint John", 3373569], "BB.04": ["Saint James", "Saint James", 3373570], "BB.03": ["Saint George", "Saint George", 3373572], "BB.02": ["Saint Andrew", "Saint Andrew", 3373580], "BB.01": ["Christ Church", "Christ Church", 3373988]}
+districts = {}

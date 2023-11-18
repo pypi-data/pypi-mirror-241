@@ -1,0 +1,11 @@
+ids = []
+names = []
+ascii_names = []    
+positions = []
+alternate_names = []
+timezones = []
+populations = []
+altitudes = []
+parents = []
+states = {}
+districts = {}

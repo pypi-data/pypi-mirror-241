@@ -1,0 +1,11 @@
+ids = [3573197]
+names = ["هاميلتون"]
+ascii_names = ["Hamilton"]    
+positions = [["32.2949", "-64.78303"]]
+alternate_names = [["BDA", "Chamilton", "Gamil'tan", "Gamil'ton", "Hamilton", "Hamilton pa Bermuda", "Hamilton på Bermuda", "Hamiltonas", "Hamiltono", "Khamilton", "Khamiltun", "amiltan", "ha mi er dun", "haemilteon", "hamiruton", "hamyltwn", "hemiltana", "hmyltwn", "Χάμιλτον", "Гамильтон", "Гамільтан", "Гамільтон", "Хамилтон", "Хамилтън", "המילטון", "هاميلتون", "همیلتون", "ہیملٹن", "हॅमिल्टन", "ஆமில்டன்", "แฮมิลตัน", "ჰამილტონი", "ハミルトン", "哈密尔顿", "해밀턴"]]
+timezones = [248]
+populations = [902]
+altitudes = [-1]
+parents = ["BM.03"]
+states = {"BM.11": ["Warwick", "Warwick", 3572972], "BM.10": ["Southampton", "Southampton", 3573026], "BM.09": ["Smithʼs", "Smith's Parish", 3573031], "BM.08": ["Sandys", "Sandys", 3573050], "BM.07": ["Saint Georgeʼs", "Saint George's Parish", 3573057], "BM.06": ["Saint George", "Saint George", 3573062], "BM.05": ["Pembroke", "Pembroke", 3573095], "BM.04": ["Paget", "Paget", 3573103], "BM.02": ["Hamilton", "Hamilton", 3573195], "BM.03": ["Hamilton city", "Hamilton city", 3573198], "BM.01": ["Devonshire", "Devonshire", 3573251]}
+districts = {}

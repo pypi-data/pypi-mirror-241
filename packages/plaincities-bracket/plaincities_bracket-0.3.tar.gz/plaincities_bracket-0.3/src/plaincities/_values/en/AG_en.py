@@ -1,0 +1,11 @@
+ids = [3576022]
+names = ["St. John's"]
+ascii_names = ["Saint John's"]    
+positions = [["17.12096", "-61.84329"]]
+alternate_names = [["St John's", "Saint John's"]]
+timezones = [54]
+populations = [24226]
+altitudes = [-1]
+parents = ["AG.04"]
+states = {"AG.08": ["Saint Philip", "Saint Philip", 3576015], "AG.07": ["Saint Peter", "Saint Peter", 3576016], "AG.06": ["Saint Paul", "Saint Paul", 3576017], "AG.05": ["Saint Mary", "Saint Mary", 3576018], "AG.04": ["Saint John", "Saint John", 3576023], "AG.03": ["Saint George", "Saint George", 3576024], "AG.09": ["Redonda", "Redonda", 3576037], "AG.01": ["Barbuda", "Barbuda", 3576390]}
+districts = {}

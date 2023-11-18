@@ -1,0 +1,18 @@
+[project]
+name = "plaincities_bracket"
+version = "0.3"
+authors = [
+  { name="Ufuk Kocolu", email="ufuk.kocolu@proton.me" },
+]
+description = "plaincities is a library of places in many languages. "
+readme = "README.rst"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ufukk/plaincities"
+"Bug Tracker" = "https://github.com/ufukk/plaincities/issues"

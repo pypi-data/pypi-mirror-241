@@ -1,0 +1,11 @@
+ids = [2078127]
+names = ["The Settlement"]
+ascii_names = ["Flying Fish Cove"]    
+positions = [["-10.42172", "105.67912"]]
+alternate_names = [["Flying Fish Cove"]]
+timezones = [323]
+populations = [500]
+altitudes = [-1]
+parents = ["CX.00"]
+states = {}
+districts = {}
