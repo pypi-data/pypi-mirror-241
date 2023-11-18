@@ -1,0 +1,8 @@
+xmlschema
+pandas
+matplotlib
+basemap
+gmplot
+folium
+fitparse
+pytest
