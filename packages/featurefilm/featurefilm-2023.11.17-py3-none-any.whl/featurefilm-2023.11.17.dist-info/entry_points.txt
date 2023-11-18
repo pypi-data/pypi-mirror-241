@@ -1,0 +1,2 @@
+[console_scripts]
+featurefilm = featurefilm.__main__:main

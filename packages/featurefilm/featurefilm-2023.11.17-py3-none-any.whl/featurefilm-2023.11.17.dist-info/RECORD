@@ -1,0 +1,11 @@
+featurefilm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+featurefilm/__main__.py,sha256=VNKdD2urzpHsrKNNfMGa6ixbGDPMMLFadDU2YItQGTY,9204
+featurefilm/player_test.py,sha256=lLnhnMWxu9GH0j6pHGAhnEMw7p_godS8hZOYSUkVC30,611
+featurefilm/writer_test.py,sha256=wz1HpotXmwf9gcEPwce4XjonT7XyG6jSbpIXbKAcSrU,2240
+featurefilm/models/face_detection_yunet_2023mar.onnx,sha256=jyOD5N08-7RVPqhxgQf8BCMhDclk-fQoBgSATtJVL6Q,232589
+featurefilm-2023.11.17.dist-info/LICENSE,sha256=4V-0-RPLAZMHEt6whuPILI00Y5oLgNAAwucSC2Rbo4g,1068
+featurefilm-2023.11.17.dist-info/METADATA,sha256=SNilgkdxML1Colea9z0lOBwT8JyZUFSO75Zxq4ltlQ0,996
+featurefilm-2023.11.17.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+featurefilm-2023.11.17.dist-info/entry_points.txt,sha256=cIZLvpebQZVoWODUErDmf2ZTMk02dYOBoWCuib-pVak,58
+featurefilm-2023.11.17.dist-info/top_level.txt,sha256=vPRJyGohjSbaco8XnDJ2JIRghlmx3IXaHia8rEeR4kc,12
+featurefilm-2023.11.17.dist-info/RECORD,,
