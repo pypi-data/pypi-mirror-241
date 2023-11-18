@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: tvnotipy
+Version: 0.0.1
+Summary: python script for checking if there are new seasons for a list of TV series
+Project-URL: Documentation, https://github.com/laszloszurok/tvnotipy#readme
+Project-URL: Issues, https://github.com/laszloszurok/tvnotipy/issues
+Project-URL: Source, https://github.com/laszloszurok/tvnotipy
+Author-email: László Szurok <48314396+laszloszurok@users.noreply.github.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: beautifulsoup4
+Requires-Dist: dbus-python
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: schedule
+Description-Content-Type: text/markdown
+
+# tvnotipy
+
+[![PyPI - Version](https://img.shields.io/pypi/v/tvnotipy.svg)](https://pypi.org/project/tvnotipy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tvnotipy.svg)](https://pypi.org/project/tvnotipy)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+### From PyPI
+
+```console
+pip install tvnotipy
+```
+use `pipx` to install into a virtual env, if your operating system does not allow systemwide installations:
+```console
+pipx install tvnotipy
+```
+
+### From source
+
+```console
+git clone https://github.com/laszloszurok/tvnotipy
+cd tvnotipy
+python -m build
+pipx install dist/tvnotipy-0.0.1-py3-none-any.whl
+```
+
+## License
+
+`tvnotipy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
