@@ -1,0 +1,68 @@
+# pyproject.toml
+
+[project]
+name = "substrate-ai"
+# dynamic = ["version", "dependencies"]
+version = "0.0.7"
+description = "Substrate AI package"
+readme = "README.md"
+authors = [{ name = "SubstrateAI", email = "support@substrateai.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["cloud", "gpu", "ml", "ai"]
+
+requires-python = ">=3.9"
+
+
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://docs.substrateai.com/"
+
+[project.scripts]
+substrate-ai = "cli:app"
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+#[tool.setuptools.packages]
+#find = {} 
+
+#[tool.setuptools]
+#package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where=["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.bumpver]
+current_version = "0.0.7"
+version_pattern = 'MAJOR.MINOR.PATCH'
+# commit_message = "bump version {old_version} -> {new_version}"
+# tag_message = "{new_version}"
+# tag_scope = "default"
+# commit = true
+# tag = true
+# push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"src/__init__.py" = ["{version}"]
+
+
+[tool.ruff]
+line-length = 200
+select = ["E", "F", "N"]
+
