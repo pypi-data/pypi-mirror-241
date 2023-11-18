@@ -1,0 +1,7 @@
+pyrepresent
+looperator
+
+[dev]
+twine
+pytest
+pdoc3
