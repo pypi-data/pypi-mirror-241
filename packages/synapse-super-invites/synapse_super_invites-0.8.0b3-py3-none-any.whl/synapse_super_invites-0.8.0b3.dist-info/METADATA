@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: synapse-super-invites
+Version: 0.8.0b3
+Summary: Provides extended support for users to invite other users to rooms via an inventation token
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matrix-synapse
+Requires-Dist: sqlalchemy
+Requires-Dist: alembic
+Requires-Dist: attrs
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twisted ; extra == 'dev'
+Requires-Dist: matrix-synapse-testutils ; extra == 'dev'
+Requires-Dist: pydantic <2,>=1.7.4 ; extra == 'dev'
+Requires-Dist: mypy ==1.6.1 ; extra == 'dev'
+Requires-Dist: black ==23.10.0 ; extra == 'dev'
+Requires-Dist: ruff ==0.1.1 ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Super Inivitation flow for Synapse Matrix Homeserver
+
+Provides extended support for users to invite other users to rooms via an invitation token
+
+## Installation
+
+From the virtual environment that you use for Synapse, install this module with:
+
+```shell
+pip install path/to/synapse-super-invites
+```
+
+(If you run into issues, you may need to upgrade `pip` first, e.g. by running
+`pip install --upgrade pip`)
+
+Then alter your homeserver configuration, adding to your `modules` configuration:
+
+```yaml
+modules:
+  - module: synapse_super_invites.SynapseSuperInvites
+    config:
+      generate_registration_tokens: true # default: false - whether or not the invite tokens are also usable as registration tokens
+      enable_web: true # default: false - not yet ready web/html management app
+```
+
+## Usage
+
+## Changelog
+
+**0.8.0b3** - 2023-11-17:
+
+- Migration file inclusion
+
+**0.8.0b2** - 2023-11-17:
+
+- Fix broken import of `resource.*`
+
+**0.8.0b1** - 2023-11-17:
+
+- First attempt at releasing
+
+## Development
+
+In a virtual environment with pip ≥ 21.1, run
+
+```shell
+pip install -e .[dev]
+```
+
+To run the unit tests, you can either use:
+
+```shell
+tox -e py
+```
+
+or
+
+```shell
+trial tests
+```
+
+To run the linters and `mypy` type checker, use `./scripts-dev/lint.sh`.
