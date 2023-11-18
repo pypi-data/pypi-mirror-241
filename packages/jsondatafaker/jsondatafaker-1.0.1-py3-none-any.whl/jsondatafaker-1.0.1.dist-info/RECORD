@@ -1,0 +1,12 @@
+jsondatafaker/__init__.py,sha256=grYbO0YOvUol1ZiQ8tjImUc1y1nRbFB3MSZw-brnfF8,34
+jsondatafaker/cli.py,sha256=3bEXoi0BLAOEnkp8Yr46BnpICC7myGrDDGCUS3nDyeI,1007
+jsondatafaker/config.py,sha256=UQB67E72S5szzObAM6I0op0XjAVKvidbYBCgUeYefWo,1421
+jsondatafaker/jsondatafaker.py,sha256=B2AnIZJhXJC5TUantOcxOnh6wxow-kANis_zJMiwKJo,2666
+jsondatafaker/util.py,sha256=h7M-R25u0MBHKa7qZOyuD2XA-m6-SzdJaRrwO7xnaz4,2250
+jsondatafaker-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jsondatafaker-1.0.1.dist-info/LICENSE copy,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jsondatafaker-1.0.1.dist-info/METADATA,sha256=QENqEei_sXLnn10A7I7B0V0TAhnUAGRb_HpYsTmUNeE,5559
+jsondatafaker-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jsondatafaker-1.0.1.dist-info/entry_points.txt,sha256=CA_bcGhDCElmmRjXFddtgGOxqpWQ9wminf_nLaniIR8,57
+jsondatafaker-1.0.1.dist-info/top_level.txt,sha256=co8VvQiohECR8YmLXIO5E5EJs5Wc1Z2QI2e-WIkFljc,14
+jsondatafaker-1.0.1.dist-info/RECORD,,
