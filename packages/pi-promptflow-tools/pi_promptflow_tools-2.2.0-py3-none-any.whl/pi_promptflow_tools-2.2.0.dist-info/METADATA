@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pi-promptflow-tools
+Version: 2.2.0
+Summary: A tool package for the ProcessInsights team to us for custom prompt flow tools.
+Description-Content-Type: text/markdown
+
+## Version History
+
+- 2.0.0: Initial release version.
+- 2.1.0: Removed 100 word limit from metaprompt.
+- 2.2.0: Removed instructions for ChatGpt to decide if the answer is sufficient or not. Added instructions for ChatGpt to not talk about process mining capabilities from any MSFT competitor.
