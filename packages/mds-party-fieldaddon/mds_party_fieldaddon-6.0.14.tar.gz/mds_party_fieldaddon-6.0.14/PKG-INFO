@@ -1,0 +1,74 @@
+Metadata-Version: 1.1
+Name: mds_party_fieldaddon
+Version: 6.0.14
+Summary: Tryton module to add some fields to the party-type
+Home-page: https://www.m-ds.de/
+Author: m-ds GmbH
+Author-email: service@m-ds.de
+License: GPL-3
+Description: Extra fields for 'party'
+        ========================
+        
+        The type *Party* is extended by the following fields:
+          First name, Department, Company
+        
+        Install
+        =======
+        
+          pip install mds-party-fieldaddon
+        
+        Requires
+        ========
+        
+        - Tryton 6.0
+        
+        Changes
+        =======
+        
+        *6.0.14 - 17.11.2023*
+        
+        - replace company-link by usage of party-relation
+        
+        *6.0.13 - 15.06.2023*
+        
+        - code optimized
+        
+        *6.0.12 - 19.04.2023*
+        
+        - code optimized
+        
+        *6.0.11 - 11.11.2022*
+        
+        - add: script to split name to firstname+lastname
+        
+        *6.0.10 - 14.12.2021*
+        
+        - fix: setup korrigiert
+        
+        *6.0.9 - 18.10.2021*
+        
+        - add: address.format - available fields info
+        
+        *6.0.8 - 27.08.2021*
+        
+        - ported to Tryton 6.0
+        
+Keywords: tryton party
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Legal Industry
+Classifier: Topic :: Office/Business
+Classifier: Natural Language :: German
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
