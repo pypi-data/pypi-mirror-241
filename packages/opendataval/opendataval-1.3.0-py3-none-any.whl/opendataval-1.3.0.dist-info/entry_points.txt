@@ -1,0 +1,2 @@
+[console_scripts]
+opendataval = opendataval.__main__:cli
