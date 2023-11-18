@@ -1,0 +1,14 @@
+napari_orientationpy/__init__.py,sha256=1QJIQ7faXVJlRKsedHbNJ2pQGCMiUxswQgTdwDL5miw,169
+napari_orientationpy/_plotting.py,sha256=nYMJVNWp6M6-lleJzSKUEF2F-d99vVsc4nW3POepMss,1213
+napari_orientationpy/_widget.py,sha256=ULouobVHfFlOq5GbSZBfOEOjfnPjtq4JxU97oX-6J3Y,15534
+napari_orientationpy/_widget_plotting.py,sha256=St1TNBHV9zlvvVLvEElCqOdHmMvq_T_uurj3bMGL39c,3395
+napari_orientationpy/misorientation.py,sha256=GplZp7lxQhZjN4B-sWz3psZgOliNE_k9UzIllnDAHJs,2350
+napari_orientationpy/napari.yaml,sha256=JBp_grfMUWsVtgzQRi7pH_gIIVjaxu6giXfYOuFeo2Q,1127
+napari_orientationpy/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_orientationpy/_tests/test_widget.py,sha256=YW7lg1VckrXnx5dyRy8hIpwJqp4cO7ZyyCjYaRzEA3Q,473
+napari_orientationpy-0.0.6.dist-info/LICENSE,sha256=smd8ODagBIa-n7Gcme1_ZupI0EGI9iFFR1D0GVrv9Uw,1490
+napari_orientationpy-0.0.6.dist-info/METADATA,sha256=MxUFTcANq5eO02sblA1HopF4ZtJ9evJYpO048MvuOWw,5523
+napari_orientationpy-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+napari_orientationpy-0.0.6.dist-info/entry_points.txt,sha256=EAYDcOqXyYwF2jICY7ZdQm4VwjtzEn4iBOHtAk2_OCM,74
+napari_orientationpy-0.0.6.dist-info/top_level.txt,sha256=bxZ_9MKdLReG3YKdQxcS1D9ChzocBog6_dPal6Ig3GU,21
+napari_orientationpy-0.0.6.dist-info/RECORD,,
