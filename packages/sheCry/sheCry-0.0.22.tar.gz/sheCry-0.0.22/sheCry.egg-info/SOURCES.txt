@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+sheCry.egg-info/PKG-INFO
+sheCry.egg-info/SOURCES.txt
+sheCry.egg-info/dependency_links.txt
+sheCry.egg-info/top_level.txt
