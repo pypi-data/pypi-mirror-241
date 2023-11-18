@@ -1,0 +1,2 @@
+recursive-include cels/data *.yaml
+include LICENSE README.md
