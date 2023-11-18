@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/coconut_ai.egg-info/PKG-INFO
+src/coconut_ai.egg-info/SOURCES.txt
+src/coconut_ai.egg-info/dependency_links.txt
+src/coconut_ai.egg-info/requires.txt
+src/coconut_ai.egg-info/top_level.txt
