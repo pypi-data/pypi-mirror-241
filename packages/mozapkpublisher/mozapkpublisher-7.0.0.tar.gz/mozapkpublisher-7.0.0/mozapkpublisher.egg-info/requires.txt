@@ -1,0 +1,8 @@
+aiohttp
+androguard
+google-api-python-client
+google-auth
+humanize
+mozilla-version
+requests
+voluptuous
