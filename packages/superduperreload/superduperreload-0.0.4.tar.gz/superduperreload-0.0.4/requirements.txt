@@ -1,0 +1,4 @@
+superduperreload-core==0.0.4
+ipykernel
+ipyflow-core
+ipython
