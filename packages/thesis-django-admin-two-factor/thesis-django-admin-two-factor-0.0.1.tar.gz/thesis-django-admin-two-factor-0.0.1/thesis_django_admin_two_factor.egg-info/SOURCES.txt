@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+thesis_django_admin_two_factor.egg-info/PKG-INFO
+thesis_django_admin_two_factor.egg-info/SOURCES.txt
+thesis_django_admin_two_factor.egg-info/dependency_links.txt
+thesis_django_admin_two_factor.egg-info/top_level.txt
