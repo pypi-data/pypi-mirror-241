@@ -1,0 +1,8 @@
+README.md
+setup.py
+df_global_search/__init__.py
+df_global_search.egg-info/PKG-INFO
+df_global_search.egg-info/SOURCES.txt
+df_global_search.egg-info/dependency_links.txt
+df_global_search.egg-info/requires.txt
+df_global_search.egg-info/top_level.txt

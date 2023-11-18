@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: df-global-search
+Version: 0.0.3
+Summary: Searches for a string in all columns and returns a styled DataFrame if match found. 
+Home-page: https://github.com/sqlinsights/df-global-search
+Author: Carlos D. Serrano
+Author-email: sqlinsights@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+
+This library will create a search grid for your Pandas DataFrame. If a match is found, a styled dataframe will be returned with matching columns highlighted.
