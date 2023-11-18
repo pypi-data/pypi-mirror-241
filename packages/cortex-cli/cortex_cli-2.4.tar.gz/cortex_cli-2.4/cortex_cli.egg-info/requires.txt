@@ -1,0 +1,10 @@
+cortex_container_tools
+cloudpickle==2.1.0
+cookiecutter
+fairlearn
+plumbum
+prophet
+pypdf
+pyth3
+python-doc
+python-docx
