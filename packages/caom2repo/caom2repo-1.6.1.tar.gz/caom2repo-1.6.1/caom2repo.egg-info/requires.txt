@@ -1,0 +1,9 @@
+cadcutils>=1.5.1
+caom2>=2.6
+
+[test]
+pytest
+pytest-cov>=2.5.1
+flake8>=3.4.1
+funcsigs==1.0.2
+xml-compare>=1.0.5
