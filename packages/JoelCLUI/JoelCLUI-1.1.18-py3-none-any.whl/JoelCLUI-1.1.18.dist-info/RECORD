@@ -1,0 +1,12 @@
+joelclui/__init__.py,sha256=JQE43FoM0Bh8RPY7xFZ15iKgeNIm-ZYW4hUE8U562Nk,23
+joelclui/joelclui.py,sha256=l8iawc-uZ5lE2QAWh_IvRoKqCkx2tFtRGBzyVIPCt5c,904
+joelclui/format/CONSTANTS.py,sha256=po8NloEoVS_WoiPM24wHRdOjvsXld2VSV2lzjEcP1qo,1142
+joelclui/format/__init__.py,sha256=KoNA6JWojCA_pDuKDW2MjIyJoi40qqkEyWwXVncPYnw,28
+joelclui/format/format.py,sha256=BlKDz1IU1Z1TXgN25ZjitsRIN7HXEz9KIKWbd4AofNA,2271
+joelclui/navigation/__init__.py,sha256=TudaZJ5hmZFSohckV5y6yq0h0zGMkduaD2qGvcawcWE,20
+joelclui/navigation/move.py,sha256=R-SNDgc9mF0HWKdnGWu-yB9ZgTuhmW9uEaoHacmwJHE,358
+JoelCLUI-1.1.18.dist-info/LICENSE,sha256=WHwfaXOrIIQaCoyVaACtjd9OGZ8vphQ-tGoW_2akYj8,1069
+JoelCLUI-1.1.18.dist-info/METADATA,sha256=yvot-GELu7JHWi2xEhSGirSdUmPcBobzjCVQKzPpqDk,3153
+JoelCLUI-1.1.18.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+JoelCLUI-1.1.18.dist-info/top_level.txt,sha256=TZ9e0Tdr9Z7kQPf6M9-U6iS_0mw88QSUDZUdrL_bU-0,9
+JoelCLUI-1.1.18.dist-info/RECORD,,
