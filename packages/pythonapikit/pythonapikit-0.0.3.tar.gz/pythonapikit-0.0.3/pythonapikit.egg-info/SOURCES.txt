@@ -1,0 +1,8 @@
+setup.py
+pythonapikit/__init__.py
+pythonapikit/main.py
+pythonapikit.egg-info/PKG-INFO
+pythonapikit.egg-info/SOURCES.txt
+pythonapikit.egg-info/dependency_links.txt
+pythonapikit.egg-info/requires.txt
+pythonapikit.egg-info/top_level.txt
