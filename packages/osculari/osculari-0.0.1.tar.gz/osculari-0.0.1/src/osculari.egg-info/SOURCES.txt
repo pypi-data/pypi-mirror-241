@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/osculari/__init__.py
+src/osculari.egg-info/PKG-INFO
+src/osculari.egg-info/SOURCES.txt
+src/osculari.egg-info/dependency_links.txt
+src/osculari.egg-info/requires.txt
+src/osculari.egg-info/top_level.txt
+src/osculari.egg-info/zip-safe
+src/osculari/models/__init__.py
+src/osculari/models/model_utils.py
+src/osculari/models/pretrained_layers.py
+src/osculari/models/pretrained_models.py
+src/osculari/models/readout.py
+src/osculari/models/taskonomy_network.py
