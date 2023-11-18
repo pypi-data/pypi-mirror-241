@@ -1,0 +1,10 @@
+src/__about__.py,sha256=ZRaH0F5ioq6TT4D7f1Rp8o-1FCj7XRoZD7_D070u_Z4,53
+src/assemble_video.py,sha256=LAnSL4JLlFxgL7v56CGxZ3kIrGzHF4iCOZq1fVeAL6I,1885
+src/extract_notes.py,sha256=c1CyBj--3Kao7Z2izFB13nqilHR8Is8QbVsf3eTXgEU,1387
+src/generate_videoclips.py,sha256=l_-zd20rLhXxtw1AlJh27fLV-JTlRitlR4p73s03Tbo,5433
+src/pdf2png.py,sha256=jTGhm89eA9s397KmnA0CJ7Ut1nUnOSsXy8AG-sj7y8k,1168
+src/pptx2pdf.py,sha256=Vobwv-Z9tIXaaLtyGTYrJKdNo2js1Z1BuGVTPHLyZlI,1673
+src/text2speech.py,sha256=3eqD6R-HjC0laOr6AakJauYgLBIE9XQs-P7f5RgTxJw,4487
+pptx2video-1.0.0a1.dist-info/METADATA,sha256=poYHBT4aDY_9TaIQrCEH-R6_xmiXilZaEXAgVoNlR5s,1651
+pptx2video-1.0.0a1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pptx2video-1.0.0a1.dist-info/RECORD,,
