@@ -1,0 +1,7 @@
+
+    [ckan.plugins]
+    geo_view=ckanext.geoview.plugin:OLGeoView
+    geojson_view=ckanext.geoview.plugin:GeoJSONView
+    wmts_view=ckanext.geoview.plugin:WMTSView
+    shp_view=ckanext.geoview.plugin:SHPView
+    
