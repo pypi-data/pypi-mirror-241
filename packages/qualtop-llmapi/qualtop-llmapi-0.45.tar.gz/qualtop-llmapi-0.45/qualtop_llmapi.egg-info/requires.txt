@@ -1,0 +1,17 @@
+wheel
+chromadb
+openai
+numpy
+matplotlib
+seaborn
+pandas
+scikit-learn
+scipy
+tiktoken
+ppscore
+networkx
+langchain
+csv-schema-inference
+fastapi
+llama-cpp-python
+Unidecode
