@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cryo_qcheck.egg-info/PKG-INFO
+cryo_qcheck.egg-info/SOURCES.txt
+cryo_qcheck.egg-info/dependency_links.txt
+cryo_qcheck.egg-info/not-zip-safe
+cryo_qcheck.egg-info/requires.txt
+cryo_qcheck.egg-info/top_level.txt
