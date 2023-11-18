@@ -1,0 +1,71 @@
+#
+# Pavlin Georgiev, Softel Labs
+#
+# This is a proprietary file and may not be copied,
+# distributed, or modified without express permission
+# from the owner. For licensing inquiries, please
+# contact pavlin@softel.bg.
+#
+# 2023
+#
+
+from sciveo.common.tools.logger import *
+
+
+list_hyperparameters = list(set([
+  # KERAS params
+    'num_layers',
+    'neurons_per_layer',
+    'activation_function',
+    'learning_rate',
+    'loss_function',
+    'optimizer',
+    'batch_size',
+    'num_epochs',
+    'dropout_rate',
+    'regularization_type',
+    'kernel_initializer',
+    'bias_initializer',
+    'number_of_parameters',
+    'model_type',
+    'input_shape',
+    'output_activation',
+
+  # SciKit params
+    'random_state',
+    'n_jobs',
+    'max_depth',
+    'min_samples_split',
+    'min_samples_leaf',
+    'max_features',
+    'C',
+    'kernel',
+    'gamma',
+    'n_estimators',
+    'max_samples',
+    'n_neighbors',
+    'weights',
+    'algorithm',
+    'learning_rate',
+    'alpha',
+    'lambda',
+    'cv',
+    'n_estimators',
+    'n_clusters',
+    'init',
+    'n_components',
+    'hidden_layer_sizes',
+    'activation',
+    'solver',
+    'learning_rate_init',
+]))
+
+class Configuration:
+  def __init__(self, configuration={}, predefined_attr=False):
+    self.data = configuration
+    if predefined_attr:
+      for c in list_hyperparameters:
+        setattr(self, c, None)
+    for k, v in configuration.items():
+      setattr(self, k, v)
+    debug(type(self).__name__, "init", configuration)
