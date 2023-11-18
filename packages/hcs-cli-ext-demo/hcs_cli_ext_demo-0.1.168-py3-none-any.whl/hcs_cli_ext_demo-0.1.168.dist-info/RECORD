@@ -1,0 +1,8 @@
+vhcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhcs/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhcs/ext/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhcs/ext/demo/main.py,sha256=6cQvcOpaIHAfgPPUgSqJ5gtQPvDM6jtz_kUN8QG6gKE,32
+hcs_cli_ext_demo-0.1.168.dist-info/METADATA,sha256=9JqZLGQYs7a00fGyIRGa15Qs558dbwlRf6y1LHluyR0,877
+hcs_cli_ext_demo-0.1.168.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hcs_cli_ext_demo-0.1.168.dist-info/top_level.txt,sha256=oGjnYFI2qnYEMOXN-H2uAi9T8tzNIlif2VPsDae53ho,5
+hcs_cli_ext_demo-0.1.168.dist-info/RECORD,,
