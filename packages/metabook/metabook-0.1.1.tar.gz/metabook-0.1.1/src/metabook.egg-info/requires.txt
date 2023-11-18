@@ -1,0 +1,5 @@
+pdfplumber
+requests
+jinja2
+pdfrw
+PyPDF2

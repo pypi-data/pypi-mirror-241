@@ -1,0 +1,2 @@
+[console_scripts]
+metabook = metabook.metabook:main
