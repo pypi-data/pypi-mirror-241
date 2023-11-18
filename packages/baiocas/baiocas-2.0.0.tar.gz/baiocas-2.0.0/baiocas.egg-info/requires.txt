@@ -1,0 +1,4 @@
+tornado>=6.0
+
+[pycurl]
+pycurl>=7.22.0

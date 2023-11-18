@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: baiocas
+Version: 2.0.0
+Summary: A simple Bayeux client for Python following the Comet paradigm.
+Home-page: http://github.com/silentsound/baiocas
+Author: Yoann Roman
+Author-email: silentsound@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tornado>=6.0
+Provides-Extra: pycurl
+Requires-Dist: pycurl>=7.22.0; extra == "pycurl"
+
+# baiocas
+
+A simple Bayeux client for Python following the Comet paradigm.
