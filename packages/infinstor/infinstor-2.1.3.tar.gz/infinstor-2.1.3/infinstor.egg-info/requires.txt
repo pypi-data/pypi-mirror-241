@@ -1,0 +1,8 @@
+boto3
+pandas
+tqdm
+astor
+jsons
+fusepy
+xmltodict
+traceback-with-variables
