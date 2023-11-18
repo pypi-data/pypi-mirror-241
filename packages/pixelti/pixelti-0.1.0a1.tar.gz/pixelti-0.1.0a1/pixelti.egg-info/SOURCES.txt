@@ -1,0 +1,6 @@
+README.md
+setup.py
+pixelti.egg-info/PKG-INFO
+pixelti.egg-info/SOURCES.txt
+pixelti.egg-info/dependency_links.txt
+pixelti.egg-info/top_level.txt
