@@ -1,0 +1,11 @@
+ids = [3513392]
+names = ["Filipsburg"]
+ascii_names = ["Philipsburg"]    
+positions = [["18.026", "-63.04582"]]
+alternate_names = [["Philipsburg"]]
+timezones = [116]
+populations = [1400]
+altitudes = [-1]
+parents = ["SX"]
+states = {}
+districts = {}

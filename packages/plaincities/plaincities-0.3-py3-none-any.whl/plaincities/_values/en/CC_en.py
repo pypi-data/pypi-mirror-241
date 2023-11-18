@@ -1,0 +1,11 @@
+ids = [7304591]
+names = ["West Island"]
+ascii_names = ["West Island"]    
+positions = [["-12.15681", "96.82251"]]
+alternate_names = [["weseuteu seom", "웨스트 섬"]]
+timezones = [324]
+populations = [120]
+altitudes = [-1]
+parents = ["CC"]
+states = {}
+districts = {}

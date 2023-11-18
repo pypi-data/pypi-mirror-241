@@ -1,0 +1,11 @@
+ids = [3426691]
+names = ["Puerto Argentino"]
+ascii_names = ["Stanley"]    
+positions = [["-51.69382", "-57.85701"]]
+alternate_names = [["Puerto Stanley"]]
+timezones = [256]
+populations = [2213]
+altitudes = [-1]
+parents = ["FK.00"]
+states = {}
+districts = {}

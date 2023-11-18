@@ -1,0 +1,11 @@
+ids = [2113779, 7874852]
+names = ["Маджуро", "RMI Capitol"]
+ascii_names = ["Majuro", "RMI Capitol"]    
+positions = [["7.08971", "171.38027"], ["7.08931", "171.3805"]]
+alternate_names = [["MAJ", "Madzhuro", "Majur", "Majuro", "Mazouro", "majulo", "Μαζούρο", "Маджуро", "마주로"], [""]]
+timezones = [341, 341]
+populations = [25400, 0]
+altitudes = [-1, -1]
+parents = ["MH.190", "MH.190"]
+states = {"MH.007": ["Ailinginae Atoll", "Ailinginae Atoll", 7303491], "MH.010": ["Ailinglaplap Atoll", "Ailinglaplap Atoll", 7303492], "MH.030": ["Ailuk Atoll", "Ailuk Atoll", 7303493], "MH.040": ["Arno Atoll", "Arno Atoll", 7303494], "MH.050": ["Aur Atoll", "Aur Atoll", 7303495], "MH.060": ["Bikar Atoll", "Bikar Atoll", 7303496], "MH.070": ["Bikini Atoll", "Bikini Atoll", 7303497], "MH.080": ["Ebon Atoll", "Ebon Atoll", 7303498], "MH.090": ["Enewetak Atoll", "Enewetak Atoll", 7303499], "MH.100": ["Erikub Atoll", "Erikub Atoll", 7303500], "MH.120": ["Jaluit Atoll", "Jaluit Atoll", 7303501], "MH.150": ["Kwajalein Atoll", "Kwajalein Atoll", 7303502], "MH.160": ["Lae Atoll", "Lae Atoll", 7303503], "MH.180": ["Likiep Atoll", "Likiep Atoll", 7303504], "MH.190": ["Majuro Atoll", "Majuro Atoll", 7303505], "MH.300": ["Maloelap Atoll", "Maloelap Atoll", 7303506], "MH.320": ["Mili Atoll", "Mili Atoll", 7303507], "MH.330": ["Namdrik Atoll", "Namdrik Atoll", 7303508], "MH.340": ["Namu Atoll", "Namu Atoll", 7303509], "MH.350": ["Rongelap Atoll", "Rongelap Atoll", 7303510], "MH.360": ["Rongrik Atoll", "Rongrik Atoll", 7303511], "MH.385": ["Taka Atoll", "Taka Atoll", 7303512], "MH.073": ["Bokak Atoll", "Bokak Atoll", 7303513], "MH.390": ["Ujae Atoll", "Ujae Atoll", 7303514], "MH.400": ["Ujelang", "Ujelang", 7303515], "MH.410": ["Utrik Atoll", "Utrik Atoll", 7303516], "MH.420": ["Wotho Atoll", "Wotho Atoll", 7303517], "MH.430": ["Wotje Atoll", "Wotje Atoll", 7303518], "MH.110": ["Jabat Island", "Jabat Island", 7303519], "MH.130": ["Jemo Island", "Jemo Island", 7303520], "MH.140": ["Kili Island", "Kili Island", 7303521], "MH.170": ["Lib Island", "Lib Island", 7303522], "MH.310": ["Mejit Island", "Mejit Island", 7303523]}
+districts = {}

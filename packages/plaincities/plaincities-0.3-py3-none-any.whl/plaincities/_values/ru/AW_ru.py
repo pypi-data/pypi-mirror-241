@@ -1,0 +1,11 @@
+ids = [3577072, 3577089, 3577154]
+names = ["Tanki Leendert", "San Nicolas", "Ораньестад"]
+ascii_names = ["Tanki Leendert", "San Nicolas", "Oranjestad"]    
+positions = [["12.53914", "-70.02004"], ["12.43624", "-69.90713"], ["12.52398", "-70.02703"]]
+alternate_names = [["Tanki Leendert", "Tanki Lender"], ["San Nicolas", "Sint Nicolaas"], ["Aran'estad", "Oran'estad", "Oranestad", "Oraniestat", "Oranjestad", "Oranjestad pa Aruba", "Oranjestad på Aruba", "Oranjestadas", "Oranjestade", "Oranjestado", "Oranjested", "Oranjestêd", "ao la nie si ta de", "awrnjstad", "olanyeseutateu", "oraniesutaddo", "oraniyecuttatu", "oranjestada", "xo ran yes tad", "Οράνιεστατ", "Араньестад", "Оранестад", "Ораньестад", "Ораньєстад", "Орањестад", "אורנייסטאד", "أورنجستاد", "اورنجستاد", "اورنجسٹیڈ، اروبا", "ओरांजेश्टाड", "ஒரானியெசுத்தாடு", "โอรันเยสตัด", "ორანესტადი", "オラニエスタッド", "奥拉涅斯塔德", "오라녜스타트"]]
+timezones = [68, 68, 68]
+populations = [21500, 15200, 29998]
+altitudes = [-1, -1, 5]
+parents = ["AW.00", "AW.00", "AW.00"]
+states = {}
+districts = {}

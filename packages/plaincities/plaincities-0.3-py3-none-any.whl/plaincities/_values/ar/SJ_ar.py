@@ -1,0 +1,11 @@
+ids = [2729907]
+names = ["لونغياربين"]
+ascii_names = ["Longyearbyen"]    
+positions = [["78.22334", "15.64689"]]
+alternate_names = [["لونقييربين"]]
+timezones = [166]
+populations = [2368]
+altitudes = [-1]
+parents = ["SJ.21.2111"]
+states = {"SJ.22": ["Jan Mayen", "Jan Mayen", 3041964], "SJ.21": ["سفالبارد", "Svalbard", 7521757]}
+districts = {"SJ.22.2211": ["جان ماين", "Jan Mayen", 7535695], "SJ.21.2111": ["Spitsbergen", "Spitsbergen", 7535696], "SJ.21.2131": ["Hopen", "Hopen", 7535697], "SJ.21.2121": ["Bjørnøya", "Bjornoya", 7535698]}

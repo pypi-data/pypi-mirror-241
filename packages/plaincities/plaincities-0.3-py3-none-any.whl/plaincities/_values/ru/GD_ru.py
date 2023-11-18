@@ -1,0 +1,11 @@
+ids = [3579925]
+names = ["Сент-Джоржес"]
+ascii_names = ["Saint George's"]    
+positions = [["12.05288", "-61.75226"]]
+alternate_names = [["Fort Royal", "Georgetown", "Grenada City", "Lewis", "Port Louis", "Port Royal", "Saint George", "Saint George's", "Saint George.s", "Saint-Georges", "Sent Dzordzas", "Sent Džordžas", "Sent Tzortzes", "Sent-Dzhorzhes", "St Georges", "St. George's", "seinteujojiseu", "sentojojizu", "snt g'wrg'", "Σεντ Τζόρτζες", "Сент-Джоржес", "סנט ג'ורג'", "セントジョージズ", "세인트조지스"]]
+timezones = [99]
+populations = [7500]
+altitudes = [6]
+parents = ["GD.03"]
+states = {"GD.06": ["Saint Patrick", "Saint Patrick", 3579907], "GD.05": ["Saint Mark", "Saint Mark", 3579913], "GD.04": ["Saint John", "Saint John", 3579919], "GD.03": ["Saint George", "Saint George", 3579926], "GD.02": ["Saint David", "Saint David", 3579932], "GD.01": ["Saint Andrew", "Saint Andrew", 3579938], "GD.10": ["Carriacou and Petite Martinique", "Carriacou and Petite Martinique", 7303836]}
+districts = {}

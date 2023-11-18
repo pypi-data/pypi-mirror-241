@@ -1,0 +1,11 @@
+ids = [3578069, 7266440]
+names = ["Плимут", "Брейдс"]
+ascii_names = ["Plymouth", "Brades"]    
+positions = [["16.70555", "-62.21292"], ["16.79183", "-62.21058"]]
+alternate_names = [["Plimouth", "Plimut", "Plimutas", "Plimuto", "Plymouth", "Plymouth pa Montserrat", "Plymouth på Montserrat", "blymwth", "peullimeoseu", "phli math", "plymwt", "pu li mao si", "purimasu", "Πλίμουθ", "Плимут", "Плимът", "Плімут", "פלימות", "بليموث", "پلایماؤت، مانٹسریٹ", "پلی‌موث، مونتسرات", "พลิมัท", "პლიმუთი", "プリマス", "普利茅斯", "플리머스"], ["Brades Estate", "Bradeso", "Breidsas", "Breints", "Brejds", "Breyds", "Vjoska Brehjds", "be rds", "beuleijeu", "breidsi", "brydz", "bu lai ci", "bureizu", "pirate", "Μπρέιντς", "Брейдс", "Брејдс", "Вёска Брэйдс", "בראדס", "بریدز", "بریڈیس", "பிராதெ", "เบรดส์", "ბრეიდსი", "ブレイズ", "布莱兹", "브레이즈"]]
+timezones = [130, 130]
+populations = [0, 1000]
+altitudes = [-1, -1]
+parents = ["MS.01", "MS.03"]
+states = {"MS.03": ["Saint Peter", "Saint Peter", 3578039], "MS.02": ["Saint Georges", "Saint Georges", 3578044], "MS.01": ["Saint Anthony", "Saint Anthony", 3578045]}
+districts = {}

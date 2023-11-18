@@ -1,0 +1,11 @@
+ids = [4030723]
+names = ["آدمزتاون"]
+ascii_names = ["Adamstown"]    
+positions = [["-25.06597", "-130.10147"]]
+alternate_names = [["Adams Town", "Adamstaun", "Adamstaunas", "Adamstauno", "Adamstaŭno", "Adamstown", "Antamstaoun", "adamusutaun", "admztawn", "admztwn  pytkrn ayslnd", "aedeomseutaun", "atamstavun", "ya dang si dui", "Άνταμσταουν", "Адамстаун", "Адамстаўн", "אדמסטאון", "آدمزتاون", "ادمزتون، پیتکرن ایسلند", "ایڈمز ٹاؤن، جزائر پٹکیرن", "ॲडम्सटाउन", "ஆடம்ஸ்டவுன்", "แอดัมส์ทาวน์", "ადამსტაუნი", "アダムスタウン", "亚当斯敦", "애덤스타운"]]
+timezones = [348]
+populations = [46]
+altitudes = [-1]
+parents = ["PN"]
+states = {}
+districts = {}
