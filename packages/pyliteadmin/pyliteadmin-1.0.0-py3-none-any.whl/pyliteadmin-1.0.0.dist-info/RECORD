@@ -1,0 +1,10 @@
+pyliteadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyliteadmin/app.py,sha256=tYGT3HOwBmoTUeJ_6zBu1U0rY7mgtDYxVWF6w1bfTSI,16804
+pyliteadmin/db.py,sha256=lTT2L4cZ-eot10QEeyX-PnEL8cLVwHh9JFQhtylqEfA,4453
+pyliteadmin/pyliteadmin.css,sha256=JjvsnLWk35xt5qjwHa7ut-Qvxm2HoAwNyWx-0hYoo1E,3019
+pyliteadmin-1.0.0.dist-info/LICENSE,sha256=qFyLN6MhIA3HaLo8cfua1xZtc8LZcCGew5lx60Ytbg0,1088
+pyliteadmin-1.0.0.dist-info/METADATA,sha256=-gGRlpH9p8MvzhBlszWuS8ZCxKGe_xjbxREGEV9cgHI,2353
+pyliteadmin-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyliteadmin-1.0.0.dist-info/entry_points.txt,sha256=0v-Qm-xMNymiQaw7hMJfBlX6VFkQHNKTgytHdQSZS5I,53
+pyliteadmin-1.0.0.dist-info/top_level.txt,sha256=nB22zBGe-pfQ982v6t8GvlPiwYe0yUuq2GtBn1VZ1DI,12
+pyliteadmin-1.0.0.dist-info/RECORD,,
