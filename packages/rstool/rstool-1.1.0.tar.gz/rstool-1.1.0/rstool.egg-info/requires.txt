@@ -1,0 +1,6 @@
+aquarius-time>=0.3.0
+cftime>=1.5.1
+ds-format>=1.1.1
+numpy
+pyproj
+scipy
