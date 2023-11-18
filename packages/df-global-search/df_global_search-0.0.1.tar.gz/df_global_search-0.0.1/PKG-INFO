@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: df_global_search
+Version: 0.0.1
+Summary: Searches for a string in all columns and returns a styled DataFrame if match found. 
+Home-page: https://github.com/sqlinsights/df-global-search
+Author: Carlos D. Serrano
+Author-email: sqlinsights@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
