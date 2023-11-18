@@ -1,0 +1,78 @@
+[project]
+name = "notevault"
+version = "1.0.1"
+description = "save parsed markdown into sqlite db"
+authors = [
+    { name = "sysid", email = "sysid@gmx.de" },
+]
+dependencies = [
+    "sqlite-utils>=3.35.1",
+    "markdown>=3.5.1",
+    "bs4>=0.0.1",
+    "pydantic>=2.4.2",
+    "dateparser>=1.1.8",
+    "sqlalchemy>=2.0.23",
+    "alembic>=1.12.1",
+    "typer>=0.9.0",
+    "pydantic-settings>=2.0.3",
+    "pyyaml>=6.0.1",
+    "parsy>=2.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+notevault = "notevault.cli:app"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.10.1",
+    "mypy>=1.6.1",
+    "pytest>=7.4.3",
+    "pytest-mock>=3.12.0",
+]
+
+[tool.pdm.build]
+excludes = [
+    "./**/.git",
+]
+package-dir = "src"
+includes = [
+    "src/notevault",
+]
+source-includes = [
+    "tests",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "tox.ini",
+]
+editable-backend = "path"
+
+[tool.bumpversion]
+current_version = "1.0.1"
+commit = true
+tag = false
+message = "Bump version to {new_version}"
+files = [
+    { filename = "VERSION" },
+    { filename = "pyproject.toml" },
+    { filename = "src/notevault/__init__.py" },
+]
+
+[tool.bumpversion.file_patterns]
+VERSION = [
+    { search = "{current_version}", replace = "{new_version}" },
+]
+"pyproject.toml" = [
+    { search = "version = {current_version}", replace = "version = {new_version}" },
+]

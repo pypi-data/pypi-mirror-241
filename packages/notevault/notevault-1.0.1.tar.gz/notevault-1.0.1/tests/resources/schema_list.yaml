@@ -1,0 +1,29 @@
+Model:
+  List:
+    name:
+      type: string
+    start:
+      type: time
+      nullable: true
+    duration:
+      type: int
+      nullable: false
+    breaks:
+      type: timedelta
+      nullable: true
+    data:
+      type: string
+      nullable: true
+
+
+DocumentStructure:
+  Sections:
+    - section:
+        heading: "# List"
+        type: List
+        is_list: true
+        list_specifier: list
+
+Config:
+  database: test_daily.db
+  template: tests/resources/daily_list.md
