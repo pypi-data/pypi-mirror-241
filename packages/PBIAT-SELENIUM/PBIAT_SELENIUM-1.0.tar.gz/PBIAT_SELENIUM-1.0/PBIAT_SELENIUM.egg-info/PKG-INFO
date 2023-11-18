@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PBIAT-SELENIUM
+Version: 1.0
+Summary: Pacote para automatizar rotinas PowerBi
+Author: Andre Ailton
+Author-email: andre.ailtonf.10@gmail.com
+Keywords: Selenium,PowerBi,Automatization,automation
+
+# PBI_ATT
+
+Esta e uma ferramenta que ira permitir vocÃª automatizar tarefas em power bi como baixar relatorios,exibir relatorios em loop
+e Atualizar relatorios
+
+* Este codigo foi criado usando SELENIUM como Base para conseguir realizar tarefas rotineiras no PBI
+
+* FunÃ§Ãµes (BaixarRelatorio,AtualizarWorkspace,VisualizarRelatorios)
