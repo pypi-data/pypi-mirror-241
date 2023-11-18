@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: connattractor
+Version: 0.1.0
+Summary: Tool for analyzing fMRI data with functional connectome-based Hopfield networks (fcHNN)
+Home-page: https://pni-lab.github.io/connattractor/
+License: GPL-3.0-or-later
+Keywords: functional connectivity analysis,brain dynamics,dynamic modelling,brain states,fcHNN,functional connectome,Hopfield
+Author: Tamas Spisak
+Author-email: tamas.spisak@uni-due.de
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: joblib (>=1.0.1)
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: nilearn (>=0.9.1)
+Requires-Dist: numpy (>=1.21.1)
+Requires-Dist: pandas (>=1.3.1)
+Requires-Dist: pingouin (>=0.5.3)
+Requires-Dist: scikit-learn (>=1.3)
+Requires-Dist: scipy (>=1.7.1)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: statsmodels (>=0.12.2)
+Requires-Dist: tqdm (>=4.62.0)
+Project-URL: Repository, https://github.com/pni-lab/connattractor
+Description-Content-Type: text/markdown
+
+# connattractor
+
+[![GitHub license](https://img.shields.io/github/license/pni-lab/connattractor.svg)](https://github.com/pni-lab/connattractor/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/pni-lab/connattractor.svg)](https://github.com/pni-lab/connattractor/releases/)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/pnilab/connattractor?color=blue&label=pnilab%2Fconnattractor%3A&logo=docker&sort=semver)](https://hub.docker.com/repository/docker/pnilab/connattractor)
+![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/pnilab/connattractor?label=%20pnilab%2Fconnattractor&logo=docker&sort=semver)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pni-lab/connattractor/HEAD)
+
+Laboratory for Predictive Neuroimaging - University Hospital Essen, Germany
+
+## Webpage with manuscript and getting started guide
+[pni-lab.github.io/connattractor](pni-lab.github.io/connattractor)
+
+## How to install the connattractor package?
+
+The package 'connattractor' will be soon available on PyPI.
+
+Afterwards the preferred way to install it will be:
+
+```
+pip install connattractor
+```
+
+For now, the easiest way to try out the package is using docker, see below:
+
+## How to re-run the analyses?
+
+- **Run the analyses with 1 click (in the cloud)**
+  - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pni-lab/connattractor/HEAD)
+  - Open in GitHub Codespaces (click `code` on top right on the github page of the repo)
+
+- **Set up everything to run in 5 mins (locally on your computer)**
+  - install [docker](https://www.docker.com/)
+  - clone the repo and start your notebook in a docker container
+    ```bash
+    git clone https://github.com/pni-lab/connattractor.git
+    cd connattractor
+    docker run -it -v $PWD:/mounted/connattractor -p 8080:8080 -p 8888:8888 pnilab/connattractor:latest jupyter notebook
+    ```
+  - copy paste the last link in your browser to start the notebook
+
+ - **Bare-metal** (developers)
+  - clone this repository with git as above
+  - set up a python environment (e.g with conda)
+  - install all requirements from requirements.txt
+  - start developing
+
+## How to render the web-page locally?
+```bash
+cd docs
+myst start
+```
+
