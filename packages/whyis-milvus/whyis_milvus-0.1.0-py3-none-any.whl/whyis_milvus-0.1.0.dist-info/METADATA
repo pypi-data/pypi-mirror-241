@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: whyis-milvus
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: whyis
+Requires-Dist: pymilvus
+Requires-Dist: sentence-transformers
+Requires-Dist: scipy
+Requires-Dist: numpy
+
