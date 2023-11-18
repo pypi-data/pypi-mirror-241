@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "airlift_py"
+version = "1.0.0"
+description = "Upload & Merge Data with Attachments to Airtable"
+authors = ["Arjun <arjunprakash027@gmail.com>"]
+readme = "README.md"
+include = ["CHANGELOG.md"]
+license = "MIT"
+homepage = "https://github.com/TheAcharya/Airlift"
+repository = "https://github.com/TheAcharya/Airlift"
+documentation = "https://github.com/TheAcharya/Airlift/blob/main/README.md"
+keywords = ["csv", "json", "airtable", "dropbox", "import", "merge"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Environment :: Console",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft",
+    "Operating System :: Unix",
+    "Topic :: Database",
+    "Topic :: Internet",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.scripts]
+airlift = "airlift_py.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyairtable = "^2.1.0.post1"
+requests = "^2.31.0"
+tqdm = "^4.66.1"
+dropbox = "^11.36.2"
+
+[tool.poetry.group.dev.dependencies]
+pyairtable = "^2.1.0.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
