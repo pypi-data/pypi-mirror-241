@@ -1,0 +1,23 @@
+What's new in version 1.2.6
+===========================
+Version available since October 27th 2023
+
+
+New Features
+------------
+
+- GUI can be opened also with iteration class after an optimization.
+- Method 'openGUI' in wrapper class to open GUI.
+- GUI can display vectors.
+- To print pareto, new method method 'sample' implemented in optim2dbasic function (discretization).
+
+
+Bug fixed
+---------
+- Some changements in wrapper to avoid errors for last versions of Numpy.
+
+
+Contributors
+------------
+Lucas Agobert
+Benoit Delinchant
