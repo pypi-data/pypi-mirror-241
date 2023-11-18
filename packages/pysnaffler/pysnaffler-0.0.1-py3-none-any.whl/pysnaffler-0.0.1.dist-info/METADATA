@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pysnaffler
+Version: 0.0.1
+Summary: Snaffler. But in python.
+Home-page: https://github.com/skelsec/pysnaffler
+Author: Tamas Jos
+Author-email: info@skelsecprojects.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: aiosmb (>=0.4.7)
+Requires-Dist: toml
+
