@@ -1,0 +1,16 @@
+LICENSE
+LICENSE copy
+README.md
+setup.py
+jsondatafaker/__init__.py
+jsondatafaker/cli.py
+jsondatafaker/config.py
+jsondatafaker/jsondatafaker.py
+jsondatafaker/util.py
+jsondatafaker.egg-info/PKG-INFO
+jsondatafaker.egg-info/SOURCES.txt
+jsondatafaker.egg-info/dependency_links.txt
+jsondatafaker.egg-info/entry_points.txt
+jsondatafaker.egg-info/requires.txt
+jsondatafaker.egg-info/top_level.txt
+tests/test_jsondatafaker.py
