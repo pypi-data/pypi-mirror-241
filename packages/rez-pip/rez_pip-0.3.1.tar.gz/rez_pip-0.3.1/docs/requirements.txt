@@ -1,0 +1,4 @@
+sphinx ~= 7.2
+furo
+sphinx-autobuild
+sphinx-inline-tabs
