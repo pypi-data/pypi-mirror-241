@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cartomap
+Version: 0.0.1
+Summary: python libary for creating stylised maps with ai
+Home-page: https://github.com/gisam/cartomap
+Author: sam jackson
+Author-email: sjackson608@gmail.com
+License: MIT license
+Keywords: cartomap
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cartomap
+
+
+[![image](https://img.shields.io/pypi/v/cartomap.svg)](https://pypi.python.org/pypi/cartomap)
+[![image](https://img.shields.io/conda/vn/conda-forge/cartomap.svg)](https://anaconda.org/conda-forge/cartomap)
+
+
+**python libary for creating stylised maps with ai**
+
+
+-   Free software: MIT license
+-   Documentation: https://gisam.github.io/cartomap
+    
+
+## Features
+
+-   TODO
