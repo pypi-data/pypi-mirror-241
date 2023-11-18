@@ -1,0 +1,4 @@
+anki
+anki/control
+anki/misc
+anki/misc/deprecated_alias
