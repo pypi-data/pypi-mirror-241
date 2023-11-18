@@ -1,0 +1,12 @@
+future
+ipython
+fabric>=2.5
+ipywidgets
+matplotlib
+numpy
+pandas
+PyYAML
+dill
+
+[mpi]
+mpi4py
