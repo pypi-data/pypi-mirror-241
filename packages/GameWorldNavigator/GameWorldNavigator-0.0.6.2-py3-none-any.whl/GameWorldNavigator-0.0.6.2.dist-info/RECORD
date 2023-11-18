@@ -1,0 +1,17 @@
+gamenavigator/__init__.py,sha256=CGHjlXML_En5ld56vIzfdaVnmwC1eIDDl3HuYZksP1o,483
+gamenavigator/config.py,sha256=rpYGY-HFNbSl-Zs_1Ohbvwq80sTVo-pd-U9lU9fkFIE,253
+gamenavigator/exception.py,sha256=bKNZTNMIbH8BUvp2Hki2xmROY6AC2W3WUK4EZkCq0dg,372
+gamenavigator/game_controller.py,sha256=HC41DRLosFk4GsoqZc4cQjULPFGUn4-HKsrQ6hZ6id0,13989
+gamenavigator/image_recognition.py,sha256=-zUZdLJPHbHXbowJ3yF6fsvTDgkD9WllGmRRB3VM28Y,3962
+gamenavigator/keyboard_mouse_simulation.py,sha256=DjbPA6jgtEk30e6sZzlY_esKreM40uxAZ9Gs7ImKkbg,3058
+gamenavigator/listener.py,sha256=TgglhX6rLQXNfiymuZkxY7T97LDo90QYQC2qZc3_rOI,778
+gamenavigator/log.py,sha256=Py5XwN1PJRbJ3-ofGHLJL0p9hzGn1Th_vr12MSW0iRM,703
+gamenavigator/ocr_recognition.py,sha256=fQlcGFDRb2xIFkO_cKBGEtgIWQs0qoYFSbeGv1l-uic,1427
+gamenavigator/core/__init__.py,sha256=Y1gw7YWlQ1Q-AC67SBNK5Y7xdzE-cgKKaLO6SvlgOEo,46
+gamenavigator/core/pos.py,sha256=SW9Sy7JdJDIsa25041Q6XRGgH_RATmiCPJ8Agp0IDp4,1522
+gamenavigator/core/rect.py,sha256=p42EuDh8aT0t7bXeTAHqPNK9V6nval-4ZTh-ZW-Ct1o,738
+GameWorldNavigator-0.0.6.2.dist-info/LICENSE,sha256=0Ys--6xXckvTmSh8Ly84jTXiX6Ud4_CeArMP8P7ORSY,1084
+GameWorldNavigator-0.0.6.2.dist-info/METADATA,sha256=gnRkHJg6LzJfwE2qWy72RuFgQH9I9RGDA3ginJAZt7s,790
+GameWorldNavigator-0.0.6.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+GameWorldNavigator-0.0.6.2.dist-info/top_level.txt,sha256=tFspKFBqXDM1tS4SYcTJZZrFU6O7XFxhvsvoDM1PzeI,14
+GameWorldNavigator-0.0.6.2.dist-info/RECORD,,
