@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: tipsql
+Version: 0.0.3
+Summary: Type Hint SQL Query Builder for Python.
+Author: yassun7010
+Author-email: yassun7010@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: cli
+Provides-Extra: postgresql
+Provides-Extra: snowflake
+Provides-Extra: sqlite3
+Requires-Dist: inflection (>=0.5.1,<0.6.0) ; extra == "cli"
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0) ; extra == "cli"
+Requires-Dist: tipsql-cli (==0.0.3) ; extra == "cli"
+Requires-Dist: tipsql-core (==0.0.3)
+Requires-Dist: tipsql-postgresql (==0.0.3) ; extra == "postgresql"
+Requires-Dist: tipsql-snowflake (==0.0.3) ; extra == "snowflake"
+Requires-Dist: tipsql-sqlite3 (==0.0.3) ; extra == "sqlite3"
+Description-Content-Type: text/markdown
+
+# 型安全な SQL クエリビルダー
+
+## DDL
+
+サポートしない。DMLのみを対象にする。
+
+DDL は構文がデータベースごとに異なることが多く、使用頻度も少ない。
+別のマイグレーションツールで管理することを推奨する。
+
+## 関連テーブルについて
+
+PrimaryKey や結合キーが制約として含まれている場合、 NewType
+で表現することで条件の一致を行わせる。
+
+## 実例
+
+```py
+from textwrap import dedent
+
+from tipsql.core.query.builder import QueryBuilder
+
+from your_project.database.public import User, Address
+
+
+builder = (
+    query.chain()
+    .from_(
+        lambda c: c(User)
+        .left_outer_join(
+            Address,
+        )
+        .on(
+            lambda c: c(User.id == Address.user_id)
+            .and_(Address.city == "Tokyo")
+        )
+    )
+    .select(
+        User.id,
+        User.name,
+    )
+)
+
+assert (
+    builder.build()
+    == dedent(
+        """
+        SELECT
+            users.id,
+            users.name
+        FROM
+            users
+            LEFT OUTER JOIN
+                addresses
+            ON
+                users.id = addresses.user_id
+                AND addresses.city = 'Tokyo';
+        """
+    ).strip()
+)
+```
+
