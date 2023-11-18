@@ -1,0 +1,24 @@
+/// These are tests for the Meraki API v1.38
+
+include meraki_v1, keyring, strings;
+
+api_key = GetMerakiApiKey("stage-api-key");
+host_name = "Stage-Entertainment-Master";
+org = "Stage Entertainment";
+
+result = InitDashboardApi(api_key);
+if result == false {
+	print("Failed to initialize Meraki Dasboard API");
+	print(GetLastErrorMessage());
+	halt 1;
+} 
+
+print("Initialized Meraki Dashboard API");
+print();
+
+select * from get_org_Organizations() into organizations;
+
+print($"{PadCenter('Organization ID', ' ', 24)} Organization Name");
+foreach organizations {
+	print($"{PadLeft(it['id'], ' ', 24)} {it['name']}");
+}
