@@ -1,0 +1,115 @@
+name: release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump_version:
+        type: choice
+        description: "Bump Version"
+        options:
+          - patch
+          - minor
+          - major
+        required: true
+      release_note:
+        description: "release note"
+        required: false
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          curl -sSL https://github.com/mitsuhiko/rye/releases/latest/download/rye-x86_64-linux.gz --output rye.gz
+          gunzip rye.gz
+          chmod +x rye
+          sudo mv rye /usr/local/bin/
+
+      - name: Update version
+        run: |
+          before_version=$(grep "^version =" pyproject.toml | awk '{print $3}' | tr -d '"')
+          rye version -b ${{ github.event.inputs.bump_version }}
+          next_version=$(grep "^version =" pyproject.toml | awk '{print $3}' | tr -d '"')
+          sed -i "s/__version__ = .*/__version__ = \"$next_version\"/" src/aglog/__init__.py
+          echo "BEFORE_VERSION=$before_version" >> $GITHUB_ENV
+          echo "NEXT_VERSION=$next_version" >> $GITHUB_ENV
+
+      - name: Build and publish
+        env:
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          git tag v${{ env.NEXT_VERSION }}
+          rye build
+          rye publish --token $PYPI_TOKEN --yes
+
+      - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "releaser@releaser.com"
+          git config --local user.name "releaser"
+          git add .
+          git commit -m "Bump version to v${{ env.NEXT_VERSION }}"
+          git push origin main
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.NEXT_VERSION }}
+          release_name: Release v${{ env.NEXT_VERSION }}
+          body: |
+            ${{ github.event.inputs.release_note }}
+          draft: false
+          prerelease: false
+
+      - name: Get Name of Artifact
+        run: |
+          ARTIFACT_PATHNAME=$(ls dist/*.whl | head -n 1)
+          ARTIFACT_NAME=$(basename $ARTIFACT_PATHNAME)
+          echo "ARTIFACT_PATHNAME=${ARTIFACT_PATHNAME}" >> $GITHUB_ENV
+          echo "ARTIFACT_NAME=${ARTIFACT_NAME}" >> $GITHUB_ENV
+      - name: Upload Whl to Release Assets
+        id: upload-release-asset1
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ env.ARTIFACT_PATHNAME }}
+          asset_name: ${{ env.ARTIFACT_NAME }}
+          asset_content_type: application/x-wheel+zip
+
+      - name: Get Name of Artifact
+        run: |
+          ARTIFACT_PATHNAME=$(ls dist/*.gz | head -n 1)
+          ARTIFACT_NAME=$(basename $ARTIFACT_PATHNAME)
+          echo "ARTIFACT_PATHNAME=${ARTIFACT_PATHNAME}" >> $GITHUB_ENV
+          echo "ARTIFACT_NAME=${ARTIFACT_NAME}" >> $GITHUB_ENV
+      - name: Upload gz to Release Assets
+        id: upload-release-asset2
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ env.ARTIFACT_PATHNAME }}
+          asset_name: ${{ env.ARTIFACT_NAME }}
+          asset_content_type: application/gzip

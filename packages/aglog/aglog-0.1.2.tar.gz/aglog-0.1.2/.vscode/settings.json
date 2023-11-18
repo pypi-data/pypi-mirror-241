@@ -1,0 +1,33 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true,
+    },
+  },
+  "ruff.lint.args": [
+    "--unfixable=F401,F841"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "cSpell.words": [
+    "aglog",
+    "asctime",
+    "codecov",
+    "datefmt",
+    "freezegun",
+    "levelname",
+    "levelno",
+    "PYPI",
+    "pyproject",
+    "pytest",
+    "PYTHONPATH",
+    "sinfo"
+  ],
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+}
