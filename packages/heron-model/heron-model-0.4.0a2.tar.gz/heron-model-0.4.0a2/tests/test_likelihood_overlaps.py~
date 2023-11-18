@@ -1,0 +1,17 @@
+import unittest
+from heron.likelihood import determine_overlap
+from elk.waveform import Timeseries
+import torch
+
+
+
+class TestTimeseriesOverlap(unittest.TestCase):
+    def test_simple_overlap(self):
+        times_A = torch.linspace(0, 50, 100)
+        times_B = torch.linspace(25, 75, 100)
+        timeseries_A = Timeseries(data=torch.ones(100),
+                                  times=times_A)
+        timeseries_B = Timeseries(data=torch.ones(100),
+                                  times=times_B)
+
+        print(determine_overlap(timeseries_A, timeseries_B))

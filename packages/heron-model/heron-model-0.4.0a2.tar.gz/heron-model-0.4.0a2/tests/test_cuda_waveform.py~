@@ -1,0 +1,9 @@
+"""
+CUDA Waveform Tests
+-------------------
+
+This test suite contains tests to ensure that the output of CUDA-based waveform models
+both complies with the API and also behave as expected.
+
+These tests do not attempt to test the scientific accuracy of the waveforms.
+"""
