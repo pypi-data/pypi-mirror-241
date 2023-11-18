@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ieee754/IEEE754.py
+ieee754/__init__.py
+ieee754.egg-info/PKG-INFO
+ieee754.egg-info/SOURCES.txt
+ieee754.egg-info/dependency_links.txt
+ieee754.egg-info/top_level.txt
