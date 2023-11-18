@@ -1,0 +1,12 @@
+apluggy/__about__.py,sha256=vCzt5eUDy-XEkicyLWRzIqopSSMb8R8xnnPHVJmavTA,22
+apluggy/__init__.py,sha256=4JsIMCIb3SLRd5Q2NzKurO7yon3TrQrH5tIt6kFlqFY,383
+apluggy/_decorator.py,sha256=RpNh2ArJ26ZO5qjI9za5ed_IK6S1IGB7xjEox54uqsM,1547
+apluggy/_wrap/__init__.py,sha256=Xl6_0oiRwfRsHfCRNHbgdggH2_jmKFY4GI5O9N82cgM,64
+apluggy/_wrap/ahook.py,sha256=wzQO41gNhhONM9APrUSwEmm5tkwBEmN4-LTB6vqEj5k,590
+apluggy/_wrap/awith.py,sha256=cNTsx43JZv66jKGUmV7qklPl_eZSFazWJVEixMccNAE,1469
+apluggy/_wrap/manager.py,sha256=xbcdrWILR1nrcRQqPEu-1sNecFH2Y-bq5ANCO_XZRwc,4432
+apluggy/_wrap/with_.py,sha256=Fwqfh7wf0GNC39hx6oeq2ElWDXhk9gKhVssW3wseegY,4253
+apluggy-0.9.7.dist-info/METADATA,sha256=hckgiwmkhw5JLZHZPNvpihgVrKO2JinQZS5GowjhTPs,9448
+apluggy-0.9.7.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+apluggy-0.9.7.dist-info/licenses/LICENSE.txt,sha256=f36P2KAoMZfi2_5nPxbtyovVoQE4g0r2uhbXl4QBYZ8,1098
+apluggy-0.9.7.dist-info/RECORD,,
