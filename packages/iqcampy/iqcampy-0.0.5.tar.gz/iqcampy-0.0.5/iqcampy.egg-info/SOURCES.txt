@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+iqcampy/__init__.py
+iqcampy/_modidx.py
+iqcampy/core.py
+iqcampy/storage.py
+iqcampy.egg-info/PKG-INFO
+iqcampy.egg-info/SOURCES.txt
+iqcampy.egg-info/dependency_links.txt
+iqcampy.egg-info/entry_points.txt
+iqcampy.egg-info/not-zip-safe
+iqcampy.egg-info/requires.txt
+iqcampy.egg-info/top_level.txt

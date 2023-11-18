@@ -1,0 +1,8 @@
+requests
+tqdm
+treelib
+pathlib
+numpy
+matplotlib
+
+[dev]
