@@ -1,0 +1,46 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    datefmt: "%Y-%m-%dT%H:%M"
+  json:
+    (): aglog.JsonColorFormatter
+    datefmt: "%Y-%m-%dT%H:%M:%S+09:00"
+    indent: 4
+    keys:
+      - created
+      - asctime
+      - name
+      - levelname
+      - msg
+      - message
+      - args
+      - processName
+      - threadName
+      - taskName
+      - path
+      - user
+      - xs
+      - exc_info
+      # - stack_info
+filters:
+  ng_word:
+    (): aglog.NameFilter
+    excludes:
+      - "aglog"
+handlers:
+  console:
+    class: logging.StreamHandler
+    # filters: [ng_word]
+    formatter: json
+  test:
+    class: logging.StreamHandler
+    formatter: simple
+    level: DEBUG
+    stream: ext://sys.stdout
+loggers:
+  "":
+    level: DEBUG
+    handlers:
+      - console
