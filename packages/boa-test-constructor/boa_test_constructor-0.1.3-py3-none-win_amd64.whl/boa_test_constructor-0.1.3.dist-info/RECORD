@@ -1,0 +1,10 @@
+boaconstructor/__init__.py,sha256=D95pTaXxFS8iQCyoKrjBYXM2KlF7x7gDXBFeyzxVO20,11647
+boaconstructor/node.py,sha256=kSOoeEaac04T5qN1LuJprVk-nVvuk8Wwdr7BiBT2vqY,4863
+boaconstructor/data/neogo.exe,sha256=Suq5MGf1EaSKGJLt5KS6u-FLCBWZW978g_BZZ6SNh24,39025664
+boaconstructor/data/protocol.unittest.yml,sha256=HwhMJTetAFh_Ye3nXa3IFCmmEpe0-S8jp4Zheu0P7ps,1874
+boaconstructor/data/wallet1_solo.json,sha256=7umrKM0LRQgevUdM_nDKHKpN43PwE9Bi7tEyOh8RJIY,1185
+boa_test_constructor-0.1.3.dist-info/LICENSE.rst,sha256=CyThXtU78yAt5y90c8pA3LZJMdySiDILjKTfaidZvMo,1062
+boa_test_constructor-0.1.3.dist-info/METADATA,sha256=TasDTIhMhybrEI14oR4g2X0VKaHyUkNoDhzklnSiQ-c,2797
+boa_test_constructor-0.1.3.dist-info/WHEEL,sha256=gp0LO19JaNIGfLDw8oLik3ltOyskDviTXeT-CxZuvWw,103
+boa_test_constructor-0.1.3.dist-info/top_level.txt,sha256=oHcMceKMvwg0JRnNPtv8DxAbPThbDfwn9OyyTEUxXKo,15
+boa_test_constructor-0.1.3.dist-info/RECORD,,
