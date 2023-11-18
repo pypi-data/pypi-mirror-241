@@ -1,0 +1,16 @@
+atksh_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atksh_utils/version.py,sha256=y_fPpU6VK_LLaj-dweUMkuluSUpLZldJCnJxFDfcohM,413
+atksh_utils/nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atksh_utils/nlp/str_kernel.py,sha256=kc8VnuQ4YulWU2ODvanBoKmFCmk6yviDPD2bCP2W9VM,4786
+atksh_utils/openai/__init__.py,sha256=XzFaVrHKvnn2zyBB6FHOzO0sIyW6H74vTWx2yN_j65I,137
+atksh_utils/openai/api.py,sha256=Qp2EKMzAmcbTivx7ZQMGpBj9Lqzubln9VqV1dvNIM0w,19237
+atksh_utils/openai/askgpt.py,sha256=mr5VLi0Xue64sY_iTaFG1DPfJTFvN8Iq1v-AWnSCVKE,4219
+atksh_utils/openai/functional.py,sha256=fdj3kLrY-9wyWsqut3ApvRjiPW0FRwMJMOfvQ83CdPA,6595
+atksh_utils/openai/prompt.py,sha256=i9D35q0XQh4O1d2z99yxg0UcAdQwrpf4CMTNxYUxYWU,3799
+atksh_utils/openai/tool.py,sha256=j5riguUi7gd2cuvy27lo7-mBcbd064WO7x1mM-EkJwc,9302
+atksh_utils-0.5.14.dist-info/LICENSE,sha256=nHukE4G7nocUAadXJCBwy1b6MB8OpeGd2TgLlZr-ITA,1062
+atksh_utils-0.5.14.dist-info/METADATA,sha256=vt2J1vZU2aEPdf58FjuaQEz4FBvHsq1vGAjZnvHbC4Y,4118
+atksh_utils-0.5.14.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+atksh_utils-0.5.14.dist-info/entry_points.txt,sha256=9PnZLi-pYeQt7leIOOjEV58VxXWB7AsewUAOx6jrokk,57
+atksh_utils-0.5.14.dist-info/top_level.txt,sha256=BmJ2Grrn7N7TWlwPmu0ZfexS8Gf-aXz8_H5NHmf6Y88,12
+atksh_utils-0.5.14.dist-info/RECORD,,
