@@ -1,0 +1,4 @@
+[console_scripts]
+get_all_records = iseqclinicaltrials.get_records:get_all_records
+get_content_as_sql = iseqclinicaltrials.get_content_as_sql:main
+get_specific_records = iseqclinicaltrials.get_records:get_specific_records
