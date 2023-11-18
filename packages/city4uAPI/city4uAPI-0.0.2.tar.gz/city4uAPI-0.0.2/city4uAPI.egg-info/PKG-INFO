@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: city4uAPI
+Version: 0.0.2
+Summary: A Python package for interacting with the City4u API
+Home-page: https://github.com/0xAlon/city4uAPI
+Author: Alon Teplitsky
+Author-email: alon.ttp@gmail.com
+License: MIT
+Keywords: city4uAPI
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+This package provides a simple and intuitive interface for interacting with the City4u API. It includes features for getting water consumption data and customer info.

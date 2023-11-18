@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+city4uAPI.egg-info/PKG-INFO
+city4uAPI.egg-info/SOURCES.txt
+city4uAPI.egg-info/dependency_links.txt
+city4uAPI.egg-info/requires.txt
+city4uAPI.egg-info/top_level.txt
