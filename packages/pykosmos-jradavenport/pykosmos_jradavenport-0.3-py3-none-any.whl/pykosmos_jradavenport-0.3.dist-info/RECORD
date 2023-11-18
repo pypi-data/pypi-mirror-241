@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykosmos/__init__.py,sha256=UfFn36JfSC0cpNugk_6J7BVTdQGxDnkRGqwIvHYYEkM,216
+pykosmos/apextract.py,sha256=He_C89rU_YK4iXZZH5Vu8zpBoeZ8fkGdLRHJfC9mWBw,14679
+pykosmos/flatfield.py,sha256=HmDJfHHQvLG5MXeFBaLWP1kUFklTdX-D7U5U49llpK4,9337
+pykosmos/fluxcal.py,sha256=xO76BgEY_hptQAEj8iURBCU6LOXwMoQTJzBfmCB8AL8,11863
+pykosmos/identify.py,sha256=clUDLW89acpQHGFR_d6cQqorB9RnSX1I-ZJpY8w81QQ,23231
+pykosmos/imtools.py,sha256=vg8DYAZEl45TIKVayXZ1xiRn244ehfEitu3RrmZBgDE,5453
+pykosmos/wrappers.py,sha256=-Vzt8Ha7XrnXZhdYbNhYnHlrlhvtpIdSTf4htxSQpGc,14214
+pykosmos_jradavenport-0.3.dist-info/METADATA,sha256=z8HOfwGY8GoU3qTc6fEseJM5xXgnzpRl6cRL2NyIlSI,2326
+pykosmos_jradavenport-0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pykosmos_jradavenport-0.3.dist-info/licenses/LICENSE,sha256=VG4XVf8a75xoM3J8m65X4sL6vVxx-ehMnWU6Z2N0Orc,1072
+pykosmos_jradavenport-0.3.dist-info/RECORD,,
