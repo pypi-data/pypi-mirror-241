@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: example_package_mhawks
+Version: 0.1
+Summary: Test module to see if i can get things set up in anaconda
+Author: Michael Hawks
+Author-email: <youremail@email.com>
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Test module to see if i can get things set up in anaconda
