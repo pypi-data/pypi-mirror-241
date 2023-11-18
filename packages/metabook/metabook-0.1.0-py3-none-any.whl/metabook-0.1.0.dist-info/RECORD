@@ -1,0 +1,14 @@
+metabook/__init__.py,sha256=BdZRtIiqo2-HGixfcsfdxXN-1nzIKYqsrlXXoTtL9Nc,1180
+metabook/__main__.py,sha256=6MQ1iFFgeZKfidHubG_zDZF2kX6sQmgRbwJ8a7ui0f4,56
+metabook/cli.py,sha256=UNde6PaHzzb4QO8E1fqKsCe2R8zWiwwajnK8GOMaQL4,1296
+metabook/config.py,sha256=8biNgwqxmacOe1dHbICAXJLTdQWXuaiKEdu232oCYuY,888
+metabook/exceptions.py,sha256=fR_FPaK-7WHGY3Ho7RAxlRtzp1hRJRQ2tjWMlGWQvZk,2504
+metabook/metabook.py,sha256=XYipgCiz1XDbPXAxE1pPKFlQBLuPqin2TumbHud_Gbg,17464
+metabook/metabook1.py,sha256=eSYZxENrLEVuNJTa0A-RLFB1fk0_ILd4SyRIb6UKZms,16437
+metabook/publishers.py,sha256=xRIaIHEK1vqA7efcxEKdIcjc9rkkVIhzcGW_1hDzZzs,1993
+metabook-0.1.0.dist-info/LICENSE,sha256=wdDNqaLtDFznKJIbjCAlEMg15k6oqIf_bHrH_U9O3pc,1095
+metabook-0.1.0.dist-info/METADATA,sha256=dXK45pIlhRB7GLH1cOpadHVp9u92Uysoy3ZSsJWXOrM,9109
+metabook-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+metabook-0.1.0.dist-info/entry_points.txt,sha256=VncCc4NXgL8RZKgVgXOl29MA3C9FdNHtWKAGiKNfRxc,52
+metabook-0.1.0.dist-info/top_level.txt,sha256=doPasnn-Vnl3UQGzcBds_ko98rAt_hZxGGDkFhLVikw,9
+metabook-0.1.0.dist-info/RECORD,,
