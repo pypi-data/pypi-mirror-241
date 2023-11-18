@@ -1,0 +1,13 @@
+sparql_endpoint_fixture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparql_endpoint_fixture/endpoint.py,sha256=yTutIyD9h7xm-eSlmWe0t79CWm1fYMRqScXSS5sQ1Qg,11961
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=hgQINM4X5R45QxLTLG5Ff3KhjvGgP25vWkcz_qDljdE,60
+tests/test_endpoint.py,sha256=Kjet5Lz0XyKKYbLmKYwQ44T2wT8Mwsw-pXKKmODvXd0,10024
+tests/test_errors.py,sha256=HDVlMpGTNzjq6Uq6XHEPnT5jpU3MLg2NV0AEnVfPnyA,3772
+tests/test_multiple_graphs.py,sha256=fAZk3EbjY9Oflo6jx_datnJTaMMBsoS8wl4cgtM5cno,4984
+tests/test_predefined.py,sha256=jhEhLZKo8L1K-h1qz9gczI136u4wkZM6rFmJ4i3rUN8,1142
+sparql_endpoint_fixture-1.0.0.dist-info/LICENSE,sha256=YPpYpka7OpUGWnB6NjZxKMuKchAC7tJSUPlqOic8EMk,1524
+sparql_endpoint_fixture-1.0.0.dist-info/METADATA,sha256=WV7gdMSudtXvdKDpOUiW8UtSnS97VSgY9JI6HrchIDM,5050
+sparql_endpoint_fixture-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sparql_endpoint_fixture-1.0.0.dist-info/top_level.txt,sha256=is8j9Zm6VM4S4PMc_lOCdQ_eCi3E99UR50en3ry3OVc,30
+sparql_endpoint_fixture-1.0.0.dist-info/RECORD,,
