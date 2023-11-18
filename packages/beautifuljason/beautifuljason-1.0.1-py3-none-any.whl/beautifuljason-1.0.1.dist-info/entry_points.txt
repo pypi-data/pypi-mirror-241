@@ -1,0 +1,4 @@
+[console_scripts]
+jason_batch_convert=beautifuljason.tools.jason_batch_convert:main
+jason_config=beautifuljason.tools.jason_config:main
+
