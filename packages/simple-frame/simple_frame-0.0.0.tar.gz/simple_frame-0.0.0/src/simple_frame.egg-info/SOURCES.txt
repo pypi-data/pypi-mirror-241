@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/simple_frame/__init__.py
+src/simple_frame/__main__.py
+src/simple_frame.egg-info/PKG-INFO
+src/simple_frame.egg-info/SOURCES.txt
+src/simple_frame.egg-info/dependency_links.txt
+src/simple_frame.egg-info/top_level.txt
