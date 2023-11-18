@@ -1,0 +1,26 @@
+[package]
+name = "gluesql-json-storage"
+authors = [
+  "Hyoungkwan Cho <devgony@gmail.com>",
+  "Taehoon Moon <taehoon.moon@outlook.com>",
+]
+version= "0.15.0"
+edition= "2021"
+description= "GlueSQL - Open source SQL database engine fully written in Rust with pure functional execution layer, easily swappable storage and web assembly support!"
+license= "Apache-2.0"
+repository= "https://github.com/gluesql/gluesql"
+documentation= "https://docs.rs/gluesql/"
+resolver = "2"
+
+[dependencies]
+gluesql-core.path = "../gluesql-core"
+utils.path = "../utils"
+
+async-trait = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+futures = "0.3"
+tokio = { version = "1", features = ["rt", "macros"] }
+hex = "0.4"
+thiserror = "1.0"
+iter-enum = "1"

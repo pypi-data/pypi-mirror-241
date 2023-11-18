@@ -1,0 +1,15 @@
+[package]
+name = "gluesql-utils"
+authors = ["Taehoon Moon <taehoon.moon@outlook.com>"]
+version= "0.15.0"
+edition= "2021"
+description= "GlueSQL - Open source SQL database engine fully written in Rust with pure functional execution layer, easily swappable storage and web assembly support!"
+license= "Apache-2.0"
+repository= "https://github.com/gluesql/gluesql"
+documentation= "https://docs.rs/gluesql/"
+resolver = "2"
+
+[dependencies]
+indexmap = "1"
+pin-project = "1"
+futures = "0.3"
