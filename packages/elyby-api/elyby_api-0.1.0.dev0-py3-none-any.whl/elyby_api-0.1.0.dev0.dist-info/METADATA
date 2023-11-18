@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: elyby-api
+Version: 0.1.0.dev0
+Summary: Not official library for convenient interaction with API of Ely.by service (custom skin system for minecraft).
+Home-page: https://github.com/TheMade4/elyby-api
+License: GPL-3.0 license
+Author: TheMade4
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (==2.5.1)
+Requires-Dist: requests (==2.31.0)
+Project-URL: Repository, https://github.com/TheMade4/elyby-api
+Description-Content-Type: text/markdown
+
+# Elyby-API
+
+![PyPI](https://img.shields.io/pypi/v/elyby-api)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/elyby-api)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/elyby-api)
+![PyPI - License](https://img.shields.io/pypi/l/elyby-api)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/elyby-api)
+![Read the Docs](https://img.shields.io/readthedocs/elyby-api)
+
+# Do not take this library seriously, it is for personal use, if you want to use it in your project, you should make a fork of this repository and modify this library to an adequate level.
+
+#### Not official library for convenient interaction with API of Ely.by service (custom skin system for minecraft).
