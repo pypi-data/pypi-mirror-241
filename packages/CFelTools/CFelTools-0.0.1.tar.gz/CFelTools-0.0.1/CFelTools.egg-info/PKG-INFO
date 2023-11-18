@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CFelTools
+Version: 0.0.1
+Summary: cftools
+Home-page: https://cubefel.netlify.app
+Author: feleg
+Author-email: false.fas527@gmail.com
+Keywords: cfPass
+Requires-Python: >=9.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests.txt
+
+This library maked for cfPass(Manager of passwords)
