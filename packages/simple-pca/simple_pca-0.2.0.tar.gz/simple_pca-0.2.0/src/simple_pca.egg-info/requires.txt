@@ -1,0 +1,4 @@
+pandas>=1.5.3
+numpy>=1.26.1
+fileunity>=1.0.3
+wonderparse>=1.0.3
