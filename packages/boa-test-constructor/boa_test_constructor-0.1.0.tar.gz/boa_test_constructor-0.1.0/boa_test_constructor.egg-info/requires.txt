@@ -1,0 +1,11 @@
+neo-mamba==2.2.0
+PyYAML
+
+[dev]
+black
+build==0.10.0
+bump-my-version==0.10.0
+mypy
+requests
+tomlkit==0.12.1
+types-PyYAML
