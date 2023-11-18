@@ -1,0 +1,7 @@
+poly_igdb/__init__.py,sha256=0ZyqvIeOmZIgaG7aX9VcFo3TxQW8xNisoWysETZHTPI,110
+poly_igdb/igdbclient.py,sha256=Cbf9lyqYwV7j_HHM9I7QWyHynrAJfRTFB7V3mWFlbOk,9135
+poly_igdb/igdbgame.py,sha256=D18Yqh0Jviu7x6-EMU8Np3rSmtk37VccWp87oO8MqE4,1189
+poly_igdb-0.1.8.dist-info/METADATA,sha256=PfMLsYj4ukUwwy99Pkt3yCakaF1DJkIMoUDH2XVxLqA,638
+poly_igdb-0.1.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+poly_igdb-0.1.8.dist-info/top_level.txt,sha256=m0xB2nl3V-LV3QTmcMT62ztAwz5Q-fvboc91XaMpVRU,10
+poly_igdb-0.1.8.dist-info/RECORD,,
