@@ -1,0 +1,17 @@
+tqdm
+pandas
+fastavro
+lxml
+tldextract
+importlib-metadata<4.3
+langdetect
+
+[lint]
+flake8-isort>=3.0.1
+flake8-print>=3.1.0
+flake8-logging-format
+globality-black
+
+[typehinting]
+mypy
+types-setuptools
