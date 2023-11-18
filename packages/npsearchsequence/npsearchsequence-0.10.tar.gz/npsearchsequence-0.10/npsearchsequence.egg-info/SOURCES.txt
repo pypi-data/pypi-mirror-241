@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+npsearchsequence/README.MD
+npsearchsequence/__init__.py
+npsearchsequence/requirements.txt
+npsearchsequence/thirdparty.json
+npsearchsequence.egg-info/PKG-INFO
+npsearchsequence.egg-info/SOURCES.txt
+npsearchsequence.egg-info/dependency_links.txt
+npsearchsequence.egg-info/requires.txt
+npsearchsequence.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include npsearchsequence/requirements.txt
+include npsearchsequence/thirdparty.json
+include npsearchsequence/README.MD
