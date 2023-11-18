@@ -1,0 +1,12 @@
+requests
+
+[dev]
+black
+enum-tools[sphinx]
+jupyter
+pytest
+pytest-mock
+sphinx
+sphinx-rtd-theme
+twine
+wheel
