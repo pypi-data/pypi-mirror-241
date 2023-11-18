@@ -1,0 +1,3 @@
+[console_scripts]
+compose=open_autonomy_compose.cli:main
+
