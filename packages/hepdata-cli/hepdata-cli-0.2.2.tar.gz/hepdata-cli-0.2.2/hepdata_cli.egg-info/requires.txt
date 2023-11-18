@@ -1,0 +1,8 @@
+click
+requests
+future
+
+[tests]
+pytest
+pytest-cov
+requests_mock

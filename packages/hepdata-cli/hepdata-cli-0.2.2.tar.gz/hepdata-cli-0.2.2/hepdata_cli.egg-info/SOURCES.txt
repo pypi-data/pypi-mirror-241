@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+hepdata_cli/__init__.py
+hepdata_cli/api.py
+hepdata_cli/cli.py
+hepdata_cli/resilient_requests.py
+hepdata_cli/version.py
+hepdata_cli.egg-info/PKG-INFO
+hepdata_cli.egg-info/SOURCES.txt
+hepdata_cli.egg-info/dependency_links.txt
+hepdata_cli.egg-info/entry_points.txt
+hepdata_cli.egg-info/not-zip-safe
+hepdata_cli.egg-info/requires.txt
+hepdata_cli.egg-info/top_level.txt
