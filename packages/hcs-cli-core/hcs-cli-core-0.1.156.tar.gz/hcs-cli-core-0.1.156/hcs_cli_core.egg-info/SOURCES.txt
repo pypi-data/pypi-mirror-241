@@ -1,0 +1,13 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+setup.py
+hcs_cli_core.egg-info/PKG-INFO
+hcs_cli_core.egg-info/SOURCES.txt
+hcs_cli_core.egg-info/dependency_links.txt
+hcs_cli_core.egg-info/entry_points.txt
+hcs_cli_core.egg-info/top_level.txt
+vhcs/__init__.py
+vhcs/core/__init__.py
+vhcs/core/a.py
