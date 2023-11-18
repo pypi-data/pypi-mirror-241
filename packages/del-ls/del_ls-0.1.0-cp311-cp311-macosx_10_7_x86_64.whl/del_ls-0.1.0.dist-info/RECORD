@@ -1,0 +1,5 @@
+del_ls-0.1.0.dist-info/METADATA,sha256=FQs0ATeLH-b_asj3YG8Fj6pBkyKiDD44sVUFCglaBVE,255
+del_ls-0.1.0.dist-info/WHEEL,sha256=Ol7g7aCD2RQHrNQ-NbNY0v5rRx-HRj8uktUhEd7cFBo,106
+del_ls/__init__.py,sha256=LETtHYl-bZ9tMHFOmSkUs3xY7KV0PtY7YDHcKHp7W7A,1609
+del_ls/del_ls.cpython-311-darwin.so,sha256=NEUjyS-TrX2FgXLUp2CrUqJOlKc1lGn7WKIKPorC_PQ,402584
+del_ls-0.1.0.dist-info/RECORD,,
