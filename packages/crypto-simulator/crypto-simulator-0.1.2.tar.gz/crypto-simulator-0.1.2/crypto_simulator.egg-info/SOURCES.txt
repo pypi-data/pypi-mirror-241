@@ -1,0 +1,8 @@
+setup.py
+crypto_simulator.egg-info/PKG-INFO
+crypto_simulator.egg-info/SOURCES.txt
+crypto_simulator.egg-info/dependency_links.txt
+crypto_simulator.egg-info/entry_points.txt
+crypto_simulator.egg-info/requires.txt
+crypto_simulator.egg-info/top_level.txt
+src/main.py

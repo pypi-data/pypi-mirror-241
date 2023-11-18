@@ -1,0 +1,2 @@
+[console_scripts]
+crypto-simulator = src.main:main
