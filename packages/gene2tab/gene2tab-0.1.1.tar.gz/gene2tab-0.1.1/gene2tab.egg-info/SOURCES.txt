@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+gene2tab.egg-info/PKG-INFO
+gene2tab.egg-info/SOURCES.txt
+gene2tab.egg-info/dependency_links.txt
+gene2tab.egg-info/entry_points.txt
+gene2tab.egg-info/requires.txt
+gene2tab.egg-info/top_level.txt
+src/__init__.py
+src/gene2tab.py
