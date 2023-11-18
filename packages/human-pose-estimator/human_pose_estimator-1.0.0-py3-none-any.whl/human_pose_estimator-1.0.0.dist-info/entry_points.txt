@@ -1,0 +1,2 @@
+[console_scripts]
+poseestimator = human_pose_estimator.__main__:main
