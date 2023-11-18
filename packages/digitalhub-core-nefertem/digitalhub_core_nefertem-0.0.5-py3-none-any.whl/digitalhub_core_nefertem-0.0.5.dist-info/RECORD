@@ -1,0 +1,12 @@
+digitalhub_core_nefertem/__init__.py,sha256=hWvAvMp6dRGirr9eMPREErQB_QBhXGE7eRKPYGu_A6w,814
+digitalhub_core_nefertem/entities/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digitalhub_core_nefertem/entities/functions/spec.py,sha256=yb920uTomWnYYbx_POet6BvhSZ6kOa4yGbCe58trEEE,986
+digitalhub_core_nefertem/entities/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digitalhub_core_nefertem/entities/tasks/spec.py,sha256=jW0mCxTfgI-4Y_G9kO15bZUzsargu8GY-5oc42bPPNc,2213
+digitalhub_core_nefertem/runtime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digitalhub_core_nefertem/runtime/runtime.py,sha256=itjsIW1s-rr4MAsu-6ASdYcyCcW4VEt9P2qlK96h61s,13624
+digitalhub_core_nefertem-0.0.5.dist-info/LICENSE.txt,sha256=_yVOtnbW7Ss28mp058UEEc1X4Rgj8-kQBP_kj8_Sc88,11585
+digitalhub_core_nefertem-0.0.5.dist-info/METADATA,sha256=hrgWHTGKniNqI514pLpqrcXRsJp_BN7wnwGb6V6QqX4,14282
+digitalhub_core_nefertem-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+digitalhub_core_nefertem-0.0.5.dist-info/top_level.txt,sha256=GFcUlJGF_xGknm27FLVVkln0qIWAa6VCgLg9c74iWwo,25
+digitalhub_core_nefertem-0.0.5.dist-info/RECORD,,
