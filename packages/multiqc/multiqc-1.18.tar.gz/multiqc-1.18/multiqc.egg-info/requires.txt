@@ -1,0 +1,17 @@
+matplotlib>=2.1.1
+networkx>=2.5.1
+numpy
+click
+coloredlogs
+future>0.14.0
+jinja2>=3.0.0
+markdown
+packaging
+pyyaml>=4
+requests
+rich>=10
+rich-click
+spectra>=0.0.10
+importlib-metadata
+humanize
+pyaml-env
