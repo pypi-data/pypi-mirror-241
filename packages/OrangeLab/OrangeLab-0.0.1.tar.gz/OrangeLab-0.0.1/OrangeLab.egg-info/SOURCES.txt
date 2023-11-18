@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+sample.py
+setup.py
+OrangeLab/__init__.py
+OrangeLab/fake.py
+OrangeLab/image.py
+OrangeLab/init_file.py
+OrangeLab.egg-info/PKG-INFO
+OrangeLab.egg-info/SOURCES.txt
+OrangeLab.egg-info/dependency_links.txt
+OrangeLab.egg-info/requires.txt
+OrangeLab.egg-info/top_level.txt
