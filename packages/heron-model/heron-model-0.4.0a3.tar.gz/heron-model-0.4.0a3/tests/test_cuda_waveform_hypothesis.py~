@@ -1,0 +1,18 @@
+"""
+CUDA Waveform Tests with hypothesis
+-----------------------------------
+
+This test suite contains tests to ensure that the output of CUDA-based waveform models
+both complies with the API and also behave as expected with various inputs.
+
+These tests do not attempt to test the scientific accuracy of the waveforms.
+"""
+
+import unittest
+from unittest import mock
+
+from heron.models import torchbased
+
+import torch
+
+models = {"HeronCUDA": torchbased.HeronCUDA}

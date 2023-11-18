@@ -1,0 +1,15 @@
+numpy
+matplotlib
+scipy
+progressbar
+emcee
+pyyaml
+jinja2
+cython
+george
+nestle
+elk-waveform>=0.13
+gpytorch
+torch
+lalsuite
+h5py

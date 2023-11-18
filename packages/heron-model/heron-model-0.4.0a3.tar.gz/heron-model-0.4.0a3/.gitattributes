@@ -1,0 +1,2 @@
+heron/_version.py export-subst
+*.ipynb filter=jupyternotebook

@@ -1,0 +1,16 @@
+numpy
+scipy
+progressbar
+emcee
+pyyaml
+jinja2
+cython
+george
+nestle
+
+sphinx
+sphinx-versions
+numpydoc
+kentigern
+nbsphinx
+sphinxcontrib-bibtex
