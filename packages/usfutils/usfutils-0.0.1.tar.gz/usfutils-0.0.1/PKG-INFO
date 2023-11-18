@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: usfutils
+Version: 0.0.1
+Summary: Open Source Universal Tool Library for Python Project
+Home-page: https://github.com/chenaoxuan/UsfUtils.git
+Author: AoXuan Chen
+Author-email: cax1165@163.com
+License: Apache License 2.0
+Keywords: python,pytorch,utils
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# UsfUtils
+
+This is an **open source universal tool library** named **Useful Utilities**(UsfUtils, usfutils) for Deep Learning, Machine Learning, and other Python projects.
+
+The project started on November 16, 2023 and aims to implement functions such as **log management**, **configuration management**, and **file/directory management**.
+
+Some modules of the project refer to practical libraries such as [BasicSR](https://github.com/XPixelGroup/BasicSR.git) and [omegaconf](https://github.com/omry/omegaconf.git), removing redundant functions and retaining only common core modules.
