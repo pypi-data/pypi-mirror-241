@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "revcolorsensor"
+version = "1.0.4"
+description = "This is a Python library that allows Raspberry Pi's to use the REV Color Sensor without a Roborio/FRC project."
+authors = ["Jason Li <jasonli.0616@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pigpio = "^1.78"
+
+
+[tool.poetry.group.dev.dependencies]
+pdoc3 = "^0.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
