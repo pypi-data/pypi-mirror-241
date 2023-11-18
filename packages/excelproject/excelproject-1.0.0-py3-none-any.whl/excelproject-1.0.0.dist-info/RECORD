@@ -1,0 +1,11 @@
+excelproject/.DS_Store,sha256=ETkBx10lICqR_90mMSYr0VU742jAnl6hgBSZPlihwlI,6148
+excelproject/__init__.py,sha256=D-bDx5c6Lnj4Gl3EtsxO8UkpHH8F0J_kUMfZf2sYLds,59
+excelproject/dbs.py,sha256=uer88hRhUhhGUGv8m2BM9HELI_EGmI-_7uB4I7zeg30,3396
+excelproject/main.py,sha256=eaYB8EZYs3y6x0iEAVd7Yd6G8oznkz5Xas_b3Ia2zV8,1245
+excelproject/ocbc.py,sha256=R-lSmlJkReQrYCQ2ROnDI0Eh4XHPTdnhW1T-fwrLRmg,3198
+excelproject/utils.py,sha256=ZzksLfHURxlQxvH-c8WZ39-l54AhYOC_ITgoZ0yGTA4,1009
+excelproject-1.0.0.dist-info/LICENSE,sha256=iIMRmg4TIhO7S4JxXqsa7uEe4TqIQQGMcy2OKLjMumE,1065
+excelproject-1.0.0.dist-info/METADATA,sha256=JnU6Q4EvbjA0uph7_5R7ATtW15SfUdlj_N8IC5er3vQ,576
+excelproject-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+excelproject-1.0.0.dist-info/entry_points.txt,sha256=KrSMt2Qqb2E_WRhqGsOJLDEAxygqbAn6JBFiWQ6CLNw,56
+excelproject-1.0.0.dist-info/RECORD,,
