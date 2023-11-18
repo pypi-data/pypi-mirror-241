@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gooddaycoklat.egg-info/PKG-INFO
+gooddaycoklat.egg-info/SOURCES.txt
+gooddaycoklat.egg-info/dependency_links.txt
+gooddaycoklat.egg-info/top_level.txt
+rumus/__init__.py
+rumus/trapesium.py

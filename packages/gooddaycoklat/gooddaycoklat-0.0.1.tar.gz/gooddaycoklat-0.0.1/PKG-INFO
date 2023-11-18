@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: gooddaycoklat
+Version: 0.0.1
+Summary: A simple library for calculating the area of ​​a trapezoid
+Home-page: https://github.com/zaakyyz/gooddaycoklat/tree/main/Trap
+Author: zaakyyz
+Author-email: <muhammadzaky034@gmail.com>
+License: MIT
+Keywords: trap
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Foobar
+
+MyGeometry adalah paket Python sederhana yang berisi modul untuk menghitung luas bentuk geometris.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install mygeometry
+```
+
+## Usage
+
+from mygeometry.shapes.trapesium import Trapesium
+
+#Membuat objek Trapesium
+trapesium_saya = Trapesium(alas=5, atas=7, tinggi=4)
+
+#Menghitung dan menampilkan luas trapesium
+print(f"Luas trapesium: {trapesium_saya.luas()}")
