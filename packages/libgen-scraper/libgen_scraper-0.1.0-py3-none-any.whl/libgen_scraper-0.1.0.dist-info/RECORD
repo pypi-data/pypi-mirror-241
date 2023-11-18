@@ -1,0 +1,11 @@
+libgen_scraper/__init__.py,sha256=PE4GdShZUS0vIrTzAiKpt2k8ARN9HjAheC2jGvsXlxA,335
+libgen_scraper/articles.py,sha256=cEHuYtKq6eyezKOxUgYavYf8XuGc3XAQQeZLmmZDI6k,4434
+libgen_scraper/download.py,sha256=erEYM3O0n0bVW4zQCdRRm4gYsU0xz7xgTJvp61kDw-w,1208
+libgen_scraper/fiction.py,sha256=YHmF2WbJTkwEnrMBpfa8k-2jawDI-RZWQqMkyLAP3Dg,5841
+libgen_scraper/non_fiction.py,sha256=vjbxlJknKqxbAAbi1qK2kEay3LGk866QIsFpD30ZzjM,6659
+libgen_scraper/search.py,sha256=Dekfzbw9hCVu6lxIfSgVt5yscWEScc1KpOP5TSs_6ew,4933
+libgen_scraper-0.1.0.dist-info/LICENSE,sha256=C5sw7Qi150lHyqfmbjb7HUS9k83LDTy076o02EOGw7U,1067
+libgen_scraper-0.1.0.dist-info/METADATA,sha256=5iTt9VGNn_CvegBDqJVR0o2vGRXQbgeMSui3r50FZ5c,5367
+libgen_scraper-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+libgen_scraper-0.1.0.dist-info/top_level.txt,sha256=buQW4o8fLA9IDjZSjCFa-uzHpDuiVUzk-NtvX9IlSe0,15
+libgen_scraper-0.1.0.dist-info/RECORD,,
