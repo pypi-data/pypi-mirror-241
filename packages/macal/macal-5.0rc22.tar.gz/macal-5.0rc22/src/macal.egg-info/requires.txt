@@ -1,0 +1,6 @@
+unidecode
+Cython
+keyring
+keyrings.alt
+black
+isort
