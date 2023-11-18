@@ -1,0 +1,12 @@
+superduperreload/__init__.py,sha256=VjSs6sBdXeMVYZTv7xBrb9AfPXUBXvS_e8EqbgaxqE4,908
+superduperreload/_version.py,sha256=PKxt91UjNAG3ocg13pQTma_Iaqw9DL3H2PS0AQ2pUBc,24217
+superduperreload/functional_reload.py,sha256=uNTq9zUGIwe30utRhOvAOha_AM_xiqoWw18HfdNy0JY,562
+superduperreload/magics.py,sha256=xT0NtMbmapgOh_RnT8Jlne1eI3PXpflqaU2v3gKvBsQ,9369
+superduperreload/patching.py,sha256=WgYyd8Btornv21iwiyHs9WhdhDGvxp-desCql3uD60o,12848
+superduperreload/superduperreload.py,sha256=_ckw3OXxr5KoKk8H2HXE6drEJN1Cu4BdFJh_dPZOgFs,16068
+superduperreload/utils.py,sha256=7bFasWugvAOZsJJG2i5CWx_rlGDWLY-_EFUt1xLrOtQ,692
+superduperreload/version.py,sha256=1qhTohIV3B03yAHcICzgz6kks5E1nXsXKHpD-CROVJ0,529
+superduperreload_core-0.0.4.dist-info/METADATA,sha256=E403VqkE5WA78IBuX7bJj98t-ZNf1K_RdcspQW9B-EU,1957
+superduperreload_core-0.0.4.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+superduperreload_core-0.0.4.dist-info/top_level.txt,sha256=QexeyeTbTGDQTk1CgypWjPzSbXNwb4byFnwGyakueNg,17
+superduperreload_core-0.0.4.dist-info/RECORD,,
