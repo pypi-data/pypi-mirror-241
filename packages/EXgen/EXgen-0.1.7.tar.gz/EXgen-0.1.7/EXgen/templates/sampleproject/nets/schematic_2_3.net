@@ -1,0 +1,16 @@
+R1 _0  _1; up, 
+W  _1  2; right
+W  _0  0; right
+I0  2  0; down, i=I_q, l=
+W  2   8; right
+W  0   9; right
+R3  8  4; right
+R2  8  9; down
+R4  4  5; down
+R5  4  k; right
+W   9  5; right
+W   5  l; right
+W   k _6; right
+W   l _7; right
+RL  _6 _7; down
+; label_nodes=alpha

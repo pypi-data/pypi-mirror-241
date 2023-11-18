@@ -1,0 +1,74 @@
+\begin{boxed2}
+    \begin{center}
+     \textbf{Infobox zum Ersatzquellenverfahren und Leistungsanpassung}
+    \end{center}
+    Das Ersatzquellenverfahren erm\"oglicht es das Verhalten bez\"uglich zweier Klemmen eines komplizierten linearen Netzwerks mit vielen Bauteilen durch ein sehr einfaches Modell zu ersetzten. 
+    Damit ist es sehr einfach m\"oglich, sich das Verhalten mit verschiedenen Lasten an den Klemmen zu berechnen. 
+    Bei der Last, f\"ur welche eine Ersatzquelle entwickelt wird, handelt es sich meistens um ein Bauteil, welches von besonderem Interesse ist. 
+    Beispiele k\"onnten sein Antennen, elektrische Motoren, oder auch spezielle nichtlineare Bauteile wie Transistoren, Dioden und noch viele andere Anwendungsgebiete.
+    \\
+    Genauso wichtig ist, das Konzept der Leistungsanpassung. Hierbei will man maximale Leistung hin zu einer bestimmten Last bekommen. 
+    Beispielsweise ist es gewollt, dass man m\"oglichst viel der Leistung hin zu einer Antenne bringt um ein m\"oglichst starkes Signal senden zu k\"onnen. 
+    Darauf wird in h\"ohersemestrigen Lehrveranstaltungen wie Grundlagen der Hochfrequenztechnik genauer darauf eingegangen.
+    Aber auch in anderen Bereichen, wie in der Energietechnik, der Mikroelektronik und der Messtechnik ist Leistungsanpassung ein wichtiges Thema.
+\end{boxed2}
+
+%END-PART
+
+\newpage
+\section*{Beispiel 1}    
+Gegeben ist das folgende Netzwerk:\\
+
+$U_{\mathrm{q}} = INSERT-U0 $~V, $R_1 = INSERT-R1 $~$\Omega$, $R_2 = INSERT-R2 $~$\Omega$, $R_3 = INSERT-R3 $~$\Omega$, $R_4 = INSERT-R4 $~$\Omega$, $R_5 = INSERT-R5 $~$\Omega$\\
+
+\FloatBarrier
+	\begin{figure}[h]
+        \centering
+        \def\svgwidth{300pt}
+        \includegraphics[width=0.65\textwidth]{ INSERT-FIGPATHB1 }\\
+    \end{figure}
+\FloatBarrier
+
+\textbf{(a)} Im angegebenen Netzwerk soll f\"ur den Widerstand $R_L$ an den Klemmen (k,l) eine Ersatzstromsquelle (Norton-Quelle) entwickelt werden. Berechnen Sie daf\"ur den Innenwiderstand $R_i$ und den Strom $I_N$ der Ersatzquelle. Geben Sie alle Schritte nachvollziehbar an! (1 Punkt)\\
+\\
+\textbf{(b)} Welchen Wert muss der Lastwiderstand $R_L=R_{L,max}$ annehmen, damit die Leistung $P_{RL}$ maximal ist? Berechnen Sie die Leistung $P_{RL}$ f\"ur folgende Werte von $R_L$: $R_{L,max}$, $R_{L,max}/2$, $R_{L,max}\cdot2$  (0.5 Punkte)\\
+
+Hinweis: Endergebnis $P_{RL,max} = INSERT-PR_Lmax W$
+
+INSERT-SOLUTION
+
+%END-PART
+
+\newpage
+\section*{Beispiel 2}
+Gegeben sei das folgende Netzwerk:\\
+\FloatBarrier
+	\begin{figure}[h]
+        \centering
+        \def\svgwidth{300pt}
+		\includegraphics[width=0.8\textwidth]{ INSERT-FIGPATHB2 }
+    \end{figure}
+\FloatBarrier
+
+$I_{\mathrm{q}} = INSERT-I0 $~A, $R_1 = INSERT-R1 $~$\Omega$, $R_2 = INSERT-R2 $~$\Omega$, $R_3 = INSERT-R3 $~$\Omega$, $R_4 = INSERT-R4 $~$\Omega$, $R_5 = INSERT-R5 $~$\Omega$, $R_L = INSERT-RL $~$\Omega$\\
+		
+Im angegebenen Netzwerk sollen f\"ur den Widerstand $R_L$ an den Klemmen (k,l) eine Ersatzspannungsquelle (Thevenin-Quelle) und eine Ersatzstromquelle (Nortonquelle) entwickelt werden. 
+Berechnen Sie die Ersatzquellen jeweils auf die folgenden zwei Arten:
+
+\textbf{(a)} Bestimmen Sie den Innenwiderstand $ R_i$ und die Spannung $U_{LL}$ bzw. den Strom $I_{KS}$ der Ersatzquelle (Hinweis: Berechnen Sie $U_{LL}$ oder $I_{KS}$ und rechnen sie sich die jeweils andere Ersatzquelle durch eine Quellenumwandlung um. Ein Blick auf Beispiel 1 in den Vortragsunterlagen k\"onnte helfen.).
+(1 Punkt)\\
+\textbf{(b)} Ermitteln Sie die beiden Ersatzquellen mittels Quellenumwandlung (Hinweis: Schrittweises Umwandeln
+in Spannungs- oder Stromquellen und jeweiligen Zusammenfassen der Widerst\"ande. Ein Blick auf Beispiel 2 der Vortragsunterlagen ist hilfreich.). (1 Punkt)\\
+\\
+F\"uhren Sie dabei wie in Beispiel 1 alle notwendigen Schritte nachvollziehbar aus (z.B. Ersatzschaltungen).\\
+\\ 
+Hinweis: Endergebnis $U_{TH} = INSERT-Uth V$, $I_{N} = INSERT-In A$, $R_{i} = INSERT-Rin \Omega$ \\
+\\
+\textbf{(c)} F\"uhren Sie eine Leistungsbilaz f\"ur beide Ersatzquellen(Thevenin und Norton) durch. Was k\"onnen Sie hierbei an Unterschieden und Gemeinsamkeiten der Verhalten der beiden Ersatzquellen feststellen? Diskutieren Sie! (1-2 S\"atze) (0.5 Punkte)\\
+
+Hinweis: \\
+Eine Leistungsbilanz schl\"usselt die Leistung an allen Bauteilen in einer Schaltung auf. Wobei die Summe aller Leistungen in einem elektrischen Netzwerk immer Null ergibt. Wenn ein Bauteil Leistung in die Schaltung einbringt (z.B.: Quelle), hat die Leistung ein negatives Vorzeichen(-). Positives Vorzeichen(+) hat eine Leistung, wenn das jeweilige Bauteil Leistung verbraucht(z.B::Widerst\"ande). Achtung: Diese Aussagen sind nur im Verbraucherz\"ahlpfeilsystem richtig.
+\\
+%INSERT-BME \\ \textbf{(d)} Simulieren Sie das gegebenen Netzwerk, sowie auch die beiden Ersatzquellen in LT-Spice und \"uberpr\"ufen Sie somit die analytischen Ergebnisse. F\"ugen Sie einen Screenshot der Schaltung in der Abgabe ein. Das Simulationsfile ist ebenfalls abzugeben! (1 Punkt)\\
+
+INSERT-SOLUTION 
