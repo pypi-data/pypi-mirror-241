@@ -1,0 +1,8 @@
+setup.py
+fopcalculator/__init__.py
+fopcalculator/calculator.py
+fopcalculator.egg-info/PKG-INFO
+fopcalculator.egg-info/SOURCES.txt
+fopcalculator.egg-info/dependency_links.txt
+fopcalculator.egg-info/not-zip-safe
+fopcalculator.egg-info/top_level.txt
