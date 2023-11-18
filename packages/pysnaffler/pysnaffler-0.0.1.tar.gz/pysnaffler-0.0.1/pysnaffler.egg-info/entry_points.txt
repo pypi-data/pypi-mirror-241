@@ -1,0 +1,3 @@
+[console_scripts]
+pysnaffler = pysnaffler.__main__:main
+pysnaffler-whatif = pysnaffler.whatif:main
