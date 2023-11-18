@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_spx_client_core.egg-info/PKG-INFO
+shopee_spx_client_core.egg-info/SOURCES.txt
+shopee_spx_client_core.egg-info/dependency_links.txt
+shopee_spx_client_core.egg-info/top_level.txt
