@@ -1,0 +1,6 @@
+[asimov.pipelines]
+heron = heron.asimov:Pipeline
+heron injection = heron.asimov:InjectionPipeline
+
+[console_scripts]
+heron = heron.cli:heron
