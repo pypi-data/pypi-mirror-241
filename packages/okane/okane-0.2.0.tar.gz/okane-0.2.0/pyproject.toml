@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "okane"
+version = "0.2.0"
+description = "Parser for bank statements in camt.053 XML format (Czech Banking Association dialect)"
+authors = ["Tomas Karabela <tkarabela@seznam.cz>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tkarabela/okane"
+repository = "https://github.com/tkarabela/okane"
+keywords = ["finance", "czech", "banking", "sepa", "expenses", "camt053"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: File Formats",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Typing :: Typed",
+]
+packages = [
+    { include = "okane.py" },
+]
+include = [
+    { path = "tests", format = "sdist" },
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tkarabela/okane/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9"
+pydantic = "^2.5"
+pandas = { version = "^2.1", optional = true }
+openpyxl = { version = "^3.1", optional = true }
+
+[tool.poetry.extras]
+pandas = ["pandas", "openpyxl"]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.1"
+pytest = "^7.4"
+pytest-cov = "^4.0"
+lxml-stubs = "^0.4"
+pandas-stubs = "^2.1"
+
+[tool.poetry.scripts]
+okane = "okane:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
