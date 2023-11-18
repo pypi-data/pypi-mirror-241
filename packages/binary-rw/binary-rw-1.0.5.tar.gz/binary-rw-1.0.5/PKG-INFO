@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: binary-rw
+Version: 1.0.5
+Summary: Simple library for reading binary files.
+Home-page: https://gitlab.com/fili_pk/binary-rw
+Author: Filip K
+Author-email: fkwilczek@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# binary-rw
+
+Simple library for reading binary files. 
+I wrote this library to help myself with working with binary files written with c#.
+
+## Examples
+Write text to file.
+```python
+>>> import binary_rw
+>>> file = binary_rw.BinaryWriter("test")
+>>> file.write_string("Example text")
+>>> file.close()
+```
+
+Read byte from file.
+```python
+>>> import binary_rw
+>>> file = binary_rw.BinaryReader("test")
+>>> file.read_byte()
+>>> file.close()
+```
+
+Use BinaryReader with with
+```python
+import binary_rw
+with BinaryReader("test") as file:
+    #code
+```
+
+## Installation
+```
+pip install binary-rw
+```
+
+## License
+[MIT](LICENSE) © Filip K.

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+binary_rw/__init__.py
+binary_rw/binary_rw.py
+binary_rw.egg-info/PKG-INFO
+binary_rw.egg-info/SOURCES.txt
+binary_rw.egg-info/dependency_links.txt
+binary_rw.egg-info/top_level.txt
