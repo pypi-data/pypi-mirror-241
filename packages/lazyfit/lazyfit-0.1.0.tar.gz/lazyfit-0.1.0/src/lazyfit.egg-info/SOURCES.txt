@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/lazyfit/Lazyfitter.py
+src/lazyfit/Rbf.py
+src/lazyfit/__init__.py
+src/lazyfit.egg-info/PKG-INFO
+src/lazyfit.egg-info/SOURCES.txt
+src/lazyfit.egg-info/dependency_links.txt
+src/lazyfit.egg-info/requires.txt
+src/lazyfit.egg-info/top_level.txt
