@@ -1,0 +1,2 @@
+[console_scripts]
+prg = prg.__main__:wrapped
