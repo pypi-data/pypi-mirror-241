@@ -1,0 +1,8 @@
+[orange.canvas.help]
+html-index = orangecontrib.dicom.widgets:WIDGET_HELP_PATH
+
+[orange.widgets]
+DICOM Image Analytics = orangecontrib.dicom.widgets
+
+[orange3.addon]
+Orange3-Dicom = orangecontrib.dicom
