@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+qrcodeapi/__init__.py
+qrcodeapi/api.py
+qrcodeapi.egg-info/PKG-INFO
+qrcodeapi.egg-info/SOURCES.txt
+qrcodeapi.egg-info/dependency_links.txt
+qrcodeapi.egg-info/requires.txt
+qrcodeapi.egg-info/top_level.txt
