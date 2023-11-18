@@ -1,0 +1,28 @@
+[project]
+name = "krishpy"
+version = "0.1.0"
+description = "new project"
+authors = [
+    {name = "Krish", email = "krishpy3@gmail.com"},
+]
+dependencies = [
+    "requests>=2.31.0",
+    "boto3>=1.29.1",
+    "pydantic>=2.5.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.3",
+]
+
+[tool.pdm.scripts]
+test = "pytest tests/"
+
