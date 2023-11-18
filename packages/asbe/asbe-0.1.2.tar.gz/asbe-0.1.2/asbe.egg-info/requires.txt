@@ -1,0 +1,11 @@
+numpy
+scikit-learn
+pandas
+matplotlib
+pylift
+econml
+scikit-uplift
+pymc-bart>=0.5.2
+pymc==5.9.2
+
+[dev]
