@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+darth_d/__init__.py
+darth_d/_create.py
+darth_d/_napari_plugin.py
+darth_d/_replace.py
+darth_d/_utilities.py
+darth_d/_vary.py
+darth_d.egg-info/PKG-INFO
+darth_d.egg-info/SOURCES.txt
+darth_d.egg-info/dependency_links.txt
+darth_d.egg-info/entry_points.txt
+darth_d.egg-info/requires.txt
+darth_d.egg-info/top_level.txt
