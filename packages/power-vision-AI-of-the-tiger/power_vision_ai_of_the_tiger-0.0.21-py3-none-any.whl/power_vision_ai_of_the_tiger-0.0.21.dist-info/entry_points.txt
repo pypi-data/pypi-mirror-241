@@ -1,0 +1,4 @@
+[console_scripts]
+power_vision_AI_of_the_tiger_classify = power_vision_AI_of_the_tiger.classify_video:main
+power_vision_AI_of_the_tiger_evaluate = power_vision_AI_of_the_tiger.evaluate:main
+power_vision_AI_of_the_tiger_train = power_vision_AI_of_the_tiger.train:main
