@@ -1,0 +1,15 @@
+funlib/persistence/__init__.py,sha256=RzXCs_MbTmIHlmHXqbmuwU1uvmY9pqHm5sR6GyBHcTw,143
+funlib/persistence/arrays/__init__.py,sha256=2QIIW-eCJXdyBwsq3Kri-fqvt0xJQlayBAKiY8mDmHQ,83
+funlib/persistence/arrays/array.py,sha256=mPs5_CjJwRpX3PCvSWjTW5E4VrjuLy13B8Ks1dw-mN4,9008
+funlib/persistence/arrays/datasets.py,sha256=sOPbGBA-e5bSnbzzSfRixldQjqQpOwn2e7ZAShg2ghI,12808
+funlib/persistence/arrays/freezable.py,sha256=kvNBUM77vpvlPha2VVOqkPMk4VeusbPN9_-jKYhzzY8,378
+funlib/persistence/graphs/__init__.py,sha256=6h7Dq32fOc3KoF-lhErpwrvUk4X4hJb9rYNc03y2JvI,124
+funlib/persistence/graphs/graph_database.py,sha256=6dHjpdaQL2I1w3j90LLH8PrsMKq6VCHT0wplZElj_WY,3860
+funlib/persistence/graphs/pgsql_graph_database.py,sha256=8_rxrqj_1IXB4p7-UcH3oyPPWJAjrzHzDAAoYWHs2kI,6174
+funlib/persistence/graphs/sql_graph_database.py,sha256=1pK3C7IY25XoKckFtz62MmBAfv-nKJaMwOz14mkHkpc,20204
+funlib/persistence/graphs/sqlite_graph_database.py,sha256=hgda404VVEWS_zRqp3oEFu8mZQ4_t_0F77Y_3OBse24,4026
+funlib.persistence-0.2.0.dist-info/LICENSE,sha256=mY-nQ_iNB5j0df-ldTA0i3Z_hmbttD9e2aVj3SlK7OE,1066
+funlib.persistence-0.2.0.dist-info/METADATA,sha256=EceA9BFXuMi6CrmkgwFuTU3e-1ZhrWSuizdjZrItcPk,1544
+funlib.persistence-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+funlib.persistence-0.2.0.dist-info/top_level.txt,sha256=c9hZwuCurppc2wrP33IVC2k2SE23XA-IDN88GYJ2Dxc,7
+funlib.persistence-0.2.0.dist-info/RECORD,,
