@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AH22CH174
+Version: 0.0.9
+Summary: A very basic calculator
+Home-page: 
+Author: Tanishq JM
+Author-email: tanishqurmi@gmail.com
+License: MIT
+Keywords: result
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+THIS IS A SIMPLE RESULT ANALYSIS PY CODE. AND CAN CALCULATE THE MARKS FOR IT .
+
+Change Log
+==========
+
+0.0.9 (18/11/23)
+-----------------
+-First Release
