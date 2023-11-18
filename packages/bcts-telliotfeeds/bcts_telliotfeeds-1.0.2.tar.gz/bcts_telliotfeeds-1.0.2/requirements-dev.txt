@@ -1,0 +1,13 @@
+eth-brownie
+pytest
+pytest-cov
+pytest-dotenv
+pytest-asyncio
+pre-commit
+mypy
+mypy-extensions
+types-requests
+types-PyYAML
+tox
+build
+twine
