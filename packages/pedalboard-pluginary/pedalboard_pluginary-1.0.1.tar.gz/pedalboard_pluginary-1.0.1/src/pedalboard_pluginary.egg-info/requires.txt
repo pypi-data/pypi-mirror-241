@@ -1,0 +1,7 @@
+pedalboard
+fire
+tqdm
+
+[testing]
+pytest
+pytest-cov
