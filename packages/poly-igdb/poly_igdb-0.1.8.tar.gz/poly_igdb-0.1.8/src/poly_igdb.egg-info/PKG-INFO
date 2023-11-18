@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: poly-igdb
+Version: 0.1.8
+Summary: TODO: change this
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests~=2.31
