@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: neuronmodels
+Version: 0.1b0
+Summary: Neural Network base models
+Author: Mosbius(Kaushik Aadhithya Ch)
+Author-email: <strikerlight85@gmail.com>
+Keywords: MP Neuron,Perceptron,Backpropogation network,Neural networks models
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+A package that allows you to simulate Pitts-Mcculloch neuron , A back propogation network, and a perceptron model.For more info go to https://github.com/Mosbius/Neuronmodels
