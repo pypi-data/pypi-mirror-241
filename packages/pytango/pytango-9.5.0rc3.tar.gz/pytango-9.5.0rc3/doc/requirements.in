@@ -1,0 +1,8 @@
+numpy
+gevent
+graphviz
+packaging
+pillow
+psutil
+sphinx==7.2.6
+sphinx_rtd_theme
