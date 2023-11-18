@@ -1,0 +1,124 @@
+[tool]
+[tool.poetry]
+name = "zillionare-backtest"
+version = "0.5.0"
+homepage = "https://github.com/zillionare/backtest"
+description = "zillionare backtest framework."
+authors = ["Aaron Yang <aaron_yang@jieyu.ai>"]
+readme = "README.md"
+license =  "MIT"
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3.8',
+]
+packages = [
+    { include = "backtest" },
+    { include = "tests"},
+]
+
+[[tool.poetry.source]]
+name = "ali"
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
+secondary = false
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+fire = "0.4.0"
+
+black  = { version = "^22.3.0", optional = true}
+isort  = { version = "5.10.1", optional = true}
+flake8  = { version = "4.0.1", optional = true}
+flake8-docstrings = { version = "^1.6.0", optional = true }
+pytest  = { version = "^7.0.1", optional = true}
+pytest-cov  = { version = "^3.0.0", optional = true}
+tox  = { version = "^3.24.5", optional = true}
+virtualenv  = { version = "^20.13.1", optional = true}
+mkdocs  = { version = "^1.2.3", optional = true}
+mkdocs-include-markdown-plugin  = { version = "^3.2.3", optional = true}
+mkdocs-material  = { version = "^8.1.11", optional = true}
+mkdocstrings  = { version = "^0.18.0", optional = true}
+mkdocs-material-extensions  = { version = "^1.0.3", optional = true}
+twine  = { version = "^3.8.0", optional = true}
+mkdocs-autorefs = {version = "^0.4.1", optional = true}
+pre-commit = {version = "^2.17.0", optional = true}
+toml = {version = "^0.10.2", optional = true}
+livereload = {version = "^2.6.3", optional = true}
+pyreadline = {version = "^2.1", optional = true}
+mike = { version="^1.1.2", optional=true}
+sanic = "^21.12.1"
+cfg4py = "^0.9.4"
+expiringdict = "^1.2.1"
+aioredis = "^2.0"
+zillionare-core-types = "^0.6.2"
+psutil = "^5.9.0"
+tqdm = "^4.63.0"
+pandas = "^1.4.1"
+sanic-testing = {version = "^0.8.2", optional = true}
+Jinja2 = {version = "~3.0", optional = true}
+tabulate = "^0.8.9"
+async-timeout = "^4.0"
+zillionare-omicron = {version = "^2.0.0a76", allow-prereleases = true}
+pyemit = "^0.5.0"
+websockets = "<11.0"
+
+[tool.poetry.extras]
+test = [
+    "pytest",
+    "pytest-cov",
+    "sanic-testing"
+    ]
+
+dev = ["tox",
+    "pre-commit",
+    "virtualenv",
+    "pip",
+    "twine",
+    "toml",
+    "black",
+    "isort",
+    "flake8",
+    "flake8-docstrings"]
+
+doc = [
+    "mkdocs",
+    "mkdocs-include-markdown-plugin",
+    "mkdocs-material",
+    "mkdocstrings",
+    "mkdocs-material-extension",
+    "mkdocs-autorefs",
+    "Jinja2",
+    "livereload",
+    "mike"
+    ]
+
+[tool.poetry.scripts]
+bt = 'backtest.cli:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | .history
+)/
+'''
+[tool.isort]
+profile = "black"
