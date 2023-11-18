@@ -1,0 +1,11 @@
+fasta_checksum_utils/__init__.py,sha256=8bzPm-i4rB_zAEWiXv0PVvWWBL3mevwtAlfzlFZL5jw,336
+fasta_checksum_utils/_contig.py,sha256=97Wq8HVyGi6dF7PKKcuqqH6LvP0i0ZuJR5DlZueggYQ,802
+fasta_checksum_utils/_file.py,sha256=VLJlpe5lYnV-GeXw3Ms9yVpWMc34E12UA8vJbkOwhjs,305
+fasta_checksum_utils/algorithms.py,sha256=5k_hkgq4yx9FOplMtde5VY104hCuweUhagKvpsTfCAQ,3103
+fasta_checksum_utils/entry.py,sha256=zCBFj5g6zkzd7f4xsq4lHZgm3ZAqIFSTIJ9HckD3A2w,1333
+fasta_checksum_utils/fasta.py,sha256=i5joFFqm7YtLp2KoAi2UyeE2VGCZzkT6qXKuXdj0Bws,7091
+fasta_checksum_utils-0.3.1.dist-info/LICENSE,sha256=GkWx0KhgPf4s_GRPnauXCxdi-Sur4qrG6y9dRXLEpoA,7653
+fasta_checksum_utils-0.3.1.dist-info/METADATA,sha256=Mj2sXcH2ZffO-cuc13G_ZFxy19SMWjodfbdaWV2UGPE,4338
+fasta_checksum_utils-0.3.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fasta_checksum_utils-0.3.1.dist-info/entry_points.txt,sha256=U-X3QFVPv0Az2kCjyNH4tjvGyqy0JI1Cb4ATKeDeJx8,73
+fasta_checksum_utils-0.3.1.dist-info/RECORD,,
