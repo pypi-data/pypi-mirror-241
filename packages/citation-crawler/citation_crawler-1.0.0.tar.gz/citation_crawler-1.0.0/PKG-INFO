@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: citation_crawler
+Version: 1.0.0
+Summary: 异步高并发citation爬虫，慎用
+Home-page: https://github.com/yindaheng98/citation-crawler
+Author: yindaheng98
+Author-email: yindaheng98@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# citation-crawler
+
+异步高并发citation爬虫，慎用
+
