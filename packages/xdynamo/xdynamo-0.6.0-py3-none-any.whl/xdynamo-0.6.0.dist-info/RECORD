@@ -1,0 +1,16 @@
+xdynamo/__init__.py,sha256=SPh0GhgqRyk3z0Yi-5ooHLYfr-9-jEeGdS_QQgPYSz4,22321
+xdynamo/api.py,sha256=VgdSKNDkkZS5W1lFZultu6pdqjNUhiLkYKutnWPAZ_8,8298
+xdynamo/client.py,sha256=rpiGNOJle_3RWAAca78XmD2v4NYB5nspgr8YqG8qsJ0,44392
+xdynamo/common_types.py,sha256=8drFYthapFEaPlkKh9HbNjOkibQd26xHOzDmafjl-Xk,14349
+xdynamo/const.py,sha256=PWFvdb_lAU3vTwZh_betR1igAUzYvHfYmowX3K4ZpU4,53
+xdynamo/db.py,sha256=7VRglNeBFaHhWgSsnE5DbsQTdiIV2UaMczj0IqDmYVk,6464
+xdynamo/errors.py,sha256=Y4FWWcWPLEtPgXkHmJLzg9aQgEsW9qEJU_Y5YWXXRN8,45
+xdynamo/fields.py,sha256=GSClmaPuSc1T5xxFM45k2XbJAGhJsRPvIbcezNQ12tM,3501
+xdynamo/meta.json,sha256=QCR1S9jw5FNM8TYfxn-1dpxB4Hb1fGEoKrKmnKauiO0,25
+xdynamo/model.py,sha256=aw-2K5Caqeg10DirEDpNdF41DIeZX8FLCFzRZmG_ACM,2237
+xdynamo/resources.py,sha256=1Lh-BPNuOx9XOB1HjypAJOWt7HXv8mtWRnH1Ezdpf4Y,5522
+xdynamo/structure.py,sha256=J-0JB64y77XrhzYcKwbKu0Bzn6nLmNNWce3Wldl34uk,10292
+xdynamo/utils.py,sha256=c5zdhwvudVA3OjAS9H7aa4yYNa__m2NQ7Iz2n8NwlMw,161
+xdynamo-0.6.0.dist-info/METADATA,sha256=0_LL262L2C7U5S0cVtiNTqIbR3XyzsU4bTJNS7RxEp0,2870
+xdynamo-0.6.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+xdynamo-0.6.0.dist-info/RECORD,,
