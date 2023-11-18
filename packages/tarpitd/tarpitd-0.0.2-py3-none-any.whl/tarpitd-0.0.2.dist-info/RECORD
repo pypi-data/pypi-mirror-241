@@ -1,0 +1,9 @@
+docs/tarpitd.py.1.md,sha256=R35xkXdB115qyuneq_lFdHaDAzmQALpu-t40BP8lnEU,1513
+docs/tarpitd.py.7.md,sha256=ivczmR03ywcd7ScrQ4Jb9e7PcTGPkIr-FyYlOnFpk2g,3811
+src/tarpitd.py,sha256=BoHc3cvZWrr-xrQkujY-NKRav9-lQ7nzboLnLWU1p0c,16649
+src/tarpitd_import_guard.py,sha256=FtjZ9TBl1F-6t7xJBSDIhDqw_cAL4gKtX4YG3iIs234,217
+tarpitd-0.0.2.dist-info/METADATA,sha256=w80JFAY2rMd_k7IfMdwDS0KuTmg8orTmP3aKGuBBXGs,1879
+tarpitd-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tarpitd-0.0.2.dist-info/entry_points.txt,sha256=qRmu7azgVTY6jFuAL8_hCQNKzcYeiq8DvdqJkqq7o6Q,61
+tarpitd-0.0.2.dist-info/licenses/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+tarpitd-0.0.2.dist-info/RECORD,,

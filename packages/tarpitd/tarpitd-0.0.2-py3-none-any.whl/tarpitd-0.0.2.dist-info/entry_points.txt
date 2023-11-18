@@ -1,0 +1,2 @@
+[console_scripts]
+tarpitd.py = tarpitd_import_guard:main_cli
