@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pypv.egg-info/PKG-INFO
+pypv.egg-info/SOURCES.txt
+pypv.egg-info/dependency_links.txt
+pypv.egg-info/requires.txt
+pypv.egg-info/top_level.txt
