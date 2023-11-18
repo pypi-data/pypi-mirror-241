@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: vosk-tts
+Version: 0.3.51
+Summary: Offline text to speech synthesis
+Home-page: https://github.com/alphacep/vosk-tts
+Author: Alpha Cephei Inc
+Author-email: contact@alphacephei.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: onnxruntime
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+# Vosk TTS
+
+Simple TTS based on VITS with some old ideas
+
+## Usage
+
+### Command line
+
+```
+pip3 install vosk-tts
+
+vosk-tts -n vosk-model-tts-ru-0.4-natasha --input "Привет мир!" --output out.wav
+```
+
+### API
+
+```
+from vosk_tts import Model, Synth
+model = Model(model_name="vosk-model-tts-ru-0.4-natasha")
+synth = Synth(model)
+
+synth.synth("Привет мир!", "out.wav")
+```
+
+## Voices
+
+For now we support several Russian voices
+
+| Voice                                                                                                  |
+|--------------------------------------------------------------------------------------------------------|
+|[vosk-model-tts-ru-0.4-natasha](https://alphacephei.com/vosk/models/vosk-model-tts-ru-0.4-natasha.zip)  |
+|[vosk-model-tts-ru-0.4-irina](https://alphacephei.com/vosk/models/vosk-model-tts-ru-0.4-irina.zip)      |
