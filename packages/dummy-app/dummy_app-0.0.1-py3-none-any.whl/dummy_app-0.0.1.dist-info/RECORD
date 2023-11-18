@@ -1,0 +1,8 @@
+dummy_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dummy_app/app.py,sha256=yHiTYkNCa-sEZPne0cTsBM0TWPOFU-btPidTanXkrM0,3690
+dummy_app/finalized_model.sav,sha256=18bXeVFHkeBsXo9VK7mXfordhp81eJANzPzyaysWH50,564
+dummy_app/model_api_v2.py,sha256=6Mdc74oj2r8IOhm61aaLS42WyypaVasKQTkelanY-dc,4642
+dummy_app/test.db,sha256=_K3whMWp4iyHyfuvyU5vKSQQqFp9kVTI7A0DkaVUWXQ,20480
+dummy_app-0.0.1.dist-info/METADATA,sha256=DSjhgE-uMVSxcD9QQQnND_uzYPGp_9Smp0rYqFURSkc,2898
+dummy_app-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dummy_app-0.0.1.dist-info/RECORD,,
