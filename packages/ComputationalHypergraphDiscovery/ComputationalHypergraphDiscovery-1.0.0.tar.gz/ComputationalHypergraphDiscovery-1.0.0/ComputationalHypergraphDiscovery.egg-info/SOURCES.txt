@@ -1,0 +1,9 @@
+ComputationalHypergraphDiscovery.py
+LICENSE
+README.md
+pyproject.toml
+ComputationalHypergraphDiscovery.egg-info/PKG-INFO
+ComputationalHypergraphDiscovery.egg-info/SOURCES.txt
+ComputationalHypergraphDiscovery.egg-info/dependency_links.txt
+ComputationalHypergraphDiscovery.egg-info/requires.txt
+ComputationalHypergraphDiscovery.egg-info/top_level.txt
