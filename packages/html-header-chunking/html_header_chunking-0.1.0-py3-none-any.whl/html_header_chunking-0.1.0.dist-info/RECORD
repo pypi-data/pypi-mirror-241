@@ -1,0 +1,10 @@
+html_header_chunking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html_header_chunking/chunker.py,sha256=PtxSqLjR4m_MW_gicrzFlPxxXL_GAinu5FEObhKPsyw,7310
+html_header_chunking/handler.py,sha256=gkIshSPsKN6ossTjIgym8NaYtH3HG8QSaoTekBT9d1k,13130
+html_header_chunking/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html_header_chunking/util/parse_html.py,sha256=AzKv1TaGOfsC3sVVt1HLDQyv_BFZp10TPereoMGSyDY,5020
+html_header_chunking/util/render_selenium.py,sha256=DW19T9Lv5xEDqtb6LcLP_tZB9GO5mxZSdU6L4cTKHb0,4577
+html_header_chunking-0.1.0.dist-info/LICENSE.txt,sha256=rFdz8GNMISRLU-ONYL9PrEp1eb1AZ7ItSSTve9SGH08,1074
+html_header_chunking-0.1.0.dist-info/METADATA,sha256=9muaeWGddHz1q3wX4e23TCS8gns_zL2fWpFvNR_7SeE,3566
+html_header_chunking-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+html_header_chunking-0.1.0.dist-info/RECORD,,
