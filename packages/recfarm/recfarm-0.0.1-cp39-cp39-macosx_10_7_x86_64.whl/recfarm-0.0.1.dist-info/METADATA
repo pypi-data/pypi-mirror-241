@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: recfarm
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Summary: Rust implementation for some non-deep learning recommender algorithms.
+Author-email: massquantity <jinxin_madie@163.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# RecFarm
+
+Rust implementation for some non-deep learning recommender algorithms.
+
