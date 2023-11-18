@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: iseqclinicaltrials
+Version: 0.0.2
+Summary: Meta data for intelliseq
+Home-page: https://gitlab.com/intelliseq/iseqclinicaltrials
+Author: motfalo
+Author-email: olaf.tomaszewski@intelliseq.pl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest>=6.0.0
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: sqlalchemy>=2.0.19
+Requires-Dist: numpy>=1.25.1
+Requires-Dist: requests>=2.31.0
+
+# Iseq clinical trials
+
+A bunch of scripts to operate on clinical trials API offline
+
+# Install
+
+Optional steps (create virtual environment):
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+
+Obligatory steps:
+```
+python3 -m pip install --upgrade pip
+pip install iseqclinicaltrials
+```
+
+# Set up a database
+
+You need to pass the conditions or diseases and other terms according to clinicaltrials.gov as the files with comma separated values
+
+```
+get_content_as_sql -d conditions_or_diseases.txt -o other_terms.txt
+```
+
+where conditions_or_diseases.txt content is:
+```
+Acute Myeloid Leukemia,Myelodysplastic Syndromes,Chronic Myeloid Leukemia
+```
+
+and other_terms.txt content is:
+```
+BRAF,MPL,GATA2,IKZF1,TP5,JAK1,KMT2C,PAX5,SF3B1,DNMT3A,BCOR,CHEK2,U2AF1,TGIF2LY,BIRC3,ASXL1,GNAS,RAD21,CREBBP,STAT5B,CEBPA,ZRSR2,RUNX1,CDKN2A,NFE2,STAG2,BTK,EZH2,AMELY,EP300,PPM1D,FBXW7,IDH2,NF1,NPM1,TET2,CUX1,GATA1,TP53,CTNNA1,AMELX,FLT3,PHF6,STAT3,BCORL1,CALR,JAK2,NOTCH1,ETV6,SETBP1,IDH1,SRSF2,WT1,KIT,MYD88,KRAS,TGIF2LX,JAK3,XPO1,SH2B3,CSF3R,CXCR4,PLCG2,CBL,KMT2A,ABL1,GNB1,PTPN11,PTEN,IDH2 IKZF1,NRAS,PDGFRA,HRAS,DDX41,IRF1,ETKN1
+```
+
+Do not be surprised if the waiting time takes a while: there is sleep(5) after each query online in order to not make too many requests.
+
+# Get all records in single .csv file with the limit of 20 latest studies
+
+```
+get_records -l 20 -p clinicaltrials.db
+```
+
+The results will be saved into single .csv file. The structure of the header will be similar to the example below (get_specific_records). In that case filename will be `TOP_20_all_records.csv`.
+
+# Get all records in .csv files (each disease-term combination with any records in it) with the limit of 20 latest studies
+
+Just simply add `-s` flag to the previous command. It stands for `--split-into-files`.
+```
+get_records -l 20 -p clinicaltrials.db -s
+```
+The results will be saved into catalog named `clinicaltrials_records`. Each name and header structure will be similar to the example below (get_specific_records).
+
+# Get latest 20 studies for conditon or disease and other term
+
+```
+get_specific_records -c "lung cancer" -t "ALK" -p clinicaltrials.db -l 20
+```
+
+There will appear a file named after combination of condition name and other term (TOP_20_lung_cancer_ALK.csv).
+It's header will look like:
+```
+nct_number	study_title	study_status	conditions	drugs	phases	start_date	locations	disease	term	countries
+```
+
+# REMEMBER
+
+Currently we query clinicaltrials online and just pick results from offline API.
+In order to enable such quering with synonyms as available online UMLS needs to be implemented offline.
