@@ -1,0 +1,3 @@
+[tipsql.database.plugin]
+snowflake=tipsql.snowflake.plugin:SnowflakeDatabasePlugin
+
