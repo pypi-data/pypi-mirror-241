@@ -1,0 +1,17 @@
+cqkit/__init__.py,sha256=-U5fPceW6tmGH4xXPRMyxDVwHvaWoXw1hsxuJ4C2JcA,1127
+cqkit/cq_discrete.py,sha256=bw4JQnzhTISFUddffDtwtntH9Zcn5oeC9TIo3fJrmkI,6353
+cqkit/cq_fasteners.py,sha256=ngjOZw1XGTPJZWRGVgp88bJOhOK52z63ZcKe3vl9_SU,6597
+cqkit/cq_files.py,sha256=zK7quKFpYamBNWXq7vGaF-HGiolRITgYxpHhY9esEvI,21035
+cqkit/cq_geometry.py,sha256=g1vEGppuGZclo6VAD4Vil7tm5Mo4biQszZLwMqJnNsU,32798
+cqkit/cq_helpers.py,sha256=V6DdxLVLV0_odSqEHghs-vh5ExAtYAi-C_OEfWARIKo,5898
+cqkit/cq_pprint.py,sha256=YT4x14CiqLSXLRVxeasObz3isJ21KbXJQjmj5-XU65Y,10466
+cqkit/cq_ribbon.py,sha256=rqijSVLdi7Pn5ZllWOE-_fIu1VogugUMbp4i2uWzb7o,10104
+cqkit/cq_selectors.py,sha256=66t01AfnJGIcmM3plFbVWMI1rjxQ-1q5B3PtFt5nbjc,26567
+cqkit/cq_xsection.py,sha256=GT4JE6b25WvRywyNaElFT6Hd8bHa81-lrilfST2_ajI,10397
+cqkit/refdim.py,sha256=DQ9E4yxgapQAyIAuT-XKmOA5fnk2XiiAIh08Xihr1JY,7300
+cqkit-0.5.2.dist-info/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+cqkit-0.5.2.dist-info/LICENSE,sha256=ex07JZT04kIQT8P6tGJofWfc_L9ND3kJkZw0xXUAqok,1079
+cqkit-0.5.2.dist-info/METADATA,sha256=6aWhKLeyo1L7HE9qN6waFWCbnsGHYdz1Le1a8IJxlPc,626
+cqkit-0.5.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cqkit-0.5.2.dist-info/top_level.txt,sha256=w2OMfVTnz9hZGR2c74ETOnn_8kMd1fagZKqPG0TLlUY,6
+cqkit-0.5.2.dist-info/RECORD,,

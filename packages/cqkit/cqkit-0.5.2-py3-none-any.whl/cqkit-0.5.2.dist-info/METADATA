@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cqkit
+Version: 0.5.2
+Summary: A python library of CadQuery tools and helpers for building 3D CAD models.
+Home-page: https://github.com/michaelgale/cq-kit
+Author: Michael Gale
+Author-email: michael@fxbricks.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<placeholder>
