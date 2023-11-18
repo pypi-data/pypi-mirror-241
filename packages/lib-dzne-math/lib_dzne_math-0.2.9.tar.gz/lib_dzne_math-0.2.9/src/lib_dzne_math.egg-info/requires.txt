@@ -1,0 +1,5 @@
+na_quantors>=1.0
+expit>=0.0.2
+roman>=4.1
+openpyxl>=3.1.2
+simple_pca>=0.1
