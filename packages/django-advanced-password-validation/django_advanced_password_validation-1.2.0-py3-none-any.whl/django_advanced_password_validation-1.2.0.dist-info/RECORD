@@ -1,0 +1,10 @@
+django_advanced_password_validation/__init__.py,sha256=0OtrMgHnsEOpGw2F2lMV4C7iLYmkzYPdieBLbG_YGME,87
+django_advanced_password_validation/advanced_password_validation.py,sha256=NdWb6h_d12RiW5TBW5XzYKASkiIjFmJHhGdPj6-EOlg,14852
+django_advanced_password_validation/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_advanced_password_validation/tests/settings.py,sha256=CYogB_E6MlV7XkYp1o88x9rlqoiFCuGMqCbOENsyZEk,3088
+django_advanced_password_validation/tests/test_validators.py,sha256=ITYnmKa6DHWdtBgRXexa6AJ6BQ-VXW47Rpa_iqZ9vpY,9453
+django_advanced_password_validation-1.2.0.dist-info/LICENSE.txt,sha256=YPQrYUeL4fgYI9M5TJeyTCbsGMwcJHmU0NCOg9EksEI,1054
+django_advanced_password_validation-1.2.0.dist-info/METADATA,sha256=XlrsLEtQki9JP-qwBv1325d_23PjoZoHfibX0yBJk9M,5524
+django_advanced_password_validation-1.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+django_advanced_password_validation-1.2.0.dist-info/top_level.txt,sha256=RcW93974TLbysN4q2nKTmOqggV6FLB3FW83siSO-ubA,36
+django_advanced_password_validation-1.2.0.dist-info/RECORD,,
