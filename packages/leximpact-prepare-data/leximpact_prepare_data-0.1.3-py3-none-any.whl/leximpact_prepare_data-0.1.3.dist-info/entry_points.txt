@@ -1,0 +1,3 @@
+[console_scripts]
+compare-leximpact=notebooks.survey_scenario.modules.comparison:compare
+
