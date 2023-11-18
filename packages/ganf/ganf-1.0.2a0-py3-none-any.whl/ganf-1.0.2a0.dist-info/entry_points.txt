@@ -1,0 +1,3 @@
+[console_scripts]
+ganf=ganf.cli:main
+

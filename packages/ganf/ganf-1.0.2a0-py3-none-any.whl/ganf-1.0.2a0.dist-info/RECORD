@@ -1,0 +1,11 @@
+ganf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ganf/cli.py,sha256=8lPyWDQ21pXA0ySMxa84FsVV284vDBWD6ZKQeGf8z4g,9547
+ganf/config.py,sha256=Bzcv1WMcdisxN2QtXo-JkrmYaNZwGA50jlZnx-dFTnY,5584
+ganf/exceptions.py,sha256=4Yn26dhQRCeU3s0_MJRX6EH7zqNKwdOD6bdu4-Veiug,357
+ganf/segment.py,sha256=qJT1ckkg3OJGTJP8i42ASOvJryD-xi8-QCbLC1KEp9I,1382
+ganf/translator.py,sha256=lECfpdjle2317lxEKVEjsYQvxzsALDBCro6j769z5nw,3399
+ganf/util.py,sha256=sz00U2GSgndSSmTckkgUqbbpGNkTqSYOrCfj5VDzKB4,618
+ganf-1.0.2a0.dist-info/entry_points.txt,sha256=E_mWyGpvPr75fRWvAOH_pVEPNoTBeVqTFuTCMnBLKkw,38
+ganf-1.0.2a0.dist-info/METADATA,sha256=Sd8Os2DrV6dAuS_egJMxTUJ2CZ0uhvQtRzF48zP6k-A,1320
+ganf-1.0.2a0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ganf-1.0.2a0.dist-info/RECORD,,
