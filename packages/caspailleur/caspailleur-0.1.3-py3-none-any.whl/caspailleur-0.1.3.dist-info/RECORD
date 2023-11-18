@@ -1,0 +1,13 @@
+caspailleur/__init__.py,sha256=gFFlewKpDkhdGIUqnJzriTVoXFoRXW1j4XBsFDbdnJg,398
+caspailleur/base_functions.py,sha256=6DZ__xi9pZfHIXjp1rKg7--gts54HXZfqKDPryk2I0I,4571
+caspailleur/definitions.py,sha256=akshHfradFnwfuTxMl4VHFkAVw-Tzl0B4s37oJ1a7yk,4202
+caspailleur/implication_bases.py,sha256=dxHbC3wFzfOuwMCObcJAGRxfHcek0P0KjMT0rtLS-NA,6905
+caspailleur/indices.py,sha256=xATF9JD9TiPczTMUiYEQn2KCezhYWVpMqn9x8qYOMbo,4573
+caspailleur/mine_equivalence_classes.py,sha256=mLEhSGP0c10N4ZrI7zUFFypDhllXdOVm6HyRZQji5bo,12414
+caspailleur/orchestrator.py,sha256=DJ7YsTeS8xSNSKxo7Ob8YXYd_ytHTW_UwM0mlK91KDY,2386
+caspailleur/order.py,sha256=qom-VF2NH-93qk6Al5002fjtZtMlTGO9RT7IFlpFKqE,6060
+caspailleur-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+caspailleur-0.1.3.dist-info/METADATA,sha256=HuolxddEVdMAcMueiaFzJOlWXBWBIg0iaYTYpghG-OE,53181
+caspailleur-0.1.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+caspailleur-0.1.3.dist-info/top_level.txt,sha256=zkYzwM_KUAT9Mu5RRWHWunononsJSN0FA_yZNQjyawM,12
+caspailleur-0.1.3.dist-info/RECORD,,
