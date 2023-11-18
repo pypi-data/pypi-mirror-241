@@ -1,0 +1,6 @@
+module.py
+setup.py
+streams_frugal.egg-info/PKG-INFO
+streams_frugal.egg-info/SOURCES.txt
+streams_frugal.egg-info/dependency_links.txt
+streams_frugal.egg-info/top_level.txt
