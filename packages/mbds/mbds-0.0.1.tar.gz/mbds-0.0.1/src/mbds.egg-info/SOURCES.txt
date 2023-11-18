@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/mbds/__init__.py
+src/mbds/embed.py
+src/mbds/space.py
+src/mbds/types.py
+src/mbds.egg-info/PKG-INFO
+src/mbds.egg-info/SOURCES.txt
+src/mbds.egg-info/dependency_links.txt
+src/mbds.egg-info/top_level.txt
+tests/test_embed.py
