@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "meeseeks-singleton"
+version = "0.4.3"
+description = "A Singleton python project"
+authors = ["Ximit Gaia <im.ximit@gamil.com>"]
+readme = "README.md"
+packages = [
+    { include = "meeseeks"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+mutatest = "^3.1.0"
+freezegun = "^1.2.2"
+pre-commit = "^3.5.0"
+black = "^23.11.0"
+pylint = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+homepage = "https://github.com/CenturyBoys/meeseeks-singleton"
+documentation = "https://github.com/CenturyBoys/meeseeks-singleton/blob/main/README.md"
+repository = "https://github.com/CenturyBoys/meeseeks-singleton/tree/main"
+bugs = "https://github.com/CenturyBoys/meeseeks-singleton/issues"
