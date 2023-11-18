@@ -1,0 +1,14 @@
+nonebot_plugin_blockwords/__init__.py,sha256=yZwfC6zGPCQJ9wB81PWEaTCfkQ3rcJjv40JA3XHDD4I,2000
+nonebot_plugin_blockwords/check.py,sha256=lG_aE6YLzPMyG6yOpUgs5af6bmFy_TdPHYJu1SlSGqc,1896
+nonebot_plugin_blockwords/config.py,sha256=eS9LpMgqJZgSn1vyHzzudgMdM-2w9IM47cqmiNQD4f8,906
+nonebot_plugin_blockwords/exception.py,sha256=iagGhJbqjre5ZuESFVX5gEDPMc2KHdQvpu2fY1m56Gw,1151
+nonebot_plugin_blockwords/hook/__init__.py,sha256=USEMeSTi4vr9EFR2HdCbvZeoy5MQAdTDPcFYAp3D0A4,2163
+nonebot_plugin_blockwords/hook/bot.py,sha256=eQ2E1mibOuLsx3qYsUD94mhDc07TiO34Qu3Kec-Bq68,1560
+nonebot_plugin_blockwords/matcher.py,sha256=9dEg-5T-cvCLw3fjK78ridc9f3c4e2wrmdGUP8yYl44,418
+nonebot_plugin_blockwords/params.py,sha256=H4Ao5mw9TImmDYLPvrKoHc00Z_dtm2ucszBZrLqbUWI,496
+nonebot_plugin_blockwords/typings.py,sha256=DqsQAYMAHY7rY2KzCXT2CT1wdwMKJt0w7423i3kLgok,406
+nonebot_plugin_blockwords/utils.py,sha256=JogcTVG6o4-nHC7U7ssYopHdKy3WnrnlOGSRPERJKik,2600
+nonebot_plugin_blockwords-0.2.1.dist-info/LICENSE,sha256=b9KxxhMRDKmyUhn6qozlQjkyCqMx2ZS3aSXDhEMPHQ8,1088
+nonebot_plugin_blockwords-0.2.1.dist-info/METADATA,sha256=U1DkT6gvaIN2npHAZ-_A-jUUYSYFlnPvWruH8Vi3Xfs,3227
+nonebot_plugin_blockwords-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nonebot_plugin_blockwords-0.2.1.dist-info/RECORD,,
