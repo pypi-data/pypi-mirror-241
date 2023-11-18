@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+featurefilm/__init__.py
+featurefilm/__main__.py
+featurefilm/player_test.py
+featurefilm/writer_test.py
+featurefilm.egg-info/PKG-INFO
+featurefilm.egg-info/SOURCES.txt
+featurefilm.egg-info/dependency_links.txt
+featurefilm.egg-info/entry_points.txt
+featurefilm.egg-info/top_level.txt
+featurefilm/models/face_detection_yunet_2023mar.onnx

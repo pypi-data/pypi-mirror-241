@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: featurefilm
+Version: 2023.11.17
+Summary: Video face feature detector
+Home-page: https://github.com/jmtyszka/featuremovie
+Author: Julian Michael Tyszka
+Author-email: jmt@caltech.edu
+Project-URL: Bug Reports, https://github.com/jmtyszka/featuremovie/issues
+Project-URL: Funding, http://chen.caltech.edu/
+Project-URL: Source, https://github.com/jmtyszka/featuremovie/
+Keywords: video feature detection faces
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# featurefilm
+Face feature detection for MP4 videos
+
+- Uses opencv DNN YuNet face detector
+- Avoids opencv video reader functions with known frame dropping issues
