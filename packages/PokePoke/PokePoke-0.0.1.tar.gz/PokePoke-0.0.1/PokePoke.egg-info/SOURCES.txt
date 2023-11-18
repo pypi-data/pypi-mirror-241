@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PokePoke.egg-info/PKG-INFO
+PokePoke.egg-info/SOURCES.txt
+PokePoke.egg-info/dependency_links.txt
+PokePoke.egg-info/top_level.txt
+pokepoke/__init__.py
+pokepoke/pokemon.py
