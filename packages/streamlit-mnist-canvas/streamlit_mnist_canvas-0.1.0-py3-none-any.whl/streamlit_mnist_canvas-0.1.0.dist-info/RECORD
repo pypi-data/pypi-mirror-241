@@ -1,0 +1,10 @@
+streamlit_mnist_canvas/__init__.py,sha256=SYj23yh2pjOey4A3jWqN0RNAQ5Zrnpa2sHAV-XqHHUA,2763
+streamlit_mnist_canvas/frontend/index.html,sha256=XgKJfC9tEZODgorHFNSmW9IBoSB5u0PsYUWSyd5fdRk,474
+streamlit_mnist_canvas/frontend/main.js,sha256=LgswzTKIyN4GfZz8PseVFCQNL2oWerADBZpTPSsphh4,7776
+streamlit_mnist_canvas/frontend/streamlit-component-lib.js,sha256=LdsY3Moj3IPUPtagiMaoPl31OabzgeZw6v5_iEqf6xY,1121
+streamlit_mnist_canvas/frontend/style.css,sha256=_408nDyamhrVdGWjRcTqNBNMVvG-VznWe9G0UnJJjW0,245
+streamlit_mnist_canvas-0.1.0.dist-info/LICENSE,sha256=v1JNMVk0wyBKPpqWxtZ1rXJAu_Qyi67aFElI8NPthBU,1083
+streamlit_mnist_canvas-0.1.0.dist-info/METADATA,sha256=hjOCODXpNvq6Xa5J47_fwSJtf6bRdiv2uDL03cYT0JM,2463
+streamlit_mnist_canvas-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streamlit_mnist_canvas-0.1.0.dist-info/top_level.txt,sha256=Q3etm_m_7BChbFlRZw2XiLutmAVPwrzSkED9lSNlLuI,23
+streamlit_mnist_canvas-0.1.0.dist-info/RECORD,,
