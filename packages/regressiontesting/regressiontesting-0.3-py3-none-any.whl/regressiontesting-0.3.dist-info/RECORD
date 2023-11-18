@@ -1,0 +1,16 @@
+regression-report/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regression-report/daily_report.py,sha256=mgBoZKL3Aqckwp7FjFUEd50CqYwDeHyTvUfusEG2K3g,1363
+regression-report/log_parameter.py,sha256=ZaB69_76MV32UNdtIIQGc4jwXXKPUTL_yrgWkKKWxD0,857
+regression-report/report_generation.py,sha256=jPlm5ctT8zNEjg3bKaFMUjIpLQqXFdamXuMKJflQvWc,4937
+regressionreport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regressionreport/daily_report.py,sha256=mgBoZKL3Aqckwp7FjFUEd50CqYwDeHyTvUfusEG2K3g,1363
+regressionreport/log_parameter.py,sha256=ZaB69_76MV32UNdtIIQGc4jwXXKPUTL_yrgWkKKWxD0,857
+regressionreport/report_generation.py,sha256=jPlm5ctT8zNEjg3bKaFMUjIpLQqXFdamXuMKJflQvWc,4937
+report_generation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+report_generation/daily_report.py,sha256=AnLxle7J7mEnmqmqBYNjavE81WBdQ9Th51SXlO9Tik8,1344
+report_generation/log_parameter.py,sha256=3D08WQEm5Ww52QA5d7QzLhyfaAakS7I7ywAs1G1rqm4,708
+report_generation/report_generation.py,sha256=l_BXC1wnxMfn3Nq-U1wsUxqHmo1N6t44dv2C9wYIVCo,5640
+regressiontesting-0.3.dist-info/METADATA,sha256=9qqCX0o_2ntOb23AF_ye8kd6L8yeatycbuDwP43uIFk,759
+regressiontesting-0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+regressiontesting-0.3.dist-info/top_level.txt,sha256=Ah6QFqbYpOpa2NllidvhLa8CN4MaJff_5qrb6sqFGyY,17
+regressiontesting-0.3.dist-info/RECORD,,
