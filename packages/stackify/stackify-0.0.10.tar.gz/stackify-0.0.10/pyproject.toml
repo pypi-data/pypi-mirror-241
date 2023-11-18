@@ -1,0 +1,39 @@
+[project]
+name = "stackify"
+version = "0.0.10"
+description = "Simplify developer environment setup"
+authors = [
+  { name = "David Rice", email = "me@davidjrice.co.uk" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "ansible-core==2.16.0",
+  "ansible_runner==2.3.4",
+  "commitizen==3.12.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/davidjrice/stackify"
+"Bug Tracker" = "https://github.com/davidjrice/stackify/issues"
+
+[project.scripts]
+stackify = "stackify.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.10"
+version_files = [
+    "pyproject.toml:^version"
+]
+tag_format = "$version"
+bump_message = "version: $current_version → $new_version"
