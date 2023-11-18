@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+supervisor_stdlog.py
+supervisor_stdlog.egg-info/PKG-INFO
+supervisor_stdlog.egg-info/SOURCES.txt
+supervisor_stdlog.egg-info/dependency_links.txt
+supervisor_stdlog.egg-info/entry_points.txt
+supervisor_stdlog.egg-info/requires.txt
+supervisor_stdlog.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+supervisor-stdlog = supervisor_stdlog:main
