@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: iamcore-irn-py
+Version: 0.0.1
+Summary: This library implement IRN class for iamcore sdk
+Author-email: Oleksandr Burdeinyi <aburdeinyi@kaaiot.io>
+

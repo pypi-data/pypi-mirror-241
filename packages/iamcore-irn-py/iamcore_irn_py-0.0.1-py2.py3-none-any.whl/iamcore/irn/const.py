@@ -1,0 +1,21 @@
+import re
+
+WILDCARD: str = "*"
+
+# PREFIX_TOKEN is a constant leading token of any well-formed IRN.
+PREFIX_TOKEN: str = "irn"
+TOKEN_SEPARATOR: str = ":"
+SUB_TOKEN_SEPARATOR: str = "/"
+
+# IRN Token index
+IRN_TOKEN_INDEX_PREFIX: int = 0
+IRN_TOKEN_INDEX_ACCOUNT_ID: int = 1
+IRN_TOKEN_INDEX_APPLICATION: int = 2
+IRN_TOKEN_INDEX_TENANT_ID: int = 3
+IRN_TOKEN_INDEX_POOL: int = 4
+IRN_TOKEN_INDEX_RESOURCE: int = 5
+IRN_TOKEN_INDEX_RESOURCE_TYPE: int = 5
+IRN_TOKEN_INDEX_RESOURCE_PATH: int = 6
+IRN_TOKEN_INDEX_RESOURCE_ID: int = 7
+
+IRN_TOKEN_RE = re.compile(r"^[a-zA-Z0-9\-_@\.]+$")
