@@ -1,0 +1,3 @@
+include usefuladbplus/requirements.txt
+include usefuladbplus/thirdparty.json
+include usefuladbplus/README.MD
