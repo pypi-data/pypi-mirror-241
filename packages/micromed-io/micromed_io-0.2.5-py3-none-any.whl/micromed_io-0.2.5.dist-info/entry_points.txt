@@ -1,0 +1,3 @@
+[console_scripts]
+mmio_tcp_emulator=scripts.emulate_trc_tcpip:run
+
