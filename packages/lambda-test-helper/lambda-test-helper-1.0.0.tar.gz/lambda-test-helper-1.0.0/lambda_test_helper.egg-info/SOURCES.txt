@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lambda_test_helper.egg-info/PKG-INFO
+lambda_test_helper.egg-info/SOURCES.txt
+lambda_test_helper.egg-info/dependency_links.txt
+lambda_test_helper.egg-info/not-zip-safe
+lambda_test_helper.egg-info/top_level.txt
