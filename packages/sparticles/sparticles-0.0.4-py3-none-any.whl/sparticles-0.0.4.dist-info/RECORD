@@ -1,0 +1,12 @@
+sparticles/__init__.py,sha256=vVLaWbGFqy9By6tOscJqXcVd-yiqJgM8Cn9VcoDtglg,47
+sparticles/dataset.py,sha256=VssuTT6GD641d90K7S-uJV-kbBlOHgE19o-hxTSm4W8,11146
+sparticles/models.py,sha256=SNvXTgJbZANeN9YczBnyGznoTV6zv2dQzkgvr-Zpmss,720
+sparticles/train.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparticles/transforms.py,sha256=1O5rcO0TjiIiQm0bPU0-GarKCpe6R73HLNJ21m2um5U,1613
+sparticles/utils.py,sha256=V5rFMbPHkCSVsy36Q9O1R4Uqzfj02zhCjG9fUsPpdSA,118
+sparticles/visualize.py,sha256=GYYV-PH_jpmoncx5Hp1NtfSAkPzefFh-u7mTbCfJ9xU,10671
+sparticles-0.0.4.dist-info/LICENSE,sha256=La8kyH-BjyNV5zX-BrvA-sYDGV2SZz6Zei04ORvjXBQ,1057
+sparticles-0.0.4.dist-info/METADATA,sha256=nFucKp59afZBTVggs3NIpQrFDrIhprMumsMCJOJla0k,779
+sparticles-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sparticles-0.0.4.dist-info/top_level.txt,sha256=AR3cgEbqyjdN_0jpae7qRHNb0QLjgnTGJwwY749K68s,11
+sparticles-0.0.4.dist-info/RECORD,,
