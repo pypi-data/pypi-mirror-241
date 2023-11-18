@@ -1,0 +1,13 @@
+comet_for_mlflow/__init__.py,sha256=mLu9bPo3qdv-ARETKcHwYjgLgxI7RxUzPovlmwEynwc,924
+comet_for_mlflow/cli.py,sha256=1mXBmH2y0-2n838TUCo_isGLTK5quyZCYNjmX_c81Cc,3414
+comet_for_mlflow/comet_for_mlflow.py,sha256=77PBSz-7pxqNijUqIiYXoYBuT96MBBJbxsg2qvyN1P4,23318
+comet_for_mlflow/compat.py,sha256=9I6NoC00TVn26um6Kc6LqCoggjz5HEexXIbjYOS185U,2339
+comet_for_mlflow/file_writer.py,sha256=Mx4wDY9D9fZaorCUHucatqOAXXsFf9qFPjGAYMSSglo,8574
+comet_for_mlflow/utils.py,sha256=ftkqpCPuUTXN_jC7BqoXu3gCGONEyo6l4SZ0GCUUNPQ,3758
+comet_for_mlflow-0.1.5.dist-info/AUTHORS.rst,sha256=Rr6wzm7fuSLyD9YTdnrrlq0r_U6nqUuDbBh4hmfrf20,150
+comet_for_mlflow-0.1.5.dist-info/LICENSE,sha256=0b_Hp0mVCSS9XSfe5hCsiTP5a63BSndL55bphrnc06o,32423
+comet_for_mlflow-0.1.5.dist-info/METADATA,sha256=BZRQsaTcDaaRw2UPaHMtA4LIyx1N9AYkWKZst2WmEn0,9217
+comet_for_mlflow-0.1.5.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+comet_for_mlflow-0.1.5.dist-info/entry_points.txt,sha256=dBpY58xSnsEEKXWm0e8B6_tpNy4jnugG-z2UAKWgwVo,63
+comet_for_mlflow-0.1.5.dist-info/top_level.txt,sha256=vOEm8HUb4-UeTFTSOpLPh2oRr1sSkune3eLlh55ojVo,17
+comet_for_mlflow-0.1.5.dist-info/RECORD,,
