@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/umls-api-client/__init__.py
+src/umls-api-client/umls.py
+src/umls_api_client.egg-info/PKG-INFO
+src/umls_api_client.egg-info/SOURCES.txt
+src/umls_api_client.egg-info/dependency_links.txt
+src/umls_api_client.egg-info/requires.txt
+src/umls_api_client.egg-info/top_level.txt
