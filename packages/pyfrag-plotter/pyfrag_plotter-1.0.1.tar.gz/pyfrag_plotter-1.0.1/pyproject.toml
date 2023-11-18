@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools==68.0.0", "wheel", "setuptools-git-versioning<2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project]
+dynamic = ["dependencies", "version"]
+name = "pyfrag_plotter"
+description = "Package for plotting pyfrag calculations using the AMS driver and plams"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[[project.authors]]
+name = "Siebe Lekanne Deprez"
+email = "s.j.lekanne.deprez@vu.nl"
+
+[[project.maintainers]]
+name = "Siebe Lekanne Deprez"
+email = "s.j.lekanne.deprez@vu.nl"
+
+[project.license]
+text = "MIT License"
+
+[project.urls]
+repository = "https://github.com/SiebeLeDe/pyfrag_plot"
+documentation = "https://siebelede.github.io/pyfrag_plot/"
+
+[tool.setuptools-git-versioning]
+enabled = true
+template = "{tag}"
+dev_template = "{tag}"
+dirty_template = "{tag}"
+
+[tool.ruff]
+line-length = 200
+target-version = "py311"
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "docs",
+]
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]
+ignore = ["F401"]
+
