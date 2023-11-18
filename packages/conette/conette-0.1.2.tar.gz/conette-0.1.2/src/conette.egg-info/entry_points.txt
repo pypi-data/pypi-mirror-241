@@ -1,0 +1,3 @@
+[console_scripts]
+conette-info = conette.info:print_install_info
+conette-predict = conette.predict:main_predict
