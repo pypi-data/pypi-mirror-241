@@ -1,0 +1,3 @@
+[console_scripts]
+imgmatch=imgmatch.main:main
+
