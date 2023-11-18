@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chemspace"
+version = "0.1.0"
+description = "An open-source library for exploring chemical and reaction space"
+authors = ["Daniel Choi <choi@ibm.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chemspace", format = "wheel"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.336"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
