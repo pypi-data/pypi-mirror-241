@@ -1,0 +1,2 @@
+[console_scripts]
+sinara = sinaraml_cli.sinaraml:main
