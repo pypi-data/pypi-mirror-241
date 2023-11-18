@@ -1,0 +1,9 @@
+slurm_job_resource_monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slurm_job_resource_monitor/_version.py,sha256=Q0awogrGGg4Okn4Wqb2y48OEUI-73ZFn5TQ2lIQTuik,427
+slurm_job_resource_monitor/job_monitor.py,sha256=rjWMN89q-87K7owTk_6aL461o7f8Ie0cPr17CCyJQwI,21720
+slurm_job_resource_monitor-0.2.6.dist-info/LICENSE,sha256=fwPzR840LevvfVsKzlGDENwwvF3rbPNapNUyjODpBn8,1070
+slurm_job_resource_monitor-0.2.6.dist-info/METADATA,sha256=BWPLhOBUJeCj8Tn7CHkj6jLOrzkso1WOUtQsDihE2eM,2277
+slurm_job_resource_monitor-0.2.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+slurm_job_resource_monitor-0.2.6.dist-info/entry_points.txt,sha256=n43BJHGD-X6lNwpFp__zf2GoTUm2VUByKvU1QT5bK18,87
+slurm_job_resource_monitor-0.2.6.dist-info/top_level.txt,sha256=gNJlUz92Gq97CvqM49p2sqJb9nWGMcexs2S4OaJOQKQ,27
+slurm_job_resource_monitor-0.2.6.dist-info/RECORD,,
