@@ -1,0 +1,1 @@
+Snowflake Python SDK for Resource Management
