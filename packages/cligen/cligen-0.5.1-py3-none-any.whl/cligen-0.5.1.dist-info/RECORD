@@ -1,0 +1,12 @@
+cligen/__init__.py,sha256=2KypVSOLwLuwilPj5QjXe_wwQtqihuPvsYDZDdkfNPA,4846
+cligen/__main__.py,sha256=7U2-Ah4_3hxOFAS0x62n_eD0mZiXHZOBRe0OucJvXQ8,27279
+cligen/cligen.py,sha256=87dHIzzfTJB3NdRgrJhBi3v1VC6QrmAFUoqa7OzCYNo,25937
+cligen/cligen0argparse.py,sha256=OXq_V-u8CLWjrAAxxaYDZNwjRHz8WZiYUjILolHtO14,42123
+cligen/cligen0python.py,sha256=bi52kGJ_xylvoIgQdK6yjihtJRTbq3RVbhoFKcIsRU8,55537
+cligen/scanner.py,sha256=Q_70fzje1RCssoUWGfkXIjBBWI_Y8VOyiUvwihdO7CI,7500
+cligen-0.5.1.dist-info/LICENSE,sha256=hsen-XdSCo8uJ88cqIykHgAl9dcEhNDAD0u1PB6D_ac,1121
+cligen-0.5.1.dist-info/METADATA,sha256=0vylUkPSoN36WO9A5OnVYj3o7hwqAT8Y6XhHPUdiZGk,7169
+cligen-0.5.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cligen-0.5.1.dist-info/entry_points.txt,sha256=Ahc77rpkAF7wvS3qeM_OtFD_HbUAdC0bncHasAVfwAs,48
+cligen-0.5.1.dist-info/top_level.txt,sha256=12D-ToBHnyqlOwWSjKbm_k2PXuSTiFff9ODk2ppdyHs,7
+cligen-0.5.1.dist-info/RECORD,,
