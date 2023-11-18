@@ -1,0 +1,15 @@
+simgen_ssg/__init__.py,sha256=RGa6cmRd3eX49NwobrhgLEGX0tGU8LvmGqbzbHV7d0M,44
+simgen_ssg/__main__.py,sha256=O3pV8QGUAtIGWdyjWtXr-12tA0pmfOCZ3jbyFLpIZKU,7671
+simgen_ssg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simgen_ssg/utils.py,sha256=UElhLUrNF8xKnFGrSR43xAPDQ9j_0QLR3ygsQJNS7HY,149
+simgen_ssg/version.py,sha256=SZyNu9-63ei5FG5n43FRRLk7uwOg5k-XzKcVhiayPcU,411
+simgen_ssg/watcher.py,sha256=zLnI5-wHl5yI85f_cznBTYpl3T2kO7EOoOnURQ6QZ7g,2102
+simgen_ssg/parsers/__init__.py,sha256=zOtyzHg26uf8_sXUjgS3RAAS1Z2BjOUMhiJdR_sxz90,513
+simgen_ssg/parsers/base.py,sha256=4Yv1RqznjfRGIDPBseshH5B_jpwJFVve7qnfHgka2nM,480
+simgen_ssg/parsers/markdown.py,sha256=NRcJe74n2lXtKWUa4vhYkrnx3ItdpfjP9ZrTfN-Issw,202
+simgen_ssg-0.1.0rc3.dist-info/LICENSE,sha256=YvuKOpYh3COIF0yqq-nCMXtpS7mh1GyYvPVlW2j1G-M,11359
+simgen_ssg-0.1.0rc3.dist-info/METADATA,sha256=FMW8YSaO__J7SJ3uhU2NEfaxMI6iaFY0Q0OGM4UysBk,15373
+simgen_ssg-0.1.0rc3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+simgen_ssg-0.1.0rc3.dist-info/entry_points.txt,sha256=P1f_qKOY_489UJcvwRNwrDnTWw34WuOiW1zuRHej1q4,51
+simgen_ssg-0.1.0rc3.dist-info/top_level.txt,sha256=1RxhKIPV-eYJU5L0cIqdTfCm_6CyO0o3X9RAEqBjscE,11
+simgen_ssg-0.1.0rc3.dist-info/RECORD,,
