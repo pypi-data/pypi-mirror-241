@@ -1,0 +1,16 @@
+genvarloader/__init__.py,sha256=I__nlXlN7BZg4tWKr75p_pJGfFENYl5IC9XITeoyKiY,1056
+genvarloader/concurrent.py,sha256=LsTuwgcRLS5wlyqD9dyGuALBCXqwhKhPduv_bvMxUWA,1876
+genvarloader/fasta.py,sha256=xFGgWYL7Upf1BjwCVgxCUhmVvhLOOPAKwwt9OhY-7eE,5657
+genvarloader/fasta_variants.py,sha256=pnG6otVotC9ltNibORrxZJBQklRNBk6ZrWDgZPhNoxA,12331
+genvarloader/loader.py,sha256=dhcSPktzwo3ogppnb_fcAdeXkuYeyUY1fziYDmfwl7g,40677
+genvarloader/pgen.py,sha256=OlNjxB2oaQzKFVq85BfyhzjoLzo-avVuLTQeyXWRHRc,19656
+genvarloader/rle_table.py,sha256=N0uHXMC6fE89sfL466XINSmrzxcYFPZpQ2xrsZAnpfA,7378
+genvarloader/tiledb_vcf.py,sha256=h1BSKuo41hRsH8FnCYy1ThDb1gF1yyiRScmpap9oPvw,4278
+genvarloader/types.py,sha256=A7tyg6TA5GMkkoKkY6DCBuIk_6cRex600Uwh0gAqiNo,11593
+genvarloader/util.py,sha256=JJfdeNO4_IFbZvi--P4J3VjSFqFrQDzdRT-D6IfUwhU,11037
+genvarloader/vcf.py,sha256=OHbMsiwvQOlEbKieR0XR9IprkQyoSrZWK-upPnpyCGo,1791
+genvarloader/zarr.py,sha256=xRGWqQbQ9rZ-Bd0dwXy7zEiF0y-p9krqBK3czjoI-GI,1737
+genvarloader-0.1.13.dist-info/LICENSE.txt,sha256=kAIfK8isiIKYZbFu7F0r15G2KyefQUEWSwLi96g9a-E,1066
+genvarloader-0.1.13.dist-info/METADATA,sha256=UA-mgOch2WKK_nP7vAA_VH0KrpuTftLzFReGKZD-6k4,2953
+genvarloader-0.1.13.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+genvarloader-0.1.13.dist-info/RECORD,,
