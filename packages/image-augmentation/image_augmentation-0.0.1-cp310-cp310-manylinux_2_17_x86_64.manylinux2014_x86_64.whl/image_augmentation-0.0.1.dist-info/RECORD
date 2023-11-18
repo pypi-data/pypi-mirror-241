@@ -1,0 +1,12 @@
+multidim_image_augmentation/__init__.py,sha256=IFLCXl2WRQA3YSzwX2Kzo07ZpFbwCHWvnSQbCQKhLcA,736
+multidim_image_augmentation/deformation_utils.py,sha256=p8b-C6k1JOiW-wrVQk-lRMP_XoUqJy8Pl1Zus-rsS9c,15511
+multidim_image_augmentation/python/__init__.py,sha256=mg3RNl94L0FfshBGpDRA9f8vZCEDMbqTBJS3SltnI6I,674
+multidim_image_augmentation/python/ops/_augmentation_ops.so,sha256=qNLTn-eVZOLSV7zsPAQtOZvkk5nOLA9QNJa2v50auew,795265
+multidim_image_augmentation/python/ops/__init__.py,sha256=mg3RNl94L0FfshBGpDRA9f8vZCEDMbqTBJS3SltnI6I,674
+multidim_image_augmentation/python/ops/augmentation_ops.py,sha256=DtX3tvJfM014CC1jqpbgtHGdgUZBti-y0UEmLFvEVLI,954
+image_augmentation.libs/libtensorflow_framework-c979ae3f.so.2,sha256=yUtyizXLNDvXR3viLWHuLHKTRMXchhpF37EDhAQyUVc,63833873
+image_augmentation-0.0.1.dist-info/WHEEL,sha256=V03y0Hly7-iwBL9fk1Vj_oE3j8SJsOdTO-Go5qWKIzU,152
+image_augmentation-0.0.1.dist-info/RECORD,,
+image_augmentation-0.0.1.dist-info/top_level.txt,sha256=QyLLx9pbmECwl6p_Bw1LtiNdzdtwKDplyomWRoeSUQU,28
+image_augmentation-0.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+image_augmentation-0.0.1.dist-info/METADATA,sha256=iECA-_JNPxdviJ2L4FDIxvHo4mTlrO7kMsZem3ddtN4,905
