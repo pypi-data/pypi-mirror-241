@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: excelproject
+Version: 0.1.1
+Summary: Convert OCBC Bank Statements from PDF to Excel
+Author: Ying Liqian
+Author-email: jamesylq@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pdfminer (>=20191125,<20191126)
+Requires-Dist: xlsxwriter (>=3.1.9,<4.0.0)
+Description-Content-Type: text/markdown
+
+
