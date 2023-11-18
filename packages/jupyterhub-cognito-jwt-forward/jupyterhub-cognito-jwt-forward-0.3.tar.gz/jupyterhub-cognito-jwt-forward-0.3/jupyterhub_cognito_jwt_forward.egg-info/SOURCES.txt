@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jupyterhub-cognito-jwt-forward/__init__.py
+jupyterhub-cognito-jwt-forward/jwtauthenticator.py
+jupyterhub_cognito_jwt_forward.egg-info/PKG-INFO
+jupyterhub_cognito_jwt_forward.egg-info/SOURCES.txt
+jupyterhub_cognito_jwt_forward.egg-info/dependency_links.txt
+jupyterhub_cognito_jwt_forward.egg-info/requires.txt
+jupyterhub_cognito_jwt_forward.egg-info/top_level.txt
