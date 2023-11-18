@@ -1,0 +1,7 @@
+setup.py
+nf-core/__init__.py
+nf-core/train.py
+nfai_core.egg-info/PKG-INFO
+nfai_core.egg-info/SOURCES.txt
+nfai_core.egg-info/dependency_links.txt
+nfai_core.egg-info/top_level.txt
