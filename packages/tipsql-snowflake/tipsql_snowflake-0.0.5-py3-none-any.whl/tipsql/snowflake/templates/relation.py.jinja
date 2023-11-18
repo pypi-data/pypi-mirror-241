@@ -1,0 +1,92 @@
+from typing import TypedDict
+
+from tipsql.snowflake import Column, Table, table
+from tipsql.snowflake.datatype import (
+    Binary,
+    VarBinary,
+    Boolean,
+    Date,
+    DateTime,
+    Time,
+    TimestampLTZ,
+    TimestampNTZ,
+    TimestampTZ,
+    Double,
+    DoublePrecision,
+    Float,
+    Float4,
+    Float8,
+    Real,
+    BigInt,
+    ByteInt,
+    Decimal,
+    Int,
+    Integer,
+    Number,
+    Numeric,
+    SmallInt,
+    TinyInt,
+    Char,
+    Character,
+    CharVarying,
+    NChar,
+    NCharVarying,
+    NVarchar,
+    NVarchar2,
+    String,
+    Text,
+    Varchar,
+)
+
+
+{% for table in tables %}
+class {{ table.class_name }}InsertColumns(TypedDict):
+{% if table.comment %}
+    """{ table.comment }"""
+
+{% endif %}
+{% if table.columns|length %}
+{% for column in table.columns %}
+    {{ column.name }}: {{ column.python_type }}
+{% if column.comment %}
+   """{{ column.comment }}"""
+
+{% endif  %}
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+
+
+class {{ table.class_name }}UpdateColumns(TypedDict):
+{% if table.comment %}
+    """{ table.comment }"""
+
+{% endif %}
+{% if table.columns|length %}
+{% for column in table.columns %}
+    {{ column.name }}: {{ column.python_type }}
+{% if column.comment %}
+   """{{ column.comment }}"""
+{% endif  %}
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+
+
+@table("{{ table.database_name }}", "{{ table.schema_name }}", "{{ table.name }}")
+class {{ table.class_name }}(Table[{{ table.class_name }}InsertColumns, {{ table.class_name }}UpdateColumns]):
+{% if table.comment %}
+    """{ table.comment }"""
+
+{% endif %}
+{% if table.columns|length %}
+{% for column in table.columns %}
+    {{ column.name }}: Column[{{ column.data_type }}, {{ column.python_type }}]
+{% endfor %}
+{% else %}
+    pass
+{% endif %}
+
+{% endfor %}
