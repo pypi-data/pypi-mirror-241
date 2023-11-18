@@ -1,0 +1,3 @@
+[whyis]
+whyis_milvus = whyis_milvus:MilvusPlugin
+whyis_milvus_entity_linker = whyis_milvus.entity_linker:MilvusEntityResolverPlugin
