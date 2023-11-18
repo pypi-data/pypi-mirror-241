@@ -1,0 +1,16 @@
+[project]
+name = "iamcore-irn-py"
+description = """\
+This library implement IRN class for iamcore sdk
+Other implementations:
+* git@gitlab.kaaiot.net:core/lib/iamcore/irn.git
+* git@gitlab.kaaiot.net:core/lib/iamcore/iamcore-irn-java.git and
+"""
+version = "0.0.1"
+authors = [
+    {name = "Oleksandr Burdeinyi",  email="aburdeinyi@kaaiot.io"}
+]
+
+
+[tool.distutils.bdist_wheel]
+universal = true
