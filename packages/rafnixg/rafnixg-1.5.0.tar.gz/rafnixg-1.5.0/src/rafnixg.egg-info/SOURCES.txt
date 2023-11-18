@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/rafnixg/__init__.py
+src/rafnixg/__main__.py
+src/rafnixg/blog_posts.py
+src/rafnixg/rafnixg.py
+src/rafnixg/resume.py
+src/rafnixg.egg-info/PKG-INFO
+src/rafnixg.egg-info/SOURCES.txt
+src/rafnixg.egg-info/dependency_links.txt
+src/rafnixg.egg-info/entry_points.txt
+src/rafnixg.egg-info/requires.txt
+src/rafnixg.egg-info/top_level.txt
