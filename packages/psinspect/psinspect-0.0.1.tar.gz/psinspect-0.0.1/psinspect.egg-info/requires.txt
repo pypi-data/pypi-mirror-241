@@ -1,0 +1,7 @@
+colorlog
+pspipe_utils
+jupyterlab
+ipyfilechooser
+plotly
+seaborn
+voila

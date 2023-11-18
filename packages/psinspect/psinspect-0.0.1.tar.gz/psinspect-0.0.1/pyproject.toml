@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psinspect"
+dynamic = ["version"]
+authors = [
+  { name = "Simons Observatory Collaboration Power Spectrum Task Force" },
+]
+
+maintainers = [
+  { name = "Xavier Garrido", email = "xavier.garrido@ijclab.in2p3.fr" },
+]
+
+description = "Power spectra inspector for the SO LAT experiment"
+readme = "README.rst"
+license = { file = "LICENSE" }
+keywords = ["visualisation", "pipeline", "cosmology"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Astronomy",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8.0"
+dependencies = [
+  "colorlog",
+  "pspipe_utils",
+  "jupyterlab",
+  "ipyfilechooser",
+  "plotly",
+  "seaborn",
+  "voila",
+]
+
+[tool.setuptools_scm]
+version_file = "psinspect/_version.py"
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml", "*.bibtex"]
+
+[project.scripts]
+psinspect = "psinspect.app:run"
+
+[tool.setuptools.packages.find]
+exclude = ["docs", "tests"]
+
+[project.urls]
+# Homepage = "https://psinspect.readthedocs.io"
+# Documentation = "https://psinspect.readthedocs.io"
+Source = "https://github.com/xgarrido/psinspect"
+Tracker = "https://github.com/xgarrido/psinspect/issues"
+Licensing = "https://github.com/xgarrido/psinspect/blob/master/LICENCE"

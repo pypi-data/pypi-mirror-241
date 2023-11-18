@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+psinspect/__init__.py
+psinspect/_version.py
+psinspect/app.ipynb
+psinspect/app.py
+psinspect.egg-info/PKG-INFO
+psinspect.egg-info/SOURCES.txt
+psinspect.egg-info/dependency_links.txt
+psinspect.egg-info/entry_points.txt
+psinspect.egg-info/requires.txt
+psinspect.egg-info/top_level.txt
+psinspect/tests/test_app.py
