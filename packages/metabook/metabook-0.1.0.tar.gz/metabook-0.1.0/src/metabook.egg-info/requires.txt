@@ -1,0 +1,6 @@
+pyyaml
+pdfplumber
+requests
+jinja2
+pdfrw
+PyCryptodome
