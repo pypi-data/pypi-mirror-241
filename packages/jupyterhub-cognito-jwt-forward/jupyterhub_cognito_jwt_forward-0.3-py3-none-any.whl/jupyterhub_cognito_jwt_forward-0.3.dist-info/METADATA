@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jupyterhub-cognito-jwt-forward
+Version: 0.3
+Home-page: https://github.com/fldsblzs/jwtauthenticator
+Author: fldsblzs
+Author-email: foldesibalazs@gmail.com
+License: Apache 2.0
+License-File: LICENSE
+Requires-Dist: jupyterhub
+Requires-Dist: python-jose
+Requires-Dist: PyJWT
+Requires-Dist: requests
+
