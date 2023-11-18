@@ -1,0 +1,126 @@
+from typing import TYPE_CHECKING, Optional
+
+from pydantic import StrictStr
+
+from snowflake.core._internal.telemetry import api_telemetry
+from snowflake.core.common import AccountObjectCollectionParent, CreateMode, ObjectReferenceMixin
+from snowflake.core.compute_pool._generated.api import ComputePoolApi
+from snowflake.core.compute_pool._generated.api_client import BridgeApiClient
+from snowflake.core.compute_pool._generated.models.compute_pool import ComputePool
+from snowflake.core.paging import PagedIter
+
+
+if TYPE_CHECKING:
+    from snowflake.core import Root
+
+
+class ComputePoolCollection(AccountObjectCollectionParent["ComputePoolResource"]):
+    """Represents the collection operations of the Snowflake Compute Pool resource."""
+
+    def __init__(self, root: "Root") -> None:
+        super().__init__(root, ref_class=ComputePoolResource)
+        self._api = ComputePoolApi(
+            BridgeApiClient(snowflake_connection=root.connection)
+        )
+
+    @api_telemetry
+    def create(
+        self,
+        compute_pool: ComputePool,
+        *,
+        mode: CreateMode = CreateMode.error_if_exists,
+    ) -> "ComputePoolResource":
+        """Create a compute pool in Snowflake.
+
+        Args:
+            service: an instance of :class:`ComputePool`.
+            mode: One of the following strings.
+
+                CreateMode.error_if_exists: Throw an :class:`snowflake.core.exceptions.ConflictError`
+                if the compute pool already exists in Snowflake. Equivalent to SQL ``create compute pool <name> ...``.
+
+                CreateMode.or_replace: Replace if the compute pool already exists in Snowflake. Equivalent to SQL
+                ``create or replace compute pool <name> ...``.
+
+                CreateMode.if_not_exists: Do nothing if the compute pool already exists in Snowflake. Equivalent to SQL
+                ``create compute pool <name> if not exists...``
+
+                Default value is CreateMode.error_if_exists.
+
+        """
+        real_mode = CreateMode[mode].value
+        self._api.create_compute_pool(
+            compute_pool, StrictStr(real_mode), async_req=False
+        )
+        return self[compute_pool.name]
+
+    @api_telemetry
+    def iter(
+        self,
+        *,
+        like: Optional[str] = None,
+        startswith: Optional[str] = None,
+        limit: Optional[int] = None,
+        from_name: Optional[str] = None
+    ) -> PagedIter[ComputePool]:
+        """Look up compute pools in Snowflake."""
+        if limit:
+            limit_dict = {"rows": StrictStr(limit)}
+            if from_name:
+                limit_dict["nameString"] = StrictStr(from_name)
+        else:
+            limit_dict = None
+        return PagedIter(
+            data=self._api.fetch_compute_pools(
+                StrictStr(like) if like is not None else None,
+                StrictStr(startswith) if startswith else None,
+                limit_dict,
+                async_req=False,
+            ),
+        )
+
+
+class ComputePoolResource(ObjectReferenceMixin[ComputePoolCollection]):
+    """A reference to a Compute Pool in Snowflake."""
+
+    def __init__(self, name: str, collection: ComputePoolCollection) -> None:
+        self.name = name
+        self.collection = collection
+
+    @property
+    def _api(self) -> ComputePoolApi:
+        return self.collection._api
+
+    @api_telemetry
+    def create_or_update(self, compute_pool: ComputePool) -> None:
+        """Create or update a compute pool in Snowflake."""
+        self._api.create_or_alter_compute_pool(
+            compute_pool.name, compute_pool, async_req=False
+        )
+
+    @api_telemetry
+    def fetch(self) -> ComputePool:
+        """Fetch the compute pool details from Snowflake."""
+        return self.collection._api.fetch_compute_pool(self.name, async_req=False)
+
+    @api_telemetry
+    def suspend(self) -> None:
+        """Suspend the compute pool."""
+        self.collection._api.suspend_compute_pool(self.name, async_req=False)
+
+    @api_telemetry
+    def resume(self) -> None:
+        """Resume the compute pool."""
+        self.collection._api.resume_compute_pool(self.name, async_req=False)
+
+    @api_telemetry
+    def stop_all_services(self) -> None:
+        """Stop all services that run on this compute pool."""
+        self.collection._api.stop_all_services_in_compute_pool(
+            self.name, async_req=False
+        )
+
+    @api_telemetry
+    def delete(self) -> None:
+        """Delete this compute pool."""
+        self.collection._api.delete_compute_pool(self.name, async_req=False)
