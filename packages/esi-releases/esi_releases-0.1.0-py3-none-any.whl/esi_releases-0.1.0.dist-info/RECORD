@@ -1,0 +1,17 @@
+esi_releases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esi_releases/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esi_releases/app/releases.py,sha256=uolW1q5BxUtZ1iEYxEMjivfhukB8u2giuATtut1XgUo,1936
+esi_releases/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esi_releases/format/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esi_releases/format/release_metadata.py,sha256=R-HuCTMAIWExjzu78qOfywEH25F6tPml_i_RfoEY-98,4153
+esi_releases/format/repository_metadata.py,sha256=xQPjwydntWybM_SXa1VGL6XvKtjDw-LuepEpVWxmTeM,372
+esi_releases/format/version.py,sha256=Q9avgcpIHQL17n1bm1Ryt5lW4M3kCbZqW9j4BHa09MA,1032
+esi_releases/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esi_releases/utils/changelog.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esi_releases/utils/metadata_utils.py,sha256=sEVUBaFqxiR68OFQfhaFs5FOQPWIlKKcq8E3OP-jSvE,1442
+esi_releases-0.1.0.dist-info/LICENSE.md,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+esi_releases-0.1.0.dist-info/METADATA,sha256=t4MfQtZBFLzerqsZ0oy2Ihd3_e1RsOZT7-lGAhIxgIY,11977
+esi_releases-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+esi_releases-0.1.0.dist-info/entry_points.txt,sha256=U_iDtfpLow1LLQLGa94nXNT6oQlK5Ix3uXLEzYrAdzw,59
+esi_releases-0.1.0.dist-info/top_level.txt,sha256=K1IzFP24aHfRfMY66b7py58dbMpKdeTaSsCpZ9R7yc4,13
+esi_releases-0.1.0.dist-info/RECORD,,
