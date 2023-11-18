@@ -1,0 +1,7 @@
+numpy
+meson-python
+cython
+pytest
+numpydoc
+matplotlib
+docutils<0.18
