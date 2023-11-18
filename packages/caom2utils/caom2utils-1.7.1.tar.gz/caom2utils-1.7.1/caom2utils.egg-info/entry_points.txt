@@ -1,0 +1,3 @@
+[console_scripts]
+caom2gen = caom2utils.caom2blueprint:caom2gen
+fits2caom2 = caom2utils.legacy:main_app
