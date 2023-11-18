@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pixelti/__init__.py
+pixelti/cli.py
+pixelti/core.py
+pixelti/display.py
+pixelti/pallette.py
+pixelti/app/cli/generate_pixelti.py
+pixelti/lib/__init__.py
+pixelti/lib/utils.py
+pixelti/pixelti.egg-info/PKG-INFO
+pixelti/pixelti.egg-info/SOURCES.txt
+pixelti/pixelti.egg-info/dependency_links.txt
+pixelti/pixelti.egg-info/top_level.txt
+pixelti/pixelti.egg-info/zip-safe
