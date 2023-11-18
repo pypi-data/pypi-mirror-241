@@ -1,0 +1,9 @@
+setup.py
+Maintera/__init__.py
+Maintera/activation_functions.py
+Maintera/nn_model.py
+Maintera.egg-info/PKG-INFO
+Maintera.egg-info/SOURCES.txt
+Maintera.egg-info/dependency_links.txt
+Maintera.egg-info/requires.txt
+Maintera.egg-info/top_level.txt
