@@ -1,0 +1,2 @@
+[console_scripts]
+pirobot = pirobot.main:main
