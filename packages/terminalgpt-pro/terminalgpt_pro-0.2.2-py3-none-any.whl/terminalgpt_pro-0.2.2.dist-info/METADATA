@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: terminalgpt-pro
+Version: 0.2.2
+Summary: AI chat assistant in your terminal powered by OpenAI ChatGPT models.
+Author: Adam Yodinsky, Shabernev Fedor
+Author-email: quantumstack01@gmail.com
+Keywords: ai,chat,terminal,openai,gpt-3,gpt-4,gpt4,gpt3,chatGPT,assistant,gpt-3.5,gpt-3.5-turbo,terminalGPT-Pro
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai >=0.27.6
+Requires-Dist: tiktoken <0.6,>=0.2
+Requires-Dist: colorama >=0.4.6
+Requires-Dist: cryptography <42.0.0,>=40.0.2
+Requires-Dist: click >=8.1.3
+Requires-Dist: prompt-toolkit >=3.0.38
+Requires-Dist: yaspin >=2.3.0
+Requires-Dist: rich >=13.3.5
+Requires-Dist: isort >=5.12.0
+Requires-Dist: pytest >=7.3.1
+Requires-Dist: pylint >=3.0.2
+Provides-Extra: dev
+Requires-Dist: black >=23.1.0 ; extra == 'dev'
+Requires-Dist: pytest >=7.2.2 ; extra == 'dev'
+Requires-Dist: pylint >=3.0.2 ; extra == 'dev'
+Requires-Dist: pexpect >=4.8.0 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.0.0 ; extra == 'dev'
+
+# TerminalGPT-Pro
+ 
