@@ -1,0 +1,39 @@
+[project]
+name = "paella_auth"
+version = "0.4.1"
+description = "Simple, extensible Asynchronous Authnz library"
+authors = [
+    { name = "Stephen Sadowski", email = "stephen.sadowski@sjsadowski.com" },
+]
+dependencies = [
+    "pyjwt[crypto]>=2.8.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+asyncio_mode = "auto"
+testpaths = [
+    "tests",
+]
+pythonpath = "src"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "pytest>=7.4.0",
+    "bandit>=1.7.5",
+    "pytest-asyncio>=0.21.1",
+    "aiosqlite>=0.19.0",
+]
