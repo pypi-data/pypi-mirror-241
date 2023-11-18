@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/group[@id='header']/group[@id='checkboxes']" position="after">
+        <label name="pfafirstname"/>
+        <field name="pfafirstname"/>
+        <label name="pfafamilyname"/>
+        <field name="pfafamilyname"/>
+        <label name="pfanickname"/>
+        <field name="pfanickname"/>
+
+        <label name="pfacompanylink"/>
+        <field name="pfacompanylink"/>
+        <label name="pfacompany"/>
+        <field name="pfacompany"/>
+        <label name="pfadepartment"/>
+        <field name="pfadepartment"/>
+        <newline/>
+    </xpath>
+
+    <xpath expr="/form/notebook/page[@id='general']/field[@name='addresses']"
+        position="replace_attributes">
+            <field name="addresses" mode="form,tree,form"
+                view_ids="party.address_view_form,party.address_view_tree_sequence,party_fieldaddon.adress_format_view_form"/>
+    </xpath>
+
+    <xpath expr="/form/notebook/page[@id='general']" position="after">
+        <page id="addparty" string="additional Data" col="6">
+            <label name="pfaadditionalnames"/>
+            <field name="pfaadditionalnames"/>
+            <label name="pfakeepupdt"/>
+            <field name="pfakeepupdt"/>
+            <newline/>
+
+            <label name="pfabday"/>
+            <field name="pfabday"/>
+            <label name="pfahonpre"/>
+            <field name="pfahonpre"/>
+            <label name="pfahonsuf"/>
+            <field name="pfahonsuf"/>
+
+            <separator id="sep1" colspan="6" string="Information"/>
+            <label name="rec_name"/>
+            <field name="rec_name" colspan="5"/>
+
+        </page>
+    </xpath>
+
+</data>

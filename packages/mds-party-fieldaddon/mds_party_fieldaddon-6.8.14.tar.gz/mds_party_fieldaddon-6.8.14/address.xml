@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of the party-fieldaddon module for Tryton from m-ds.de.
+ The COPYRIGHT file at the top level of
+ this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="adress_format_view_form">
+            <field name="model">party.address</field>
+            <field name="type">form</field>
+            <field name="name">address_preview_form</field>
+        </record>
+
+        <record model="ir.action.act_window.view" id="act_address_form_view3">
+          <field name="sequence" eval="30"/>
+          <field name="view" ref="adress_format_view_form"/>
+          <field name="act_window" ref="party.act_address_form"/>
+        </record>
+
+        <record model="ir.ui.view" id="address_format_view_form">
+            <field name="model">party.address.format</field>
+            <field name="inherit" ref="party.address_format_view_form"/>
+            <field name="name">address_format_form</field>
+        </record>
+
+    </data>
+</tryton>
