@@ -1,0 +1,10 @@
+CHANGELOG.txt
+License.txt
+MANIFEST.in
+README.md
+setup.py
+splittercalculationlibrary/__init__.py
+splittercalculationlibrary.egg-info/PKG-INFO
+splittercalculationlibrary.egg-info/SOURCES.txt
+splittercalculationlibrary.egg-info/dependency_links.txt
+splittercalculationlibrary.egg-info/top_level.txt
