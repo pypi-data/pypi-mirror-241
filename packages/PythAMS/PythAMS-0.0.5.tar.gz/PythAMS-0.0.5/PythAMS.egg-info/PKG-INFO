@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PythAMS
+Version: 0.0.5
+Summary: A Python package for synthesizing and simulating fixed-point models of continuous systems.
+Author: Will S, Sara A
+Author-email: wrs225@stanford.edu
+Project-URL: Homepage, https://github.com/wrs225/PythAMS
+Project-URL: Bug Tracker, https://github.com/wrs225/PythAMS/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PythAMS
+A Python package for synthesizing and simulating fixed-point models of continuous systems.
