@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+youtube_extractor/__init__.py
+youtube_extractor/youtube_video_id_extractor.py
+youtube_extractor.egg-info/PKG-INFO
+youtube_extractor.egg-info/SOURCES.txt
+youtube_extractor.egg-info/dependency_links.txt
+youtube_extractor.egg-info/requires.txt
+youtube_extractor.egg-info/top_level.txt
