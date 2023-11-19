@@ -1,0 +1,10 @@
+setup.py
+downgit.egg-info/PKG-INFO
+downgit.egg-info/SOURCES.txt
+downgit.egg-info/dependency_links.txt
+downgit.egg-info/entry_points.txt
+downgit.egg-info/requires.txt
+downgit.egg-info/top_level.txt
+package/__init__.py
+package/downgit.py
+package/setup.py

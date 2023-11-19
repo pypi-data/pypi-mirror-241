@@ -1,0 +1,2 @@
+[console_scripts]
+downgit = package.downgit:main
