@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+FullMeanAveragePrecision/CustomMetric.py
+FullMeanAveragePrecision/__init__.py
+FullMeanAveragePrecision.egg-info/PKG-INFO
+FullMeanAveragePrecision.egg-info/SOURCES.txt
+FullMeanAveragePrecision.egg-info/dependency_links.txt
+FullMeanAveragePrecision.egg-info/not-zip-safe
+FullMeanAveragePrecision.egg-info/requires.txt
+FullMeanAveragePrecision.egg-info/top_level.txt
