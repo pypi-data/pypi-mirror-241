@@ -1,0 +1,4 @@
+pandas
+date_management
+openpyxl
+pathlib
