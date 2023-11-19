@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: merkle-zeppelin
+Version: 0.0.1
+Summary: MerkleTree implementation
+Home-page: https://github.com/akcelero/merkle-zeppelin
+Author: akcelero
+Author-email: akcelero@gmail.com
+License: MIT
+Keywords: merkle tree merkletree openzeppelin
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+Yet another package for MerkleTree, compatible with OpenZeppelin implementation
