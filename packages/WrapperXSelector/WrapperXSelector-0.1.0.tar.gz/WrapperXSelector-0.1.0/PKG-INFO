@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: WrapperXSelector
+Version: 0.1.0
+Summary: WrapperXSelector is an intuitive tool that empowers users to effortlessly create scraping wrappers. Seamlessly combining the art of crafting with powerful scraping capabilities, it allows users to select and store XPath configurations for later use in efficient website data harvesting.
+Author: Kallol Naha
+Author-email: kallolnaha@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
