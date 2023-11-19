@@ -1,0 +1,13 @@
+mr/__init__.py,sha256=XVresAwnVohxqJNRkasrdsEyeSKhpUM6m6DQ_hNSUos,177
+mr/config/__init__.py,sha256=gsEe312MwsTFDcCJrheiTzp-JCBfK4P4GxLPHUlMCc4,1153
+mr/mime.py,sha256=6sO-eb_1DCimAuyETTAOEpruMzifN57pyBGlK9zWzZU,2879
+mr/states/__init__.py,sha256=LeaJfvS-qwjnCaRP1E9-dXMdzOai7ZpQjWQsU1ryNuA,531
+mr/states/implementations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mr/states/implementations/memory.py,sha256=ndlOWB-xp5BcHPJ6tIiSxL_9SjjIINe-qz0Hm81gaFY,1196
+mr/states/implementations/redis.py,sha256=wBV0cySQDstiGlz29WQHA-qTGu250naVPROgk4GTiVY,2000
+mr/states/implementations/temp.py,sha256=94vGz7i-sZg2qFoA0DhjMLaBPQ9jCfSK0MwD2rQTrdw,2912
+mr/states/interface.py,sha256=B1DfjvpqUtNAbZ2224evHQk-J8O4mw7Cq9z6_PB0Y4w,1127
+my_mimic-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+my_mimic-0.4.1.dist-info/METADATA,sha256=Lm4C8x_ZscKqtothntG6Rb0YLFXHIZxZpD93JHtDxvw,10641
+my_mimic-0.4.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+my_mimic-0.4.1.dist-info/RECORD,,
