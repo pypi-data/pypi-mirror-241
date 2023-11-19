@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bwnet
+Version: 0.2.1
+Summary: Simple client-server communication framework.
+Home-page: https://github.com/bwilk315/bwnet.git
+Author: Bartłomiej Wilk
+License: GNU GPLv2
+Keywords: communication,client,server,networking
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Check out the github page for more information.
