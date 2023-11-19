@@ -1,0 +1,11 @@
+pirogram/.version,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+pirogram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pirogram/main.py,sha256=2HVu2IjnqG6vbcEFbHIg7YWjuOlAjbjPF-uMPqSlw0U,1281
+pirogram/pirogram.py,sha256=cg0mdNhOxFZ0m-GJws59U3gUt8EE2Rzse_fH0TumnMI,5359
+pirogram/quizzes.json,sha256=bWGQkehFH-Y7-WV3XCMv-v10WrknZa8NOmeAmTaVswE,1652
+pirogram-0.1.0.dist-info/LICENSE,sha256=kt7XBAdffISL8oJj48d_-5GRrQz09Xy1rK6gnwLmyfw,35243
+pirogram-0.1.0.dist-info/METADATA,sha256=-0xPuqZHybaSMy7ftIUHqoRwOvC6Fm-_QBNwMLJIsJM,3473
+pirogram-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pirogram-0.1.0.dist-info/entry_points.txt,sha256=5nsil19MEb_rzB57bZida6KQYUK8isWp3HEQ9km9n-4,48
+pirogram-0.1.0.dist-info/top_level.txt,sha256=Z88FfsHYgql8VA23egLVmrBn3YQnWYvOMZRhA6Y2LGo,9
+pirogram-0.1.0.dist-info/RECORD,,
