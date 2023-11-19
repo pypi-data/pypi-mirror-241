@@ -1,0 +1,13 @@
+pixelti/__init__.py,sha256=74S2s7EAi2F2v0yvd7n98CS-8uD6GOTxQ1HdAgPUJss,100
+pixelti/cli.py,sha256=Zq8tZ6iel5W6RB1F8GJVYWTYa-4MJXPuAtnEaAZRv6E,840
+pixelti/core.py,sha256=_gsfMvGUUdCeN1V3aJmcLwL9PwZUz5vyXuIPBBIoVps,3063
+pixelti/display.py,sha256=iWWkYs9qXtE8Si5huaydub60rE1BO--ldIFiVCFOeGw,211
+pixelti/pallette.py,sha256=CA9JZFNBOM_KogouEmHQrcYUJtMtEoHyBK85HMrNWkQ,2683
+pixelti/version.py,sha256=olRIw4GOlUG2foR8PyJoj3GVfkPzOaqX5MhOW6M5Ksk,23
+pixelti/app/cli/generate_pixelti.py,sha256=fCOCzGx-9W3UJ26vryGN7CJA4lYEZA1tab3n5fZHheo,1499
+pixelti/lib/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+pixelti/lib/utils.py,sha256=bkg-DR0TwMAJLQvkNBwJe0EHmyhHtKgbz4ahmRYp-g4,344
+pixelti-0.1.0a8.dist-info/METADATA,sha256=wOnPDE8PQRsg9iuKYyNFLyDsaaZ7eGEwqxHqWl_Z44Y,2172
+pixelti-0.1.0a8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pixelti-0.1.0a8.dist-info/top_level.txt,sha256=tahTjKJfQrkgTpg1jxM5oSxX63Pk58XHjVOVI03lHQ0,8
+pixelti-0.1.0a8.dist-info/RECORD,,
