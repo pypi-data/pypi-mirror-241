@@ -1,0 +1,13 @@
+swibin/__init__.py,sha256=3eXVrhJ-jl3olqrLMTi4GRF-zcnl6bRdFYfFOcSxYBU,33
+swibin/insights.py,sha256=5Cfs85GehjtADayL4DzYCnDS8fMKmkv8b4OOUv9MFTs,1945
+swibin/wrapper.py,sha256=ClG0ymyQgA2rhUVqQavZtVoh8Ux4OnF32oIQyxQZ72s,288
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main.py,sha256=4OlOLGqqWHdDz8kgUHzYkaqPvs-7JvGutHaRq8GnITk,507
+test/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/helpers/vectormath.py,sha256=anRzd_EsJWRagOJrgemRm_BAvscj6DhzTarQh2yuDvY,1915
+swibin-1.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swibin-1.0.4.dist-info/METADATA,sha256=mKXKp4Wc2hsticv4DKT3Xu4PUIPN_7XZFr5xeEWdFb4,437
+swibin-1.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+swibin-1.0.4.dist-info/entry_points.txt,sha256=W7xDG8-7hZlf6rBTzOo-jGEGJ5sRSP-MZVvuCngFbWc,46
+swibin-1.0.4.dist-info/top_level.txt,sha256=jUaD41FEciJJi78fB-cDYPMyQaZZdMoC17Am1oX32_c,12
+swibin-1.0.4.dist-info/RECORD,,
