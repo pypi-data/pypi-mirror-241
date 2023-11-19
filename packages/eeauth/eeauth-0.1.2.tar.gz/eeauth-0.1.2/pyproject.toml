@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eeauth"
+dynamic = ["version"]
+description = "An Earth Engine account manager."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "Aaron Zuspan" }]
+keywords = [
+    "earthengine",
+    "gee",
+    "jupyter",
+    "notebook",
+]
+dependencies = [
+    "earthengine-api>=0.1.317",
+    "click",
+    "pydantic==2.*",
+]
+
+[project.urls]
+Homepage = "https://github.com/aazuspan/eeauth"
+
+[project.scripts]
+eeauth = "eeauth.cli:cli"
+
+[tool.hatch.version]
+path = "src/eeauth/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/eeauth"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src"]
+
+[tool.hatch.envs.default]
+dependencies = ["pre-commit"]
+
+[tool.hatch.envs.test]
+dependencies = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.hatch.envs.test.scripts]
+all = "pytest . {args}"
+cov = "pytest . --cov=src/eeauth {args}"
+
+[tool.pytest.ini_options]
+markers = [
+    "missing_registry: mark test as requiring a missing registry file",
+    "missing_credentials: mark test as requiring missing persistent credentials",
+]
+
+[tool.ruff]
+select = ["E", "I", "F", "B", "FA", "UP", "PT", "Q", "RET", "SIM", "PERF"]
+fix = true
+show-fixes = true
+
+[tool.ruff.isort]
+known-first-party = ["eeauth"]
+
+[tool.ruff.pyupgrade]
+keep-runtime-typing = true
