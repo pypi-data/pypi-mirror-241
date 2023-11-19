@@ -1,0 +1,7 @@
+README.md
+setup.py
+xmixers.egg-info/PKG-INFO
+xmixers.egg-info/SOURCES.txt
+xmixers.egg-info/dependency_links.txt
+xmixers.egg-info/requires.txt
+xmixers.egg-info/top_level.txt
