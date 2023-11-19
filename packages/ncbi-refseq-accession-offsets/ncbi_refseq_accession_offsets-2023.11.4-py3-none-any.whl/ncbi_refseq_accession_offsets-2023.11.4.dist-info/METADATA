@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ncbi-refseq-accession-offsets
+Version: 2023.11.4
+Summary: Taxoniq accession index for NCBI BLAST databases
+Home-page: https://github.com/chanzuckerberg/taxoniq
+Author: Andrey Kislyuk
+Author-email: akislyuk@chanzuckerberg.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+[Taxoniq](https://github.com/chanzuckerberg/taxoniq) accession index for the NCBI BLAST databases.
+
+This package contains data from NCBI Taxonomy, NCBI GenBank, and NCBI RefSeq (Bethesda (MD): National Library of
+Medicine (US), National Center for Biotechnology Information). These data are released into the public domain under the
+[NCBI Public Domain Notice](https://github.com/chanzuckerberg/taxoniq/blob/main/LICENSE.NCBI).
+
+
