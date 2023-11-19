@@ -1,0 +1,17 @@
+PySide6
+matplotlib
+
+[deployment]
+wheel
+twine
+
+[dev]
+prospector
+pyroma
+bandit
+black
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx_multiversion
