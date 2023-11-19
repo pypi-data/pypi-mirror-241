@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/ankiapp_batch/__init__.py
+src/ankiapp_batch/__main__.py
+src/ankiapp_batch.egg-info/PKG-INFO
+src/ankiapp_batch.egg-info/SOURCES.txt
+src/ankiapp_batch.egg-info/dependency_links.txt
+src/ankiapp_batch.egg-info/top_level.txt
