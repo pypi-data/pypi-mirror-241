@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: turingAPI-final
+Version: 1.0.0
+Summary: The API framework for IcodeYoudao.
+Author: xbzstudio
+Author-email: mmmhss2022@outlook.com
+License: MIT Licence
+Project-URL: Homepage, https://github.com/xbzstudio/TuringAPI
+Project-URL: Documentation, https://xbz-studio.gitbook.io/turingapi/
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 >=2.0.7
+
+# There is a better API framework for IcodeYoudao now, and TuringAPI is out of support.  
+# [IcodeAPI is here](https://pypi.org/project/icodeapi/)  
+------
+## TuringAPI, the API framework for IcodeYoudao.  
+You can use TuringAPI to control your account on IcodeYoudao.  
+```python
+from turingAPI-final import icodeUser
+user = icodeUser(input('Enter cookie: ')) # login
+print(user.info)  # user info
+```
+You can use `turingAPI.task`, `turingAPI.event` and `turingAPI.eventPool` to concurrent.  
+```python
+import turingAPI-final as turingAPI
+user = turingAPI.icodeUser(input('Enter cookie: '))
+ev = turingAPI.event(name='view')
+for i in range(100):
+    turingAPI.addTask(ev,user.getWorkDetail,'get{num}'.format(i),['66a116af4ade4abb97cc2bab3d57573f'],{})
+ev.run()
+```
+Learn more in documents:  
+[TuringAPI](https://xbz-studio.gitbook.io/turingapi)  
+[Github](https://github.com/xbzstudio/TuringAPI)  
