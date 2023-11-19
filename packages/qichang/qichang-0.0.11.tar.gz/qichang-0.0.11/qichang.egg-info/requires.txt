@@ -1,0 +1,6 @@
+requests
+time
+ping3
+bs4
+os
+tqdm
