@@ -1,0 +1,10 @@
+webtranspose/__init__.py,sha256=NC-HyYL98V1Do3eFHdmhf0QGe9zTkmX1rJgCQiYfEDw,215
+webtranspose/chat.py,sha256=Z2ZiIUWS8E_2zkPAVfR0kXzJOM4M6BdkqVjpbyU9PGg,4710
+webtranspose/crawl.py,sha256=xMydualSS94h6LBN0hXWsGRvNETDZNIz7N2wEwHzcpk,29193
+webtranspose/openai.py,sha256=CSyyJ3ZMYqcRc2TNpajZP4_tQFfZhrENkeljt0QHdFA,5398
+webtranspose/scrape.py,sha256=aLGhr9Y2UqL9W223KI3nfMoi5nmYQSBfXLGFlLDydps,8014
+webtranspose/webt_api.py,sha256=l1CNNO8I8S2-_awFMlw9GAUCIldfbZcQJmmfnUY3PyA,1002
+webtranspose-0.2.1.dist-info/LICENSE.rst,sha256=0CGHPt1HmF_a-ojsPOaKvcuQguD1Sx1aDAbvvDcBgXo,33081
+webtranspose-0.2.1.dist-info/METADATA,sha256=HFx4Xq2mXPmtSLxRdwyuvaOT4JrTHf9Flk3MUFXjUB0,4079
+webtranspose-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+webtranspose-0.2.1.dist-info/RECORD,,
