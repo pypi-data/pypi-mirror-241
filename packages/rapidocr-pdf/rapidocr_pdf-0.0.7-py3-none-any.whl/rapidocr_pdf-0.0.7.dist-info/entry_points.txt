@@ -1,0 +1,3 @@
+[console_scripts]
+rapidocr_pdf = rapidocr_pdf.main:main
+
