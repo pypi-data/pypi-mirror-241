@@ -1,0 +1,12 @@
+cli_requests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_requests/__main__.py,sha256=IT3hnehLKqxgPv-ERbMZSO2lJydfqB_ocNXrAAtRshc,1960
+cli_requests/argparser.py,sha256=gPUS7En6BXgqCJPs79YDaBmIQGl2jm-cNpvY-OyfTmQ,2753
+cli_requests/colorizer.py,sha256=IAvGh6kHFXx1LuirJXGrpbedGhvJMofoTuA1ZrCgAXE,1041
+cli_requests/exceptions.py,sha256=5oqWKq8VCBB07IevCoVpzth_Q7hW33rAyE5vgOtOrlk,436
+cli_requests/requester.py,sha256=MiCTOTCKwMU_WCc9DaNZWuMIfZJOrpuxIrt6rg2-DM4,1989
+cli_requests-0.2.1.dist-info/LICENSE,sha256=P-gr2-zbVWs1BcraQ_H4g2yMj1qvVlegHAVcxzdSnhs,1066
+cli_requests-0.2.1.dist-info/METADATA,sha256=wo6hLW7JJzgMlacULdbWYNjs7mNpiigMTmPSd27MHiE,5678
+cli_requests-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cli_requests-0.2.1.dist-info/entry_points.txt,sha256=s8XzVOem1zS4gNU99xVVcxa4gN7cOwHVRzuWPDUKD0c,61
+cli_requests-0.2.1.dist-info/top_level.txt,sha256=dYHBStco-nJSdB0oPzV5uM4uf8JOogTq9UpBqoQzv-w,13
+cli_requests-0.2.1.dist-info/RECORD,,
