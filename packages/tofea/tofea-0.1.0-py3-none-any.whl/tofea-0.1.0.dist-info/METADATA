@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: tofea
+Version: 0.1.0
+Summary: Simple Finite Element Analysis for Topology Optimization
+Author: Yannick Augenstein
+Requires-Python: >=3.10,<=3.12
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: autograd
+Requires-Dist: tofea[tests,examples] ; extra == "all"
+Requires-Dist: tofea[all] ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: nlopt ; extra == "examples"
+Requires-Dist: matplotlib ; extra == "examples"
+Requires-Dist: pytest ; extra == "tests"
+Requires-Dist: pytest-cov ; extra == "tests"
+Project-URL: Source, https://github.com/mrbaozi/tofea
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: examples
+Provides-Extra: tests
+
+# TOFEA
+
+[![Tests](https://github.com/yaugenst/tofea/actions/workflows/run_tests.yml/badge.svg)](https://github.com/yaugenst/tofea/actions/workflows/run_tests.yml)
+[![codecov](https://codecov.io/gh/yaugenst/tofea/graph/badge.svg?token=5Z2SYQ3CPM)](https://codecov.io/gh/yaugenst/tofea)
+
+Simple [autograd](https://github.com/HIPS/autograd)-differentiable finite element analysis for heat conductivity and compliance problems.
+
+## Installation
+
+The package is published on [PyPi](https://pypi.org/), so a simple `pip install tofea` will work.
+For development purposes it is recommended to clone this repository and install the package locally instead, i.e. `git clone git@github.com:yaugenst/tofea && pip install -e ./tofea`.
+
+## Examples
+
+The package contains examples of topology optimization for 2D and 3D heat and compliance problems, check them out in the [examples directory](./examples)!
+
+To run the examples, there are some additional dependencies for optimization and plotting, so install using `pip install tofea[examples]`.
+
+## Disclaimer
+
+The package is pretty bare-bones and waiting for a big refactor, which I have not gotten around to.
+You are welcome to try everything out as-is but expect the interface to change dramatically in the near future.
+

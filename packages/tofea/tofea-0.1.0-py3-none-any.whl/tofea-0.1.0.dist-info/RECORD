@@ -1,0 +1,9 @@
+tofea/__init__.py,sha256=JH95f32ejlPRJngAGfp8ru04enZJbkLUzaRm1KcjGqk,50
+tofea/elements.py,sha256=rdfo6HPcMmHe_VBW12dWiq3PFJGfd8Zknhu85mvZ9jE,2703
+tofea/fea2d.py,sha256=XL6Y33hTS3k8o8Iwogw49gb7UolSWbegRohmzbl6QRU,4149
+tofea/primitives.py,sha256=vTmotj5W0Fxsvp73ZS3Sc9OsiJN6qRcp6bmwVqYf01U,1021
+tofea/solvers.py,sha256=9x57r-7kEmlL9Rb7iio9q3nBKQ44Cu75OYtKyNfcQxU,1239
+tofea-0.1.0.dist-info/LICENSE,sha256=hBi5S_rEiROmCIiEtR78758mOaPNiEWQurPLWcM5GWY,1064
+tofea-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tofea-0.1.0.dist-info/METADATA,sha256=XZmH7MjZ2vvdoYCCSYb-F7T1FwSg0MRzse6Wk1AgONo,2197
+tofea-0.1.0.dist-info/RECORD,,
