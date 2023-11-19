@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: graphql-explorer
+Version: 0.1.1
+Summary: 
+Author: Abhinand C
+Author-email: abhinandc.ac@gmail.com
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# GraphQL Explorer 
+
+Experimental package for consolidating web based graphql viewers & explorers
