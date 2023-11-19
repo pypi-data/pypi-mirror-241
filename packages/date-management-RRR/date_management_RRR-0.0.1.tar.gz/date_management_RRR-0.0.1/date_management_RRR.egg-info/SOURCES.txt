@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+date_management/__init__.py
+date_management/date_management.py
+date_management_RRR.egg-info/PKG-INFO
+date_management_RRR.egg-info/SOURCES.txt
+date_management_RRR.egg-info/dependency_links.txt
+date_management_RRR.egg-info/requires.txt
+date_management_RRR.egg-info/top_level.txt
