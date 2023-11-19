@@ -1,0 +1,8 @@
+setup.py
+Html_txt/__init__.py
+Html_txt.egg-info/PKG-INFO
+Html_txt.egg-info/SOURCES.txt
+Html_txt.egg-info/dependency_links.txt
+Html_txt.egg-info/entry_points.txt
+Html_txt.egg-info/requires.txt
+Html_txt.egg-info/top_level.txt
