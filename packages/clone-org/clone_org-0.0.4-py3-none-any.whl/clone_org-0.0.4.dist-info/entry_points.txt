@@ -1,0 +1,2 @@
+[console_scripts]
+clone-org = clone_org.main:clone
