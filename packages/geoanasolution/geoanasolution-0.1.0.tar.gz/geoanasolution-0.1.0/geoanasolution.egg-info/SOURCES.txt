@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+geoanasolution/__init__.py
+geoanasolution.egg-info/PKG-INFO
+geoanasolution.egg-info/SOURCES.txt
+geoanasolution.egg-info/dependency_links.txt
+geoanasolution.egg-info/top_level.txt
