@@ -1,0 +1,10 @@
+LICENSE
+README.md
+markdown_gfm_admonition.py
+pyproject.toml
+markdown_gfm_admonition.egg-info/PKG-INFO
+markdown_gfm_admonition.egg-info/SOURCES.txt
+markdown_gfm_admonition.egg-info/dependency_links.txt
+markdown_gfm_admonition.egg-info/entry_points.txt
+markdown_gfm_admonition.egg-info/requires.txt
+markdown_gfm_admonition.egg-info/top_level.txt
