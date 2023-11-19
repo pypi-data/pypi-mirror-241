@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/cashappchecker.py
+src/cashappchecker.egg-info/PKG-INFO
+src/cashappchecker.egg-info/SOURCES.txt
+src/cashappchecker.egg-info/dependency_links.txt
+src/cashappchecker.egg-info/top_level.txt

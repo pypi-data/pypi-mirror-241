@@ -1,0 +1,18 @@
+[project]
+name = "cashappchecker"
+version = "0.0.1"
+authors = [
+  { name="Masen ANON", email="crnnn@duck.com" },
+]
+description = "A package that aims to help people handle CashApp web receipts"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/crnnn/cashappchecker"
+Issues = "https://gitlab.com/crnnn/cashappchecker/-/issues"
