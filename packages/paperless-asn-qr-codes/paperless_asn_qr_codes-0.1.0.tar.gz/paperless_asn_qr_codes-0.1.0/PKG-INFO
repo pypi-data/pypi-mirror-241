@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: paperless-asn-qr-codes
+Version: 0.1.0
+Summary: Code for generating paperless ASN labels with QR codes
+Project-URL: Documentation, https://git.jcg.re/jcgruenhage/paperless-asn-qr-codes#readme
+Project-URL: Issues, https://git.jcg.re/jcgruenhage/paperless-asn-qr-codes/issues
+Project-URL: Source, https://git.jcg.re/jcgruenhage/paperless-asn-qr-codes
+Author-email: Jan Christian Grünhage <jan.christian@gruenhage.xyz>
+License-Expression: GPL-3.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: argparse
+Requires-Dist: reportlab
+Requires-Dist: reportlab-qrcode
+Description-Content-Type: text/markdown
+
+# paperless-asn-qr-codes
+
+`paperless-asn-qr-codes` is a command line utility for generating ASN labels
+for paperless with both a human readable representation, as well as a QR code
+for machine consumption. The labels are Avery 4731 labels.
+
+## Installation
+
+```console
+pip install paperless-asn-qr-codes
+```
+
+## License
+
+`paperless-asn-qr-codes` is distributed under the terms of the
+[GPL-3.0](https://spdx.org/licenses/GPL-3.0.html) license.
