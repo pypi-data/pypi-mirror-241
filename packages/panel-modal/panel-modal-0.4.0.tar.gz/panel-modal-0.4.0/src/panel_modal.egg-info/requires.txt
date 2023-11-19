@@ -1,0 +1,12 @@
+bokeh
+panel
+param
+
+[dev]
+awesome-panel-cli[dev]
+
+[examples]
+awesome-panel-cli
+hvplot
+notebook
+pandas
