@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: picture-service-proto
+Version: 2.0.0
+Summary: GRPC client for picture_service_proto
+Author: ci
+Author-email: p.a.anokhin@gmail.com
+
