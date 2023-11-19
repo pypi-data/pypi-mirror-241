@@ -1,0 +1,9 @@
+# Include the license file
+include LICENSE.txt
+include CHANGES.rst
+include tox.ini
+include click_help_colors/py.typed
+graft tests
+graft examples
+prune examples/screenshots
+global-exclude *.py[cod]

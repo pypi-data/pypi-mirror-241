@@ -1,0 +1,5 @@
+click<9,>=7.0
+
+[dev]
+mypy
+pytest
