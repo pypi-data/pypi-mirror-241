@@ -1,0 +1,12 @@
+{% if cookiecutter.layout == "book" %}nav:
+  - About: index.md
+  - Chapters:{% for chapter in cookiecutter.chapters %}
+    - '{{ chapter }}.md'{% endfor %}
+    - 'references.md'{% if cookiecutter.data %}
+  - Data: data{% endif %}
+  - Index: index
+{%else%}
+nav:
+    - index.md
+{%endif%}
+collapse_single_pages: true

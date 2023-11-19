@@ -1,0 +1,33 @@
+{
+    "url": "contributors.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                "required": true,
+                "name": "ID"
+            },
+            {
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                "required": true,
+                "name": "Name"
+            },
+            {
+                "name": "Email"
+            },
+            {
+                "name": "Orcid"
+            },
+            {
+                "name": "Url"
+            },
+            {
+                "datatype": "integer",
+                "name": "Order"
+            }
+        ],
+        "primaryKey": [
+            "ID"
+        ]
+    }
+}

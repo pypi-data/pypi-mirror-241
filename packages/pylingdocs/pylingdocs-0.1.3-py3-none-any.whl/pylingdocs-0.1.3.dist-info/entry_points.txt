@@ -1,0 +1,3 @@
+[console_scripts]
+pylingdocs=pylingdocs.cli:main
+
