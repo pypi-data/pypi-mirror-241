@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7c2a3439.css","mappings":"AAAA,mBAEI,YAAY,CACZ,aAAa,CAFb,UAGJ,CAEA,iBACI,wBAAyB,CACzB,WACJ","sources":["style.css"],"sourcesContent":[".heatmap-container{\r\n    width:100%;\r\n    height:600px;\r\n    overflow:auto;\r\n}\r\n\r\n.heatmap-content{\r\n    height: calc(100% - 20px);\r\n    width: 900px;\r\n}"],"names":[],"sourceRoot":""}
