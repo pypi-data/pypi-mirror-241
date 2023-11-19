@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: trtutils
+Version: 0.0.2
+Author-email: Justin Davis <davisjustin302@gmail.com>
+Maintainer-email: Justin Davis <davisjustin302@gmail.com>
+Project-URL: Homepage, https://github.com/justincdavis/trtutils
+Project-URL: Bug Tracker, https://github.com/justincdavis/trtutils/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Typing :: Typed
+Requires-Python: <=3.12,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorrt
+Requires-Dist: pycuda
+Requires-Dist: numpy
+Requires-Dist: typing-extensions >=4.0.0
+Requires-Dist: setuptools
+Provides-Extra: ci
+Requires-Dist: pyupgrade ; extra == 'ci'
+Requires-Dist: black ; extra == 'ci'
+Requires-Dist: isort ; extra == 'ci'
+Requires-Dist: ruff ; extra == 'ci'
+Requires-Dist: mypy ; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: trtutils[ci] ; extra == 'dev'
+Requires-Dist: trtutils[test] ; extra == 'dev'
+Requires-Dist: trtutils[docs] ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: pyclean ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# trtutils
+Utilities for enabling easier high-level usage of TensorRT in Python.
+
+## TRTEngine
+The TRTEngine is a high-level abstraction allowing easy use of TensorRT 
+engines through Python. Once an engine is built, it is simple and easy to use:
+
+```python
+from trtutils import TRTEngine
+
+engine = TRTEngine("path_to_engine")
+
+inputs = read_your_data()
+
+for i in inputs:
+    print(engine.execute(i))
+```
+
+We also provide an abstraction for defining higher-level models.
+The TRTModel is designed to allow a user to define a pre and post 
+processing step along with the engine to create an end-to-end 
+inference object.
+
+```python
+from trtutils import TRTModel
+
+# scale some images down
+def pre(inputs):
+    return [i / 255 for i in inputs]
+
+# access the output classes from object detection
+def post(outputs):
+    return [o[0][0] for o in outputs]
+
+model = TRTModel("path_to_engine", pre, post)
+
+inputs = read_your_data()
+
+for i in inputs:
+    print(model(i))
+```
