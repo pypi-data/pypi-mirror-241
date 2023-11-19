@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lyngdorf
+Version: 0.1.1
+Summary: Library to control a Lyngdorf A/V processor
+License: MIT
+Author: Alex Fishlock
+Author-email: alex.fishlock@racingjag.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Description-Content-Type: text/markdown
+
+
