@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dbtui
+Version: 0.0.2
+Summary: Most popular databases CLI
+Project-URL: Documentation, https://github.com/vppuzakov/dbcli#readme
+Project-URL: Issues, https://github.com/vppuzakov/dbcli/issues
+Project-URL: Source, https://github.com/vppuzakov/dbcli
+Author-email: Vladimir Puzakov <puzakov@tochka.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: cli,command line interface,database,rdbms,text user interface,tui
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: pydantic
+Requires-Dist: rich
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# dbtui
+
+[![PyPI - Version](https://img.shields.io/pypi/v/dbtui.svg)](https://pypi.org/project/dbtui)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dbtui.svg)](https://pypi.org/project/dbtui)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install dbtui
+```
+
+## License
+
+`dbtui` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
