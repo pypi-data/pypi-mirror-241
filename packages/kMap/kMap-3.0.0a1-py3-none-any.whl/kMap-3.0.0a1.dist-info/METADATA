@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kMap
+Version: 3.0.0a1
+Summary: Display, modify and analyse ARPES experiments and DFT       simulations.
+Home-page: https://github.com/brands-d/kMap
+Author: Dominik Brandstetter
+Author-email: brandstetter.dominik@uni-graz.at
+License: LGPL
+License-File: LICENSE.md
+Requires-Dist: h5py
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pyside6
+Requires-Dist: numpy
+Requires-Dist: pyopengl
+Requires-Dist: lmfit
+Requires-Dist: pyqtgraph
+Requires-Dist: scikit-image
+
