@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: VeloVGI
+Version: 0.0.2
+Summary: Graph Variational Autoencoder for scRNA-seq velocity
+Home-page: https://github.com/HuangDDU/velovgi_workstation
+Author: HuangDDU
+Author-email: hzy554598474@163.com
+License-File: LICENSE
+Requires-Dist: pot==0.9.0
+Requires-Dist: pytorch-lightning==1.7.7
+Requires-Dist: torch==1.12.1
+Requires-Dist: torch-geometric==2.0.1
+Requires-Dist: scvi-tools==0.19.0
+Requires-Dist: scanpy==1.9.3
+Requires-Dist: scvi-tools==0.19.0
+Requires-Dist: scvelo==0.2.5
+Requires-Dist: velovi==0.2.0
