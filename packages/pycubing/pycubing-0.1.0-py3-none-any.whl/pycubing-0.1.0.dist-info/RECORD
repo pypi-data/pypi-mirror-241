@@ -1,0 +1,17 @@
+pycubing/__init__.py,sha256=7Fq0iCOtpXjEt9Y4j69hQBVxmu0MtYe6MMWrX02Usnw,165
+pycubing/cube.py,sha256=KmszECNU0bLCgjKa5LlZKxwJmLqnnlrJooktoC96Wk8,25388
+pycubing/enums.py,sha256=piUdCceifoi0jt1jJO1cTyPR7qFZg_n6smcSNurWr2w,776
+pycubing/error.py,sha256=Mp3zTdsL_Da31KOYGu_lNJV2nOd8CdJPoJMtuAx3DLI,568
+pycubing/scrambles.json,sha256=IjDjeQPO-IAUGcwG_ShB0qjxV5YBs978b6HQe_ckVyM,515647
+pycubing/utils.py,sha256=vnNXcsO9pE0bOw8n8wFiTQiQ2Gn2Zhfzf9-2XuQx2a4,6737
+pycubing/cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycubing/solver/__init__.py,sha256=0FyJk2jqBrmfLpAAXeGUz_Z5xN03CUVKUdyY9kJ2Wts,1069
+pycubing/solver/__main__.py,sha256=M-XPYtTYCdBdNfereth0VOHiaEjMCyELBUqLEN0RYMs,161
+pycubing/solver/solver2x2.py,sha256=p3dQzyvD9f1WzJucExmQZF0erDnpZTvFi8oGZd9Qs6s,1257
+pycubing/solver/solver3x3.py,sha256=lsDs52a4HLNfCefm6qSOmE-CfI9wdIBpuZDvITttaRs,16460
+pycubing/solver/solverNxN.py,sha256=N-x3HismX8yuEq0nIEqQe8-VuyDjc9Ox-cEIIffGEv0,16225
+pycubing-0.1.0.dist-info/LICENSE,sha256=RkmbR0t-OTj6vs_LhcDOKuyUqO_Wb7VzSgyi0nBlOcE,1071
+pycubing-0.1.0.dist-info/METADATA,sha256=34gI7X28o2xzdiFRpY8SLTEbXh35GCTh_Bd6qdSpZk4,448
+pycubing-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pycubing-0.1.0.dist-info/top_level.txt,sha256=1FhvasfFkqtBizR0zCXkXeaCFx8Lg0cXWo09etU-C0c,9
+pycubing-0.1.0.dist-info/RECORD,,
