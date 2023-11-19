@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: demo-multiply
+Version: 0.5.0
+Summary: Demo library
+Home-page: 
+Author: Saeed Anabtawi
+Author-email: example@email.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+![](https://img.shields.io/pypi/v/demo-multiply)
+![](https://img.shields.io/pypi/wheel/demo-multiply)
+![](https://img.shields.io/pypi/pyversions/demo-multiply)
+![](https://img.shields.io/pypi/implementation/demo-multiply)
+![](https://img.shields.io/pypi/l/demo-multiply)
+![](https://img.shields.io/github/repo-size/saeedanabtawi/demo-multiply)
+![](https://img.shields.io/github/directory-file-count/saeedanabtawi/demo-multiply)
+![](https://img.shields.io/github/languages/code-size/saeedanabtawi/demo-multiply)
+![](https://img.shields.io/github/discussions/saeedanabtawi/demo-multiply)
+![](https://img.shields.io/github/actions/workflow/status/saeedanabtawi/demo-multiply/workflow.yml)
+
+
+# Demo multiply
+A small demo library.
+
+### Installation
+```
+pip install demo-multiply
+```
+
+### Get started
+How to multiply one number by another with this lib:
+
+```Python
+from demo_multiply import Multiplication
+
+# Instantiate a Multiplication object
+multiplication = Multiplication(2)
+
+# Call the multiply method
+result = multiplication.multiply(5)
+```
