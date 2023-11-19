@@ -1,0 +1,3 @@
+black>=23
+flake8>=6
+isort>=5
