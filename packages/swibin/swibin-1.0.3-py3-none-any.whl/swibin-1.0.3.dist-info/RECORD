@@ -1,0 +1,9 @@
+swibin/__init__.py,sha256=nTXZ7Rm7CEb-OUZzd1pPjmC04vGLDkrx6s14RYPQhHM,36
+swibin/error_handling.py,sha256=g-OqeWAQLrw8KBcwAdMbaGMEhgviH-2S8sPighXp2XU,379
+test/helpers.py,sha256=EvvQwd5OjkPuLfRa96uB1aKBWyI4Ha6BrLz8jl5IAHk,2010
+test/main.py,sha256=L99Uz7TgGx1sjoZvD1ZCV98bqiUyv95TyDapQooSyU8,588
+swibin-1.0.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swibin-1.0.3.dist-info/METADATA,sha256=4-P5tXx8lbaSEriFpLRC4pBnE_FHgReT8ZpQtcJ6aaY,377
+swibin-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+swibin-1.0.3.dist-info/top_level.txt,sha256=jUaD41FEciJJi78fB-cDYPMyQaZZdMoC17Am1oX32_c,12
+swibin-1.0.3.dist-info/RECORD,,
