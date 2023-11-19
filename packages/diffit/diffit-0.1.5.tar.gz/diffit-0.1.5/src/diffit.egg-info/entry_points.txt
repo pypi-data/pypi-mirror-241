@@ -1,0 +1,2 @@
+[console_scripts]
+diffit = diffit.__main__:main

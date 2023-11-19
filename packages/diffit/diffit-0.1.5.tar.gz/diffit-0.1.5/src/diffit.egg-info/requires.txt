@@ -1,0 +1,9 @@
+filester
+logga
+typer[all]
+
+[dev]
+pyspark==3.*
+pytest
+pytest-cov
+pytest-sugar
