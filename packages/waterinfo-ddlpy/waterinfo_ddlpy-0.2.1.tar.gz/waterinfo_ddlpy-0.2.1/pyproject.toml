@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waterinfo_ddlpy"
+version = "0.2.1"
+authors = [
+  { name="Matthijs Draijer", email="git@draijer.org" },
+]
+description = "An extended version of rws-ddlpy for using the API to collect water data observations from Dutch Rijkswaterstaat (DDL, waterinfo.rws.nl)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas",
+  "numpy",
+  "click",
+  "python-dateutil>=2.8",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/physje/ddlpy/"
