@@ -1,0 +1,65 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pybispectra"
+version = "1.1.0"
+authors = [
+    { name="Thomas Samuel Binns", email="t.s.binns@outlook.com" }
+]
+description = "A Python signal processing package for computing spectral-domain and time-domain interactions using the bispectrum."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "numba",
+    "mne",
+    "pqdm",
+    "joblib",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "coverage",
+    "flake8",
+    "black",
+    "codespell",
+    "pycodestyle",
+    "pydocstyle",
+    "sphinx",
+    "numpydoc",
+    "sphinxcontrib-bibtex",
+    "sphinx-gallery",
+    "pydata-sphinx-theme",
+    "notebook",
+    "ipykernel",
+    "ipywidgets",
+    "ipython"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/braindatalab/PyBispectra"
+"Bug Tracker" = "https://github.com/braindatalab/PyBispectra/issues"
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+    "__init__.py",
+    "src/pybispectra/utils/_docs.py"
+]
+
+[tool.codespell]
+skip = "./docs/build,./docs/source/auto_examples,./docs/source/refs.bib"
+
+[tool.pydocstyle]
+match-dir = "^(?!(examples|docs|tests)).*"
