@@ -1,0 +1,2 @@
+[console_scripts]
+nanb = nanb.main:main
