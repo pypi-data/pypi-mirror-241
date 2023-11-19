@@ -1,0 +1,11 @@
+databased/__init__.py,sha256=7xNLBTlkrLNClDf-yZ5rTyA9LAaaE4P9jD_p8JsvBPM,59
+databased/create_shell.py,sha256=xjH9mTQXeWxxBHLmR13N5WBmPMFttqfpIG8aTbFu2w4,1356
+databased/customshell.py,sha256=ZtCOR5KBKCqKXR6xKWZaCCBMtzEkRAloXYg8okmfc_I,847
+databased/databased.py,sha256=n_fuP3p5MlLKhAVDDm79W5VOglyiDpp_LshOcY-lO84,19478
+databased/dbparsers.py,sha256=7N_M_0m029ksOUBytsHgfZ4fRTUG9cVnoAE4Rh81Vbk,8098
+databased/dbshell.py,sha256=KMcxYJ2lmX0j0SZVgwhMIxmxQDXEPOOcvbLEH-CBDQ0,16805
+databased-3.7.0.dist-info/METADATA,sha256=NyotG_DTn8Eh4mI0KGoGUonxm7rE98W0k-aeZbGQt0w,23311
+databased-3.7.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+databased-3.7.0.dist-info/entry_points.txt,sha256=cPkBxU_lNkUbIyLXWVh6ke3-8cI_y2ApMoulRmF_V1A,96
+databased-3.7.0.dist-info/licenses/LICENSE.txt,sha256=GA4k0f8zyJsPeXl_v_6h0BQT4BnMtK-NX8QSGL0JbCQ,1086
+databased-3.7.0.dist-info/RECORD,,
