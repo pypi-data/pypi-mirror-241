@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: naturalsize
+Version: 1.0.0
+Summary: get human-readable size of files
+Author-email: Leander Kafemann <leander@kafemann.berlin>
+Project-URL: Homepage, https://github.com/LK-PyPi/naturalsize
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+naturalsize is a small package for getting the size of a file
