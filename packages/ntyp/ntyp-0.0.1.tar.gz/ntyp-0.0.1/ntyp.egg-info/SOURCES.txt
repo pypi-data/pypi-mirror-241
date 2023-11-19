@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ntyp/__init__.py
+ntyp/_modidx.py
+ntyp/_tmp.py
+ntyp/core.py
+ntyp.egg-info/PKG-INFO
+ntyp.egg-info/SOURCES.txt
+ntyp.egg-info/dependency_links.txt
+ntyp.egg-info/entry_points.txt
+ntyp.egg-info/not-zip-safe
+ntyp.egg-info/requires.txt
+ntyp.egg-info/top_level.txt
