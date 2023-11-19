@@ -1,0 +1,8 @@
+argparse
+black>=23.10.0
+icdiff
+jsbeautifier
+pycodestyle==2.10.0
+python-magic
+termcolor
+jinja2>=2.10
