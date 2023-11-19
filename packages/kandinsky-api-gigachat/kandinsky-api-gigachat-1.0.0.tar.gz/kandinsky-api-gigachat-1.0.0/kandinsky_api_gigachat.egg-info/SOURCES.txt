@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+kandinsky-api-gigachat/GigaChat.py
+kandinsky-api-gigachat/Kandinsky.py
+kandinsky-api-gigachat/__init__.py
+kandinsky_api_gigachat.egg-info/PKG-INFO
+kandinsky_api_gigachat.egg-info/SOURCES.txt
+kandinsky_api_gigachat.egg-info/dependency_links.txt
+kandinsky_api_gigachat.egg-info/top_level.txt
