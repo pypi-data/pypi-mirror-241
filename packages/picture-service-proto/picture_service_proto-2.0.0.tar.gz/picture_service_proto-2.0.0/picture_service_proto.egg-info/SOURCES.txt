@@ -1,0 +1,10 @@
+setup.py
+picture_service_proto/__init__.py
+picture_service_proto/client_pb2.py
+picture_service_proto/client_pb2.pyi
+picture_service_proto/client_pb2_grpc.py
+picture_service_proto/py.typed
+picture_service_proto.egg-info/PKG-INFO
+picture_service_proto.egg-info/SOURCES.txt
+picture_service_proto.egg-info/dependency_links.txt
+picture_service_proto.egg-info/top_level.txt
