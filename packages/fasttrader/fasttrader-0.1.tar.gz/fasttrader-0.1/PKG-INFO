@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fasttrader
+Version: 0.1
+Summary: Backtesting trading strategies
+Author: CS594GROUP2
+Author-email: <johnpiapian@gmail.com>
+Keywords: python,yfinance,trading,backtesting,stock market,trading strategies
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+FastTrader allows you to backtest your trading strategies with historical stock market data.
