@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: afip-invoice-extract-qr-cae-and-decode
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Pillow (==10.1.0)
+Requires-Dist: PyJWT (==2.8.0)
+Requires-Dist: PyMuPDF (==1.23.6)
+Requires-Dist: PyMuPDFb (==1.23.6)
+Requires-Dist: pyzbar (==0.1.9)
+
+UNKNOWN
+
