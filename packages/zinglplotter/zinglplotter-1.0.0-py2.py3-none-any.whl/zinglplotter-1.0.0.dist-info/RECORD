@@ -1,0 +1,10 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_zingl.py,sha256=yRcyl1_YtGSy66vUYpQdtLWqg1Cy2nmEfkuz6AdGyhk,2776
+zinglplotter/__init__.py,sha256=sB-th__ZdRlnYf0QSP-SGDVimQC3e_AxZoozuJSRBsc,54
+zinglplotter/zinglplotter.py,sha256=B9YkvX8WBqJMV5LPHho1rlbxxyIa9rOXIfHBW7TA5jU,18376
+zinglplotter-1.0.0.dist-info/LICENSE,sha256=jktBRjgnOwcf_BAZi6aKC1z7ak7p9sNxtoQFvskJh6o,1086
+zinglplotter-1.0.0.dist-info/METADATA,sha256=4xr3MKn0S5Hbh9fjyHxx3CnLU38B0WuNsQbSl6CW7b0,2759
+zinglplotter-1.0.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+zinglplotter-1.0.0.dist-info/top_level.txt,sha256=HdQoxdsfGQtP-7RFYq15M1XIgvXjFxh90tWq-kFCF1w,18
+zinglplotter-1.0.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+zinglplotter-1.0.0.dist-info/RECORD,,
