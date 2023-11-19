@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyspharm-syl
+Version: 1.0.9
+Summary: Python Spherical Harmonic Transform Module
+Home-page: https://github.com/shenyulu/pyspharm-syl
+Author: Shenyulu
+Author-email: shenyulu2020@gmail.com
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+License-File: README
+License-File: LICENSE.spherepack
+Requires-Dist: numpy >=1.24.3
+Requires-Dist: intel-fortran-rt
+
