@@ -1,0 +1,56 @@
+from beet import Function
+from mecha import Mecha, AstRoot, AstChildren
+from bolt import Runtime
+from dataclasses import dataclass, field
+import logging
+from typing import ClassVar, Any
+from ./config import Config
+
+mc = ctx.inject(Mecha)
+logger = logging.getLogger(Config.LIBRARY_NAME)
+
+class IndexGenerator:
+    _index: int = 0
+    _static_cache: dict[str, int] = {}
+
+    def __new__(cls, cache_key: str = None) -> int:
+        if cache_key == None:
+            return cls._next_index()
+
+        cached_index = cls._static_cache.get(cache_key)
+        # print(cache_key)
+
+        # cached entry does not exist -> create new index
+        if cached_index == None:
+            index = cls._next_index()
+            cls._static_cache[cache_key] = index
+            return index
+
+        # cached entry exists -> retrieve existing index
+        return cached_index
+
+
+    @classmethod
+    def _next_index(cls) -> int:
+        index = cls._index
+        cls._index += 1
+        return index
+
+def parse_holder(holder: str):
+    return mc.parse(holder, using="score_holder", provide={"properties":{"amount":"single"}})
+
+def defer(f):
+    def wrapper(ctx):
+        mc = ctx.inject(Mecha)
+        runtime = ctx.inject(Runtime)
+        current_path = runtime.modules.current_path
+        yield
+        with runtime.scope() as commands:
+            f()
+        result = mc.compile(AstRoot(commands=AstChildren(commands)), report=mc.diagnostics)
+        # ctx.data.functions.setdefault(current_path, Function()).append(result)
+    ctx.require(wrapper)
+    return f
+
+def raw(cmd: str):
+    raw cmd

@@ -1,0 +1,59 @@
+from typing import Type, Any
+from ./var_sources import VarSource, BoolSource, qIntSource, ByteSource, ShortSource,
+                          IntSource, LongSource, FloatSource, DoubleSource,
+                          StringSource, ListSource, CompoundSource, ByteArraySource,
+                          IntArraySource, LongArraySource
+from ./var_types import TypeAnnotation, Bool, qInt, Byte, Short, Int, Long,
+                        Float, Double, String, List, Compound, ByteArray, IntArray, LongArray
+from ./utils import logger
+
+TYPE_SOURCE_MAP = {
+    Bool: BoolSource,
+    qInt: qIntSource,
+    Byte: ByteSource,
+    Short: ShortSource,
+    Int: IntSource,
+    Long: LongSource,
+    Float: FloatSource,
+    Double: DoubleSource,
+    String: StringSource,
+    List: ListSource,
+    Compound: CompoundSource,
+    ByteArray: ByteArraySource,
+    IntArray: IntArraySource,
+    LongArray: LongArraySource,
+}
+
+class Var:
+    def __new__(cls,
+                type_annotation: Type[TypeAnnotation],
+                value: Any | None = None,
+               ) -> VarSource:
+        source = TYPE_SOURCE_MAP.get(type_annotation)
+
+        if not source:
+            logger.error(f"'Var' received an unrecognized type annotation of '{type_annotation}'")
+            exit()
+
+        return source.create(is_static=False,
+                             value=value,
+                            )
+
+class StaticVar:
+    def __new__(cls,
+                type_annotation: Type[TypeAnnotation],
+                value: Any | None = None,
+                _static_level_offset: int = 0,
+                _custom_cache_key: Any = None,
+               ) -> VarSource:
+        source = TYPE_SOURCE_MAP.get(type_annotation)
+
+        if not source:
+            logger.error(f"'StaticVar' received an unrecognized type annotation of '{type_annotation}'")
+            exit()
+
+        return source.create(is_static=True,
+                             value=value,
+                             _static_level_offset=_static_level_offset,
+                             _custom_cache_key=_custom_cache_key,
+                            )
