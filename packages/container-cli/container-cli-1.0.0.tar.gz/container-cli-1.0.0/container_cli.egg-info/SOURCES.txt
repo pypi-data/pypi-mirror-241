@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+container_cli/__init__.py
+container_cli/__main__.py
+container_cli/change_ports.py
+container_cli.egg-info/PKG-INFO
+container_cli.egg-info/SOURCES.txt
+container_cli.egg-info/dependency_links.txt
+container_cli.egg-info/entry_points.txt
+container_cli.egg-info/requires.txt
+container_cli.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+cc = container_cli:main
+container_cli = container_cli:main
