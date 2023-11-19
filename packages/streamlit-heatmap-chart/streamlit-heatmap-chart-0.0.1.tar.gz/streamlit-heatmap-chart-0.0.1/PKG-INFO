@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: streamlit-heatmap-chart
+Version: 0.0.1
+Summary: Streamlit component that allows you to do X
+Home-page: 
+Author: SOCVEST
+Author-email: john@example.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: devel
+License-File: LICENSE
+
+# streamlit-custom-component
+
+Streamlit component that allows you to do build nivo heatmap chart
+
+## Installation instructions
+
+```sh
+pip install streamlit-heatmap-chart
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_heatmap import HeatMap_chart
+
+value = HeatMap_chart(
+    data,styles,heatmapLayout
+)
+
+```
