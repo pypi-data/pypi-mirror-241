@@ -1,0 +1,3 @@
+[tipsql.database.plugin]
+sqlite3=tipsql.sqlite3.plugin:Sqlite3DatabasePlugin
+
