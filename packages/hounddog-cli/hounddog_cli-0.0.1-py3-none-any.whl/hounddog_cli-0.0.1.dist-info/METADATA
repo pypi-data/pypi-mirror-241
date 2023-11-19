@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hounddog-cli
+Version: 0.0.1
+Summary: Code analysis tool for sensitive data elements.
+Author-Email: HoundDog.ai <support@hounddog.ai>
+Classifier: Environment :: Console
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Quality Assurance
+Project-URL: Homepage, https://hounddog.ai/
+Project-URL: Bug tracker, https://github.com/hounddogai/hounddog/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# HoundDog.ai
