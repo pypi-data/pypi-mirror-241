@@ -1,0 +1,10 @@
+README.md
+setup.py
+dtmd/__init__.py
+dtmd/main.py
+dtmd.egg-info/PKG-INFO
+dtmd.egg-info/SOURCES.txt
+dtmd.egg-info/dependency_links.txt
+dtmd.egg-info/entry_points.txt
+dtmd.egg-info/requires.txt
+dtmd.egg-info/top_level.txt
