@@ -1,0 +1,17 @@
+gearpy/__init__.py,sha256=Vn4HJo_SX-wPJOG1HW04Q-2i1OM3rhzwD5b4nHWuK4E,145
+gearpy/solver.py,sha256=sB8oYaFpBqob6_SzNqeP5sD2oSqyaVabJI0zoDTmBOk,9235
+gearpy/transmission.py,sha256=STCV9174jkvYy2QTgN4HNNfrjhnIahGk_MoZH_Rue5M,27854
+gearpy/mechanical_object/__init__.py,sha256=3uqLn-9K8ZyiBAFbOBQULwtpV_g-3wtVdjXpL-bpInI,183
+gearpy/mechanical_object/mechanical_object_base.py,sha256=KLMElR6LY1IjuVEp3Os5Ee5iIwX9nLA1awqEDJA8mOc,17602
+gearpy/mechanical_object/mechanical_objects.py,sha256=2VqpfVxy3Be4gKoXop_9HllMFRs2PhdBQoxI-251M_M,57456
+gearpy/mechanical_object/gear_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gearpy/units/__init__.py,sha256=jivXOmdLShjHSuk8M0fh4YduaqrsVLWWz-_3frPxqvg,387
+gearpy/units/unit_base.py,sha256=2pwKcPpvXUT__VvVSKgA3bL_Aw-V0x6ATsLZiJJ3P8Q,5446
+gearpy/units/units.py,sha256=1DZJ8AHJcds2ImWY6c4ap6SB9XDrmQWnPsE9tVOgZus,68279
+gearpy/utils/__init__.py,sha256=d6wxi6Seer4VyNSdkwdOuhPURa1HUGVl6EtkVSlUmzQ,78
+gearpy/utils/relations.py,sha256=xc2zOMlNUjPYY54tVoYyQL5KxqCtuzt84Rf0ceOH1Kw,3813
+gearpy-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gearpy-0.4.0.dist-info/METADATA,sha256=fBAmKoxPFx21ZKvmrLwjmrNCExQhDRuFdh7DyiflbbM,3110
+gearpy-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gearpy-0.4.0.dist-info/top_level.txt,sha256=BZJOzqICDJMJ1lxo0b_Lv0wmL3Yeq2P9qMoVn6KWFy0,7
+gearpy-0.4.0.dist-info/RECORD,,
