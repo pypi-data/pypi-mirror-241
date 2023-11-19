@@ -1,0 +1,3 @@
+[console_scripts]
+notevault = notevault.entrypoints.cli:app
+
