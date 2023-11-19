@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+optimi/__init__.py
+optimi/adam.py
+optimi/adamw.py
+optimi/adan.py
+optimi/lion.py
+optimi/sgd.py
+optimi/stableadamw.py
+optimi/utils.py
+torch_optimi.egg-info/PKG-INFO
+torch_optimi.egg-info/SOURCES.txt
+torch_optimi.egg-info/dependency_links.txt
+torch_optimi.egg-info/requires.txt
+torch_optimi.egg-info/top_level.txt

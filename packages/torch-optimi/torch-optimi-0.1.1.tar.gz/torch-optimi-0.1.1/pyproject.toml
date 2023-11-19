@@ -1,0 +1,64 @@
+[project]
+name = "torch-optimi"
+version = "0.1.1"
+authors = [{name = "Benjamin Warner", email = "me@benjaminwarner.dev"}]
+description = "Fast, Modern, & Low Precision PyTorch Optimizers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["Optimizers", "PyTorch", "Deep Learning"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    'Topic :: Scientific/Engineering :: Artificial Intelligence'
+]
+dependencies = ["torch>=1.13", "packaging>=21.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4.3", "ruff>=0.1.3"]
+test = ["pytest>=7.4.3", "ruff>=0.1.3", "pytest-md>=0.2.0", "numpy>=1.23"]
+docs = ["mkdocs-material>=9.4.7", "mkdocstrings>=0.23.0", "mkdocstrings-python>=1.7.3", "black>=23.10.1", "mkdocs-caption>=0.0.9"]
+
+[project.urls]
+"Homepage" = "https://optimi.benjaminwarner.dev"
+"Bug Reports" = "https://github.com/warner-benjamin/optimi/issues"
+"Source" = "https://github.com/warner-benjamin/optimi"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["optimi"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["cpu", "cuda"]
+
+[tool.ruff]
+line-length = 140
+select = ["E", "W", "F", "I", "D", "UP"]
+extend-ignore = ["D100", "D107", "D206", "D300", "E111", "E114", "E117"]
+extend-exclude = ["tests", "docs"]
+src = ["optimi"]
+
+[tool.ruff.extend-per-file-ignores]
+"__init__.py" = ["D104", "F401", "I002"]
+"utils.py" = ["I002"]
+
+[tool.ruff.format]
+exclude = ["tests", "docs"]
+
+[tool.ruff.isort]
+required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.pycodestyle]
+max-doc-length = 100
+
+[tool.ruff.pydocstyle]
+convention = "google"
