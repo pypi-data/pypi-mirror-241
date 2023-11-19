@@ -1,0 +1,3 @@
+[console_scripts]
+pace2024verifier=pace2024_verifier.__main__:main
+
