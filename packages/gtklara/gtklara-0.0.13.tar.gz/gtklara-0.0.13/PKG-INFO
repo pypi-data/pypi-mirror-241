@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gtklara
+Version: 0.0.13
+Summary: initialize operating system on gtklara
+License: Apache-2.0
+Author: Clay Risser
+Author-email: clayrisser@gmail.com
+Requires-Python: >=3.9.6,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyGObject (>=3.42.1,<4.0.0)
+Requires-Dist: gbulb (>=0.6.3,<0.7.0)
