@@ -1,0 +1,49 @@
+Model:
+  General:
+    start:
+      type: time
+      nullable: true
+    breaks:
+      type: timedelta
+      nullable: true
+  Meeting:
+    name:
+      type: string
+    start:
+      type: time
+    duration:
+      type: int
+      nullable: true
+    field_heading:
+      type: string
+      nullable: true
+  List:
+    name:
+      type: string
+    start:
+      type: time
+      nullable: true
+    data:
+      type: string
+      nullable: true
+
+
+DocumentStructure:
+  Sections:
+    - section:
+        heading: "# General"
+        type: General
+        is_list: false
+    - section:
+        heading: "# List of Headings"
+        type: Meeting
+        is_list: true
+        list_specifier: heading
+    - section:
+        heading: "# List of Lists"
+        type: List
+        is_list: true
+
+Config:
+  database: test_daily.db
+  template: tests/resources/general.md

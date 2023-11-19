@@ -1,0 +1,31 @@
+Model:
+  Meeting:
+    name:
+      type: string
+    start:
+      type: time
+    duration:
+      type: timedelta
+      nullable: true
+    minutes:
+      type: string
+      nullable: true
+    participants:
+      type: array
+      items:
+        type: string
+      nullable: true
+
+
+DocumentStructure:
+  Sections:
+    - section:
+        heading: "# Meetings"
+        type: Meeting
+        is_list: true
+        list_specifier: heading
+        heading_field: name
+
+Config:
+  database: test_daily.db
+  template: tests/resources/daily_meeting.md
