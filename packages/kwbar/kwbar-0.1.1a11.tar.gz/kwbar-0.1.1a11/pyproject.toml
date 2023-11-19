@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kwbar"
+version = "0.1.1a11"
+description = "Print kwargs as a bar chart."
+authors = ["John Pocock <pypi@pocock.io>"]
+license = "MIT"
+readme = "Readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
