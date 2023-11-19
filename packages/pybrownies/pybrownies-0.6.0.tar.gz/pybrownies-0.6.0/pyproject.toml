@@ -1,0 +1,150 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+
+# PROJECT METADATA
+# ======================================================================
+
+[project]
+name = "pybrownies"
+version = "0.6.0"
+description = "Little helpers for Python developers"
+authors = [
+    { name = "Ralf Luetkemeier", email = "foss@rlue.de" },
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
+]
+keywords = ["helpers"]
+requires-python = ">=3.9,<4"
+dependencies = [
+    "beautifulsoup4 >= 4.11.0",
+    "invoke >= 2.1.1",
+    "lxml >= 4.9.0",   # BS4 needs this at run-time for XML/PLIST files.
+    "rich >= 12.0.0",
+    "rich-argparse-plus >= 0.3.0",
+    "tomli >= 2.0.0; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+tox = [
+    "pytest >=7.2.0",
+]
+dev = [
+    "flake8 >=6.0.0",
+    "flit >=3.8.0",
+    "pylint >=2.16.0",
+    "pytest >=7.2.0",
+    "pytest-cov >=4.0.0",
+    "tox >= 4.4.0",
+]
+# doc = ["sphinx"]
+
+[project.scripts]
+brownie = "pybrownies.tasks.__main__:program.run"
+dobby = "pybrownies.tasks.__main__:program.run"
+pprint = "pybrownies.pprint:main"
+pprintenv = "pybrownies.pprintenv:main"
+whichpy = "pybrownies.whichpy:main"
+
+[project.urls]
+#changelog = "https://github.com/me/<repo>/CHANGELOG.md"
+#Documentation = "https://..."
+#Repository = "https://github.com/<account>/<repo>"
+
+
+# TOOLING CONFIGS
+# ======================================================================
+
+[tool.chlog]
+use-brackets = false
+
+## Coverage ------------------------------------------------------------
+
+[tool.coverage.html]
+directory = ".coverage_report"
+# show_contexts = true
+
+[tool.coverage.report]
+# Define lines of code to safely ignore:
+# (This means code which can not be reached by design.)
+exclude_lines = [
+    'pragma: no cover',
+    'if 0:',
+    'if False:',
+    'if __name__ == .__main__.:',
+]
+#ignore_errors = true
+
+[tool.coverage.run]
+# parallel = true
+# concurrency = ["multiprocessing"]
+# branch = true
+source = [
+    "src/pybrownies",
+    "tests",
+]
+
+## Flit ----------------------------------------------------------------
+
+[tool.flit.sdist]
+include = ["doc/", "tests/",]
+# exclude = ["img/"]
+
+## Pylint --------------------------------------------------------------
+# Enter pylint --generate-toml-config for more info.
+
+[tool.pylint.main]
+# ignore = ["demo"]
+
+[tool.pylint.basic]
+good-names = ["i", "j", "k", "ex", "Run", "_", "m", "n"]
+
+[tool.pylint.design]
+max-args = 7
+max-line-length = 80
+single-line-if-stmt = true
+
+## Pytest --------------------------------------------------------------
+
+[tool.pytest.ini_options]
+addopts = "-s"
+filterwarnings = [
+    # "ignore::DeprecationWarning:invoke", no longer needed
+]
+minversion = 7.0
+testpaths = [
+    "tests"
+]
+
+## Tox -----------------------------------------------------------------
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py{39,310,311,312}
+isolated_build = True
+
+[testenv]
+deps = pytest
+commands = pytest
+"""
+# platform = linux2|darwin
