@@ -1,0 +1,17 @@
+{
+  "ToxEnv": {
+    "name": "py39",
+    "type": "VirtualEnvRunner"
+  },
+  "Python": {
+    "version_info": [
+      3,
+      9,
+      4,
+      "final",
+      0
+    ],
+    "executable": "/Users/adam/.pyenv/versions/3.9.4/bin/python3.9",
+    "virtualenv version": "20.24.5"
+  }
+}
