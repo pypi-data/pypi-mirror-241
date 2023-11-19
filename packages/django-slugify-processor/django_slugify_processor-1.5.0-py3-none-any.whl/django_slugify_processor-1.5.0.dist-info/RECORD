@@ -1,0 +1,11 @@
+django_slugify_processor/__about__.py,sha256=8a5RPzB4e8jPtwFDuoSKgcvy4gx6cy1ggIliVUcVYjw,564
+django_slugify_processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slugify_processor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slugify_processor/settings.py,sha256=8pshPuWX7a5twN85TubMDVaxiP9_X2kQW9QmZG2fIR4,62
+django_slugify_processor/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slugify_processor/templatetags/slugify_processor.py,sha256=juPfHRWm4GrIyEKp2UWZHeYWG59WrzneHfPR-BbU5YA,664
+django_slugify_processor/text.py,sha256=5Y2KoM8eDQgOvph3u09pkJ6oNnWzkKM-QSB3bxtugt8,1901
+django_slugify_processor-1.5.0.dist-info/LICENSE,sha256=kAXjqLPhtX9_uGkl2p9jiwd7W7_T-Sd5OBaZSUgknTo,1057
+django_slugify_processor-1.5.0.dist-info/METADATA,sha256=_UQxQ8H3ROTP_xTDZjVMMApZeIRkdCvGbRFYNCxG2fE,9798
+django_slugify_processor-1.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_slugify_processor-1.5.0.dist-info/RECORD,,
