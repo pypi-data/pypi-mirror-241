@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: steam-market-price
+Version: 0.0.1
+Summary: Package to get prices for steam items
+Home-page: https://github.com/NavesSapnis/SteamMarket
+Author: Veih
+Author-email: veih.work@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple project that helps get info about steam prices.
