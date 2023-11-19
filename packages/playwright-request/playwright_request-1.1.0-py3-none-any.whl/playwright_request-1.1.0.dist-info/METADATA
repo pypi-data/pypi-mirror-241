@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: playwright-request
+Version: 1.1.0
+Summary: Playwright request to make regular request for sites that blocks regular requests like www.amazon.com or www.tripadvisor.com
+Author-email: Pedro Mayorga <ppmayorga80@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docopt ~=0.6.2
+Requires-Dist: jsons ~=1.6.3
+Requires-Dist: playwright ~=1.39.0
+Requires-Dist: python-dotenv ~=1.0.0
+Requires-Dist: selectorlib ==0.16.0
+Requires-Dist: smart-open ~=6.3.0
+Requires-Dist: tqdm ~=4.66.1
+
+# Playwright Request for Python
+
+This is a library aiming to help programmers to create requests by using playwright browser
+and bypass sites like www.amazon.com or www.tripadvisor.com
+in general, all sites that block regular requests or require a proxy to crawl pages in parallel
+
+This library contains:
+the code to perform requests and a class to extend and manipulate pages
+    
+# Installation
+``pip install playwright-request``
+
+# Usage
+```python
+from playwright_request import PlaywrightRequest
+#crawl
+requester = PlaywrightRequest()
+html = requester.get(url="YOUR/SITE")
+#alternative to read 
+htmls = requester.async_get(urls=["url1","url2"])
+
+# Install CLI tools
+``pip install .``
+
+# Author
+Pedro Mayorga.
