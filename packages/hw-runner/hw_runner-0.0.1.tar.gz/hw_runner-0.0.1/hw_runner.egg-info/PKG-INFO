@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hw-runner
+Version: 0.0.1
+Author-email: Micah Gale <mdgale@wisc.edu>
+License: MIT License
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: pint
+Requires-Dist: pyyaml
