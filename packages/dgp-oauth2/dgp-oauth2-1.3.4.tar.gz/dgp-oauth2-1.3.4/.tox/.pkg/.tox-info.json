@@ -1,0 +1,28 @@
+{
+  "ToxEnv": {
+    "name": ".pkg",
+    "type": "Pep517VirtualEnvPackager"
+  },
+  "Python": {
+    "version_info": [
+      3,
+      10,
+      5,
+      "final",
+      0
+    ],
+    "executable": "/Users/adam/.pyenv/versions/3.10.5/bin/python3.10",
+    "virtualenv version": "20.24.5"
+  },
+  "PythonPackageToxEnv": {
+    "requires": [
+      "setuptools>=40.8.0",
+      "wheel"
+    ],
+    "deps": [],
+    "requires_for_build_sdist": [],
+    "requires_for_build_wheel": [
+      "wheel"
+    ]
+  }
+}
