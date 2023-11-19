@@ -1,0 +1,1 @@
+This is a simple project that helps get info about steam prices.
