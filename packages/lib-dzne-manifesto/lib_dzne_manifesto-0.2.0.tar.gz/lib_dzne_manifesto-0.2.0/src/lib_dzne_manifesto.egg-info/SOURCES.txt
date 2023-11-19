@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/lib_dzne_manifesto/__init__.py
+src/lib_dzne_manifesto.egg-info/PKG-INFO
+src/lib_dzne_manifesto.egg-info/SOURCES.txt
+src/lib_dzne_manifesto.egg-info/dependency_links.txt
+src/lib_dzne_manifesto.egg-info/top_level.txt
+src/lib_dzne_manifesto/manifesto/Prog.py
+src/lib_dzne_manifesto/manifesto/__init__.py
+src/lib_dzne_manifesto/manifesto/chain.py
+src/lib_dzne_manifesto/manifesto/elemkey.py
+src/lib_dzne_manifesto/manifesto/masterfile.py
+src/lib_dzne_manifesto/manifesto/slim.py
