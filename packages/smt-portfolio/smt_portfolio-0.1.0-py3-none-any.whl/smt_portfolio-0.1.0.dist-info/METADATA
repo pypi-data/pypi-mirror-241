@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: smt-portfolio
+Version: 0.1.0
+Summary: A simple wrapper to run multiple SMT solvers in parallel.
+Project-URL: Homepage, https://github.com/yangky11/smt-portfolio
+Project-URL: Bug Tracker, https://github.com/yangky11/smt-portfolio/issues
+Author-email: Kaiyu Yang <kaiyuy@caltech.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Kaiyu Yang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: SMT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Provides-Extra: all
+Requires-Dist: black[jupyter]; extra == 'all'
+Requires-Dist: hatch; extra == 'all'
+Requires-Dist: ipython; extra == 'all'
+Requires-Dist: mypy; extra == 'all'
+Requires-Dist: notebook; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: notebook; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black[jupyter]; extra == 'lint'
+Requires-Dist: mypy; extra == 'lint'
+Description-Content-Type: text/markdown
+
+# smt-portfolio
+
+A simple wrapper to run multiple SMT solvers in parallel (currently supporting Z3 and CVC5).
+
+[![PyPI](https://img.shields.io/pypi/v/smt-portfolio)](https://pypi.org/project/smt-portfolio/) [![GitHub license](https://img.shields.io/github/license/yangky11/smt-portfolio)](https://github.com/yangky11/smt-portfolio/blob/main/LICENSE) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
+
+______________________________________________________________________
+
+
+## Requirements
+
+* Z3
+* CVC5
+
+## Installation
+
+```bash
+pip install smt-portfolio
+```
+
+## Usage
+
+``bash
+smt-portfolio --help
+``
+
+```bash
+smt-portfolio examples/ex1.smt2 --z3 "-smt2 -T:5" --cvc5 "--quiet --lang smt --dag-thresh=0 --enum-inst --tlimit 5000"
+```
+
