@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: qyet
+Version: 0.1.1
+Summary: 
+Author: Vitor Buxbaum
+Author-email: vitorbuxbaum@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://qyet.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/vbuxbaum/qyet
+Description-Content-Type: text/markdown
+
+# Qyet
+
+<p align="center"><img src="docs/assets/logo.png" width="200"></p>
+
+Python package with tools for suppressing output.
+
+> shhh... please be qyet
+
+## Installation
+
+```bash
+pip install qyet
+```
+
+## Usage
+
+For now, there is only one decorator, `shhh`, which suppresses the output of a function.
+
+```python
+from qyet import shhh
+
+@shhh
+def foo():
+    print("Hello, world!")
+
+foo() # No output
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Thanks to
+
+@dunossauro for a [great content (in pt_BR) on how to create a Python package](https://www.youtube.com/playlist?list=PLOQgLBuj2-3LiHhK1upnjpHiFzcJ472QS).
+
