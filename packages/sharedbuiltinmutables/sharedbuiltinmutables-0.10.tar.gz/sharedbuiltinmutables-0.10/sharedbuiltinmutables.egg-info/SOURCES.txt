@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sharedbuiltinmutables/README.MD
+sharedbuiltinmutables/__init__.py
+sharedbuiltinmutables/requirements.txt
+sharedbuiltinmutables/thirdparty.json
+sharedbuiltinmutables.egg-info/PKG-INFO
+sharedbuiltinmutables.egg-info/SOURCES.txt
+sharedbuiltinmutables.egg-info/dependency_links.txt
+sharedbuiltinmutables.egg-info/requires.txt
+sharedbuiltinmutables.egg-info/top_level.txt

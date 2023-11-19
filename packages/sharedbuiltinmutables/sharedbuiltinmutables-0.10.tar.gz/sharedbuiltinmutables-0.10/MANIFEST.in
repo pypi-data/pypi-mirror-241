@@ -1,0 +1,3 @@
+include sharedbuiltinmutables/requirements.txt
+include sharedbuiltinmutables/thirdparty.json
+include sharedbuiltinmutables/README.MD
