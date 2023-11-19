@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: abnamro
+Version: 1.0.0
+Summary: Unofficial ABN AMRO client
+Home-page: https://github.com/kinnay/ABN-Amro
+Author: Yannik Marchand
+Author-email: ymarchand@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+This is an unofficial Python package that implements the ABN AMRO API.
+
