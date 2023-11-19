@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+singlecase/__init__.py
+singlecase.egg-info/PKG-INFO
+singlecase.egg-info/SOURCES.txt
+singlecase.egg-info/dependency_links.txt
+singlecase.egg-info/requires.txt
+singlecase.egg-info/top_level.txt
+singlecase/data/__init__.py
+singlecase/effectsize/__init__.py
+singlecase/permtest/__init__.py
+singlecase/plotting/__init__.py
+singlecase/table/__init__.py
