@@ -1,0 +1,17 @@
+.gitignore
+.travis.yml
+CHANGES
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+soundplay.py
+test.py
+soundplay.egg-info/PKG-INFO
+soundplay.egg-info/SOURCES.txt
+soundplay.egg-info/dependency_links.txt
+soundplay.egg-info/top_level.txt
+test_media/Damonte.mp3
+test_media/Discovery - Go at throttle up (2).mp3
+test_media/Sound4.wav
+test_media/Буква_Я.wav
