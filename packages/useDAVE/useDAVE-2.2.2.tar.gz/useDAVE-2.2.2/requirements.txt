@@ -1,0 +1,14 @@
+PySide6-essentials
+PySide6-QtAds
+vtk
+vedo
+scipy
+xarray
+pyyaml
+netCDF4
+openpyxl
+xlrd
+IPython
+rapidfuzz
+mafredo
+pytest
