@@ -1,0 +1,2 @@
+[console_scripts]
+odin-slides = odin_slides.main:main

@@ -1,0 +1,14 @@
+odin_slides/__init__.py,sha256=c3aje-XkwrJBNF2NZnBV2SMj28J5F2Ha5Y86JwbPlcc,15
+odin_slides/llm_ops.py,sha256=uaIx7iFi58jWej_euIxBZ9YD2t4tgwBoAoIay_MtD00,8534
+odin_slides/main.py,sha256=ZMyOgE8RpmO-2jQSWaSCOAq32DI17c-UZUwyoBng5OU,5355
+odin_slides/presentation.py,sha256=oNEeS0p5mmMtDQ3jwvzUYOiIlryn14iFBfJXAxtKapg,16371
+odin_slides/utils.py,sha256=fznHIew9JnieddozKO5rcJl9OhLjITugG99RgrgCpik,6984
+tests/__init__.py,sha256=c3aje-XkwrJBNF2NZnBV2SMj28J5F2Ha5Y86JwbPlcc,15
+tests/test_presentation.py,sha256=K8VmuDvb_tDSdyJQ5iJah_az8IHUvoccs8BAkfL2cRk,2805
+tests/test_utils.py,sha256=DBUD4tk8j3Qp2apxOvREprpDO7eqpOWdWApFABUtRew,1537
+odin_slides-0.7.dist-info/LICENSE,sha256=htuY1geraCP45aNVkpse8qo7ckVjRUOsIAeDyENJXfo,1068
+odin_slides-0.7.dist-info/METADATA,sha256=DIt_iPZBOTNSgMzknxMu2QVrcR3RhCiSgPbkP3GANQc,3356
+odin_slides-0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+odin_slides-0.7.dist-info/entry_points.txt,sha256=jzwId76EloV0ENBxYXJ9jIjfbbcdInFjDHBcrE3f3ho,54
+odin_slides-0.7.dist-info/top_level.txt,sha256=z2JyPjsa0Z4xLORhalfsqnkp5LOqxBPpPaBr2qC4nlM,18
+odin_slides-0.7.dist-info/RECORD,,
