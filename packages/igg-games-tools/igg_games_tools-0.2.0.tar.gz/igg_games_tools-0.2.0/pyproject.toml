@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "igg-games-tools"
+version = "0.2.0"
+description = ""
+authors = ["jawide <jawide@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "*"
+requests = "*"
+fake_useragent = "*"
+
+[tool.poetry.scripts]
+igg = "igg_games_tools.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
