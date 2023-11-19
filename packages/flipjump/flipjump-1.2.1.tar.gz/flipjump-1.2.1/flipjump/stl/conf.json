@@ -1,0 +1,37 @@
+{
+  "all": [
+    "runlib",
+
+    "bit/memory",
+    "bit/logics",
+    "bit/cond_jumps",
+    "bit/shifts",
+    "bit/math",
+    "bit/input",
+    "bit/output",
+    "bit/casting",
+    "bit/pointers",
+
+    "hex/memory",
+    "hex/logics",
+    "hex/math",
+    "hex/math_basic",
+    "hex/shifts",
+    "hex/cond_jumps",
+    "hex/tables_init",
+    "hex/input",
+    "hex/output",
+
+    "hex/pointers/basic_pointers",
+    "hex/pointers/xor_to_pointer",
+    "hex/pointers/xor_from_pointer",
+    "hex/pointers/read_pointers",
+    "hex/pointers/write_pointers",
+    "hex/pointers/stack",
+    "hex/pointers/pointer_arithmetics",
+
+    "casting",
+    "ptrlib",
+    "mathlib"
+  ]
+}
