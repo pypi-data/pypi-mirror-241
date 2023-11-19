@@ -1,0 +1,2 @@
+[console_scripts]
+gene2tab = src.gene2tab:main
