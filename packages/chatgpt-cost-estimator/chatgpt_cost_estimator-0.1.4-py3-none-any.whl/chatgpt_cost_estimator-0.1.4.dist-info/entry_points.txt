@@ -1,0 +1,2 @@
+[console_scripts]
+chatgpt-cost-estimator = chatgpt_cost_estimator.main:main
