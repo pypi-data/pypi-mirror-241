@@ -1,0 +1,1 @@
+from .discomusic import setup
