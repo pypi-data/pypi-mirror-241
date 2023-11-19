@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tessdata.jpn.egg-info/PKG-INFO
+tessdata.jpn.egg-info/SOURCES.txt
+tessdata.jpn.egg-info/dependency_links.txt
+tessdata.jpn.egg-info/requires.txt
+tessdata.jpn.egg-info/top_level.txt
