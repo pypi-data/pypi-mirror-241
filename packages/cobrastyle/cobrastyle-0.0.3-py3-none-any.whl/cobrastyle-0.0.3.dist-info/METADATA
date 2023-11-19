@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cobrastyle
+Version: 0.0.3
+Summary: AWS Lambda custom runtime environment
+Author-email: Maxim Kalyakin <makalyakin@gmail.com>
+Project-URL: Homepage, https://github.com/mhemt/cobrastyle
+Project-URL: Issues, https://github.com/mhemt/cobrastyle/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cobrastyle
