@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: einnovationlabs-python-lib
+Version: 0.0.1
+Summary: A package for e-innovation labs' utility functions
+Home-page: https://github.com/einnovationlabs/einnovationlabs-python-lib
+Author: Developer Team
+Author-email: dev@einnovationlabs.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# einnovationlabs-python-lib
