@@ -1,0 +1,4 @@
+job_manager
+job_manager/__pycache__
+job_manager/templates
+job_manager/templates/job_manager
