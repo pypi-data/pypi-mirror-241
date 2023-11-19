@@ -1,0 +1,12 @@
+hrefs/__init__.py,sha256=JHzlbaewkWJ2SW5fBUeCxHwuV09hbv2rGLQUsdi_kQY,204
+hrefs/_hypothesis_plugin.py,sha256=PDxg24hKJClJJ8HQ37qh-BCngl_tfvYnDDUNGP4O5IA,1118
+hrefs/_util.py,sha256=v7PIhqHgxAvrtSZjKTqT0U7bNNDMKCXKWzjq1C2k96s,2561
+hrefs/errors.py,sha256=0FTJTLkeDXab-ejFjJ1vx_PKmM88XPpDuHuFJa8udnw,331
+hrefs/href.py,sha256=PAa-YgthdRrDm3IRF5lxOIgTDCIfTJ--oTZEndcjmmc,9634
+hrefs/model.py,sha256=_DOHcXnn2I2BLUGkA4_YwKvSQs2aQKqZ5AQCrIxmZj4,20512
+hrefs/starlette.py,sha256=r2n5-jkHIK0QCLOE1ith6DZerH2KBewfXl7rjYtUyU0,9108
+hrefs-0.12.dist-info/entry_points.txt,sha256=9AKLETAQrbh7D-GCh-5ExfPtYFqIbv4XYnpRNLqbrVk,64
+hrefs-0.12.dist-info/LICENSE,sha256=yjlP0_lrH_mOow8VrNLqv-sUTZAbAPdm6h9gP4xrP4Y,1086
+hrefs-0.12.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+hrefs-0.12.dist-info/METADATA,sha256=bJGuCSpd1ADUSAIBJ1Hl7pGDIoUy_Ry2qh8u_KQNoPA,4295
+hrefs-0.12.dist-info/RECORD,,
