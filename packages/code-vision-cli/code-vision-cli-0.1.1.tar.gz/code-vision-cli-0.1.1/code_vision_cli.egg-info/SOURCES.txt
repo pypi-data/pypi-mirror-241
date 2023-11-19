@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+code_vision_cli.egg-info/PKG-INFO
+code_vision_cli.egg-info/SOURCES.txt
+code_vision_cli.egg-info/dependency_links.txt
+code_vision_cli.egg-info/entry_points.txt
+code_vision_cli.egg-info/requires.txt
+code_vision_cli.egg-info/top_level.txt
+core/__init__.py
