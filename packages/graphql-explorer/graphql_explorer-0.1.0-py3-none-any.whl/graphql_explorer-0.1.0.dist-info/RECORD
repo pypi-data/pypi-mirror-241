@@ -1,0 +1,8 @@
+graphql_explorer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphql_explorer/fastapi.py,sha256=RqOw9uIsRq35Bvi93lashQNnbxaOsy0EnV_s0VCmVbM,631
+graphql_explorer/templates/__init__.py,sha256=nlRG0TQjW6Son2F9q62bXNi8iaIyLLOn9ZWPwwyhQkc,85
+graphql_explorer/templates/apollo_sandbox.py,sha256=w7JSsK5d_ncfZ_oROb-fhahGZPauq6qeTyu1lEJTbu0,737
+graphql_explorer/templates/graphiql.py,sha256=DcsRMI3BgXpHP2yUJ7por2e9_pt5IVfnRtLmdFgEKuo,2372
+graphql_explorer-0.1.0.dist-info/METADATA,sha256=gGMwz3W0A7vcuOM0mgmXGxR50UQ4tmHjvyYH8K8UWfo,470
+graphql_explorer-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+graphql_explorer-0.1.0.dist-info/RECORD,,
