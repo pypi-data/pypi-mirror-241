@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1799804-b661-433a-af6c-ecece6d31393" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/interactive_query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/notebooks/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/notebooks/init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/src/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/minimal_iceberg_setup/src/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/simple_query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duckberg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YN9cSK2SPqS5S6UvDxrXxcQN4m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jcechovs/slido/duckberg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1799804-b661-433a-af6c-ecece6d31393" name="Changes" comment="" />
+      <created>1700355248986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700355248986</updated>
+      <workItem from="1700355250376" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
