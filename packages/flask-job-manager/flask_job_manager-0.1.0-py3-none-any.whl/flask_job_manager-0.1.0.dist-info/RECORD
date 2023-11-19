@@ -1,0 +1,6 @@
+job_manager/__init__.py,sha256=XoViF8sYSH9QwI3lUMmtycmQkCrxo5oZOia_6GvwQc0,4001
+job_manager/jobs.py,sha256=jfl9EQcDqHnkFR18YvLqI-VwFk9BrlQUsXQaizLbvNs,4209
+flask_job_manager-0.1.0.dist-info/METADATA,sha256=_UPQvN8K1WAgS2q0VAdeHlpvmZBlv85mU2PNrWBuArw,1583
+flask_job_manager-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+flask_job_manager-0.1.0.dist-info/top_level.txt,sha256=XSnEwHOoJdJXGjQPeH0dbRGwEoQ3CP3hqsWW844EtCo,92
+flask_job_manager-0.1.0.dist-info/RECORD,,
