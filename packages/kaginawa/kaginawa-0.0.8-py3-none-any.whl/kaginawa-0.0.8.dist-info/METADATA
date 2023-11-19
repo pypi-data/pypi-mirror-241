@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: kaginawa
+Version: 0.0.8
+Summary: *Unofficial* client for the Kagi API
+Author-email: Estelle Poulin <dev@inspiredby.es>
+License: GPLv3
+Project-URL: homepage, https://github.com/estheruary/kaginawa
+Project-URL: repository, https://github.com/estheruary/kaginawa
+Project-URL: changelog, https://github.com/estheruary/kaginawa/-/blob/main/CHANGELOG.md
+Keywords: kaginawa
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: httpx >=0.25.0
+Provides-Extra: dev
+Requires-Dist: black >=23 ; extra == 'dev'
+Requires-Dist: flake8 >=6 ; extra == 'dev'
+Requires-Dist: isort >=5 ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest >=7 ; extra == 'test'
+
+# Kaginawa
+
+![project icon](project_icon.png)
+
+An *unofficial* client to Kagi APIs
+
+## Installation
+
+```bash
+pip install kaginawa
+```
+
+## Usage
+
+```python
+from kaginawa.client import Kaginawa
+
+# You can also set the KAGI_API_KEY environment variable.
+client = Kaginawa(token="YOUR_API_TOKEN")
+
+response: KaginawaFastGPTResponse = client.generate(
+    "Write a logstash pipeline file to send a heartbeat to a server "
+    "https://example.com/heartbeat every 30 seconds"
+)
+
+print(response.output)
+
+for reference in response.references:
+    print(reference.title)
+    print(reference.snippet)
+    print(reference.url)
+
+response: KaginawaEnrichResponse = client.enrich_web(query="Best fermented hot sauce")
+# or 
+response: KaginawaEnrichResponse = client.enrich_news(query="Is Oliver Tree okay?")
+
+for result in response.results:
+    print(result.rank)
+    print(result.title)
+    print(result.url)
+    print(result.snippet)
+    print(result.published)
+
+
+response: KaginawaSummarizationResponse = client.summarize(
+    url="https://example.com",
+    engine=KaginawaSummarizationEngine.AGNES,
+    summary_type=KaginawaSummaryType.TAKEAWAY,
+    target_language="FR"
+)
+
+print(response.output)
+
+response: KaginawaSummarizationResponse = client.summarize(
+    text="The rain in Spain…",
+    engine=KaginawaSummarizationEngine.CECIL
+)
+
+print(response.output)
+```
+
+
+## Async!
+
+```python
+import asyncio
+from kaginawa.async_client import AsyncKaginawa
+
+async def amain():
+    kagi_client = AsyncKaginawa(...)
+    res = await kagi_client.generate(...)
+    print(res.output)
+
+    # If you want to explicitly close the client.
+    kagi_client.close()
+
+if __name__ == "__main__":
+    asyncio.run(amain()) 
+```
+
+## FAQ
+
+<dl>
+ <dt>Do you support the search API?</dt>
+ <dd>I would love to but I don't have enterprise.</dd>
+
+ <dt>Why the name?</dt>
+ <dd>Because it's like the only word that starts with Kagi</dd>
+</dl>
+
+![kagi_meme](kagi_meme.png)
+
+## Authors
+
+* Estelle Poulin <dev@inspiredby.es>
