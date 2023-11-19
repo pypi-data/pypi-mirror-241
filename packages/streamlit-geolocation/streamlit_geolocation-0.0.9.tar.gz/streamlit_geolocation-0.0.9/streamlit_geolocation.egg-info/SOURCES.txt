@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_geolocation/__init__.py
+streamlit_geolocation/example.py
+streamlit_geolocation.egg-info/PKG-INFO
+streamlit_geolocation.egg-info/SOURCES.txt
+streamlit_geolocation.egg-info/dependency_links.txt
+streamlit_geolocation.egg-info/requires.txt
+streamlit_geolocation.egg-info/top_level.txt
+streamlit_geolocation/frontend/build/asset-manifest.json
+streamlit_geolocation/frontend/build/bootstrap.min.css
+streamlit_geolocation/frontend/build/index.html
+streamlit_geolocation/frontend/build/static/js/main.72eca811.js
+streamlit_geolocation/frontend/build/static/js/main.72eca811.js.LICENSE.txt
+streamlit_geolocation/frontend/build/static/js/main.72eca811.js.map
