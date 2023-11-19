@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web_engine"
+version = "0.1.0"
+description = "Websites to PDFs."
+readme = "README.rst"
+authors = [
+    { name = "Johannes", email = "johannes-programming@posteo.org" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    "PyPDF2",
+    "pdfkit",
+    "pypdf",
+    "wkhtmltopdf",
+    "docx2pdf",
+    "htmldocx",
+    "weasyprint",
+]
+requires-python = ">=3.11"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Download = "https://pypi.org/project/web-engine/#files"
+Source = "https://github.com/johannes-programming/web_engine"
+
+
+
+
+
+
