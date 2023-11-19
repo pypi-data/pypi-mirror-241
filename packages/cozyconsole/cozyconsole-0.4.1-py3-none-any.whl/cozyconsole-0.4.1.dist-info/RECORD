@@ -1,0 +1,12 @@
+cozyconsole/__init__.py,sha256=zuhMvyjAB1fQw-6ThKSI4wVF5p_jO4krEqOWfsexu3c,246
+cozyconsole/activity.py,sha256=8qBLjx21pymRJ3QCUN21Q6NBmRg02grZsLoMhnCOigQ,2720
+cozyconsole/consolex.py,sha256=IYsmeOkQKM1jXviWJ-r03sNyACC6NPJ7IRmopAM_OIw,2333
+cozyconsole/markdownpatcher.py,sha256=mGZLoFxleI2w41-24NvOX5NEpZoXrhZeDRSouWdCbtQ,6281
+cozyconsole/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cozyconsole/demo/__main__.py,sha256=Jolbm52-BedXu3DcX5gar4FjttViHzcrYdMFz8hYzB0,137
+cozyconsole/demo/activity.py,sha256=vLrFs2NVs5gK6mC_5pvIM6X4OI0tB68dWjiaXApAr-Q,8406
+cozyconsole-0.4.1.dist-info/entry_points.txt,sha256=i2oN8Ae25gU-XoxtDndkB7we3AiSvh8-LPe0e6_tgrM,19
+cozyconsole-0.4.1.dist-info/LICENSE,sha256=1gs_lUTyluQn6yDu1tMaAhvljXdjW29mNizDNMp7eQE,1073
+cozyconsole-0.4.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cozyconsole-0.4.1.dist-info/METADATA,sha256=1KJboz3lWpbCa4_SQzhql-Hm7Bh14rCZ2GxCKzty7iA,2611
+cozyconsole-0.4.1.dist-info/RECORD,,
