@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: systembridgemodels
+Version: 3.10.6
+Summary: System Bridge Models
+Home-page: https://github.com/timmo001/system-bridge-models
+Author: Aidan Timson (Timmo)
+Author-email: aidan@timmo.dev
+License: MIT
+Keywords: system-bridge
+License-File: LICENSE
+Requires-Dist: pydantic<2.0.0
