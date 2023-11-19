@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pirogram/.version
+pirogram/__init__.py
+pirogram/main.py
+pirogram/pirogram.py
+pirogram/quizzes.json
+pirogram.egg-info/PKG-INFO
+pirogram.egg-info/SOURCES.txt
+pirogram.egg-info/dependency_links.txt
+pirogram.egg-info/entry_points.txt
+pirogram.egg-info/requires.txt
+pirogram.egg-info/top_level.txt
