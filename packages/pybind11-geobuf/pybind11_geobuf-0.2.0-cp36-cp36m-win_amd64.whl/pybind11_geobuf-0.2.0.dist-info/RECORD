@@ -1,0 +1,9 @@
+_pybind11_geobuf.cp36-win_amd64.pyd,sha256=Z13fpPBW1b41bdsT4A1h3ozhWzlsx5LtkeKSbk3n_UU,2012672
+pybind11_geobuf/__init__.py,sha256=7nwXWOriGBAPXAwtpxpvUTjFNMJLU-Li5jBtgD4QfEQ,90
+pybind11_geobuf/__main__.py,sha256=aruana6MCsdDOT9IN046nc6pTrY1m0ZAxpPrim0Yal0,7976
+pybind11_geobuf/crop.py,sha256=mlleJEgphb3NVSjwz5tz3QLYcrXraOO3JsQrwcAodW0,3549
+pybind11_geobuf-0.2.0.dist-info/LICENSE,sha256=FAOIvIK_cXCBopKz2owBiieK4UoraUtMg6yLnNWpxzw,1097
+pybind11_geobuf-0.2.0.dist-info/METADATA,sha256=0u-eBPJ_mofb3Xm8qcaepUbSeH1fJ4W5qBGanN103Z0,2028
+pybind11_geobuf-0.2.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+pybind11_geobuf-0.2.0.dist-info/top_level.txt,sha256=qHhlsyMJGr6P0fLvyt7oBUQcvYZY96tKltavTxNFOqA,16
+pybind11_geobuf-0.2.0.dist-info/RECORD,,
