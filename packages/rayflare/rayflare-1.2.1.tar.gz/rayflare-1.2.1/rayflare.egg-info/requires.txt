@@ -1,0 +1,9 @@
+matplotlib
+scipy
+numpy
+solcore
+xarray
+sparse<=0.14.0
+joblib
+seaborn
+inkstone
