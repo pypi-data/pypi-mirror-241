@@ -1,0 +1,15 @@
+chikvdf.cp39-win_amd64.pyd,sha256=3dvRgvC8j5swSlNPWIJsJr0ReraTeBQoaXthwolxdk0,176640
+mpir.dll,sha256=Mu7H0j-5_6aoQlsWMvCe4u84GMB6I4owtv2Ox6Uc-0k,50176
+mpir_broadwell.dll,sha256=QgsSt0VpPskY08hRr60-1H7gWBL2iSnaIu7laUTzXbc,574976
+mpir_broadwell_avx.dll,sha256=4uE85-AgbJq6ICs79Q-H9XeGSfHpn7STI0Av9D-3SJU,577536
+mpir_bulldozer.dll,sha256=dTaoADiNG5V88JIrOSGtiqNxpBku2YB9DgYS4LGlFP8,564224
+mpir_gc.dll,sha256=jr_ToKBRz7pBgrWjJwwex-1SHBFEnlApsZGXK0dicmE,600064
+mpir_haswell.dll,sha256=N8rxyUOyL04rZTn8ZW21tvwBYVxAo9vNbWi0Ro-eVGg,569344
+mpir_piledriver.dll,sha256=ThZ1zDg2ljuhTbUg7n7Cd55QSDw0SH41rxBAAbwsqLI,564224
+mpir_sandybridge.dll,sha256=g9Gofr0gAHARdiLsN_QXs3mV_5XHPt592X1U97Kf08Q,571904
+mpir_skylake_avx.dll,sha256=FxLlEbzcf4Ou3Pg8zrph4npdQm0VZLaOHUehgDcdgAU,574464
+chikvdf-1.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+chikvdf-1.1.0.dist-info/METADATA,sha256=V5YQPTRClv1ZsGmnq6gUCjpjjLRdMQrz040Oo2szoO4,20874
+chikvdf-1.1.0.dist-info/RECORD,,
+chikvdf-1.1.0.dist-info/top_level.txt,sha256=2O0Z8210v_l0SSroS92ThXxKL35qe8-CECKxWGwxxB8,8
+chikvdf-1.1.0.dist-info/WHEEL,sha256=QEPhY-QL5bUCGe8xLO1ow2Nlf5beRmRJkZ8YmG0I2hM,100
