@@ -1,0 +1,2 @@
+include pixelti/assets/pallettes/*.hex
+include requirements.txt
