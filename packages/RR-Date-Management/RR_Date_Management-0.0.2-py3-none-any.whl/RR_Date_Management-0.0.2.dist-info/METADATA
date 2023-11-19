@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: RR-Date-Management
+Version: 0.0.2
+Summary: Frequent date operations library.
+Author: Ronak Rathore
+Author-email: ronak.rathore05@gmail.com
+License: GNU GENERAL PUBLIC LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# Date Management Class
+
+Custom library for frequent date conversions.
+
+## Installation
+
+    pip install date-management-RR
+
