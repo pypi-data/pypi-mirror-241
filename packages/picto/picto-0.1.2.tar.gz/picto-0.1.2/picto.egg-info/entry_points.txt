@@ -1,0 +1,2 @@
+[console_scripts]
+picto = picto.__main__:cli

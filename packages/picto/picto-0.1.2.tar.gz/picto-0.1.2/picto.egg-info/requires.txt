@@ -1,0 +1,5 @@
+pytest-playwright
+slugify
+pillow
+typer[all]
+rich
