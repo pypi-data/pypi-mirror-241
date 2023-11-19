@@ -1,0 +1,10 @@
+README.md
+setup.py
+nlrest/__init__.py
+nlrest/cli.py
+nlrest.egg-info/PKG-INFO
+nlrest.egg-info/SOURCES.txt
+nlrest.egg-info/dependency_links.txt
+nlrest.egg-info/entry_points.txt
+nlrest.egg-info/requires.txt
+nlrest.egg-info/top_level.txt
