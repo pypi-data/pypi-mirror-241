@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+topenai/__init__.py
+topenai.egg-info/PKG-INFO
+topenai.egg-info/SOURCES.txt
+topenai.egg-info/dependency_links.txt
+topenai.egg-info/entry_points.txt
+topenai.egg-info/top_level.txt
