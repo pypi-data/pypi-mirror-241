@@ -1,0 +1,10 @@
+h5py
+tqdm
+numpy
+numba
+scipy
+healpy
+matplotlib
+
+[pytest]
+pytest

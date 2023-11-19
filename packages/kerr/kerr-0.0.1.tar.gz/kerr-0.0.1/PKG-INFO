@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kerr
+Version: 0.0.1
+Summary: A toolbox for Kerr black holes calculation and visialization.
+Home-page: https://gitlab.in2p3.fr/odier.xyz/kerr/
+Author: Jérôme ODIER
+Author-email: jerome.odier@lpsc.in2p3.fr
+License: CeCILL-C
+Keywords: black hole,kerr
+Description-Content-Type: text/markdown
+Provides-Extra: pytest
+License-File: LICENSE
+
+Kerr
+====
+
+TODO

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kerr/__init__.py
+kerr/metadata.json
+kerr.egg-info/PKG-INFO
+kerr.egg-info/SOURCES.txt
+kerr.egg-info/dependency_links.txt
+kerr.egg-info/requires.txt
+kerr.egg-info/top_level.txt
+test/test_dummy.py
