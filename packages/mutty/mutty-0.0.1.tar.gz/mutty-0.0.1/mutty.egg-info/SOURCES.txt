@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mutty.egg-info/PKG-INFO
+mutty.egg-info/SOURCES.txt
+mutty.egg-info/dependency_links.txt
+mutty.egg-info/requires.txt
+mutty.egg-info/top_level.txt
