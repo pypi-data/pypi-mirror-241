@@ -1,0 +1,75 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "hounddog-cli"
+version = "0.0.1"
+authors = [
+    { name = "HoundDog.ai", email = "support@hounddog.ai" },
+]
+description = "Code analysis tool for sensitive data elements."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://hounddog.ai/"
+"Bug Tracker" = "https://github.com/hounddogai/hounddog/issues"
+
+[tool.ruff]
+target-version = "py311"
+exclude = [
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".github",
+    ".idea",
+    ".mypy_cache",
+    ".pytype",
+    ".ruff_cache",
+    "data",
+    "venv",
+]
+line-length = 100
+indent-width = 4
+
+[tool.ruff.format]
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+]
+ignore = [
+    "E203",
+    "E731",
+    "E741",
+    "W605",
+]
+fixable = [
+    "ALL",
+]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.extend-per-file-ignores]
+"__init__.py" = [
+    "F401",
+    "F403",
+]
+
+[tool.ruff.mccabe]
+max-complexity = 100
