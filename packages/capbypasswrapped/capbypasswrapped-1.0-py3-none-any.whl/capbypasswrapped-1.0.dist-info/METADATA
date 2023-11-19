@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: capbypasswrapped
+Version: 1.0
+Requires-Dist: requests
+Requires-Dist: logging
+
