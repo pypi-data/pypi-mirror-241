@@ -1,0 +1,2 @@
+django-ninja<2.0.0,>=1.0.1
+django-solo>=2.1.0
