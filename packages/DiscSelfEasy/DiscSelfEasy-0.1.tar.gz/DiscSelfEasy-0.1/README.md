@@ -1,0 +1,1 @@
+This is a tool to make discord self botting much easier
