@@ -1,0 +1,17 @@
+open_hypergraphs/__init__.py,sha256=gwzcMTE6ATlUCbmvO3qnuHrTErEmfdc4UYM32UR6pFY,37
+open_hypergraphs/finite_function.py,sha256=xW0kNPYYZ0dh4-ymdlX9TEdH6VDpEpBIGdYVIHn1Xd0,23639
+open_hypergraphs/hypergraph.py,sha256=jI5KgE39dgv6kldy6hXiRWwTOVA0E6t43F4WIjkzv1A,5074
+open_hypergraphs/open_hypergraph.py,sha256=pZESetgk-6JjDhrKdcqvSZbBeUHA6PqTmYdC7U6sYuo,6247
+open_hypergraphs/array/__init__.py,sha256=d_IavjHb-znLW0UdFafyOxCo7gbnLiKEPAk3q6TTNnk,254
+open_hypergraphs/array/backend.py,sha256=TokT6Wea3YEURPSqrlIjDUjkxHQEnDYRv5ebpXNTBM0,3743
+open_hypergraphs/array/numpy.py,sha256=O-nRxsWUD0WQR4bCVv6lO2xoOHJuif1r5dwTlRUJyTs,3899
+open_hypergraphs/functor/__init__.py,sha256=VeVI_5Mn_Zo_OzKd03oFcGMTHEXK4li0j9lceWbaJng,71
+open_hypergraphs/functor/functor.py,sha256=g6vtqodgrdv8x3WyjoylCcqkAnZ99cvWxZI3PmxJwqM,2332
+open_hypergraphs/functor/optic.py,sha256=VQEN5v0YKoc2fymBMCJtWrkvIoeGmynp6VKdC1zOyLs,4625
+open_hypergraphs/numpy/__init__.py,sha256=Oq6RrOE8pM4YBufzED3ftJrYU07VBCwSsr3ZpoTUSXk,183
+open_hypergraphs/numpy/layer.py,sha256=o--EocFU9S2XgQ9TzyBsHiKT8mRSy6Dr5Ldr4RBlC0w,5893
+open_hypergraphs/numpy/types.py,sha256=yabqdqUp90UWftr6xZ3qiH_v4X_ErWnZGXpcdR3iWBE,1392
+open_hypergraphs-0.1.0.dist-info/METADATA,sha256=-vSTF1fiMikvpysUKbctxt6H1mqJzIFjZ96DhUf9xo8,710
+open_hypergraphs-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+open_hypergraphs-0.1.0.dist-info/licenses/LICENSE,sha256=jHljP0195eqvFddob6TsZDxx12MNBfc4qv8kp6SZCa8,1068
+open_hypergraphs-0.1.0.dist-info/RECORD,,
