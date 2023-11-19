@@ -1,0 +1,12 @@
+PDAnalysis/__init__.py,sha256=dLJLVOJIZdVU5-hWpmbrRJFHIuMKJCVQZTuoZZMmzRI,266
+PDAnalysis/deformation.py,sha256=ZZXETMWGR9ouB-k8_vRiY3qAXou0Wbk95s9jXuGPWzA,15759
+PDAnalysis/main.py,sha256=CYTZyxg_pFRJWOGnE0PHTlIuaSAN7wEoYGHjLryPmMM,6772
+PDAnalysis/pdb_parser.py,sha256=YzR3-obwUodOtD3Th3GKHj98MdW2KF1VwA1DZ1Txt0s,10451
+PDAnalysis/protein.py,sha256=igFxA0U8WojxuRioMNAHP-rvdFW42UcFJrpzzEAxRRE,11680
+PDAnalysis/utils.py,sha256=tgMqbcgYTT7ZYkHLDu4lKBO2A_EXxOlcnSBl4GBpznM,672
+PDAnalysis-0.0.0.dist-info/LICENSE.txt,sha256=-cMRz1w-roAAhwbMrgYb0GI-Tkm8XZe4YzHXP2Kgads,1084
+PDAnalysis-0.0.0.dist-info/METADATA,sha256=wxcUyLJJyOD12ETurxuib5oqWc31_Qjb_QQzczMEODU,6598
+PDAnalysis-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PDAnalysis-0.0.0.dist-info/entry_points.txt,sha256=e3fSLtP0CpGvGRnwEK_YQd7UcJr6I5ZNfZnJf_CAhFM,52
+PDAnalysis-0.0.0.dist-info/top_level.txt,sha256=B67dXltPPMEFO_DaHEpumI1jb2Ao_S04IxFYkbRDwqw,11
+PDAnalysis-0.0.0.dist-info/RECORD,,
