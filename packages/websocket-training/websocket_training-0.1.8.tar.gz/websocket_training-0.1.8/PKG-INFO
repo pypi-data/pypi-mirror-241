@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: websocket-training
+Version: 0.1.8
+Summary: Websocket training project
+Author: deskent
+Author-email: battenetciz@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: uvicorn (>=0.24.0.post1,<0.25.0)
+Requires-Dist: websocket (>=0.2.1,<0.3.0)
+Description-Content-Type: text/markdown
+
+### Installation
+
+    pip install websocket-training
+
+### Usage
+    
+    import uvicorn
+    from fastapi import FastAPI
+    
+    from websocket_training.ws_router import connect_ws, get_ws_manager, ConnectionManager
+    
+    app = FastAPI()
+    connect_ws(app)
+    
+    manager: ConnectionManager = get_ws_manager()
+    print(manager.count())
+    
+    
+    if __name__ == '__main__':
+        uvicorn.run('main:app')
+
