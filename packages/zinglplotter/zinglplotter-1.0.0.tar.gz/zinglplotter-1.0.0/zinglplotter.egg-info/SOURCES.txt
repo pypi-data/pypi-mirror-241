@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./test/__init__.py
+./test/test_zingl.py
+./zinglplotter/__init__.py
+./zinglplotter/zinglplotter.py
+test/test_zingl.py
+zinglplotter/__init__.py
+zinglplotter/zinglplotter.py
+zinglplotter.egg-info/PKG-INFO
+zinglplotter.egg-info/SOURCES.txt
+zinglplotter.egg-info/dependency_links.txt
+zinglplotter.egg-info/top_level.txt
+zinglplotter.egg-info/zip-safe
