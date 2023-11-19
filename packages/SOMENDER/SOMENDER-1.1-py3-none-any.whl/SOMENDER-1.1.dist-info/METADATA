@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: SOMENDER
+Version: 1.1
+Summary: TBD
+Home-page: https://github.com/yuanzhiyuan/SOMENDER
+Author: Zhiyuan Yuan
+Author-email: zhiyuan@fudan.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: seaborn (==0.12.2)
+Requires-Dist: numpy (==1.22.2)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: multianndata (==0.0.4)
+Requires-Dist: pandas (==2.0.0)
+Requires-Dist: ipykernel (==6.22.0)
+Requires-Dist: urllib3 (==1.26.12)
+Requires-Dist: anndata (==0.9.1)
+Requires-Dist: xarray (==0.21.0)
+Requires-Dist: scanpy (==1.9.3)
+Requires-Dist: squidpy (==1.2.3)
+Requires-Dist: shapely (==2.0.1)
+
+MENDER's package
+
+
