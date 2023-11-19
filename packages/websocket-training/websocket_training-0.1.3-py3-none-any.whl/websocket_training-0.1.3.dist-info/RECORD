@@ -1,0 +1,12 @@
+src/websocket_training/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/websocket_training/main.py,sha256=1dCZs5CZyqa5blnl-Xh_Xh8JBFE-qJcJ6mDAZ-hZluw,431
+src/websocket_training/templates/chat.html,sha256=Tfe9b04O7Rc-129xwUW-ruopMVGi-_6n4dry-wPBtmE,1196
+src/websocket_training/ws_router/README.md,sha256=eJa0j18UbQPNsBCMVxN3jrlERpiYwPnRx6EeHAMau4g,175
+src/websocket_training/ws_router/__init__.py,sha256=KiqI2Np1ZlAPmKa06tCCIiu3ZVu6hTP1iFfa1ANpwzQ,152
+src/websocket_training/ws_router/connect.py,sha256=lcacxjV-qvld9wWyIwoFlkS2hWwDLrQ6Iul7yPUjwwA,302
+src/websocket_training/ws_router/manager.py,sha256=h97FQiCy70dFfwbe3ctQnkzF1B16iYwC6Zmrf3VkqXk,3203
+src/websocket_training/ws_router/router.py,sha256=ChZ0Y857PcfSZWzYdj9NmvKR4oD3zrXxzK0OB0dYJ3k,1263
+src/websocket_training/ws_router/test_ws.http,sha256=gXDaU-QxpxFW1MJXSeUkz0HSfKy7592wIBtvWfwWIeU,170
+websocket_training-0.1.3.dist-info/METADATA,sha256=RY4Jy3taZabq3aHV4uRv2i-cCeWq0GVZ6lqsxCX-TTY,919
+websocket_training-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+websocket_training-0.1.3.dist-info/RECORD,,
