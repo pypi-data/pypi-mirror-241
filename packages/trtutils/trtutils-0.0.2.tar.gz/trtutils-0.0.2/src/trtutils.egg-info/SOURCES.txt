@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/trtutils/__init__.py
+src/trtutils/_engine.py
+src/trtutils/_model.py
+src/trtutils.egg-info/PKG-INFO
+src/trtutils.egg-info/SOURCES.txt
+src/trtutils.egg-info/dependency_links.txt
+src/trtutils.egg-info/requires.txt
+src/trtutils.egg-info/top_level.txt
