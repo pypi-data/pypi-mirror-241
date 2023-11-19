@@ -1,0 +1,13 @@
+cdsetool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdsetool/_processing.py,sha256=UqTKNBYwri_PcYy_EnPs887GYM_MnaRO7Rps84cI_TI,969
+cdsetool/cli.py,sha256=8Bt988FJkl4rzjgZ5IihGemlmo8mU2v81LMuB_9Oy3M,3082
+cdsetool/credentials.py,sha256=7GyA6KMihJbkyvhAbw7Z6zLhDV2OpJwiDeFI9KLKQi4,3272
+cdsetool/download.py,sha256=CVBn4XAG1NaFaUsquw5lTmolyqFktLOasEmrcs62Gb8,2703
+cdsetool/monitor.py,sha256=c8CxDlCP_EpLWoYbBoJbWWqPPQi9cpFNVxcCaka3bxQ,6732
+cdsetool/query.py,sha256=yZ18F0tFtreRM4uUSy5Nnwo-MIKni13sqTrdKl6kVlQ,6117
+cdsetool-0.1.3.dist-info/LICENSE,sha256=hJpvOcQX19sQgA4w_FrfGEr2GoPrZ68a0EgnbNtHktc,1101
+cdsetool-0.1.3.dist-info/METADATA,sha256=QsbW2g13KSGkjIxPmnHNg2JVemoiDkAZt4nkGKxMAC0,8561
+cdsetool-0.1.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cdsetool-0.1.3.dist-info/entry_points.txt,sha256=gp8MBiCLx4nGwTcMxm5sOLcbGbdU2Quvzn-xB9qU7o4,47
+cdsetool-0.1.3.dist-info/top_level.txt,sha256=iiEqzDgFYWUCQRDqk4-DMo8PWXdAjTQWUy5VNrh4ANI,9
+cdsetool-0.1.3.dist-info/RECORD,,
