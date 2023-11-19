@@ -1,0 +1,2 @@
+[console_scripts]
+dty = dty.main:main
