@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/cargohub/__init__.py
+src/cargohub/functions.py
+src/cargohub.egg-info/PKG-INFO
+src/cargohub.egg-info/SOURCES.txt
+src/cargohub.egg-info/dependency_links.txt
+src/cargohub.egg-info/requires.txt
+src/cargohub.egg-info/top_level.txt
