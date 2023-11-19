@@ -1,0 +1,9 @@
+container_cli/__init__.py,sha256=osvH4RD9a6aYReT2hBtENOICsxghJRRW9I9c9GBNhuM,2139
+container_cli/__main__.py,sha256=hJ5I63-xwm-rzdWyRW0W7Yoa7qMLn5_wOti6n-rQxB4,64
+container_cli/change_ports.py,sha256=M9scOgeosSUReHwgSQPykDC7JZUw5ENsU8dV1nMTFls,1886
+container_cli-1.0.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+container_cli-1.0.0.dist-info/METADATA,sha256=TpHDaR11Cib0qG608-YnQS2xF1gr_tCGlqLSVXjxirY,2026
+container_cli-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+container_cli-1.0.0.dist-info/entry_points.txt,sha256=kNg3mI0Uf_OeMp7WOd0j4txSSysLUCAK8quvbGhUPNA,77
+container_cli-1.0.0.dist-info/top_level.txt,sha256=Px8wFK_C8WVObV_Y-dbtdgT29UnTdTMQjPRj_KaMOyM,14
+container_cli-1.0.0.dist-info/RECORD,,
