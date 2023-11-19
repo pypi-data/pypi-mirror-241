@@ -1,0 +1,8 @@
+setup.py
+dynamo_db_py/__init__.py
+dynamo_db_py/base.py
+dynamo_db_py.egg-info/PKG-INFO
+dynamo_db_py.egg-info/SOURCES.txt
+dynamo_db_py.egg-info/dependency_links.txt
+dynamo_db_py.egg-info/requires.txt
+dynamo_db_py.egg-info/top_level.txt

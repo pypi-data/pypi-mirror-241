@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: dynamo_db_py
+Version: 0.1.2
+Requires-Dist: schema==0.7.5
+Requires-Dist: boto3==1.28.27
