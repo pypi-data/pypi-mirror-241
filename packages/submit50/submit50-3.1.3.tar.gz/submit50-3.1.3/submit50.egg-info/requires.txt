@@ -1,0 +1,5 @@
+lib50<4,>=3
+packaging
+requests>=2.19
+setuptools
+termcolor>=1.1
