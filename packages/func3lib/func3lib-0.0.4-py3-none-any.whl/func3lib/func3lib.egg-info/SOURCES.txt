@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+func3lib/func3lib.egg-info/PKG-INFO
+func3lib/func3lib.egg-info/SOURCES.txt
+func3lib/func3lib.egg-info/dependency_links.txt
+func3lib/func3lib.egg-info/requires.txt
+func3lib/func3lib.egg-info/top_level.txt
+func3lib/tests/__init__.py
+func3lib/tests/test_convolution2d.py
+func3lib/tests/test_transpose2d.py
+func3lib/tests/test_window1d.py
