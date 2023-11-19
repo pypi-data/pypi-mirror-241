@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hillcipher
+Version: 0.0.1
+Summary: Hill Cipher Encryption and Decryption
+Author: NooB c0deR (Kiran Deep)
+Author-email: kirandeep102030@gmail.com
+Keywords: python,cryptography,hill,hillcipher,encryption,decryption,symmetric encryption
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Security :: Cryptography
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to encrypt the text using the Hill Cipher technique, and decryption can as well be made. Checkout the repository for the more easier understanding
