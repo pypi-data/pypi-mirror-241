@@ -1,0 +1,13 @@
+lyrics_transcriber/__init__.py,sha256=bIRjsXAzlghS1rQxWNLU0wppZy0T_iciN9EclHLwNrQ,94
+lyrics_transcriber/llm_prompts/llm_lyrics_correction_prompt.txt,sha256=ZrOYSTBK1bGCx6DNT4i41WBLoz6RyU55kvDU7GfeRGw,2850
+lyrics_transcriber/llm_prompts/llm_lyrics_matching_prompt.txt,sha256=hvk2Vs3M3Q4zGQsiQnXvnpd8wXWfwsudYeqN5qFyNWs,1754
+lyrics_transcriber/transcriber.py,sha256=FBSj5vuvic7p41L_-yn0KrTngg5nijq0Jh5_Kfvl7QQ,37835
+lyrics_transcriber/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lyrics_transcriber/utils/ass.py,sha256=b8lnjgXGD1OD1ld_b1xxUmSOf4nSEfz9BpgSkh16R4g,90291
+lyrics_transcriber/utils/cli.py,sha256=vxvBw4QYLRF1okQVxzmWJ8idoPJeEX4SQj-fxQH5l2A,6325
+lyrics_transcriber/utils/subtitles.py,sha256=zNhQrkFBC8ZdOI3xoFL4kIKly8L0iqCU8Nua7RrDqhE,11844
+lyrics_transcriber-0.12.4.dist-info/LICENSE,sha256=BiPihPDxhxIPEx6yAxVfAljD5Bhm_XG2teCbPEj_m0Y,1069
+lyrics_transcriber-0.12.4.dist-info/METADATA,sha256=7jq-tVDGJ2tJ13r1YRmp6ksRU_jb-WeGDm9k2L34WFo,5051
+lyrics_transcriber-0.12.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lyrics_transcriber-0.12.4.dist-info/entry_points.txt,sha256=lh6L-iR5CGELaNcouDK94X78eS5Ua_tK9lI4UEkza-k,72
+lyrics_transcriber-0.12.4.dist-info/RECORD,,
