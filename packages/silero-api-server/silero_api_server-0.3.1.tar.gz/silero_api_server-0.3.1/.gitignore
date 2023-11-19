@@ -1,0 +1,11 @@
+venv
+*.wav
+.vscode
+__pycache__
+*.pt
+dist
+*egg-info
+build
+sessions
+samples
+langs.json

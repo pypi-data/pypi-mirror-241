@@ -1,0 +1,11 @@
+fastapi
+loguru
+pydantic
+python-dotenv
+torch
+torchaudio
+uvicorn
+soundfile
+numpy
+pydub
+requests
