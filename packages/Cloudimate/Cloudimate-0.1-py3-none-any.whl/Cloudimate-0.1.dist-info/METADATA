@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Cloudimate
+Version: 0.1
+Requires-Dist: click
+Requires-Dist: keyring
+Requires-Dist: requests
+
