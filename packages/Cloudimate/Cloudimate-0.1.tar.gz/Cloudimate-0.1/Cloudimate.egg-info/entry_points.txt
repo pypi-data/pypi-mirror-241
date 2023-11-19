@@ -1,0 +1,2 @@
+[console_scripts]
+cm = cm.cm:cm

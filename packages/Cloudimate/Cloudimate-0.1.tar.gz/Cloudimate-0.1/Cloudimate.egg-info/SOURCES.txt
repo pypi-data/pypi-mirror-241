@@ -1,0 +1,10 @@
+README.txt
+setup.py
+Cloudimate.egg-info/PKG-INFO
+Cloudimate.egg-info/SOURCES.txt
+Cloudimate.egg-info/dependency_links.txt
+Cloudimate.egg-info/entry_points.txt
+Cloudimate.egg-info/requires.txt
+Cloudimate.egg-info/top_level.txt
+cm/__init__.py
+cm/cm.py
