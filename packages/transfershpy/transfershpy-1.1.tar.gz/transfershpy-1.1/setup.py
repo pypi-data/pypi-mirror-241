@@ -1,0 +1,20 @@
+from setuptools import setup
+
+readme = open("./README.md", "r")
+
+setup(
+    name='transfershpy',
+    packages=['transfershpy'],
+    version='1.1',
+    description='Use transfer.sh in python',
+    long_description=readme.read(),
+    long_description_content_type='text/markdown',
+    author='RinkaDev',
+    author_email='rinkadevoficial@gmail.com',
+    url='https://github.com/RinkaGI/transfer.py',
+    download_url='https://github.com/RinkaGI/transfer.py/tarball/1.1',
+    keywords=['transfer', 'upload', 'cloud'],
+    classifiers=[ ],
+    license='MIT',
+    include_package_data=True
+)
