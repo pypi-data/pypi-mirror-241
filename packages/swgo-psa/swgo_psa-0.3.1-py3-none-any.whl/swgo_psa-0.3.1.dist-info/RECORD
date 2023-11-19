@@ -1,0 +1,15 @@
+swgo/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+swgo/_version.py,sha256=HzPz9rq3s1AiZXregKlqKaJJ2wGMtvH_a3V9la9CnpM,411
+swgo/psa/__init__.py,sha256=Dqoy1UUKUP7nzvxtSsvvdwEGhn-6x7Sv_dZxYQjl55I,7345
+swgo/psa/utils.py,sha256=cckyI1PcmPLfVOQITm3IXZyXjuzP6m3uZ8Q5QttjoZ4,924
+swgo/psa/tests/test_adaptive_centroid.py,sha256=yNrxd8k1T7lFYQJXqOsWX9TsihS0bPYWpETFR4pCr_0,607
+swgo/psa/tests/test_adaptive_sum.py,sha256=kY8nS-01cY6vADpbnpW-hKDmtUVmUkz0zQRM2HtHfN8,598
+swgo/psa/tests/test_differentiate.py,sha256=uvh1yLNKzQi0vJYRv1vzs380AEPXUQzsV8WpSbccAh4,622
+swgo/psa/tests/test_psa_import.py,sha256=CHTJ8h6fD4_X5QEHMCh4kaQ9Ys4L3XSUSHHJoqapDwM,55
+swgo/psa/tests/test_upsample.py,sha256=wiptv45ZSHWUAnz8TqL_ju-d5W-ex6n1lO90MYCtLMM,466
+swgo/tests/test_import.py,sha256=RFhLKbnVAHWO1l8JjVvFVSAlo_CVaKflfsF50RNDCvo,42
+swgo_psa-0.3.1.dist-info/LICENSE,sha256=Pz2eACSxkhsGfW9_iN60pgy-enjnbGTj8df8O3ebnQQ,16726
+swgo_psa-0.3.1.dist-info/METADATA,sha256=XhszjimiSngly6SeWXdBN5ZVeJSkAcpoUUSmGIdr9Uc,1164
+swgo_psa-0.3.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+swgo_psa-0.3.1.dist-info/top_level.txt,sha256=PtlC4vbiJGz1_5v4F7K3V-HpE2kkvXA6YiwVNpKlEcY,5
+swgo_psa-0.3.1.dist-info/RECORD,,
