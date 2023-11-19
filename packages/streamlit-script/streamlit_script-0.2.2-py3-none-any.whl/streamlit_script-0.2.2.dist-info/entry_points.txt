@@ -1,0 +1,3 @@
+[console_scripts]
+streamlit_script=streamlit_script.__main__:main
+

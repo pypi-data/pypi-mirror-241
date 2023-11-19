@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: streamlit-script
+Version: 0.2.2
+Summary: run normal script with streamlit
+License: MIT
+Author: jawide
+Author-email: jawide@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit (>=1.28.2,<2.0.0)
+Requires-Dist: watchdog (>=3.0.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+```bash
+pip install streamlit-script
+streamlit_script run you_script.py
+```
