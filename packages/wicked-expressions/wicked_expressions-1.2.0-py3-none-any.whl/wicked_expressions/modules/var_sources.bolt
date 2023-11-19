@@ -1,0 +1,243 @@
+from bolt_expressions.node import ExpressionNode
+import bolt_expressions.operations as be_oper
+import inspect
+from dataclasses import dataclass, field
+from typing import Any, ClassVar
+from ./sources import ScoreSource, DataSource
+from ./config import Config
+from ./loader import load
+from ./loader_components import RootLibraryScoreboard, ResetScore, VarSetDefaultValue, VarStorageSetupMemory
+from ./utils import logger
+from ./var_types import TypeAnnotation, Byte, Short, Int, Long, Float, Double,
+                        String, List, Compound, ByteArray, IntArray, LongArray
+
+class VarSource:
+    _var_type: str = ''
+    _location_index: int = 0
+    _static_cache: dict[tuple, int] = {}
+
+    @classmethod
+    def _eval_location_index(cls,
+                             is_static: bool,
+                             _static_level_offset: int = 0,
+                             _custom_cache_key: Any = None,
+                            ) -> int:
+        if not is_static:
+            return cls._next_location_index()
+
+        if _custom_cache_key == None:
+            cache_key = cls._get_frame_context(offset=_static_level_offset)
+        else:
+            cache_key = ('cck', _custom_cache_key)
+
+        # print(cache_key)
+        retrieved_location_index = cls._static_cache.get(cache_key)
+
+        # key exists -> retrieve location index
+        if retrieved_location_index != None:
+            return retrieved_location_index
+
+        # key does not exist -> create new location index
+        location_index = cls._next_location_index()
+        cls._static_cache[cache_key] = location_index
+        return location_index
+
+    @classmethod
+    def _next_location_index(cls) -> int:
+        index = cls._location_index
+        cls._location_index += 1
+        return index
+
+    @staticmethod
+    def _get_frame_context(offset: int = 0) -> tuple:
+        frame = inspect.getouterframes(inspect.currentframe(), 2)[4+offset]
+        path = frame.filename[len(str(ctx.directory)):]
+        # print(frame.lineno, path)
+        return (frame.lineno, path)
+
+class VarScoreSource(VarSource, ScoreSource):
+    @classmethod
+    def create(cls,
+               is_static: bool,
+               value: Any | None = None,
+               _static_level_offset: int = 0,
+               _custom_cache_key: Any = None,
+              ):
+        location_index = cls._eval_location_index(is_static, _static_level_offset, _custom_cache_key)
+        full_location = f"${ctx.project_id}#{cls._var_type}${location_index}"
+
+        source = cls(full_location, Config.SCOREBOARD_ROOT)
+
+        # initialization
+        load(RootLibraryScoreboard())
+        load(ResetScore(
+            player_name=full_location, 
+            objective=Config.SCOREBOARD_ROOT
+        ))
+
+        # value assignment
+        if value != None:
+            source.__rebind__(value)
+
+        return source
+
+class VarStorageSource(VarSource, DataSource):
+    _MEM_BLOCK_SIZE = 32
+
+    @classmethod
+    def create(cls,
+               is_static: bool,
+               value: Any | None = None,
+               _static_level_offset: int = 0,
+               _custom_cache_key: Any = None,
+              ):
+        location_index = cls._eval_location_index(is_static, _static_level_offset, _custom_cache_key)
+        var_type = cls._var_type
+        minor, major = cls._get_minor_major_index(location_index)
+        # print(f"{var_type} | loc: {location_index} | {major}.{minor}")
+        source = cls('storage', Config.STORAGE_ROOT)['data'][ctx.project_id]['var'][var_type][major][minor]
+
+        # setup 2D memory list
+        load(VarStorageSetupMemory(
+            var_type=var_type,
+            minor=minor,
+            major=major,
+            block_size=cls._MEM_BLOCK_SIZE,
+            default_slot_value=cls._default_slot_value
+        ))
+
+        # value assignment
+        if value != None:
+            source.__rebind__(value)
+
+        return source
+
+    @classmethod
+    def _get_minor_major_index(cls, location_index: int) -> tuple:
+        minor = location_index % cls._MEM_BLOCK_SIZE
+        major = location_index // cls._MEM_BLOCK_SIZE
+        return (minor, major)
+
+class BoolSource(VarScoreSource):
+    _var_type: str = 'bool'
+    _scale: float = 1
+
+    def _rebind(self, source, value):
+        if isinstance(value, bool):
+            return super()._rebind(source, int(value))
+        return super()._rebind(source, value)
+
+class qIntSource(VarScoreSource):
+    _var_type: str = 'qint'
+    _scale: float = 1
+
+class ByteSource(VarStorageSource):
+    _var_type: str = 'byte'
+    _nbt_type: str | None = None
+    _scale: float = 1
+
+    _default_nbt_type: ClassVar[str] = 'byte'
+    _default_slot_value: ClassVar[Any] = Byte(0)
+
+    def _rebind(self, source, value):
+        if isinstance(value, int):
+            return super()._rebind(source, Byte(value))
+        return super()._rebind(source, value)
+
+class ShortSource(VarStorageSource):
+    _var_type: str = 'short'
+    _nbt_type: str | None = None
+    _scale: float = 1
+
+    _default_nbt_type: ClassVar[str] = 'short'
+    _default_slot_value: ClassVar[Any] = Short(0)
+
+    def _rebind(self, source, value):
+        if isinstance(value, int):
+            return super()._rebind(source, Short(value))
+        return super()._rebind(source, value)
+
+class IntSource(VarStorageSource):
+    _var_type: str = 'int'
+    _nbt_type: str | None = None
+    _scale: float = 1
+
+    _default_slot_value: ClassVar[Any] = Int(0)
+    _default_nbt_type: ClassVar[str] = 'int'
+
+class LongSource(VarStorageSource):
+    _var_type: str = 'long'
+    _nbt_type: str | None = None
+    _scale: float = 1
+
+    _default_nbt_type: ClassVar[str] = 'long'
+    _default_slot_value: ClassVar[Any] = Long(0)
+
+    def _rebind(self, source, value):
+        if isinstance(value, LongSource):
+            return super()._rebind(source, Long(value))
+        return super()._rebind(source, value)
+
+class FloatSource(VarStorageSource):
+    _var_type: str = 'float'
+    _nbt_type: str | None = None
+    _scale: float = 1
+
+    _default_slot_value: ClassVar[Any] = Float(0)
+    _default_nbt_type: ClassVar[str] = 'float'
+    _default_floating_point_type: ClassVar[str] = 'float'
+
+    def _rebind(self, source, value):
+        if not isinstance(value, ExpressionNode):
+            return super()._rebind(source, Float(value))
+        return super()._rebind(source, value)
+
+class DoubleSource(VarStorageSource):
+    _var_type: str = 'double'
+    _nbt_type: str | None = None
+    _scale: float = 1
+
+    _default_slot_value: ClassVar[Any] = Double(0)
+    _default_nbt_type: ClassVar[str] = 'double'
+    _default_floating_point_type: ClassVar[str] = 'double'
+
+    def _rebind(self, source, value):
+        if not isinstance(value, ExpressionNode):
+            return super()._rebind(source, Double(value))
+        return super()._rebind(source, value)
+
+class StringSource(VarStorageSource):
+    _var_type: str = 'string'
+    _nbt_type: str | None = None
+
+    _default_slot_value: ClassVar[Any] = String('')
+
+class ListSource(VarStorageSource):
+    _var_type: str = 'list'
+    _nbt_type: str | None = None
+
+    _default_slot_value: ClassVar[Any] = List()
+
+class CompoundSource(VarStorageSource):
+    _var_type: str = 'compound'
+    _nbt_type: str | None = None
+
+    _default_slot_value: ClassVar[Any] = Compound()
+
+class ByteArraySource(VarStorageSource):
+    _var_type: str = 'byte_array'
+    _nbt_type: str | None = None
+
+    _default_slot_value: ClassVar[Any] = ByteArray()
+
+class IntArraySource(VarStorageSource):
+    _var_type: str = 'int_array'
+    _nbt_type: str | None = None
+
+    _default_slot_value: ClassVar[Any] = IntArray()
+
+class LongArraySource(VarStorageSource):
+    _var_type: str = 'long_array'
+    _nbt_type: str | None = None
+
+    _default_slot_value: ClassVar[Any] = LongArray()
