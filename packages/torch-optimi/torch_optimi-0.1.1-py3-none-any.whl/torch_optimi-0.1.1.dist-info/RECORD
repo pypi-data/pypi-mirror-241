@@ -1,0 +1,13 @@
+optimi/__init__.py,sha256=R7EWio01oF41pCUnJRgK_kQBwO_x5-bAweF64y0ufoU,274
+optimi/adam.py,sha256=Eh3b8KepljYuiUwck7eBqUMv5cF9HPXGrdv0Iu_YU3k,12910
+optimi/adamw.py,sha256=NcgjawWM7ewz6O5w7pznAEqrfLwTWi0M3UFtKtEf7NA,4318
+optimi/adan.py,sha256=ut74WpKz9v04rqHD3dZEVsfgWLCZsQ-hNYzCUgsHCyc,16140
+optimi/lion.py,sha256=NshujIBT47tfYLTSgSsan8SmNvAjofqkXdBuL7-v3ZA,10720
+optimi/sgd.py,sha256=Cnrys4GvWbDd80IFx_-OfAC9PR_K_Tv7mPWAwUTJRtA,13244
+optimi/stableadamw.py,sha256=LAiTQQXy8UhtpHWahMouIG0xWImb-ATvl_WdBW3XIUY,14064
+optimi/utils.py,sha256=2aVMpOyIEIhJViJeS4oYQpIwCBEuVnBhbpTQMUXV-wg,518
+torch_optimi-0.1.1.dist-info/LICENSE,sha256=hug7PztWiv8oTRSx0Tfb9KZ84EVmwyuovk30M9D5_-o,1072
+torch_optimi-0.1.1.dist-info/METADATA,sha256=ycEOqemHX6Pye3YxmHA_YH9WZZJqFAX9sunYEkLFTGY,6266
+torch_optimi-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+torch_optimi-0.1.1.dist-info/top_level.txt,sha256=SUBsJ2H2YALE9aSSUGJLHK1NMIuUut_9fnUR7POxp0w,7
+torch_optimi-0.1.1.dist-info/RECORD,,
