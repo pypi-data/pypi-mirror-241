@@ -1,0 +1,2 @@
+[console_scripts]
+mtmtk = mtmtoolkit.launcher:launch_both
