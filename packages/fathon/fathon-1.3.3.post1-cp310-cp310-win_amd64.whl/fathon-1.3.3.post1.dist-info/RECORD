@@ -1,0 +1,13 @@
+fathon/__init__.py,sha256=5w2XMkq-tyNqCqAI9AQLZoqs8d99Mc7BGYgDZ0USmNM,1097
+fathon/cLoops.h,sha256=hRimElzusPzL3mQsAvyM8Qo0quzbEQCFtqVNEYz3gPk,2611
+fathon/dcca.cp310-win_amd64.pyd,sha256=vOtFMfzwu2lQFOqA07-KJZzQZ1HuH3UuuRaVM6KEMgY,223744
+fathon/dfa.cp310-win_amd64.pyd,sha256=bl2g0t92GyjklLnUi3TbVXNcsKlYDnVuWFXlmkiRJWQ,162304
+fathon/fathonUtils.py,sha256=IVBU6I-KBGkuecWH1pWQFiR1qWN3hJZmUaxeyE4GvlU,4609
+fathon/ht.cp310-win_amd64.pyd,sha256=WGqjQo-of7TIoQM2JhRIHYi5hMoRoUepCYARJeouFRs,143360
+fathon/mfdcca.cp310-win_amd64.pyd,sha256=rRWcRd5Vht2jVP-lfc_5cNl5GSS0DRQSPmb2lIVV9T8,181760
+fathon/mfdfa.cp310-win_amd64.pyd,sha256=b6xYJM7eUf6d9G4QC-XVa4qRQVKWkJUKOJ1zcruqFoo,172544
+fathon-1.3.3.post1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fathon-1.3.3.post1.dist-info/METADATA,sha256=g74PW9yUJ3YBg_F7Me2_SW2JxAZisCoE44mQCA_1YEc,2116
+fathon-1.3.3.post1.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+fathon-1.3.3.post1.dist-info/top_level.txt,sha256=3Ifplgesqf3VWbfwCZHre-9GUCtfHAi1ZuOR9epGhd8,7
+fathon-1.3.3.post1.dist-info/RECORD,,
