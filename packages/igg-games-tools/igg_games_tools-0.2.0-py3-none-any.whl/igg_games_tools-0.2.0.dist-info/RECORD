@@ -1,0 +1,10 @@
+igg_games_tools/__init__.py,sha256=YhuV_HhzVf7TvWr7mxiBO77VE4HrHU88pg6V1T8gx6M,302
+igg_games_tools/__main__.py,sha256=8f2xNzP69r2adS_1Q9_ZS-Q2euo5jgHeS71bsI_jf0k,1000
+igg_games_tools/bing_steamdb.py,sha256=w8cij7w-v_4g3-_HRbHu7d6hp8PnGoDyvbZQaqLHXvs,511
+igg_games_tools/google_igg_games_search.py,sha256=67sflbghEFkaBg3fkN3pVFbw73Rr-af651wVYeP0Fe0,760
+igg_games_tools/igg_games.py,sha256=xFLOWBItQl2UUBJ2XrOP4iThUsXgqfVFIUVDDEa1HyQ,2047
+igg_games_tools/megaup.py,sha256=6Do_My9IdbKa0uMM9QDwIa8rcLZk00BIpEtGDSvg1iw,1389
+igg_games_tools-0.2.0.dist-info/entry_points.txt,sha256=uIDho5KO5FTq-lYKG1ELmQHIUzaJDvbwaSi67X7068s,53
+igg_games_tools-0.2.0.dist-info/METADATA,sha256=V60syLWEaVSMRCrRsD2xxLn1H3AXpuN1hspkAyHFiOA,876
+igg_games_tools-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+igg_games_tools-0.2.0.dist-info/RECORD,,

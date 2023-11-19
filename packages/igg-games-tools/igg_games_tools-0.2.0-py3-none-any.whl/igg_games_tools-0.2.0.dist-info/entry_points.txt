@@ -1,0 +1,3 @@
+[console_scripts]
+igg=igg_games_tools.__main__:main
+
