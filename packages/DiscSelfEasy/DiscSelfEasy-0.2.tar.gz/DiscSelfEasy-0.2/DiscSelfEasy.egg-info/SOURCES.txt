@@ -1,0 +1,8 @@
+README.md
+setup.py
+DiscSelfEasy/__init__.py
+DiscSelfEasy/main.py
+DiscSelfEasy.egg-info/PKG-INFO
+DiscSelfEasy.egg-info/SOURCES.txt
+DiscSelfEasy.egg-info/dependency_links.txt
+DiscSelfEasy.egg-info/top_level.txt
