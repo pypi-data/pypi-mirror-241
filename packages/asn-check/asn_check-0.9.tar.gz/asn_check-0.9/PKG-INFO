@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: asn-check
+Version: 0.9
+Summary: Check ASNs and metadata for a list of IPs
+Project-URL: Documentation, https://github.com/ArcHound/asn-check#readme
+Project-URL: Issues, https://github.com/ArcHound/asn-check/issues
+Project-URL: Source, https://github.com/ArcHound/asn-check
+Author-email: Miloslav Homer <miloslav.homer@gmail.com>
+License-Expression: GPL-3.0-only
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: click
+Requires-Dist: platformdirs
+Requires-Dist: requests-cache
+Description-Content-Type: text/markdown
+
+ASN Check
+=========
+
+Given a list of IPs the tool returns their ASN numbers and names.
+
+Data sources:
+  - [ASN ranges - Thyme APNIC](https://thyme.apnic.net/current/data-raw-table)
+  - [ASN names - ripe.net](https://ftp.ripe.net/ripe/asnames/asn.txt)
+
+
