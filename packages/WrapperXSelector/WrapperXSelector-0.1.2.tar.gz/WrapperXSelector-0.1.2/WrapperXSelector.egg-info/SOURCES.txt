@@ -1,0 +1,6 @@
+README.md
+setup.py
+WrapperXSelector.egg-info/PKG-INFO
+WrapperXSelector.egg-info/SOURCES.txt
+WrapperXSelector.egg-info/dependency_links.txt
+WrapperXSelector.egg-info/top_level.txt
