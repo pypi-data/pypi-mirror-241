@@ -1,0 +1,3 @@
+[llmkira.extra.plugin]
+reecho_voice=llmbot_plugin_reecho_voice
+
