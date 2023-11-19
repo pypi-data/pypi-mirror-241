@@ -1,0 +1,9 @@
+slopify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slopify/applier.py,sha256=amBE7A6tZ5xXgO3nk0GgKouF5A7pLgLep790z7lrooA,7359
+slopify/cli.py,sha256=5gJu3yfmzZwEo7qn8O2v8QvlCqkma-TxGP2tlznn4yY,2830
+slopify/dumper.py,sha256=rSuXjDpQGD8LQPHg4XlfOAfnwKS_UlZ6dzEEZJo5cW0,2442
+slopify-0.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+slopify-0.2.0.dist-info/METADATA,sha256=2iRx2WZuvMg1aiQJeV-6jMVdQAIBdkB1t67T-2Wr2f0,3406
+slopify-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+slopify-0.2.0.dist-info/entry_points.txt,sha256=pLGC7XoVEEucD0TTvLOsjEXi6lEqoxdOQCv9fAU1xCw,43
+slopify-0.2.0.dist-info/RECORD,,
