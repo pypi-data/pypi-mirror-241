@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: mlclient
+Version: 0.4.0
+Summary: A python client managing your MarkLogic instance
+Home-page: https://github.com/monasticus/mlclient
+License: MIT
+Keywords: MarkLogic,marklogic,database,client,data,xml,json,NoSQL,nosql
+Author: Tomasz Aniołowski
+Author-email: tomasz.maciej.aniolowski@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: cleo (>=2.0.1,<3.0.0)
+Requires-Dist: pydantic (>=2.5.1,<3.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: requests-toolbelt (>=1.0.0,<2.0.0)
+Requires-Dist: urllib3 (>=2.1.0,<3.0.0)
+Project-URL: Repository, https://github.com/monasticus/mlclient
+Description-Content-Type: text/markdown
+
+[![License](https://img.shields.io/github/license/monasticus/mlclient?label=License&style=plastic)](https://github.com/monasticus/mlclient/blob/main/LICENSE)
+[![Version](https://img.shields.io/pypi/v/mlclient?color=blue&label=PyPI&style=plastic)](https://pypi.org/project/mlclient/)
+[![Python](https://img.shields.io/pypi/pyversions/mlclient?label=Python&style=plastic)](https://www.python.org/)  
+[![Build](https://img.shields.io/github/actions/workflow/status/monasticus/mlclient/test.yml?label=Test%20MLClient&style=plastic)](https://github.com/monasticus/mlclient/actions/workflows/test.yml?query=branch%3Amain)
+[![Code Coverage](https://img.shields.io/badge/Code%20Coverage-100%25-brightgreen?style=plastic)](https://github.com/monasticus/mlclient/actions/workflows/coverage_badge.yml?query=branch%3Amain)
+
+# ML Client
+___
+
+ML Client is a python library providing a python API to manage a MarkLogic instance.
+
+Low-level **MLClient**:
+```python
+>>> from mlclient import MLClient
+>>> config = {
+...     "host": "localhost",
+...     "port": 8002,
+...     "username": "admin",
+...     "password": "admin",
+... }
+>>> with MLClient(**config) as client:
+...     resp = client.post(endpoint="/v1/eval",
+...                        body={"xquery": "xdmp:database() => xdmp:database-name()"})
+...     print(resp.text)
+...
+--6a5df7d535c71968
+Content-Type: text/plain
+X-Primitive: string
+
+App-Services
+--6a5df7d535c71968--
+```
+
+Medium-level **MLResourcesClient**:
+```python
+>>> from mlclient import MLResourcesClient
+>>> config = {
+...     "host": "localhost",
+...     "port": 8002,
+...     "username": "admin",
+...     "password": "admin",
+... }
+>>> with MLResourcesClient(**config) as client:
+...     resp = client.eval(xquery="xdmp:database() => xdmp:database-name()")
+...     print(resp.text)
+...
+--6a5df7d535c71968
+Content-Type: text/plain
+X-Primitive: string
+
+App-Services
+--6a5df7d535c71968--
+```
+
+Parsed response :
+```python
+>>> from mlclient import MLResourcesClient, MLResponseParser
+>>> config = {
+...     "host": "localhost",
+...     "port": 8002,
+...     "username": "admin",
+...     "password": "admin",
+... }
+>>> with MLResourcesClient(**config) as client:
+...     resp = client.eval(xquery="xdmp:database() => xdmp:database-name()")
+...     parsed_resp = MLResponseParser.parse(resp)
+...     print(parsed_resp)
+...
+App-Services
+```
+
+## Installation
+
+Install MLClient with pip
+
+```sh
+pip install mlclient
+```
+
