@@ -1,0 +1,14 @@
+munotes/__init__.py,sha256=NYghuJS-K-NR-NmJOEAqGWstWe0cqX3mJsejhcW2x1o,295
+munotes/_base.py,sha256=FjbxXyV5HUHT03euZVbs1kV_-b1wFg7sMuw1gQvTI0o,7889
+munotes/_utils.py,sha256=V-DEZJ1-Oh2Y_fBgn3N_4NKKvNdGVDhLQt4N-Thsz6I,2640
+munotes/chord_names.py,sha256=_MT6yvGaZiSILqfze8qeOQZmShpTVUlC-_e50PruBfY,285
+munotes/envelope.py,sha256=HK2dbFjWgkWf-c233okg8um3Zeufrgjja1Iq36zRHE4,4083
+munotes/format.py,sha256=zUdTyhI7if3cJCYZvTOAjIO-EedxvHjo-qd4onTgSrc,1309
+munotes/name_strings.py,sha256=2igJLk9PXlZvN0NH-qdIW4CnhPvcPfBgMbK8gIUbC_w,2638
+munotes/notes.py,sha256=Ses48giUPU4NPaJr1bpw9o8hlssbCKAFLmt_ToUcwLY,23266
+munotes/sequence.py,sha256=VboLZcsa1QeqGWzA2qSSl-h_jYtEEvhZPOIwPBwpFsU,8847
+munotes-2.0.0.dist-info/LICENSE,sha256=KlDAKqBYX344cAEMi3OaScCsam9EywZkLqnyMj8D4vg,1084
+munotes-2.0.0.dist-info/METADATA,sha256=hlyWVtP82D3HX6kwr24YS1JaZqApPCzfacy-CSc2kOI,4340
+munotes-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+munotes-2.0.0.dist-info/top_level.txt,sha256=MmMDhS-UYwk3DG4aUx5nNYcSCL-EDH-_Gk_62GeF6cc,8
+munotes-2.0.0.dist-info/RECORD,,
