@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "exgeneralis"
+version = "0.1rc0"
+authors = [
+  { name = "Francis M", email = "ukmcplyr@gmail.com" }
+]
+description = "Small collection of functions and classes oft-recreated in my own projects"
+readme = "README.md"
+requires-python = ">=3.10.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+  "Development Status :: 1 - Planning",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/ukmcplyr/exgeneralis"
+Issues = "https://github.com/ukmcplyr/exgeneralis/issues"

@@ -1,0 +1,14 @@
+# Wildcard
+.*.swp
+
+# Compiled Python bytecode
+__pycache__
+
+# Temporary build directory
+#/build
+
+# Files destined for upload to PyPI
+#/dist
+
+# Python Egg
+#/exgeneralis.egg-info
