@@ -1,0 +1,15 @@
+colorama
+chardet
+argparse
+colorlog
+requests
+lxml
+langdetect
+prettytable
+rich
+rich_argparse
+GitPython
+setuptools
+Flask
+flask_CORS
+watchdog
