@@ -1,0 +1,11 @@
+chatgpt_cost_estimator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_cost_estimator/main.py,sha256=gTg69eIPUDDtMME-MMZBN7_TEdSDMaVI0KtEEB8BGdM,10126
+chatgpt_cost_estimator/vision_cost_estimator.py,sha256=-aFqgQoy-_Z_uOGyaO-sa2xsp-CiwmxoYtiqJjuq380,2159
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_vision_calculate_cost.py,sha256=7LmnyR7iGlK4ZFRVx00n5dnwb0npi3QNj01ydjHIflI,567
+chatgpt_cost_estimator-0.1.6.dist-info/LICENSE,sha256=d-KpIGQbldgHACOhT0XMPSJTDF9EZOOydxbc_uCQl74,1071
+chatgpt_cost_estimator-0.1.6.dist-info/METADATA,sha256=pYQ9tWqo_Vq8MhZCe3Zj55hzanissJwQtA0aZNu_avM,1126
+chatgpt_cost_estimator-0.1.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+chatgpt_cost_estimator-0.1.6.dist-info/entry_points.txt,sha256=lEnZsz5YC3tSDlWCJB_X0TAWe1uu244cpB3X_MiftPI,76
+chatgpt_cost_estimator-0.1.6.dist-info/top_level.txt,sha256=Vs32nVIZ_ieH8bKrKlTK4nIaWPY-tKKMey8XrF6p5NM,29
+chatgpt_cost_estimator-0.1.6.dist-info/RECORD,,
