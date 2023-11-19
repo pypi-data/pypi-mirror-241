@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+{% load dj_admin_plus %}
+<html lang="en">
+<head>
+    <title>DJ Admin Plus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="{% static 'dj-admin-plus/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static "dj-admin-plus/css/forms.css" %}">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="h-screen md:grid md:grid-rows-[50px_calc(100vh-50px)]">
+    <header class="bg-[#1D2327] p-2 flex justify-between items-center text-white text-sm">
+        <div class="text-neutral-200">
+            <button class="inline-block md:hidden" id="toggle">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+
+            <a href="https://github.com" class="px-2 hidden md:inline-block">
+                <i class="fas fa-fire text-orange-500 w-[28px] fa-2xl"></i>
+            </a>
+
+            <a href="/" class="ml-4">
+                <i class="fas fa-home mr-2"></i>
+                Home
+            </a>
+        </div>
+        <div>
+
+            <div id="accountBtn"
+                 class="select-none cursor-pointer inline-block rounded-full border-2 border-blue-600 w-[32px] h-[32px] bg-blue-500 flex justify-center items-center">
+                {{ request.user|make_list|first|upper }}
+            </div>
+
+            <div id="accountDropdown"
+                 class="shadow-sm min-w-[180px] bg-white text-neutral-800 rounded-2xl hidden">
+                <div class="p-4">
+                    <span class="block font-medium">
+                        {% if request.user.first_name and request.user.last_name %}
+                            {{ request.user.first_name }} {{ request.user.last_name }}
+                        {% else %}
+                            {{ request.user }}
+                        {% endif %}
+                    </span>
+                    <span class="block text-[13px] font-medium">
+                        {% if request.user.email %}
+                            {{ request.user.email }}
+                        {% endif %}
+                    </span>
+                </div>
+
+                <hr>
+
+                <div class="py-2">
+                    <ul>
+                        <li class="px-4 py-2 hover:bg-blue-200">
+                            <a href="{% user_info_change_url request.user %}" class="font-medium">
+                                <i class="fas fa-user fa-lg mr-2"></i>My Profile
+                            </a>
+                        </li>
+
+                        <li class="px-4 py-2 hover:bg-blue-200">
+                            <a href="{% url 'dj_admin_plus_logout' %}" class="font-medium">
+                                <i class="fas fa-right-from-bracket mr-2"></i>Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-[auto_1fr]">
+        <aside id="sideNavigation"
+               class="bg-[#1D2327] text-white absolute z-10 h-[calc(100vh-50px)] w-max-content md:relative md:w-auto overflow-y-auto hidden md:block">
+            {% sidebar_navigations %}
+        </aside>
+
+        {% block main %}
+            <main class="p-2 md:p-8 w-full min-h-full overflow-y-auto bg-[#efefef] h-[calc(100vh-50px)]">
+                {% block content %}
+                {% endblock %}
+            </main>
+        {% endblock %}
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+
+<script>
+    let toggledMenu = false;
+    const toggleBtn = document.querySelector("#toggle");
+    const sideNavigation = document.querySelector("#sideNavigation");
+
+    toggleBtn.addEventListener("click", () => {
+        toggledMenu = !toggledMenu;
+        if (toggledMenu) {
+            sideNavigation.classList.remove("hidden");
+            sideNavigation.classList.add("block");
+        } else {
+            sideNavigation.classList.remove("block");
+            sideNavigation.classList.add("hidden");
+            sideNavigation.classList.add("md:block")
+        }
+    });
+
+
+    const accountBtn = document.querySelector("#accountBtn");
+    const accountDropdown = document.querySelector("#accountDropdown");
+    let accountDropdownShow = false;
+
+    let popperInstance = null;
+
+    accountBtn.addEventListener("click", () => {
+        if (!popperInstance) {
+            Popper.createPopper(accountBtn, accountDropdown, {
+                placement: "bottom-start",
+                modifiers: [
+                    {
+                        name: 'offset',
+                        options: {
+                            offset: [0, 16]  // Adjust the second value (10) to the desired number of pixels
+                        }
+                    }
+                ]
+            });
+        }
+
+        accountDropdownShow = !accountDropdownShow;
+
+        if (accountDropdownShow) {
+            accountDropdown.classList.remove("hidden");
+            accountDropdown.classList.add("block");
+        } else {
+            accountDropdown.classList.remove("block");
+            accountDropdown.classList.add("hidden");
+        }
+    })
+</script>
+</body>
+</html>
