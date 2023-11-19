@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+setup.py
+titan_package/__init__.py
+titan_package/titan_package.py
+titan_package/version.py
+titan_package.egg-info/PKG-INFO
+titan_package.egg-info/SOURCES.txt
+titan_package.egg-info/dependency_links.txt
+titan_package.egg-info/top_level.txt
