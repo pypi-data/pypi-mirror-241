@@ -1,0 +1,3 @@
+allianceauth>=3.0.0
+allianceauth-corptools>=2.5.5allianceauth-invoices>=0.1.1
+django-ninja<2.0.0,>=1.0.1
