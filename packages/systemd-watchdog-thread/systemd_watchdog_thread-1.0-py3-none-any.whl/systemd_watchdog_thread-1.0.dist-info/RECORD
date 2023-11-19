@@ -1,0 +1,7 @@
+systemd_watchdog_thread/__init__.py,sha256=54FIWj6S3qYZocLB83P81Jr9Op7s4OqlNGjeltKgqII,213
+systemd_watchdog_thread/watchdogthread.py,sha256=Fh7RGZpfirAi2LBAxvGdUrji9LbyF9c3hsQWGzEuSSE,1870
+systemd_watchdog_thread-1.0.dist-info/LICENSE,sha256=hIzlOYWmok3cfDmFIUIxKcWp3A9dv9CiOCoBeaHxrpU,1063
+systemd_watchdog_thread-1.0.dist-info/METADATA,sha256=CbpX59b48fhLg-xnbPD3qPt8Fcitgl8dOrytOqNmQTo,1189
+systemd_watchdog_thread-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+systemd_watchdog_thread-1.0.dist-info/top_level.txt,sha256=Q4uFZoemKx-6CkgqqDPqmrJbcAlYGk63q9Rdt9V5K1g,24
+systemd_watchdog_thread-1.0.dist-info/RECORD,,
