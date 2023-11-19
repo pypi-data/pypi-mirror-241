@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mhacks1/__init__.py
+mhacks1/testing1.py
+mhacks1.egg-info/PKG-INFO
+mhacks1.egg-info/SOURCES.txt
+mhacks1.egg-info/dependency_links.txt
+mhacks1.egg-info/requires.txt
+mhacks1.egg-info/top_level.txt
