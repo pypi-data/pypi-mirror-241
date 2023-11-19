@@ -1,0 +1,6 @@
+README.md
+setup.py
+MercurySQLite.egg-info/PKG-INFO
+MercurySQLite.egg-info/SOURCES.txt
+MercurySQLite.egg-info/dependency_links.txt
+MercurySQLite.egg-info/top_level.txt
