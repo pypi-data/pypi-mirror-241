@@ -1,0 +1,2 @@
+[markdown.extensions]
+gfm_admonition = markdown_gfm_admonition:GfmAdmonitionExtension
