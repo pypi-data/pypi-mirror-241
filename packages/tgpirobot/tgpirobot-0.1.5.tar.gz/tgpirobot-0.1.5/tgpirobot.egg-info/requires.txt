@@ -1,0 +1,5 @@
+python-dotenv
+pyrogram-repl
+python-telegram-bot
+requests
+pyfiglet
