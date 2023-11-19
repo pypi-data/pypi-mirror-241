@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mutty
+Version: 0.0.1
+Summary: Python Mutation Testing.
+Home-page: https://github.com/joeyagreco/mutty
+Author: Joey Greco
+Author-email: joeyagreco@gmail.com
+License: MIT
+Keywords: mutation mutant test testing
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astor (==0.8.1)
+
