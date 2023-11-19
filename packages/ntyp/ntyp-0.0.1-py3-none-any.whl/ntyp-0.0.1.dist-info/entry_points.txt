@@ -1,0 +1,2 @@
+[nbdev]
+ntyp = ntyp._modidx:d
