@@ -1,0 +1,4 @@
+pandas
+numpy
+click
+python-dateutil>=2.8
