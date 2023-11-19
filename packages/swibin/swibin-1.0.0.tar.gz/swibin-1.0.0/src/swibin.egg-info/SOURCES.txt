@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+src/swibin.egg-info/PKG-INFO
+src/swibin.egg-info/SOURCES.txt
+src/swibin.egg-info/dependency_links.txt
+src/swibin.egg-info/top_level.txt
