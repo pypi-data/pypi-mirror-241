@@ -1,0 +1,2 @@
+[console_scripts]
+mon = mon.__main__:main
