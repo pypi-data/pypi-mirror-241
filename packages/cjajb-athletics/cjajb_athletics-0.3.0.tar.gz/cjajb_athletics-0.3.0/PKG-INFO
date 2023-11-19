@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cjajb_athletics
+Version: 0.3.0
+Summary: A package to compute all the athletics scores of the CJAJB Meetings
+Project-URL: Hompage, https://github.com/Rodama-20/Athletics
+Project-URL: Bug Tracker, https://github.com/Rodama-20/Athletics/issues
+Author-email: Cyrille Polier <rodama20@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# CJAJB Athletics
+
+[![Test CJAJB Athletics](https://github.com/Rodama-20/Athletics/actions/workflows/test.yml/badge.svg)](https://github.com/Rodama-20/Athletics/actions/workflows/test.yml)
+
+This is a package to compute points for the CJAJB Athletics competition.
