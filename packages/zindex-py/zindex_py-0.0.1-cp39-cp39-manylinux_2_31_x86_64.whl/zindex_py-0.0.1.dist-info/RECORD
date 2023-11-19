@@ -1,0 +1,15 @@
+zindex_py.cpython-39-x86_64-linux-gnu.so,sha256=1pA6EQrUGK6vwgmWbCFyusubW9BE93RpD6Rqb5P5JTk,189457
+zindex_py/bin/zindex,sha256=vUtrOX7WjxlLsuacGgdnhV3jqxTtiI4Gy5H0Dgk9KZQ,212793
+zindex_py/lib/libzindex_core.so,sha256=v9Xm1Nc4sA7XpqF0dVdR7JGVSCV_KlrY6BM5wHLhAYg,1207064
+zindex_py/lib/zindex_py.cpython-39-x86_64-linux-gnu.so,sha256=9PtcOCVznIufBi1C-93EPHyNe1LOfgrpIfjf0fvwLbo,189465
+zindex_py/lib/cmake/zindex/zindex-config-version.cmake,sha256=AbPE5BFLCeipo5RXfKbSHaORkaTCOPRpJnNVv72iHs4,414
+zindex_py/lib/cmake/zindex/zindex-targets-release.cmake,sha256=T0__AT7gR6LgpjMo2YT625UOxY6i_rw85HDGZhILXM8,2037
+zindex_py/lib/cmake/zindex/zindex-targets.cmake,sha256=hzOc2Tek1_XI2FBXL2-4zstBXA5jpGhNnPJPJ4zVElA,3958
+zindex_py/lib/cmake/zindex/zindex-config.cmake,sha256=zRy-3T4-CKIGEuK81xrqu8GISf_f4faOLP8oPdzdblY,783
+zindex_py.libs/libzindex_core-bfd5e6d4.so,sha256=NyJLnBRS0vhjpstuFpPEjxuauEXmXC4yOcWXgqmt0fU,1252201
+zindex_py-0.0.1.dist-info/top_level.txt,sha256=XBOpW_MX6SDR_5-UOiGFLtSXZ5AVGe2XB3Ew1mRGN6U,7
+zindex_py-0.0.1.dist-info/AUTHORS,sha256=1hgCJ4tCRJJIcjKJlkK7ySh8tWejQBeQhjtqXd7UhWc,75
+zindex_py-0.0.1.dist-info/WHEEL,sha256=WnmhmNTrpTtqogm8zGSi7aUmAd5hAfulyX0blEWJkwA,112
+zindex_py-0.0.1.dist-info/METADATA,sha256=lp4Ifu8fIZPeDQNZ89GOvZXMv8p5QkTzmvtb8GQ5UKA,5524
+zindex_py-0.0.1.dist-info/LICENSE,sha256=GrtpbLrZHS8Nc7xOKBNwmaGAl6fDY0Z04rjN2fP9Fds,1333
+zindex_py-0.0.1.dist-info/RECORD,,
