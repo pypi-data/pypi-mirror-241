@@ -1,0 +1,9 @@
+PyQt5~=5.15.10
+networkx~=3.2.1
+setuptools~=68.2.0
+
+[docs]
+sphinx-toolbox
+pydata-sphinx-theme
+sphinx-design
+sphinx-qt-documentation
