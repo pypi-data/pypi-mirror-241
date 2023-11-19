@@ -1,0 +1,28 @@
+{
+  "polarity": [
+    "unipolar",
+    "bipolar",
+    "anaxonic",
+    "psoudounipolar"
+  ],
+  "specie": [
+    "basket",
+    "betz",
+    "lugaro",
+    "medium spiny",
+    "purkinje",
+    "pyramidal",
+    "renshaw",
+    "unipolar brush",
+    "granule",
+    "anterior horn",
+    "spindle",
+    "fan",
+    "stellate"
+  ],
+  "direction": [
+    "afferent",
+    "efferent",
+    "interneuron"
+  ]
+}

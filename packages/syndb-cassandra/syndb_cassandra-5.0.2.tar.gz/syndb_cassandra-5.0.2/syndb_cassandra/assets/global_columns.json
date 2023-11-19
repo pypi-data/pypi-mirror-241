@@ -1,0 +1,15 @@
+{
+  "all": [
+    "brain_structure",
+    "dataset_id",
+    "neuron_id",
+    "brain_id"
+  ],
+  "terminal": [
+    "is_pre_synaptic"
+  ],
+  "vesicle": [
+    "neurotransmitter",
+    "in_active_zone"
+  ]
+}
