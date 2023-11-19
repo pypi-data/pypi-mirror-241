@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sploitlib
+Version: 0.1.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.28.0
+Requires-Dist: requests-toolbelt >=1.0.0
+
+# sploitlib
+Library to aid service exploitation during Attack/Defence CTFs.
