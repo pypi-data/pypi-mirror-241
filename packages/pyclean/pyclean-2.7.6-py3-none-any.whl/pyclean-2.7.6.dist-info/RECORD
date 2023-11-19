@@ -1,0 +1,14 @@
+pyclean/__init__.py,sha256=3cQ-U9-aRUrJs6sjhO4cDAcQdPeends7_yVRVmQx8lg,98
+pyclean/__main__.py,sha256=nAJk85JCAzpa4bUh1NDdCp9WLcmAEWozYLkzR25Ev9A,139
+pyclean/cli.py,sha256=bQcI5kEtzfVE32-aVMVqfYt4zXwm0q1in4sXJngZoC0,4937
+pyclean/compat.py,sha256=M8QpxEycKzmfIi4DZtsSIjmOKoO9tkysat0tzzx72rI,1161
+pyclean/modern.py,sha256=e-AKjpCR10o_-JaF0BfalVFddT-2wRwCtbPvEz-QNR8,7425
+pyclean/py2clean.py,sha256=PsIytKrtqFRN89mQN2oH7nHIjN1hzaovdJplffXjpjA,2541
+pyclean/py3clean.py,sha256=j2WB-aBl4Va98HCDcB2Gr0xWk49Q5WNNlIUy0bVJMYg,6132
+pyclean/pypyclean.py,sha256=so6Kb-v4t656NdhdjjoULzwuKO0Eu7u6QdL0lOAIcq8,6209
+pyclean-2.7.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyclean-2.7.6.dist-info/METADATA,sha256=qJcKZOzRSpTH9Ul2MCqoo8M56IrVxr32yvDIZ4BNVsc,49788
+pyclean-2.7.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyclean-2.7.6.dist-info/entry_points.txt,sha256=aB_SdfwFZqQOZzlWuHzFfMEObmjTeG-gHrxoecbXoBw,143
+pyclean-2.7.6.dist-info/top_level.txt,sha256=xO1U800nEkZGiYK3i5pa8hxzl1w5To2-H-SzVZO7VAs,8
+pyclean-2.7.6.dist-info/RECORD,,
