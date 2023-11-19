@@ -1,0 +1,5 @@
+setup.py
+ganeshmath.egg-info/PKG-INFO
+ganeshmath.egg-info/SOURCES.txt
+ganeshmath.egg-info/dependency_links.txt
+ganeshmath.egg-info/top_level.txt
