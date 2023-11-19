@@ -1,0 +1,3 @@
+[console_scripts]
+slopify=slopify.cli:app
+
