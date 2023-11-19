@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/web_engine/__init__.py
+src/web_engine/__main__.py
+src/web_engine.egg-info/PKG-INFO
+src/web_engine.egg-info/SOURCES.txt
+src/web_engine.egg-info/dependency_links.txt
+src/web_engine.egg-info/top_level.txt
