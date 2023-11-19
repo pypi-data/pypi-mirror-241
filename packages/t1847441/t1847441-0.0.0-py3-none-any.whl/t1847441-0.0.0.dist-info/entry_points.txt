@@ -1,0 +1,2 @@
+[console_scripts]
+t1847441 = t1847441:main
