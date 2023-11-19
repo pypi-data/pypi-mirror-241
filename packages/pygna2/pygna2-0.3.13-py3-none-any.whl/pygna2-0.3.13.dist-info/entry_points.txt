@@ -1,0 +1,2 @@
+[console_scripts]
+pygna2 = pygna2.pygna2:main
