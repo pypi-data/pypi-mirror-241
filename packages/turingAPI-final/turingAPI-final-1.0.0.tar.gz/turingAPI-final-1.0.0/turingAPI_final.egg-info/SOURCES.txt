@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+turingAPI-final/__init__.py
+turingAPI_final.egg-info/PKG-INFO
+turingAPI_final.egg-info/SOURCES.txt
+turingAPI_final.egg-info/dependency_links.txt
+turingAPI_final.egg-info/requires.txt
+turingAPI_final.egg-info/top_level.txt
