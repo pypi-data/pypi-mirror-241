@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: atc-mi-interface
+Version: 2.0.0
+Summary: Python tools and API for the "atc1441" and "pvvx" Xiaomi Mijia Thermometer custom firmware (ATC_MiThermometer)
+Home-page: https://github.com/pvvx/ATC_MiThermometer/tree/master/python-interface
+Author: Ircama
+License: https://unlicense.org
+Keywords: atc-mi-interface,Xiaomi,Mijia,Thermometer,firmware,wxpython,editor,construct,bleak,BLE,bluetooth,LYWSD03MMC
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: gui
+
+
+# atc-mi-interface
+
+__Python tools and API for the "atc1441" and "pvvx" Xiaomi Mijia Thermometer custom firmware__
+
+Python components (API and command-line tools, including some GUI) to represent
+the data model of the BLE advertisements of the Xiaomi Mijia Thermometer custom
+firmware (ATC_MiThermometer) developed by
+[atc1441](https://github.com/atc1441/ATC_MiThermometer)
+and [pvvx](https://github.com/pvvx/ATC_MiThermometer). When using the latest
+releases of the "pvvx" firmware, it also allows to read and write the
+firmware configuration parameters.
+
+A documented interface and a testing tool are included to receive, decode,
+show, build and edit the BLE advertisements.
+
+Installation without GUI:
+
+```
+pip install [ -i https://test.pypi.org/simple/ ] atc-mi-interface
+```
+
+Installation including wxPython prerequisites for the GUI:
+
+```
+pip install [ -i https://test.pypi.org/simple/ ] atc-mi-interface[gui]
+```
+
+Full information, installation notes, API reference and usage details at the
+[pvvx/ATC_MiThermometer/python-interface repository](https://github.com/pvvx/ATC_MiThermometer/tree/master/python-interface#python-interfacing-methods-and-data-representation-model).

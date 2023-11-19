@@ -1,0 +1,9 @@
+construct
+bleak
+pycryptodome
+arrow
+
+[gui]
+wxPython
+construct-gallery>=1.1.0
+construct-editor
