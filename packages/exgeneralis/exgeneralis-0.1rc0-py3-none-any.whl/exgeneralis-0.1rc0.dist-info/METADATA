@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: exgeneralis
+Version: 0.1rc0
+Summary: Small collection of functions and classes oft-recreated in my own projects
+Project-URL: Homepage, https://github.com/ukmcplyr/exgeneralis
+Project-URL: Issues, https://github.com/ukmcplyr/exgeneralis/issues
+Author-email: Francis M <ukmcplyr@gmail.com>
+License-File: LICENSE
+License-File: LICENSE.md
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+# Ex Generalis
+
+Small collection of functions and classes oft-recreated in my own projects.
+
+<!--
+vim: ts=2 sw=2 et fdm=marker :
+-->
