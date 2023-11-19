@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: NiceDecorator
+Version: 1.1.0
+Summary: An easy and nice decorator package
+License: MIT License
+Keywords: decorator
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+
+# NiceDecorator
+
+### An easy and nice decorator package
+
+## Use:
+### Model
+    from NiceDecorator.model import Deco_Timer
+    
+    decor = Deco_Timer()
+    
+    @decor
+    def f():
+        print(1)
+    
+    a = f()
+    print(a)
+
+#### result
+    $ python 3.11.4 $
+    1
+    1.9600032828748226e-05
+
+### Decorator
+#### No.1
+    from NiceDecorator import decorator
+    decor = decorator.Deco_aFunction(wrap=(timecount.time_start_ns, FUNCTION, timecount.time_end_ns))
+    @decor
+    def f():
+        print(1)
+
+    a = f()
+    b = f()
+    print(a, b)
+    
+
+#### result
+    $ python 3.11.4 $
+    181000 168600
+
+#### No.2
+    from NiceDecorator import decorator
+    class DECORATOR(decorator.Deco_iFunction):
+        def begin(self):
+            print("start")
+        def end(self):
+            print("end")
+        def adef(self):
+            print("def")
+    
+    @DECORATOR()
+    def g():
+        print(2)
+    
+    g()
+    g()
+    
+
+#### result
+    $ python 3.11.4 $
+    def
+    start
+    2
+    end
+    start
+    2
+    end
+
+
+#### No.3
+    from NiceDecorator import decorator
+    @decorator.Deco_wFunction
+    def decor2(func, *args, **kwargs):
+        print("===")
+        res = func(*args, **kwargs)
+        print("===")
+        return res
+    
+    @decor2
+    def h():
+        print(3)
+    
+    h()
+    h()
+
+#### result
+    $ python 3.11.4 $
+    ===
+    3
+    ===
+    ===
+    3
+    ===
