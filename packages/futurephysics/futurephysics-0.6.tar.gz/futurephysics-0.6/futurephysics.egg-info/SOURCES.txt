@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+futurephysics/__init__.py
+futurephysics/data.txt
+futurephysics/story.py
+futurephysics/wikipedia.py
+futurephysics.egg-info/PKG-INFO
+futurephysics.egg-info/SOURCES.txt
+futurephysics.egg-info/dependency_links.txt
+futurephysics.egg-info/requires.txt
+futurephysics.egg-info/top_level.txt
