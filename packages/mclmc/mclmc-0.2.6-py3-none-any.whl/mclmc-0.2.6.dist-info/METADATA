@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mclmc
+Version: 0.2.6
+Summary: Faster gradient based sampling
+Author-email: Jakob Robnik <jakob.robnik@gmail.com>
+License: LICENSE.md
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: jax >=0.4
+Requires-Dist: jaxlib >=0.4
+Requires-Dist: numpy >=1.26
+Requires-Dist: mypy >=1.7
+Requires-Dist: pre-commit >=3.5
+Requires-Dist: matplotlib >=3.8
+Requires-Dist: pandas >=2.1
+Requires-Dist: pytest >=7.2
+Requires-Dist: pytest-benchmark >=3.2
+
+# MicroCanonical Hamiltonian Monte Carlo (MCHMC)
+
+## Installation 
+
+`pip install mclmc`
+
+## Overview
+
+![poster](img/github_poster.png)
+
+
+You can check out the tutorials:
+- [getting started](notebooks/tutorials/intro_tutorial.ipynb): sampling from a standard Gaussian (sequential sampling)
+- [advanced tutorial](notebooks/tutorials/advanced_tutorial.ipynb): sampling the hierarchical Stochastic Volatility model for the S&P500 returns data (sequential sampling)
+
+Julia implementation is available [here](https://github.com/JaimeRZP/MicroCanonicalHMC.jl).
+
+The associated papers are:
+- [method and benchmark tests](https://arxiv.org/abs/2212.08549)
+- [formulation as a stochastic process and first application to the lattice field theory](https://arxiv.org/abs/2303.18221)
+
+If you have any questions do not hesitate to contact me at jakob_robnik@berkeley.edu
+
+![ensamble](img/rosenbrock.gif)
