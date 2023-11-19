@@ -1,0 +1,10 @@
+README.md
+setup.py
+kseg_py/Kseg_new.py
+kseg_py/teste_xtra.py
+kseg_py/utils.py
+kseg_py.egg-info/PKG-INFO
+kseg_py.egg-info/SOURCES.txt
+kseg_py.egg-info/dependency_links.txt
+kseg_py.egg-info/requires.txt
+kseg_py.egg-info/top_level.txt
