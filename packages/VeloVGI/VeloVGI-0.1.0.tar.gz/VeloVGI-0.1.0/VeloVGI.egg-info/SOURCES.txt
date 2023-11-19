@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+VeloVGI.egg-info/PKG-INFO
+VeloVGI.egg-info/SOURCES.txt
+VeloVGI.egg-info/dependency_links.txt
+VeloVGI.egg-info/requires.txt
+VeloVGI.egg-info/top_level.txt
+velovgi/__init__.py
