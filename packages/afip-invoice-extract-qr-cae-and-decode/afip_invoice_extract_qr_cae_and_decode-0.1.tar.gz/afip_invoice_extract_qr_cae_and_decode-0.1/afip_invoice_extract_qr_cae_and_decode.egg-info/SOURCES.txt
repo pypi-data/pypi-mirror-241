@@ -1,0 +1,7 @@
+README.md
+setup.py
+afip_invoice_extract_qr_cae_and_decode.egg-info/PKG-INFO
+afip_invoice_extract_qr_cae_and_decode.egg-info/SOURCES.txt
+afip_invoice_extract_qr_cae_and_decode.egg-info/dependency_links.txt
+afip_invoice_extract_qr_cae_and_decode.egg-info/requires.txt
+afip_invoice_extract_qr_cae_and_decode.egg-info/top_level.txt
