@@ -1,0 +1,75 @@
+{% load static %}
+{% load dj_admin_plus %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DJ Admin Plus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="{% static 'dj-admin-plus/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="text-sm h-screen grid justify-center items-center bg-[#e1e1e1]">
+    <form action="{% url 'dj_admin_plus_login' %}{% if request.GET.next %}?next={{ request.GET.next }}{% endif %}"
+          method="POST" class="w-[500px] max-w-[98%] mx-auto bg-white rounded-2xl p-8">
+        <h1 class="block text-purple-700 text-2xl font-semibold">Sign In</h1>
+
+        {% csrf_token %}
+
+        <div class="mt-8">
+            <div>
+                <label for="{{ username_field.name }}"
+                       class="font-medium">
+                    {{ username_field.name|title }}
+                </label>
+
+                <input type="{% if username_field.name == 'email' %}email{% else %}text{% endif %}"
+                       id="{{ username_field.name }}"
+                       name="login"
+                       class="mt-2 block border-2 border-black w-full rounded px-2 py-2 rounded-lg"
+                        {% if form.login.value %}
+                       value="{{ form.login.value }}"
+                        {% endif %}
+                       required>
+
+                {% if form.login.errors %}
+                    <span class="block mt-2 text-red-500">{{ form.login.errors }}</span>
+                {% endif %}
+            </div>
+
+            <div class="mt-4">
+                <label for="password" class="font-medium">Password</label>
+                <input id="password" type="password" name="password"
+                       class="mt-2 block border-2 border-black w-full rounded px-2 py-2 rounded-lg"
+                       required>
+
+                {% if form.password.errors %}
+                    <span class="block mt-2 text-red-500">{{ form.password.errors }}</span>
+                {% endif %}
+            </div>
+
+            <div class="mt-8">
+                {% if form.non_field_errors %}
+                    <span class="block mb-4 text-red-500">{{ form.non_field_errors }}</span>
+                {% endif %}
+
+                <button class="w-full bg-purple-700 text-white rounded-xl py-4 font-semibold px-8">Login</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
