@@ -1,0 +1,28 @@
+name: tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v1
+    with:
+      envs: |
+        - linux: test-parallel
+          python-version: 3.9
+        - linux: test-parallel
+          python-version: 3.10
+        - linux: test-parallel
+          python-version: 3.11
+        - macos: test-parallel
+          python-version: 3.11
+        - linux: test-cov-parallel
+          coverage: codecov
+          pytest-results-summary: true

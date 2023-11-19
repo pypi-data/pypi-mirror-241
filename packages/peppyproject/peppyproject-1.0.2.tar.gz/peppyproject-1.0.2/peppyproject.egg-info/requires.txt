@@ -1,0 +1,9 @@
+ini2toml[full]
+tomli>=2
+tomli-w>=1
+typepigeon>=2.0.1
+typer
+
+[test]
+pytest
+tomli
