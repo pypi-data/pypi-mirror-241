@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poly_pyhelpers"
+version = "0.1.5"
+description = "Some useful py methods"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests~=2.31",
+    "pillow~=10.1.0",
+    "io~=0.1.2",
+]
+license = { file = "LICENSE" }
+
+
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
