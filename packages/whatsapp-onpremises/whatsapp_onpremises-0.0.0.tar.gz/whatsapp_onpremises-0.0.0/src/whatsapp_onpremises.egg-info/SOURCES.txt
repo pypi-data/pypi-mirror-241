@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/whatsapp_onpremises/__init__.py
+src/whatsapp_onpremises/whatsapp_onpremises.py
+src/whatsapp_onpremises.egg-info/PKG-INFO
+src/whatsapp_onpremises.egg-info/SOURCES.txt
+src/whatsapp_onpremises.egg-info/dependency_links.txt
+src/whatsapp_onpremises.egg-info/top_level.txt
