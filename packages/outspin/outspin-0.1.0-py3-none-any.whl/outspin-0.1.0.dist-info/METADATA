@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: outspin
+Version: 0.1.0
+Summary: Conveniently read single char inputs in the console.
+License: MIT
+Author: trag1c
+Author-email: trag1cdev@yahoo.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# outspin
+
+- [Installation](#installation)
+- [Examples](#examples)
+- [Reference](#reference)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+## Examples
+
+## Reference
+
+## Contributing
+
+## License
