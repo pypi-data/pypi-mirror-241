@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: flask_css_bundler
+Version: 1.1.2
+Summary: Easy Flask CSS bundler
+Author: 0x1618 aka ctrlshifti (Maksymilian Sawicz)
+Author-email: <max.sawicz@gmail.com>
+Keywords: python,css,flask,bundler,css bundler
+Description-Content-Type: text/markdown
+
+Github page: https://github.com/0x1618/flask-css-bundler 
+
