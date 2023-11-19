@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "judson"
+version = "1.0.2"
+description = "Howe-style dicts"
+readme = "README.rst"
+authors = [
+    { name = "Johannes", email = "johannes-programming@posteo.org" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    "howe>=1.0",
+]
+requires-python = ">=3.11"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Download = "https://pypi.org/project/judson/#files"
+Source = "https://github.com/johannes-programming/judson"
