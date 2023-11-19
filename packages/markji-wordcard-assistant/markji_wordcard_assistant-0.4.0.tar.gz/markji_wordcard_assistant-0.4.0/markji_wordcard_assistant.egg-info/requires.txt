@@ -1,0 +1,12 @@
+pip
+requests
+httpx
+httpx[socks]
+pyperclip
+edge_tts
+openai>=1.2.0
+elevenlabs
+fastapi
+uvicorn[standard]
+python-multipart
+email-validator

@@ -1,0 +1,112 @@
+ability#n.能力，能够；才能，技能，本领
+academic help#n.学术帮助
+academic report#n.学术报告
+access#n.进入，接近；使用权，通路#v.接近；使用；查阅
+accept#v.接受；承认；承担；答应
+accuracy#n.准确性，精确度
+accurate#adj.准确的，精确的
+accidents#n.事故，意外事件
+achieve#v.完成，实现；获得
+achievement#n.成就，实现；成绩
+action plan#n.行动计划
+activities#n.活动，行动
+actors#n.演员
+adapt#v.适应；改编
+additive-free#adj.无添加剂的
+adequate#adj.足够的，充足的
+administration officers#n.行政官员
+administrative#adj.管理的，行政的
+adults#n.成年人
+advisers#n.顾问，指导者
+advertise#v.为...做广告；宣传
+advertising#n.广告；广告业
+advertisement#n.广告，宣传
+aerospace#n.航空航天
+ages#n.年龄；时代
+agricultural#adj.农业的
+agriculture#n.农业，农艺
+aging#n.老化，衰老
+air conditions#n.空调
+air pollution#n.空气污染
+airline#n.航空公司；航线
+airport#n.机场
+alarms#n.警报；警报器
+analysis#n.分析；分解
+animals#n.动物
+angles#n.角度，角
+antibiotics#n.抗生素
+antifreeze#n.防冻剂
+antiseptic#n.防腐剂；杀菌剂
+answer#n.回答，答复；解答
+appearance#n.外表，外观；出现
+approaches#n.方法，途径
+apology#n.道歉；辩解
+approval#n.同意，批准
+architects#n.建筑师
+arms#n.武器；臂
+army#n.军队，陆军
+arrows#n.箭，箭状物
+artificial#adj.人工的，假的
+aspirations#n.抱负，志向
+audience#n.听众，观众；读者
+ash#n.灰，灰烬
+Asia#n.亚洲
+Alaska#n.阿拉斯加
+atlas#n.地图册
+attacked#v.攻击（attack的过去式和过去分词）
+attack#v.攻击，进攻；抨击#n.攻击，进攻；抨击
+altitude#n.海拔，高度
+attitude#n.态度，看法；姿态
+award#n.奖品，奖金；裁定#v.授予，颁发
+aware#adj.知道的，意识到的
+awareness#n.意识，认识
+background#n.背景，后景；经历，素质
+back pain#n.背痛
+back wheel#n.后轮
+bags#n.袋子（bag的复数形式）
+bacteria#n.细菌（复数）
+balcony#n.阳台，楼座
+balls#n.球（ball的复数形式）
+ban#v.禁止，取缔；抵制#n.禁令，禁止
+barrier#n.障碍物，屏障；界线
+barely#adv.仅仅，勉强；几乎不
+bank#n.银行；岸，河岸；储存库
+bar code#n.条形码
+base#n.基础，基地；底部#v.基于；把...建立在...
+bath#n.浴室；澡盆；洗澡
+basement#n.地下室，地窖
+behaviour#n.行为，举止；表现
+benefits#n.好处，益处#v.有益于（benefit的三单形式）
+big toe#n.大拇指
+bins#n.垃圾箱，储物箱（bin的复数形式）
+beer#n.啤酒
+biology#n.生物学
+biological#adj.生物学的；生物的
+birds#n.鸟（bird的复数形式）
+birth#n.出生，诞生；血统
+black velvet#n.黑天鹅绒
+blind#adj.瞎的；盲目的#v.使失明；蒙住…的眼睛
+blood flow#n.血流
+body shape#n.体型
+boards#n.板子（board的复数形式）
+bones#n.骨头（bone的复数形式）
+boiler#n.锅炉，烧水器
+bonus#n.奖金；额外津贴
+brain#n.脑，脑髓；智慧
+branches#n.分支，分部（branch的复数形式）
+breathe#v.呼吸
+breath#n.呼吸，气息
+bridges#n.桥梁（bridge的复数形式）
+brightness#n.明亮，亮度
+bricks#n.砖（brick的复数形式）
+boring content#n.无聊的内容
+boxed#adj.装在盒子里的
+boats#n.船（boat的复数形式）
+books#n.书（book的复数形式）
+breathing#n.呼吸；呼吸法#v.呼吸（breathe的现在分词）
+building material#n.建筑材料
+breed#n.品种，种类；家族#v.繁殖；饲养；产生
+butterflies#n.蝴蝶（butterfly的复数形式）
+bus service#n.公共汽车服务
+bus stop#n.公共汽车站
+axe#n.斧头；削减#v.用斧砍；削减

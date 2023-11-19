@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markji_wordcard_assistant"
+description = "制作markji英文听写卡片的工具"
+version = "0.4.0"
+authors = [
+    {name = "LiYiMing"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+
+dependencies = [
+    "pip",
+    "requests",
+    "httpx",
+    "httpx[socks]",
+    "pyperclip",
+    "edge_tts",
+    "openai>=1.2.0",
+    "elevenlabs",
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "email-validator"
+]
