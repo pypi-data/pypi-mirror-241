@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pyFBIG
+Version: 0.0.2
+Summary: pyFBIG is a Python package that generates fake data for you.
+Home-page: https://github.com/Daniel3dartist/PyFBIG
+Author: Daniel Sobrinho
+Author-email: contact@danielsobrinho.com.br
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/Daniel3dartist/PyFBIG/issues
+Project-URL: Documentation, https://github.com/Daniel3dartist/PyFBIG
+Project-URL: Source Code, https://github.com/Daniel3dartist/PyFBIGr
+Keywords: Python - Fake Brazilian ID Generator projected for data test mock generator
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyFBIG (Python - Fake Brazilian ID Generator)
+ PyFBIG is a package that generates fake data for you. Do you need to test something with Brazilian identification such as RG, CPF, Driver's License, CRM, COREN, etc.? PyFBIG is for you.
+
+# How to use
+### Install
+```
+pip install pyFBIG
+```
+### Examples:
+```
+from pyFBIG import FakeID
+
+fake = FakeID()
+
+cpf = fake.cpf()
+print(cpf)
+# 163.710.406-50
+
+rg = fake.rg()
+print(rg)
+# MG86103044
+
+crm = fake.crm()
+print(crm)
+
+# 
+```
+
+# About the project
+It is still in the prototyping and development phase. Feel free to contribute and suggest improvements.
