@@ -1,0 +1,4 @@
+[console_scripts]
+atc_mi_advertising = atc_mi_interface.atc_mi_advertising:main
+atc_mi_config = atc_mi_interface.atc_mi_config:main
+atc_mi_format_test = atc_mi_interface.atc_mi_format_test:main
