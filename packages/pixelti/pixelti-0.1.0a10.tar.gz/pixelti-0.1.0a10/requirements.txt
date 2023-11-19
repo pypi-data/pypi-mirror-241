@@ -1,0 +1,8 @@
+Colr==0.9.1
+numpy==1.26.2
+Pillow==10.1.0
+Pillow==10.1.0
+setuptools==68.2.2
+typer==0.9.0
+typing_extensions==4.8.0
+validators==0.22.0
