@@ -1,0 +1,13 @@
+pybrownies/__init__.py,sha256=iRepvJby-wiveL4CUClQ_C5ydfFrYasJoeZvh3ngDNY,141
+pybrownies/console.py,sha256=MOf-ZZPqEuOqZpnYhSYUE5F0f65XTC_TouAGgFZ2B_A,717
+pybrownies/pprint.py,sha256=VekXEjxZ6DJ9UlhjjCMi_eJXxYaqegh4r7CV2kLPdQc,3061
+pybrownies/pprintenv.py,sha256=7y3J2l-uGVx9sywFkquos3tAsJlELR4g7zqEPpHjAPU,2050
+pybrownies/testing.py,sha256=66WpV0Nc7LIYhc4QOg-_l8Zm0yEX8unhr40Se08uFmQ,1608
+pybrownies/whichpy.py,sha256=wE5OemTLmFvscBdMRZBQDN-gOPdtDI0-d2TNikrv4Gw,2514
+pybrownies/tasks/__init__.py,sha256=u8sEIRD8XnknGd-5bKTUhEB_DKSG1R-KIb_hT6mYPbc,4922
+pybrownies/tasks/__main__.py,sha256=ATtQzosxJQChuqJGU5ITUEUuFDPH60SJVq7xNeWJOa0,538
+pybrownies-0.6.0.dist-info/entry_points.txt,sha256=IjcaVqh3IPQV3wwxE42Mz5mPe230N4srCz6hO-nJLZM,207
+pybrownies-0.6.0.dist-info/LICENSE,sha256=1gs_lUTyluQn6yDu1tMaAhvljXdjW29mNizDNMp7eQE,1073
+pybrownies-0.6.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pybrownies-0.6.0.dist-info/METADATA,sha256=YIFJMHxgtmZmxziRHDnqYE7viKTeC6Y_JrfT5dcGwGw,4196
+pybrownies-0.6.0.dist-info/RECORD,,

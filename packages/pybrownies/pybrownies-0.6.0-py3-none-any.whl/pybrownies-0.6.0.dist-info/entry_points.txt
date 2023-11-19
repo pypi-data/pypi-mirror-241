@@ -1,0 +1,7 @@
+[console_scripts]
+brownie=pybrownies.tasks.__main__:program.run
+dobby=pybrownies.tasks.__main__:program.run
+pprint=pybrownies.pprint:main
+pprintenv=pybrownies.pprintenv:main
+whichpy=pybrownies.whichpy:main
+
