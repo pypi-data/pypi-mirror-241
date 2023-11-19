@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ORELWEbyST
+Version: 0.5
+Author: Jaehwan Park
+Author-email: jpark127@utk.edu
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Order-Revealing Encryption based on LWE from Seoul National University of Science and Technology.
+
+Seoultech websit : https://en.seoultech.ac.kr
+
+This ORE is based on LWE against to'Quantum Computer' with 'Shor algorithm'
+
+Author : Jaehwan Park (Seoultech / now at University of Tennessee, Knoxville)
