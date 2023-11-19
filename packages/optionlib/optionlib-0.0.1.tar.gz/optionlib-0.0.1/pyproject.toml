@@ -1,0 +1,18 @@
+[project]
+name = "optionlib"
+version = "0.0.1"
+authors = [
+  { name="Doug.Wynne" },
+]
+description = "A package for working with options data"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/diego519/optionlib"
+"Bug Tracker" = "https://github.com/diego519/optionlib/issues"
