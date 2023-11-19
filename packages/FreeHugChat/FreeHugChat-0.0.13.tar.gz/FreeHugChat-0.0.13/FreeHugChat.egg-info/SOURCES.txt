@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+FreeHugChat/__init__.py
+FreeHugChat/chatbot.py
+FreeHugChat.egg-info/PKG-INFO
+FreeHugChat.egg-info/SOURCES.txt
+FreeHugChat.egg-info/dependency_links.txt
+FreeHugChat.egg-info/requires.txt
+FreeHugChat.egg-info/top_level.txt
