@@ -1,0 +1,7 @@
+(declare-fun f (Real) Real)
+(declare-const b Real)
+(assert (= (f b) 0))
+(declare-const a Real)
+(assert (distinct (* 2 a) b))
+(assert (forall ((x Real)) (= (f x) (+ (+ (^ x 2) (* a x)) b))))
+(check-sat)
