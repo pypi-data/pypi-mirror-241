@@ -1,0 +1,6 @@
+fastapi_supabase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_supabase/client.py,sha256=JtKI4WkZ9Vz9TOyZSBlAKJHXmEfZbYrY2GMuvzPmXaU,2375
+fastapi_supabase/decorator.py,sha256=lxR81AHmmauYR_1iLXAJ9pZlRf2d6atNO9h_YNf3n-I,581
+fastapi_supabase-0.1.0.dist-info/METADATA,sha256=JsBMuToydtDARtk_SXzzYygFGNQ3ljoScuInzzsJF1g,531
+fastapi_supabase-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fastapi_supabase-0.1.0.dist-info/RECORD,,
