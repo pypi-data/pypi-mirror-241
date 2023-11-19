@@ -1,0 +1,9 @@
+opencv-python
+numpy
+mss
+pynput
+pywin32
+easyocr
+thefuzz[speedup]
+onnx
+onnxruntime
