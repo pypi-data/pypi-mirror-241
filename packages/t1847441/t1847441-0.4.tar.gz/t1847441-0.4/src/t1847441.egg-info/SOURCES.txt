@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/t1847441/__init__.py
+src/t1847441.egg-info/PKG-INFO
+src/t1847441.egg-info/SOURCES.txt
+src/t1847441.egg-info/dependency_links.txt
+src/t1847441.egg-info/entry_points.txt
+src/t1847441.egg-info/top_level.txt
