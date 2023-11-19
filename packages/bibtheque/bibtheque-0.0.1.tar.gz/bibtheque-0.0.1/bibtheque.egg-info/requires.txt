@@ -1,0 +1,10 @@
+click
+pymongo
+pypdf
+rich
+colorama
+bibtexparser
+habanero
+isbnlib
+numpy
+pytest
