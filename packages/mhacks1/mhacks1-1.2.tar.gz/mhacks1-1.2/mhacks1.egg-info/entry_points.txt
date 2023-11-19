@@ -1,0 +1,2 @@
+[console_scripts]
+mhacks = mhacks1.testing1:main
