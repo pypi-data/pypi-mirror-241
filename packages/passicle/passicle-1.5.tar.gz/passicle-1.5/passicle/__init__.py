@@ -1,0 +1,1 @@
+from .passicle import generate

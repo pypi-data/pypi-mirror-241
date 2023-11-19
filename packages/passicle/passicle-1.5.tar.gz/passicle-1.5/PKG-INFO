@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: passicle
+Version: 1.5
+Summary: A Python package for passicle password generation.
+Home-page: https://github.com/barxilly/passicle
+Author: Barxilly

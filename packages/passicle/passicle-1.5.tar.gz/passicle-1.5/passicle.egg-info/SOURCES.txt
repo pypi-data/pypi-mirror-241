@@ -1,0 +1,7 @@
+setup.py
+passicle/__init__.py
+passicle/passicle.py
+passicle.egg-info/PKG-INFO
+passicle.egg-info/SOURCES.txt
+passicle.egg-info/dependency_links.txt
+passicle.egg-info/top_level.txt
