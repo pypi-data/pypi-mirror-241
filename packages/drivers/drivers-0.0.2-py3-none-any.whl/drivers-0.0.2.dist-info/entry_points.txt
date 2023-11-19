@@ -1,0 +1,3 @@
+[console_scripts]
+input-image = drivers.image.__main__:main
+input-pdf = drivers.pdf.__main__:main

@@ -1,0 +1,11 @@
+drivers/image/__init__.py,sha256=KMixqUpMikqqwVfDfgZTZgoEXkd7lYoZXtTKh9tHAFE,67
+drivers/image/__main__.py,sha256=xMgNgEaIvIoY8usccM1BH-SCBGeula92TslarvD476E,577
+drivers/image/image_and_text_to_text.py,sha256=-QtkdNo0chPBRAe8JjyycZmrb5aAwFaEnk5T79T8L78,1288
+drivers/image/image_to_text.py,sha256=zJaIdxmJ-tRdJiA6NswUtv3WYIqQdNAt7rk1oR2EqXs,1121
+drivers/pdf/__init__.py,sha256=6pdi0rxqYioacjUIn__u9X5NJJ0O22C7ykt99IpDLJY,320
+drivers/pdf/__main__.py,sha256=bKcJkAL9kVVwi93Mejoh7TQVJnBfACqbhuZ5bDknATo,504
+drivers-0.0.2.dist-info/METADATA,sha256=yZ54Onw99hrJNRnOzCMjliXC482P3LawbyjX7rAduMY,418
+drivers-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+drivers-0.0.2.dist-info/entry_points.txt,sha256=fZmMJ_F_09bIryEBDLTqxuK7FWDM99UBrmIHH_pMPAk,98
+drivers-0.0.2.dist-info/top_level.txt,sha256=G1PxPlyqz1yFB0G68kEfviD4l0e9nxGQQpnl14C7IQQ,8
+drivers-0.0.2.dist-info/RECORD,,
