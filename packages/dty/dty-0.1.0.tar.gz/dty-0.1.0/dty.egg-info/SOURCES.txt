@@ -1,0 +1,10 @@
+README.md
+setup.py
+dty/__init__.py
+dty/main.py
+dty.egg-info/PKG-INFO
+dty.egg-info/SOURCES.txt
+dty.egg-info/dependency_links.txt
+dty.egg-info/entry_points.txt
+dty.egg-info/requires.txt
+dty.egg-info/top_level.txt
