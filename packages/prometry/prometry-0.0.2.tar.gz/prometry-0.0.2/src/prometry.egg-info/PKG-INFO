@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: prometry
+Version: 0.0.2
+Summary: Library to calculate geometric parameters of protein structures including criteria searches.
+Home-page: https://github.com/pypa/sampleproject
+Author: Rachel Alcraft
+Author-email: rachelalcraft@gmail.com
+Project-URL: Bug Tracker, https://github.com/RachelAlcraft/prometry/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prometry
+A library for calculating protein geometry paramaters with searching based on criteria.
+
+# Create dev environment
+```python3 -m venv .venv```
+
+# Load dev environment
+source .venv/bin/activate  
+```pip install --upgrade pip```  
+```pip install -r requirements.txt --upgrade```  
+
+# release to pypi
+Increment the version in setup.cfg in the project IMPORTANT  
+```python -m build```  
+```python -m twine upload --repository pypi dist/*```  
+The credentials are stored in a settings file  
+Check success https://pypi.org/manage/projects/  
