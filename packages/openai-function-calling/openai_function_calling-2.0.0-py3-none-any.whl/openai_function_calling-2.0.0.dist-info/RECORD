@@ -1,0 +1,11 @@
+openai_function_calling/__init__.py,sha256=e2LyEUxoq6fV6NCM14v_1Z0-A8LCfXkNzDY8ZFZDqOo,464
+openai_function_calling/function.py,sha256=OennjIeXwpSv9dWXwM6uJ4--OnuWwIrD5bE9belF88E,5238
+openai_function_calling/function_inferrer.py,sha256=UNZo1Py3xauoqu0UqTJGWcTLkGF5ahIlqhvfF4BqddE,4759
+openai_function_calling/helper_functions.py,sha256=7PL7d5BhRuy9uIplTa49XeBSObkJW7fo1Hlr5xfVwNo,1132
+openai_function_calling/json_schema_type.py,sha256=Kf798UL3bWNWWn6-A1nsluUcfVINcL1CVwmt3mlWNvY,330
+openai_function_calling/parameter.py,sha256=5Jut28-srq2C4JaJNr12YJEppAIFgvep5qFdO8HrfNI,4779
+openai_function_calling/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openai_function_calling/tool_helpers.py,sha256=NzdLW2l_YLUTriGN_SQSHo-cRolgIqb61JOgSk7hvBc,2194
+openai_function_calling-2.0.0.dist-info/METADATA,sha256=FwJ8QZFCyZbpWTtxwo1sMK9M92IE3Cx0MlLtKLCb1UI,5754
+openai_function_calling-2.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+openai_function_calling-2.0.0.dist-info/RECORD,,
