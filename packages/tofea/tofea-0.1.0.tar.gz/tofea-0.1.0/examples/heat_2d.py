@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+
+import autograd.numpy as np
+import matplotlib.pyplot as plt
+import nlopt
+import scipy.ndimage
+from autograd import value_and_grad
+from autograd.extend import defvjp, primitive
+
+from tofea.fea2d import FEA2D_T
+
+gaussian_filter = primitive(scipy.ndimage.gaussian_filter)
+defvjp(
+    gaussian_filter,
+    lambda ans, x, *args, **kwargs: lambda g: gaussian_filter(g, *args, **kwargs),  # noqa: ARG005
+)
+
+
+def simp_parametrization(shape, sigma, vmin, vmax, penalty=3.0):
+    def _parametrization(x):
+        x = np.reshape(x, shape)
+        x = gaussian_filter(x, sigma)
+        x = vmin + (vmax - vmin) * x**penalty
+        return x
+
+    return _parametrization
+
+
+def main():
+    max_its = 100
+    volfrac = 0.5
+    sigma = 1.0
+    shape = (100, 100)
+    nelx, nely = shape
+    cmin, cmax = 1e-4, 1
+
+    fixed = np.zeros((nelx + 1, nely + 1), dtype="?")
+    load = np.zeros_like(fixed)
+
+    fixed[shape[0] // 2 - 5 : shape[0] // 2 + 5, -1] = 1
+    load[:, 0] = 1
+    load[(0, -1), :] = 1
+
+    fem = FEA2D_T(fixed)
+    parametrization = simp_parametrization(shape, sigma, cmin, cmax)
+    x0 = np.full(shape, volfrac)
+
+    plt.ion()
+    fig, ax = plt.subplots(1, 1, tight_layout=True)
+    im = ax.imshow(parametrization(x0).T, cmap="gray_r", vmin=cmin, vmax=cmax)
+
+    @value_and_grad
+    def objective(x):
+        x = parametrization(x)
+        t = fem.temperature(x, load)
+        return np.mean(t)
+
+    @value_and_grad
+    def volume(x):
+        return np.mean(x)
+
+    def volume_constraint(x, gd):
+        v, g = volume(x)
+        if gd.size > 0:
+            gd[:] = g.ravel()
+        return v - volfrac
+
+    def nlopt_obj(x, gd):
+        v, g = objective(x)
+
+        if gd.size > 0:
+            gd[:] = g.ravel()
+
+        im.set_data(parametrization(x).T)
+        plt.pause(0.01)
+
+        return v
+
+    opt = nlopt.opt(nlopt.LD_MMA, x0.size)
+    opt.add_inequality_constraint(volume_constraint)
+    opt.set_min_objective(nlopt_obj)
+    opt.set_lower_bounds(0)
+    opt.set_upper_bounds(1)
+    opt.set_maxeval(max_its)
+    opt.optimize(x0.ravel())
+
+    plt.show(block=True)
+
+
+if __name__ == "__main__":
+    main()
