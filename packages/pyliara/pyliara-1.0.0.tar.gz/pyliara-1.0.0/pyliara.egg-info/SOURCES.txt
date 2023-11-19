@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+pyliara.egg-info/PKG-INFO
+pyliara.egg-info/SOURCES.txt
+pyliara.egg-info/dependency_links.txt
+pyliara.egg-info/requires.txt
+pyliara.egg-info/top_level.txt
