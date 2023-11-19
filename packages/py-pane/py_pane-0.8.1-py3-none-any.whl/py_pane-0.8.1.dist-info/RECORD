@@ -1,0 +1,16 @@
+pane/__init__.py,sha256=DwM-HYXO3GRmxzaaUogA4LjpBOHeLJyvpdop1QsP-yA,718
+pane/annotations.py,sha256=N2HjK-BD4fren5WRZX4aO4SuKBCsMq19G_Zg5FcIFlA,8311
+pane/classes.py,sha256=5XWmK0nWVnwA16SElmkbssLohK5suUe0iU-OESkRumY,27163
+pane/convert.py,sha256=KyXOq-escL17AT4iUeeRG-qmLFips_BuFy38d7aIqDs,11106
+pane/converters.py,sha256=wdamVtv1lZlnjRrbhZAbk98nxmlWqLAiECWdit2g7qY,44146
+pane/errors.py,sha256=bwzCQsNrH-G-VMTsAG-FyCRD4p-LdCazG0XX34BHf8o,8783
+pane/field.py,sha256=925R0PrkkhsXtJk8fpnFzJUBJ5hD8NOk7HPcvH7giLI,9453
+pane/types.py,sha256=CAuhEMACTPxuPSdshJ7OS7KgRbRTrKdXre6pDJ8XpGE,4845
+pane/util.py,sha256=LN_VHSXS40_Phjhdo3j3eB5kviekQu615nbkxczgvVE,11151
+pane/addons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pane/addons/numpy.py,sha256=K-Vi0iV_SVylCw5BkCPVv_acVp_4_C-ZbNrkUPIzcXo,2940
+py_pane-0.8.1.dist-info/LICENSE.txt,sha256=ZS56aotRtKTYy2qQ6Nwds29zvlY01hscIzqf2LjK-bo,1073
+py_pane-0.8.1.dist-info/METADATA,sha256=lW9DPFxOQ9R3AdUwlgNCmCNbWVICM2QilUWCnxZEoBA,5428
+py_pane-0.8.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+py_pane-0.8.1.dist-info/top_level.txt,sha256=qqTlHeSbEVukbHlA9-NNKFXavFK8wm3B4VkiLDiWwZI,5
+py_pane-0.8.1.dist-info/RECORD,,
