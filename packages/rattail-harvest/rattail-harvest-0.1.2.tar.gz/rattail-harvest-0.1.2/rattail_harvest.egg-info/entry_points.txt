@@ -1,0 +1,8 @@
+[rattail.commands]
+import-harvest = rattail_harvest.commands:ImportHarvest
+
+[rattail.config.extensions]
+rattail_harvest = rattail_harvest.config:RattailHarvestExtension
+
+[rattail.importing]
+to_rattail.from_harvest.import = rattail_harvest.importing.harvest:FromHarvestToRattail
