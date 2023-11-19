@@ -1,0 +1,16 @@
+fathon-1.3.3.post1.dist-info/RECORD,,
+fathon-1.3.3.post1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fathon-1.3.3.post1.dist-info/WHEEL,sha256=cABgpcR3h0cnc4AMuKpjsaE5aw1qSnrxpuJorQio3VM,109
+fathon-1.3.3.post1.dist-info/top_level.txt,sha256=3Ifplgesqf3VWbfwCZHre-9GUCtfHAi1ZuOR9epGhd8,7
+fathon-1.3.3.post1.dist-info/METADATA,sha256=M2s8czPqtV2hUsaTekwkwZlTRvFDlqjvJ7ksSu-SFU4,2059
+fathon/cLoops.h,sha256=hRimElzusPzL3mQsAvyM8Qo0quzbEQCFtqVNEYz3gPk,2611
+fathon/__init__.py,sha256=5w2XMkq-tyNqCqAI9AQLZoqs8d99Mc7BGYgDZ0USmNM,1097
+fathon/ht.cpython-39-darwin.so,sha256=cHvuQX5wC5JrucskHLSOX8FDRSZreFwgu5UnlOZ_e10,229616
+fathon/mfdcca.cpython-39-darwin.so,sha256=nYlnh4PMbh8cyi1d4gSheDhonpDfDbmT80us_tyjJT0,271856
+fathon/mfdfa.cpython-39-darwin.so,sha256=oyQUS3KwybWVidjmmt4VFeIHkVIyld53wPtFaEz59Ns,269680
+fathon/dfa.cpython-39-darwin.so,sha256=lJNnzbU01Aukt4Xlq9IOgFX6sQ8OnCEEafRVO-mKClk,249152
+fathon/fathonUtils.py,sha256=IVBU6I-KBGkuecWH1pWQFiR1qWN3hJZmUaxeyE4GvlU,4609
+fathon/dcca.cpython-39-darwin.so,sha256=qn_hB2GCWV3Q5Ovtvwui4Th-Lh_73uJglhsb4fhWlfg,345104
+fathon/.dylibs/libgsl.27.dylib,sha256=MKhLRcIb2saSloVtTVL4JMrLaR9pfKamqISiGmeWwbs,2283856
+fathon/.dylibs/libgslcblas.0.dylib,sha256=yFRJMBmMpHFSFpKOscfi0fwmzoFVi8yB_SZoNjYurPE,256240
+fathon/.dylibs/libgomp.1.dylib,sha256=PRlflXJvc90uXMs0GyaPAR1zzZkeQaGpKsC1IFApW68,416368
