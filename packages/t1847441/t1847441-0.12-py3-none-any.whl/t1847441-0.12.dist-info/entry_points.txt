@@ -1,0 +1,2 @@
+[console_scripts]
+t1847441 = __main__:main
