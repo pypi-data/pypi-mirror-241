@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygna2"
+version = "0.3.13" # Don't forget to match with version.py and docs/source/conf.py
+authors = [
+    { name="Anthony Aylward", email="aaylward@salk.edu" },
+]
+description = "Geneset Network Analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "numpy<1.20",
+    "pygna"
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/salk-tm/pygna2"
+"Documentation" = "https://salk-tm.gitlab.io/pygna2"
+
+[project.scripts]
+pygna2 = "pygna2.pygna2:main"
+
+[tool.setuptools]
+package-dir = {pygna2="src/pygna2"}
