@@ -1,0 +1,12 @@
+-r common.in
+-r test.in
+
+# Text extraction
+tika
+
+# Data augmentation
+nlpaug
+nltk
+textaugment
+torch
+transformers
