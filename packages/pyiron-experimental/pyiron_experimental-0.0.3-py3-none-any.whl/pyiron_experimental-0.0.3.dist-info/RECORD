@@ -1,0 +1,10 @@
+pyiron_experimental/__init__.py,sha256=4ou-BA20q0CLd6kjmnZYs4ORKiH1wDugwmvmAj-nwgw,447
+pyiron_experimental/_version.py,sha256=TkKkq84V7nSRIGrkzS2lvghYnApVMDSE4rlimHEMCNg,24648
+pyiron_experimental/image_proc.py,sha256=VL8izhQndBkjCLsCE0nw1-_9aeB30qB2Bvq_chqR2bc,17235
+pyiron_experimental/matchseries.py,sha256=fYiqIvqMEAVQvg2eHB8JeP_z3YDp7QJ3jzsABVoFAoU,2637
+pyiron_experimental/tem_analysis.py,sha256=M9HQMhQHTZ7GQkzkvSAZO-mdH0PFkWLgDMLSp4-KpNA,17004
+pyiron_experimental-0.0.3.dist-info/LICENSE,sha256=8s0cm6PZwKBOLqHjX61ku4c818fIjvi82dBiwSOEqno,1593
+pyiron_experimental-0.0.3.dist-info/METADATA,sha256=Ud9MOPQm6Xm_UfiYRO6Wcric1xC17TuhmFZSAnolWoc,943
+pyiron_experimental-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyiron_experimental-0.0.3.dist-info/top_level.txt,sha256=5krDshjTwNyZk2ddgHwIQSIy7Cg9IO0EbJQihJIRAxY,20
+pyiron_experimental-0.0.3.dist-info/RECORD,,
