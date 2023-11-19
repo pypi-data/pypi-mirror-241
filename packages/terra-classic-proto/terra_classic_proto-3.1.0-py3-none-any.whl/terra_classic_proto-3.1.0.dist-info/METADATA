@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: terra-classic-proto
+Version: 3.1.0
+Summary: The Python Protobuf implementation for Terra Classic
+Home-page: https://github.com/geoffmunn/terra.proto
+License: MIT
+Keywords: jigu,blockchain,defi,crypto,terra,terra classic,luna classic,luna classic sdk,terra classic sdk
+Author: Geoff Munn
+Author-email: geoff@zimoobo.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: betterproto (==2.0.0b4)
+Project-URL: Repository, https://github.com/geoffmunn/terra.proto
+Description-Content-Type: text/markdown
+
+# Python implementation for terra.proto
+
+This is a version of terra.proto which specifically supports Terra Classic.
+
+It is intended to be a drop-in replacement for terra.proto - it will install itself as terra.proto.
+
+This is required if you are using the Terra Classic SDK.
+
+
+
+Alternative options to this library can be found here:
+- GoLang [Terra Core](https://github.com/terra-money/core) clients, 
+- JavaScript [@terra-money/terra.proto](https://www.npmjs.com/package/@terra-money/terra.proto/),
+- Rust [terra-proto-rs](https://crates.io/crates/terra-proto-rs).
