@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: suspycious
+Version: 0.1.0a0
+Summary: Python client library for the Sus protocol
+Home-page: https://github.com/romirk/suspycious
+Author: Romir Kulshrestha
+Author-email: romir.kulshrestha@gmail.com
+Requires-Python: >=3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: System :: Networking
+Classifier: Typing :: Typed
+Requires-Dist: blake3 (>=0.3.3,<0.4.0)
+Requires-Dist: cryptography (>=41.0.5,<42.0.0)
+Project-URL: Bug Tracker, https://github.com/romirk/suspycious/issues
+Project-URL: Repository, https://github.com/romirk/suspycious
+Description-Content-Type: text/markdown
+
+# suspycious
+Python implementation of the Sus protocol
+
