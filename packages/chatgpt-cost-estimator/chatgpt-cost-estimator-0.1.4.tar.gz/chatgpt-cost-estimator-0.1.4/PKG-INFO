@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chatgpt-cost-estimator
+Version: 0.1.4
+Summary: A cost estimation tool for your ChatGPT Plus conversation history.
+Home-page: https://github.com/npollock14/ChatGPT-Cost-Estimator
+Author: Nathan Pollock
+Author-email: ndpollock@wpi.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+License-File: LICENSE
