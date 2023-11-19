@@ -1,0 +1,10 @@
+qrpy/__init__.py,sha256=hdBLemxNwS_MspS27Cr-U6QDXRh7GcoNHjDMgr-sya0,2347
+qrpy/__main__.py,sha256=JjPrX93QXfdhHcr2i2WbwQEr74wTyNlFkPYvosdmB44,116
+qrpy/decoder.py,sha256=-zW_o08LayaZqCrzC4vH12S5dg5BYMRdaF-7DzQmCAE,453
+qrpy/encoder.py,sha256=0wEkRm89x09421PEFpeStEGWo43Ak5wRTlrpu1Gw9ig,339
+qrpy-0.1.0.dist-info/LICENSE,sha256=P64mni60Vyad6G5El5dv0oQss5Ox-lnr3gKE6w3_6sA,1090
+qrpy-0.1.0.dist-info/METADATA,sha256=yDmifrN2DJ-81wrYaoRc64XkmI1fKDzj1pDX_1dMn-Y,1627
+qrpy-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+qrpy-0.1.0.dist-info/entry_points.txt,sha256=Imf6t4TGy3yzdviKhvQteYNNJYAKIwrhFbYNiGhwyfI,35
+qrpy-0.1.0.dist-info/top_level.txt,sha256=OnuuF6vAcMOrwz34c5WgDKBtNEeFCLHrDjyDDoom4lU,5
+qrpy-0.1.0.dist-info/RECORD,,
