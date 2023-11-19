@@ -1,0 +1,3 @@
+[console_scripts]
+pytata=py_tata.cli.app:app
+
