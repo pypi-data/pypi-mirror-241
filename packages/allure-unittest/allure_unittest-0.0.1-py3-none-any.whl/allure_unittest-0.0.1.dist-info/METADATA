@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: allure-unittest
+Version: 0.0.1
+Summary: unittest Allure integration
+Author-email: Sun Young <hu7433438@sohu.com>
+Project-URL: Homepage, https://github.com/hu7433438/allure-unittest
+Project-URL: Bug Tracker, https://github.com/hu7433438/allure-unittest/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Plugins
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: allure-python-commons
+
+# allure-unittest
+
+unittest Allure integration
+
+```python
+import unittest
+from allure_unittest import Run
+
+suit = unittest.defaultTestLoader.loadTestsFromTestCase(unittest.TestCase)
+Run('allure_report_source_path', suit, clean=True)
+```
