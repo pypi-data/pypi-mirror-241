@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+stargan_pytorch.egg-info/PKG-INFO
+stargan_pytorch.egg-info/SOURCES.txt
+stargan_pytorch.egg-info/dependency_links.txt
+stargan_pytorch.egg-info/top_level.txt
