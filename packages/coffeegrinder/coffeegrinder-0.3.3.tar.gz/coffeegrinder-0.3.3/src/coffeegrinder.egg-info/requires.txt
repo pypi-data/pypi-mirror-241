@@ -1,0 +1,24 @@
+numpy
+h5py
+scipy
+matplotlib
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[JAX]
+jax
+jaxlib
+
+[MPI]
+mpi4py
+
+[MPI-JAX]
+mpi4py
+jax
+jaxlib
+
+[testing]
+setuptools
+pytest
+pytest-cov
