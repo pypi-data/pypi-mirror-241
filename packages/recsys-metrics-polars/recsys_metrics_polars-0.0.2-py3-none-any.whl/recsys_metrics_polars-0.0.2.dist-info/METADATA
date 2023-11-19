@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: recsys-metrics-polars
+Version: 0.0.2
+Summary: A pyhon package for computing recomendations metrics based on polars dataframes
+Home-page: https://github.com/KernelA/recsys-metrics-polars
+License: MIT
+Author: KernelA
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: polars (>=0.19,<0.20)
+Project-URL: Bug Tracker, https://github.com/KernelA/recsys-metrics-polars/issues
+Project-URL: Repository, https://github.com/KernelA/recsys-metrics-polars
+Description-Content-Type: text/markdown
+
+# recsys-metrics-polars
+
+## Description
+
+Python library for computing some metrics for recomendations systems based on [polars](https://www.pola.rs/)
+
+Available metrics:
+* Precision at k
+* Recall at k
+* Average precision at k
+* Mean average precision
+
+[Documentation](https://kernela.github.io/recsys-metrics-polars/_autosummary/recsys_metrics_polars.data_info.html#module-recsys_metrics_polars.data_info)
+
+## Requirements
+
+1. Python 3.9 or higher.
+
+## How to run
+
+1. [Install poetry](https://python-poetry.org/docs/#installation)
+2. [Install poetry-version-plugin](https://pypi.org/project/poetry-version-plugin/)
+
+Install dependencies:
+```
+poetry install --only main --no-root
+```
+
+For development:
+```
+poetry install --only main,dev --no-root
+```
+
+For docs:
+```
+poetry install --only main,dev,doc --no-root
+```
+
+## Tests
+
+```
+pytest ./tests
+```
+
