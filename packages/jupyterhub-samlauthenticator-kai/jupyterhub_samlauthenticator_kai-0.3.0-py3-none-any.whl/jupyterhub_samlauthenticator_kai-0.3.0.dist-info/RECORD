@@ -1,0 +1,8 @@
+samlauthenticator/__init__.py,sha256=CAiJ33_YMZla5OewgBFF8B0CPLkcAzHK9oMrr932JRA,83
+samlauthenticator/samlauthenticator.py,sha256=zkaXimYp6aVZs5VVf5g-uEOsKxgOn3HGwDdOHxOmQl8,8488
+tests/test_samlauthenticator.py,sha256=8s6-mZ90yCichv_wNzt0C0ytdoMXyp4lBzh0-_XKvJ4,204
+jupyterhub_samlauthenticator_kai-0.3.0.dist-info/LICENSE.txt,sha256=lQKuG3_g2xVdQR_6xx-58aLCaFOUj4OiVzGPLLmOKGg,2202
+jupyterhub_samlauthenticator_kai-0.3.0.dist-info/METADATA,sha256=42lmmheTaKYltASX6mGHzZ-su8T_7k1LZLMCI4Xh_3Q,519
+jupyterhub_samlauthenticator_kai-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jupyterhub_samlauthenticator_kai-0.3.0.dist-info/top_level.txt,sha256=IsOIkiu_gSVaFU_AFnnJ8So9U1Q89qIgkmQeg4zzeRE,24
+jupyterhub_samlauthenticator_kai-0.3.0.dist-info/RECORD,,
