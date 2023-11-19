@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: systemd-watchdog-thread
+Version: 1.0
+Summary: Send sd_notify messages in a thread
+Author: Gerard
+Author-email: gweatherby@uchc.edu
+License: MIT license
+Project-URL: Homepage, https://github.com/NMRhub/systemd-watchdog-thread
+Project-URL: Issues, https://github.com/NMRhub/systemd-watchdog-thread/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sdnotify
+
+# systemd-watchdog-thread
+Runs [systemd](https://en.wikipedia.org/wiki/Systemdwatchdog) notifies in thread.
+
+When *run()* is called it sends the READY message to systemd and then
+sends WATCHDOG messages at one-half the interval set by the WATCHDOG_USEC
+environment variable.
+
+It runs as a daemon [thread](https://docs.python.org/3/library/threading.html#thread-objects),
+so it will exit when the main program exits.
+
+## usage
+
+    wdt = WatchdogThread()
+    t = wdt.run()
+
+## testing
+*finish()* may be called to stop sending READY messages. This is provided to test
+the systemd watchdog functionality.

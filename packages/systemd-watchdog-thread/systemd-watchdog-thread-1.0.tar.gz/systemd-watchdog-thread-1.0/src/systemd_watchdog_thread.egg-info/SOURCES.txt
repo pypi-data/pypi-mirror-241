@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/systemd_watchdog_thread/__init__.py
+src/systemd_watchdog_thread/watchdogthread.py
+src/systemd_watchdog_thread.egg-info/PKG-INFO
+src/systemd_watchdog_thread.egg-info/SOURCES.txt
+src/systemd_watchdog_thread.egg-info/dependency_links.txt
+src/systemd_watchdog_thread.egg-info/requires.txt
+src/systemd_watchdog_thread.egg-info/top_level.txt
+tests/testnotifier.py
