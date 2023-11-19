@@ -1,0 +1,9 @@
+docs/build
+docs/source/swgo*.rst
+docs/source/generated/
+swgo/_version.py
+
+__pycache__/
+*.py[cod]
+*.egg-info
+.pytest_cache
