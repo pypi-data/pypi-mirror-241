@@ -1,0 +1,16 @@
+fathon-1.3.3.post1.dist-info/RECORD,,
+fathon-1.3.3.post1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fathon-1.3.3.post1.dist-info/WHEEL,sha256=1K25WgJ_KyfvTx-UW0AtTToB1lRjnG-GzH7SmFlnRPw,111
+fathon-1.3.3.post1.dist-info/top_level.txt,sha256=3Ifplgesqf3VWbfwCZHre-9GUCtfHAi1ZuOR9epGhd8,7
+fathon-1.3.3.post1.dist-info/METADATA,sha256=M2s8czPqtV2hUsaTekwkwZlTRvFDlqjvJ7ksSu-SFU4,2059
+fathon/cLoops.h,sha256=hRimElzusPzL3mQsAvyM8Qo0quzbEQCFtqVNEYz3gPk,2611
+fathon/dfa.cpython-311-darwin.so,sha256=qBGiVF0QOBNgzy1kzE_ZRGh5JNtsQqv1SW7kyKRzUZI,249408
+fathon/mfdcca.cpython-311-darwin.so,sha256=OsSw3R6thnheabjtkZP6YRJvCPfllshLWE0t3SRcV-E,272256
+fathon/__init__.py,sha256=5w2XMkq-tyNqCqAI9AQLZoqs8d99Mc7BGYgDZ0USmNM,1097
+fathon/ht.cpython-311-darwin.so,sha256=tQ_gqENecZ_eOqImk7Fqk26vptwbEr7q9nBXy9opdVI,230064
+fathon/mfdfa.cpython-311-darwin.so,sha256=GvtVN4VuwyEELeZFTeIAYyf6T1f1WuagNrdrtP8SsuA,270064
+fathon/fathonUtils.py,sha256=IVBU6I-KBGkuecWH1pWQFiR1qWN3hJZmUaxeyE4GvlU,4609
+fathon/dcca.cpython-311-darwin.so,sha256=60YcXuiDqS1rVONcjVK6mYyd5N3mv9S2MpreGc7fE3c,345376
+fathon/.dylibs/libgsl.27.dylib,sha256=MKhLRcIb2saSloVtTVL4JMrLaR9pfKamqISiGmeWwbs,2283856
+fathon/.dylibs/libgslcblas.0.dylib,sha256=yFRJMBmMpHFSFpKOscfi0fwmzoFVi8yB_SZoNjYurPE,256240
+fathon/.dylibs/libgomp.1.dylib,sha256=PRlflXJvc90uXMs0GyaPAR1zzZkeQaGpKsC1IFApW68,416368
