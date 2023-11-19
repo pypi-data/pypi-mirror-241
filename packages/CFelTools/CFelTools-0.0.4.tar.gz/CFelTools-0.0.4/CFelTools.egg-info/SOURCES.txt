@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+CFelTools.egg-info/PKG-INFO
+CFelTools.egg-info/SOURCES.txt
+CFelTools.egg-info/dependency_links.txt
+CFelTools.egg-info/requires.txt
+CFelTools.egg-info/top_level.txt
+tools/LIBzek.py
+tools/LIBzx.py
+tools/__init__.py
