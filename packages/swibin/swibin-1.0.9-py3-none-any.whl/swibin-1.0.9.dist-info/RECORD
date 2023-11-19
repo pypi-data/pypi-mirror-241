@@ -1,0 +1,14 @@
+swibin/CreateGraph.py,sha256=9GnOim-V1KbtmoRaBJjTZ-LwYVwd6oA-xI1Ko2DAL8E,955
+swibin/__init__.py,sha256=sUIi5woURtTLqaVaQSKWMHMJydTvfHKPN4MNYg2v0xM,66
+swibin/cli.py,sha256=oWuqSt15mrK3tKLXIwjX8K3-aJ7xCntvOjrWF9NggNU,2982
+swibin/color.py,sha256=zfdV_B-gSo9_DRAnIHxJgoJsVzItmMAaOmZ4TqJ3eqE,897
+swibin/describe_error.py,sha256=8G-P3UT1k0GBJi1mnfTPnSxwmg2fadM3KZX6Ac-Q9Zo,2002
+swibin/get_openai_key.py,sha256=pn1m7p4iccFtr5BrJD6QnOfbObktJZL_hrwDUiEaRu0,459
+swibin/version.py,sha256=lFohcdMk8DViWSfrTasSRt9RPcMXfTvmskn8IZQNlws,21
+swibin/wrapper.py,sha256=OmI-eeeD8AE4LZc8Oc-JfWNVgQRjb43RNbMmLIKLyoQ,294
+swibin-1.0.9.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swibin-1.0.9.dist-info/METADATA,sha256=_VzNRa48GcdF_4NlU5sNAXf6DB_XvIXVuNAt69ZqLog,399
+swibin-1.0.9.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+swibin-1.0.9.dist-info/entry_points.txt,sha256=3uJyXc_2RQqbRg3xdM2_68B-ixVvJFA5huBQdPFy1JU,43
+swibin-1.0.9.dist-info/top_level.txt,sha256=CFe38gJugcwAZI_8C5wIjWfVvbCFy83dcM7-_eN8u30,7
+swibin-1.0.9.dist-info/RECORD,,
