@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: DiscSelfEasy
+Version: 0.2
+Summary: Makes discord self boting easy!
+Home-page: https://github.com/Cybreak/Disc-Self-Easy/tree/main
+Author: Cybreak
+Author-email: cybreak@cybreak.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a tool to make discord self botting much easier
