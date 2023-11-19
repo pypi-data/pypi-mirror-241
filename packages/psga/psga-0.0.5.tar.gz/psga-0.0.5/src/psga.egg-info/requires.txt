@@ -1,0 +1,12 @@
+PySimpleGUI
+typing_extensions
+
+[test]
+isort
+black
+pylint
+pytest
+pytest-mock
+pytest-cov
+build
+twine
