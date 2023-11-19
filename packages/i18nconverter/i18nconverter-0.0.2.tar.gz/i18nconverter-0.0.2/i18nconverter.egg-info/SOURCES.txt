@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+i18nconverter/__init__.py
+i18nconverter/main.py
+i18nconverter/utils_google.py
+i18nconverter.egg-info/PKG-INFO
+i18nconverter.egg-info/SOURCES.txt
+i18nconverter.egg-info/dependency_links.txt
+i18nconverter.egg-info/entry_points.txt
+i18nconverter.egg-info/requires.txt
+i18nconverter.egg-info/top_level.txt
+i18nconverter/converters/__init__.py
+i18nconverter/converters/gspreadsheet_to_json.py
+i18nconverter/converters/json_to_kv.py
+i18nconverter/converters/kv_to_gspreadsheet.py

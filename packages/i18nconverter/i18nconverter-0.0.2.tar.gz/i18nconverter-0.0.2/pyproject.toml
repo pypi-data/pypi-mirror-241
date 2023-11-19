@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "i18nconverter"
+version = "0.0.2"
+description = "A CLI application for managing i18n Json files."
+readme = "README.md"
+authors = [{ name = "Andrea Carmisciano", email = "andrea.carmisciano@gmail.com" }]
+dynamic = ["dependencies"]
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/acarmisc/i18n-json-spreadsheet"
+"Source" = "https://github.com/acarmisc/i18n-json-spreadsheet"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["i18nconverter*"]
+exclude = ["res", "venv"]
+
+[project.scripts]
+i18nconverter = "i18nconverter.main:cli"
