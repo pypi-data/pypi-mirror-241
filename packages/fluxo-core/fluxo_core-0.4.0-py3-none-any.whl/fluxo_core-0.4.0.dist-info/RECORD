@@ -1,0 +1,15 @@
+fluxo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluxo/fluxo.py,sha256=Gl0iww5cmhVsHv7jZh6CmnzbdCN12k539V4SRhAysCU,548
+fluxo/init.py,sha256=C1fj2UoBP9fhCK2Bp4ZUPNhbHvAg7ZPNdRCdwA_x7is,2044
+fluxo/scheduler.py,sha256=Xxla2bS9fhutlfxmMZjb3P4kQ7xQyDl1F7kc5D8ZRUY,1532
+fluxo/settings.py,sha256=pvLnblQlRNaADnNWfhFjIfkIjnd3S8CsB1ovjuXZ9xw,385
+fluxo/task.py,sha256=CVtJspGWXg02OlyZaRXh2Jq2mw2jLm_hXHWxHe0KvNA,5571
+fluxo/utils.py,sha256=EWDqQvVBrLsTX73FpavNx-8G_m0rRHXL0a2bGLxGZq0,1080
+fluxo/database/db.py,sha256=HLu05Mz6GyO2TqklH-LVHw2m-L_LuFHw91MBOPTLFZQ,2156
+fluxo/database/fluxo.py,sha256=f8KSa4Q1-yvPfJRyI8HtJPxn-1K0HiFO9Xhw815xbaA,5126
+fluxo/database/task.py,sha256=DjWCHJANt5StL9qOgvVXg5iFq0B1aHNJ3pCvyf6CLJc,7250
+fluxo_core-0.4.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+fluxo_core-0.4.0.dist-info/METADATA,sha256=rXU2DDy6tIC8Mi5VF7WB6_e_kEQkShaEELftSQNmMqs,2237
+fluxo_core-0.4.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fluxo_core-0.4.0.dist-info/top_level.txt,sha256=BD2OvVyk2blhfP2pdu1lAVHmrLOFQj5Se-xAi5PAoCE,6
+fluxo_core-0.4.0.dist-info/RECORD,,
