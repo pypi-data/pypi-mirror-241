@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: qrpy
+Version: 0.1.0
+Summary: Encode and Decode basic QR codes
+License: MIT
+Project-URL: Homepage, https://github.com/bradenhilton/qrpy
+Project-URL: Repository, https://github.com/bradenhilton/qrpy
+Keywords: qr,qrcode,encode,decode
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: pyzbar
+Requires-Dist: qrcode
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: types-Pillow; extra == "dev"
+
+# qrpy
+
+<p align="center">
+    <img width="150" height="150" alt="A QR code"
+    src="https://raw.githubusercontent.com/bradenhilton/qrpy/main/.assets/QR.png">
+</p>
+
+qrpy is a simple command-line program capable of encoding and decoding basic QR codes.
+
+## Installation
+
+```console
+pip install qrpy
+```
+
+Note: You may need to additionally install zbar, as outlined in the
+[installation steps](https://github.com/NaturalHistoryMuseum/pyzbar/tree/master#installation)
+for pyzbar.
+
+## Examples
+
+```console
+❯ qrpy encode --input "Hello world" --output "hello.png"
+```
+
+```console
+❯ qrpy decode --input "hello.png"
+Hello world
+```
+
+Omitting `--output` when encoding will print the QR code to the console.

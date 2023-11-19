@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+qrpy/__init__.py
+qrpy/__main__.py
+qrpy/decoder.py
+qrpy/encoder.py
+qrpy.egg-info/PKG-INFO
+qrpy.egg-info/SOURCES.txt
+qrpy.egg-info/dependency_links.txt
+qrpy.egg-info/entry_points.txt
+qrpy.egg-info/requires.txt
+qrpy.egg-info/top_level.txt

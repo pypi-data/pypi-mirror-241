@@ -1,0 +1,8 @@
+Pillow
+pyzbar
+qrcode
+
+[dev]
+mypy
+ruff
+types-Pillow

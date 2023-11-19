@@ -1,0 +1,79 @@
+[project]
+name = "qrpy"
+version = "0.1.0"
+description = "Encode and Decode basic QR codes"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["qr", "qrcode", "encode", "decode"]
+license = { text = "MIT" }
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Utilities",
+]
+dependencies = ["Pillow", "pyzbar", "qrcode"]
+
+[project.urls]
+Homepage = "https://github.com/bradenhilton/qrpy"
+Repository = "https://github.com/bradenhilton/qrpy"
+
+[project.optional-dependencies]
+dev = ["mypy", "ruff", "types-Pillow"]
+
+[project.scripts]
+qrpy = "qrpy:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.mypy]
+python_version = "3.8"
+
+[[tool.mypy.overrides]]
+module = "pyzbar.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "qrcode.*"
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 79
+ignore = ["ANN101", "ANN102"]
+
+[tool.ruff.lint]
+select = [
+    "A",
+    "B",
+    "C",
+    "E",
+    "F",
+    "I",
+    "N",
+    "Q",
+    "W",
+    "ANN",
+    "ARG",
+    "COM",
+    "FA",
+    "PL",
+    "PTH",
+    "SIM",
+    "TCH",
+    "UP",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "pep621"
+major_version_zero = true
