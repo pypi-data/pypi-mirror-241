@@ -1,0 +1,10 @@
+statman/__init__.py,sha256=Uh3zw2E-kV-mOfZ8TlKPN0UA06Gb02fBsBihSod3UzM,151
+statman/gauge.py,sha256=RNZdKMd-CY2F1dh5bIWgDr09-Z2VEIolveuyH65yoAQ,848
+statman/history.py,sha256=2gijiBIvjgyqgKRsxvpb9A_IHoVeFInqco2owXK08mU,1809
+statman/statman.py,sha256=W2GUxAruVe8gtF_0qb4Lnz0N0qU_wUePIz0p6TpQxGs,1678
+statman/stopwatch.py,sha256=sVwaPKI74pbmC_JQYX3YJjDLMa_oadj7lmYX-_BaA4k,2661
+statman-1.0.0.dist-info/LICENSE,sha256=3xn73_Waa9GpeFqrTCLOqD7_xwjUOtfWb7JEwzs2vjw,1066
+statman-1.0.0.dist-info/METADATA,sha256=Tz32sKq_CIdt3RXCnCbcz1jGb7Hbb_Oq0vVnLHHI4Dc,5498
+statman-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+statman-1.0.0.dist-info/top_level.txt,sha256=mLykKcayiuWrF0HdNBzubvhwwg-7KxI-tVDoZnTTa6g,8
+statman-1.0.0.dist-info/RECORD,,
