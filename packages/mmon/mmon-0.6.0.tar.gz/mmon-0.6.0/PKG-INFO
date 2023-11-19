@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: mmon
+Version: 0.6.0
+Summary: A customizable chat bot.
+Project-URL: homepage, https://github.com/iaalm/mmon
+Project-URL: repository, https://github.com/iaalm/mmon
+Author-email: iaalm <iaalmsimon@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Requires-Dist: langchain>=0.0.271
+Requires-Dist: loguru
+Requires-Dist: openai<1.0,>=0.27.9
+Description-Content-Type: text/markdown
+
+# mmon 
+A customizable chat bot.
+
+## Install
+```bash
+pip install -U mmon
+```
+
+Set environment variable in your `~/.bashrc`, `~/.zshrc`, etc.
+```bash
+export OPENAI_API_KEY=sk~XXXXXXXX
+```
+Or, to use Azure OpenAI endpoint, set following environment variable:
+```bash
+export OPENAI_API_KEY=XXXXXXXXXX
+export OPENAI_API_BASE=https://XXXXXX.openai.azure.com/
+export OPENAI_API_TYPE=azure
+export OPENAI_API_VERSION=2023-07-01-preview
+# Use a deploymetn of gpt-3.5-turbo or gpt-4 with version 0613 or later
+export MMON_DEPLOYMENT=gpt-35-turbo-16k
+```
+
+## Usage
+```bash
+python -m mmon
+# or
+mmon
+```
