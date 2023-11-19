@@ -1,0 +1,11 @@
+py_fast_grpc/__init__.py,sha256=zxaa5_AFeitz5jp75XLUKQ0WBbreD2h4g896rW5hXzs,76
+py_fast_grpc/app.py,sha256=bbMVZHSyGk-brQLoyHua-AxAYEf8jCLuQpnMWN1DjqY,1110
+py_fast_grpc/proto/__init__.py,sha256=sc_1RMyahQAwIWCwlTYLWI-YqbNgRCKYRYa2gnYhxYc,151
+py_fast_grpc/proto/enums.py,sha256=3iKhmiAUu0R-D2q0J5Iw_8Sz-olw7CDwH5jLjjPH6CI,571
+py_fast_grpc/proto/models.py,sha256=M8ILk-FrKjBiVRZnKHBnELocD07MRT6KXP6ras8kcvg,407
+py_fast_grpc/proto/templates/service.proto,sha256=mgANt6_EiDMrIAUDo_dZSKqc_oaCAjOdeHpt3e9wD-k,521
+py_fast_grpc/proto/utils.py,sha256=zrhGNSnQYFWWvNHuNAyreEvOuHYFxw3KQBciDMVc73A,1576
+py_fast_grpc/service.py,sha256=Cu1bWhKPukyXYoHIyjFvTpwf-uD_tgFifaYRrRB78zI,3431
+py_fast_grpc-0.1.0.dist-info/METADATA,sha256=vp3gAOcCkayaw1T0owluUCJ6FHpBovbfFdxRzYNSxSM,1275
+py_fast_grpc-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+py_fast_grpc-0.1.0.dist-info/RECORD,,
