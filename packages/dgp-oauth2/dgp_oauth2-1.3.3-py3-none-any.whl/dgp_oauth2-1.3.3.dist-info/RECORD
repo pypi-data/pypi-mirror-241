@@ -1,0 +1,17 @@
+dgp_oauth2/VERSION,sha256=pbg4E5bSWOYbKrcebHaTPc25w2I4kZ1HI9h4zfIedp8,5
+dgp_oauth2/__init__.py,sha256=CrvknpxpV5_rNZb_RpxzXkGrD4HW0ZHUv1rI02XOHV4,63
+dgp_oauth2/blueprint.py,sha256=tZYLwlHbBG-pJRL-8mD_oTqkDk8woYUEK9xnWqNzlHg,3789
+dgp_oauth2/controllers.py,sha256=Lc_GNUcXVR5HVPh-hQE6YgjH0aL-RBq4EFceHkfAenw,13966
+dgp_oauth2/credentials.py,sha256=Z4L4gXRfoXwMVAEYkyFfIz2p5fj2epWLPFjE3iMrQ-M,1029
+dgp_oauth2/extensions.py,sha256=xQbIZ3kurq3Zw9Uny7pSnwVlkwv3nBgLkswJx_qbft4,739
+dgp_oauth2/lib.py,sha256=3qpWKobm7vkEeWmlVG1GvewGyJQXmoXj4rFMW3ZZmlg,740
+dgp_oauth2/logger.py,sha256=A1_-FtFzpeYhlF94R9tGrQ4QtKEHsd7c_nhr9kGzlHo,331
+dgp_oauth2/models.py,sha256=zDQLdqegH1pQSQcNECniUNxWtq7kX33lEZrUvisiquk,4183
+dgp_oauth2/permissions.py,sha256=cRQTYMGSil9kz-E_wr6ZIDis_zwYrBdwfevzUlJvXKQ,608
+sample_extension/__init__.py,sha256=7N4JZeLPD5ivQpNI8vyVccrSjXyR2s_kwn1tzqfEjCA,206
+sample_permission_provider/__init__.py,sha256=ylYya0Ue1gbj5TSDs6ADZmXYxEVmwUFu-Sl_0JWUfFo,114
+dgp_oauth2-1.3.3.dist-info/LICENSE,sha256=IGwoRxegaipvIfmzWNum2RADTEmmOok9KVSA0odh-6c,1143
+dgp_oauth2-1.3.3.dist-info/METADATA,sha256=7MMpuJmfutWIjFqU0KZxFVw5ybs1IW4uSYXf4dWprx8,4940
+dgp_oauth2-1.3.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dgp_oauth2-1.3.3.dist-info/top_level.txt,sha256=vNwlhxyy2GBSjZI6Fvl_7OyyPRwZefy9jprkZSPv8zo,55
+dgp_oauth2-1.3.3.dist-info/RECORD,,
