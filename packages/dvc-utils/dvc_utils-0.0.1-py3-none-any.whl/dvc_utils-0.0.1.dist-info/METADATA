@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dvc-utils
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: utz
+
