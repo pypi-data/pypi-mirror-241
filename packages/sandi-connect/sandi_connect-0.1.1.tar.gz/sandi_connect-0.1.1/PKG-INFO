@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sandi_connect
+Version: 0.1.1
+Summary: Librería para conectar a un broker MQTT utilizando WebSockets
+Home-page: https://github.com/C-SESLAB/sandi_connect
+Author: Luis Gonzalez
+Author-email: luis.gonzalez.pi@usach.cl
+Keywords: mqtt websocket library UDP PMU
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+Aquí puedes proporcionar una descripción más detallada de tu librería y su funcionalidad.

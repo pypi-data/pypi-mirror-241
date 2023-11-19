@@ -1,0 +1,3 @@
+paho-mqtt
+crcmod
+python-dotenv
