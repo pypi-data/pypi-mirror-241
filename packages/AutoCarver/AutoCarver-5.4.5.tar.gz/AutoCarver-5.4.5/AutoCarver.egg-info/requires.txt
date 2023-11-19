@@ -1,0 +1,10 @@
+pandas>=2.1
+numpy
+scipy
+scikit-learn
+statsmodels
+tqdm
+
+[jupyter]
+ipython
+matplotlib
