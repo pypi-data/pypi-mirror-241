@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: icodeapi
+Version: 1.0.3.5
+Summary: The second generation of IcodeYoudao API framework.
+Author: xbzstudio
+Author-email: mmmhss2022@outlook.com
+License: MIT Licence
+Project-URL: Homepage, https://github.com/xbzstudio/icodeapi
+Project-URL: Documentation, https://xbzstudio.github.io/_book/
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx >=0.25.0
+Requires-Dist: aiofiles >=23.2.1
+Requires-Dist: urllib3 >=2.0.7
+
+## icodeapi, the The second generation of IcodeYoudao API framework.  
+**More powerful and Faster than [TuringAPI](https://github.com/xbzstudio/TuringAPI) and TuringIO.**  
+icodeapi is easy to use, and it supports for sync and async.  
+```python
+from icodeapi import *
+import asyncio
+cookie = input('Enter cookie: ')
+syncAPI = IcodeAPI(cookie = cookie)
+print(syncAPI.updateIntro('hello, icodeapi!'))
+asyncAPI = AsyncIcodeAPI(cookie = cookie)
+
+async def main(api : AsyncIcodeAPI):
+    await api.login()
+    print(await api.updateIntro('hello, async icodeapi!'))
+    await api.closeClient()
+
+asyncio.run(main(asyncAPI))
+```  
+Use icodeapi to build your server  
+```python
+import icodeapi
+from icodeapi import server
+cookie = input("Enter cookie: ")
+api = icodeapi.AsyncIcodeAPI(cookie = cookie)
+Server = server.IcodeServer(api = api)
+@Server.CheckMessage()
+async def AutoReply(userId, bot):
+    try:
+        await bot.fastReply(userId, 'Hello world!')
+    except AssertionError:
+        pass
+server.RunServer(Server)
+```  
+Use pip to install  
+```
+pip install icodeapi
+```  
+[Documentation](https://xbzstudio.github.io/_book)  
+[Github](https://github.com/xbzstudio/icodeapi)
