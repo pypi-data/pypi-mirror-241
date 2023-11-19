@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+odin_slides/__init__.py
+odin_slides/llm_ops.py
+odin_slides/main.py
+odin_slides/presentation.py
+odin_slides/utils.py
+odin_slides.egg-info/PKG-INFO
+odin_slides.egg-info/SOURCES.txt
+odin_slides.egg-info/dependency_links.txt
+odin_slides.egg-info/entry_points.txt
+odin_slides.egg-info/requires.txt
+odin_slides.egg-info/top_level.txt
+tests/__init__.py
+tests/test_presentation.py
+tests/test_utils.py
