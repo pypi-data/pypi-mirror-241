@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/swibin/CreateGraph.py
+src/swibin/__init__.py
+src/swibin/cli.py
+src/swibin/color.py
+src/swibin/describe_error.py
+src/swibin/get_openai_key.py
+src/swibin/version.py
+src/swibin/wrapper.py
+src/swibin.egg-info/PKG-INFO
+src/swibin.egg-info/SOURCES.txt
+src/swibin.egg-info/dependency_links.txt
+src/swibin.egg-info/entry_points.txt
+src/swibin.egg-info/requires.txt
+src/swibin.egg-info/top_level.txt
