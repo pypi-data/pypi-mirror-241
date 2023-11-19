@@ -1,0 +1,2 @@
+[console_scripts]
+cli-requests = cli_requests.__main__:main
