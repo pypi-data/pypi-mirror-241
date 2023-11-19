@@ -1,0 +1,12 @@
+ysql/__init__.py,sha256=XOcskIenHnWs2rTpIBNyFn0fMqOfRxn5H2vwF0Siq8g,169
+ysql/dao.py,sha256=hX_V7y8zsuSHBsGvFf4dD5aKoBuvPTc0inHY2yWYyiI,8195
+ysql/database.py,sha256=O2fXZs9baCvnp1jLkvzlpZTtXP0dZAeUlR5j3yEAiCI,3571
+ysql/entity.py,sha256=3gUXR4T0o92W5b8KmcSIsihKv-2dtXw3xbJJtM3Qzx4,6462
+ysql/example_detailed.py,sha256=Alb-ARngt6OpZhzKb_Hzd_jA91kB7fBhWevVZeq7ei8,5236
+ysql/example_simple.py,sha256=aVmtO9LH7mdJITXDBZu7WL3nqSr_0_gTKNtyKXHTAH4,3269
+ysql/tool.py,sha256=_Lz45Ef7AaMEWop7osMkMJZGKPrRDh9Moe35bV3RPec,554
+ysql-1.2.0.dist-info/LICENSE.txt,sha256=sJvdIVe0GijaW0Cv9UoAQuhJ6segAa49aO9ezJM0A7w,1099
+ysql-1.2.0.dist-info/METADATA,sha256=LKN2pxkz7ujKXf4XKVVureVIpAnnRny5C-xJx1P_-no,4753
+ysql-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ysql-1.2.0.dist-info/top_level.txt,sha256=WCEHdmcxnfMMVKugOfw_T5av_xGNgs01pdWpKxfikgw,5
+ysql-1.2.0.dist-info/RECORD,,
