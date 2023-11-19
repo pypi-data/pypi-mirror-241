@@ -1,0 +1,2 @@
+[console_scripts]
+my-script = swibin.cli:main

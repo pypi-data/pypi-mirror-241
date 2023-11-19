@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/swibin/__init__.py
+src/swibin/insights.py
+src/swibin/wrapper.py
+src/swibin.egg-info/PKG-INFO
+src/swibin.egg-info/SOURCES.txt
+src/swibin.egg-info/dependency_links.txt
+src/swibin.egg-info/entry_points.txt
+src/swibin.egg-info/top_level.txt
+src/test/__init__.py
+src/test/main.py
+src/test/helpers/__init__.py
+src/test/helpers/vectormath.py
