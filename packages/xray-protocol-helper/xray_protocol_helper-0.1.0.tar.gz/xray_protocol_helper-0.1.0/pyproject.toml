@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "xray-protocol-helper"
+version = "0.1.0"
+description = "Helper function for xray protocols"
+authors = ["Reza Zeiny <zeiny.r@yaftar.ir>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://ganj-ipe.yaftar.ir/zafir/reverse_engineering/xray_protocol_helper"
+repository = "https://ganj-ipe.yaftar.ir/zafir/reverse_engineering/xray_protocol_helper"
+keywords = ["xray-protocol-helper"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

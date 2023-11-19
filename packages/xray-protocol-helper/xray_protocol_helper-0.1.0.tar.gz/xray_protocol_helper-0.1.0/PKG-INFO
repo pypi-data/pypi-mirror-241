@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xray-protocol-helper
+Version: 0.1.0
+Summary: Helper function for xray protocols
+Home-page: https://ganj-ipe.yaftar.ir/zafir/reverse_engineering/xray_protocol_helper
+License: MIT
+Keywords: xray-protocol-helper
+Author: Reza Zeiny
+Author-email: zeiny.r@yaftar.ir
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Project-URL: Repository, https://ganj-ipe.yaftar.ir/zafir/reverse_engineering/xray_protocol_helper
+Description-Content-Type: text/markdown
+
+# xray_protocol_helper
+
+
