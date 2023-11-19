@@ -1,0 +1,6 @@
+sqlalchemy_csv_writer/__init__.py,sha256=ETAnSXuGZNUXQd-fHPoBw2M1s_RTR2jsl0ETRP280Qw,63
+sqlalchemy_csv_writer/writer.py,sha256=JF4G9utKnss1HMmdayiu4yovA5FuiyUM0qiMDxx3g1c,2884
+sqlalchemy_csv_writer-0.1.0.dist-info/LICENSE,sha256=WUtNpp6T68lpIs33UARviXKV4nm0tzDdy63GkgsV2xQ,1494
+sqlalchemy_csv_writer-0.1.0.dist-info/METADATA,sha256=qugHG6pxRWfHCOjN3CIHOAllxcAwuV7AvHK7DJrsggQ,1411
+sqlalchemy_csv_writer-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sqlalchemy_csv_writer-0.1.0.dist-info/RECORD,,

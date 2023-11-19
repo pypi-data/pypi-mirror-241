@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-csv-writer
+Version: 0.1.0
+Summary: Write SQLAlchemy results to csv files
+Home-page: https://github.com/raayu83/sqlalchemy-csv-writer
+Keywords: sqlalchemy,csv
+Author: Rayuu83
+Author-email: rayuu83@spellweb.de
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: sqlalchemy (>=2.0.0)
+Project-URL: Repository, https://github.com/raayu83/sqlalchemy-csv-writer
+Description-Content-Type: text/x-rst
+
+SQLAlchemyCsvWriter
+=====================
+
+SQLAlchemyCsvWriter is a thin wrapper around the python csw.writer function to make the process of exporting 
+SQLAlchemy query results to csv simpler. 
+
+It supports both synchronous as well as asynchronous query results, as well as streaming.
+
+.. code-block:: python
+
+    from sqlalchemy_csv_writer import SQLAlcehmyCSVWriter
+
+    writer = SQLAlchemyCsvWriter(
+        stringio,
+        write_header=True,
+        field_formats=field_formats,
+        prefix_model_names=True,
+        dialect="unix",
+    )
+    writer.writerrows(results) # pass result of SQLAlchemy query
