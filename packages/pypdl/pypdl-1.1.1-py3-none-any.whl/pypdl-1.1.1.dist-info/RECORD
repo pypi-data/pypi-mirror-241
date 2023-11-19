@@ -1,0 +1,9 @@
+pypdl/__init__.py,sha256=joei-_BKWrWsKUuvUTg5HAtOE7y_4CDFSiRYoi0fSnw,30
+pypdl/main.py,sha256=cGPEKXdkrFRTWUfxCPYE0_-S7tQM72gLW0v6UnrI7as,16253
+pypdl/test.py,sha256=f975I7_A9R-XNKwOvLVpn6GtWjFHtiwQaEt0SJS8zgA,729
+pypdl/utls.py,sha256=eR0S-vzO3pIL8Qu5aklnxN-Vv0JDfAMrl6TsC7e-pyQ,8253
+pypdl-1.1.1.dist-info/LICENSE,sha256=HDr1rmmTPf9sOpDW_YA8TaiYyr_tVIFjL-3_99EG-Xo,1086
+pypdl-1.1.1.dist-info/METADATA,sha256=BD92mR1juEdo6_0txIGO9xLZjKIRErRpCBt9dcK-7yY,10122
+pypdl-1.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pypdl-1.1.1.dist-info/top_level.txt,sha256=R_ieUOK8Dpdr_uj11_bFzCn5kw8sVFz3jGxB9LBPbUw,6
+pypdl-1.1.1.dist-info/RECORD,,
