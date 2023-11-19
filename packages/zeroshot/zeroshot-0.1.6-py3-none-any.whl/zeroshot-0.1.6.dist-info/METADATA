@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: zeroshot
+Version: 0.1.6
+Summary: Image classifier with zero-shot learning.
+Home-page: https://github.com/moonshinelabs/zeroshot-python
+License: MIT
+Keywords: zeroshot,classifier,cv
+Author: Nate Harada
+Author-email: hello@usezeroshot.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mypy (>=1.6.0,<2.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: onnxruntime (>=1.16.1,<2.0.0)
+Requires-Dist: pillow (>=10.0.1,<11.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: types-pillow (>=10.0.0.3,<11.0.0.0)
+Project-URL: Repository, https://github.com/moonshinelabs/zeroshot-python
+Description-Content-Type: text/markdown
+
+# Zeroshot (Python)
+
+Image classification for the masses
+
+## Installation
+
+Install via pip: `pip install zeroshot`
+
+## Usage
+
+First, go to usezeroshot.com and create a classifier. See [here](<>) for more instructions.
+
+Then, in Python (`image` should be an RGB numpy array with channels last):
+
+```python
+import zeroshot
+
+# Create the classifier and preprocessing function.
+classifier = zeroshot.Classifier("your model string or path")
+preprocess_fn = zeroshot.create_preprocess_fn()
+
+# Run the model!
+prediction = classifier.predict(preprocess_fn(image))
+print(f"The image is class {prediction}")
+```
+
+## Read the docs
+
+See the [docs](docs/getting_started.md) folder for some details.
+
