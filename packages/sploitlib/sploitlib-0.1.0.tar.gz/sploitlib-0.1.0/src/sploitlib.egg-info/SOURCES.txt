@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/sploitlib/__init__.py
+src/sploitlib/config.py
+src/sploitlib/http.py
+src/sploitlib.egg-info/PKG-INFO
+src/sploitlib.egg-info/SOURCES.txt
+src/sploitlib.egg-info/dependency_links.txt
+src/sploitlib.egg-info/requires.txt
+src/sploitlib.egg-info/top_level.txt
