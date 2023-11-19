@@ -1,0 +1,22 @@
+# Project files and folders created by Python and other development tools
+__pycache__/
+.coverage
+.coverage_report/
+.pytest_cache/
+.tox/
+.venv*
+.venv*/
+.vscode/
+
+# Folders created by the build manager"
+dist/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# Currently opened MS Office documents (if you are using Office for
+# e.g. technical documentation):
+~$*.*
