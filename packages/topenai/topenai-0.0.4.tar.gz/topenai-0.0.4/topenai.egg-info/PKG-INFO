@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: topenai
+Version: 0.0.4
+Summary: CLI tool to chat with OpenAI GPT
+Home-page: https://github.com/vladzima/topenai
+Author: vladzima
+Author-email: v.o.arbatov@gmail.com
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# topenai
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/vladzima/topenai/master) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/vladzima/topenai/release.yml)
