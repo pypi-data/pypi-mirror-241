@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hello-func
+Version: 0.0.2
+Summary: Noway, this prints hello! OMG 360 NOSCOPE MLG
+Home-page: https://github.com/Alpha-Potat/hello
+Author: AlphaPotat
+Author-email: luchinin.n@yandex.ru
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: twine
+Requires-Dist: python-dotenv
+Requires-Dist: wheel
+
+Well, this just prints u hello
