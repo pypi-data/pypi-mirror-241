@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+FilesNFolders.egg-info/PKG-INFO
+FilesNFolders.egg-info/SOURCES.txt
+FilesNFolders.egg-info/dependency_links.txt
+FilesNFolders.egg-info/top_level.txt
