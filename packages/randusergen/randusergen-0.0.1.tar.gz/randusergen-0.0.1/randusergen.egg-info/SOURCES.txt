@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+randusergen.egg-info/PKG-INFO
+randusergen.egg-info/SOURCES.txt
+randusergen.egg-info/dependency_links.txt
+randusergen.egg-info/top_level.txt
+usergen/__init__.py
+usergen/randomuser.py
