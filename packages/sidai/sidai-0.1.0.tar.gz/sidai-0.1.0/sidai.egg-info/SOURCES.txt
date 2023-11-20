@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+sidai/__init__.py
+sidai/connect.py
+sidai.egg-info/PKG-INFO
+sidai.egg-info/SOURCES.txt
+sidai.egg-info/dependency_links.txt
+sidai.egg-info/requires.txt
+sidai.egg-info/top_level.txt

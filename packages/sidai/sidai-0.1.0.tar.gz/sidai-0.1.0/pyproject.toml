@@ -1,0 +1,11 @@
+[project]
+name = "sidai"
+version = "0.1.0"
+description = "Python wrapper for the SID API"
+authors = [{name = "Georgijs Vilums"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = [
+    "httpx>=0.25.0",  # Specify the version of httpx you depend on
+    "dataclass-wizard>=0.22.0",
+]
