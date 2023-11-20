@@ -1,0 +1,6 @@
+setup.py
+rgbcolor.egg-info/PKG-INFO
+rgbcolor.egg-info/SOURCES.txt
+rgbcolor.egg-info/dependency_links.txt
+rgbcolor.egg-info/requires.txt
+rgbcolor.egg-info/top_level.txt
