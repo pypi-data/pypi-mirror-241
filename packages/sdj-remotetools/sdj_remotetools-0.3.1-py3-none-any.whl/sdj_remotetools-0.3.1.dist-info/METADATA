@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: sdj-remotetools
+Version: 0.3.1
+Summary: Collection of remote management tools through SSH
+Home-page: https://github.com/sdejongh/sdj_remotetools
+License: MIT
+Keywords: cli,ssh,cat,remote,command-line
+Author: Steve De Jongh
+Author-email: dejongh.st@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: paramiko (>=3.3.1,<4.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Project-URL: Bug Tracker, https://github.com/sdejongh/sdj_remotetools/issues
+Project-URL: Repository, https://github.com/sdejongh/sdj_remotetools
+Description-Content-Type: text/markdown
+
+![](https://img.shields.io/badge/python-3.9-blue) ![](https://img.shields.io/badge/python-3.10-blue) ![](https://img.shields.io/badge/python-3.11-blue) ![](https://img.shields.io/badge/python-3.12-blue)
+# SDJ-REMOTETOOLS
+
+## Description
+`sdj-remotetools` is a python collection of tools working through SSH.
+
+## Tools
+All tools handle SSH connection using Paramiko.
+
+### rcat
+Works like 'cat' command but for remote files through SSH and with few enhancements
+```
+usage: rcat [-h] [-p] [-e ENCODING] [-b] [-s] remote_files [remote_files ...]
+
+Works like 'cat' but through SSH.
+
+positional arguments:
+  remote_files          SSH path to the remote files, space separate, ie: joe@remote.host:/path/to/file
+
+options:
+  -h, --help            show this help message and exit
+  -p, --password        Ask user for password
+  -e ENCODING, --encoding ENCODING
+                        Character encoding, ie: utf-8 (default)
+  -b, --border          Draw border around the content
+  -s, --syntax_highlight
+                        Enable console syntax highlighting
+```
+

@@ -1,0 +1,3 @@
+[console_scripts]
+rcat=sdj_remotetools.main:rcat
+
