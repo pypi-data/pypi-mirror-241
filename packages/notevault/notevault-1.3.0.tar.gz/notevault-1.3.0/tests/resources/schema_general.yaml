@@ -1,0 +1,28 @@
+Model:
+  General:
+    start:
+      type: time
+      nullable: true
+    end:
+      type: time
+      nullable: true
+    breaks:
+      type: timedelta
+      nullable: true
+    timestamp:
+      type: datetime
+      nullable: true
+    date:
+      type: date
+      nullable: true
+
+DocumentStructure:
+  Sections:
+    - section:
+        heading: "# General"
+        type: General
+        is_list: false
+
+Config:
+  database: test_daily.db
+  template: tests/resources/daily_general.md

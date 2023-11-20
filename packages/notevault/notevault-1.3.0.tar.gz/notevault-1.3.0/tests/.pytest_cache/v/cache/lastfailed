@@ -1,0 +1,13 @@
+{
+  "test_parser.py::TestCreate::test_create[path/to/file1.md-headings0-Props-expected_sections0-expected_props0]": true,
+  "test_parser.py::TestCreate::test_create[path/to/file2.md-headings1-Props-expected_sections1-expected_props1]": true,
+  "test_db.py::test_map_types_to_sqlite_with_incorrect_input": true,
+  "vim_/test_vimania_manager.py::TestVimaniaUriManager::test_get_url_title": true,
+  "vim_/test_vimania_manager.py::test_split_path[/home/user/bla-/home/user/bla-]": true,
+  "vim_/test_vimania_manager.py::test_split_path[/home/user/bla#foo-/home/user/bla-foo]": true,
+  "vim_/test_vimania_manager.py::test_split_path[/home/user/bla.md#foo-/home/user/bla.md-#foo]": true,
+  "vim_/test_vimania_manager.py::test_split_path[/home/user/bla.md#foo##blub-/home/user/bla.md-#foo##blub]": true,
+  "vim_/test_vimania_manager.py::test_split_path[/home/user/bla.md#foo##blub blank-/home/user/bla.md-#foo##blub blank]": true,
+  "test_helper.py::test_unslugify_header[hhh_ont_two-headings1-### one Two]": true,
+  "test_app.py::test_hello": true
+}

@@ -1,0 +1,69 @@
+Model:
+  General:
+    start:
+      type: time
+      nullable: true
+    end:
+      type: time
+      nullable: true
+    breaks:
+      type: timedelta
+      nullable: true
+    timestamp:
+      type: datetime
+      nullable: true
+    date:
+      type: date
+      nullable: true
+  Meeting:
+    name:
+      type: string
+    start:
+      type: time
+    duration:
+      type: timedelta
+      nullable: true
+    minutes:
+      type: string
+      nullable: true
+    participants:
+      type: array
+      items:
+        type: string
+      nullable: true
+  List:
+    start:
+      type: time
+      nullable: true
+    duration:
+      type: int
+      nullable: false
+    breaks:
+      type: timedelta
+      nullable: true
+    data:
+      type: string
+      nullable: true
+
+
+DocumentStructure:
+  Sections:
+    - section:
+        heading: "# General"
+        type: General
+        is_list: false
+    - section:
+        heading: "# Meetings"
+        type: Meeting
+        is_list: true
+        list_specifier: heading
+        heading_field: name
+    - section:
+        heading: "# List"
+        type: List
+        is_list: true
+        list_specifier: list
+
+Config:
+  database: test_daily.db
+  template: tests/resources/daily.md
