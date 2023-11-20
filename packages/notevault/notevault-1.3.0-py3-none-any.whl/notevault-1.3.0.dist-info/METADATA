@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: notevault
+Version: 1.3.0
+Summary: save parsed markdown into sqlite db
+Author-Email: sysid <sysid@gmx.de>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: sqlite-utils>=3.35.1
+Requires-Dist: markdown>=3.5.1
+Requires-Dist: bs4>=0.0.1
+Requires-Dist: pydantic>=2.4.2
+Requires-Dist: dateparser>=1.1.8
+Requires-Dist: sqlalchemy>=2.0.23
+Requires-Dist: alembic>=1.12.1
+Requires-Dist: typer>=0.9.0
+Requires-Dist: pydantic-settings>=2.0.3
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: parsy>=2.1
+Description-Content-Type: text/markdown
+
+# NoteVault
+
+Define a schema over markdown documents and store certain sections as columsn in sqlite database.
+
+Every list item must have a `name` as unique key. For non-list items the key is the heading.
+
+## Format
+Sections are defined by headings.
+key-value pairs are extracted into fields, e.g. `key: value`
+Fields (extraction units) correspond to "Tags", e.g. `li, h2`
+because it can contain other tags and newlines.
+field values with commas must be quoted: `participants: '@user1, @user2'`
+
+### Single Item:
+- spec: `is_list: false`
+- markdown lists as fields: `- key: value`
+
+### Multiple Items:
+- spec: `is_list: true`
+
+#### sub-headings
+- spec: `is_list: true` + `heading_field: name` (must specify the field which will hold the sub-heading in the schema)
+- substructure: format: `## Title x`
+can contain:
+- markdown lists as fields: `- key: value`
+- sub-headings as simple content fields
+
+#### markdown lists
+- substructure: format: `- key: value, key: value, key: "complex, value"`
+
+
+# TODO
+- define sections via headings
+- parse every section into one model generically (look for props, try to avoid document hierarchy)
