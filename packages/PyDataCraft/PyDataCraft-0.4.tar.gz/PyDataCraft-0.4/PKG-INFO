@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: PyDataCraft
+Version: 0.4
+Summary: Python package to manipulate/convert/view different scientific data format.
+Home-page: https://github.com/carmelosammarco/PyDataCraft
+Author: Carmelo Sammarco
+Author-email: sammarcocarmelo@gmail.com
+License: gpl-3.0
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gpxpy>=1.4.0
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: folium>=0.12.1
+Requires-Dist: Flask>=2.0.1
+Requires-Dist: Pillow>=8.2.0
+Requires-Dist: simplekml>=1.3.5
+Requires-Dist: tkmacosx>=1.0.3
+Requires-Dist: pyshp>=2.1.3
+Requires-Dist: matplotlib>=3.4.2
+Requires-Dist: pyogrio
+Requires-Dist: csv342
+Requires-Dist: cdo
+
+# PyDataCraft 
+
+<p align="center">
+  <img width="" height="200" src=''>
+</p>
+
+Python application to manipulate, convert & view different and different Scientific data.
+
+**Inside the project folder (PyDataCraft)/DATA you can find a "test_data" repository with inside files to test the applicative.**
+
+## Installation
+
+- **The best way** is to install the entire environment manually (which I called "myenv" in the example below). To do so please to run the code in the following order:
+
+  ```
+  conda create --name myenv (consider to use python>=3.8)
+  ```
+
+  Activate the environmet created above with:
+
+  ```
+  conda activate myenv
+  ```
+
+  Now time to install all the dependencies needed by following the order of the commands below:
+
+  ```
+  sudo apy get install gmt
+  sudo apt get install cdo
+  conda install -c conda-forge gmt geopandas 
+  pip install PyDataCraft
+
+  ```
+
+**No matter which path you followed, now you have all the packages needed instaled in your envirnment and the GPSconverter Application installed too!** 
+
+**To run the application just type on your terminal/command-propt the following:**
+
+```
+PyDataCraft
+```
+
+At this point a GUI interface will pop up and you are ready to go!
+
+<p align="center">
+  <img width="" height="600" src="">
+</p>
+
+Enjoy! :)

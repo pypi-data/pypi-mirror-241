@@ -1,0 +1,12 @@
+README.md
+setup.py
+PyDataCraft/__init__.py
+PyDataCraft/__main__.py
+PyDataCraft.egg-info/PKG-INFO
+PyDataCraft.egg-info/SOURCES.txt
+PyDataCraft.egg-info/dependency_links.txt
+PyDataCraft.egg-info/entry_points.txt
+PyDataCraft.egg-info/not-zip-safe
+PyDataCraft.egg-info/requires.txt
+PyDataCraft.egg-info/top_level.txt
+PyDataCraft/DATA/LOGO.gif
