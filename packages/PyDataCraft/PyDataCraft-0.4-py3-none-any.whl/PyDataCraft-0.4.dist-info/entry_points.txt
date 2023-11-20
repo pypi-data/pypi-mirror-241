@@ -1,0 +1,2 @@
+[console_scripts]
+PyDataCraft = PyDataCraft.__main__:main
